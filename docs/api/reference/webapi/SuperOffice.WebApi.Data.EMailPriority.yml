@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailPriority
+  commentId: T:SuperOffice.WebApi.Data.EMailPriority
+  id: EMailPriority
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailPriority.High
+  - SuperOffice.WebApi.Data.EMailPriority.Highest
+  - SuperOffice.WebApi.Data.EMailPriority.Low
+  - SuperOffice.WebApi.Data.EMailPriority.Lowest
+  - SuperOffice.WebApi.Data.EMailPriority.NoPriority
+  - SuperOffice.WebApi.Data.EMailPriority.Normal
+  - SuperOffice.WebApi.Data.EMailPriority.value__
+  langs:
+  - csharp
+  - vb
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.WebApi.Data.EMailPriority
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\nThis Enum is used by:  email_item.priority\n"
+  syntax:
+    content: 'public sealed class EMailPriority : Enum'
+    content.vb: >-
+      Public NotInheritable Class EMailPriority
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailPriority.value__
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EMailPriority.value__
+  fullName: SuperOffice.WebApi.Data.EMailPriority.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailPriority.NoPriority
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.NoPriority
+  id: NoPriority
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: NoPriority
+  nameWithType: EMailPriority.NoPriority
+  fullName: SuperOffice.WebApi.Data.EMailPriority.NoPriority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const EMailPriority NoPriority
+    return:
+      type: SuperOffice.WebApi.Data.EMailPriority
+    content.vb: Public Const NoPriority As EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailPriority.Highest
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.Highest
+  id: Highest
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Highest
+  nameWithType: EMailPriority.Highest
+  fullName: SuperOffice.WebApi.Data.EMailPriority.Highest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const EMailPriority Highest
+    return:
+      type: SuperOffice.WebApi.Data.EMailPriority
+    content.vb: Public Const Highest As EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailPriority.High
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.High
+  id: High
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: EMailPriority.High
+  fullName: SuperOffice.WebApi.Data.EMailPriority.High
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const EMailPriority High
+    return:
+      type: SuperOffice.WebApi.Data.EMailPriority
+    content.vb: Public Const High As EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailPriority.Normal
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.Normal
+  id: Normal
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: EMailPriority.Normal
+  fullName: SuperOffice.WebApi.Data.EMailPriority.Normal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const EMailPriority Normal
+    return:
+      type: SuperOffice.WebApi.Data.EMailPriority
+    content.vb: Public Const Normal As EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailPriority.Low
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.Low
+  id: Low
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: EMailPriority.Low
+  fullName: SuperOffice.WebApi.Data.EMailPriority.Low
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: \n"
+  syntax:
+    content: public const EMailPriority Low
+    return:
+      type: SuperOffice.WebApi.Data.EMailPriority
+    content.vb: Public Const Low As EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailPriority.Lowest
+  commentId: F:SuperOffice.WebApi.Data.EMailPriority.Lowest
+  id: Lowest
+  parent: SuperOffice.WebApi.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Lowest
+  nameWithType: EMailPriority.Lowest
+  fullName: SuperOffice.WebApi.Data.EMailPriority.Lowest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: \n"
+  syntax:
+    content: public const EMailPriority Lowest
+    return:
+      type: SuperOffice.WebApi.Data.EMailPriority
+    content.vb: Public Const Lowest As EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.EMailPriority
+  commentId: T:SuperOffice.WebApi.Data.EMailPriority
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.WebApi.Data.EMailPriority

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest
+  id: Chat_GetChatTranscriptRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId
+  - SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetChatTranscriptRequest
+  nameWithType: Chat_GetChatTranscriptRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_GetChatTranscriptRequest : Object'
+    content.vb: >-
+      Public Class Chat_GetChatTranscriptRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetChatTranscriptRequest()
+  nameWithType: Chat_GetChatTranscriptRequest.Chat_GetChatTranscriptRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Chat_GetChatTranscriptRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_GetChatTranscriptRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: Chat_GetChatTranscriptRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html
+  id: Html
+  parent: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: Chat_GetChatTranscriptRequest.Html
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Html { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Html As Boolean
+  overload: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.#ctor
+  isExternal: true
+  name: Chat_GetChatTranscriptRequest
+  nameWithType: Chat_GetChatTranscriptRequest.Chat_GetChatTranscriptRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Chat_GetChatTranscriptRequest
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: Chat_GetChatTranscriptRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html
+  isExternal: true
+  name: Html
+  nameWithType: Chat_GetChatTranscriptRequest.Html
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTranscriptRequest.Html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,10 @@
+digraph ms_trashbin  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ms_trashbin[fillcolor = "cadetblue1"]
+ms_filter[fillcolor = "azure1"]
+mail_in_filter[fillcolor = "azure1"]
+ms_trashbin -> ms_filter [headlabel = "mail_sorter_id"]
+ms_trashbin -> mail_in_filter [headlabel = "mail_in_filter_id"]
+}

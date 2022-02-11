@@ -1,0 +1,4013 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.PhysicalDocument
+  commentId: T:SuperOffice.CRM.Documents.PhysicalDocument
+  id: PhysicalDocument
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider
+  - SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename(System.String,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.BeginRead
+  - SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite
+  - SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument(System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument(System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate(System.Int32,System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef(SuperOffice.CRM.IDocumentInfo@,System.String@,System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],SuperOffice.IO.TagContainer,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream(System.Int32,System.String,SuperOffice.IO.TagContainer)
+  - SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.DocumentId
+  - SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo
+  - SuperOffice.CRM.Documents.PhysicalDocument.EndRead
+  - SuperOffice.CRM.Documents.PhysicalDocument.EndWrite
+  - SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand(System.String,System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.Exists
+  - SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties(System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties(System.Int32,System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl(System.Int32,System.Boolean,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates(System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetLength(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin(System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities(System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension(System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  - SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList
+  - SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.Length
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32,System.String,System.String@)
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData
+  - SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument(System.String)
+  - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(System.String[],System.IO.Stream)
+  - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,SuperOffice.CRM.IDocumentTemplateInfo)
+  - SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename
+  - SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument(System.String[])
+  - SuperOffice.CRM.Documents.PhysicalDocument.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: PhysicalDocument
+  nameWithType: PhysicalDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nFacade for the Document Plugin system, and one-stop-shop for physical-document operations\n"
+  remarks: "\nAn instance of this class represents a physical document in a document archive, and can be\nused to manipulate (Load, Save) that document and its metadata. Instances are constructed\nusing a static factory function, always based on an already existing information in the \ndatabase.\n<p></p>\nStatic methods also provide access to document template functions and other \nnon-document specific functions.\n"
+  syntax:
+    content: 'public sealed class PhysicalDocument : IStreamProvider'
+    content.vb: >-
+      Public NotInheritable Class PhysicalDocument
+          Implements IStreamProvider
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.IO.IStreamProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Documents.PhysicalDocument.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.PhysicalDocument.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(System.Int32)
+  id: GetDocument(System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocument(Int32)
+  nameWithType: PhysicalDocument.GetDocument(Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static PhysicalDocument GetDocument(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Documents.PhysicalDocument
+    content.vb: Public Shared Function GetDocument(documentId As Integer) As PhysicalDocument
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(SuperOffice.CRM.IDocumentInfo)
+  id: GetDocument(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocument(IDocumentInfo)
+  nameWithType: PhysicalDocument.GetDocument(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static PhysicalDocument GetDocument(IDocumentInfo incomingInfo)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    return:
+      type: SuperOffice.CRM.Documents.PhysicalDocument
+    content.vb: Public Shared Function GetDocument(incomingInfo As IDocumentInfo) As PhysicalDocument
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  id: CreateNewEmpty(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEmpty(IDocumentInfo, ref String, String[], String, String[])
+  nameWithType: PhysicalDocument.CreateNewEmpty(IDocumentInfo, ref String, String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty(SuperOffice.CRM.IDocumentInfo, ref System.String, System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static string CreateNewEmpty(IDocumentInfo incomingInfo, ref string fileName, string[] extraFields, string versionDecription, string[] versionExtraFields)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: fileName
+      type: System.String
+    - id: extraFields
+      type: System.String[]
+    - id: versionDecription
+      type: System.String
+    - id: versionExtraFields
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateNewEmpty(incomingInfo As IDocumentInfo, ByRef fileName As String, extraFields As String(), versionDecription As String, versionExtraFields As String()) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty*
+  nameWithType.vb: PhysicalDocument.CreateNewEmpty(IDocumentInfo, ByRef String, String(), String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty(SuperOffice.CRM.IDocumentInfo, ByRef System.String, System.String(), System.String, System.String())
+  name.vb: CreateNewEmpty(IDocumentInfo, ByRef String, String(), String, String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef(SuperOffice.CRM.IDocumentInfo@,System.String@,System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef(SuperOffice.CRM.IDocumentInfo@,System.String@,System.String[],System.String,System.String[])
+  id: CreateNewEmptyByRef(SuperOffice.CRM.IDocumentInfo@,System.String@,System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEmptyByRef(ref IDocumentInfo, ref String, String[], String, String[])
+  nameWithType: PhysicalDocument.CreateNewEmptyByRef(ref IDocumentInfo, ref String, String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef(ref SuperOffice.CRM.IDocumentInfo, ref System.String, System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static string CreateNewEmptyByRef(ref IDocumentInfo incomingInfo, ref string fileName, string[] extraFields, string versionDecription, string[] versionExtraFields)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: fileName
+      type: System.String
+    - id: extraFields
+      type: System.String[]
+    - id: versionDecription
+      type: System.String
+    - id: versionExtraFields
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateNewEmptyByRef(ByRef incomingInfo As IDocumentInfo, ByRef fileName As String, extraFields As String(), versionDecription As String, versionExtraFields As String()) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef*
+  nameWithType.vb: PhysicalDocument.CreateNewEmptyByRef(ByRef IDocumentInfo, ByRef String, String(), String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef(ByRef SuperOffice.CRM.IDocumentInfo, ByRef System.String, System.String(), System.String, System.String())
+  name.vb: CreateNewEmptyByRef(ByRef IDocumentInfo, ByRef String, String(), String, String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],System.String)
+  id: CreateNewFromTemplate(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateNewFromTemplate(IDocumentInfo, ref String, String[], String, String[], String)
+  nameWithType: PhysicalDocument.CreateNewFromTemplate(IDocumentInfo, ref String, String[], String, String[], String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate(SuperOffice.CRM.IDocumentInfo, ref System.String, System.String[], System.String, System.String[], System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate a new document in the document archive without replacing template tags\n"
+  remarks: "\nThis method will create a new physical document, using the physical template <strong>unchanged</strong>.\nNo template tag substitution will be attempted, no document conversions, nothing.\n<p></p>\nThe method is generally used for creating mailmerge template documents\n"
+  syntax:
+    content: public static string CreateNewFromTemplate(IDocumentInfo incomingInfo, ref string fileName, string[] extraFields, string versionDecription, string[] versionExtraFields, string uiCulture)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: fileName
+      type: System.String
+    - id: extraFields
+      type: System.String[]
+    - id: versionDecription
+      type: System.String
+    - id: versionExtraFields
+      type: System.String[]
+    - id: uiCulture
+      type: System.String
+    return:
+      type: System.String
+      description: Reference to the newly created document in the document archive.
+    content.vb: Public Shared Function CreateNewFromTemplate(incomingInfo As IDocumentInfo, ByRef fileName As String, extraFields As String(), versionDecription As String, versionExtraFields As String(), uiCulture As String) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate*
+  nameWithType.vb: PhysicalDocument.CreateNewFromTemplate(IDocumentInfo, ByRef String, String(), String, String(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate(SuperOffice.CRM.IDocumentInfo, ByRef System.String, System.String(), System.String, System.String(), System.String)
+  name.vb: CreateNewFromTemplate(IDocumentInfo, ByRef String, String(), String, String(), String)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],SuperOffice.IO.TagContainer,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],SuperOffice.IO.TagContainer,System.String)
+  id: CreateNewFromTemplateWithTags(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[],SuperOffice.IO.TagContainer,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateNewFromTemplateWithTags(IDocumentInfo, ref String, String[], String, String[], TagContainer, String)
+  nameWithType: PhysicalDocument.CreateNewFromTemplateWithTags(IDocumentInfo, ref String, String[], String, String[], TagContainer, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags(SuperOffice.CRM.IDocumentInfo, ref System.String, System.String[], System.String, System.String[], SuperOffice.IO.TagContainer, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate a new document in the document archive, replacing template tags\n"
+  remarks: "\nThis method will create a new physical document, using the physical template and\nreplacing all tags passed in through the TagContainer parameter.\n"
+  syntax:
+    content: public static string CreateNewFromTemplateWithTags(IDocumentInfo incomingInfo, ref string fileName, string[] extraFields, string versionDecription, string[] versionExtraFields, TagContainer templateTags, string uiCulture)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: fileName
+      type: System.String
+    - id: extraFields
+      type: System.String[]
+    - id: versionDecription
+      type: System.String
+    - id: versionExtraFields
+      type: System.String[]
+    - id: templateTags
+      type: SuperOffice.IO.TagContainer
+    - id: uiCulture
+      type: System.String
+      description: UI Language (en-US or nb-NO) - used to select appropriate doc template
+    return:
+      type: System.String
+      description: Reference to the newly created document in the document archive.
+    content.vb: Public Shared Function CreateNewFromTemplateWithTags(incomingInfo As IDocumentInfo, ByRef fileName As String, extraFields As String(), versionDecription As String, versionExtraFields As String(), templateTags As TagContainer, uiCulture As String) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags*
+  nameWithType.vb: PhysicalDocument.CreateNewFromTemplateWithTags(IDocumentInfo, ByRef String, String(), String, String(), TagContainer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags(SuperOffice.CRM.IDocumentInfo, ByRef System.String, System.String(), System.String, System.String(), SuperOffice.IO.TagContainer, System.String)
+  name.vb: CreateNewFromTemplateWithTags(IDocumentInfo, ByRef String, String(), String, String(), TagContainer, String)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename
+  id: SuggestFilename
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: SuggestFilename()
+  nameWithType: PhysicalDocument.SuggestFilename()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string SuggestFilename()
+    return:
+      type: System.String
+    content.vb: Public Function SuggestFilename As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  id: SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentFromStream(IDocumentInfo, String[], Stream)
+  nameWithType: PhysicalDocument.SaveDocumentFromStream(IDocumentInfo, String[], Stream)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo, System.String[], System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static ReturnInfo SaveDocumentFromStream(IDocumentInfo incomingInfo, string[] allowedReturnTypes, Stream content)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: allowedReturnTypes
+      type: System.String[]
+    - id: content
+      type: System.IO.Stream
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Shared Function SaveDocumentFromStream(incomingInfo As IDocumentInfo, allowedReturnTypes As String(), content As Stream) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream*
+  nameWithType.vb: PhysicalDocument.SaveDocumentFromStream(IDocumentInfo, String(), Stream)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo, System.String(), System.IO.Stream)
+  name.vb: SaveDocumentFromStream(IDocumentInfo, String(), Stream)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(System.String[],System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(System.String[],System.IO.Stream)
+  id: SaveDocumentFromStream(System.String[],System.IO.Stream)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentFromStream(String[], Stream)
+  nameWithType: PhysicalDocument.SaveDocumentFromStream(String[], Stream)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(System.String[], System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ReturnInfo SaveDocumentFromStream(string[] allowedReturnTypes, Stream content)
+    parameters:
+    - id: allowedReturnTypes
+      type: System.String[]
+    - id: content
+      type: System.IO.Stream
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Function SaveDocumentFromStream(allowedReturnTypes As String(), content As Stream) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream*
+  nameWithType.vb: PhysicalDocument.SaveDocumentFromStream(String(), Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(System.String(), System.IO.Stream)
+  name.vb: SaveDocumentFromStream(String(), Stream)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentStream(IDocumentInfo, String)
+  nameWithType: PhysicalDocument.LoadDocumentStream(IDocumentInfo, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static Stream LoadDocumentStream(IDocumentInfo incomingInfo, string versionId)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: versionId
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function LoadDocumentStream(incomingInfo As IDocumentInfo, versionId As String) As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(System.String)
+  id: LoadDocumentStream(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentStream(String)
+  nameWithType: PhysicalDocument.LoadDocumentStream(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public Stream LoadDocumentStream(string versionId)
+    parameters:
+    - id: versionId
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Function LoadDocumentStream(versionId As String) As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
+  id: LoadDocumentStream
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentStream()
+  nameWithType: PhysicalDocument.LoadDocumentStream()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public Stream LoadDocumentStream()
+    return:
+      type: System.IO.Stream
+    content.vb: Public Function LoadDocumentStream As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  id: GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateLanguages(IDocumentTemplateInfo)
+  nameWithType: PhysicalDocument.GetTemplateLanguages(IDocumentTemplateInfo)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static string[] GetTemplateLanguages(IDocumentTemplateInfo templateInfo)
+    parameters:
+    - id: templateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetTemplateLanguages(templateInfo As IDocumentTemplateInfo) As String()
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  id: GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl(IDocumentInfo, String, Boolean)
+  nameWithType: PhysicalDocument.GetDocumentUrl(IDocumentInfo, String, Boolean)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static string GetDocumentUrl(IDocumentInfo incomingInfo, string versionId, bool writeableUrl)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: versionId
+      type: System.String
+    - id: writeableUrl
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDocumentUrl(incomingInfo As IDocumentInfo, versionId As String, writeableUrl As Boolean) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
+  id: GetDocumentUrl(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl(String, Boolean)
+  nameWithType: PhysicalDocument.GetDocumentUrl(String, Boolean)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string GetDocumentUrl(string versionId, bool writeableUrl)
+    parameters:
+    - id: versionId
+      type: System.String
+    - id: writeableUrl
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetDocumentUrl(versionId As String, writeableUrl As Boolean) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+  id: GetDocumentUrl
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl()
+  nameWithType: PhysicalDocument.GetDocumentUrl()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string GetDocumentUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetDocumentUrl As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String[])
+  id: DeleteDocument(System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocument(String[])
+  nameWithType: PhysicalDocument.DeleteDocument(String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ReturnInfo DeleteDocument(params string[] allowedReturnTypes)
+    parameters:
+    - id: allowedReturnTypes
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Function DeleteDocument(ParamArray allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument*
+  nameWithType.vb: PhysicalDocument.DeleteDocument(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String())
+  name.vb: DeleteDocument(String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument(System.String)
+  id: RenameDocument(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: RenameDocument(String)
+  nameWithType: PhysicalDocument.RenameDocument(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string RenameDocument(string suggestedNewName)
+    parameters:
+    - id: suggestedNewName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function RenameDocument(suggestedNewName As String) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath(System.String)
+  id: GetDocumentIdFromPath(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentIdFromPath(String)
+  nameWithType: PhysicalDocument.GetDocumentIdFromPath(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static int GetDocumentIdFromPath(string documentNameAndPath)
+    parameters:
+    - id: documentNameAndPath
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetDocumentIdFromPath(documentNameAndPath As String) As Integer
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities(System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities(System.Int32)
+  id: GetPluginCapabilities(System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetPluginCapabilities(Int32)
+  nameWithType: PhysicalDocument.GetPluginCapabilities(Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static Dictionary<string, string> GetPluginCapabilities(int pluginId)
+    parameters:
+    - id: pluginId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Function GetPluginCapabilities(pluginId As Integer) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32,System.String)
+  id: LoadDocumentTemplateStream(System.Int32,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentTemplateStream(Int32, String)
+  nameWithType: PhysicalDocument.LoadDocumentTemplateStream(Int32, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet data stream for document template\n"
+  syntax:
+    content: public static Stream LoadDocumentTemplateStream(int documentTemplateId, string uiCulture)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+      description: Identity of document template
+    - id: uiCulture
+      type: System.String
+    return:
+      type: System.IO.Stream
+      description: Opens stream with data for document template
+    content.vb: Public Shared Function LoadDocumentTemplateStream(documentTemplateId As Integer, uiCulture As String) As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.String,System.Boolean,System.String)
+  id: LoadDocumentTemplateStream(System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentTemplateStream(String, Boolean, String)
+  nameWithType: PhysicalDocument.LoadDocumentTemplateStream(String, Boolean, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRetrieve data stream for a document template based on an identifier(Ex: the filename).\nAll available document plugins are searched.  The first available template is returned.\n"
+  syntax:
+    content: public static Stream LoadDocumentTemplateStream(string templateIdentifier, bool allowPersonalTemplate, string uiCulture)
+    parameters:
+    - id: templateIdentifier
+      type: System.String
+      description: 'Identifier for a template. Ex: &quot;myTemplate.txt&quot;'
+    - id: allowPersonalTemplate
+      type: System.Boolean
+      description: Should we search for personal templates before central
+    - id: uiCulture
+      type: System.String
+    return:
+      type: System.IO.Stream
+      description: Data stream for template or null if not found
+    content.vb: Public Shared Function LoadDocumentTemplateStream(templateIdentifier As String, allowPersonalTemplate As Boolean, uiCulture As String) As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32,System.String,System.String@)
+  id: LoadDocumentTemplateStream(System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentTemplateStream(Int32, String, out String)
+  nameWithType: PhysicalDocument.LoadDocumentTemplateStream(Int32, String, out String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet data stream for document template\n"
+  syntax:
+    content: public static Stream LoadDocumentTemplateStream(int documentTemplateId, string uiCulture, out string templateExtension)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+      description: Identity of document template
+    - id: uiCulture
+      type: System.String
+    - id: templateExtension
+      type: System.String
+    return:
+      type: System.IO.Stream
+      description: Opens stream with data for document template
+    content.vb: Public Shared Function LoadDocumentTemplateStream(documentTemplateId As Integer, uiCulture As String, ByRef templateExtension As String) As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream*
+  nameWithType.vb: PhysicalDocument.LoadDocumentTemplateStream(Int32, String, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.Int32, System.String, ByRef System.String)
+  name.vb: LoadDocumentTemplateStream(Int32, String, ByRef String)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream(System.Int32,System.String,SuperOffice.IO.TagContainer)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream(System.Int32,System.String,SuperOffice.IO.TagContainer)
+  id: CreateNewFromTemplateWithTagsAsStream(System.Int32,System.String,SuperOffice.IO.TagContainer)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateNewFromTemplateWithTagsAsStream(Int32, String, TagContainer)
+  nameWithType: PhysicalDocument.CreateNewFromTemplateWithTagsAsStream(Int32, String, TagContainer)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream(System.Int32, System.String, SuperOffice.IO.TagContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static Stream CreateNewFromTemplateWithTagsAsStream(int templateId, string uiCulture, TagContainer templateTags)
+    parameters:
+    - id: templateId
+      type: System.Int32
+    - id: uiCulture
+      type: System.String
+    - id: templateTags
+      type: SuperOffice.IO.TagContainer
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function CreateNewFromTemplateWithTagsAsStream(templateId As Integer, uiCulture As String, templateTags As TagContainer) As Stream
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
+  id: MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: MailMergeDocumentToFile(Int32, Int32, Int32)
+  nameWithType: PhysicalDocument.MailMergeDocumentToFile(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nPerform a document MailMerge: A merge-with-tags, using a document (not template!) as a source, and writing the output to a temp file\n"
+  syntax:
+    content: public string MailMergeDocumentToFile(int contactId, int personId, int selectionId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Recipient contact id
+    - id: personId
+      type: System.Int32
+      description: Recipient person id
+    - id: selectionId
+      type: System.Int32
+      description: Current selection id (cannot be deduced from document, or other known parameters)
+    return:
+      type: System.String
+      description: Full path of temp file that contains the result; the caller is responsible for deleting this file
+    content.vb: Public Function MailMergeDocumentToFile(contactId As Integer, personId As Integer, selectionId As Integer) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
+  id: SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentTemplateStream(Int32, Stream, String, Int32)
+  nameWithType: PhysicalDocument.SaveDocumentTemplateStream(Int32, Stream, String, Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32, System.IO.Stream, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate or update the document template contents. Usually used when uploading a file to a new document template.\n"
+  syntax:
+    content: public static TemplateInfo SaveDocumentTemplateStream(int documentTemplateId, Stream content, string uiCulture, int pluginId)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+      description: 'Document template record id the database. '
+    - id: content
+      type: System.IO.Stream
+      description: Stream containing file content
+    - id: uiCulture
+      type: System.String
+      description: Language variation on the template. May be ignored by the plugin, or used to keep language specific versions of the template.
+    - id: pluginId
+      type: System.Int32
+      description: If negative, use the plugin specified in the document template&apos;s load-from-plugin-id field
+    return:
+      type: SuperOffice.CRM.Documents.TemplateInfo
+      description: Template information with ExtRef/Filename and MimeType filled in. These values are saved in the DocTmpl record.
+    content.vb: Public Shared Function SaveDocumentTemplateStream(documentTemplateId As Integer, content As Stream, uiCulture As String, pluginId As Integer) As TemplateInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension(System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension(System.Int32)
+  id: GetTemplateExtension(System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateExtension(Int32)
+  nameWithType: PhysicalDocument.GetTemplateExtension(Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the &quot;extension&quot; for the template, i.e., what the file extension would have been - to \nhelp identify the stream content format.\n"
+  remarks: "\nTemplate documents are generally created in text editors and stored as files of some kind. The\nfile extension indicates the kind of document - doc, docx, xls, txt, and so on. While the template\nmay be stored inside the document repository as any kind of data byte collection, a concept\nakin to the file extension is still needed to help identify the document format, ahead of actually\nreading the template content.\n"
+  syntax:
+    content: public static string GetTemplateExtension(int documentTemplateId)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+      description: Document template primary key id
+    return:
+      type: System.String
+      description: String equivalent to a file extension, for instance &quot;.docx&quot;
+    content.vb: Public Shared Function GetTemplateExtension(documentTemplateId As Integer) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId(System.String)
+  id: GetTemplateId(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateId(String)
+  nameWithType: PhysicalDocument.GetTemplateId(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static int GetTemplateId(string templateName)
+    parameters:
+    - id: templateName
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetTemplateId(templateName As String) As Integer
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates(System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates(System.Int32)
+  id: GetDocumentTypesForDocumentTemplates(System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTypesForDocumentTemplates(Int32)
+  nameWithType: PhysicalDocument.GetDocumentTypesForDocumentTemplates(Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a list of supported document template types. \n"
+  syntax:
+    content: public static Dictionary<int, string> GetDocumentTypesForDocumentTemplates(int pluginId)
+    parameters:
+    - id: pluginId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.String}
+      description: An dictionary of key=display-name for supported document types for template. Empty dictionary if no document types supported.
+    content.vb: Public Shared Function GetDocumentTypesForDocumentTemplates(pluginId As Integer) As Dictionary(Of Integer, String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate(System.Int32,System.Int32)
+  id: CreateDefaultDocumentTemplate(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentTemplate(Int32, Int32)
+  nameWithType: PhysicalDocument.CreateDefaultDocumentTemplate(Int32, Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate a blank default document based on the given documentTypeId. Called when creating a new template.\n"
+  syntax:
+    content: public static string CreateDefaultDocumentTemplate(int documentTypeKey, int documentTemplateId)
+    parameters:
+    - id: documentTypeKey
+      type: System.Int32
+      description: Id for a document type. Ignored if document plugin does not use document types.
+    - id: documentTemplateId
+      type: System.Int32
+      description: Document template id
+    return:
+      type: System.String
+      description: >
+        Extref/Filename for new template. This value is written to the template&apos;s Filename property in the database.
+    content.vb: Public Shared Function CreateDefaultDocumentTemplate(documentTypeKey As Integer, documentTemplateId As Integer) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties(System.Int32,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties(System.Int32,System.String[])
+  id: GetDocumentTemplateProperties(System.Int32,System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateProperties(Int32, String[])
+  nameWithType: PhysicalDocument.GetDocumentTemplateProperties(Int32, String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties(System.Int32, System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static Dictionary<string, string> GetDocumentTemplateProperties(int documentTemplateId, params string[] requestedProperties)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+    - id: requestedProperties
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Function GetDocumentTemplateProperties(documentTemplateId As Integer, ParamArray requestedProperties As String()) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties*
+  nameWithType.vb: PhysicalDocument.GetDocumentTemplateProperties(Int32, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties(System.Int32, System.String())
+  name.vb: GetDocumentTemplateProperties(Int32, String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl(System.Int32,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl(System.Int32,System.Boolean,System.String)
+  id: GetDocumentTemplateUrl(System.Int32,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateUrl(Int32, Boolean, String)
+  nameWithType: PhysicalDocument.GetDocumentTemplateUrl(Int32, Boolean, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl(System.Int32, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a WebDAV-compliant URL referring to the given document template\n"
+  remarks: "\nDocument plugins may support document access via WebDAV. This call is used to retrieve a WebDAV url that \nwill give the specified access to the document. This URL will be passed to the ultimate client \n(most probably a text editor application), and control will not return to NetServer.\n<p></p>\nThe string returned here should be a fully resolved URL that can be given directly to the editor application.\n"
+  syntax:
+    content: public static string GetDocumentTemplateUrl(int documentTemplateId, bool writableUrl, string languageCode)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+      description: The id of the document template
+    - id: writableUrl
+      type: System.Boolean
+    - id: languageCode
+      type: System.String
+      description: Language variation on the template. May be ignored by the plugin, or used to keep language specific versions of the template.
+    return:
+      type: System.String
+      description: >-
+        URL that gives access to the document. If the document plugin
+
+        does not support URL access, then a blank string should be returned.
+    content.vb: Public Shared Function GetDocumentTemplateUrl(documentTemplateId As Integer, writableUrl As Boolean, languageCode As String) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties(System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties(System.String[])
+  id: GetDocumentProperties(System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentProperties(String[])
+  nameWithType: PhysicalDocument.GetDocumentProperties(String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the values of certain properties, for a given document\n"
+  remarks: "\nEach document can have a number of properties associated with it. A set of standard properties\nis defined in the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties\" data-throw-if-not-resolved=\"false\"></xref> class. Ideally, retrieving properties should\nbe a lightweight operation.\n<p></p>\nNote that &apos;properties&apos; are a one-way mechanism where the document plugin provides information about\nthe document or certain aspects of it. This is not the same as document-specific\nmetadata, which is handled by the <xref href=\"SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>\nmethods.\n"
+  syntax:
+    content: public Dictionary<string, string> GetDocumentProperties(params string[] requestedProperties)
+    parameters:
+    - id: requestedProperties
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: >-
+        Dictionary of key=value pairs, where the key is one of the requested property strings, and the value
+
+        is the value of that property for the given document.
+    content.vb: Public Function GetDocumentProperties(ParamArray requestedProperties As String()) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties*
+  nameWithType.vb: PhysicalDocument.GetDocumentProperties(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties(System.String())
+  name.vb: GetDocumentProperties(String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String[])
+  id: GetDocumentCommands(System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentCommands(String[])
+  nameWithType: PhysicalDocument.GetDocumentCommands(String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a list of custom commands, applicable to a specific document. Note that commands related to\nstandard locking and versioning operations have their own API calls and are not &apos;custom commands&apos; in this sense.\n"
+  remarks: "\nThis API is called before a menu, task button or other GUI item that gives access to document-specific commands is shown.\nIt is used to populate the GUI with available commands for a particular document, the results are not cached by the GUI.\n<p></p>\nDepending on the return type indicated in the command, the command might be filtered by GUI. More information can\nbe found in the <xref href=\"SuperOffice.CRM.Documents.CommandInfo\" data-throw-if-not-resolved=\"false\"></xref> topic.\n"
+  syntax:
+    content: public CommandInfo[] GetDocumentCommands(params string[] allowedReturnTypes)
+    parameters:
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type.
+    return:
+      type: SuperOffice.CRM.Documents.CommandInfo[]
+      description: Array of command descriptions. If there are no custom commands available, an empty array should be returned.
+    content.vb: Public Function GetDocumentCommands(ParamArray allowedReturnTypes As String()) As CommandInfo()
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands*
+  nameWithType.vb: PhysicalDocument.GetDocumentCommands(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String())
+  name.vb: GetDocumentCommands(String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand(System.String,System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand(System.String,System.String[],System.String,System.String[])
+  id: ExecuteDocumentCommand(System.String,System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: ExecuteDocumentCommand(String, String[], String, String[])
+  nameWithType: PhysicalDocument.ExecuteDocumentCommand(String, String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand(System.String, System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nExecute a custom command on a specified document and version\n"
+  remarks: "\nThis command is called when the user chooses an action item from a dropdown/context menu. \nIt is also reflected in the DocumentAgent service interface, so that custom GUI’s and external \ncode can directly execute document plugin commands; this is useful if a plugin also has some \ncorresponding custom GUI that needs to execute commands depending on user interaction.\n<p></p>\nThe parameter <code data-dev-comment-type=\"paramref\" class=\"paramref\">allowedReturnTypes</code> can be used by clients to hint to the plugin\nwhat kind of return value processing is available. For instance, a mobile client might\nonly offer None and Message, and this information can be used by the document plugin to adapt\nthe processing of a command, if it wants to (for instance, use default values instead of\ntriggering some more advanced workflow).\n<p></p>\nThe command is obtained from the <xref href=\"SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
+  syntax:
+    content: public ReturnInfo ExecuteDocumentCommand(string versionId, string[] allowedReturnTypes, string command, params string[] additionalData)
+    parameters:
+    - id: versionId
+      type: System.String
+      description: Version identifier, blank implies &apos;latest&apos; version
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type.
+    - id: command
+      type: System.String
+      description: >-
+        Command name, taken from an earlier call to <xref href="SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref>
+
+        - or any other command name that is understood by the provider. &apos;Private&apos; commands that
+
+        are not declared in GetDocumentCommands but are known to the authors of custom GUI code
+
+        or OK.
+    - id: additionalData
+      type: System.String[]
+      description: >-
+        Array of strings containing whatever additional data the command
+
+        may need. This parameter is intended for authors of more complex custom GUI&apos;s and works as
+
+        a tunnel between the ultimate client and the document plugin. Standard GUI made by SuperOffice,
+
+        such as a context menu connected to a document item in an archive, will not populate this
+
+        member.<br />It is strongly suggested that the convention of using name=value for each string
+
+        array element be followed here.
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value object, specifying failure or success plus any optional, additional processing to be triggered
+    content.vb: Public Function ExecuteDocumentCommand(versionId As String, allowedReturnTypes As String(), command As String, ParamArray additionalData As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand*
+  nameWithType.vb: PhysicalDocument.ExecuteDocumentCommand(String, String(), String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand(System.String, System.String(), System.String, System.String())
+  name.vb: ExecuteDocumentCommand(String, String(), String, String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData
+  id: LoadMetaData
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadMetaData()
+  nameWithType: PhysicalDocument.LoadMetaData()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRetrieve metadata owned by the plugin/repository, related to one document (excluding version-dependent metadata)\n"
+  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should <strong>not</strong>\nretrieve metadata related to any particular version, only data related to the document as a whole.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call \nto this API to populate the ExtraFields property of the document entity carrier. Note, however, \nthat the carrier handed over to the client may contain other fields in addition to those \nsupplied by the document plugin, since the extrafields mechanism is generic and \nthere may be other metadata providers along the line.\n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  syntax:
+    content: public string[] LoadMetaData()
+    return:
+      type: System.String[]
+      description: >
+        Array of name=value strings, each representing one key and one value.
+    content.vb: Public Function LoadMetaData As String()
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo(System.String)
+  id: LoadVersionInfo(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: LoadVersionInfo(String)
+  nameWithType: PhysicalDocument.LoadVersionInfo(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRetrieve metadata owned by the plugin/repository, related to one particular\nversion of one document\n"
+  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should only retrieve\nmetadata related to a version.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call \nto this API to populate the VersionInfo property of the document entity carrier. \n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n<p></p>\nTo efficiently retrieve information about <strong>all</strong> versions, use the \n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method, instead of iterating\nover this method.\n"
+  syntax:
+    content: public VersionInfo LoadVersionInfo(string versionId)
+    parameters:
+    - id: versionId
+      type: System.String
+      description: Version identifier, blank implies &apos;latest&apos; version
+    return:
+      type: SuperOffice.CRM.Documents.VersionInfo
+      description: Fully populated version info structure
+    content.vb: Public Function LoadVersionInfo(versionId As String) As VersionInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String[])
+  id: SaveMetaData(System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: SaveMetaData(String[])
+  nameWithType: PhysicalDocument.SaveMetaData(String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nStore/update plugin-dependent document metadata in the repository\n"
+  remarks: "\nThis call is made when the document metadata should be stored, and is the complement of the\n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method.\nThe document plugin should extract whatever elements it \nrecognizes from the pluginData name/value dictionary. Failure to recognize an element should not cause an exception, \nas there may be other plugins along the line (not document plugins, but service-level field providers) that own the data. \nLikewise, absence of a value should be taken to imply “no change” to that value - not &quot;delete&quot;.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  syntax:
+    content: public void SaveMetaData(string[] pluginData)
+    parameters:
+    - id: pluginData
+      type: System.String[]
+      description: Name=value array containing metadata
+    content.vb: Public Sub SaveMetaData(pluginData As String())
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData*
+  nameWithType.vb: PhysicalDocument.SaveMetaData(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String())
+  name.vb: SaveMetaData(String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Exists
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.Exists
+  id: Exists
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: PhysicalDocument.Exists()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Exists()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public bool Exists()
+    return:
+      type: System.Boolean
+    content.vb: Public Function Exists As Boolean
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.Exists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetLength(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetLength(System.String)
+  id: GetLength(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetLength(String)
+  nameWithType: PhysicalDocument.GetLength(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetLength(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public long GetLength(string versionId)
+    parameters:
+    - id: versionId
+      type: System.String
+    return:
+      type: System.Int64
+    content.vb: Public Function GetLength(versionId As String) As Long
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetLength*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState
+  id: GetCheckoutState
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetCheckoutState()
+  nameWithType: PhysicalDocument.GetCheckoutState()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public CheckoutInfo GetCheckoutState()
+    return:
+      type: SuperOffice.CRM.Documents.CheckoutInfo
+    content.vb: Public Function GetCheckoutState As CheckoutInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument(System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument(System.String[])
+  id: CheckoutDocument(System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CheckoutDocument(String[])
+  nameWithType: PhysicalDocument.CheckoutDocument(String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ReturnInfo CheckoutDocument(params string[] allowedReturnTypes)
+    parameters:
+    - id: allowedReturnTypes
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Function CheckoutDocument(ParamArray allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument*
+  nameWithType.vb: PhysicalDocument.CheckoutDocument(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument(System.String())
+  name.vb: CheckoutDocument(String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument(System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument(System.String[],System.String,System.String[])
+  id: CheckinDocument(System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CheckinDocument(String[], String, String[])
+  nameWithType: PhysicalDocument.CheckinDocument(String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument(System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ReturnInfo CheckinDocument(string[] allowedReturnTypes, string versionDescription, string[] versionExtraFields)
+    parameters:
+    - id: allowedReturnTypes
+      type: System.String[]
+    - id: versionDescription
+      type: System.String
+    - id: versionExtraFields
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Function CheckinDocument(allowedReturnTypes As String(), versionDescription As String, versionExtraFields As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument*
+  nameWithType.vb: PhysicalDocument.CheckinDocument(String(), String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument(System.String(), System.String, System.String())
+  name.vb: CheckinDocument(String(), String, String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument(System.String[])
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument(System.String[])
+  id: UndoCheckoutDocument(System.String[])
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: UndoCheckoutDocument(String[])
+  nameWithType: PhysicalDocument.UndoCheckoutDocument(String[])
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ReturnInfo UndoCheckoutDocument(params string[] allowedReturnTypes)
+    parameters:
+    - id: allowedReturnTypes
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Function UndoCheckoutDocument(ParamArray allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument*
+  nameWithType.vb: PhysicalDocument.UndoCheckoutDocument(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument(System.String())
+  name.vb: UndoCheckoutDocument(String())
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList
+  id: GetVersionList
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetVersionList()
+  nameWithType: PhysicalDocument.GetVersionList()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public VersionInfo[] GetVersionList()
+    return:
+      type: SuperOffice.CRM.Documents.VersionInfo[]
+    content.vb: Public Function GetVersionList As VersionInfo()
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin(System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin(System.Int32)
+  id: GetPlugin(System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetPlugin(Int32)
+  nameWithType: PhysicalDocument.GetPlugin(Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nReturn the plugin specified by its plugin-id\n"
+  syntax:
+    content: public static IDocumentPlugin2 GetPlugin(int pluginId)
+    parameters:
+    - id: pluginId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Documents.IDocumentPlugin2
+    content.vb: Public Shared Function GetPlugin(pluginId As Integer) As IDocumentPlugin2
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite
+  id: BeginWrite
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: BeginWrite()
+  nameWithType: PhysicalDocument.BeginWrite()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void BeginWrite()
+    content.vb: Public Sub BeginWrite
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite*
+  implements:
+  - SuperOffice.IO.IStreamProvider.BeginWrite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  id: Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: Write(Int64, Byte[], Int32, Int32)
+  nameWithType: PhysicalDocument.Write(Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Write(System.Int64, System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void Write(long filePosition, byte[] buffer, int bufferStartPosition, int length)
+    parameters:
+    - id: filePosition
+      type: System.Int64
+    - id: buffer
+      type: System.Byte[]
+    - id: bufferStartPosition
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    content.vb: Public Sub Write(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, length As Integer)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.Write*
+  implements:
+  - SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  nameWithType.vb: PhysicalDocument.Write(Int64, Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.Write(System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Int64, Byte(), Int32, Int32)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.EndWrite
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.EndWrite
+  id: EndWrite
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: EndWrite()
+  nameWithType: PhysicalDocument.EndWrite()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.EndWrite()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void EndWrite()
+    content.vb: Public Sub
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.EndWrite*
+  implements:
+  - SuperOffice.IO.IStreamProvider.EndWrite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.BeginRead
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.BeginRead
+  id: BeginRead
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: BeginRead()
+  nameWithType: PhysicalDocument.BeginRead()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.BeginRead()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void BeginRead()
+    content.vb: Public Sub BeginRead
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.BeginRead*
+  implements:
+  - SuperOffice.IO.IStreamProvider.BeginRead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  id: Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: Read(Int64, Byte[], Int32, Int32)
+  nameWithType: PhysicalDocument.Read(Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Read(System.Int64, System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public int Read(long filePosition, byte[] buffer, int bufferStartPosition, int length)
+    parameters:
+    - id: filePosition
+      type: System.Int64
+    - id: buffer
+      type: System.Byte[]
+    - id: bufferStartPosition
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Read(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, length As Integer) As Integer
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.Read*
+  implements:
+  - SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  nameWithType.vb: PhysicalDocument.Read(Int64, Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.PhysicalDocument.Read(System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Int64, Byte(), Int32, Int32)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.EndRead
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.EndRead
+  id: EndRead
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: EndRead()
+  nameWithType: PhysicalDocument.EndRead()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.EndRead()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void EndRead()
+    content.vb: Public Sub
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.EndRead*
+  implements:
+  - SuperOffice.IO.IStreamProvider.EndRead
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  id: CreateDefaultDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentTemplateLanguage(IDocumentTemplateInfo, String)
+  nameWithType: PhysicalDocument.CreateDefaultDocumentTemplateLanguage(IDocumentTemplateInfo, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate a new template language alternative based on the existing template\n"
+  syntax:
+    content: public static void CreateDefaultDocumentTemplateLanguage(IDocumentTemplateInfo docInfo, string languageCode)
+    parameters:
+    - id: docInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+    - id: languageCode
+      type: System.String
+    content.vb: Public Shared Sub CreateDefaultDocumentTemplateLanguage(docInfo As IDocumentTemplateInfo, languageCode As String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  id: DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocumentTemplateLanguage(IDocumentTemplateInfo, String)
+  nameWithType: PhysicalDocument.DeleteDocumentTemplateLanguage(IDocumentTemplateInfo, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDeletes the document template language. \n"
+  syntax:
+    content: public static void DeleteDocumentTemplateLanguage(IDocumentTemplateInfo templateInfo, string languageCode)
+    parameters:
+    - id: templateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: Information about the template. The fields id and external reference must be filled out
+    - id: languageCode
+      type: System.String
+      description: The language code (&apos;en-US, &apos;nb-NO&apos;, etc). Field cannot be empty.
+    content.vb: Public Shared Sub DeleteDocumentTemplateLanguage(templateInfo As IDocumentTemplateInfo, languageCode As String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,SuperOffice.CRM.IDocumentTemplateInfo)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,SuperOffice.CRM.IDocumentTemplateInfo)
+  id: SetDocumentTemplateFromDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,SuperOffice.CRM.IDocumentTemplateInfo)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: SetDocumentTemplateFromDocumentTemplate(IDocumentTemplateInfo, IDocumentTemplateInfo)
+  nameWithType: PhysicalDocument.SetDocumentTemplateFromDocumentTemplate(IDocumentTemplateInfo, IDocumentTemplateInfo)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo, SuperOffice.CRM.IDocumentTemplateInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static TemplateInfo SetDocumentTemplateFromDocumentTemplate(IDocumentTemplateInfo sourceTemplateInfo, IDocumentTemplateInfo destTemplateInfo)
+    parameters:
+    - id: sourceTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+    - id: destTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+    return:
+      type: SuperOffice.CRM.Documents.TemplateInfo
+    content.vb: Public Shared Function SetDocumentTemplateFromDocumentTemplate(sourceTemplateInfo As IDocumentTemplateInfo, destTemplateInfo As IDocumentTemplateInfo) As TemplateInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  id: CreateFilenameForNewTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: CreateFilenameForNewTemplate(IDocumentTemplateInfo, String)
+  nameWithType: PhysicalDocument.CreateFilenameForNewTemplate(IDocumentTemplateInfo, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate(SuperOffice.CRM.IDocumentTemplateInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCalculates a new name for a template based on the properties from an existing template.\nShould only be used when copying existing templates.\n"
+  syntax:
+    content: public static string CreateFilenameForNewTemplate(IDocumentTemplateInfo sourceTemplateInfo, string newTemplateName)
+    parameters:
+    - id: sourceTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+    - id: newTemplateName
+      type: System.String
+    return:
+      type: System.String
+      description: newer null
+    content.vb: Public Shared Function CreateFilenameForNewTemplate(sourceTemplateInfo As IDocumentTemplateInfo, newTemplateName As String) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
+  id: GetDefaultDocumentPluginId
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultDocumentPluginId()
+  nameWithType: PhysicalDocument.GetDefaultDocumentPluginId()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the default document plugin id\n"
+  syntax:
+    content: public static int GetDefaultDocumentPluginId()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetDefaultDocumentPluginId As Integer
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: PhysicalDocument.GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGo on travel, calling all available plugins to do so (need to implement <see cref=\"!:IDocumentPlugin3\"></see> at least)\n"
+  syntax:
+    content: public static void GoTravel(int associateId, string localArchivePath, ProgressEstimateCallback estimate, ProgressStepCallback step)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: ID of associate who is the document owner
+    - id: localArchivePath
+      type: System.String
+    - id: estimate
+      type: SuperOffice.CRM.ProgressEstimateCallback
+      description: Callback to set the expected number of items to copy, to scale the progress bar
+    - id: step
+      type: SuperOffice.CRM.ProgressStepCallback
+      description: Callback to advance the progress bar by one step
+    content.vb: Public Shared Sub GoTravel(associateId As Integer, localArchivePath As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: PhysicalDocument.HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nReturn from travel, calling all available plugins to do so (need to implement <see cref=\"!:IDocumentPlugin3\"></see> at least)\n"
+  syntax:
+    content: public static void HomeComing(int associateId, string localArchivePath, ProgressEstimateCallback estimate, ProgressStepCallback step)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: ID of associate who is the document owner
+    - id: localArchivePath
+      type: System.String
+    - id: estimate
+      type: SuperOffice.CRM.ProgressEstimateCallback
+      description: Callback to set the expected number of items to copy, to scale the progress bar
+    - id: step
+      type: SuperOffice.CRM.ProgressStepCallback
+      description: Callback to advance the progress bar by one step
+    content.vb: Public Shared Sub HomeComing(associateId As Integer, localArchivePath As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename(System.String,System.String)
+  id: AssociateRename(System.String,System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: AssociateRename(String, String)
+  nameWithType: PhysicalDocument.AssociateRename(String, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nInvokes document plugins that implements the <xref href=\"SuperOffice.Plugins.CRM.Documents.IAssociateRename\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
+  syntax:
+    content: public static void AssociateRename(string oldName, string newName)
+    parameters:
+    - id: oldName
+      type: System.String
+    - id: newName
+      type: System.String
+    content.vb: Public Shared Sub AssociateRename(oldName As String, newName As String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid(System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid(System.String)
+  id: IsNameValid(System.String)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: IsNameValid(String)
+  nameWithType: PhysicalDocument.IsNameValid(String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static bool IsNameValid(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsNameValid(name As String) As Boolean
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins
+  id: GetAllDocPlugins
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetAllDocPlugins()
+  nameWithType: PhysicalDocument.GetAllDocPlugins()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public static Dictionary<int, string> GetAllDocPlugins()
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.String}
+    content.vb: Public Shared Function GetAllDocPlugins As Dictionary(Of Integer, String)
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo
+  commentId: P:SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo
+  id: DocumentInfo
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: DocumentInfo
+  nameWithType: PhysicalDocument.DocumentInfo
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDocument Info object - created by this class from documentId if needed\n"
+  syntax:
+    content: public IDocumentInfo DocumentInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.IDocumentInfo
+    content.vb: Public ReadOnly Property DocumentInfo As IDocumentInfo
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DocumentId
+  commentId: P:SuperOffice.CRM.Documents.PhysicalDocument.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: PhysicalDocument.DocumentId
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DocumentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nID of document row this physical document is related to\n"
+  syntax:
+    content: public int DocumentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DocumentId As Integer
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
+  commentId: P:SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
+  id: ExternalReference
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: ExternalReference
+  nameWithType: PhysicalDocument.ExternalReference
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nExternal reference for this document\n"
+  syntax:
+    content: public string ExternalReference { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ExternalReference As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider
+  commentId: P:SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider
+  id: ArchiveProvider
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProvider
+  nameWithType: PhysicalDocument.ArchiveProvider
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe numeric plugin ID of the plugin responsible for this physical document\n"
+  syntax:
+    content: public int ArchiveProvider { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ArchiveProvider As Integer
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Length
+  commentId: P:SuperOffice.CRM.Documents.PhysicalDocument.Length
+  id: Length
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: PhysicalDocument.Length
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Length
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public long Length { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Length As Long
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.Length*
+  implements:
+  - SuperOffice.IO.IStreamProvider.Length
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.IStreamProvider
+  commentId: T:SuperOffice.IO.IStreamProvider
+  parent: SuperOffice.IO
+  isExternal: true
+  name: IStreamProvider
+  nameWithType: IStreamProvider
+  fullName: SuperOffice.IO.IStreamProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PhysicalDocument, To>()
+  nameWithType: EnumUtil.MapEnums<PhysicalDocument, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.PhysicalDocument, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PhysicalDocument, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.PhysicalDocument, To)()
+  name.vb: MapEnums(Of PhysicalDocument, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PhysicalDocument, To>
+    nameWithType: EnumUtil.MapEnums<PhysicalDocument, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.PhysicalDocument, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PhysicalDocument, To)
+    nameWithType: EnumUtil.MapEnums(Of PhysicalDocument, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.PhysicalDocument, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PhysicalDocument, To>()
+  nameWithType: Converters.MapEnums<PhysicalDocument, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.PhysicalDocument, To>()
+  nameWithType.vb: Converters.MapEnums(Of PhysicalDocument, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.PhysicalDocument, To)()
+  name.vb: MapEnums(Of PhysicalDocument, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PhysicalDocument, To>
+    nameWithType: Converters.MapEnums<PhysicalDocument, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.PhysicalDocument, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PhysicalDocument, To)
+    nameWithType: Converters.MapEnums(Of PhysicalDocument, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.PhysicalDocument, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocument
+  isExternal: true
+  name: GetDocument
+  nameWithType: PhysicalDocument.GetDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Documents.PhysicalDocument
+  commentId: T:SuperOffice.CRM.Documents.PhysicalDocument
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: PhysicalDocument
+  nameWithType: PhysicalDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty
+  isExternal: true
+  name: CreateNewEmpty
+  nameWithType: PhysicalDocument.CreateNewEmpty
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmpty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef
+  isExternal: true
+  name: CreateNewEmptyByRef
+  nameWithType: PhysicalDocument.CreateNewEmptyByRef
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewEmptyByRef
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate
+  isExternal: true
+  name: CreateNewFromTemplate
+  nameWithType: PhysicalDocument.CreateNewFromTemplate
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplate
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags
+  isExternal: true
+  name: CreateNewFromTemplateWithTags
+  nameWithType: PhysicalDocument.CreateNewFromTemplateWithTags
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTags
+- uid: SuperOffice.IO.TagContainer
+  commentId: T:SuperOffice.IO.TagContainer
+  parent: SuperOffice.IO
+  isExternal: true
+  name: TagContainer
+  nameWithType: TagContainer
+  fullName: SuperOffice.IO.TagContainer
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename
+  isExternal: true
+  name: SuggestFilename
+  nameWithType: PhysicalDocument.SuggestFilename
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream
+  isExternal: true
+  name: SaveDocumentFromStream
+  nameWithType: PhysicalDocument.SaveDocumentFromStream
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.CRM.ReturnInfo
+  commentId: T:SuperOffice.CRM.ReturnInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ReturnInfo
+  nameWithType: ReturnInfo
+  fullName: SuperOffice.CRM.ReturnInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
+  isExternal: true
+  name: LoadDocumentStream
+  nameWithType: PhysicalDocument.LoadDocumentStream
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages
+  isExternal: true
+  name: GetTemplateLanguages
+  nameWithType: PhysicalDocument.GetTemplateLanguages
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages
+- uid: SuperOffice.CRM.IDocumentTemplateInfo
+  commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentTemplateInfo
+  nameWithType: IDocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+  isExternal: true
+  name: GetDocumentUrl
+  nameWithType: PhysicalDocument.GetDocumentUrl
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument
+  isExternal: true
+  name: DeleteDocument
+  nameWithType: PhysicalDocument.DeleteDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument
+  isExternal: true
+  name: RenameDocument
+  nameWithType: PhysicalDocument.RenameDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath
+  isExternal: true
+  name: GetDocumentIdFromPath
+  nameWithType: PhysicalDocument.GetDocumentIdFromPath
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentIdFromPath
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities
+  isExternal: true
+  name: GetPluginCapabilities
+  nameWithType: PhysicalDocument.GetPluginCapabilities
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream
+  isExternal: true
+  name: LoadDocumentTemplateStream
+  nameWithType: PhysicalDocument.LoadDocumentTemplateStream
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream
+  isExternal: true
+  name: CreateNewFromTemplateWithTagsAsStream
+  nameWithType: PhysicalDocument.CreateNewFromTemplateWithTagsAsStream
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile
+  isExternal: true
+  name: MailMergeDocumentToFile
+  nameWithType: PhysicalDocument.MailMergeDocumentToFile
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream
+  isExternal: true
+  name: SaveDocumentTemplateStream
+  nameWithType: PhysicalDocument.SaveDocumentTemplateStream
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream
+- uid: SuperOffice.CRM.Documents.TemplateInfo
+  commentId: T:SuperOffice.CRM.Documents.TemplateInfo
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: TemplateInfo
+  nameWithType: TemplateInfo
+  fullName: SuperOffice.CRM.Documents.TemplateInfo
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension
+  isExternal: true
+  name: GetTemplateExtension
+  nameWithType: PhysicalDocument.GetTemplateExtension
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateExtension
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId
+  isExternal: true
+  name: GetTemplateId
+  nameWithType: PhysicalDocument.GetTemplateId
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates
+  isExternal: true
+  name: GetDocumentTypesForDocumentTemplates
+  nameWithType: PhysicalDocument.GetDocumentTypesForDocumentTemplates
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates
+- uid: System.Collections.Generic.Dictionary{System.Int32,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, String>
+  nameWithType: Dictionary<Int32, String>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, System.String>
+  nameWithType.vb: Dictionary(Of Int32, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, System.String)
+  name.vb: Dictionary(Of Int32, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate
+  isExternal: true
+  name: CreateDefaultDocumentTemplate
+  nameWithType: PhysicalDocument.CreateDefaultDocumentTemplate
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplate
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties
+  isExternal: true
+  name: GetDocumentTemplateProperties
+  nameWithType: PhysicalDocument.GetDocumentTemplateProperties
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateProperties
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl
+  isExternal: true
+  name: GetDocumentTemplateUrl
+  nameWithType: PhysicalDocument.GetDocumentTemplateUrl
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTemplateUrl
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties
+  isExternal: true
+  name: GetDocumentProperties
+  nameWithType: PhysicalDocument.GetDocumentProperties
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentProperties
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands
+  isExternal: true
+  name: GetDocumentCommands
+  nameWithType: PhysicalDocument.GetDocumentCommands
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands
+- uid: SuperOffice.CRM.Documents.CommandInfo[]
+  isExternal: true
+  name: CommandInfo[]
+  nameWithType: CommandInfo[]
+  fullName: SuperOffice.CRM.Documents.CommandInfo[]
+  nameWithType.vb: CommandInfo()
+  fullName.vb: SuperOffice.CRM.Documents.CommandInfo()
+  name.vb: CommandInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.CommandInfo
+    name: CommandInfo
+    nameWithType: CommandInfo
+    fullName: SuperOffice.CRM.Documents.CommandInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.CommandInfo
+    name: CommandInfo
+    nameWithType: CommandInfo
+    fullName: SuperOffice.CRM.Documents.CommandInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand
+  isExternal: true
+  name: ExecuteDocumentCommand
+  nameWithType: PhysicalDocument.ExecuteDocumentCommand
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.ExecuteDocumentCommand
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData
+  isExternal: true
+  name: LoadMetaData
+  nameWithType: PhysicalDocument.LoadMetaData
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo
+  isExternal: true
+  name: LoadVersionInfo
+  nameWithType: PhysicalDocument.LoadVersionInfo
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo
+- uid: SuperOffice.CRM.Documents.VersionInfo
+  commentId: T:SuperOffice.CRM.Documents.VersionInfo
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: VersionInfo
+  nameWithType: VersionInfo
+  fullName: SuperOffice.CRM.Documents.VersionInfo
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData
+  isExternal: true
+  name: SaveMetaData
+  nameWithType: PhysicalDocument.SaveMetaData
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Exists*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.Exists
+  isExternal: true
+  name: Exists
+  nameWithType: PhysicalDocument.Exists
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Exists
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetLength*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetLength
+  isExternal: true
+  name: GetLength
+  nameWithType: PhysicalDocument.GetLength
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetLength
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState
+  isExternal: true
+  name: GetCheckoutState
+  nameWithType: PhysicalDocument.GetCheckoutState
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetCheckoutState
+- uid: SuperOffice.CRM.Documents.CheckoutInfo
+  commentId: T:SuperOffice.CRM.Documents.CheckoutInfo
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: CheckoutInfo
+  nameWithType: CheckoutInfo
+  fullName: SuperOffice.CRM.Documents.CheckoutInfo
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument
+  isExternal: true
+  name: CheckoutDocument
+  nameWithType: PhysicalDocument.CheckoutDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CheckoutDocument
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument
+  isExternal: true
+  name: CheckinDocument
+  nameWithType: PhysicalDocument.CheckinDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CheckinDocument
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument
+  isExternal: true
+  name: UndoCheckoutDocument
+  nameWithType: PhysicalDocument.UndoCheckoutDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.UndoCheckoutDocument
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList
+  isExternal: true
+  name: GetVersionList
+  nameWithType: PhysicalDocument.GetVersionList
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList
+- uid: SuperOffice.CRM.Documents.VersionInfo[]
+  isExternal: true
+  name: VersionInfo[]
+  nameWithType: VersionInfo[]
+  fullName: SuperOffice.CRM.Documents.VersionInfo[]
+  nameWithType.vb: VersionInfo()
+  fullName.vb: SuperOffice.CRM.Documents.VersionInfo()
+  name.vb: VersionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.VersionInfo
+    name: VersionInfo
+    nameWithType: VersionInfo
+    fullName: SuperOffice.CRM.Documents.VersionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.VersionInfo
+    name: VersionInfo
+    nameWithType: VersionInfo
+    fullName: SuperOffice.CRM.Documents.VersionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin
+  isExternal: true
+  name: GetPlugin
+  nameWithType: PhysicalDocument.GetPlugin
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetPlugin
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPlugin2
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: IDocumentPlugin2
+  nameWithType: IDocumentPlugin2
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite
+  isExternal: true
+  name: BeginWrite
+  nameWithType: PhysicalDocument.BeginWrite
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.BeginWrite
+- uid: SuperOffice.IO.IStreamProvider.BeginWrite
+  commentId: M:SuperOffice.IO.IStreamProvider.BeginWrite
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: BeginWrite()
+  nameWithType: IStreamProvider.BeginWrite()
+  fullName: SuperOffice.IO.IStreamProvider.BeginWrite()
+  spec.csharp:
+  - uid: SuperOffice.IO.IStreamProvider.BeginWrite
+    name: BeginWrite
+    nameWithType: IStreamProvider.BeginWrite
+    fullName: SuperOffice.IO.IStreamProvider.BeginWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IStreamProvider.BeginWrite
+    name: BeginWrite
+    nameWithType: IStreamProvider.BeginWrite
+    fullName: SuperOffice.IO.IStreamProvider.BeginWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Write*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.Write
+  isExternal: true
+  name: Write
+  nameWithType: PhysicalDocument.Write
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Write
+- uid: SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: Write(Int64, Byte[], Int32, Int32)
+  nameWithType: IStreamProvider.Write(Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.IStreamProvider.Write(System.Int64, System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: IStreamProvider.Write(Int64, Byte(), Int32, Int32)
+  fullName.vb: SuperOffice.IO.IStreamProvider.Write(System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Int64, Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: IStreamProvider.Write
+    fullName: SuperOffice.IO.IStreamProvider.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: IStreamProvider.Write
+    fullName: SuperOffice.IO.IStreamProvider.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.EndWrite*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.EndWrite
+  isExternal: true
+  name: EndWrite
+  nameWithType: PhysicalDocument.EndWrite
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.EndWrite
+- uid: SuperOffice.IO.IStreamProvider.EndWrite
+  commentId: M:SuperOffice.IO.IStreamProvider.EndWrite
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: EndWrite()
+  nameWithType: IStreamProvider.EndWrite()
+  fullName: SuperOffice.IO.IStreamProvider.EndWrite()
+  spec.csharp:
+  - uid: SuperOffice.IO.IStreamProvider.EndWrite
+    name: EndWrite
+    nameWithType: IStreamProvider.EndWrite
+    fullName: SuperOffice.IO.IStreamProvider.EndWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IStreamProvider.EndWrite
+    name: EndWrite
+    nameWithType: IStreamProvider.EndWrite
+    fullName: SuperOffice.IO.IStreamProvider.EndWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.BeginRead*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.BeginRead
+  isExternal: true
+  name: BeginRead
+  nameWithType: PhysicalDocument.BeginRead
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.BeginRead
+- uid: SuperOffice.IO.IStreamProvider.BeginRead
+  commentId: M:SuperOffice.IO.IStreamProvider.BeginRead
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: BeginRead()
+  nameWithType: IStreamProvider.BeginRead()
+  fullName: SuperOffice.IO.IStreamProvider.BeginRead()
+  spec.csharp:
+  - uid: SuperOffice.IO.IStreamProvider.BeginRead
+    name: BeginRead
+    nameWithType: IStreamProvider.BeginRead
+    fullName: SuperOffice.IO.IStreamProvider.BeginRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IStreamProvider.BeginRead
+    name: BeginRead
+    nameWithType: IStreamProvider.BeginRead
+    fullName: SuperOffice.IO.IStreamProvider.BeginRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Read*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.Read
+  isExternal: true
+  name: Read
+  nameWithType: PhysicalDocument.Read
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Read
+- uid: SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: Read(Int64, Byte[], Int32, Int32)
+  nameWithType: IStreamProvider.Read(Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.IStreamProvider.Read(System.Int64, System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: IStreamProvider.Read(Int64, Byte(), Int32, Int32)
+  fullName.vb: SuperOffice.IO.IStreamProvider.Read(System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Int64, Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: IStreamProvider.Read
+    fullName: SuperOffice.IO.IStreamProvider.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: IStreamProvider.Read
+    fullName: SuperOffice.IO.IStreamProvider.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.EndRead*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.EndRead
+  isExternal: true
+  name: EndRead
+  nameWithType: PhysicalDocument.EndRead
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.EndRead
+- uid: SuperOffice.IO.IStreamProvider.EndRead
+  commentId: M:SuperOffice.IO.IStreamProvider.EndRead
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: EndRead()
+  nameWithType: IStreamProvider.EndRead()
+  fullName: SuperOffice.IO.IStreamProvider.EndRead()
+  spec.csharp:
+  - uid: SuperOffice.IO.IStreamProvider.EndRead
+    name: EndRead
+    nameWithType: IStreamProvider.EndRead
+    fullName: SuperOffice.IO.IStreamProvider.EndRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IStreamProvider.EndRead
+    name: EndRead
+    nameWithType: IStreamProvider.EndRead
+    fullName: SuperOffice.IO.IStreamProvider.EndRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage
+  isExternal: true
+  name: CreateDefaultDocumentTemplateLanguage
+  nameWithType: PhysicalDocument.CreateDefaultDocumentTemplateLanguage
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateDefaultDocumentTemplateLanguage
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage
+  isExternal: true
+  name: DeleteDocumentTemplateLanguage
+  nameWithType: PhysicalDocument.DeleteDocumentTemplateLanguage
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocumentTemplateLanguage
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate
+  isExternal: true
+  name: SetDocumentTemplateFromDocumentTemplate
+  nameWithType: PhysicalDocument.SetDocumentTemplateFromDocumentTemplate
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate
+  isExternal: true
+  name: CreateFilenameForNewTemplate
+  nameWithType: PhysicalDocument.CreateFilenameForNewTemplate
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateFilenameForNewTemplate
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
+  isExternal: true
+  name: GetDefaultDocumentPluginId
+  nameWithType: PhysicalDocument.GetDefaultDocumentPluginId
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GoTravel
+  isExternal: true
+  name: GoTravel
+  nameWithType: PhysicalDocument.GoTravel
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.HomeComing
+  isExternal: true
+  name: HomeComing
+  nameWithType: PhysicalDocument.HomeComing
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename
+  isExternal: true
+  name: AssociateRename
+  nameWithType: PhysicalDocument.AssociateRename
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid
+  isExternal: true
+  name: IsNameValid
+  nameWithType: PhysicalDocument.IsNameValid
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins
+  isExternal: true
+  name: GetAllDocPlugins
+  nameWithType: PhysicalDocument.GetAllDocPlugins
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetAllDocPlugins
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo
+  isExternal: true
+  name: DocumentInfo
+  nameWithType: PhysicalDocument.DocumentInfo
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DocumentInfo
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: PhysicalDocument.DocumentId
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.DocumentId
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
+  isExternal: true
+  name: ExternalReference
+  nameWithType: PhysicalDocument.ExternalReference
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.ExternalReference
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider
+  isExternal: true
+  name: ArchiveProvider
+  nameWithType: PhysicalDocument.ArchiveProvider
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.ArchiveProvider
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.Length*
+  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.Length
+  isExternal: true
+  name: Length
+  nameWithType: PhysicalDocument.Length
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.Length
+- uid: SuperOffice.IO.IStreamProvider.Length
+  commentId: P:SuperOffice.IO.IStreamProvider.Length
+  parent: SuperOffice.IO.IStreamProvider
+  isExternal: true
+  name: Length
+  nameWithType: IStreamProvider.Length
+  fullName: SuperOffice.IO.IStreamProvider.Length

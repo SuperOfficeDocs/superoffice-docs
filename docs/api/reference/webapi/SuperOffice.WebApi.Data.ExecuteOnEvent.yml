@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent
+  commentId: T:SuperOffice.WebApi.Data.ExecuteOnEvent
+  id: ExecuteOnEvent
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
+  - SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
+  - SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
+  - SuperOffice.WebApi.Data.ExecuteOnEvent.Never
+  - SuperOffice.WebApi.Data.ExecuteOnEvent.value__
+  - SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnEvent
+  nameWithType: ExecuteOnEvent
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for the executeOnEvent field in table externalapplication\nThis Enum is used by:  ExtApp.executeOnEvent\n"
+  syntax:
+    content: 'public sealed class ExecuteOnEvent : Enum'
+    content.vb: >-
+      Public NotInheritable Class ExecuteOnEvent
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.value__
+  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ExecuteOnEvent.value__
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Never
+  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Never
+  id: Never
+  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: ExecuteOnEvent.Never
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Never
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: This application is never executed automatically\n"
+  syntax:
+    content: public const ExecuteOnEvent Never
+    return:
+      type: SuperOffice.WebApi.Data.ExecuteOnEvent
+    content.vb: Public Const Never As ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
+  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
+  id: Logon
+  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
+  langs:
+  - csharp
+  - vb
+  name: Logon
+  nameWithType: ExecuteOnEvent.Logon
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Execute this application during logon\n"
+  syntax:
+    content: public const ExecuteOnEvent Logon
+    return:
+      type: SuperOffice.WebApi.Data.ExecuteOnEvent
+    content.vb: Public Const Logon As ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
+  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
+  id: Logoff
+  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
+  langs:
+  - csharp
+  - vb
+  name: Logoff
+  nameWithType: ExecuteOnEvent.Logoff
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Execute this application before logoff\n"
+  syntax:
+    content: public const ExecuteOnEvent Logoff
+    return:
+      type: SuperOffice.WebApi.Data.ExecuteOnEvent
+    content.vb: Public Const Logoff As ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
+  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
+  id: LocalUpdate
+  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
+  langs:
+  - csharp
+  - vb
+  name: LocalUpdate
+  nameWithType: ExecuteOnEvent.LocalUpdate
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Execute this application before a local update (start travelling)\n"
+  syntax:
+    content: public const ExecuteOnEvent LocalUpdate
+    return:
+      type: SuperOffice.WebApi.Data.ExecuteOnEvent
+    content.vb: Public Const LocalUpdate As ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
+  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
+  id: Wait
+  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
+  langs:
+  - csharp
+  - vb
+  name: Wait
+  nameWithType: ExecuteOnEvent.Wait
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16384: When executing this application, wait for it to start\n"
+  syntax:
+    content: public const ExecuteOnEvent Wait
+    return:
+      type: SuperOffice.WebApi.Data.ExecuteOnEvent
+    content.vb: Public Const Wait As ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ExecuteOnEvent
+  commentId: T:SuperOffice.WebApi.Data.ExecuteOnEvent
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExecuteOnEvent
+  nameWithType: ExecuteOnEvent
+  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent

@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Splitter
+  id: Splitter
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos(System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos(System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos(System.Int32,System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize(System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Splitter
+  nameWithType: Splitter
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Splitter")]
+
+      public class Splitter : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Splitter")>
+
+      Public Class Splitter
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Splitter
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable(System.String)
+  id: GetSessionVariable(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: GetSessionVariable(String)
+  nameWithType: Splitter.GetSessionVariable(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSessionVariable(string sessionVar)
+    parameters:
+    - id: sessionVar
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSessionVariable(sessionVar As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable(System.String,System.String)
+  id: SetSessionVariable(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: SetSessionVariable(String, String)
+  nameWithType: Splitter.SetSessionVariable(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetSessionVariable(string sessionVar, string value)
+    parameters:
+    - id: sessionVar
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetSessionVariable(sessionVar As String, value As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize(System.Int32,System.Int32)
+  id: SetWindowSize(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: SetWindowSize(Int32, Int32)
+  nameWithType: Splitter.SetWindowSize(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetWindowSize(int height, int width)
+    parameters:
+    - id: height
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    content.vb: Public Sub SetWindowSize(height As Integer, width As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos(System.String,System.Int32)
+  id: GetHorizontalSplitterPos(System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: GetHorizontalSplitterPos(String, Int32)
+  nameWithType: Splitter.GetHorizontalSplitterPos(String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetHorizontalSplitterPos(string superStatePanelId, int clientHeight)
+    parameters:
+    - id: superStatePanelId
+      type: System.String
+    - id: clientHeight
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetHorizontalSplitterPos(superStatePanelId As String, clientHeight As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos(System.Int32,System.String)
+  id: SetHorizontalSplitterPos(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: SetHorizontalSplitterPos(Int32, String)
+  nameWithType: Splitter.SetHorizontalSplitterPos(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetHorizontalSplitterPos(int pos, string superStatePanelId)
+    parameters:
+    - id: pos
+      type: System.Int32
+    - id: superStatePanelId
+      type: System.String
+    content.vb: Public Sub SetHorizontalSplitterPos(pos As Integer, superStatePanelId As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos(System.String,System.Int32)
+  id: GetVerticalSplitterPos(System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: GetVerticalSplitterPos(String, Int32)
+  nameWithType: Splitter.GetVerticalSplitterPos(String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetVerticalSplitterPos(string superStatePanelId, int clientWidth)
+    parameters:
+    - id: superStatePanelId
+      type: System.String
+    - id: clientWidth
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetVerticalSplitterPos(superStatePanelId As String, clientWidth As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos(System.Int32,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos(System.Int32,System.String,System.Int32)
+  id: SetVerticalSplitterPos(System.Int32,System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: SetVerticalSplitterPos(Int32, String, Int32)
+  nameWithType: Splitter.SetVerticalSplitterPos(Int32, String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos(System.Int32, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetVerticalSplitterPos(int pos, string superStatePanelId, int clientWidth)
+    parameters:
+    - id: pos
+      type: System.Int32
+    - id: superStatePanelId
+      type: System.String
+    - id: clientWidth
+      type: System.Int32
+    content.vb: Public Sub SetVerticalSplitterPos(pos As Integer, superStatePanelId As String, clientWidth As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  id: SetSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: SetSplitterPos(Int32, Int32, Int32, Int32, String)
+  nameWithType: Splitter.SetSplitterPos(Int32, Int32, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos(System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetSplitterPos(int winHeight, int winWidth, int xPos, int yPos, string superStatePanelId)
+    parameters:
+    - id: winHeight
+      type: System.Int32
+    - id: winWidth
+      type: System.Int32
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: superStatePanelId
+      type: System.String
+    content.vb: Public Sub SetSplitterPos(winHeight As Integer, winWidth As Integer, xPos As Integer, yPos As Integer, superStatePanelId As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  id: UpdateSplitterPos(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: UpdateSplitterPos(Int32, Int32, Int32, Int32, String)
+  nameWithType: Splitter.UpdateSplitterPos(Int32, Int32, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos(System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int[] UpdateSplitterPos(int winHeight, int winWidth, int xPos, int yPos, string superStatePanelId)
+    parameters:
+    - id: winHeight
+      type: System.Int32
+    - id: winWidth
+      type: System.Int32
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: superStatePanelId
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Function UpdateSplitterPos(winHeight As Integer, winWidth As Integer, xPos As Integer, yPos As Integer, superStatePanelId As String) As Integer()
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Splitter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Splitter
+  langs:
+  - csharp
+  - vb
+  name: Splitter()
+  nameWithType: Splitter.Splitter()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.Splitter()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Splitter()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Splitter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable
+  isExternal: true
+  name: GetSessionVariable
+  nameWithType: Splitter.GetSessionVariable
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetSessionVariable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable
+  isExternal: true
+  name: SetSessionVariable
+  nameWithType: Splitter.SetSessionVariable
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSessionVariable
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize
+  isExternal: true
+  name: SetWindowSize
+  nameWithType: Splitter.SetWindowSize
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetWindowSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos
+  isExternal: true
+  name: GetHorizontalSplitterPos
+  nameWithType: Splitter.GetHorizontalSplitterPos
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetHorizontalSplitterPos
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos
+  isExternal: true
+  name: SetHorizontalSplitterPos
+  nameWithType: Splitter.SetHorizontalSplitterPos
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetHorizontalSplitterPos
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos
+  isExternal: true
+  name: GetVerticalSplitterPos
+  nameWithType: Splitter.GetVerticalSplitterPos
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.GetVerticalSplitterPos
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos
+  isExternal: true
+  name: SetVerticalSplitterPos
+  nameWithType: Splitter.SetVerticalSplitterPos
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetVerticalSplitterPos
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos
+  isExternal: true
+  name: SetSplitterPos
+  nameWithType: Splitter.SetSplitterPos
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.SetSplitterPos
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos
+  isExternal: true
+  name: UpdateSplitterPos
+  nameWithType: Splitter.UpdateSplitterPos
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.UpdateSplitterPos
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Splitter.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Splitter.#ctor
+  isExternal: true
+  name: Splitter
+  nameWithType: Splitter.Splitter
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Splitter.Splitter

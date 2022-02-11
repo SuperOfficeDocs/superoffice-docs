@@ -1,0 +1,864 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document
+  commentId: T:SuperOffice.WebApi.Data.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document.#ctor
+  - SuperOffice.WebApi.Data.Document.AssociateFullName
+  - SuperOffice.WebApi.Data.Document.AssociateId
+  - SuperOffice.WebApi.Data.Document.Attention
+  - SuperOffice.WebApi.Data.Document.ContactId
+  - SuperOffice.WebApi.Data.Document.ContactName
+  - SuperOffice.WebApi.Data.Document.Description
+  - SuperOffice.WebApi.Data.Document.DocumentId
+  - SuperOffice.WebApi.Data.Document.DocumentTemplate
+  - SuperOffice.WebApi.Data.Document.Header
+  - SuperOffice.WebApi.Data.Document.IsPublished
+  - SuperOffice.WebApi.Data.Document.Name
+  - SuperOffice.WebApi.Data.Document.OurRef
+  - SuperOffice.WebApi.Data.Document.PersonFullName
+  - SuperOffice.WebApi.Data.Document.PersonId
+  - SuperOffice.WebApi.Data.Document.ProjectId
+  - SuperOffice.WebApi.Data.Document.ProjectName
+  - SuperOffice.WebApi.Data.Document.Snum
+  - SuperOffice.WebApi.Data.Document.YourRef
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: Document
+  fullName: SuperOffice.WebApi.Data.Document
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Document.\n\n"
+  example:
+  - "\nGet Document 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new DocumentAgent(configuration);\nvar document = agent.GetDocument( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Document : Carrier'
+    content.vb: >-
+      Public Class Document
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: Document()
+  nameWithType: Document.Document()
+  fullName: SuperOffice.WebApi.Data.Document.Document()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Document()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.Attention
+  commentId: P:SuperOffice.WebApi.Data.Document.Attention
+  id: Attention
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: Attention
+  nameWithType: Document.Attention
+  fullName: SuperOffice.WebApi.Data.Document.Attention
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAttention/salutation\n"
+  syntax:
+    content: public virtual string Attention { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Attention As String
+  overload: SuperOffice.WebApi.Data.Document.Attention*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.Header
+  commentId: P:SuperOffice.WebApi.Data.Document.Header
+  id: Header
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: Document.Header
+  fullName: SuperOffice.WebApi.Data.Document.Header
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nVisible document name\n"
+  syntax:
+    content: public virtual string Header { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Header As String
+  overload: SuperOffice.WebApi.Data.Document.Header*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.Name
+  commentId: P:SuperOffice.WebApi.Data.Document.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Document.Name
+  fullName: SuperOffice.WebApi.Data.Document.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFile name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Document.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.OurRef
+  commentId: P:SuperOffice.WebApi.Data.Document.OurRef
+  id: OurRef
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: OurRef
+  nameWithType: Document.OurRef
+  fullName: SuperOffice.WebApi.Data.Document.OurRef
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOur reference, searchable field from freetext search\n"
+  syntax:
+    content: public virtual string OurRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OurRef As String
+  overload: SuperOffice.WebApi.Data.Document.OurRef*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.YourRef
+  commentId: P:SuperOffice.WebApi.Data.Document.YourRef
+  id: YourRef
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: YourRef
+  nameWithType: Document.YourRef
+  fullName: SuperOffice.WebApi.Data.Document.YourRef
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nYour reference\n"
+  syntax:
+    content: public virtual string YourRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property YourRef As String
+  overload: SuperOffice.WebApi.Data.Document.YourRef*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.Description
+  commentId: P:SuperOffice.WebApi.Data.Document.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Document.Description
+  fullName: SuperOffice.WebApi.Data.Document.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Document.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.DocumentTemplate
+  commentId: P:SuperOffice.WebApi.Data.Document.DocumentTemplate
+  id: DocumentTemplate
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplate
+  nameWithType: Document.DocumentTemplate
+  fullName: SuperOffice.WebApi.Data.Document.DocumentTemplate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string DocumentTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DocumentTemplate As String
+  overload: SuperOffice.WebApi.Data.Document.DocumentTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.IsPublished
+  commentId: P:SuperOffice.WebApi.Data.Document.IsPublished
+  id: IsPublished
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: IsPublished
+  nameWithType: Document.IsPublished
+  fullName: SuperOffice.WebApi.Data.Document.IsPublished
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if document have an entry in published table\n"
+  syntax:
+    content: public virtual bool IsPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPublished As Boolean
+  overload: SuperOffice.WebApi.Data.Document.IsPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Document.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Document.PersonId
+  fullName: SuperOffice.WebApi.Data.Document.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson ID of person the appointment is with, may be 0\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Document.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.PersonFullName
+  commentId: P:SuperOffice.WebApi.Data.Document.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: Document.PersonFullName
+  fullName: SuperOffice.WebApi.Data.Document.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe full name of the person this document belongs to.\n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.WebApi.Data.Document.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.AssociateFullName
+  commentId: P:SuperOffice.WebApi.Data.Document.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: Document.AssociateFullName
+  fullName: SuperOffice.WebApi.Data.Document.AssociateFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname)\n"
+  syntax:
+    content: public virtual string AssociateFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateFullName As String
+  overload: SuperOffice.WebApi.Data.Document.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Document.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Document.ContactId
+  fullName: SuperOffice.WebApi.Data.Document.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact ID of owning contact, may be 0\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Document.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.ContactName
+  commentId: P:SuperOffice.WebApi.Data.Document.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: Document.ContactName
+  fullName: SuperOffice.WebApi.Data.Document.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.Document.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Document.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Document.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of project referred to, may be 0\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Document.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.ProjectName
+  commentId: P:SuperOffice.WebApi.Data.Document.ProjectName
+  id: ProjectName
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: Document.ProjectName
+  fullName: SuperOffice.WebApi.Data.Document.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProject name\n"
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.WebApi.Data.Document.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Document.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Document.AssociateId
+  fullName: SuperOffice.WebApi.Data.Document.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of associate whose diary the appointment is in, REQUIRED\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Document.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.Snum
+  commentId: P:SuperOffice.WebApi.Data.Document.Snum
+  id: Snum
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: Snum
+  nameWithType: Document.Snum
+  fullName: SuperOffice.WebApi.Data.Document.Snum
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sequence number allocated from refcount on used template when creating the document\n"
+  syntax:
+    content: public virtual int Snum { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Snum As Integer
+  overload: SuperOffice.WebApi.Data.Document.Snum*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.#ctor
+  isExternal: true
+  name: Document
+  nameWithType: Document.Document
+  fullName: SuperOffice.WebApi.Data.Document.Document
+- uid: SuperOffice.WebApi.Data.Document.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document.Attention*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.Attention
+  isExternal: true
+  name: Attention
+  nameWithType: Document.Attention
+  fullName: SuperOffice.WebApi.Data.Document.Attention
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document.Header*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.Header
+  isExternal: true
+  name: Header
+  nameWithType: Document.Header
+  fullName: SuperOffice.WebApi.Data.Document.Header
+- uid: SuperOffice.WebApi.Data.Document.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.Name
+  isExternal: true
+  name: Name
+  nameWithType: Document.Name
+  fullName: SuperOffice.WebApi.Data.Document.Name
+- uid: SuperOffice.WebApi.Data.Document.OurRef*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.OurRef
+  isExternal: true
+  name: OurRef
+  nameWithType: Document.OurRef
+  fullName: SuperOffice.WebApi.Data.Document.OurRef
+- uid: SuperOffice.WebApi.Data.Document.YourRef*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.YourRef
+  isExternal: true
+  name: YourRef
+  nameWithType: Document.YourRef
+  fullName: SuperOffice.WebApi.Data.Document.YourRef
+- uid: SuperOffice.WebApi.Data.Document.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.Description
+  isExternal: true
+  name: Description
+  nameWithType: Document.Description
+  fullName: SuperOffice.WebApi.Data.Document.Description
+- uid: SuperOffice.WebApi.Data.Document.DocumentTemplate*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.DocumentTemplate
+  isExternal: true
+  name: DocumentTemplate
+  nameWithType: Document.DocumentTemplate
+  fullName: SuperOffice.WebApi.Data.Document.DocumentTemplate
+- uid: SuperOffice.WebApi.Data.Document.IsPublished*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.IsPublished
+  isExternal: true
+  name: IsPublished
+  nameWithType: Document.IsPublished
+  fullName: SuperOffice.WebApi.Data.Document.IsPublished
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Document.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Document.PersonId
+  fullName: SuperOffice.WebApi.Data.Document.PersonId
+- uid: SuperOffice.WebApi.Data.Document.PersonFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: Document.PersonFullName
+  fullName: SuperOffice.WebApi.Data.Document.PersonFullName
+- uid: SuperOffice.WebApi.Data.Document.AssociateFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: Document.AssociateFullName
+  fullName: SuperOffice.WebApi.Data.Document.AssociateFullName
+- uid: SuperOffice.WebApi.Data.Document.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Document.ContactId
+  fullName: SuperOffice.WebApi.Data.Document.ContactId
+- uid: SuperOffice.WebApi.Data.Document.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: Document.ContactName
+  fullName: SuperOffice.WebApi.Data.Document.ContactName
+- uid: SuperOffice.WebApi.Data.Document.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Document.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document.ProjectId
+- uid: SuperOffice.WebApi.Data.Document.ProjectName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: Document.ProjectName
+  fullName: SuperOffice.WebApi.Data.Document.ProjectName
+- uid: SuperOffice.WebApi.Data.Document.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Document.AssociateId
+  fullName: SuperOffice.WebApi.Data.Document.AssociateId
+- uid: SuperOffice.WebApi.Data.Document.Snum*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.Snum
+  isExternal: true
+  name: Snum
+  nameWithType: Document.Snum
+  fullName: SuperOffice.WebApi.Data.Document.Snum

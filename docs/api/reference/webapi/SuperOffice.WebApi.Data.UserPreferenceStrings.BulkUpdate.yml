@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
+  id: UserPreferenceStrings.BulkUpdate
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob_HardDefault
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.BulkUpdate
+  nameWithType: UserPreferenceStrings.BulkUpdate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBulkUpdate - Misc\n"
+  syntax:
+    content: 'public static class BulkUpdate : Object'
+    content.vb: >-
+      Public Module BulkUpdate
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.BulkUpdate.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Section = "BulkUpdate"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "BulkUpdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob
+  id: LogResultOfJob
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
+  langs:
+  - csharp
+  - vb
+  name: LogResultOfJob
+  nameWithType: UserPreferenceStrings.BulkUpdate.LogResultOfJob
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould we log the result of a job\n"
+  syntax:
+    content: public const string LogResultOfJob = "LogResultOfJob"
+    return:
+      type: System.String
+    content.vb: Public Const LogResultOfJob As String = "LogResultOfJob"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob_HardDefault
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob_HardDefault
+  id: LogResultOfJob_HardDefault
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate
+  langs:
+  - csharp
+  - vb
+  name: LogResultOfJob_HardDefault
+  nameWithType: UserPreferenceStrings.BulkUpdate.LogResultOfJob_HardDefault
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.BulkUpdate.LogResultOfJob_HardDefault
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHard default for LogResultOfJob\n"
+  syntax:
+    content: public const bool LogResultOfJob_HardDefault = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const LogResultOfJob_HardDefault As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

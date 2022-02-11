@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.AppointmentType
+  # Same as SuperOffice.Data.AppointmentType
+  commentId: T:CRMScript.NetServer.AppointmentType
+  id: AppointmentType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.AppointmentType.Unknown
+  - CRMScript.NetServer.AppointmentType.inDiary
+  - CRMScript.NetServer.AppointmentType.inChecklist
+  - CRMScript.NetServer.AppointmentType.Note
+  - CRMScript.NetServer.AppointmentType.Document
+  - CRMScript.NetServer.AppointmentType.SavedReport
+  - CRMScript.NetServer.AppointmentType.BookingForDiary
+  - CRMScript.NetServer.AppointmentType.BookingForChecklist
+  - CRMScript.NetServer.AppointmentType.MergeDraft
+  - CRMScript.NetServer.AppointmentType.MergeFinal
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: CRMScript.NetServer.AppointmentType
+  type: Enum
+  summary: "\nValue for the type field in the appointment table.\n"
+- uid: CRMScript.NetServer.AppointmentType.Unknown
+  commentId: F:CRMScript.NetServer.AppointmentType.Unknown
+  id: AppointmentType.Unknown
+  langs:
+  - crmscript
+  name: AppointmentType.Unknown
+  nameWithType: AppointmentType.Unknown
+  fullName: CRMScript.NetServer.AppointmentType.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.inDiary
+  commentId: F:CRMScript.NetServer.AppointmentType.inDiary
+  id: AppointmentType.inDiary
+  langs:
+  - crmscript
+  name: AppointmentType.inDiary
+  nameWithType: AppointmentType.inDiary
+  fullName: CRMScript.NetServer.AppointmentType.inDiary
+  type: Field
+  summary: "\n1: Show in diary. If overdue or done today, show in checklist also.\n"
+  syntax: 
+    content: inDiary = 1
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.inChecklist
+  commentId: F:CRMScript.NetServer.AppointmentType.inChecklist
+  id: AppointmentType.inChecklist
+  langs:
+  - crmscript
+  name: AppointmentType.inChecklist
+  nameWithType: AppointmentType.inChecklist
+  fullName: CRMScript.NetServer.AppointmentType.inChecklist
+  type: Field
+  summary: "\n2: Appointment is a followup with no specific start time.\n"
+  syntax: 
+    content: inChecklist = 2
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.Note
+  commentId: F:CRMScript.NetServer.AppointmentType.Note
+  id: AppointmentType.Note
+  langs:
+  - crmscript
+  name: AppointmentType.Note
+  nameWithType: AppointmentType.Note
+  fullName: CRMScript.NetServer.AppointmentType.Note
+  type: Field
+  summary: "\n3: Paperclip on diary, expands to post-it note when clicked.\n"
+  syntax: 
+    content: Note = 3
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.Document
+  commentId: F:CRMScript.NetServer.AppointmentType.Document
+  id: AppointmentType.Document
+  langs:
+  - crmscript
+  name: AppointmentType.Document
+  nameWithType: AppointmentType.Document
+  fullName: CRMScript.NetServer.AppointmentType.Document
+  type: Field
+  summary: "\n4: Document of any kind, including outgoing, incoming, and email.\n"
+  syntax: 
+    content: Document = 4
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.SavedReport
+  commentId: F:CRMScript.NetServer.AppointmentType.SavedReport
+  id: AppointmentType.SavedReport
+  langs:
+  - crmscript
+  name: AppointmentType.SavedReport
+  nameWithType: AppointmentType.SavedReport
+  fullName: CRMScript.NetServer.AppointmentType.SavedReport
+  type: Field
+  summary: "\n5: Saved Report (not a Report Definition but the result of an actual report run).\n"
+  syntax: 
+    content: SavedReport = 5
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.BookingForDiary
+  commentId: F:CRMScript.NetServer.AppointmentType.BookingForDiary
+  id: AppointmentType.BookingForDiary
+  langs:
+  - crmscript
+  name: AppointmentType.BookingForDiary
+  nameWithType: AppointmentType.BookingForDiary
+  fullName: CRMScript.NetServer.AppointmentType.BookingForDiary
+  type: Field
+  summary: "\n6: Booking, made for diary. When accepted this will change type to inDiary.\n"
+  syntax: 
+    content: BookingForDiary = 6
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.BookingForChecklist
+  commentId: F:CRMScript.NetServer.AppointmentType.BookingForChecklist
+  id: AppointmentType.BookingForChecklist
+  langs:
+  - crmscript
+  name: AppointmentType.BookingForChecklist
+  nameWithType: AppointmentType.BookingForChecklist
+  fullName: CRMScript.NetServer.AppointmentType.BookingForChecklist
+  type: Field
+  summary: "\n7: Booking, made for check list. When accepted this will change type to inChecklist.\n"
+  syntax: 
+    content: BookingForChecklist = 7
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.MergeDraft
+  commentId: F:CRMScript.NetServer.AppointmentType.MergeDraft
+  id: AppointmentType.MergeDraft
+  langs:
+  - crmscript
+  name: AppointmentType.MergeDraft
+  nameWithType: AppointmentType.MergeDraft
+  fullName: CRMScript.NetServer.AppointmentType.MergeDraft
+  type: Field
+  summary: "\n8: Document is a template for mail-merge operations.\n"
+  syntax: 
+    content: MergeDraft = 8
+    type: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.AppointmentType.MergeFinal
+  commentId: F:CRMScript.NetServer.AppointmentType.MergeFinal
+  id: AppointmentType.MergeFinal
+  langs:
+  - crmscript
+  name: AppointmentType.MergeFinal
+  nameWithType: AppointmentType.MergeFinal
+  fullName: CRMScript.NetServer.AppointmentType.MergeFinal
+  type: Field
+  summary: "\n9: Document is a result of a mail-merge operations (there are probably many documents like this!).\n"
+  syntax: 
+    content: MergeFinal = 9
+    type: CRMScript.NetServer.AppointmentType
+references:
+- uid: CRMScript.NetServer.AppointmentType
+  commentId: T:CRMScript.NetServer.AppointmentType
+  isExternal: true
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: CRMScript.NetServer.AppointmentType

@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest
+  id: Person_GetBestSoLanguageForTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId
+  - SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetBestSoLanguageForTemplateRequest
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetBestSoLanguageForTemplateRequest : Object'
+    content.vb: >-
+      Public Class Person_GetBestSoLanguageForTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetBestSoLanguageForTemplateRequest()
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest.Person_GetBestSoLanguageForTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.Person_GetBestSoLanguageForTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetBestSoLanguageForTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  id: TemplateId
+  parent: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: TemplateId
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.#ctor
+  isExternal: true
+  name: Person_GetBestSoLanguageForTemplateRequest
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest.Person_GetBestSoLanguageForTemplateRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.Person_GetBestSoLanguageForTemplateRequest
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  isExternal: true
+  name: TemplateId
+  nameWithType: Person_GetBestSoLanguageForTemplateRequest.TemplateId
+  fullName: SuperOffice.WebApi.Data.Person_GetBestSoLanguageForTemplateRequest.TemplateId

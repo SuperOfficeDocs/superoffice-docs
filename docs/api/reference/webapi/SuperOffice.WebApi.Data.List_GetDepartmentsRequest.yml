@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetDepartmentsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetDepartmentsRequest
+  id: List_GetDepartmentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetDepartmentsRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetDepartmentsRequest
+  nameWithType: List_GetDepartmentsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDepartmentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetDepartmentsRequest : Object'
+    content.vb: >-
+      Public Class List_GetDepartmentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetDepartmentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetDepartmentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetDepartmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetDepartmentsRequest()
+  nameWithType: List_GetDepartmentsRequest.List_GetDepartmentsRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetDepartmentsRequest.List_GetDepartmentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetDepartmentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetDepartmentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetDepartmentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDepartmentsRequest.#ctor
+  isExternal: true
+  name: List_GetDepartmentsRequest
+  nameWithType: List_GetDepartmentsRequest.List_GetDepartmentsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDepartmentsRequest.List_GetDepartmentsRequest

@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  id: WebhookSoftTriggerPlugin
+  parent: SuperOffice.CRM.Webhooks
+  children:
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
+  langs:
+  - csharp
+  - vb
+  name: WebhookSoftTriggerPlugin
+  nameWithType: WebhookSoftTriggerPlugin
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nCreated by plugin system.\n"
+  syntax:
+    content: >-
+      [SoftTriggerPlugin("WebhookSoftTriggerPlugin")]
+
+      public class WebhookSoftTriggerPlugin : ISoftTriggerPlugin, IPlugin
+    content.vb: >-
+      <SoftTriggerPlugin("WebhookSoftTriggerPlugin")>
+
+      Public Class WebhookSoftTriggerPlugin
+          Implements ISoftTriggerPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Data.ISoftTriggerPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SoftTriggerPluginAttribute
+    ctor: SuperOffice.Data.SoftTriggerPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: WebhookSoftTriggerPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
+  commentId: F:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
+  id: Name
+  parent: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WebhookSoftTriggerPlugin.Name
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public const string Name = "WebhookSoftTriggerPlugin"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "WebhookSoftTriggerPlugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  id: Initialize(SuperOffice.Data.SoftTrigger)
+  parent: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  langs:
+  - csharp
+  - vb
+  name: Initialize(SoftTrigger)
+  nameWithType: WebhookSoftTriggerPlugin.Initialize(SoftTrigger)
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public void Initialize(SoftTrigger softTrigger)
+    parameters:
+    - id: softTrigger
+      type: SuperOffice.Data.SoftTrigger
+    content.vb: Public Sub Initialize(softTrigger As SoftTrigger)
+  overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize*
+  implements:
+  - SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  langs:
+  - csharp
+  - vb
+  name: WebhookSoftTriggerPlugin()
+  nameWithType: WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin()
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public WebhookSoftTriggerPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Webhooks
+  commentId: N:SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: SuperOffice.CRM.Webhooks
+  nameWithType: SuperOffice.CRM.Webhooks
+  fullName: SuperOffice.CRM.Webhooks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ISoftTriggerPlugin
+  commentId: T:SuperOffice.Data.ISoftTriggerPlugin
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISoftTriggerPlugin
+  nameWithType: ISoftTriggerPlugin
+  fullName: SuperOffice.Data.ISoftTriggerPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WebhookSoftTriggerPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<WebhookSoftTriggerPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WebhookSoftTriggerPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)()
+  name.vb: MapEnums(Of WebhookSoftTriggerPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WebhookSoftTriggerPlugin, To>
+    nameWithType: EnumUtil.MapEnums<WebhookSoftTriggerPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WebhookSoftTriggerPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of WebhookSoftTriggerPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WebhookSoftTriggerPlugin>(WebhookSoftTriggerPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<WebhookSoftTriggerPlugin>(WebhookSoftTriggerPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WebhookSoftTriggerPlugin)(WebhookSoftTriggerPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)(SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+  name.vb: AssignByReflection(Of WebhookSoftTriggerPlugin)(WebhookSoftTriggerPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WebhookSoftTriggerPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<WebhookSoftTriggerPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    nameWithType: WebhookSoftTriggerPlugin
+    fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WebhookSoftTriggerPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WebhookSoftTriggerPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    name: WebhookSoftTriggerPlugin
+    nameWithType: WebhookSoftTriggerPlugin
+    fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WebhookSoftTriggerPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<WebhookSoftTriggerPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WebhookSoftTriggerPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)()
+  name.vb: GraphCopy(Of WebhookSoftTriggerPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WebhookSoftTriggerPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<WebhookSoftTriggerPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WebhookSoftTriggerPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of WebhookSoftTriggerPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WebhookSoftTriggerPlugin, To>()
+  nameWithType: Converters.MapEnums<WebhookSoftTriggerPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of WebhookSoftTriggerPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)()
+  name.vb: MapEnums(Of WebhookSoftTriggerPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WebhookSoftTriggerPlugin, To>
+    nameWithType: Converters.MapEnums<WebhookSoftTriggerPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WebhookSoftTriggerPlugin, To)
+    nameWithType: Converters.MapEnums(Of WebhookSoftTriggerPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: WebhookSoftTriggerPlugin.Initialize
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize
+- uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  commentId: M:SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  parent: SuperOffice.Data.ISoftTriggerPlugin
+  isExternal: true
+  name: Initialize(SoftTrigger)
+  nameWithType: ISoftTriggerPlugin.Initialize(SoftTrigger)
+  fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+    name: Initialize
+    nameWithType: ISoftTriggerPlugin.Initialize
+    fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoftTrigger
+    name: SoftTrigger
+    nameWithType: SoftTrigger
+    fullName: SuperOffice.Data.SoftTrigger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+    name: Initialize
+    nameWithType: ISoftTriggerPlugin.Initialize
+    fullName: SuperOffice.Data.ISoftTriggerPlugin.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoftTrigger
+    name: SoftTrigger
+    nameWithType: SoftTrigger
+    fullName: SuperOffice.Data.SoftTrigger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoftTrigger
+  commentId: T:SuperOffice.Data.SoftTrigger
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoftTrigger
+  nameWithType: SoftTrigger
+  fullName: SuperOffice.Data.SoftTrigger
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor
+  isExternal: true
+  name: WebhookSoftTriggerPlugin
+  nameWithType: WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.WebhookSoftTriggerPlugin

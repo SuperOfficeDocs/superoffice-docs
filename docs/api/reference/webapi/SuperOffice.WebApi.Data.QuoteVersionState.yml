@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteVersionState
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionState
+  id: QuoteVersionState
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteVersionState.Archived
+  - SuperOffice.WebApi.Data.QuoteVersionState.Draft
+  - SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
+  - SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
+  - SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
+  - SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
+  - SuperOffice.WebApi.Data.QuoteVersionState.Lost
+  - SuperOffice.WebApi.Data.QuoteVersionState.Sent
+  - SuperOffice.WebApi.Data.QuoteVersionState.Sold
+  - SuperOffice.WebApi.Data.QuoteVersionState.Unknown
+  - SuperOffice.WebApi.Data.QuoteVersionState.value__
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionState
+  nameWithType: QuoteVersionState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nState of a Quote Version\nThis Enum is used by:  QuoteVersion.State; QuoteVersion.ArchivedState\n"
+  syntax:
+    content: 'public sealed class QuoteVersionState : Enum'
+    content.vb: >-
+      Public NotInheritable Class QuoteVersionState
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.value__
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: QuoteVersionState.value__
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.Unknown
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: QuoteVersionState.Unknown
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: State unknown\n"
+  syntax:
+    content: public const QuoteVersionState Unknown
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const Unknown As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.Draft
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Draft
+  id: Draft
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: QuoteVersionState.Draft
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.Draft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Draft that has been calculated, and ERP has verified it as OK\n"
+  syntax:
+    content: public const QuoteVersionState Draft
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const Draft As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
+  id: DraftNotCalculated
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: DraftNotCalculated
+  nameWithType: QuoteVersionState.DraftNotCalculated
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotCalculated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: This is a draft that has not been calculated, prices and other attributes may be &apos;invalid&apos; relative to ERP system rules\n"
+  syntax:
+    content: public const QuoteVersionState DraftNotCalculated
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const DraftNotCalculated As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
+  id: DraftNeedsApproval
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: DraftNeedsApproval
+  nameWithType: QuoteVersionState.DraftNeedsApproval
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftNeedsApproval
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Draft has been checked, and there was a problem that needs (human) approval\n"
+  syntax:
+    content: public const QuoteVersionState DraftNeedsApproval
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const DraftNeedsApproval As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
+  id: DraftApproved
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: DraftApproved
+  nameWithType: QuoteVersionState.DraftApproved
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftApproved
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Draft with potential problems has been human-approved\n"
+  syntax:
+    content: public const QuoteVersionState DraftApproved
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const DraftApproved As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
+  id: DraftNotApproved
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: DraftNotApproved
+  nameWithType: QuoteVersionState.DraftNotApproved
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.DraftNotApproved
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Draft has been checked, there was a problem, and (human) approval was NOT granted\n"
+  syntax:
+    content: public const QuoteVersionState DraftNotApproved
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const DraftNotApproved As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.Sent
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Sent
+  id: Sent
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: Sent
+  nameWithType: QuoteVersionState.Sent
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.Sent
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Sent to customer, and is now a legally binding document\n"
+  syntax:
+    content: public const QuoteVersionState Sent
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const Sent As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.Archived
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Archived
+  id: Archived
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: Archived
+  nameWithType: QuoteVersionState.Archived
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.Archived
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Archived - previous state saved in ArchivedState, newer versions exist\n"
+  syntax:
+    content: public const QuoteVersionState Archived
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const Archived As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.Lost
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Lost
+  id: Lost
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: Lost
+  nameWithType: QuoteVersionState.Lost
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.Lost
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Version was rejected be the customer - we lost the sale\n"
+  syntax:
+    content: public const QuoteVersionState Lost
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const Lost As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.QuoteVersionState.Sold
+  commentId: F:SuperOffice.WebApi.Data.QuoteVersionState.Sold
+  id: Sold
+  parent: SuperOffice.WebApi.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: Sold
+  nameWithType: QuoteVersionState.Sold
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState.Sold
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Quote was accepted and the sale is &apos;Sold&apos;\n"
+  syntax:
+    content: public const QuoteVersionState Sold
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionState
+    content.vb: Public Const Sold As QuoteVersionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.QuoteVersionState
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteVersionState
+  nameWithType: QuoteVersionState
+  fullName: SuperOffice.WebApi.Data.QuoteVersionState

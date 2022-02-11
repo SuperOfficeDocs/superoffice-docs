@@ -1,0 +1,2067 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Cache.SuperStateHelper
+  commentId: T:SuperOffice.Cache.SuperStateHelper
+  id: SuperStateHelper
+  parent: SuperOffice.Cache
+  children:
+  - SuperOffice.Cache.SuperStateHelper.#ctor(SuperOffice.Cache.SuperState)
+  - SuperOffice.Cache.SuperStateHelper.ClearHistoryItem(System.String,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList(SuperOffice.Cache.SuperState)
+  - SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection(SuperOffice.Cache.SuperState)
+  - SuperOffice.Cache.SuperStateHelper.GetCurrent
+  - SuperOffice.Cache.SuperStateHelper.GetCurrent(System.String)
+  - SuperOffice.Cache.SuperStateHelper.GetCurrentChanges
+  - SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize
+  - SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize(SuperOffice.Cache.SuperState)
+  - SuperOffice.Cache.SuperStateHelper.GetHistory(System.String)
+  - SuperOffice.Cache.SuperStateHelper.GetHistoryIds(System.String)
+  - SuperOffice.Cache.SuperStateHelper.GetHistoryItem(System.String,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary
+  - SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView(System.String)
+  - SuperOffice.Cache.SuperStateHelper.GetWindowSize(SuperOffice.Cache.SuperState,System.String)
+  - SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged
+  - SuperOffice.Cache.SuperStateHelper.PageDeepCopy(SuperOffice.Cache.Page)
+  - SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy(SuperOffice.Cache.PageState)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.Boolean)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.String,System.Boolean)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight(SuperOffice.Cache.SuperState,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(SuperOffice.Cache.SuperState,System.Drawing.Size)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(System.Drawing.Size)
+  - SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth(SuperOffice.Cache.SuperState,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.SetHistory(System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem})
+  - SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView(System.String,System.String)
+  - SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged(System.Boolean)
+  - SuperOffice.Cache.SuperStateHelper.SetWindowHeight(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.SetWindowSize(SuperOffice.Cache.SuperState,System.String,System.Drawing.Size)
+  - SuperOffice.Cache.SuperStateHelper.SetWindowSize(System.String,System.Drawing.Size)
+  - SuperOffice.Cache.SuperStateHelper.SetWindowWidth(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  - SuperOffice.Cache.SuperStateHelper.SuperState
+  - SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  - SuperOffice.Cache.SuperStateHelper.ViewDeepCopy(SuperOffice.Cache.View)
+  langs:
+  - csharp
+  - vb
+  name: SuperStateHelper
+  nameWithType: SuperStateHelper
+  fullName: SuperOffice.Cache.SuperStateHelper
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nHelper class for the SuperState data structure.\nImplements methods for setting and getting data from the SuperState\nThe class is also responsible for updating the HasChanged flags on Current and SuperMode objects\n"
+  syntax:
+    content: public class SuperStateHelper
+    content.vb: Public Class SuperStateHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Cache.SuperStateHelper.#ctor(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.#ctor(SuperOffice.Cache.SuperState)
+  id: '#ctor(SuperOffice.Cache.SuperState)'
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperStateHelper(SuperState)
+  nameWithType: SuperStateHelper.SuperStateHelper(SuperState)
+  fullName: SuperOffice.Cache.SuperStateHelper.SuperStateHelper(SuperOffice.Cache.SuperState)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SuperStateHelper(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Sub New(superState As SuperState)
+  overload: SuperOffice.Cache.SuperStateHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList(SuperOffice.Cache.SuperState)
+  id: CopyCurrentPageToList(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: CopyCurrentPageToList(SuperState)
+  nameWithType: SuperStateHelper.CopyCurrentPageToList(SuperState)
+  fullName: SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nMakes a deep copy of the current page to the list of active pages\n"
+  syntax:
+    content: public static void CopyCurrentPageToList(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    content.vb: Public Shared Sub CopyCurrentPageToList(superState As SuperState)
+  overload: SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy(SuperOffice.Cache.PageState)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy(SuperOffice.Cache.PageState)
+  id: PageStateDeepCopy(SuperOffice.Cache.PageState)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: PageStateDeepCopy(PageState)
+  nameWithType: SuperStateHelper.PageStateDeepCopy(PageState)
+  fullName: SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy(SuperOffice.Cache.PageState)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nCreates deep copy of a PageState object\n"
+  syntax:
+    content: public static PageState PageStateDeepCopy(PageState pageState)
+    parameters:
+    - id: pageState
+      type: SuperOffice.Cache.PageState
+      description: Old PageState
+    return:
+      type: SuperOffice.Cache.PageState
+      description: Copy of PageState
+    content.vb: Public Shared Function PageStateDeepCopy(pageState As PageState) As PageState
+  overload: SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.PageDeepCopy(SuperOffice.Cache.Page)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.PageDeepCopy(SuperOffice.Cache.Page)
+  id: PageDeepCopy(SuperOffice.Cache.Page)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: PageDeepCopy(Page)
+  nameWithType: SuperStateHelper.PageDeepCopy(Page)
+  fullName: SuperOffice.Cache.SuperStateHelper.PageDeepCopy(SuperOffice.Cache.Page)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nCreates deep copy of a Page object\n"
+  syntax:
+    content: public static Page PageDeepCopy(Page page)
+    parameters:
+    - id: page
+      type: SuperOffice.Cache.Page
+      description: Old Page
+    return:
+      type: SuperOffice.Cache.Page
+      description: Copy of Page
+    content.vb: Public Shared Function PageDeepCopy(page As Page) As Page
+  overload: SuperOffice.Cache.SuperStateHelper.PageDeepCopy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.ViewDeepCopy(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.ViewDeepCopy(SuperOffice.Cache.View)
+  id: ViewDeepCopy(SuperOffice.Cache.View)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: ViewDeepCopy(View)
+  nameWithType: SuperStateHelper.ViewDeepCopy(View)
+  fullName: SuperOffice.Cache.SuperStateHelper.ViewDeepCopy(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nMakes a deep copy of the view\n"
+  syntax:
+    content: public static View ViewDeepCopy(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+      description: The view to copy
+    return:
+      type: SuperOffice.Cache.View
+      description: The new view
+    content.vb: Public Shared Function ViewDeepCopy(view As View) As View
+  overload: SuperOffice.Cache.SuperStateHelper.ViewDeepCopy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection(SuperOffice.Cache.SuperState)
+  id: EmptyParametersCollection(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: EmptyParametersCollection(SuperState)
+  nameWithType: SuperStateHelper.EmptyParametersCollection(SuperState)
+  fullName: SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nEmpties the parameter collection for the current page\n"
+  syntax:
+    content: public static void EmptyParametersCollection(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    content.vb: Public Shared Sub EmptyParametersCollection(superState As SuperState)
+  overload: SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged
+  commentId: M:SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged
+  id: HasSuperModeChanged
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: HasSuperModeChanged()
+  nameWithType: SuperStateHelper.HasSuperModeChanged()
+  fullName: SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public bool HasSuperModeChanged()
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasSuperModeChanged As Boolean
+  overload: SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged(System.Boolean)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged(System.Boolean)
+  id: SetSuperModeHasChanged(System.Boolean)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetSuperModeHasChanged(Boolean)
+  nameWithType: SuperStateHelper.SetSuperModeHasChanged(Boolean)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nMarks the current views and panels as changed or unchanged\n"
+  syntax:
+    content: public void SetSuperModeHasChanged(bool hasChanged)
+    parameters:
+    - id: hasChanged
+      type: System.Boolean
+    content.vb: Public Sub SetSuperModeHasChanged(hasChanged As Boolean)
+  overload: SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetHistory(System.String)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetHistory(System.String)
+  id: GetHistory(System.String)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(String)
+  nameWithType: SuperStateHelper.GetHistory(String)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetHistory(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet the history for a given entity\nRank is represented by the items list index + 1\n"
+  syntax:
+    content: public List<HistoryItem> GetHistory(string entityKey)
+    parameters:
+    - id: entityKey
+      type: System.String
+      description: Name of the entity, i.e. a contact entity or a list
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+    content.vb: Public Function GetHistory(entityKey As String) As List(Of HistoryItem)
+  overload: SuperOffice.Cache.SuperStateHelper.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetHistoryIds(System.String)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetHistoryIds(System.String)
+  id: GetHistoryIds(System.String)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryIds(String)
+  nameWithType: SuperStateHelper.GetHistoryIds(String)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetHistoryIds(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet the history ids a given entity\n"
+  syntax:
+    content: public int[] GetHistoryIds(string entityKey)
+    parameters:
+    - id: entityKey
+      type: System.String
+      description: Name of the entity, i.e. a contact entity or a list
+    return:
+      type: System.Int32[]
+    content.vb: Public Function GetHistoryIds(entityKey As String) As Integer()
+  overload: SuperOffice.Cache.SuperStateHelper.GetHistoryIds*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetHistoryItem(System.String,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetHistoryItem(System.String,System.Int32)
+  id: GetHistoryItem(System.String,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryItem(String, Int32)
+  nameWithType: SuperStateHelper.GetHistoryItem(String, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetHistoryItem(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet a history item for a given entity/history list\n"
+  syntax:
+    content: public HistoryItem GetHistoryItem(string entityKey, int itemId)
+    parameters:
+    - id: entityKey
+      type: System.String
+      description: Name of the entity, i.e. a contact entity or a list
+    - id: itemId
+      type: System.Int32
+      description: The id of the item
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Function GetHistoryItem(entityKey As String, itemId As Integer) As HistoryItem
+  overload: SuperOffice.Cache.SuperStateHelper.GetHistoryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.ClearHistoryItem(System.String,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.ClearHistoryItem(System.String,System.Int32)
+  id: ClearHistoryItem(System.String,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearHistoryItem(String, Int32)
+  nameWithType: SuperStateHelper.ClearHistoryItem(String, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.ClearHistoryItem(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public void ClearHistoryItem(string entityKey, int itemId)
+    parameters:
+    - id: entityKey
+      type: System.String
+    - id: itemId
+      type: System.Int32
+    content.vb: Public Sub ClearHistoryItem(entityKey As String, itemId As Integer)
+  overload: SuperOffice.Cache.SuperStateHelper.ClearHistoryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  id: UpdateHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateHistoryItem(String, HistoryItem)
+  nameWithType: SuperStateHelper.UpdateHistoryItem(String, HistoryItem)
+  fullName: SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem(System.String, SuperOffice.Cache.HistoryItem)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nUpdate a history item, if and only if it is already part of the history\n"
+  syntax:
+    content: public void UpdateHistoryItem(string entityKey, HistoryItem item)
+    parameters:
+    - id: entityKey
+      type: System.String
+    - id: item
+      type: SuperOffice.Cache.HistoryItem
+      description: Item to update
+    content.vb: Public Sub UpdateHistoryItem(entityKey As String, item As HistoryItem)
+  overload: SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetHistory(System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem})
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetHistory(System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem})
+  id: SetHistory(System.String,System.Collections.Generic.List{SuperOffice.Cache.HistoryItem})
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetHistory(String, List<HistoryItem>)
+  nameWithType: SuperStateHelper.SetHistory(String, List<HistoryItem>)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetHistory(System.String, System.Collections.Generic.List<SuperOffice.Cache.HistoryItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSet the history for a given entity\n"
+  syntax:
+    content: public void SetHistory(string entityKey, List<HistoryItem> history)
+    parameters:
+    - id: entityKey
+      type: System.String
+    - id: history
+      type: System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+    content.vb: Public Sub SetHistory(entityKey As String, history As List(Of HistoryItem))
+  overload: SuperOffice.Cache.SuperStateHelper.SetHistory*
+  nameWithType.vb: SuperStateHelper.SetHistory(String, List(Of HistoryItem))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Cache.SuperStateHelper.SetHistory(System.String, System.Collections.Generic.List(Of SuperOffice.Cache.HistoryItem))
+  name.vb: SetHistory(String, List(Of HistoryItem))
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrent
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: SuperStateHelper.GetCurrent()
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrent()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet all current values\n"
+  syntax:
+    content: public Dictionary<string, HistoryItem> GetCurrent()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+    content.vb: Public Function GetCurrent As Dictionary(Of String, HistoryItem)
+  overload: SuperOffice.Cache.SuperStateHelper.GetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrentChanges
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetCurrentChanges
+  id: GetCurrentChanges
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentChanges()
+  nameWithType: SuperStateHelper.GetCurrentChanges()
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrentChanges()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet all changed current values\n"
+  syntax:
+    content: public Dictionary<string, HistoryItem> GetCurrentChanges()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+    content.vb: Public Function GetCurrentChanges As Dictionary(Of String, HistoryItem)
+  overload: SuperOffice.Cache.SuperStateHelper.GetCurrentChanges*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrent(System.String)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetCurrent(System.String)
+  id: GetCurrent(System.String)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(String)
+  nameWithType: SuperStateHelper.GetCurrent(String)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet the current item for a specific entity\n"
+  syntax:
+    content: public HistoryItem GetCurrent(string entityKey)
+    parameters:
+    - id: entityKey
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Function GetCurrent(entityKey As String) As HistoryItem
+  overload: SuperOffice.Cache.SuperStateHelper.GetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Int32)
+  id: SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(String, HistoryItem, Int32)
+  nameWithType: SuperStateHelper.SetCurrent(String, HistoryItem, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrent(System.String, SuperOffice.Cache.HistoryItem, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets a new current value for a given entity,\nand shifts all other elements one item down in the list\nRank is represented by the items list index + 1\n"
+  syntax:
+    content: public void SetCurrent(string entityKey, HistoryItem current, int maxCount)
+    parameters:
+    - id: entityKey
+      type: System.String
+    - id: current
+      type: SuperOffice.Cache.HistoryItem
+    - id: maxCount
+      type: System.Int32
+      description: The maximum length of the history list
+    content.vb: Public Sub SetCurrent(entityKey As String, current As HistoryItem, maxCount As Integer)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.Boolean)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.Boolean)
+  id: SetCurrentHasChanged(System.Boolean)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentHasChanged(Boolean)
+  nameWithType: SuperStateHelper.SetCurrentHasChanged(Boolean)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets all current values as changed\n"
+  syntax:
+    content: public void SetCurrentHasChanged(bool hasChanged)
+    parameters:
+    - id: hasChanged
+      type: System.Boolean
+    content.vb: Public Sub SetCurrentHasChanged(hasChanged As Boolean)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.String,System.Boolean)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.String,System.Boolean)
+  id: SetCurrentHasChanged(System.String,System.Boolean)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentHasChanged(String, Boolean)
+  nameWithType: SuperStateHelper.SetCurrentHasChanged(String, Boolean)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSet the current value of the specific entity as changed\n"
+  syntax:
+    content: public void SetCurrentHasChanged(string entityKey, bool hasChanged)
+    parameters:
+    - id: entityKey
+      type: System.String
+    - id: hasChanged
+      type: System.Boolean
+    content.vb: Public Sub SetCurrentHasChanged(entityKey As String, hasChanged As Boolean)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary
+  id: GetMiniPanelDictionary
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMiniPanelDictionary()
+  nameWithType: SuperStateHelper.GetMiniPanelDictionary()
+  fullName: SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public Dictionary<string, string> GetMiniPanelDictionary()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Function GetMiniPanelDictionary As Dictionary(Of String, String)
+  overload: SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SetMiniPanelDictionary(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetMiniPanelDictionary(Dictionary<String, String>)
+  nameWithType: SuperStateHelper.SetMiniPanelDictionary(Dictionary<String, String>)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public void SetMiniPanelDictionary(Dictionary<string, string> miniPanelDictionary)
+    parameters:
+    - id: miniPanelDictionary
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Sub SetMiniPanelDictionary(miniPanelDictionary As Dictionary(Of String, String))
+  overload: SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary*
+  nameWithType.vb: SuperStateHelper.SetMiniPanelDictionary(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SetMiniPanelDictionary(Dictionary(Of String, String))
+- uid: SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView(System.String)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView(System.String)
+  id: GetMiniPanelForView(System.String)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMiniPanelForView(String)
+  nameWithType: SuperStateHelper.GetMiniPanelForView(String)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public string GetMiniPanelForView(string mainView)
+    parameters:
+    - id: mainView
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetMiniPanelForView(mainView As String) As String
+  overload: SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView(System.String,System.String)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView(System.String,System.String)
+  id: SetMiniPanelForView(System.String,System.String)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetMiniPanelForView(String, String)
+  nameWithType: SuperStateHelper.SetMiniPanelForView(String, String)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public void SetMiniPanelForView(string mainView, string miniPanelView)
+    parameters:
+    - id: mainView
+      type: System.String
+    - id: miniPanelView
+      type: System.String
+    content.vb: Public Sub SetMiniPanelForView(mainView As String, miniPanelView As String)
+  overload: SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize(SuperOffice.Cache.SuperState)
+  id: GetCurrentPageWindowSize(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPageWindowSize(SuperState)
+  nameWithType: SuperStateHelper.GetCurrentPageWindowSize(SuperState)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nReturns the Window Size for the currently active page\nCalculates window minimum sizes\n"
+  syntax:
+    content: public static Size GetCurrentPageWindowSize(SuperState superState)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    return:
+      type: System.Drawing.Size
+      description: System.Drawing.Size
+    content.vb: Public Shared Function GetCurrentPageWindowSize(superState As SuperState) As Size
+  overload: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(SuperOffice.Cache.SuperState,System.Drawing.Size)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(SuperOffice.Cache.SuperState,System.Drawing.Size)
+  id: SetCurrentPageWindowSize(SuperOffice.Cache.SuperState,System.Drawing.Size)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPageWindowSize(SuperState, Size)
+  nameWithType: SuperStateHelper.SetCurrentPageWindowSize(SuperState, Size)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(SuperOffice.Cache.SuperState, System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Size of the currently active page\n"
+  syntax:
+    content: public static void SetCurrentPageWindowSize(SuperState superState, Size size)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: size
+      type: System.Drawing.Size
+    content.vb: Public Shared Sub SetCurrentPageWindowSize(superState As SuperState, size As Size)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.GetWindowSize(SuperOffice.Cache.SuperState,System.String)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetWindowSize(SuperOffice.Cache.SuperState,System.String)
+  id: GetWindowSize(SuperOffice.Cache.SuperState,System.String)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetWindowSize(SuperState, String)
+  nameWithType: SuperStateHelper.GetWindowSize(SuperState, String)
+  fullName: SuperOffice.Cache.SuperStateHelper.GetWindowSize(SuperOffice.Cache.SuperState, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nReturns the Window Size for a page\nCalculates window minimum sizes\n"
+  syntax:
+    content: public static Size GetWindowSize(SuperState superState, string pageId)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: pageId
+      type: System.String
+      description: Page id
+    return:
+      type: System.Drawing.Size
+      description: System.Drawing.Size
+    content.vb: Public Shared Function GetWindowSize(superState As SuperState, pageId As String) As Size
+  overload: SuperOffice.Cache.SuperStateHelper.GetWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowSize(SuperOffice.Cache.SuperState,System.String,System.Drawing.Size)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetWindowSize(SuperOffice.Cache.SuperState,System.String,System.Drawing.Size)
+  id: SetWindowSize(SuperOffice.Cache.SuperState,System.String,System.Drawing.Size)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetWindowSize(SuperState, String, Size)
+  nameWithType: SuperStateHelper.SetWindowSize(SuperState, String, Size)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowSize(SuperOffice.Cache.SuperState, System.String, System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Size of a page\n"
+  syntax:
+    content: public static void SetWindowSize(SuperState superState, string pageId, Size size)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: pageId
+      type: System.String
+      description: The page id the size belongs to
+    - id: size
+      type: System.Drawing.Size
+    content.vb: Public Shared Sub SetWindowSize(superState As SuperState, pageId As String, size As Size)
+  overload: SuperOffice.Cache.SuperStateHelper.SetWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight(SuperOffice.Cache.SuperState,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight(SuperOffice.Cache.SuperState,System.Int32)
+  id: SetCurrentPageWindowHeight(SuperOffice.Cache.SuperState,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPageWindowHeight(SuperState, Int32)
+  nameWithType: SuperStateHelper.SetCurrentPageWindowHeight(SuperState, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight(SuperOffice.Cache.SuperState, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Height of the current page\n"
+  syntax:
+    content: public static void SetCurrentPageWindowHeight(SuperState superState, int height)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: height
+      type: System.Int32
+      description: Window height
+    content.vb: Public Shared Sub SetCurrentPageWindowHeight(superState As SuperState, height As Integer)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth(SuperOffice.Cache.SuperState,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth(SuperOffice.Cache.SuperState,System.Int32)
+  id: SetCurrentPageWindowWidth(SuperOffice.Cache.SuperState,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPageWindowWidth(SuperState, Int32)
+  nameWithType: SuperStateHelper.SetCurrentPageWindowWidth(SuperState, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth(SuperOffice.Cache.SuperState, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Width\n"
+  syntax:
+    content: public static void SetCurrentPageWindowWidth(SuperState superState, int width)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: width
+      type: System.Int32
+      description: Window width
+    content.vb: Public Shared Sub SetCurrentPageWindowWidth(superState As SuperState, width As Integer)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowHeight(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetWindowHeight(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  id: SetWindowHeight(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetWindowHeight(SuperState, String, Int32)
+  nameWithType: SuperStateHelper.SetWindowHeight(SuperState, String, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowHeight(SuperOffice.Cache.SuperState, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Height\n"
+  syntax:
+    content: public static void SetWindowHeight(SuperState superState, string pageId, int height)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: pageId
+      type: System.String
+      description: The page id the size belongs to
+    - id: height
+      type: System.Int32
+      description: Window height
+    content.vb: Public Shared Sub SetWindowHeight(superState As SuperState, pageId As String, height As Integer)
+  overload: SuperOffice.Cache.SuperStateHelper.SetWindowHeight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowWidth(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetWindowWidth(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  id: SetWindowWidth(SuperOffice.Cache.SuperState,System.String,System.Int32)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetWindowWidth(SuperState, String, Int32)
+  nameWithType: SuperStateHelper.SetWindowWidth(SuperState, String, Int32)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowWidth(SuperOffice.Cache.SuperState, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Width\n"
+  syntax:
+    content: public static void SetWindowWidth(SuperState superState, string pageId, int width)
+    parameters:
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+      description: SuperState
+    - id: pageId
+      type: System.String
+      description: The page id the size belongs to
+    - id: width
+      type: System.Int32
+      description: Window width
+    content.vb: Public Shared Sub SetWindowWidth(superState As SuperState, pageId As String, width As Integer)
+  overload: SuperOffice.Cache.SuperStateHelper.SetWindowWidth*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize
+  commentId: M:SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize
+  id: GetCurrentPageWindowSize
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPageWindowSize()
+  nameWithType: SuperStateHelper.GetCurrentPageWindowSize()
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nReturns the Window Size for the currently active page\nCalculates window minimum sizes\n"
+  syntax:
+    content: public Size GetCurrentPageWindowSize()
+    return:
+      type: System.Drawing.Size
+      description: System.Drawing.Size
+    content.vb: Public Function GetCurrentPageWindowSize As Size
+  overload: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowSize(System.String,System.Drawing.Size)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetWindowSize(System.String,System.Drawing.Size)
+  id: SetWindowSize(System.String,System.Drawing.Size)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetWindowSize(String, Size)
+  nameWithType: SuperStateHelper.SetWindowSize(String, Size)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowSize(System.String, System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Size of a page\n"
+  syntax:
+    content: public void SetWindowSize(string pageId, Size size)
+    parameters:
+    - id: pageId
+      type: System.String
+      description: The page id the size belongs to
+    - id: size
+      type: System.Drawing.Size
+    content.vb: Public Sub SetWindowSize(pageId As String, size As Size)
+  overload: SuperOffice.Cache.SuperStateHelper.SetWindowSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(System.Drawing.Size)
+  commentId: M:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(System.Drawing.Size)
+  id: SetCurrentPageWindowSize(System.Drawing.Size)
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPageWindowSize(Size)
+  nameWithType: SuperStateHelper.SetCurrentPageWindowSize(Size)
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize(System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSets the Window Size of the currently active page\n"
+  syntax:
+    content: public void SetCurrentPageWindowSize(Size size)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+    content.vb: Public Sub SetCurrentPageWindowSize(size As Size)
+  overload: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.SuperStateHelper.SuperState
+  commentId: P:SuperOffice.Cache.SuperStateHelper.SuperState
+  id: SuperState
+  parent: SuperOffice.Cache.SuperStateHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperState
+  nameWithType: SuperStateHelper.SuperState
+  fullName: SuperOffice.Cache.SuperStateHelper.SuperState
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe Current SuperState as updated by the helper class\n"
+  syntax:
+    content: public SuperState SuperState { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.SuperState
+    content.vb: Public Property SuperState As SuperState
+  overload: SuperOffice.Cache.SuperStateHelper.SuperState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Cache.SuperStateHelper.#ctor*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.#ctor
+  isExternal: true
+  name: SuperStateHelper
+  nameWithType: SuperStateHelper.SuperStateHelper
+  fullName: SuperOffice.Cache.SuperStateHelper.SuperStateHelper
+- uid: SuperOffice.Cache.SuperState
+  commentId: T:SuperOffice.Cache.SuperState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.Cache.SuperState
+- uid: SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList
+  isExternal: true
+  name: CopyCurrentPageToList
+  nameWithType: SuperStateHelper.CopyCurrentPageToList
+  fullName: SuperOffice.Cache.SuperStateHelper.CopyCurrentPageToList
+- uid: SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy
+  isExternal: true
+  name: PageStateDeepCopy
+  nameWithType: SuperStateHelper.PageStateDeepCopy
+  fullName: SuperOffice.Cache.SuperStateHelper.PageStateDeepCopy
+- uid: SuperOffice.Cache.PageState
+  commentId: T:SuperOffice.Cache.PageState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: PageState
+  nameWithType: PageState
+  fullName: SuperOffice.Cache.PageState
+- uid: SuperOffice.Cache.SuperStateHelper.PageDeepCopy*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.PageDeepCopy
+  isExternal: true
+  name: PageDeepCopy
+  nameWithType: SuperStateHelper.PageDeepCopy
+  fullName: SuperOffice.Cache.SuperStateHelper.PageDeepCopy
+- uid: SuperOffice.Cache.Page
+  commentId: T:SuperOffice.Cache.Page
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: SuperOffice.Cache.Page
+- uid: SuperOffice.Cache.SuperStateHelper.ViewDeepCopy*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.ViewDeepCopy
+  isExternal: true
+  name: ViewDeepCopy
+  nameWithType: SuperStateHelper.ViewDeepCopy
+  fullName: SuperOffice.Cache.SuperStateHelper.ViewDeepCopy
+- uid: SuperOffice.Cache.View
+  commentId: T:SuperOffice.Cache.View
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: SuperOffice.Cache.View
+- uid: SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection
+  isExternal: true
+  name: EmptyParametersCollection
+  nameWithType: SuperStateHelper.EmptyParametersCollection
+  fullName: SuperOffice.Cache.SuperStateHelper.EmptyParametersCollection
+- uid: SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged
+  isExternal: true
+  name: HasSuperModeChanged
+  nameWithType: SuperStateHelper.HasSuperModeChanged
+  fullName: SuperOffice.Cache.SuperStateHelper.HasSuperModeChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged
+  isExternal: true
+  name: SetSuperModeHasChanged
+  nameWithType: SuperStateHelper.SetSuperModeHasChanged
+  fullName: SuperOffice.Cache.SuperStateHelper.SetSuperModeHasChanged
+- uid: SuperOffice.Cache.SuperStateHelper.GetHistory*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetHistory
+  isExternal: true
+  name: GetHistory
+  nameWithType: SuperStateHelper.GetHistory
+  fullName: SuperOffice.Cache.SuperStateHelper.GetHistory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<HistoryItem>
+  nameWithType: List<HistoryItem>
+  fullName: System.Collections.Generic.List<SuperOffice.Cache.HistoryItem>
+  nameWithType.vb: List(Of HistoryItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Cache.HistoryItem)
+  name.vb: List(Of HistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Cache.SuperStateHelper.GetHistoryIds*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetHistoryIds
+  isExternal: true
+  name: GetHistoryIds
+  nameWithType: SuperStateHelper.GetHistoryIds
+  fullName: SuperOffice.Cache.SuperStateHelper.GetHistoryIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Cache.SuperStateHelper.GetHistoryItem*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetHistoryItem
+  isExternal: true
+  name: GetHistoryItem
+  nameWithType: SuperStateHelper.GetHistoryItem
+  fullName: SuperOffice.Cache.SuperStateHelper.GetHistoryItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Cache.SuperStateHelper.ClearHistoryItem*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.ClearHistoryItem
+  isExternal: true
+  name: ClearHistoryItem
+  nameWithType: SuperStateHelper.ClearHistoryItem
+  fullName: SuperOffice.Cache.SuperStateHelper.ClearHistoryItem
+- uid: SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem
+  isExternal: true
+  name: UpdateHistoryItem
+  nameWithType: SuperStateHelper.UpdateHistoryItem
+  fullName: SuperOffice.Cache.SuperStateHelper.UpdateHistoryItem
+- uid: SuperOffice.Cache.SuperStateHelper.SetHistory*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetHistory
+  isExternal: true
+  name: SetHistory
+  nameWithType: SuperStateHelper.SetHistory
+  fullName: SuperOffice.Cache.SuperStateHelper.SetHistory
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrent*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SuperStateHelper.GetCurrent
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrent
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Cache.HistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, HistoryItem>
+  nameWithType: Dictionary<String, HistoryItem>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Cache.HistoryItem>
+  nameWithType.vb: Dictionary(Of String, HistoryItem)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Cache.HistoryItem)
+  name.vb: Dictionary(Of String, HistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrentChanges*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetCurrentChanges
+  isExternal: true
+  name: GetCurrentChanges
+  nameWithType: SuperStateHelper.GetCurrentChanges
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrentChanges
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrent*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetCurrent
+  isExternal: true
+  name: SetCurrent
+  nameWithType: SuperStateHelper.SetCurrent
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrent
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged
+  isExternal: true
+  name: SetCurrentHasChanged
+  nameWithType: SuperStateHelper.SetCurrentHasChanged
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentHasChanged
+- uid: SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary
+  isExternal: true
+  name: GetMiniPanelDictionary
+  nameWithType: SuperStateHelper.GetMiniPanelDictionary
+  fullName: SuperOffice.Cache.SuperStateHelper.GetMiniPanelDictionary
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary
+  isExternal: true
+  name: SetMiniPanelDictionary
+  nameWithType: SuperStateHelper.SetMiniPanelDictionary
+  fullName: SuperOffice.Cache.SuperStateHelper.SetMiniPanelDictionary
+- uid: SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView
+  isExternal: true
+  name: GetMiniPanelForView
+  nameWithType: SuperStateHelper.GetMiniPanelForView
+  fullName: SuperOffice.Cache.SuperStateHelper.GetMiniPanelForView
+- uid: SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView
+  isExternal: true
+  name: SetMiniPanelForView
+  nameWithType: SuperStateHelper.SetMiniPanelForView
+  fullName: SuperOffice.Cache.SuperStateHelper.SetMiniPanelForView
+- uid: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize
+  isExternal: true
+  name: GetCurrentPageWindowSize
+  nameWithType: SuperStateHelper.GetCurrentPageWindowSize
+  fullName: SuperOffice.Cache.SuperStateHelper.GetCurrentPageWindowSize
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize
+  isExternal: true
+  name: SetCurrentPageWindowSize
+  nameWithType: SuperStateHelper.SetCurrentPageWindowSize
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowSize
+- uid: SuperOffice.Cache.SuperStateHelper.GetWindowSize*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.GetWindowSize
+  isExternal: true
+  name: GetWindowSize
+  nameWithType: SuperStateHelper.GetWindowSize
+  fullName: SuperOffice.Cache.SuperStateHelper.GetWindowSize
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowSize*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetWindowSize
+  isExternal: true
+  name: SetWindowSize
+  nameWithType: SuperStateHelper.SetWindowSize
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowSize
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight
+  isExternal: true
+  name: SetCurrentPageWindowHeight
+  nameWithType: SuperStateHelper.SetCurrentPageWindowHeight
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowHeight
+- uid: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth
+  isExternal: true
+  name: SetCurrentPageWindowWidth
+  nameWithType: SuperStateHelper.SetCurrentPageWindowWidth
+  fullName: SuperOffice.Cache.SuperStateHelper.SetCurrentPageWindowWidth
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowHeight*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetWindowHeight
+  isExternal: true
+  name: SetWindowHeight
+  nameWithType: SuperStateHelper.SetWindowHeight
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowHeight
+- uid: SuperOffice.Cache.SuperStateHelper.SetWindowWidth*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SetWindowWidth
+  isExternal: true
+  name: SetWindowWidth
+  nameWithType: SuperStateHelper.SetWindowWidth
+  fullName: SuperOffice.Cache.SuperStateHelper.SetWindowWidth
+- uid: SuperOffice.Cache.SuperStateHelper.SuperState*
+  commentId: Overload:SuperOffice.Cache.SuperStateHelper.SuperState
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperStateHelper.SuperState
+  fullName: SuperOffice.Cache.SuperStateHelper.SuperState

@@ -1,0 +1,1660 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  id: AdminCsDataHandler
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler.#ctor
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._AdminUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._CategoriesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustLangsUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustPagesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignChoosersUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignDebugLogsUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignMenusUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignPackagesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignScreensUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignTablesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignWebPanelsUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._InvoiceTypesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._MailboxesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._PrioritiesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._ProfilesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._SoapUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._StatusUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler._TemplatesUrl
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AdminCsDataHandler
+  nameWithType: AdminCsDataHandler
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class AdminCsDataHandler : DataHandlerBase, IDataHandler, IWebObject, IPlugin'
+    content.vb: >-
+      Public Class AdminCsDataHandler
+          Inherits DataHandlerBase
+          Implements IDataHandler, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.Data.DataHandlerBase
+  implements:
+  - SuperOffice.Data.IDataHandler
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._AdminUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._AdminUrl
+  id: _AdminUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _AdminUrl
+  nameWithType: AdminCsDataHandler._AdminUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._AdminUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _AdminUrl = "AdminUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _AdminUrl As String = "AdminUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._CategoriesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._CategoriesUrl
+  id: _CategoriesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _CategoriesUrl
+  nameWithType: AdminCsDataHandler._CategoriesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._CategoriesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _CategoriesUrl = "CategoriesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _CategoriesUrl As String = "CategoriesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._PrioritiesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._PrioritiesUrl
+  id: _PrioritiesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _PrioritiesUrl
+  nameWithType: AdminCsDataHandler._PrioritiesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._PrioritiesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _PrioritiesUrl = "PrioritiesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _PrioritiesUrl As String = "PrioritiesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._StatusUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._StatusUrl
+  id: _StatusUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _StatusUrl
+  nameWithType: AdminCsDataHandler._StatusUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._StatusUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _StatusUrl = "StatusUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _StatusUrl As String = "StatusUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._MailboxesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._MailboxesUrl
+  id: _MailboxesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _MailboxesUrl
+  nameWithType: AdminCsDataHandler._MailboxesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._MailboxesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _MailboxesUrl = "MailboxesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _MailboxesUrl As String = "MailboxesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._InvoiceTypesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._InvoiceTypesUrl
+  id: _InvoiceTypesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _InvoiceTypesUrl
+  nameWithType: AdminCsDataHandler._InvoiceTypesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._InvoiceTypesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _InvoiceTypesUrl = "InvoiceTypesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _InvoiceTypesUrl As String = "InvoiceTypesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._TemplatesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._TemplatesUrl
+  id: _TemplatesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _TemplatesUrl
+  nameWithType: AdminCsDataHandler._TemplatesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._TemplatesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _TemplatesUrl = "TemplatesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _TemplatesUrl As String = "TemplatesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._SoapUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._SoapUrl
+  id: _SoapUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _SoapUrl
+  nameWithType: AdminCsDataHandler._SoapUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._SoapUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _SoapUrl = "SoapUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _SoapUrl As String = "SoapUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustLangsUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustLangsUrl
+  id: _CustLangsUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _CustLangsUrl
+  nameWithType: AdminCsDataHandler._CustLangsUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustLangsUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _CustLangsUrl = "CustLangsUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _CustLangsUrl As String = "CustLangsUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustPagesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustPagesUrl
+  id: _CustPagesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _CustPagesUrl
+  nameWithType: AdminCsDataHandler._CustPagesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._CustPagesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _CustPagesUrl = "CustPagesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _CustPagesUrl As String = "CustPagesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._ProfilesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._ProfilesUrl
+  id: _ProfilesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _ProfilesUrl
+  nameWithType: AdminCsDataHandler._ProfilesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._ProfilesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _ProfilesUrl = "ProfilesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _ProfilesUrl As String = "ProfilesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignTablesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignTablesUrl
+  id: _DesignTablesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignTablesUrl
+  nameWithType: AdminCsDataHandler._DesignTablesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignTablesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignTablesUrl = "DesignTablesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignTablesUrl As String = "DesignTablesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignMenusUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignMenusUrl
+  id: _DesignMenusUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignMenusUrl
+  nameWithType: AdminCsDataHandler._DesignMenusUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignMenusUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignMenusUrl = "DesignMenusUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignMenusUrl As String = "DesignMenusUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignWebPanelsUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignWebPanelsUrl
+  id: _DesignWebPanelsUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignWebPanelsUrl
+  nameWithType: AdminCsDataHandler._DesignWebPanelsUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignWebPanelsUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignWebPanelsUrl = "DesignWebPanelsUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignWebPanelsUrl As String = "DesignWebPanelsUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignScreensUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignScreensUrl
+  id: _DesignScreensUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignScreensUrl
+  nameWithType: AdminCsDataHandler._DesignScreensUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignScreensUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignScreensUrl = "DesignScreensUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignScreensUrl As String = "DesignScreensUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignChoosersUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignChoosersUrl
+  id: _DesignChoosersUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignChoosersUrl
+  nameWithType: AdminCsDataHandler._DesignChoosersUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignChoosersUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignChoosersUrl = "DesignChoosersUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignChoosersUrl As String = "DesignChoosersUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignPackagesUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignPackagesUrl
+  id: _DesignPackagesUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignPackagesUrl
+  nameWithType: AdminCsDataHandler._DesignPackagesUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignPackagesUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignPackagesUrl = "DesignPackagesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignPackagesUrl As String = "DesignPackagesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignDebugLogsUrl
+  commentId: F:SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignDebugLogsUrl
+  id: _DesignDebugLogsUrl
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: _DesignDebugLogsUrl
+  nameWithType: AdminCsDataHandler._DesignDebugLogsUrl
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler._DesignDebugLogsUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public const string _DesignDebugLogsUrl = "DesignDebugLogsUrl"
+    return:
+      type: System.String
+    content.vb: Public Const _DesignDebugLogsUrl As String = "DesignDebugLogsUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: AdminCsDataHandler.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load(System.String)
+  id: Load(System.String)
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: AdminCsDataHandler.Load(String)
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Load(string CarrierId)
+    parameters:
+    - id: CarrierId
+      type: System.String
+    content.vb: Public Overrides Sub Load(CarrierId As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  overload: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.AdminCsDataHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+  langs:
+  - csharp
+  - vb
+  name: AdminCsDataHandler()
+  nameWithType: AdminCsDataHandler.AdminCsDataHandler()
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler.AdminCsDataHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public AdminCsDataHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.AdminCsDataHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase
+  commentId: T:SuperOffice.DCF.Web.Data.DataHandlerBase
+  parent: SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: DataHandlerBase
+  nameWithType: DataHandlerBase
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: isPreLoadMode
+  nameWithType: DataHandlerBase.isPreLoadMode
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _dataCarriers
+  nameWithType: DataHandlerBase._dataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _mandatoryDataCarriers
+  nameWithType: DataHandlerBase._mandatoryDataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _primaryCurrent
+  nameWithType: DataHandlerBase._primaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _currentHistoryItem
+  nameWithType: DataHandlerBase._currentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _config
+  nameWithType: DataHandlerBase._config
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _id
+  nameWithType: DataHandlerBase._id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _hasLoaded
+  nameWithType: DataHandlerBase._hasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _isNew
+  nameWithType: DataHandlerBase._isNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String, String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Clear()
+  nameWithType: DataHandlerBase.Clear()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New()
+  nameWithType: DataHandlerBase.New()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New(String)
+  nameWithType: DataHandlerBase.New(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Save()
+  nameWithType: DataHandlerBase.Save()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    name: Save
+    nameWithType: DataHandlerBase.Save
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    name: Save
+    nameWithType: DataHandlerBase.Save
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Delete()
+  nameWithType: DataHandlerBase.Delete()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeDataBind()
+  nameWithType: DataHandlerBase.OnBeforeDataBind()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeValidate()
+  nameWithType: DataHandlerBase.OnBeforeValidate()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CheckMandatoryData(String)
+  nameWithType: DataHandlerBase.CheckMandatoryData(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriersToExpose
+  nameWithType: DataHandlerBase.DataCarriersToExpose
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: ExposeToClient
+  nameWithType: DataHandlerBase.ExposeToClient
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Id
+  nameWithType: DataHandlerBase.Id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: HasLoaded
+  nameWithType: DataHandlerBase.HasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: IsNew
+  nameWithType: DataHandlerBase.IsNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriers
+  nameWithType: DataHandlerBase.DataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: PrimaryCurrent
+  nameWithType: DataHandlerBase.PrimaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CurrentHistoryItem
+  nameWithType: DataHandlerBase.CurrentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventArgument
+  nameWithType: DataHandlerBase.EventArgument
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventTarget
+  nameWithType: DataHandlerBase.EventTarget
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: DataHandlerBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: DataHandlerBase.Initialize
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: DataHandlerBase.Initialize
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: AdminCsDataHandler.Initialize
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Load(String)
+  nameWithType: DataHandlerBase.Load(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+    name: Load
+    nameWithType: DataHandlerBase.Load
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+    name: Load
+    nameWithType: DataHandlerBase.Load
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load
+  isExternal: true
+  name: Load
+  nameWithType: AdminCsDataHandler.Load
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler.Load
+- uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AdminCsDataHandler.#ctor
+  isExternal: true
+  name: AdminCsDataHandler
+  nameWithType: AdminCsDataHandler.AdminCsDataHandler
+  fullName: SuperOffice.CRM.Web.Data.AdminCsDataHandler.AdminCsDataHandler

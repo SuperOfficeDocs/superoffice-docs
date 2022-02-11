@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.TimeZone
+  commentId: N:SuperOffice.License.TimeZone
+  id: SuperOffice.License.TimeZone
+  children:
+  - SuperOffice.License.TimeZone.TimeZoneService
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.License.TimeZone
+  nameWithType: SuperOffice.License.TimeZone
+  fullName: SuperOffice.License.TimeZone
+  type: Namespace
+  assemblies:
+  - SoLicense
+references:
+- uid: SuperOffice.License.TimeZone.TimeZoneService
+  commentId: T:SuperOffice.License.TimeZone.TimeZoneService
+  isExternal: true
+  name: TimeZoneService
+  nameWithType: TimeZoneService
+  fullName: SuperOffice.License.TimeZone.TimeZoneService

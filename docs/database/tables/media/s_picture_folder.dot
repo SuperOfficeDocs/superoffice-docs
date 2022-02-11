@@ -1,0 +1,11 @@
+digraph s_picture_folder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_picture_folder[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+form[fillcolor = "azure1"]
+s_picture_folder -> associate [headlabel = "registered_associate_id"]
+s_picture_folder -> associate [label = "updated_associate_id"]
+form -> s_picture_folder [label = "folder_id"]
+}

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  id: Configuration_ClearConfigurationCacheRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application
+  - SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  - SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance
+  langs:
+  - csharp
+  - vb
+  name: Configuration_ClearConfigurationCacheRequest
+  nameWithType: Configuration_ClearConfigurationCacheRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_ClearConfigurationCacheRequest : Object'
+    content.vb: >-
+      Public Class Configuration_ClearConfigurationCacheRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_ClearConfigurationCacheRequest()
+  nameWithType: Configuration_ClearConfigurationCacheRequest.Configuration_ClearConfigurationCacheRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Configuration_ClearConfigurationCacheRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_ClearConfigurationCacheRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application
+  commentId: P:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application
+  id: Application
+  parent: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: Configuration_ClearConfigurationCacheRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Application { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Application As String
+  overload: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance
+  commentId: P:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance
+  id: Instance
+  parent: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Configuration_ClearConfigurationCacheRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Instance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Instance As String
+  overload: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  commentId: P:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  id: ForAllAssociates
+  parent: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest
+  langs:
+  - csharp
+  - vb
+  name: ForAllAssociates
+  nameWithType: Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ForAllAssociates { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForAllAssociates As Boolean
+  overload: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.#ctor
+  isExternal: true
+  name: Configuration_ClearConfigurationCacheRequest
+  nameWithType: Configuration_ClearConfigurationCacheRequest.Configuration_ClearConfigurationCacheRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Configuration_ClearConfigurationCacheRequest
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application
+  isExternal: true
+  name: Application
+  nameWithType: Configuration_ClearConfigurationCacheRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Application
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: Configuration_ClearConfigurationCacheRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.Instance
+- uid: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  isExternal: true
+  name: ForAllAssociates
+  nameWithType: Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+  fullName: SuperOffice.WebApi.Data.Configuration_ClearConfigurationCacheRequest.ForAllAssociates
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

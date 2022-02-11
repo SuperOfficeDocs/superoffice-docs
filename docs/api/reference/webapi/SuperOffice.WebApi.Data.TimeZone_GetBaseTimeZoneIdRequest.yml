@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest
+  commentId: T:SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest
+  id: TimeZone_GetBaseTimeZoneIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_GetBaseTimeZoneIdRequest
+  nameWithType: TimeZone_GetBaseTimeZoneIdRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class TimeZone_GetBaseTimeZoneIdRequest : Object'
+    content.vb: >-
+      Public Class TimeZone_GetBaseTimeZoneIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_GetBaseTimeZoneIdRequest()
+  nameWithType: TimeZone_GetBaseTimeZoneIdRequest.TimeZone_GetBaseTimeZoneIdRequest()
+  fullName: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.TimeZone_GetBaseTimeZoneIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TimeZone_GetBaseTimeZoneIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.#ctor
+  isExternal: true
+  name: TimeZone_GetBaseTimeZoneIdRequest
+  nameWithType: TimeZone_GetBaseTimeZoneIdRequest.TimeZone_GetBaseTimeZoneIdRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_GetBaseTimeZoneIdRequest.TimeZone_GetBaseTimeZoneIdRequest

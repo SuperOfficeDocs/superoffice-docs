@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  commentId: T:SuperOffice.CRM.Administration.IUserValidatorPlugin
+  id: IUserValidatorPlugin
+  parent: SuperOffice.CRM.Administration
+  children:
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: IUserValidatorPlugin
+  nameWithType: IUserValidatorPlugin
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nPlugin for validating user-names and passwords.\n"
+  remarks: "\nThese plugins are called in a chain.  If any plugin rejects a user-name or password, it is rejected.\n"
+  syntax:
+    content: 'public interface IUserValidatorPlugin : IPlugin'
+    content.vb: >-
+      Public Interface IUserValidatorPlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  id: IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsAssociateNameLegal(Int32, UserType, Int32, String, out String)
+  nameWithType: IUserValidatorPlugin.IsAssociateNameLegal(Int32, UserType, Int32, String, out String)
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nCheck if an associate name is valid for a given user.\n"
+  syntax:
+    content: bool IsAssociateNameLegal(int associateId, UserType type, int personId, string associateName, out string reason)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to check if the user name is valid for.
+    - id: type
+      type: SuperOffice.License.UserType
+      description: Type of user.
+    - id: personId
+      type: System.Int32
+      description: Person id of the user (if the user is a named user).
+    - id: associateName
+      type: System.String
+      description: Candidate for associate name.
+    - id: reason
+      type: System.String
+      description: The reason for denying an associate name.
+    return:
+      type: System.Boolean
+      description: Return true if the associate name is valid.
+    content.vb: Function IsAssociateNameLegal(associateId As Integer, type As UserType, personId As Integer, associateName As String, ByRef reason As String) As Boolean
+  overload: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal*
+  nameWithType.vb: IUserValidatorPlugin.IsAssociateNameLegal(Int32, UserType, Int32, String, ByRef String)
+  fullName.vb: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, ByRef System.String)
+  name.vb: IsAssociateNameLegal(Int32, UserType, Int32, String, ByRef String)
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  id: IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsAssociateUserNameLegal(Int32, UserType, Int32, String, out String)
+  nameWithType: IUserValidatorPlugin.IsAssociateUserNameLegal(Int32, UserType, Int32, String, out String)
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nCheck if an associate username is valid for a given user.\n"
+  syntax:
+    content: bool IsAssociateUserNameLegal(int associateId, UserType type, int personId, string associateUsername, out string reason)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to check if the user name is valid for.
+    - id: type
+      type: SuperOffice.License.UserType
+      description: Type of user.
+    - id: personId
+      type: System.Int32
+      description: Person id of the user (if the user is a named user).
+    - id: associateUsername
+      type: System.String
+    - id: reason
+      type: System.String
+      description: The reason for denying a username.
+    return:
+      type: System.Boolean
+      description: Return true if the associate username is valid.
+    content.vb: Function IsAssociateUserNameLegal(associateId As Integer, type As UserType, personId As Integer, associateUsername As String, ByRef reason As String) As Boolean
+  overload: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal*
+  nameWithType.vb: IUserValidatorPlugin.IsAssociateUserNameLegal(Int32, UserType, Int32, String, ByRef String)
+  fullName.vb: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, ByRef System.String)
+  name.vb: IsAssociateUserNameLegal(Int32, UserType, Int32, String, ByRef String)
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  id: IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsPasswordLegal(Int32, UserType, Int32, String, out String)
+  nameWithType: IUserValidatorPlugin.IsPasswordLegal(Int32, UserType, Int32, String, out String)
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nChack if the password is valid.\n"
+  syntax:
+    content: bool IsPasswordLegal(int associateId, UserType type, int personId, string password, out string reason)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to check if the user name is valid for.
+    - id: type
+      type: SuperOffice.License.UserType
+      description: Type of user.
+    - id: personId
+      type: System.Int32
+      description: Person id of the user (if the user is a named user).
+    - id: password
+      type: System.String
+      description: The password candidate
+    - id: reason
+      type: System.String
+      description: The reason for denying the password
+    return:
+      type: System.Boolean
+      description: Return true if the password is valid
+    content.vb: Function IsPasswordLegal(associateId As Integer, type As UserType, personId As Integer, password As String, ByRef reason As String) As Boolean
+  overload: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal*
+  nameWithType.vb: IUserValidatorPlugin.IsPasswordLegal(Int32, UserType, Int32, String, ByRef String)
+  fullName.vb: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, ByRef System.String)
+  name.vb: IsPasswordLegal(Int32, UserType, Int32, String, ByRef String)
+references:
+- uid: SuperOffice.CRM.Administration
+  commentId: N:SuperOffice.CRM.Administration
+  isExternal: true
+  name: SuperOffice.CRM.Administration
+  nameWithType: SuperOffice.CRM.Administration
+  fullName: SuperOffice.CRM.Administration
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IUserValidatorPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<IUserValidatorPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.IUserValidatorPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IUserValidatorPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.IUserValidatorPlugin, To)()
+  name.vb: MapEnums(Of IUserValidatorPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IUserValidatorPlugin, To>
+    nameWithType: EnumUtil.MapEnums<IUserValidatorPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.IUserValidatorPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IUserValidatorPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of IUserValidatorPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.IUserValidatorPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IUserValidatorPlugin, To>()
+  nameWithType: Converters.MapEnums<IUserValidatorPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.IUserValidatorPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of IUserValidatorPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.IUserValidatorPlugin, To)()
+  name.vb: MapEnums(Of IUserValidatorPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IUserValidatorPlugin, To>
+    nameWithType: Converters.MapEnums<IUserValidatorPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.IUserValidatorPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IUserValidatorPlugin, To)
+    nameWithType: Converters.MapEnums(Of IUserValidatorPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.IUserValidatorPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal*
+  commentId: Overload:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal
+  isExternal: true
+  name: IsAssociateNameLegal
+  nameWithType: IUserValidatorPlugin.IsAssociateNameLegal
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal*
+  commentId: Overload:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal
+  isExternal: true
+  name: IsAssociateUserNameLegal
+  nameWithType: IUserValidatorPlugin.IsAssociateUserNameLegal
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal*
+  commentId: Overload:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal
+  isExternal: true
+  name: IsPasswordLegal
+  nameWithType: IUserValidatorPlugin.IsPasswordLegal
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal

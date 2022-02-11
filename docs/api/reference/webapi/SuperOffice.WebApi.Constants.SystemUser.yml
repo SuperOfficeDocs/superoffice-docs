@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.SystemUser
+  commentId: T:SuperOffice.WebApi.Constants.SystemUser
+  id: Constants.SystemUser
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.SystemUser.ClaimsIssuer
+  - SuperOffice.WebApi.Constants.SystemUser.PartnerSystemNamespace
+  - SuperOffice.WebApi.Constants.SystemUser.SoapAction
+  - SuperOffice.WebApi.Constants.SystemUser.SystemUserEndpoint
+  langs:
+  - csharp
+  - vb
+  name: Constants.SystemUser
+  nameWithType: Constants.SystemUser
+  fullName: SuperOffice.WebApi.Constants.SystemUser
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class SystemUser : Object'
+    content.vb: >-
+      Public Module SystemUser
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.SystemUser.ClaimsIssuer
+  commentId: F:SuperOffice.WebApi.Constants.SystemUser.ClaimsIssuer
+  id: ClaimsIssuer
+  parent: SuperOffice.WebApi.Constants.SystemUser
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIssuer
+  nameWithType: Constants.SystemUser.ClaimsIssuer
+  fullName: SuperOffice.WebApi.Constants.SystemUser.ClaimsIssuer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ClaimsIssuer = "SuperOffice AS"
+    return:
+      type: System.String
+    content.vb: Public Const ClaimsIssuer As String = "SuperOffice AS"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.SystemUser.PartnerSystemNamespace
+  commentId: F:SuperOffice.WebApi.Constants.SystemUser.PartnerSystemNamespace
+  id: PartnerSystemNamespace
+  parent: SuperOffice.WebApi.Constants.SystemUser
+  langs:
+  - csharp
+  - vb
+  name: PartnerSystemNamespace
+  nameWithType: Constants.SystemUser.PartnerSystemNamespace
+  fullName: SuperOffice.WebApi.Constants.SystemUser.PartnerSystemNamespace
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string PartnerSystemNamespace = "http://www.superoffice.com/superid/partnersystemuser/0.1"
+    return:
+      type: System.String
+    content.vb: Public Const PartnerSystemNamespace As String = "http://www.superoffice.com/superid/partnersystemuser/0.1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.SystemUser.SoapAction
+  commentId: F:SuperOffice.WebApi.Constants.SystemUser.SoapAction
+  id: SoapAction
+  parent: SuperOffice.WebApi.Constants.SystemUser
+  langs:
+  - csharp
+  - vb
+  name: SoapAction
+  nameWithType: Constants.SystemUser.SoapAction
+  fullName: SuperOffice.WebApi.Constants.SystemUser.SoapAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SoapAction = "http://www.superoffice.com/superid/partnersystemuser/0.1/IPartnerSystemUserService/Authenticate"
+    return:
+      type: System.String
+    content.vb: Public Const SoapAction As String = "http://www.superoffice.com/superid/partnersystemuser/0.1/IPartnerSystemUserService/Authenticate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.SystemUser.SystemUserEndpoint
+  commentId: F:SuperOffice.WebApi.Constants.SystemUser.SystemUserEndpoint
+  id: SystemUserEndpoint
+  parent: SuperOffice.WebApi.Constants.SystemUser
+  langs:
+  - csharp
+  - vb
+  name: SystemUserEndpoint
+  nameWithType: Constants.SystemUser.SystemUserEndpoint
+  fullName: SuperOffice.WebApi.Constants.SystemUser.SystemUserEndpoint
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SystemUserEndpoint = "https://{0}.superoffice.com/login/services/PartnerSystemUserService.svc"
+    return:
+      type: System.String
+    content.vb: Public Const SystemUserEndpoint As String = "https://{0}.superoffice.com/login/services/PartnerSystemUserService.svc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

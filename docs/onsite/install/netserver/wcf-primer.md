@@ -96,7 +96,7 @@ Use Fiddler to look at the HTTP traffic between the client and the web service t
 Fiddler is an HTTP Proxy that allows you to look at HTTP traffic between local clients and a server (possibly running on your local machine).
 
 <!-- Referenced links -->
-[1]: ../../../../../data-access/docs/netserver/config/services.md
+[1]: ../../../api/config/services.md
 
 <!-- Referenced images -->
 [img1]: media/config-app-server.png

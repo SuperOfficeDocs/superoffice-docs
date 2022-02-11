@@ -1,0 +1,1280 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.Configuration
+  commentId: T:SuperOffice.Configuration.Configuration
+  id: Configuration
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.Configuration.#ctor
+  - SuperOffice.Configuration.Configuration.DatabaseOwnerName
+  - SuperOffice.Configuration.Configuration.DatabaseSerialNumber
+  - SuperOffice.Configuration.Configuration.DatabaseType
+  - SuperOffice.Configuration.Configuration.GetConfigBool(System.String)
+  - SuperOffice.Configuration.Configuration.GetConfigInt(System.String)
+  - SuperOffice.Configuration.Configuration.GetConfigString(System.String)
+  - SuperOffice.Configuration.Configuration.HasLicense(System.String)
+  - SuperOffice.Configuration.Configuration.NetServerVersionFullName
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: Configuration
+  fullName: SuperOffice.Configuration.Configuration
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nExposes configuration to plugins\n"
+  syntax:
+    content: 'public class Configuration : IConfiguration'
+    content.vb: >-
+      Public Class Configuration
+          Implements IConfiguration
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.IConfiguration
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Configuration.Configuration.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.Configuration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.Configuration)
+  - SuperOffice.Configuration.Configuration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Configuration.Configuration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Configuration.Configuration.HasLicense(System.String)
+  commentId: M:SuperOffice.Configuration.Configuration.HasLicense(System.String)
+  id: HasLicense(System.String)
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: HasLicense(String)
+  nameWithType: Configuration.HasLicense(String)
+  fullName: SuperOffice.Configuration.Configuration.HasLicense(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nDoes the system have the given license?\n"
+  syntax:
+    content: public bool HasLicense(string licenseName)
+    parameters:
+    - id: licenseName
+      type: System.String
+      description: 'License code name: &quot;superoffice.server&quot; or &quot;superoffice.quote&quot;.  CAL licenses are not useful to check here.'
+    return:
+      type: System.Boolean
+      description: true if the system has the given license
+    content.vb: Public Function HasLicense(licenseName As String) As Boolean
+  overload: SuperOffice.Configuration.Configuration.HasLicense*
+  implements:
+  - SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Configuration.Configuration.GetConfigString(System.String)
+  commentId: M:SuperOffice.Configuration.Configuration.GetConfigString(System.String)
+  id: GetConfigString(System.String)
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: GetConfigString(String)
+  nameWithType: Configuration.GetConfigString(String)
+  fullName: SuperOffice.Configuration.Configuration.GetConfigString(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nString value from the configuration\n"
+  syntax:
+    content: public string GetConfigString(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: '&quot;SuperOffice/Database/Major'
+    return:
+      type: System.String
+      description: '&quot;123&quot; from the web.config or superoffice.config file'
+    content.vb: Public Function GetConfigString(path As String) As String
+  overload: SuperOffice.Configuration.Configuration.GetConfigString*
+  implements:
+  - SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Configuration.Configuration.GetConfigInt(System.String)
+  commentId: M:SuperOffice.Configuration.Configuration.GetConfigInt(System.String)
+  id: GetConfigInt(System.String)
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: GetConfigInt(String)
+  nameWithType: Configuration.GetConfigInt(String)
+  fullName: SuperOffice.Configuration.Configuration.GetConfigInt(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nNumber value from the configuration\n"
+  syntax:
+    content: public int GetConfigInt(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: '&quot;SuperOffice/Database/Major'
+    return:
+      type: System.Int32
+      description: 123 from the web.config or superoffice.config file
+    content.vb: Public Function GetConfigInt(path As String) As Integer
+  overload: SuperOffice.Configuration.Configuration.GetConfigInt*
+  implements:
+  - SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Configuration.Configuration.GetConfigBool(System.String)
+  commentId: M:SuperOffice.Configuration.Configuration.GetConfigBool(System.String)
+  id: GetConfigBool(System.String)
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: GetConfigBool(String)
+  nameWithType: Configuration.GetConfigBool(String)
+  fullName: SuperOffice.Configuration.Configuration.GetConfigBool(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nTrue/False value from the configuration\n"
+  syntax:
+    content: public bool GetConfigBool(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: '&quot;SuperOffice/Database/Major'
+    return:
+      type: System.Boolean
+      description: true or false from the web.config or superoffice.config file
+    content.vb: Public Function GetConfigBool(path As String) As Boolean
+  overload: SuperOffice.Configuration.Configuration.GetConfigBool*
+  implements:
+  - SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Configuration.Configuration.#ctor
+  commentId: M:SuperOffice.Configuration.Configuration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: Configuration()
+  nameWithType: Configuration.Configuration()
+  fullName: SuperOffice.Configuration.Configuration.Configuration()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public Configuration()
+    content.vb: Public Sub New
+  overload: SuperOffice.Configuration.Configuration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Configuration.Configuration.NetServerVersionFullName
+  commentId: P:SuperOffice.Configuration.Configuration.NetServerVersionFullName
+  id: NetServerVersionFullName
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: NetServerVersionFullName
+  nameWithType: Configuration.NetServerVersionFullName
+  fullName: SuperOffice.Configuration.Configuration.NetServerVersionFullName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nFull name of this version of NetServer: &quot;SuperOffice NetServer 7.1 Release (Build: 7.1.200.300.TEST})&quot;\n"
+  syntax:
+    content: public string NetServerVersionFullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NetServerVersionFullName As String
+  overload: SuperOffice.Configuration.Configuration.NetServerVersionFullName*
+  implements:
+  - SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Configuration.Configuration.DatabaseOwnerName
+  commentId: P:SuperOffice.Configuration.Configuration.DatabaseOwnerName
+  id: DatabaseOwnerName
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseOwnerName
+  nameWithType: Configuration.DatabaseOwnerName
+  fullName: SuperOffice.Configuration.Configuration.DatabaseOwnerName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nCompany name of the database owner. &quot;SuperOffice AS&quot;\n"
+  syntax:
+    content: public string DatabaseOwnerName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DatabaseOwnerName As String
+  overload: SuperOffice.Configuration.Configuration.DatabaseOwnerName*
+  implements:
+  - SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Configuration.Configuration.DatabaseSerialNumber
+  commentId: P:SuperOffice.Configuration.Configuration.DatabaseSerialNumber
+  id: DatabaseSerialNumber
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseSerialNumber
+  nameWithType: Configuration.DatabaseSerialNumber
+  fullName: SuperOffice.Configuration.Configuration.DatabaseSerialNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\nSerial Number &quot;1230004569&quot;\n"
+  syntax:
+    content: public string DatabaseSerialNumber { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DatabaseSerialNumber As String
+  overload: SuperOffice.Configuration.Configuration.DatabaseSerialNumber*
+  implements:
+  - SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Configuration.Configuration.DatabaseType
+  commentId: P:SuperOffice.Configuration.Configuration.DatabaseType
+  id: DatabaseType
+  parent: SuperOffice.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseType
+  nameWithType: Configuration.DatabaseType
+  fullName: SuperOffice.Configuration.Configuration.DatabaseType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Configuration
+  summary: "\n&quot;central&quot;, &quot;satellite&quot;, or &quot;travel&quot;\n"
+  syntax:
+    content: public string DatabaseType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DatabaseType As String
+  overload: SuperOffice.Configuration.Configuration.DatabaseType*
+  implements:
+  - SuperOffice.CRM.IConfiguration.DatabaseType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.IConfiguration
+  commentId: T:SuperOffice.CRM.IConfiguration
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: SuperOffice.CRM.IConfiguration
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.Configuration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Configuration, To>()
+  nameWithType: EnumUtil.MapEnums<Configuration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.Configuration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Configuration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.Configuration, To)()
+  name.vb: MapEnums(Of Configuration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Configuration, To>
+    nameWithType: EnumUtil.MapEnums<Configuration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.Configuration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Configuration, To)
+    nameWithType: EnumUtil.MapEnums(Of Configuration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.Configuration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.Configuration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.Configuration)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<Configuration>(Configuration)
+  nameWithType: ObjectExtensions.AssignByReflection<Configuration>(Configuration)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Configuration.Configuration>(SuperOffice.Configuration.Configuration)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Configuration)(Configuration)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Configuration.Configuration)(SuperOffice.Configuration.Configuration)
+  name.vb: AssignByReflection(Of Configuration)(Configuration)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<Configuration>
+    nameWithType: ObjectExtensions.AssignByReflection<Configuration>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Configuration.Configuration>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Configuration.Configuration
+    name: Configuration
+    nameWithType: Configuration
+    fullName: SuperOffice.Configuration.Configuration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of Configuration)
+    nameWithType: ObjectExtensions.AssignByReflection(Of Configuration)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Configuration.Configuration)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Configuration.Configuration
+    name: Configuration
+    nameWithType: Configuration
+    fullName: SuperOffice.Configuration.Configuration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.Configuration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<Configuration>()
+  nameWithType: ObjectExtensions.GraphCopy<Configuration>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Configuration.Configuration>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Configuration)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Configuration.Configuration)()
+  name.vb: GraphCopy(Of Configuration)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<Configuration>
+    nameWithType: ObjectExtensions.GraphCopy<Configuration>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Configuration.Configuration>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of Configuration)
+    nameWithType: ObjectExtensions.GraphCopy(Of Configuration)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Configuration.Configuration)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.Configuration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Configuration, To>()
+  nameWithType: Converters.MapEnums<Configuration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.Configuration, To>()
+  nameWithType.vb: Converters.MapEnums(Of Configuration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.Configuration, To)()
+  name.vb: MapEnums(Of Configuration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Configuration, To>
+    nameWithType: Converters.MapEnums<Configuration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.Configuration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Configuration, To)
+    nameWithType: Converters.MapEnums(Of Configuration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.Configuration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.Configuration.HasLicense*
+  commentId: Overload:SuperOffice.Configuration.Configuration.HasLicense
+  isExternal: true
+  name: HasLicense
+  nameWithType: Configuration.HasLicense
+  fullName: SuperOffice.Configuration.Configuration.HasLicense
+- uid: SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: HasLicense(String)
+  nameWithType: IConfiguration.HasLicense(String)
+  fullName: SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+    name: HasLicense
+    nameWithType: IConfiguration.HasLicense
+    fullName: SuperOffice.CRM.IConfiguration.HasLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+    name: HasLicense
+    nameWithType: IConfiguration.HasLicense
+    fullName: SuperOffice.CRM.IConfiguration.HasLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.Configuration.GetConfigString*
+  commentId: Overload:SuperOffice.Configuration.Configuration.GetConfigString
+  isExternal: true
+  name: GetConfigString
+  nameWithType: Configuration.GetConfigString
+  fullName: SuperOffice.Configuration.Configuration.GetConfigString
+- uid: SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: GetConfigString(String)
+  nameWithType: IConfiguration.GetConfigString(String)
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+    name: GetConfigString
+    nameWithType: IConfiguration.GetConfigString
+    fullName: SuperOffice.CRM.IConfiguration.GetConfigString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+    name: GetConfigString
+    nameWithType: IConfiguration.GetConfigString
+    fullName: SuperOffice.CRM.IConfiguration.GetConfigString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.Configuration.GetConfigInt*
+  commentId: Overload:SuperOffice.Configuration.Configuration.GetConfigInt
+  isExternal: true
+  name: GetConfigInt
+  nameWithType: Configuration.GetConfigInt
+  fullName: SuperOffice.Configuration.Configuration.GetConfigInt
+- uid: SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: GetConfigInt(String)
+  nameWithType: IConfiguration.GetConfigInt(String)
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+    name: GetConfigInt
+    nameWithType: IConfiguration.GetConfigInt
+    fullName: SuperOffice.CRM.IConfiguration.GetConfigInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+    name: GetConfigInt
+    nameWithType: IConfiguration.GetConfigInt
+    fullName: SuperOffice.CRM.IConfiguration.GetConfigInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.Configuration.GetConfigBool*
+  commentId: Overload:SuperOffice.Configuration.Configuration.GetConfigBool
+  isExternal: true
+  name: GetConfigBool
+  nameWithType: Configuration.GetConfigBool
+  fullName: SuperOffice.Configuration.Configuration.GetConfigBool
+- uid: SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: GetConfigBool(String)
+  nameWithType: IConfiguration.GetConfigBool(String)
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+    name: GetConfigBool
+    nameWithType: IConfiguration.GetConfigBool
+    fullName: SuperOffice.CRM.IConfiguration.GetConfigBool
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+    name: GetConfigBool
+    nameWithType: IConfiguration.GetConfigBool
+    fullName: SuperOffice.CRM.IConfiguration.GetConfigBool
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.Configuration.#ctor*
+  commentId: Overload:SuperOffice.Configuration.Configuration.#ctor
+  isExternal: true
+  name: Configuration
+  nameWithType: Configuration.Configuration
+  fullName: SuperOffice.Configuration.Configuration.Configuration
+- uid: SuperOffice.Configuration.Configuration.NetServerVersionFullName*
+  commentId: Overload:SuperOffice.Configuration.Configuration.NetServerVersionFullName
+  isExternal: true
+  name: NetServerVersionFullName
+  nameWithType: Configuration.NetServerVersionFullName
+  fullName: SuperOffice.Configuration.Configuration.NetServerVersionFullName
+- uid: SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  commentId: P:SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: NetServerVersionFullName
+  nameWithType: IConfiguration.NetServerVersionFullName
+  fullName: SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+- uid: SuperOffice.Configuration.Configuration.DatabaseOwnerName*
+  commentId: Overload:SuperOffice.Configuration.Configuration.DatabaseOwnerName
+  isExternal: true
+  name: DatabaseOwnerName
+  nameWithType: Configuration.DatabaseOwnerName
+  fullName: SuperOffice.Configuration.Configuration.DatabaseOwnerName
+- uid: SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  commentId: P:SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: DatabaseOwnerName
+  nameWithType: IConfiguration.DatabaseOwnerName
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+- uid: SuperOffice.Configuration.Configuration.DatabaseSerialNumber*
+  commentId: Overload:SuperOffice.Configuration.Configuration.DatabaseSerialNumber
+  isExternal: true
+  name: DatabaseSerialNumber
+  nameWithType: Configuration.DatabaseSerialNumber
+  fullName: SuperOffice.Configuration.Configuration.DatabaseSerialNumber
+- uid: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  commentId: P:SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: DatabaseSerialNumber
+  nameWithType: IConfiguration.DatabaseSerialNumber
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+- uid: SuperOffice.Configuration.Configuration.DatabaseType*
+  commentId: Overload:SuperOffice.Configuration.Configuration.DatabaseType
+  isExternal: true
+  name: DatabaseType
+  nameWithType: Configuration.DatabaseType
+  fullName: SuperOffice.Configuration.Configuration.DatabaseType
+- uid: SuperOffice.CRM.IConfiguration.DatabaseType
+  commentId: P:SuperOffice.CRM.IConfiguration.DatabaseType
+  parent: SuperOffice.CRM.IConfiguration
+  isExternal: true
+  name: DatabaseType
+  nameWithType: IConfiguration.DatabaseType
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseType

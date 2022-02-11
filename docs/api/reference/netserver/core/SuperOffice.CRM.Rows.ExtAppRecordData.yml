@@ -1,0 +1,1564 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData
+  commentId: T:SuperOffice.CRM.Rows.ExtAppRecordData
+  id: ExtAppRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ExtAppRecordData.#ctor
+  - SuperOffice.CRM.Rows.ExtAppRecordData.AppType
+  - SuperOffice.CRM.Rows.ExtAppRecordData.AvailableInState
+  - SuperOffice.CRM.Rows.ExtAppRecordData.ConfigInfo
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Deleted
+  - SuperOffice.CRM.Rows.ExtAppRecordData.ExecuteOnEvent
+  - SuperOffice.CRM.Rows.ExtAppRecordData.ExtAppId
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Filename
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Icon
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Name
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Navigation
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Parameters
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Path
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Rank
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Registered
+  - SuperOffice.CRM.Rows.ExtAppRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ExtAppRecordData.ShowState
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Tooltip
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Updated
+  - SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Url1
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Url2
+  - SuperOffice.CRM.Rows.ExtAppRecordData.WaitToFinish
+  - SuperOffice.CRM.Rows.ExtAppRecordData.WindowName
+  - SuperOffice.CRM.Rows.ExtAppRecordData.Workdir
+  langs:
+  - csharp
+  - vb
+  name: ExtAppRecordData
+  nameWithType: ExtAppRecordData
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ExtApp table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ExtAppRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ExtAppTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ExtAppRecordData
+    content.vb: Public Class ExtAppRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ExtAppRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtAppRecordData)
+  - SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.ExtAppId
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.ExtAppId
+  id: ExtAppId
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtAppId
+  nameWithType: ExtAppRecordData.ExtAppId
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.ExtAppId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ExtAppId
+    return:
+      type: System.Int32
+    content.vb: Public ExtAppId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ExtAppRecordData.Name
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe list item \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ExtAppRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRank order \n"
+  syntax:
+    content: public short Rank
+    return:
+      type: System.Int16
+    content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Tooltip
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ExtAppRecordData.Tooltip
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public string Tooltip
+    return:
+      type: System.String
+    content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Deleted
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ExtAppRecordData.Deleted
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
+  syntax:
+    content: public short Deleted
+    return:
+      type: System.Int16
+    content.vb: Public Deleted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Path
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Path
+  id: Path
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: ExtAppRecordData.Path
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Path
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPath where the programfile is located; if empty, PATH is used \n"
+  syntax:
+    content: public string Path
+    return:
+      type: System.String
+    content.vb: Public Path As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Filename
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Filename
+  id: Filename
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: ExtAppRecordData.Filename
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Filename
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFilename of the programfile \n"
+  syntax:
+    content: public string Filename
+    return:
+      type: System.String
+    content.vb: Public Filename As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Parameters
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Parameters
+  id: Parameters
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: ExtAppRecordData.Parameters
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Parameters
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n&lt;template variable> &lt;other template variable> \n"
+  syntax:
+    content: public string Parameters
+    return:
+      type: System.String
+    content.vb: Public Parameters As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Workdir
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Workdir
+  id: Workdir
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Workdir
+  nameWithType: ExtAppRecordData.Workdir
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Workdir
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDirectory set to current when loading the application, if different from application&apos;s own \n"
+  syntax:
+    content: public string Workdir
+    return:
+      type: System.String
+    content.vb: Public Workdir As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Icon
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: ExtAppRecordData.Icon
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Icon
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 indicates default Icon (from app exe file), otherwise reference to a predefined icon resource in SO \n"
+  syntax:
+    content: public short Icon
+    return:
+      type: System.Int16
+    content.vb: Public Icon As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.AvailableInState
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.AvailableInState
+  id: AvailableInState
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: AvailableInState
+  nameWithType: ExtAppRecordData.AvailableInState
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.AvailableInState
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen should this application be available from SO: 0=always, 1=on central db, 2=on travel db,4 on satellite. The value 5 (1+4) indicates that this application is available when logged in to a central or satellite db \n"
+  syntax:
+    content: public AppAvailState AvailableInState
+    return:
+      type: SuperOffice.Data.AppAvailState
+    content.vb: Public AvailableInState As AppAvailState
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.ExecuteOnEvent
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.ExecuteOnEvent
+  id: ExecuteOnEvent
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnEvent
+  nameWithType: ExtAppRecordData.ExecuteOnEvent
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.ExecuteOnEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvents that cause automatic execution of this app \n"
+  syntax:
+    content: public ExecuteOnEvent ExecuteOnEvent
+    return:
+      type: SuperOffice.Data.ExecuteOnEvent
+    content.vb: Public ExecuteOnEvent As ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Navigation
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Navigation
+  id: Navigation
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Navigation
+  nameWithType: ExtAppRecordData.Navigation
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Navigation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0=from menu, 1 = from Navigator(integration), 2 = From navigator \n"
+  syntax:
+    content: public Navigation Navigation
+    return:
+      type: SuperOffice.Data.Navigation
+    content.vb: Public Navigation As Navigation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.ShowState
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.ShowState
+  id: ShowState
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShowState
+  nameWithType: ExtAppRecordData.ShowState
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.ShowState
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMaximized / minimized / restored \n"
+  syntax:
+    content: public ShowState ShowState
+    return:
+      type: SuperOffice.Data.ShowState
+    content.vb: Public ShowState As ShowState
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ExtAppRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ExtAppRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ExtAppRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ExtAppRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ExtAppRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.AppType
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.AppType
+  id: AppType
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: AppType
+  nameWithType: ExtAppRecordData.AppType
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.AppType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nApplication type: 1 = exe, 2 = integrated html, 3 = integrated url, 4 = browser url, 5 = external url \n"
+  syntax:
+    content: public short AppType
+    return:
+      type: System.Int16
+    content.vb: Public AppType As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.WaitToFinish
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.WaitToFinish
+  id: WaitToFinish
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: WaitToFinish
+  nameWithType: ExtAppRecordData.WaitToFinish
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.WaitToFinish
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf 1, we wait synchronously for the pplication to finish before we go on \n"
+  syntax:
+    content: public short WaitToFinish
+    return:
+      type: System.Int16
+    content.vb: Public WaitToFinish As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.WindowName
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.WindowName
+  id: WindowName
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: WindowName
+  nameWithType: ExtAppRecordData.WindowName
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.WindowName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe window which the URL address is to open in (webpanel only) \n"
+  syntax:
+    content: public string WindowName
+    return:
+      type: System.String
+    content.vb: Public WindowName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Url1
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Url1
+  id: Url1
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Url1
+  nameWithType: ExtAppRecordData.Url1
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Url1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nURL, supports long strings up to 1k \n"
+  syntax:
+    content: public string Url1
+    return:
+      type: System.String
+    content.vb: Public Url1 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.Url2
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.Url2
+  id: Url2
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: Url2
+  nameWithType: ExtAppRecordData.Url2
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.Url2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nObsolete - do not use this field \n"
+  syntax:
+    content: public string Url2
+    return:
+      type: System.String
+    content.vb: Public Url2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.ConfigInfo
+  commentId: F:SuperOffice.CRM.Rows.ExtAppRecordData.ConfigInfo
+  id: ConfigInfo
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: ConfigInfo
+  nameWithType: ExtAppRecordData.ConfigInfo
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.ConfigInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtra configuration information \n"
+  syntax:
+    content: public string ConfigInfo
+    return:
+      type: System.String
+    content.vb: Public ConfigInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ExtAppRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ExtAppRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtAppRecordData()
+  nameWithType: ExtAppRecordData.ExtAppRecordData()
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.ExtAppRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ExtAppRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ExtAppRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ExtAppRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ExtAppRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExtAppRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtAppRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExtAppRecordData, To)()
+  name.vb: MapEnums(Of ExtAppRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExtAppRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ExtAppRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExtAppRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExtAppRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ExtAppRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExtAppRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtAppRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ExtAppRecordData>(ExtAppRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ExtAppRecordData>(ExtAppRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExtAppRecordData>(SuperOffice.CRM.Rows.ExtAppRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtAppRecordData)(ExtAppRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExtAppRecordData)(SuperOffice.CRM.Rows.ExtAppRecordData)
+  name.vb: AssignByReflection(Of ExtAppRecordData)(ExtAppRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ExtAppRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ExtAppRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExtAppRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordData
+    name: ExtAppRecordData
+    nameWithType: ExtAppRecordData
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ExtAppRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ExtAppRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExtAppRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordData
+    name: ExtAppRecordData
+    nameWithType: ExtAppRecordData
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ExtAppRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ExtAppRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExtAppRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtAppRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExtAppRecordData)()
+  name.vb: GraphCopy(Of ExtAppRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ExtAppRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ExtAppRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExtAppRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ExtAppRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ExtAppRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExtAppRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+  parent: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+  name: ToInsert()
+  nameWithType: ExtAppRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ExtAppRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ExtAppRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExtAppRecordData, To>()
+  nameWithType: Converters.MapEnums<ExtAppRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExtAppRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExtAppRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExtAppRecordData, To)()
+  name.vb: MapEnums(Of ExtAppRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExtAppRecordData, To>
+    nameWithType: Converters.MapEnums<ExtAppRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExtAppRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExtAppRecordData, To)
+    nameWithType: Converters.MapEnums(Of ExtAppRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExtAppRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+  isExternal: true
+  name: ToInsert(ExtAppRecordData)
+  nameWithType: ExtAppRecordDataExtensions.ToInsert(ExtAppRecordData)
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+    name: ToInsert
+    nameWithType: ExtAppRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordData
+    name: ExtAppRecordData
+    nameWithType: ExtAppRecordData
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtAppRecordData)
+    name: ToInsert
+    nameWithType: ExtAppRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExtAppRecordData
+    name: ExtAppRecordData
+    nameWithType: ExtAppRecordData
+    fullName: SuperOffice.CRM.Rows.ExtAppRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ExtAppRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ExtAppRecordDataExtensions
+  nameWithType: ExtAppRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.AppAvailState
+  commentId: T:SuperOffice.Data.AppAvailState
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppAvailState
+  nameWithType: AppAvailState
+  fullName: SuperOffice.Data.AppAvailState
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ExecuteOnEvent
+  commentId: T:SuperOffice.Data.ExecuteOnEvent
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ExecuteOnEvent
+  nameWithType: ExecuteOnEvent
+  fullName: SuperOffice.Data.ExecuteOnEvent
+- uid: SuperOffice.Data.Navigation
+  commentId: T:SuperOffice.Data.Navigation
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.Data.Navigation
+- uid: SuperOffice.Data.ShowState
+  commentId: T:SuperOffice.Data.ShowState
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShowState
+  nameWithType: ShowState
+  fullName: SuperOffice.Data.ShowState
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.ExtAppRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ExtAppRecordData.#ctor
+  isExternal: true
+  name: ExtAppRecordData
+  nameWithType: ExtAppRecordData.ExtAppRecordData
+  fullName: SuperOffice.CRM.Rows.ExtAppRecordData.ExtAppRecordData

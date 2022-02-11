@@ -33,6 +33,6 @@ The SuperOffice CRM Online environment hosts an app store with several partner i
 
 <!-- Referenced links -->
 [8]: ../../identity-management/federated-auth.md
-[9]: ../../../../data-access/docs/api-reference/webapi/index.md
+[9]: ../../api/reference/webapi/index.md
 
 <!-- Referenced images -->

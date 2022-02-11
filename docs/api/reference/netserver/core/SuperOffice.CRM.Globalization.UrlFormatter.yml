@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.UrlFormatter
+  commentId: T:SuperOffice.CRM.Globalization.UrlFormatter
+  id: UrlFormatter
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
+  - SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String,System.String)
+  - SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UrlFormatter
+  nameWithType: UrlFormatter
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static class UrlFormatter
+    content.vb: Public Module UrlFormatter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String,System.String)
+  id: GetDisplayAddress(System.String,System.String)
+  parent: SuperOffice.CRM.Globalization.UrlFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayAddress(String, String)
+  nameWithType: UrlFormatter.GetDisplayAddress(String, String)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static string GetDisplayAddress(string url, string description)
+    parameters:
+    - id: url
+      type: System.String
+    - id: description
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDisplayAddress(url As String, description As String) As String
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
+  id: GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
+  parent: SuperOffice.CRM.Globalization.UrlFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayAddress(URLRow)
+  nameWithType: UrlFormatter.GetDisplayAddress(URLRow)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Rows.URLRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static string GetDisplayAddress(URLRow urlRow)
+    parameters:
+    - id: urlRow
+      type: SuperOffice.CRM.Rows.URLRow
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDisplayAddress(urlRow As URLRow) As String
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+  id: GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+  parent: SuperOffice.CRM.Globalization.UrlFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayAddress(Contact)
+  nameWithType: UrlFormatter.GetDisplayAddress(Contact)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Contact)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static string GetDisplayAddress(Contact contact)
+    parameters:
+    - id: contact
+      type: SuperOffice.CRM.Entities.Contact
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDisplayAddress(contact As Contact) As String
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+  id: GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+  parent: SuperOffice.CRM.Globalization.UrlFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayAddress(Person)
+  nameWithType: UrlFormatter.GetDisplayAddress(Person)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress(SuperOffice.CRM.Entities.Person)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static string GetDisplayAddress(Person person)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Entities.Person
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDisplayAddress(person As Person) As String
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
+  id: StripUrlScheme(System.String)
+  parent: SuperOffice.CRM.Globalization.UrlFormatter
+  langs:
+  - csharp
+  - vb
+  name: StripUrlScheme(String)
+  nameWithType: UrlFormatter.StripUrlScheme(String)
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public static string StripUrlScheme(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function StripUrlScheme(url As String) As String
+  overload: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress*
+  commentId: Overload:SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress
+  isExternal: true
+  name: GetDisplayAddress
+  nameWithType: UrlFormatter.GetDisplayAddress
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.GetDisplayAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.URLRow
+  commentId: T:SuperOffice.CRM.Rows.URLRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: URLRow
+  nameWithType: URLRow
+  fullName: SuperOffice.CRM.Rows.URLRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme*
+  commentId: Overload:SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme
+  isExternal: true
+  name: StripUrlScheme
+  nameWithType: UrlFormatter.StripUrlScheme
+  fullName: SuperOffice.CRM.Globalization.UrlFormatter.StripUrlScheme

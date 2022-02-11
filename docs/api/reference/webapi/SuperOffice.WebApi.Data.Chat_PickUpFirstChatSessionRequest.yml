@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest
+  id: Chat_PickUpFirstChatSessionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Chat_PickUpFirstChatSessionRequest
+  nameWithType: Chat_PickUpFirstChatSessionRequest
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_PickUpFirstChatSessionRequest : Object'
+    content.vb: >-
+      Public Class Chat_PickUpFirstChatSessionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_PickUpFirstChatSessionRequest()
+  nameWithType: Chat_PickUpFirstChatSessionRequest.Chat_PickUpFirstChatSessionRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.Chat_PickUpFirstChatSessionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_PickUpFirstChatSessionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.#ctor
+  isExternal: true
+  name: Chat_PickUpFirstChatSessionRequest
+  nameWithType: Chat_PickUpFirstChatSessionRequest.Chat_PickUpFirstChatSessionRequest
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpFirstChatSessionRequest.Chat_PickUpFirstChatSessionRequest

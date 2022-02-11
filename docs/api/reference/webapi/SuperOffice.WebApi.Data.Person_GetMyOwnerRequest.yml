@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetMyOwnerRequest
+  id: Person_GetMyOwnerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Person_GetMyOwnerRequest
+  nameWithType: Person_GetMyOwnerRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetMyOwnerRequest : Object'
+    content.vb: >-
+      Public Class Person_GetMyOwnerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetMyOwnerRequest()
+  nameWithType: Person_GetMyOwnerRequest.Person_GetMyOwnerRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.Person_GetMyOwnerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetMyOwnerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.#ctor
+  isExternal: true
+  name: Person_GetMyOwnerRequest
+  nameWithType: Person_GetMyOwnerRequest.Person_GetMyOwnerRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetMyOwnerRequest.Person_GetMyOwnerRequest

@@ -1,0 +1,2815 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Mail
+  id: Mail
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript(SuperOffice.CRM.Services.EMailEntity,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault(System.Int16,System.Boolean,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript(System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync(System.String[])
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead(System.Int32[],System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails(System.Int32[])
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity(SuperOffice.CRM.Services.EMailEntity)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents(System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail(SuperOffice.CRM.Services.EMailEntity,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx(SuperOffice.CRM.Services.EMailEntity,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask
+  - SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview
+  langs:
+  - csharp
+  - vb
+  name: Mail
+  nameWithType: Mail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Mail")]
+
+      public class Mail : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Mail")>
+
+      Public Class Mail
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Mail
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript(System.String)
+  id: GetAddAttachmentScript(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetAddAttachmentScript(String)
+  nameWithType: Mail.GetAddAttachmentScript(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetAddAttachmentScript(string soprotocol)
+    parameters:
+    - id: soprotocol
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetAddAttachmentScript(soprotocol As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails(System.Int32[])
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails(System.Int32[])
+  id: ResolveEmails(System.Int32[])
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: ResolveEmails(Int32[])
+  nameWithType: Mail.ResolveEmails(Int32[])
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string[] ResolveEmails(int[] emailIds)
+    parameters:
+    - id: emailIds
+      type: System.Int32[]
+    return:
+      type: System.String[]
+    content.vb: Public Function ResolveEmails(emailIds As Integer()) As String()
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails*
+  nameWithType.vb: Mail.ResolveEmails(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails(System.Int32())
+  name.vb: ResolveEmails(Int32())
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript(System.String)
+  id: GetAddRecipientsScript(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetAddRecipientsScript(String)
+  nameWithType: Mail.GetAddRecipientsScript(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetAddRecipientsScript(string recipients)
+    parameters:
+    - id: recipients
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetAddRecipientsScript(recipients As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail
+  id: GetFolderHasNewEMail
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetFolderHasNewEMail()
+  nameWithType: Mail.GetFolderHasNewEMail()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool GetFolderHasNewEMail()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetFolderHasNewEMail As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList(System.String)
+  id: GetFolderList(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetFolderList(String)
+  nameWithType: Mail.GetFolderList(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string[] GetFolderList(string folder)
+    parameters:
+    - id: folder
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Function GetFolderList(folder As String) As String()
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment(System.Int32)
+  id: SaveDocumentAttachment(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentAttachment(Int32)
+  nameWithType: Mail.SaveDocumentAttachment(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SaveDocumentAttachment(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function SaveDocumentAttachment(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue(System.String,System.String)
+  id: SetSessionValue(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetSessionValue(String, String)
+  nameWithType: Mail.SetSessionValue(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetSessionValue(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetSessionValue(key As String, value As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue(System.String)
+  id: GetSessionValue(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSessionValue(String)
+  nameWithType: Mail.GetSessionValue(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSessionValue(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSessionValue(key As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder(System.String)
+  id: EmptyMailFolder(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: EmptyMailFolder(String)
+  nameWithType: Mail.EmptyMailFolder(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void EmptyMailFolder(string folderName)
+    parameters:
+    - id: folderName
+      type: System.String
+    content.vb: Public Sub EmptyMailFolder(folderName As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents(System.Int32)
+  id: SetSendDocumentFaxCurrents(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetSendDocumentFaxCurrents(Int32)
+  nameWithType: Mail.SetSendDocumentFaxCurrents(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetSendDocumentFaxCurrents(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Sub SetSendDocumentFaxCurrents(documentId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript(System.Int32)
+  id: GetSendAppointmentScript(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendAppointmentScript(Int32)
+  nameWithType: Mail.GetSendAppointmentScript(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendAppointmentScript(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetSendAppointmentScript(appointmentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents(System.Int32)
+  id: SetSendAppointmentCurrents(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetSendAppointmentCurrents(Int32)
+  nameWithType: Mail.SetSendAppointmentCurrents(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetSendAppointmentCurrents(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    content.vb: Public Sub SetSendAppointmentCurrents(appointmentId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById
+  id: GetMailArchivedStringById
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetMailArchivedStringById()
+  nameWithType: Mail.GetMailArchivedStringById()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetMailArchivedStringById()
+    return:
+      type: System.String
+    content.vb: Public Function GetMailArchivedStringById As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString(System.Int32)
+  id: GetMailArchivedString(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetMailArchivedString(Int32)
+  nameWithType: Mail.GetMailArchivedString(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetMailArchivedString(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetMailArchivedString(id As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript(SuperOffice.CRM.Services.EMailEntity,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript(SuperOffice.CRM.Services.EMailEntity,System.String)
+  id: GetAddToSuperOfficeScript(SuperOffice.CRM.Services.EMailEntity,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetAddToSuperOfficeScript(EMailEntity, String)
+  nameWithType: Mail.GetAddToSuperOfficeScript(EMailEntity, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript(SuperOffice.CRM.Services.EMailEntity, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetAddToSuperOfficeScript(EMailEntity mailEntity, string archiveScript)
+    parameters:
+    - id: mailEntity
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: archiveScript
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetAddToSuperOfficeScript(mailEntity As EMailEntity, archiveScript As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents
+  id: SetArchiveOnProjectCurrents
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveOnProjectCurrents()
+  nameWithType: Mail.SetArchiveOnProjectCurrents()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveOnProjectCurrents()
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveOnProjectCurrents As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents(System.Int32)
+  id: SetArchiveAttachmentCurrents(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveAttachmentCurrents(Int32)
+  nameWithType: Mail.SetArchiveAttachmentCurrents(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveAttachmentCurrents(int attachmentIdx)
+    parameters:
+    - id: attachmentIdx
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveAttachmentCurrents(attachmentIdx As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents(System.String,System.Boolean)
+  id: SetArchiveOnContactCurrents(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveOnContactCurrents(String, Boolean)
+  nameWithType: Mail.SetArchiveOnContactCurrents(String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveOnContactCurrents(string folder, bool stripAttachments)
+    parameters:
+    - id: folder
+      type: System.String
+    - id: stripAttachments
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveOnContactCurrents(folder As String, stripAttachments As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById(System.Int32,System.String)
+  id: SetArchiveOnContactCurrentsById(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveOnContactCurrentsById(Int32, String)
+  nameWithType: Mail.SetArchiveOnContactCurrentsById(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveOnContactCurrentsById(int id, string folder)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: folder
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveOnContactCurrentsById(id As Integer, folder As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail(SuperOffice.CRM.Services.EMailEntity,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail(SuperOffice.CRM.Services.EMailEntity,System.String)
+  id: SetArchiveOnContactCurrentsByMail(SuperOffice.CRM.Services.EMailEntity,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveOnContactCurrentsByMail(EMailEntity, String)
+  nameWithType: Mail.SetArchiveOnContactCurrentsByMail(EMailEntity, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail(SuperOffice.CRM.Services.EMailEntity, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveOnContactCurrentsByMail(EMailEntity mail, string folder)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: folder
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveOnContactCurrentsByMail(mail As EMailEntity, folder As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx(SuperOffice.CRM.Services.EMailEntity,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx(SuperOffice.CRM.Services.EMailEntity,System.String,System.Boolean)
+  id: SetArchiveOnContactCurrentsEx(SuperOffice.CRM.Services.EMailEntity,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveOnContactCurrentsEx(EMailEntity, String, Boolean)
+  nameWithType: Mail.SetArchiveOnContactCurrentsEx(EMailEntity, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx(SuperOffice.CRM.Services.EMailEntity, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveOnContactCurrentsEx(EMailEntity entity, string folder, bool stripAttachments)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: folder
+      type: System.String
+    - id: stripAttachments
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveOnContactCurrentsEx(entity As EMailEntity, folder As String, stripAttachments As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
+  id: ArchiveEmailFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveEmailFromInbox(EMailEntity, Int32, Int32, String, Boolean, Boolean)
+  nameWithType: Mail.ArchiveEmailFromInbox(EMailEntity, Int32, Int32, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox(SuperOffice.CRM.Services.EMailEntity, System.Int32, System.Int32, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ArchiveEmailFromInbox(EMailEntity entity, int folderId, int personId, string personFullName, bool stripAttachments, bool isOutgoing)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: folderId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: personFullName
+      type: System.String
+    - id: stripAttachments
+      type: System.Boolean
+    - id: isOutgoing
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function ArchiveEmailFromInbox(entity As EMailEntity, folderId As Integer, personId As Integer, personFullName As String, stripAttachments As Boolean, isOutgoing As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity(SuperOffice.CRM.Services.EMailEntity)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity(SuperOffice.CRM.Services.EMailEntity)
+  id: SetArchiveAsTaskCurrentsByEmailEntity(SuperOffice.CRM.Services.EMailEntity)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveAsTaskCurrentsByEmailEntity(EMailEntity)
+  nameWithType: Mail.SetArchiveAsTaskCurrentsByEmailEntity(EMailEntity)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity(SuperOffice.CRM.Services.EMailEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveAsTaskCurrentsByEmailEntity(EMailEntity mail)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Services.EMailEntity
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveAsTaskCurrentsByEmailEntity(mail As EMailEntity) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String)
+  id: ArchiveAsTaskFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveAsTaskFromInbox(EMailEntity, Int32, String)
+  nameWithType: Mail.ArchiveAsTaskFromInbox(EMailEntity, Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox(SuperOffice.CRM.Services.EMailEntity, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ArchiveAsTaskFromInbox(EMailEntity mail, int personId, string personFullName)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: personId
+      type: System.Int32
+    - id: personFullName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ArchiveAsTaskFromInbox(mail As EMailEntity, personId As Integer, personFullName As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents
+  id: SetArchiveAsTaskCurrents
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetArchiveAsTaskCurrents()
+  nameWithType: Mail.SetArchiveAsTaskCurrents()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetArchiveAsTaskCurrents()
+    return:
+      type: System.String
+    content.vb: Public Function SetArchiveAsTaskCurrents As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript
+  id: GetArchiveMailAttachmentScript
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveMailAttachmentScript()
+  nameWithType: Mail.GetArchiveMailAttachmentScript()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetArchiveMailAttachmentScript()
+    return:
+      type: System.String
+    content.vb: Public Function GetArchiveMailAttachmentScript As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32,System.Boolean)
+  id: ArchiveAttachementFromInbox(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveAttachementFromInbox(EMailEntity, Int32, String, Int32, Boolean)
+  nameWithType: Mail.ArchiveAttachementFromInbox(EMailEntity, Int32, String, Int32, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox(SuperOffice.CRM.Services.EMailEntity, System.Int32, System.String, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ArchiveAttachementFromInbox(EMailEntity mail, int personId, string personFullName, int attachmentIdx, bool outgoing)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: personId
+      type: System.Int32
+    - id: personFullName
+      type: System.String
+    - id: attachmentIdx
+      type: System.Int32
+    - id: outgoing
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function ArchiveAttachementFromInbox(mail As EMailEntity, personId As Integer, personFullName As String, attachmentIdx As Integer, outgoing As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript(System.String,System.String)
+  id: GetSendEMailToSelectionMembersScript(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailToSelectionMembersScript(String, String)
+  nameWithType: Mail.GetSendEMailToSelectionMembersScript(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailToSelectionMembersScript(string personIds, string contactIds)
+    parameters:
+    - id: personIds
+      type: System.String
+    - id: contactIds
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailToSelectionMembersScript(personIds As String, contactIds As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity
+  id: GetPopulatedMailEntity
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetPopulatedMailEntity()
+  nameWithType: Mail.GetPopulatedMailEntity()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static EMailEntity GetPopulatedMailEntity()
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Shared Function GetPopulatedMailEntity As EMailEntity
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript(System.Int32)
+  id: GetSendEMailToProjectScript(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailToProjectScript(Int32)
+  nameWithType: Mail.GetSendEMailToProjectScript(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailToProjectScript(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailToProjectScript(projectId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript(System.String)
+  id: GetSendEMailToProjectMembersScript(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailToProjectMembersScript(String)
+  nameWithType: Mail.GetSendEMailToProjectMembersScript(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailToProjectMembersScript(string projectMemberIds)
+    parameters:
+    - id: projectMemberIds
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailToProjectMembersScript(projectMemberIds As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript(System.String)
+  id: GetSendEMailScript(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailScript(String)
+  nameWithType: Mail.GetSendEMailScript(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailScript(string addresses)
+    parameters:
+    - id: addresses
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailScript(addresses As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults
+  id: GetSendEMailScriptWithDefaults
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailScriptWithDefaults()
+  nameWithType: Mail.GetSendEMailScriptWithDefaults()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailScriptWithDefaults()
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailScriptWithDefaults As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail
+  id: OpenCurrentDocumentAsMail
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: OpenCurrentDocumentAsMail()
+  nameWithType: Mail.OpenCurrentDocumentAsMail()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string OpenCurrentDocumentAsMail()
+    return:
+      type: System.String
+    content.vb: Public Function OpenCurrentDocumentAsMail As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript
+  id: GetOpenMailInboxScript
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetOpenMailInboxScript()
+  nameWithType: Mail.GetOpenMailInboxScript()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetOpenMailInboxScript()
+    return:
+      type: System.String
+    content.vb: Public Function GetOpenMailInboxScript As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript(System.String)
+  id: GetSendEMailToPersonsScript(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailToPersonsScript(String)
+  nameWithType: Mail.GetSendEMailToPersonsScript(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailToPersonsScript(string personIds)
+    parameters:
+    - id: personIds
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailToPersonsScript(personIds As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript(System.String,System.String,System.String)
+  id: GetSendEMailToPersonEmailAdddressScript(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailToPersonEmailAdddressScript(String, String, String)
+  nameWithType: Mail.GetSendEMailToPersonEmailAdddressScript(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendEMailToPersonEmailAdddressScript(string email, string description, string type)
+    parameters:
+    - id: email
+      type: System.String
+    - id: description
+      type: System.String
+    - id: type
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailToPersonEmailAdddressScript(email As String, description As String, type As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript(System.Int32)
+  id: GetForwardDocumentScript(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetForwardDocumentScript(Int32)
+  nameWithType: Mail.GetForwardDocumentScript(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetForwardDocumentScript(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetForwardDocumentScript(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript(System.Int32)
+  id: GetSendDocumentAsFaxScript(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendDocumentAsFaxScript(Int32)
+  nameWithType: Mail.GetSendDocumentAsFaxScript(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendDocumentAsFaxScript(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetSendDocumentAsFaxScript(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript(System.String)
+  id: GetSendDocumentsScript(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendDocumentsScript(String)
+  nameWithType: Mail.GetSendDocumentsScript(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendDocumentsScript(string documentIds)
+    parameters:
+    - id: documentIds
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSendDocumentsScript(documentIds As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript(System.Boolean)
+  id: GetSendQuoteDocumentsScript(System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendQuoteDocumentsScript(Boolean)
+  nameWithType: Mail.GetSendQuoteDocumentsScript(Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendQuoteDocumentsScript(bool addMainPageCode)
+    parameters:
+    - id: addMainPageCode
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetSendQuoteDocumentsScript(addMainPageCode As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript(System.Int32)
+  id: GetSendDocumentScript(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetSendDocumentScript(Int32)
+  nameWithType: Mail.GetSendDocumentScript(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetSendDocumentScript(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetSendDocumentScript(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript(System.Int32)
+  id: GetReplyToDocumentScript(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetReplyToDocumentScript(Int32)
+  nameWithType: Mail.GetReplyToDocumentScript(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetReplyToDocumentScript(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetReplyToDocumentScript(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById(System.String,System.String)
+  id: DeleteMailById(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: DeleteMailById(String, String)
+  nameWithType: Mail.DeleteMailById(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteMailById(string ids, string folderName)
+    parameters:
+    - id: ids
+      type: System.String
+    - id: folderName
+      type: System.String
+    content.vb: Public Sub DeleteMailById(ids As String, folderName As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId(System.String)
+  id: DeleteByEmailItemId(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: DeleteByEmailItemId(String)
+  nameWithType: Mail.DeleteByEmailItemId(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteByEmailItemId(string id)
+    parameters:
+    - id: id
+      type: System.String
+    content.vb: Public Sub DeleteByEmailItemId(id As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut
+  id: MailLogOut
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: MailLogOut()
+  nameWithType: Mail.MailLogOut()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void MailLogOut()
+    content.vb: Public Sub MailLogOut
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview
+  id: TogglePreview
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: TogglePreview()
+  nameWithType: Mail.TogglePreview()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void TogglePreview()
+    content.vb: Public Sub TogglePreview
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder
+  id: RefreshFolder
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: RefreshFolder()
+  nameWithType: Mail.RefreshFolder()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void RefreshFolder()
+    content.vb: Public Sub RefreshFolder
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact(System.String,System.String)
+  id: CreateNewContact(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: CreateNewContact(String, String)
+  nameWithType: Mail.CreateNewContact(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int CreateNewContact(string name, string address)
+    parameters:
+    - id: name
+      type: System.String
+    - id: address
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function CreateNewContact(name As String, address As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson(System.Int32,System.String,System.String)
+  id: CreateNewPerson(System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPerson(Int32, String, String)
+  nameWithType: Mail.CreateNewPerson(Int32, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson(System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void CreateNewPerson(int contactId, string name, string address)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: address
+      type: System.String
+    content.vb: Public Sub CreateNewPerson(contactId As Integer, name As String, address As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream(System.String)
+  id: GetEMailEntityFromStream(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetEMailEntityFromStream(String)
+  nameWithType: Mail.GetEMailEntityFromStream(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public EMailEntity GetEMailEntityFromStream(string inputStream)
+    parameters:
+    - id: inputStream
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Function GetEMailEntityFromStream(inputStream As String) As EMailEntity
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody(System.String)
+  id: GetEmailTemplateHTMLBody(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetEmailTemplateHTMLBody(String)
+  nameWithType: Mail.GetEmailTemplateHTMLBody(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetEmailTemplateHTMLBody(string inputStream)
+    parameters:
+    - id: inputStream
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetEmailTemplateHTMLBody(inputStream As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments(System.String)
+  id: GetEmailTemplateAttachments(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetEmailTemplateAttachments(String)
+  nameWithType: Mail.GetEmailTemplateAttachments(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public List<EMailAttachment> GetEmailTemplateAttachments(string inputStream)
+    parameters:
+    - id: inputStream
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.EMailAttachment}
+    content.vb: Public Function GetEmailTemplateAttachments(inputStream As String) As List(Of EMailAttachment)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32)
+  id: SetEmailTemplateValues(SuperOffice.CRM.Services.EMailEntity,System.Int32,System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetEmailTemplateValues(EMailEntity, Int32, String, Int32)
+  nameWithType: Mail.SetEmailTemplateValues(EMailEntity, Int32, String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues(SuperOffice.CRM.Services.EMailEntity, System.Int32, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public TemplateInfo SetEmailTemplateValues(EMailEntity mail, int documentTemplateId, string languageCode = "", int pluginId = -1)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: documentTemplateId
+      type: System.Int32
+    - id: languageCode
+      type: System.String
+    - id: pluginId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Documents.TemplateInfo
+    content.vb: Public Function SetEmailTemplateValues(mail As EMailEntity, documentTemplateId As Integer, languageCode As String = "", pluginId As Integer = -1) As TemplateInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead(System.Int32[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead(System.Int32[],System.Boolean)
+  id: MarkEmailsAsRead(System.Int32[],System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: MarkEmailsAsRead(Int32[], Boolean)
+  nameWithType: Mail.MarkEmailsAsRead(Int32[], Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead(System.Int32[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void MarkEmailsAsRead(int[] ids, bool read)
+    parameters:
+    - id: ids
+      type: System.Int32[]
+    - id: read
+      type: System.Boolean
+    content.vb: Public Sub MarkEmailsAsRead(ids As Integer(), read As Boolean)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead*
+  nameWithType.vb: Mail.MarkEmailsAsRead(Int32(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead(System.Int32(), System.Boolean)
+  name.vb: MarkEmailsAsRead(Int32(), Boolean)
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault(System.Int16,System.Boolean,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault(System.Int16,System.Boolean,System.String,System.String)
+  id: GetDocumentTemplateDefault(System.Int16,System.Boolean,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateDefault(Int16, Boolean, String, String)
+  nameWithType: Mail.GetDocumentTemplateDefault(Int16, Boolean, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault(System.Int16, System.Boolean, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetDocumentTemplateDefault(short recordType, bool outgoing, string templateName, string templateExtension)
+    parameters:
+    - id: recordType
+      type: System.Int16
+    - id: outgoing
+      type: System.Boolean
+    - id: templateName
+      type: System.String
+    - id: templateExtension
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetDocumentTemplateDefault(recordType As Short, outgoing As Boolean, templateName As String, templateExtension As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync(System.String[])
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync(System.String[])
+  id: InitialSync(System.String[])
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: InitialSync(String[])
+  nameWithType: Mail.InitialSync(String[])
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string InitialSync(string[] folderList)
+    parameters:
+    - id: folderList
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function InitialSync(folderList As String()) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync*
+  nameWithType.vb: Mail.InitialSync(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync(System.String())
+  name.vb: InitialSync(String())
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask
+  id: SetupOnlineBackgroundTask
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: SetupOnlineBackgroundTask()
+  nameWithType: Mail.SetupOnlineBackgroundTask()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string SetupOnlineBackgroundTask()
+    return:
+      type: System.String
+    content.vb: Public Shared Function SetupOnlineBackgroundTask As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus
+  id: GetCurrentAccountStatus
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentAccountStatus()
+  nameWithType: Mail.GetCurrentAccountStatus()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetCurrentAccountStatus()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetCurrentAccountStatus As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId
+  id: GetCurrentAccountId
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentAccountId()
+  nameWithType: Mail.GetCurrentAccountId()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetCurrentAccountId()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetCurrentAccountId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Mail.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Mail
+  langs:
+  - csharp
+  - vb
+  name: Mail()
+  nameWithType: Mail.Mail()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.Mail()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Mail()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Mail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript
+  isExternal: true
+  name: GetAddAttachmentScript
+  nameWithType: Mail.GetAddAttachmentScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddAttachmentScript
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails
+  isExternal: true
+  name: ResolveEmails
+  nameWithType: Mail.ResolveEmails
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ResolveEmails
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript
+  isExternal: true
+  name: GetAddRecipientsScript
+  nameWithType: Mail.GetAddRecipientsScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddRecipientsScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail
+  isExternal: true
+  name: GetFolderHasNewEMail
+  nameWithType: Mail.GetFolderHasNewEMail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderHasNewEMail
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList
+  isExternal: true
+  name: GetFolderList
+  nameWithType: Mail.GetFolderList
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetFolderList
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment
+  isExternal: true
+  name: SaveDocumentAttachment
+  nameWithType: Mail.SaveDocumentAttachment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SaveDocumentAttachment
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue
+  isExternal: true
+  name: SetSessionValue
+  nameWithType: Mail.SetSessionValue
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSessionValue
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue
+  isExternal: true
+  name: GetSessionValue
+  nameWithType: Mail.GetSessionValue
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSessionValue
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder
+  isExternal: true
+  name: EmptyMailFolder
+  nameWithType: Mail.EmptyMailFolder
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.EmptyMailFolder
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents
+  isExternal: true
+  name: SetSendDocumentFaxCurrents
+  nameWithType: Mail.SetSendDocumentFaxCurrents
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendDocumentFaxCurrents
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript
+  isExternal: true
+  name: GetSendAppointmentScript
+  nameWithType: Mail.GetSendAppointmentScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendAppointmentScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents
+  isExternal: true
+  name: SetSendAppointmentCurrents
+  nameWithType: Mail.SetSendAppointmentCurrents
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetSendAppointmentCurrents
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById
+  isExternal: true
+  name: GetMailArchivedStringById
+  nameWithType: Mail.GetMailArchivedStringById
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedStringById
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString
+  isExternal: true
+  name: GetMailArchivedString
+  nameWithType: Mail.GetMailArchivedString
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetMailArchivedString
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript
+  isExternal: true
+  name: GetAddToSuperOfficeScript
+  nameWithType: Mail.GetAddToSuperOfficeScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetAddToSuperOfficeScript
+- uid: SuperOffice.CRM.Services.EMailEntity
+  isExternal: true
+  name: EMailEntity
+  nameWithType: EMailEntity
+  fullName: SuperOffice.CRM.Services.EMailEntity
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents
+  isExternal: true
+  name: SetArchiveOnProjectCurrents
+  nameWithType: Mail.SetArchiveOnProjectCurrents
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnProjectCurrents
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents
+  isExternal: true
+  name: SetArchiveAttachmentCurrents
+  nameWithType: Mail.SetArchiveAttachmentCurrents
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAttachmentCurrents
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents
+  isExternal: true
+  name: SetArchiveOnContactCurrents
+  nameWithType: Mail.SetArchiveOnContactCurrents
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrents
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById
+  isExternal: true
+  name: SetArchiveOnContactCurrentsById
+  nameWithType: Mail.SetArchiveOnContactCurrentsById
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsById
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail
+  isExternal: true
+  name: SetArchiveOnContactCurrentsByMail
+  nameWithType: Mail.SetArchiveOnContactCurrentsByMail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsByMail
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx
+  isExternal: true
+  name: SetArchiveOnContactCurrentsEx
+  nameWithType: Mail.SetArchiveOnContactCurrentsEx
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveOnContactCurrentsEx
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox
+  isExternal: true
+  name: ArchiveEmailFromInbox
+  nameWithType: Mail.ArchiveEmailFromInbox
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveEmailFromInbox
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity
+  isExternal: true
+  name: SetArchiveAsTaskCurrentsByEmailEntity
+  nameWithType: Mail.SetArchiveAsTaskCurrentsByEmailEntity
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrentsByEmailEntity
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox
+  isExternal: true
+  name: ArchiveAsTaskFromInbox
+  nameWithType: Mail.ArchiveAsTaskFromInbox
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAsTaskFromInbox
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents
+  isExternal: true
+  name: SetArchiveAsTaskCurrents
+  nameWithType: Mail.SetArchiveAsTaskCurrents
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetArchiveAsTaskCurrents
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript
+  isExternal: true
+  name: GetArchiveMailAttachmentScript
+  nameWithType: Mail.GetArchiveMailAttachmentScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetArchiveMailAttachmentScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox
+  isExternal: true
+  name: ArchiveAttachementFromInbox
+  nameWithType: Mail.ArchiveAttachementFromInbox
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.ArchiveAttachementFromInbox
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript
+  isExternal: true
+  name: GetSendEMailToSelectionMembersScript
+  nameWithType: Mail.GetSendEMailToSelectionMembersScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToSelectionMembersScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity
+  isExternal: true
+  name: GetPopulatedMailEntity
+  nameWithType: Mail.GetPopulatedMailEntity
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetPopulatedMailEntity
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript
+  isExternal: true
+  name: GetSendEMailToProjectScript
+  nameWithType: Mail.GetSendEMailToProjectScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript
+  isExternal: true
+  name: GetSendEMailToProjectMembersScript
+  nameWithType: Mail.GetSendEMailToProjectMembersScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToProjectMembersScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript
+  isExternal: true
+  name: GetSendEMailScript
+  nameWithType: Mail.GetSendEMailScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults
+  isExternal: true
+  name: GetSendEMailScriptWithDefaults
+  nameWithType: Mail.GetSendEMailScriptWithDefaults
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailScriptWithDefaults
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail
+  isExternal: true
+  name: OpenCurrentDocumentAsMail
+  nameWithType: Mail.OpenCurrentDocumentAsMail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.OpenCurrentDocumentAsMail
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript
+  isExternal: true
+  name: GetOpenMailInboxScript
+  nameWithType: Mail.GetOpenMailInboxScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetOpenMailInboxScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript
+  isExternal: true
+  name: GetSendEMailToPersonsScript
+  nameWithType: Mail.GetSendEMailToPersonsScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonsScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript
+  isExternal: true
+  name: GetSendEMailToPersonEmailAdddressScript
+  nameWithType: Mail.GetSendEMailToPersonEmailAdddressScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendEMailToPersonEmailAdddressScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript
+  isExternal: true
+  name: GetForwardDocumentScript
+  nameWithType: Mail.GetForwardDocumentScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetForwardDocumentScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript
+  isExternal: true
+  name: GetSendDocumentAsFaxScript
+  nameWithType: Mail.GetSendDocumentAsFaxScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentAsFaxScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript
+  isExternal: true
+  name: GetSendDocumentsScript
+  nameWithType: Mail.GetSendDocumentsScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentsScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript
+  isExternal: true
+  name: GetSendQuoteDocumentsScript
+  nameWithType: Mail.GetSendQuoteDocumentsScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendQuoteDocumentsScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript
+  isExternal: true
+  name: GetSendDocumentScript
+  nameWithType: Mail.GetSendDocumentScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetSendDocumentScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript
+  isExternal: true
+  name: GetReplyToDocumentScript
+  nameWithType: Mail.GetReplyToDocumentScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetReplyToDocumentScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById
+  isExternal: true
+  name: DeleteMailById
+  nameWithType: Mail.DeleteMailById
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteMailById
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId
+  isExternal: true
+  name: DeleteByEmailItemId
+  nameWithType: Mail.DeleteByEmailItemId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.DeleteByEmailItemId
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut
+  isExternal: true
+  name: MailLogOut
+  nameWithType: Mail.MailLogOut
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.MailLogOut
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview
+  isExternal: true
+  name: TogglePreview
+  nameWithType: Mail.TogglePreview
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.TogglePreview
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder
+  isExternal: true
+  name: RefreshFolder
+  nameWithType: Mail.RefreshFolder
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.RefreshFolder
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact
+  isExternal: true
+  name: CreateNewContact
+  nameWithType: Mail.CreateNewContact
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewContact
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson
+  isExternal: true
+  name: CreateNewPerson
+  nameWithType: Mail.CreateNewPerson
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.CreateNewPerson
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream
+  isExternal: true
+  name: GetEMailEntityFromStream
+  nameWithType: Mail.GetEMailEntityFromStream
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEMailEntityFromStream
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody
+  isExternal: true
+  name: GetEmailTemplateHTMLBody
+  nameWithType: Mail.GetEmailTemplateHTMLBody
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateHTMLBody
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments
+  isExternal: true
+  name: GetEmailTemplateAttachments
+  nameWithType: Mail.GetEmailTemplateAttachments
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetEmailTemplateAttachments
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Services.EMailAttachment}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.EMailAttachment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<EMailAttachment>
+  nameWithType: List<EMailAttachment>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Services.EMailAttachment>
+  nameWithType.vb: List(Of EMailAttachment)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Services.EMailAttachment)
+  name.vb: List(Of EMailAttachment)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.EMailAttachment
+    name: EMailAttachment
+    nameWithType: EMailAttachment
+    fullName: SuperOffice.CRM.Services.EMailAttachment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.EMailAttachment
+    name: EMailAttachment
+    nameWithType: EMailAttachment
+    fullName: SuperOffice.CRM.Services.EMailAttachment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues
+  isExternal: true
+  name: SetEmailTemplateValues
+  nameWithType: Mail.SetEmailTemplateValues
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetEmailTemplateValues
+- uid: SuperOffice.CRM.Documents.TemplateInfo
+  isExternal: true
+  name: TemplateInfo
+  nameWithType: TemplateInfo
+  fullName: SuperOffice.CRM.Documents.TemplateInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead
+  isExternal: true
+  name: MarkEmailsAsRead
+  nameWithType: Mail.MarkEmailsAsRead
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.MarkEmailsAsRead
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault
+  isExternal: true
+  name: GetDocumentTemplateDefault
+  nameWithType: Mail.GetDocumentTemplateDefault
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetDocumentTemplateDefault
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync
+  isExternal: true
+  name: InitialSync
+  nameWithType: Mail.InitialSync
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.InitialSync
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask
+  isExternal: true
+  name: SetupOnlineBackgroundTask
+  nameWithType: Mail.SetupOnlineBackgroundTask
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.SetupOnlineBackgroundTask
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus
+  isExternal: true
+  name: GetCurrentAccountStatus
+  nameWithType: Mail.GetCurrentAccountStatus
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountStatus
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId
+  isExternal: true
+  name: GetCurrentAccountId
+  nameWithType: Mail.GetCurrentAccountId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.GetCurrentAccountId
+- uid: SuperOffice.CRM.Web.AjaxMethods.Mail.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Mail.#ctor
+  isExternal: true
+  name: Mail
+  nameWithType: Mail.Mail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Mail.Mail

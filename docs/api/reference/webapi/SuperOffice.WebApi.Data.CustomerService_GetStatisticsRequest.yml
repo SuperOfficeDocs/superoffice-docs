@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest
+  id: CustomerService_GetStatisticsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetStatisticsRequest
+  nameWithType: CustomerService_GetStatisticsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_GetStatisticsRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_GetStatisticsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetStatisticsRequest()
+  nameWithType: CustomerService_GetStatisticsRequest.CustomerService_GetStatisticsRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.CustomerService_GetStatisticsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_GetStatisticsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions
+  id: Functions
+  parent: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest
+  langs:
+  - csharp
+  - vb
+  name: Functions
+  nameWithType: CustomerService_GetStatisticsRequest.Functions
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public StatusScreenPanelType[] Functions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StatusScreenPanelType[]
+    content.vb: Public Property Functions As StatusScreenPanelType()
+  overload: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.#ctor
+  isExternal: true
+  name: CustomerService_GetStatisticsRequest
+  nameWithType: CustomerService_GetStatisticsRequest.CustomerService_GetStatisticsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.CustomerService_GetStatisticsRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions
+  isExternal: true
+  name: Functions
+  nameWithType: CustomerService_GetStatisticsRequest.Functions
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetStatisticsRequest.Functions
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType[]
+  isExternal: true
+  name: StatusScreenPanelType[]
+  nameWithType: StatusScreenPanelType[]
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType[]
+  nameWithType.vb: StatusScreenPanelType()
+  fullName.vb: SuperOffice.WebApi.Data.StatusScreenPanelType()
+  name.vb: StatusScreenPanelType()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.StatusScreenPanelType
+    name: StatusScreenPanelType
+    nameWithType: StatusScreenPanelType
+    fullName: SuperOffice.WebApi.Data.StatusScreenPanelType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.StatusScreenPanelType
+    name: StatusScreenPanelType
+    nameWithType: StatusScreenPanelType
+    fullName: SuperOffice.WebApi.Data.StatusScreenPanelType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

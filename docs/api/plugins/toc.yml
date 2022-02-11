@@ -1,0 +1,76 @@
+items:
+- name: Plug-ins
+  href: index.md
+  items:
+  - name: Document plug-in
+    href: document/soarc-document-plugin.md
+  - name: Quote Connector
+    href: quote-connectors/index.md
+  - name: ERP Connector
+    href: erp-connectors/index.md
+    items:
+    - name: Terminology
+      href: erp-connectors/terminology.md
+    - name: ERP Sync Engine
+      href: erp-connectors/sync-operation.md
+    - name: Automatic field mapping
+      href: erp-connectors/automatic-field-mapping.md
+    - name: ERP Sync client
+      href: erp-connectors/client-gui.md
+    - name: Architecture
+      href: erp-connectors/architecture/index.md
+      items:
+      - name: Sync Service
+        href: erp-connectors/architecture/sync-service.md
+      - name: SOAP Sync Service
+        href: erp-connectors/architecture/soap-service.md
+      - name: WCF Host
+        href: erp-connectors/architecture/wcf-host.md
+      - name: Multi-hosting
+        href: erp-connectors/architecture/wcf-host.md#multi-hosting
+    - name: Working with ERP Sync
+      href: erp-connectors/getting-started.md
+      items:
+      - name: Configure ERP Sync connection
+        href: erp-connectors/setup-connection.md
+      - name: Show fields in GUI and search
+        href: erp-connectors/search/show-fields.md
+      - name: Setup ERP field mapping
+        href: erp-connectors/setup-mapping.md
+      - name: Setup default values
+        href: erp-connectors/setup-defaults.md
+      - name: Setup field ranking
+        href: erp-connectors/ranking-fields.md
+      - name: Importing from ERP Sync
+        href: erp-connectors/import.md
+      - name: Company walk-through
+        href: erp-connectors/tutorial.md
+    - name: API
+      href: erp-connectors/api/index.md
+      items:
+      - name: IErpConnector
+        href: erp-connectors/api/ierpconnector.md
+      - name: Field metadata carrier
+        href: erp-connectors/api/field-meta-data-carrier.md
+      - name: ERP actor carrier
+        href: erp-connectors/api/erp-actor-carrier.md
+      - name: Plugin response info
+        href: erp-connectors/api/pluginresponseinfo.md
+      - name: Field value formats and conventions
+        href: erp-connectors/api/field-value-formats-and-conventions.md
+    - name: How-to search for actors
+      href: erp-connectors/search/index.md
+      items:
+      - name: Search operators
+        href: erp-connectors/search/search-operators.md
+    - name: Helper classes
+      href: erp-connectors/helpers.md
+    - name: Sample ERP Sync connector
+      href: erp-connectors/sample.md
+  - name: Sentry plug-in
+    href: sentry/index.md
+    items:
+    - name: Create sentry plug-in
+      href: sentry/create-sentry-plugin.md
+    - name: Use sentry plug-in
+      href: sentry/use-sentry-plugin.md

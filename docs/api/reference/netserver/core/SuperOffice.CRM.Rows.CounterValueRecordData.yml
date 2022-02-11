@@ -1,0 +1,1599 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData
+  commentId: T:SuperOffice.CRM.Rows.CounterValueRecordData
+  id: CounterValueRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.CounterValueRecordData.#ctor
+  - SuperOffice.CRM.Rows.CounterValueRecordData.AmountClassId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.ContactId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.CounterValueId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Direction
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Count
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Id
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Count
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Id
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Extra3Count
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Extra4Count
+  - SuperOffice.CRM.Rows.CounterValueRecordData.IntentId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.LastCompleted
+  - SuperOffice.CRM.Rows.CounterValueRecordData.LastDoBy
+  - SuperOffice.CRM.Rows.CounterValueRecordData.LastRegistered
+  - SuperOffice.CRM.Rows.CounterValueRecordData.NotCompleted
+  - SuperOffice.CRM.Rows.CounterValueRecordData.NotCompletedInPeriod
+  - SuperOffice.CRM.Rows.CounterValueRecordData.PersonId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.ProjectId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.RecordType
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Registered
+  - SuperOffice.CRM.Rows.CounterValueRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.SaleStatus
+  - SuperOffice.CRM.Rows.CounterValueRecordData.TotalReg
+  - SuperOffice.CRM.Rows.CounterValueRecordData.TotalRegInPeriod
+  - SuperOffice.CRM.Rows.CounterValueRecordData.Updated
+  - SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: CounterValueRecordData
+  nameWithType: CounterValueRecordData
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the CounterValue table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.CounterValueRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.CounterValueTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class CounterValueRecordData
+    content.vb: Public Class CounterValueRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.CounterValueRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CounterValueRecordData)
+  - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.CounterValueId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.CounterValueId
+  id: CounterValueId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: CounterValueId
+  nameWithType: CounterValueRecordData.CounterValueId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.CounterValueId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int CounterValueId
+    return:
+      type: System.Int32
+    content.vb: Public CounterValueId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: CounterValueRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to contact, 0 if this counter is not for contacts \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.PersonId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CounterValueRecordData.PersonId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to person, 0 if this counter is not for person (always 0 in 6.0) \n"
+  syntax:
+    content: public int PersonId
+    return:
+      type: System.Int32
+    content.vb: Public PersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.ProjectId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: CounterValueRecordData.ProjectId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to project, 0 if this counter is not for project \n"
+  syntax:
+    content: public int ProjectId
+    return:
+      type: System.Int32
+    content.vb: Public ProjectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Id
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Id
+  id: Extra1Id
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Extra1Id
+  nameWithType: CounterValueRecordData.Extra1Id
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSpare ID for future links \n"
+  syntax:
+    content: public int Extra1Id
+    return:
+      type: System.Int32
+    content.vb: Public Extra1Id As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Id
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Id
+  id: Extra2Id
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Extra2Id
+  nameWithType: CounterValueRecordData.Extra2Id
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSpare ID for future links \n"
+  syntax:
+    content: public int Extra2Id
+    return:
+      type: System.Int32
+    content.vb: Public Extra2Id As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.RecordType
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: CounterValueRecordData.RecordType
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.RecordType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSame as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes \n"
+  syntax:
+    content: public short RecordType
+    return:
+      type: System.Int16
+    content.vb: Public RecordType As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Direction
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: CounterValueRecordData.Direction
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Direction
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSame as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing \n"
+  syntax:
+    content: public short Direction
+    return:
+      type: System.Int16
+    content.vb: Public Direction As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.IntentId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: CounterValueRecordData.IntentId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.IntentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to Intent list \n"
+  syntax:
+    content: public int IntentId
+    return:
+      type: System.Int32
+    content.vb: Public IntentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SaleStatus
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.SaleStatus
+  id: SaleStatus
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaleStatus
+  nameWithType: CounterValueRecordData.SaleStatus
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.SaleStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales \n"
+  syntax:
+    content: public SaleStatus SaleStatus
+    return:
+      type: SuperOffice.Data.SaleStatus
+    content.vb: Public SaleStatus As SaleStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.AmountClassId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.AmountClassId
+  id: AmountClassId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: AmountClassId
+  nameWithType: CounterValueRecordData.AmountClassId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.AmountClassId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSale amount class, for splitting sale counters by amounts \n"
+  syntax:
+    content: public int AmountClassId
+    return:
+      type: System.Int32
+    content.vb: Public AmountClassId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.TotalReg
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.TotalReg
+  id: TotalReg
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: TotalReg
+  nameWithType: CounterValueRecordData.TotalReg
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.TotalReg
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type \n"
+  syntax:
+    content: public uint TotalReg
+    return:
+      type: System.UInt32
+    content.vb: Public TotalReg As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.TotalRegInPeriod
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.TotalRegInPeriod
+  id: TotalRegInPeriod
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: TotalRegInPeriod
+  nameWithType: CounterValueRecordData.TotalRegInPeriod
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.TotalRegInPeriod
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type in the first period (there are up to three period definitions) \n"
+  syntax:
+    content: public uint TotalRegInPeriod
+    return:
+      type: System.UInt32
+    content.vb: Public TotalRegInPeriod As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.NotCompleted
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.NotCompleted
+  id: NotCompleted
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: NotCompleted
+  nameWithType: CounterValueRecordData.NotCompleted
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.NotCompleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed \n"
+  syntax:
+    content: public uint NotCompleted
+    return:
+      type: System.UInt32
+    content.vb: Public NotCompleted As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.NotCompletedInPeriod
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.NotCompletedInPeriod
+  id: NotCompletedInPeriod
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: NotCompletedInPeriod
+  nameWithType: CounterValueRecordData.NotCompletedInPeriod
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.NotCompletedInPeriod
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed in the first period (there are up to three period definitions) \n"
+  syntax:
+    content: public uint NotCompletedInPeriod
+    return:
+      type: System.UInt32
+    content.vb: Public NotCompletedInPeriod As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.LastRegistered
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.LastRegistered
+  id: LastRegistered
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastRegistered
+  nameWithType: CounterValueRecordData.LastRegistered
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.LastRegistered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nActiveDate/SaleDate/CreatedAt of last activity/sale/ticket of this type \n"
+  syntax:
+    content: public DateTime LastRegistered
+    return:
+      type: System.DateTime
+    content.vb: Public LastRegistered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.LastCompleted
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.LastCompleted
+  id: LastCompleted
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastCompleted
+  nameWithType: CounterValueRecordData.LastCompleted
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.LastCompleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nActiveDate/SaleDate/CreatedAt of last COMPLETED activity/sale/ticket of this type \n"
+  syntax:
+    content: public DateTime LastCompleted
+    return:
+      type: System.DateTime
+    content.vb: Public LastCompleted As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.LastDoBy
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.LastDoBy
+  id: LastDoBy
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastDoBy
+  nameWithType: CounterValueRecordData.LastDoBy
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.LastDoBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nActiveDate/SaleDate/CreatedAt of last NOT COMPLETED activity/sale/ticket of this type \n"
+  syntax:
+    content: public DateTime LastDoBy
+    return:
+      type: System.DateTime
+    content.vb: Public LastDoBy As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Count
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Count
+  id: Extra1Count
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Extra1Count
+  nameWithType: CounterValueRecordData.Extra1Count
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Extra1Count
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type in the second period (there are up to three period definitions) \n"
+  syntax:
+    content: public uint Extra1Count
+    return:
+      type: System.UInt32
+    content.vb: Public Extra1Count As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Count
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Count
+  id: Extra2Count
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Extra2Count
+  nameWithType: CounterValueRecordData.Extra2Count
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Extra2Count
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed in the second period (there are up to three period definitions) \n"
+  syntax:
+    content: public uint Extra2Count
+    return:
+      type: System.UInt32
+    content.vb: Public Extra2Count As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Extra3Count
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Extra3Count
+  id: Extra3Count
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Extra3Count
+  nameWithType: CounterValueRecordData.Extra3Count
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Extra3Count
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type in the third period (there are up to three period definitions) \n"
+  syntax:
+    content: public uint Extra3Count
+    return:
+      type: System.UInt32
+    content.vb: Public Extra3Count As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Extra4Count
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Extra4Count
+  id: Extra4Count
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Extra4Count
+  nameWithType: CounterValueRecordData.Extra4Count
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Extra4Count
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed in the third period (there are up to three period definitions) \n"
+  syntax:
+    content: public uint Extra4Count
+    return:
+      type: System.UInt32
+    content.vb: Public Extra4Count As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CounterValueRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CounterValueRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CounterValueRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CounterValueRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: CounterValueRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.CounterValueRecordData
+  langs:
+  - csharp
+  - vb
+  name: CounterValueRecordData()
+  nameWithType: CounterValueRecordData.CounterValueRecordData()
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.CounterValueRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public CounterValueRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.CounterValueRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CounterValueRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<CounterValueRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CounterValueRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CounterValueRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CounterValueRecordData, To)()
+  name.vb: MapEnums(Of CounterValueRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CounterValueRecordData, To>
+    nameWithType: EnumUtil.MapEnums<CounterValueRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CounterValueRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CounterValueRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of CounterValueRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CounterValueRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CounterValueRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CounterValueRecordData>(CounterValueRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<CounterValueRecordData>(CounterValueRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CounterValueRecordData>(SuperOffice.CRM.Rows.CounterValueRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CounterValueRecordData)(CounterValueRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CounterValueRecordData)(SuperOffice.CRM.Rows.CounterValueRecordData)
+  name.vb: AssignByReflection(Of CounterValueRecordData)(CounterValueRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CounterValueRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<CounterValueRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CounterValueRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordData
+    name: CounterValueRecordData
+    nameWithType: CounterValueRecordData
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CounterValueRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CounterValueRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CounterValueRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordData
+    name: CounterValueRecordData
+    nameWithType: CounterValueRecordData
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CounterValueRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<CounterValueRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CounterValueRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CounterValueRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CounterValueRecordData)()
+  name.vb: GraphCopy(Of CounterValueRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CounterValueRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<CounterValueRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CounterValueRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CounterValueRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of CounterValueRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CounterValueRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+  parent: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+  name: ToInsert()
+  nameWithType: CounterValueRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CounterValueRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CounterValueRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CounterValueRecordData, To>()
+  nameWithType: Converters.MapEnums<CounterValueRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CounterValueRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of CounterValueRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CounterValueRecordData, To)()
+  name.vb: MapEnums(Of CounterValueRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CounterValueRecordData, To>
+    nameWithType: Converters.MapEnums<CounterValueRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CounterValueRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CounterValueRecordData, To)
+    nameWithType: Converters.MapEnums(Of CounterValueRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CounterValueRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+  commentId: M:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+  isExternal: true
+  name: ToInsert(CounterValueRecordData)
+  nameWithType: CounterValueRecordDataExtensions.ToInsert(CounterValueRecordData)
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+    name: ToInsert
+    nameWithType: CounterValueRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordData
+    name: CounterValueRecordData
+    nameWithType: CounterValueRecordData
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CounterValueRecordData)
+    name: ToInsert
+    nameWithType: CounterValueRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CounterValueRecordData
+    name: CounterValueRecordData
+    nameWithType: CounterValueRecordData
+    fullName: SuperOffice.CRM.Rows.CounterValueRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CounterValueRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: CounterValueRecordDataExtensions
+  nameWithType: CounterValueRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.SaleStatus
+  commentId: T:SuperOffice.Data.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.CounterValueRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueRecordData.#ctor
+  isExternal: true
+  name: CounterValueRecordData
+  nameWithType: CounterValueRecordData.CounterValueRecordData
+  fullName: SuperOffice.CRM.Rows.CounterValueRecordData.CounterValueRecordData

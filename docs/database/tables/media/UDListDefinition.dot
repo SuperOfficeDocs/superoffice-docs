@@ -1,0 +1,13 @@
+digraph UDListDefinition  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UDListDefinition[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UDList[fillcolor = "azure1"]
+UDefField[fillcolor = "azure1"]
+UDListDefinition -> associate [headlabel = "registered_associate_id"]
+UDListDefinition -> associate [label = "updated_associate_id"]
+UDList -> UDListDefinition [label = "UDListDefinition_id"]
+UDefField -> UDListDefinition [label = "UDListDefinition_id"]
+}

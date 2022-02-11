@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Person
+  id: Person
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Person.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact(SuperOffice.CRM.Services.PersonEntity,SuperOffice.CRM.Services.ContactEntity)
+  - SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Person")]
+
+      public class Person : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Person")>
+
+      Public Class Person
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Person
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin(System.String)
+  id: RemoveExternalUserLogin(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: RemoveExternalUserLogin(String)
+  nameWithType: Person.RemoveExternalUserLogin(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void RemoveExternalUserLogin(string associateIds)
+    parameters:
+    - id: associateIds
+      type: System.String
+    content.vb: Public Sub RemoveExternalUserLogin(associateIds As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers(System.String)
+  id: RemoveExternalUsers(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: RemoveExternalUsers(String)
+  nameWithType: Person.RemoveExternalUsers(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void RemoveExternalUsers(string associateIds)
+    parameters:
+    - id: associateIds
+      type: System.String
+    content.vb: Public Sub RemoveExternalUsers(associateIds As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired(System.Int32)
+  id: TogglePersonRetired(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: TogglePersonRetired(Int32)
+  nameWithType: Person.TogglePersonRetired(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void TogglePersonRetired(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    content.vb: Public Sub TogglePersonRetired(personId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity(System.Int32)
+  id: GetPersonEntity(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: GetPersonEntity(Int32)
+  nameWithType: Person.GetPersonEntity(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public PersonEntity GetPersonEntity(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+    content.vb: Public Function GetPersonEntity(personId As Integer) As PersonEntity
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson(System.Int32)
+  id: DeletePerson(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: DeletePerson(Int32)
+  nameWithType: Person.DeletePerson(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeletePerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    content.vb: Public Sub DeletePerson(personId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact(SuperOffice.CRM.Services.PersonEntity,SuperOffice.CRM.Services.ContactEntity)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact(SuperOffice.CRM.Services.PersonEntity,SuperOffice.CRM.Services.ContactEntity)
+  id: SaveNewPersonAndContact(SuperOffice.CRM.Services.PersonEntity,SuperOffice.CRM.Services.ContactEntity)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: SaveNewPersonAndContact(PersonEntity, ContactEntity)
+  nameWithType: Person.SaveNewPersonAndContact(PersonEntity, ContactEntity)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact(SuperOffice.CRM.Services.PersonEntity, SuperOffice.CRM.Services.ContactEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SaveNewPersonAndContact(PersonEntity person, ContactEntity contact)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Services.PersonEntity
+    - id: contact
+      type: SuperOffice.CRM.Services.ContactEntity
+    content.vb: Public Sub SaveNewPersonAndContact(person As PersonEntity, contact As ContactEntity)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Person.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Person
+  langs:
+  - csharp
+  - vb
+  name: Person()
+  nameWithType: Person.Person()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.Person()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Person()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Person.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin
+  isExternal: true
+  name: RemoveExternalUserLogin
+  nameWithType: Person.RemoveExternalUserLogin
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUserLogin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers
+  isExternal: true
+  name: RemoveExternalUsers
+  nameWithType: Person.RemoveExternalUsers
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.RemoveExternalUsers
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired
+  isExternal: true
+  name: TogglePersonRetired
+  nameWithType: Person.TogglePersonRetired
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.TogglePersonRetired
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity
+  isExternal: true
+  name: GetPersonEntity
+  nameWithType: Person.GetPersonEntity
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.GetPersonEntity
+- uid: SuperOffice.CRM.Services.PersonEntity
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson
+  isExternal: true
+  name: DeletePerson
+  nameWithType: Person.DeletePerson
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.DeletePerson
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact
+  isExternal: true
+  name: SaveNewPersonAndContact
+  nameWithType: Person.SaveNewPersonAndContact
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.SaveNewPersonAndContact
+- uid: SuperOffice.CRM.Services.ContactEntity
+  isExternal: true
+  name: ContactEntity
+  nameWithType: ContactEntity
+  fullName: SuperOffice.CRM.Services.ContactEntity
+- uid: SuperOffice.CRM.Web.AjaxMethods.Person.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Person.#ctor
+  isExternal: true
+  name: Person
+  nameWithType: Person.Person
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Person.Person

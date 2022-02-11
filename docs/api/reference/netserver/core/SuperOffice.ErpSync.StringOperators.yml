@@ -1,0 +1,617 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.StringOperators
+  commentId: T:SuperOffice.ErpSync.StringOperators
+  id: StringOperators
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.StringOperators.BEGINS_WITH
+  - SuperOffice.ErpSync.StringOperators.BETWEEN
+  - SuperOffice.ErpSync.StringOperators.CONTAINS
+  - SuperOffice.ErpSync.StringOperators.ENDS_WITH
+  - SuperOffice.ErpSync.StringOperators.EQUALS
+  - SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
+  - SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
+  - SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
+  - SuperOffice.ErpSync.StringOperators.NOT_EQUALS
+  langs:
+  - csharp
+  - vb
+  name: StringOperators
+  nameWithType: StringOperators
+  fullName: SuperOffice.ErpSync.StringOperators
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nSupported operators for string fields through advanced search\n"
+  syntax:
+    content: public static class StringOperators
+    content.vb: Public Module StringOperators
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ErpSync.StringOperators.EQUALS
+  commentId: F:SuperOffice.ErpSync.StringOperators.EQUALS
+  id: EQUALS
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: EQUALS
+  nameWithType: StringOperators.EQUALS
+  fullName: SuperOffice.ErpSync.StringOperators.EQUALS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Equals&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string EQUALS = "="
+    return:
+      type: System.String
+    content.vb: Public Const EQUALS As String = "="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.BEGINS_WITH
+  commentId: F:SuperOffice.ErpSync.StringOperators.BEGINS_WITH
+  id: BEGINS_WITH
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: BEGINS_WITH
+  nameWithType: StringOperators.BEGINS_WITH
+  fullName: SuperOffice.ErpSync.StringOperators.BEGINS_WITH
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Begins with&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string BEGINS_WITH = "begins"
+    return:
+      type: System.String
+    content.vb: Public Const BEGINS_WITH As String = "begins"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.CONTAINS
+  commentId: F:SuperOffice.ErpSync.StringOperators.CONTAINS
+  id: CONTAINS
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: CONTAINS
+  nameWithType: StringOperators.CONTAINS
+  fullName: SuperOffice.ErpSync.StringOperators.CONTAINS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Contains&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string CONTAINS = "contains"
+    return:
+      type: System.String
+    content.vb: Public Const CONTAINS As String = "contains"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.ENDS_WITH
+  commentId: F:SuperOffice.ErpSync.StringOperators.ENDS_WITH
+  id: ENDS_WITH
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: ENDS_WITH
+  nameWithType: StringOperators.ENDS_WITH
+  fullName: SuperOffice.ErpSync.StringOperators.ENDS_WITH
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Ends with&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string ENDS_WITH = "ends"
+    return:
+      type: System.String
+    content.vb: Public Const ENDS_WITH As String = "ends"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
+  commentId: F:SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
+  id: NOT_BEGINS_WITH
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: NOT_BEGINS_WITH
+  nameWithType: StringOperators.NOT_BEGINS_WITH
+  fullName: SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Does not begin with&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string NOT_BEGINS_WITH = "notbegins"
+    return:
+      type: System.String
+    content.vb: Public Const NOT_BEGINS_WITH As String = "notbegins"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
+  commentId: F:SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
+  id: NOT_CONTAINS
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: NOT_CONTAINS
+  nameWithType: StringOperators.NOT_CONTAINS
+  fullName: SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Does not contain&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string NOT_CONTAINS = "notcontains"
+    return:
+      type: System.String
+    content.vb: Public Const NOT_CONTAINS As String = "notcontains"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
+  commentId: F:SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
+  id: NOT_ENDS_WITH
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: NOT_ENDS_WITH
+  nameWithType: StringOperators.NOT_ENDS_WITH
+  fullName: SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Does not end with&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string NOT_ENDS_WITH = "notends"
+    return:
+      type: System.String
+    content.vb: Public Const NOT_ENDS_WITH As String = "notends"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.NOT_EQUALS
+  commentId: F:SuperOffice.ErpSync.StringOperators.NOT_EQUALS
+  id: NOT_EQUALS
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: NOT_EQUALS
+  nameWithType: StringOperators.NOT_EQUALS
+  fullName: SuperOffice.ErpSync.StringOperators.NOT_EQUALS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Does not equal&quot; operator. Should not be case sensitive\n"
+  syntax:
+    content: public const string NOT_EQUALS = "isnot"
+    return:
+      type: System.String
+    content.vb: Public Const NOT_EQUALS As String = "isnot"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.StringOperators.BETWEEN
+  commentId: F:SuperOffice.ErpSync.StringOperators.BETWEEN
+  id: BETWEEN
+  parent: SuperOffice.ErpSync.StringOperators
+  langs:
+  - csharp
+  - vb
+  name: BETWEEN
+  nameWithType: StringOperators.BETWEEN
+  fullName: SuperOffice.ErpSync.StringOperators.BETWEEN
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Between&quot; operator. Search values are presented in desired order. Should not be case sensitive\n"
+  syntax:
+    content: public const string BETWEEN = "between"
+    return:
+      type: System.String
+    content.vb: Public Const BETWEEN As String = "between"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

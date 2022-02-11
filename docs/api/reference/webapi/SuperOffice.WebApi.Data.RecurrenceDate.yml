@@ -1,0 +1,306 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RecurrenceDate
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceDate
+  id: RecurrenceDate
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RecurrenceDate.#ctor
+  - SuperOffice.WebApi.Data.RecurrenceDate.Date
+  - SuperOffice.WebApi.Data.RecurrenceDate.Description
+  - SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint
+  - SuperOffice.WebApi.Data.RecurrenceDate.IsConflict
+  - SuperOffice.WebApi.Data.RecurrenceDate.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceDate
+  nameWithType: RecurrenceDate
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RecurrenceDate.\nClass representing a recurrence date.    \n"
+  syntax:
+    content: 'public class RecurrenceDate : Object'
+    content.vb: >-
+      Public Class RecurrenceDate
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RecurrenceDate.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RecurrenceDate
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceDate()
+  nameWithType: RecurrenceDate.RecurrenceDate()
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.RecurrenceDate()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RecurrenceDate()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RecurrenceDate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.Date
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceDate.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.RecurrenceDate
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: RecurrenceDate.Date
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.Date
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date of the recurring appointment.\n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.WebApi.Data.RecurrenceDate.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.IsConflict
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceDate.IsConflict
+  id: IsConflict
+  parent: SuperOffice.WebApi.Data.RecurrenceDate
+  langs:
+  - csharp
+  - vb
+  name: IsConflict
+  nameWithType: RecurrenceDate.IsConflict
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.IsConflict
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if this date creates a conflict.\n"
+  syntax:
+    content: public virtual bool IsConflict { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsConflict As Boolean
+  overload: SuperOffice.WebApi.Data.RecurrenceDate.IsConflict*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.Description
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceDate.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.RecurrenceDate
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: RecurrenceDate.Description
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAny description, such as red letter day info, or marked dates\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.RecurrenceDate.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint
+  id: DescriptionStyleHint
+  parent: SuperOffice.WebApi.Data.RecurrenceDate
+  langs:
+  - csharp
+  - vb
+  name: DescriptionStyleHint
+  nameWithType: RecurrenceDate.DescriptionStyleHint
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStyle hint for the description (i.e. red for red-letter-days)\n"
+  syntax:
+    content: public virtual string DescriptionStyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DescriptionStyleHint As String
+  overload: SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceDate.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.RecurrenceDate
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: RecurrenceDate.Tooltip
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip describing any conflicts.\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.RecurrenceDate.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceDate.#ctor
+  isExternal: true
+  name: RecurrenceDate
+  nameWithType: RecurrenceDate.RecurrenceDate
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.RecurrenceDate
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.Date*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceDate.Date
+  isExternal: true
+  name: Date
+  nameWithType: RecurrenceDate.Date
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.IsConflict*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceDate.IsConflict
+  isExternal: true
+  name: IsConflict
+  nameWithType: RecurrenceDate.IsConflict
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.IsConflict
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceDate.Description
+  isExternal: true
+  name: Description
+  nameWithType: RecurrenceDate.Description
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint
+  isExternal: true
+  name: DescriptionStyleHint
+  nameWithType: RecurrenceDate.DescriptionStyleHint
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.DescriptionStyleHint
+- uid: SuperOffice.WebApi.Data.RecurrenceDate.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceDate.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: RecurrenceDate.Tooltip
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate.Tooltip

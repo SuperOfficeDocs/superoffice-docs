@@ -1,0 +1,141 @@
+PUT /api/v1/Selection/24/CriteriaGroups
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Accept: application/json
+
+[
+  {
+    "Name": "0",
+    "Description": "",
+    "Rank": 0,
+    "Restrictions": [
+      {
+        "Name": "firstName",
+        "Operator": "begins",
+        "Values": [
+          "B"
+        ],
+        "DisplayValues": [
+          "B"
+        ],
+        "ColumnInfo": {
+          "DisplayName": "[SR_PERSONARCHIVE_FIRSTNAME]",
+          "DisplayTooltip": "[SR_PERSONARCHIVE_FIRSTNAME_TOOLTIP]",
+          "DisplayType": "string",
+          "CanOrderBy": true,
+          "Name": "firstName",
+          "CanRestrictBy": true,
+          "RestrictionType": "string",
+          "RestrictionListName": null,
+          "IsVisible": true,
+          "ExtraInfo": "",
+          "Width": "20%",
+          "IconHint": "Person",
+          "HeadingIconHint": ""
+        },
+        "IsActive": true,
+        "SubRestrictions": null,
+        "InterParenthesis": 0,
+        "InterOperator": "And",
+        "UniqueHash": 939057318
+      },
+      {
+        "Name": "lastName",
+        "Operator": "begins",
+        "Values": [
+          "Y"
+        ],
+        "DisplayValues": [
+          "Y"
+        ],
+        "ColumnInfo": {
+          "DisplayName": "[SR_PERSONARCHIVE_LASTNAME]",
+          "DisplayTooltip": "[SR_PERSONARCHIVE_LASTNAME_TOOLTIP]",
+          "DisplayType": "string",
+          "CanOrderBy": true,
+          "Name": "lastName",
+          "CanRestrictBy": true,
+          "RestrictionType": "string",
+          "RestrictionListName": null,
+          "IsVisible": true,
+          "ExtraInfo": "",
+          "Width": "20%",
+          "IconHint": "Person",
+          "HeadingIconHint": ""
+        },
+        "IsActive": true,
+        "SubRestrictions": null,
+        "InterParenthesis": 0,
+        "InterOperator": "And",
+        "UniqueHash": -588059390
+      }
+    ]
+  },
+  {
+    "Name": "1",
+    "Description": "",
+    "Rank": 1,
+    "Restrictions": [
+      {
+        "Name": "firstName",
+        "Operator": "begins",
+        "Values": [
+          "R"
+        ],
+        "DisplayValues": [
+          "R"
+        ],
+        "ColumnInfo": {
+          "DisplayName": "[SR_PERSONARCHIVE_FIRSTNAME]",
+          "DisplayTooltip": "[SR_PERSONARCHIVE_FIRSTNAME_TOOLTIP]",
+          "DisplayType": "string",
+          "CanOrderBy": true,
+          "Name": "firstName",
+          "CanRestrictBy": true,
+          "RestrictionType": "string",
+          "RestrictionListName": null,
+          "IsVisible": true,
+          "ExtraInfo": "",
+          "Width": "20%",
+          "IconHint": "Person",
+          "HeadingIconHint": ""
+        },
+        "IsActive": true,
+        "SubRestrictions": null,
+        "InterParenthesis": 0,
+        "InterOperator": "And",
+        "UniqueHash": 939057318
+      },
+      {
+        "Name": "lastName",
+        "Operator": "begins",
+        "Values": [
+          "Y"
+        ],
+        "DisplayValues": [
+          "Y"
+        ],
+        "ColumnInfo": {
+          "DisplayName": "[SR_PERSONARCHIVE_LASTNAME]",
+          "DisplayTooltip": "[SR_PERSONARCHIVE_LASTNAME_TOOLTIP]",
+          "DisplayType": "string",
+          "CanOrderBy": true,
+          "Name": "lastName",
+          "CanRestrictBy": true,
+          "RestrictionType": "string",
+          "RestrictionListName": null,
+          "IsVisible": true,
+          "ExtraInfo": "",
+          "Width": "20%",
+          "IconHint": "Person",
+          "HeadingIconHint": ""
+        },
+        "IsActive": true,
+        "SubRestrictions": null,
+        "InterParenthesis": 0,
+        "InterOperator": "And",
+        "UniqueHash": -588059390
+      }
+    ]
+  }
+]

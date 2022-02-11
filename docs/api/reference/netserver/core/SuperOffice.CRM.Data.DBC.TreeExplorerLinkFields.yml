@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  id: DBC.TreeExplorerLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.EntryId
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Href
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Icon
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.SessionKey
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Target
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.TreeExplorerLinkId
+  langs:
+  - csharp
+  - vb
+  name: DBC.TreeExplorerLinkFields
+  nameWithType: DBC.TreeExplorerLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TreeExplorerLink, This table stores the link of entries in a tree-explorer\n"
+  syntax:
+    content: public static class TreeExplorerLinkFields
+    content.vb: Public Module TreeExplorerLinkFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.TreeExplorerLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.TreeExplorerLinkId
+  id: TreeExplorerLinkId
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TreeExplorerLinkId
+  nameWithType: DBC.TreeExplorerLinkFields.TreeExplorerLinkId
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.TreeExplorerLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.TreeExplorerLinkId: Primary key\n"
+  syntax:
+    content: public const string TreeExplorerLinkId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const TreeExplorerLinkId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.EntryId
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.EntryId
+  id: EntryId
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: EntryId
+  nameWithType: DBC.TreeExplorerLinkFields.EntryId
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.EntryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.EntryId: The id of the entry\n"
+  syntax:
+    content: public const string EntryId = "entry_id"
+    return:
+      type: System.String
+    content.vb: Public Const EntryId As String = "entry_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Icon
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: DBC.TreeExplorerLinkFields.Icon
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Icon
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.Icon: The icon of the entry\n"
+  syntax:
+    content: public const string Icon = "icon"
+    return:
+      type: System.String
+    content.vb: Public Const Icon As String = "icon"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Href
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Href
+  id: Href
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: DBC.TreeExplorerLinkFields.Href
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Href
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.Href: The href of the entry\n"
+  syntax:
+    content: public const string Href = "href"
+    return:
+      type: System.String
+    content.vb: Public Const Href As String = "href"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Target
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Target
+  id: Target
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: DBC.TreeExplorerLinkFields.Target
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Target
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.Target: The target of the href of the entry\n"
+  syntax:
+    content: public const string Target = "target"
+    return:
+      type: System.String
+    content.vb: Public Const Target As String = "target"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.TreeExplorerLinkFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.Tooltip: The tooltip of the entry\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.SessionKey
+  commentId: F:SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.SessionKey
+  id: SessionKey
+  parent: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: DBC.TreeExplorerLinkFields.SessionKey
+  fullName: SuperOffice.CRM.Data.DBC.TreeExplorerLinkFields.SessionKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTreeExplorerLink.SessionKey: The session this link belong to\n"
+  syntax:
+    content: public const string SessionKey = "session_key"
+    return:
+      type: System.String
+    content.vb: Public Const SessionKey As String = "session_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,18 @@
+digraph ContInt  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ContInt[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+contactinterest[fillcolor = "azure1"]
+ContIntGroupLink[fillcolor = "azure1"]
+ContIntHeadingLink[fillcolor = "azure1"]
+s_link[fillcolor = "azure1"]
+ContInt -> associate [headlabel = "registered_associate_id"]
+ContInt -> associate [label = "updated_associate_id"]
+contactinterest -> ContInt [label = "cinterest_idx"]
+ContIntGroupLink -> ContInt [label = "contint_id"]
+ContIntHeadingLink -> ContInt [label = "contint_id"]
+s_link -> ContInt [label = "add_contact_interest"]
+s_link -> ContInt [label = "remove_contact_interest"]
+}

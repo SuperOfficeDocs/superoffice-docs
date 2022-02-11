@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatMessageType
+  commentId: T:SuperOffice.WebApi.Data.ChatMessageType
+  id: ChatMessageType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatMessageType.Invalid
+  - SuperOffice.WebApi.Data.ChatMessageType.Special
+  - SuperOffice.WebApi.Data.ChatMessageType.ToCustomer
+  - SuperOffice.WebApi.Data.ChatMessageType.ToUser
+  - SuperOffice.WebApi.Data.ChatMessageType.value__
+  langs:
+  - csharp
+  - vb
+  name: ChatMessageType
+  nameWithType: ChatMessageType
+  fullName: SuperOffice.WebApi.Data.ChatMessageType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChat Message type\nThis Enum is used by:  chat_message.type\n"
+  syntax:
+    content: 'public sealed class ChatMessageType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ChatMessageType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatMessageType.value__
+  commentId: F:SuperOffice.WebApi.Data.ChatMessageType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ChatMessageType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatMessageType.value__
+  fullName: SuperOffice.WebApi.Data.ChatMessageType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatMessageType.Invalid
+  commentId: F:SuperOffice.WebApi.Data.ChatMessageType.Invalid
+  id: Invalid
+  parent: SuperOffice.WebApi.Data.ChatMessageType
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: ChatMessageType.Invalid
+  fullName: SuperOffice.WebApi.Data.ChatMessageType.Invalid
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Invalid\n"
+  syntax:
+    content: public const ChatMessageType Invalid
+    return:
+      type: SuperOffice.WebApi.Data.ChatMessageType
+    content.vb: Public Const Invalid As ChatMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatMessageType.ToCustomer
+  commentId: F:SuperOffice.WebApi.Data.ChatMessageType.ToCustomer
+  id: ToCustomer
+  parent: SuperOffice.WebApi.Data.ChatMessageType
+  langs:
+  - csharp
+  - vb
+  name: ToCustomer
+  nameWithType: ChatMessageType.ToCustomer
+  fullName: SuperOffice.WebApi.Data.ChatMessageType.ToCustomer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Message is from user agent to customer\n"
+  syntax:
+    content: public const ChatMessageType ToCustomer
+    return:
+      type: SuperOffice.WebApi.Data.ChatMessageType
+    content.vb: Public Const ToCustomer As ChatMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatMessageType.ToUser
+  commentId: F:SuperOffice.WebApi.Data.ChatMessageType.ToUser
+  id: ToUser
+  parent: SuperOffice.WebApi.Data.ChatMessageType
+  langs:
+  - csharp
+  - vb
+  name: ToUser
+  nameWithType: ChatMessageType.ToUser
+  fullName: SuperOffice.WebApi.Data.ChatMessageType.ToUser
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Message is from customer to user agent\n"
+  syntax:
+    content: public const ChatMessageType ToUser
+    return:
+      type: SuperOffice.WebApi.Data.ChatMessageType
+    content.vb: Public Const ToUser As ChatMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatMessageType.Special
+  commentId: F:SuperOffice.WebApi.Data.ChatMessageType.Special
+  id: Special
+  parent: SuperOffice.WebApi.Data.ChatMessageType
+  langs:
+  - csharp
+  - vb
+  name: Special
+  nameWithType: ChatMessageType.Special
+  fullName: SuperOffice.WebApi.Data.ChatMessageType.Special
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Special message - see SpecialType field for details\n"
+  syntax:
+    content: public const ChatMessageType Special
+    return:
+      type: SuperOffice.WebApi.Data.ChatMessageType
+    content.vb: Public Const Special As ChatMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ChatMessageType
+  commentId: T:SuperOffice.WebApi.Data.ChatMessageType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatMessageType
+  nameWithType: ChatMessageType
+  fullName: SuperOffice.WebApi.Data.ChatMessageType

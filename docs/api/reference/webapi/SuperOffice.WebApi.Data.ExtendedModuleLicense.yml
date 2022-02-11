@@ -1,0 +1,430 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  commentId: T:SuperOffice.WebApi.Data.ExtendedModuleLicense
+  id: ExtendedModuleLicense
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.#ctor
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.Current
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.New
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal
+  - SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal
+  langs:
+  - csharp
+  - vb
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ExtendedModuleLicense.\n\n"
+  syntax:
+    content: 'public class ExtendedModuleLicense : Object'
+    content.vb: >-
+      Public Class ExtendedModuleLicense
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ExtendedModuleLicense.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ExtendedModuleLicense()
+  nameWithType: ExtendedModuleLicense.ExtendedModuleLicense()
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.ExtendedModuleLicense()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ExtendedModuleLicense()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.New
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.New
+  id: New
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: ExtendedModuleLicense.New
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.New
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual ModuleLicense New { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ModuleLicense
+    content.vb: Public Overridable Property New As ModuleLicense
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.New*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.Current
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.Current
+  id: Current
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: ExtendedModuleLicense.Current
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.Current
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual ModuleLicense Current { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ModuleLicense
+    content.vb: Public Overridable Property Current As ModuleLicense
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.Current*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse
+  id: NumberOfLicensesInUse
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicensesInUse
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesInUse
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLicensesInUse { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicensesInUse As Integer
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree
+  id: NumberOfLicensesFree
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicensesFree
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesFree
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLicensesFree { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicensesFree As Integer
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded
+  id: NumberOfLicensesAdded
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicensesAdded
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesAdded
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLicensesAdded { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicensesAdded As Integer
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal
+  id: NumberOfLicensesNewTotal
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicensesNewTotal
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesNewTotal
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLicensesNewTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicensesNewTotal As Integer
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree
+  id: NumberOfLicensesNewFree
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicensesNewFree
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesNewFree
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLicensesNewFree { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicensesNewFree As Integer
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal
+  commentId: P:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal
+  id: NumberOfLicensesTotal
+  parent: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLicensesTotal
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesTotal
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLicensesTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLicensesTotal As Integer
+  overload: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.#ctor
+  isExternal: true
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense.ExtendedModuleLicense
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.ExtendedModuleLicense
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.New*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.New
+  isExternal: true
+  name: New
+  nameWithType: ExtendedModuleLicense.New
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.New
+- uid: SuperOffice.WebApi.Data.ModuleLicense
+  commentId: T:SuperOffice.WebApi.Data.ModuleLicense
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ModuleLicense
+  nameWithType: ModuleLicense
+  fullName: SuperOffice.WebApi.Data.ModuleLicense
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.Current*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.Current
+  isExternal: true
+  name: Current
+  nameWithType: ExtendedModuleLicense.Current
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.Current
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse
+  isExternal: true
+  name: NumberOfLicensesInUse
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesInUse
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesInUse
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree
+  isExternal: true
+  name: NumberOfLicensesFree
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesFree
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesFree
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded
+  isExternal: true
+  name: NumberOfLicensesAdded
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesAdded
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesAdded
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal
+  isExternal: true
+  name: NumberOfLicensesNewTotal
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesNewTotal
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewTotal
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree
+  isExternal: true
+  name: NumberOfLicensesNewFree
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesNewFree
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesNewFree
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal*
+  commentId: Overload:SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal
+  isExternal: true
+  name: NumberOfLicensesTotal
+  nameWithType: ExtendedModuleLicense.NumberOfLicensesTotal
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense.NumberOfLicensesTotal

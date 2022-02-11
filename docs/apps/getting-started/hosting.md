@@ -24,7 +24,7 @@ Before you get to authorization, you must sign up to get your unique [client IDs
 
 <!-- Referenced links -->
 [1]: ../provisioning/index.md
-[3]: ../../../../data-access/docs/authentication/online/validate-security-tokens.md
+[3]: ../../api/authentication/online/validate-security-tokens.md
 [4]: ../terminology.md
 [5]: ../redirects/index.md
 [6]: get-app-keys.md

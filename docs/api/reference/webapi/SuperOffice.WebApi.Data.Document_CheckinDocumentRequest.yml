@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  id: Document_CheckinDocumentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes
+  - SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId
+  - SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription
+  - SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields
+  langs:
+  - csharp
+  - vb
+  name: Document_CheckinDocumentRequest
+  nameWithType: Document_CheckinDocumentRequest
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_CheckinDocumentRequest : Object'
+    content.vb: >-
+      Public Class Document_CheckinDocumentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_CheckinDocumentRequest()
+  nameWithType: Document_CheckinDocumentRequest.Document_CheckinDocumentRequest()
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.Document_CheckinDocumentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_CheckinDocumentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_CheckinDocumentRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes
+  commentId: P:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes
+  id: AllowedReturnTypes
+  parent: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: AllowedReturnTypes
+  nameWithType: Document_CheckinDocumentRequest.AllowedReturnTypes
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] AllowedReturnTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AllowedReturnTypes As String()
+  overload: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription
+  commentId: P:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription
+  id: VersionDescription
+  parent: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: VersionDescription
+  nameWithType: Document_CheckinDocumentRequest.VersionDescription
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string VersionDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VersionDescription As String
+  overload: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields
+  commentId: P:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields
+  id: VersionExtraFields
+  parent: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: VersionExtraFields
+  nameWithType: Document_CheckinDocumentRequest.VersionExtraFields
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] VersionExtraFields { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property VersionExtraFields As String()
+  overload: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.#ctor
+  isExternal: true
+  name: Document_CheckinDocumentRequest
+  nameWithType: Document_CheckinDocumentRequest.Document_CheckinDocumentRequest
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.Document_CheckinDocumentRequest
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_CheckinDocumentRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes
+  isExternal: true
+  name: AllowedReturnTypes
+  nameWithType: Document_CheckinDocumentRequest.AllowedReturnTypes
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.AllowedReturnTypes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription
+  isExternal: true
+  name: VersionDescription
+  nameWithType: Document_CheckinDocumentRequest.VersionDescription
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields
+  isExternal: true
+  name: VersionExtraFields
+  nameWithType: Document_CheckinDocumentRequest.VersionExtraFields
+  fullName: SuperOffice.WebApi.Data.Document_CheckinDocumentRequest.VersionExtraFields

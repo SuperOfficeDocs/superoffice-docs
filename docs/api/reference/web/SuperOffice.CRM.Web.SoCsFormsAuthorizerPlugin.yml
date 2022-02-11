@@ -1,0 +1,498 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  commentId: T:SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  id: SoCsFormsAuthorizerPlugin
+  parent: SuperOffice.CRM.Web
+  children:
+  - SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.#ctor
+  - SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  langs:
+  - csharp
+  - vb
+  name: SoCsFormsAuthorizerPlugin
+  nameWithType: SoCsFormsAuthorizerPlugin
+  fullName: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: >-
+      [SoFormsAuthorizerPlugin("SoCsFormsAuthorizerPlugin")]
+
+      public sealed class SoCsFormsAuthorizerPlugin : ISoFormsAuthorizerPlugin, IPlugin
+    content.vb: >-
+      <SoFormsAuthorizerPlugin("SoCsFormsAuthorizerPlugin")>
+
+      Public NotInheritable Class SoCsFormsAuthorizerPlugin
+          Implements ISoFormsAuthorizerPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+    ctor: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SoCsFormsAuthorizerPlugin
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  id: Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  parent: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  langs:
+  - csharp
+  - vb
+  name: Authorize(SoPrincipal)
+  nameWithType: SoCsFormsAuthorizerPlugin.Authorize(SoPrincipal)
+  fullName: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public AuthorizationState Authorize(SoPrincipal principal)
+    parameters:
+    - id: principal
+      type: SuperOffice.Security.Principal.SoPrincipal
+    return:
+      type: SuperOffice.Web.Authorization.AuthorizationState
+    content.vb: Public Function Authorize(principal As SoPrincipal) As AuthorizationState
+  overload: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize*
+  implements:
+  - SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  langs:
+  - csharp
+  - vb
+  name: SoCsFormsAuthorizerPlugin()
+  nameWithType: SoCsFormsAuthorizerPlugin.SoCsFormsAuthorizerPlugin()
+  fullName: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.SoCsFormsAuthorizerPlugin()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public SoCsFormsAuthorizerPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web
+  commentId: N:SuperOffice.CRM.Web
+  isExternal: true
+  name: SuperOffice.CRM.Web
+  nameWithType: SuperOffice.CRM.Web
+  fullName: SuperOffice.CRM.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  commentId: T:SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  parent: SuperOffice.Web.Authorization
+  isExternal: true
+  name: ISoFormsAuthorizerPlugin
+  nameWithType: ISoFormsAuthorizerPlugin
+  fullName: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Authorization
+  commentId: N:SuperOffice.Web.Authorization
+  isExternal: true
+  name: SuperOffice.Web.Authorization
+  nameWithType: SuperOffice.Web.Authorization
+  fullName: SuperOffice.Web.Authorization
+- uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize*
+  commentId: Overload:SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize
+  isExternal: true
+  name: Authorize
+  nameWithType: SoCsFormsAuthorizerPlugin.Authorize
+  fullName: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.Authorize
+- uid: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  parent: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  isExternal: true
+  name: Authorize(SoPrincipal)
+  nameWithType: ISoFormsAuthorizerPlugin.Authorize(SoPrincipal)
+  fullName: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+  spec.csharp:
+  - uid: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+    name: Authorize
+    nameWithType: ISoFormsAuthorizerPlugin.Authorize
+    fullName: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoPrincipal
+    name: SoPrincipal
+    nameWithType: SoPrincipal
+    fullName: SuperOffice.Security.Principal.SoPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize(SuperOffice.Security.Principal.SoPrincipal)
+    name: Authorize
+    nameWithType: ISoFormsAuthorizerPlugin.Authorize
+    fullName: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin.Authorize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoPrincipal
+    name: SoPrincipal
+    nameWithType: SoPrincipal
+    fullName: SuperOffice.Security.Principal.SoPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: SuperOffice.Web.Authorization.AuthorizationState
+  commentId: T:SuperOffice.Web.Authorization.AuthorizationState
+  parent: SuperOffice.Web.Authorization
+  isExternal: true
+  name: AuthorizationState
+  nameWithType: AuthorizationState
+  fullName: SuperOffice.Web.Authorization.AuthorizationState
+- uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.#ctor
+  isExternal: true
+  name: SoCsFormsAuthorizerPlugin
+  nameWithType: SoCsFormsAuthorizerPlugin.SoCsFormsAuthorizerPlugin
+  fullName: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin.SoCsFormsAuthorizerPlugin

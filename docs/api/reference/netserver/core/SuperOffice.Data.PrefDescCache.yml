@@ -1,0 +1,820 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.PrefDescCache
+  commentId: T:SuperOffice.Data.PrefDescCache
+  id: PrefDescCache
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.PrefDescCache.GetAllDescriptions
+  - SuperOffice.Data.PrefDescCache.GetDescription(System.Int32)
+  - SuperOffice.Data.PrefDescCache.GetDescription(System.String,System.String)
+  - SuperOffice.Data.PrefDescCache.GetKeysInSection(System.String)
+  - SuperOffice.Data.PrefDescCache.GetLine(System.Int32)
+  - SuperOffice.Data.PrefDescCache.GetLine(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: PrefDescCache
+  nameWithType: PrefDescCache
+  fullName: SuperOffice.Data.PrefDescCache
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCache for Preference Descriptions, stored in the prefdesc table. Since this table is only\nupdated during upgrades, which imply a recycle anyway, it has a lifetime limited only\nby the database connection. There are about 700 prefdesc rows\n"
+  syntax:
+    content: >-
+      [SoInject("Database")]
+
+      public class PrefDescCache
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public Class PrefDescCache
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.PrefDescCache.EnumUtil.MapEnums``2
+  - SuperOffice.Data.PrefDescCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.PrefDescCache.GetDescription(System.String,System.String)
+  commentId: M:SuperOffice.Data.PrefDescCache.GetDescription(System.String,System.String)
+  id: GetDescription(System.String,System.String)
+  parent: SuperOffice.Data.PrefDescCache
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(String, String)
+  nameWithType: PrefDescCache.GetDescription(String, String)
+  fullName: SuperOffice.Data.PrefDescCache.GetDescription(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet the description that corresponds to a given section/key; case-insensitive search\n"
+  syntax:
+    content: public PrefDescRecordData GetDescription(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Rows.PrefDescRecordData
+    content.vb: Public Function GetDescription(section As String, key As String) As PrefDescRecordData
+  overload: SuperOffice.Data.PrefDescCache.GetDescription*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.PrefDescCache.GetDescription(System.Int32)
+  commentId: M:SuperOffice.Data.PrefDescCache.GetDescription(System.Int32)
+  id: GetDescription(System.Int32)
+  parent: SuperOffice.Data.PrefDescCache
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(Int32)
+  nameWithType: PrefDescCache.GetDescription(Int32)
+  fullName: SuperOffice.Data.PrefDescCache.GetDescription(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet the description that corresponds to a given ID\n"
+  syntax:
+    content: public PrefDescRecordData GetDescription(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.PrefDescRecordData
+    content.vb: Public Function GetDescription(id As Integer) As PrefDescRecordData
+  overload: SuperOffice.Data.PrefDescCache.GetDescription*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.PrefDescCache.GetAllDescriptions
+  commentId: M:SuperOffice.Data.PrefDescCache.GetAllDescriptions
+  id: GetAllDescriptions
+  parent: SuperOffice.Data.PrefDescCache
+  langs:
+  - csharp
+  - vb
+  name: GetAllDescriptions()
+  nameWithType: PrefDescCache.GetAllDescriptions()
+  fullName: SuperOffice.Data.PrefDescCache.GetAllDescriptions()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public PrefDescRecordData[] GetAllDescriptions()
+    return:
+      type: SuperOffice.CRM.Rows.PrefDescRecordData[]
+    content.vb: Public Function GetAllDescriptions As PrefDescRecordData()
+  overload: SuperOffice.Data.PrefDescCache.GetAllDescriptions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.PrefDescCache.GetKeysInSection(System.String)
+  commentId: M:SuperOffice.Data.PrefDescCache.GetKeysInSection(System.String)
+  id: GetKeysInSection(System.String)
+  parent: SuperOffice.Data.PrefDescCache
+  langs:
+  - csharp
+  - vb
+  name: GetKeysInSection(String)
+  nameWithType: PrefDescCache.GetKeysInSection(String)
+  fullName: SuperOffice.Data.PrefDescCache.GetKeysInSection(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public string[] GetKeysInSection(string section)
+    parameters:
+    - id: section
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Function GetKeysInSection(section As String) As String()
+  overload: SuperOffice.Data.PrefDescCache.GetKeysInSection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.PrefDescCache.GetLine(System.Int32,System.String)
+  commentId: M:SuperOffice.Data.PrefDescCache.GetLine(System.Int32,System.String)
+  id: GetLine(System.Int32,System.String)
+  parent: SuperOffice.Data.PrefDescCache
+  langs:
+  - csharp
+  - vb
+  name: GetLine(Int32, String)
+  nameWithType: PrefDescCache.GetLine(Int32, String)
+  fullName: SuperOffice.Data.PrefDescCache.GetLine(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet the line description and showvalue that correspond to a a preference that comes from a prefdescline list item\n"
+  syntax:
+    content: public PrefDescLineRecordData GetLine(int prefDescId, string prefValue)
+    parameters:
+    - id: prefDescId
+      type: System.Int32
+    - id: prefValue
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    content.vb: Public Function GetLine(prefDescId As Integer, prefValue As String) As PrefDescLineRecordData
+  overload: SuperOffice.Data.PrefDescCache.GetLine*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.PrefDescCache.GetLine(System.Int32)
+  commentId: M:SuperOffice.Data.PrefDescCache.GetLine(System.Int32)
+  id: GetLine(System.Int32)
+  parent: SuperOffice.Data.PrefDescCache
+  langs:
+  - csharp
+  - vb
+  name: GetLine(Int32)
+  nameWithType: PrefDescCache.GetLine(Int32)
+  fullName: SuperOffice.Data.PrefDescCache.GetLine(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGet the line description and showvalue that correspond to a given ID\n"
+  syntax:
+    content: public PrefDescLineRecordData GetLine(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    content.vb: Public Function GetLine(id As Integer) As PrefDescLineRecordData
+  overload: SuperOffice.Data.PrefDescCache.GetLine*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PrefDescCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PrefDescCache, To>()
+  nameWithType: EnumUtil.MapEnums<PrefDescCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PrefDescCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescCache, To)()
+  name.vb: MapEnums(Of PrefDescCache, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PrefDescCache, To>
+    nameWithType: EnumUtil.MapEnums<PrefDescCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PrefDescCache, To)
+    nameWithType: EnumUtil.MapEnums(Of PrefDescCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PrefDescCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PrefDescCache, To>()
+  nameWithType: Converters.MapEnums<PrefDescCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of PrefDescCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescCache, To)()
+  name.vb: MapEnums(Of PrefDescCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PrefDescCache, To>
+    nameWithType: Converters.MapEnums<PrefDescCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PrefDescCache, To)
+    nameWithType: Converters.MapEnums(Of PrefDescCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.PrefDescCache.GetDescription*
+  commentId: Overload:SuperOffice.Data.PrefDescCache.GetDescription
+  isExternal: true
+  name: GetDescription
+  nameWithType: PrefDescCache.GetDescription
+  fullName: SuperOffice.Data.PrefDescCache.GetDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.PrefDescRecordData
+  commentId: T:SuperOffice.CRM.Rows.PrefDescRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PrefDescRecordData
+  nameWithType: PrefDescRecordData
+  fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.PrefDescCache.GetAllDescriptions*
+  commentId: Overload:SuperOffice.Data.PrefDescCache.GetAllDescriptions
+  isExternal: true
+  name: GetAllDescriptions
+  nameWithType: PrefDescCache.GetAllDescriptions
+  fullName: SuperOffice.Data.PrefDescCache.GetAllDescriptions
+- uid: SuperOffice.CRM.Rows.PrefDescRecordData[]
+  isExternal: true
+  name: PrefDescRecordData[]
+  nameWithType: PrefDescRecordData[]
+  fullName: SuperOffice.CRM.Rows.PrefDescRecordData[]
+  nameWithType.vb: PrefDescRecordData()
+  fullName.vb: SuperOffice.CRM.Rows.PrefDescRecordData()
+  name.vb: PrefDescRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    nameWithType: PrefDescRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    nameWithType: PrefDescRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.PrefDescCache.GetKeysInSection*
+  commentId: Overload:SuperOffice.Data.PrefDescCache.GetKeysInSection
+  isExternal: true
+  name: GetKeysInSection
+  nameWithType: PrefDescCache.GetKeysInSection
+  fullName: SuperOffice.Data.PrefDescCache.GetKeysInSection
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.PrefDescCache.GetLine*
+  commentId: Overload:SuperOffice.Data.PrefDescCache.GetLine
+  isExternal: true
+  name: GetLine
+  nameWithType: PrefDescCache.GetLine
+  fullName: SuperOffice.Data.PrefDescCache.GetLine
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  commentId: T:SuperOffice.CRM.Rows.PrefDescLineRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PrefDescLineRecordData
+  nameWithType: PrefDescLineRecordData
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData

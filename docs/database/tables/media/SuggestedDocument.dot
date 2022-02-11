@@ -1,0 +1,17 @@
+digraph SuggestedDocument  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SuggestedDocument[fillcolor = "cadetblue1"]
+SaleTypeStageLink[fillcolor = "azure1"]
+ProjectTypeStatusLink[fillcolor = "azure1"]
+DocTmpl[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+appointment[fillcolor = "azure1"]
+SuggestedDocument -> SaleTypeStageLink [headlabel = "saleTypeStageLinkId"]
+SuggestedDocument -> ProjectTypeStatusLink [headlabel = "projectTypeStatusLinkId"]
+SuggestedDocument -> DocTmpl [headlabel = "doctmpl_id"]
+SuggestedDocument -> associate [headlabel = "registered_associate_id"]
+SuggestedDocument -> associate [label = "updated_associate_id"]
+appointment -> SuggestedDocument [label = "suggestedDocumentId"]
+}

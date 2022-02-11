@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  id: Sale_GetSalesByDateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit
+  - SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate
+  - SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status
+  - SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSalesByDateRequest
+  nameWithType: Sale_GetSalesByDateRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetSalesByDateRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetSalesByDateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSalesByDateRequest()
+  nameWithType: Sale_GetSalesByDateRequest.Sale_GetSalesByDateRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Sale_GetSalesByDateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetSalesByDateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate
+  id: FromDate
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: Sale_GetSalesByDateRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FromDate As DateTime
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate
+  id: ToDate
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: Sale_GetSalesByDateRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ToDate As DateTime
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit
+  id: AmountLimit
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: AmountLimit
+  nameWithType: Sale_GetSalesByDateRequest.AmountLimit
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AmountLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AmountLimit As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Sale_GetSalesByDateRequest.Status
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SaleStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Property Status As SaleStatus
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.#ctor
+  isExternal: true
+  name: Sale_GetSalesByDateRequest
+  nameWithType: Sale_GetSalesByDateRequest.Sale_GetSalesByDateRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Sale_GetSalesByDateRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: Sale_GetSalesByDateRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.FromDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: Sale_GetSalesByDateRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.ToDate
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit
+  isExternal: true
+  name: AmountLimit
+  nameWithType: Sale_GetSalesByDateRequest.AmountLimit
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.AmountLimit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status
+  isExternal: true
+  name: Status
+  nameWithType: Sale_GetSalesByDateRequest.Status
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesByDateRequest.Status
+- uid: SuperOffice.WebApi.Data.SaleStatus
+  commentId: T:SuperOffice.WebApi.Data.SaleStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.WebApi.Data.SaleStatus

@@ -1,0 +1,1016 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer
+  commentId: T:SuperOffice.Messaging.Messages.SoMessageSerializer
+  id: SoMessageSerializer
+  parent: SuperOffice.Messaging.Messages
+  children:
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.#ctor
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize``1(System.Byte[])
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize(System.Byte[],System.Int32,System.Type)
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize(System.Object)
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize``1(``0)
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize(System.Byte[])
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  langs:
+  - csharp
+  - vb
+  name: SoMessageSerializer
+  nameWithType: SoMessageSerializer
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nBase implementation for message serializers.\n"
+  syntax:
+    content: 'public abstract class SoMessageSerializer : ISoMessageSerializer, IPlugin'
+    content.vb: >-
+      Public MustInherit Class SoMessageSerializer
+          Implements ISoMessageSerializer, IPlugin
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.Messaging.Messages.SoAcknowledgeMessageSerializer
+  - SuperOffice.Messaging.Messages.SoAliveMessageSerializer
+  - SuperOffice.Messaging.Messages.SoTestMessageSerializer
+  implements:
+  - SuperOffice.Messaging.Messages.ISoMessageSerializer
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.EnumUtil.MapEnums``2
+  - SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize(System.Byte[])
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize(System.Byte[])
+  id: SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize(System.Byte[])
+  isEii: true
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: ISoMessageSerializer.Deserialize(Byte[])
+  nameWithType: SoMessageSerializer.ISoMessageSerializer.Deserialize(Byte[])
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nDe-serialize a raw message recieved over the network.\n"
+  syntax:
+    content: SoMessageHeader ISoMessageSerializer.Deserialize(byte[] rawMessage)
+    parameters:
+    - id: rawMessage
+      type: System.Byte[]
+      description: Byte array forming message to de-serialize
+    return:
+      type: SuperOffice.Messaging.Messages.SoMessageHeader
+      description: De-serialized message.
+    content.vb: Function SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(rawMessage As Byte()) As SoMessageHeader Implements ISoMessageSerializer.Deserialize
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize*
+  implements:
+  - SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+  nameWithType.vb: SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(Byte())
+  fullName.vb: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte())
+  name.vb: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(Byte())
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  id: SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  isEii: true
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: ISoMessageSerializer.Serialize(SoMessageHeader)
+  nameWithType: SoMessageSerializer.ISoMessageSerializer.Serialize(SoMessageHeader)
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nSerialize a message to a byte array so it can be sent over the network.\n"
+  syntax:
+    content: byte[] ISoMessageSerializer.Serialize(SoMessageHeader message)
+    parameters:
+    - id: message
+      type: SuperOffice.Messaging.Messages.SoMessageHeader
+      description: Message to serialize.
+    return:
+      type: System.Byte[]
+      description: Byte array forming the message to be sent over the network.
+    content.vb: Function SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(message As SoMessageHeader) As Byte() Implements ISoMessageSerializer.Serialize
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize*
+  implements:
+  - SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  nameWithType.vb: SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SoMessageHeader)
+  name.vb: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SoMessageHeader)
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize``1(System.Byte[])
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize``1(System.Byte[])
+  id: Deserialize``1(System.Byte[])
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<TMessage>(Byte[])
+  nameWithType: SoMessageSerializer.Deserialize<TMessage>(Byte[])
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize<TMessage>(System.Byte[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  syntax:
+    content: >-
+      public static TMessage Deserialize<TMessage>(byte[] rawMessage)
+          where TMessage : SoMessageHeader, new()
+    parameters:
+    - id: rawMessage
+      type: System.Byte[]
+    typeParameters:
+    - id: TMessage
+    return:
+      type: '{TMessage}'
+    content.vb: Public Shared Function Deserialize(Of TMessage As {SoMessageHeader, New})(rawMessage As Byte()) As TMessage
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize*
+  nameWithType.vb: SoMessageSerializer.Deserialize(Of TMessage)(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize(Of TMessage)(System.Byte())
+  name.vb: Deserialize(Of TMessage)(Byte())
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize``1(``0)
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize``1(``0)
+  id: Serialize``1(``0)
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize<TMessage>(TMessage)
+  nameWithType: SoMessageSerializer.Serialize<TMessage>(TMessage)
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize<TMessage>(TMessage)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  syntax:
+    content: >-
+      public static byte[] Serialize<TMessage>(TMessage message)
+          where TMessage : SoMessageHeader, new()
+    parameters:
+    - id: message
+      type: '{TMessage}'
+    typeParameters:
+    - id: TMessage
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function Serialize(Of TMessage As {SoMessageHeader, New})(message As TMessage) As Byte()
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize*
+  nameWithType.vb: SoMessageSerializer.Serialize(Of TMessage)(TMessage)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize(Of TMessage)(TMessage)
+  name.vb: Serialize(Of TMessage)(TMessage)
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize(System.Object)
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize(System.Object)
+  id: RawSerialize(System.Object)
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: RawSerialize(Object)
+  nameWithType: SoMessageSerializer.RawSerialize(Object)
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nPerform raw serialization without meta-data\n"
+  syntax:
+    content: public static byte[] RawSerialize(object anything)
+    parameters:
+    - id: anything
+      type: System.Object
+      description: Object to serialize (without meta-data).
+    return:
+      type: System.Byte[]
+      description: De-serialized byte array.
+    content.vb: Public Shared Function RawSerialize(anything As Object) As Byte()
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize(System.Byte[],System.Int32,System.Type)
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize(System.Byte[],System.Int32,System.Type)
+  id: RawDeserialize(System.Byte[],System.Int32,System.Type)
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: RawDeserialize(Byte[], Int32, Type)
+  nameWithType: SoMessageSerializer.RawDeserialize(Byte[], Int32, Type)
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize(System.Byte[], System.Int32, System.Type)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nPerform raw de-serialization without meta data.\n"
+  syntax:
+    content: public static object RawDeserialize(byte[] rawData, int position, Type anyType)
+    parameters:
+    - id: rawData
+      type: System.Byte[]
+      description: Data to de-serialize
+    - id: position
+      type: System.Int32
+      description: Position inside the the data buffer to de-serialize
+    - id: anyType
+      type: System.Type
+      description: Type to de-serialize
+    return:
+      type: System.Object
+      description: De-serialized object.
+    content.vb: Public Shared Function RawDeserialize(rawData As Byte(), position As Integer, anyType As Type) As Object
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize*
+  nameWithType.vb: SoMessageSerializer.RawDeserialize(Byte(), Int32, Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize(System.Byte(), System.Int32, System.Type)
+  name.vb: RawDeserialize(Byte(), Int32, Type)
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.#ctor
+  commentId: M:SuperOffice.Messaging.Messages.SoMessageSerializer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: SoMessageSerializer()
+  nameWithType: SoMessageSerializer.SoMessageSerializer()
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.SoMessageSerializer()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  syntax:
+    content: protected SoMessageSerializer()
+    content.vb: Protected Sub New
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType
+  commentId: P:SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType
+  id: MessageType
+  parent: SuperOffice.Messaging.Messages.SoMessageSerializer
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: SoMessageSerializer.MessageType
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging.Messages
+  summary: "\nAbstract method to be implemented by message serializers.\n"
+  syntax:
+    content: protected abstract Type MessageType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Protected MustOverride ReadOnly Property MessageType As Type
+  overload: SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
+references:
+- uid: SuperOffice.Messaging.Messages
+  commentId: N:SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SuperOffice.Messaging.Messages
+  nameWithType: SuperOffice.Messaging.Messages
+  fullName: SuperOffice.Messaging.Messages
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Messaging.Messages.ISoMessageSerializer
+  commentId: T:SuperOffice.Messaging.Messages.ISoMessageSerializer
+  parent: SuperOffice.Messaging.Messages
+  isExternal: true
+  name: ISoMessageSerializer
+  nameWithType: ISoMessageSerializer
+  fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoMessageSerializer, To>()
+  nameWithType: EnumUtil.MapEnums<SoMessageSerializer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Messaging.Messages.SoMessageSerializer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMessageSerializer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageSerializer, To)()
+  name.vb: MapEnums(Of SoMessageSerializer, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMessageSerializer, To>
+    nameWithType: EnumUtil.MapEnums<SoMessageSerializer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Messaging.Messages.SoMessageSerializer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMessageSerializer, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMessageSerializer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageSerializer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMessageSerializer, To>()
+  nameWithType: Converters.MapEnums<SoMessageSerializer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.Messages.SoMessageSerializer, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMessageSerializer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageSerializer, To)()
+  name.vb: MapEnums(Of SoMessageSerializer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMessageSerializer, To>
+    nameWithType: Converters.MapEnums<SoMessageSerializer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.Messages.SoMessageSerializer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMessageSerializer, To)
+    nameWithType: Converters.MapEnums(Of SoMessageSerializer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.Messages.SoMessageSerializer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Deserialize
+  isExternal: true
+  name: ISoMessageSerializer.Deserialize
+  nameWithType: SoMessageSerializer.ISoMessageSerializer.Deserialize
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize
+  nameWithType.vb: SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize
+  name.vb: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize
+- uid: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+  commentId: M:SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+  parent: SuperOffice.Messaging.Messages.ISoMessageSerializer
+  isExternal: true
+  name: Deserialize(Byte[])
+  nameWithType: ISoMessageSerializer.Deserialize(Byte[])
+  fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+  nameWithType.vb: ISoMessageSerializer.Deserialize(Byte())
+  fullName.vb: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte())
+  name.vb: Deserialize(Byte())
+  spec.csharp:
+  - uid: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+    name: Deserialize
+    nameWithType: ISoMessageSerializer.Deserialize
+    fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize(System.Byte[])
+    name: Deserialize
+    nameWithType: ISoMessageSerializer.Deserialize
+    fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer.Deserialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader
+  commentId: T:SuperOffice.Messaging.Messages.SoMessageHeader
+  parent: SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SoMessageHeader
+  nameWithType: SoMessageHeader
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice#Messaging#Messages#ISoMessageSerializer#Serialize
+  isExternal: true
+  name: ISoMessageSerializer.Serialize
+  nameWithType: SoMessageSerializer.ISoMessageSerializer.Serialize
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize
+  nameWithType.vb: SoMessageSerializer.SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize
+  name.vb: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize
+- uid: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  commentId: M:SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  parent: SuperOffice.Messaging.Messages.ISoMessageSerializer
+  isExternal: true
+  name: Serialize(SoMessageHeader)
+  nameWithType: ISoMessageSerializer.Serialize(SoMessageHeader)
+  fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+  spec.csharp:
+  - uid: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+    name: Serialize
+    nameWithType: ISoMessageSerializer.Serialize
+    fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader
+    name: SoMessageHeader
+    nameWithType: SoMessageHeader
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize(SuperOffice.Messaging.Messages.SoMessageHeader)
+    name: Serialize
+    nameWithType: ISoMessageSerializer.Serialize
+    fullName: SuperOffice.Messaging.Messages.ISoMessageSerializer.Serialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Messaging.Messages.SoMessageHeader
+    name: SoMessageHeader
+    nameWithType: SoMessageHeader
+    fullName: SuperOffice.Messaging.Messages.SoMessageHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize
+  isExternal: true
+  name: Deserialize
+  nameWithType: SoMessageSerializer.Deserialize
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.Deserialize
+- uid: '{TMessage}'
+  commentId: '!:TMessage'
+  definition: TMessage
+  name: TMessage
+  nameWithType: TMessage
+  fullName: TMessage
+- uid: TMessage
+  name: TMessage
+  nameWithType: TMessage
+  fullName: TMessage
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize
+  isExternal: true
+  name: Serialize
+  nameWithType: SoMessageSerializer.Serialize
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.Serialize
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize
+  isExternal: true
+  name: RawSerialize
+  nameWithType: SoMessageSerializer.RawSerialize
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.RawSerialize
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize
+  isExternal: true
+  name: RawDeserialize
+  nameWithType: SoMessageSerializer.RawDeserialize
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.RawDeserialize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.#ctor*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.#ctor
+  isExternal: true
+  name: SoMessageSerializer
+  nameWithType: SoMessageSerializer.SoMessageSerializer
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.SoMessageSerializer
+- uid: SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType*
+  commentId: Overload:SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType
+  isExternal: true
+  name: MessageType
+  nameWithType: SoMessageSerializer.MessageType
+  fullName: SuperOffice.Messaging.Messages.SoMessageSerializer.MessageType

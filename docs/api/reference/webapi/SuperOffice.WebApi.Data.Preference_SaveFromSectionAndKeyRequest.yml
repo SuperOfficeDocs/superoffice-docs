@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  id: Preference_SaveFromSectionAndKeyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key
+  - SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  - SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section
+  langs:
+  - csharp
+  - vb
+  name: Preference_SaveFromSectionAndKeyRequest
+  nameWithType: Preference_SaveFromSectionAndKeyRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_SaveFromSectionAndKeyRequest : Object'
+    content.vb: >-
+      Public Class Preference_SaveFromSectionAndKeyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_SaveFromSectionAndKeyRequest()
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.Preference_SaveFromSectionAndKeyRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Preference_SaveFromSectionAndKeyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_SaveFromSectionAndKeyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section
+  commentId: P:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.Section
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Section { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Section As String
+  overload: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key
+  commentId: P:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key
+  id: Key
+  parent: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.Key
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  commentId: P:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  id: PreferenceDescription
+  parent: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDescription
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PreferenceDescription PreferenceDescription { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PreferenceDescription
+    content.vb: Public Property PreferenceDescription As PreferenceDescription
+  overload: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.#ctor
+  isExternal: true
+  name: Preference_SaveFromSectionAndKeyRequest
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.Preference_SaveFromSectionAndKeyRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Preference_SaveFromSectionAndKeyRequest
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section
+  isExternal: true
+  name: Section
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.Section
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Section
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key
+  isExternal: true
+  name: Key
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.Key
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.Key
+- uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  isExternal: true
+  name: PreferenceDescription
+  nameWithType: Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+  fullName: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest.PreferenceDescription
+- uid: SuperOffice.WebApi.Data.PreferenceDescription
+  commentId: T:SuperOffice.WebApi.Data.PreferenceDescription
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PreferenceDescription
+  nameWithType: PreferenceDescription
+  fullName: SuperOffice.WebApi.Data.PreferenceDescription

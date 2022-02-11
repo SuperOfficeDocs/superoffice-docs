@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest
+  id: ErpSync_GetConfigurationFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetConfigurationFieldsRequest
+  nameWithType: ErpSync_GetConfigurationFieldsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_GetConfigurationFieldsRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_GetConfigurationFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetConfigurationFieldsRequest()
+  nameWithType: ErpSync_GetConfigurationFieldsRequest.ErpSync_GetConfigurationFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpSync_GetConfigurationFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_GetConfigurationFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  id: ErpConnectorId
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectorId
+  nameWithType: ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectorId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.#ctor
+  isExternal: true
+  name: ErpSync_GetConfigurationFieldsRequest
+  nameWithType: ErpSync_GetConfigurationFieldsRequest.ErpSync_GetConfigurationFieldsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpSync_GetConfigurationFieldsRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  isExternal: true
+  name: ErpConnectorId
+  nameWithType: ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConfigurationFieldsRequest.ErpConnectorId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

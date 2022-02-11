@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest
+  id: Person_ChangePersonRankRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp
+  - SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_ChangePersonRankRequest
+  nameWithType: Person_ChangePersonRankRequest
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_ChangePersonRankRequest : Object'
+    content.vb: >-
+      Public Class Person_ChangePersonRankRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_ChangePersonRankRequest()
+  nameWithType: Person_ChangePersonRankRequest.Person_ChangePersonRankRequest()
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.Person_ChangePersonRankRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_ChangePersonRankRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_ChangePersonRankRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp
+  commentId: P:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp
+  id: MoveUp
+  parent: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest
+  langs:
+  - csharp
+  - vb
+  name: MoveUp
+  nameWithType: Person_ChangePersonRankRequest.MoveUp
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool MoveUp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MoveUp As Boolean
+  overload: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.#ctor
+  isExternal: true
+  name: Person_ChangePersonRankRequest
+  nameWithType: Person_ChangePersonRankRequest.Person_ChangePersonRankRequest
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.Person_ChangePersonRankRequest
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_ChangePersonRankRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp
+  isExternal: true
+  name: MoveUp
+  nameWithType: Person_ChangePersonRankRequest.MoveUp
+  fullName: SuperOffice.WebApi.Data.Person_ChangePersonRankRequest.MoveUp
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  id: SuperOffice.DCF.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  - SuperOffice.DCF.Web.UI.ScriptObjects.MenuManager
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ClientOptions
+  nameWithType: ClientOptions
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ContextBase
+  nameWithType: ContextBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: IDropTarget
+  nameWithType: IDropTarget
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.MenuManager
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.MenuManager
+  isExternal: true
+  name: MenuManager
+  nameWithType: MenuManager
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.MenuManager
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects

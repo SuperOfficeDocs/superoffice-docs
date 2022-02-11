@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  commentId: T:SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  id: ISoFormsRedirectPlugin
+  parent: SuperOffice.Web.Redirection
+  children:
+  - SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+  langs:
+  - csharp
+  - vb
+  name: ISoFormsRedirectPlugin
+  nameWithType: ISoFormsRedirectPlugin
+  fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Redirection
+  syntax:
+    content: 'public interface ISoFormsRedirectPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ISoFormsRedirectPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+  commentId: M:SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+  id: ShouldRedirect(System.String@)
+  parent: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  langs:
+  - csharp
+  - vb
+  name: ShouldRedirect(out String)
+  nameWithType: ISoFormsRedirectPlugin.ShouldRedirect(out String)
+  fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(out System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Redirection
+  syntax:
+    content: bool ShouldRedirect(out string redirectUrl)
+    parameters:
+    - id: redirectUrl
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function ShouldRedirect(ByRef redirectUrl As String) As Boolean
+  overload: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect*
+  nameWithType.vb: ISoFormsRedirectPlugin.ShouldRedirect(ByRef String)
+  fullName.vb: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(ByRef System.String)
+  name.vb: ShouldRedirect(ByRef String)
+references:
+- uid: SuperOffice.Web.Redirection
+  commentId: N:SuperOffice.Web.Redirection
+  isExternal: true
+  name: SuperOffice.Web.Redirection
+  nameWithType: SuperOffice.Web.Redirection
+  fullName: SuperOffice.Web.Redirection
+- uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect*
+  commentId: Overload:SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect
+  isExternal: true
+  name: ShouldRedirect
+  nameWithType: ISoFormsRedirectPlugin.ShouldRedirect
+  fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

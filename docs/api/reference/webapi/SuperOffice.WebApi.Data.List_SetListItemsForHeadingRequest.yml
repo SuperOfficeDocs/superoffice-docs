@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  id: List_SetListItemsForHeadingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable
+  - SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId
+  - SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds
+  - SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_SetListItemsForHeadingRequest
+  nameWithType: List_SetListItemsForHeadingRequest
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetListItemsForHeadingRequest : Object'
+    content.vb: >-
+      Public Class List_SetListItemsForHeadingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetListItemsForHeadingRequest()
+  nameWithType: List_SetListItemsForHeadingRequest.List_SetListItemsForHeadingRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.List_SetListItemsForHeadingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetListItemsForHeadingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_SetListItemsForHeadingRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId
+  commentId: P:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId
+  id: HeadingId
+  parent: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: HeadingId
+  nameWithType: List_SetListItemsForHeadingRequest.HeadingId
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int HeadingId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property HeadingId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds
+  commentId: P:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds
+  id: ListItemIds
+  parent: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: ListItemIds
+  nameWithType: List_SetListItemsForHeadingRequest.ListItemIds
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ListItemIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ListItemIds As Integer()
+  overload: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable
+  commentId: P:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable
+  id: Enable
+  parent: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest
+  langs:
+  - csharp
+  - vb
+  name: Enable
+  nameWithType: List_SetListItemsForHeadingRequest.Enable
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Enable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enable As Boolean
+  overload: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.#ctor
+  isExternal: true
+  name: List_SetListItemsForHeadingRequest
+  nameWithType: List_SetListItemsForHeadingRequest.List_SetListItemsForHeadingRequest
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.List_SetListItemsForHeadingRequest
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_SetListItemsForHeadingRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId
+  isExternal: true
+  name: HeadingId
+  nameWithType: List_SetListItemsForHeadingRequest.HeadingId
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.HeadingId
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds
+  isExternal: true
+  name: ListItemIds
+  nameWithType: List_SetListItemsForHeadingRequest.ListItemIds
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.ListItemIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable
+  isExternal: true
+  name: Enable
+  nameWithType: List_SetListItemsForHeadingRequest.Enable
+  fullName: SuperOffice.WebApi.Data.List_SetListItemsForHeadingRequest.Enable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

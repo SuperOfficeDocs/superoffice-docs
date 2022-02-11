@@ -1,0 +1,1670 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper
+  commentId: T:SuperOffice.CRM.Rows.Util.PublishHelper
+  id: PublishHelper
+  parent: SuperOffice.CRM.Rows.Util
+  children:
+  - SuperOffice.CRM.Rows.Util.PublishHelper.Delete
+  - SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper
+  - SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted
+  - SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete
+  - SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished
+  - SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving
+  - SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction
+  - SuperOffice.CRM.Rows.Util.PublishHelper.OnElementIdUpdate
+  - SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd
+  - SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart
+  - SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#IsDirty
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#Save
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  langs:
+  - csharp
+  - vb
+  name: PublishHelper
+  nameWithType: PublishHelper
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  summary: "\nSummary description for PublishHelper.\n"
+  syntax:
+    content: >-
+      [Obsolete("No longer in use", true)]
+
+      public class PublishHelper : INestedPersist
+    content.vb: >-
+      <Obsolete("No longer in use", True)>
+
+      Public Class PublishHelper
+          Implements INestedPersist
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Data.INestedPersist
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.Util.PublishHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: No longer in use
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper
+  id: GetRowHelper
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRowHelper()
+  nameWithType: PublishHelper.GetRowHelper()
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  summary: "\n\n"
+  syntax:
+    content: public PublishHelper GetRowHelper()
+    return:
+      type: SuperOffice.CRM.Rows.Util.PublishHelper
+    content.vb: Public Function GetRowHelper As PublishHelper
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.Delete
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.Delete
+  id: Delete
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: PublishHelper.Delete()
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.Delete()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public void Delete()
+    content.vb: Public Sub Delete
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#Save
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#Save
+  id: SuperOffice#Data#INestedPersist#Save
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.Save()
+  nameWithType: PublishHelper.INestedPersist.Save()
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.Save()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.Save()
+    content.vb: Sub SuperOffice.Data.INestedPersist.Save Implements INestedPersist.Save
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#Save*
+  implements:
+  - SuperOffice.Data.INestedPersist.Save
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.Save()
+  name.vb: SuperOffice.Data.INestedPersist.Save()
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  id: SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: PublishHelper.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.OnPreIdUpdate()
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnPreIdUpdate Implements INestedPersist.OnPreIdUpdate
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: PublishHelper.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.OnPrimaryKeyRequest(PKContainer pkContainer)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(pkContainer As PKContainer) Implements INestedPersist.OnPrimaryKeyRequest
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: PublishHelper.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.OnPrimaryKeyUpdate(PKContainer pkContainer)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(pkContainer As PKContainer) Implements INestedPersist.OnPrimaryKeyUpdate
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  id: SuperOffice#Data#INestedPersist#OnIdUpdate
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: PublishHelper.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.OnIdUpdate()
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnIdUpdate Implements INestedPersist.OnIdUpdate
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnIdUpdate
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  id: SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: PublishHelper.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.OnSave(BatchSave batchSave)
+    parameters:
+    - id: batchSave
+      type: SuperOffice.Data.SQL.BatchSave
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnSave(batchSave As BatchSave) Implements INestedPersist.OnSave
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSave*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  id: SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: PublishHelper.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.OnSaved(bool bSucceeded)
+    parameters:
+    - id: bSucceeded
+      type: System.Boolean
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnSaved(bSucceeded As Boolean) Implements INestedPersist.OnSaved
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSaved*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  id: SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.SetSaveOwner(INestedPersist)
+  nameWithType: PublishHelper.INestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: void INestedPersist.SetSaveOwner(INestedPersist saveOwner)
+    parameters:
+    - id: saveOwner
+      type: SuperOffice.Data.INestedPersist
+    content.vb: Sub SuperOffice.Data.INestedPersist.SetSaveOwner(saveOwner As INestedPersist) Implements INestedPersist.SetSaveOwner
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner*
+  implements:
+  - SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.SetSaveOwner(INestedPersist)
+  name.vb: SuperOffice.Data.INestedPersist.SetSaveOwner(INestedPersist)
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction
+  id: JoinRestriction
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: JoinRestriction
+  nameWithType: PublishHelper.JoinRestriction
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public JoinRestriction JoinRestriction { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.JoinRestriction
+    content.vb: Public ReadOnly Property JoinRestriction As JoinRestriction
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields
+  id: ReturnFields
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: ReturnFields
+  nameWithType: PublishHelper.ReturnFields
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public ReturnFieldsCollection ReturnFields { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.ReturnFieldsCollection
+    content.vb: Public ReadOnly Property ReturnFields As ReturnFieldsCollection
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished
+  id: IsPublished
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPublished
+  nameWithType: PublishHelper.IsPublished
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  summary: "\nIs the row bublished\n"
+  syntax:
+    content: public bool IsPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPublished As Boolean
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart
+  id: PublishStart
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: PublishStart
+  nameWithType: PublishHelper.PublishStart
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  summary: "\nTime when the publishing starts\n"
+  syntax:
+    content: public DateTime PublishStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property PublishStart As Date
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd
+  id: PublishEnd
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: PublishEnd
+  nameWithType: PublishHelper.PublishEnd
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  summary: "\nTime when the publishing starts\n"
+  syntax:
+    content: public DateTime PublishEnd { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property PublishEnd As Date
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#IsDirty
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#IsDirty
+  id: SuperOffice#Data#INestedPersist#IsDirty
+  isEii: true
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.IsDirty
+  nameWithType: PublishHelper.INestedPersist.IsDirty
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.IsDirty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: bool INestedPersist.IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property SuperOffice.Data.INestedPersist.IsDirty As Boolean Implements INestedPersist.IsDirty
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#IsDirty*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsDirty
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.IsDirty
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving
+  id: IsSaving
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSaving
+  nameWithType: PublishHelper.IsSaving
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public bool IsSaving { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSaving As Boolean
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsSaving
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: PublishHelper.IsDeleted
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsDeleted
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete
+  commentId: P:SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete
+  id: IsMarkedForDelete
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMarkedForDelete
+  nameWithType: PublishHelper.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public bool IsMarkedForDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMarkedForDelete As Boolean
+  overload: SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.OnElementIdUpdate
+  commentId: E:SuperOffice.CRM.Rows.Util.PublishHelper.OnElementIdUpdate
+  id: OnElementIdUpdate
+  parent: SuperOffice.CRM.Rows.Util.PublishHelper
+  langs:
+  - csharp
+  - vb
+  name: OnElementIdUpdate
+  nameWithType: PublishHelper.OnElementIdUpdate
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.OnElementIdUpdate
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows.Util
+  syntax:
+    content: public event OnIdUpdate OnElementIdUpdate
+    return:
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Public Event OnElementIdUpdate As OnIdUpdate
+  implements:
+  - SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows.Util
+  commentId: N:SuperOffice.CRM.Rows.Util
+  isExternal: true
+  name: SuperOffice.CRM.Rows.Util
+  nameWithType: SuperOffice.CRM.Rows.Util
+  fullName: SuperOffice.CRM.Rows.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PublishHelper, To>()
+  nameWithType: EnumUtil.MapEnums<PublishHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.Util.PublishHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PublishHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.Util.PublishHelper, To)()
+  name.vb: MapEnums(Of PublishHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PublishHelper, To>
+    nameWithType: EnumUtil.MapEnums<PublishHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.Util.PublishHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PublishHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of PublishHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.Util.PublishHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PublishHelper, To>()
+  nameWithType: Converters.MapEnums<PublishHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.Util.PublishHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of PublishHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.Util.PublishHelper, To)()
+  name.vb: MapEnums(Of PublishHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PublishHelper, To>
+    nameWithType: Converters.MapEnums<PublishHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.Util.PublishHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PublishHelper, To)
+    nameWithType: Converters.MapEnums(Of PublishHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.Util.PublishHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper
+  isExternal: true
+  name: GetRowHelper
+  nameWithType: PublishHelper.GetRowHelper
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.GetRowHelper
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper
+  commentId: T:SuperOffice.CRM.Rows.Util.PublishHelper
+  parent: SuperOffice.CRM.Rows.Util
+  isExternal: true
+  name: PublishHelper
+  nameWithType: PublishHelper
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.Delete*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: PublishHelper.Delete
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.Delete
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#Save*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#Save
+  isExternal: true
+  name: INestedPersist.Save
+  nameWithType: PublishHelper.INestedPersist.Save
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.Save
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.Save
+  name.vb: SuperOffice.Data.INestedPersist.Save
+- uid: SuperOffice.Data.INestedPersist.Save
+  commentId: M:SuperOffice.Data.INestedPersist.Save
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: Save()
+  nameWithType: INestedPersist.Save()
+  fullName: SuperOffice.Data.INestedPersist.Save()
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.Save
+    name: Save
+    nameWithType: INestedPersist.Save
+    fullName: SuperOffice.Data.INestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.Save
+    name: Save
+    nameWithType: INestedPersist.Save
+    fullName: SuperOffice.Data.INestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate
+  nameWithType: PublishHelper.INestedPersist.OnPreIdUpdate
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnPreIdUpdate()
+  nameWithType: INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest
+  nameWithType: PublishHelper.INestedPersist.OnPrimaryKeyRequest
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnPrimaryKeyRequest(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PKContainer
+  commentId: T:SuperOffice.Data.PKContainer
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PKContainer
+  nameWithType: PKContainer
+  fullName: SuperOffice.Data.PKContainer
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate
+  nameWithType: PublishHelper.INestedPersist.OnPrimaryKeyUpdate
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  isExternal: true
+  name: INestedPersist.OnIdUpdate
+  nameWithType: PublishHelper.INestedPersist.OnIdUpdate
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnIdUpdate()
+  nameWithType: INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSave*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSave
+  isExternal: true
+  name: INestedPersist.OnSave
+  nameWithType: PublishHelper.INestedPersist.OnSave
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnSave
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnSave
+  name.vb: SuperOffice.Data.INestedPersist.OnSave
+- uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnSave(BatchSave)
+  nameWithType: INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: INestedPersist.OnSave
+    fullName: SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: INestedPersist.OnSave
+    fullName: SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.BatchSave
+  commentId: T:SuperOffice.Data.SQL.BatchSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: BatchSave
+  nameWithType: BatchSave
+  fullName: SuperOffice.Data.SQL.BatchSave
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSaved*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#OnSaved
+  isExternal: true
+  name: INestedPersist.OnSaved
+  nameWithType: PublishHelper.INestedPersist.OnSaved
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.OnSaved
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.OnSaved
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved
+- uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnSaved(Boolean)
+  nameWithType: INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: INestedPersist.OnSaved
+    fullName: SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: INestedPersist.OnSaved
+    fullName: SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner
+  isExternal: true
+  name: INestedPersist.SetSaveOwner
+  nameWithType: PublishHelper.INestedPersist.SetSaveOwner
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.SetSaveOwner
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.SetSaveOwner
+  name.vb: SuperOffice.Data.INestedPersist.SetSaveOwner
+- uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: SetSaveOwner(INestedPersist)
+  nameWithType: INestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: INestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.INestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: INestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.INestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction
+  isExternal: true
+  name: JoinRestriction
+  nameWithType: PublishHelper.JoinRestriction
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.JoinRestriction
+- uid: SuperOffice.Data.SQL.JoinRestriction
+  commentId: T:SuperOffice.Data.SQL.JoinRestriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: JoinRestriction
+  nameWithType: JoinRestriction
+  fullName: SuperOffice.Data.SQL.JoinRestriction
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields
+  isExternal: true
+  name: ReturnFields
+  nameWithType: PublishHelper.ReturnFields
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.ReturnFields
+- uid: SuperOffice.Data.SQL.ReturnFieldsCollection
+  commentId: T:SuperOffice.Data.SQL.ReturnFieldsCollection
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ReturnFieldsCollection
+  nameWithType: ReturnFieldsCollection
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished
+  isExternal: true
+  name: IsPublished
+  nameWithType: PublishHelper.IsPublished
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsPublished
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart
+  isExternal: true
+  name: PublishStart
+  nameWithType: PublishHelper.PublishStart
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.PublishStart
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd
+  isExternal: true
+  name: PublishEnd
+  nameWithType: PublishHelper.PublishEnd
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.PublishEnd
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#IsDirty*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice#Data#INestedPersist#IsDirty
+  isExternal: true
+  name: INestedPersist.IsDirty
+  nameWithType: PublishHelper.INestedPersist.IsDirty
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.SuperOffice.Data.INestedPersist.IsDirty
+  nameWithType.vb: PublishHelper.SuperOffice.Data.INestedPersist.IsDirty
+  name.vb: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.Data.INestedPersist.IsDirty
+  commentId: P:SuperOffice.Data.INestedPersist.IsDirty
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsDirty
+  nameWithType: INestedPersist.IsDirty
+  fullName: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving
+  isExternal: true
+  name: IsSaving
+  nameWithType: PublishHelper.IsSaving
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsSaving
+- uid: SuperOffice.Data.INestedPersist.IsSaving
+  commentId: P:SuperOffice.Data.INestedPersist.IsSaving
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsSaving
+  nameWithType: INestedPersist.IsSaving
+  fullName: SuperOffice.Data.INestedPersist.IsSaving
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: PublishHelper.IsDeleted
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsDeleted
+- uid: SuperOffice.Data.INestedPersist.IsDeleted
+  commentId: P:SuperOffice.Data.INestedPersist.IsDeleted
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsDeleted
+  nameWithType: INestedPersist.IsDeleted
+  fullName: SuperOffice.Data.INestedPersist.IsDeleted
+- uid: SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete*
+  commentId: Overload:SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: PublishHelper.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Rows.Util.PublishHelper.IsMarkedForDelete
+- uid: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  commentId: P:SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: INestedPersist.IsMarkedForDelete
+  fullName: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+- uid: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  commentId: E:SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnElementIdUpdate
+  nameWithType: INestedPersist.OnElementIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+- uid: SuperOffice.Data.OnIdUpdate
+  commentId: T:SuperOffice.Data.OnIdUpdate
+  parent: SuperOffice.Data
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: OnIdUpdate
+  fullName: SuperOffice.Data.OnIdUpdate

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest
+  id: ErpSync_SaveConnectionListMappingsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveConnectionListMappingsRequest
+  nameWithType: ErpSync_SaveConnectionListMappingsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_SaveConnectionListMappingsRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_SaveConnectionListMappingsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveConnectionListMappingsRequest()
+  nameWithType: ErpSync_SaveConnectionListMappingsRequest.ErpSync_SaveConnectionListMappingsRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ErpSync_SaveConnectionListMappingsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_SaveConnectionListMappingsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  id: ListMapping
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest
+  langs:
+  - csharp
+  - vb
+  name: ListMapping
+  nameWithType: ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpConnectionListMappingContainer ListMapping { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+    content.vb: Public Property ListMapping As ErpConnectionListMappingContainer
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.#ctor
+  isExternal: true
+  name: ErpSync_SaveConnectionListMappingsRequest
+  nameWithType: ErpSync_SaveConnectionListMappingsRequest.ErpSync_SaveConnectionListMappingsRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ErpSync_SaveConnectionListMappingsRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  isExternal: true
+  name: ListMapping
+  nameWithType: ErpSync_SaveConnectionListMappingsRequest.ListMapping
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveConnectionListMappingsRequest.ListMapping
+- uid: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+  commentId: T:SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpConnectionListMappingContainer
+  nameWithType: ErpConnectionListMappingContainer
+  fullName: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer

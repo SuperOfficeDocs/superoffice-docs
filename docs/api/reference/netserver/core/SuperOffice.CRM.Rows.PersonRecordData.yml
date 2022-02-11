@@ -1,0 +1,2342 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.PersonRecordData
+  commentId: T:SuperOffice.CRM.Rows.PersonRecordData
+  id: PersonRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.PersonRecordData.#ctor
+  - SuperOffice.CRM.Rows.PersonRecordData.ActiveErpLinks
+  - SuperOffice.CRM.Rows.PersonRecordData.ActiveInterests
+  - SuperOffice.CRM.Rows.PersonRecordData.AssociateId
+  - SuperOffice.CRM.Rows.PersonRecordData.BlockEmarketing
+  - SuperOffice.CRM.Rows.PersonRecordData.BusinessIdx
+  - SuperOffice.CRM.Rows.PersonRecordData.CategoryIdx
+  - SuperOffice.CRM.Rows.PersonRecordData.ContactId
+  - SuperOffice.CRM.Rows.PersonRecordData.CountryId
+  - SuperOffice.CRM.Rows.PersonRecordData.DayOfBirth
+  - SuperOffice.CRM.Rows.PersonRecordData.DbiAgentId
+  - SuperOffice.CRM.Rows.PersonRecordData.DbiKey
+  - SuperOffice.CRM.Rows.PersonRecordData.DbiLastModified
+  - SuperOffice.CRM.Rows.PersonRecordData.DbiLastSyncronized
+  - SuperOffice.CRM.Rows.PersonRecordData.DeletedDate
+  - SuperOffice.CRM.Rows.PersonRecordData.Department
+  - SuperOffice.CRM.Rows.PersonRecordData.Firstname
+  - SuperOffice.CRM.Rows.PersonRecordData.Gender
+  - SuperOffice.CRM.Rows.PersonRecordData.GroupId
+  - SuperOffice.CRM.Rows.PersonRecordData.Initials
+  - SuperOffice.CRM.Rows.PersonRecordData.Kanafname
+  - SuperOffice.CRM.Rows.PersonRecordData.Kanalname
+  - SuperOffice.CRM.Rows.PersonRecordData.Lastname
+  - SuperOffice.CRM.Rows.PersonRecordData.MiddleName
+  - SuperOffice.CRM.Rows.PersonRecordData.MonthOfBirth
+  - SuperOffice.CRM.Rows.PersonRecordData.Mrmrs
+  - SuperOffice.CRM.Rows.PersonRecordData.Nomailing
+  - SuperOffice.CRM.Rows.PersonRecordData.PersonId
+  - SuperOffice.CRM.Rows.PersonRecordData.PersonNumber
+  - SuperOffice.CRM.Rows.PersonRecordData.PhonePresent
+  - SuperOffice.CRM.Rows.PersonRecordData.PositionIdx
+  - SuperOffice.CRM.Rows.PersonRecordData.Post1
+  - SuperOffice.CRM.Rows.PersonRecordData.Post2
+  - SuperOffice.CRM.Rows.PersonRecordData.Post3
+  - SuperOffice.CRM.Rows.PersonRecordData.Rank
+  - SuperOffice.CRM.Rows.PersonRecordData.Registered
+  - SuperOffice.CRM.Rows.PersonRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.PersonRecordData.Retired
+  - SuperOffice.CRM.Rows.PersonRecordData.Salutation
+  - SuperOffice.CRM.Rows.PersonRecordData.SentInfo
+  - SuperOffice.CRM.Rows.PersonRecordData.ShowContactTickets
+  - SuperOffice.CRM.Rows.PersonRecordData.Source
+  - SuperOffice.CRM.Rows.PersonRecordData.SupportAssociateId
+  - SuperOffice.CRM.Rows.PersonRecordData.SupportLanguageId
+  - SuperOffice.CRM.Rows.PersonRecordData.TextId
+  - SuperOffice.CRM.Rows.PersonRecordData.TicketPriorityId
+  - SuperOffice.CRM.Rows.PersonRecordData.Title
+  - SuperOffice.CRM.Rows.PersonRecordData.TzLocationId
+  - SuperOffice.CRM.Rows.PersonRecordData.Updated
+  - SuperOffice.CRM.Rows.PersonRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.PersonRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.PersonRecordData.Usepersonaddress
+  - SuperOffice.CRM.Rows.PersonRecordData.Userdef2Id
+  - SuperOffice.CRM.Rows.PersonRecordData.UserdefId
+  - SuperOffice.CRM.Rows.PersonRecordData.YearOfBirth
+  langs:
+  - csharp
+  - vb
+  name: PersonRecordData
+  nameWithType: PersonRecordData
+  fullName: SuperOffice.CRM.Rows.PersonRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the person table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.PersonTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class PersonRecordData
+    content.vb: Public Class PersonRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.PersonRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersonRecordData)
+  - SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.PersonRecordData.PersonId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PersonRecordData.PersonId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int PersonId
+    return:
+      type: System.Int32
+    content.vb: Public PersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: PersonRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOwning contact ID \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: PersonRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDisplay sort sequence for default sort order \n"
+  syntax:
+    content: public short Rank
+    return:
+      type: System.Int16
+    content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Lastname
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: PersonRecordData.Lastname
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Lastname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast name \n"
+  syntax:
+    content: public string Lastname
+    return:
+      type: System.String
+    content.vb: Public Lastname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Firstname
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: PersonRecordData.Firstname
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Firstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFirst name \n"
+  syntax:
+    content: public string Firstname
+    return:
+      type: System.String
+    content.vb: Public Firstname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Mrmrs
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: PersonRecordData.Mrmrs
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Mrmrs
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ne.g. Mrs   sex_title \n"
+  syntax:
+    content: public string Mrmrs
+    return:
+      type: System.String
+    content.vb: Public Mrmrs As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Title
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Title
+  id: Title
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: PersonRecordData.Title
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTitle \n"
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.TextId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: PersonRecordData.TextId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nInfo tab contents \n"
+  syntax:
+    content: public int TextId
+    return:
+      type: System.Int32
+    content.vb: Public TextId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.PositionIdx
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.PositionIdx
+  id: PositionIdx
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: PositionIdx
+  nameWithType: PersonRecordData.PositionIdx
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.PositionIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to Position list \n"
+  syntax:
+    content: public int PositionIdx
+    return:
+      type: System.Int32
+    content.vb: Public PositionIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.YearOfBirth
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.YearOfBirth
+  id: YearOfBirth
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: YearOfBirth
+  nameWithType: PersonRecordData.YearOfBirth
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.YearOfBirth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBirth year (4 digit) \n"
+  syntax:
+    content: public short YearOfBirth
+    return:
+      type: System.Int16
+    content.vb: Public YearOfBirth As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.MonthOfBirth
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.MonthOfBirth
+  id: MonthOfBirth
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: MonthOfBirth
+  nameWithType: PersonRecordData.MonthOfBirth
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.MonthOfBirth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBirth month \n"
+  syntax:
+    content: public short MonthOfBirth
+    return:
+      type: System.Int16
+    content.vb: Public MonthOfBirth As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.DayOfBirth
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.DayOfBirth
+  id: DayOfBirth
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: DayOfBirth
+  nameWithType: PersonRecordData.DayOfBirth
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.DayOfBirth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBirth date (day of month) \n"
+  syntax:
+    content: public short DayOfBirth
+    return:
+      type: System.Int16
+    content.vb: Public DayOfBirth As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.PhonePresent
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.PhonePresent
+  id: PhonePresent
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: PhonePresent
+  nameWithType: PersonRecordData.PhonePresent
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.PhonePresent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nflag to show there are phone registrations  \n"
+  syntax:
+    content: public short PhonePresent
+    return:
+      type: System.Int16
+    content.vb: Public PhonePresent As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.UserdefId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.UserdefId
+  id: UserdefId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserdefId
+  nameWithType: PersonRecordData.UserdefId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.UserdefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUser defined table record 1 \n"
+  syntax:
+    content: public int UserdefId
+    return:
+      type: System.Int32
+    content.vb: Public UserdefId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: PersonRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered date in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: PersonRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: PersonRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated date in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: PersonRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.PersonNumber
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.PersonNumber
+  id: PersonNumber
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonNumber
+  nameWithType: PersonRecordData.PersonNumber
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.PersonNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAlphanumeric user field \n"
+  syntax:
+    content: public string PersonNumber
+    return:
+      type: System.String
+    content.vb: Public PersonNumber As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Kanalname
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Kanalname
+  id: Kanalname
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Kanalname
+  nameWithType: PersonRecordData.Kanalname
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Kanalname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nKana last name, used in Japanese versions only \n"
+  syntax:
+    content: public string Kanalname
+    return:
+      type: System.String
+    content.vb: Public Kanalname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Kanafname
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Kanafname
+  id: Kanafname
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Kanafname
+  nameWithType: PersonRecordData.Kanafname
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Kanafname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nKana last name, used in Japanese versions only \n"
+  syntax:
+    content: public string Kanafname
+    return:
+      type: System.String
+    content.vb: Public Kanafname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Post1
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Post1
+  id: Post1
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Post1
+  nameWithType: PersonRecordData.Post1
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Post1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPostal address, used in Japanese versions only \n"
+  syntax:
+    content: public string Post1
+    return:
+      type: System.String
+    content.vb: Public Post1 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Post2
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Post2
+  id: Post2
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Post2
+  nameWithType: PersonRecordData.Post2
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Post2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPostal address, used in Japanese versions only \n"
+  syntax:
+    content: public string Post2
+    return:
+      type: System.String
+    content.vb: Public Post2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Post3
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Post3
+  id: Post3
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Post3
+  nameWithType: PersonRecordData.Post3
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Post3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPostal address, used in Japanese versions only \n"
+  syntax:
+    content: public string Post3
+    return:
+      type: System.String
+    content.vb: Public Post3 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Usepersonaddress
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Usepersonaddress
+  id: Usepersonaddress
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Usepersonaddress
+  nameWithType: PersonRecordData.Usepersonaddress
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Usepersonaddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf 1, use person&apos;s address for mailing instead of company address \n"
+  syntax:
+    content: public short Usepersonaddress
+    return:
+      type: System.Int16
+    content.vb: Public Usepersonaddress As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.MiddleName
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: PersonRecordData.MiddleName
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.MiddleName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMiddle name or &apos;van&apos; etc. \n"
+  syntax:
+    content: public string MiddleName
+    return:
+      type: System.String
+    content.vb: Public MiddleName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Source
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Source
+  id: Source
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: PersonRecordData.Source
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHow did we get this person? For future integration needs \n"
+  syntax:
+    content: public short Source
+    return:
+      type: System.Int16
+    content.vb: Public Source As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Nomailing
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Nomailing
+  id: Nomailing
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Nomailing
+  nameWithType: PersonRecordData.Nomailing
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Nomailing
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDo not send DM&apos;s to this person \n"
+  syntax:
+    content: public short Nomailing
+    return:
+      type: System.Int16
+    content.vb: Public Nomailing As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.CountryId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: PersonRecordData.CountryId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.CountryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCountry \n"
+  syntax:
+    content: public int CountryId
+    return:
+      type: System.Int32
+    content.vb: Public CountryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Userdef2Id
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Userdef2Id
+  id: Userdef2Id
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Userdef2Id
+  nameWithType: PersonRecordData.Userdef2Id
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Userdef2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUser defined table record 2 \n"
+  syntax:
+    content: public int Userdef2Id
+    return:
+      type: System.Int32
+    content.vb: Public Userdef2Id As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Retired
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Retired
+  id: Retired
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: PersonRecordData.Retired
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Retired
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n1 = the user is retired and should have no rights, not appear in lists, etc. \n"
+  syntax:
+    content: public short Retired
+    return:
+      type: System.Int16
+    content.vb: Public Retired As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.ActiveInterests
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.ActiveInterests
+  id: ActiveInterests
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterests
+  nameWithType: PersonRecordData.ActiveInterests
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.ActiveInterests
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true \n"
+  syntax:
+    content: public short ActiveInterests
+    return:
+      type: System.Int16
+    content.vb: Public ActiveInterests As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: PersonRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of times updated \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: PersonRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOur contact, if this is a B2C person, otherwise mirror of contact.assoc_id \n"
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.GroupId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: PersonRecordData.GroupId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOur contact&apos;s original group, if this is a B2C person, otherwise mirror of contact.group_id \n"
+  syntax:
+    content: public int GroupId
+    return:
+      type: System.Int32
+    content.vb: Public GroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Salutation
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Salutation
+  id: Salutation
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: PersonRecordData.Salutation
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Salutation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAcademic title, populated from Salutation list but can be overwritten with anything at all \n"
+  syntax:
+    content: public string Salutation
+    return:
+      type: System.String
+    content.vb: Public Salutation As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Department
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Department
+  id: Department
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: PersonRecordData.Department
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Department
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nInternal department address \n"
+  syntax:
+    content: public string Department
+    return:
+      type: System.String
+    content.vb: Public Department As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Initials
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Initials
+  id: Initials
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Initials
+  nameWithType: PersonRecordData.Initials
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Initials
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhere Pierre van Mever becomes P. van Mever.  Actually, initials to be used in formal addresses, mostly in the Ducth market \n"
+  syntax:
+    content: public string Initials
+    return:
+      type: System.String
+    content.vb: Public Initials As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.Gender
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.Gender
+  id: Gender
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: PersonRecordData.Gender
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.Gender
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMale/female. No jokes please.  To be used for selecting correct salutations &amp; grammar. 0 = unknown, 1 = female, 2 = male \n"
+  syntax:
+    content: public short Gender
+    return:
+      type: System.Int16
+    content.vb: Public Gender As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.BusinessIdx
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.BusinessIdx
+  id: BusinessIdx
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: BusinessIdx
+  nameWithType: PersonRecordData.BusinessIdx
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.BusinessIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBusiness if this is a B2C person, otherwise mirror of contact.business_idx \n"
+  syntax:
+    content: public int BusinessIdx
+    return:
+      type: System.Int32
+    content.vb: Public BusinessIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.CategoryIdx
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.CategoryIdx
+  id: CategoryIdx
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: CategoryIdx
+  nameWithType: PersonRecordData.CategoryIdx
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.CategoryIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCategory if this is a B2C person, otherwise mirror of contact.category_idx \n"
+  syntax:
+    content: public int CategoryIdx
+    return:
+      type: System.Int32
+    content.vb: Public CategoryIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.TzLocationId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: PersonRecordData.TzLocationId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.TzLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefault timezone location for this person \n"
+  syntax:
+    content: public int TzLocationId
+    return:
+      type: System.Int32
+    content.vb: Public TzLocationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SentInfo
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.SentInfo
+  id: SentInfo
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: SentInfo
+  nameWithType: PersonRecordData.SentInfo
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.SentInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHas information on username/password been sent (ejournal) \n"
+  syntax:
+    content: public short SentInfo
+    return:
+      type: System.Int16
+    content.vb: Public SentInfo As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.ShowContactTickets
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.ShowContactTickets
+  id: ShowContactTickets
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShowContactTickets
+  nameWithType: PersonRecordData.ShowContactTickets
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.ShowContactTickets
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nShould tickets related to the company be shown to this person \n"
+  syntax:
+    content: public short ShowContactTickets
+    return:
+      type: System.Int16
+    content.vb: Public ShowContactTickets As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.TicketPriorityId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.TicketPriorityId
+  id: TicketPriorityId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityId
+  nameWithType: PersonRecordData.TicketPriorityId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.TicketPriorityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefault ticket priority for new tickets \n"
+  syntax:
+    content: public int TicketPriorityId
+    return:
+      type: System.Int32
+    content.vb: Public TicketPriorityId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SupportLanguageId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.SupportLanguageId
+  id: SupportLanguageId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: SupportLanguageId
+  nameWithType: PersonRecordData.SupportLanguageId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.SupportLanguageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCustomers language (does not necessarily map to ISO languages) \n"
+  syntax:
+    content: public int SupportLanguageId
+    return:
+      type: System.Int32
+    content.vb: Public SupportLanguageId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SupportAssociateId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.SupportAssociateId
+  id: SupportAssociateId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: SupportAssociateId
+  nameWithType: PersonRecordData.SupportAssociateId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.SupportAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOur contact, but for support context, not sales/primary contact \n"
+  syntax:
+    content: public int SupportAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public SupportAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.DbiAgentId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: PersonRecordData.DbiAgentId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIntegration agent (eJournal) \n"
+  syntax:
+    content: public int DbiAgentId
+    return:
+      type: System.Int32
+    content.vb: Public DbiAgentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.DbiKey
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: PersonRecordData.DbiKey
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key for the integrated entry in the external datasource. \n"
+  syntax:
+    content: public string DbiKey
+    return:
+      type: System.String
+    content.vb: Public DbiKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: PersonRecordData.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast external syncronization. \n"
+  syntax:
+    content: public DateTime DbiLastSyncronized
+    return:
+      type: System.DateTime
+    content.vb: Public DbiLastSyncronized As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.DbiLastModified
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: PersonRecordData.DbiLastModified
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the entry was last modified. \n"
+  syntax:
+    content: public DateTime DbiLastModified
+    return:
+      type: System.DateTime
+    content.vb: Public DbiLastModified As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.BlockEmarketing
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.BlockEmarketing
+  id: BlockEmarketing
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: BlockEmarketing
+  nameWithType: PersonRecordData.BlockEmarketing
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.BlockEmarketing
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDo not send E-marketing materials to this person \n"
+  syntax:
+    content: public short BlockEmarketing
+    return:
+      type: System.Int16
+    content.vb: Public BlockEmarketing As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.ActiveErpLinks
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: PersonRecordData.ActiveErpLinks
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.ActiveErpLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations \n"
+  syntax:
+    content: public int ActiveErpLinks
+    return:
+      type: System.Int32
+    content.vb: Public ActiveErpLinks As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.DeletedDate
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.DeletedDate
+  id: DeletedDate
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: DeletedDate
+  nameWithType: PersonRecordData.DeletedDate
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.DeletedDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDatetime (utc) when this record was soft-deleted; if this value is set then the record should not be shown in UTC.  \n"
+  syntax:
+    content: public DateTime DeletedDate
+    return:
+      type: System.DateTime
+    content.vb: Public DeletedDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PersonRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.PersonRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonRecordData()
+  nameWithType: PersonRecordData.PersonRecordData()
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.PersonRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public PersonRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.PersonRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PersonRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<PersonRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PersonRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PersonRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PersonRecordData, To)()
+  name.vb: MapEnums(Of PersonRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PersonRecordData, To>
+    nameWithType: EnumUtil.MapEnums<PersonRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PersonRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PersonRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of PersonRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PersonRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersonRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PersonRecordData>(PersonRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<PersonRecordData>(PersonRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PersonRecordData>(SuperOffice.CRM.Rows.PersonRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonRecordData)(PersonRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PersonRecordData)(SuperOffice.CRM.Rows.PersonRecordData)
+  name.vb: AssignByReflection(Of PersonRecordData)(PersonRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PersonRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<PersonRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PersonRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PersonRecordData
+    name: PersonRecordData
+    nameWithType: PersonRecordData
+    fullName: SuperOffice.CRM.Rows.PersonRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PersonRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PersonRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PersonRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PersonRecordData
+    name: PersonRecordData
+    nameWithType: PersonRecordData
+    fullName: SuperOffice.CRM.Rows.PersonRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PersonRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<PersonRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PersonRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PersonRecordData)()
+  name.vb: GraphCopy(Of PersonRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PersonRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<PersonRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PersonRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PersonRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of PersonRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PersonRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+  parent: SuperOffice.CRM.Rows.PersonRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+  name: ToInsert()
+  nameWithType: PersonRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: PersonRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: PersonRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PersonRecordData, To>()
+  nameWithType: Converters.MapEnums<PersonRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PersonRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of PersonRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PersonRecordData, To)()
+  name.vb: MapEnums(Of PersonRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PersonRecordData, To>
+    nameWithType: Converters.MapEnums<PersonRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PersonRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PersonRecordData, To)
+    nameWithType: Converters.MapEnums(Of PersonRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PersonRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+  commentId: M:SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+  isExternal: true
+  name: ToInsert(PersonRecordData)
+  nameWithType: PersonRecordDataExtensions.ToInsert(PersonRecordData)
+  fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+    name: ToInsert
+    nameWithType: PersonRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PersonRecordData
+    name: PersonRecordData
+    nameWithType: PersonRecordData
+    fullName: SuperOffice.CRM.Rows.PersonRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PersonRecordData)
+    name: ToInsert
+    nameWithType: PersonRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PersonRecordData
+    name: PersonRecordData
+    nameWithType: PersonRecordData
+    fullName: SuperOffice.CRM.Rows.PersonRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.PersonRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PersonRecordDataExtensions
+  nameWithType: PersonRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.PersonRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.PersonRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRecordData.#ctor
+  isExternal: true
+  name: PersonRecordData
+  nameWithType: PersonRecordData.PersonRecordData
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.PersonRecordData

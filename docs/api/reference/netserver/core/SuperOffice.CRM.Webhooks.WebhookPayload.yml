@@ -1,0 +1,1029 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
+  id: WebhookPayload
+  parent: SuperOffice.CRM.Webhooks
+  children:
+  - SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  - SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  - SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
+  - SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+  - SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier
+  - SuperOffice.CRM.Webhooks.WebhookPayload.Entity
+  - SuperOffice.CRM.Webhooks.WebhookPayload.Event
+  - SuperOffice.CRM.Webhooks.WebhookPayload.EventId
+  - SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
+  - SuperOffice.CRM.Webhooks.WebhookPayload.Timestamp
+  langs:
+  - csharp
+  - vb
+  name: WebhookPayload
+  nameWithType: WebhookPayload
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nDescribes an event to be broadcast out over webhook or scripts, using the <xref href=\"SuperOffice.CRM.Webhooks.ISystemWebhookPlugin\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Webhooks.ICustomWebhookPlugin\" data-throw-if-not-resolved=\"false\"></xref> systems.\n"
+  syntax:
+    content: public class WebhookPayload
+    content.vb: Public Class WebhookPayload
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Webhooks.WebhookPayload.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Webhooks.WebhookPayload.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.EventId
+  commentId: F:SuperOffice.CRM.Webhooks.WebhookPayload.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: WebhookPayload.EventId
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.EventId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nUnique identifier for event.\n"
+  syntax:
+    content: public Guid EventId
+    return:
+      type: System.Guid
+    content.vb: Public EventId As Guid
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Timestamp
+  commentId: F:SuperOffice.CRM.Webhooks.WebhookPayload.Timestamp
+  id: Timestamp
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: WebhookPayload.Timestamp
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Timestamp
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nTime event occured (UTC).\n"
+  syntax:
+    content: public DateTime Timestamp
+    return:
+      type: System.DateTime
+    content.vb: Public Timestamp As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  id: '#ctor(SuperOffice.CRM.Webhooks.ChangeType,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)'
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: WebhookPayload(ChangeType, String, Int32, IDictionary<String, Object>, Int32)
+  nameWithType: WebhookPayload.WebhookPayload(ChangeType, String, Int32, IDictionary<String, Object>, Int32)
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(SuperOffice.CRM.Webhooks.ChangeType, System.String, System.Int32, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public WebhookPayload(ChangeType change, string entity, int primaryKey, IDictionary<string, object> changes, int assocId)
+    parameters:
+    - id: change
+      type: SuperOffice.CRM.Webhooks.ChangeType
+    - id: entity
+      type: System.String
+    - id: primaryKey
+      type: System.Int32
+    - id: changes
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    - id: assocId
+      type: System.Int32
+    content.vb: Public Sub New(change As ChangeType, entity As String, primaryKey As Integer, changes As IDictionary(Of String, Object), assocId As Integer)
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor*
+  nameWithType.vb: WebhookPayload.WebhookPayload(ChangeType, String, Int32, IDictionary(Of String, Object), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(SuperOffice.CRM.Webhooks.ChangeType, System.String, System.Int32, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Int32)
+  name.vb: WebhookPayload(ChangeType, String, Int32, IDictionary(Of String, Object), Int32)
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookPayload.#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)'
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: WebhookPayload(String, String, Int32, IDictionary<String, Object>, Int32)
+  nameWithType: WebhookPayload.WebhookPayload(String, String, Int32, IDictionary<String, Object>, Int32)
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(System.String, System.String, System.Int32, System.Collections.Generic.IDictionary<System.String, System.Object>, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public WebhookPayload(string eventName, string entity, int primaryKey, IDictionary<string, object> changes, int assocId)
+    parameters:
+    - id: eventName
+      type: System.String
+    - id: entity
+      type: System.String
+    - id: primaryKey
+      type: System.Int32
+    - id: changes
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    - id: assocId
+      type: System.Int32
+    content.vb: Public Sub New(eventName As String, entity As String, primaryKey As Integer, changes As IDictionary(Of String, Object), assocId As Integer)
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor*
+  nameWithType.vb: WebhookPayload.WebhookPayload(String, String, Int32, IDictionary(Of String, Object), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload(System.String, System.String, System.Int32, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.Int32)
+  name.vb: WebhookPayload(String, String, Int32, IDictionary(Of String, Object), Int32)
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: WebhookPayload.ContextIdentifier
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\n&quot;Default&quot; or &quot;Cust1234&quot; depending on online or on-site.\n"
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Event
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.Event
+  id: Event
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: WebhookPayload.Event
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Event
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\n&quot;sale.created&quot;, &quot;project.updated&quot;, &quot;contact.deleted&quot; etc\n"
+  syntax:
+    content: public string Event { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Event As String
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.Event*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Entity
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.Entity
+  id: Entity
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: WebhookPayload.Entity
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Entity
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\n&quot;contact&quot;, &quot;sale&quot; etc\n"
+  syntax:
+    content: public string Entity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Entity As String
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.Entity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: WebhookPayload.PrimaryKey
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nEntity primary id.\n"
+  syntax:
+    content: public int PrimaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PrimaryKey As Integer
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+  id: Changes
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: Changes
+  nameWithType: WebhookPayload.Changes
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nField name to the new field value dictionary.\n<p></p>\n&quot;Name&quot;: &quot;Customer name&quot;,<p></p>\n&quot;RegisteredBy&quot;: 123 // associate id\n"
+  syntax:
+    content: public IDictionary<string, object> Changes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    content.vb: Public Property Changes As IDictionary(Of String, Object)
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.Changes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
+  commentId: P:SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
+  id: ChangedByAssociateId
+  parent: SuperOffice.CRM.Webhooks.WebhookPayload
+  langs:
+  - csharp
+  - vb
+  name: ChangedByAssociateId
+  nameWithType: WebhookPayload.ChangedByAssociateId
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: "\nUser who committed the changes: associate id\n"
+  syntax:
+    content: public int ChangedByAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChangedByAssociateId As Integer
+  overload: SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Webhooks
+  commentId: N:SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: SuperOffice.CRM.Webhooks
+  nameWithType: SuperOffice.CRM.Webhooks
+  fullName: SuperOffice.CRM.Webhooks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WebhookPayload, To>()
+  nameWithType: EnumUtil.MapEnums<WebhookPayload, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookPayload, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WebhookPayload, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookPayload, To)()
+  name.vb: MapEnums(Of WebhookPayload, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WebhookPayload, To>
+    nameWithType: EnumUtil.MapEnums<WebhookPayload, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookPayload, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WebhookPayload, To)
+    nameWithType: EnumUtil.MapEnums(Of WebhookPayload, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookPayload, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WebhookPayload, To>()
+  nameWithType: Converters.MapEnums<WebhookPayload, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookPayload, To>()
+  nameWithType.vb: Converters.MapEnums(Of WebhookPayload, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookPayload, To)()
+  name.vb: MapEnums(Of WebhookPayload, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WebhookPayload, To>
+    nameWithType: Converters.MapEnums<WebhookPayload, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookPayload, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WebhookPayload, To)
+    nameWithType: Converters.MapEnums(Of WebhookPayload, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookPayload, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.#ctor*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.#ctor
+  isExternal: true
+  name: WebhookPayload
+  nameWithType: WebhookPayload.WebhookPayload
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.WebhookPayload
+- uid: SuperOffice.CRM.Webhooks.ChangeType
+  commentId: T:SuperOffice.CRM.Webhooks.ChangeType
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: ChangeType
+  nameWithType: ChangeType
+  fullName: SuperOffice.CRM.Webhooks.ChangeType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: WebhookPayload.ContextIdentifier
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.ContextIdentifier
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Event*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.Event
+  isExternal: true
+  name: Event
+  nameWithType: WebhookPayload.Event
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Event
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Entity*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.Entity
+  isExternal: true
+  name: Entity
+  nameWithType: WebhookPayload.Entity
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Entity
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
+  isExternal: true
+  name: PrimaryKey
+  nameWithType: WebhookPayload.PrimaryKey
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.PrimaryKey
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.Changes*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+  isExternal: true
+  name: Changes
+  nameWithType: WebhookPayload.Changes
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.Changes
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId
+  isExternal: true
+  name: ChangedByAssociateId
+  nameWithType: WebhookPayload.ChangedByAssociateId
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload.ChangedByAssociateId

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest
+  id: Archive_SetActivityFilterRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: Archive_SetActivityFilterRequest
+  nameWithType: Archive_SetActivityFilterRequest
+  fullName: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_SetActivityFilterRequest : Object'
+    content.vb: >-
+      Public Class Archive_SetActivityFilterRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_SetActivityFilterRequest()
+  nameWithType: Archive_SetActivityFilterRequest.Archive_SetActivityFilterRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.Archive_SetActivityFilterRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_SetActivityFilterRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter
+  commentId: P:SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter
+  id: ActivityFilter
+  parent: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivityFilter
+  nameWithType: Archive_SetActivityFilterRequest.ActivityFilter
+  fullName: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ActivityFilter ActivityFilter { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivityFilter
+    content.vb: Public Property ActivityFilter As ActivityFilter
+  overload: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.#ctor
+  isExternal: true
+  name: Archive_SetActivityFilterRequest
+  nameWithType: Archive_SetActivityFilterRequest.Archive_SetActivityFilterRequest
+  fullName: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.Archive_SetActivityFilterRequest
+- uid: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter
+  isExternal: true
+  name: ActivityFilter
+  nameWithType: Archive_SetActivityFilterRequest.ActivityFilter
+  fullName: SuperOffice.WebApi.Data.Archive_SetActivityFilterRequest.ActivityFilter
+- uid: SuperOffice.WebApi.Data.ActivityFilter
+  commentId: T:SuperOffice.WebApi.Data.ActivityFilter
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ActivityFilter
+  nameWithType: ActivityFilter
+  fullName: SuperOffice.WebApi.Data.ActivityFilter

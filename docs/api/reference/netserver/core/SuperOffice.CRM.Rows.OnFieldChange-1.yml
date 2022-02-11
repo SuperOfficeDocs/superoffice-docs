@@ -1,0 +1,452 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
+  id: OnFieldChange`1
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.OnFieldChange`1.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Rows.OnFieldChange`1.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Rows.OnFieldChange`1.Invoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0)
+  langs:
+  - csharp
+  - vb
+  name: OnFieldChange<TValue>
+  nameWithType: OnFieldChange<TValue>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n\n"
+  syntax:
+    content: public delegate void OnFieldChange<TValue>(TableRowBase fieldOwner, TValue persistedValue, TValue currentValue, TValue newValue);
+    parameters:
+    - id: fieldOwner
+      type: SuperOffice.CRM.Rows.TableRowBase
+    - id: persistedValue
+      type: '{TValue}'
+    - id: currentValue
+      type: '{TValue}'
+    - id: newValue
+      type: '{TValue}'
+    typeParameters:
+    - id: TValue
+    content.vb: Public Delegate Sub OnFieldChange(Of TValue)(fieldOwner As TableRowBase, persistedValue As TValue, currentValue As TValue, newValue As TValue)
+  extensionMethods:
+  - SuperOffice.CRM.Rows.OnFieldChange`1.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.OnFieldChange`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: OnFieldChange(Of TValue)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
+  name.vb: OnFieldChange(Of TValue)
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Rows.OnFieldChange`1.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Rows.OnFieldChange`1
+  langs:
+  - csharp
+  - vb
+  name: OnFieldChange(Object, IntPtr)
+  nameWithType: OnFieldChange<TValue>.OnFieldChange(Object, IntPtr)
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.OnFieldChange(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public OnFieldChange(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Rows.OnFieldChange`1.#ctor*
+  nameWithType.vb: OnFieldChange(Of TValue).OnFieldChange(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).OnFieldChange(System.Object, System.IntPtr)
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.Invoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0)
+  commentId: M:SuperOffice.CRM.Rows.OnFieldChange`1.Invoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0)
+  id: Invoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0)
+  parent: SuperOffice.CRM.Rows.OnFieldChange`1
+  langs:
+  - csharp
+  - vb
+  name: Invoke(TableRowBase, TValue, TValue, TValue)
+  nameWithType: OnFieldChange<TValue>.Invoke(TableRowBase, TValue, TValue, TValue)
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.Invoke(SuperOffice.CRM.Rows.TableRowBase, TValue, TValue, TValue)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public virtual void Invoke(TableRowBase fieldOwner, TValue persistedValue, TValue currentValue, TValue newValue)
+    parameters:
+    - id: fieldOwner
+      type: SuperOffice.CRM.Rows.TableRowBase
+    - id: persistedValue
+      type: '{TValue}'
+    - id: currentValue
+      type: '{TValue}'
+    - id: newValue
+      type: '{TValue}'
+    content.vb: Public Overridable Sub Invoke(fieldOwner As TableRowBase, persistedValue As TValue, currentValue As TValue, newValue As TValue)
+  overload: SuperOffice.CRM.Rows.OnFieldChange`1.Invoke*
+  nameWithType.vb: OnFieldChange(Of TValue).Invoke(TableRowBase, TValue, TValue, TValue)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).Invoke(SuperOffice.CRM.Rows.TableRowBase, TValue, TValue, TValue)
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.CRM.Rows.TableRowBase,`0,`0,`0,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Rows.OnFieldChange`1
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(TableRowBase, TValue, TValue, TValue, AsyncCallback, Object)
+  nameWithType: OnFieldChange<TValue>.BeginInvoke(TableRowBase, TValue, TValue, TValue, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.BeginInvoke(SuperOffice.CRM.Rows.TableRowBase, TValue, TValue, TValue, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(TableRowBase fieldOwner, TValue persistedValue, TValue currentValue, TValue newValue, AsyncCallback callback, object object)
+    parameters:
+    - id: fieldOwner
+      type: SuperOffice.CRM.Rows.TableRowBase
+    - id: persistedValue
+      type: '{TValue}'
+    - id: currentValue
+      type: '{TValue}'
+    - id: newValue
+      type: '{TValue}'
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(fieldOwner As TableRowBase, persistedValue As TValue, currentValue As TValue, newValue As TValue, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke*
+  nameWithType.vb: OnFieldChange(Of TValue).BeginInvoke(TableRowBase, TValue, TValue, TValue, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).BeginInvoke(SuperOffice.CRM.Rows.TableRowBase, TValue, TValue, TValue, System.AsyncCallback, System.Object)
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Rows.OnFieldChange`1.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Rows.OnFieldChange`1
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: OnFieldChange<TValue>.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.Rows.OnFieldChange`1.EndInvoke*
+  nameWithType.vb: OnFieldChange(Of TValue).EndInvoke(IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).EndInvoke(System.IAsyncResult)
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<OnFieldChange<TValue>, To>()
+  nameWithType: EnumUtil.MapEnums<OnFieldChange<TValue>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.OnFieldChange<TValue>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OnFieldChange(Of TValue), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.OnFieldChange(Of TValue), To)()
+  name.vb: MapEnums(Of OnFieldChange(Of TValue), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OnFieldChange<TValue>, To>
+    nameWithType: EnumUtil.MapEnums<OnFieldChange<TValue>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.OnFieldChange<TValue>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OnFieldChange(Of TValue), To)
+    nameWithType: EnumUtil.MapEnums(Of OnFieldChange(Of TValue), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.OnFieldChange(Of TValue), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OnFieldChange<TValue>, To>()
+  nameWithType: Converters.MapEnums<OnFieldChange<TValue>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.OnFieldChange<TValue>, To>()
+  nameWithType.vb: Converters.MapEnums(Of OnFieldChange(Of TValue), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.OnFieldChange(Of TValue), To)()
+  name.vb: MapEnums(Of OnFieldChange(Of TValue), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OnFieldChange<TValue>, To>
+    nameWithType: Converters.MapEnums<OnFieldChange<TValue>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.OnFieldChange<TValue>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OnFieldChange(Of TValue), To)
+    nameWithType: Converters.MapEnums(Of OnFieldChange(Of TValue), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.OnFieldChange(Of TValue), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.OnFieldChange`1.#ctor
+  isExternal: true
+  name: OnFieldChange
+  nameWithType: OnFieldChange<TValue>.OnFieldChange
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.OnFieldChange
+  nameWithType.vb: OnFieldChange(Of TValue).OnFieldChange
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).OnFieldChange
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.Invoke*
+  commentId: Overload:SuperOffice.CRM.Rows.OnFieldChange`1.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: OnFieldChange<TValue>.Invoke
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.Invoke
+  nameWithType.vb: OnFieldChange(Of TValue).Invoke
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).Invoke
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: OnFieldChange<TValue>.BeginInvoke
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.BeginInvoke
+  nameWithType.vb: OnFieldChange(Of TValue).BeginInvoke
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Rows.OnFieldChange`1.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: OnFieldChange<TValue>.EndInvoke
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.EndInvoke
+  nameWithType.vb: OnFieldChange(Of TValue).EndInvoke
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).EndInvoke

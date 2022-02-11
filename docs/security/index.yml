@@ -38,15 +38,15 @@ highlightedContent:
     # Card
     - title: "Authentication"
       itemType: overview
-      url: ../../../data-access/docs/authentication/overview.md
+      url: ../api/authentication/overview.md
     # Card
     - title: OAuth 2.0
       itemType: concept
-      url: ../../../data-access/docs/authentication/online/index.md
+      url: ../api/authentication/online/index.md
     # Card
     - title: OpenID Connect
       itemType: concept
-      url: ../../../data-access/docs/authentication/online/index.md
+      url: ../api/authentication/online/index.md
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -78,16 +78,16 @@ conceptualContent:
       links:
       - text: Introduction
         itemType: concept
-        url: ../privacy/index.md
+        url: privacy/index.md
       - text: Consent management
         itemType: concept
-        url: ../privacy/consent-management.md
+        url: privacy/consent-management.md
       - text: E-marketing consent
         itemType: concept
-        url: ../privacy/e-marketing-consent.md
+        url: privacy/e-marketing-consent.md
       - text: Soft-delete
         itemType: concept
-        url: ../privacy/soft-delete.md
+        url: privacy/soft-delete.md
     # Card
     - title: Online applications
       summary: ""
@@ -109,32 +109,32 @@ conceptualContent:
         url: ../apps/provisioning/get-consent.md
       - text: GDPR for app developer
         itemType: concept
-        url: ../privacy/gdpr-for-app-developer.md
+        url: privacy/gdpr-for-app-developer.md
     # Card
     - title: Online authentication
       summary: ""
       links:
       - text: SuperOffice Online and SuperID
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/index.md
+        url: ../api/authentication/online/index.md
       - text: OpenID Connect
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/index.md
+        url: ../api/authentication/online/index.md
       - text: Authorization code flow
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/sign-in-user/auth-code-flow.md
+        url: ../api/authentication/online/sign-in-user/auth-code-flow.md
       - text: Hybrid Flow
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/sign-in-user/hybrid-flow.md
+        url: ../api/authentication/online/sign-in-user/hybrid-flow.md
       - text: Implicit Flow
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/sign-in-user/implicit-flow.md
+        url: ../api/authentication/online/sign-in-user/implicit-flow.md
       - text: Native Apps
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/sign-in-user/native-apps.md
+        url: ../api/authentication/online/sign-in-user/native-apps.md
       - text: System User (Back-channel)
         itemType: concept
-        url: ../../../data-access/docs/authentication/online/auth-application/index.md
+        url: ../api/authentication/online/auth-application/index.md
     # Card
     - title: Onsite deployment
       summary: Security in onsite SuperOffice installations
@@ -177,16 +177,16 @@ additionalContent:
         - text: Mailgun
           url: ../email/mailgun/security.md
         - text: Web application
-          url: ../../../user-interface/docs/web-application/technical-info.md#security
+          url: ../ui/web-app/technical-info.md#security
         - text: Pagebuilder (sentry rights)
-          url: ../../../user-interface/docs/web-application/pagebuilder/rights-system.md
+          url: ../ui/web-app/pagebuilder/rights-system.md
       # Card
       - title: Database
         links:
         - text: The credentials database table
-          url: ../../../database/docs/tables/credentials.md
+          url: ../database/tables/credentials.md
         - text: Single database user
-          url: ../../../database/docs/security/single-database-user.md
+          url: ../database/security/single-database-user.md
         - text: Mirroring blacklisted tables
           url: ../mirroring/skip-tables.md
       # Card

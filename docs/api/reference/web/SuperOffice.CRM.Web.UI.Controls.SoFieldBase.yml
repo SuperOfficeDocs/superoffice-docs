@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  id: SoFieldBase
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.#ctor(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveColumnInfo
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveControlContext
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase._columnCustomInfo
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase._linkHintPrefix
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell(System.Collections.Specialized.IOrderedDictionary,System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlRowState,System.Boolean)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName(System.Web.UI.WebControls.GridViewRow)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint(System.Web.UI.WebControls.GridViewRow)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey(System.Web.UI.WebControls.GridViewRow)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight(System.Web.UI.WebControls.GridViewRow)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell(System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlCellType,System.Web.UI.WebControls.DataControlRowState,System.Int32)
+  - SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix
+  langs:
+  - csharp
+  - vb
+  name: SoFieldBase
+  nameWithType: SoFieldBase
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class SoFieldBase : DataControlField, ISoDataField'
+    content.vb: >-
+      Public Class SoFieldBase
+          Inherits DataControlField
+          Implements ISoDataField
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.SoBoundField
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckboxField
+  - SuperOffice.CRM.Web.UI.Controls.SoCriteriaBoundField
+  - SuperOffice.CRM.Web.UI.Controls.SoDateField
+  - SuperOffice.CRM.Web.UI.Controls.SoDateTimeField
+  - SuperOffice.CRM.Web.UI.Controls.SoGuideDateField
+  - SuperOffice.CRM.Web.UI.Controls.SoIconField
+  - SuperOffice.CRM.Web.UI.Controls.SoImageField
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveControlContext
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveControlContext
+  id: _archiveControlContext
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: _archiveControlContext
+  nameWithType: SoFieldBase._archiveControlContext
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveControlContext
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected ArchiveControlContext _archiveControlContext
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    content.vb: Protected _archiveControlContext As ArchiveControlContext
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveColumnInfo
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveColumnInfo
+  id: _archiveColumnInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: _archiveColumnInfo
+  nameWithType: SoFieldBase._archiveColumnInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._archiveColumnInfo
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected ArchiveColumnInfo _archiveColumnInfo
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _archiveColumnInfo As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._linkHintPrefix
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoFieldBase._linkHintPrefix
+  id: _linkHintPrefix
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: _linkHintPrefix
+  nameWithType: SoFieldBase._linkHintPrefix
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._linkHintPrefix
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _linkHintPrefix
+    return:
+      type: System.String
+    content.vb: Protected _linkHintPrefix As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._columnCustomInfo
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoFieldBase._columnCustomInfo
+  id: _columnCustomInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: _columnCustomInfo
+  nameWithType: SoFieldBase._columnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase._columnCustomInfo
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected ColumnCustomInfo _columnCustomInfo
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+    content.vb: Protected _columnCustomInfo As ColumnCustomInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.#ctor(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.#ctor(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: '#ctor(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: SoFieldBase(ArchiveControlContext, ArchiveColumnInfo)
+  nameWithType: SoFieldBase.SoFieldBase(ArchiveControlContext, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.SoFieldBase(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoFieldBase(ArchiveControlContext archiveControlContext, ArchiveColumnInfo archiveColumnInfo)
+    parameters:
+    - id: archiveControlContext
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    - id: archiveColumnInfo
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Sub New(archiveControlContext As ArchiveControlContext, archiveColumnInfo As ArchiveColumnInfo)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell(System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlCellType,System.Web.UI.WebControls.DataControlRowState,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell(System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlCellType,System.Web.UI.WebControls.DataControlRowState,System.Int32)
+  id: InitializeCell(System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlCellType,System.Web.UI.WebControls.DataControlRowState,System.Int32)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: InitializeCell(DataControlFieldCell, DataControlCellType, DataControlRowState, Int32)
+  nameWithType: SoFieldBase.InitializeCell(DataControlFieldCell, DataControlCellType, DataControlRowState, Int32)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell(System.Web.UI.WebControls.DataControlFieldCell, System.Web.UI.WebControls.DataControlCellType, System.Web.UI.WebControls.DataControlRowState, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void InitializeCell(DataControlFieldCell cell, DataControlCellType cellType, DataControlRowState rowState, int rowIndex)
+    parameters:
+    - id: cell
+      type: System.Web.UI.WebControls.DataControlFieldCell
+    - id: cellType
+      type: System.Web.UI.WebControls.DataControlCellType
+    - id: rowState
+      type: System.Web.UI.WebControls.DataControlRowState
+    - id: rowIndex
+      type: System.Int32
+    content.vb: Public Overrides Sub InitializeCell(cell As DataControlFieldCell, cellType As DataControlCellType, rowState As DataControlRowState, rowIndex As Integer)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField
+  id: CreateField
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: CreateField()
+  nameWithType: SoFieldBase.CreateField()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override DataControlField CreateField()
+    return:
+      type: System.Web.UI.WebControls.DataControlField
+    content.vb: Protected Overrides Function CreateField As DataControlField
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell(System.Collections.Specialized.IOrderedDictionary,System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlRowState,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell(System.Collections.Specialized.IOrderedDictionary,System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlRowState,System.Boolean)
+  id: ExtractValuesFromCell(System.Collections.Specialized.IOrderedDictionary,System.Web.UI.WebControls.DataControlFieldCell,System.Web.UI.WebControls.DataControlRowState,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: ExtractValuesFromCell(IOrderedDictionary, DataControlFieldCell, DataControlRowState, Boolean)
+  nameWithType: SoFieldBase.ExtractValuesFromCell(IOrderedDictionary, DataControlFieldCell, DataControlRowState, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell(System.Collections.Specialized.IOrderedDictionary, System.Web.UI.WebControls.DataControlFieldCell, System.Web.UI.WebControls.DataControlRowState, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void ExtractValuesFromCell(IOrderedDictionary dictionary, DataControlFieldCell cell, DataControlRowState rowState, bool includeReadOnly)
+    parameters:
+    - id: dictionary
+      type: System.Collections.Specialized.IOrderedDictionary
+    - id: cell
+      type: System.Web.UI.WebControls.DataControlFieldCell
+    - id: rowState
+      type: System.Web.UI.WebControls.DataControlRowState
+    - id: includeReadOnly
+      type: System.Boolean
+    content.vb: Public Overrides Sub ExtractValuesFromCell(dictionary As IOrderedDictionary, cell As DataControlFieldCell, rowState As DataControlRowState, includeReadOnly As Boolean)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint(System.Web.UI.WebControls.GridViewRow)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint(System.Web.UI.WebControls.GridViewRow)
+  id: GetRowLinkHint(System.Web.UI.WebControls.GridViewRow)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: GetRowLinkHint(GridViewRow)
+  nameWithType: SoFieldBase.GetRowLinkHint(GridViewRow)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint(System.Web.UI.WebControls.GridViewRow)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string GetRowLinkHint(GridViewRow container)
+    parameters:
+    - id: container
+      type: System.Web.UI.WebControls.GridViewRow
+    return:
+      type: System.String
+    content.vb: Protected Function GetRowLinkHint(container As GridViewRow) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey(System.Web.UI.WebControls.GridViewRow)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey(System.Web.UI.WebControls.GridViewRow)
+  id: GetRowPrimaryKey(System.Web.UI.WebControls.GridViewRow)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: GetRowPrimaryKey(GridViewRow)
+  nameWithType: SoFieldBase.GetRowPrimaryKey(GridViewRow)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey(System.Web.UI.WebControls.GridViewRow)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int GetRowPrimaryKey(GridViewRow container)
+    parameters:
+    - id: container
+      type: System.Web.UI.WebControls.GridViewRow
+    return:
+      type: System.Int32
+    content.vb: Protected Function GetRowPrimaryKey(container As GridViewRow) As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName(System.Web.UI.WebControls.GridViewRow)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName(System.Web.UI.WebControls.GridViewRow)
+  id: GetRowEntityName(System.Web.UI.WebControls.GridViewRow)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: GetRowEntityName(GridViewRow)
+  nameWithType: SoFieldBase.GetRowEntityName(GridViewRow)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName(System.Web.UI.WebControls.GridViewRow)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string GetRowEntityName(GridViewRow container)
+    parameters:
+    - id: container
+      type: System.Web.UI.WebControls.GridViewRow
+    return:
+      type: System.String
+    content.vb: Protected Function GetRowEntityName(container As GridViewRow) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight(System.Web.UI.WebControls.GridViewRow)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight(System.Web.UI.WebControls.GridViewRow)
+  id: GetRowTableRight(System.Web.UI.WebControls.GridViewRow)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: GetRowTableRight(GridViewRow)
+  nameWithType: SoFieldBase.GetRowTableRight(GridViewRow)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight(System.Web.UI.WebControls.GridViewRow)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected TableRight GetRowTableRight(GridViewRow container)
+    parameters:
+    - id: container
+      type: System.Web.UI.WebControls.GridViewRow
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Protected Function GetRowTableRight(container As GridViewRow) As TableRight
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow)
+  id: GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveColumnData(GridViewRow)
+  nameWithType: SoFieldBase.GetArchiveColumnData(GridViewRow)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected ArchiveColumnData GetArchiveColumnData(GridViewRow container)
+    parameters:
+    - id: container
+      type: System.Web.UI.WebControls.GridViewRow
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Protected Function GetArchiveColumnData(container As GridViewRow) As ArchiveColumnData
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow,System.String)
+  id: GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveColumnData(GridViewRow, String)
+  nameWithType: SoFieldBase.GetArchiveColumnData(GridViewRow, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData(System.Web.UI.WebControls.GridViewRow, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected ArchiveColumnData GetArchiveColumnData(GridViewRow container, string columnName)
+    parameters:
+    - id: container
+      type: System.Web.UI.WebControls.GridViewRow
+    - id: columnName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Protected Function GetArchiveColumnData(container As GridViewRow, columnName As String) As ArchiveColumnData
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix
+  id: LinkHintPrefix
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: LinkHintPrefix
+  nameWithType: SoFieldBase.LinkHintPrefix
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string LinkHintPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LinkHintPrefix As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix*
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo
+  id: ColumnCustomInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+  langs:
+  - csharp
+  - vb
+  name: ColumnCustomInfo
+  nameWithType: SoFieldBase.ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ColumnCustomInfo ColumnCustomInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+    content.vb: Public Property ColumnCustomInfo As ColumnCustomInfo
+  overload: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo*
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ISoDataField
+  nameWithType: ISoDataField
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ArchiveControlContext
+  nameWithType: ArchiveControlContext
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ColumnCustomInfo
+  nameWithType: ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.#ctor
+  isExternal: true
+  name: SoFieldBase
+  nameWithType: SoFieldBase.SoFieldBase
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.SoFieldBase
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell
+  isExternal: true
+  name: InitializeCell
+  nameWithType: SoFieldBase.InitializeCell
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.InitializeCell
+- uid: System.Web.UI.WebControls.DataControlFieldCell
+  isExternal: true
+  name: DataControlFieldCell
+  nameWithType: DataControlFieldCell
+  fullName: System.Web.UI.WebControls.DataControlFieldCell
+- uid: System.Web.UI.WebControls.DataControlCellType
+  isExternal: true
+  name: DataControlCellType
+  nameWithType: DataControlCellType
+  fullName: System.Web.UI.WebControls.DataControlCellType
+- uid: System.Web.UI.WebControls.DataControlRowState
+  isExternal: true
+  name: DataControlRowState
+  nameWithType: DataControlRowState
+  fullName: System.Web.UI.WebControls.DataControlRowState
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField
+  isExternal: true
+  name: CreateField
+  nameWithType: SoFieldBase.CreateField
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.CreateField
+- uid: System.Web.UI.WebControls.DataControlField
+  isExternal: true
+  name: DataControlField
+  nameWithType: DataControlField
+  fullName: System.Web.UI.WebControls.DataControlField
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell
+  isExternal: true
+  name: ExtractValuesFromCell
+  nameWithType: SoFieldBase.ExtractValuesFromCell
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ExtractValuesFromCell
+- uid: System.Collections.Specialized.IOrderedDictionary
+  commentId: '!:System.Collections.Specialized.IOrderedDictionary'
+  isExternal: true
+  name: IOrderedDictionary
+  nameWithType: IOrderedDictionary
+  fullName: System.Collections.Specialized.IOrderedDictionary
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint
+  isExternal: true
+  name: GetRowLinkHint
+  nameWithType: SoFieldBase.GetRowLinkHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowLinkHint
+- uid: System.Web.UI.WebControls.GridViewRow
+  isExternal: true
+  name: GridViewRow
+  nameWithType: GridViewRow
+  fullName: System.Web.UI.WebControls.GridViewRow
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey
+  isExternal: true
+  name: GetRowPrimaryKey
+  nameWithType: SoFieldBase.GetRowPrimaryKey
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowPrimaryKey
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName
+  isExternal: true
+  name: GetRowEntityName
+  nameWithType: SoFieldBase.GetRowEntityName
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowEntityName
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight
+  isExternal: true
+  name: GetRowTableRight
+  nameWithType: SoFieldBase.GetRowTableRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetRowTableRight
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData
+  isExternal: true
+  name: GetArchiveColumnData
+  nameWithType: SoFieldBase.GetArchiveColumnData
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.GetArchiveColumnData
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix
+  isExternal: true
+  name: LinkHintPrefix
+  nameWithType: SoFieldBase.LinkHintPrefix
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.LinkHintPrefix
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  isExternal: true
+  name: LinkHintPrefix
+  nameWithType: ISoDataField.LinkHintPrefix
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+- uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo
+  isExternal: true
+  name: ColumnCustomInfo
+  nameWithType: SoFieldBase.ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoFieldBase.ColumnCustomInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  isExternal: true
+  name: ColumnCustomInfo
+  nameWithType: ISoDataField.ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo

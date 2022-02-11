@@ -1,0 +1,10 @@
+digraph kb_solution_finder_entry  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_solution_finder_entry[fillcolor = "cadetblue1"]
+kb_solution_finder[fillcolor = "azure1"]
+kb_entry[fillcolor = "azure1"]
+kb_solution_finder_entry -> kb_solution_finder [headlabel = "solution_finder"]
+kb_solution_finder_entry -> kb_entry [headlabel = "kb_entry"]
+}

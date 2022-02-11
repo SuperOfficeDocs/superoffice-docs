@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.SelectionType
+  # Same as SuperOffice.Data.SelectionType
+  commentId: T:CRMScript.NetServer.SelectionType
+  id: SelectionType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.SelectionType.Static
+  - CRMScript.NetServer.SelectionType.Dynamic
+  - CRMScript.NetServer.SelectionType.Combined
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: CRMScript.NetServer.SelectionType
+  type: Enum
+  summary: "\nSelection type - static/dynamic/combined. Works together with targetTable to define what kind of Selection this is.\n"
+- uid: CRMScript.NetServer.SelectionType.Static
+  commentId: F:CRMScript.NetServer.SelectionType.Static
+  id: SelectionType.Static
+  langs:
+  - crmscript
+  name: SelectionType.Static
+  nameWithType: SelectionType.Static
+  fullName: CRMScript.NetServer.SelectionType.Static
+  type: Field
+  summary: "\n0: Static selection\n"
+  syntax: 
+    content: Static = 0
+    type: CRMScript.NetServer.SelectionType
+- uid: CRMScript.NetServer.SelectionType.Dynamic
+  commentId: F:CRMScript.NetServer.SelectionType.Dynamic
+  id: SelectionType.Dynamic
+  langs:
+  - crmscript
+  name: SelectionType.Dynamic
+  nameWithType: SelectionType.Dynamic
+  fullName: CRMScript.NetServer.SelectionType.Dynamic
+  type: Field
+  summary: "\n1: Dynamic selection\n"
+  syntax: 
+    content: Dynamic = 1
+    type: CRMScript.NetServer.SelectionType
+- uid: CRMScript.NetServer.SelectionType.Combined
+  commentId: F:CRMScript.NetServer.SelectionType.Combined
+  id: SelectionType.Combined
+  langs:
+  - crmscript
+  name: SelectionType.Combined
+  nameWithType: SelectionType.Combined
+  fullName: CRMScript.NetServer.SelectionType.Combined
+  type: Field
+  summary: "\n2: Combined selection\n"
+  syntax: 
+    content: Combined = 2
+    type: CRMScript.NetServer.SelectionType
+references:
+- uid: CRMScript.NetServer.SelectionType
+  commentId: T:CRMScript.NetServer.SelectionType
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: CRMScript.NetServer.SelectionType

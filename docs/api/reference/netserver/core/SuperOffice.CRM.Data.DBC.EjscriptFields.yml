@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EjscriptFields
+  id: DBC.EjscriptFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.AccessKey
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.Body
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.Description
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.EjscriptId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.ExtraMenusId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.HtmlOutput
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.IncludeId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.LongDescription
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.Registered
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.UniqueIdentifier
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.Updated
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.EjscriptFields
+  nameWithType: DBC.EjscriptFields
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Ejscript, ejscript\n"
+  syntax:
+    content: public static class EjscriptFields
+    content.vb: Public Module EjscriptFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.EjscriptId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.EjscriptId
+  id: EjscriptId
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId
+  nameWithType: DBC.EjscriptFields.EjscriptId
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.EjscriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.EjscriptId: Primary key\n"
+  syntax:
+    content: public const string EjscriptId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const EjscriptId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.HierarchyId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: DBC.EjscriptFields.HierarchyId
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.HierarchyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.HierarchyId: The script is inside this hierarchy folder\n"
+  syntax:
+    content: public const string HierarchyId = "hierarchy_id"
+    return:
+      type: System.String
+    content.vb: Public Const HierarchyId As String = "hierarchy_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.EjscriptFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.Description: A description of this script\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.IncludeId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.IncludeId
+  id: IncludeId
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: IncludeId
+  nameWithType: DBC.EjscriptFields.IncludeId
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.IncludeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.IncludeId: A unique name used for including this script in another\n"
+  syntax:
+    content: public const string IncludeId = "include_id"
+    return:
+      type: System.String
+    content.vb: Public Const IncludeId As String = "include_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.AccessKey
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.AccessKey
+  id: AccessKey
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: AccessKey
+  nameWithType: DBC.EjscriptFields.AccessKey
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.AccessKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.AccessKey: Access key used to run this script on the customer pages\n"
+  syntax:
+    content: public const string AccessKey = "access_key"
+    return:
+      type: System.String
+    content.vb: Public Const AccessKey As String = "access_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.Body
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.Body
+  id: Body
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: DBC.EjscriptFields.Body
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.Body: The script\n"
+  syntax:
+    content: public const string Body = "body"
+    return:
+      type: System.String
+    content.vb: Public Const Body As String = "body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.HtmlOutput
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.HtmlOutput
+  id: HtmlOutput
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: HtmlOutput
+  nameWithType: DBC.EjscriptFields.HtmlOutput
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.HtmlOutput
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.HtmlOutput: True if this script will return HTML output\n"
+  syntax:
+    content: public const string HtmlOutput = "html_output"
+    return:
+      type: System.String
+    content.vb: Public Const HtmlOutput As String = "html_output"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.LongDescription
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.LongDescription
+  id: LongDescription
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: LongDescription
+  nameWithType: DBC.EjscriptFields.LongDescription
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.LongDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.LongDescription: Optional description of what this script is used for.\n"
+  syntax:
+    content: public const string LongDescription = "long_description"
+    return:
+      type: System.String
+    content.vb: Public Const LongDescription As String = "long_description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.ExtraMenusId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.ExtraMenusId
+  id: ExtraMenusId
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraMenusId
+  nameWithType: DBC.EjscriptFields.ExtraMenusId
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.ExtraMenusId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.ExtraMenusId: Optional id of related extra menu pointing to this script\n"
+  syntax:
+    content: public const string ExtraMenusId = "extra_menus_id"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraMenusId As String = "extra_menus_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.UniqueIdentifier
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: DBC.EjscriptFields.UniqueIdentifier
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.UniqueIdentifier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.UniqueIdentifier: Global unique identifier, accross customers/tenants\n"
+  syntax:
+    content: public const string UniqueIdentifier = "unique_identifier"
+    return:
+      type: System.String
+    content.vb: Public Const UniqueIdentifier As String = "unique_identifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.EjscriptFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.EjscriptFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.EjscriptFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.EjscriptFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.EjscriptFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjscript.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

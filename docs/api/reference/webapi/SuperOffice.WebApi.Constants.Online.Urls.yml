@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Online.Urls
+  commentId: T:SuperOffice.WebApi.Constants.Online.Urls
+  id: Constants.Online.Urls
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.Online.Urls.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: Constants.Online.Urls
+  nameWithType: Constants.Online.Urls
+  fullName: SuperOffice.WebApi.Constants.Online.Urls
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOnline Urls.\n"
+  syntax:
+    content: 'public static class Urls : Object'
+    content.vb: >-
+      Public Module Urls
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.Online.Urls.TenantStatus
+  commentId: F:SuperOffice.WebApi.Constants.Online.Urls.TenantStatus
+  id: TenantStatus
+  parent: SuperOffice.WebApi.Constants.Online.Urls
+  langs:
+  - csharp
+  - vb
+  name: TenantStatus
+  nameWithType: Constants.Online.Urls.TenantStatus
+  fullName: SuperOffice.WebApi.Constants.Online.Urls.TenantStatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nFormat string for TenantStatus URL.\n"
+  syntax:
+    content: public const string TenantStatus = "https://{0}.superoffice.com/api/state/{1}"
+    return:
+      type: System.String
+    content.vb: Public Const TenantStatus As String = "https://{0}.superoffice.com/api/state/{1}"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

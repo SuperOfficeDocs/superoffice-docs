@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  id: ConfigurationManager.ConfigurationObjectInfo
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor(System.Type,System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString
+  - SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager.ConfigurationObjectInfo
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class ConfigurationObjectInfo
+    content.vb: Public Class ConfigurationObjectInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor(System.Type,System.String,System.String)
+  id: '#ctor(System.Type,System.String,System.String)'
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationObjectInfo(Type, String, String)
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ConfigurationObjectInfo(Type, String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ConfigurationObjectInfo(System.Type, System.String, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public ConfigurationObjectInfo(Type mappingType, string type, string mappingName)
+    parameters:
+    - id: mappingType
+      type: System.Type
+    - id: type
+      type: System.String
+    - id: mappingName
+      type: System.String
+    content.vb: Public Sub New(mappingType As Type, type As String, mappingName As String)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor(System.Xml.XmlNode)
+  id: '#ctor(System.Xml.XmlNode)'
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationObjectInfo(XmlNode)
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ConfigurationObjectInfo(XmlNode)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ConfigurationObjectInfo(System.Xml.XmlNode)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public ConfigurationObjectInfo(XmlNode objectInfoXml)
+    parameters:
+    - id: objectInfoXml
+      type: System.Xml.XmlNode
+    content.vb: Public Sub New(objectInfoXml As XmlNode)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString
+  id: ToString
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ToString()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType
+  id: MappingType
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: MappingType
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.MappingType
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public Type MappingType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Property MappingType As Type
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  id: AssemblyName
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: AssemblyName
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string AssemblyName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AssemblyName As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type
+  id: Type
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.Type
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  id: ObjectName
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: ObjectName
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string ObjectName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ObjectName As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName
+  id: MappingName
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: MappingName
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.MappingName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string MappingName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MappingName As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  id: PreLoad
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: PreLoad
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool PreLoad { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PreLoad As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.#ctor
+  isExternal: true
+  name: ConfigurationObjectInfo
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ConfigurationObjectInfo
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ConfigurationObjectInfo
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ToString
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ToString
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType
+  isExternal: true
+  name: MappingType
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.MappingType
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingType
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  isExternal: true
+  name: AssemblyName
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.AssemblyName
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.Type
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.Type
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  isExternal: true
+  name: ObjectName
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.ObjectName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.ObjectName
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName
+  isExternal: true
+  name: MappingName
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.MappingName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.MappingName
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  isExternal: true
+  name: PreLoad
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo.PreLoad
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo.PreLoad
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

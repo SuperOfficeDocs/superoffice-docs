@@ -1,0 +1,8 @@
+digraph message_header  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+message_header[fillcolor = "cadetblue1"]
+ej_message[fillcolor = "azure1"]
+message_header -> ej_message [headlabel = "message_id"]
+}

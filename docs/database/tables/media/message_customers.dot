@@ -1,0 +1,10 @@
+digraph message_customers  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+message_customers[fillcolor = "cadetblue1"]
+ej_message[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+message_customers -> ej_message [headlabel = "message_id"]
+message_customers -> person [headlabel = "customer_id"]
+}

@@ -1,0 +1,2041 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  id: UserPreferenceStrings.MDOList
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.associate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.business
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.category
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.comptr
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.contint
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.credited
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.currency
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.doctmpl
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.EnableLongValues
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.extapp
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimit
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitamountclass
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitassociate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitbusiness
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcategory
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcomptr
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcontint
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcredited
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcurrency
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitdoctmpl
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitextapp
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitmrmrs
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpersint
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitperspos
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpmembtype
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpriority
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprob
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojstatus
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojtype
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreason
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonsold
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonstalled
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitrelationdefinition
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletype
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletypecat
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsearchcat
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsource
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimittask
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.MaxListSize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.mrmrs
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.persint
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.perspos
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.pmembtype
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.priority
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.prob
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projstatus
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projtype
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.reason
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.relationdefinition
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.saletype
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.searchcat
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.source
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.task
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef0
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef1
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef2
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef3
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef4
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef5
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin0
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin1
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin2
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin3
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin4
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin5
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.MDOList
+  nameWithType: UserPreferenceStrings.MDOList
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped and filtered lists\n"
+  syntax:
+    content: 'public static class MDOList : Object'
+    content.vb: >-
+      Public Module MDOList
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.MDOList.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "MDOList"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "MDOList"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.EnableLongValues
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.EnableLongValues
+  id: EnableLongValues
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: EnableLongValues
+  nameWithType: UserPreferenceStrings.MDOList.EnableLongValues
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.EnableLongValues
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCan <strong>name</strong> and <strong>description</strong> be extended into (max 2) text records?\n"
+  syntax:
+    content: public const string EnableLongValues = "EnableLongValues"
+    return:
+      type: System.String
+    content.vb: Public Const EnableLongValues As String = "EnableLongValues"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.associate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.associate
+  id: associate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: associate
+  nameWithType: UserPreferenceStrings.MDOList.associate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.associate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string associate = "associate"
+    return:
+      type: System.String
+    content.vb: Public Const associate As String = "associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.business
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.business
+  id: business
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: business
+  nameWithType: UserPreferenceStrings.MDOList.business
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.business
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string business = "business"
+    return:
+      type: System.String
+    content.vb: Public Const business As String = "business"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.category
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.category
+  id: category
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: category
+  nameWithType: UserPreferenceStrings.MDOList.category
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.category
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string category = "category"
+    return:
+      type: System.String
+    content.vb: Public Const category As String = "category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.comptr
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.comptr
+  id: comptr
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: comptr
+  nameWithType: UserPreferenceStrings.MDOList.comptr
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.comptr
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string comptr = "comptr"
+    return:
+      type: System.String
+    content.vb: Public Const comptr As String = "comptr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.contint
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.contint
+  id: contint
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: contint
+  nameWithType: UserPreferenceStrings.MDOList.contint
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.contint
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string contint = "contint"
+    return:
+      type: System.String
+    content.vb: Public Const contint As String = "contint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.credited
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.credited
+  id: credited
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: credited
+  nameWithType: UserPreferenceStrings.MDOList.credited
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.credited
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string credited = "credited"
+    return:
+      type: System.String
+    content.vb: Public Const credited As String = "credited"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.currency
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.currency
+  id: currency
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: currency
+  nameWithType: UserPreferenceStrings.MDOList.currency
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.currency
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string currency = "currency"
+    return:
+      type: System.String
+    content.vb: Public Const currency As String = "currency"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.doctmpl
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.doctmpl
+  id: doctmpl
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: doctmpl
+  nameWithType: UserPreferenceStrings.MDOList.doctmpl
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.doctmpl
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string doctmpl = "doctmpl"
+    return:
+      type: System.String
+    content.vb: Public Const doctmpl As String = "doctmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.extapp
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.extapp
+  id: extapp
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: extapp
+  nameWithType: UserPreferenceStrings.MDOList.extapp
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.extapp
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string extapp = "extapp"
+    return:
+      type: System.String
+    content.vb: Public Const extapp As String = "extapp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.saletype
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.saletype
+  id: saletype
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: saletype
+  nameWithType: UserPreferenceStrings.MDOList.saletype
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.saletype
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string saletype = "saletype"
+    return:
+      type: System.String
+    content.vb: Public Const saletype As String = "saletype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitassociate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitassociate
+  id: LowerLimitassociate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitassociate
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitassociate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitassociate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitassociate = "LowerLimitassociate"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitassociate As String = "LowerLimitassociate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitbusiness
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitbusiness
+  id: LowerLimitbusiness
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitbusiness
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitbusiness
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitbusiness
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitbusiness = "LowerLimitbusiness"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitbusiness As String = "LowerLimitbusiness"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcategory
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcategory
+  id: LowerLimitcategory
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitcategory
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitcategory
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitcategory = "LowerLimitcategory"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitcategory As String = "LowerLimitcategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcomptr
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcomptr
+  id: LowerLimitcomptr
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitcomptr
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitcomptr
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcomptr
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitcomptr = "LowerLimitcomptr"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitcomptr As String = "LowerLimitcomptr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcontint
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcontint
+  id: LowerLimitcontint
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitcontint
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitcontint
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcontint
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitcontint = "LowerLimitcontint"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitcontint As String = "LowerLimitcontint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcredited
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcredited
+  id: LowerLimitcredited
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitcredited
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitcredited
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcredited
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitcredited = "LowerLimitcredited"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitcredited As String = "LowerLimitcredited"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcurrency
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcurrency
+  id: LowerLimitcurrency
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitcurrency
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitcurrency
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitcurrency
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitcurrency = "LowerLimitcurrency"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitcurrency As String = "LowerLimitcurrency"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitdoctmpl
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitdoctmpl
+  id: LowerLimitdoctmpl
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitdoctmpl
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitdoctmpl
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitdoctmpl
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitdoctmpl = "LowerLimitdoctmpl"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitdoctmpl As String = "LowerLimitdoctmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitextapp
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitextapp
+  id: LowerLimitextapp
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitextapp
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitextapp
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitextapp
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitextapp = "LowerLimitextapp"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitextapp As String = "LowerLimitextapp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitmrmrs
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitmrmrs
+  id: LowerLimitmrmrs
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitmrmrs
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitmrmrs
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitmrmrs
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitmrmrs = "LowerLimitmrmrs"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitmrmrs As String = "LowerLimitmrmrs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpersint
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpersint
+  id: LowerLimitpersint
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitpersint
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitpersint
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpersint
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitpersint = "LowerLimitpersint"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitpersint As String = "LowerLimitpersint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitperspos
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitperspos
+  id: LowerLimitperspos
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitperspos
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitperspos
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitperspos
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitperspos = "LowerLimitperspos"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitperspos As String = "LowerLimitperspos"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpmembtype
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpmembtype
+  id: LowerLimitpmembtype
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitpmembtype
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitpmembtype
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpmembtype
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitpmembtype = "LowerLimitpmembtype"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitpmembtype As String = "LowerLimitpmembtype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpriority
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpriority
+  id: LowerLimitpriority
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitpriority
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitpriority
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitpriority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitpriority = "LowerLimitpriority"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitpriority As String = "LowerLimitpriority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprob
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprob
+  id: LowerLimitprob
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitprob
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitprob
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprob
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitprob = "LowerLimitprob"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitprob As String = "LowerLimitprob"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojstatus
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojstatus
+  id: LowerLimitprojstatus
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitprojstatus
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitprojstatus
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojstatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitprojstatus = "LowerLimitprojstatus"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitprojstatus As String = "LowerLimitprojstatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojtype
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojtype
+  id: LowerLimitprojtype
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitprojtype
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitprojtype
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitprojtype
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitprojtype = "LowerLimitprojtype"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitprojtype As String = "LowerLimitprojtype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreason
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreason
+  id: LowerLimitreason
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitreason
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitreason
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreason
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitreason = "LowerLimitreason"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitreason As String = "LowerLimitreason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitrelationdefinition
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitrelationdefinition
+  id: LowerLimitrelationdefinition
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitrelationdefinition
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitrelationdefinition
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitrelationdefinition
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitrelationdefinition = "LowerLimitrelationdefinition"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitrelationdefinition As String = "LowerLimitrelationdefinition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsearchcat
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsearchcat
+  id: LowerLimitsearchcat
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitsearchcat
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitsearchcat
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsearchcat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitsearchcat = "LowerLimitsearchcat"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitsearchcat As String = "LowerLimitsearchcat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsource
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsource
+  id: LowerLimitsource
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitsource
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitsource
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsource
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitsource = "LowerLimitsource"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitsource As String = "LowerLimitsource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitamountclass
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitamountclass
+  id: LowerLimitamountclass
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitamountclass
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitamountclass
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitamountclass
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitamountclass = "LowerLimitamountclass"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitamountclass As String = "LowerLimitamountclass"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletypecat
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletypecat
+  id: LowerLimitsaletypecat
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitsaletypecat
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitsaletypecat
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletypecat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitsaletypecat = "LowerLimitsaletypecat"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitsaletypecat As String = "LowerLimitsaletypecat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonstalled
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonstalled
+  id: LowerLimitreasonstalled
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitreasonstalled
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitreasonstalled
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonstalled
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitreasonstalled = "LowerLimitreasonstalled"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitreasonstalled As String = "LowerLimitreasonstalled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonsold
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonsold
+  id: LowerLimitreasonsold
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitreasonsold
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitreasonsold
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitreasonsold
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitreasonsold = "LowerLimitreasonsold"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitreasonsold As String = "LowerLimitreasonsold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletype
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletype
+  id: LowerLimitsaletype
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimitsaletype
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimitsaletype
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimitsaletype
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimitsaletype = "LowerLimitsaletype"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimitsaletype As String = "LowerLimitsaletype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimittask
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimittask
+  id: LowerLimittask
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimittask
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimittask
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimittask
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimittask = "LowerLimittask"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimittask As String = "LowerLimittask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.MaxListSize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.MaxListSize
+  id: MaxListSize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: MaxListSize
+  nameWithType: UserPreferenceStrings.MDOList.MaxListSize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.MaxListSize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string MaxListSize = "MaxListSize"
+    return:
+      type: System.String
+    content.vb: Public Const MaxListSize As String = "MaxListSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimit
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimit
+  id: LowerLimit
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: LowerLimit
+  nameWithType: UserPreferenceStrings.MDOList.LowerLimit
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.LowerLimit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string LowerLimit = "LowerLimit"
+    return:
+      type: System.String
+    content.vb: Public Const LowerLimit As String = "LowerLimit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.mrmrs
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.mrmrs
+  id: mrmrs
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: mrmrs
+  nameWithType: UserPreferenceStrings.MDOList.mrmrs
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.mrmrs
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string mrmrs = "mrmrs"
+    return:
+      type: System.String
+    content.vb: Public Const mrmrs As String = "mrmrs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.persint
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.persint
+  id: persint
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: persint
+  nameWithType: UserPreferenceStrings.MDOList.persint
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.persint
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string persint = "persint"
+    return:
+      type: System.String
+    content.vb: Public Const persint As String = "persint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.perspos
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.perspos
+  id: perspos
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: perspos
+  nameWithType: UserPreferenceStrings.MDOList.perspos
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.perspos
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string perspos = "perspos"
+    return:
+      type: System.String
+    content.vb: Public Const perspos As String = "perspos"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.pmembtype
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.pmembtype
+  id: pmembtype
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: pmembtype
+  nameWithType: UserPreferenceStrings.MDOList.pmembtype
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.pmembtype
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string pmembtype = "pmembtype"
+    return:
+      type: System.String
+    content.vb: Public Const pmembtype As String = "pmembtype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.priority
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.priority
+  id: priority
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: priority
+  nameWithType: UserPreferenceStrings.MDOList.priority
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.priority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.prob
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.prob
+  id: prob
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: prob
+  nameWithType: UserPreferenceStrings.MDOList.prob
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.prob
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string prob = "prob"
+    return:
+      type: System.String
+    content.vb: Public Const prob As String = "prob"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projstatus
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projstatus
+  id: projstatus
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: projstatus
+  nameWithType: UserPreferenceStrings.MDOList.projstatus
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projstatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string projstatus = "projstatus"
+    return:
+      type: System.String
+    content.vb: Public Const projstatus As String = "projstatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projtype
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projtype
+  id: projtype
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: projtype
+  nameWithType: UserPreferenceStrings.MDOList.projtype
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.projtype
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string projtype = "projtype"
+    return:
+      type: System.String
+    content.vb: Public Const projtype As String = "projtype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.reason
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.reason
+  id: reason
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: reason
+  nameWithType: UserPreferenceStrings.MDOList.reason
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.reason
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string reason = "reason"
+    return:
+      type: System.String
+    content.vb: Public Const reason As String = "reason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.relationdefinition
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.relationdefinition
+  id: relationdefinition
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: relationdefinition
+  nameWithType: UserPreferenceStrings.MDOList.relationdefinition
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.relationdefinition
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string relationdefinition = "relationdefinition"
+    return:
+      type: System.String
+    content.vb: Public Const relationdefinition As String = "relationdefinition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.searchcat
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.searchcat
+  id: searchcat
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: searchcat
+  nameWithType: UserPreferenceStrings.MDOList.searchcat
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.searchcat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string searchcat = "searchcat"
+    return:
+      type: System.String
+    content.vb: Public Const searchcat As String = "searchcat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.source
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.source
+  id: source
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: source
+  nameWithType: UserPreferenceStrings.MDOList.source
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.source
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const source As String = "source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.task
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.task
+  id: task
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: task
+  nameWithType: UserPreferenceStrings.MDOList.task
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.task
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string task = "task"
+    return:
+      type: System.String
+    content.vb: Public Const task As String = "task"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef0
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef0
+  id: Udef0
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Udef0
+  nameWithType: UserPreferenceStrings.MDOList.Udef0
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef0
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the user-defined fields on page 1 of the Contact dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Udef0 = "Udef0"
+    return:
+      type: System.String
+    content.vb: Public Const Udef0 As String = "Udef0"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef1
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef1
+  id: Udef1
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Udef1
+  nameWithType: UserPreferenceStrings.MDOList.Udef1
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the user-defined fields on page 1 of the Company screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Udef1 = "Udef1"
+    return:
+      type: System.String
+    content.vb: Public Const Udef1 As String = "Udef1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef2
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef2
+  id: Udef2
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Udef2
+  nameWithType: UserPreferenceStrings.MDOList.Udef2
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the user-defined fields on page 1 of the Project screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Udef2 = "Udef2"
+    return:
+      type: System.String
+    content.vb: Public Const Udef2 As String = "Udef2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef3
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef3
+  id: Udef3
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Udef3
+  nameWithType: UserPreferenceStrings.MDOList.Udef3
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the user-defined fields on page 1 of the Sale dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Udef3 = "Udef3"
+    return:
+      type: System.String
+    content.vb: Public Const Udef3 As String = "Udef3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef4
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef4
+  id: Udef4
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Udef4
+  nameWithType: UserPreferenceStrings.MDOList.Udef4
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef4
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the user-defined fields on page 1 of the Appointment dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Udef4 = "Udef4"
+    return:
+      type: System.String
+    content.vb: Public Const Udef4 As String = "Udef4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef5
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef5
+  id: Udef5
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: Udef5
+  nameWithType: UserPreferenceStrings.MDOList.Udef5
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef5
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the user-defined fields on page 1 of the Document dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Udef5 = "Udef5"
+    return:
+      type: System.String
+    content.vb: Public Const Udef5 As String = "Udef5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin0
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin0
+  id: UdefAdmin0
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: UdefAdmin0
+  nameWithType: UserPreferenceStrings.MDOList.UdefAdmin0
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin0
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the unpublished user-defined fields on page 1 of the Contact dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UdefAdmin0 = "UdefAdmin0"
+    return:
+      type: System.String
+    content.vb: Public Const UdefAdmin0 As String = "UdefAdmin0"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin1
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin1
+  id: UdefAdmin1
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: UdefAdmin1
+  nameWithType: UserPreferenceStrings.MDOList.UdefAdmin1
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the unpublished user-defined fields on page 1 of the Company screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UdefAdmin1 = "UdefAdmin1"
+    return:
+      type: System.String
+    content.vb: Public Const UdefAdmin1 As String = "UdefAdmin1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin2
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin2
+  id: UdefAdmin2
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: UdefAdmin2
+  nameWithType: UserPreferenceStrings.MDOList.UdefAdmin2
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin2
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the unpublished user-defined fields on page 1 of the Project screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UdefAdmin2 = "UdefAdmin2"
+    return:
+      type: System.String
+    content.vb: Public Const UdefAdmin2 As String = "UdefAdmin2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin3
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin3
+  id: UdefAdmin3
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: UdefAdmin3
+  nameWithType: UserPreferenceStrings.MDOList.UdefAdmin3
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin3
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the unpublished user-defined fields on page 1 of the Sale dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UdefAdmin3 = "UdefAdmin3"
+    return:
+      type: System.String
+    content.vb: Public Const UdefAdmin3 As String = "UdefAdmin3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin4
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin4
+  id: UdefAdmin4
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: UdefAdmin4
+  nameWithType: UserPreferenceStrings.MDOList.UdefAdmin4
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin4
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the unpublished user-defined fields on page 1 of the Appointment dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UdefAdmin4 = "UdefAdmin4"
+    return:
+      type: System.String
+    content.vb: Public Const UdefAdmin4 As String = "UdefAdmin4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin5
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin5
+  id: UdefAdmin5
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: UdefAdmin5
+  nameWithType: UserPreferenceStrings.MDOList.UdefAdmin5
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.UdefAdmin5
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the unpublished user-defined fields on page 1 of the Docment dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UdefAdmin5 = "UdefAdmin5"
+    return:
+      type: System.String
+    content.vb: Public Const UdefAdmin5 As String = "UdefAdmin5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

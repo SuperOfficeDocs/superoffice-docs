@@ -1,0 +1,10 @@
+digraph reply_template_body  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+reply_template_body[fillcolor = "cadetblue1"]
+reply_template[fillcolor = "azure1"]
+cust_lang[fillcolor = "azure1"]
+reply_template_body -> reply_template [headlabel = "reply_template_id"]
+reply_template_body -> cust_lang [headlabel = "language_id"]
+}

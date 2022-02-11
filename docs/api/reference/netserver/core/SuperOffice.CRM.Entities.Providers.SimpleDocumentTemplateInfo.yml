@@ -1,0 +1,1273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  commentId: T:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  id: SimpleDocumentTemplateInfo
+  parent: SuperOffice.CRM.Entities.Providers
+  children:
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.#ctor
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated
+  langs:
+  - csharp
+  - vb
+  name: SimpleDocumentTemplateInfo
+  nameWithType: SimpleDocumentTemplateInfo
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nPlain-old-data implementation of <xref href=\"SuperOffice.CRM.IDocumentTemplateInfo\" data-throw-if-not-resolved=\"false\"></xref>, intended for situations\nwhere the client knows everything and does not want the database to be involved\n(for instance, when running on unsaved data)\n"
+  syntax:
+    content: 'public class SimpleDocumentTemplateInfo : IDocumentTemplateInfo'
+    content.vb: >-
+      Public Class SimpleDocumentTemplateInfo
+          Implements IDocumentTemplateInfo
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.#ctor
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: SimpleDocumentTemplateInfo()
+  nameWithType: SimpleDocumentTemplateInfo.SimpleDocumentTemplateInfo()
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SimpleDocumentTemplateInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public SimpleDocumentTemplateInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id
+  id: Id
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SimpleDocumentTemplateInfo.Id
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SimpleDocumentTemplateInfo.Name
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SimpleDocumentTemplateInfo.Rank
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.Rank
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SimpleDocumentTemplateInfo.Tooltip
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tooltip As String
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.Tooltip
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: SimpleDocumentTemplateInfo.IsDeleted
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public bool IsDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDeleted As Boolean
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.IsDeleted
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference
+  id: ExternalReference
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalReference
+  nameWithType: SimpleDocumentTemplateInfo.ExternalReference
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string ExternalReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExternalReference As String
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.ExternalReference
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType
+  id: MimeType
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: SimpleDocumentTemplateInfo.MimeType
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.MimeType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SimpleDocumentTemplateInfo.Registered
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Registered As Date
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.Registered
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SimpleDocumentTemplateInfo.Updated
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Updated As Date
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.Updated
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  id: DocumentStoredInPluginId
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: DocumentStoredInPluginId
+  nameWithType: SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int DocumentStoredInPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentStoredInPluginId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.DocumentStoredInPluginId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  id: TemplateStoredInPluginId
+  parent: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+  langs:
+  - csharp
+  - vb
+  name: TemplateStoredInPluginId
+  nameWithType: SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int TemplateStoredInPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TemplateStoredInPluginId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId*
+  implements:
+  - SuperOffice.CRM.IDocumentTemplateInfo.TemplateStoredInPluginId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Entities.Providers
+  commentId: N:SuperOffice.CRM.Entities.Providers
+  isExternal: true
+  name: SuperOffice.CRM.Entities.Providers
+  nameWithType: SuperOffice.CRM.Entities.Providers
+  fullName: SuperOffice.CRM.Entities.Providers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.IDocumentTemplateInfo
+  commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentTemplateInfo
+  nameWithType: IDocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SimpleDocumentTemplateInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SimpleDocumentTemplateInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SimpleDocumentTemplateInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To)()
+  name.vb: MapEnums(Of SimpleDocumentTemplateInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SimpleDocumentTemplateInfo, To>
+    nameWithType: EnumUtil.MapEnums<SimpleDocumentTemplateInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SimpleDocumentTemplateInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SimpleDocumentTemplateInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SimpleDocumentTemplateInfo>(SimpleDocumentTemplateInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<SimpleDocumentTemplateInfo>(SimpleDocumentTemplateInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo>(SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SimpleDocumentTemplateInfo)(SimpleDocumentTemplateInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)(SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)
+  name.vb: AssignByReflection(Of SimpleDocumentTemplateInfo)(SimpleDocumentTemplateInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SimpleDocumentTemplateInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<SimpleDocumentTemplateInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+    name: SimpleDocumentTemplateInfo
+    nameWithType: SimpleDocumentTemplateInfo
+    fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SimpleDocumentTemplateInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SimpleDocumentTemplateInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+    name: SimpleDocumentTemplateInfo
+    nameWithType: SimpleDocumentTemplateInfo
+    fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SimpleDocumentTemplateInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<SimpleDocumentTemplateInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SimpleDocumentTemplateInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)()
+  name.vb: GraphCopy(Of SimpleDocumentTemplateInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SimpleDocumentTemplateInfo>
+    nameWithType: ObjectExtensions.GraphCopy<SimpleDocumentTemplateInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SimpleDocumentTemplateInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of SimpleDocumentTemplateInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SimpleDocumentTemplateInfo, To>()
+  nameWithType: Converters.MapEnums<SimpleDocumentTemplateInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SimpleDocumentTemplateInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To)()
+  name.vb: MapEnums(Of SimpleDocumentTemplateInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SimpleDocumentTemplateInfo, To>
+    nameWithType: Converters.MapEnums<SimpleDocumentTemplateInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SimpleDocumentTemplateInfo, To)
+    nameWithType: Converters.MapEnums(Of SimpleDocumentTemplateInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.#ctor
+  isExternal: true
+  name: SimpleDocumentTemplateInfo
+  nameWithType: SimpleDocumentTemplateInfo.SimpleDocumentTemplateInfo
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.SimpleDocumentTemplateInfo
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id
+  isExternal: true
+  name: Id
+  nameWithType: SimpleDocumentTemplateInfo.Id
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Id
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.Id
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.Id
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: Id
+  nameWithType: IDocumentTemplateInfo.Id
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: SimpleDocumentTemplateInfo.Name
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Name
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.Name
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.Name
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: Name
+  nameWithType: IDocumentTemplateInfo.Name
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SimpleDocumentTemplateInfo.Rank
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Rank
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.Rank
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.Rank
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: Rank
+  nameWithType: IDocumentTemplateInfo.Rank
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.Rank
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SimpleDocumentTemplateInfo.Tooltip
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Tooltip
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.Tooltip
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.Tooltip
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: Tooltip
+  nameWithType: IDocumentTemplateInfo.Tooltip
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.Tooltip
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: SimpleDocumentTemplateInfo.IsDeleted
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.IsDeleted
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.IsDeleted
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.IsDeleted
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: IsDeleted
+  nameWithType: IDocumentTemplateInfo.IsDeleted
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.IsDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference
+  isExternal: true
+  name: ExternalReference
+  nameWithType: SimpleDocumentTemplateInfo.ExternalReference
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.ExternalReference
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.ExternalReference
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.ExternalReference
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: ExternalReference
+  nameWithType: IDocumentTemplateInfo.ExternalReference
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.ExternalReference
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType
+  isExternal: true
+  name: MimeType
+  nameWithType: SimpleDocumentTemplateInfo.MimeType
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.MimeType
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.MimeType
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.MimeType
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: MimeType
+  nameWithType: IDocumentTemplateInfo.MimeType
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.MimeType
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: SimpleDocumentTemplateInfo.Registered
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Registered
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.Registered
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.Registered
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: Registered
+  nameWithType: IDocumentTemplateInfo.Registered
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: SimpleDocumentTemplateInfo.Updated
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.Updated
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.Updated
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.Updated
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: Updated
+  nameWithType: IDocumentTemplateInfo.Updated
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.Updated
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  isExternal: true
+  name: DocumentStoredInPluginId
+  nameWithType: SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.DocumentStoredInPluginId
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.DocumentStoredInPluginId
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.DocumentStoredInPluginId
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: DocumentStoredInPluginId
+  nameWithType: IDocumentTemplateInfo.DocumentStoredInPluginId
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.DocumentStoredInPluginId
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  isExternal: true
+  name: TemplateStoredInPluginId
+  nameWithType: SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.TemplateStoredInPluginId
+- uid: SuperOffice.CRM.IDocumentTemplateInfo.TemplateStoredInPluginId
+  commentId: P:SuperOffice.CRM.IDocumentTemplateInfo.TemplateStoredInPluginId
+  parent: SuperOffice.CRM.IDocumentTemplateInfo
+  isExternal: true
+  name: TemplateStoredInPluginId
+  nameWithType: IDocumentTemplateInfo.TemplateStoredInPluginId
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo.TemplateStoredInPluginId

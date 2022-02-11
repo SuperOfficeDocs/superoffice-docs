@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest
+  id: Sale_HasStakeholderSettingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId
+  langs:
+  - csharp
+  - vb
+  name: Sale_HasStakeholderSettingRequest
+  nameWithType: Sale_HasStakeholderSettingRequest
+  fullName: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_HasStakeholderSettingRequest : Object'
+    content.vb: >-
+      Public Class Sale_HasStakeholderSettingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_HasStakeholderSettingRequest()
+  nameWithType: Sale_HasStakeholderSettingRequest.Sale_HasStakeholderSettingRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.Sale_HasStakeholderSettingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_HasStakeholderSettingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Sale_HasStakeholderSettingRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.#ctor
+  isExternal: true
+  name: Sale_HasStakeholderSettingRequest
+  nameWithType: Sale_HasStakeholderSettingRequest.Sale_HasStakeholderSettingRequest
+  fullName: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.Sale_HasStakeholderSettingRequest
+- uid: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Sale_HasStakeholderSettingRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

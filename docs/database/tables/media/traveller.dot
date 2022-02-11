@@ -1,0 +1,14 @@
+digraph traveller  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+traveller[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+traveltransactionlog[fillcolor = "azure1"]
+traveller -> associate [headlabel = "travel_id"]
+traveller -> traveltransactionlog [headlabel = "last_recordnumber"]
+traveller -> traveltransactionlog [label = "last_playbacknumber"]
+traveller -> associate [label = "registered_associate_id"]
+traveller -> associate [label = "updated_associate_id"]
+activeuser -> traveller [label = "activeuser_id" style="dashed"]
+}

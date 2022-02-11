@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_GetPreferencesRequest
+  id: Preference_GetPreferencesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetPreferencesRequest
+  nameWithType: Preference_GetPreferencesRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_GetPreferencesRequest : Object'
+    content.vb: >-
+      Public Class Preference_GetPreferencesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetPreferencesRequest()
+  nameWithType: Preference_GetPreferencesRequest.Preference_GetPreferencesRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Preference_GetPreferencesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_GetPreferencesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications
+  id: Specifications
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest
+  langs:
+  - csharp
+  - vb
+  name: Specifications
+  nameWithType: Preference_GetPreferencesRequest.Specifications
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PreferenceSpec[] Specifications { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PreferenceSpec[]
+    content.vb: Public Property Specifications As PreferenceSpec()
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.#ctor
+  isExternal: true
+  name: Preference_GetPreferencesRequest
+  nameWithType: Preference_GetPreferencesRequest.Preference_GetPreferencesRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Preference_GetPreferencesRequest
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications
+  isExternal: true
+  name: Specifications
+  nameWithType: Preference_GetPreferencesRequest.Specifications
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferencesRequest.Specifications
+- uid: SuperOffice.WebApi.Data.PreferenceSpec[]
+  isExternal: true
+  name: PreferenceSpec[]
+  nameWithType: PreferenceSpec[]
+  fullName: SuperOffice.WebApi.Data.PreferenceSpec[]
+  nameWithType.vb: PreferenceSpec()
+  fullName.vb: SuperOffice.WebApi.Data.PreferenceSpec()
+  name.vb: PreferenceSpec()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

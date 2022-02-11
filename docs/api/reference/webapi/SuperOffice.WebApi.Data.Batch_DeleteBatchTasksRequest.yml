@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest
+  commentId: T:SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest
+  id: Batch_DeleteBatchTasksRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.#ctor
+  - SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds
+  langs:
+  - csharp
+  - vb
+  name: Batch_DeleteBatchTasksRequest
+  nameWithType: Batch_DeleteBatchTasksRequest
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Batch_DeleteBatchTasksRequest : Object'
+    content.vb: >-
+      Public Class Batch_DeleteBatchTasksRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: Batch_DeleteBatchTasksRequest()
+  nameWithType: Batch_DeleteBatchTasksRequest.Batch_DeleteBatchTasksRequest()
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.Batch_DeleteBatchTasksRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Batch_DeleteBatchTasksRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds
+  commentId: P:SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds
+  id: BatchTaskIds
+  parent: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskIds
+  nameWithType: Batch_DeleteBatchTasksRequest.BatchTaskIds
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] BatchTaskIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property BatchTaskIds As Integer()
+  overload: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.#ctor
+  isExternal: true
+  name: Batch_DeleteBatchTasksRequest
+  nameWithType: Batch_DeleteBatchTasksRequest.Batch_DeleteBatchTasksRequest
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.Batch_DeleteBatchTasksRequest
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds
+  isExternal: true
+  name: BatchTaskIds
+  nameWithType: Batch_DeleteBatchTasksRequest.BatchTaskIds
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTasksRequest.BatchTaskIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

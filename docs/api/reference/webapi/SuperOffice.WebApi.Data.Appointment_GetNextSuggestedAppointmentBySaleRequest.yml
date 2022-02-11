@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  id: Appointment_GetNextSuggestedAppointmentBySaleRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  - SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  - SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetNextSuggestedAppointmentBySaleRequest
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetNextSuggestedAppointmentBySaleRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetNextSuggestedAppointmentBySaleRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetNextSuggestedAppointmentBySaleRequest()
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.Appointment_GetNextSuggestedAppointmentBySaleRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.Appointment_GetNextSuggestedAppointmentBySaleRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetNextSuggestedAppointmentBySaleRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  id: CurrentAppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  langs:
+  - csharp
+  - vb
+  name: CurrentAppointmentId
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CurrentAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentAppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  id: SkipCompleteCheck
+  parent: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  langs:
+  - csharp
+  - vb
+  name: SkipCompleteCheck
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SkipCompleteCheck { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SkipCompleteCheck As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.#ctor
+  isExternal: true
+  name: Appointment_GetNextSuggestedAppointmentBySaleRequest
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.Appointment_GetNextSuggestedAppointmentBySaleRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.Appointment_GetNextSuggestedAppointmentBySaleRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  isExternal: true
+  name: CurrentAppointmentId
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.CurrentAppointmentId
+- uid: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  isExternal: true
+  name: SkipCompleteCheck
+  nameWithType: Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+  fullName: SuperOffice.WebApi.Data.Appointment_GetNextSuggestedAppointmentBySaleRequest.SkipCompleteCheck
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

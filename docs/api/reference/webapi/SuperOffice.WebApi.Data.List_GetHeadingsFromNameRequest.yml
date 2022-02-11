@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest
+  id: List_GetHeadingsFromNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: List_GetHeadingsFromNameRequest
+  nameWithType: List_GetHeadingsFromNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetHeadingsFromNameRequest : Object'
+    content.vb: >-
+      Public Class List_GetHeadingsFromNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetHeadingsFromNameRequest()
+  nameWithType: List_GetHeadingsFromNameRequest.List_GetHeadingsFromNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.List_GetHeadingsFromNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetHeadingsFromNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: List_GetHeadingsFromNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.#ctor
+  isExternal: true
+  name: List_GetHeadingsFromNameRequest
+  nameWithType: List_GetHeadingsFromNameRequest.List_GetHeadingsFromNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.List_GetHeadingsFromNameRequest
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: List_GetHeadingsFromNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsFromNameRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

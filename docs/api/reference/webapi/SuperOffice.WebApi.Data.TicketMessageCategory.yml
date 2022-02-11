@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketMessageCategory
+  commentId: T:SuperOffice.WebApi.Data.TicketMessageCategory
+  id: TicketMessageCategory
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketMessageCategory.Bounce
+  - SuperOffice.WebApi.Data.TicketMessageCategory.Message
+  - SuperOffice.WebApi.Data.TicketMessageCategory.OutboxFailed
+  - SuperOffice.WebApi.Data.TicketMessageCategory.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: SuperOffice.WebApi.Data.TicketMessageCategory
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nClassification of ticket messages\nThis Enum is used by:  ej_message.message_category\n"
+  syntax:
+    content: 'public sealed class TicketMessageCategory : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketMessageCategory
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketMessageCategory.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketMessageCategory.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketMessageCategory
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketMessageCategory.value__
+  fullName: SuperOffice.WebApi.Data.TicketMessageCategory.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageCategory.Message
+  commentId: F:SuperOffice.WebApi.Data.TicketMessageCategory.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.TicketMessageCategory
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TicketMessageCategory.Message
+  fullName: SuperOffice.WebApi.Data.TicketMessageCategory.Message
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: A normal message\n"
+  syntax:
+    content: public const TicketMessageCategory Message
+    return:
+      type: SuperOffice.WebApi.Data.TicketMessageCategory
+    content.vb: Public Const Message As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketMessageCategory.Bounce
+  commentId: F:SuperOffice.WebApi.Data.TicketMessageCategory.Bounce
+  id: Bounce
+  parent: SuperOffice.WebApi.Data.TicketMessageCategory
+  langs:
+  - csharp
+  - vb
+  name: Bounce
+  nameWithType: TicketMessageCategory.Bounce
+  fullName: SuperOffice.WebApi.Data.TicketMessageCategory.Bounce
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Email bounce\n"
+  syntax:
+    content: public const TicketMessageCategory Bounce
+    return:
+      type: SuperOffice.WebApi.Data.TicketMessageCategory
+    content.vb: Public Const Bounce As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketMessageCategory.OutboxFailed
+  commentId: F:SuperOffice.WebApi.Data.TicketMessageCategory.OutboxFailed
+  id: OutboxFailed
+  parent: SuperOffice.WebApi.Data.TicketMessageCategory
+  langs:
+  - csharp
+  - vb
+  name: OutboxFailed
+  nameWithType: TicketMessageCategory.OutboxFailed
+  fullName: SuperOffice.WebApi.Data.TicketMessageCategory.OutboxFailed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: This message is the error message returned by the sending system (for example a mail server)\n"
+  syntax:
+    content: public const TicketMessageCategory OutboxFailed
+    return:
+      type: SuperOffice.WebApi.Data.TicketMessageCategory
+    content.vb: Public Const OutboxFailed As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketMessageCategory
+  commentId: T:SuperOffice.WebApi.Data.TicketMessageCategory
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: SuperOffice.WebApi.Data.TicketMessageCategory

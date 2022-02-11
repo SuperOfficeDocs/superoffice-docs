@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetListDefinitionsRequest
+  id: List_GetListDefinitionsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: List_GetListDefinitionsRequest
+  nameWithType: List_GetListDefinitionsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetListDefinitionsRequest : Object'
+    content.vb: >-
+      Public Class List_GetListDefinitionsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetListDefinitionsRequest()
+  nameWithType: List_GetListDefinitionsRequest.List_GetListDefinitionsRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.List_GetListDefinitionsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetListDefinitionsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetListDefinitionsRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.#ctor
+  isExternal: true
+  name: List_GetListDefinitionsRequest
+  nameWithType: List_GetListDefinitionsRequest.List_GetListDefinitionsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.List_GetListDefinitionsRequest
+- uid: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetListDefinitionsRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetListDefinitionsRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

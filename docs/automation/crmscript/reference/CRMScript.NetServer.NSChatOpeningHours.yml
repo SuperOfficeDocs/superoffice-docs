@@ -1,0 +1,1029 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatOpeningHours
+  commentId: T:CRMScript.NetServer.NSChatOpeningHours
+  id: NSChatOpeningHours
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatOpeningHours.#ctor
+  - CRMScript.NetServer.NSChatOpeningHours.GetFriEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetFriStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetFriStop()
+  - CRMScript.NetServer.NSChatOpeningHours.GetMonEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetMonStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetMonStop()
+  - CRMScript.NetServer.NSChatOpeningHours.GetSatEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetSatStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetSatStop()
+  - CRMScript.NetServer.NSChatOpeningHours.GetSunEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetSunStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetSunStop()
+  - CRMScript.NetServer.NSChatOpeningHours.GetThuEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetThuStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetThuStop()
+  - CRMScript.NetServer.NSChatOpeningHours.GetTueEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetTueStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetTueStop()
+  - CRMScript.NetServer.NSChatOpeningHours.GetTzLocation()
+  - CRMScript.NetServer.NSChatOpeningHours.GetWedEnabled()
+  - CRMScript.NetServer.NSChatOpeningHours.GetWedStart()
+  - CRMScript.NetServer.NSChatOpeningHours.GetWedStop()
+  - CRMScript.NetServer.NSChatOpeningHours.SetFriEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetFriStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetFriStop(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetMonEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetMonStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetMonStop(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetSatEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetSatStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetSatStop(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetSunEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetSunStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetSunStop(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetThuEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetThuStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetThuStop(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetTueEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetTueStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetTueStop(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetTzLocation(NSTimeZoneData)
+  - CRMScript.NetServer.NSChatOpeningHours.SetWedEnabled(Bool)
+  - CRMScript.NetServer.NSChatOpeningHours.SetWedStart(TimeSpan)
+  - CRMScript.NetServer.NSChatOpeningHours.SetWedStop(TimeSpan)
+  name: NSChatOpeningHours
+  nameWithType: NSChatOpeningHours
+  fullName: CRMScript.NetServer.NSChatOpeningHours
+  type: Class
+  summary: "\nChat topic opening hour. Carrier object for ChatOpeningHours.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatOpeningHours.#ctor
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatOpeningHours
+  langs:
+  - crmscript
+  name: NSChatOpeningHours()
+  nameWithType: NSChatOpeningHours.#ctor
+  fullName: CRMScript.NetServer.NSChatOpeningHours.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatOpeningHours class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatOpeningHours
+  example: 
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetFriEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetFriEnabled()
+  id: 'GetFriEnabled()'
+  so.intellisense: NSChatOpeningHours.GetFriEnabled
+  langs:
+  - crmscript
+  name: 'GetFriEnabled()'
+  nameWithType: NSChatOpeningHours.GetFriEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetFriEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetFriEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Fridays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool friEnabled = thing.GetFriEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetFriStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetFriStart()
+  id: 'GetFriStart()'
+  so.intellisense: NSChatOpeningHours.GetFriStart
+  langs:
+  - crmscript
+  name: 'GetFriStart()'
+  nameWithType: NSChatOpeningHours.GetFriStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetFriStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetFriStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Fridays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan friStart = thing.GetFriStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetFriStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetFriStop()
+  id: 'GetFriStop()'
+  so.intellisense: NSChatOpeningHours.GetFriStop
+  langs:
+  - crmscript
+  name: 'GetFriStop()'
+  nameWithType: NSChatOpeningHours.GetFriStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetFriStop()
+  type: Method
+  summary: "\n"
+  remarks: 
+  syntax: 
+    content: TimeSpan GetFriStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Fridays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan friStop = thing.GetFriStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetMonEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetMonEnabled()
+  id: 'GetMonEnabled()'
+  so.intellisense: NSChatOpeningHours.GetMonEnabled
+  langs:
+  - crmscript
+  name: 'GetMonEnabled()'
+  nameWithType: NSChatOpeningHours.GetMonEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetMonEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetMonEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Mondays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool monEnabled = thing.GetMonEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetMonStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetMonStart()
+  id: 'GetMonStart()'
+  so.intellisense: NSChatOpeningHours.GetMonStart
+  langs:
+  - crmscript
+  name: 'GetMonStart()'
+  nameWithType: NSChatOpeningHours.GetMonStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetMonStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetMonStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Mondays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan monStart = thing.GetMonStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetMonStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetMonStop()
+  id: 'GetMonStop()'
+  so.intellisense: NSChatOpeningHours.GetMonStop
+  langs:
+  - crmscript
+  name: 'GetMonStop()'
+  nameWithType: NSChatOpeningHours.GetMonStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetMonStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetMonStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Mondays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan monStop = thing.GetMonStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetSatEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetSatEnabled()
+  id: 'GetSatEnabled()'
+  so.intellisense: NSChatOpeningHours.GetSatEnabled
+  langs:
+  - crmscript
+  name: 'GetSatEnabled()'
+  nameWithType: NSChatOpeningHours.GetSatEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetSatEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSatEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Saturdays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool satEnabled = thing.GetSatEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetSatStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetSatStart()
+  id: 'GetSatStart()'
+  so.intellisense: NSChatOpeningHours.GetSatStart
+  langs:
+  - crmscript
+  name: 'GetSatStart()'
+  nameWithType: NSChatOpeningHours.GetSatStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetSatStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetSatStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Saturdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan satStart = thing.GetSatStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetSatStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetSatStop()
+  id: 'GetSatStop()'
+  so.intellisense: NSChatOpeningHours.GetSatStop
+  langs:
+  - crmscript
+  name: 'GetSatStop()'
+  nameWithType: NSChatOpeningHours.GetSatStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetSatStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetSatStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Saturdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan satStop = thing.GetSatStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetSunEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetSunEnabled()
+  id: 'GetSunEnabled()'
+  so.intellisense: NSChatOpeningHours.GetSunEnabled
+  langs:
+  - crmscript
+  name: 'GetSunEnabled()'
+  nameWithType: NSChatOpeningHours.GetSunEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetSunEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSunEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Sundays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool sunEnabled = thing.GetSunEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetSunStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetSunStart()
+  id: 'GetSunStart()'
+  so.intellisense: NSChatOpeningHours.GetSunStart
+  langs:
+  - crmscript
+  name: 'GetSunStart()'
+  nameWithType: NSChatOpeningHours.GetSunStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetSunStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetSunStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Sundays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan sunStart = thing.GetSunStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetSunStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetSunStop()
+  id: 'GetSunStop()'
+  so.intellisense: NSChatOpeningHours.GetSunStop
+  langs:
+  - crmscript
+  name: 'GetSunStop()'
+  nameWithType: NSChatOpeningHours.GetSunStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetSunStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetSunStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Sundays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan sunStop = thing.GetSunStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetThuEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetThuEnabled()
+  id: 'GetThuEnabled()'
+  so.intellisense: NSChatOpeningHours.GetThuEnabled
+  langs:
+  - crmscript
+  name: 'GetThuEnabled()'
+  nameWithType: NSChatOpeningHours.GetThuEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetThuEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetThuEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Thursdays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool thuEnabled = thing.GetThuEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetThuStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetThuStart()
+  id: 'GetThuStart()'
+  so.intellisense: NSChatOpeningHours.GetThuStart
+  langs:
+  - crmscript
+  name: 'GetThuStart()'
+  nameWithType: NSChatOpeningHours.GetThuStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetThuStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetThuStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Thursdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan thuStart = thing.GetThuStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetThuStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetThuStop()
+  id: 'GetThuStop()'
+  so.intellisense: NSChatOpeningHours.GetThuStop
+  langs:
+  - crmscript
+  name: 'GetThuStop()'
+  nameWithType: NSChatOpeningHours.GetThuStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetThuStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetThuStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Thursdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan thuStop = thing.GetThuStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetTueEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetTueEnabled()
+  id: 'GetTueEnabled()'
+  so.intellisense: NSChatOpeningHours.GetTueEnabled
+  langs:
+  - crmscript
+  name: 'GetTueEnabled()'
+  nameWithType: NSChatOpeningHours.GetTueEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetTueEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetTueEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Tuesdays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool tueEnabled = thing.GetTueEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetTueStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetTueStart()
+  id: 'GetTueStart()'
+  so.intellisense: NSChatOpeningHours.GetTueStart
+  langs:
+  - crmscript
+  name: 'GetTueStart()'
+  nameWithType: NSChatOpeningHours.GetTueStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetTueStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetTueStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Tuesdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan tueStart = thing.GetTueStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetTueStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetTueStop()
+  id: 'GetTueStop()'
+  so.intellisense: NSChatOpeningHours.GetTueStop
+  langs:
+  - crmscript
+  name: 'GetTueStop()'
+  nameWithType: NSChatOpeningHours.GetTueStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetTueStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetTueStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Tuesdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan tueStop = thing.GetTueStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetTzLocation()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetTzLocation()
+  id: 'GetTzLocation()'
+  so.intellisense: NSChatOpeningHours.GetTzLocation
+  langs:
+  - crmscript
+  name: 'GetTzLocation()'
+  nameWithType: NSChatOpeningHours.GetTzLocation()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetTzLocation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTimeZoneData GetTzLocation()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTimeZoneData
+      description: "Time zone used for the opening hours (start/stop times) for this topic."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nNSTimeZoneData tzLocation = thing.GetTzLocation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetWedEnabled()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetWedEnabled()
+  id: 'GetWedEnabled()'
+  so.intellisense: NSChatOpeningHours.GetWedEnabled
+  langs:
+  - crmscript
+  name: 'GetWedEnabled()'
+  nameWithType: NSChatOpeningHours.GetWedEnabled()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetWedEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetWedEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether open on Wednesdays."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool wedEnabled = thing.GetWedEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetWedStart()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetWedStart()
+  id: 'GetWedStart()'
+  so.intellisense: NSChatOpeningHours.GetWedStart
+  langs:
+  - crmscript
+  name: 'GetWedStart()'
+  nameWithType: NSChatOpeningHours.GetWedStart()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetWedStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetWedStart()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Wednesdays. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan wedStart = thing.GetWedStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.GetWedStop()
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.GetWedStop()
+  id: 'GetWedStop()'
+  so.intellisense: NSChatOpeningHours.GetWedStop
+  langs:
+  - crmscript
+  name: 'GetWedStop()'
+  nameWithType: NSChatOpeningHours.GetWedStop()
+  fullName: CRMScript.NetServer.NSChatOpeningHours.GetWedStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetWedStop()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Wednesday. Only time-part is used."
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan wedStop = thing.GetWedStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetFriEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetFriEnabled(Bool)
+  id: 'SetFriEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetFriEnabled
+  langs:
+  - crmscript
+  name: 'SetFriEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetFriEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetFriEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFriEnabled(Bool friEnabled)
+    parameters:
+    - id: friEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Fridays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool friEnabled;\nthing.SetFriEnabled(friEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetFriStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetFriStart(TimeSpan)
+  id: 'SetFriStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetFriStart
+  langs:
+  - crmscript
+  name: 'SetFriStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetFriStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetFriStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFriStart(TimeSpan friStart)
+    parameters:
+    - id: friStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Fridays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan friStart;\nthing.SetFriStart(friStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetFriStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetFriStop(TimeSpan)
+  id: 'SetFriStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetFriStop
+  langs:
+  - crmscript
+  name: 'SetFriStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetFriStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetFriStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFriStop(TimeSpan friStop)
+    parameters:
+    - id: friStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Fridays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan friStop;\nthing.SetFriStop(friStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetMonEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetMonEnabled(Bool)
+  id: 'SetMonEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetMonEnabled
+  langs:
+  - crmscript
+  name: 'SetMonEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetMonEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetMonEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMonEnabled(Bool monEnabled)
+    parameters:
+    - id: monEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Mondays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool monEnabled;\nthing.SetMonEnabled(monEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetMonStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetMonStart(TimeSpan)
+  id: 'SetMonStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetMonStart
+  langs:
+  - crmscript
+  name: 'SetMonStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetMonStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetMonStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMonStart(TimeSpan monStart)
+    parameters:
+    - id: monStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Mondays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan monStart;\nthing.SetMonStart(monStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetMonStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetMonStop(TimeSpan)
+  id: 'SetMonStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetMonStop
+  langs:
+  - crmscript
+  name: 'SetMonStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetMonStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetMonStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMonStop(TimeSpan monStop)
+    parameters:
+    - id: monStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Mondays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan monStop;\nthing.SetMonStop(monStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetSatEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetSatEnabled(Bool)
+  id: 'SetSatEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetSatEnabled
+  langs:
+  - crmscript
+  name: 'SetSatEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetSatEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetSatEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatEnabled(Bool satEnabled)
+    parameters:
+    - id: satEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Saturdays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool satEnabled;\nthing.SetSatEnabled(satEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetSatStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetSatStart(TimeSpan)
+  id: 'SetSatStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetSatStart
+  langs:
+  - crmscript
+  name: 'SetSatStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetSatStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetSatStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatStart(TimeSpan satStart)
+    parameters:
+    - id: satStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Saturdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan satStart;\nthing.SetSatStart(satStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetSatStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetSatStop(TimeSpan)
+  id: 'SetSatStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetSatStop
+  langs:
+  - crmscript
+  name: 'SetSatStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetSatStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetSatStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatStop(TimeSpan satStop)
+    parameters:
+    - id: satStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Saturdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan satStop;\nthing.SetSatStop(satStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetSunEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetSunEnabled(Bool)
+  id: 'SetSunEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetSunEnabled
+  langs:
+  - crmscript
+  name: 'SetSunEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetSunEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetSunEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSunEnabled(Bool sunEnabled)
+    parameters:
+    - id: sunEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Sundays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool sunEnabled;\nthing.SetSunEnabled(sunEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetSunStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetSunStart(TimeSpan)
+  id: 'SetSunStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetSunStart
+  langs:
+  - crmscript
+  name: 'SetSunStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetSunStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetSunStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSunStart(TimeSpan sunStart)
+    parameters:
+    - id: sunStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Sundays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan sunStart;\nthing.SetSunStart(sunStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetSunStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetSunStop(TimeSpan)
+  id: 'SetSunStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetSunStop
+  langs:
+  - crmscript
+  name: 'SetSunStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetSunStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetSunStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSunStop(TimeSpan sunStop)
+    parameters:
+    - id: sunStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Sundays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan sunStop;\nthing.SetSunStop(sunStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetThuEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetThuEnabled(Bool)
+  id: 'SetThuEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetThuEnabled
+  langs:
+  - crmscript
+  name: 'SetThuEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetThuEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetThuEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThuEnabled(Bool thuEnabled)
+    parameters:
+    - id: thuEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Thursdays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool thuEnabled;\nthing.SetThuEnabled(thuEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetThuStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetThuStart(TimeSpan)
+  id: 'SetThuStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetThuStart
+  langs:
+  - crmscript
+  name: 'SetThuStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetThuStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetThuStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThuStart(TimeSpan thuStart)
+    parameters:
+    - id: thuStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Thursdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan thuStart;\nthing.SetThuStart(thuStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetThuStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetThuStop(TimeSpan)
+  id: 'SetThuStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetThuStop
+  langs:
+  - crmscript
+  name: 'SetThuStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetThuStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetThuStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThuStop(TimeSpan thuStop)
+    parameters:
+    - id: thuStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Thursdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan thuStop;\nthing.SetThuStop(thuStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetTueEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetTueEnabled(Bool)
+  id: 'SetTueEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetTueEnabled
+  langs:
+  - crmscript
+  name: 'SetTueEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetTueEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetTueEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTueEnabled(Bool tueEnabled)
+    parameters:
+    - id: tueEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Tuesdays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool tueEnabled;\nthing.SetTueEnabled(tueEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetTueStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetTueStart(TimeSpan)
+  id: 'SetTueStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetTueStart
+  langs:
+  - crmscript
+  name: 'SetTueStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetTueStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetTueStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTueStart(TimeSpan tueStart)
+    parameters:
+    - id: tueStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Tuesdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan tueStart;\nthing.SetTueStart(tueStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetTueStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetTueStop(TimeSpan)
+  id: 'SetTueStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetTueStop
+  langs:
+  - crmscript
+  name: 'SetTueStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetTueStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetTueStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTueStop(TimeSpan tueStop)
+    parameters:
+    - id: tueStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Tuesdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan tueStop;\nthing.SetTueStop(tueStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetTzLocation(NSTimeZoneData)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetTzLocation(NSTimeZoneData)
+  id: 'SetTzLocation(NSTimeZoneData)'
+  so.intellisense: NSChatOpeningHours.SetTzLocation
+  langs:
+  - crmscript
+  name: 'SetTzLocation(NSTimeZoneData)'
+  nameWithType: NSChatOpeningHours.SetTzLocation(NSTimeZoneData)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetTzLocation(NSTimeZoneData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTzLocation(NSTimeZoneData tzLocation)
+    parameters:
+    - id: tzLocation
+      type: CRMScript.NetServer.NSTimeZoneData
+      description: "Timezone used for the opening hours (start/stop times) for this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nNSTimeZoneData tzLocation;\nthing.SetTzLocation(tzLocation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetWedEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetWedEnabled(Bool)
+  id: 'SetWedEnabled(Bool)'
+  so.intellisense: NSChatOpeningHours.SetWedEnabled
+  langs:
+  - crmscript
+  name: 'SetWedEnabled(Bool)'
+  nameWithType: NSChatOpeningHours.SetWedEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetWedEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWedEnabled(Bool wedEnabled)
+    parameters:
+    - id: wedEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether open on Wednesdays."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nBool wedEnabled;\nthing.SetWedEnabled(wedEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetWedStart(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetWedStart(TimeSpan)
+  id: 'SetWedStart(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetWedStart
+  langs:
+  - crmscript
+  name: 'SetWedStart(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetWedStart(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetWedStart(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWedStart(TimeSpan wedStart)
+    parameters:
+    - id: wedStart
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours start on Wednesdays. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan wedStart;\nthing.SetWedStart(wedStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatOpeningHours.SetWedStop(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSChatOpeningHours.SetWedStop(TimeSpan)
+  id: 'SetWedStop(TimeSpan)'
+  so.intellisense: NSChatOpeningHours.SetWedStop
+  langs:
+  - crmscript
+  name: 'SetWedStop(TimeSpan)'
+  nameWithType: NSChatOpeningHours.SetWedStop(TimeSpan)
+  fullName: CRMScript.NetServer.NSChatOpeningHours.SetWedStop(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWedStop(TimeSpan wedStop)
+    parameters:
+    - id: wedStop
+      type: CRMScript.Native.TimeSpan
+      description: "When opening hours stop on Wednesday. Only time-part is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatOpeningHours thing;\nTimeSpan wedStop;\nthing.SetWedStop(wedStop);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatOpeningHours
+  commentId: T:CRMScript.NetServer.NSChatOpeningHours
+  isExternal: true
+  name: NSChatOpeningHours
+  nameWithType: NSChatOpeningHours
+  fullName: CRMScript.NetServer.NSChatOpeningHours
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.TimeSpan
+  commentId: T:CRMScript.Native.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: CRMScript.Native.TimeSpan
+- uid: CRMScript.NetServer.NSTimeZoneData
+  commentId: T:CRMScript.NetServer.NSTimeZoneData
+  isExternal: true
+  name: NSTimeZoneData
+  nameWithType: NSTimeZoneData
+  fullName: CRMScript.NetServer.NSTimeZoneData
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

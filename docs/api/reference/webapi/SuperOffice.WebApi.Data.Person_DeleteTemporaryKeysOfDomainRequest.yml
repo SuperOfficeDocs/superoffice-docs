@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
+  id: Person_DeleteTemporaryKeysOfDomainRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  - SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_DeleteTemporaryKeysOfDomainRequest
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_DeleteTemporaryKeysOfDomainRequest : Object'
+    content.vb: >-
+      Public Class Person_DeleteTemporaryKeysOfDomainRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_DeleteTemporaryKeysOfDomainRequest()
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest.Person_DeleteTemporaryKeysOfDomainRequest()
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Person_DeleteTemporaryKeysOfDomainRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_DeleteTemporaryKeysOfDomainRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  commentId: P:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TemporaryKeyDomain Domain { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    content.vb: Public Property Domain As TemporaryKeyDomain
+  overload: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.#ctor
+  isExternal: true
+  name: Person_DeleteTemporaryKeysOfDomainRequest
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest.Person_DeleteTemporaryKeysOfDomainRequest
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Person_DeleteTemporaryKeysOfDomainRequest
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest.Domain
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.Domain
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  commentId: T:SuperOffice.WebApi.Data.TemporaryKeyDomain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain
+- uid: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_DeleteTemporaryKeysOfDomainRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

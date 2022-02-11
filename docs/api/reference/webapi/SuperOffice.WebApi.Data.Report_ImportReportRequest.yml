@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Report_ImportReportRequest
+  commentId: T:SuperOffice.WebApi.Data.Report_ImportReportRequest
+  id: Report_ImportReportRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Report_ImportReportRequest.#ctor
+  - SuperOffice.WebApi.Data.Report_ImportReportRequest.Report
+  langs:
+  - csharp
+  - vb
+  name: Report_ImportReportRequest
+  nameWithType: Report_ImportReportRequest
+  fullName: SuperOffice.WebApi.Data.Report_ImportReportRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Report_ImportReportRequest : Object'
+    content.vb: >-
+      Public Class Report_ImportReportRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Report_ImportReportRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Report_ImportReportRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Report_ImportReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Report_ImportReportRequest()
+  nameWithType: Report_ImportReportRequest.Report_ImportReportRequest()
+  fullName: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report_ImportReportRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Report_ImportReportRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Report_ImportReportRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report
+  commentId: P:SuperOffice.WebApi.Data.Report_ImportReportRequest.Report
+  id: Report
+  parent: SuperOffice.WebApi.Data.Report_ImportReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: Report_ImportReportRequest.Report
+  fullName: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Report { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Report As String
+  overload: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Report_ImportReportRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_ImportReportRequest.#ctor
+  isExternal: true
+  name: Report_ImportReportRequest
+  nameWithType: Report_ImportReportRequest.Report_ImportReportRequest
+  fullName: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report_ImportReportRequest
+- uid: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_ImportReportRequest.Report
+  isExternal: true
+  name: Report
+  nameWithType: Report_ImportReportRequest.Report
+  fullName: SuperOffice.WebApi.Data.Report_ImportReportRequest.Report
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  id: DragDropType
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Appointment
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Custom
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Mail
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.None
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Task
+  langs:
+  - csharp
+  - vb
+  name: DragDropType
+  nameWithType: DragDropType
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public enum DragDropType
+    content.vb: Public Enum DragDropType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.None
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.None
+  id: None
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DragDropType.None
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.None
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Appointment
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: DragDropType.Appointment
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Appointment
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Appointment = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Task
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Task
+  id: Task
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: DragDropType.Task
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Task
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Task = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Mail
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Mail
+  id: Mail
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  langs:
+  - csharp
+  - vb
+  name: Mail
+  nameWithType: DragDropType.Mail
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Mail
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Mail = 4
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Custom
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Custom
+  id: Custom
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: DragDropType.Custom
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType.Custom
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: Custom = 128
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: DragDropType
+  nameWithType: DragDropType
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType

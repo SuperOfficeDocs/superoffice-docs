@@ -1,0 +1,911 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.AccessGateway
+  commentId: T:SuperOffice.Util.AccessGateway
+  id: AccessGateway
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.AccessGateway.DecryptTokens(System.String@,System.String@,System.String)
+  - SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow(SuperOffice.CRM.Rows.ServiceAuthRow)
+  - SuperOffice.Util.AccessGateway.GenerateKey(System.Int32)
+  - SuperOffice.Util.AccessGateway.GenerateStreamFromString(System.String)
+  - SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken
+  - SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId(System.Int32)
+  - SuperOffice.Util.AccessGateway.GetTokensFromDb(System.String)
+  - SuperOffice.Util.AccessGateway.IsUriRegistered(System.String)
+  - SuperOffice.Util.AccessGateway.RefreshTokens(System.String@,System.String@,System.String)
+  - SuperOffice.Util.AccessGateway.RegisterNewUri(System.String)
+  - SuperOffice.Util.AccessGateway.ResolvePassword(System.String,System.Boolean)
+  - SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri(System.String)
+  - SuperOffice.Util.AccessGateway.SaveTokensToDb(SuperOffice.Util.AccessGateway.TokenManagementInfo,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AccessGateway
+  nameWithType: AccessGateway
+  fullName: SuperOffice.Util.AccessGateway
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class AccessGateway
+    content.vb: Public Module AccessGateway
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri(System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri(System.String)
+  id: SaveRegisteredRedirectUri(System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: SaveRegisteredRedirectUri(String)
+  nameWithType: AccessGateway.SaveRegisteredRedirectUri(String)
+  fullName: SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SaveRegisteredRedirectUri(string uri)
+    parameters:
+    - id: uri
+      type: System.String
+    content.vb: Public Shared Sub SaveRegisteredRedirectUri(uri As String)
+  overload: SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.IsUriRegistered(System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.IsUriRegistered(System.String)
+  id: IsUriRegistered(System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: IsUriRegistered(String)
+  nameWithType: AccessGateway.IsUriRegistered(String)
+  fullName: SuperOffice.Util.AccessGateway.IsUriRegistered(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool IsUriRegistered(string uri)
+    parameters:
+    - id: uri
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUriRegistered(uri As String) As Boolean
+  overload: SuperOffice.Util.AccessGateway.IsUriRegistered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.RegisterNewUri(System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.RegisterNewUri(System.String)
+  id: RegisterNewUri(System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: RegisterNewUri(String)
+  nameWithType: AccessGateway.RegisterNewUri(String)
+  fullName: SuperOffice.Util.AccessGateway.RegisterNewUri(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void RegisterNewUri(string uri)
+    parameters:
+    - id: uri
+      type: System.String
+    content.vb: Public Shared Sub RegisterNewUri(uri As String)
+  overload: SuperOffice.Util.AccessGateway.RegisterNewUri*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.ResolvePassword(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.AccessGateway.ResolvePassword(System.String,System.Boolean)
+  id: ResolvePassword(System.String,System.Boolean)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: ResolvePassword(String, Boolean)
+  nameWithType: AccessGateway.ResolvePassword(String, Boolean)
+  fullName: SuperOffice.Util.AccessGateway.ResolvePassword(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string ResolvePassword(string password, bool forceRenew = false)
+    parameters:
+    - id: password
+      type: System.String
+    - id: forceRenew
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function ResolvePassword(password As String, forceRenew As Boolean = False) As String
+  overload: SuperOffice.Util.AccessGateway.ResolvePassword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.RefreshTokens(System.String@,System.String@,System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.RefreshTokens(System.String@,System.String@,System.String)
+  id: RefreshTokens(System.String@,System.String@,System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: RefreshTokens(ref String, ref String, String)
+  nameWithType: AccessGateway.RefreshTokens(ref String, ref String, String)
+  fullName: SuperOffice.Util.AccessGateway.RefreshTokens(ref System.String, ref System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool RefreshTokens(ref string accessToken, ref string refreshToken, string provider)
+    parameters:
+    - id: accessToken
+      type: System.String
+    - id: refreshToken
+      type: System.String
+    - id: provider
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function RefreshTokens(ByRef accessToken As String, ByRef refreshToken As String, provider As String) As Boolean
+  overload: SuperOffice.Util.AccessGateway.RefreshTokens*
+  nameWithType.vb: AccessGateway.RefreshTokens(ByRef String, ByRef String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.AccessGateway.RefreshTokens(ByRef System.String, ByRef System.String, System.String)
+  name.vb: RefreshTokens(ByRef String, ByRef String, String)
+- uid: SuperOffice.Util.AccessGateway.DecryptTokens(System.String@,System.String@,System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.DecryptTokens(System.String@,System.String@,System.String)
+  id: DecryptTokens(System.String@,System.String@,System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: DecryptTokens(ref String, ref String, String)
+  nameWithType: AccessGateway.DecryptTokens(ref String, ref String, String)
+  fullName: SuperOffice.Util.AccessGateway.DecryptTokens(ref System.String, ref System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool DecryptTokens(ref string accessToken, ref string refreshToken, string provider)
+    parameters:
+    - id: accessToken
+      type: System.String
+    - id: refreshToken
+      type: System.String
+    - id: provider
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function DecryptTokens(ByRef accessToken As String, ByRef refreshToken As String, provider As String) As Boolean
+  overload: SuperOffice.Util.AccessGateway.DecryptTokens*
+  nameWithType.vb: AccessGateway.DecryptTokens(ByRef String, ByRef String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.AccessGateway.DecryptTokens(ByRef System.String, ByRef System.String, System.String)
+  name.vb: DecryptTokens(ByRef String, ByRef String, String)
+- uid: SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken
+  commentId: M:SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken
+  id: GetAccessGatewayAccessToken
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: GetAccessGatewayAccessToken()
+  nameWithType: AccessGateway.GetAccessGatewayAccessToken()
+  fullName: SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetAccessGatewayAccessToken()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAccessGatewayAccessToken As String
+  overload: SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.GetTokensFromDb(System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.GetTokensFromDb(System.String)
+  id: GetTokensFromDb(System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: GetTokensFromDb(String)
+  nameWithType: AccessGateway.GetTokensFromDb(String)
+  fullName: SuperOffice.Util.AccessGateway.GetTokensFromDb(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static AccessGateway.TokenManagementInfo GetTokensFromDb(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: SuperOffice.Util.AccessGateway.TokenManagementInfo
+    content.vb: Public Shared Function GetTokensFromDb(key As String) As AccessGateway.TokenManagementInfo
+  overload: SuperOffice.Util.AccessGateway.GetTokensFromDb*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.SaveTokensToDb(SuperOffice.Util.AccessGateway.TokenManagementInfo,System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.SaveTokensToDb(SuperOffice.Util.AccessGateway.TokenManagementInfo,System.String)
+  id: SaveTokensToDb(SuperOffice.Util.AccessGateway.TokenManagementInfo,System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: SaveTokensToDb(AccessGateway.TokenManagementInfo, String)
+  nameWithType: AccessGateway.SaveTokensToDb(AccessGateway.TokenManagementInfo, String)
+  fullName: SuperOffice.Util.AccessGateway.SaveTokensToDb(SuperOffice.Util.AccessGateway.TokenManagementInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string SaveTokensToDb(AccessGateway.TokenManagementInfo tokenInfo, string key = "")
+    parameters:
+    - id: tokenInfo
+      type: SuperOffice.Util.AccessGateway.TokenManagementInfo
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SaveTokensToDb(tokenInfo As AccessGateway.TokenManagementInfo, key As String = "") As String
+  overload: SuperOffice.Util.AccessGateway.SaveTokensToDb*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.GenerateKey(System.Int32)
+  commentId: M:SuperOffice.Util.AccessGateway.GenerateKey(System.Int32)
+  id: GenerateKey(System.Int32)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: GenerateKey(Int32)
+  nameWithType: AccessGateway.GenerateKey(Int32)
+  fullName: SuperOffice.Util.AccessGateway.GenerateKey(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GenerateKey(int length = 64)
+    parameters:
+    - id: length
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GenerateKey(length As Integer = 64) As String
+  overload: SuperOffice.Util.AccessGateway.GenerateKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.GenerateStreamFromString(System.String)
+  commentId: M:SuperOffice.Util.AccessGateway.GenerateStreamFromString(System.String)
+  id: GenerateStreamFromString(System.String)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: GenerateStreamFromString(String)
+  nameWithType: AccessGateway.GenerateStreamFromString(String)
+  fullName: SuperOffice.Util.AccessGateway.GenerateStreamFromString(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Stream GenerateStreamFromString(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function GenerateStreamFromString(s As String) As Stream
+  overload: SuperOffice.Util.AccessGateway.GenerateStreamFromString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId(System.Int32)
+  commentId: M:SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId(System.Int32)
+  id: GetAndDecryptServiceAuthRowFromId(System.Int32)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: GetAndDecryptServiceAuthRowFromId(Int32)
+  nameWithType: AccessGateway.GetAndDecryptServiceAuthRowFromId(Int32)
+  fullName: SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static ServiceAuthRow GetAndDecryptServiceAuthRowFromId(int serviceAuthId)
+    parameters:
+    - id: serviceAuthId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.ServiceAuthRow
+    content.vb: Public Shared Function GetAndDecryptServiceAuthRowFromId(serviceAuthId As Integer) As ServiceAuthRow
+  overload: SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow(SuperOffice.CRM.Rows.ServiceAuthRow)
+  commentId: M:SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow(SuperOffice.CRM.Rows.ServiceAuthRow)
+  id: EncryptAndSaveServiceAuthRow(SuperOffice.CRM.Rows.ServiceAuthRow)
+  parent: SuperOffice.Util.AccessGateway
+  langs:
+  - csharp
+  - vb
+  name: EncryptAndSaveServiceAuthRow(ServiceAuthRow)
+  nameWithType: AccessGateway.EncryptAndSaveServiceAuthRow(ServiceAuthRow)
+  fullName: SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow(SuperOffice.CRM.Rows.ServiceAuthRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static ServiceAuthRow EncryptAndSaveServiceAuthRow(ServiceAuthRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.ServiceAuthRow
+    return:
+      type: SuperOffice.CRM.Rows.ServiceAuthRow
+    content.vb: Public Shared Function EncryptAndSaveServiceAuthRow(row As ServiceAuthRow) As ServiceAuthRow
+  overload: SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri*
+  commentId: Overload:SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri
+  isExternal: true
+  name: SaveRegisteredRedirectUri
+  nameWithType: AccessGateway.SaveRegisteredRedirectUri
+  fullName: SuperOffice.Util.AccessGateway.SaveRegisteredRedirectUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.AccessGateway.IsUriRegistered*
+  commentId: Overload:SuperOffice.Util.AccessGateway.IsUriRegistered
+  isExternal: true
+  name: IsUriRegistered
+  nameWithType: AccessGateway.IsUriRegistered
+  fullName: SuperOffice.Util.AccessGateway.IsUriRegistered
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.AccessGateway.RegisterNewUri*
+  commentId: Overload:SuperOffice.Util.AccessGateway.RegisterNewUri
+  isExternal: true
+  name: RegisterNewUri
+  nameWithType: AccessGateway.RegisterNewUri
+  fullName: SuperOffice.Util.AccessGateway.RegisterNewUri
+- uid: SuperOffice.Util.AccessGateway.ResolvePassword*
+  commentId: Overload:SuperOffice.Util.AccessGateway.ResolvePassword
+  isExternal: true
+  name: ResolvePassword
+  nameWithType: AccessGateway.ResolvePassword
+  fullName: SuperOffice.Util.AccessGateway.ResolvePassword
+- uid: SuperOffice.Util.AccessGateway.RefreshTokens*
+  commentId: Overload:SuperOffice.Util.AccessGateway.RefreshTokens
+  isExternal: true
+  name: RefreshTokens
+  nameWithType: AccessGateway.RefreshTokens
+  fullName: SuperOffice.Util.AccessGateway.RefreshTokens
+- uid: SuperOffice.Util.AccessGateway.DecryptTokens*
+  commentId: Overload:SuperOffice.Util.AccessGateway.DecryptTokens
+  isExternal: true
+  name: DecryptTokens
+  nameWithType: AccessGateway.DecryptTokens
+  fullName: SuperOffice.Util.AccessGateway.DecryptTokens
+- uid: SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken*
+  commentId: Overload:SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken
+  isExternal: true
+  name: GetAccessGatewayAccessToken
+  nameWithType: AccessGateway.GetAccessGatewayAccessToken
+  fullName: SuperOffice.Util.AccessGateway.GetAccessGatewayAccessToken
+- uid: SuperOffice.Util.AccessGateway.GetTokensFromDb*
+  commentId: Overload:SuperOffice.Util.AccessGateway.GetTokensFromDb
+  isExternal: true
+  name: GetTokensFromDb
+  nameWithType: AccessGateway.GetTokensFromDb
+  fullName: SuperOffice.Util.AccessGateway.GetTokensFromDb
+- uid: SuperOffice.Util.AccessGateway.TokenManagementInfo
+  commentId: T:SuperOffice.Util.AccessGateway.TokenManagementInfo
+  parent: SuperOffice.Util
+  isExternal: true
+  name: AccessGateway.TokenManagementInfo
+  nameWithType: AccessGateway.TokenManagementInfo
+  fullName: SuperOffice.Util.AccessGateway.TokenManagementInfo
+- uid: SuperOffice.Util.AccessGateway.SaveTokensToDb*
+  commentId: Overload:SuperOffice.Util.AccessGateway.SaveTokensToDb
+  isExternal: true
+  name: SaveTokensToDb
+  nameWithType: AccessGateway.SaveTokensToDb
+  fullName: SuperOffice.Util.AccessGateway.SaveTokensToDb
+- uid: SuperOffice.Util.AccessGateway.GenerateKey*
+  commentId: Overload:SuperOffice.Util.AccessGateway.GenerateKey
+  isExternal: true
+  name: GenerateKey
+  nameWithType: AccessGateway.GenerateKey
+  fullName: SuperOffice.Util.AccessGateway.GenerateKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.AccessGateway.GenerateStreamFromString*
+  commentId: Overload:SuperOffice.Util.AccessGateway.GenerateStreamFromString
+  isExternal: true
+  name: GenerateStreamFromString
+  nameWithType: AccessGateway.GenerateStreamFromString
+  fullName: SuperOffice.Util.AccessGateway.GenerateStreamFromString
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId*
+  commentId: Overload:SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId
+  isExternal: true
+  name: GetAndDecryptServiceAuthRowFromId
+  nameWithType: AccessGateway.GetAndDecryptServiceAuthRowFromId
+  fullName: SuperOffice.Util.AccessGateway.GetAndDecryptServiceAuthRowFromId
+- uid: SuperOffice.CRM.Rows.ServiceAuthRow
+  commentId: T:SuperOffice.CRM.Rows.ServiceAuthRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ServiceAuthRow
+  nameWithType: ServiceAuthRow
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow*
+  commentId: Overload:SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow
+  isExternal: true
+  name: EncryptAndSaveServiceAuthRow
+  nameWithType: AccessGateway.EncryptAndSaveServiceAuthRow
+  fullName: SuperOffice.Util.AccessGateway.EncryptAndSaveServiceAuthRow

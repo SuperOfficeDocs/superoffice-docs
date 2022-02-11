@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.VideoMeetingStatus
+  # Same as SuperOffice.Data.VideoMeetingStatus
+  commentId: T:CRMScript.NetServer.VideoMeetingStatus
+  id: VideoMeetingStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.VideoMeetingStatus.NoChange
+  - CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOn
+  - CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOff
+  name: VideoMeetingStatus
+  nameWithType: VideoMeetingStatus
+  fullName: CRMScript.NetServer.VideoMeetingStatus
+  type: Enum
+  summary: "\nDefault video-meeting status for meetings created in SuperOffice CRM.\n"
+- uid: CRMScript.NetServer.VideoMeetingStatus.NoChange
+  commentId: F:CRMScript.NetServer.VideoMeetingStatus.NoChange
+  id: VideoMeetingStatus.NoChange
+  langs:
+  - crmscript
+  name: VideoMeetingStatus.NoChange
+  nameWithType: VideoMeetingStatus.NoChange
+  fullName: CRMScript.NetServer.VideoMeetingStatus.NoChange
+  type: Field
+  summary: "\n0: No change\n"
+  syntax: 
+    content: NoChange = 0
+    type: CRMScript.NetServer.VideoMeetingStatus
+- uid: CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOn
+  commentId: F:CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOn
+  id: VideoMeetingStatus.VideoMeetingOn
+  langs:
+  - crmscript
+  name: VideoMeetingStatus.VideoMeetingOn
+  nameWithType: VideoMeetingStatus.VideoMeetingOn
+  fullName: CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOn
+  type: Field
+  summary: "\n1: Appointments created from this task-type should enable video-meetings by default.\n"
+  syntax: 
+    content: VideoMeetingOn = 1
+    type: CRMScript.NetServer.VideoMeetingStatus
+- uid: CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOff
+  commentId: F:CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOff
+  id: VideoMeetingStatus.VideoMeetingOff
+  langs:
+  - crmscript
+  name: VideoMeetingStatus.VideoMeetingOff
+  nameWithType: VideoMeetingStatus.VideoMeetingOff
+  fullName: CRMScript.NetServer.VideoMeetingStatus.VideoMeetingOff
+  type: Field
+  summary: "\n2: Appointments created from this task-type should disable video-meetings by default.\n"
+  syntax: 
+    content: VideoMeetingOff = 2
+    type: CRMScript.NetServer.VideoMeetingStatus
+references:
+- uid: CRMScript.NetServer.VideoMeetingStatus
+  commentId: T:CRMScript.NetServer.VideoMeetingStatus
+  isExternal: true
+  name: VideoMeetingStatus
+  nameWithType: VideoMeetingStatus
+  fullName: CRMScript.NetServer.VideoMeetingStatus

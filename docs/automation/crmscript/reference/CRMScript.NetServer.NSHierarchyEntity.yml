@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSHierarchyEntity
+  commentId: T:CRMScript.NetServer.NSHierarchyEntity
+  id: NSHierarchyEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSHierarchyEntity.#ctor
+  - CRMScript.NetServer.NSHierarchyEntity.GetChildren()
+  - CRMScript.NetServer.NSHierarchyEntity.GetDomain()
+  - CRMScript.NetServer.NSHierarchyEntity.GetFullname()
+  - CRMScript.NetServer.NSHierarchyEntity.GetHierarchyId()
+  - CRMScript.NetServer.NSHierarchyEntity.GetName()
+  - CRMScript.NetServer.NSHierarchyEntity.GetParentId()
+  - CRMScript.NetServer.NSHierarchyEntity.GetRegistered()
+  - CRMScript.NetServer.NSHierarchyEntity.GetRegisteredAssociateId()
+  - CRMScript.NetServer.NSHierarchyEntity.GetUpdated()
+  - CRMScript.NetServer.NSHierarchyEntity.GetUpdatedAssociateId()
+  - CRMScript.NetServer.NSHierarchyEntity.SetChildren(NSHierarchyEntity[])
+  - CRMScript.NetServer.NSHierarchyEntity.SetDomain(Integer)
+  - CRMScript.NetServer.NSHierarchyEntity.SetFullname(String)
+  - CRMScript.NetServer.NSHierarchyEntity.SetHierarchyId(Integer)
+  - CRMScript.NetServer.NSHierarchyEntity.SetName(String)
+  - CRMScript.NetServer.NSHierarchyEntity.SetParentId(Integer)
+  - CRMScript.NetServer.NSHierarchyEntity.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSHierarchyEntity.SetRegisteredAssociateId(Integer)
+  - CRMScript.NetServer.NSHierarchyEntity.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSHierarchyEntity.SetUpdatedAssociateId(Integer)
+  name: NSHierarchyEntity
+  nameWithType: NSHierarchyEntity
+  fullName: CRMScript.NetServer.NSHierarchyEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSHierarchyEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSHierarchyEntity
+  langs:
+  - crmscript
+  name: NSHierarchyEntity()
+  nameWithType: NSHierarchyEntity.#ctor
+  fullName: CRMScript.NetServer.NSHierarchyEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSHierarchyEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSHierarchyEntity
+  example: 
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetChildren()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetChildren()
+  id: 'GetChildren()'
+  so.intellisense: NSHierarchyEntity.GetChildren
+  langs:
+  - crmscript
+  name: 'GetChildren()'
+  nameWithType: NSHierarchyEntity.GetChildren()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetChildren()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSHierarchyEntity[] GetChildren()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSHierarchyEntity[]
+      description: "Sub-items, if any."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nNSHierarchyEntity[] children = thing.GetChildren();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetDomain()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetDomain()
+  id: 'GetDomain()'
+  so.intellisense: NSHierarchyEntity.GetDomain
+  langs:
+  - crmscript
+  name: 'GetDomain()'
+  nameWithType: NSHierarchyEntity.GetDomain()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetDomain()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDomain()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Domain separating the different hierarchy. See <xref href=\"CRMScript.NetServer.Domain\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger domain = thing.GetDomain();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetFullname()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetFullname()
+  id: 'GetFullname()'
+  so.intellisense: NSHierarchyEntity.GetFullname
+  langs:
+  - crmscript
+  name: 'GetFullname()'
+  nameWithType: NSHierarchyEntity.GetFullname()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetFullname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The full name of this category, i.e. Foo/bar/test."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nString fullname = thing.GetFullname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetHierarchyId()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetHierarchyId()
+  id: 'GetHierarchyId()'
+  so.intellisense: NSHierarchyEntity.GetHierarchyId
+  langs:
+  - crmscript
+  name: 'GetHierarchyId()'
+  nameWithType: NSHierarchyEntity.GetHierarchyId()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetHierarchyId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetHierarchyId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger hierarchyId = thing.GetHierarchyId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSHierarchyEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSHierarchyEntity.GetName()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of this hierarchy folder."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetParentId()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetParentId()
+  id: 'GetParentId()'
+  so.intellisense: NSHierarchyEntity.GetParentId
+  langs:
+  - crmscript
+  name: 'GetParentId()'
+  nameWithType: NSHierarchyEntity.GetParentId()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetParentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetParentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Parent table."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger parentId = thing.GetParentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSHierarchyEntity.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSHierarchyEntity.GetRegistered()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetRegisteredAssociateId()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetRegisteredAssociateId()
+  id: 'GetRegisteredAssociateId()'
+  so.intellisense: NSHierarchyEntity.GetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociateId()'
+  nameWithType: NSHierarchyEntity.GetRegisteredAssociateId()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetRegisteredAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRegisteredAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger registeredAssociateId = thing.GetRegisteredAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSHierarchyEntity.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSHierarchyEntity.GetUpdated()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.GetUpdatedAssociateId()
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.GetUpdatedAssociateId()
+  id: 'GetUpdatedAssociateId()'
+  so.intellisense: NSHierarchyEntity.GetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociateId()'
+  nameWithType: NSHierarchyEntity.GetUpdatedAssociateId()
+  fullName: CRMScript.NetServer.NSHierarchyEntity.GetUpdatedAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger updatedAssociateId = thing.GetUpdatedAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetChildren(NSHierarchyEntity[])
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetChildren(NSHierarchyEntity[])
+  id: 'SetChildren(NSHierarchyEntity[])'
+  so.intellisense: NSHierarchyEntity.SetChildren
+  langs:
+  - crmscript
+  name: 'SetChildren(NSHierarchyEntity[])'
+  nameWithType: NSHierarchyEntity.SetChildren(NSHierarchyEntity[])
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetChildren(NSHierarchyEntity[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChildren(NSHierarchyEntity[] children)
+    parameters:
+    - id: children
+      type: CRMScript.NetServer.NSHierarchyEntity[]
+      description: "Sub-items, if any."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nNSHierarchyEntity[] children;\nthing.SetChildren(children);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetDomain(Integer)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetDomain(Integer)
+  id: 'SetDomain(Integer)'
+  so.intellisense: NSHierarchyEntity.SetDomain
+  langs:
+  - crmscript
+  name: 'SetDomain(Integer)'
+  nameWithType: NSHierarchyEntity.SetDomain(Integer)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetDomain(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDomain(Integer domain)
+    parameters:
+    - id: domain
+      type: CRMScript.Global.Integer
+      description: "Domain separating the different hierarchy. See <xref href=\"CRMScript.NetServer.Domain\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger domain;\nthing.SetDomain(domain);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetFullname(String)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetFullname(String)
+  id: 'SetFullname(String)'
+  so.intellisense: NSHierarchyEntity.SetFullname
+  langs:
+  - crmscript
+  name: 'SetFullname(String)'
+  nameWithType: NSHierarchyEntity.SetFullname(String)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetFullname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullname(String fullname)
+    parameters:
+    - id: fullname
+      type: CRMScript.Global.String
+      description: "The full name of this category, i.e. Foo/bar/test."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nString fullname;\nthing.SetFullname(fullname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetHierarchyId(Integer)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetHierarchyId(Integer)
+  id: 'SetHierarchyId(Integer)'
+  so.intellisense: NSHierarchyEntity.SetHierarchyId
+  langs:
+  - crmscript
+  name: 'SetHierarchyId(Integer)'
+  nameWithType: NSHierarchyEntity.SetHierarchyId(Integer)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetHierarchyId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHierarchyId(Integer hierarchyId)
+    parameters:
+    - id: hierarchyId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger hierarchyId;\nthing.SetHierarchyId(hierarchyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSHierarchyEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSHierarchyEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: Name of this hierarchy folder. 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetParentId(Integer)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetParentId(Integer)
+  id: 'SetParentId(Integer)'
+  so.intellisense: NSHierarchyEntity.SetParentId
+  langs:
+  - crmscript
+  name: 'SetParentId(Integer)'
+  nameWithType: NSHierarchyEntity.SetParentId(Integer)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetParentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetParentId(Integer parentId)
+    parameters:
+    - id: parentId
+      type: CRMScript.Global.Integer
+      description: "Parent table."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger parentId;\nthing.SetParentId(parentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSHierarchyEntity.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSHierarchyEntity.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetRegisteredAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetRegisteredAssociateId(Integer)
+  id: 'SetRegisteredAssociateId(Integer)'
+  so.intellisense: NSHierarchyEntity.SetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociateId(Integer)'
+  nameWithType: NSHierarchyEntity.SetRegisteredAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetRegisteredAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociateId(Integer registeredAssociateId)
+    parameters:
+    - id: registeredAssociateId
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger registeredAssociateId;\nthing.SetRegisteredAssociateId(registeredAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSHierarchyEntity.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSHierarchyEntity.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHierarchyEntity.SetUpdatedAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSHierarchyEntity.SetUpdatedAssociateId(Integer)
+  id: 'SetUpdatedAssociateId(Integer)'
+  so.intellisense: NSHierarchyEntity.SetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociateId(Integer)'
+  nameWithType: NSHierarchyEntity.SetUpdatedAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSHierarchyEntity.SetUpdatedAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociateId(Integer updatedAssociateId)
+    parameters:
+    - id: updatedAssociateId
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHierarchyEntity thing;\nInteger updatedAssociateId;\nthing.SetUpdatedAssociateId(updatedAssociateId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSHierarchyEntity
+  commentId: T:CRMScript.NetServer.NSHierarchyEntity
+  isExternal: true
+  name: NSHierarchyEntity
+  nameWithType: NSHierarchyEntity
+  fullName: CRMScript.NetServer.NSHierarchyEntity
+- uid: CRMScript.NetServer.NSHierarchyEntity[]
+  isExternal: true
+  name: NSHierarchyEntity[]
+  nameWithType: NSHierarchyEntity[]
+  fullName: CRMScript.NetServer.NSHierarchyEntity[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSHierarchyEntity
+    isExternal: true
+    name: NSHierarchyEntity
+    nameWithType: NSHierarchyEntity
+    fullName: CRMScript.NetServer.NSHierarchyEntity
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.Domain
+  commentId: T:CRMScript.NetServer.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: Domain
+  fullName: CRMScript.NetServer.Domain

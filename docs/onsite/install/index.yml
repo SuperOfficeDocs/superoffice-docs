@@ -173,7 +173,7 @@ landingContent:
         text: Superoffice.ini
       - url: ../../travel/travel-gateway/username-ini.md
         text: Username.ini
-      - url: ../../../../data-access/docs/netserver/config/index.md
+      - url: ../../api/config/index.md
         text: Web.config
 
     # Card

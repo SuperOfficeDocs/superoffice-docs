@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity
+  commentId: T:CRMScript.NetServer.NSShipmentMessageBlockEntity
+  id: NSShipmentMessageBlockEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.#ctor
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetAssociateId()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetBlock()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegistered()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegisteredAssociateId()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetShipmentMessageBlockId()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdated()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedAssociateId()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedCount()
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetBlock(String)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegisteredAssociateId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetShipmentMessageBlockId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedAssociateId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedCount(Integer)
+  name: NSShipmentMessageBlockEntity
+  nameWithType: NSShipmentMessageBlockEntity
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSShipmentMessageBlockEntity
+  langs:
+  - crmscript
+  name: NSShipmentMessageBlockEntity()
+  nameWithType: NSShipmentMessageBlockEntity.#ctor
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSShipmentMessageBlockEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSShipmentMessageBlockEntity
+  example: 
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSShipmentMessageBlockEntity.GetAssociateId()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The associate that owns this block."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetBlock()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetBlock()
+  id: 'GetBlock()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetBlock
+  langs:
+  - crmscript
+  name: 'GetBlock()'
+  nameWithType: NSShipmentMessageBlockEntity.GetBlock()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetBlock()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetBlock()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The block definition. Normally this will be a JSON structure."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nString block = thing.GetBlock();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSShipmentMessageBlockEntity.GetRegistered()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegisteredAssociateId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegisteredAssociateId()
+  id: 'GetRegisteredAssociateId()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociateId()'
+  nameWithType: NSShipmentMessageBlockEntity.GetRegisteredAssociateId()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetRegisteredAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRegisteredAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger registeredAssociateId = thing.GetRegisteredAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetShipmentMessageBlockId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetShipmentMessageBlockId()
+  id: 'GetShipmentMessageBlockId()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetShipmentMessageBlockId
+  langs:
+  - crmscript
+  name: 'GetShipmentMessageBlockId()'
+  nameWithType: NSShipmentMessageBlockEntity.GetShipmentMessageBlockId()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetShipmentMessageBlockId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetShipmentMessageBlockId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger shipmentMessageBlockId = thing.GetShipmentMessageBlockId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSShipmentMessageBlockEntity.GetUpdated()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedAssociateId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedAssociateId()
+  id: 'GetUpdatedAssociateId()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociateId()'
+  nameWithType: NSShipmentMessageBlockEntity.GetUpdatedAssociateId()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger updatedAssociateId = thing.GetUpdatedAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedCount()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedCount()
+  id: 'GetUpdatedCount()'
+  so.intellisense: NSShipmentMessageBlockEntity.GetUpdatedCount
+  langs:
+  - crmscript
+  name: 'GetUpdatedCount()'
+  nameWithType: NSShipmentMessageBlockEntity.GetUpdatedCount()
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.GetUpdatedCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger updatedCount = thing.GetUpdatedCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSShipmentMessageBlockEntity.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "The associate that owns this block."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetBlock(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetBlock(String)
+  id: 'SetBlock(String)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetBlock
+  langs:
+  - crmscript
+  name: 'SetBlock(String)'
+  nameWithType: NSShipmentMessageBlockEntity.SetBlock(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetBlock(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBlock(String block)
+    parameters:
+    - id: block
+      type: CRMScript.Global.String
+      description: "The block definition. Normally this will be a JSON structure."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nString block;\nthing.SetBlock(block);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSShipmentMessageBlockEntity.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegisteredAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegisteredAssociateId(Integer)
+  id: 'SetRegisteredAssociateId(Integer)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociateId(Integer)'
+  nameWithType: NSShipmentMessageBlockEntity.SetRegisteredAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetRegisteredAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociateId(Integer registeredAssociateId)
+    parameters:
+    - id: registeredAssociateId
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger registeredAssociateId;\nthing.SetRegisteredAssociateId(registeredAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetShipmentMessageBlockId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetShipmentMessageBlockId(Integer)
+  id: 'SetShipmentMessageBlockId(Integer)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetShipmentMessageBlockId
+  langs:
+  - crmscript
+  name: 'SetShipmentMessageBlockId(Integer)'
+  nameWithType: NSShipmentMessageBlockEntity.SetShipmentMessageBlockId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetShipmentMessageBlockId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShipmentMessageBlockId(Integer shipmentMessageBlockId)
+    parameters:
+    - id: shipmentMessageBlockId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger shipmentMessageBlockId;\nthing.SetShipmentMessageBlockId(shipmentMessageBlockId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSShipmentMessageBlockEntity.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedAssociateId(Integer)
+  id: 'SetUpdatedAssociateId(Integer)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociateId(Integer)'
+  nameWithType: NSShipmentMessageBlockEntity.SetUpdatedAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociateId(Integer updatedAssociateId)
+    parameters:
+    - id: updatedAssociateId
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger updatedAssociateId;\nthing.SetUpdatedAssociateId(updatedAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedCount(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedCount(Integer)
+  id: 'SetUpdatedCount(Integer)'
+  so.intellisense: NSShipmentMessageBlockEntity.SetUpdatedCount
+  langs:
+  - crmscript
+  name: 'SetUpdatedCount(Integer)'
+  nameWithType: NSShipmentMessageBlockEntity.SetUpdatedCount(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity.SetUpdatedCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedCount(Integer updatedCount)
+    parameters:
+    - id: updatedCount
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageBlockEntity thing;\nInteger updatedCount;\nthing.SetUpdatedCount(updatedCount);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSShipmentMessageBlockEntity
+  commentId: T:CRMScript.NetServer.NSShipmentMessageBlockEntity
+  isExternal: true
+  name: NSShipmentMessageBlockEntity
+  nameWithType: NSShipmentMessageBlockEntity
+  fullName: CRMScript.NetServer.NSShipmentMessageBlockEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

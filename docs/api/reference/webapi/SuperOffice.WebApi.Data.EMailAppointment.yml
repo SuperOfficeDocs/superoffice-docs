@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailAppointment
+  commentId: T:SuperOffice.WebApi.Data.EMailAppointment
+  id: EMailAppointment
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailAppointment.#ctor
+  - SuperOffice.WebApi.Data.EMailAppointment.Appointment
+  - SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  - SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  - SuperOffice.WebApi.Data.EMailAppointment.Comment
+  - SuperOffice.WebApi.Data.EMailAppointment.DtEnd
+  - SuperOffice.WebApi.Data.EMailAppointment.DtStart
+  - SuperOffice.WebApi.Data.EMailAppointment.Participants
+  - SuperOffice.WebApi.Data.EMailAppointment.Sequence
+  - SuperOffice.WebApi.Data.EMailAppointment.Superseded
+  langs:
+  - csharp
+  - vb
+  name: EMailAppointment
+  nameWithType: EMailAppointment
+  fullName: SuperOffice.WebApi.Data.EMailAppointment
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailAppointment.\nInformation about an email appointment received as iCal data    \n"
+  syntax:
+    content: 'public class EMailAppointment : Carrier'
+    content.vb: >-
+      Public Class EMailAppointment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailAppointment.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailAppointment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: EMailAppointment()
+  nameWithType: EMailAppointment.EMailAppointment()
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.EMailAppointment()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailAppointment()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailAppointment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Appointment
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: EMailAppointment.Appointment
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Appointment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppointment information\n"
+  syntax:
+    content: public virtual Appointment Appointment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Appointment
+    content.vb: Public Overridable Property Appointment As Appointment
+  overload: SuperOffice.WebApi.Data.EMailAppointment.Appointment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  id: CalMethod_String
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: CalMethod_String
+  nameWithType: EMailAppointment.CalMethod_String
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMethod field stored in ICS file.\nRaw string enum value.\n"
+  syntax:
+    content: public string CalMethod_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CalMethod_String As String
+  overload: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+    commentId: P:SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  id: CalMethod
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: CalMethod
+  nameWithType: EMailAppointment.CalMethod
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMethod field stored in ICS file.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<CalMethod> CalMethod { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.CalMethod}
+    content.vb: Public Property CalMethod As Nullable(Of CalMethod)
+  overload: SuperOffice.WebApi.Data.EMailAppointment.CalMethod*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+    commentId: P:SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Participants
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.Participants
+  id: Participants
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: Participants
+  nameWithType: EMailAppointment.Participants
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Participants
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of participants in the iCal file - first one being the organizer\n"
+  syntax:
+    content: public virtual string[] Participants { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Participants As String()
+  overload: SuperOffice.WebApi.Data.EMailAppointment.Participants*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Comment
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: EMailAppointment.Comment
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Comment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nComment attached to the calendar event (accept / reject reason etc.)\n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.WebApi.Data.EMailAppointment.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Sequence
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.Sequence
+  id: Sequence
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: EMailAppointment.Sequence
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Sequence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSequence number in ICS file.\n"
+  syntax:
+    content: public virtual int Sequence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sequence As Integer
+  overload: SuperOffice.WebApi.Data.EMailAppointment.Sequence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAppointment.DtStart
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.DtStart
+  id: DtStart
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: DtStart
+  nameWithType: EMailAppointment.DtStart
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.DtStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStart date/time in ICS file.\n"
+  syntax:
+    content: public virtual DateTime DtStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property DtStart As DateTime
+  overload: SuperOffice.WebApi.Data.EMailAppointment.DtStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAppointment.DtEnd
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.DtEnd
+  id: DtEnd
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: DtEnd
+  nameWithType: EMailAppointment.DtEnd
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.DtEnd
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnd date/time in ICS file.\n"
+  syntax:
+    content: public virtual DateTime DtEnd { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property DtEnd As DateTime
+  overload: SuperOffice.WebApi.Data.EMailAppointment.DtEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Superseded
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.Superseded
+  id: Superseded
+  parent: SuperOffice.WebApi.Data.EMailAppointment
+  langs:
+  - csharp
+  - vb
+  name: Superseded
+  nameWithType: EMailAppointment.Superseded
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Superseded
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA newer invitation exists\n"
+  syntax:
+    content: public virtual bool Superseded { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Superseded As Boolean
+  overload: SuperOffice.WebApi.Data.EMailAppointment.Superseded*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailAppointment.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.#ctor
+  isExternal: true
+  name: EMailAppointment
+  nameWithType: EMailAppointment.EMailAppointment
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.EMailAppointment
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Appointment*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: EMailAppointment.Appointment
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Appointment
+- uid: SuperOffice.WebApi.Data.Appointment
+  commentId: T:SuperOffice.WebApi.Data.Appointment
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.WebApi.Data.Appointment
+- uid: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  isExternal: true
+  name: CalMethod_String
+  nameWithType: EMailAppointment.CalMethod_String
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+- uid: SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMailAppointment.CalMethod*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+  isExternal: true
+  name: CalMethod
+  nameWithType: EMailAppointment.CalMethod
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.CalMethod
+- uid: SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  commentId: P:SuperOffice.WebApi.Data.EMailAppointment.CalMethod_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.CalMethod}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.CalMethod}'
+  definition: System.Nullable`1
+  name: Nullable<CalMethod>
+  nameWithType: Nullable<CalMethod>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.CalMethod>
+  nameWithType.vb: Nullable(Of CalMethod)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.CalMethod)
+  name.vb: Nullable(Of CalMethod)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CalMethod
+    name: CalMethod
+    nameWithType: CalMethod
+    fullName: SuperOffice.WebApi.Data.CalMethod
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CalMethod
+    name: CalMethod
+    nameWithType: CalMethod
+    fullName: SuperOffice.WebApi.Data.CalMethod
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Participants*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.Participants
+  isExternal: true
+  name: Participants
+  nameWithType: EMailAppointment.Participants
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Participants
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Comment*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: EMailAppointment.Comment
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Comment
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Sequence*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: EMailAppointment.Sequence
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Sequence
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailAppointment.DtStart*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.DtStart
+  isExternal: true
+  name: DtStart
+  nameWithType: EMailAppointment.DtStart
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.DtStart
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.EMailAppointment.DtEnd*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.DtEnd
+  isExternal: true
+  name: DtEnd
+  nameWithType: EMailAppointment.DtEnd
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.DtEnd
+- uid: SuperOffice.WebApi.Data.EMailAppointment.Superseded*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAppointment.Superseded
+  isExternal: true
+  name: Superseded
+  nameWithType: EMailAppointment.Superseded
+  fullName: SuperOffice.WebApi.Data.EMailAppointment.Superseded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

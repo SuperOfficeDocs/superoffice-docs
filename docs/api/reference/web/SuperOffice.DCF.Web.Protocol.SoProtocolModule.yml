@@ -1,0 +1,922 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  id: SoProtocolModule
+  parent: SuperOffice.DCF.Web.Protocol
+  children:
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.#ctor
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init(System.Web.HttpApplication)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState(System.Boolean,SuperOffice.Cache.SuperState,SuperOffice.DCF.Web.Protocol.SoProtocolParser)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolModule
+  nameWithType: SoProtocolModule
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: 'public class SoProtocolModule : IHttpModule, IRequiresSessionState'
+    content.vb: >-
+      Public Class SoProtocolModule
+          Implements IHttpModule, IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.IHttpModule
+  - System.Web.SessionState.IRequiresSessionState
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.#ctor
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolModule()
+  nameWithType: SoProtocolModule.SoProtocolModule()
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public SoProtocolModule()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose
+  id: Dispose
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoProtocolModule.Dispose()
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init(System.Web.HttpApplication)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init(System.Web.HttpApplication)
+  id: Init(System.Web.HttpApplication)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: Init(HttpApplication)
+  nameWithType: SoProtocolModule.Init(HttpApplication)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init(System.Web.HttpApplication)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public void Init(HttpApplication context)
+    parameters:
+    - id: context
+      type: System.Web.HttpApplication
+    content.vb: Public Sub Init(context As HttpApplication)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest(System.Object,System.EventArgs)
+  id: OnBeginRequest(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: OnBeginRequest(Object, EventArgs)
+  nameWithType: SoProtocolModule.OnBeginRequest(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public void OnBeginRequest(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Sub OnBeginRequest(sender As Object, e As EventArgs)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest(System.String)
+  id: IsConfigRequest(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: IsConfigRequest(String)
+  nameWithType: SoProtocolModule.IsConfigRequest(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static bool IsConfigRequest(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsConfigRequest(path As String) As Boolean
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest(System.String)
+  id: IsApiRequest(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: IsApiRequest(String)
+  nameWithType: SoProtocolModule.IsApiRequest(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static bool IsApiRequest(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsApiRequest(path As String) As Boolean
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest(System.String)
+  id: IsSignalrRequest(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: IsSignalrRequest(String)
+  nameWithType: SoProtocolModule.IsSignalrRequest(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static bool IsSignalrRequest(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSignalrRequest(path As String) As Boolean
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation(System.String)
+  id: IsFileOperation(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: IsFileOperation(String)
+  nameWithType: SoProtocolModule.IsFileOperation(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static bool IsFileOperation(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsFileOperation(path As String) As Boolean
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest(System.String)
+  id: IsErrorPageRequest(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: IsErrorPageRequest(String)
+  nameWithType: SoProtocolModule.IsErrorPageRequest(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static bool IsErrorPageRequest(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsErrorPageRequest(path As String) As Boolean
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage(System.String)
+  id: CanProcessPage(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: CanProcessPage(String)
+  nameWithType: SoProtocolModule.CanProcessPage(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static bool CanProcessPage(string appRelativeExecutionPath)
+    parameters:
+    - id: appRelativeExecutionPath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanProcessPage(appRelativeExecutionPath As String) As Boolean
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest(System.Object,System.EventArgs)
+  id: SoProtocolModule_PostRequest(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolModule_PostRequest(Object, EventArgs)
+  nameWithType: SoProtocolModule.SoProtocolModule_PostRequest(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public void SoProtocolModule_PostRequest(object sender, EventArgs args)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: args
+      type: System.EventArgs
+    content.vb: Public Sub SoProtocolModule_PostRequest(sender As Object, args As EventArgs)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState(System.Object,System.EventArgs)
+  id: SoProtocolModule_PostState(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolModule_PostState(Object, EventArgs)
+  nameWithType: SoProtocolModule.SoProtocolModule_PostState(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public void SoProtocolModule_PostState(object sender, EventArgs args)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: args
+      type: System.EventArgs
+    content.vb: Public Sub SoProtocolModule_PostState(sender As Object, args As EventArgs)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol(System.String)
+  id: UpdateSuperStateFromSoProtocol(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: UpdateSuperStateFromSoProtocol(String)
+  nameWithType: SoProtocolModule.UpdateSuperStateFromSoProtocol(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static void UpdateSuperStateFromSoProtocol(string soProtocol)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    content.vb: Public Shared Sub UpdateSuperStateFromSoProtocol(soProtocol As String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState(System.Boolean,SuperOffice.Cache.SuperState,SuperOffice.DCF.Web.Protocol.SoProtocolParser)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState(System.Boolean,SuperOffice.Cache.SuperState,SuperOffice.DCF.Web.Protocol.SoProtocolParser)
+  id: LoadSuperState(System.Boolean,SuperOffice.Cache.SuperState,SuperOffice.DCF.Web.Protocol.SoProtocolParser)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+  langs:
+  - csharp
+  - vb
+  name: LoadSuperState(Boolean, SuperState, SoProtocolParser)
+  nameWithType: SoProtocolModule.LoadSuperState(Boolean, SuperState, SoProtocolParser)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState(System.Boolean, SuperOffice.Cache.SuperState, SuperOffice.DCF.Web.Protocol.SoProtocolParser)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static void LoadSuperState(bool isGetRequest, SuperState superState, SoProtocolParser parser)
+    parameters:
+    - id: isGetRequest
+      type: System.Boolean
+    - id: superState
+      type: SuperOffice.Cache.SuperState
+    - id: parser
+      type: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+    content.vb: Public Shared Sub LoadSuperState(isGetRequest As Boolean, superState As SuperState, parser As SoProtocolParser)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.DCF.Web.Protocol
+  commentId: N:SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SuperOffice.DCF.Web.Protocol
+  nameWithType: SuperOffice.DCF.Web.Protocol
+  fullName: SuperOffice.DCF.Web.Protocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.IHttpModule
+  commentId: '!:System.Web.IHttpModule'
+  isExternal: true
+  name: IHttpModule
+  nameWithType: IHttpModule
+  fullName: System.Web.IHttpModule
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.#ctor
+  isExternal: true
+  name: SoProtocolModule
+  nameWithType: SoProtocolModule.SoProtocolModule
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoProtocolModule.Dispose
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Dispose
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init
+  isExternal: true
+  name: Init
+  nameWithType: SoProtocolModule.Init
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.Init
+- uid: System.Web.HttpApplication
+  isExternal: true
+  name: HttpApplication
+  nameWithType: HttpApplication
+  fullName: System.Web.HttpApplication
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest
+  isExternal: true
+  name: OnBeginRequest
+  nameWithType: SoProtocolModule.OnBeginRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.OnBeginRequest
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest
+  isExternal: true
+  name: IsConfigRequest
+  nameWithType: SoProtocolModule.IsConfigRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsConfigRequest
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest
+  isExternal: true
+  name: IsApiRequest
+  nameWithType: SoProtocolModule.IsApiRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsApiRequest
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest
+  isExternal: true
+  name: IsSignalrRequest
+  nameWithType: SoProtocolModule.IsSignalrRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsSignalrRequest
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation
+  isExternal: true
+  name: IsFileOperation
+  nameWithType: SoProtocolModule.IsFileOperation
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsFileOperation
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest
+  isExternal: true
+  name: IsErrorPageRequest
+  nameWithType: SoProtocolModule.IsErrorPageRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.IsErrorPageRequest
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage
+  isExternal: true
+  name: CanProcessPage
+  nameWithType: SoProtocolModule.CanProcessPage
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.CanProcessPage
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest
+  isExternal: true
+  name: SoProtocolModule_PostRequest
+  nameWithType: SoProtocolModule.SoProtocolModule_PostRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostRequest
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState
+  isExternal: true
+  name: SoProtocolModule_PostState
+  nameWithType: SoProtocolModule.SoProtocolModule_PostState
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.SoProtocolModule_PostState
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol
+  isExternal: true
+  name: UpdateSuperStateFromSoProtocol
+  nameWithType: SoProtocolModule.UpdateSuperStateFromSoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.UpdateSuperStateFromSoProtocol
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState
+  isExternal: true
+  name: LoadSuperState
+  nameWithType: SoProtocolModule.LoadSuperState
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolModule.LoadSuperState
+- uid: SuperOffice.Cache.SuperState
+  commentId: T:SuperOffice.Cache.SuperState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.Cache.SuperState
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  parent: SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SoProtocolParser
+  nameWithType: SoProtocolParser
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache

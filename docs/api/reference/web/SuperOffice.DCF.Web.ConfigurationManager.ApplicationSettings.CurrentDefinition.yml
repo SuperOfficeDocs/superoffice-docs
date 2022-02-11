@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  id: ConfigurationManager.ApplicationSettings.CurrentDefinition
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.#ctor(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager.ApplicationSettings.CurrentDefinition
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class CurrentDefinition
+    content.vb: Public Class CurrentDefinition
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.#ctor(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.#ctor(System.Xml.XmlNode)
+  id: '#ctor(System.Xml.XmlNode)'
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  langs:
+  - csharp
+  - vb
+  name: CurrentDefinition(XmlNode)
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.CurrentDefinition(XmlNode)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.CurrentDefinition(System.Xml.XmlNode)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public CurrentDefinition(XmlNode configXml)
+    parameters:
+    - id: configXml
+      type: System.Xml.XmlNode
+    content.vb: Public Sub New(configXml As XmlNode)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString
+  id: ToString
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  id: Id
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Id As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  id: Type
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  id: ProviderName
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string ProviderName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ProviderName As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  id: ResolveTableRights
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  langs:
+  - csharp
+  - vb
+  name: ResolveTableRights
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool ResolveTableRights { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ResolveTableRights As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.#ctor
+  isExternal: true
+  name: CurrentDefinition
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.CurrentDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.CurrentDefinition
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  isExternal: true
+  name: Id
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Id
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  isExternal: true
+  name: Type
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.Type
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ProviderName
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  isExternal: true
+  name: ResolveTableRights
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition.ResolveTableRights
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

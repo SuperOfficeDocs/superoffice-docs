@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MailboxType
+  commentId: T:SuperOffice.WebApi.Data.MailboxType
+  id: MailboxType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MailboxType.Facebook
+  - SuperOffice.WebApi.Data.MailboxType.Imap
+  - SuperOffice.WebApi.Data.MailboxType.ImapOAuth
+  - SuperOffice.WebApi.Data.MailboxType.Imaps
+  - SuperOffice.WebApi.Data.MailboxType.Mailgun
+  - SuperOffice.WebApi.Data.MailboxType.Mapi
+  - SuperOffice.WebApi.Data.MailboxType.Pop
+  - SuperOffice.WebApi.Data.MailboxType.Pops
+  - SuperOffice.WebApi.Data.MailboxType.SmsPlugin
+  - SuperOffice.WebApi.Data.MailboxType.Unknown
+  - SuperOffice.WebApi.Data.MailboxType.value__
+  langs:
+  - csharp
+  - vb
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: SuperOffice.WebApi.Data.MailboxType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nService mailbox type\nThis Enum is used by:  mail_in_filter.server_type\n"
+  syntax:
+    content: 'public sealed class MailboxType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MailboxType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.MailboxType.value__
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MailboxType.value__
+  fullName: SuperOffice.WebApi.Data.MailboxType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailboxType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: MailboxType.Unknown
+  fullName: SuperOffice.WebApi.Data.MailboxType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: public const MailboxType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Unknown As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Pop
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Pop
+  id: Pop
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Pop
+  nameWithType: MailboxType.Pop
+  fullName: SuperOffice.WebApi.Data.MailboxType.Pop
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Pop\n"
+  syntax:
+    content: public const MailboxType Pop
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Pop As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Imap
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Imap
+  id: Imap
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Imap
+  nameWithType: MailboxType.Imap
+  fullName: SuperOffice.WebApi.Data.MailboxType.Imap
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Imap - without OAuth support. Use ImapOAuth instead if OAuth is needed\n"
+  syntax:
+    content: public const MailboxType Imap
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Imap As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Mapi
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Mapi
+  id: Mapi
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Mapi
+  nameWithType: MailboxType.Mapi
+  fullName: SuperOffice.WebApi.Data.MailboxType.Mapi
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Mapi - Obsolete\n"
+  syntax:
+    content: public const MailboxType Mapi
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Mapi As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Facebook
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Facebook
+  id: Facebook
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Facebook
+  nameWithType: MailboxType.Facebook
+  fullName: SuperOffice.WebApi.Data.MailboxType.Facebook
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: TypeFacebook\n"
+  syntax:
+    content: public const MailboxType Facebook
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Facebook As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Pops
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Pops
+  id: Pops
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Pops
+  nameWithType: MailboxType.Pops
+  fullName: SuperOffice.WebApi.Data.MailboxType.Pops
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Pop SSL\n"
+  syntax:
+    content: public const MailboxType Pops
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Pops As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Imaps
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Imaps
+  id: Imaps
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Imaps
+  nameWithType: MailboxType.Imaps
+  fullName: SuperOffice.WebApi.Data.MailboxType.Imaps
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Imap SSL\n"
+  syntax:
+    content: public const MailboxType Imaps
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Imaps As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.SmsPlugin
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.SmsPlugin
+  id: SmsPlugin
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: SmsPlugin
+  nameWithType: MailboxType.SmsPlugin
+  fullName: SuperOffice.WebApi.Data.MailboxType.SmsPlugin
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Incoming SMS, using a plugin\n"
+  syntax:
+    content: public const MailboxType SmsPlugin
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const SmsPlugin As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.Mailgun
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.Mailgun
+  id: Mailgun
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: Mailgun
+  nameWithType: MailboxType.Mailgun
+  fullName: SuperOffice.WebApi.Data.MailboxType.Mailgun
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Used by mailboxes set up as a Mailgun route\n"
+  syntax:
+    content: public const MailboxType Mailgun
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const Mailgun As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MailboxType.ImapOAuth
+  commentId: F:SuperOffice.WebApi.Data.MailboxType.ImapOAuth
+  id: ImapOAuth
+  parent: SuperOffice.WebApi.Data.MailboxType
+  langs:
+  - csharp
+  - vb
+  name: ImapOAuth
+  nameWithType: MailboxType.ImapOAuth
+  fullName: SuperOffice.WebApi.Data.MailboxType.ImapOAuth
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: This is a Imap mailbox using OAuth authentication\n"
+  syntax:
+    content: public const MailboxType ImapOAuth
+    return:
+      type: SuperOffice.WebApi.Data.MailboxType
+    content.vb: Public Const ImapOAuth As MailboxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.MailboxType
+  commentId: T:SuperOffice.WebApi.Data.MailboxType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: SuperOffice.WebApi.Data.MailboxType

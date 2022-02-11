@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  id: Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  nameWithType: Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetQuoteLineConfigurationFromFieldNameRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetQuoteLineConfigurationFromFieldNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteLineConfigurationFromFieldNameRequest()
+  nameWithType: Quote_GetQuoteLineConfigurationFromFieldNameRequest.Quote_GetQuoteLineConfigurationFromFieldNameRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.Quote_GetQuoteLineConfigurationFromFieldNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetQuoteLineConfigurationFromFieldNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  id: FieldName
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  langs:
+  - csharp
+  - vb
+  name: FieldName
+  nameWithType: Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FieldName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldName As String
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.#ctor
+  isExternal: true
+  name: Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  nameWithType: Quote_GetQuoteLineConfigurationFromFieldNameRequest.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.Quote_GetQuoteLineConfigurationFromFieldNameRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  isExternal: true
+  name: FieldName
+  nameWithType: Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineConfigurationFromFieldNameRequest.FieldName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  id: IHasSchema
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  langs:
+  - csharp
+  - vb
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+  type: Interface
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public interface IHasSchema
+    content.vb: Public Interface IHasSchema
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  commentId: P:SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  id: ConfigurationSchema
+  parent: SuperOffice.Configuration.IHasSchema
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationSchema
+  nameWithType: IHasSchema.ConfigurationSchema
+  fullName: SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: Stream ConfigurationSchema { get; }
+    parameters: []
+    return:
+      type: System.IO.Stream
+    content.vb: ReadOnly Property ConfigurationSchema As Stream
+  overload: SuperOffice.Configuration.IHasSchema.ConfigurationSchema*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.Configuration.IHasSchema.ConfigurationSchema*
+  commentId: Overload:SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: IHasSchema.ConfigurationSchema
+  fullName: SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO

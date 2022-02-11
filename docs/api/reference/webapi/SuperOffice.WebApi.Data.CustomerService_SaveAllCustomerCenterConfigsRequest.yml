@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest
+  id: CustomerService_SaveAllCustomerCenterConfigsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_SaveAllCustomerCenterConfigsRequest
+  nameWithType: CustomerService_SaveAllCustomerCenterConfigsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_SaveAllCustomerCenterConfigsRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_SaveAllCustomerCenterConfigsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_SaveAllCustomerCenterConfigsRequest()
+  nameWithType: CustomerService_SaveAllCustomerCenterConfigsRequest.CustomerService_SaveAllCustomerCenterConfigsRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustomerService_SaveAllCustomerCenterConfigsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_SaveAllCustomerCenterConfigsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  id: CustConfigs
+  parent: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustConfigs
+  nameWithType: CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerCenterConfig[] CustConfigs { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CustomerCenterConfig[]
+    content.vb: Public Property CustConfigs As CustomerCenterConfig()
+  overload: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.#ctor
+  isExternal: true
+  name: CustomerService_SaveAllCustomerCenterConfigsRequest
+  nameWithType: CustomerService_SaveAllCustomerCenterConfigsRequest.CustomerService_SaveAllCustomerCenterConfigsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustomerService_SaveAllCustomerCenterConfigsRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  isExternal: true
+  name: CustConfigs
+  nameWithType: CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveAllCustomerCenterConfigsRequest.CustConfigs
+- uid: SuperOffice.WebApi.Data.CustomerCenterConfig[]
+  isExternal: true
+  name: CustomerCenterConfig[]
+  nameWithType: CustomerCenterConfig[]
+  fullName: SuperOffice.WebApi.Data.CustomerCenterConfig[]
+  nameWithType.vb: CustomerCenterConfig()
+  fullName.vb: SuperOffice.WebApi.Data.CustomerCenterConfig()
+  name.vb: CustomerCenterConfig()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CustomerCenterConfig
+    name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.WebApi.Data.CustomerCenterConfig
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CustomerCenterConfig
+    name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.WebApi.Data.CustomerCenterConfig
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

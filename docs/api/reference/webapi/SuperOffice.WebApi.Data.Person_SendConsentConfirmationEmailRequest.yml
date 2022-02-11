@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  id: Person_SendConsentConfirmationEmailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress
+  - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId
+  - SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject
+  langs:
+  - csharp
+  - vb
+  name: Person_SendConsentConfirmationEmailRequest
+  nameWithType: Person_SendConsentConfirmationEmailRequest
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_SendConsentConfirmationEmailRequest : Object'
+    content.vb: >-
+      Public Class Person_SendConsentConfirmationEmailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_SendConsentConfirmationEmailRequest()
+  nameWithType: Person_SendConsentConfirmationEmailRequest.Person_SendConsentConfirmationEmailRequest()
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Person_SendConsentConfirmationEmailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_SendConsentConfirmationEmailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_SendConsentConfirmationEmailRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Person_SendConsentConfirmationEmailRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  commentId: P:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  id: EmailTemplateId
+  parent: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailTemplateId
+  nameWithType: Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  commentId: P:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  id: CultureLcidId
+  parent: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: CultureLcidId
+  nameWithType: Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CultureLcidId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CultureLcidId As Integer
+  overload: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject
+  commentId: P:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject
+  id: Subject
+  parent: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: Person_SendConsentConfirmationEmailRequest.Subject
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Subject As String
+  overload: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.#ctor
+  isExternal: true
+  name: Person_SendConsentConfirmationEmailRequest
+  nameWithType: Person_SendConsentConfirmationEmailRequest.Person_SendConsentConfirmationEmailRequest
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Person_SendConsentConfirmationEmailRequest
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_SendConsentConfirmationEmailRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Person_SendConsentConfirmationEmailRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  isExternal: true
+  name: EmailTemplateId
+  nameWithType: Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.EmailTemplateId
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  isExternal: true
+  name: CultureLcidId
+  nameWithType: Person_SendConsentConfirmationEmailRequest.CultureLcidId
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.CultureLcidId
+- uid: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: Person_SendConsentConfirmationEmailRequest.Subject
+  fullName: SuperOffice.WebApi.Data.Person_SendConsentConfirmationEmailRequest.Subject

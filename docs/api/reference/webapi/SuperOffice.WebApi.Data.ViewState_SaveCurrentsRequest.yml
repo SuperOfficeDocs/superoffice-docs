@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
+  id: ViewState_SaveCurrentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SaveCurrentsRequest
+  nameWithType: ViewState_SaveCurrentsRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_SaveCurrentsRequest : Object'
+    content.vb: >-
+      Public Class ViewState_SaveCurrentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SaveCurrentsRequest()
+  nameWithType: ViewState_SaveCurrentsRequest.ViewState_SaveCurrentsRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.ViewState_SaveCurrentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_SaveCurrentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents
+  commentId: P:SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents
+  id: Currents
+  parent: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Currents
+  nameWithType: ViewState_SaveCurrentsRequest.Currents
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public History[] Currents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.History[]
+    content.vb: Public Property Currents As History()
+  overload: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.#ctor
+  isExternal: true
+  name: ViewState_SaveCurrentsRequest
+  nameWithType: ViewState_SaveCurrentsRequest.ViewState_SaveCurrentsRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.ViewState_SaveCurrentsRequest
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents
+  isExternal: true
+  name: Currents
+  nameWithType: ViewState_SaveCurrentsRequest.Currents
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentsRequest.Currents
+- uid: SuperOffice.WebApi.Data.History[]
+  isExternal: true
+  name: History[]
+  nameWithType: History[]
+  fullName: SuperOffice.WebApi.Data.History[]
+  nameWithType.vb: History()
+  fullName.vb: SuperOffice.WebApi.Data.History()
+  name.vb: History()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

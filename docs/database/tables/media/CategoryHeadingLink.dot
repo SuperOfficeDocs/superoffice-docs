@@ -1,0 +1,13 @@
+digraph CategoryHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+CategoryHeadingLink[fillcolor = "cadetblue1"]
+Category[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+CategoryHeadingLink -> Category [headlabel = "category_id"]
+CategoryHeadingLink -> Heading [headlabel = "heading_id"]
+CategoryHeadingLink -> associate [headlabel = "registered_associate_id"]
+CategoryHeadingLink -> associate [label = "updated_associate_id"]
+}

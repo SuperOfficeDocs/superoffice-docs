@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  id: Bool
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.Bool.#ctor
+    - CRMScript.Global.Bool.#ctor(Bool)
+    - CRMScript.Global.Bool.toInteger()
+    - CRMScript.Global.Bool.toString()
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+  type: Class
+  summary: "\nRepresents booleans as objects. True/false.<p></p>\nVariables of this type are commonly used in comparisons and conditional statements.\n"
+- uid: CRMScript.Global.Bool.#ctor
+  commentId: M:CRMScript.Global.Bool.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Bool
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Bool
+  name: Bool()
+  nameWithType: Bool.Bool()
+  fullName: CRMScript.Global.Bool.Bool()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  syntax:
+    content: Bool Bool()
+  example:
+- uid: CRMScript.Global.Bool.#ctor(Bool)
+  commentId: M:CRMScript.Global.Bool.#ctor(Bool)
+  id: '#ctor(Bool)'
+  so.intellisense: Void.Bool
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Bool
+  name: Bool(Bool)
+  nameWithType: Bool.Bool(Bool)
+  fullName: CRMScript.Global.Bool.Bool(Bool)
+  type: Constructor
+  summary: "\nPass a boolean value to copy into a new object.\n"
+  syntax:
+    content: Bool Bool(Bool value)
+  example:
+  - "<pre><code>Bool isWellFormed = true;\nBool isValid = Bool(isWellFormed);\nBool isCertified = Bool(false);</code></pre>"
+- uid: CRMScript.Global.Bool.toInteger()
+  commentId: M:CRMScript.Global.Bool.toInteger()
+  id: toInteger()
+  so.intellisense: Bool.toInteger
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Bool
+  name: toInteger()
+  nameWithType: Bool.toInteger()
+  fullName: CRMScript.Global.Bool.toInteger()
+  type: Method
+  summary: "\nConverts a boolean value to its integer representation (0 or 1).\n"
+  syntax:
+    content: Integer toInteger()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "False equals 0; true equals 1."
+- uid: CRMScript.Global.Bool.toString()
+  commentId: M:CRMScript.Global.Bool.toString()
+  id: toString()
+  so.intellisense: Bool.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Bool
+  name: toString()
+  nameWithType: Bool.toString()
+  fullName: CRMScript.Global.Bool.toString()
+  type: Method
+  summary: "\nConverts a boolean value to its string representation (&quot;true&quot; or &quot;false&quot;).\n"
+  example:
+  - "<pre><code>\nBool b = true;\nprintLine(b.toString());</code></pre>\n"
+  syntax:
+    content: String toString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "&quot;true&quot; or &quot;false&quot;"
+references:
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer

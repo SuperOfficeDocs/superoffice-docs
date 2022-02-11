@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest
+  id: Configuration_GetCSWwwFolderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCSWwwFolderRequest
+  nameWithType: Configuration_GetCSWwwFolderRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetCSWwwFolderRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetCSWwwFolderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCSWwwFolderRequest()
+  nameWithType: Configuration_GetCSWwwFolderRequest.Configuration_GetCSWwwFolderRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.Configuration_GetCSWwwFolderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetCSWwwFolderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.#ctor
+  isExternal: true
+  name: Configuration_GetCSWwwFolderRequest
+  nameWithType: Configuration_GetCSWwwFolderRequest.Configuration_GetCSWwwFolderRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSWwwFolderRequest.Configuration_GetCSWwwFolderRequest

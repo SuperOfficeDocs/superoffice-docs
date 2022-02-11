@@ -1,0 +1,13 @@
+digraph TagsHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TagsHeadingLink[fillcolor = "cadetblue1"]
+Tags[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+TagsHeadingLink -> Tags [headlabel = "tags_id"]
+TagsHeadingLink -> Heading [headlabel = "heading_id"]
+TagsHeadingLink -> associate [headlabel = "registered_associate_id"]
+TagsHeadingLink -> associate [label = "updated_associate_id"]
+}

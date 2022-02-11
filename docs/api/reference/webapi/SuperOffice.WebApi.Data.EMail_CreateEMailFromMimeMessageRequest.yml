@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest
+  id: EMail_CreateEMailFromMimeMessageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  langs:
+  - csharp
+  - vb
+  name: EMail_CreateEMailFromMimeMessageRequest
+  nameWithType: EMail_CreateEMailFromMimeMessageRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_CreateEMailFromMimeMessageRequest : Object'
+    content.vb: >-
+      Public Class EMail_CreateEMailFromMimeMessageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_CreateEMailFromMimeMessageRequest()
+  nameWithType: EMail_CreateEMailFromMimeMessageRequest.EMail_CreateEMailFromMimeMessageRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.EMail_CreateEMailFromMimeMessageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_CreateEMailFromMimeMessageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  commentId: P:SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  id: MimeMessage
+  parent: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: MimeMessage
+  nameWithType: EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string MimeMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeMessage As String
+  overload: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.#ctor
+  isExternal: true
+  name: EMail_CreateEMailFromMimeMessageRequest
+  nameWithType: EMail_CreateEMailFromMimeMessageRequest.EMail_CreateEMailFromMimeMessageRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.EMail_CreateEMailFromMimeMessageRequest
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  isExternal: true
+  name: MimeMessage
+  nameWithType: EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromMimeMessageRequest.MimeMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

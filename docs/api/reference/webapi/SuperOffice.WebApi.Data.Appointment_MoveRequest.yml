@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_MoveRequest
+  id: Appointment_MoveRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_MoveRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime
+  - SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_MoveRequest
+  nameWithType: Appointment_MoveRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_MoveRequest : Object'
+    content.vb: >-
+      Public Class Appointment_MoveRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_MoveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_MoveRequest()
+  nameWithType: Appointment_MoveRequest.Appointment_MoveRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.Appointment_MoveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_MoveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_MoveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_MoveRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime
+  id: NewStartTime
+  parent: SuperOffice.WebApi.Data.Appointment_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: NewStartTime
+  nameWithType: Appointment_MoveRequest.NewStartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime NewStartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property NewStartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_MoveRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveRequest.#ctor
+  isExternal: true
+  name: Appointment_MoveRequest
+  nameWithType: Appointment_MoveRequest.Appointment_MoveRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.Appointment_MoveRequest
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_MoveRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime
+  isExternal: true
+  name: NewStartTime
+  nameWithType: Appointment_MoveRequest.NewStartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.NewStartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_MoveRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

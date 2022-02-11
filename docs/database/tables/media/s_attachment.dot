@@ -1,0 +1,10 @@
+digraph s_attachment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_attachment[fillcolor = "cadetblue1"]
+attachment[fillcolor = "azure1"]
+s_message[fillcolor = "azure1"]
+s_attachment -> attachment [headlabel = "attachment_id"]
+s_attachment -> s_message [headlabel = "message_id"]
+}

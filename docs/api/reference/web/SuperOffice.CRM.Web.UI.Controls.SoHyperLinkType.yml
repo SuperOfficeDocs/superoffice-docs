@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  id: SoHyperLinkType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Email
+  - SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Normal
+  - SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.SoProtocol
+  langs:
+  - csharp
+  - vb
+  name: SoHyperLinkType
+  nameWithType: SoHyperLinkType
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum SoHyperLinkType
+    content.vb: Public Enum SoHyperLinkType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Normal
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Normal
+  id: Normal
+  parent: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: SoHyperLinkType.Normal
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Normal
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Normal = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Email
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Email
+  id: Email
+  parent: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: SoHyperLinkType.Email
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.Email
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Email = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.SoProtocol
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: SoHyperLinkType.SoProtocol
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType.SoProtocol
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: SoProtocol = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoHyperLinkType
+  nameWithType: SoHyperLinkType
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.CS
+  commentId: N:SuperOffice.CRM.CS
+  id: SuperOffice.CRM.CS
+  children:
+  - SuperOffice.CRM.CS.CsSessionManager
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.CS
+  nameWithType: SuperOffice.CRM.CS
+  fullName: SuperOffice.CRM.CS
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.CS.CsSessionManager
+  commentId: T:SuperOffice.CRM.CS.CsSessionManager
+  isExternal: true
+  name: CsSessionManager
+  nameWithType: CsSessionManager
+  fullName: SuperOffice.CRM.CS.CsSessionManager

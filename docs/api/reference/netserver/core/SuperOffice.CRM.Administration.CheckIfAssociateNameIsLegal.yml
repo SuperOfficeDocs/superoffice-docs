@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  commentId: T:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  id: CheckIfAssociateNameIsLegal
+  parent: SuperOffice.CRM.Administration
+  children:
+  - SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CheckIfAssociateNameIsLegal
+  nameWithType: CheckIfAssociateNameIsLegal
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nCheck if an associate name is legal (e.g. allowed in the current installation and not taken by somebody else)\n"
+  syntax:
+    content: public delegate bool CheckIfAssociateNameIsLegal(string associateName);
+    parameters:
+    - id: associateName
+      type: System.String
+      description: User-name to check if is legal.
+    return:
+      type: System.Boolean
+      description: True if the user name is legal.
+    content.vb: Public Delegate Function CheckIfAssociateNameIsLegal(associateName As String) As Boolean
+  extensionMethods:
+  - SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  langs:
+  - csharp
+  - vb
+  name: CheckIfAssociateNameIsLegal(Object, IntPtr)
+  nameWithType: CheckIfAssociateNameIsLegal.CheckIfAssociateNameIsLegal(Object, IntPtr)
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.CheckIfAssociateNameIsLegal(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public CheckIfAssociateNameIsLegal(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke(System.String)
+  commentId: M:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke(System.String)
+  id: Invoke(System.String)
+  parent: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  langs:
+  - csharp
+  - vb
+  name: Invoke(String)
+  nameWithType: CheckIfAssociateNameIsLegal.Invoke(String)
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public virtual bool Invoke(string associateName)
+    parameters:
+    - id: associateName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function Invoke(associateName As String) As Boolean
+  overload: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(String, AsyncCallback, Object)
+  nameWithType: CheckIfAssociateNameIsLegal.BeginInvoke(String, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke(System.String, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(string associateName, AsyncCallback callback, object object)
+    parameters:
+    - id: associateName
+      type: System.String
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(associateName As String, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: CheckIfAssociateNameIsLegal.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public virtual bool EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Boolean
+  overload: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Administration
+  commentId: N:SuperOffice.CRM.Administration
+  isExternal: true
+  name: SuperOffice.CRM.Administration
+  nameWithType: SuperOffice.CRM.Administration
+  fullName: SuperOffice.CRM.Administration
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CheckIfAssociateNameIsLegal, To>()
+  nameWithType: EnumUtil.MapEnums<CheckIfAssociateNameIsLegal, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CheckIfAssociateNameIsLegal, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To)()
+  name.vb: MapEnums(Of CheckIfAssociateNameIsLegal, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CheckIfAssociateNameIsLegal, To>
+    nameWithType: EnumUtil.MapEnums<CheckIfAssociateNameIsLegal, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CheckIfAssociateNameIsLegal, To)
+    nameWithType: EnumUtil.MapEnums(Of CheckIfAssociateNameIsLegal, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CheckIfAssociateNameIsLegal, To>()
+  nameWithType: Converters.MapEnums<CheckIfAssociateNameIsLegal, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To>()
+  nameWithType.vb: Converters.MapEnums(Of CheckIfAssociateNameIsLegal, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To)()
+  name.vb: MapEnums(Of CheckIfAssociateNameIsLegal, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CheckIfAssociateNameIsLegal, To>
+    nameWithType: Converters.MapEnums<CheckIfAssociateNameIsLegal, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CheckIfAssociateNameIsLegal, To)
+    nameWithType: Converters.MapEnums(Of CheckIfAssociateNameIsLegal, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.#ctor*
+  commentId: Overload:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.#ctor
+  isExternal: true
+  name: CheckIfAssociateNameIsLegal
+  nameWithType: CheckIfAssociateNameIsLegal.CheckIfAssociateNameIsLegal
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.CheckIfAssociateNameIsLegal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke*
+  commentId: Overload:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: CheckIfAssociateNameIsLegal.Invoke
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.Invoke
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: CheckIfAssociateNameIsLegal.BeginInvoke
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: CheckIfAssociateNameIsLegal.EndInvoke
+  fullName: SuperOffice.CRM.Administration.CheckIfAssociateNameIsLegal.EndInvoke

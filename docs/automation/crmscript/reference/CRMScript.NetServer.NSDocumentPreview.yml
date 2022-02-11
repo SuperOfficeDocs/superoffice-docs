@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDocumentPreview
+  commentId: T:CRMScript.NetServer.NSDocumentPreview
+  id: NSDocumentPreview
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDocumentPreview.#ctor
+  - CRMScript.NetServer.NSDocumentPreview.GetName()
+  - CRMScript.NetServer.NSDocumentPreview.GetSize()
+  - CRMScript.NetServer.NSDocumentPreview.GetStream()
+  - CRMScript.NetServer.NSDocumentPreview.GetType()
+  - CRMScript.NetServer.NSDocumentPreview.SetName(String)
+  - CRMScript.NetServer.NSDocumentPreview.SetSize(Integer)
+  - CRMScript.NetServer.NSDocumentPreview.SetStream(NSStream)
+  - CRMScript.NetServer.NSDocumentPreview.SetType(String)
+  name: NSDocumentPreview
+  nameWithType: NSDocumentPreview
+  fullName: CRMScript.NetServer.NSDocumentPreview
+  type: Class
+  summary: "\nDocument data intended for preview purposes. Carrier object for DocumentPreview.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDocumentPreview.#ctor
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDocumentPreview
+  langs:
+  - crmscript
+  name: NSDocumentPreview()
+  nameWithType: NSDocumentPreview.#ctor
+  fullName: CRMScript.NetServer.NSDocumentPreview.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDocumentPreview class.\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentPreview
+  example: 
+- uid: CRMScript.NetServer.NSDocumentPreview.GetName()
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDocumentPreview.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDocumentPreview.GetName()
+  fullName: CRMScript.NetServer.NSDocumentPreview.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The documents name."
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.GetSize()
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.GetSize()
+  id: 'GetSize()'
+  so.intellisense: NSDocumentPreview.GetSize
+  langs:
+  - crmscript
+  name: 'GetSize()'
+  nameWithType: NSDocumentPreview.GetSize()
+  fullName: CRMScript.NetServer.NSDocumentPreview.GetSize()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSize()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Size of the stream."
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nInteger size = thing.GetSize();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.GetStream()
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.GetStream()
+  id: 'GetStream()'
+  so.intellisense: NSDocumentPreview.GetStream
+  langs:
+  - crmscript
+  name: 'GetStream()'
+  nameWithType: NSDocumentPreview.GetStream()
+  fullName: CRMScript.NetServer.NSDocumentPreview.GetStream()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSStream GetStream()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSStream
+      description: "Document data."
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nNSStream stream = thing.GetStream();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.GetType()
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.GetType()
+  id: 'GetType()'
+  so.intellisense: NSDocumentPreview.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSDocumentPreview.GetType()
+  fullName: CRMScript.NetServer.NSDocumentPreview.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The mimetype of the stream."
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nString type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDocumentPreview.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDocumentPreview.SetName(String)
+  fullName: CRMScript.NetServer.NSDocumentPreview.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The documents name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.SetSize(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.SetSize(Integer)
+  id: 'SetSize(Integer)'
+  so.intellisense: NSDocumentPreview.SetSize
+  langs:
+  - crmscript
+  name: 'SetSize(Integer)'
+  nameWithType: NSDocumentPreview.SetSize(Integer)
+  fullName: CRMScript.NetServer.NSDocumentPreview.SetSize(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSize(Integer size)
+    parameters:
+    - id: size
+      type: CRMScript.Global.Integer
+      description: "Size of the stream."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nInteger size;\nthing.SetSize(size);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.SetStream(NSStream)
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.SetStream(NSStream)
+  id: 'SetStream(NSStream)'
+  so.intellisense: NSDocumentPreview.SetStream
+  langs:
+  - crmscript
+  name: 'SetStream(NSStream)'
+  nameWithType: NSDocumentPreview.SetStream(NSStream)
+  fullName: CRMScript.NetServer.NSDocumentPreview.SetStream(NSStream)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStream(NSStream stream)
+    parameters:
+    - id: stream
+      type: CRMScript.NetServer.NSStream
+      description: "Document data."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nNSStream stream;\nthing.SetStream(stream);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentPreview.SetType(String)
+  commentId: M:CRMScript.NetServer.NSDocumentPreview.SetType(String)
+  id: 'SetType(String)'
+  so.intellisense: NSDocumentPreview.SetType
+  langs:
+  - crmscript
+  name: 'SetType(String)'
+  nameWithType: NSDocumentPreview.SetType(String)
+  fullName: CRMScript.NetServer.NSDocumentPreview.SetType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: "The mimetype of the stream."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentPreview thing;\nString type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDocumentPreview
+  commentId: T:CRMScript.NetServer.NSDocumentPreview
+  isExternal: true
+  name: NSDocumentPreview
+  nameWithType: NSDocumentPreview
+  fullName: CRMScript.NetServer.NSDocumentPreview
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  isExternal: true
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

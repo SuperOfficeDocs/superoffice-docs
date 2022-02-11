@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: Person database table
       itemType: reference
-      url: ../../../database/docs/tables/person.md
+      url: ../database/tables/person.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -93,10 +93,10 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol - list of contacts from a company
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/show-persons-for-contact.md
+        url: ../ui/soprotocol/show-persons-for-contact.md
 
     # Card
     - title: Data options
@@ -104,16 +104,16 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
       - text: UdpersonSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonsmall.md
+        url: ../database/tables/udpersonsmall.md
       - text: UdpersonLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonlarge.md
+        url: ../database/tables/udpersonlarge.md
 
     # Card
     - title: Actions options
@@ -127,7 +127,7 @@ conceptualContent:
         url: ../automation/trigger/index.md
       - text: Webhooks
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/contact-events.md
+        url: ../automation/webhook/reference/contact-events.md
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
@@ -141,22 +141,22 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/persons-and-organizations/customer.md
+        url: howto/crmscript/customer.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/sql/update-person-sql.md
+        url: howto/sql/update-person-sql.md
       - text: OSQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/osql/update-person-osql.md
+        url: howto/osql/update-person-osql.md
       - text: Row
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/row/update-person-rows.md
+        url: howto/row/update-person-rows.md
       - text: Entity
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/entity/update-person-entity.md
+        url: howto/entity/update-person-entity.md
       - text: REST
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/services/update-person-services.md
+        url: howto/services/update-person-services.md
 
     # Card
     - title: Database options
@@ -164,25 +164,25 @@ conceptualContent:
       links:
       - text: Contact table
         itemType: reference
-        url: ../../../database/docs/tables/contact.md
+        url: ../database/tables/contact.md
       - text: Person table
         itemType: reference
-        url: ../../../database/docs/tables/person.md
+        url: ../database/tables/person.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: Address table
         itemType: reference
-        url: ../../../database/docs/tables/address.md
+        url: ../database/tables/address.md
       - text: Country table
         itemType: reference
-        url: ../../../database/docs/tables/country.md
+        url: ../database/tables/country.md
       - text: Business table
         itemType: reference
-        url: ../../../database/docs/tables/business.md
+        url: ../database/tables/business.md
       - text: UdpersonSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonsmall.md
+        url: ../database/tables/udpersonsmall.md
       - text: UdpersonLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udpersonlarge.md
+        url: ../database/tables/udpersonlarge.md

@@ -1,0 +1,11 @@
+digraph s_picture_entry  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_picture_entry[fillcolor = "cadetblue1"]
+attachment[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+s_picture_entry -> attachment [headlabel = "attachment_id"]
+s_picture_entry -> associate [headlabel = "registered_associate_id"]
+s_picture_entry -> associate [label = "updated_associate_id"]
+}

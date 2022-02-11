@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.SelectionUnionType
+  # Same as SuperOffice.Data.SelectionUnionType
+  commentId: T:CRMScript.NetServer.SelectionUnionType
+  id: SelectionUnionType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.SelectionUnionType.Unknown
+  - CRMScript.NetServer.SelectionUnionType.SubtractRightFromLeft
+  - CRMScript.NetServer.SelectionUnionType.SubtractLeftFromRight
+  - CRMScript.NetServer.SelectionUnionType.Intersect
+  - CRMScript.NetServer.SelectionUnionType.XOR
+  - CRMScript.NetServer.SelectionUnionType.Union
+  name: SelectionUnionType
+  nameWithType: SelectionUnionType
+  fullName: CRMScript.NetServer.SelectionUnionType
+  type: Enum
+  summary: "\nHow the selections in a combined selections should be put together.\n"
+- uid: CRMScript.NetServer.SelectionUnionType.Unknown
+  commentId: F:CRMScript.NetServer.SelectionUnionType.Unknown
+  id: SelectionUnionType.Unknown
+  langs:
+  - crmscript
+  name: SelectionUnionType.Unknown
+  nameWithType: SelectionUnionType.Unknown
+  fullName: CRMScript.NetServer.SelectionUnionType.Unknown
+  type: Field
+  summary: "\n0: Combination type is unknown/undefined\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.SelectionUnionType
+- uid: CRMScript.NetServer.SelectionUnionType.SubtractRightFromLeft
+  commentId: F:CRMScript.NetServer.SelectionUnionType.SubtractRightFromLeft
+  id: SelectionUnionType.SubtractRightFromLeft
+  langs:
+  - crmscript
+  name: SelectionUnionType.SubtractRightFromLeft
+  nameWithType: SelectionUnionType.SubtractRightFromLeft
+  fullName: CRMScript.NetServer.SelectionUnionType.SubtractRightFromLeft
+  type: Field
+  summary: "\n1: All of left, except where it overlaps with right\n"
+  syntax: 
+    content: SubtractRightFromLeft = 1
+    type: CRMScript.NetServer.SelectionUnionType
+- uid: CRMScript.NetServer.SelectionUnionType.SubtractLeftFromRight
+  commentId: F:CRMScript.NetServer.SelectionUnionType.SubtractLeftFromRight
+  id: SelectionUnionType.SubtractLeftFromRight
+  langs:
+  - crmscript
+  name: SelectionUnionType.SubtractLeftFromRight
+  nameWithType: SelectionUnionType.SubtractLeftFromRight
+  fullName: CRMScript.NetServer.SelectionUnionType.SubtractLeftFromRight
+  type: Field
+  summary: "\n2: All of right, except where it overlaps with left\n"
+  syntax: 
+    content: SubtractLeftFromRight = 2
+    type: CRMScript.NetServer.SelectionUnionType
+- uid: CRMScript.NetServer.SelectionUnionType.Intersect
+  commentId: F:CRMScript.NetServer.SelectionUnionType.Intersect
+  id: SelectionUnionType.Intersect
+  langs:
+  - crmscript
+  name: SelectionUnionType.Intersect
+  nameWithType: SelectionUnionType.Intersect
+  fullName: CRMScript.NetServer.SelectionUnionType.Intersect
+  type: Field
+  summary: "\n3: Those present in left AND right only\n"
+  syntax: 
+    content: Intersect = 3
+    type: CRMScript.NetServer.SelectionUnionType
+- uid: CRMScript.NetServer.SelectionUnionType.XOR
+  commentId: F:CRMScript.NetServer.SelectionUnionType.XOR
+  id: SelectionUnionType.XOR
+  langs:
+  - crmscript
+  name: SelectionUnionType.XOR
+  nameWithType: SelectionUnionType.XOR
+  fullName: CRMScript.NetServer.SelectionUnionType.XOR
+  type: Field
+  summary: "\n4: Those present in left or right, but not both.\n"
+  syntax: 
+    content: XOR = 4
+    type: CRMScript.NetServer.SelectionUnionType
+- uid: CRMScript.NetServer.SelectionUnionType.Union
+  commentId: F:CRMScript.NetServer.SelectionUnionType.Union
+  id: SelectionUnionType.Union
+  langs:
+  - crmscript
+  name: SelectionUnionType.Union
+  nameWithType: SelectionUnionType.Union
+  fullName: CRMScript.NetServer.SelectionUnionType.Union
+  type: Field
+  summary: "\n5: All, but no duplicates for those present in left and right.\n"
+  syntax: 
+    content: Union = 5
+    type: CRMScript.NetServer.SelectionUnionType
+references:
+- uid: CRMScript.NetServer.SelectionUnionType
+  commentId: T:CRMScript.NetServer.SelectionUnionType
+  isExternal: true
+  name: SelectionUnionType
+  nameWithType: SelectionUnionType
+  fullName: CRMScript.NetServer.SelectionUnionType

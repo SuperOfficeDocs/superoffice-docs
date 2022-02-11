@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoIndenter
+  commentId: T:SuperOffice.Web.UI.Controls.SoIndenter
+  id: SoIndenter
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoIndenter.#ctor
+  - SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth
+  - SuperOffice.Web.UI.Controls.SoIndenter.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: SoIndenter
+  nameWithType: SoIndenter
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoIndenter : Control'
+    content.vb: >-
+      Public Class SoIndenter
+          Inherits Control
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoIndenter.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoIndenter.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoIndenter
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoIndenter.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoIndenter.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoIndenter.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoIndenter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoIndenter
+  langs:
+  - csharp
+  - vb
+  name: SoIndenter()
+  nameWithType: SoIndenter.SoIndenter()
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter.SoIndenter()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoIndenter()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoIndenter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth
+  id: IndentWidth
+  parent: SuperOffice.Web.UI.Controls.SoIndenter
+  langs:
+  - csharp
+  - vb
+  name: IndentWidth
+  nameWithType: SoIndenter.IndentWidth
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public Unit IndentWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property IndentWidth As Unit
+  overload: SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoIndenter.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoIndenter.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoIndenter.Render
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoIndenter.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoIndenter.#ctor
+  isExternal: true
+  name: SoIndenter
+  nameWithType: SoIndenter.SoIndenter
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter.SoIndenter
+- uid: SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth
+  isExternal: true
+  name: IndentWidth
+  nameWithType: SoIndenter.IndentWidth
+  fullName: SuperOffice.Web.UI.Controls.SoIndenter.IndentWidth
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit

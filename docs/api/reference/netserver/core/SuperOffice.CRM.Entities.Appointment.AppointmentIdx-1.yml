@@ -1,0 +1,1201 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  id: Appointment.AppointmentIdx`1
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.#ctor(`0)
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
+  langs:
+  - csharp
+  - vb
+  name: Appointment.AppointmentIdx<TIdx>
+  nameWithType: Appointment.AppointmentIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: 'public abstract class AppointmentIdx<TIdx> : Appointment.AppointmentIdx, ISentryIgnorable where TIdx : AppointmentRow.AppointmentRowIdx'
+    typeParameters:
+    - id: TIdx
+    content.vb: >-
+      Public MustInherit Class AppointmentIdx(Of TIdx As AppointmentRow.AppointmentRowIdx)
+          Inherits Appointment.AppointmentIdx
+          Implements ISentryIgnorable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Entities.EntityIdxBase
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  derivedClasses:
+  - SuperOffice.CRM.Entities.Appointment.CustomSearch
+  - SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+  - SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+  - SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
+  - SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable
+  inheritedMembers:
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ProjectRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ContactRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.InvitedPersonRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TaskRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefSmallRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.RecurrenceRuleRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefLargeRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.AppointmentTextRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PersonRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PriorityRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UserGroupRelationTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PublishTableInfo
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.VisibleForTableInfo
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.TableInfo
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.RowIdx
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.JoinRestriction
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.ReturnFields
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.IsSentryIgnored
+  - SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: Appointment.AppointmentIdx(Of TIdx)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx)
+  name.vb: Appointment.AppointmentIdx(Of TIdx)
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.#ctor(`0)
+  commentId: M:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  langs:
+  - csharp
+  - vb
+  name: AppointmentIdx(TIdx)
+  nameWithType: Appointment.AppointmentIdx<TIdx>.AppointmentIdx(TIdx)
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>.AppointmentIdx(TIdx)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected AppointmentIdx(TIdx idx)
+    parameters:
+    - id: idx
+      type: '{TIdx}'
+    content.vb: Protected Sub New(idx As TIdx)
+  overload: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.#ctor*
+  nameWithType.vb: Appointment.AppointmentIdx(Of TIdx).AppointmentIdx(TIdx)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx).AppointmentIdx(TIdx)
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
+  id: RowIdx
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  langs:
+  - csharp
+  - vb
+  name: RowIdx
+  nameWithType: Appointment.AppointmentIdx<TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>.RowIdx
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public TIdx RowIdx { get; }
+    parameters: []
+    return:
+      type: '{TIdx}'
+    content.vb: Public ReadOnly Property RowIdx As TIdx
+  overload: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx*
+  nameWithType.vb: Appointment.AppointmentIdx(Of TIdx).RowIdx
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx).RowIdx
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Entities.EntityIdxBase
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityIdxBase
+  nameWithType: EntityIdxBase
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  parent: SuperOffice.CRM.Entities
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2
+  name: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase)
+  name.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
+    name: AppointmentRow.AppointmentRowIdxBase
+    nameWithType: AppointmentRow.AppointmentRowIdxBase
+    fullName: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
+    name: AppointmentRow.AppointmentRowIdxBase
+    nameWithType: AppointmentRow.AppointmentRowIdxBase
+    fullName: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment.AppointmentIdxBase
+  nameWithType: Appointment.AppointmentIdxBase
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment.AppointmentIdx
+  nameWithType: Appointment.AppointmentIdx
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+- uid: SuperOffice.CRM.Security.ISentryIgnorable
+  commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ISentryIgnorable
+  nameWithType: ISentryIgnorable
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+  commentId: M:SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  isExternal: true
+  name: ToAppointment()
+  nameWithType: Appointment.AppointmentIdx.ToAppointment()
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+    name: ToAppointment
+    nameWithType: Appointment.AppointmentIdx.ToAppointment
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+    name: ToAppointment
+    nameWithType: Appointment.AppointmentIdx.ToAppointment
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.ToAppointment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ProjectRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ProjectRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: ProjectRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.ProjectRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ProjectRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ContactRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ContactRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: ContactRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.ContactRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.ContactRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.InvitedPersonRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.InvitedPersonRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: InvitedPersonRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.InvitedPersonRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.InvitedPersonRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TaskRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TaskRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: TaskRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.TaskRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TaskRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefSmallRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefSmallRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: UdefSmallRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.UdefSmallRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefSmallRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.RecurrenceRuleRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.RecurrenceRuleRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: RecurrenceRuleRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.RecurrenceRuleRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.RecurrenceRuleRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefLargeRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefLargeRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: UdefLargeRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.UdefLargeRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UdefLargeRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.AppointmentTextRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.AppointmentTextRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: AppointmentTextRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.AppointmentTextRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.AppointmentTextRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PersonRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PersonRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: PersonRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.PersonRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PersonRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PriorityRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PriorityRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: PriorityRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.PriorityRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PriorityRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UserGroupRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UserGroupRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: UserGroupRelationTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.UserGroupRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.UserGroupRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: TableInfo
+  nameWithType: Appointment.AppointmentIdxBase.TableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.TableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PublishTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PublishTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: PublishTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.PublishTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.PublishTableInfo
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.VisibleForTableInfo
+  parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: Appointment.AppointmentIdxBase.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.VisibleForTableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.BeginIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).BeginIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.EndIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).EndIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.TableInfo
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  name: TableInfo
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.TableInfo
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.TableInfo
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).TableInfo
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.RowIdx
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  name: RowIdx
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.RowIdx
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.RowIdx
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).RowIdx
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.JoinRestriction
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.JoinRestriction
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  name: JoinRestriction
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.JoinRestriction
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.JoinRestriction
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).JoinRestriction
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).JoinRestriction
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.ReturnFields
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.ReturnFields
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  name: ReturnFields
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.ReturnFields
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.ReturnFields
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).ReturnFields
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).ReturnFields
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}.IsSentryIgnored
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>.IsSentryIgnored
+  nameWithType.vb: EntityIdxBase(Of AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase).IsSentryIgnored
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase).IsSentryIgnored
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Appointment.AppointmentIdx<TIdx>, To>()
+  nameWithType: EnumUtil.MapEnums<Appointment.AppointmentIdx<TIdx>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx), To)()
+  name.vb: MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Appointment.AppointmentIdx<TIdx>, To>
+    nameWithType: EnumUtil.MapEnums<Appointment.AppointmentIdx<TIdx>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)
+    nameWithType: EnumUtil.MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Appointment.AppointmentIdx<TIdx>, To>()
+  nameWithType: Converters.MapEnums<Appointment.AppointmentIdx<TIdx>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>, To>()
+  nameWithType.vb: Converters.MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx), To)()
+  name.vb: MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Appointment.AppointmentIdx<TIdx>, To>
+    nameWithType: Converters.MapEnums<Appointment.AppointmentIdx<TIdx>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)
+    nameWithType: Converters.MapEnums(Of Appointment.AppointmentIdx(Of TIdx), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
+  isExternal: true
+  name: EntityIdxBase<TTableInfo, TIdx>
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx)
+  name.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.TableInfo
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.TableInfo
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).TableInfo
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  isExternal: true
+  name: RowIdx
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.RowIdx
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).RowIdx
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  isExternal: true
+  name: JoinRestriction
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.JoinRestriction
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.JoinRestriction
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).JoinRestriction
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).JoinRestriction
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  isExternal: true
+  name: ReturnFields
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.ReturnFields
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.ReturnFields
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).ReturnFields
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).ReturnFields
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.IsSentryIgnored
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).IsSentryIgnored
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).IsSentryIgnored
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.#ctor
+  isExternal: true
+  name: AppointmentIdx
+  nameWithType: Appointment.AppointmentIdx<TIdx>.AppointmentIdx
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>.AppointmentIdx
+  nameWithType.vb: Appointment.AppointmentIdx(Of TIdx).AppointmentIdx
+  fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx).AppointmentIdx
+- uid: '{TIdx}'
+  commentId: '!:TIdx'
+  definition: TIdx
+  name: TIdx
+  nameWithType: TIdx
+  fullName: TIdx
+- uid: TIdx
+  name: TIdx
+  nameWithType: TIdx
+  fullName: TIdx
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
+  isExternal: true
+  name: RowIdx
+  nameWithType: Appointment.AppointmentIdx<TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>.RowIdx
+  nameWithType.vb: Appointment.AppointmentIdx(Of TIdx).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx).RowIdx

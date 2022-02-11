@@ -1,0 +1,12 @@
+digraph role_workflow  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+role_workflow[fillcolor = "cadetblue1"]
+ej_role[fillcolor = "azure1"]
+kb_workflow[fillcolor = "azure1"]
+Role[fillcolor = "azure1"]
+role_workflow -> ej_role [headlabel = "role"]
+role_workflow -> kb_workflow [headlabel = "workflow_id"]
+role_workflow -> Role [headlabel = "crm_role"]
+}

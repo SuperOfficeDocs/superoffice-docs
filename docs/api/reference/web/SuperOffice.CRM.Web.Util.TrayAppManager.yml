@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager
+  commentId: T:SuperOffice.CRM.Web.Util.TrayAppManager
+  id: TrayAppManager
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.TrayAppManager.#ctor
+  - SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32)
+  - SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32,System.String)
+  - SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl(System.Int32)
+  - SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient(System.String)
+  - SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig
+  - SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl(System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: TrayAppManager
+  nameWithType: TrayAppManager
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class TrayAppManager
+    content.vb: Public Class TrayAppManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: TrayAppManager()
+  nameWithType: TrayAppManager.TrayAppManager()
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.TrayAppManager()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public TrayAppManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32,System.String)
+  id: GetDocumentUrl(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl(Int32, String)
+  nameWithType: TrayAppManager.GetDocumentUrl(Int32, String)
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetDocumentUrl(int documentId, string languageCode)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    - id: languageCode
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDocumentUrl(documentId As Integer, languageCode As String) As String
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32)
+  id: GetDocumentUrl(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl(Int32)
+  nameWithType: TrayAppManager.GetDocumentUrl(Int32)
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetDocumentUrl(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDocumentUrl(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl(System.Int32)
+  id: GetMacImportUrl(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: GetMacImportUrl(Int32)
+  nameWithType: TrayAppManager.GetMacImportUrl(Int32)
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetMacImportUrl(int batchId)
+    parameters:
+    - id: batchId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetMacImportUrl(batchId As Integer) As String
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl(System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl(System.String,System.String[])
+  id: GetUrl(System.String,System.String[])
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: GetUrl(String, String[])
+  nameWithType: TrayAppManager.GetUrl(String, String[])
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl(System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetUrl(string moduleName, params string[] namesValues)
+    parameters:
+    - id: moduleName
+      type: System.String
+    - id: namesValues
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUrl(moduleName As String, ParamArray namesValues As String()) As String
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl*
+  nameWithType.vb: TrayAppManager.GetUrl(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl(System.String, System.String())
+  name.vb: GetUrl(String, String())
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient(System.String)
+  id: GetMailClient(System.String)
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: GetMailClient(String)
+  nameWithType: TrayAppManager.GetMailClient(String)
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetMailClient(string mailClientIdString = null)
+    parameters:
+    - id: mailClientIdString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetMailClient(mailClientIdString As String = Nothing) As String
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig
+  commentId: M:SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig
+  id: GetSoConfig
+  parent: SuperOffice.CRM.Web.Util.TrayAppManager
+  langs:
+  - csharp
+  - vb
+  name: GetSoConfig()
+  nameWithType: TrayAppManager.GetSoConfig()
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static SoConfig GetSoConfig()
+    return:
+      type: SuperOffice.WebTools.Core.SoConfig
+    content.vb: Public Shared Function GetSoConfig As SoConfig
+  overload: SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.TrayAppManager.#ctor
+  isExternal: true
+  name: TrayAppManager
+  nameWithType: TrayAppManager.TrayAppManager
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.TrayAppManager
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl
+  isExternal: true
+  name: GetDocumentUrl
+  nameWithType: TrayAppManager.GetDocumentUrl
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetDocumentUrl
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl
+  isExternal: true
+  name: GetMacImportUrl
+  nameWithType: TrayAppManager.GetMacImportUrl
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetMacImportUrl
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl
+  isExternal: true
+  name: GetUrl
+  nameWithType: TrayAppManager.GetUrl
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetUrl
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient*
+  commentId: Overload:SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient
+  isExternal: true
+  name: GetMailClient
+  nameWithType: TrayAppManager.GetMailClient
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetMailClient
+- uid: SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig*
+  commentId: Overload:SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig
+  isExternal: true
+  name: GetSoConfig
+  nameWithType: TrayAppManager.GetSoConfig
+  fullName: SuperOffice.CRM.Web.Util.TrayAppManager.GetSoConfig
+- uid: SuperOffice.WebTools.Core.SoConfig
+  commentId: '!:SuperOffice.WebTools.Core.SoConfig'
+  isExternal: true
+  name: SoConfig
+  nameWithType: SoConfig
+  fullName: SuperOffice.WebTools.Core.SoConfig

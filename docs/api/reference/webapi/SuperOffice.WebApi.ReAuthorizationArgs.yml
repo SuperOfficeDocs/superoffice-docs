@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.ReAuthorizationArgs
+  commentId: T:SuperOffice.WebApi.ReAuthorizationArgs
+  id: ReAuthorizationArgs
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.ReAuthorizationArgs.#ctor(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpClient,SuperOffice.Exceptions.WebApiUnauthorizedException,System.String)
+  - SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl
+  - SuperOffice.WebApi.ReAuthorizationArgs.Client
+  - SuperOffice.WebApi.ReAuthorizationArgs.Exception
+  - SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage
+  langs:
+  - csharp
+  - vb
+  name: ReAuthorizationArgs
+  nameWithType: ReAuthorizationArgs
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nUsed to contain required types when authorization is refreshed.\n"
+  syntax:
+    content: 'public class ReAuthorizationArgs : Object'
+    content.vb: >-
+      Public Class ReAuthorizationArgs
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.#ctor(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpClient,SuperOffice.Exceptions.WebApiUnauthorizedException,System.String)
+  commentId: M:SuperOffice.WebApi.ReAuthorizationArgs.#ctor(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpClient,SuperOffice.Exceptions.WebApiUnauthorizedException,System.String)
+  id: '#ctor(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpClient,SuperOffice.Exceptions.WebApiUnauthorizedException,System.String)'
+  parent: SuperOffice.WebApi.ReAuthorizationArgs
+  langs:
+  - csharp
+  - vb
+  name: ReAuthorizationArgs(HttpRequestMessage, HttpClient, WebApiUnauthorizedException, String)
+  nameWithType: ReAuthorizationArgs.ReAuthorizationArgs(HttpRequestMessage, HttpClient, WebApiUnauthorizedException, String)
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.ReAuthorizationArgs(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpClient, SuperOffice.Exceptions.WebApiUnauthorizedException, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConstructor\n"
+  syntax:
+    content: public ReAuthorizationArgs(HttpRequestMessage requestMessage, HttpClient client, WebApiUnauthorizedException exception, string baseUrl)
+    parameters:
+    - id: requestMessage
+      type: System.Net.Http.HttpRequestMessage
+      description: Originating request.
+    - id: client
+      type: System.Net.Http.HttpClient
+      description: HttpClient for backchannel communications.
+    - id: exception
+      type: SuperOffice.Exceptions.WebApiUnauthorizedException
+      description: Exception that triggered the refresh event.
+    - id: baseUrl
+      type: System.String
+      description: Base URL of Netserver WebApi.
+    content.vb: Public Sub New(requestMessage As HttpRequestMessage, client As HttpClient, exception As WebApiUnauthorizedException, baseUrl As String)
+  overload: SuperOffice.WebApi.ReAuthorizationArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage
+  commentId: P:SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage
+  id: RequestMessage
+  parent: SuperOffice.WebApi.ReAuthorizationArgs
+  langs:
+  - csharp
+  - vb
+  name: RequestMessage
+  nameWithType: ReAuthorizationArgs.RequestMessage
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nOriginating request.\n"
+  syntax:
+    content: public HttpRequestMessage RequestMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Net.Http.HttpRequestMessage
+    content.vb: Public Property RequestMessage As HttpRequestMessage
+  overload: SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.Client
+  commentId: P:SuperOffice.WebApi.ReAuthorizationArgs.Client
+  id: Client
+  parent: SuperOffice.WebApi.ReAuthorizationArgs
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: ReAuthorizationArgs.Client
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.Client
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nHttpClient for backchannel communications.\n"
+  syntax:
+    content: public HttpClient Client { get; set; }
+    parameters: []
+    return:
+      type: System.Net.Http.HttpClient
+    content.vb: Public Property Client As HttpClient
+  overload: SuperOffice.WebApi.ReAuthorizationArgs.Client*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.Exception
+  commentId: P:SuperOffice.WebApi.ReAuthorizationArgs.Exception
+  id: Exception
+  parent: SuperOffice.WebApi.ReAuthorizationArgs
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: ReAuthorizationArgs.Exception
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.Exception
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nException that triggered the refresh event.\n"
+  syntax:
+    content: public WebApiUnauthorizedException Exception { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Exceptions.WebApiUnauthorizedException
+    content.vb: Public Property Exception As WebApiUnauthorizedException
+  overload: SuperOffice.WebApi.ReAuthorizationArgs.Exception*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl
+  commentId: P:SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl
+  id: BaseUrl
+  parent: SuperOffice.WebApi.ReAuthorizationArgs
+  langs:
+  - csharp
+  - vb
+  name: BaseUrl
+  nameWithType: ReAuthorizationArgs.BaseUrl
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nBase URL of Netserver\n"
+  syntax:
+    content: public string BaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BaseUrl As String
+  overload: SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.#ctor*
+  commentId: Overload:SuperOffice.WebApi.ReAuthorizationArgs.#ctor
+  isExternal: true
+  name: ReAuthorizationArgs
+  nameWithType: ReAuthorizationArgs.ReAuthorizationArgs
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.ReAuthorizationArgs
+- uid: System.Net.Http.HttpRequestMessage
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException
+  commentId: T:SuperOffice.Exceptions.WebApiUnauthorizedException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: WebApiUnauthorizedException
+  nameWithType: WebApiUnauthorizedException
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage*
+  commentId: Overload:SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage
+  isExternal: true
+  name: RequestMessage
+  nameWithType: ReAuthorizationArgs.RequestMessage
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.RequestMessage
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.Client*
+  commentId: Overload:SuperOffice.WebApi.ReAuthorizationArgs.Client
+  isExternal: true
+  name: Client
+  nameWithType: ReAuthorizationArgs.Client
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.Client
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.Exception*
+  commentId: Overload:SuperOffice.WebApi.ReAuthorizationArgs.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: ReAuthorizationArgs.Exception
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.Exception
+- uid: SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl*
+  commentId: Overload:SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl
+  isExternal: true
+  name: BaseUrl
+  nameWithType: ReAuthorizationArgs.BaseUrl
+  fullName: SuperOffice.WebApi.ReAuthorizationArgs.BaseUrl

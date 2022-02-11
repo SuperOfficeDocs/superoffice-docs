@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  id: License_GetModuleLicenseHistoryFromLicenseServerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.#ctor
+  - SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  - SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: License_GetModuleLicenseHistoryFromLicenseServerRequest
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_GetModuleLicenseHistoryFromLicenseServerRequest : Object'
+    content.vb: >-
+      Public Class License_GetModuleLicenseHistoryFromLicenseServerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  langs:
+  - csharp
+  - vb
+  name: License_GetModuleLicenseHistoryFromLicenseServerRequest()
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest.License_GetModuleLicenseHistoryFromLicenseServerRequest()
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.License_GetModuleLicenseHistoryFromLicenseServerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_GetModuleLicenseHistoryFromLicenseServerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  commentId: P:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  id: LicenseInfo
+  parent: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  langs:
+  - csharp
+  - vb
+  name: LicenseInfo
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ExtendedLicenseInfo LicenseInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    content.vb: Public Property LicenseInfo As ExtendedLicenseInfo
+  overload: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  commentId: P:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  id: ModuleLicense
+  parent: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicense
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ExtendedModuleLicense ModuleLicense { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ExtendedModuleLicense
+    content.vb: Public Property ModuleLicense As ExtendedModuleLicense
+  overload: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.#ctor
+  isExternal: true
+  name: License_GetModuleLicenseHistoryFromLicenseServerRequest
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest.License_GetModuleLicenseHistoryFromLicenseServerRequest
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.License_GetModuleLicenseHistoryFromLicenseServerRequest
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.LicenseInfo
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  commentId: T:SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+- uid: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  isExternal: true
+  name: ModuleLicense
+  nameWithType: License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+  fullName: SuperOffice.WebApi.Data.License_GetModuleLicenseHistoryFromLicenseServerRequest.ModuleLicense
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  commentId: T:SuperOffice.WebApi.Data.ExtendedModuleLicense
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense

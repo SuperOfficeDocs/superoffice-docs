@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Role
+  commentId: T:SuperOffice.WebApi.Data.Role
+  id: Role
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Role.#ctor
+  - SuperOffice.WebApi.Data.Role.Id
+  - SuperOffice.WebApi.Data.Role.Tooltip
+  - SuperOffice.WebApi.Data.Role.Value
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: Role
+  fullName: SuperOffice.WebApi.Data.Role
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Role.\nUsers role for role-based security    \n"
+  example:
+  - "\nGet Role 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new UserAgent(configuration);\nvar role = agent.GetRole( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Role : Carrier'
+    content.vb: >-
+      Public Class Role
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Role.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Role.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Role
+  langs:
+  - csharp
+  - vb
+  name: Role()
+  nameWithType: Role.Role()
+  fullName: SuperOffice.WebApi.Data.Role.Role()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Role()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Role.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Role.Id
+  commentId: P:SuperOffice.WebApi.Data.Role.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Role
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Role.Id
+  fullName: SuperOffice.WebApi.Data.Role.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Role.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Role.Value
+  commentId: P:SuperOffice.WebApi.Data.Role.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.Role
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Role.Value
+  fullName: SuperOffice.WebApi.Data.Role.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.Role.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Role.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.Role.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.Role
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: Role.Tooltip
+  fullName: SuperOffice.WebApi.Data.Role.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.Role.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Role.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Role.#ctor
+  isExternal: true
+  name: Role
+  nameWithType: Role.Role
+  fullName: SuperOffice.WebApi.Data.Role.Role
+- uid: SuperOffice.WebApi.Data.Role.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Role.Id
+  isExternal: true
+  name: Id
+  nameWithType: Role.Id
+  fullName: SuperOffice.WebApi.Data.Role.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Role.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.Role.Value
+  isExternal: true
+  name: Value
+  nameWithType: Role.Value
+  fullName: SuperOffice.WebApi.Data.Role.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Role.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.Role.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: Role.Tooltip
+  fullName: SuperOffice.WebApi.Data.Role.Tooltip

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.FilterPhase
+  commentId: T:SuperOffice.DCF.Web.UI.FilterPhase
+  id: FilterPhase
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.FilterPhase.Post
+  - SuperOffice.DCF.Web.UI.FilterPhase.Pre
+  - SuperOffice.DCF.Web.UI.FilterPhase.PreCache
+  langs:
+  - csharp
+  - vb
+  name: FilterPhase
+  nameWithType: FilterPhase
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum FilterPhase
+    content.vb: Public Enum FilterPhase
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.FilterPhase.Pre
+  commentId: F:SuperOffice.DCF.Web.UI.FilterPhase.Pre
+  id: Pre
+  parent: SuperOffice.DCF.Web.UI.FilterPhase
+  langs:
+  - csharp
+  - vb
+  name: Pre
+  nameWithType: FilterPhase.Pre
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase.Pre
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Pre = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.FilterPhase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.FilterPhase.Post
+  commentId: F:SuperOffice.DCF.Web.UI.FilterPhase.Post
+  id: Post
+  parent: SuperOffice.DCF.Web.UI.FilterPhase
+  langs:
+  - csharp
+  - vb
+  name: Post
+  nameWithType: FilterPhase.Post
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase.Post
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Post = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.FilterPhase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.FilterPhase.PreCache
+  commentId: F:SuperOffice.DCF.Web.UI.FilterPhase.PreCache
+  id: PreCache
+  parent: SuperOffice.DCF.Web.UI.FilterPhase
+  langs:
+  - csharp
+  - vb
+  name: PreCache
+  nameWithType: FilterPhase.PreCache
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase.PreCache
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: PreCache = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.FilterPhase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.FilterPhase
+  commentId: T:SuperOffice.DCF.Web.UI.FilterPhase
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: FilterPhase
+  nameWithType: FilterPhase
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase

@@ -1,0 +1,11 @@
+digraph schedule  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+schedule[fillcolor = "cadetblue1"]
+scheduled_task[fillcolor = "azure1"]
+dbi_agent_schedule[fillcolor = "azure1"]
+schedule -> schedule [headlabel = "after_schedule_id"]
+scheduled_task -> schedule [label = "schedule_id"]
+dbi_agent_schedule -> schedule [label = "schedule_id"]
+}

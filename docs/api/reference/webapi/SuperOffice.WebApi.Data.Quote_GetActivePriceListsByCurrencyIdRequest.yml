@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest
+  id: Quote_GetActivePriceListsByCurrencyIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  - SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetActivePriceListsByCurrencyIdRequest
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetActivePriceListsByCurrencyIdRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetActivePriceListsByCurrencyIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetActivePriceListsByCurrencyIdRequest()
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest.Quote_GetActivePriceListsByCurrencyIdRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.Quote_GetActivePriceListsByCurrencyIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetActivePriceListsByCurrencyIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CurrencyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrencyId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.#ctor
+  isExternal: true
+  name: Quote_GetActivePriceListsByCurrencyIdRequest
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest.Quote_GetActivePriceListsByCurrencyIdRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.Quote_GetActivePriceListsByCurrencyIdRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.QuoteConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId
+  fullName: SuperOffice.WebApi.Data.Quote_GetActivePriceListsByCurrencyIdRequest.CurrencyId

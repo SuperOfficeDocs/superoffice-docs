@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.ROU
+  id: UserPreferenceStrings.ROU
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.LastGeneration
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.ROU
+  nameWithType: UserPreferenceStrings.ROU
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference keys Regeneration of StatusMonitors\n"
+  syntax:
+    content: 'public static class ROU : Object'
+    content.vb: >-
+      Public Module ROU
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.ROU.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "System"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "System"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.LastGeneration
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.LastGeneration
+  id: LastGeneration
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU
+  langs:
+  - csharp
+  - vb
+  name: LastGeneration
+  nameWithType: UserPreferenceStrings.ROU.LastGeneration
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ROU.LastGeneration
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast genetarion of monitors (and for SOAdmin, counters)\n"
+  syntax:
+    content: public const string LastGeneration = "ROULastCounterGeneration"
+    return:
+      type: System.String
+    content.vb: Public Const LastGeneration As String = "ROULastCounterGeneration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest
+  id: EMail_GetEMailAccountFromEMailAddressRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailAccountFromEMailAddressRequest
+  nameWithType: EMail_GetEMailAccountFromEMailAddressRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEMailAccountFromEMailAddressRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEMailAccountFromEMailAddressRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailAccountFromEMailAddressRequest()
+  nameWithType: EMail_GetEMailAccountFromEMailAddressRequest.EMail_GetEMailAccountFromEMailAddressRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.EMail_GetEMailAccountFromEMailAddressRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEMailAccountFromEMailAddressRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  id: FromAddress
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: FromAddress
+  nameWithType: EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FromAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FromAddress As String
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.#ctor
+  isExternal: true
+  name: EMail_GetEMailAccountFromEMailAddressRequest
+  nameWithType: EMail_GetEMailAccountFromEMailAddressRequest.EMail_GetEMailAccountFromEMailAddressRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.EMail_GetEMailAccountFromEMailAddressRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  isExternal: true
+  name: FromAddress
+  nameWithType: EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAccountFromEMailAddressRequest.FromAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

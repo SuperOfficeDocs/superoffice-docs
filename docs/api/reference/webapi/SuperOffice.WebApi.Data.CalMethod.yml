@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CalMethod
+  commentId: T:SuperOffice.WebApi.Data.CalMethod
+  id: CalMethod
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CalMethod.Add
+  - SuperOffice.WebApi.Data.CalMethod.Cancel
+  - SuperOffice.WebApi.Data.CalMethod.Counter
+  - SuperOffice.WebApi.Data.CalMethod.DeclineCounter
+  - SuperOffice.WebApi.Data.CalMethod.Publish
+  - SuperOffice.WebApi.Data.CalMethod.Refresh
+  - SuperOffice.WebApi.Data.CalMethod.Reply
+  - SuperOffice.WebApi.Data.CalMethod.Request
+  - SuperOffice.WebApi.Data.CalMethod.Unknown
+  - SuperOffice.WebApi.Data.CalMethod.value__
+  langs:
+  - csharp
+  - vb
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: SuperOffice.WebApi.Data.CalMethod
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValid iCal methods\n"
+  syntax:
+    content: 'public sealed class CalMethod : Enum'
+    content.vb: >-
+      Public NotInheritable Class CalMethod
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CalMethod.value__
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CalMethod.value__
+  fullName: SuperOffice.WebApi.Data.CalMethod.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CalMethod.Unknown
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CalMethod.Unknown
+  fullName: SuperOffice.WebApi.Data.CalMethod.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Method is not known\n"
+  syntax:
+    content: public const CalMethod Unknown
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Unknown As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Add
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Add
+  id: Add
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Add
+  nameWithType: CalMethod.Add
+  fullName: SuperOffice.WebApi.Data.CalMethod.Add
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Add one or more instances to an existing event.\n"
+  syntax:
+    content: public const CalMethod Add
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Add As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Cancel
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Cancel
+  id: Cancel
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: CalMethod.Cancel
+  fullName: SuperOffice.WebApi.Data.CalMethod.Cancel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Cancel one or more instances of an existing event.\n"
+  syntax:
+    content: public const CalMethod Cancel
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Cancel As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Counter
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Counter
+  id: Counter
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Counter
+  nameWithType: CalMethod.Counter
+  fullName: SuperOffice.WebApi.Data.CalMethod.Counter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Counter a REQUEST with an alternative proposal, Sent by an &apos;Attendee&apos; to the &apos;Organizer&apos;. \n"
+  syntax:
+    content: public const CalMethod Counter
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Counter As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.DeclineCounter
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.DeclineCounter
+  id: DeclineCounter
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: DeclineCounter
+  nameWithType: CalMethod.DeclineCounter
+  fullName: SuperOffice.WebApi.Data.CalMethod.DeclineCounter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Decline a counter proposal. Sent to an &apos;Attendee&apos; by the &apos;Organizer&apos;.\n"
+  syntax:
+    content: public const CalMethod DeclineCounter
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const DeclineCounter As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Publish
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Publish
+  id: Publish
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Publish
+  nameWithType: CalMethod.Publish
+  fullName: SuperOffice.WebApi.Data.CalMethod.Publish
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Post notification of an event. Used primarily as a method of advertising the existence of an event.\n"
+  syntax:
+    content: public const CalMethod Publish
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Publish As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Refresh
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Refresh
+  id: Refresh
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Refresh
+  nameWithType: CalMethod.Refresh
+  fullName: SuperOffice.WebApi.Data.CalMethod.Refresh
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: A request is sent to an &apos;Organizer&apos; by an &apos;Attendee&apos; asking for the latest version of an event to be resent to the requester.\n"
+  syntax:
+    content: public const CalMethod Refresh
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Refresh As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Reply
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Reply
+  id: Reply
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Reply
+  nameWithType: CalMethod.Reply
+  fullName: SuperOffice.WebApi.Data.CalMethod.Reply
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Reply to an event request. Clients may set their status (&apos;partstat&apos;) to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED.\n"
+  syntax:
+    content: public const CalMethod Reply
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Reply As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalMethod.Request
+  commentId: F:SuperOffice.WebApi.Data.CalMethod.Request
+  id: Request
+  parent: SuperOffice.WebApi.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: CalMethod.Request
+  fullName: SuperOffice.WebApi.Data.CalMethod.Request
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Make a request for an event. This is an explicit invitation to one or more &apos;Attendees&apos;. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH.\n"
+  syntax:
+    content: public const CalMethod Request
+    return:
+      type: SuperOffice.WebApi.Data.CalMethod
+    content.vb: Public Const Request As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CalMethod
+  commentId: T:SuperOffice.WebApi.Data.CalMethod
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: SuperOffice.WebApi.Data.CalMethod

@@ -1,0 +1,655 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpConnection
+  commentId: T:SuperOffice.WebApi.Data.ErpConnection
+  id: ErpConnection
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpConnection.#ctor
+  - SuperOffice.WebApi.Data.ErpConnection.Active
+  - SuperOffice.WebApi.Data.ErpConnection.AllAccess
+  - SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds
+  - SuperOffice.WebApi.Data.ErpConnection.ConfigFields
+  - SuperOffice.WebApi.Data.ErpConnection.ConnectionId
+  - SuperOffice.WebApi.Data.ErpConnection.Deleted
+  - SuperOffice.WebApi.Data.ErpConnection.DisplayDescription
+  - SuperOffice.WebApi.Data.ErpConnection.DisplayName
+  - SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId
+  - SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp
+  - SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds
+  langs:
+  - csharp
+  - vb
+  name: ErpConnection
+  nameWithType: ErpConnection
+  fullName: SuperOffice.WebApi.Data.ErpConnection
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpConnection.\nInformation about a connection to the ERP system.    \n"
+  syntax:
+    content: 'public class ErpConnection : Carrier'
+    content.vb: >-
+      Public Class ErpConnection
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpConnection.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpConnection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ErpConnection()
+  nameWithType: ErpConnection.ErpConnection()
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ErpConnection()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpConnection()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpConnection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpConnection.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId
+  id: ErpConnectorId
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectorId
+  nameWithType: ErpConnection.ErpConnectorId
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe connector that this connection should call\n"
+  syntax:
+    content: public virtual int ErpConnectorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectorId As Integer
+  overload: SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpConnection.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpConnection.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConnection name shown to user; multi-language support\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.ErpConnection.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.DisplayDescription
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: ErpConnection.DisplayDescription
+  fullName: SuperOffice.WebApi.Data.ErpConnection.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip/description shown to user; multi-language support\n"
+  syntax:
+    content: public virtual string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayDescription As String
+  overload: SuperOffice.WebApi.Data.ErpConnection.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.Active
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: ErpConnection.Active
+  fullName: SuperOffice.WebApi.Data.ErpConnection.Active
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this connection currently active\n"
+  syntax:
+    content: public virtual bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Active As Boolean
+  overload: SuperOffice.WebApi.Data.ErpConnection.Active*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.ConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.ConnectionId
+  id: ConnectionId
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: ErpConnection.ConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe GUID that uniquely identifies this connection; passed to the Connector in every call\n"
+  syntax:
+    content: public virtual string ConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ConnectionId As String
+  overload: SuperOffice.WebApi.Data.ErpConnection.ConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp
+  id: MostRecentTimestamp
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: MostRecentTimestamp
+  nameWithType: ErpConnection.MostRecentTimestamp
+  fullName: SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDatetime, transaction number or other identification of the point in time of the most-recently seen actor in the ERP system\n"
+  syntax:
+    content: public virtual string MostRecentTimestamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MostRecentTimestamp As String
+  overload: SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.ConfigFields
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.ConfigFields
+  id: ConfigFields
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ConfigFields
+  nameWithType: ErpConnection.ConfigFields
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ConfigFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe config fields needed to establish a connection to the connector\n"
+  syntax:
+    content: public virtual StringDictionary ConfigFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property ConfigFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.ErpConnection.ConfigFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.Deleted
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ErpConnection.Deleted
+  fullName: SuperOffice.WebApi.Data.ErpConnection.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, the connection has been deleted and should not be shown to the users.\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.ErpConnection.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.AllAccess
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.AllAccess
+  id: AllAccess
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: AllAccess
+  nameWithType: ErpConnection.AllAccess
+  fullName: SuperOffice.WebApi.Data.ErpConnection.AllAccess
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it\n"
+  syntax:
+    content: public virtual bool AllAccess { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AllAccess As Boolean
+  overload: SuperOffice.WebApi.Data.ErpConnection.AllAccess*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds
+  id: UserGroupAccessIds
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: UserGroupAccessIds
+  nameWithType: ErpConnection.UserGroupAccessIds
+  fullName: SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of ids containing usergroups that will have access to this connection.\n"
+  syntax:
+    content: public virtual int[] UserGroupAccessIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property UserGroupAccessIds As Integer()
+  overload: SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds
+  commentId: P:SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds
+  id: AssociateAccessIds
+  parent: SuperOffice.WebApi.Data.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: AssociateAccessIds
+  nameWithType: ErpConnection.AssociateAccessIds
+  fullName: SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of ids containing associates that will have access to this connection.\n"
+  syntax:
+    content: public virtual int[] AssociateAccessIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property AssociateAccessIds As Integer()
+  overload: SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpConnection.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.#ctor
+  isExternal: true
+  name: ErpConnection
+  nameWithType: ErpConnection.ErpConnection
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ErpConnection
+- uid: SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpConnection.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId
+  isExternal: true
+  name: ErpConnectorId
+  nameWithType: ErpConnection.ErpConnectorId
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ErpConnectorId
+- uid: SuperOffice.WebApi.Data.ErpConnection.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpConnection.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpConnection.DisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpConnection.DisplayDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: ErpConnection.DisplayDescription
+  fullName: SuperOffice.WebApi.Data.ErpConnection.DisplayDescription
+- uid: SuperOffice.WebApi.Data.ErpConnection.Active*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.Active
+  isExternal: true
+  name: Active
+  nameWithType: ErpConnection.Active
+  fullName: SuperOffice.WebApi.Data.ErpConnection.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpConnection.ConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.ConnectionId
+  isExternal: true
+  name: ConnectionId
+  nameWithType: ErpConnection.ConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ConnectionId
+- uid: SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp
+  isExternal: true
+  name: MostRecentTimestamp
+  nameWithType: ErpConnection.MostRecentTimestamp
+  fullName: SuperOffice.WebApi.Data.ErpConnection.MostRecentTimestamp
+- uid: SuperOffice.WebApi.Data.ErpConnection.ConfigFields*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.ConfigFields
+  isExternal: true
+  name: ConfigFields
+  nameWithType: ErpConnection.ConfigFields
+  fullName: SuperOffice.WebApi.Data.ErpConnection.ConfigFields
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.ErpConnection.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ErpConnection.Deleted
+  fullName: SuperOffice.WebApi.Data.ErpConnection.Deleted
+- uid: SuperOffice.WebApi.Data.ErpConnection.AllAccess*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.AllAccess
+  isExternal: true
+  name: AllAccess
+  nameWithType: ErpConnection.AllAccess
+  fullName: SuperOffice.WebApi.Data.ErpConnection.AllAccess
+- uid: SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds
+  isExternal: true
+  name: UserGroupAccessIds
+  nameWithType: ErpConnection.UserGroupAccessIds
+  fullName: SuperOffice.WebApi.Data.ErpConnection.UserGroupAccessIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds
+  isExternal: true
+  name: AssociateAccessIds
+  nameWithType: ErpConnection.AssociateAccessIds
+  fullName: SuperOffice.WebApi.Data.ErpConnection.AssociateAccessIds

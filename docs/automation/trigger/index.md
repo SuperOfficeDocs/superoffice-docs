@@ -63,5 +63,5 @@ With some minor tweaks, you can get better data quality by forcing the user inpu
 We often recommend the customers to use as much standard functionality as possible, but there are certain things that you'd want to customize - and luckily, we have triggers for that.
 
 <!-- Referenced links -->
-[1]: ../../../../crmscript/docs/fundamentals/syntax.md
-[2]: ../../../../crmscript/docs/api-reference/CRMScript.Event.Trigger.yml
+[1]: ../crmscript/fundamentals/syntax.md
+[2]: reference/CRMScript.Event.Trigger.yml

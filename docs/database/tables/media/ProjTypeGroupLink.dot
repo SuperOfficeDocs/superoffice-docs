@@ -1,0 +1,13 @@
+digraph ProjTypeGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProjTypeGroupLink[fillcolor = "cadetblue1"]
+ProjType[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ProjTypeGroupLink -> ProjType [headlabel = "projtype_id"]
+ProjTypeGroupLink -> UserGroup [headlabel = "group_id"]
+ProjTypeGroupLink -> associate [headlabel = "registered_associate_id"]
+ProjTypeGroupLink -> associate [label = "updated_associate_id"]
+}

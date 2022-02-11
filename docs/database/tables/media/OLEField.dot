@@ -1,0 +1,14 @@
+digraph OLEField  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+OLEField[fillcolor = "cadetblue1"]
+OLEView[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ReporterListDef[fillcolor = "azure1"]
+OLEField -> OLEView [headlabel = "OLEView_id"]
+OLEField -> associate [headlabel = "registered_associate_id"]
+OLEField -> associate [label = "updated_associate_id"]
+ReporterListDef -> OLEField [label = "oleFieldKey"]
+ReporterListDef -> OLEField [label = "oleFieldName"]
+}

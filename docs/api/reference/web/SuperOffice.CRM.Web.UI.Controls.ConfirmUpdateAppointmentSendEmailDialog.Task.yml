@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  id: ConfirmUpdateAppointmentSendEmailDialog.Task
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Move
+  - SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Resize
+  langs:
+  - csharp
+  - vb
+  name: ConfirmUpdateAppointmentSendEmailDialog.Task
+  nameWithType: ConfirmUpdateAppointmentSendEmailDialog.Task
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum Task
+    content.vb: Public Enum Task
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Move
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Move
+  id: Move
+  parent: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: ConfirmUpdateAppointmentSendEmailDialog.Task.Move
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Move
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Move = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Resize
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Resize
+  id: Resize
+  parent: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  langs:
+  - csharp
+  - vb
+  name: Resize
+  nameWithType: ConfirmUpdateAppointmentSendEmailDialog.Task.Resize
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task.Resize
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Resize = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ConfirmUpdateAppointmentSendEmailDialog.Task
+  nameWithType: ConfirmUpdateAppointmentSendEmailDialog.Task
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task

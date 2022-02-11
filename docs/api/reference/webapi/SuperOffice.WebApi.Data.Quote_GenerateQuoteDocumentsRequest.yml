@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  id: Quote_GenerateQuoteDocumentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  - SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  langs:
+  - csharp
+  - vb
+  name: Quote_GenerateQuoteDocumentsRequest
+  nameWithType: Quote_GenerateQuoteDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GenerateQuoteDocumentsRequest : Object'
+    content.vb: >-
+      Public Class Quote_GenerateQuoteDocumentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GenerateQuoteDocumentsRequest()
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.Quote_GenerateQuoteDocumentsRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.Quote_GenerateQuoteDocumentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GenerateQuoteDocumentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  id: EmailBodyTemplateId
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailBodyTemplateId
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailBodyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailBodyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  commentId: P:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  id: AttachMainDocument
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachMainDocument
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool AttachMainDocument { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AttachMainDocument As Boolean
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  id: QuotedProductsTemplateId
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: QuotedProductsTemplateId
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuotedProductsTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuotedProductsTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  commentId: P:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  id: IncludeAttachments
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeAttachments
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeAttachments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeAttachments As Boolean
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  commentId: P:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  id: RawMailSubject
+  parent: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: RawMailSubject
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RawMailSubject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RawMailSubject As String
+  overload: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.#ctor
+  isExternal: true
+  name: Quote_GenerateQuoteDocumentsRequest
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.Quote_GenerateQuoteDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.Quote_GenerateQuoteDocumentsRequest
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  isExternal: true
+  name: EmailBodyTemplateId
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.EmailBodyTemplateId
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  isExternal: true
+  name: AttachMainDocument
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.AttachMainDocument
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  isExternal: true
+  name: QuotedProductsTemplateId
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.QuotedProductsTemplateId
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  isExternal: true
+  name: IncludeAttachments
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.IncludeAttachments
+- uid: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  isExternal: true
+  name: RawMailSubject
+  nameWithType: Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+  fullName: SuperOffice.WebApi.Data.Quote_GenerateQuoteDocumentsRequest.RawMailSubject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

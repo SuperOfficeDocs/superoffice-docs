@@ -15,5 +15,5 @@ keywords: developer products, AI
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
-[11]: ../../../docs/license/expander-services/index.md
-[12]: ../../../docs/license/expander-services/tool-box.md
+[11]: ../../../docs/admin/license/expander-services/index.md
+[12]: ../../../docs/admin/license/expander-services/tool-box.md

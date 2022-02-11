@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  id: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.SoMessageBroker
+  - SuperOffice.Messaging.SoMessageClient
+  - SuperOffice.Messaging.SoMessageHandler
+  - SuperOffice.Messaging.SoMessageListener
+  - SuperOffice.Messaging.SoMessageListener.ListeningState
+  - SuperOffice.Messaging.SoMessageRecieved
+  - SuperOffice.Messaging.SoMessageServer
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.Messaging.SoMessageBroker
+  commentId: T:SuperOffice.Messaging.SoMessageBroker
+  isExternal: true
+  name: SoMessageBroker
+  nameWithType: SoMessageBroker
+  fullName: SuperOffice.Messaging.SoMessageBroker
+- uid: SuperOffice.Messaging.SoMessageClient
+  commentId: T:SuperOffice.Messaging.SoMessageClient
+  isExternal: true
+  name: SoMessageClient
+  nameWithType: SoMessageClient
+  fullName: SuperOffice.Messaging.SoMessageClient
+- uid: SuperOffice.Messaging.SoMessageHandler
+  commentId: T:SuperOffice.Messaging.SoMessageHandler
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: SoMessageHandler
+  nameWithType: SoMessageHandler
+  fullName: SuperOffice.Messaging.SoMessageHandler
+- uid: SuperOffice.Messaging.SoMessageRecieved
+  commentId: T:SuperOffice.Messaging.SoMessageRecieved
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: SoMessageRecieved
+  nameWithType: SoMessageRecieved
+  fullName: SuperOffice.Messaging.SoMessageRecieved
+- uid: SuperOffice.Messaging.SoMessageListener
+  commentId: T:SuperOffice.Messaging.SoMessageListener
+  isExternal: true
+  name: SoMessageListener
+  nameWithType: SoMessageListener
+  fullName: SuperOffice.Messaging.SoMessageListener
+- uid: SuperOffice.Messaging.SoMessageListener.ListeningState
+  commentId: T:SuperOffice.Messaging.SoMessageListener.ListeningState
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: SoMessageListener.ListeningState
+  nameWithType: SoMessageListener.ListeningState
+  fullName: SuperOffice.Messaging.SoMessageListener.ListeningState
+- uid: SuperOffice.Messaging.SoMessageServer
+  commentId: T:SuperOffice.Messaging.SoMessageServer
+  isExternal: true
+  name: SoMessageServer
+  nameWithType: SoMessageServer
+  fullName: SuperOffice.Messaging.SoMessageServer
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging

@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.JSONHelper
+  commentId: T:SuperOffice.DCF.Web.UI.JSONHelper
+  id: JSONHelper
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.JSONHelper.#ctor
+  - SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson(System.String,System.Type)
+  - SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString(System.Object)
+  - SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson(System.Object)
+  - SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape(System.Object)
+  - SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo(System.Object)
+  - SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: JSONHelper
+  nameWithType: JSONHelper
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public class JSONHelper
+    content.vb: Public Class JSONHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString(System.Object)
+  id: SerializeToJavascriptString(System.Object)
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: SerializeToJavascriptString(Object)
+  nameWithType: JSONHelper.SerializeToJavascriptString(Object)
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string SerializeToJavascriptString(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeToJavascriptString(obj As Object) As String
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson(System.String,System.Type)
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson(System.String,System.Type)
+  id: DeserializeFromJson(System.String,System.Type)
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: DeserializeFromJson(String, Type)
+  nameWithType: JSONHelper.DeserializeFromJson(String, Type)
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson(System.String, System.Type)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static object DeserializeFromJson(string JSONstring, Type type)
+    parameters:
+    - id: JSONstring
+      type: System.String
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Public Shared Function DeserializeFromJson(JSONstring As String, type As Type) As Object
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson(System.Object)
+  id: SerializeToJson(System.Object)
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: SerializeToJson(Object)
+  nameWithType: JSONHelper.SerializeToJson(Object)
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string SerializeToJson(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeToJson(obj As Object) As String
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape(System.Object)
+  id: SerializeToJsonHtmlEscape(System.Object)
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: SerializeToJsonHtmlEscape(Object)
+  nameWithType: JSONHelper.SerializeToJsonHtmlEscape(Object)
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string SerializeToJsonHtmlEscape(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeToJsonHtmlEscape(obj As Object) As String
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo(System.Object)
+  id: SerializeToJsonNoTypeInfo(System.Object)
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: SerializeToJsonNoTypeInfo(Object)
+  nameWithType: JSONHelper.SerializeToJsonNoTypeInfo(Object)
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string SerializeToJsonNoTypeInfo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeToJsonNoTypeInfo(obj As Object) As String
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly(System.Object)
+  id: SerializeToJsonReadOnly(System.Object)
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: SerializeToJsonReadOnly(Object)
+  nameWithType: JSONHelper.SerializeToJsonReadOnly(Object)
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string SerializeToJsonReadOnly(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeToJsonReadOnly(obj As Object) As String
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.JSONHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.JSONHelper
+  langs:
+  - csharp
+  - vb
+  name: JSONHelper()
+  nameWithType: JSONHelper.JSONHelper()
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.JSONHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public JSONHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.JSONHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString
+  isExternal: true
+  name: SerializeToJavascriptString
+  nameWithType: JSONHelper.SerializeToJavascriptString
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJavascriptString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson
+  isExternal: true
+  name: DeserializeFromJson
+  nameWithType: JSONHelper.DeserializeFromJson
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.DeserializeFromJson
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson
+  isExternal: true
+  name: SerializeToJson
+  nameWithType: JSONHelper.SerializeToJson
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJson
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape
+  isExternal: true
+  name: SerializeToJsonHtmlEscape
+  nameWithType: JSONHelper.SerializeToJsonHtmlEscape
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonHtmlEscape
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo
+  isExternal: true
+  name: SerializeToJsonNoTypeInfo
+  nameWithType: JSONHelper.SerializeToJsonNoTypeInfo
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonNoTypeInfo
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly
+  isExternal: true
+  name: SerializeToJsonReadOnly
+  nameWithType: JSONHelper.SerializeToJsonReadOnly
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.SerializeToJsonReadOnly
+- uid: SuperOffice.DCF.Web.UI.JSONHelper.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.JSONHelper.#ctor
+  isExternal: true
+  name: JSONHelper
+  nameWithType: JSONHelper.JSONHelper
+  fullName: SuperOffice.DCF.Web.UI.JSONHelper.JSONHelper

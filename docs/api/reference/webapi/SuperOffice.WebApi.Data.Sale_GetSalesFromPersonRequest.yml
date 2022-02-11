@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest
+  id: Sale_GetSalesFromPersonRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  - SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSalesFromPersonRequest
+  nameWithType: Sale_GetSalesFromPersonRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetSalesFromPersonRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetSalesFromPersonRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSalesFromPersonRequest()
+  nameWithType: Sale_GetSalesFromPersonRequest.Sale_GetSalesFromPersonRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.Sale_GetSalesFromPersonRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetSalesFromPersonRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Sale_GetSalesFromPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  id: OnlyOpenSales
+  parent: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: OnlyOpenSales
+  nameWithType: Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool OnlyOpenSales { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyOpenSales As Boolean
+  overload: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.#ctor
+  isExternal: true
+  name: Sale_GetSalesFromPersonRequest
+  nameWithType: Sale_GetSalesFromPersonRequest.Sale_GetSalesFromPersonRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.Sale_GetSalesFromPersonRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Sale_GetSalesFromPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  isExternal: true
+  name: OnlyOpenSales
+  nameWithType: Sale_GetSalesFromPersonRequest.OnlyOpenSales
+  fullName: SuperOffice.WebApi.Data.Sale_GetSalesFromPersonRequest.OnlyOpenSales
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

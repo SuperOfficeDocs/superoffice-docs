@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  id: UserPreferenceStrings.Quote
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.FollowupText
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.QuoteLineIsOptional
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseCompanyPostalAddressAsQuoteDeliveryAddress
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseDiscountOnTotal
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Quote
+  nameWithType: UserPreferenceStrings.Quote
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference keys for the quote system.\n"
+  syntax:
+    content: 'public static class Quote : Object'
+    content.vb: >-
+      Public Module Quote
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Quote.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Quote"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Quote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.QuoteLineIsOptional
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.QuoteLineIsOptional
+  id: QuoteLineIsOptional
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineIsOptional
+  nameWithType: UserPreferenceStrings.Quote.QuoteLineIsOptional
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.QuoteLineIsOptional
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuote lines can be optional. Hard default = true.\n"
+  syntax:
+    content: public const string QuoteLineIsOptional = "QuoteLineIsOptional"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLineIsOptional As String = "QuoteLineIsOptional"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseDiscountOnTotal
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseDiscountOnTotal
+  id: UseDiscountOnTotal
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  langs:
+  - csharp
+  - vb
+  name: UseDiscountOnTotal
+  nameWithType: UserPreferenceStrings.Quote.UseDiscountOnTotal
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseDiscountOnTotal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUse discount on Total Amount. Hard default = false.\n"
+  syntax:
+    content: public const string UseDiscountOnTotal = "UseDiscountOnTotal"
+    return:
+      type: System.String
+    content.vb: Public Const UseDiscountOnTotal As String = "UseDiscountOnTotal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.FollowupText
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.FollowupText
+  id: FollowupText
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  langs:
+  - csharp
+  - vb
+  name: FollowupText
+  nameWithType: UserPreferenceStrings.Quote.FollowupText
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.FollowupText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nText for a quote follow up. Hard default lives in SR_QUOTE_PUBLISH_FOLLOWUP_TEXT.\n"
+  syntax:
+    content: public const string FollowupText = "FollowupText"
+    return:
+      type: System.String
+    content.vb: Public Const FollowupText As String = "FollowupText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseCompanyPostalAddressAsQuoteDeliveryAddress
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseCompanyPostalAddressAsQuoteDeliveryAddress
+  id: UseCompanyPostalAddressAsQuoteDeliveryAddress
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote
+  langs:
+  - csharp
+  - vb
+  name: UseCompanyPostalAddressAsQuoteDeliveryAddress
+  nameWithType: UserPreferenceStrings.Quote.UseCompanyPostalAddressAsQuoteDeliveryAddress
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Quote.UseCompanyPostalAddressAsQuoteDeliveryAddress
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string UseCompanyPostalAddressAsQuoteDeliveryAddress = "UseCompanyPostalAddressAsQuoteDeliveryAddress"
+    return:
+      type: System.String
+    content.vb: Public Const UseCompanyPostalAddressAsQuoteDeliveryAddress As String = "UseCompanyPostalAddressAsQuoteDeliveryAddress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

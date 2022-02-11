@@ -1,0 +1,713 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.NextDateBase
+  commentId: T:SuperOffice.CRM.NextDateBase
+  id: NextDateBase
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.NextDateBase.#ctor
+  - SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
+  - SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
+  langs:
+  - csharp
+  - vb
+  name: NextDateBase
+  nameWithType: NextDateBase
+  fullName: SuperOffice.CRM.NextDateBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public abstract class NextDateBase
+    content.vb: Public MustInherit Class NextDateBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.NextDueDate
+  - SuperOffice.CRM.NextMilestone
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.NextDateBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.NextDateBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
+  commentId: M:SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
+  id: GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
+  parent: SuperOffice.CRM.NextDateBase
+  langs:
+  - csharp
+  - vb
+  name: GetOrderbyField(AppointmentTableInfo)
+  nameWithType: NextDateBase.GetOrderbyField(AppointmentTableInfo)
+  fullName: SuperOffice.CRM.NextDateBase.GetOrderbyField(SuperOffice.CRM.Data.AppointmentTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: protected abstract FieldInfo GetOrderbyField(AppointmentTableInfo tableInfo)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.CRM.Data.AppointmentTableInfo
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Protected MustOverride Function GetOrderbyField(tableInfo As AppointmentTableInfo) As FieldInfo
+  overload: SuperOffice.CRM.NextDateBase.GetOrderbyField*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
+  id: GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.NextDateBase
+  langs:
+  - csharp
+  - vb
+  name: GetQuery(AppointmentTableInfo, FieldInfo)
+  nameWithType: NextDateBase.GetQuery(AppointmentTableInfo, FieldInfo)
+  fullName: SuperOffice.CRM.NextDateBase.GetQuery(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nGets the query for fetching appointments for a given entity (sale/project)\n"
+  syntax:
+    content: protected Select GetQuery(AppointmentTableInfo appInfo, FieldInfo orderBy)
+    parameters:
+    - id: appInfo
+      type: SuperOffice.CRM.Data.AppointmentTableInfo
+      description: TableInfo for the appointment table
+    - id: orderBy
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: The id field corresponding to the PK of the entity in question (sale/project)
+    return:
+      type: SuperOffice.Data.SQL.Select
+      description: The query
+    content.vb: 'Protected Function GetQuery(appInfo As AppointmentTableInfo, orderBy As FieldInfo) As '
+  overload: SuperOffice.CRM.NextDateBase.GetQuery*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+  id: GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.CRM.NextDateBase
+  langs:
+  - csharp
+  - vb
+  name: GetNextDate(AppointmentTableInfo, FieldInfo, Restriction)
+  nameWithType: NextDateBase.GetNextDate(AppointmentTableInfo, FieldInfo, Restriction)
+  fullName: SuperOffice.CRM.NextDateBase.GetNextDate(SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Restriction)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: protected NextDateInfo GetNextDate(AppointmentTableInfo appInfo, FieldInfo orderBy, Restriction restriction)
+    parameters:
+    - id: appInfo
+      type: SuperOffice.CRM.Data.AppointmentTableInfo
+    - id: orderBy
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: restriction
+      type: SuperOffice.Data.SQL.Restriction
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+    content.vb: Protected Function GetNextDate(appInfo As AppointmentTableInfo, orderBy As FieldInfo, restriction As Restriction) As NextDateInfo
+  overload: SuperOffice.CRM.NextDateBase.GetNextDate*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.NextDateBase.#ctor
+  commentId: M:SuperOffice.CRM.NextDateBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.NextDateBase
+  langs:
+  - csharp
+  - vb
+  name: NextDateBase()
+  nameWithType: NextDateBase.NextDateBase()
+  fullName: SuperOffice.CRM.NextDateBase.NextDateBase()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: protected NextDateBase()
+    content.vb: Protected Sub New
+  overload: SuperOffice.CRM.NextDateBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.NextDateBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NextDateBase, To>()
+  nameWithType: EnumUtil.MapEnums<NextDateBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextDateBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NextDateBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.NextDateBase, To)()
+  name.vb: MapEnums(Of NextDateBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NextDateBase, To>
+    nameWithType: EnumUtil.MapEnums<NextDateBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.NextDateBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NextDateBase, To)
+    nameWithType: EnumUtil.MapEnums(Of NextDateBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.NextDateBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.NextDateBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NextDateBase, To>()
+  nameWithType: Converters.MapEnums<NextDateBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextDateBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of NextDateBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextDateBase, To)()
+  name.vb: MapEnums(Of NextDateBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NextDateBase, To>
+    nameWithType: Converters.MapEnums<NextDateBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.NextDateBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NextDateBase, To)
+    nameWithType: Converters.MapEnums(Of NextDateBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.NextDateBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.NextDateBase.GetOrderbyField*
+  commentId: Overload:SuperOffice.CRM.NextDateBase.GetOrderbyField
+  isExternal: true
+  name: GetOrderbyField
+  nameWithType: NextDateBase.GetOrderbyField
+  fullName: SuperOffice.CRM.NextDateBase.GetOrderbyField
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.AppointmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AppointmentTableInfo
+  nameWithType: AppointmentTableInfo
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.NextDateBase.GetQuery*
+  commentId: Overload:SuperOffice.CRM.NextDateBase.GetQuery
+  isExternal: true
+  name: GetQuery
+  nameWithType: NextDateBase.GetQuery
+  fullName: SuperOffice.CRM.NextDateBase.GetQuery
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.CRM.NextDateBase.GetNextDate*
+  commentId: Overload:SuperOffice.CRM.NextDateBase.GetNextDate
+  isExternal: true
+  name: GetNextDate
+  nameWithType: NextDateBase.GetNextDate
+  fullName: SuperOffice.CRM.NextDateBase.GetNextDate
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.NextDateInfo
+  commentId: T:SuperOffice.CRM.NextDateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: NextDateInfo
+  nameWithType: NextDateInfo
+  fullName: SuperOffice.CRM.NextDateInfo
+- uid: SuperOffice.CRM.NextDateBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.NextDateBase.#ctor
+  isExternal: true
+  name: NextDateBase
+  nameWithType: NextDateBase.NextDateBase
+  fullName: SuperOffice.CRM.NextDateBase.NextDateBase

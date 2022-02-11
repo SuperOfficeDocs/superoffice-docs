@@ -1,0 +1,1554 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Product
+  commentId: T:SuperOffice.WebApi.Data.Product
+  id: Product
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Product.#ctor
+  - SuperOffice.WebApi.Data.Product.Code
+  - SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
+  - SuperOffice.WebApi.Data.Product.Description
+  - SuperOffice.WebApi.Data.Product.ERPPriceListKey
+  - SuperOffice.WebApi.Data.Product.ERPProductKey
+  - SuperOffice.WebApi.Data.Product.ExtraField1
+  - SuperOffice.WebApi.Data.Product.ExtraField2
+  - SuperOffice.WebApi.Data.Product.ExtraField3
+  - SuperOffice.WebApi.Data.Product.ExtraField4
+  - SuperOffice.WebApi.Data.Product.ExtraField5
+  - SuperOffice.WebApi.Data.Product.ExtraInfo
+  - SuperOffice.WebApi.Data.Product.InAssortment
+  - SuperOffice.WebApi.Data.Product.InStock
+  - SuperOffice.WebApi.Data.Product.IsSubscription
+  - SuperOffice.WebApi.Data.Product.ItemNumber
+  - SuperOffice.WebApi.Data.Product.Name
+  - SuperOffice.WebApi.Data.Product.PriceUnit
+  - SuperOffice.WebApi.Data.Product.ProductCategoryKey
+  - SuperOffice.WebApi.Data.Product.ProductFamilyKey
+  - SuperOffice.WebApi.Data.Product.ProductId
+  - SuperOffice.WebApi.Data.Product.ProductTypeKey
+  - SuperOffice.WebApi.Data.Product.QuantityUnit
+  - SuperOffice.WebApi.Data.Product.RawExtraInfo
+  - SuperOffice.WebApi.Data.Product.Rights
+  - SuperOffice.WebApi.Data.Product.Rule
+  - SuperOffice.WebApi.Data.Product.SubscriptionUnit
+  - SuperOffice.WebApi.Data.Product.Supplier
+  - SuperOffice.WebApi.Data.Product.SupplierCode
+  - SuperOffice.WebApi.Data.Product.UnitCost
+  - SuperOffice.WebApi.Data.Product.UnitListPrice
+  - SuperOffice.WebApi.Data.Product.UnitMinimumPrice
+  - SuperOffice.WebApi.Data.Product.Url
+  - SuperOffice.WebApi.Data.Product.VAT
+  - SuperOffice.WebApi.Data.Product.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Product
+  fullName: SuperOffice.WebApi.Data.Product
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Product.\nInformation about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All Product: <pre><code>&quot;Product&quot;</code></pre>
+  example:
+  - "\nGet Product 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new QuoteAgent(configuration);\nvar product = agent.GetProduct( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Product : Carrier'
+    content.vb: >-
+      Public Class Product
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Product.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Product.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Product()
+  nameWithType: Product.Product()
+  fullName: SuperOffice.WebApi.Data.Product.Product()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Product()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Product.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Product.ProductId
+  commentId: P:SuperOffice.WebApi.Data.Product.ProductId
+  id: ProductId
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: Product.ProductId
+  fullName: SuperOffice.WebApi.Data.Product.ProductId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProductId As Integer
+  overload: SuperOffice.WebApi.Data.Product.ProductId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ERPProductKey
+  commentId: P:SuperOffice.WebApi.Data.Product.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: Product.ERPProductKey
+  fullName: SuperOffice.WebApi.Data.Product.ERPProductKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.\n"
+  syntax:
+    content: public virtual string ERPProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPProductKey As String
+  overload: SuperOffice.WebApi.Data.Product.ERPProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ERPPriceListKey
+  commentId: P:SuperOffice.WebApi.Data.Product.ERPPriceListKey
+  id: ERPPriceListKey
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ERPPriceListKey
+  nameWithType: Product.ERPPriceListKey
+  fullName: SuperOffice.WebApi.Data.Product.ERPPriceListKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForeign key to the price list that this product is a part of, or the primary key of the pricelist if this is a built-in pricelist.\n"
+  syntax:
+    content: public virtual string ERPPriceListKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPPriceListKey As String
+  overload: SuperOffice.WebApi.Data.Product.ERPPriceListKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Name
+  commentId: P:SuperOffice.WebApi.Data.Product.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Product.Name
+  fullName: SuperOffice.WebApi.Data.Product.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name to use in the user interface.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Product.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Description
+  commentId: P:SuperOffice.WebApi.Data.Product.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Product.Description
+  fullName: SuperOffice.WebApi.Data.Product.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Product.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Code
+  commentId: P:SuperOffice.WebApi.Data.Product.Code
+  id: Code
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: Product.Code
+  fullName: SuperOffice.WebApi.Data.Product.Code
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe product code / article number in the product supplier system.\n"
+  syntax:
+    content: public virtual string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Code As String
+  overload: SuperOffice.WebApi.Data.Product.Code*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.PriceUnit
+  commentId: P:SuperOffice.WebApi.Data.Product.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: Product.PriceUnit
+  fullName: SuperOffice.WebApi.Data.Product.PriceUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products\n"
+  syntax:
+    content: public virtual string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriceUnit As String
+  overload: SuperOffice.WebApi.Data.Product.PriceUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.QuantityUnit
+  commentId: P:SuperOffice.WebApi.Data.Product.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: Product.QuantityUnit
+  fullName: SuperOffice.WebApi.Data.Product.QuantityUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different\n"
+  syntax:
+    content: public virtual string QuantityUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property QuantityUnit As String
+  overload: SuperOffice.WebApi.Data.Product.QuantityUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.IsSubscription
+  commentId: P:SuperOffice.WebApi.Data.Product.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: Product.IsSubscription
+  fullName: SuperOffice.WebApi.Data.Product.IsSubscription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this a subscription product, sold in repeating intervals/amounts?\n"
+  syntax:
+    content: public virtual bool IsSubscription { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSubscription As Boolean
+  overload: SuperOffice.WebApi.Data.Product.IsSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.SubscriptionUnit
+  commentId: P:SuperOffice.WebApi.Data.Product.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: Product.SubscriptionUnit
+  fullName: SuperOffice.WebApi.Data.Product.SubscriptionUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.\n"
+  syntax:
+    content: public virtual string SubscriptionUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SubscriptionUnit As String
+  overload: SuperOffice.WebApi.Data.Product.SubscriptionUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
+  commentId: P:SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
+  id: DefaultSubscriptionQuantity
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: DefaultSubscriptionQuantity
+  nameWithType: Product.DefaultSubscriptionQuantity
+  fullName: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe default number of SubscriptionUnits to suggest when creating quote lines from this product\n"
+  syntax:
+    content: public virtual double DefaultSubscriptionQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DefaultSubscriptionQuantity As Double
+  overload: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ItemNumber
+  commentId: P:SuperOffice.WebApi.Data.Product.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: Product.ItemNumber
+  fullName: SuperOffice.WebApi.Data.Product.ItemNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLine item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way.\n"
+  syntax:
+    content: public virtual string ItemNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ItemNumber As String
+  overload: SuperOffice.WebApi.Data.Product.ItemNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Url
+  commentId: P:SuperOffice.WebApi.Data.Product.Url
+  id: Url
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: Product.Url
+  fullName: SuperOffice.WebApi.Data.Product.Url
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nURL to product information web page.\n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.WebApi.Data.Product.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ProductCategoryKey
+  commentId: P:SuperOffice.WebApi.Data.Product.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: Product.ProductCategoryKey
+  fullName: SuperOffice.WebApi.Data.Product.ProductCategoryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category.\n"
+  syntax:
+    content: public virtual string ProductCategoryKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductCategoryKey As String
+  overload: SuperOffice.WebApi.Data.Product.ProductCategoryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ProductFamilyKey
+  commentId: P:SuperOffice.WebApi.Data.Product.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: Product.ProductFamilyKey
+  fullName: SuperOffice.WebApi.Data.Product.ProductFamilyKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text with the actual product family.\n"
+  syntax:
+    content: public virtual string ProductFamilyKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductFamilyKey As String
+  overload: SuperOffice.WebApi.Data.Product.ProductFamilyKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ProductTypeKey
+  commentId: P:SuperOffice.WebApi.Data.Product.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: Product.ProductTypeKey
+  fullName: SuperOffice.WebApi.Data.Product.ProductTypeKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type.\n"
+  syntax:
+    content: public virtual string ProductTypeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductTypeKey As String
+  overload: SuperOffice.WebApi.Data.Product.ProductTypeKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.VAT
+  commentId: P:SuperOffice.WebApi.Data.Product.VAT
+  id: VAT
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: Product.VAT
+  fullName: SuperOffice.WebApi.Data.Product.VAT
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.\n"
+  syntax:
+    content: public virtual double VAT { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property VAT As Double
+  overload: SuperOffice.WebApi.Data.Product.VAT*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.VATInfo
+  commentId: P:SuperOffice.WebApi.Data.Product.VATInfo
+  id: VATInfo
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: Product.VATInfo
+  fullName: SuperOffice.WebApi.Data.Product.VATInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates.\n"
+  syntax:
+    content: public virtual string VATInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VATInfo As String
+  overload: SuperOffice.WebApi.Data.Product.VATInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.UnitCost
+  commentId: P:SuperOffice.WebApi.Data.Product.UnitCost
+  id: UnitCost
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: Product.UnitCost
+  fullName: SuperOffice.WebApi.Data.Product.UnitCost
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe cost price. Might not be given, use Decimal.MinValue to signal this.\n"
+  syntax:
+    content: public virtual double UnitCost { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitCost As Double
+  overload: SuperOffice.WebApi.Data.Product.UnitCost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.UnitMinimumPrice
+  commentId: P:SuperOffice.WebApi.Data.Product.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: Product.UnitMinimumPrice
+  fullName: SuperOffice.WebApi.Data.Product.UnitMinimumPrice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this.\n"
+  syntax:
+    content: public virtual double UnitMinimumPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitMinimumPrice As Double
+  overload: SuperOffice.WebApi.Data.Product.UnitMinimumPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.UnitListPrice
+  commentId: P:SuperOffice.WebApi.Data.Product.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: Product.UnitListPrice
+  fullName: SuperOffice.WebApi.Data.Product.UnitListPrice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered.\n"
+  syntax:
+    content: public virtual double UnitListPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitListPrice As Double
+  overload: SuperOffice.WebApi.Data.Product.UnitListPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.InAssortment
+  commentId: P:SuperOffice.WebApi.Data.Product.InAssortment
+  id: InAssortment
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: InAssortment
+  nameWithType: Product.InAssortment
+  fullName: SuperOffice.WebApi.Data.Product.InAssortment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.\n"
+  syntax:
+    content: public virtual bool InAssortment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property InAssortment As Boolean
+  overload: SuperOffice.WebApi.Data.Product.InAssortment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Supplier
+  commentId: P:SuperOffice.WebApi.Data.Product.Supplier
+  id: Supplier
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: Product.Supplier
+  fullName: SuperOffice.WebApi.Data.Product.Supplier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIn SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier\n"
+  syntax:
+    content: public virtual string Supplier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Supplier As String
+  overload: SuperOffice.WebApi.Data.Product.Supplier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.SupplierCode
+  commentId: P:SuperOffice.WebApi.Data.Product.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: Product.SupplierCode
+  fullName: SuperOffice.WebApi.Data.Product.SupplierCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuppliers part code/number or other key-like field\n"
+  syntax:
+    content: public virtual string SupplierCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SupplierCode As String
+  overload: SuperOffice.WebApi.Data.Product.SupplierCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Rights
+  commentId: P:SuperOffice.WebApi.Data.Product.Rights
+  id: Rights
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: Product.Rights
+  fullName: SuperOffice.WebApi.Data.Product.Rights
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record.\n"
+  syntax:
+    content: public virtual string Rights { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rights As String
+  overload: SuperOffice.WebApi.Data.Product.Rights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.Rule
+  commentId: P:SuperOffice.WebApi.Data.Product.Rule
+  id: Rule
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: Product.Rule
+  fullName: SuperOffice.WebApi.Data.Product.Rule
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice.\n"
+  syntax:
+    content: public virtual string Rule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rule As String
+  overload: SuperOffice.WebApi.Data.Product.Rule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.Product.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: Product.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Product.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
+  syntax:
+    content: public virtual ProductExtraDataField[] ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ProductExtraDataField[]
+    content.vb: Public Overridable Property ExtraInfo As ProductExtraDataField()
+  overload: SuperOffice.WebApi.Data.Product.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.RawExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.Product.RawExtraInfo
+  id: RawExtraInfo
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: RawExtraInfo
+  nameWithType: Product.RawExtraInfo
+  fullName: SuperOffice.WebApi.Data.Product.RawExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRead-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
+  syntax:
+    content: public virtual string RawExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RawExtraInfo As String
+  overload: SuperOffice.WebApi.Data.Product.RawExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ExtraField1
+  commentId: P:SuperOffice.WebApi.Data.Product.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: Product.ExtraField1
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField1 As String
+  overload: SuperOffice.WebApi.Data.Product.ExtraField1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ExtraField2
+  commentId: P:SuperOffice.WebApi.Data.Product.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: Product.ExtraField2
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField2 As String
+  overload: SuperOffice.WebApi.Data.Product.ExtraField2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ExtraField3
+  commentId: P:SuperOffice.WebApi.Data.Product.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: Product.ExtraField3
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField3 As String
+  overload: SuperOffice.WebApi.Data.Product.ExtraField3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ExtraField4
+  commentId: P:SuperOffice.WebApi.Data.Product.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: Product.ExtraField4
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField4
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField4 As String
+  overload: SuperOffice.WebApi.Data.Product.ExtraField4*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.ExtraField5
+  commentId: P:SuperOffice.WebApi.Data.Product.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: Product.ExtraField5
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField5
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField5 As String
+  overload: SuperOffice.WebApi.Data.Product.ExtraField5*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Product.InStock
+  commentId: P:SuperOffice.WebApi.Data.Product.InStock
+  id: InStock
+  parent: SuperOffice.WebApi.Data.Product
+  langs:
+  - csharp
+  - vb
+  name: InStock
+  nameWithType: Product.InStock
+  fullName: SuperOffice.WebApi.Data.Product.InStock
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNegative numbers will be interpreted as how many is ordered. Might not be available.\n"
+  syntax:
+    content: public virtual double InStock { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property InStock As Double
+  overload: SuperOffice.WebApi.Data.Product.InStock*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Product.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.#ctor
+  isExternal: true
+  name: Product
+  nameWithType: Product.Product
+  fullName: SuperOffice.WebApi.Data.Product.Product
+- uid: SuperOffice.WebApi.Data.Product.ProductId*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: Product.ProductId
+  fullName: SuperOffice.WebApi.Data.Product.ProductId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Product.ERPProductKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ERPProductKey
+  isExternal: true
+  name: ERPProductKey
+  nameWithType: Product.ERPProductKey
+  fullName: SuperOffice.WebApi.Data.Product.ERPProductKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Product.ERPPriceListKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ERPPriceListKey
+  isExternal: true
+  name: ERPPriceListKey
+  nameWithType: Product.ERPPriceListKey
+  fullName: SuperOffice.WebApi.Data.Product.ERPPriceListKey
+- uid: SuperOffice.WebApi.Data.Product.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Name
+  isExternal: true
+  name: Name
+  nameWithType: Product.Name
+  fullName: SuperOffice.WebApi.Data.Product.Name
+- uid: SuperOffice.WebApi.Data.Product.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Description
+  isExternal: true
+  name: Description
+  nameWithType: Product.Description
+  fullName: SuperOffice.WebApi.Data.Product.Description
+- uid: SuperOffice.WebApi.Data.Product.Code*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Code
+  isExternal: true
+  name: Code
+  nameWithType: Product.Code
+  fullName: SuperOffice.WebApi.Data.Product.Code
+- uid: SuperOffice.WebApi.Data.Product.PriceUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: Product.PriceUnit
+  fullName: SuperOffice.WebApi.Data.Product.PriceUnit
+- uid: SuperOffice.WebApi.Data.Product.QuantityUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.QuantityUnit
+  isExternal: true
+  name: QuantityUnit
+  nameWithType: Product.QuantityUnit
+  fullName: SuperOffice.WebApi.Data.Product.QuantityUnit
+- uid: SuperOffice.WebApi.Data.Product.IsSubscription*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.IsSubscription
+  isExternal: true
+  name: IsSubscription
+  nameWithType: Product.IsSubscription
+  fullName: SuperOffice.WebApi.Data.Product.IsSubscription
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Product.SubscriptionUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.SubscriptionUnit
+  isExternal: true
+  name: SubscriptionUnit
+  nameWithType: Product.SubscriptionUnit
+  fullName: SuperOffice.WebApi.Data.Product.SubscriptionUnit
+- uid: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
+  isExternal: true
+  name: DefaultSubscriptionQuantity
+  nameWithType: Product.DefaultSubscriptionQuantity
+  fullName: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.Product.ItemNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ItemNumber
+  isExternal: true
+  name: ItemNumber
+  nameWithType: Product.ItemNumber
+  fullName: SuperOffice.WebApi.Data.Product.ItemNumber
+- uid: SuperOffice.WebApi.Data.Product.Url*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Url
+  isExternal: true
+  name: Url
+  nameWithType: Product.Url
+  fullName: SuperOffice.WebApi.Data.Product.Url
+- uid: SuperOffice.WebApi.Data.Product.ProductCategoryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ProductCategoryKey
+  isExternal: true
+  name: ProductCategoryKey
+  nameWithType: Product.ProductCategoryKey
+  fullName: SuperOffice.WebApi.Data.Product.ProductCategoryKey
+- uid: SuperOffice.WebApi.Data.Product.ProductFamilyKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ProductFamilyKey
+  isExternal: true
+  name: ProductFamilyKey
+  nameWithType: Product.ProductFamilyKey
+  fullName: SuperOffice.WebApi.Data.Product.ProductFamilyKey
+- uid: SuperOffice.WebApi.Data.Product.ProductTypeKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ProductTypeKey
+  isExternal: true
+  name: ProductTypeKey
+  nameWithType: Product.ProductTypeKey
+  fullName: SuperOffice.WebApi.Data.Product.ProductTypeKey
+- uid: SuperOffice.WebApi.Data.Product.VAT*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.VAT
+  isExternal: true
+  name: VAT
+  nameWithType: Product.VAT
+  fullName: SuperOffice.WebApi.Data.Product.VAT
+- uid: SuperOffice.WebApi.Data.Product.VATInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.VATInfo
+  isExternal: true
+  name: VATInfo
+  nameWithType: Product.VATInfo
+  fullName: SuperOffice.WebApi.Data.Product.VATInfo
+- uid: SuperOffice.WebApi.Data.Product.UnitCost*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.UnitCost
+  isExternal: true
+  name: UnitCost
+  nameWithType: Product.UnitCost
+  fullName: SuperOffice.WebApi.Data.Product.UnitCost
+- uid: SuperOffice.WebApi.Data.Product.UnitMinimumPrice*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.UnitMinimumPrice
+  isExternal: true
+  name: UnitMinimumPrice
+  nameWithType: Product.UnitMinimumPrice
+  fullName: SuperOffice.WebApi.Data.Product.UnitMinimumPrice
+- uid: SuperOffice.WebApi.Data.Product.UnitListPrice*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.UnitListPrice
+  isExternal: true
+  name: UnitListPrice
+  nameWithType: Product.UnitListPrice
+  fullName: SuperOffice.WebApi.Data.Product.UnitListPrice
+- uid: SuperOffice.WebApi.Data.Product.InAssortment*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.InAssortment
+  isExternal: true
+  name: InAssortment
+  nameWithType: Product.InAssortment
+  fullName: SuperOffice.WebApi.Data.Product.InAssortment
+- uid: SuperOffice.WebApi.Data.Product.Supplier*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Supplier
+  isExternal: true
+  name: Supplier
+  nameWithType: Product.Supplier
+  fullName: SuperOffice.WebApi.Data.Product.Supplier
+- uid: SuperOffice.WebApi.Data.Product.SupplierCode*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.SupplierCode
+  isExternal: true
+  name: SupplierCode
+  nameWithType: Product.SupplierCode
+  fullName: SuperOffice.WebApi.Data.Product.SupplierCode
+- uid: SuperOffice.WebApi.Data.Product.Rights*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Rights
+  isExternal: true
+  name: Rights
+  nameWithType: Product.Rights
+  fullName: SuperOffice.WebApi.Data.Product.Rights
+- uid: SuperOffice.WebApi.Data.Product.Rule*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.Rule
+  isExternal: true
+  name: Rule
+  nameWithType: Product.Rule
+  fullName: SuperOffice.WebApi.Data.Product.Rule
+- uid: SuperOffice.WebApi.Data.Product.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Product.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Product.ExtraInfo
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField[]
+  isExternal: true
+  name: ProductExtraDataField[]
+  nameWithType: ProductExtraDataField[]
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField[]
+  nameWithType.vb: ProductExtraDataField()
+  fullName.vb: SuperOffice.WebApi.Data.ProductExtraDataField()
+  name.vb: ProductExtraDataField()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.WebApi.Data.ProductExtraDataField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.WebApi.Data.ProductExtraDataField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Product.RawExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.RawExtraInfo
+  isExternal: true
+  name: RawExtraInfo
+  nameWithType: Product.RawExtraInfo
+  fullName: SuperOffice.WebApi.Data.Product.RawExtraInfo
+- uid: SuperOffice.WebApi.Data.Product.ExtraField1*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField1
+  isExternal: true
+  name: ExtraField1
+  nameWithType: Product.ExtraField1
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField1
+- uid: SuperOffice.WebApi.Data.Product.ExtraField2*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField2
+  isExternal: true
+  name: ExtraField2
+  nameWithType: Product.ExtraField2
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField2
+- uid: SuperOffice.WebApi.Data.Product.ExtraField3*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField3
+  isExternal: true
+  name: ExtraField3
+  nameWithType: Product.ExtraField3
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField3
+- uid: SuperOffice.WebApi.Data.Product.ExtraField4*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField4
+  isExternal: true
+  name: ExtraField4
+  nameWithType: Product.ExtraField4
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField4
+- uid: SuperOffice.WebApi.Data.Product.ExtraField5*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField5
+  isExternal: true
+  name: ExtraField5
+  nameWithType: Product.ExtraField5
+  fullName: SuperOffice.WebApi.Data.Product.ExtraField5
+- uid: SuperOffice.WebApi.Data.Product.InStock*
+  commentId: Overload:SuperOffice.WebApi.Data.Product.InStock
+  isExternal: true
+  name: InStock
+  nameWithType: Product.InStock
+  fullName: SuperOffice.WebApi.Data.Product.InStock

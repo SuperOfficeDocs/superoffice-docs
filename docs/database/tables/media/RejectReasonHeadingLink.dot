@@ -1,0 +1,13 @@
+digraph RejectReasonHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+RejectReasonHeadingLink[fillcolor = "cadetblue1"]
+RejectReason[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+RejectReasonHeadingLink -> RejectReason [headlabel = "rejectreason_id"]
+RejectReasonHeadingLink -> Heading [headlabel = "heading_id"]
+RejectReasonHeadingLink -> associate [headlabel = "registered_associate_id"]
+RejectReasonHeadingLink -> associate [label = "updated_associate_id"]
+}

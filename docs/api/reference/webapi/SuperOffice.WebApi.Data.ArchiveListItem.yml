@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ArchiveListItem
+  commentId: T:SuperOffice.WebApi.Data.ArchiveListItem
+  id: ArchiveListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ArchiveListItem.#ctor
+  - SuperOffice.WebApi.Data.ArchiveListItem.ColumnData
+  - SuperOffice.WebApi.Data.ArchiveListItem.EntityName
+  - SuperOffice.WebApi.Data.ArchiveListItem.LinkHint
+  - SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey
+  - SuperOffice.WebApi.Data.ArchiveListItem.StyleHint
+  langs:
+  - csharp
+  - vb
+  name: ArchiveListItem
+  nameWithType: ArchiveListItem
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ArchiveListItem.\n\n"
+  syntax:
+    content: 'public class ArchiveListItem : Carrier'
+    content.vb: >-
+      Public Class ArchiveListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ArchiveListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ArchiveListItem
+  langs:
+  - csharp
+  - vb
+  name: ArchiveListItem()
+  nameWithType: ArchiveListItem.ArchiveListItem()
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.ArchiveListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ArchiveListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ArchiveListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.EntityName
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListItem.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.ArchiveListItem
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: ArchiveListItem.EntityName
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe entity name of the ArchiveListItem. An ArchiveList may contain rows from different entities.\n"
+  syntax:
+    content: public virtual string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntityName As String
+  overload: SuperOffice.WebApi.Data.ArchiveListItem.EntityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.WebApi.Data.ArchiveListItem
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: ArchiveListItem.PrimaryKey
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe  primary key for the row\n"
+  syntax:
+    content: public virtual int PrimaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrimaryKey As Integer
+  overload: SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.ColumnData
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListItem.ColumnData
+  id: ColumnData
+  parent: SuperOffice.WebApi.Data.ArchiveListItem
+  langs:
+  - csharp
+  - vb
+  name: ColumnData
+  nameWithType: ArchiveListItem.ColumnData
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.ColumnData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/>The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/>Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip.\n"
+  syntax:
+    content: public virtual ColumnDataDictionary ColumnData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ColumnDataDictionary
+    content.vb: Public Overridable Property ColumnData As ColumnDataDictionary
+  overload: SuperOffice.WebApi.Data.ArchiveListItem.ColumnData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.LinkHint
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListItem.LinkHint
+  id: LinkHint
+  parent: SuperOffice.WebApi.Data.ArchiveListItem
+  langs:
+  - csharp
+  - vb
+  name: LinkHint
+  nameWithType: ArchiveListItem.LinkHint
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.LinkHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLink hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks\n"
+  syntax:
+    content: public virtual string LinkHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LinkHint As String
+  overload: SuperOffice.WebApi.Data.ArchiveListItem.LinkHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.StyleHint
+  commentId: P:SuperOffice.WebApi.Data.ArchiveListItem.StyleHint
+  id: StyleHint
+  parent: SuperOffice.WebApi.Data.ArchiveListItem
+  langs:
+  - csharp
+  - vb
+  name: StyleHint
+  nameWithType: ArchiveListItem.StyleHint
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.StyleHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStyle hint for the row, for instance &apos;retired&apos; for associates or &apos;private&apos; for appointments. Presentation layers can interpret the style hints as they see fit.\n"
+  syntax:
+    content: public virtual string StyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StyleHint As String
+  overload: SuperOffice.WebApi.Data.ArchiveListItem.StyleHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListItem.#ctor
+  isExternal: true
+  name: ArchiveListItem
+  nameWithType: ArchiveListItem.ArchiveListItem
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.ArchiveListItem
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListItem.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: ArchiveListItem.EntityName
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey
+  isExternal: true
+  name: PrimaryKey
+  nameWithType: ArchiveListItem.PrimaryKey
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.PrimaryKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.ColumnData*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListItem.ColumnData
+  isExternal: true
+  name: ColumnData
+  nameWithType: ArchiveListItem.ColumnData
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.ColumnData
+- uid: SuperOffice.WebApi.Data.ColumnDataDictionary
+  commentId: T:SuperOffice.WebApi.Data.ColumnDataDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ColumnDataDictionary
+  nameWithType: ColumnDataDictionary
+  fullName: SuperOffice.WebApi.Data.ColumnDataDictionary
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.LinkHint*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListItem.LinkHint
+  isExternal: true
+  name: LinkHint
+  nameWithType: ArchiveListItem.LinkHint
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.LinkHint
+- uid: SuperOffice.WebApi.Data.ArchiveListItem.StyleHint*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveListItem.StyleHint
+  isExternal: true
+  name: StyleHint
+  nameWithType: ArchiveListItem.StyleHint
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem.StyleHint

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
+  commentId: T:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
+  id: Saint_SetRankOnStatusMonitorsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.#ctor
+  - SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  - SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: Saint_SetRankOnStatusMonitorsRequest
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Saint_SetRankOnStatusMonitorsRequest : Object'
+    content.vb: >-
+      Public Class Saint_SetRankOnStatusMonitorsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
+  langs:
+  - csharp
+  - vb
+  name: Saint_SetRankOnStatusMonitorsRequest()
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest.Saint_SetRankOnStatusMonitorsRequest()
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Saint_SetRankOnStatusMonitorsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Saint_SetRankOnStatusMonitorsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest.Type
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  commentId: P:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  id: ItemsIds
+  parent: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
+  langs:
+  - csharp
+  - vb
+  name: ItemsIds
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ItemsIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ItemsIds As Integer()
+  overload: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.#ctor
+  isExternal: true
+  name: Saint_SetRankOnStatusMonitorsRequest
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest.Saint_SetRankOnStatusMonitorsRequest
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Saint_SetRankOnStatusMonitorsRequest
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest.Type
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  isExternal: true
+  name: ItemsIds
+  nameWithType: Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+  fullName: SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest.ItemsIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

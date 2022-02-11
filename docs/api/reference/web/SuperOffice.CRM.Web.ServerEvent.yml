@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.ServerEvent
+  commentId: N:SuperOffice.CRM.Web.ServerEvent
+  id: SuperOffice.CRM.Web.ServerEvent
+  children:
+  - SuperOffice.CRM.Web.ServerEvent.SoAlarmsServerEventPlugin
+  - SuperOffice.CRM.Web.ServerEvent.SoBatchServerEventPlugin
+  - SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.ServerEvent
+  nameWithType: SuperOffice.CRM.Web.ServerEvent
+  fullName: SuperOffice.CRM.Web.ServerEvent
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.ServerEvent.SoAlarmsServerEventPlugin
+  commentId: T:SuperOffice.CRM.Web.ServerEvent.SoAlarmsServerEventPlugin
+  isExternal: true
+  name: SoAlarmsServerEventPlugin
+  nameWithType: SoAlarmsServerEventPlugin
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoAlarmsServerEventPlugin
+- uid: SuperOffice.CRM.Web.ServerEvent.SoBatchServerEventPlugin
+  commentId: T:SuperOffice.CRM.Web.ServerEvent.SoBatchServerEventPlugin
+  isExternal: true
+  name: SoBatchServerEventPlugin
+  nameWithType: SoBatchServerEventPlugin
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoBatchServerEventPlugin
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  commentId: T:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  isExternal: true
+  name: SoInvitationCheckServerEventPlugin
+  nameWithType: SoInvitationCheckServerEventPlugin
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin

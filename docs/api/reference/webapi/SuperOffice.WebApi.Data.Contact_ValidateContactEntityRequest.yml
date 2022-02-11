@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
+  id: Contact_ValidateContactEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact_ValidateContactEntityRequest
+  nameWithType: Contact_ValidateContactEntityRequest
+  fullName: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_ValidateContactEntityRequest : Object'
+    content.vb: >-
+      Public Class Contact_ValidateContactEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_ValidateContactEntityRequest()
+  nameWithType: Contact_ValidateContactEntityRequest.Contact_ValidateContactEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.Contact_ValidateContactEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_ValidateContactEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity
+  commentId: P:SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity
+  id: ContactEntity
+  parent: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactEntity
+  nameWithType: Contact_ValidateContactEntityRequest.ContactEntity
+  fullName: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ContactEntity ContactEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ContactEntity
+    content.vb: Public Property ContactEntity As ContactEntity
+  overload: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.#ctor
+  isExternal: true
+  name: Contact_ValidateContactEntityRequest
+  nameWithType: Contact_ValidateContactEntityRequest.Contact_ValidateContactEntityRequest
+  fullName: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.Contact_ValidateContactEntityRequest
+- uid: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity
+  isExternal: true
+  name: ContactEntity
+  nameWithType: Contact_ValidateContactEntityRequest.ContactEntity
+  fullName: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest.ContactEntity
+- uid: SuperOffice.WebApi.Data.ContactEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ContactEntity
+  nameWithType: ContactEntity
+  fullName: SuperOffice.WebApi.Data.ContactEntity

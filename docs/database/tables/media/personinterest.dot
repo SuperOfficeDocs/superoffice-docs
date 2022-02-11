@@ -1,0 +1,13 @@
+digraph personinterest  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+personinterest[fillcolor = "cadetblue1"]
+person[fillcolor = "azure1"]
+PersInt[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+personinterest -> person [headlabel = "person_id"]
+personinterest -> PersInt [headlabel = "pinterest_idx"]
+personinterest -> associate [headlabel = "registered_associate_id"]
+personinterest -> associate [label = "updated_associate_id"]
+}

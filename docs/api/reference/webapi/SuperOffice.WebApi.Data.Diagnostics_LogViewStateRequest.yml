@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
+  id: Diagnostics_LogViewStateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.#ctor
+  - SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_LogViewStateRequest
+  nameWithType: Diagnostics_LogViewStateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_LogViewStateRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_LogViewStateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_LogViewStateRequest()
+  nameWithType: Diagnostics_LogViewStateRequest.Diagnostics_LogViewStateRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.Diagnostics_LogViewStateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_LogViewStateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState
+  id: ViewState
+  parent: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState
+  nameWithType: Diagnostics_LogViewStateRequest.ViewState
+  fullName: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ViewState { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ViewState As String
+  overload: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.#ctor
+  isExternal: true
+  name: Diagnostics_LogViewStateRequest
+  nameWithType: Diagnostics_LogViewStateRequest.Diagnostics_LogViewStateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.Diagnostics_LogViewStateRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState
+  isExternal: true
+  name: ViewState
+  nameWithType: Diagnostics_LogViewStateRequest.ViewState
+  fullName: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest.ViewState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

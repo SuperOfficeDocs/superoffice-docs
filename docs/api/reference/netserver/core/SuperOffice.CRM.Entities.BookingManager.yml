@@ -1,0 +1,1956 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.BookingManager
+  commentId: T:SuperOffice.CRM.Entities.BookingManager
+  id: BookingManager
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.BookingManager.#ctor(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.AcceptAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus(SuperOffice.Data.AppointmentStatus)
+  - SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  - SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  - SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.GetBookingType(System.Int32,System.Int32)
+  - SuperOffice.CRM.Entities.BookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  - SuperOffice.CRM.Entities.BookingManager.IsExternalPerson(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow,System.String)
+  - SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow,System.Int32)
+  - SuperOffice.CRM.Entities.BookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  - SuperOffice.CRM.Entities.BookingManager.SholdParticipate(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Entities.BookingManager.ValidateAppointment(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow)
+  langs:
+  - csharp
+  - vb
+  name: BookingManager
+  nameWithType: BookingManager
+  fullName: SuperOffice.CRM.Entities.BookingManager
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe booking manager is mainly used by the \n<xref href=\"SuperOffice.CRM.Entities.AppointmentMatrix\" data-throw-if-not-resolved=\"false\"></xref> to maintain booking related \ninformation.  \n"
+  remarks: "\nThe <xref href=\"SuperOffice.CRM.Entities.AppointmentMatrix\" data-throw-if-not-resolved=\"false\"></xref> is responsible for database \nupdates of appointment records, but the knowledge about how these \nrecords are modified lies in the BookinManager.  The booking manager \nalso handles information about Participants.  Participants are \nrepresented both by individual appointment records and the \n<xref href=\"SuperOffice.CRM.Services.ParticipantInfo\" data-throw-if-not-resolved=\"false\"></xref> object.\n<example>\n<pre><code></code></pre>\n</example>\n"
+  syntax:
+    content: public class BookingManager
+    content.vb: Public Class BookingManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.BookingManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.BookingManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.BookingManager.#ctor(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.#ctor(SuperOffice.CRM.Rows.AppointmentRow)
+  id: '#ctor(SuperOffice.CRM.Rows.AppointmentRow)'
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: BookingManager(AppointmentRow)
+  nameWithType: BookingManager.BookingManager(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.BookingManager(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\n\n"
+  syntax:
+    content: public BookingManager(AppointmentRow mainBooking)
+    parameters:
+    - id: mainBooking
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Public Sub New(mainBooking As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  id: CreateAppointmentForParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: CreateAppointmentForParticipant(ParticipantInfo)
+  nameWithType: BookingManager.CreateAppointmentForParticipant(ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCreates a new instance of an appointment row for the participant specified\n"
+  syntax:
+    content: public AppointmentRow CreateAppointmentForParticipant(ParticipantInfo participant)
+    parameters:
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to create an appointment record for
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: A new instance of an appointment row for the participant specified.
+    content.vb: Public Function CreateAppointmentForParticipant(participant As ParticipantInfo) As AppointmentRow
+  overload: SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus(SuperOffice.CRM.Services.ParticipantInfo)
+  id: ConvertInvitationToAppointmentStatus(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertInvitationToAppointmentStatus(ParticipantInfo)
+  nameWithType: BookingManager.ConvertInvitationToAppointmentStatus(ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static AppointmentStatus ConvertInvitationToAppointmentStatus(ParticipantInfo participant)
+    parameters:
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: SuperOffice.Data.AppointmentStatus
+    content.vb: Public Shared Function ConvertInvitationToAppointmentStatus(participant As ParticipantInfo) As AppointmentStatus
+  overload: SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus(SuperOffice.Data.AppointmentStatus)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus(SuperOffice.Data.AppointmentStatus)
+  id: ConvertAppoinmentToInvitationStatus(SuperOffice.Data.AppointmentStatus)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertAppoinmentToInvitationStatus(AppointmentStatus)
+  nameWithType: BookingManager.ConvertAppoinmentToInvitationStatus(AppointmentStatus)
+  fullName: SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus(SuperOffice.Data.AppointmentStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static InvitationStatus ConvertAppoinmentToInvitationStatus(AppointmentStatus appointmentStatus)
+    parameters:
+    - id: appointmentStatus
+      type: SuperOffice.Data.AppointmentStatus
+    return:
+      type: SuperOffice.Data.InvitationStatus
+    content.vb: Public Shared Function ConvertAppoinmentToInvitationStatus(appointmentStatus As AppointmentStatus) As InvitationStatus
+  overload: SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.SholdParticipate(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.SholdParticipate(SuperOffice.CRM.Services.ParticipantInfo)
+  id: SholdParticipate(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: SholdParticipate(ParticipantInfo)
+  nameWithType: BookingManager.SholdParticipate(ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.SholdParticipate(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCheck if a participant is supposed to or can be a member of the appointment.\n"
+  syntax:
+    content: public static bool SholdParticipate(ParticipantInfo participant)
+    parameters:
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to sheck for participation.
+    return:
+      type: System.Boolean
+      description: True if the participant should participate.
+    content.vb: Public Shared Function SholdParticipate(participant As ParticipantInfo) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.SholdParticipate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  id: ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: ModifyAppointmentForParticipant(AppointmentRow)
+  nameWithType: BookingManager.ModifyAppointmentForParticipant(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\n\n"
+  syntax:
+    content: public BookingManagerModified ModifyAppointmentForParticipant(AppointmentRow childBooking)
+    parameters:
+    - id: childBooking
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Function ModifyAppointmentForParticipant(childBooking As AppointmentRow) As BookingManagerModified
+  overload: SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.BookingManager.ValidateAppointment(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.ValidateAppointment(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow)
+  id: ValidateAppointment(System.Boolean,System.Boolean,SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: ValidateAppointment(Boolean, Boolean, AppointmentRow)
+  nameWithType: BookingManager.ValidateAppointment(Boolean, Boolean, AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.ValidateAppointment(System.Boolean, System.Boolean, SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThis method validates the appointment row and makes sure that business rules that are special for \ndifferent states of an appointment are followed.\n"
+  syntax:
+    content: public static void ValidateAppointment(bool isBookingMaster, bool isBooking, AppointmentRow appointmentRow)
+    parameters:
+    - id: isBookingMaster
+      type: System.Boolean
+    - id: isBooking
+      type: System.Boolean
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    content.vb: Public Shared Sub ValidateAppointment(isBookingMaster As Boolean, isBooking As Boolean, appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.ValidateAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentIncludedInParticipantList(AppointmentRow)
+  nameWithType: BookingManager.IsAppointmentIncludedInParticipantList(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDoes the appointment record represent a user that should be listed in the participant list?\n"
+  syntax:
+    content: public static bool IsAppointmentIncludedInParticipantList(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAppointmentIncludedInParticipantList(appointment As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetAppointmentToRemovedFromParticipantList(AppointmentRow)
+  nameWithType: BookingManager.SetAppointmentToRemovedFromParticipantList(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the appointment record to a state where it is not shown in the participant list, assuming that it is the logged on users diary that is being worked on.\n"
+  remarks: >-
+    The child appointment will be removed from the list if the participant in question has not seen the invitation yet. If he has
+
+    seen the invitation, then his status is updated so he will be notified.
+  syntax:
+    content: public static void SetAppointmentToRemovedFromParticipantList(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: Appointment row in question
+    content.vb: Public Shared Sub SetAppointmentToRemovedFromParticipantList(appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow,System.Int32)
+  id: SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow,System.Int32)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetAppointmentToRemovedFromParticipantList(AppointmentRow, Int32)
+  nameWithType: BookingManager.SetAppointmentToRemovedFromParticipantList(AppointmentRow, Int32)
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList(SuperOffice.CRM.Rows.AppointmentRow, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the appointment record to a state where it is not shown in the participant list.\n"
+  remarks: >-
+    The child appointment will be removed from the list if the participant in question has not seen the invitation yet. If he has
+
+    seen the invitation, then his status is updated so he will be notified.
+  syntax:
+    content: public static void SetAppointmentToRemovedFromParticipantList(AppointmentRow appointmentRow, int diaryOwner)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: Appointment row in question
+    - id: diaryOwner
+      type: System.Int32
+      description: AssociateId of the owner of the diary.
+    content.vb: Public Shared Sub SetAppointmentToRemovedFromParticipantList(appointmentRow As AppointmentRow, diaryOwner As Integer)
+  overload: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetAppointmentToIncludedInParticipantList(AppointmentRow)
+  nameWithType: BookingManager.SetAppointmentToIncludedInParticipantList(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the appointment record to a state where it is shown in the participant list\n"
+  remarks: Nothing is modified if the participant is in the participant list (e.g. <xref href="SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList(SuperOffice.CRM.Rows.AppointmentRow)" data-throw-if-not-resolved="false"></xref> is true.
+  syntax:
+    content: public static void SetAppointmentToIncludedInParticipantList(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: Appointment row in question
+    content.vb: Public Shared Sub SetAppointmentToIncludedInParticipantList(appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  id: GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.InvitationStatus)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentDeleteAction(Appointment, InvitationStatus)
+  nameWithType: BookingManager.GetAppointmentDeleteAction(Appointment, InvitationStatus)
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.InvitationStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe method analyzes the appointment given and returns what kind of delete action that \nshould be performed on this instance. \n"
+  remarks: "\nIs it a Main booking or a child booking that is going to be deleted,\nor is the appointment not a booking at all? Is the do by date past date of today? \nAll this parameters requires different Actions to be performed and this method will\ngive you the delete action you need to act upon.\n"
+  syntax:
+    content: public static AppointmentDeleteAction GetAppointmentDeleteAction(Appointment appointment, InvitationStatus invitationStatus)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+      description: Appointment appointment
+    - id: invitationStatus
+      type: SuperOffice.Data.InvitationStatus
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+      description: MainBookingDeleteAction, ChildBookingDeleteAction, AssignmentDeleteAction or AppointmentDeleteAction
+    content.vb: Public Shared Function GetAppointmentDeleteAction(appointment As Appointment, invitationStatus As InvitationStatus) As AppointmentDeleteAction
+  overload: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  id: GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.InvitationStatus)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentDeleteAction(AppointmentRow, InvitationStatus)
+  nameWithType: BookingManager.GetAppointmentDeleteAction(AppointmentRow, InvitationStatus)
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.InvitationStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe method analyzes the appointment given and returns what kind of delete action that \nshould be performed on this instance. \n"
+  remarks: "\nIs it a Main booking or a child booking that is going to be deleted,\nor is the appointment not a booking at all? Is the do by date past date of today? \nAll this parameters requires different Actions to be performed and this method will\ngive you the delete action you need to act upon.\n"
+  syntax:
+    content: public static AppointmentDeleteAction GetAppointmentDeleteAction(AppointmentRow appointmentRow, InvitationStatus invitationStatus)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: AppointmentRow appointmentRow
+    - id: invitationStatus
+      type: SuperOffice.Data.InvitationStatus
+    return:
+      type: SuperOffice.CRM.Entities.AppointmentDeleteAction
+      description: MainBookingDeleteAction, ChildBookingDeleteAction, AssignmentDeleteAction or AppointmentDeleteAction
+    content.vb: Public Shared Function GetAppointmentDeleteAction(appointmentRow As AppointmentRow, invitationStatus As InvitationStatus) As AppointmentDeleteAction
+  overload: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  id: GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBookingType(Appointment)
+  nameWithType: BookingManager.GetBookingType(Appointment)
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the type of booking row this is, the Main record, a child record or not a booking at all (none)\n"
+  syntax:
+    content: public static BookingType GetBookingType(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: SuperOffice.Data.BookingType
+      description: None, Main or Child
+    content.vb: Public Shared Function GetBookingType(appointment As Appointment) As BookingType
+  overload: SuperOffice.CRM.Entities.BookingManager.GetBookingType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  id: GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBookingType(AppointmentRow)
+  nameWithType: BookingManager.GetBookingType(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetBookingType(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the type of booking row this is, the Main record, a child record or not a booking at all (none)\n"
+  syntax:
+    content: public static BookingType GetBookingType(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: SuperOffice.Data.BookingType
+      description: None, Main or Child
+    content.vb: Public Shared Function GetBookingType(appointmentRow As AppointmentRow) As BookingType
+  overload: SuperOffice.CRM.Entities.BookingManager.GetBookingType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.GetBookingType(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.GetBookingType(System.Int32,System.Int32)
+  id: GetBookingType(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBookingType(Int32, Int32)
+  nameWithType: BookingManager.GetBookingType(Int32, Int32)
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetBookingType(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the type of booking row this is, the Main record, a child record or not a booking at all (none)\n"
+  syntax:
+    content: public static BookingType GetBookingType(int appointmentId, int motherId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: The AppointmentId of the appointment
+    - id: motherId
+      type: System.Int32
+      description: The MotherId of the appointment
+    return:
+      type: SuperOffice.Data.BookingType
+      description: BookingType Owner, Participant or None
+    content.vb: Public Shared Function GetBookingType(appointmentId As Integer, motherId As Integer) As BookingType
+  overload: SuperOffice.CRM.Entities.BookingManager.GetBookingType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentBooking(Appointment)
+  nameWithType: BookingManager.IsAppointmentBooking(Appointment)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is a booking appointment (MotherId != 0)\n"
+  syntax:
+    content: public static bool IsAppointmentBooking(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+      description: True if this is a booking row
+    content.vb: Public Shared Function IsAppointmentBooking(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentBooking(AppointmentRow)
+  nameWithType: BookingManager.IsAppointmentBooking(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is a booking appointment (MotherId != 0)\n"
+  syntax:
+    content: public static bool IsAppointmentBooking(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+      description: True if this is a booking row
+    content.vb: Public Shared Function IsAppointmentBooking(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentMainBooking(Appointment)
+  nameWithType: BookingManager.IsAppointmentMainBooking(Appointment)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is a Main booking appointment (MotherId > 0 and MotherId == AppointmentId)\n"
+  syntax:
+    content: public static bool IsAppointmentMainBooking(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+      description: True if this is a Main booking row
+    content.vb: Public Shared Function IsAppointmentMainBooking(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentMainBooking(AppointmentRow)
+  nameWithType: BookingManager.IsAppointmentMainBooking(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is a Main booking appointment (MotherId > 0 and MotherId == AppointmentId)\n"
+  syntax:
+    content: public static bool IsAppointmentMainBooking(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+      description: True if this is a Main booking row
+    content.vb: Public Shared Function IsAppointmentMainBooking(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentChildBooking(Appointment)
+  nameWithType: BookingManager.IsAppointmentChildBooking(Appointment)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is a Child booking appointment (MotherId > 0 and MotherId != AppointmentId)\n"
+  syntax:
+    content: public static bool IsAppointmentChildBooking(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+      description: True if this is a child booking row
+    content.vb: Public Shared Function IsAppointmentChildBooking(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentChildBooking(AppointmentRow)
+  nameWithType: BookingManager.IsAppointmentChildBooking(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is a Child booking appointment (MotherId > 0 and MotherId != AppointmentId)\n"
+  syntax:
+    content: public static bool IsAppointmentChildBooking(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+      description: True if this is a child booking row
+    content.vb: Public Shared Function IsAppointmentChildBooking(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  id: IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentAssignment(Appointment)
+  nameWithType: BookingManager.IsAppointmentAssignment(Appointment)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is an assignment. Wii also return True if it is a booking row that is also an assignment\n"
+  syntax:
+    content: public static bool IsAppointmentAssignment(Appointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Entities.Appointment
+    return:
+      type: System.Boolean
+      description: True if this is an assignment
+    content.vb: Public Shared Function IsAppointmentAssignment(appointment As Appointment) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentAssignment(AppointmentRow)
+  nameWithType: BookingManager.IsAppointmentAssignment(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTest if this appointment row is an assignment. Wii also return True if it is a booking row that is also an assignment\n"
+  syntax:
+    content: public static bool IsAppointmentAssignment(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+      description: True if this is an assignment
+    content.vb: Public Shared Function IsAppointmentAssignment(appointmentRow As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  id: AssignTo(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: AssignTo(AppointmentRow, ParticipantInfo)
+  nameWithType: BookingManager.AssignTo(AppointmentRow, ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nAssign an appointment to a participant.\n"
+  syntax:
+    content: public static void AssignTo(AppointmentRow row, ParticipantInfo participant)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: The appointment to assign to the new participant.
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to assign the appointment to.  This participant needs to be an associate.
+    content.vb: Public Shared Sub AssignTo(row As AppointmentRow, participant As ParticipantInfo)
+  overload: SuperOffice.CRM.Entities.BookingManager.AssignTo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  id: AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: AssignToExternalOrganizer(AppointmentRow, ParticipantInfo)
+  nameWithType: BookingManager.AssignToExternalOrganizer(AppointmentRow, ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nAssign an appointment to a participant.\n"
+  syntax:
+    content: public static void AssignToExternalOrganizer(AppointmentRow row, ParticipantInfo participant)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: The appointment to assign to the new participant.
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: Participant to assign the appointment to.  This participant needs to be an associate.
+    content.vb: Public Shared Sub AssignToExternalOrganizer(row As AppointmentRow, participant As ParticipantInfo)
+  overload: SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Services.ParticipantInfo)
+  id: AssignTo(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: AssignTo(ParticipantInfo)
+  nameWithType: BookingManager.AssignTo(ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.AssignTo(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nChanges the owner of an Appointment and sets the associate id of the associate \nthat assigned the Appointment as Assigned By\n"
+  remarks: "\nAlso updates the GroupId, InvitedPersonId, ContactId and EmailId fields. The method\nupdates the main booking AppointmentRow. The AppointmentRow given as parameter is marked\nfor deletion if the new associate is already a participant in this Booking.\n"
+  syntax:
+    content: public void AssignTo(ParticipantInfo participant)
+    parameters:
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    content.vb: Public Sub AssignTo(participant As ParticipantInfo)
+  overload: SuperOffice.CRM.Entities.BookingManager.AssignTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.BookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  id: HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: HasAccepted(AppointmentRow)
+  nameWithType: BookingManager.HasAccepted(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.HasAccepted(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHas the appointment been accepted?\n"
+  syntax:
+    content: public static bool HasAccepted(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+      description: True if the status of the appointment is NotStarted or Started
+    content.vb: Public Shared Function HasAccepted(appointment As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.HasAccepted*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  id: AcceptRejectedAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejectedAppointment(AppointmentRow)
+  nameWithType: BookingManager.AcceptRejectedAppointment(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe booking owner can set the appointment record to a state where it is accepted \nthat the invited participant has rejected to participate. \n"
+  syntax:
+    content: public static void AcceptRejectedAppointment(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: The appointment in question
+    content.vb: Public Shared Sub AcceptRejectedAppointment(appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.AcceptAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.AcceptAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  id: AcceptAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: AcceptAppointment(AppointmentRow)
+  nameWithType: BookingManager.AcceptAppointment(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.AcceptAppointment(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the appointment record to a state where it is accepted.\n"
+  remarks: >-
+    RejectReason is erased automatically when you accept. If this is a main booking
+
+    we also zero the AssignedBy field in case the appointment was an assigned main booking record
+  syntax:
+    content: public static void AcceptAppointment(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: The appointment in question
+    content.vb: Public Shared Sub AcceptAppointment(appointment As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.AcceptAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow,System.String)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow,System.String)
+  id: RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow,System.String)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: RejectAppointment(AppointmentRow, String)
+  nameWithType: BookingManager.RejectAppointment(AppointmentRow, String)
+  fullName: SuperOffice.CRM.Entities.BookingManager.RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet the appointment record to a state where it is not accepted.\n"
+  remarks: "\nThis will set the booking invitation or assignment to rejected. If the appointment is an assignment, then the \nappointment will be sent back to the sender by switching the AssociateId and AssignedBy values.\n"
+  syntax:
+    content: public static void RejectAppointment(AppointmentRow appointmentRow, string rejectReason)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: Appointment to be Rejected
+    - id: rejectReason
+      type: System.String
+      description: Reject reason to show with the rejection
+    content.vb: Public Shared Sub RejectAppointment(appointmentRow As AppointmentRow, rejectReason As String)
+  overload: SuperOffice.CRM.Entities.BookingManager.RejectAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  id: SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: SetSeen(AppointmentRow)
+  nameWithType: BookingManager.SetSeen(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetSeen(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSets an appointment Invitation or Assignment to seen.\n"
+  remarks: "\nSet Seen (Booking or Assignment) or MovedSeen (Booking) depending on the previous status \nof the Appointment\n"
+  syntax:
+    content: public static void SetSeen(AppointmentRow appointmentRow)
+    parameters:
+    - id: appointmentRow
+      type: SuperOffice.CRM.Rows.AppointmentRow
+      description: AppointmentRow appointmentRow - The appointment row whos status should be set to Seen
+    content.vb: Public Shared Sub SetSeen(appointmentRow As AppointmentRow)
+  overload: SuperOffice.CRM.Entities.BookingManager.SetSeen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  id: IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentStatusSimilar(AppointmentStatus, AppointmentStatus)
+  nameWithType: BookingManager.IsAppointmentStatusSimilar(AppointmentStatus, AppointmentStatus)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThis method compares to <xref href=\"SuperOffice.Data.AppointmentStatus\" data-throw-if-not-resolved=\"false\"></xref> enumerators and \ndetermines if they are similar, hence; threated equally.  The typical scenario \nis that a repeating  booking needs to determine if an action like \n<xref href=\"SuperOffice.CRM.Entities.BookingManager.AcceptAppointment(SuperOffice.CRM.Rows.AppointmentRow)\" data-throw-if-not-resolved=\"false\"></xref>  or <xref href=\"SuperOffice.CRM.Entities.BookingManager.RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> should be \ncarried out on a later instance in a series.  Such operations should be carried \nout if the status is similar.\n"
+  syntax:
+    content: public static bool IsAppointmentStatusSimilar(AppointmentStatus originalStaus, AppointmentStatus compareStatus)
+    parameters:
+    - id: originalStaus
+      type: SuperOffice.Data.AppointmentStatus
+      description: "First status to compare, typically the status of \nthe first appointment in a repeating series."
+    - id: compareStatus
+      type: SuperOffice.Data.AppointmentStatus
+      description: >-
+        Second status to compare, typically the status of
+
+        an appointment later on in the series.
+    return:
+      type: System.Boolean
+      description: True if the appointment status are similar.
+    content.vb: Public Shared Function IsAppointmentStatusSimilar(originalStaus As AppointmentStatus, compareStatus As AppointmentStatus) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsExternalPerson(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsExternalPerson(SuperOffice.CRM.Services.ParticipantInfo)
+  id: IsExternalPerson(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsExternalPerson(ParticipantInfo)
+  nameWithType: BookingManager.IsExternalPerson(ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsExternalPerson(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCheck if the participant is an external person\n"
+  syntax:
+    content: public static bool IsExternalPerson(ParticipantInfo participantInfo)
+    parameters:
+    - id: participantInfo
+      type: SuperOffice.CRM.Services.ParticipantInfo
+      description: <xref href="SuperOffice.CRM.Services.ParticipantInfo" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.Boolean
+      description: true if the participant is an external person.
+    content.vb: Public Shared Function IsExternalPerson(participantInfo As ParticipantInfo) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsExternalPerson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.BookingManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BookingManager, To>()
+  nameWithType: EnumUtil.MapEnums<BookingManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.BookingManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BookingManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.BookingManager, To)()
+  name.vb: MapEnums(Of BookingManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BookingManager, To>
+    nameWithType: EnumUtil.MapEnums<BookingManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.BookingManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BookingManager, To)
+    nameWithType: EnumUtil.MapEnums(Of BookingManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.BookingManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.BookingManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BookingManager, To>()
+  nameWithType: Converters.MapEnums<BookingManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.BookingManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of BookingManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.BookingManager, To)()
+  name.vb: MapEnums(Of BookingManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BookingManager, To>
+    nameWithType: Converters.MapEnums<BookingManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.BookingManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BookingManager, To)
+    nameWithType: Converters.MapEnums(Of BookingManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.BookingManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.BookingManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.#ctor
+  isExternal: true
+  name: BookingManager
+  nameWithType: BookingManager.BookingManager
+  fullName: SuperOffice.CRM.Entities.BookingManager.BookingManager
+- uid: SuperOffice.CRM.Rows.AppointmentRow
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AppointmentRow
+  nameWithType: AppointmentRow
+  fullName: SuperOffice.CRM.Rows.AppointmentRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant
+  isExternal: true
+  name: CreateAppointmentForParticipant
+  nameWithType: BookingManager.CreateAppointmentForParticipant
+  fullName: SuperOffice.CRM.Entities.BookingManager.CreateAppointmentForParticipant
+- uid: SuperOffice.CRM.Services.ParticipantInfo
+  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus
+  isExternal: true
+  name: ConvertInvitationToAppointmentStatus
+  nameWithType: BookingManager.ConvertInvitationToAppointmentStatus
+  fullName: SuperOffice.CRM.Entities.BookingManager.ConvertInvitationToAppointmentStatus
+- uid: SuperOffice.Data.AppointmentStatus
+  commentId: T:SuperOffice.Data.AppointmentStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.Data.AppointmentStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus
+  isExternal: true
+  name: ConvertAppoinmentToInvitationStatus
+  nameWithType: BookingManager.ConvertAppoinmentToInvitationStatus
+  fullName: SuperOffice.CRM.Entities.BookingManager.ConvertAppoinmentToInvitationStatus
+- uid: SuperOffice.Data.InvitationStatus
+  commentId: T:SuperOffice.Data.InvitationStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: InvitationStatus
+  fullName: SuperOffice.Data.InvitationStatus
+- uid: SuperOffice.CRM.Entities.BookingManager.SholdParticipate*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.SholdParticipate
+  isExternal: true
+  name: SholdParticipate
+  nameWithType: BookingManager.SholdParticipate
+  fullName: SuperOffice.CRM.Entities.BookingManager.SholdParticipate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant
+  isExternal: true
+  name: ModifyAppointmentForParticipant
+  nameWithType: BookingManager.ModifyAppointmentForParticipant
+  fullName: SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant
+- uid: SuperOffice.CRM.Entities.BookingManagerModified
+  commentId: T:SuperOffice.CRM.Entities.BookingManagerModified
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: BookingManagerModified
+  nameWithType: BookingManagerModified
+  fullName: SuperOffice.CRM.Entities.BookingManagerModified
+- uid: SuperOffice.CRM.Entities.BookingManager.ValidateAppointment*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.ValidateAppointment
+  isExternal: true
+  name: ValidateAppointment
+  nameWithType: BookingManager.ValidateAppointment
+  fullName: SuperOffice.CRM.Entities.BookingManager.ValidateAppointment
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList
+  isExternal: true
+  name: IsAppointmentIncludedInParticipantList
+  nameWithType: BookingManager.IsAppointmentIncludedInParticipantList
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentIncludedInParticipantList
+- uid: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList
+  isExternal: true
+  name: SetAppointmentToRemovedFromParticipantList
+  nameWithType: BookingManager.SetAppointmentToRemovedFromParticipantList
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToRemovedFromParticipantList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList
+  isExternal: true
+  name: SetAppointmentToIncludedInParticipantList
+  nameWithType: BookingManager.SetAppointmentToIncludedInParticipantList
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetAppointmentToIncludedInParticipantList
+- uid: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction
+  isExternal: true
+  name: GetAppointmentDeleteAction
+  nameWithType: BookingManager.GetAppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetAppointmentDeleteAction
+- uid: SuperOffice.CRM.Entities.Appointment
+  commentId: T:SuperOffice.CRM.Entities.Appointment
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Entities.Appointment
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentDeleteAction
+  nameWithType: AppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+- uid: SuperOffice.CRM.Entities.BookingManager.GetBookingType*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.GetBookingType
+  isExternal: true
+  name: GetBookingType
+  nameWithType: BookingManager.GetBookingType
+  fullName: SuperOffice.CRM.Entities.BookingManager.GetBookingType
+- uid: SuperOffice.Data.BookingType
+  commentId: T:SuperOffice.Data.BookingType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BookingType
+  nameWithType: BookingType
+  fullName: SuperOffice.Data.BookingType
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking
+  isExternal: true
+  name: IsAppointmentBooking
+  nameWithType: BookingManager.IsAppointmentBooking
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentBooking
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking
+  isExternal: true
+  name: IsAppointmentMainBooking
+  nameWithType: BookingManager.IsAppointmentMainBooking
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking
+  isExternal: true
+  name: IsAppointmentChildBooking
+  nameWithType: BookingManager.IsAppointmentChildBooking
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentChildBooking
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment
+  isExternal: true
+  name: IsAppointmentAssignment
+  nameWithType: BookingManager.IsAppointmentAssignment
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentAssignment
+- uid: SuperOffice.CRM.Entities.BookingManager.AssignTo*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.AssignTo
+  isExternal: true
+  name: AssignTo
+  nameWithType: BookingManager.AssignTo
+  fullName: SuperOffice.CRM.Entities.BookingManager.AssignTo
+- uid: SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer
+  isExternal: true
+  name: AssignToExternalOrganizer
+  nameWithType: BookingManager.AssignToExternalOrganizer
+  fullName: SuperOffice.CRM.Entities.BookingManager.AssignToExternalOrganizer
+- uid: SuperOffice.CRM.Entities.BookingManager.HasAccepted*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.HasAccepted
+  isExternal: true
+  name: HasAccepted
+  nameWithType: BookingManager.HasAccepted
+  fullName: SuperOffice.CRM.Entities.BookingManager.HasAccepted
+- uid: SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment
+  isExternal: true
+  name: AcceptRejectedAppointment
+  nameWithType: BookingManager.AcceptRejectedAppointment
+  fullName: SuperOffice.CRM.Entities.BookingManager.AcceptRejectedAppointment
+- uid: SuperOffice.CRM.Entities.BookingManager.AcceptAppointment*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.AcceptAppointment
+  isExternal: true
+  name: AcceptAppointment
+  nameWithType: BookingManager.AcceptAppointment
+  fullName: SuperOffice.CRM.Entities.BookingManager.AcceptAppointment
+- uid: SuperOffice.CRM.Entities.BookingManager.RejectAppointment*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.RejectAppointment
+  isExternal: true
+  name: RejectAppointment
+  nameWithType: BookingManager.RejectAppointment
+  fullName: SuperOffice.CRM.Entities.BookingManager.RejectAppointment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.BookingManager.SetSeen*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.SetSeen
+  isExternal: true
+  name: SetSeen
+  nameWithType: BookingManager.SetSeen
+  fullName: SuperOffice.CRM.Entities.BookingManager.SetSeen
+- uid: SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar
+  isExternal: true
+  name: IsAppointmentStatusSimilar
+  nameWithType: BookingManager.IsAppointmentStatusSimilar
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar
+- uid: SuperOffice.CRM.Entities.BookingManager.IsExternalPerson*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsExternalPerson
+  isExternal: true
+  name: IsExternalPerson
+  nameWithType: BookingManager.IsExternalPerson
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsExternalPerson

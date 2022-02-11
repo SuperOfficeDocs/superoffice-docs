@@ -1,0 +1,1380 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  id: SoProtocolParser
+  parent: SuperOffice.DCF.Web.Protocol
+  children:
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.#ctor(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser._currentValues
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser._page
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser._soprotocol
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser._superMode
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser._unresolvedModes
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams(System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean@)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String,System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest(System.Web.HttpApplication)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest(System.Web.HttpApplication)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol
+  - SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolParser
+  nameWithType: SoProtocolParser
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public class SoProtocolParser
+    content.vb: Public Class SoProtocolParser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser._soprotocol
+  commentId: F:SuperOffice.DCF.Web.Protocol.SoProtocolParser._soprotocol
+  id: _soprotocol
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: _soprotocol
+  nameWithType: SoProtocolParser._soprotocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser._soprotocol
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: protected string _soprotocol
+    return:
+      type: System.String
+    content.vb: Protected _soprotocol As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser._superMode
+  commentId: F:SuperOffice.DCF.Web.Protocol.SoProtocolParser._superMode
+  id: _superMode
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: _superMode
+  nameWithType: SoProtocolParser._superMode
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser._superMode
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: protected string[] _superMode
+    return:
+      type: System.String[]
+    content.vb: Protected _superMode As String()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser._currentValues
+  commentId: F:SuperOffice.DCF.Web.Protocol.SoProtocolParser._currentValues
+  id: _currentValues
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: _currentValues
+  nameWithType: SoProtocolParser._currentValues
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser._currentValues
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: protected string[] _currentValues
+    return:
+      type: System.String[]
+    content.vb: Protected _currentValues As String()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser._unresolvedModes
+  commentId: F:SuperOffice.DCF.Web.Protocol.SoProtocolParser._unresolvedModes
+  id: _unresolvedModes
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: _unresolvedModes
+  nameWithType: SoProtocolParser._unresolvedModes
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser._unresolvedModes
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: protected List<string> _unresolvedModes
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Protected _unresolvedModes As List(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser._page
+  commentId: F:SuperOffice.DCF.Web.Protocol.SoProtocolParser._page
+  id: _page
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: _page
+  nameWithType: SoProtocolParser._page
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser._page
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: protected string _page
+    return:
+      type: System.String
+    content.vb: Protected _page As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolParser(String)
+  nameWithType: SoProtocolParser.SoProtocolParser(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolParser(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public SoProtocolParser(string soprotocol)
+    parameters:
+    - id: soprotocol
+      type: System.String
+    content.vb: Public Sub New(soprotocol As String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol
+  id: verifySoProtocol
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: verifySoProtocol()
+  nameWithType: SoProtocolParser.verifySoProtocol()
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public virtual void verifySoProtocol()
+    content.vb: Public Overridable Sub verifySoProtocol
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest(System.Web.HttpApplication)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest(System.Web.HttpApplication)
+  id: SoProtocolFromGetRequest(System.Web.HttpApplication)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolFromGetRequest(HttpApplication)
+  nameWithType: SoProtocolParser.SoProtocolFromGetRequest(HttpApplication)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest(System.Web.HttpApplication)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static SoProtocolParser SoProtocolFromGetRequest(HttpApplication appl)
+    parameters:
+    - id: appl
+      type: System.Web.HttpApplication
+    return:
+      type: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+    content.vb: Public Shared Function SoProtocolFromGetRequest(appl As HttpApplication) As SoProtocolParser
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest(System.Web.HttpApplication)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest(System.Web.HttpApplication)
+  id: SoProtocolFromPostRequest(System.Web.HttpApplication)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolFromPostRequest(HttpApplication)
+  nameWithType: SoProtocolParser.SoProtocolFromPostRequest(HttpApplication)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest(System.Web.HttpApplication)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static SoProtocolParser SoProtocolFromPostRequest(HttpApplication appl)
+    parameters:
+    - id: appl
+      type: System.Web.HttpApplication
+    return:
+      type: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+    content.vb: Public Shared Function SoProtocolFromPostRequest(appl As HttpApplication) As SoProtocolParser
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol
+  id: GetModifiedSoProtocol
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: GetModifiedSoProtocol()
+  nameWithType: SoProtocolParser.GetModifiedSoProtocol()
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public string GetModifiedSoProtocol()
+    return:
+      type: System.String
+    content.vb: Public Function GetModifiedSoProtocol As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String)
+  id: GetCurrentName(System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentName(String)
+  nameWithType: SoProtocolParser.GetCurrentName(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static string GetCurrentName(string currentKey)
+    parameters:
+    - id: currentKey
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrentName(currentKey As String) As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String,System.String)
+  id: GetCurrentName(System.String,System.String)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentName(String, String)
+  nameWithType: SoProtocolParser.GetCurrentName(String, String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static string GetCurrentName(string currentKey, string currentValue)
+    parameters:
+    - id: currentKey
+      type: System.String
+    - id: currentValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrentName(currentKey As String, currentValue As String) As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams(System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean@)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams(System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean@)
+  id: CombineParams(System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean@)
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: CombineParams(Dictionary<String, String>, Dictionary<String, String>, out Boolean)
+  nameWithType: SoProtocolParser.CombineParams(Dictionary<String, String>, Dictionary<String, String>, out Boolean)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams(System.Collections.Generic.Dictionary<System.String, System.String>, System.Collections.Generic.Dictionary<System.String, System.String>, out System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static Dictionary<string, string> CombineParams(Dictionary<string, string> currentParams, Dictionary<string, string> newParams, out bool hasChanged)
+    parameters:
+    - id: currentParams
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    - id: newParams
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    - id: hasChanged
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Function CombineParams(currentParams As Dictionary(Of String, String), newParams As Dictionary(Of String, String), ByRef hasChanged As Boolean) As Dictionary(Of String, String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams*
+  nameWithType.vb: SoProtocolParser.CombineParams(Dictionary(Of String, String), Dictionary(Of String, String), ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams(System.Collections.Generic.Dictionary(Of System.String, System.String), System.Collections.Generic.Dictionary(Of System.String, System.String), ByRef System.Boolean)
+  name.vb: CombineParams(Dictionary(Of String, String), Dictionary(Of String, String), ByRef Boolean)
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: GetParamsSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: GetParamsSoProtocol(String, Dictionary<String, String>)
+  nameWithType: SoProtocolParser.GetParamsSoProtocol(String, Dictionary<String, String>)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol(System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static string GetParamsSoProtocol(string protocol, Dictionary<string, string> pars)
+    parameters:
+    - id: protocol
+      type: System.String
+    - id: pars
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetParamsSoProtocol(protocol As String, pars As Dictionary(Of String, String)) As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol*
+  nameWithType.vb: SoProtocolParser.GetParamsSoProtocol(String, Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: GetParamsSoProtocol(String, Dictionary(Of String, String))
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: GetCurrentValSoProtocol(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentValSoProtocol(String, Dictionary<String, String>)
+  nameWithType: SoProtocolParser.GetCurrentValSoProtocol(String, Dictionary<String, String>)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol(System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public static string GetCurrentValSoProtocol(string protocol, Dictionary<string, string> currentDict)
+    parameters:
+    - id: protocol
+      type: System.String
+    - id: currentDict
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrentValSoProtocol(protocol As String, currentDict As Dictionary(Of String, String)) As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol*
+  nameWithType.vb: SoProtocolParser.GetCurrentValSoProtocol(String, Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: GetCurrentValSoProtocol(String, Dictionary(Of String, String))
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol
+  commentId: P:SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: SoProtocolParser.SoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public string SoProtocol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SoProtocol As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes
+  commentId: P:SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes
+  id: UnresolvedModes
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: UnresolvedModes
+  nameWithType: SoProtocolParser.UnresolvedModes
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public List<string> UnresolvedModes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public ReadOnly Property UnresolvedModes As List(Of String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page
+  commentId: P:SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page
+  id: Page
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: SoProtocolParser.Page
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public string Page { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Page As String
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams
+  commentId: P:SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams
+  id: PageParams
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: PageParams
+  nameWithType: SoProtocolParser.PageParams
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public Dictionary<string, string> PageParams { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property PageParams As Dictionary(Of String, String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views
+  commentId: P:SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views
+  id: Views
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: Views
+  nameWithType: SoProtocolParser.Views
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public List<View> Views { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Cache.View}
+    content.vb: Public ReadOnly Property Views As List(Of View)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues
+  commentId: P:SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues
+  id: CurrentValues
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  langs:
+  - csharp
+  - vb
+  name: CurrentValues
+  nameWithType: SoProtocolParser.CurrentValues
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public Dictionary<string, string> CurrentValues { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property CurrentValues As Dictionary(Of String, String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.Protocol
+  commentId: N:SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SuperOffice.DCF.Web.Protocol
+  nameWithType: SuperOffice.DCF.Web.Protocol
+  fullName: SuperOffice.DCF.Web.Protocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.#ctor
+  isExternal: true
+  name: SoProtocolParser
+  nameWithType: SoProtocolParser.SoProtocolParser
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolParser
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol
+  isExternal: true
+  name: verifySoProtocol
+  nameWithType: SoProtocolParser.verifySoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.verifySoProtocol
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest
+  isExternal: true
+  name: SoProtocolFromGetRequest
+  nameWithType: SoProtocolParser.SoProtocolFromGetRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromGetRequest
+- uid: System.Web.HttpApplication
+  isExternal: true
+  name: HttpApplication
+  nameWithType: HttpApplication
+  fullName: System.Web.HttpApplication
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolParser
+  parent: SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SoProtocolParser
+  nameWithType: SoProtocolParser
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest
+  isExternal: true
+  name: SoProtocolFromPostRequest
+  nameWithType: SoProtocolParser.SoProtocolFromPostRequest
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocolFromPostRequest
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol
+  isExternal: true
+  name: GetModifiedSoProtocol
+  nameWithType: SoProtocolParser.GetModifiedSoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetModifiedSoProtocol
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName
+  isExternal: true
+  name: GetCurrentName
+  nameWithType: SoProtocolParser.GetCurrentName
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentName
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams
+  isExternal: true
+  name: CombineParams
+  nameWithType: SoProtocolParser.CombineParams
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CombineParams
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol
+  isExternal: true
+  name: GetParamsSoProtocol
+  nameWithType: SoProtocolParser.GetParamsSoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetParamsSoProtocol
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol
+  isExternal: true
+  name: GetCurrentValSoProtocol
+  nameWithType: SoProtocolParser.GetCurrentValSoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.GetCurrentValSoProtocol
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol
+  isExternal: true
+  name: SoProtocol
+  nameWithType: SoProtocolParser.SoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.SoProtocol
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes
+  isExternal: true
+  name: UnresolvedModes
+  nameWithType: SoProtocolParser.UnresolvedModes
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.UnresolvedModes
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page
+  isExternal: true
+  name: Page
+  nameWithType: SoProtocolParser.Page
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Page
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams
+  isExternal: true
+  name: PageParams
+  nameWithType: SoProtocolParser.PageParams
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.PageParams
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views
+  isExternal: true
+  name: Views
+  nameWithType: SoProtocolParser.Views
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.Views
+- uid: System.Collections.Generic.List{SuperOffice.Cache.View}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Cache.View}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<View>
+  nameWithType: List<View>
+  fullName: System.Collections.Generic.List<SuperOffice.Cache.View>
+  nameWithType.vb: List(Of View)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Cache.View)
+  name.vb: List(Of View)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Cache.View
+    name: View
+    nameWithType: View
+    fullName: SuperOffice.Cache.View
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Cache.View
+    name: View
+    nameWithType: View
+    fullName: SuperOffice.Cache.View
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues
+  isExternal: true
+  name: CurrentValues
+  nameWithType: SoProtocolParser.CurrentValues
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolParser.CurrentValues

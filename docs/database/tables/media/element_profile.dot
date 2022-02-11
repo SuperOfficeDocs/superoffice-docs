@@ -1,0 +1,12 @@
+digraph element_profile  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+element_profile[fillcolor = "cadetblue1"]
+screen_definition_element[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+role_element[fillcolor = "azure1"]
+element_profile -> screen_definition_element [headlabel = "screen_definition_element"]
+element_profile -> ejuser [headlabel = "owned_by_user"]
+role_element -> element_profile [label = "element_profile"]
+}

@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TemporaryKeyDomain
+  # Same as SuperOffice.Data.TemporaryKeyDomain
+  commentId: T:CRMScript.NetServer.TemporaryKeyDomain
+  id: TemporaryKeyDomain
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TemporaryKeyDomain.Unknown
+  - CRMScript.NetServer.TemporaryKeyDomain.MailingRecipient
+  - CRMScript.NetServer.TemporaryKeyDomain.FormSubmitterRecipient
+  - CRMScript.NetServer.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  - CRMScript.NetServer.TemporaryKeyDomain.LoginCustomerCenter
+  - CRMScript.NetServer.TemporaryKeyDomain.PublicFaq
+  - CRMScript.NetServer.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: CRMScript.NetServer.TemporaryKeyDomain
+  type: Enum
+  summary: "\nDomains for temporary keys.\n"
+- uid: CRMScript.NetServer.TemporaryKeyDomain.Unknown
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.Unknown
+  id: TemporaryKeyDomain.Unknown
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.Unknown
+  nameWithType: TemporaryKeyDomain.Unknown
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.Unknown
+  type: Field
+  summary: "\n0: Unknown\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TemporaryKeyDomain
+- uid: CRMScript.NetServer.TemporaryKeyDomain.MailingRecipient
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.MailingRecipient
+  id: TemporaryKeyDomain.MailingRecipient
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.MailingRecipient
+  nameWithType: TemporaryKeyDomain.MailingRecipient
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.MailingRecipient
+  type: Field
+  summary: "\n1: Mailing recipient.\n"
+  syntax: 
+    content: MailingRecipient = 1
+    type: CRMScript.NetServer.TemporaryKeyDomain
+- uid: CRMScript.NetServer.TemporaryKeyDomain.FormSubmitterRecipient
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.FormSubmitterRecipient
+  id: TemporaryKeyDomain.FormSubmitterRecipient
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.FormSubmitterRecipient
+  nameWithType: TemporaryKeyDomain.FormSubmitterRecipient
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.FormSubmitterRecipient
+  type: Field
+  summary: "\n2: Form submission recipient.\n"
+  syntax: 
+    content: FormSubmitterRecipient = 2
+    type: CRMScript.NetServer.TemporaryKeyDomain
+- uid: CRMScript.NetServer.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  id: TemporaryKeyDomain.ViewTicketInCustomerCenter
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.ViewTicketInCustomerCenter
+  nameWithType: TemporaryKeyDomain.ViewTicketInCustomerCenter
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.ViewTicketInCustomerCenter
+  type: Field
+  summary: "\n3: View request in customer center.\n"
+  syntax: 
+    content: ViewTicketInCustomerCenter = 3
+    type: CRMScript.NetServer.TemporaryKeyDomain
+- uid: CRMScript.NetServer.TemporaryKeyDomain.LoginCustomerCenter
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.LoginCustomerCenter
+  id: TemporaryKeyDomain.LoginCustomerCenter
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.LoginCustomerCenter
+  nameWithType: TemporaryKeyDomain.LoginCustomerCenter
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.LoginCustomerCenter
+  type: Field
+  summary: "\n4: Customer center login key.\n"
+  syntax: 
+    content: LoginCustomerCenter = 4
+    type: CRMScript.NetServer.TemporaryKeyDomain
+- uid: CRMScript.NetServer.TemporaryKeyDomain.PublicFaq
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.PublicFaq
+  id: TemporaryKeyDomain.PublicFaq
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.PublicFaq
+  nameWithType: TemporaryKeyDomain.PublicFaq
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.PublicFaq
+  type: Field
+  summary: "\n5: Customer center public faq key.\n"
+  syntax: 
+    content: PublicFaq = 5
+    type: CRMScript.NetServer.TemporaryKeyDomain
+- uid: CRMScript.NetServer.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  commentId: F:CRMScript.NetServer.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  id: TemporaryKeyDomain.ChangePasswordCustomerCenter
+  langs:
+  - crmscript
+  name: TemporaryKeyDomain.ChangePasswordCustomerCenter
+  nameWithType: TemporaryKeyDomain.ChangePasswordCustomerCenter
+  fullName: CRMScript.NetServer.TemporaryKeyDomain.ChangePasswordCustomerCenter
+  type: Field
+  summary: "\n6: ChangePasswordCustomerCenter\n"
+  syntax: 
+    content: ChangePasswordCustomerCenter = 6
+    type: CRMScript.NetServer.TemporaryKeyDomain
+references:
+- uid: CRMScript.NetServer.TemporaryKeyDomain
+  commentId: T:CRMScript.NetServer.TemporaryKeyDomain
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: CRMScript.NetServer.TemporaryKeyDomain

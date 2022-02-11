@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  id: CustomerService_CreateTicketFromMailDataRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
+  - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_CreateTicketFromMailDataRequest
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_CreateTicketFromMailDataRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_CreateTicketFromMailDataRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_CreateTicketFromMailDataRequest()
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.CustomerService_CreateTicketFromMailDataRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.CustomerService_CreateTicketFromMailDataRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_CreateTicketFromMailDataRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  id: MailboxId
+  parent: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: MailboxId
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MailboxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MailboxId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
+  id: Data
+  parent: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.Data
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Data { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Data As String
+  overload: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor
+  isExternal: true
+  name: CustomerService_CreateTicketFromMailDataRequest
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.CustomerService_CreateTicketFromMailDataRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.CustomerService_CreateTicketFromMailDataRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  isExternal: true
+  name: MailboxId
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
+  isExternal: true
+  name: Data
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.Data
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

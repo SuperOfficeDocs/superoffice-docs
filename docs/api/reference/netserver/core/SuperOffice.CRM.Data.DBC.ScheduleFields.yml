@@ -1,0 +1,1127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ScheduleFields
+  id: DBC.ScheduleFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.AfterScheduleId
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Asap
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.DayOfMonth
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Disabled
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Domain
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.ErrorMessage
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.ExecutionTime
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Frequency
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.LastError
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.LastExecution
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.LockExpire
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.LockPid
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.LockTtl
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.MinOfHour
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.MinuteInterval
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Months
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Name
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.NextExecution
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.OnceAt
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Retries
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.RetryInterval
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.ScheduleId
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Status
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Stop
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.TimeOfDay
+  - SuperOffice.CRM.Data.DBC.ScheduleFields.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: DBC.ScheduleFields
+  nameWithType: DBC.ScheduleFields
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Schedule, Generic scheduled tasked handling time scheduling, locking and error messages\n"
+  syntax:
+    content: public static class ScheduleFields
+    content.vb: Public Module ScheduleFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.ScheduleId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.ScheduleId
+  id: ScheduleId
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: ScheduleId
+  nameWithType: DBC.ScheduleFields.ScheduleId
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.ScheduleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.ScheduleId: Primary key\n"
+  syntax:
+    content: public const string ScheduleId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ScheduleId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Domain
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Domain
+  id: Domain
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: DBC.ScheduleFields.Domain
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Domain
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Domain: Type of scheduled task\n"
+  syntax:
+    content: public const string Domain = "domain"
+    return:
+      type: System.String
+    content.vb: Public Const Domain As String = "domain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.ScheduleFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Status: Schedules current status\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Frequency
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Frequency
+  id: Frequency
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Frequency
+  nameWithType: DBC.ScheduleFields.Frequency
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Frequency
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Frequency: Type of schedule algorithm to use\n"
+  syntax:
+    content: public const string Frequency = "frequency"
+    return:
+      type: System.String
+    content.vb: Public Const Frequency As String = "frequency"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Asap
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Asap
+  id: Asap
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Asap
+  nameWithType: DBC.ScheduleFields.Asap
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Asap
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Asap: Run schedule ASAP\n"
+  syntax:
+    content: public const string Asap = "asap"
+    return:
+      type: System.String
+    content.vb: Public Const Asap As String = "asap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Disabled
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Disabled
+  id: Disabled
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: DBC.ScheduleFields.Disabled
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Disabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Disabled: Disable the schedule\n"
+  syntax:
+    content: public const string Disabled = "disabled"
+    return:
+      type: System.String
+    content.vb: Public Const Disabled As String = "disabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Stop
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Stop
+  id: Stop
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: DBC.ScheduleFields.Stop
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Stop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Stop: Signal to stop schedule\n"
+  syntax:
+    content: public const string Stop = "stop"
+    return:
+      type: System.String
+    content.vb: Public Const Stop As String = "stop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ScheduleFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Name: Name of the schedule\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.AfterScheduleId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.AfterScheduleId
+  id: AfterScheduleId
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: AfterScheduleId
+  nameWithType: DBC.ScheduleFields.AfterScheduleId
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.AfterScheduleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.AfterScheduleId: Run after another schedule have completed\n"
+  syntax:
+    content: public const string AfterScheduleId = "after_schedule_id"
+    return:
+      type: System.String
+    content.vb: Public Const AfterScheduleId As String = "after_schedule_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.MinuteInterval
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.MinuteInterval
+  id: MinuteInterval
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: MinuteInterval
+  nameWithType: DBC.ScheduleFields.MinuteInterval
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.MinuteInterval
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.MinuteInterval: Interval in minutes, used by Minutely\n"
+  syntax:
+    content: public const string MinuteInterval = "minute_interval"
+    return:
+      type: System.String
+    content.vb: Public Const MinuteInterval As String = "minute_interval"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Weekdays
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Weekdays
+  id: Weekdays
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Weekdays
+  nameWithType: DBC.ScheduleFields.Weekdays
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Weekdays
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Weekdays: Bitfield: which days of the week to run\n"
+  syntax:
+    content: public const string Weekdays = "weekdays"
+    return:
+      type: System.String
+    content.vb: Public Const Weekdays As String = "weekdays"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Months
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Months
+  id: Months
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Months
+  nameWithType: DBC.ScheduleFields.Months
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Months
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Months: Bitfield: which months of the year to run\n"
+  syntax:
+    content: public const string Months = "months"
+    return:
+      type: System.String
+    content.vb: Public Const Months As String = "months"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.MinOfHour
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.MinOfHour
+  id: MinOfHour
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: MinOfHour
+  nameWithType: DBC.ScheduleFields.MinOfHour
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.MinOfHour
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.MinOfHour: Run at a given minute in an hour\n"
+  syntax:
+    content: public const string MinOfHour = "min_of_hour"
+    return:
+      type: System.String
+    content.vb: Public Const MinOfHour As String = "min_of_hour"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.DayOfMonth
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.DayOfMonth
+  id: DayOfMonth
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: DayOfMonth
+  nameWithType: DBC.ScheduleFields.DayOfMonth
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.DayOfMonth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.DayOfMonth: What day of month to run\n"
+  syntax:
+    content: public const string DayOfMonth = "day_of_month"
+    return:
+      type: System.String
+    content.vb: Public Const DayOfMonth As String = "day_of_month"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.TimeOfDay
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.TimeOfDay
+  id: TimeOfDay
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: TimeOfDay
+  nameWithType: DBC.ScheduleFields.TimeOfDay
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.TimeOfDay
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.TimeOfDay: Time of day to execute if not specified.\n"
+  syntax:
+    content: public const string TimeOfDay = "time_of_day"
+    return:
+      type: System.String
+    content.vb: Public Const TimeOfDay As String = "time_of_day"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.OnceAt
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.OnceAt
+  id: OnceAt
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: OnceAt
+  nameWithType: DBC.ScheduleFields.OnceAt
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.OnceAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.OnceAt: Execute once at\n"
+  syntax:
+    content: public const string OnceAt = "once_at"
+    return:
+      type: System.String
+    content.vb: Public Const OnceAt As String = "once_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.NextExecution
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.NextExecution
+  id: NextExecution
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: NextExecution
+  nameWithType: DBC.ScheduleFields.NextExecution
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.NextExecution
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.NextExecution: Next execution\n"
+  syntax:
+    content: public const string NextExecution = "next_execution"
+    return:
+      type: System.String
+    content.vb: Public Const NextExecution As String = "next_execution"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.LastExecution
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.LastExecution
+  id: LastExecution
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: LastExecution
+  nameWithType: DBC.ScheduleFields.LastExecution
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.LastExecution
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.LastExecution: Last execution\n"
+  syntax:
+    content: public const string LastExecution = "last_execution"
+    return:
+      type: System.String
+    content.vb: Public Const LastExecution As String = "last_execution"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.ExecutionTime
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.ExecutionTime
+  id: ExecutionTime
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: ExecutionTime
+  nameWithType: DBC.ScheduleFields.ExecutionTime
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.ExecutionTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.ExecutionTime: Amount of time in seconds used by last execution\n"
+  syntax:
+    content: public const string ExecutionTime = "execution_time"
+    return:
+      type: System.String
+    content.vb: Public Const ExecutionTime As String = "execution_time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.LockExpire
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.LockExpire
+  id: LockExpire
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: LockExpire
+  nameWithType: DBC.ScheduleFields.LockExpire
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.LockExpire
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.LockExpire: Lock preventing the same schedule to run simultaniously\n"
+  syntax:
+    content: public const string LockExpire = "lock_expire"
+    return:
+      type: System.String
+    content.vb: Public Const LockExpire As String = "lock_expire"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.LockPid
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.LockPid
+  id: LockPid
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: LockPid
+  nameWithType: DBC.ScheduleFields.LockPid
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.LockPid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.LockPid: PID preventing the same schedule to run simultaniously\n"
+  syntax:
+    content: public const string LockPid = "lock_pid"
+    return:
+      type: System.String
+    content.vb: Public Const LockPid As String = "lock_pid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.LockTtl
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.LockTtl
+  id: LockTtl
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: LockTtl
+  nameWithType: DBC.ScheduleFields.LockTtl
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.LockTtl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.LockTtl: Lock time to live\n"
+  syntax:
+    content: public const string LockTtl = "lock_ttl"
+    return:
+      type: System.String
+    content.vb: Public Const LockTtl As String = "lock_ttl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.ErrorMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: DBC.ScheduleFields.ErrorMessage
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.ErrorMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.ErrorMessage: Last error message\n"
+  syntax:
+    content: public const string ErrorMessage = "error_message"
+    return:
+      type: System.String
+    content.vb: Public Const ErrorMessage As String = "error_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.LastError
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: DBC.ScheduleFields.LastError
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.LastError
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.LastError: Time of last error\n"
+  syntax:
+    content: public const string LastError = "last_error"
+    return:
+      type: System.String
+    content.vb: Public Const LastError As String = "last_error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.Retries
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.Retries
+  id: Retries
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: Retries
+  nameWithType: DBC.ScheduleFields.Retries
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.Retries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.Retries: Number of retries since last successfull execution\n"
+  syntax:
+    content: public const string Retries = "retries"
+    return:
+      type: System.String
+    content.vb: Public Const Retries As String = "retries"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScheduleFields.RetryInterval
+  commentId: F:SuperOffice.CRM.Data.DBC.ScheduleFields.RetryInterval
+  id: RetryInterval
+  parent: SuperOffice.CRM.Data.DBC.ScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: RetryInterval
+  nameWithType: DBC.ScheduleFields.RetryInterval
+  fullName: SuperOffice.CRM.Data.DBC.ScheduleFields.RetryInterval
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSchedule.RetryInterval: Number of minutes between each retry\n"
+  syntax:
+    content: public const string RetryInterval = "retry_interval"
+    return:
+      type: System.String
+    content.vb: Public Const RetryInterval As String = "retry_interval"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

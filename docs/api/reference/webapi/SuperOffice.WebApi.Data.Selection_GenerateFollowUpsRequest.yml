@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  id: Selection_GenerateFollowUpsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity
+  - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId
+  - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact
+  langs:
+  - csharp
+  - vb
+  name: Selection_GenerateFollowUpsRequest
+  nameWithType: Selection_GenerateFollowUpsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_GenerateFollowUpsRequest : Object'
+    content.vb: >-
+      Public Class Selection_GenerateFollowUpsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_GenerateFollowUpsRequest()
+  nameWithType: Selection_GenerateFollowUpsRequest.Selection_GenerateFollowUpsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.Selection_GenerateFollowUpsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_GenerateFollowUpsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_GenerateFollowUpsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity
+  commentId: P:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity
+  id: AppointmentEntity
+  parent: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentEntity
+  nameWithType: Selection_GenerateFollowUpsRequest.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AppointmentEntity AppointmentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+    content.vb: Public Property AppointmentEntity As AppointmentEntity
+  overload: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Selection_GenerateFollowUpsRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  commentId: P:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  id: SaveOnContactOwner
+  parent: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  langs:
+  - csharp
+  - vb
+  name: SaveOnContactOwner
+  nameWithType: Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SaveOnContactOwner { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SaveOnContactOwner As Boolean
+  overload: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact
+  commentId: P:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact
+  id: UniqueContact
+  parent: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  langs:
+  - csharp
+  - vb
+  name: UniqueContact
+  nameWithType: Selection_GenerateFollowUpsRequest.UniqueContact
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool UniqueContact { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UniqueContact As Boolean
+  overload: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.#ctor
+  isExternal: true
+  name: Selection_GenerateFollowUpsRequest
+  nameWithType: Selection_GenerateFollowUpsRequest.Selection_GenerateFollowUpsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.Selection_GenerateFollowUpsRequest
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_GenerateFollowUpsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: Selection_GenerateFollowUpsRequest.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Selection_GenerateFollowUpsRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.AssociateId
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  isExternal: true
+  name: SaveOnContactOwner
+  nameWithType: Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.SaveOnContactOwner
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact
+  isExternal: true
+  name: UniqueContact
+  nameWithType: Selection_GenerateFollowUpsRequest.UniqueContact
+  fullName: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest.UniqueContact

@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  id: List_GetHeadingsForListItemFromListNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  - SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  - SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  langs:
+  - csharp
+  - vb
+  name: List_GetHeadingsForListItemFromListNameRequest
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetHeadingsForListItemFromListNameRequest : Object'
+    content.vb: >-
+      Public Class List_GetHeadingsForListItemFromListNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetHeadingsForListItemFromListNameRequest()
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.List_GetHeadingsForListItemFromListNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.List_GetHeadingsForListItemFromListNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetHeadingsForListItemFromListNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  id: UdListDefinitionName
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionName
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UdListDefinitionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UdListDefinitionName As String
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  id: ListItemId
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: ListItemId
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ListItemId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  id: ShowDeleted
+  parent: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleted
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ShowDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.#ctor
+  isExternal: true
+  name: List_GetHeadingsForListItemFromListNameRequest
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.List_GetHeadingsForListItemFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.List_GetHeadingsForListItemFromListNameRequest
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  isExternal: true
+  name: UdListDefinitionName
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.UdListDefinitionName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  isExternal: true
+  name: ListItemId
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ListItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  isExternal: true
+  name: ShowDeleted
+  nameWithType: List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetHeadingsForListItemFromListNameRequest.ShowDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

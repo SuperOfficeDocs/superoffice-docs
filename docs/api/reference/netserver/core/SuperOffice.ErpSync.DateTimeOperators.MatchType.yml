@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  commentId: T:SuperOffice.ErpSync.DateTimeOperators.MatchType
+  id: DateTimeOperators.MatchType
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.DateOnly
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly_IgnoreSeconds
+  langs:
+  - csharp
+  - vb
+  name: DateTimeOperators.MatchType
+  nameWithType: DateTimeOperators.MatchType
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  type: Enum
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nWhich part of the date time should be matched\n"
+  syntax:
+    content: public enum MatchType
+    content.vb: Public Enum MatchType
+  extensionMethods:
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ErpSync.DateTimeOperators.MatchType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.DateOnly
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.MatchType.DateOnly
+  id: DateOnly
+  parent: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  langs:
+  - csharp
+  - vb
+  name: DateOnly
+  nameWithType: DateTimeOperators.MatchType.DateOnly
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType.DateOnly
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nMatch on date only\n"
+  syntax:
+    content: DateOnly = 0
+    return:
+      type: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly
+  id: TimeOnly
+  parent: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  langs:
+  - csharp
+  - vb
+  name: TimeOnly
+  nameWithType: DateTimeOperators.MatchType.TimeOnly
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nMatch on time only\n"
+  syntax:
+    content: TimeOnly = 1
+    return:
+      type: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly_IgnoreSeconds
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly_IgnoreSeconds
+  id: TimeOnly_IgnoreSeconds
+  parent: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  langs:
+  - csharp
+  - vb
+  name: TimeOnly_IgnoreSeconds
+  nameWithType: DateTimeOperators.MatchType.TimeOnly_IgnoreSeconds
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType.TimeOnly_IgnoreSeconds
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nMatch on time only, but ignore seconds\n"
+  syntax:
+    content: TimeOnly_IgnoreSeconds = 2
+    return:
+      type: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime
+  id: DateAndTime
+  parent: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  langs:
+  - csharp
+  - vb
+  name: DateAndTime
+  nameWithType: DateTimeOperators.MatchType.DateAndTime
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nMatch on date and time\n"
+  syntax:
+    content: DateAndTime = 3
+    return:
+      type: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds
+  id: DateAndTime_IgnoreSeconds
+  parent: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  langs:
+  - csharp
+  - vb
+  name: DateAndTime_IgnoreSeconds
+  nameWithType: DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nMatch on date and time, but ignore seconds\n"
+  syntax:
+    content: DateAndTime_IgnoreSeconds = 4
+    return:
+      type: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DateTimeOperators.MatchType, To>()
+  nameWithType: EnumUtil.MapEnums<DateTimeOperators.MatchType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.DateTimeOperators.MatchType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DateTimeOperators.MatchType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.DateTimeOperators.MatchType, To)()
+  name.vb: MapEnums(Of DateTimeOperators.MatchType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DateTimeOperators.MatchType, To>
+    nameWithType: EnumUtil.MapEnums<DateTimeOperators.MatchType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.DateTimeOperators.MatchType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DateTimeOperators.MatchType, To)
+    nameWithType: EnumUtil.MapEnums(Of DateTimeOperators.MatchType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.DateTimeOperators.MatchType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DateTimeOperators.MatchType>(DateTimeOperators.MatchType)
+  nameWithType: ObjectExtensions.AssignByReflection<DateTimeOperators.MatchType>(DateTimeOperators.MatchType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.DateTimeOperators.MatchType>(SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DateTimeOperators.MatchType)(DateTimeOperators.MatchType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.DateTimeOperators.MatchType)(SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  name.vb: AssignByReflection(Of DateTimeOperators.MatchType)(DateTimeOperators.MatchType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DateTimeOperators.MatchType>
+    nameWithType: ObjectExtensions.AssignByReflection<DateTimeOperators.MatchType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.DateTimeOperators.MatchType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
+    name: DateTimeOperators.MatchType
+    nameWithType: DateTimeOperators.MatchType
+    fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DateTimeOperators.MatchType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DateTimeOperators.MatchType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.DateTimeOperators.MatchType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
+    name: DateTimeOperators.MatchType
+    nameWithType: DateTimeOperators.MatchType
+    fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DateTimeOperators.MatchType>()
+  nameWithType: ObjectExtensions.GraphCopy<DateTimeOperators.MatchType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.DateTimeOperators.MatchType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DateTimeOperators.MatchType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.DateTimeOperators.MatchType)()
+  name.vb: GraphCopy(Of DateTimeOperators.MatchType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DateTimeOperators.MatchType>
+    nameWithType: ObjectExtensions.GraphCopy<DateTimeOperators.MatchType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.DateTimeOperators.MatchType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DateTimeOperators.MatchType)
+    nameWithType: ObjectExtensions.GraphCopy(Of DateTimeOperators.MatchType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.DateTimeOperators.MatchType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DateTimeOperators.MatchType, To>()
+  nameWithType: Converters.MapEnums<DateTimeOperators.MatchType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.DateTimeOperators.MatchType, To>()
+  nameWithType.vb: Converters.MapEnums(Of DateTimeOperators.MatchType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.DateTimeOperators.MatchType, To)()
+  name.vb: MapEnums(Of DateTimeOperators.MatchType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DateTimeOperators.MatchType, To>
+    nameWithType: Converters.MapEnums<DateTimeOperators.MatchType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.DateTimeOperators.MatchType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DateTimeOperators.MatchType, To)
+    nameWithType: Converters.MapEnums(Of DateTimeOperators.MatchType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.DateTimeOperators.MatchType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  commentId: T:SuperOffice.ErpSync.DateTimeOperators.MatchType
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: DateTimeOperators.MatchType
+  nameWithType: DateTimeOperators.MatchType
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType

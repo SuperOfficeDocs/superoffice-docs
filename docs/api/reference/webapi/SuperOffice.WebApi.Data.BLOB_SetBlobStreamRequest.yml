@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
+  id: BLOB_SetBlobStreamRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId
+  - SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream
+  langs:
+  - csharp
+  - vb
+  name: BLOB_SetBlobStreamRequest
+  nameWithType: BLOB_SetBlobStreamRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_SetBlobStreamRequest : Object'
+    content.vb: >-
+      Public Class BLOB_SetBlobStreamRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_SetBlobStreamRequest()
+  nameWithType: BLOB_SetBlobStreamRequest.BLOB_SetBlobStreamRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BLOB_SetBlobStreamRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_SetBlobStreamRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId
+  id: BlobEntityId
+  parent: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: BlobEntityId
+  nameWithType: BLOB_SetBlobStreamRequest.BlobEntityId
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int BlobEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BlobEntityId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream
+  commentId: P:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream
+  id: Stream
+  parent: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: BLOB_SetBlobStreamRequest.Stream
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] Stream { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Stream As Byte()
+  overload: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.#ctor
+  isExternal: true
+  name: BLOB_SetBlobStreamRequest
+  nameWithType: BLOB_SetBlobStreamRequest.BLOB_SetBlobStreamRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BLOB_SetBlobStreamRequest
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId
+  isExternal: true
+  name: BlobEntityId
+  nameWithType: BLOB_SetBlobStreamRequest.BlobEntityId
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.BlobEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: BLOB_SetBlobStreamRequest.Stream
+  fullName: SuperOffice.WebApi.Data.BLOB_SetBlobStreamRequest.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

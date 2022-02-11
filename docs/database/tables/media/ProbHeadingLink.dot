@@ -1,0 +1,13 @@
+digraph ProbHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ProbHeadingLink[fillcolor = "cadetblue1"]
+Prob[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ProbHeadingLink -> Prob [headlabel = "prob_id"]
+ProbHeadingLink -> Heading [headlabel = "heading_id"]
+ProbHeadingLink -> associate [headlabel = "registered_associate_id"]
+ProbHeadingLink -> associate [label = "updated_associate_id"]
+}

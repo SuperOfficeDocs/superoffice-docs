@@ -1,0 +1,1201 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  id: EntityExtraFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String,System.String)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: EntityExtraFieldsHelper
+  nameWithType: EntityExtraFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nForward extra fields to underlying row\n"
+  syntax:
+    content: public class EntityExtraFieldsHelper
+    content.vb: Public Class EntityExtraFieldsHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
+  commentId: F:SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
+  id: _row
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: _row
+  nameWithType: EntityExtraFieldsHelper._row
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected TableRowBase _row
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Protected _row As TableRowBase
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
+  id: '#ctor(SuperOffice.CRM.Rows.TableRowBase)'
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: EntityExtraFieldsHelper(TableRowBase)
+  nameWithType: EntityExtraFieldsHelper.EntityExtraFieldsHelper(TableRowBase)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EntityExtraFieldsHelper(SuperOffice.CRM.Rows.TableRowBase)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public EntityExtraFieldsHelper(TableRowBase row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Public Sub New(row As TableRowBase)
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
+  id: IsChanged(System.String)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: IsChanged(String)
+  nameWithType: EntityExtraFieldsHelper.IsChanged(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHas the underlying field been changed?\n"
+  syntax:
+    content: public bool IsChanged(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of extra field
+    return:
+      type: System.Boolean
+      description: True if the field value has been changed
+    content.vb: Public Function IsChanged(name As String) As Boolean
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
+  id: GetFieldRight(System.String)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRight(String)
+  nameWithType: EntityExtraFieldsHelper.GetFieldRight(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet a <see cref=\"!:FieldRight\"></see> for the extra field value.\n"
+  syntax:
+    content: public FieldRight GetFieldRight(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+      description: 'name of extra field: &apos;x_foo&apos;'
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Permissions on the field.
+    content.vb: Public Function GetFieldRight(fieldName As String) As FieldRight
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
+  id: Encode(System.String)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Encode(String)
+  nameWithType: EntityExtraFieldsHelper.Encode(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nConvert field value to a string encoded value: 123 -> &quot;[I:123]&quot;\n"
+  syntax:
+    content: public string Encode(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function Encode(fieldName As String) As String
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String,System.String)
+  id: Parse(System.String,System.String)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Parse(String, String)
+  nameWithType: EntityExtraFieldsHelper.Parse(String, String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nUpdate field value. Convert string encoded value back into object\n"
+  syntax:
+    content: public void Parse(string fieldName, string value)
+    parameters:
+    - id: fieldName
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub Parse(fieldName As String, value As String)
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
+  id: GetExtraInfo(System.String)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetExtraInfo(String)
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public (string, string) GetExtraInfo(string fieldname)
+    parameters:
+    - id: fieldname
+      type: System.String
+    return:
+      type: System.ValueTuple{System.String,System.String}
+    content.vb: Public Function GetExtraInfo(fieldname As String) As(String, String)
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
+  id: Validate(SuperOffice.CRM.Rows.RowValidator)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Validate(RowValidator)
+  nameWithType: EntityExtraFieldsHelper.Validate(RowValidator)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nChecks that mandatory extra fields are not NULL.\nStricter mandatory checks are handled by entity/service layer.\n"
+  syntax:
+    content: public void Validate(RowValidator rowValidator)
+    parameters:
+    - id: rowValidator
+      type: SuperOffice.CRM.Rows.RowValidator
+      description: Collection of errors to add to
+    content.vb: Public Sub Validate(rowValidator As RowValidator)
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: Validate(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Validate(Dictionary<String, String>)
+  nameWithType: EntityExtraFieldsHelper.Validate(Dictionary<String, String>)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nStricter checks that mandatory extra fields are not NULL, 0 or &quot;&quot;.\nCalled by the entity/service classes.\n"
+  syntax:
+    content: public void Validate(Dictionary<string, string> validator)
+    parameters:
+    - id: validator
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Collection of errors to add to
+    content.vb: Public Sub Validate(validator As Dictionary(Of String, String))
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate*
+  nameWithType.vb: EntityExtraFieldsHelper.Validate(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: Validate(Dictionary(Of String, String))
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
+  commentId: P:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
+  id: EnforceRequiredFields
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: EnforceRequiredFields
+  nameWithType: EntityExtraFieldsHelper.EnforceRequiredFields
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nAllows required field enforcement to be turned off - used for person on user.\n"
+  syntax:
+    content: public bool EnforceRequiredFields { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnforceRequiredFields As Boolean
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
+  commentId: P:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: EntityExtraFieldsHelper.Item[String]
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item[System.String]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public object this[string fieldName] { get; set; }
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Property Item(fieldName As String) As Object
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item*
+  nameWithType.vb: EntityExtraFieldsHelper.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
+  name.vb: Item(String)
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
+  commentId: P:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
+  id: Names
+  parent: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Names
+  nameWithType: EntityExtraFieldsHelper.Names
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nValid extra field names: [&apos;x_foo&apos;, &apos;x_bar&apos;]\n"
+  syntax:
+    content: public string[] Names { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property Names As String()
+  overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EntityExtraFieldsHelper, To>()
+  nameWithType: EnumUtil.MapEnums<EntityExtraFieldsHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityExtraFieldsHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)()
+  name.vb: MapEnums(Of EntityExtraFieldsHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityExtraFieldsHelper, To>
+    nameWithType: EnumUtil.MapEnums<EntityExtraFieldsHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityExtraFieldsHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityExtraFieldsHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EntityExtraFieldsHelper, To>()
+  nameWithType: Converters.MapEnums<EntityExtraFieldsHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityExtraFieldsHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)()
+  name.vb: MapEnums(Of EntityExtraFieldsHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityExtraFieldsHelper, To>
+    nameWithType: Converters.MapEnums<EntityExtraFieldsHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityExtraFieldsHelper, To)
+    nameWithType: Converters.MapEnums(Of EntityExtraFieldsHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor
+  isExternal: true
+  name: EntityExtraFieldsHelper
+  nameWithType: EntityExtraFieldsHelper.EntityExtraFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EntityExtraFieldsHelper
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged
+  isExternal: true
+  name: IsChanged
+  nameWithType: EntityExtraFieldsHelper.IsChanged
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight
+  isExternal: true
+  name: GetFieldRight
+  nameWithType: EntityExtraFieldsHelper.GetFieldRight
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode
+  isExternal: true
+  name: Encode
+  nameWithType: EntityExtraFieldsHelper.Encode
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse
+  isExternal: true
+  name: Parse
+  nameWithType: EntityExtraFieldsHelper.Parse
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
+  isExternal: true
+  name: GetExtraInfo
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfo
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: T:System.ValueTuple{System.String,System.String}
+  parent: System
+  isExternal: true
+  name: ValueTuple<String, String>
+  nameWithType: ValueTuple<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: ValueTuple(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: ValueTuple(Of String, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate
+  isExternal: true
+  name: Validate
+  nameWithType: EntityExtraFieldsHelper.Validate
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate
+- uid: SuperOffice.CRM.Rows.RowValidator
+  commentId: T:SuperOffice.CRM.Rows.RowValidator
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: RowValidator
+  nameWithType: RowValidator
+  fullName: SuperOffice.CRM.Rows.RowValidator
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
+  isExternal: true
+  name: EnforceRequiredFields
+  nameWithType: EntityExtraFieldsHelper.EnforceRequiredFields
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item
+  isExternal: true
+  name: Item
+  nameWithType: EntityExtraFieldsHelper.Item
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
+  isExternal: true
+  name: Names
+  nameWithType: EntityExtraFieldsHelper.Names
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

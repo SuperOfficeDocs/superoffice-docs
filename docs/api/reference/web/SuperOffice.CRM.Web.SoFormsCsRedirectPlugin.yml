@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  commentId: T:SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  id: SoFormsCsRedirectPlugin
+  parent: SuperOffice.CRM.Web
+  children:
+  - SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.#ctor
+  - SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect(System.String@)
+  langs:
+  - csharp
+  - vb
+  name: SoFormsCsRedirectPlugin
+  nameWithType: SoFormsCsRedirectPlugin
+  fullName: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: >-
+      [SoFormsRedirectPlugin("SoFormsCsRedirectPlugin", 1073741823)]
+
+      public class SoFormsCsRedirectPlugin : ISoFormsRedirectPlugin, IPlugin
+    content.vb: >-
+      <SoFormsRedirectPlugin("SoFormsCsRedirectPlugin", 1073741823)>
+
+      Public Class SoFormsCsRedirectPlugin
+          Implements ISoFormsRedirectPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+    ctor: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SoFormsCsRedirectPlugin
+    - type: System.Int32
+      value: 1073741823
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect(System.String@)
+  commentId: M:SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect(System.String@)
+  id: ShouldRedirect(System.String@)
+  parent: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  langs:
+  - csharp
+  - vb
+  name: ShouldRedirect(out String)
+  nameWithType: SoFormsCsRedirectPlugin.ShouldRedirect(out String)
+  fullName: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect(out System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public bool ShouldRedirect(out string redirectUrl)
+    parameters:
+    - id: redirectUrl
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function ShouldRedirect(ByRef redirectUrl As String) As Boolean
+  overload: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect*
+  implements:
+  - SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+  nameWithType.vb: SoFormsCsRedirectPlugin.ShouldRedirect(ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect(ByRef System.String)
+  name.vb: ShouldRedirect(ByRef String)
+- uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  langs:
+  - csharp
+  - vb
+  name: SoFormsCsRedirectPlugin()
+  nameWithType: SoFormsCsRedirectPlugin.SoFormsCsRedirectPlugin()
+  fullName: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.SoFormsCsRedirectPlugin()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public SoFormsCsRedirectPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web
+  commentId: N:SuperOffice.CRM.Web
+  isExternal: true
+  name: SuperOffice.CRM.Web
+  nameWithType: SuperOffice.CRM.Web
+  fullName: SuperOffice.CRM.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  commentId: T:SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  parent: SuperOffice.Web.Redirection
+  isExternal: true
+  name: ISoFormsRedirectPlugin
+  nameWithType: ISoFormsRedirectPlugin
+  fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Redirection
+  commentId: N:SuperOffice.Web.Redirection
+  isExternal: true
+  name: SuperOffice.Web.Redirection
+  nameWithType: SuperOffice.Web.Redirection
+  fullName: SuperOffice.Web.Redirection
+- uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect*
+  commentId: Overload:SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect
+  isExternal: true
+  name: ShouldRedirect
+  nameWithType: SoFormsCsRedirectPlugin.ShouldRedirect
+  fullName: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.ShouldRedirect
+- uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+  commentId: M:SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+  parent: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+  isExternal: true
+  name: ShouldRedirect(String)
+  nameWithType: ISoFormsRedirectPlugin.ShouldRedirect(String)
+  fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+    name: ShouldRedirect
+    nameWithType: ISoFormsRedirectPlugin.ShouldRedirect
+    fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect(System.String@)
+    name: ShouldRedirect
+    nameWithType: ISoFormsRedirectPlugin.ShouldRedirect
+    fullName: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin.ShouldRedirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.#ctor
+  isExternal: true
+  name: SoFormsCsRedirectPlugin
+  nameWithType: SoFormsCsRedirectPlugin.SoFormsCsRedirectPlugin
+  fullName: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin.SoFormsCsRedirectPlugin

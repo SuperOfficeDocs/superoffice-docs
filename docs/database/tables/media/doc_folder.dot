@@ -1,0 +1,11 @@
+digraph doc_folder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+doc_folder[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+doc_document[fillcolor = "azure1"]
+doc_folder -> doc_folder [headlabel = "folder_id"]
+doc_folder -> ejuser [headlabel = "created_by"]
+doc_document -> doc_folder [label = "folder_id"]
+}

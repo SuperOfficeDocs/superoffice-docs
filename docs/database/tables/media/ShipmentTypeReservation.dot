@@ -1,0 +1,13 @@
+digraph ShipmentTypeReservation  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ShipmentTypeReservation[fillcolor = "cadetblue1"]
+person[fillcolor = "azure1"]
+ShipmentType[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ShipmentTypeReservation -> person [headlabel = "person_id"]
+ShipmentTypeReservation -> ShipmentType [headlabel = "ShipmentType_id"]
+ShipmentTypeReservation -> associate [headlabel = "registered_associate_id"]
+ShipmentTypeReservation -> associate [label = "updated_associate_id"]
+}

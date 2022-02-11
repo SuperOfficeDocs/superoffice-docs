@@ -1,0 +1,430 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoTabItem
+  commentId: T:SuperOffice.Web.UI.Controls.SoTabItem
+  id: SoTabItem
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoTabItem.#ctor
+  - SuperOffice.Web.UI.Controls.SoTabItem._isPostback
+  - SuperOffice.Web.UI.Controls.SoTabItem._isSelected
+  - SuperOffice.Web.UI.Controls.SoTabItem.Heading
+  - SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth
+  - SuperOffice.Web.UI.Controls.SoTabItem.IsPostback
+  - SuperOffice.Web.UI.Controls.SoTabItem.IsSelected
+  - SuperOffice.Web.UI.Controls.SoTabItem.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoTabItem.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SoTabItem
+  nameWithType: SoTabItem
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoTabItem : SoControl, INamingContainer'
+    content.vb: >-
+      Public Class SoTabItem
+          Inherits SoControl
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.UI.Controls.SoControl
+  implements:
+  - System.Web.UI.INamingContainer
+  inheritedMembers:
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoTabItem._isSelected
+  commentId: F:SuperOffice.Web.UI.Controls.SoTabItem._isSelected
+  id: _isSelected
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: _isSelected
+  nameWithType: SoTabItem._isSelected
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem._isSelected
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool _isSelected
+    return:
+      type: System.Boolean
+    content.vb: Public _isSelected As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoTabItem._isPostback
+  commentId: F:SuperOffice.Web.UI.Controls.SoTabItem._isPostback
+  id: _isPostback
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: _isPostback
+  nameWithType: SoTabItem._isPostback
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem._isPostback
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool _isPostback
+    return:
+      type: System.Boolean
+    content.vb: Public _isPostback As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: SoTabItem()
+  nameWithType: SoTabItem.SoTabItem()
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.SoTabItem()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoTabItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabItem.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoTabItem.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.Heading
+  commentId: P:SuperOffice.Web.UI.Controls.SoTabItem.Heading
+  id: Heading
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: Heading
+  nameWithType: SoTabItem.Heading
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.Heading
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Heading { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Heading As String
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.Heading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth
+  id: HeadingWidth
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: HeadingWidth
+  nameWithType: SoTabItem.HeadingWidth
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual int HeadingWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HeadingWidth As Integer
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.Tooltip
+  commentId: P:SuperOffice.Web.UI.Controls.SoTabItem.Tooltip
+  id: Tooltip
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoTabItem.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.IsSelected
+  commentId: P:SuperOffice.Web.UI.Controls.SoTabItem.IsSelected
+  id: IsSelected
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: IsSelected
+  nameWithType: SoTabItem.IsSelected
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.IsSelected
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual bool IsSelected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSelected As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.IsSelected*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.IsPostback
+  commentId: P:SuperOffice.Web.UI.Controls.SoTabItem.IsPostback
+  id: IsPostback
+  parent: SuperOffice.Web.UI.Controls.SoTabItem
+  langs:
+  - csharp
+  - vb
+  name: IsPostback
+  nameWithType: SoTabItem.IsPostback
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.IsPostback
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual bool IsPostback { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPostback As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoTabItem.IsPostback*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.#ctor
+  isExternal: true
+  name: SoTabItem
+  nameWithType: SoTabItem.SoTabItem
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.SoTabItem
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoTabItem.Render
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.Heading*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.Heading
+  isExternal: true
+  name: Heading
+  nameWithType: SoTabItem.Heading
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.Heading
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth
+  isExternal: true
+  name: HeadingWidth
+  nameWithType: SoTabItem.HeadingWidth
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.HeadingWidth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.Tooltip*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoTabItem.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.Tooltip
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.IsSelected*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.IsSelected
+  isExternal: true
+  name: IsSelected
+  nameWithType: SoTabItem.IsSelected
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.IsSelected
+- uid: SuperOffice.Web.UI.Controls.SoTabItem.IsPostback*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabItem.IsPostback
+  isExternal: true
+  name: IsPostback
+  nameWithType: SoTabItem.IsPostback
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem.IsPostback

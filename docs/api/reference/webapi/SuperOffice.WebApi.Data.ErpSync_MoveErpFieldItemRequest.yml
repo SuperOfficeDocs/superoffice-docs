@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  id: ErpSync_MoveErpFieldItemRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction
+  - SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType
+  - SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_MoveErpFieldItemRequest
+  nameWithType: ErpSync_MoveErpFieldItemRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_MoveErpFieldItemRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_MoveErpFieldItemRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_MoveErpFieldItemRequest()
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpSync_MoveErpFieldItemRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpSync_MoveErpFieldItemRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_MoveErpFieldItemRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpFieldId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction
+  id: Direction
+  parent: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: ErpSync_MoveErpFieldItemRequest.Direction
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Direction { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Direction As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpActorType ErpActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Property ErpActorType As ErpActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.#ctor
+  isExternal: true
+  name: ErpSync_MoveErpFieldItemRequest
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpSync_MoveErpFieldItemRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpSync_MoveErpFieldItemRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  isExternal: true
+  name: ErpFieldId
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: ErpSync_MoveErpFieldItemRequest.Direction
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.Direction
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpConnectionId
+- uid: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpSync_MoveErpFieldItemRequest.ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_MoveErpFieldItemRequest.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType

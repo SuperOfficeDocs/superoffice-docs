@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services.WebApi
+  commentId: N:SuperOffice.Services.WebApi
+  id: SuperOffice.Services.WebApi
+  children:
+  - SuperOffice.Services.WebApi.WebApiHandlers
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Services.WebApi
+  nameWithType: SuperOffice.Services.WebApi
+  fullName: SuperOffice.Services.WebApi
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SuperOffice.Services.WebApi.WebApiHandlers
+  commentId: T:SuperOffice.Services.WebApi.WebApiHandlers
+  isExternal: true
+  name: WebApiHandlers
+  nameWithType: WebApiHandlers
+  fullName: SuperOffice.Services.WebApi.WebApiHandlers

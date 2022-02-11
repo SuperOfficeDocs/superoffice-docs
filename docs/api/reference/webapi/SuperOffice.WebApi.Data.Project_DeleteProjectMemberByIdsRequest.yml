@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest
+  id: Project_DeleteProjectMemberByIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  langs:
+  - csharp
+  - vb
+  name: Project_DeleteProjectMemberByIdsRequest
+  nameWithType: Project_DeleteProjectMemberByIdsRequest
+  fullName: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_DeleteProjectMemberByIdsRequest : Object'
+    content.vb: >-
+      Public Class Project_DeleteProjectMemberByIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_DeleteProjectMemberByIdsRequest()
+  nameWithType: Project_DeleteProjectMemberByIdsRequest.Project_DeleteProjectMemberByIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.Project_DeleteProjectMemberByIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_DeleteProjectMemberByIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  commentId: P:SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  id: ProjectMemberIds
+  parent: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberIds
+  nameWithType: Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  fullName: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ProjectMemberIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ProjectMemberIds As Integer()
+  overload: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.#ctor
+  isExternal: true
+  name: Project_DeleteProjectMemberByIdsRequest
+  nameWithType: Project_DeleteProjectMemberByIdsRequest.Project_DeleteProjectMemberByIdsRequest
+  fullName: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.Project_DeleteProjectMemberByIdsRequest
+- uid: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  isExternal: true
+  name: ProjectMemberIds
+  nameWithType: Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+  fullName: SuperOffice.WebApi.Data.Project_DeleteProjectMemberByIdsRequest.ProjectMemberIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

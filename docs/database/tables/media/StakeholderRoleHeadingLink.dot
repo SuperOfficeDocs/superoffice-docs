@@ -1,0 +1,13 @@
+digraph StakeholderRoleHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+StakeholderRoleHeadingLink[fillcolor = "cadetblue1"]
+StakeholderRole[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+StakeholderRoleHeadingLink -> StakeholderRole [headlabel = "stakeholderrole_id"]
+StakeholderRoleHeadingLink -> Heading [headlabel = "heading_id"]
+StakeholderRoleHeadingLink -> associate [headlabel = "registered_associate_id"]
+StakeholderRoleHeadingLink -> associate [label = "updated_associate_id"]
+}

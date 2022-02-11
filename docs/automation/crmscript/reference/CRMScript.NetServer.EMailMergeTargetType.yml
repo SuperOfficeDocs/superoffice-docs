@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.EMailMergeTargetType
+  # Same as SuperOffice.Data.EMailMergeTargetType
+  commentId: T:CRMScript.NetServer.EMailMergeTargetType
+  id: EMailMergeTargetType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.EMailMergeTargetType.BestFit
+  - CRMScript.NetServer.EMailMergeTargetType.Electronic
+  - CRMScript.NetServer.EMailMergeTargetType.Mail
+  - CRMScript.NetServer.EMailMergeTargetType.Fax
+  - CRMScript.NetServer.EMailMergeTargetType.Printer
+  - CRMScript.NetServer.EMailMergeTargetType.Xml
+  - CRMScript.NetServer.EMailMergeTargetType.XmlFax
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: CRMScript.NetServer.EMailMergeTargetType
+  type: Enum
+  summary: "\nWhat type of delivery system to use for a mail merge.\n"
+- uid: CRMScript.NetServer.EMailMergeTargetType.BestFit
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.BestFit
+  id: EMailMergeTargetType.BestFit
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.BestFit
+  nameWithType: EMailMergeTargetType.BestFit
+  fullName: CRMScript.NetServer.EMailMergeTargetType.BestFit
+  type: Field
+  summary: "\n0: Default to mail, then fax, then printer\n"
+  syntax: 
+    content: BestFit = 0
+    type: CRMScript.NetServer.EMailMergeTargetType
+- uid: CRMScript.NetServer.EMailMergeTargetType.Electronic
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.Electronic
+  id: EMailMergeTargetType.Electronic
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.Electronic
+  nameWithType: EMailMergeTargetType.Electronic
+  fullName: CRMScript.NetServer.EMailMergeTargetType.Electronic
+  type: Field
+  summary: "\n1: Default to mail, then fax\n"
+  syntax: 
+    content: Electronic = 1
+    type: CRMScript.NetServer.EMailMergeTargetType
+- uid: CRMScript.NetServer.EMailMergeTargetType.Mail
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.Mail
+  id: EMailMergeTargetType.Mail
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.Mail
+  nameWithType: EMailMergeTargetType.Mail
+  fullName: CRMScript.NetServer.EMailMergeTargetType.Mail
+  type: Field
+  summary: "\n2: Deliver by mail\n"
+  syntax: 
+    content: Mail = 2
+    type: CRMScript.NetServer.EMailMergeTargetType
+- uid: CRMScript.NetServer.EMailMergeTargetType.Fax
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.Fax
+  id: EMailMergeTargetType.Fax
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.Fax
+  nameWithType: EMailMergeTargetType.Fax
+  fullName: CRMScript.NetServer.EMailMergeTargetType.Fax
+  type: Field
+  summary: "\n3: Deliver by fax\n"
+  syntax: 
+    content: Fax = 3
+    type: CRMScript.NetServer.EMailMergeTargetType
+- uid: CRMScript.NetServer.EMailMergeTargetType.Printer
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.Printer
+  id: EMailMergeTargetType.Printer
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.Printer
+  nameWithType: EMailMergeTargetType.Printer
+  fullName: CRMScript.NetServer.EMailMergeTargetType.Printer
+  type: Field
+  summary: "\n4: Deliver to printer\n"
+  syntax: 
+    content: Printer = 4
+    type: CRMScript.NetServer.EMailMergeTargetType
+- uid: CRMScript.NetServer.EMailMergeTargetType.Xml
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.Xml
+  id: EMailMergeTargetType.Xml
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.Xml
+  nameWithType: EMailMergeTargetType.Xml
+  fullName: CRMScript.NetServer.EMailMergeTargetType.Xml
+  type: Field
+  summary: "\n5: Output mails as XML. This target is used in conjunction with external mail clients.\n"
+  syntax: 
+    content: Xml = 5
+    type: CRMScript.NetServer.EMailMergeTargetType
+- uid: CRMScript.NetServer.EMailMergeTargetType.XmlFax
+  commentId: F:CRMScript.NetServer.EMailMergeTargetType.XmlFax
+  id: EMailMergeTargetType.XmlFax
+  langs:
+  - crmscript
+  name: EMailMergeTargetType.XmlFax
+  nameWithType: EMailMergeTargetType.XmlFax
+  fullName: CRMScript.NetServer.EMailMergeTargetType.XmlFax
+  type: Field
+  summary: "\n6: Same as XML, but use fax format for recipient addresses.\n"
+  syntax: 
+    content: XmlFax = 6
+    type: CRMScript.NetServer.EMailMergeTargetType
+references:
+- uid: CRMScript.NetServer.EMailMergeTargetType
+  commentId: T:CRMScript.NetServer.EMailMergeTargetType
+  isExternal: true
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: CRMScript.NetServer.EMailMergeTargetType

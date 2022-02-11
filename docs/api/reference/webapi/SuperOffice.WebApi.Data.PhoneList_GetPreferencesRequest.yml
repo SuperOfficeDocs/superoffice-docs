@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest
+  commentId: T:SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest
+  id: PhoneList_GetPreferencesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetPreferencesRequest
+  nameWithType: PhoneList_GetPreferencesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class PhoneList_GetPreferencesRequest : Object'
+    content.vb: >-
+      Public Class PhoneList_GetPreferencesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetPreferencesRequest()
+  nameWithType: PhoneList_GetPreferencesRequest.PhoneList_GetPreferencesRequest()
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.PhoneList_GetPreferencesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneList_GetPreferencesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.#ctor
+  isExternal: true
+  name: PhoneList_GetPreferencesRequest
+  nameWithType: PhoneList_GetPreferencesRequest.PhoneList_GetPreferencesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetPreferencesRequest.PhoneList_GetPreferencesRequest

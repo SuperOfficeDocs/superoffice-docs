@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  id: IArchiveAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IArchiveAction
+  nameWithType: IArchiveAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface IArchiveAction
+    content.vb: Public Interface IArchiveAction
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  id: Run(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  langs:
+  - csharp
+  - vb
+  name: Run(String)
+  nameWithType: IArchiveAction.Run(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string Run(string ids)
+    parameters:
+    - id: ids
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function Run(ids As String) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run*
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run
+  isExternal: true
+  name: Run
+  nameWithType: IArchiveAction.Run
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

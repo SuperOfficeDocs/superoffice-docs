@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences
+  commentId: T:SuperOffice.WebApi.Data.PhoneListPreferences
+  id: PhoneListPreferences
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneListPreferences.#ctor
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  - SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  langs:
+  - csharp
+  - vb
+  name: PhoneListPreferences
+  nameWithType: PhoneListPreferences
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PhoneListPreferences.\nSearch preferences for a phone list search    \n"
+  syntax:
+    content: 'public class PhoneListPreferences : Carrier'
+    content.vb: >-
+      Public Class PhoneListPreferences
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PhoneListAgent
+    commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneListPreferences.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: PhoneListPreferences()
+  nameWithType: PhoneListPreferences.PhoneListPreferences()
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.PhoneListPreferences()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PhoneListPreferences()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany
+  id: SearchCompany
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchCompany
+  nameWithType: PhoneListPreferences.SearchCompany
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if you want to search for Companies by their name.\n"
+  syntax:
+    content: public virtual bool SearchCompany { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchCompany As Boolean
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname
+  id: SearchFirstname
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchFirstname
+  nameWithType: PhoneListPreferences.SearchFirstname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if you want to search for Persons by their firstname.\n"
+  syntax:
+    content: public virtual bool SearchFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchFirstname As Boolean
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname
+  id: SearchLastname
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchLastname
+  nameWithType: PhoneListPreferences.SearchLastname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if you want to search for Persons by their lastname.\n"
+  syntax:
+    content: public virtual bool SearchLastname { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchLastname As Boolean
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment
+  id: SearchDepartment
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchDepartment
+  nameWithType: PhoneListPreferences.SearchDepartment
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if you want to search for Departments where your colleagues work.\n"
+  syntax:
+    content: public virtual bool SearchDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchDepartment As Boolean
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  id: SearchModeCompany_String
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeCompany_String
+  nameWithType: PhoneListPreferences.SearchModeCompany_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Company name search type, e.g. BeginsWith, Contains, Endswith, Matches\nRaw string enum value.\n"
+  syntax:
+    content: public string SearchModeCompany_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchModeCompany_String As String
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  id: SearchModeCompany
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeCompany
+  nameWithType: PhoneListPreferences.SearchModeCompany
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Company name search type, e.g. BeginsWith, Contains, Endswith, Matches\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<StringSearchType> SearchModeCompany { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.StringSearchType}
+    content.vb: Public Property SearchModeCompany As Nullable(Of StringSearchType)
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  id: SearchModeDepartment_String
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeDepartment_String
+  nameWithType: PhoneListPreferences.SearchModeDepartment_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Department search type, e.g. BeginsWith, Contains, Endswith, Matches\nRaw string enum value.\n"
+  syntax:
+    content: public string SearchModeDepartment_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchModeDepartment_String As String
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  id: SearchModeDepartment
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeDepartment
+  nameWithType: PhoneListPreferences.SearchModeDepartment
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Department search type, e.g. BeginsWith, Contains, Endswith, Matches\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<StringSearchType> SearchModeDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.StringSearchType}
+    content.vb: Public Property SearchModeDepartment As Nullable(Of StringSearchType)
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  id: SearchModeFirstname_String
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeFirstname_String
+  nameWithType: PhoneListPreferences.SearchModeFirstname_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe firstname search type, e.g. BeginsWith, Contains, Endswith, Matches\nRaw string enum value.\n"
+  syntax:
+    content: public string SearchModeFirstname_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchModeFirstname_String As String
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  id: SearchModeFirstname
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeFirstname
+  nameWithType: PhoneListPreferences.SearchModeFirstname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe firstname search type, e.g. BeginsWith, Contains, Endswith, Matches\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<StringSearchType> SearchModeFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.StringSearchType}
+    content.vb: Public Property SearchModeFirstname As Nullable(Of StringSearchType)
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  id: SearchModeLastname_String
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeLastname_String
+  nameWithType: PhoneListPreferences.SearchModeLastname_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe lastname search type, e.g. BeginsWith, Contains, Endswith, Matches\nRaw string enum value.\n"
+  syntax:
+    content: public string SearchModeLastname_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchModeLastname_String As String
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  id: SearchModeLastname
+  parent: SuperOffice.WebApi.Data.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeLastname
+  nameWithType: PhoneListPreferences.SearchModeLastname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe lastname search type, e.g. BeginsWith, Contains, Endswith, Matches\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<StringSearchType> SearchModeLastname { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.StringSearchType}
+    content.vb: Public Property SearchModeLastname As Nullable(Of StringSearchType)
+  overload: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+    commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PhoneListAgent
+  commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
+  isExternal: true
+  name: PhoneListAgent
+  nameWithType: PhoneListAgent
+  fullName: SuperOffice.WebApi.Agents.PhoneListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.#ctor
+  isExternal: true
+  name: PhoneListPreferences
+  nameWithType: PhoneListPreferences.PhoneListPreferences
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.PhoneListPreferences
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany
+  isExternal: true
+  name: SearchCompany
+  nameWithType: PhoneListPreferences.SearchCompany
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchCompany
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname
+  isExternal: true
+  name: SearchFirstname
+  nameWithType: PhoneListPreferences.SearchFirstname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchFirstname
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname
+  isExternal: true
+  name: SearchLastname
+  nameWithType: PhoneListPreferences.SearchLastname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchLastname
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment
+  isExternal: true
+  name: SearchDepartment
+  nameWithType: PhoneListPreferences.SearchDepartment
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchDepartment
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  isExternal: true
+  name: SearchModeCompany_String
+  nameWithType: PhoneListPreferences.SearchModeCompany_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+  isExternal: true
+  name: SearchModeCompany
+  nameWithType: PhoneListPreferences.SearchModeCompany
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeCompany_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.StringSearchType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.StringSearchType}'
+  definition: System.Nullable`1
+  name: Nullable<StringSearchType>
+  nameWithType: Nullable<StringSearchType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.StringSearchType>
+  nameWithType.vb: Nullable(Of StringSearchType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.StringSearchType)
+  name.vb: Nullable(Of StringSearchType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.StringSearchType
+    name: StringSearchType
+    nameWithType: StringSearchType
+    fullName: SuperOffice.WebApi.Data.StringSearchType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.StringSearchType
+    name: StringSearchType
+    nameWithType: StringSearchType
+    fullName: SuperOffice.WebApi.Data.StringSearchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  isExternal: true
+  name: SearchModeDepartment_String
+  nameWithType: PhoneListPreferences.SearchModeDepartment_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+  isExternal: true
+  name: SearchModeDepartment
+  nameWithType: PhoneListPreferences.SearchModeDepartment
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeDepartment_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  isExternal: true
+  name: SearchModeFirstname_String
+  nameWithType: PhoneListPreferences.SearchModeFirstname_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+  isExternal: true
+  name: SearchModeFirstname
+  nameWithType: PhoneListPreferences.SearchModeFirstname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeFirstname_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  isExternal: true
+  name: SearchModeLastname_String
+  nameWithType: PhoneListPreferences.SearchModeLastname_String
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+  isExternal: true
+  name: SearchModeLastname
+  nameWithType: PhoneListPreferences.SearchModeLastname
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  commentId: P:SuperOffice.WebApi.Data.PhoneListPreferences.SearchModeLastname_String
+  isExternal: true

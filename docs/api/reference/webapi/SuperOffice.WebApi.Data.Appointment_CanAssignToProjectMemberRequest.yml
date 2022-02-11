@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest
+  id: Appointment_CanAssignToProjectMemberRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId
+  - SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CanAssignToProjectMemberRequest
+  nameWithType: Appointment_CanAssignToProjectMemberRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CanAssignToProjectMemberRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CanAssignToProjectMemberRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CanAssignToProjectMemberRequest()
+  nameWithType: Appointment_CanAssignToProjectMemberRequest.Appointment_CanAssignToProjectMemberRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.Appointment_CanAssignToProjectMemberRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CanAssignToProjectMemberRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Appointment_CanAssignToProjectMemberRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SuggestedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.#ctor
+  isExternal: true
+  name: Appointment_CanAssignToProjectMemberRequest
+  nameWithType: Appointment_CanAssignToProjectMemberRequest.Appointment_CanAssignToProjectMemberRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.Appointment_CanAssignToProjectMemberRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Appointment_CanAssignToProjectMemberRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  isExternal: true
+  name: SuggestedAppointmentId
+  nameWithType: Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_CanAssignToProjectMemberRequest.SuggestedAppointmentId

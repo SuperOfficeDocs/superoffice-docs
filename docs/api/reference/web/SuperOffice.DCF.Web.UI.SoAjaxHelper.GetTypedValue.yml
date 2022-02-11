@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  commentId: T:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  id: SoAjaxHelper.GetTypedValue
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke(System.Type,System.String,System.Object@,System.AsyncCallback,System.Object)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke(System.Object@,System.IAsyncResult)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke(System.Type,System.String,System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxHelper.GetTypedValue
+  nameWithType: SoAjaxHelper.GetTypedValue
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  type: Delegate
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public delegate bool GetTypedValue(Type type, string value, out object newValue);
+    parameters:
+    - id: type
+      type: System.Type
+    - id: value
+      type: System.String
+    - id: newValue
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Delegate Function GetTypedValue(type As Type, value As String, ByRef newValue As Object) As Boolean
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  langs:
+  - csharp
+  - vb
+  name: GetTypedValue(Object, IntPtr)
+  nameWithType: SoAjaxHelper.GetTypedValue.GetTypedValue(Object, IntPtr)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.GetTypedValue(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public GetTypedValue(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke(System.Type,System.String,System.Object@)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke(System.Type,System.String,System.Object@)
+  id: Invoke(System.Type,System.String,System.Object@)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Type, String, out Object)
+  nameWithType: SoAjaxHelper.GetTypedValue.Invoke(Type, String, out Object)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke(System.Type, System.String, out System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public virtual bool Invoke(Type type, string value, out object newValue)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: value
+      type: System.String
+    - id: newValue
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function Invoke(type As Type, value As String, ByRef newValue As Object) As Boolean
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke*
+  nameWithType.vb: SoAjaxHelper.GetTypedValue.Invoke(Type, String, ByRef Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke(System.Type, System.String, ByRef System.Object)
+  name.vb: Invoke(Type, String, ByRef Object)
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke(System.Type,System.String,System.Object@,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke(System.Type,System.String,System.Object@,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Type,System.String,System.Object@,System.AsyncCallback,System.Object)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Type, String, out Object, AsyncCallback, Object)
+  nameWithType: SoAjaxHelper.GetTypedValue.BeginInvoke(Type, String, out Object, AsyncCallback, Object)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke(System.Type, System.String, out System.Object, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(Type type, string value, out object newValue, AsyncCallback callback, object object)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: value
+      type: System.String
+    - id: newValue
+      type: System.Object
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(type As Type, value As String, ByRef newValue As Object, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke*
+  nameWithType.vb: SoAjaxHelper.GetTypedValue.BeginInvoke(Type, String, ByRef Object, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke(System.Type, System.String, ByRef System.Object, System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(Type, String, ByRef Object, AsyncCallback, Object)
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke(System.Object@,System.IAsyncResult)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke(System.Object@,System.IAsyncResult)
+  id: EndInvoke(System.Object@,System.IAsyncResult)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(out Object, IAsyncResult)
+  nameWithType: SoAjaxHelper.GetTypedValue.EndInvoke(out Object, IAsyncResult)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke(out System.Object, System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public virtual bool EndInvoke(out object newValue, IAsyncResult result)
+    parameters:
+    - id: newValue
+      type: System.Object
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function EndInvoke(ByRef newValue As Object, result As IAsyncResult) As Boolean
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke*
+  nameWithType.vb: SoAjaxHelper.GetTypedValue.EndInvoke(ByRef Object, IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke(ByRef System.Object, System.IAsyncResult)
+  name.vb: EndInvoke(ByRef Object, IAsyncResult)
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.#ctor
+  isExternal: true
+  name: GetTypedValue
+  nameWithType: SoAjaxHelper.GetTypedValue.GetTypedValue
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.GetTypedValue
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: SoAjaxHelper.GetTypedValue.Invoke
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.Invoke
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: SoAjaxHelper.GetTypedValue.BeginInvoke
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: SoAjaxHelper.GetTypedValue.EndInvoke
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue.EndInvoke

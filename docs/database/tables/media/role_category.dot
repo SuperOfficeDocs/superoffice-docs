@@ -1,0 +1,12 @@
+digraph role_category  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+role_category[fillcolor = "cadetblue1"]
+ej_role[fillcolor = "azure1"]
+ej_category[fillcolor = "azure1"]
+Role[fillcolor = "azure1"]
+role_category -> ej_role [headlabel = "role"]
+role_category -> ej_category [headlabel = "category"]
+role_category -> Role [headlabel = "crm_role"]
+}

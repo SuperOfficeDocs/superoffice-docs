@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ContactAction
+  commentId: T:SuperOffice.WebApi.Data.ContactAction
+  id: ContactAction
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
+  - SuperOffice.WebApi.Data.ContactAction.All
+  - SuperOffice.WebApi.Data.ContactAction.Created
+  - SuperOffice.WebApi.Data.ContactAction.DocumentAdded
+  - SuperOffice.WebApi.Data.ContactAction.NewActivity
+  - SuperOffice.WebApi.Data.ContactAction.PersonAdded
+  - SuperOffice.WebApi.Data.ContactAction.PersonUpdated
+  - SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
+  - SuperOffice.WebApi.Data.ContactAction.Unknown
+  - SuperOffice.WebApi.Data.ContactAction.Updated
+  - SuperOffice.WebApi.Data.ContactAction.value__
+  langs:
+  - csharp
+  - vb
+  name: ContactAction
+  nameWithType: ContactAction
+  fullName: SuperOffice.WebApi.Data.ContactAction
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescribes what type of activity/action there has been on a contact\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ContactAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class ContactAction
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ContactAction.value__
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ContactAction.value__
+  fullName: SuperOffice.WebApi.Data.ContactAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ContactAction.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ContactAction.Unknown
+  fullName: SuperOffice.WebApi.Data.ContactAction.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown/undecided type\n"
+  syntax:
+    content: public const ContactAction Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const Unknown As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.Created
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.Created
+  id: Created
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: ContactAction.Created
+  fullName: SuperOffice.WebApi.Data.ContactAction.Created
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The contact was created\n"
+  syntax:
+    content: public const ContactAction Created
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const Created As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.Updated
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ContactAction.Updated
+  fullName: SuperOffice.WebApi.Data.ContactAction.Updated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The contact was updated\n"
+  syntax:
+    content: public const ContactAction Updated
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const Updated As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.NewActivity
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.NewActivity
+  id: NewActivity
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: NewActivity
+  nameWithType: ContactAction.NewActivity
+  fullName: SuperOffice.WebApi.Data.ContactAction.NewActivity
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: A new activity was created on the contact\n"
+  syntax:
+    content: public const ContactAction NewActivity
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const NewActivity As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
+  id: ActivityCompleted
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: ActivityCompleted
+  nameWithType: ContactAction.ActivityCompleted
+  fullName: SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: An activity belonging to the contact was completed\n"
+  syntax:
+    content: public const ContactAction ActivityCompleted
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const ActivityCompleted As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.PersonAdded
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.PersonAdded
+  id: PersonAdded
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: PersonAdded
+  nameWithType: ContactAction.PersonAdded
+  fullName: SuperOffice.WebApi.Data.ContactAction.PersonAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: A person was added to the contact\n"
+  syntax:
+    content: public const ContactAction PersonAdded
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const PersonAdded As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.PersonUpdated
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: ContactAction.PersonUpdated
+  fullName: SuperOffice.WebApi.Data.ContactAction.PersonUpdated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: A person belonging to the contact was updated\n"
+  syntax:
+    content: public const ContactAction PersonUpdated
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const PersonUpdated As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.DocumentAdded
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.DocumentAdded
+  id: DocumentAdded
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: DocumentAdded
+  nameWithType: ContactAction.DocumentAdded
+  fullName: SuperOffice.WebApi.Data.ContactAction.DocumentAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n64: A document was added to the contact\n"
+  syntax:
+    content: public const ContactAction DocumentAdded
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const DocumentAdded As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.All
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.All
+  id: All
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ContactAction.All
+  fullName: SuperOffice.WebApi.Data.ContactAction.All
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n127: Enumeration generated from the wsdl doesn&apos;t handle the [Flags] attribute (bit enumeration)\n"
+  syntax:
+    content: public const ContactAction All
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const All As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
+  id: UndefinedValue128
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: UndefinedValue128
+  nameWithType: ContactAction.UndefinedValue128
+  fullName: SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n128: Undefined and generated value 128\n"
+  syntax:
+    content: public const ContactAction UndefinedValue128
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const UndefinedValue128 As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ContactAction
+  commentId: T:SuperOffice.WebApi.Data.ContactAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ContactAction
+  nameWithType: ContactAction
+  fullName: SuperOffice.WebApi.Data.ContactAction

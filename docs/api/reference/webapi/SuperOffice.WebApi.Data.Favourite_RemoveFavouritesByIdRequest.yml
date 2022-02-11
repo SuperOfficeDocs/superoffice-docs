@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest
+  id: Favourite_RemoveFavouritesByIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  langs:
+  - csharp
+  - vb
+  name: Favourite_RemoveFavouritesByIdRequest
+  nameWithType: Favourite_RemoveFavouritesByIdRequest
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Favourite_RemoveFavouritesByIdRequest : Object'
+    content.vb: >-
+      Public Class Favourite_RemoveFavouritesByIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Favourite_RemoveFavouritesByIdRequest()
+  nameWithType: Favourite_RemoveFavouritesByIdRequest.Favourite_RemoveFavouritesByIdRequest()
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.Favourite_RemoveFavouritesByIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Favourite_RemoveFavouritesByIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  commentId: P:SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  id: FavouriteIds
+  parent: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest
+  langs:
+  - csharp
+  - vb
+  name: FavouriteIds
+  nameWithType: Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] FavouriteIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property FavouriteIds As Integer()
+  overload: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.#ctor
+  isExternal: true
+  name: Favourite_RemoveFavouritesByIdRequest
+  nameWithType: Favourite_RemoveFavouritesByIdRequest.Favourite_RemoveFavouritesByIdRequest
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.Favourite_RemoveFavouritesByIdRequest
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  isExternal: true
+  name: FavouriteIds
+  nameWithType: Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveFavouritesByIdRequest.FavouriteIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

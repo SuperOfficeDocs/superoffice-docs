@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
+  id: Appointment_AcceptRejectedRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_AcceptRejectedRequest
+  nameWithType: Appointment_AcceptRejectedRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_AcceptRejectedRequest : Object'
+    content.vb: >-
+      Public Class Appointment_AcceptRejectedRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_AcceptRejectedRequest()
+  nameWithType: Appointment_AcceptRejectedRequest.Appointment_AcceptRejectedRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.Appointment_AcceptRejectedRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_AcceptRejectedRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_AcceptRejectedRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_AcceptRejectedRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.#ctor
+  isExternal: true
+  name: Appointment_AcceptRejectedRequest
+  nameWithType: Appointment_AcceptRejectedRequest.Appointment_AcceptRejectedRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.Appointment_AcceptRejectedRequest
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_AcceptRejectedRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_AcceptRejectedRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

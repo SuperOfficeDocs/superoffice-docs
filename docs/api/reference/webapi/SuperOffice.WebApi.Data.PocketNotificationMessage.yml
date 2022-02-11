@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage
+  commentId: T:SuperOffice.WebApi.Data.PocketNotificationMessage
+  id: PocketNotificationMessage
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.#ctor
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Date
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Duration
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Message
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Silent
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Title
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  - SuperOffice.WebApi.Data.PocketNotificationMessage.Url
+  langs:
+  - csharp
+  - vb
+  name: PocketNotificationMessage
+  nameWithType: PocketNotificationMessage
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PocketNotificationMessage.\nDescribes behaviour and content for a push notification message    \n"
+  syntax:
+    content: 'public class PocketNotificationMessage : Object'
+    content.vb: >-
+      Public Class PocketNotificationMessage
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PocketAgent
+    commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PocketNotificationMessage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: PocketNotificationMessage()
+  nameWithType: PocketNotificationMessage.PocketNotificationMessage()
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.PocketNotificationMessage()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PocketNotificationMessage()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Title
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: PocketNotificationMessage.Title
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTitle for the notification\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Message
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: PocketNotificationMessage.Message
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe notification message body\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Url
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Url
+  id: Url
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: PocketNotificationMessage.Url
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Url
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn url associated with the notification that will be handled by Pocket\n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Silent
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Silent
+  id: Silent
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: PocketNotificationMessage.Silent
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Silent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates wether or not the message will vibrate/play a sound when delivered\n"
+  syntax:
+    content: public virtual bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Silent As Boolean
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Silent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: PocketNotificationMessage.Type_String
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of notification this is\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+    commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PocketNotificationMessage.Type
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of notification this is\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<NotificationMessageType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.NotificationMessageType}
+    content.vb: Public Property Type As Nullable(Of NotificationMessageType)
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+    commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive
+  id: TimeToLive
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: TimeToLive
+  nameWithType: PocketNotificationMessage.TimeToLive
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpecifies how many minutes the message should be valid\n"
+  syntax:
+    content: public virtual int TimeToLive { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeToLive As Integer
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId
+  id: RecordId
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: PocketNotificationMessage.RecordId
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf the message is about some specific database record, this could be its primary key\n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Date
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: PocketNotificationMessage.Date
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Date
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf the message is about some event happening at a specific date and time\n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Duration
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Duration
+  id: Duration
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: PocketNotificationMessage.Duration
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Duration
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpecify duration of the event\n"
+  syntax:
+    content: public virtual TimeSpan Duration { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property Duration As TimeSpan
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues
+  id: ExtraValues
+  parent: SuperOffice.WebApi.Data.PocketNotificationMessage
+  langs:
+  - csharp
+  - vb
+  name: ExtraValues
+  nameWithType: PocketNotificationMessage.ExtraValues
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAdditional key/value properties to include in the message\n"
+  syntax:
+    content: public virtual StringDictionary ExtraValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property ExtraValues As StringDictionary
+  overload: SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.WebApi.Agents.PocketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.#ctor
+  isExternal: true
+  name: PocketNotificationMessage
+  nameWithType: PocketNotificationMessage.PocketNotificationMessage
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.PocketNotificationMessage
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Title
+  isExternal: true
+  name: Title
+  nameWithType: PocketNotificationMessage.Title
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Message
+  isExternal: true
+  name: Message
+  nameWithType: PocketNotificationMessage.Message
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Message
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Url*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Url
+  isExternal: true
+  name: Url
+  nameWithType: PocketNotificationMessage.Url
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Url
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Silent*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Silent
+  isExternal: true
+  name: Silent
+  nameWithType: PocketNotificationMessage.Silent
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Silent
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: PocketNotificationMessage.Type_String
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+  isExternal: true
+  name: Type
+  nameWithType: PocketNotificationMessage.Type
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Type
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  commentId: P:SuperOffice.WebApi.Data.PocketNotificationMessage.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.NotificationMessageType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.NotificationMessageType}'
+  definition: System.Nullable`1
+  name: Nullable<NotificationMessageType>
+  nameWithType: Nullable<NotificationMessageType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.NotificationMessageType>
+  nameWithType.vb: Nullable(Of NotificationMessageType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.NotificationMessageType)
+  name.vb: Nullable(Of NotificationMessageType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.NotificationMessageType
+    name: NotificationMessageType
+    nameWithType: NotificationMessageType
+    fullName: SuperOffice.WebApi.Data.NotificationMessageType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.NotificationMessageType
+    name: NotificationMessageType
+    nameWithType: NotificationMessageType
+    fullName: SuperOffice.WebApi.Data.NotificationMessageType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive
+  isExternal: true
+  name: TimeToLive
+  nameWithType: PocketNotificationMessage.TimeToLive
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.TimeToLive
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: PocketNotificationMessage.RecordId
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.RecordId
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Date*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Date
+  isExternal: true
+  name: Date
+  nameWithType: PocketNotificationMessage.Date
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.Duration*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: PocketNotificationMessage.Duration
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.Duration
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues
+  isExternal: true
+  name: ExtraValues
+  nameWithType: PocketNotificationMessage.ExtraValues
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage.ExtraValues
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

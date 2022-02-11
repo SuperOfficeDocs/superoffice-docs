@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  id: SuperOffice.DCF.Web.Data
+  children:
+  - SuperOffice.DCF.Web.Data.DataHandlerBase
+  - SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+  - SuperOffice.DCF.Web.Data.IDataBound
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  - SuperOffice.DCF.Web.Data.SoStateDataObject
+  - SuperOffice.DCF.Web.Data.SoStateDataObjects
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+  commentId: T:SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+  parent: SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: DataHandlerClientMethodAttribute
+  nameWithType: DataHandlerClientMethodAttribute
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+- uid: SuperOffice.DCF.Web.Data.SoStateDataObjects
+  commentId: T:SuperOffice.DCF.Web.Data.SoStateDataObjects
+  isExternal: true
+  name: SoStateDataObjects
+  nameWithType: SoStateDataObjects
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataObjects
+- uid: SuperOffice.DCF.Web.Data.SoStateDataObject
+  commentId: T:SuperOffice.DCF.Web.Data.SoStateDataObject
+  isExternal: true
+  name: SoStateDataObject
+  nameWithType: SoStateDataObject
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataObject
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  commentId: T:SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  isExternal: true
+  name: SoStateDataCarrier
+  nameWithType: SoStateDataCarrier
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase
+  commentId: T:SuperOffice.DCF.Web.Data.DataHandlerBase
+  parent: SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: DataHandlerBase
+  nameWithType: DataHandlerBase
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase
+- uid: SuperOffice.DCF.Web.Data.IDataBound
+  commentId: T:SuperOffice.DCF.Web.Data.IDataBound
+  isExternal: true
+  name: IDataBound
+  nameWithType: IDataBound
+  fullName: SuperOffice.DCF.Web.Data.IDataBound
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data

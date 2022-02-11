@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider
+  commentId: T:SuperOffice.CRM.Tooltips.TooltipProvider
+  id: TooltipProvider
+  parent: SuperOffice.CRM.Tooltips
+  children:
+  - SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip(System.String)
+  - SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue(System.String)
+  - SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint(System.String,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String)
+  - SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TooltipProvider
+  nameWithType: TooltipProvider
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  summary: "\nThe one-stop shop for asynchronous tooltips. This class takes a tooltip hint and through the static\n<xref href=\"SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method converts it into a tooltip. The underlying tooltip providers are \ndynamically loaded plugins.\n<p></p>\nDue to the possibility of fairly expensive operations behind the tooltip, this system SHOULD NOT be\nused to mass-produce tooltips in some tight loop. Call the tooltip provider only when you know that the \nuser actually needs a tooltip here and now.\n"
+  remarks: "\nTooltip plugin providers must implement the <xref href=\"SuperOffice.CRM.Tooltips.ITooltipProviderPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface, and\nare welcome to use the <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase\" data-throw-if-not-resolved=\"false\"></xref> base class as well.\n<p></p>\n<example>\nA trivial tooltip example:\n<pre><code>string myTooltip = TooltipProvider.GetTooltip(&quot;{contact_id=&quot; + myContactId + &quot;}&quot;);</code></pre>\n</example>\n"
+  syntax:
+    content: public static class TooltipProvider
+    content.vb: Public Module TooltipProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip(System.String)
+  commentId: M:SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip(System.String)
+  id: GetTooltip(System.String)
+  parent: SuperOffice.CRM.Tooltips.TooltipProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTooltip(String)
+  nameWithType: TooltipProvider.GetTooltip(String)
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  summary: "\nProcess the incoming hint, and return a tooltip. \nThe tooltip is either a parseable tooltip hint, or a literal text. \n"
+  remarks: "\nIf it is a literal, it may be formatted according to current tooltip rules, and is then returned.\nA tooltip hint has the syntax {&lt;id>=&lt;value>[&lt;id>=&lt;value>]...}, ie., curly braces around \nthe whole string, and one or more id/value pairs. The delimiter within each pair is an equals sign, \nand the delimiter between pairs is an ampersand.\nA typical hint is {contact_id=5}. Another possible hint would be {contact_id=123&amp;simple=true}.\n<p></p>Id&apos;s are case-insensitive, using the <xref href=\"System.StringComparer.OrdinalIgnoreCase\" data-throw-if-not-resolved=\"false\"></xref> comparer\nprovided by the .NET framework.\n"
+  syntax:
+    content: public static string GetTooltip(string tooltipHint)
+    parameters:
+    - id: tooltipHint
+      type: System.String
+      description: Tooltip hint, or literal text
+    return:
+      type: System.String
+      description: Formatted tooltip, possibly including image tags or other metainformation
+    content.vb: Public Shared Function GetTooltip(tooltipHint As String) As String
+  overload: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue(System.String)
+  commentId: M:SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue(System.String)
+  id: GetTooltipHintValue(System.String)
+  parent: SuperOffice.CRM.Tooltips.TooltipProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTooltipHintValue(String)
+  nameWithType: TooltipProvider.GetTooltipHintValue(String)
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  summary: "\nGet the inner value of a dynamic tooltip hint - or nothing, if the tooltip\nis not a dynamic hint. Dynamic hints are delimited by braces\nand contain at least one name value pair.\n"
+  syntax:
+    content: public static string GetTooltipHintValue(string delimitedHint)
+    parameters:
+    - id: delimitedHint
+      type: System.String
+      description: Tooltip hint, including the braces
+    return:
+      type: System.String
+      description: Tooltip hint minus the braces, or string.Empty if no braces were present (then this is not a dynamic hint at all)
+    content.vb: Public Shared Function GetTooltipHintValue(delimitedHint As String) As String
+  overload: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String,System.Int32)
+  id: MakeTooltipHint(System.String,System.Int32)
+  parent: SuperOffice.CRM.Tooltips.TooltipProvider
+  langs:
+  - csharp
+  - vb
+  name: MakeTooltipHint(String, Int32)
+  nameWithType: TooltipProvider.MakeTooltipHint(String, Int32)
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  summary: "\nUtility method for creating a tooltip hint with the correct syntax, from a single key and single value\n"
+  syntax:
+    content: public static string MakeTooltipHint(string key, int value)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key name
+    - id: value
+      type: System.Int32
+      description: Key value
+    return:
+      type: System.String
+      description: Tooltip hint
+    content.vb: Public Shared Function MakeTooltipHint(key As String, value As Integer) As String
+  overload: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String)
+  commentId: M:SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String)
+  id: MakeTooltipHint(System.String)
+  parent: SuperOffice.CRM.Tooltips.TooltipProvider
+  langs:
+  - csharp
+  - vb
+  name: MakeTooltipHint(String)
+  nameWithType: TooltipProvider.MakeTooltipHint(String)
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  summary: "\nUtility method for creating a tooltip hint with the correct syntax, from a single key and single value\n"
+  syntax:
+    content: public static string MakeTooltipHint(string keyAndValue)
+    parameters:
+    - id: keyAndValue
+      type: System.String
+      description: Key and value with an equals sign as the delimiter
+    return:
+      type: System.String
+      description: Tooltip hint
+    content.vb: Public Shared Function MakeTooltipHint(keyAndValue As String) As String
+  overload: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint(System.String,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint(System.String,System.Int32,System.Boolean)
+  id: MakeImageHint(System.String,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Tooltips.TooltipProvider
+  langs:
+  - csharp
+  - vb
+  name: MakeImageHint(String, Int32, Boolean)
+  nameWithType: TooltipProvider.MakeImageHint(String, Int32, Boolean)
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint(System.String, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  summary: "\nUtility method for creating an image hint with the correct syntax, from a key and id combination.\nIf you are programming something that is derived from <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase\" data-throw-if-not-resolved=\"false\"></xref>, using the\n<xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.MakeImageHint(System.String%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> is somewhat simpler than using this method.\n"
+  syntax:
+    content: public static string MakeImageHint(string key, int id, bool wantImage)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key name, for instance person_id. This key must be something that is recognized by the image streaming service.
+    - id: id
+      type: System.Int32
+      description: ID for the given key
+    - id: wantImage
+      type: System.Boolean
+      description: Should the image hint be created; if false, an empty string will be returned
+    return:
+      type: System.String
+      description: Image hint
+    content.vb: Public Shared Function MakeImageHint(key As String, id As Integer, wantImage As Boolean) As String
+  overload: SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Tooltips
+  commentId: N:SuperOffice.CRM.Tooltips
+  isExternal: true
+  name: SuperOffice.CRM.Tooltips
+  nameWithType: SuperOffice.CRM.Tooltips
+  fullName: SuperOffice.CRM.Tooltips
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip*
+  commentId: Overload:SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip
+  isExternal: true
+  name: GetTooltip
+  nameWithType: TooltipProvider.GetTooltip
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltip
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue*
+  commentId: Overload:SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue
+  isExternal: true
+  name: GetTooltipHintValue
+  nameWithType: TooltipProvider.GetTooltipHintValue
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.GetTooltipHintValue
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint*
+  commentId: Overload:SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint
+  isExternal: true
+  name: MakeTooltipHint
+  nameWithType: TooltipProvider.MakeTooltipHint
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint*
+  commentId: Overload:SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint
+  isExternal: true
+  name: MakeImageHint
+  nameWithType: TooltipProvider.MakeImageHint
+  fullName: SuperOffice.CRM.Tooltips.TooltipProvider.MakeImageHint
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TableRight
+  commentId: T:SuperOffice.WebApi.Data.TableRight
+  id: TableRight
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TableRight.#ctor
+  - SuperOffice.WebApi.Data.TableRight.Mask
+  - SuperOffice.WebApi.Data.TableRight.Mask_String
+  - SuperOffice.WebApi.Data.TableRight.Reason
+  langs:
+  - csharp
+  - vb
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.WebApi.Data.TableRight
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TableRight.\nWraps a table right together with an explanatory reason.    \n"
+  syntax:
+    content: 'public class TableRight : Object'
+    content.vb: >-
+      Public Class TableRight
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TableRight.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TableRight.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TableRight
+  langs:
+  - csharp
+  - vb
+  name: TableRight()
+  nameWithType: TableRight.TableRight()
+  fullName: SuperOffice.WebApi.Data.TableRight.TableRight()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TableRight()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TableRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TableRight.Mask_String
+  commentId: P:SuperOffice.WebApi.Data.TableRight.Mask_String
+  id: Mask_String
+  parent: SuperOffice.WebApi.Data.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Mask_String
+  nameWithType: TableRight.Mask_String
+  fullName: SuperOffice.WebApi.Data.TableRight.Mask_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the bitflag of permissions.\nRaw string enum value.\n"
+  syntax:
+    content: public string Mask_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mask_String As String
+  overload: SuperOffice.WebApi.Data.TableRight.Mask_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TableRight.Mask
+    commentId: P:SuperOffice.WebApi.Data.TableRight.Mask
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TableRight.Mask
+  commentId: P:SuperOffice.WebApi.Data.TableRight.Mask
+  id: Mask
+  parent: SuperOffice.WebApi.Data.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: TableRight.Mask
+  fullName: SuperOffice.WebApi.Data.TableRight.Mask
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the bitflag of permissions.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ETableRight> Mask { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ETableRight}
+    content.vb: Public Property Mask As Nullable(Of ETableRight)
+  overload: SuperOffice.WebApi.Data.TableRight.Mask*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TableRight.Mask_String
+    commentId: P:SuperOffice.WebApi.Data.TableRight.Mask_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TableRight.Reason
+  commentId: P:SuperOffice.WebApi.Data.TableRight.Reason
+  id: Reason
+  parent: SuperOffice.WebApi.Data.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: TableRight.Reason
+  fullName: SuperOffice.WebApi.Data.TableRight.Reason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains a string that explains why the right is not available. The reason is blank if HasAll is true.\n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.WebApi.Data.TableRight.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TableRight.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TableRight.#ctor
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight.TableRight
+  fullName: SuperOffice.WebApi.Data.TableRight.TableRight
+- uid: SuperOffice.WebApi.Data.TableRight.Mask_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TableRight.Mask_String
+  isExternal: true
+  name: Mask_String
+  nameWithType: TableRight.Mask_String
+  fullName: SuperOffice.WebApi.Data.TableRight.Mask_String
+- uid: SuperOffice.WebApi.Data.TableRight.Mask
+  commentId: P:SuperOffice.WebApi.Data.TableRight.Mask
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TableRight.Mask*
+  commentId: Overload:SuperOffice.WebApi.Data.TableRight.Mask
+  isExternal: true
+  name: Mask
+  nameWithType: TableRight.Mask
+  fullName: SuperOffice.WebApi.Data.TableRight.Mask
+- uid: SuperOffice.WebApi.Data.TableRight.Mask_String
+  commentId: P:SuperOffice.WebApi.Data.TableRight.Mask_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ETableRight}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ETableRight}'
+  definition: System.Nullable`1
+  name: Nullable<ETableRight>
+  nameWithType: Nullable<ETableRight>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ETableRight>
+  nameWithType.vb: Nullable(Of ETableRight)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ETableRight)
+  name.vb: Nullable(Of ETableRight)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ETableRight
+    name: ETableRight
+    nameWithType: ETableRight
+    fullName: SuperOffice.WebApi.Data.ETableRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ETableRight
+    name: ETableRight
+    nameWithType: ETableRight
+    fullName: SuperOffice.WebApi.Data.ETableRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TableRight.Reason*
+  commentId: Overload:SuperOffice.WebApi.Data.TableRight.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: TableRight.Reason
+  fullName: SuperOffice.WebApi.Data.TableRight.Reason

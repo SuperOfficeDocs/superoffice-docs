@@ -1,0 +1,706 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WindowPosSize
+  commentId: T:SuperOffice.WebApi.Data.WindowPosSize
+  id: WindowPosSize
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WindowPosSize.#ctor
+  - SuperOffice.WebApi.Data.WindowPosSize.AssociateId
+  - SuperOffice.WebApi.Data.WindowPosSize.ExtraId
+  - SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo
+  - SuperOffice.WebApi.Data.WindowPosSize.Height
+  - SuperOffice.WebApi.Data.WindowPosSize.LeftX
+  - SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow
+  - SuperOffice.WebApi.Data.WindowPosSize.PersonId
+  - SuperOffice.WebApi.Data.WindowPosSize.State
+  - SuperOffice.WebApi.Data.WindowPosSize.State_String
+  - SuperOffice.WebApi.Data.WindowPosSize.UpperY
+  - SuperOffice.WebApi.Data.WindowPosSize.Width
+  - SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSize
+  nameWithType: WindowPosSize
+  fullName: SuperOffice.WebApi.Data.WindowPosSize
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WindowPosSize.\nWindow and dialog position and size settings    \n"
+  example:
+  - "\nGet WindowPosSize 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ConfigurationAgent(configuration);\nvar windowPosSize = agent.GetWindowPosSize( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class WindowPosSize : Carrier'
+    content.vb: >-
+      Public Class WindowPosSize
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ConfigurationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WindowPosSize.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WindowPosSize.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSize()
+  nameWithType: WindowPosSize.WindowPosSize()
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSize()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WindowPosSize()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WindowPosSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow
+  id: OwnerWindow
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: OwnerWindow
+  nameWithType: WindowPosSize.OwnerWindow
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe dialog, panel or whatever that owns this record\n"
+  syntax:
+    content: public virtual string OwnerWindow { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerWindow As String
+  overload: SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.PersonId
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: WindowPosSize.PersonId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson id of the associate owning this window setting\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: WindowPosSize.AssociateId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate id of the Associate/Person owning this window setting\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.ExtraId
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.ExtraId
+  id: ExtraId
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: ExtraId
+  nameWithType: WindowPosSize.ExtraId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.ExtraId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpare ID, not yet in use\n"
+  syntax:
+    content: public virtual int ExtraId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraId As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.ExtraId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: WindowPosSize.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information - show state, or whatever is required\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.Height
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.Height
+  id: Height
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: WindowPosSize.Height
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.Height
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe height of the widget\n"
+  syntax:
+    content: public virtual int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Height As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.Height*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.LeftX
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.LeftX
+  id: LeftX
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: LeftX
+  nameWithType: WindowPosSize.LeftX
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.LeftX
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nX of origin, left edge of widget\n"
+  syntax:
+    content: public virtual int LeftX { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LeftX As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.LeftX*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.State_String
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.State_String
+  id: State_String
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: State_String
+  nameWithType: WindowPosSize.State_String
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.State_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNormal = 0, Maximized = 1, Minimized = 2\nRaw string enum value.\n"
+  syntax:
+    content: public string State_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property State_String As String
+  overload: SuperOffice.WebApi.Data.WindowPosSize.State_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WindowPosSize.State
+    commentId: P:SuperOffice.WebApi.Data.WindowPosSize.State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WindowPosSize.State
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.State
+  id: State
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: WindowPosSize.State
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNormal = 0, Maximized = 1, Minimized = 2\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ShowWindowState> State { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ShowWindowState}
+    content.vb: Public Property State As Nullable(Of ShowWindowState)
+  overload: SuperOffice.WebApi.Data.WindowPosSize.State*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WindowPosSize.State_String
+    commentId: P:SuperOffice.WebApi.Data.WindowPosSize.State_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WindowPosSize.UpperY
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.UpperY
+  id: UpperY
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: UpperY
+  nameWithType: WindowPosSize.UpperY
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.UpperY
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nY of origin, upper edge of widget\n"
+  syntax:
+    content: public virtual int UpperY { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpperY As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.UpperY*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.Width
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.Width
+  id: Width
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: WindowPosSize.Width
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.Width
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe width of the widget\n"
+  syntax:
+    content: public virtual int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Width As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.Width*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId
+  id: WindowPosSizeId
+  parent: SuperOffice.WebApi.Data.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSizeId
+  nameWithType: WindowPosSize.WindowPosSizeId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int WindowPosSizeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WindowPosSizeId As Integer
+  overload: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WindowPosSize.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.#ctor
+  isExternal: true
+  name: WindowPosSize
+  nameWithType: WindowPosSize.WindowPosSize
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSize
+- uid: SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow
+  isExternal: true
+  name: OwnerWindow
+  nameWithType: WindowPosSize.OwnerWindow
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.OwnerWindow
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WindowPosSize.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: WindowPosSize.PersonId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WindowPosSize.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: WindowPosSize.AssociateId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.AssociateId
+- uid: SuperOffice.WebApi.Data.WindowPosSize.ExtraId*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.ExtraId
+  isExternal: true
+  name: ExtraId
+  nameWithType: WindowPosSize.ExtraId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.ExtraId
+- uid: SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: WindowPosSize.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.ExtraInfo
+- uid: SuperOffice.WebApi.Data.WindowPosSize.Height*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.Height
+  isExternal: true
+  name: Height
+  nameWithType: WindowPosSize.Height
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.Height
+- uid: SuperOffice.WebApi.Data.WindowPosSize.LeftX*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.LeftX
+  isExternal: true
+  name: LeftX
+  nameWithType: WindowPosSize.LeftX
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.LeftX
+- uid: SuperOffice.WebApi.Data.WindowPosSize.State_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.State_String
+  isExternal: true
+  name: State_String
+  nameWithType: WindowPosSize.State_String
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.State_String
+- uid: SuperOffice.WebApi.Data.WindowPosSize.State
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.State
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WindowPosSize.State*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.State
+  isExternal: true
+  name: State
+  nameWithType: WindowPosSize.State
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.State
+- uid: SuperOffice.WebApi.Data.WindowPosSize.State_String
+  commentId: P:SuperOffice.WebApi.Data.WindowPosSize.State_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ShowWindowState}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ShowWindowState}'
+  definition: System.Nullable`1
+  name: Nullable<ShowWindowState>
+  nameWithType: Nullable<ShowWindowState>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ShowWindowState>
+  nameWithType.vb: Nullable(Of ShowWindowState)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ShowWindowState)
+  name.vb: Nullable(Of ShowWindowState)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShowWindowState
+    name: ShowWindowState
+    nameWithType: ShowWindowState
+    fullName: SuperOffice.WebApi.Data.ShowWindowState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShowWindowState
+    name: ShowWindowState
+    nameWithType: ShowWindowState
+    fullName: SuperOffice.WebApi.Data.ShowWindowState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WindowPosSize.UpperY*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.UpperY
+  isExternal: true
+  name: UpperY
+  nameWithType: WindowPosSize.UpperY
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.UpperY
+- uid: SuperOffice.WebApi.Data.WindowPosSize.Width*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.Width
+  isExternal: true
+  name: Width
+  nameWithType: WindowPosSize.Width
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.Width
+- uid: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId*
+  commentId: Overload:SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId
+  isExternal: true
+  name: WindowPosSizeId
+  nameWithType: WindowPosSize.WindowPosSizeId
+  fullName: SuperOffice.WebApi.Data.WindowPosSize.WindowPosSizeId

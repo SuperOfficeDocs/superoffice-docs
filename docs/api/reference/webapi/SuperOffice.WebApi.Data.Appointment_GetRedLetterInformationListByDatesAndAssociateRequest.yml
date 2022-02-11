@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  id: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  - SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  - SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetRedLetterInformationListByDatesAndAssociateRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest()
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetRedLetterInformationListByDatesAndAssociateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartDate As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  id: EndDate
+  parent: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndDate As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.#ctor
+  isExternal: true
+  name: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.StartDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.EndDate
+- uid: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

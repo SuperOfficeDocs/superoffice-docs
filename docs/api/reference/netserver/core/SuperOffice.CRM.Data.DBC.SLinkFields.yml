@@ -1,0 +1,1547 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SLinkFields
+  id: DBC.SLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SLinkFields.ActionFlags
+  - SuperOffice.CRM.Data.DBC.SLinkFields.AddContactInterest
+  - SuperOffice.CRM.Data.DBC.SLinkFields.AddContactSelection
+  - SuperOffice.CRM.Data.DBC.SLinkFields.AddPersonInterest
+  - SuperOffice.CRM.Data.DBC.SLinkFields.AddProject
+  - SuperOffice.CRM.Data.DBC.SLinkFields.AddToSelection
+  - SuperOffice.CRM.Data.DBC.SLinkFields.Description
+  - SuperOffice.CRM.Data.DBC.SLinkFields.ExtraField
+  - SuperOffice.CRM.Data.DBC.SLinkFields.FolderId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.Hits
+  - SuperOffice.CRM.Data.DBC.SLinkFields.LastReset
+  - SuperOffice.CRM.Data.DBC.SLinkFields.LinkValue
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
+  - SuperOffice.CRM.Data.DBC.SLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactInterest
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactSelection
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RemoveFromSelection
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RemovePersonInterest
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RemoveProject
+  - SuperOffice.CRM.Data.DBC.SLinkFields.ScriptId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.SLinkId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.Status
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskAssociateId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskCreatingAssociateId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskDuration
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskFlags
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskIdx
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskProject
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskStart
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TaskText
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TemplateText
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TicketCategory
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TicketOwnedBy
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TicketPriority
+  - SuperOffice.CRM.Data.DBC.SLinkFields.TicketTitle
+  - SuperOffice.CRM.Data.DBC.SLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.SLinkFields.Url
+  langs:
+  - csharp
+  - vb
+  name: DBC.SLinkFields
+  nameWithType: DBC.SLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SLink, Links in messages to measure success rate of a campaign.\n"
+  syntax:
+    content: public static class SLinkFields
+    content.vb: Public Module SLinkFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.SLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.SLinkId
+  id: SLinkId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: SLinkId
+  nameWithType: DBC.SLinkFields.SLinkId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.SLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.SLinkId: Primary key\n"
+  syntax:
+    content: public const string SLinkId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const SLinkId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.Url
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.Url
+  id: Url
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: DBC.SLinkFields.Url
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.Url: The real URL of this link (www.vg.no etc)\n"
+  syntax:
+    content: public const string Url = "url"
+    return:
+      type: System.String
+    content.vb: Public Const Url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.Hits
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.Hits
+  id: Hits
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Hits
+  nameWithType: DBC.SLinkFields.Hits
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.Hits
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.Hits: Number of clicks on this link\n"
+  syntax:
+    content: public const string Hits = "hits"
+    return:
+      type: System.String
+    content.vb: Public Const Hits As String = "hits"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.SLinkFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.Description: A short description of this link\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.LastReset
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.LastReset
+  id: LastReset
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: LastReset
+  nameWithType: DBC.SLinkFields.LastReset
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.LastReset
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.LastReset: The time of last reset.\n"
+  syntax:
+    content: public const string LastReset = "last_reset"
+    return:
+      type: System.String
+    content.vb: Public Const LastReset As String = "last_reset"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.SLinkFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.Status: Deleted or not. Deleted links should still work.\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.ExtraField
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.ExtraField
+  id: ExtraField
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField
+  nameWithType: DBC.SLinkFields.ExtraField
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.ExtraField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.ExtraField: The name of the extra field to set if the customer clicks a link. empty if no extra field\n"
+  syntax:
+    content: public const string ExtraField = "extra_field"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField As String = "extra_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.LinkValue
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.LinkValue
+  id: LinkValue
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: LinkValue
+  nameWithType: DBC.SLinkFields.LinkValue
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.LinkValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.LinkValue: The value of the extra field to set if the customer clicks a link.\n"
+  syntax:
+    content: public const string LinkValue = "value"
+    return:
+      type: System.String
+    content.vb: Public Const LinkValue As String = "value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.FolderId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.FolderId
+  id: FolderId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: DBC.SLinkFields.FolderId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.FolderId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.FolderId: The folder which this link belongs to. -1 indicates that the link is on the root\n"
+  syntax:
+    content: public const string FolderId = "folder_id"
+    return:
+      type: System.String
+    content.vb: Public Const FolderId As String = "folder_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.ScriptId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.ScriptId
+  id: ScriptId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: DBC.SLinkFields.ScriptId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.ScriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.ScriptId: The ejScript which will be run when the link is clicked. -1 means no script is run\n"
+  syntax:
+    content: public const string ScriptId = "script_id"
+    return:
+      type: System.String
+    content.vb: Public Const ScriptId As String = "script_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TicketTitle
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TicketTitle
+  id: TicketTitle
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TicketTitle
+  nameWithType: DBC.SLinkFields.TicketTitle
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TicketTitle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TicketTitle: The title on the ticket if the clicks results in creating a request.\n"
+  syntax:
+    content: public const string TicketTitle = "ticket_title"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTitle As String = "ticket_title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TicketCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TicketCategory
+  id: TicketCategory
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TicketCategory
+  nameWithType: DBC.SLinkFields.TicketCategory
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TicketCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TicketCategory: The id of the category a ticket is in.\n"
+  syntax:
+    content: public const string TicketCategory = "ticket_category"
+    return:
+      type: System.String
+    content.vb: Public Const TicketCategory As String = "ticket_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TicketPriority
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TicketPriority
+  id: TicketPriority
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TicketPriority
+  nameWithType: DBC.SLinkFields.TicketPriority
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TicketPriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TicketPriority: The reference to the ticket_priority table.\n"
+  syntax:
+    content: public const string TicketPriority = "ticket_priority"
+    return:
+      type: System.String
+    content.vb: Public Const TicketPriority As String = "ticket_priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TicketOwnedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TicketOwnedBy
+  id: TicketOwnedBy
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TicketOwnedBy
+  nameWithType: DBC.SLinkFields.TicketOwnedBy
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TicketOwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TicketOwnedBy: The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.\n"
+  syntax:
+    content: public const string TicketOwnedBy = "ticket_owned_by"
+    return:
+      type: System.String
+    content.vb: Public Const TicketOwnedBy As String = "ticket_owned_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveFromSelection
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RemoveFromSelection
+  id: RemoveFromSelection
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromSelection
+  nameWithType: DBC.SLinkFields.RemoveFromSelection
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveFromSelection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RemoveFromSelection: The id of the selection that the customer shall be removed from\n"
+  syntax:
+    content: public const string RemoveFromSelection = "remove_from_selection"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveFromSelection As String = "remove_from_selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.AddToSelection
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.AddToSelection
+  id: AddToSelection
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: AddToSelection
+  nameWithType: DBC.SLinkFields.AddToSelection
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.AddToSelection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.AddToSelection: The id of the selection that the customer shall be added to\n"
+  syntax:
+    content: public const string AddToSelection = "add_to_selection"
+    return:
+      type: System.String
+    content.vb: Public Const AddToSelection As String = "add_to_selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TemplateText
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TemplateText
+  id: TemplateText
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TemplateText
+  nameWithType: DBC.SLinkFields.TemplateText
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TemplateText
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TemplateText: Text to print when link is clicked.\n"
+  syntax:
+    content: public const string TemplateText = "template_text"
+    return:
+      type: System.String
+    content.vb: Public Const TemplateText As String = "template_text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
+  id: RedirectIsUrl
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RedirectIsUrl
+  nameWithType: DBC.SLinkFields.RedirectIsUrl
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RedirectIsUrl: 1 if url is used, 0 if custom text is used.\n"
+  syntax:
+    content: public const string RedirectIsUrl = "redirect_is_url"
+    return:
+      type: System.String
+    content.vb: Public Const RedirectIsUrl As String = "redirect_is_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.ActionFlags
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.ActionFlags
+  id: ActionFlags
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: ActionFlags
+  nameWithType: DBC.SLinkFields.ActionFlags
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.ActionFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.ActionFlags: Bitmask defining what action should be taken\n"
+  syntax:
+    content: public const string ActionFlags = "action_flags"
+    return:
+      type: System.String
+    content.vb: Public Const ActionFlags As String = "action_flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.AddContactInterest
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.AddContactInterest
+  id: AddContactInterest
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: AddContactInterest
+  nameWithType: DBC.SLinkFields.AddContactInterest
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.AddContactInterest
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.AddContactInterest: Contact interest to add to recipient person\n"
+  syntax:
+    content: public const string AddContactInterest = "add_contact_interest"
+    return:
+      type: System.String
+    content.vb: Public Const AddContactInterest As String = "add_contact_interest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactInterest
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactInterest
+  id: RemoveContactInterest
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactInterest
+  nameWithType: DBC.SLinkFields.RemoveContactInterest
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactInterest
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RemoveContactInterest: Person interest to remove from recipient person\n"
+  syntax:
+    content: public const string RemoveContactInterest = "remove_contact_interest"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveContactInterest As String = "remove_contact_interest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.AddPersonInterest
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.AddPersonInterest
+  id: AddPersonInterest
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: AddPersonInterest
+  nameWithType: DBC.SLinkFields.AddPersonInterest
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.AddPersonInterest
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.AddPersonInterest: Person interest to add to recipient person\n"
+  syntax:
+    content: public const string AddPersonInterest = "add_person_interest"
+    return:
+      type: System.String
+    content.vb: Public Const AddPersonInterest As String = "add_person_interest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RemovePersonInterest
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RemovePersonInterest
+  id: RemovePersonInterest
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RemovePersonInterest
+  nameWithType: DBC.SLinkFields.RemovePersonInterest
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RemovePersonInterest
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RemovePersonInterest: Person interest to remove from recipient person\n"
+  syntax:
+    content: public const string RemovePersonInterest = "remove_person_interest"
+    return:
+      type: System.String
+    content.vb: Public Const RemovePersonInterest As String = "remove_person_interest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.AddContactSelection
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.AddContactSelection
+  id: AddContactSelection
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: AddContactSelection
+  nameWithType: DBC.SLinkFields.AddContactSelection
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.AddContactSelection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.AddContactSelection: Static contact selection to add person to\n"
+  syntax:
+    content: public const string AddContactSelection = "add_contact_selection"
+    return:
+      type: System.String
+    content.vb: Public Const AddContactSelection As String = "add_contact_selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactSelection
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactSelection
+  id: RemoveContactSelection
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelection
+  nameWithType: DBC.SLinkFields.RemoveContactSelection
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactSelection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RemoveContactSelection: Static contact selection to remove person from\n"
+  syntax:
+    content: public const string RemoveContactSelection = "remove_contact_selection"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveContactSelection As String = "remove_contact_selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.AddProject
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.AddProject
+  id: AddProject
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: AddProject
+  nameWithType: DBC.SLinkFields.AddProject
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.AddProject
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.AddProject: Project to add person to, as member\n"
+  syntax:
+    content: public const string AddProject = "add_project"
+    return:
+      type: System.String
+    content.vb: Public Const AddProject As String = "add_project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveProject
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RemoveProject
+  id: RemoveProject
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RemoveProject
+  nameWithType: DBC.SLinkFields.RemoveProject
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RemoveProject
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RemoveProject: Project to remove person from, as member\n"
+  syntax:
+    content: public const string RemoveProject = "remove_project"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveProject As String = "remove_project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskText
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskText
+  id: TaskText
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskText
+  nameWithType: DBC.SLinkFields.TaskText
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskText
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskText: Text of task to be created\n"
+  syntax:
+    content: public const string TaskText = "task_text"
+    return:
+      type: System.String
+    content.vb: Public Const TaskText As String = "task_text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskIdx
+  id: TaskIdx
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskIdx
+  nameWithType: DBC.SLinkFields.TaskIdx
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskIdx: Task type of new task\n"
+  syntax:
+    content: public const string TaskIdx = "task_idx"
+    return:
+      type: System.String
+    content.vb: Public Const TaskIdx As String = "task_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskFlags
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskFlags
+  id: TaskFlags
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskFlags
+  nameWithType: DBC.SLinkFields.TaskFlags
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskFlags: Flags that control how the task is created\n"
+  syntax:
+    content: public const string TaskFlags = "task_flags"
+    return:
+      type: System.String
+    content.vb: Public Const TaskFlags As String = "task_flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskAssociateId
+  id: TaskAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskAssociateId
+  nameWithType: DBC.SLinkFields.TaskAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskAssociateId: Associate whose diary should receive the task or assignment (unless AssignToOurContact is specified)\n"
+  syntax:
+    content: public const string TaskAssociateId = "task_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskAssociateId As String = "task_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskCreatingAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskCreatingAssociateId
+  id: TaskCreatingAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskCreatingAssociateId
+  nameWithType: DBC.SLinkFields.TaskCreatingAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskCreatingAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskCreatingAssociateId: Associate who should stand as creator of task; also works as fallback if an assigned task is rejected. Usually the associate who ordered the shipment\n"
+  syntax:
+    content: public const string TaskCreatingAssociateId = "task_creating_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskCreatingAssociateId As String = "task_creating_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskProject
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskProject
+  id: TaskProject
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskProject
+  nameWithType: DBC.SLinkFields.TaskProject
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskProject
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskProject: Project to connect task to, can be 0\n"
+  syntax:
+    content: public const string TaskProject = "task_project"
+    return:
+      type: System.String
+    content.vb: Public Const TaskProject As String = "task_project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskStart
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskStart
+  id: TaskStart
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskStart
+  nameWithType: DBC.SLinkFields.TaskStart
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskStart: Start time of task, unless UseNextAvailableTime is specified\n"
+  syntax:
+    content: public const string TaskStart = "task_start"
+    return:
+      type: System.String
+    content.vb: Public Const TaskStart As String = "task_start"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.TaskDuration
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.TaskDuration
+  id: TaskDuration
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskDuration
+  nameWithType: DBC.SLinkFields.TaskDuration
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.TaskDuration
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.TaskDuration: Task duration in minutes\n"
+  syntax:
+    content: public const string TaskDuration = "task_duration"
+    return:
+      type: System.String
+    content.vb: Public Const TaskDuration As String = "task_duration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.SLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.SLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.SLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.SLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.SLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

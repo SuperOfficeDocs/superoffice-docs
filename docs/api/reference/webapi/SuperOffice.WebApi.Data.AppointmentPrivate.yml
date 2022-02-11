@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AppointmentPrivate
+  commentId: T:SuperOffice.WebApi.Data.AppointmentPrivate
+  id: AppointmentPrivate
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AppointmentPrivate.PrivateGroup
+  - SuperOffice.WebApi.Data.AppointmentPrivate.PrivateUser
+  - SuperOffice.WebApi.Data.AppointmentPrivate.Public
+  - SuperOffice.WebApi.Data.AppointmentPrivate.value__
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPrivate
+  nameWithType: AppointmentPrivate
+  fullName: SuperOffice.WebApi.Data.AppointmentPrivate
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;private&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.private\n"
+  syntax:
+    content: 'public sealed class AppointmentPrivate : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentPrivate
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.AppointmentPrivate.value__
+  commentId: F:SuperOffice.WebApi.Data.AppointmentPrivate.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.AppointmentPrivate
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentPrivate.value__
+  fullName: SuperOffice.WebApi.Data.AppointmentPrivate.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentPrivate.Public
+  commentId: F:SuperOffice.WebApi.Data.AppointmentPrivate.Public
+  id: Public
+  parent: SuperOffice.WebApi.Data.AppointmentPrivate
+  langs:
+  - csharp
+  - vb
+  name: Public
+  nameWithType: AppointmentPrivate.Public
+  fullName: SuperOffice.WebApi.Data.AppointmentPrivate.Public
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: This appointment can be read by anyone\n"
+  syntax:
+    content: public const AppointmentPrivate Public
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentPrivate
+    content.vb: Public Const Public As AppointmentPrivate
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentPrivate.PrivateUser
+  commentId: F:SuperOffice.WebApi.Data.AppointmentPrivate.PrivateUser
+  id: PrivateUser
+  parent: SuperOffice.WebApi.Data.AppointmentPrivate
+  langs:
+  - csharp
+  - vb
+  name: PrivateUser
+  nameWithType: AppointmentPrivate.PrivateUser
+  fullName: SuperOffice.WebApi.Data.AppointmentPrivate.PrivateUser
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: This appointment can only be read/seen by the owner\n"
+  syntax:
+    content: public const AppointmentPrivate PrivateUser
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentPrivate
+    content.vb: Public Const PrivateUser As AppointmentPrivate
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentPrivate.PrivateGroup
+  commentId: F:SuperOffice.WebApi.Data.AppointmentPrivate.PrivateGroup
+  id: PrivateGroup
+  parent: SuperOffice.WebApi.Data.AppointmentPrivate
+  langs:
+  - csharp
+  - vb
+  name: PrivateGroup
+  nameWithType: AppointmentPrivate.PrivateGroup
+  fullName: SuperOffice.WebApi.Data.AppointmentPrivate.PrivateGroup
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: This appointment can only be read by members of the owners group\n"
+  syntax:
+    content: public const AppointmentPrivate PrivateGroup
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentPrivate
+    content.vb: Public Const PrivateGroup As AppointmentPrivate
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.AppointmentPrivate
+  commentId: T:SuperOffice.WebApi.Data.AppointmentPrivate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentPrivate
+  nameWithType: AppointmentPrivate
+  fullName: SuperOffice.WebApi.Data.AppointmentPrivate

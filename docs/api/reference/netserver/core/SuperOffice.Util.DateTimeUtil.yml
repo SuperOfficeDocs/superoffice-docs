@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.DateTimeUtil
+  commentId: T:SuperOffice.Util.DateTimeUtil
+  id: DateTimeUtil
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  - SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  - SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
+  - SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime,System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeUtil
+  nameWithType: DateTimeUtil
+  fullName: SuperOffice.Util.DateTimeUtil
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class DateTimeUtil
+    content.vb: Public Module DateTimeUtil
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  commentId: M:SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  id: GetStartTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  parent: SuperOffice.Util.DateTimeUtil
+  langs:
+  - csharp
+  - vb
+  name: GetStartTime(DateTime, DateTimeSearchType)
+  nameWithType: DateTimeUtil.GetStartTime(DateTime, DateTimeSearchType)
+  fullName: SuperOffice.Util.DateTimeUtil.GetStartTime(System.DateTime, SuperOffice.Util.DateTimeSearchType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static DateTime GetStartTime(DateTime time, DateTimeSearchType type)
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: type
+      type: SuperOffice.Util.DateTimeSearchType
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function GetStartTime(time As Date, type As DateTimeSearchType) As Date
+  overload: SuperOffice.Util.DateTimeUtil.GetStartTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  commentId: M:SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  id: GetEndTime(System.DateTime,SuperOffice.Util.DateTimeSearchType)
+  parent: SuperOffice.Util.DateTimeUtil
+  langs:
+  - csharp
+  - vb
+  name: GetEndTime(DateTime, DateTimeSearchType)
+  nameWithType: DateTimeUtil.GetEndTime(DateTime, DateTimeSearchType)
+  fullName: SuperOffice.Util.DateTimeUtil.GetEndTime(System.DateTime, SuperOffice.Util.DateTimeSearchType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static DateTime GetEndTime(DateTime time, DateTimeSearchType type)
+    parameters:
+    - id: time
+      type: System.DateTime
+    - id: type
+      type: SuperOffice.Util.DateTimeSearchType
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function GetEndTime(time As Date, type As DateTimeSearchType) As Date
+  overload: SuperOffice.Util.DateTimeUtil.GetEndTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime,System.DateTime)
+  id: ToStringWithConditionalDate(System.DateTime,System.DateTime)
+  parent: SuperOffice.Util.DateTimeUtil
+  langs:
+  - csharp
+  - vb
+  name: ToStringWithConditionalDate(DateTime, DateTime)
+  nameWithType: DateTimeUtil.ToStringWithConditionalDate(DateTime, DateTime)
+  fullName: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nConvert the given datetime to string, using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>. \nIf the date part\nis the same as the date of the reference, do not prepend the date; otherwise do prepend the date\n"
+  syntax:
+    content: public static string ToStringWithConditionalDate(DateTime dateTime, DateTime reference)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: DateTime to format
+    - id: reference
+      type: System.DateTime
+      description: Reference date; date will be prepended in the result if this is different from the datetime to format
+    return:
+      type: System.String
+      description: Either date + time or just time
+    content.vb: Public Shared Function ToStringWithConditionalDate(dateTime As Date, reference As Date) As String
+  overload: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
+  commentId: M:SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
+  id: ToStringWithConditionalDate(System.DateTime)
+  parent: SuperOffice.Util.DateTimeUtil
+  langs:
+  - csharp
+  - vb
+  name: ToStringWithConditionalDate(DateTime)
+  nameWithType: DateTimeUtil.ToStringWithConditionalDate(DateTime)
+  fullName: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate(System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nConvert the given datetime to string, using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>. \nIf the date part\nis the same as today, do not prepend the date; otherwise do prepend the date\n"
+  syntax:
+    content: public static string ToStringWithConditionalDate(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: DateTime to format
+    return:
+      type: System.String
+      description: Either date + time or just time
+    content.vb: Public Shared Function ToStringWithConditionalDate(dateTime As Date) As String
+  overload: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.DateTimeUtil.GetStartTime*
+  commentId: Overload:SuperOffice.Util.DateTimeUtil.GetStartTime
+  isExternal: true
+  name: GetStartTime
+  nameWithType: DateTimeUtil.GetStartTime
+  fullName: SuperOffice.Util.DateTimeUtil.GetStartTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Util.DateTimeSearchType
+  commentId: T:SuperOffice.Util.DateTimeSearchType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: DateTimeSearchType
+  nameWithType: DateTimeSearchType
+  fullName: SuperOffice.Util.DateTimeSearchType
+- uid: SuperOffice.Util.DateTimeUtil.GetEndTime*
+  commentId: Overload:SuperOffice.Util.DateTimeUtil.GetEndTime
+  isExternal: true
+  name: GetEndTime
+  nameWithType: DateTimeUtil.GetEndTime
+  fullName: SuperOffice.Util.DateTimeUtil.GetEndTime
+- uid: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate*
+  commentId: Overload:SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate
+  isExternal: true
+  name: ToStringWithConditionalDate
+  nameWithType: DateTimeUtil.ToStringWithConditionalDate
+  fullName: SuperOffice.Util.DateTimeUtil.ToStringWithConditionalDate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

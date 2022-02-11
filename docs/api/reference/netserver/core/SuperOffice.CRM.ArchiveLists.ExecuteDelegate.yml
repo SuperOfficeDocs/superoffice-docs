@@ -1,0 +1,466 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  id: ExecuteDelegate
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke(SuperOffice.CRM.ArchiveLists.RowInfo[],System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke(SuperOffice.CRM.ArchiveLists.RowInfo[])
+  langs:
+  - csharp
+  - vb
+  name: ExecuteDelegate
+  nameWithType: ExecuteDelegate
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDelegate method called when this action should be executed - in a <strong>Windows client context</strong>\n"
+  syntax:
+    content: public delegate ArchiveRestrictionInfo ExecuteDelegate(RowInfo[] rowInfo);
+    parameters:
+    - id: rowInfo
+      type: SuperOffice.CRM.ArchiveLists.RowInfo[]
+      description: Information about selected row(s)
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: >
+        The result is processed as follows:
+
+        <p></p>If a null value is returned here, no action is taken by the archive control
+
+        <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
+
+        in force, and the data provider is called. The result set is then processed depending on matching primary
+
+        keys and row types of the result set with those already in the <strong>selected rows only</strong> of the archive:
+
+        <p></p>
+
+        <table><thead><tr><th>Provider returns</th><th>Action taken in archive</th></tr></thead><tbody><tr><td>PrimaryKey+RowType match</td><td>The existing row is updated with the values from the provider</td></tr><tr><td>PrimaryKey+RowType mismatch</td><td>A new row is added</td></tr><tr><td>Existing row not matched by new provider result</td><td>Previously selected row is deleted from archive</td></tr></tbody></table>
+
+        <p></p>
+
+        This delegate should thus return an archive restriction that <strong>refetches</strong> the currently selected rows, as far as is
+
+        relevant; and this result set will update/replace/extend the currently selected rows.
+
+        <p></p>
+
+        If there are no currently selected rows, then no rows can/will be deleted from the archive
+    content.vb: Public Delegate Function ExecuteDelegate(rowInfo As RowInfo()) As ArchiveRestrictionInfo
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  langs:
+  - csharp
+  - vb
+  name: ExecuteDelegate(Object, IntPtr)
+  nameWithType: ExecuteDelegate.ExecuteDelegate(Object, IntPtr)
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.ExecuteDelegate(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ExecuteDelegate(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke(SuperOffice.CRM.ArchiveLists.RowInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke(SuperOffice.CRM.ArchiveLists.RowInfo[])
+  id: Invoke(SuperOffice.CRM.ArchiveLists.RowInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  langs:
+  - csharp
+  - vb
+  name: Invoke(RowInfo[])
+  nameWithType: ExecuteDelegate.Invoke(RowInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke(SuperOffice.CRM.ArchiveLists.RowInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public virtual ArchiveRestrictionInfo Invoke(RowInfo[] rowInfo)
+    parameters:
+    - id: rowInfo
+      type: SuperOffice.CRM.ArchiveLists.RowInfo[]
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Overridable Function Invoke(rowInfo As RowInfo()) As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke*
+  nameWithType.vb: ExecuteDelegate.Invoke(RowInfo())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke(SuperOffice.CRM.ArchiveLists.RowInfo())
+  name.vb: Invoke(RowInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke(SuperOffice.CRM.ArchiveLists.RowInfo[],System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke(SuperOffice.CRM.ArchiveLists.RowInfo[],System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.CRM.ArchiveLists.RowInfo[],System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(RowInfo[], AsyncCallback, Object)
+  nameWithType: ExecuteDelegate.BeginInvoke(RowInfo[], AsyncCallback, Object)
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke(SuperOffice.CRM.ArchiveLists.RowInfo[], System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(RowInfo[] rowInfo, AsyncCallback callback, object object)
+    parameters:
+    - id: rowInfo
+      type: SuperOffice.CRM.ArchiveLists.RowInfo[]
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(rowInfo As RowInfo(), callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke*
+  nameWithType.vb: ExecuteDelegate.BeginInvoke(RowInfo(), AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke(SuperOffice.CRM.ArchiveLists.RowInfo(), System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(RowInfo(), AsyncCallback, Object)
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ExecuteDelegate.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public virtual ArchiveRestrictionInfo EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ExecuteDelegate, To>()
+  nameWithType: EnumUtil.MapEnums<ExecuteDelegate, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExecuteDelegate, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To)()
+  name.vb: MapEnums(Of ExecuteDelegate, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExecuteDelegate, To>
+    nameWithType: EnumUtil.MapEnums<ExecuteDelegate, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExecuteDelegate, To)
+    nameWithType: EnumUtil.MapEnums(Of ExecuteDelegate, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExecuteDelegate, To>()
+  nameWithType: Converters.MapEnums<ExecuteDelegate, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExecuteDelegate, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To)()
+  name.vb: MapEnums(Of ExecuteDelegate, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExecuteDelegate, To>
+    nameWithType: Converters.MapEnums<ExecuteDelegate, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExecuteDelegate, To)
+    nameWithType: Converters.MapEnums(Of ExecuteDelegate, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExecuteDelegate, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.RowInfo[]
+  isExternal: true
+  name: RowInfo[]
+  nameWithType: RowInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.RowInfo[]
+  nameWithType.vb: RowInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RowInfo()
+  name.vb: RowInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
+    name: RowInfo
+    nameWithType: RowInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
+    name: RowInfo
+    nameWithType: RowInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor
+  isExternal: true
+  name: ExecuteDelegate
+  nameWithType: ExecuteDelegate.ExecuteDelegate
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.ExecuteDelegate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ExecuteDelegate.Invoke
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: ExecuteDelegate.BeginInvoke
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: ExecuteDelegate.EndInvoke
+  fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EndInvoke

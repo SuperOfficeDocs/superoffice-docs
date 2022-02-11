@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest
+  id: List_SaveConsentPurposeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose
+  langs:
+  - csharp
+  - vb
+  name: List_SaveConsentPurposeRequest
+  nameWithType: List_SaveConsentPurposeRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveConsentPurposeRequest : Object'
+    content.vb: >-
+      Public Class List_SaveConsentPurposeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveConsentPurposeRequest()
+  nameWithType: List_SaveConsentPurposeRequest.List_SaveConsentPurposeRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.List_SaveConsentPurposeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveConsentPurposeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose
+  commentId: P:SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose
+  id: ConsentPurpose
+  parent: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest
+  langs:
+  - csharp
+  - vb
+  name: ConsentPurpose
+  nameWithType: List_SaveConsentPurposeRequest.ConsentPurpose
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ConsentPurpose ConsentPurpose { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ConsentPurpose
+    content.vb: Public Property ConsentPurpose As ConsentPurpose
+  overload: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.#ctor
+  isExternal: true
+  name: List_SaveConsentPurposeRequest
+  nameWithType: List_SaveConsentPurposeRequest.List_SaveConsentPurposeRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.List_SaveConsentPurposeRequest
+- uid: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose
+  isExternal: true
+  name: ConsentPurpose
+  nameWithType: List_SaveConsentPurposeRequest.ConsentPurpose
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentPurposeRequest.ConsentPurpose
+- uid: SuperOffice.WebApi.Data.ConsentPurpose
+  commentId: T:SuperOffice.WebApi.Data.ConsentPurpose
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConsentPurpose
+  nameWithType: ConsentPurpose
+  fullName: SuperOffice.WebApi.Data.ConsentPurpose

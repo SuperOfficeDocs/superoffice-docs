@@ -1,0 +1,11 @@
+digraph dashboard_theme  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dashboard_theme[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+dashboard[fillcolor = "azure1"]
+dashboard_theme -> associate [headlabel = "registered_associate_id"]
+dashboard_theme -> associate [label = "updated_associate_id"]
+dashboard -> dashboard_theme [label = "dashboard_theme_id"]
+}

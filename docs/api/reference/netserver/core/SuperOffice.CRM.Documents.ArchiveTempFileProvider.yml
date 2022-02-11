@@ -1,0 +1,1610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  commentId: T:SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  id: ArchiveTempFileProvider
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists(System.IO.DirectoryInfo)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength(System.String)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveTempFileProvider
+  nameWithType: ArchiveTempFileProvider
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThis class implements the <xref href=\"SuperOffice.CRM.Documents.ITempFileProvider\" data-throw-if-not-resolved=\"false\"></xref> interface and makes\navailable temp file services. It uses the Document section in the config file\nto determine impersonation options and file path.\n"
+  syntax:
+    content: >-
+      [TempFileProvider("SuperOffice:DocumentTemp")]
+
+      public class ArchiveTempFileProvider : ITempFileProvider, IPlugin
+    content.vb: >-
+      <TempFileProvider("SuperOffice:DocumentTemp")>
+
+      Public Class ArchiveTempFileProvider
+          Implements ITempFileProvider, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Documents.TempFileProviderAttribute
+    ctor: SuperOffice.CRM.Documents.TempFileProviderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SuperOffice:DocumentTemp
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: ArchiveTempFileProvider()
+  nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider()
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ArchiveTempFileProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
+  id: CreateFile(System.String)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateFile(String)
+  nameWithType: ArchiveTempFileProvider.CreateFile(String)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string CreateFile(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function CreateFile(name As String) As String
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
+  id: CheckIfFileExists(System.String)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: CheckIfFileExists(String)
+  nameWithType: ArchiveTempFileProvider.CheckIfFileExists(String)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public bool CheckIfFileExists(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function CheckIfFileExists(name As String) As Boolean
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
+  id: ReadFileComplete(System.String)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: ReadFileComplete(String)
+  nameWithType: ArchiveTempFileProvider.ReadFileComplete(String)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public Stream ReadFileComplete(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Function ReadFileComplete(name As String) As Stream
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  id: ReadFileChunk(System.String,System.Int64,System.Byte[])
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: ReadFileChunk(String, Int64, Byte[])
+  nameWithType: ArchiveTempFileProvider.ReadFileChunk(String, Int64, Byte[])
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public int ReadFileChunk(string name, long filePosition, byte[] bufferToUpdate)
+    parameters:
+    - id: name
+      type: System.String
+    - id: filePosition
+      type: System.Int64
+    - id: bufferToUpdate
+      type: System.Byte[]
+    return:
+      type: System.Int32
+    content.vb: Public Function ReadFileChunk(name As String, filePosition As Long, bufferToUpdate As Byte()) As Integer
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  nameWithType.vb: ArchiveTempFileProvider.ReadFileChunk(String, Int64, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte())
+  name.vb: ReadFileChunk(String, Int64, Byte())
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  id: WriteFileComplete(System.String,System.IO.Stream)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: WriteFileComplete(String, Stream)
+  nameWithType: ArchiveTempFileProvider.WriteFileComplete(String, Stream)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete(System.String, System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCopy all information from DATA stream into the temp file represented by NAME, and close the stream when done.\n"
+  syntax:
+    content: public void WriteFileComplete(string name, Stream data)
+    parameters:
+    - id: name
+      type: System.String
+      description: Temp file name
+    - id: data
+      type: System.IO.Stream
+      description: Stream to read to the end. This stream is CLOSED after it has been read.
+    content.vb: Public Sub WriteFileComplete(name As String, data As Stream)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  id: WriteFileChunk(System.String,System.Int64,System.Byte[])
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: WriteFileChunk(String, Int64, Byte[])
+  nameWithType: ArchiveTempFileProvider.WriteFileChunk(String, Int64, Byte[])
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void WriteFileChunk(string name, long filePosition, byte[] bufferToWriteFrom)
+    parameters:
+    - id: name
+      type: System.String
+    - id: filePosition
+      type: System.Int64
+    - id: bufferToWriteFrom
+      type: System.Byte[]
+    content.vb: Public Sub WriteFileChunk(name As String, filePosition As Long, bufferToWriteFrom As Byte())
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  nameWithType.vb: ArchiveTempFileProvider.WriteFileChunk(String, Int64, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte())
+  name.vb: WriteFileChunk(String, Int64, Byte())
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
+  id: DeleteFile(System.String)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: DeleteFile(String)
+  nameWithType: ArchiveTempFileProvider.DeleteFile(String)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void DeleteFile(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub DeleteFile(name As String)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength(System.String)
+  id: GetLength(System.String)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: GetLength(String)
+  nameWithType: ArchiveTempFileProvider.GetLength(String)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet size of a temporary file\n"
+  syntax:
+    content: public long GetLength(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: filename
+    return:
+      type: System.Int64
+      description: Size of file
+    content.vb: Public Function GetLength(name As String) As Long
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength*
+  implements:
+  - SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists(System.IO.DirectoryInfo)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists(System.IO.DirectoryInfo)
+  id: EnsureDirectoryExists(System.IO.DirectoryInfo)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: EnsureDirectoryExists(DirectoryInfo)
+  nameWithType: ArchiveTempFileProvider.EnsureDirectoryExists(DirectoryInfo)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists(System.IO.DirectoryInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nVerify that a directory exists, and if not, create all missing folders\n"
+  syntax:
+    content: public static void EnsureDirectoryExists(DirectoryInfo dirInfo)
+    parameters:
+    - id: dirInfo
+      type: System.IO.DirectoryInfo
+    content.vb: Public Shared Sub EnsureDirectoryExists(dirInfo As DirectoryInfo)
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Documents.ITempFileProvider
+  commentId: T:SuperOffice.CRM.Documents.ITempFileProvider
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: ITempFileProvider
+  nameWithType: ITempFileProvider
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ArchiveTempFileProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveTempFileProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveTempFileProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)()
+  name.vb: MapEnums(Of ArchiveTempFileProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveTempFileProvider, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveTempFileProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveTempFileProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveTempFileProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.ArchiveTempFileProvider>(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  name.vb: AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ArchiveTempFileProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<ArchiveTempFileProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.ArchiveTempFileProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    nameWithType: ArchiveTempFileProvider
+    fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ArchiveTempFileProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ArchiveTempFileProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    nameWithType: ArchiveTempFileProvider
+    fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ArchiveTempFileProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<ArchiveTempFileProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.ArchiveTempFileProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveTempFileProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)()
+  name.vb: GraphCopy(Of ArchiveTempFileProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ArchiveTempFileProvider>
+    nameWithType: ObjectExtensions.GraphCopy<ArchiveTempFileProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.ArchiveTempFileProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ArchiveTempFileProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of ArchiveTempFileProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ArchiveTempFileProvider, To>()
+  nameWithType: Converters.MapEnums<ArchiveTempFileProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveTempFileProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)()
+  name.vb: MapEnums(Of ArchiveTempFileProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveTempFileProvider, To>
+    nameWithType: Converters.MapEnums<ArchiveTempFileProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ArchiveTempFileProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveTempFileProvider, To)
+    nameWithType: Converters.MapEnums(Of ArchiveTempFileProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
+  isExternal: true
+  name: ArchiveTempFileProvider
+  nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile
+  isExternal: true
+  name: CreateFile
+  nameWithType: ArchiveTempFileProvider.CreateFile
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: CreateFile(String)
+  nameWithType: ITempFileProvider.CreateFile(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+    name: CreateFile
+    nameWithType: ITempFileProvider.CreateFile
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile(System.String)
+    name: CreateFile
+    nameWithType: ITempFileProvider.CreateFile
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.CreateFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists
+  isExternal: true
+  name: CheckIfFileExists
+  nameWithType: ArchiveTempFileProvider.CheckIfFileExists
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: CheckIfFileExists(String)
+  nameWithType: ITempFileProvider.CheckIfFileExists(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+    name: CheckIfFileExists
+    nameWithType: ITempFileProvider.CheckIfFileExists
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists(System.String)
+    name: CheckIfFileExists
+    nameWithType: ITempFileProvider.CheckIfFileExists
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.CheckIfFileExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete
+  isExternal: true
+  name: ReadFileComplete
+  nameWithType: ArchiveTempFileProvider.ReadFileComplete
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: ReadFileComplete(String)
+  nameWithType: ITempFileProvider.ReadFileComplete(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+    name: ReadFileComplete
+    nameWithType: ITempFileProvider.ReadFileComplete
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete(System.String)
+    name: ReadFileComplete
+    nameWithType: ITempFileProvider.ReadFileComplete
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk
+  isExternal: true
+  name: ReadFileChunk
+  nameWithType: ArchiveTempFileProvider.ReadFileChunk
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: ReadFileChunk(String, Int64, Byte[])
+  nameWithType: ITempFileProvider.ReadFileChunk(String, Int64, Byte[])
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte[])
+  nameWithType.vb: ITempFileProvider.ReadFileChunk(String, Int64, Byte())
+  fullName.vb: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String, System.Int64, System.Byte())
+  name.vb: ReadFileChunk(String, Int64, Byte())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+    name: ReadFileChunk
+    nameWithType: ITempFileProvider.ReadFileChunk
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
+    name: ReadFileChunk
+    nameWithType: ITempFileProvider.ReadFileChunk
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.ReadFileChunk
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete
+  isExternal: true
+  name: WriteFileComplete
+  nameWithType: ArchiveTempFileProvider.WriteFileComplete
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileComplete
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: WriteFileComplete(String, Stream)
+  nameWithType: ITempFileProvider.WriteFileComplete(String, Stream)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String, System.IO.Stream)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+    name: WriteFileComplete
+    nameWithType: ITempFileProvider.WriteFileComplete
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete(System.String,System.IO.Stream)
+    name: WriteFileComplete
+    nameWithType: ITempFileProvider.WriteFileComplete
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk
+  isExternal: true
+  name: WriteFileChunk
+  nameWithType: ArchiveTempFileProvider.WriteFileChunk
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.WriteFileChunk
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: WriteFileChunk(String, Int64, Byte[])
+  nameWithType: ITempFileProvider.WriteFileChunk(String, Int64, Byte[])
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte[])
+  nameWithType.vb: ITempFileProvider.WriteFileChunk(String, Int64, Byte())
+  fullName.vb: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String, System.Int64, System.Byte())
+  name.vb: WriteFileChunk(String, Int64, Byte())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+    name: WriteFileChunk
+    nameWithType: ITempFileProvider.WriteFileChunk
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk(System.String,System.Int64,System.Byte[])
+    name: WriteFileChunk
+    nameWithType: ITempFileProvider.WriteFileChunk
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.WriteFileChunk
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile
+  isExternal: true
+  name: DeleteFile
+  nameWithType: ArchiveTempFileProvider.DeleteFile
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: DeleteFile(String)
+  nameWithType: ITempFileProvider.DeleteFile(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+    name: DeleteFile
+    nameWithType: ITempFileProvider.DeleteFile
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile(System.String)
+    name: DeleteFile
+    nameWithType: ITempFileProvider.DeleteFile
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.DeleteFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength
+  isExternal: true
+  name: GetLength
+  nameWithType: ArchiveTempFileProvider.GetLength
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.GetLength
+- uid: SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  parent: SuperOffice.CRM.Documents.ITempFileProvider
+  isExternal: true
+  name: GetLength(String)
+  nameWithType: ITempFileProvider.GetLength(String)
+  fullName: SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+    name: GetLength
+    nameWithType: ITempFileProvider.GetLength
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.GetLength
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.ITempFileProvider.GetLength(System.String)
+    name: GetLength
+    nameWithType: ITempFileProvider.GetLength
+    fullName: SuperOffice.CRM.Documents.ITempFileProvider.GetLength
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists
+  isExternal: true
+  name: EnsureDirectoryExists
+  nameWithType: ArchiveTempFileProvider.EnsureDirectoryExists
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnsureDirectoryExists
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo

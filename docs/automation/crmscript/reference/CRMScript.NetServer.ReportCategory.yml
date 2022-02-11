@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ReportCategory
+  # Same as SuperOffice.Data.ReportCategory
+  commentId: T:CRMScript.NetServer.ReportCategory
+  id: ReportCategory
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ReportCategory.None
+  - CRMScript.NetServer.ReportCategory.All
+  - CRMScript.NetServer.ReportCategory.Contact
+  - CRMScript.NetServer.ReportCategory.Project
+  - CRMScript.NetServer.ReportCategory.Sale
+  - CRMScript.NetServer.ReportCategory.Appointment
+  - CRMScript.NetServer.ReportCategory.Selection
+  - CRMScript.NetServer.ReportCategory.Person
+  - CRMScript.NetServer.ReportCategory.Diary
+  - CRMScript.NetServer.ReportCategory.Favorites
+  name: ReportCategory
+  nameWithType: ReportCategory
+  fullName: CRMScript.NetServer.ReportCategory
+  type: Enum
+  summary: "\nThe available category.\n"
+- uid: CRMScript.NetServer.ReportCategory.None
+  commentId: F:CRMScript.NetServer.ReportCategory.None
+  id: ReportCategory.None
+  langs:
+  - crmscript
+  name: ReportCategory.None
+  nameWithType: ReportCategory.None
+  fullName: CRMScript.NetServer.ReportCategory.None
+  type: Field
+  summary: "\n0: New/empty report\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.All
+  commentId: F:CRMScript.NetServer.ReportCategory.All
+  id: ReportCategory.All
+  langs:
+  - crmscript
+  name: ReportCategory.All
+  nameWithType: ReportCategory.All
+  fullName: CRMScript.NetServer.ReportCategory.All
+  type: Field
+  summary: "\n1: All reports\n"
+  syntax: 
+    content: All = 1
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Contact
+  commentId: F:CRMScript.NetServer.ReportCategory.Contact
+  id: ReportCategory.Contact
+  langs:
+  - crmscript
+  name: ReportCategory.Contact
+  nameWithType: ReportCategory.Contact
+  fullName: CRMScript.NetServer.ReportCategory.Contact
+  type: Field
+  summary: "\n2: Company reports\n"
+  syntax: 
+    content: Contact = 2
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Project
+  commentId: F:CRMScript.NetServer.ReportCategory.Project
+  id: ReportCategory.Project
+  langs:
+  - crmscript
+  name: ReportCategory.Project
+  nameWithType: ReportCategory.Project
+  fullName: CRMScript.NetServer.ReportCategory.Project
+  type: Field
+  summary: "\n3: Project reports\n"
+  syntax: 
+    content: Project = 3
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Sale
+  commentId: F:CRMScript.NetServer.ReportCategory.Sale
+  id: ReportCategory.Sale
+  langs:
+  - crmscript
+  name: ReportCategory.Sale
+  nameWithType: ReportCategory.Sale
+  fullName: CRMScript.NetServer.ReportCategory.Sale
+  type: Field
+  summary: "\n4: Sale reports\n"
+  syntax: 
+    content: Sale = 4
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Appointment
+  commentId: F:CRMScript.NetServer.ReportCategory.Appointment
+  id: ReportCategory.Appointment
+  langs:
+  - crmscript
+  name: ReportCategory.Appointment
+  nameWithType: ReportCategory.Appointment
+  fullName: CRMScript.NetServer.ReportCategory.Appointment
+  type: Field
+  summary: "\n5: Appointment reports\n"
+  syntax: 
+    content: Appointment = 5
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Selection
+  commentId: F:CRMScript.NetServer.ReportCategory.Selection
+  id: ReportCategory.Selection
+  langs:
+  - crmscript
+  name: ReportCategory.Selection
+  nameWithType: ReportCategory.Selection
+  fullName: CRMScript.NetServer.ReportCategory.Selection
+  type: Field
+  summary: "\n6: Selection reports\n"
+  syntax: 
+    content: Selection = 6
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Person
+  commentId: F:CRMScript.NetServer.ReportCategory.Person
+  id: ReportCategory.Person
+  langs:
+  - crmscript
+  name: ReportCategory.Person
+  nameWithType: ReportCategory.Person
+  fullName: CRMScript.NetServer.ReportCategory.Person
+  type: Field
+  summary: "\n7: Person reports\n"
+  syntax: 
+    content: Person = 7
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Diary
+  commentId: F:CRMScript.NetServer.ReportCategory.Diary
+  id: ReportCategory.Diary
+  langs:
+  - crmscript
+  name: ReportCategory.Diary
+  nameWithType: ReportCategory.Diary
+  fullName: CRMScript.NetServer.ReportCategory.Diary
+  type: Field
+  summary: "\n8: Diary reports\n"
+  syntax: 
+    content: Diary = 8
+    type: CRMScript.NetServer.ReportCategory
+- uid: CRMScript.NetServer.ReportCategory.Favorites
+  commentId: F:CRMScript.NetServer.ReportCategory.Favorites
+  id: ReportCategory.Favorites
+  langs:
+  - crmscript
+  name: ReportCategory.Favorites
+  nameWithType: ReportCategory.Favorites
+  fullName: CRMScript.NetServer.ReportCategory.Favorites
+  type: Field
+  summary: "\n9: Favorites\n"
+  syntax: 
+    content: Favorites = 9
+    type: CRMScript.NetServer.ReportCategory
+references:
+- uid: CRMScript.NetServer.ReportCategory
+  commentId: T:CRMScript.NetServer.ReportCategory
+  isExternal: true
+  name: ReportCategory
+  nameWithType: ReportCategory
+  fullName: CRMScript.NetServer.ReportCategory

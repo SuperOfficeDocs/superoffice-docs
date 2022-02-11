@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketBaseStatus
+  id: TicketBaseStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Active
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Closed
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Merged
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
+  - SuperOffice.WebApi.Data.TicketBaseStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus of a ticket/request\nThis Enum is used by:  ticket.status; ticket_status.status\n"
+  syntax:
+    content: 'public sealed class TicketBaseStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketBaseStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketBaseStatus.value__
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketBaseStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown / uninitialized\n"
+  syntax:
+    content: public const TicketBaseStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Unknown As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Active
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: TicketBaseStatus.Active
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Active
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Request is currently active\n"
+  syntax:
+    content: public const TicketBaseStatus Active
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Active As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Closed
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Closed
+  id: Closed
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Closed
+  nameWithType: TicketBaseStatus.Closed
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Closed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Request has been closed\n"
+  syntax:
+    content: public const TicketBaseStatus Closed
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Closed As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
+  id: Postponed
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Postponed
+  nameWithType: TicketBaseStatus.Postponed
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Request has been postponed\n"
+  syntax:
+    content: public const TicketBaseStatus Postponed
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Postponed As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TicketBaseStatus.Deleted
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Request has been deleted\n"
+  syntax:
+    content: public const TicketBaseStatus Deleted
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Deleted As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Merged
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Merged
+  id: Merged
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Merged
+  nameWithType: TicketBaseStatus.Merged
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Merged
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Request has been merged with another request\n"
+  syntax:
+    content: public const TicketBaseStatus Merged
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Merged As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketBaseStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus

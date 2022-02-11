@@ -1,0 +1,10 @@
+digraph chat_topic_user  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+chat_topic_user[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+chat_topic[fillcolor = "azure1"]
+chat_topic_user -> ejuser [headlabel = "user_id"]
+chat_topic_user -> chat_topic [headlabel = "topic_id"]
+}

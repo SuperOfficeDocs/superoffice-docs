@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CommandResult
+  commentId: T:SuperOffice.WebApi.Data.CommandResult
+  id: CommandResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CommandResult.#ctor
+  - SuperOffice.WebApi.Data.CommandResult.Message
+  - SuperOffice.WebApi.Data.CommandResult.Result
+  - SuperOffice.WebApi.Data.CommandResult.Result_String
+  - SuperOffice.WebApi.Data.CommandResult.Success
+  langs:
+  - csharp
+  - vb
+  name: CommandResult
+  nameWithType: CommandResult
+  fullName: SuperOffice.WebApi.Data.CommandResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CommandResult.\nGeneric carrier object for entity commands.    \n"
+  syntax:
+    content: 'public class CommandResult : Carrier'
+    content.vb: >-
+      Public Class CommandResult
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CommandResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CommandResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: CommandResult()
+  nameWithType: CommandResult.CommandResult()
+  fullName: SuperOffice.WebApi.Data.CommandResult.CommandResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CommandResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CommandResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CommandResult.Success
+  commentId: P:SuperOffice.WebApi.Data.CommandResult.Success
+  id: Success
+  parent: SuperOffice.WebApi.Data.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: CommandResult.Success
+  fullName: SuperOffice.WebApi.Data.CommandResult.Success
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe command was successfully executed.\n"
+  syntax:
+    content: public virtual bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Success As Boolean
+  overload: SuperOffice.WebApi.Data.CommandResult.Success*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CommandResult.Message
+  commentId: P:SuperOffice.WebApi.Data.CommandResult.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: CommandResult.Message
+  fullName: SuperOffice.WebApi.Data.CommandResult.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage which should be displayed in GUI.\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.CommandResult.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CommandResult.Result_String
+  commentId: P:SuperOffice.WebApi.Data.CommandResult.Result_String
+  id: Result_String
+  parent: SuperOffice.WebApi.Data.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: Result_String
+  nameWithType: CommandResult.Result_String
+  fullName: SuperOffice.WebApi.Data.CommandResult.Result_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe result used in this action.\nRaw string enum value.\n"
+  syntax:
+    content: public string Result_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Result_String As String
+  overload: SuperOffice.WebApi.Data.CommandResult.Result_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CommandResult.Result
+    commentId: P:SuperOffice.WebApi.Data.CommandResult.Result
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CommandResult.Result
+  commentId: P:SuperOffice.WebApi.Data.CommandResult.Result
+  id: Result
+  parent: SuperOffice.WebApi.Data.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: CommandResult.Result
+  fullName: SuperOffice.WebApi.Data.CommandResult.Result
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe result used in this action.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<CommandActionResult> Result { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.CommandActionResult}
+    content.vb: Public Property Result As Nullable(Of CommandActionResult)
+  overload: SuperOffice.WebApi.Data.CommandResult.Result*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CommandResult.Result_String
+    commentId: P:SuperOffice.WebApi.Data.CommandResult.Result_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CommandResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandResult.#ctor
+  isExternal: true
+  name: CommandResult
+  nameWithType: CommandResult.CommandResult
+  fullName: SuperOffice.WebApi.Data.CommandResult.CommandResult
+- uid: SuperOffice.WebApi.Data.CommandResult.Success*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandResult.Success
+  isExternal: true
+  name: Success
+  nameWithType: CommandResult.Success
+  fullName: SuperOffice.WebApi.Data.CommandResult.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.CommandResult.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandResult.Message
+  isExternal: true
+  name: Message
+  nameWithType: CommandResult.Message
+  fullName: SuperOffice.WebApi.Data.CommandResult.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CommandResult.Result_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandResult.Result_String
+  isExternal: true
+  name: Result_String
+  nameWithType: CommandResult.Result_String
+  fullName: SuperOffice.WebApi.Data.CommandResult.Result_String
+- uid: SuperOffice.WebApi.Data.CommandResult.Result
+  commentId: P:SuperOffice.WebApi.Data.CommandResult.Result
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.CommandResult.Result*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandResult.Result
+  isExternal: true
+  name: Result
+  nameWithType: CommandResult.Result
+  fullName: SuperOffice.WebApi.Data.CommandResult.Result
+- uid: SuperOffice.WebApi.Data.CommandResult.Result_String
+  commentId: P:SuperOffice.WebApi.Data.CommandResult.Result_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.CommandActionResult}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.CommandActionResult}'
+  definition: System.Nullable`1
+  name: Nullable<CommandActionResult>
+  nameWithType: Nullable<CommandActionResult>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.CommandActionResult>
+  nameWithType.vb: Nullable(Of CommandActionResult)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.CommandActionResult)
+  name.vb: Nullable(Of CommandActionResult)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CommandActionResult
+    name: CommandActionResult
+    nameWithType: CommandActionResult
+    fullName: SuperOffice.WebApi.Data.CommandActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CommandActionResult
+    name: CommandActionResult
+    nameWithType: CommandActionResult
+    fullName: SuperOffice.WebApi.Data.CommandActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

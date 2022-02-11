@@ -1,0 +1,1563 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  commentId: T:SuperOffice.WebApi.Data.SoPrincipalCarrier
+  id: SoPrincipalCarrier
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.#ctor
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  - SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  langs:
+  - csharp
+  - vb
+  name: SoPrincipalCarrier
+  nameWithType: SoPrincipalCarrier
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SoPrincipalCarrier.\nRepresentation of a serialized exception that can be communicatyed over web services    \n"
+  syntax:
+    content: 'public class SoPrincipalCarrier : Object'
+    content.vb: >-
+      Public Class SoPrincipalCarrier
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SoPrincipalCarrier.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: SoPrincipalCarrier()
+  nameWithType: SoPrincipalCarrier.SoPrincipalCarrier()
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.SoPrincipalCarrier()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SoPrincipalCarrier()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  id: UserType_String
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: UserType_String
+  nameWithType: SoPrincipalCarrier.UserType_String
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of user\nRaw string enum value.\n"
+  syntax:
+    content: public string UserType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserType_String As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+    commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  id: UserType
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: SoPrincipalCarrier.UserType
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of user\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UserType> UserType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UserType}
+    content.vb: Public Property UserType As Nullable(Of UserType)
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+    commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate
+  id: Associate
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SoPrincipalCarrier.Associate
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate name (e.g. logon name) for the user\n"
+  syntax:
+    content: public virtual string Associate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Associate As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SoPrincipalCarrier.AssociateId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociateId for the user.\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson
+  id: IsPerson
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: IsPerson
+  nameWithType: SoPrincipalCarrier.IsPerson
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this associate a person, and not a resource?\n"
+  syntax:
+    content: public virtual bool IsPerson { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPerson As Boolean
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SoPrincipalCarrier.PersonId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate&apos;s person id\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: SoPrincipalCarrier.CountryId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCountry id for the user.\n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId
+  id: HomeCountryId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: HomeCountryId
+  nameWithType: SoPrincipalCarrier.HomeCountryId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCountry id for the user&apos;s home country.  This is the default country id when creating new items.\n"
+  syntax:
+    content: public virtual int HomeCountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HomeCountryId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: SoPrincipalCarrier.ContactId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCompany of the associate&apos;s person\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId
+  id: GroupId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: SoPrincipalCarrier.GroupId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate&apos;s group_idx\n"
+  syntax:
+    content: public virtual int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property GroupId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId
+  id: BusinessId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: BusinessId
+  nameWithType: SoPrincipalCarrier.BusinessId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBusinessIdx for the company that the user belongs to.\n"
+  syntax:
+    content: public virtual int BusinessId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BusinessId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId
+  id: CategoryId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: SoPrincipalCarrier.CategoryId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCategoryIdx of the company that the user belongs to.\n"
+  syntax:
+    content: public virtual int CategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CategoryId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner
+  id: ContactOwner
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: ContactOwner
+  nameWithType: SoPrincipalCarrier.ContactOwner
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwner (AssocaiteId) of the company that the user belongs to.\n"
+  syntax:
+    content: public virtual int ContactOwner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactOwner As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId
+  id: RoleId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: SoPrincipalCarrier.RoleId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the users role\n"
+  syntax:
+    content: public virtual int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RoleId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName
+  id: RoleName
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: SoPrincipalCarrier.RoleName
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the users role\n"
+  syntax:
+    content: public virtual string RoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RoleName As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription
+  id: RoleDescription
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleDescription
+  nameWithType: SoPrincipalCarrier.RoleDescription
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescrtiption (e.g. tooltip) for the users role\n"
+  syntax:
+    content: public virtual string RoleDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RoleDescription As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  id: RoleType_String
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleType_String
+  nameWithType: SoPrincipalCarrier.RoleType_String
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of user.\nRaw string enum value.\n"
+  syntax:
+    content: public string RoleType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoleType_String As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+    commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  id: RoleType
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: SoPrincipalCarrier.RoleType
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of user.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RoleType> RoleType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RoleType}
+    content.vb: Public Property RoleType As Nullable(Of RoleType)
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+    commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses
+  id: Licenses
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: Licenses
+  nameWithType: SoPrincipalCarrier.Licenses
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLicense granted to the site and user.\n"
+  syntax:
+    content: public virtual GrantedModuleLicense[] Licenses { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.GrantedModuleLicense[]
+    content.vb: Public Overridable Property Licenses As GrantedModuleLicense()
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName
+  id: FullName
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SoPrincipalCarrier.FullName
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Person full name if the associate is a person. Use IsPerson to check\n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress
+  id: EMailAddress
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EMailAddress
+  nameWithType: SoPrincipalCarrier.EMailAddress
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Person e-mail address if the associate is a person. Use IsPerson to check\n"
+  syntax:
+    content: public virtual string EMailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EMailAddress As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights
+  id: FunctionRights
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: FunctionRights
+  nameWithType: SoPrincipalCarrier.FunctionRights
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFunctional rights for the user.  This array is sorted.\n"
+  syntax:
+    content: public virtual string[] FunctionRights { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property FunctionRights As String()
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId
+  id: EjUserId
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjUserId
+  nameWithType: SoPrincipalCarrier.EjUserId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key in eJournal&apos;s old user table.\n"
+  syntax:
+    content: public virtual int EjUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjUserId As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel
+  id: EjAccessLevel
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjAccessLevel
+  nameWithType: SoPrincipalCarrier.EjAccessLevel
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\neJournal user access level\n"
+  syntax:
+    content: public virtual int EjAccessLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjAccessLevel As Integer
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  id: EjUserStatus_String
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjUserStatus_String
+  nameWithType: SoPrincipalCarrier.EjUserStatus_String
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\neJournal user status\nRaw string enum value.\n"
+  syntax:
+    content: public string EjUserStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EjUserStatus_String As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+    commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  id: EjUserStatus
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjUserStatus
+  nameWithType: SoPrincipalCarrier.EjUserStatus
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\neJournal user status\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EjUserStatus> EjUserStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
+    content.vb: Public Property EjUserStatus As Nullable(Of EjUserStatus)
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+    commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials
+  id: ProvidedCredentials
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: ProvidedCredentials
+  nameWithType: SoPrincipalCarrier.ProvidedCredentials
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe credentials used for authenticating this user\n"
+  syntax:
+    content: public virtual ProvidedCredential[] ProvidedCredentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ProvidedCredential[]
+    content.vb: Public Overridable Property ProvidedCredentials As ProvidedCredential()
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups
+  id: SecondaryGroups
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: SecondaryGroups
+  nameWithType: SoPrincipalCarrier.SecondaryGroups
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSecondary user groups\n"
+  syntax:
+    content: public virtual int[] SecondaryGroups { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property SecondaryGroups As Integer()
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier
+  id: DatabaseContextIdentifier
+  parent: SuperOffice.WebApi.Data.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: DatabaseContextIdentifier
+  nameWithType: SoPrincipalCarrier.DatabaseContextIdentifier
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the database context\n"
+  syntax:
+    content: public virtual string DatabaseContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DatabaseContextIdentifier As String
+  overload: SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.#ctor
+  isExternal: true
+  name: SoPrincipalCarrier
+  nameWithType: SoPrincipalCarrier.SoPrincipalCarrier
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.SoPrincipalCarrier
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  isExternal: true
+  name: UserType_String
+  nameWithType: SoPrincipalCarrier.UserType_String
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: SoPrincipalCarrier.UserType
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.UserType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UserType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UserType}'
+  definition: System.Nullable`1
+  name: Nullable<UserType>
+  nameWithType: Nullable<UserType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UserType>
+  nameWithType.vb: Nullable(Of UserType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UserType)
+  name.vb: Nullable(Of UserType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.WebApi.Data.UserType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.WebApi.Data.UserType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SoPrincipalCarrier.Associate
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.Associate
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: SoPrincipalCarrier.AssociateId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson
+  isExternal: true
+  name: IsPerson
+  nameWithType: SoPrincipalCarrier.IsPerson
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.IsPerson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: SoPrincipalCarrier.PersonId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.PersonId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: SoPrincipalCarrier.CountryId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.CountryId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId
+  isExternal: true
+  name: HomeCountryId
+  nameWithType: SoPrincipalCarrier.HomeCountryId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.HomeCountryId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: SoPrincipalCarrier.ContactId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: SoPrincipalCarrier.GroupId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.GroupId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId
+  isExternal: true
+  name: BusinessId
+  nameWithType: SoPrincipalCarrier.BusinessId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.BusinessId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId
+  isExternal: true
+  name: CategoryId
+  nameWithType: SoPrincipalCarrier.CategoryId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.CategoryId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner
+  isExternal: true
+  name: ContactOwner
+  nameWithType: SoPrincipalCarrier.ContactOwner
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.ContactOwner
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: SoPrincipalCarrier.RoleId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName
+  isExternal: true
+  name: RoleName
+  nameWithType: SoPrincipalCarrier.RoleName
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleName
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription
+  isExternal: true
+  name: RoleDescription
+  nameWithType: SoPrincipalCarrier.RoleDescription
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleDescription
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  isExternal: true
+  name: RoleType_String
+  nameWithType: SoPrincipalCarrier.RoleType_String
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: SoPrincipalCarrier.RoleType
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.RoleType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.RoleType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RoleType}'
+  definition: System.Nullable`1
+  name: Nullable<RoleType>
+  nameWithType: Nullable<RoleType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RoleType>
+  nameWithType.vb: Nullable(Of RoleType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RoleType)
+  name.vb: Nullable(Of RoleType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RoleType
+    name: RoleType
+    nameWithType: RoleType
+    fullName: SuperOffice.WebApi.Data.RoleType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RoleType
+    name: RoleType
+    nameWithType: RoleType
+    fullName: SuperOffice.WebApi.Data.RoleType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses
+  isExternal: true
+  name: Licenses
+  nameWithType: SoPrincipalCarrier.Licenses
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.Licenses
+- uid: SuperOffice.WebApi.Data.GrantedModuleLicense[]
+  isExternal: true
+  name: GrantedModuleLicense[]
+  nameWithType: GrantedModuleLicense[]
+  fullName: SuperOffice.WebApi.Data.GrantedModuleLicense[]
+  nameWithType.vb: GrantedModuleLicense()
+  fullName.vb: SuperOffice.WebApi.Data.GrantedModuleLicense()
+  name.vb: GrantedModuleLicense()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.WebApi.Data.GrantedModuleLicense
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.WebApi.Data.GrantedModuleLicense
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SoPrincipalCarrier.FullName
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.FullName
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: SoPrincipalCarrier.EMailAddress
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EMailAddress
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights
+  isExternal: true
+  name: FunctionRights
+  nameWithType: SoPrincipalCarrier.FunctionRights
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.FunctionRights
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId
+  isExternal: true
+  name: EjUserId
+  nameWithType: SoPrincipalCarrier.EjUserId
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserId
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel
+  isExternal: true
+  name: EjAccessLevel
+  nameWithType: SoPrincipalCarrier.EjAccessLevel
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjAccessLevel
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  isExternal: true
+  name: EjUserStatus_String
+  nameWithType: SoPrincipalCarrier.EjUserStatus_String
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: SoPrincipalCarrier.EjUserStatus
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  commentId: P:SuperOffice.WebApi.Data.SoPrincipalCarrier.EjUserStatus_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}'
+  definition: System.Nullable`1
+  name: Nullable<EjUserStatus>
+  nameWithType: Nullable<EjUserStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EjUserStatus>
+  nameWithType.vb: Nullable(Of EjUserStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EjUserStatus)
+  name.vb: Nullable(Of EjUserStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EjUserStatus
+    name: EjUserStatus
+    nameWithType: EjUserStatus
+    fullName: SuperOffice.WebApi.Data.EjUserStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EjUserStatus
+    name: EjUserStatus
+    nameWithType: EjUserStatus
+    fullName: SuperOffice.WebApi.Data.EjUserStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials
+  isExternal: true
+  name: ProvidedCredentials
+  nameWithType: SoPrincipalCarrier.ProvidedCredentials
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.ProvidedCredentials
+- uid: SuperOffice.WebApi.Data.ProvidedCredential[]
+  isExternal: true
+  name: ProvidedCredential[]
+  nameWithType: ProvidedCredential[]
+  fullName: SuperOffice.WebApi.Data.ProvidedCredential[]
+  nameWithType.vb: ProvidedCredential()
+  fullName.vb: SuperOffice.WebApi.Data.ProvidedCredential()
+  name.vb: ProvidedCredential()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ProvidedCredential
+    name: ProvidedCredential
+    nameWithType: ProvidedCredential
+    fullName: SuperOffice.WebApi.Data.ProvidedCredential
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ProvidedCredential
+    name: ProvidedCredential
+    nameWithType: ProvidedCredential
+    fullName: SuperOffice.WebApi.Data.ProvidedCredential
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups
+  isExternal: true
+  name: SecondaryGroups
+  nameWithType: SoPrincipalCarrier.SecondaryGroups
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.SecondaryGroups
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier
+  isExternal: true
+  name: DatabaseContextIdentifier
+  nameWithType: SoPrincipalCarrier.DatabaseContextIdentifier
+  fullName: SuperOffice.WebApi.Data.SoPrincipalCarrier.DatabaseContextIdentifier

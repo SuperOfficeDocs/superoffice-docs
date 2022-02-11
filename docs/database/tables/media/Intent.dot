@@ -1,0 +1,19 @@
+digraph Intent  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Intent[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+Task[fillcolor = "azure1"]
+DocTmpl[fillcolor = "azure1"]
+CounterValue[fillcolor = "azure1"]
+IntentGroupLink[fillcolor = "azure1"]
+IntentHeadingLink[fillcolor = "azure1"]
+Intent -> associate [headlabel = "registered_associate_id"]
+Intent -> associate [label = "updated_associate_id"]
+Task -> Intent [label = "intentId"]
+DocTmpl -> Intent [label = "intentId"]
+CounterValue -> Intent [label = "intent_id"]
+IntentGroupLink -> Intent [label = "intent_id"]
+IntentHeadingLink -> Intent [label = "intent_id"]
+}

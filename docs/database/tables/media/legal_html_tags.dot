@@ -1,0 +1,6 @@
+digraph legal_html_tags  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+legal_html_tags[fillcolor = "cadetblue1"]
+}

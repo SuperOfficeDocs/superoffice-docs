@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EjUserStatus
+  commentId: T:SuperOffice.WebApi.Data.EjUserStatus
+  id: EjUserStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusNone
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
+  - SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
+  - SuperOffice.WebApi.Data.EjUserStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: SuperOffice.WebApi.Data.EjUserStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: 'public sealed class EjUserStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class EjUserStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EjUserStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EjUserStatus.value__
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusNone
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusNone
+  id: StatusNone
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusNone
+  nameWithType: EjUserStatus.StatusNone
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusNone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const EjUserStatus StatusNone
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusNone As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
+  id: StatusNormal
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusNormal
+  nameWithType: EjUserStatus.StatusNormal
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const EjUserStatus StatusNormal
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusNormal As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
+  id: StatusNotAvailable
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusNotAvailable
+  nameWithType: EjUserStatus.StatusNotAvailable
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const EjUserStatus StatusNotAvailable
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusNotAvailable As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
+  id: StatusDeleted
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusDeleted
+  nameWithType: EjUserStatus.StatusDeleted
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const EjUserStatus StatusDeleted
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusDeleted As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
+  id: StatusReadOnly
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusReadOnly
+  nameWithType: EjUserStatus.StatusReadOnly
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: \n"
+  syntax:
+    content: public const EjUserStatus StatusReadOnly
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusReadOnly As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
+  id: StatusSpm
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusSpm
+  nameWithType: EjUserStatus.StatusSpm
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: \n"
+  syntax:
+    content: public const EjUserStatus StatusSpm
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusSpm As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
+  id: StatusSystem
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusSystem
+  nameWithType: EjUserStatus.StatusSystem
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n127: \n"
+  syntax:
+    content: public const EjUserStatus StatusSystem
+    return:
+      type: SuperOffice.WebApi.Data.EjUserStatus
+    content.vb: Public Const StatusSystem As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EjUserStatus
+  commentId: T:SuperOffice.WebApi.Data.EjUserStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: SuperOffice.WebApi.Data.EjUserStatus

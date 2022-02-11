@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPluginOptional
+  id: IDocumentPluginOptional
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable
+  langs:
+  - csharp
+  - vb
+  name: IDocumentPluginOptional
+  nameWithType: IDocumentPluginOptional
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginOptional
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nOptional interface for a document plugin if it needs to determine at \nruntime (during factory initialization) if it is available/optional.  \nTypical checks could be to see if required configuration, licese of feature toggle.\n"
+  syntax:
+    content: public interface IDocumentPluginOptional
+    content.vb: Public Interface IDocumentPluginOptional
+  extensionMethods:
+  - SuperOffice.CRM.Documents.IDocumentPluginOptional.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.IDocumentPluginOptional.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable
+  id: IsAvailable
+  parent: SuperOffice.CRM.Documents.IDocumentPluginOptional
+  langs:
+  - csharp
+  - vb
+  name: IsAvailable()
+  nameWithType: IDocumentPluginOptional.IsAvailable()
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nReturns true if the document plugin is available.\n"
+  syntax:
+    content: bool IsAvailable()
+    return:
+      type: System.Boolean
+      description: True if the document plugin is available.
+    content.vb: Function IsAvailable As Boolean
+  overload: SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable*
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDocumentPluginOptional, To>()
+  nameWithType: EnumUtil.MapEnums<IDocumentPluginOptional, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginOptional, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDocumentPluginOptional, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginOptional, To)()
+  name.vb: MapEnums(Of IDocumentPluginOptional, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDocumentPluginOptional, To>
+    nameWithType: EnumUtil.MapEnums<IDocumentPluginOptional, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginOptional, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDocumentPluginOptional, To)
+    nameWithType: EnumUtil.MapEnums(Of IDocumentPluginOptional, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginOptional, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDocumentPluginOptional, To>()
+  nameWithType: Converters.MapEnums<IDocumentPluginOptional, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginOptional, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDocumentPluginOptional, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginOptional, To)()
+  name.vb: MapEnums(Of IDocumentPluginOptional, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDocumentPluginOptional, To>
+    nameWithType: Converters.MapEnums<IDocumentPluginOptional, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginOptional, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDocumentPluginOptional, To)
+    nameWithType: Converters.MapEnums(Of IDocumentPluginOptional, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginOptional, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable
+  isExternal: true
+  name: IsAvailable
+  nameWithType: IDocumentPluginOptional.IsAvailable
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginOptional.IsAvailable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

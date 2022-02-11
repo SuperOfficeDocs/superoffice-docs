@@ -1,0 +1,1009 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSShipmentMessageEntity
+  commentId: T:CRMScript.NetServer.NSShipmentMessageEntity
+  id: NSShipmentMessageEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSShipmentMessageEntity.#ctor
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetAccessKey()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetDescription()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetDesign()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetDesigntype()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetDocumentMessage()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetFlags()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetFolderId()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetHeaderField()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetHtmlMessage()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetInlineImages()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetLongDescription()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetPlainMessage()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetRegistered()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetRegisteredAssociateId()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetRegisterViews()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetShipmentMessageId()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetSmsMessage()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetSubject()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetUpdated()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedAssociateId()
+  - CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedCount()
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetAccessKey(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetDescription(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetDesign(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetDesigntype(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetDocumentMessage(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetFlags(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetFolderId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetHeaderField(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetHtmlMessage(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetInlineImages(Bool)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetLongDescription(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetPlainMessage(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetRegisteredAssociateId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetRegisterViews(Bool)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetShipmentMessageId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetSmsMessage(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetSubject(String)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedAssociateId(Integer)
+  - CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedCount(Integer)
+  name: NSShipmentMessageEntity
+  nameWithType: NSShipmentMessageEntity
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSShipmentMessageEntity
+  langs:
+  - crmscript
+  name: NSShipmentMessageEntity()
+  nameWithType: NSShipmentMessageEntity.#ctor
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSShipmentMessageEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSShipmentMessageEntity
+  example: 
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetAccessKey()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetAccessKey()
+  id: 'GetAccessKey()'
+  so.intellisense: NSShipmentMessageEntity.GetAccessKey
+  langs:
+  - crmscript
+  name: 'GetAccessKey()'
+  nameWithType: NSShipmentMessageEntity.GetAccessKey()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetAccessKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAccessKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Key used for access verification."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString accessKey = thing.GetAccessKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSShipmentMessageEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSShipmentMessageEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Describes this message."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetDesign()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetDesign()
+  id: 'GetDesign()'
+  so.intellisense: NSShipmentMessageEntity.GetDesign
+  langs:
+  - crmscript
+  name: 'GetDesign()'
+  nameWithType: NSShipmentMessageEntity.GetDesign()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetDesign()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDesign()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Will contain the design part of a message. The format will vary based on the type of designer used to create the message."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString design = thing.GetDesign();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetDesigntype()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetDesigntype()
+  id: 'GetDesigntype()'
+  so.intellisense: NSShipmentMessageEntity.GetDesigntype
+  langs:
+  - crmscript
+  name: 'GetDesigntype()'
+  nameWithType: NSShipmentMessageEntity.GetDesigntype()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetDesigntype()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDesigntype()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The type of the design. See <xref href=\"CRMScript.NetServer.DesignType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger designType = thing.GetDesigntype();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetDocumentMessage()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetDocumentMessage()
+  id: 'GetDocumentMessage()'
+  so.intellisense: NSShipmentMessageEntity.GetDocumentMessage
+  langs:
+  - crmscript
+  name: 'GetDocumentMessage()'
+  nameWithType: NSShipmentMessageEntity.GetDocumentMessage()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetDocumentMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The SM document used as template for this mailing."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger documentMessage = thing.GetDocumentMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetFlags()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetFlags()
+  id: 'GetFlags()'
+  so.intellisense: NSShipmentMessageEntity.GetFlags
+  langs:
+  - crmscript
+  name: 'GetFlags()'
+  nameWithType: NSShipmentMessageEntity.GetFlags()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetFlags()
+  type: Method
+  summary: # TODO
+  remarks:  
+  syntax: 
+    content: Integer GetFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifies if HTML or plain message is included in message. See <xref href=\"CRMScript.NetServer.ShipmentMessageType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger flags = thing.GetFlags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetFolderId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetFolderId()
+  id: 'GetFolderId()'
+  so.intellisense: NSShipmentMessageEntity.GetFolderId
+  langs:
+  - crmscript
+  name: 'GetFolderId()'
+  nameWithType: NSShipmentMessageEntity.GetFolderId()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetFolderId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFolderId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The folder which this message belongs to. -1 indicates that the message is on the root."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger folderId = thing.GetFolderId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetHeaderField()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetHeaderField()
+  id: 'GetHeaderField()'
+  so.intellisense: NSShipmentMessageEntity.GetHeaderField
+  langs:
+  - crmscript
+  name: 'GetHeaderField()'
+  nameWithType: NSShipmentMessageEntity.GetHeaderField()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetHeaderField()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeaderField()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extra header fields added to mail. Must be formatted correctly."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString headerField = thing.GetHeaderField();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetHtmlMessage()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetHtmlMessage()
+  id: 'GetHtmlMessage()'
+  so.intellisense: NSShipmentMessageEntity.GetHtmlMessage
+  langs:
+  - crmscript
+  name: 'GetHtmlMessage()'
+  nameWithType: NSShipmentMessageEntity.GetHtmlMessage()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetHtmlMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHtmlMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "HTML formatted text of this message."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString htmlMessage = thing.GetHtmlMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetInlineImages()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetInlineImages()
+  id: 'GetInlineImages()'
+  so.intellisense: NSShipmentMessageEntity.GetInlineImages
+  langs:
+  - crmscript
+  name: 'GetInlineImages()'
+  nameWithType: NSShipmentMessageEntity.GetInlineImages()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetInlineImages()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetInlineImages()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Should images be included inline?
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nBool inlineImages = thing.GetInlineImages();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetLongDescription()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetLongDescription()
+  id: 'GetLongDescription()'
+  so.intellisense: NSShipmentMessageEntity.GetLongDescription
+  langs:
+  - crmscript
+  name: 'GetLongDescription()'
+  nameWithType: NSShipmentMessageEntity.GetLongDescription()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetLongDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLongDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A field for a long description of this template."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString longDescription = thing.GetLongDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetPlainMessage()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetPlainMessage()
+  id: 'GetPlainMessage()'
+  so.intellisense: NSShipmentMessageEntity.GetPlainMessage
+  langs:
+  - crmscript
+  name: 'GetPlainMessage()'
+  nameWithType: NSShipmentMessageEntity.GetPlainMessage()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetPlainMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPlainMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Plain message text of this message."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString plainMessage = thing.GetPlainMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSShipmentMessageEntity.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSShipmentMessageEntity.GetRegistered()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetRegisteredAssociateId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetRegisteredAssociateId()
+  id: 'GetRegisteredAssociateId()'
+  so.intellisense: NSShipmentMessageEntity.GetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociateId()'
+  nameWithType: NSShipmentMessageEntity.GetRegisteredAssociateId()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetRegisteredAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRegisteredAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger registeredAssociateId = thing.GetRegisteredAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetRegisterViews()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetRegisterViews()
+  id: 'GetRegisterViews()'
+  so.intellisense: NSShipmentMessageEntity.GetRegisterViews
+  langs:
+  - crmscript
+  name: 'GetRegisterViews()'
+  nameWithType: NSShipmentMessageEntity.GetRegisterViews()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetRegisterViews()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetRegisterViews()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Register message views?
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nBool registerViews = thing.GetRegisterViews();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetShipmentMessageId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetShipmentMessageId()
+  id: 'GetShipmentMessageId()'
+  so.intellisense: NSShipmentMessageEntity.GetShipmentMessageId
+  langs:
+  - crmscript
+  name: 'GetShipmentMessageId()'
+  nameWithType: NSShipmentMessageEntity.GetShipmentMessageId()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetShipmentMessageId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetShipmentMessageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger shipmentMessageId = thing.GetShipmentMessageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetSmsMessage()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetSmsMessage()
+  id: 'GetSmsMessage()'
+  so.intellisense: NSShipmentMessageEntity.GetSmsMessage
+  langs:
+  - crmscript
+  name: 'GetSmsMessage()'
+  nameWithType: NSShipmentMessageEntity.GetSmsMessage()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetSmsMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSmsMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "SMS version of this message."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString smsMessage = thing.GetSmsMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetSubject()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetSubject()
+  id: 'GetSubject()'
+  so.intellisense: NSShipmentMessageEntity.GetSubject
+  langs:
+  - crmscript
+  name: 'GetSubject()'
+  nameWithType: NSShipmentMessageEntity.GetSubject()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetSubject()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSubject()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The mail subject field of the message."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString subject = thing.GetSubject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSShipmentMessageEntity.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSShipmentMessageEntity.GetUpdated()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedAssociateId()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedAssociateId()
+  id: 'GetUpdatedAssociateId()'
+  so.intellisense: NSShipmentMessageEntity.GetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociateId()'
+  nameWithType: NSShipmentMessageEntity.GetUpdatedAssociateId()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger updatedAssociateId = thing.GetUpdatedAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedCount()
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedCount()
+  id: 'GetUpdatedCount()'
+  so.intellisense: NSShipmentMessageEntity.GetUpdatedCount
+  langs:
+  - crmscript
+  name: 'GetUpdatedCount()'
+  nameWithType: NSShipmentMessageEntity.GetUpdatedCount()
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.GetUpdatedCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger updatedCount = thing.GetUpdatedCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetAccessKey(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetAccessKey(String)
+  id: 'SetAccessKey(String)'
+  so.intellisense: NSShipmentMessageEntity.SetAccessKey
+  langs:
+  - crmscript
+  name: 'SetAccessKey(String)'
+  nameWithType: NSShipmentMessageEntity.SetAccessKey(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetAccessKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAccessKey(String accessKey)
+    parameters:
+    - id: accessKey
+      type: CRMScript.Global.String
+      description: "Key used for access verification."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString accessKey;\nthing.SetAccessKey(accessKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSShipmentMessageEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSShipmentMessageEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Describes this message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetDesign(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetDesign(String)
+  id: 'SetDesign(String)'
+  so.intellisense: NSShipmentMessageEntity.SetDesign
+  langs:
+  - crmscript
+  name: 'SetDesign(String)'
+  nameWithType: NSShipmentMessageEntity.SetDesign(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetDesign(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDesign(String design)
+    parameters:
+    - id: design
+      type: CRMScript.Global.String
+      description: "Will contain the design part of a message. The format will vary based on the type of designer used to create the message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString design;\nthing.SetDesign(design);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetDesigntype(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetDesigntype(Integer)
+  id: 'SetDesigntype(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetDesigntype
+  langs:
+  - crmscript
+  name: 'SetDesigntype(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetDesigntype(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetDesigntype(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDesigntype(Integer designType)
+    parameters:
+    - id: designType
+      type: CRMScript.Global.Integer
+      description: "The type of the design. See <xref href=\"CRMScript.NetServer.DesignType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger designType;\nthing.SetDesigntype(designType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetDocumentMessage(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetDocumentMessage(Integer)
+  id: 'SetDocumentMessage(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetDocumentMessage
+  langs:
+  - crmscript
+  name: 'SetDocumentMessage(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetDocumentMessage(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetDocumentMessage(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentMessage(Integer documentMessage)
+    parameters:
+    - id: documentMessage
+      type: CRMScript.Global.Integer
+      description: "The SM document used as template for this mailing."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger documentMessage;\nthing.SetDocumentMessage(documentMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetFlags(Integer)
+  id: 'SetFlags(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetFlags
+  langs:
+  - crmscript
+  name: 'SetFlags(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetFlags(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetFlags(Integer flags)
+    parameters:
+    - id: flags
+      type: CRMScript.Global.Integer
+      description: "Identifies if HTML or plain message is included in message. See <xref href=\"CRMScript.NetServer.ShipmentMessageType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger flags;\nthing.SetFlags(flags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetFolderId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetFolderId(Integer)
+  id: 'SetFolderId(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetFolderId
+  langs:
+  - crmscript
+  name: 'SetFolderId(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetFolderId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetFolderId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFolderId(Integer folderId)
+    parameters:
+    - id: folderId
+      type: CRMScript.Global.Integer
+      description: "The folder which this message belongs to. -1 indicates that the message is on the root."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger folderId;\nthing.SetFolderId(folderId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetHeaderField(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetHeaderField(String)
+  id: 'SetHeaderField(String)'
+  so.intellisense: NSShipmentMessageEntity.SetHeaderField
+  langs:
+  - crmscript
+  name: 'SetHeaderField(String)'
+  nameWithType: NSShipmentMessageEntity.SetHeaderField(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetHeaderField(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeaderField(String headerField)
+    parameters:
+    - id: headerField
+      type: CRMScript.Global.String
+      description: "Extra header fields added to mail. Must be formatted correctly."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString headerField;\nthing.SetHeaderField(headerField);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetHtmlMessage(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetHtmlMessage(String)
+  id: 'SetHtmlMessage(String)'
+  so.intellisense: NSShipmentMessageEntity.SetHtmlMessage
+  langs:
+  - crmscript
+  name: 'SetHtmlMessage(String)'
+  nameWithType: NSShipmentMessageEntity.SetHtmlMessage(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetHtmlMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHtmlMessage(String htmlMessage)
+    parameters:
+    - id: htmlMessage
+      type: CRMScript.Global.String
+      description: "HTML formatted text of this message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString htmlMessage;\nthing.SetHtmlMessage(htmlMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetInlineImages(Bool)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetInlineImages(Bool)
+  id: 'SetInlineImages(Bool)'
+  so.intellisense: NSShipmentMessageEntity.SetInlineImages
+  langs:
+  - crmscript
+  name: 'SetInlineImages(Bool)'
+  nameWithType: NSShipmentMessageEntity.SetInlineImages(Bool)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetInlineImages(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInlineImages(Bool inlineImages)
+    parameters:
+    - id: inlineImages
+      type: CRMScript.Global.Bool
+      description: Should images be included inline?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nBool inlineImages;\nthing.SetInlineImages(inlineImages);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetLongDescription(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetLongDescription(String)
+  id: 'SetLongDescription(String)'
+  so.intellisense: NSShipmentMessageEntity.SetLongDescription
+  langs:
+  - crmscript
+  name: 'SetLongDescription(String)'
+  nameWithType: NSShipmentMessageEntity.SetLongDescription(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetLongDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLongDescription(String longDescription)
+    parameters:
+    - id: longDescription
+      type: CRMScript.Global.String
+      description: "A field for a long description of this template."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString longDescription;\nthing.SetLongDescription(longDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetPlainMessage(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetPlainMessage(String)
+  id: 'SetPlainMessage(String)'
+  so.intellisense: NSShipmentMessageEntity.SetPlainMessage
+  langs:
+  - crmscript
+  name: 'SetPlainMessage(String)'
+  nameWithType: NSShipmentMessageEntity.SetPlainMessage(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetPlainMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPlainMessage(String plainMessage)
+    parameters:
+    - id: plainMessage
+      type: CRMScript.Global.String
+      description: "Plain message text of this message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString plainMessage;\nthing.SetPlainMessage(plainMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSShipmentMessageEntity.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSShipmentMessageEntity.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetRegisteredAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetRegisteredAssociateId(Integer)
+  id: 'SetRegisteredAssociateId(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociateId(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetRegisteredAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetRegisteredAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociateId(Integer registeredAssociateId)
+    parameters:
+    - id: registeredAssociateId
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger registeredAssociateId;\nthing.SetRegisteredAssociateId(registeredAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetRegisterViews(Bool)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetRegisterViews(Bool)
+  id: 'SetRegisterViews(Bool)'
+  so.intellisense: NSShipmentMessageEntity.SetRegisterViews
+  langs:
+  - crmscript
+  name: 'SetRegisterViews(Bool)'
+  nameWithType: NSShipmentMessageEntity.SetRegisterViews(Bool)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetRegisterViews(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisterViews(Bool registerViews)
+    parameters:
+    - id: registerViews
+      type: CRMScript.Global.Bool
+      description: Register message views?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nBool registerViews;\nthing.SetRegisterViews(registerViews);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetShipmentMessageId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetShipmentMessageId(Integer)
+  id: 'SetShipmentMessageId(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetShipmentMessageId
+  langs:
+  - crmscript
+  name: 'SetShipmentMessageId(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetShipmentMessageId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetShipmentMessageId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShipmentMessageId(Integer shipmentMessageId)
+    parameters:
+    - id: shipmentMessageId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger shipmentMessageId;\nthing.SetShipmentMessageId(shipmentMessageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetSmsMessage(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetSmsMessage(String)
+  id: 'SetSmsMessage(String)'
+  so.intellisense: NSShipmentMessageEntity.SetSmsMessage
+  langs:
+  - crmscript
+  name: 'SetSmsMessage(String)'
+  nameWithType: NSShipmentMessageEntity.SetSmsMessage(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetSmsMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSmsMessage(String smsMessage)
+    parameters:
+    - id: smsMessage
+      type: CRMScript.Global.String
+      description: "SMS version of this message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString smsMessage;\nthing.SetSmsMessage(smsMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetSubject(String)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetSubject(String)
+  id: 'SetSubject(String)'
+  so.intellisense: NSShipmentMessageEntity.SetSubject
+  langs:
+  - crmscript
+  name: 'SetSubject(String)'
+  nameWithType: NSShipmentMessageEntity.SetSubject(String)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetSubject(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSubject(String subject)
+    parameters:
+    - id: subject
+      type: CRMScript.Global.String
+      description: "The mail subject field of the message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nString subject;\nthing.SetSubject(subject);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSShipmentMessageEntity.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSShipmentMessageEntity.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.updated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedAssociateId(Integer)
+  id: 'SetUpdatedAssociateId(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociateId(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetUpdatedAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociateId(Integer updatedAssociateId)
+    parameters:
+    - id: updatedAssociateId
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger updatedAssociateId;\nthing.SetUpdatedAssociateId(updatedAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedCount(Integer)
+  commentId: M:CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedCount(Integer)
+  id: 'SetUpdatedCount(Integer)'
+  so.intellisense: NSShipmentMessageEntity.SetUpdatedCount
+  langs:
+  - crmscript
+  name: 'SetUpdatedCount(Integer)'
+  nameWithType: NSShipmentMessageEntity.SetUpdatedCount(Integer)
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity.SetUpdatedCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedCount(Integer updatedCount)
+    parameters:
+    - id: updatedCount
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSShipmentMessageEntity thing;\nInteger updatedCount;\nthing.SetUpdatedCount(updatedCount);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSShipmentMessageEntity
+  commentId: T:CRMScript.NetServer.NSShipmentMessageEntity
+  isExternal: true
+  name: NSShipmentMessageEntity
+  nameWithType: NSShipmentMessageEntity
+  fullName: CRMScript.NetServer.NSShipmentMessageEntity
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.ChatSessionFlags
+  commentId: T:CRMScript.NetServer.ChatSessionFlags
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: CRMScript.NetServer.ChatSessionFlags
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.DesignType
+  commentId: T:CRMScript.NetServer.DesignType
+  isExternal: true
+  name: DesignType
+  nameWithType: DesignType
+  fullName: CRMScript.NetServer.DesignType
+- uid: CRMScript.NetServer.ShipmentMessageType
+  commentId: T:CRMScript.NetServer.ShipmentMessageType
+  isExternal: true
+  name: ShipmentMessageType
+  nameWithType: ShipmentMessageType
+  fullName: CRMScript.NetServer.ShipmentMessageType

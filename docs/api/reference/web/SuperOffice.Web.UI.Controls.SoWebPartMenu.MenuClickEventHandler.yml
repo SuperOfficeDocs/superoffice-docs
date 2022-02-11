@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  commentId: T:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  id: SoWebPartMenu.MenuClickEventHandler
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs,System.AsyncCallback,System.Object)
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SoWebPartMenu.MenuClickEventHandler
+  nameWithType: SoWebPartMenu.MenuClickEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  type: Delegate
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public delegate void MenuClickEventHandler(object sender, SoMenuEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+    content.vb: Public Delegate Sub MenuClickEventHandler(sender As Object, e As SoMenuEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: MenuClickEventHandler(Object, IntPtr)
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.MenuClickEventHandler(Object, IntPtr)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.MenuClickEventHandler(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public MenuClickEventHandler(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  id: Invoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Object, SoMenuEventArgs)
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.Invoke(Object, SoMenuEventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke(System.Object, SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual void Invoke(object sender, SoMenuEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+    content.vb: Public Overridable Sub Invoke(sender As Object, e As SoMenuEventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.SoMenuEventArgs,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Object, SoMenuEventArgs, AsyncCallback, Object)
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.BeginInvoke(Object, SoMenuEventArgs, AsyncCallback, Object)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke(System.Object, SuperOffice.Web.UI.Controls.SoMenuEventArgs, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(object sender, SoMenuEventArgs e, AsyncCallback callback, object object)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(sender As Object, e As SoMenuEventArgs, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+  commentId: T:SuperOffice.Web.UI.Controls.SoMenuEventArgs
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoMenuEventArgs
+  nameWithType: SoMenuEventArgs
+  fullName: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.#ctor
+  isExternal: true
+  name: MenuClickEventHandler
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.MenuClickEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.MenuClickEventHandler
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.Invoke
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.Invoke
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.BeginInvoke
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: SoWebPartMenu.MenuClickEventHandler.EndInvoke
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler.EndInvoke

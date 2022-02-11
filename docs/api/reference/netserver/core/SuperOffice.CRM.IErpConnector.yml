@@ -1,0 +1,1121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.IErpConnector
+  commentId: T:SuperOffice.CRM.IErpConnector
+  id: IErpConnector
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.IErpConnector.CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  - SuperOffice.CRM.IErpConnector.DeleteConnection(System.Guid)
+  - SuperOffice.CRM.IErpConnector.GetActors(System.Guid,System.String,System.String[],System.String[])
+  - SuperOffice.CRM.IErpConnector.GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  - SuperOffice.CRM.IErpConnector.GetConfigData
+  - SuperOffice.CRM.IErpConnector.GetList(System.Guid,System.String)
+  - SuperOffice.CRM.IErpConnector.GetListItems(System.Guid,System.String,System.String[])
+  - SuperOffice.CRM.IErpConnector.GetSearchableFields(System.Guid,System.String)
+  - SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields(System.Guid,System.String)
+  - SuperOffice.CRM.IErpConnector.GetSupportedActorTypes(System.Guid)
+  - SuperOffice.CRM.IErpConnector.SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  - SuperOffice.CRM.IErpConnector.SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.IErpConnector.SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  - SuperOffice.CRM.IErpConnector.SearchActors(System.Guid,System.String,System.String,System.String[])
+  - SuperOffice.CRM.IErpConnector.SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  - SuperOffice.CRM.IErpConnector.TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.IErpConnector.TestConnection(System.Guid)
+  langs:
+  - csharp
+  - vb
+  name: IErpConnector
+  nameWithType: IErpConnector
+  fullName: SuperOffice.CRM.IErpConnector
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nInterface to be implemented by Connectors in the ERP Integration System; implementations also\nneed to be marked with the <xref href=\"SuperOffice.CRM.ErpConnectorAttribute\" data-throw-if-not-resolved=\"false\"></xref> to be recognized by the loader.\n"
+  syntax:
+    content: public interface IErpConnector
+    content.vb: Public Interface IErpConnector
+  extensionMethods:
+  - SuperOffice.CRM.IErpConnector.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.IErpConnector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.IErpConnector.GetConfigData
+  commentId: M:SuperOffice.CRM.IErpConnector.GetConfigData
+  id: GetConfigData
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetConfigData()
+  nameWithType: IErpConnector.GetConfigData()
+  fullName: SuperOffice.CRM.IErpConnector.GetConfigData()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nAsks the connector what fields are needed to set up a new connection (e.g. database, username and password)\n"
+  syntax:
+    content: FieldMetadataInfoArrayPluginResponse GetConfigData()
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+    content.vb: Function GetConfigData As FieldMetadataInfoArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetConfigData*
+- uid: SuperOffice.CRM.IErpConnector.TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.IErpConnector.TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: TestConfigData(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: TestConfigData(Dictionary<String, String>)
+  nameWithType: IErpConnector.TestConfigData(Dictionary<String, String>)
+  fullName: SuperOffice.CRM.IErpConnector.TestConfigData(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCreates a new connection, or updates an existing one\n"
+  syntax:
+    content: PluginResponseInfo TestConfigData(Dictionary<string, string> connectionInfo)
+    parameters:
+    - id: connectionInfo
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Function TestConfigData(connectionInfo As Dictionary(Of String, String)) As PluginResponseInfo
+  overload: SuperOffice.CRM.IErpConnector.TestConfigData*
+  nameWithType.vb: IErpConnector.TestConfigData(Dictionary(Of String, String))
+  fullName.vb: SuperOffice.CRM.IErpConnector.TestConfigData(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: TestConfigData(Dictionary(Of String, String))
+- uid: SuperOffice.CRM.IErpConnector.SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.IErpConnector.SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SaveConnection(System.Guid,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: SaveConnection(Guid, Dictionary<String, String>)
+  nameWithType: IErpConnector.SaveConnection(Guid, Dictionary<String, String>)
+  fullName: SuperOffice.CRM.IErpConnector.SaveConnection(System.Guid, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCreates a new connection, or updates an existing one\n"
+  syntax:
+    content: PluginResponseInfo SaveConnection(Guid connectionID, Dictionary<string, string> connectionInfo)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: connectionInfo
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Function SaveConnection(connectionID As Guid, connectionInfo As Dictionary(Of String, String)) As PluginResponseInfo
+  overload: SuperOffice.CRM.IErpConnector.SaveConnection*
+  nameWithType.vb: IErpConnector.SaveConnection(Guid, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.CRM.IErpConnector.SaveConnection(System.Guid, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SaveConnection(Guid, Dictionary(Of String, String))
+- uid: SuperOffice.CRM.IErpConnector.TestConnection(System.Guid)
+  commentId: M:SuperOffice.CRM.IErpConnector.TestConnection(System.Guid)
+  id: TestConnection(System.Guid)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: TestConnection(Guid)
+  nameWithType: IErpConnector.TestConnection(Guid)
+  fullName: SuperOffice.CRM.IErpConnector.TestConnection(System.Guid)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nChecks if the given connection ID is valid (is the connection up, is the configuration data correct, etc)\n"
+  syntax:
+    content: PluginResponseInfo TestConnection(Guid connectionID)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Function TestConnection(connectionID As Guid) As PluginResponseInfo
+  overload: SuperOffice.CRM.IErpConnector.TestConnection*
+- uid: SuperOffice.CRM.IErpConnector.DeleteConnection(System.Guid)
+  commentId: M:SuperOffice.CRM.IErpConnector.DeleteConnection(System.Guid)
+  id: DeleteConnection(System.Guid)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: DeleteConnection(Guid)
+  nameWithType: IErpConnector.DeleteConnection(Guid)
+  fullName: SuperOffice.CRM.IErpConnector.DeleteConnection(System.Guid)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nTells the Connector that a connection has been deleted from EIS, in case the Connector needs to know and take some action.\n"
+  syntax:
+    content: PluginResponseInfo DeleteConnection(Guid connectionID)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Function DeleteConnection(connectionID As Guid) As PluginResponseInfo
+  overload: SuperOffice.CRM.IErpConnector.DeleteConnection*
+- uid: SuperOffice.CRM.IErpConnector.GetSupportedActorTypes(System.Guid)
+  commentId: M:SuperOffice.CRM.IErpConnector.GetSupportedActorTypes(System.Guid)
+  id: GetSupportedActorTypes(System.Guid)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedActorTypes(Guid)
+  nameWithType: IErpConnector.GetSupportedActorTypes(Guid)
+  fullName: SuperOffice.CRM.IErpConnector.GetSupportedActorTypes(System.Guid)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGets the supported actor types for a given connection\n"
+  syntax:
+    content: StringArrayPluginResponse GetSupportedActorTypes(Guid connectionID)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    return:
+      type: SuperOffice.CRM.StringArrayPluginResponse
+    content.vb: Function GetSupportedActorTypes(connectionID As Guid) As StringArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetSupportedActorTypes*
+- uid: SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields(System.Guid,System.String)
+  commentId: M:SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields(System.Guid,System.String)
+  id: GetSupportedActorTypeFields(System.Guid,System.String)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedActorTypeFields(Guid, String)
+  nameWithType: IErpConnector.GetSupportedActorTypeFields(Guid, String)
+  fullName: SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields(System.Guid, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGets a list of fields that are available for a given connection and a given actor type\n"
+  syntax:
+    content: FieldMetadataInfoArrayPluginResponse GetSupportedActorTypeFields(Guid connectionID, string actorType)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: actorType
+      type: System.String
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+    content.vb: Function GetSupportedActorTypeFields(connectionID As Guid, actorType As String) As FieldMetadataInfoArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields*
+- uid: SuperOffice.CRM.IErpConnector.GetActors(System.Guid,System.String,System.String[],System.String[])
+  commentId: M:SuperOffice.CRM.IErpConnector.GetActors(System.Guid,System.String,System.String[],System.String[])
+  id: GetActors(System.Guid,System.String,System.String[],System.String[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetActors(Guid, String, String[], String[])
+  nameWithType: IErpConnector.GetActors(Guid, String, String[], String[])
+  fullName: SuperOffice.CRM.IErpConnector.GetActors(System.Guid, System.String, System.String[], System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nRetrieves actors based on primary key and actor type\n"
+  syntax:
+    content: ActorArrayPluginResponse GetActors(Guid connectionID, string actorType, string[] erpKeys, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: actorType
+      type: System.String
+    - id: erpKeys
+      type: System.String[]
+    - id: fieldKeys
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+    content.vb: Function GetActors(connectionID As Guid, actorType As String, erpKeys As String(), fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetActors*
+  nameWithType.vb: IErpConnector.GetActors(Guid, String, String(), String())
+  fullName.vb: SuperOffice.CRM.IErpConnector.GetActors(System.Guid, System.String, System.String(), System.String())
+  name.vb: GetActors(Guid, String, String(), String())
+- uid: SuperOffice.CRM.IErpConnector.GetSearchableFields(System.Guid,System.String)
+  commentId: M:SuperOffice.CRM.IErpConnector.GetSearchableFields(System.Guid,System.String)
+  id: GetSearchableFields(System.Guid,System.String)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetSearchableFields(Guid, String)
+  nameWithType: IErpConnector.GetSearchableFields(Guid, String)
+  fullName: SuperOffice.CRM.IErpConnector.GetSearchableFields(System.Guid, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGets a list of searchable fields for a given actor type\n"
+  syntax:
+    content: StringArrayPluginResponse GetSearchableFields(Guid connectionId, string actorType)
+    parameters:
+    - id: connectionId
+      type: System.Guid
+    - id: actorType
+      type: System.String
+    return:
+      type: SuperOffice.CRM.StringArrayPluginResponse
+    content.vb: Function GetSearchableFields(connectionId As Guid, actorType As String) As StringArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetSearchableFields*
+- uid: SuperOffice.CRM.IErpConnector.SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  commentId: M:SuperOffice.CRM.IErpConnector.SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  id: SearchActorsAdvanced(System.Guid,System.String,SuperOffice.CRM.SearchRestrictionInfo[],System.String[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: SearchActorsAdvanced(Guid, String, SearchRestrictionInfo[], String[])
+  nameWithType: IErpConnector.SearchActorsAdvanced(Guid, String, SearchRestrictionInfo[], String[])
+  fullName: SuperOffice.CRM.IErpConnector.SearchActorsAdvanced(System.Guid, System.String, SuperOffice.CRM.SearchRestrictionInfo[], System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSearches for one or more actors given a search string\n"
+  syntax:
+    content: ActorArrayPluginResponse SearchActorsAdvanced(Guid connectionID, string actorType, SearchRestrictionInfo[] restrictions, string[] returnFields)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: actorType
+      type: System.String
+    - id: restrictions
+      type: SuperOffice.CRM.SearchRestrictionInfo[]
+    - id: returnFields
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+    content.vb: Function SearchActorsAdvanced(connectionID As Guid, actorType As String, restrictions As SearchRestrictionInfo(), returnFields As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.SearchActorsAdvanced*
+  nameWithType.vb: IErpConnector.SearchActorsAdvanced(Guid, String, SearchRestrictionInfo(), String())
+  fullName.vb: SuperOffice.CRM.IErpConnector.SearchActorsAdvanced(System.Guid, System.String, SuperOffice.CRM.SearchRestrictionInfo(), System.String())
+  name.vb: SearchActorsAdvanced(Guid, String, SearchRestrictionInfo(), String())
+- uid: SuperOffice.CRM.IErpConnector.SearchActors(System.Guid,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.IErpConnector.SearchActors(System.Guid,System.String,System.String,System.String[])
+  id: SearchActors(System.Guid,System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: SearchActors(Guid, String, String, String[])
+  nameWithType: IErpConnector.SearchActors(Guid, String, String, String[])
+  fullName: SuperOffice.CRM.IErpConnector.SearchActors(System.Guid, System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSearches for one or more actors given a search string\n"
+  syntax:
+    content: ActorArrayPluginResponse SearchActors(Guid connectionID, string actorType, string searchText, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: actorType
+      type: System.String
+    - id: searchText
+      type: System.String
+    - id: fieldKeys
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+    content.vb: Function SearchActors(connectionID As Guid, actorType As String, searchText As String, fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.SearchActors*
+  nameWithType.vb: IErpConnector.SearchActors(Guid, String, String, String())
+  fullName.vb: SuperOffice.CRM.IErpConnector.SearchActors(System.Guid, System.String, System.String, System.String())
+  name.vb: SearchActors(Guid, String, String, String())
+- uid: SuperOffice.CRM.IErpConnector.SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.IErpConnector.SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  id: SearchActorByParent(System.Guid,System.String,System.String,System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: SearchActorByParent(Guid, String, String, String, String, String[])
+  nameWithType: IErpConnector.SearchActorByParent(Guid, String, String, String, String, String[])
+  fullName: SuperOffice.CRM.IErpConnector.SearchActorByParent(System.Guid, System.String, System.String, System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSearches for one or more actors given a search string\n"
+  syntax:
+    content: ActorArrayPluginResponse SearchActorByParent(Guid connectionID, string actorType, string searchText, string parentActorType, string parentActorErpKey, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: actorType
+      type: System.String
+    - id: searchText
+      type: System.String
+    - id: parentActorType
+      type: System.String
+    - id: parentActorErpKey
+      type: System.String
+    - id: fieldKeys
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+    content.vb: Function SearchActorByParent(connectionID As Guid, actorType As String, searchText As String, parentActorType As String, parentActorErpKey As String, fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.SearchActorByParent*
+  nameWithType.vb: IErpConnector.SearchActorByParent(Guid, String, String, String, String, String())
+  fullName.vb: SuperOffice.CRM.IErpConnector.SearchActorByParent(System.Guid, System.String, System.String, System.String, System.String, System.String())
+  name.vb: SearchActorByParent(Guid, String, String, String, String, String())
+- uid: SuperOffice.CRM.IErpConnector.CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  commentId: M:SuperOffice.CRM.IErpConnector.CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  id: CreateActor(System.Guid,SuperOffice.CRM.ErpActor)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: CreateActor(Guid, ErpActor)
+  nameWithType: IErpConnector.CreateActor(Guid, ErpActor)
+  fullName: SuperOffice.CRM.IErpConnector.CreateActor(System.Guid, SuperOffice.CRM.ErpActor)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCreates a new actor\n"
+  syntax:
+    content: ActorPluginResponse CreateActor(Guid connectionID, ErpActor act)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: act
+      type: SuperOffice.CRM.ErpActor
+    return:
+      type: SuperOffice.CRM.ActorPluginResponse
+    content.vb: Function CreateActor(connectionID As Guid, act As ErpActor) As ActorPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.CreateActor*
+- uid: SuperOffice.CRM.IErpConnector.SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  commentId: M:SuperOffice.CRM.IErpConnector.SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  id: SaveActors(System.Guid,SuperOffice.CRM.ErpActor[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: SaveActors(Guid, ErpActor[])
+  nameWithType: IErpConnector.SaveActors(Guid, ErpActor[])
+  fullName: SuperOffice.CRM.IErpConnector.SaveActors(System.Guid, SuperOffice.CRM.ErpActor[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSaves (updates) existing actors\n"
+  syntax:
+    content: ActorArrayPluginResponse SaveActors(Guid connectionID, ErpActor[] actors)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: actors
+      type: SuperOffice.CRM.ErpActor[]
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+    content.vb: Function SaveActors(connectionID As Guid, actors As ErpActor()) As ActorArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.SaveActors*
+  nameWithType.vb: IErpConnector.SaveActors(Guid, ErpActor())
+  fullName.vb: SuperOffice.CRM.IErpConnector.SaveActors(System.Guid, SuperOffice.CRM.ErpActor())
+  name.vb: SaveActors(Guid, ErpActor())
+- uid: SuperOffice.CRM.IErpConnector.GetList(System.Guid,System.String)
+  commentId: M:SuperOffice.CRM.IErpConnector.GetList(System.Guid,System.String)
+  id: GetList(System.Guid,System.String)
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetList(Guid, String)
+  nameWithType: IErpConnector.GetList(Guid, String)
+  fullName: SuperOffice.CRM.IErpConnector.GetList(System.Guid, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nRetrieves a list from the connector, using the name specified by the connector itself\n"
+  syntax:
+    content: ListItemArrayPluginResponse GetList(Guid connectionID, string listName)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: listName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ListItemArrayPluginResponse
+    content.vb: Function GetList(connectionID As Guid, listName As String) As ListItemArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetList*
+- uid: SuperOffice.CRM.IErpConnector.GetListItems(System.Guid,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.IErpConnector.GetListItems(System.Guid,System.String,System.String[])
+  id: GetListItems(System.Guid,System.String,System.String[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetListItems(Guid, String, String[])
+  nameWithType: IErpConnector.GetListItems(Guid, String, String[])
+  fullName: SuperOffice.CRM.IErpConnector.GetListItems(System.Guid, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nRetrieves one or more specific list items from the connector, using the list name specified by the connector itself\n"
+  syntax:
+    content: ListItemArrayPluginResponse GetListItems(Guid connectionID, string listName, string[] listItemKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: listName
+      type: System.String
+    - id: listItemKeys
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ListItemArrayPluginResponse
+    content.vb: Function GetListItems(connectionID As Guid, listName As String, listItemKeys As String()) As ListItemArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetListItems*
+  nameWithType.vb: IErpConnector.GetListItems(Guid, String, String())
+  fullName.vb: SuperOffice.CRM.IErpConnector.GetListItems(System.Guid, System.String, System.String())
+  name.vb: GetListItems(Guid, String, String())
+- uid: SuperOffice.CRM.IErpConnector.GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.IErpConnector.GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  id: GetActorsByTimestamp(System.Guid,System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.IErpConnector
+  langs:
+  - csharp
+  - vb
+  name: GetActorsByTimestamp(Guid, String, String, String[])
+  nameWithType: IErpConnector.GetActorsByTimestamp(Guid, String, String, String[])
+  fullName: SuperOffice.CRM.IErpConnector.GetActorsByTimestamp(System.Guid, System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nRetrieves all actors of a specified actor type updated on or after a given date and time.\n"
+  syntax:
+    content: ActorArrayPluginResponse GetActorsByTimestamp(Guid connectionID, string updatedOnOrAfter, string actorType, string[] fieldKeys)
+    parameters:
+    - id: connectionID
+      type: System.Guid
+    - id: updatedOnOrAfter
+      type: System.String
+    - id: actorType
+      type: System.String
+    - id: fieldKeys
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.ActorArrayPluginResponse
+    content.vb: Function GetActorsByTimestamp(connectionID As Guid, updatedOnOrAfter As String, actorType As String, fieldKeys As String()) As ActorArrayPluginResponse
+  overload: SuperOffice.CRM.IErpConnector.GetActorsByTimestamp*
+  nameWithType.vb: IErpConnector.GetActorsByTimestamp(Guid, String, String, String())
+  fullName.vb: SuperOffice.CRM.IErpConnector.GetActorsByTimestamp(System.Guid, System.String, System.String, System.String())
+  name.vb: GetActorsByTimestamp(Guid, String, String, String())
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IErpConnector.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IErpConnector, To>()
+  nameWithType: EnumUtil.MapEnums<IErpConnector, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IErpConnector, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IErpConnector, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IErpConnector, To)()
+  name.vb: MapEnums(Of IErpConnector, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IErpConnector, To>
+    nameWithType: EnumUtil.MapEnums<IErpConnector, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IErpConnector, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IErpConnector, To)
+    nameWithType: EnumUtil.MapEnums(Of IErpConnector, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IErpConnector, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IErpConnector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IErpConnector, To>()
+  nameWithType: Converters.MapEnums<IErpConnector, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IErpConnector, To>()
+  nameWithType.vb: Converters.MapEnums(Of IErpConnector, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IErpConnector, To)()
+  name.vb: MapEnums(Of IErpConnector, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IErpConnector, To>
+    nameWithType: Converters.MapEnums<IErpConnector, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IErpConnector, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IErpConnector, To)
+    nameWithType: Converters.MapEnums(Of IErpConnector, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IErpConnector, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IErpConnector.GetConfigData*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetConfigData
+  isExternal: true
+  name: GetConfigData
+  nameWithType: IErpConnector.GetConfigData
+  fullName: SuperOffice.CRM.IErpConnector.GetConfigData
+- uid: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+  commentId: T:SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldMetadataInfoArrayPluginResponse
+  nameWithType: FieldMetadataInfoArrayPluginResponse
+  fullName: SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+- uid: SuperOffice.CRM.IErpConnector.TestConfigData*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.TestConfigData
+  isExternal: true
+  name: TestConfigData
+  nameWithType: IErpConnector.TestConfigData
+  fullName: SuperOffice.CRM.IErpConnector.TestConfigData
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.IErpConnector.SaveConnection*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.SaveConnection
+  isExternal: true
+  name: SaveConnection
+  nameWithType: IErpConnector.SaveConnection
+  fullName: SuperOffice.CRM.IErpConnector.SaveConnection
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.IErpConnector.TestConnection*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.TestConnection
+  isExternal: true
+  name: TestConnection
+  nameWithType: IErpConnector.TestConnection
+  fullName: SuperOffice.CRM.IErpConnector.TestConnection
+- uid: SuperOffice.CRM.IErpConnector.DeleteConnection*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.DeleteConnection
+  isExternal: true
+  name: DeleteConnection
+  nameWithType: IErpConnector.DeleteConnection
+  fullName: SuperOffice.CRM.IErpConnector.DeleteConnection
+- uid: SuperOffice.CRM.IErpConnector.GetSupportedActorTypes*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetSupportedActorTypes
+  isExternal: true
+  name: GetSupportedActorTypes
+  nameWithType: IErpConnector.GetSupportedActorTypes
+  fullName: SuperOffice.CRM.IErpConnector.GetSupportedActorTypes
+- uid: SuperOffice.CRM.StringArrayPluginResponse
+  commentId: T:SuperOffice.CRM.StringArrayPluginResponse
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: StringArrayPluginResponse
+  nameWithType: StringArrayPluginResponse
+  fullName: SuperOffice.CRM.StringArrayPluginResponse
+- uid: SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields
+  isExternal: true
+  name: GetSupportedActorTypeFields
+  nameWithType: IErpConnector.GetSupportedActorTypeFields
+  fullName: SuperOffice.CRM.IErpConnector.GetSupportedActorTypeFields
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.IErpConnector.GetActors*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetActors
+  isExternal: true
+  name: GetActors
+  nameWithType: IErpConnector.GetActors
+  fullName: SuperOffice.CRM.IErpConnector.GetActors
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ActorArrayPluginResponse
+  commentId: T:SuperOffice.CRM.ActorArrayPluginResponse
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ActorArrayPluginResponse
+  nameWithType: ActorArrayPluginResponse
+  fullName: SuperOffice.CRM.ActorArrayPluginResponse
+- uid: SuperOffice.CRM.IErpConnector.GetSearchableFields*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetSearchableFields
+  isExternal: true
+  name: GetSearchableFields
+  nameWithType: IErpConnector.GetSearchableFields
+  fullName: SuperOffice.CRM.IErpConnector.GetSearchableFields
+- uid: SuperOffice.CRM.IErpConnector.SearchActorsAdvanced*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.SearchActorsAdvanced
+  isExternal: true
+  name: SearchActorsAdvanced
+  nameWithType: IErpConnector.SearchActorsAdvanced
+  fullName: SuperOffice.CRM.IErpConnector.SearchActorsAdvanced
+- uid: SuperOffice.CRM.SearchRestrictionInfo[]
+  isExternal: true
+  name: SearchRestrictionInfo[]
+  nameWithType: SearchRestrictionInfo[]
+  fullName: SuperOffice.CRM.SearchRestrictionInfo[]
+  nameWithType.vb: SearchRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.SearchRestrictionInfo()
+  name.vb: SearchRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.SearchRestrictionInfo
+    name: SearchRestrictionInfo
+    nameWithType: SearchRestrictionInfo
+    fullName: SuperOffice.CRM.SearchRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.SearchRestrictionInfo
+    name: SearchRestrictionInfo
+    nameWithType: SearchRestrictionInfo
+    fullName: SuperOffice.CRM.SearchRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.IErpConnector.SearchActors*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.SearchActors
+  isExternal: true
+  name: SearchActors
+  nameWithType: IErpConnector.SearchActors
+  fullName: SuperOffice.CRM.IErpConnector.SearchActors
+- uid: SuperOffice.CRM.IErpConnector.SearchActorByParent*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.SearchActorByParent
+  isExternal: true
+  name: SearchActorByParent
+  nameWithType: IErpConnector.SearchActorByParent
+  fullName: SuperOffice.CRM.IErpConnector.SearchActorByParent
+- uid: SuperOffice.CRM.IErpConnector.CreateActor*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.CreateActor
+  isExternal: true
+  name: CreateActor
+  nameWithType: IErpConnector.CreateActor
+  fullName: SuperOffice.CRM.IErpConnector.CreateActor
+- uid: SuperOffice.CRM.ErpActor
+  commentId: T:SuperOffice.CRM.ErpActor
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ErpActor
+  nameWithType: ErpActor
+  fullName: SuperOffice.CRM.ErpActor
+- uid: SuperOffice.CRM.ActorPluginResponse
+  commentId: T:SuperOffice.CRM.ActorPluginResponse
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ActorPluginResponse
+  nameWithType: ActorPluginResponse
+  fullName: SuperOffice.CRM.ActorPluginResponse
+- uid: SuperOffice.CRM.IErpConnector.SaveActors*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.SaveActors
+  isExternal: true
+  name: SaveActors
+  nameWithType: IErpConnector.SaveActors
+  fullName: SuperOffice.CRM.IErpConnector.SaveActors
+- uid: SuperOffice.CRM.ErpActor[]
+  isExternal: true
+  name: ErpActor[]
+  nameWithType: ErpActor[]
+  fullName: SuperOffice.CRM.ErpActor[]
+  nameWithType.vb: ErpActor()
+  fullName.vb: SuperOffice.CRM.ErpActor()
+  name.vb: ErpActor()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ErpActor
+    name: ErpActor
+    nameWithType: ErpActor
+    fullName: SuperOffice.CRM.ErpActor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ErpActor
+    name: ErpActor
+    nameWithType: ErpActor
+    fullName: SuperOffice.CRM.ErpActor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.IErpConnector.GetList*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetList
+  isExternal: true
+  name: GetList
+  nameWithType: IErpConnector.GetList
+  fullName: SuperOffice.CRM.IErpConnector.GetList
+- uid: SuperOffice.CRM.ListItemArrayPluginResponse
+  commentId: T:SuperOffice.CRM.ListItemArrayPluginResponse
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ListItemArrayPluginResponse
+  nameWithType: ListItemArrayPluginResponse
+  fullName: SuperOffice.CRM.ListItemArrayPluginResponse
+- uid: SuperOffice.CRM.IErpConnector.GetListItems*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetListItems
+  isExternal: true
+  name: GetListItems
+  nameWithType: IErpConnector.GetListItems
+  fullName: SuperOffice.CRM.IErpConnector.GetListItems
+- uid: SuperOffice.CRM.IErpConnector.GetActorsByTimestamp*
+  commentId: Overload:SuperOffice.CRM.IErpConnector.GetActorsByTimestamp
+  isExternal: true
+  name: GetActorsByTimestamp
+  nameWithType: IErpConnector.GetActorsByTimestamp
+  fullName: SuperOffice.CRM.IErpConnector.GetActorsByTimestamp

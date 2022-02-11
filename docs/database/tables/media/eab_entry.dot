@@ -1,0 +1,10 @@
+digraph eab_entry  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+eab_entry[fillcolor = "cadetblue1"]
+eab_folder[fillcolor = "azure1"]
+dbi_agent[fillcolor = "azure1"]
+eab_entry -> eab_folder [headlabel = "folder_id"]
+eab_entry -> dbi_agent [headlabel = "dbi_agent_id"]
+}

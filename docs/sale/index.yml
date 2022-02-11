@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: Sale table
       itemType: reference
-      url: ../../../database/docs/tables/sale.md
+      url: ../database/tables/sale.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -98,10 +98,10 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol
         itemType: concept
-        url: ../../../user-interface/docs/soprotocol/index.md
+        url: ../ui/soprotocol/index.md
 
     # Card
     - title: Data options
@@ -109,7 +109,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
@@ -126,13 +126,13 @@ conceptualContent:
         url: ../automation/trigger/index.md
       - text: Webhooks - sale events
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/sale-events.md
+        url: ../automation/webhook/reference/sale-events.md
       - text: Webhooks - sale stakeholder events
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/sale-stakeholder-events.md
+        url: ../automation/webhook/reference/sale-stakeholder-events.md
       - text: Webhooks - quote events
         itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/quote-events.md
+        url: ../automation/webhook/reference/quote-events.md
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
@@ -143,10 +143,10 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/sales/index.md
+        url: howto/crmscript/index.md
       - text: NetServer (SAINT)
         itemType: overview
-        url: ../../../data-access/docs/sales/saint/index.md
+        url: saint/index.md
 
     # Card
     - title: Database options
@@ -154,37 +154,37 @@ conceptualContent:
       links:
       - text: Sale table
         itemType: reference
-        url: ../../../database/docs/tables/sale.md
+        url: ../database/tables/sale.md
       - text: Saletype table
         itemType: reference
-        url: ../../../database/docs/tables/saletype.md
+        url: ../database/tables/saletype.md
       - text: Salehist table
         itemType: reference
-        url: ../../../database/docs/tables/salehist.md
+        url: ../database/tables/salehist.md
       - text: Salestakeholder table
         itemType: reference
-        url: ../../../database/docs/tables/salestakeholder.md
+        url: ../database/tables/salestakeholder.md
       - text: Reason table
         itemType: reference
-        url: ../../../database/docs/tables/reason.md
+        url: ../database/tables/reason.md
       - text: Currency table
         itemType: reference
-        url: ../../../database/docs/tables/currency.md
+        url: ../database/tables/currency.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: Appointment table
         itemType: reference
-        url: ../../../database/docs/tables/appointment.md
+        url: ../database/tables/appointment.md
       - text: Project table
         itemType: reference
-        url: ../../../database/docs/tables/project.md
+        url: ../database/tables/project.md
       - text: Quote table
         itemType: reference
-        url: ../../../database/docs/tables/quote.md
+        url: ../database/tables/quote.md
       - text: UdsaleSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udsalesmall.md
+        url: ../database/tables/udsalesmall.md
       - text: UdsaleLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udsalelarge.md
+        url: ../database/tables/udsalelarge.md

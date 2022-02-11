@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SmtpTestResult
+  commentId: T:SuperOffice.WebApi.Data.SmtpTestResult
+  id: SmtpTestResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SmtpTestResult.#ctor
+  - SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage
+  - SuperOffice.WebApi.Data.SmtpTestResult.Success
+  langs:
+  - csharp
+  - vb
+  name: SmtpTestResult
+  nameWithType: SmtpTestResult
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SmtpTestResult.\nCarrier containing information about the result of a SMTP test    \n"
+  syntax:
+    content: 'public class SmtpTestResult : Carrier'
+    content.vb: >-
+      Public Class SmtpTestResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SmtpTestResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SmtpTestResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SmtpTestResult
+  langs:
+  - csharp
+  - vb
+  name: SmtpTestResult()
+  nameWithType: SmtpTestResult.SmtpTestResult()
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult.SmtpTestResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SmtpTestResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SmtpTestResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SmtpTestResult.Success
+  commentId: P:SuperOffice.WebApi.Data.SmtpTestResult.Success
+  id: Success
+  parent: SuperOffice.WebApi.Data.SmtpTestResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: SmtpTestResult.Success
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult.Success
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the test went ok. False if it failed. See the error message for details\n"
+  syntax:
+    content: public virtual bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Success As Boolean
+  overload: SuperOffice.WebApi.Data.SmtpTestResult.Success*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage
+  commentId: P:SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.WebApi.Data.SmtpTestResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: SmtpTestResult.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf an error occured, this member will contain a description of the error\n"
+  syntax:
+    content: public virtual string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorMessage As String
+  overload: SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SmtpTestResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SmtpTestResult.#ctor
+  isExternal: true
+  name: SmtpTestResult
+  nameWithType: SmtpTestResult.SmtpTestResult
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult.SmtpTestResult
+- uid: SuperOffice.WebApi.Data.SmtpTestResult.Success*
+  commentId: Overload:SuperOffice.WebApi.Data.SmtpTestResult.Success
+  isExternal: true
+  name: Success
+  nameWithType: SmtpTestResult.Success
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: SmtpTestResult.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.SmtpTestResult.ErrorMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

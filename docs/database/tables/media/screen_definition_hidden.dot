@@ -1,0 +1,8 @@
+digraph screen_definition_hidden  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+screen_definition_hidden[fillcolor = "cadetblue1"]
+screen_definition[fillcolor = "azure1"]
+screen_definition_hidden -> screen_definition [headlabel = "screen_definition"]
+}

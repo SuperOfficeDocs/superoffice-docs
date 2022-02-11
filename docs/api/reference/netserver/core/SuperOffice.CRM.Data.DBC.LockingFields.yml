@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.LockingFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LockingFields
+  id: DBC.LockingFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
+  - SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
+  - SuperOffice.CRM.Data.DBC.LockingFields.LastError
+  - SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
+  - SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
+  - SuperOffice.CRM.Data.DBC.LockingFields.LockingId
+  - SuperOffice.CRM.Data.DBC.LockingFields.LockPid
+  - SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
+  - SuperOffice.CRM.Data.DBC.LockingFields.Retries
+  - SuperOffice.CRM.Data.DBC.LockingFields.Status
+  - SuperOffice.CRM.Data.DBC.LockingFields.Stop
+  langs:
+  - csharp
+  - vb
+  name: DBC.LockingFields
+  nameWithType: DBC.LockingFields
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Locking, Generic locking and error messages\n"
+  syntax:
+    content: public static class LockingFields
+    content.vb: Public Module LockingFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.LockingId
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockingId
+  id: LockingId
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: LockingId
+  nameWithType: DBC.LockingFields.LockingId
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockingId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.LockingId: Primary key\n"
+  syntax:
+    content: public const string LockingId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const LockingId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.LockingFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.Status: Current status\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.Stop
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.Stop
+  id: Stop
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: DBC.LockingFields.Stop
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.Stop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.Stop: Signal to stop schedule\n"
+  syntax:
+    content: public const string Stop = "stop"
+    return:
+      type: System.String
+    content.vb: Public Const Stop As String = "stop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
+  id: LastExecution
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: LastExecution
+  nameWithType: DBC.LockingFields.LastExecution
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.LastExecution
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.LastExecution: Last execution\n"
+  syntax:
+    content: public const string LastExecution = "last_execution"
+    return:
+      type: System.String
+    content.vb: Public Const LastExecution As String = "last_execution"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
+  id: ExecutionTime
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: ExecutionTime
+  nameWithType: DBC.LockingFields.ExecutionTime
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.ExecutionTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.ExecutionTime: Amount of time in seconds used by last execution\n"
+  syntax:
+    content: public const string ExecutionTime = "execution_time"
+    return:
+      type: System.String
+    content.vb: Public Const ExecutionTime As String = "execution_time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
+  id: LockExpire
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: LockExpire
+  nameWithType: DBC.LockingFields.LockExpire
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockExpire
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.LockExpire: Lock preventing the same schedule to run simultaniously\n"
+  syntax:
+    content: public const string LockExpire = "lock_expire"
+    return:
+      type: System.String
+    content.vb: Public Const LockExpire As String = "lock_expire"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.LockPid
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockPid
+  id: LockPid
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: LockPid
+  nameWithType: DBC.LockingFields.LockPid
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockPid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.LockPid: PID preventing the same schedule to run simultaniously\n"
+  syntax:
+    content: public const string LockPid = "lock_pid"
+    return:
+      type: System.String
+    content.vb: Public Const LockPid As String = "lock_pid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
+  id: LockTtl
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: LockTtl
+  nameWithType: DBC.LockingFields.LockTtl
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.LockTtl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.LockTtl: Lock time to live\n"
+  syntax:
+    content: public const string LockTtl = "lock_ttl"
+    return:
+      type: System.String
+    content.vb: Public Const LockTtl As String = "lock_ttl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: DBC.LockingFields.ErrorMessage
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.ErrorMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.ErrorMessage: Last error message\n"
+  syntax:
+    content: public const string ErrorMessage = "error_message"
+    return:
+      type: System.String
+    content.vb: Public Const ErrorMessage As String = "error_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.LastError
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: DBC.LockingFields.LastError
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.LastError
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.LastError: Time of last error\n"
+  syntax:
+    content: public const string LastError = "last_error"
+    return:
+      type: System.String
+    content.vb: Public Const LastError As String = "last_error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LockingFields.Retries
+  commentId: F:SuperOffice.CRM.Data.DBC.LockingFields.Retries
+  id: Retries
+  parent: SuperOffice.CRM.Data.DBC.LockingFields
+  langs:
+  - csharp
+  - vb
+  name: Retries
+  nameWithType: DBC.LockingFields.Retries
+  fullName: SuperOffice.CRM.Data.DBC.LockingFields.Retries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLocking.Retries: Number of retries since last successfull execution\n"
+  syntax:
+    content: public const string Retries = "retries"
+    return:
+      type: System.String
+    content.vb: Public Const Retries As String = "retries"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

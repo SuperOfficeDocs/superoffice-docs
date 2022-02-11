@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPluginTravel
+  id: IDocumentPluginTravel
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  langs:
+  - csharp
+  - vb
+  name: IDocumentPluginTravel
+  nameWithType: IDocumentPluginTravel
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nOptional interface that Document Plugins can choose to implement. It is called when starting and stopping an offline\n(Travel) session, and is generally used to copy centrally-stored documents to local storage and back again.\n"
+  syntax:
+    content: public interface IDocumentPluginTravel
+    content.vb: Public Interface IDocumentPluginTravel
+  extensionMethods:
+  - SuperOffice.CRM.Documents.IDocumentPluginTravel.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.IDocumentPluginTravel.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.Documents.IDocumentPluginTravel
+  langs:
+  - csharp
+  - vb
+  name: GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: IDocumentPluginTravel.GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nStart a Travel (offline) session. This method is called at a time when both the central and local storage\nsystems are available, and should copy or otherwise prepare for an offline session. \n"
+  remarks: "\nWhile offline, the following document archive items need to be available:\n<ul><li>All templates, in all language variants</li><li>All documents for the current user, in the current period</li><li>All documents for the current user, in the previous period</li></ul>\nA period is half a year. In May this would mean the Jul-Dec + Jan-Jun. Since there may be <strong>many</strong> templates,\ncaching them between travel sessions is highly recommended, almost mandatory; otherwise template/document copying\nmay be the major time consumer when going on travel.\n"
+  syntax:
+    content: ReturnInfo GoTravel(int associateId, string localArchiveRoot, ProgressEstimateCallback estimate, ProgressStepCallback step)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: ID of associate who is the document owner
+    - id: localArchiveRoot
+      type: System.String
+      description: "ROot directory of local archive. This is a value that is only known to the \nTravel system in the Windows client, so it has to be passed in as a parameter"
+    - id: estimate
+      type: SuperOffice.CRM.ProgressEstimateCallback
+      description: Callback to set the expected number of items to copy, to scale the progress bar
+    - id: step
+      type: SuperOffice.CRM.ProgressStepCallback
+      description: Callback to advance the progress bar by one step
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Function GoTravel(associateId As Integer, localArchiveRoot As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel*
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.Documents.IDocumentPluginTravel
+  langs:
+  - csharp
+  - vb
+  name: HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: IDocumentPluginTravel.HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nEnd a Travel (offline) session. This method is called at a time when both the central and local storage\nsystems are available, and should update any documents whose content has been changed locally, into the central storage.\nTemplates cannot be changed locally and should not be copied back!\n"
+  remarks: "\n"
+  syntax:
+    content: ReturnInfo HomeComing(int associateId, string centralArchiveRoot, ProgressEstimateCallback estimate, ProgressStepCallback step)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: ID of associate who is the document owner
+    - id: centralArchiveRoot
+      type: System.String
+      description: "Root directory of <strong>central!</strong> archive. This is a value that is only known to the \nTravel system in the Windows client at this time, so it has to be passed in as a parameter (ArchivePath points to the local archive)"
+    - id: estimate
+      type: SuperOffice.CRM.ProgressEstimateCallback
+      description: Callback to set the expected number of items to copy, to scale the progress bar
+    - id: step
+      type: SuperOffice.CRM.ProgressStepCallback
+      description: Callback to advance the progress bar by one step
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Function HomeComing(associateId As Integer, centralArchiveRoot As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing*
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDocumentPluginTravel, To>()
+  nameWithType: EnumUtil.MapEnums<IDocumentPluginTravel, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginTravel, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDocumentPluginTravel, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginTravel, To)()
+  name.vb: MapEnums(Of IDocumentPluginTravel, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDocumentPluginTravel, To>
+    nameWithType: EnumUtil.MapEnums<IDocumentPluginTravel, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginTravel, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDocumentPluginTravel, To)
+    nameWithType: EnumUtil.MapEnums(Of IDocumentPluginTravel, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginTravel, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDocumentPluginTravel, To>()
+  nameWithType: Converters.MapEnums<IDocumentPluginTravel, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginTravel, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDocumentPluginTravel, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginTravel, To)()
+  name.vb: MapEnums(Of IDocumentPluginTravel, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDocumentPluginTravel, To>
+    nameWithType: Converters.MapEnums<IDocumentPluginTravel, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.IDocumentPluginTravel, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDocumentPluginTravel, To)
+    nameWithType: Converters.MapEnums(Of IDocumentPluginTravel, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPluginTravel, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel
+  isExternal: true
+  name: GoTravel
+  nameWithType: IDocumentPluginTravel.GoTravel
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM.ReturnInfo
+  commentId: T:SuperOffice.CRM.ReturnInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ReturnInfo
+  nameWithType: ReturnInfo
+  fullName: SuperOffice.CRM.ReturnInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing
+  isExternal: true
+  name: HomeComing
+  nameWithType: IDocumentPluginTravel.HomeComing
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing

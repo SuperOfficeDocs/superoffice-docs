@@ -1,0 +1,15 @@
+digraph Priority  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Priority[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+appointment[fillcolor = "azure1"]
+PriorityGroupLink[fillcolor = "azure1"]
+PriorityHeadingLink[fillcolor = "azure1"]
+Priority -> associate [headlabel = "registered_associate_id"]
+Priority -> associate [label = "updated_associate_id"]
+appointment -> Priority [label = "priority_idx"]
+PriorityGroupLink -> Priority [label = "priority_id"]
+PriorityHeadingLink -> Priority [label = "priority_id"]
+}

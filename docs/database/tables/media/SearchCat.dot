@@ -1,0 +1,15 @@
+digraph SearchCat  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SearchCat[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+selection[fillcolor = "azure1"]
+SearchCatGroupLink[fillcolor = "azure1"]
+SearchCatHeadingLink[fillcolor = "azure1"]
+SearchCat -> associate [headlabel = "registered_associate_id"]
+SearchCat -> associate [label = "updated_associate_id"]
+selection -> SearchCat [label = "searchCat_id"]
+SearchCatGroupLink -> SearchCat [label = "searchcat_id"]
+SearchCatHeadingLink -> SearchCat [label = "searchcat_id"]
+}

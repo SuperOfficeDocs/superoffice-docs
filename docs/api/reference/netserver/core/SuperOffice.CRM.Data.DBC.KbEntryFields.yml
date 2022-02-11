@@ -1,0 +1,977 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields
+  commentId: T:SuperOffice.CRM.Data.DBC.KbEntryFields
+  id: DBC.KbEntryFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.AccessLevel
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Answer
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.CategoryId
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.DbiAgentId
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.DbiKey
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastModified
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastSyncronized
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.ExpireDate
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Flags
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.KbEntryId
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Keywords
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.LastChanged
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Question
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.ReadCount
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Score
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.ScoreWeight
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.SortOrder
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Status
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.Title
+  - SuperOffice.CRM.Data.DBC.KbEntryFields.WorkflowPhase
+  langs:
+  - csharp
+  - vb
+  name: DBC.KbEntryFields
+  nameWithType: DBC.KbEntryFields
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for KbEntry, This table contains FAQ entries.\n"
+  syntax:
+    content: public static class KbEntryFields
+    content.vb: Public Module KbEntryFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.KbEntryId
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.KbEntryId
+  id: KbEntryId
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: KbEntryId
+  nameWithType: DBC.KbEntryFields.KbEntryId
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.KbEntryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.KbEntryId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string KbEntryId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const KbEntryId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.CategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.CategoryId
+  id: CategoryId
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: DBC.KbEntryFields.CategoryId
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.CategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.CategoryId: The id of the category in which this entry is located.\n"
+  syntax:
+    content: public const string CategoryId = "category_id"
+    return:
+      type: System.String
+    content.vb: Public Const CategoryId As String = "category_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Title
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: DBC.KbEntryFields.Title
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Title: The title of this entry.\n"
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Question
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Question
+  id: Question
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Question
+  nameWithType: DBC.KbEntryFields.Question
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Question
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Question: The question for this entry.\n"
+  syntax:
+    content: public const string Question = "question"
+    return:
+      type: System.String
+    content.vb: Public Const Question As String = "question"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Answer
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Answer
+  id: Answer
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Answer
+  nameWithType: DBC.KbEntryFields.Answer
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Answer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Answer: The answer for this entry.\n"
+  syntax:
+    content: public const string Answer = "answer"
+    return:
+      type: System.String
+    content.vb: Public Const Answer As String = "answer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Keywords
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Keywords
+  id: Keywords
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Keywords
+  nameWithType: DBC.KbEntryFields.Keywords
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Keywords
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Keywords: The keywords for this entry\n"
+  syntax:
+    content: public const string Keywords = "keywords"
+    return:
+      type: System.String
+    content.vb: Public Const Keywords As String = "keywords"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.AccessLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.AccessLevel
+  id: AccessLevel
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel
+  nameWithType: DBC.KbEntryFields.AccessLevel
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.AccessLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.AccessLevel: The access level for this entry (enum).\n"
+  syntax:
+    content: public const string AccessLevel = "access_level"
+    return:
+      type: System.String
+    content.vb: Public Const AccessLevel As String = "access_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.CreatedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: DBC.KbEntryFields.CreatedBy
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.CreatedBy: The id of the user who owns this entry.\n"
+  syntax:
+    content: public const string CreatedBy = "created_by"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedBy As String = "created_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.SortOrder
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: DBC.KbEntryFields.SortOrder
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.SortOrder: A scrictly ascending number indicating the sort-order when listing entries.\n"
+  syntax:
+    content: public const string SortOrder = "sort_order"
+    return:
+      type: System.String
+    content.vb: Public Const SortOrder As String = "sort_order"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.LastChanged
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: DBC.KbEntryFields.LastChanged
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.LastChanged
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.LastChanged: When the entry was last changed.\n"
+  syntax:
+    content: public const string LastChanged = "last_changed"
+    return:
+      type: System.String
+    content.vb: Public Const LastChanged As String = "last_changed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.ReadCount
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.ReadCount
+  id: ReadCount
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: ReadCount
+  nameWithType: DBC.KbEntryFields.ReadCount
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.ReadCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.ReadCount: The number of times someone has read this entry from the customer frontend.\n"
+  syntax:
+    content: public const string ReadCount = "read_count"
+    return:
+      type: System.String
+    content.vb: Public Const ReadCount As String = "read_count"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Score
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Score
+  id: Score
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: DBC.KbEntryFields.Score
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Score
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Score: The accumulated score (0..100) for this entry.\n"
+  syntax:
+    content: public const string Score = "score"
+    return:
+      type: System.String
+    content.vb: Public Const Score As String = "score"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.ScoreWeight
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.ScoreWeight
+  id: ScoreWeight
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: ScoreWeight
+  nameWithType: DBC.KbEntryFields.ScoreWeight
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.ScoreWeight
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.ScoreWeight: The number of votes behind the accumulated score.\n"
+  syntax:
+    content: public const string ScoreWeight = "score_weight"
+    return:
+      type: System.String
+    content.vb: Public Const ScoreWeight As String = "score_weight"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.KbEntryFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Flags: A bitmap field.\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.KbEntryFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.Status: The status for this entry (enum).\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.ExpireDate
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.ExpireDate
+  id: ExpireDate
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: ExpireDate
+  nameWithType: DBC.KbEntryFields.ExpireDate
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.ExpireDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.ExpireDate: The date until which this entry is valid.\n"
+  syntax:
+    content: public const string ExpireDate = "expire_date"
+    return:
+      type: System.String
+    content.vb: Public Const ExpireDate As String = "expire_date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.WorkflowPhase
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.WorkflowPhase
+  id: WorkflowPhase
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowPhase
+  nameWithType: DBC.KbEntryFields.WorkflowPhase
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.WorkflowPhase
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.WorkflowPhase: The workflow phase this entry is in\n"
+  syntax:
+    content: public const string WorkflowPhase = "workflow_phase"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowPhase As String = "workflow_phase"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiAgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: DBC.KbEntryFields.DbiAgentId
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.DbiAgentId: Integration agent (eJournal)\n"
+  syntax:
+    content: public const string DbiAgentId = "dbi_agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentId As String = "dbi_agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiKey
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: DBC.KbEntryFields.DbiKey
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.DbiKey: The primary key for the integrated entry in the external datasource.\n"
+  syntax:
+    content: public const string DbiKey = "dbi_key"
+    return:
+      type: System.String
+    content.vb: Public Const DbiKey As String = "dbi_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: DBC.KbEntryFields.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.DbiLastSyncronized: Last external syncronization.\n"
+  syntax:
+    content: public const string DbiLastSyncronized = "dbi_last_syncronized"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastSyncronized As String = "dbi_last_syncronized"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastModified
+  commentId: F:SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Data.DBC.KbEntryFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: DBC.KbEntryFields.DbiLastModified
+  fullName: SuperOffice.CRM.Data.DBC.KbEntryFields.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nKbEntry.DbiLastModified: When the entry was last modified.\n"
+  syntax:
+    content: public const string DbiLastModified = "dbi_last_modified"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastModified As String = "dbi_last_modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

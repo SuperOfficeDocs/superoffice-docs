@@ -1,0 +1,11 @@
+digraph OwnerContactLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+OwnerContactLink[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+OwnerContactLink -> contact [headlabel = "contact_id"]
+OwnerContactLink -> associate [headlabel = "registered_associate_id"]
+OwnerContactLink -> associate [label = "updated_associate_id"]
+}

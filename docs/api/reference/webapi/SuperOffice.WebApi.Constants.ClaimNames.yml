@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.ClaimNames
+  commentId: T:SuperOffice.WebApi.Constants.ClaimNames
+  id: Constants.ClaimNames
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.ClaimNames.AssociateId
+  - SuperOffice.WebApi.Constants.ClaimNames.CompanyId
+  - SuperOffice.WebApi.Constants.ClaimNames.CompanyName
+  - SuperOffice.WebApi.Constants.ClaimNames.ContextIdentifier
+  - SuperOffice.WebApi.Constants.ClaimNames.Email
+  - SuperOffice.WebApi.Constants.ClaimNames.Firstname
+  - SuperOffice.WebApi.Constants.ClaimNames.IdentityProvider
+  - SuperOffice.WebApi.Constants.ClaimNames.Initials
+  - SuperOffice.WebApi.Constants.ClaimNames.IsAdministrator
+  - SuperOffice.WebApi.Constants.ClaimNames.Lastname
+  - SuperOffice.WebApi.Constants.ClaimNames.NetserverUrl
+  - SuperOffice.WebApi.Constants.ClaimNames.PersonId
+  - SuperOffice.WebApi.Constants.ClaimNames.SecondaryIdentityProvider
+  - SuperOffice.WebApi.Constants.ClaimNames.Serial
+  - SuperOffice.WebApi.Constants.ClaimNames.SoPrimaryEmailAddress
+  - SuperOffice.WebApi.Constants.ClaimNames.SuperIdUpn
+  - SuperOffice.WebApi.Constants.ClaimNames.SystemToken
+  - SuperOffice.WebApi.Constants.ClaimNames.TenantId
+  - SuperOffice.WebApi.Constants.ClaimNames.Ticket
+  - SuperOffice.WebApi.Constants.ClaimNames.Upn
+  - SuperOffice.WebApi.Constants.ClaimNames.WebApiUrl
+  langs:
+  - csharp
+  - vb
+  name: Constants.ClaimNames
+  nameWithType: Constants.ClaimNames
+  fullName: SuperOffice.WebApi.Constants.ClaimNames
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class ClaimNames : Object'
+    content.vb: >-
+      Public Module ClaimNames
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Upn
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Upn
+  id: Upn
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Upn
+  nameWithType: Constants.ClaimNames.Upn
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Upn
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Upn = "http://schemes.superoffice.net/identity/upn"
+    return:
+      type: System.String
+    content.vb: Public Const Upn As String = "http://schemes.superoffice.net/identity/upn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.SuperIdUpn
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.SuperIdUpn
+  id: SuperIdUpn
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SuperIdUpn
+  nameWithType: Constants.ClaimNames.SuperIdUpn
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.SuperIdUpn
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SuperIdUpn = "http://schemes.superoffice.net/identity/superid-upn"
+    return:
+      type: System.String
+    content.vb: Public Const SuperIdUpn As String = "http://schemes.superoffice.net/identity/superid-upn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.TenantId
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.TenantId
+  id: TenantId
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: TenantId
+  nameWithType: Constants.ClaimNames.TenantId
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.TenantId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string TenantId = "http://schemes.superoffice.net/identity/tenantId"
+    return:
+      type: System.String
+    content.vb: Public Const TenantId As String = "http://schemes.superoffice.net/identity/tenantId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Firstname
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Firstname
+  id: Firstname
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: Constants.ClaimNames.Firstname
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Firstname
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Firstname = "http://schemes.superoffice.net/identity/firstname"
+    return:
+      type: System.String
+    content.vb: Public Const Firstname As String = "http://schemes.superoffice.net/identity/firstname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Lastname
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Lastname
+  id: Lastname
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: Constants.ClaimNames.Lastname
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Lastname
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Lastname = "http://schemes.superoffice.net/identity/lastname"
+    return:
+      type: System.String
+    content.vb: Public Const Lastname As String = "http://schemes.superoffice.net/identity/lastname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Email
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Email
+  id: Email
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: Constants.ClaimNames.Email
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Email
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Email = "http://schemes.superoffice.net/identity/email"
+    return:
+      type: System.String
+    content.vb: Public Const Email As String = "http://schemes.superoffice.net/identity/email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.IdentityProvider
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.IdentityProvider
+  id: IdentityProvider
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: IdentityProvider
+  nameWithType: Constants.ClaimNames.IdentityProvider
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.IdentityProvider
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string IdentityProvider = "http://schemes.superoffice.net/identity/identityprovider"
+    return:
+      type: System.String
+    content.vb: Public Const IdentityProvider As String = "http://schemes.superoffice.net/identity/identityprovider"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.SecondaryIdentityProvider
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.SecondaryIdentityProvider
+  id: SecondaryIdentityProvider
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SecondaryIdentityProvider
+  nameWithType: Constants.ClaimNames.SecondaryIdentityProvider
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.SecondaryIdentityProvider
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SecondaryIdentityProvider = "http://schemes.superoffice.net/identity/secondaryidentityprovider"
+    return:
+      type: System.String
+    content.vb: Public Const SecondaryIdentityProvider As String = "http://schemes.superoffice.net/identity/secondaryidentityprovider"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Ticket
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Ticket
+  id: Ticket
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: Constants.ClaimNames.Ticket
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Ticket
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Ticket = "http://schemes.superoffice.net/identity/ticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "http://schemes.superoffice.net/identity/ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.ContextIdentifier
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: Constants.ClaimNames.ContextIdentifier
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.ContextIdentifier
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ContextIdentifier = "http://schemes.superoffice.net/identity/ctx"
+    return:
+      type: System.String
+    content.vb: Public Const ContextIdentifier As String = "http://schemes.superoffice.net/identity/ctx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.AssociateId
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Constants.ClaimNames.AssociateId
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.AssociateId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string AssociateId = "http://schemes.superoffice.net/identity/associateid"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "http://schemes.superoffice.net/identity/associateid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Initials
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Initials
+  id: Initials
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Initials
+  nameWithType: Constants.ClaimNames.Initials
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Initials
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Initials = "http://schemes.superoffice.net/identity/initials"
+    return:
+      type: System.String
+    content.vb: Public Const Initials As String = "http://schemes.superoffice.net/identity/initials"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.SoPrimaryEmailAddress
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.SoPrimaryEmailAddress
+  id: SoPrimaryEmailAddress
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SoPrimaryEmailAddress
+  nameWithType: Constants.ClaimNames.SoPrimaryEmailAddress
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.SoPrimaryEmailAddress
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SoPrimaryEmailAddress = "http://schemes.superoffice.net/identity/so_primary_email_address"
+    return:
+      type: System.String
+    content.vb: Public Const SoPrimaryEmailAddress As String = "http://schemes.superoffice.net/identity/so_primary_email_address"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.PersonId
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Constants.ClaimNames.PersonId
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.PersonId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string PersonId = "http://schemes.superoffice.net/identity/personid"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "http://schemes.superoffice.net/identity/personid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.NetserverUrl
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.NetserverUrl
+  id: NetserverUrl
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: NetserverUrl
+  nameWithType: Constants.ClaimNames.NetserverUrl
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.NetserverUrl
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string NetserverUrl = "http://schemes.superoffice.net/identity/netserver_url"
+    return:
+      type: System.String
+    content.vb: Public Const NetserverUrl As String = "http://schemes.superoffice.net/identity/netserver_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.WebApiUrl
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.WebApiUrl
+  id: WebApiUrl
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: WebApiUrl
+  nameWithType: Constants.ClaimNames.WebApiUrl
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.WebApiUrl
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string WebApiUrl = "http://schemes.superoffice.net/identity/webapi_url"
+    return:
+      type: System.String
+    content.vb: Public Const WebApiUrl As String = "http://schemes.superoffice.net/identity/webapi_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.SystemToken
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.SystemToken
+  id: SystemToken
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: SystemToken
+  nameWithType: Constants.ClaimNames.SystemToken
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.SystemToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SystemToken = "http://schemes.superoffice.net/identity/system_token"
+    return:
+      type: System.String
+    content.vb: Public Const SystemToken As String = "http://schemes.superoffice.net/identity/system_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.IsAdministrator
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.IsAdministrator
+  id: IsAdministrator
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: IsAdministrator
+  nameWithType: Constants.ClaimNames.IsAdministrator
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.IsAdministrator
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string IsAdministrator = "http://schemes.superoffice.net/identity/is_administrator"
+    return:
+      type: System.String
+    content.vb: Public Const IsAdministrator As String = "http://schemes.superoffice.net/identity/is_administrator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.CompanyName
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.CompanyName
+  id: CompanyName
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: Constants.ClaimNames.CompanyName
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.CompanyName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string CompanyName = "http://schemes.superoffice.net/identity/company_name"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyName As String = "http://schemes.superoffice.net/identity/company_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.CompanyId
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.CompanyId
+  id: CompanyId
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: CompanyId
+  nameWithType: Constants.ClaimNames.CompanyId
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.CompanyId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string CompanyId = "http://schemes.superoffice.net/identity/company_id"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyId As String = "http://schemes.superoffice.net/identity/company_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ClaimNames.Serial
+  commentId: F:SuperOffice.WebApi.Constants.ClaimNames.Serial
+  id: Serial
+  parent: SuperOffice.WebApi.Constants.ClaimNames
+  langs:
+  - csharp
+  - vb
+  name: Serial
+  nameWithType: Constants.ClaimNames.Serial
+  fullName: SuperOffice.WebApi.Constants.ClaimNames.Serial
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Serial = "http://schemes.superoffice.net/identity/serial"
+    return:
+      type: System.String
+    content.vb: Public Const Serial As String = "http://schemes.superoffice.net/identity/serial"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

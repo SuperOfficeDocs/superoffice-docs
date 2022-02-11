@@ -1,0 +1,1012 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  commentId: T:SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  id: ChatTopicUserRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.#ctor
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanListen
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanRespond
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.ChatTopicUserId
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.Manager
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.Notifications
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.TopicId
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.UserId
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicUserRecordData
+  nameWithType: ChatTopicUserRecordData
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the chat_topic_user table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ChatTopicUserRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ChatTopicUserTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ChatTopicUserRecordData
+    content.vb: Public Class ChatTopicUserRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.ChatTopicUserId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.ChatTopicUserId
+  id: ChatTopicUserId
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicUserId
+  nameWithType: ChatTopicUserRecordData.ChatTopicUserId
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.ChatTopicUserId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int ChatTopicUserId
+    return:
+      type: System.Int32
+    content.vb: Public ChatTopicUserId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.UserId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.UserId
+  id: UserId
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: ChatTopicUserRecordData.UserId
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.UserId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the associated user \n"
+  syntax:
+    content: public int UserId
+    return:
+      type: System.Int32
+    content.vb: Public UserId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.TopicId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.TopicId
+  id: TopicId
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: TopicId
+  nameWithType: ChatTopicUserRecordData.TopicId
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.TopicId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the associated chat topic. \n"
+  syntax:
+    content: public int TopicId
+    return:
+      type: System.Int32
+    content.vb: Public TopicId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanRespond
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanRespond
+  id: CanRespond
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: CanRespond
+  nameWithType: ChatTopicUserRecordData.CanRespond
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanRespond
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue if the user can respond to chats in this topic \n"
+  syntax:
+    content: public short CanRespond
+    return:
+      type: System.Int16
+    content.vb: Public CanRespond As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.Notifications
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.Notifications
+  id: Notifications
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: Notifications
+  nameWithType: ChatTopicUserRecordData.Notifications
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.Notifications
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue if the user should receive notifications for this topic \n"
+  syntax:
+    content: public short Notifications
+    return:
+      type: System.Int16
+    content.vb: Public Notifications As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanListen
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanListen
+  id: CanListen
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: CanListen
+  nameWithType: ChatTopicUserRecordData.CanListen
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.CanListen
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue of a user can listen in on this topic \n"
+  syntax:
+    content: public short CanListen
+    return:
+      type: System.Int16
+    content.vb: Public CanListen As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.Manager
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicUserRecordData.Manager
+  id: Manager
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: Manager
+  nameWithType: ChatTopicUserRecordData.Manager
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.Manager
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue if the user is a manager for this topic \n"
+  syntax:
+    content: public short Manager
+    return:
+      type: System.Int16
+    content.vb: Public Manager As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicUserRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicUserRecordData()
+  nameWithType: ChatTopicUserRecordData.ChatTopicUserRecordData()
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.ChatTopicUserRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ChatTopicUserRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ChatTopicUserRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ChatTopicUserRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ChatTopicUserRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ChatTopicUserRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ChatTopicUserRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData, To)()
+  name.vb: MapEnums(Of ChatTopicUserRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ChatTopicUserRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ChatTopicUserRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ChatTopicUserRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ChatTopicUserRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ChatTopicUserRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ChatTopicUserRecordData>(ChatTopicUserRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ChatTopicUserRecordData>(ChatTopicUserRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ChatTopicUserRecordData>(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ChatTopicUserRecordData)(ChatTopicUserRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData)(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  name.vb: AssignByReflection(Of ChatTopicUserRecordData)(ChatTopicUserRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ChatTopicUserRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ChatTopicUserRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ChatTopicUserRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    name: ChatTopicUserRecordData
+    nameWithType: ChatTopicUserRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ChatTopicUserRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ChatTopicUserRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    name: ChatTopicUserRecordData
+    nameWithType: ChatTopicUserRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ChatTopicUserRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ChatTopicUserRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ChatTopicUserRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ChatTopicUserRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData)()
+  name.vb: GraphCopy(Of ChatTopicUserRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ChatTopicUserRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ChatTopicUserRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ChatTopicUserRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ChatTopicUserRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ChatTopicUserRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  parent: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  name: ToInsert()
+  nameWithType: ChatTopicUserRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ChatTopicUserRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ChatTopicUserRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ChatTopicUserRecordData, To>()
+  nameWithType: Converters.MapEnums<ChatTopicUserRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ChatTopicUserRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ChatTopicUserRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData, To)()
+  name.vb: MapEnums(Of ChatTopicUserRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ChatTopicUserRecordData, To>
+    nameWithType: Converters.MapEnums<ChatTopicUserRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ChatTopicUserRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ChatTopicUserRecordData, To)
+    nameWithType: Converters.MapEnums(Of ChatTopicUserRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicUserRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  isExternal: true
+  name: ToInsert(ChatTopicUserRecordData)
+  nameWithType: ChatTopicUserRecordDataExtensions.ToInsert(ChatTopicUserRecordData)
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+    name: ToInsert
+    nameWithType: ChatTopicUserRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    name: ChatTopicUserRecordData
+    nameWithType: ChatTopicUserRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicUserRecordData)
+    name: ToInsert
+    nameWithType: ChatTopicUserRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    name: ChatTopicUserRecordData
+    nameWithType: ChatTopicUserRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ChatTopicUserRecordDataExtensions
+  nameWithType: ChatTopicUserRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.ChatTopicUserRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicUserRecordData.#ctor
+  isExternal: true
+  name: ChatTopicUserRecordData
+  nameWithType: ChatTopicUserRecordData.ChatTopicUserRecordData
+  fullName: SuperOffice.CRM.Rows.ChatTopicUserRecordData.ChatTopicUserRecordData

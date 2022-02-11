@@ -1,0 +1,969 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+  id: HookedControlGroup
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad(System.EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: HookedControlGroup
+  nameWithType: HookedControlGroup
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class HookedControlGroup : ControlGroup, IControlGroup, ILayout, IHasSchema'
+    content.vb: >-
+      Public Class HookedControlGroup
+          Inherits ControlGroup
+          Implements IControlGroup, ILayout, IHasSchema
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  implements:
+  - SuperOffice.DCF.Web.UI.IControlGroup
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup._CssClass
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup._textAlign
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid(System.Web.UI.Control,System.Int32,System.Int32)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: HookedControlGroup.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: HookedControlGroup.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad(System.EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+  langs:
+  - csharp
+  - vb
+  name: HookedControlGroup()
+  nameWithType: HookedControlGroup.HookedControlGroup()
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.HookedControlGroup()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public HookedControlGroup()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: ControlGroupBase
+  nameWithType: ControlGroupBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: ControlGroup
+  nameWithType: ControlGroup
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+- uid: SuperOffice.DCF.Web.UI.IControlGroup
+  commentId: T:SuperOffice.DCF.Web.UI.IControlGroup
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IControlGroup
+  nameWithType: IControlGroup
+  fullName: SuperOffice.DCF.Web.UI.IControlGroup
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup._CssClass
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.ControlGroup._CssClass
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: _CssClass
+  nameWithType: ControlGroup._CssClass
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup._CssClass
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup._textAlign
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.ControlGroup._textAlign
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: _textAlign
+  nameWithType: ControlGroup._textAlign
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup._textAlign
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: AddBorders()
+  nameWithType: ControlGroup.AddBorders()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+    name: AddBorders
+    nameWithType: ControlGroup.AddBorders
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+    name: AddBorders
+    nameWithType: ControlGroup.AddBorders
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddBorders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: AddToContainer(Control)
+  nameWithType: ControlGroup.AddToContainer(Control)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer(System.Web.UI.Control)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer(System.Web.UI.Control)
+    name: AddToContainer
+    nameWithType: ControlGroup.AddToContainer
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer(System.Web.UI.Control)
+    name: AddToContainer
+    nameWithType: ControlGroup.AddToContainer
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToContainer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: Page_PreRender(Object, EventArgs)
+  nameWithType: ControlGroup.Page_PreRender(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender(System.Object,System.EventArgs)
+    name: Page_PreRender
+    nameWithType: ControlGroup.Page_PreRender
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender(System.Object,System.EventArgs)
+    name: Page_PreRender
+    nameWithType: ControlGroup.Page_PreRender
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Page_PreRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: AddControl(Control)
+  nameWithType: ControlGroup.AddControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl(System.Web.UI.Control)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl(System.Web.UI.Control)
+    name: AddControl
+    nameWithType: ControlGroup.AddControl
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl(System.Web.UI.Control)
+    name: AddControl
+    nameWithType: ControlGroup.AddControl
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddControl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: AddToPosition(Control)
+  nameWithType: ControlGroup.AddToPosition(Control)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition(System.Web.UI.Control)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition(System.Web.UI.Control)
+    name: AddToPosition
+    nameWithType: ControlGroup.AddToPosition
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition(System.Web.UI.Control)
+    name: AddToPosition
+    nameWithType: ControlGroup.AddToPosition
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToPosition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid(System.Web.UI.Control,System.Int32,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid(System.Web.UI.Control,System.Int32,System.Int32)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: AddToGrid(Control, Int32, Int32)
+  nameWithType: ControlGroup.AddToGrid(Control, Int32, Int32)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid(System.Web.UI.Control, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid(System.Web.UI.Control,System.Int32,System.Int32)
+    name: AddToGrid
+    nameWithType: ControlGroup.AddToGrid
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid(System.Web.UI.Control,System.Int32,System.Int32)
+    name: AddToGrid
+    nameWithType: ControlGroup.AddToGrid
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.AddToGrid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Control
+    name: Control
+    nameWithType: Control
+    fullName: System.Web.UI.Control
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: _controlGroupControl
+  nameWithType: ControlGroupBase._controlGroupControl
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase._controlGroupControl
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: ControlGroupBase.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlGroupBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlGroupBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: DataBind()
+  nameWithType: ControlGroupBase.DataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    name: DataBind
+    nameWithType: ControlGroupBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    name: DataBind
+    nameWithType: ControlGroupBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: UpdateDataSource()
+  nameWithType: ControlGroupBase.UpdateDataSource()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlGroupBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlGroupBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: CssClass
+  nameWithType: ControlGroupBase.CssClass
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.CssClass
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ControlCollection
+  nameWithType: ControlGroupBase.ControlCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ControlGroupControl
+  nameWithType: ControlGroupBase.ControlGroupControl
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ControlGroupControl
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Caption
+  nameWithType: ControlGroupBase.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Tooltip
+  nameWithType: ControlGroupBase.Tooltip
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Tooltip
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: ControlGroupBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Position
+  nameWithType: ControlGroupBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Top
+  nameWithType: ControlGroupBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: ControlGroupBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Left
+  nameWithType: ControlGroupBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Right
+  nameWithType: ControlGroupBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Bottom
+  nameWithType: ControlGroupBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Width
+  nameWithType: ControlGroupBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Height
+  nameWithType: ControlGroupBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: ControlGroupBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Overflow
+  nameWithType: ControlGroupBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Visibility
+  nameWithType: ControlGroupBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Column
+  nameWithType: ControlGroupBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: Row
+  nameWithType: ControlGroupBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: ControlGroupBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: ControlGroupBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: EditMode
+  nameWithType: ControlGroupBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: DataSourceName
+  nameWithType: ControlGroupBase.DataSourceName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSourceName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: DataSource
+  nameWithType: ControlGroupBase.DataSource
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.DataSource
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: ControlGroupBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.ConfigurationSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: ControlGroupBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase.VisibilityBinding
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: ControlGroup.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlGroup.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlGroup.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: HookedControlGroup.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+  isExternal: true
+  name: OnLoad(EventArgs)
+  nameWithType: ControlGroup.OnLoad(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad(System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: ControlGroup.OnLoad
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: ControlGroup.OnLoad
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlGroup.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: HookedControlGroup.OnLoad
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.#ctor
+  isExternal: true
+  name: HookedControlGroup
+  nameWithType: HookedControlGroup.HookedControlGroup
+  fullName: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup.HookedControlGroup

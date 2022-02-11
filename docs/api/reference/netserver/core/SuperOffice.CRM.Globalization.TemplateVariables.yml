@@ -1,0 +1,1817 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.TemplateVariables
+  commentId: T:SuperOffice.CRM.Globalization.TemplateVariables
+  id: TemplateVariables
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.TemplateVariables.#ctor(SuperOffice.CRM.Globalization.TemplateVariableIds)
+  - SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Globalization.TemplateVariables._currentContact
+  - SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
+  - SuperOffice.CRM.Globalization.TemplateVariables.ContactId
+  - SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
+  - SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
+  - SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags
+  - SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String)
+  - SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String,System.Boolean)
+  - SuperOffice.CRM.Globalization.TemplateVariables.Id
+  - SuperOffice.CRM.Globalization.TemplateVariables.Init
+  - SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext(System.String)
+  - SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal(System.String)
+  - SuperOffice.CRM.Globalization.TemplateVariables.PersonId
+  - SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId
+  - SuperOffice.CRM.Globalization.TemplateVariables.QuoteId
+  - SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
+  - SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+  - SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariables
+  nameWithType: TemplateVariables
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThis class holds template variables that can be used in template variable substitution.\n"
+  remarks: "\nThis class can be instantiated with current values in the form if id’s.  Only values \nrequired are fetched from the database.  Data objects holding information about values \ncan be provided in order to reduce fetching data from the database.\n"
+  syntax:
+    content: 'public class TemplateVariables : TagContainer'
+    content.vb: >-
+      Public Class TemplateVariables
+          Inherits TagContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.IO.TagContainer
+  inheritedMembers:
+  - SuperOffice.IO.TagContainer._bInitiated
+  - SuperOffice.IO.TagContainer.AddData(System.Object[])
+  - SuperOffice.IO.TagContainer.GetData
+  - SuperOffice.IO.TagContainer.ClearData
+  - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  - SuperOffice.IO.TagContainer.CurrentUiCulture
+  - SuperOffice.IO.TagContainer.Data
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.TemplateVariables.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.TemplateVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Globalization.TemplateVariables._currentContact
+  commentId: F:SuperOffice.CRM.Globalization.TemplateVariables._currentContact
+  id: _currentContact
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: _currentContact
+  nameWithType: TemplateVariables._currentContact
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables._currentContact
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected ContactTags _currentContact
+    return:
+      type: SuperOffice.CRM.Globalization.ContactTags
+    content.vb: Protected _currentContact As ContactTags
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariables(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32)
+  nameWithType: TemplateVariables.TemplateVariables(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.TemplateVariables(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCreate a template variable substitution instance, and set entity ID&apos;s from parameters.\nUse the <see cref=\"!:AddData\"></see> method to add other parameters, such as Entity objects\nthat you may have (and don&apos;t want to re-read from the database).\n"
+  syntax:
+    content: public TemplateVariables(int associateId, int contactId, int personId, int appointmentId, int documentId, int saleId, int selectionId, int projectId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: AssociateId for sender.
+    - id: contactId
+      type: System.Int32
+      description: Primary id of the current contact.
+    - id: personId
+      type: System.Int32
+      description: Primary id of the current person.
+    - id: appointmentId
+      type: System.Int32
+      description: Primary id of the current appointment.
+    - id: documentId
+      type: System.Int32
+      description: Primary id of the current document.
+    - id: saleId
+      type: System.Int32
+      description: Primary id of the current sale.
+    - id: selectionId
+      type: System.Int32
+      description: Primary id of the current selection.
+    - id: projectId
+      type: System.Int32
+      description: Primary id of the current project
+    content.vb: Public Sub New(associateId As Integer, contactId As Integer, personId As Integer, appointmentId As Integer, documentId As Integer, saleId As Integer, selectionId As Integer, projectId As Integer)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.#ctor(SuperOffice.CRM.Globalization.TemplateVariableIds)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.#ctor(SuperOffice.CRM.Globalization.TemplateVariableIds)
+  id: '#ctor(SuperOffice.CRM.Globalization.TemplateVariableIds)'
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariables(TemplateVariableIds)
+  nameWithType: TemplateVariables.TemplateVariables(TemplateVariableIds)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.TemplateVariables(SuperOffice.CRM.Globalization.TemplateVariableIds)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCreate a template variable substitution instance, and set entity ID&apos;s from parameters.\nUse the <see cref=\"!:AddData\"></see> method to add other parameters, such as Entity objects\nthat you may have (and don&apos;t want to re-read from the database).\n"
+  syntax:
+    content: public TemplateVariables(TemplateVariableIds templateVariableIds)
+    parameters:
+    - id: templateVariableIds
+      type: SuperOffice.CRM.Globalization.TemplateVariableIds
+      description: Object containing the relevant ids for substituting labels.
+    content.vb: Public Sub New(templateVariableIds As TemplateVariableIds)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariables(Int32, Int32, Int32, Int32, Int32, Int32, Int32)
+  nameWithType: TemplateVariables.TemplateVariables(Int32, Int32, Int32, Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.TemplateVariables(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCreate a template variable substitution instance, and set entity ID&apos;s from parameters.\nAssume the sending associate is the current user.\nUse the <see cref=\"!:AddData\"></see> method to add other parameters, such as Entity objects\nthat you may have (and don&apos;t want to re-read from the database).\n"
+  syntax:
+    content: public TemplateVariables(int contactId, int personId, int appointmentId, int documentId, int saleId, int selectionId, int projectId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Primary id of the current contact.
+    - id: personId
+      type: System.Int32
+      description: Primary id of the current person.
+    - id: appointmentId
+      type: System.Int32
+      description: Primary id of the current appointment.
+    - id: documentId
+      type: System.Int32
+      description: Primary id of the current document.
+    - id: saleId
+      type: System.Int32
+      description: Primary id of the current sale.
+    - id: selectionId
+      type: System.Int32
+      description: Primary id of the current selection.
+    - id: projectId
+      type: System.Int32
+      description: Primary id of the current project
+    content.vb: Public Sub New(contactId As Integer, personId As Integer, appointmentId As Integer, documentId As Integer, saleId As Integer, selectionId As Integer, projectId As Integer)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String)
+  id: GetValue(System.String)
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: GetValue(String)
+  nameWithType: TemplateVariables.GetValue(String)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet a value for a tag.\n"
+  syntax:
+    content: public override string GetValue(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: Name of the tag.
+    return:
+      type: System.String
+      description: Value of the tag.  An empty string is returned if there is no valid value.
+    content.vb: Public Overrides Function GetValue(tag As String) As String
+  overridden: SuperOffice.IO.TagContainer.GetValue(System.String)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.GetValue*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String,System.Boolean)
+  id: GetValue(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: GetValue(String, Boolean)
+  nameWithType: TemplateVariables.GetValue(String, Boolean)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.GetValue(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet a value for a tag, and optionally skip fadX templates\n"
+  syntax:
+    content: public string GetValue(string tag, bool ignoreFad)
+    parameters:
+    - id: tag
+      type: System.String
+      description: Name of the tag.
+    - id: ignoreFad
+      type: System.Boolean
+    return:
+      type: System.String
+      description: Value of the tag.  An empty string is returned if there is no valid value.
+    content.vb: Public Function GetValue(tag As String, ignoreFad As Boolean) As String
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.GetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal(System.String)
+  id: IsTagLegal(System.String)
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: IsTagLegal(String)
+  nameWithType: TemplateVariables.IsTagLegal(String)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIs this a legal tag?\n"
+  syntax:
+    content: public override bool IsTagLegal(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: Name of the tag.
+    return:
+      type: System.Boolean
+      description: True is returned if this is a legal tag.
+    content.vb: Public Overrides Function IsTagLegal(tag As String) As Boolean
+  overridden: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext(System.String)
+  id: IsTagInContext(System.String)
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: IsTagInContext(String)
+  nameWithType: TemplateVariables.IsTagInContext(String)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIs this a valid tag in the given context.  If there are no current sale, \nthere are no valid tags for sale.\n"
+  syntax:
+    content: public override bool IsTagInContext(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: Name of the tag.
+    return:
+      type: System.Boolean
+      description: True if the tag is valid in hte given context.
+    content.vb: Public Overrides Function IsTagInContext(tag As String) As Boolean
+  overridden: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId(System.Int32)
+  id: SetInviteePersonId(System.Int32)
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: SetInviteePersonId(Int32)
+  nameWithType: TemplateVariables.SetInviteePersonId(Int32)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public void SetInviteePersonId(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    content.vb: Public Sub SetInviteePersonId(personId As Integer)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId(System.Int32,System.Int32)
+  id: SetContactPersonId(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: SetContactPersonId(Int32, Int32)
+  nameWithType: TemplateVariables.SetContactPersonId(Int32, Int32)
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nSet new identities for contact and person\n"
+  syntax:
+    content: public void SetContactPersonId(int contactId, int personId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Identity of new contact
+    - id: personId
+      type: System.Int32
+      description: Identity of new person
+    content.vb: Public Sub SetContactPersonId(contactId As Integer, personId As Integer)
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+  id: SetCurrentContact
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentContact()
+  nameWithType: TemplateVariables.SetCurrentContact()
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual void SetCurrentContact()
+    content.vb: Protected Overridable Sub SetCurrentContact
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.Init
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.Init
+  id: Init
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: TemplateVariables.Init()
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.Init()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCreate the type-specific tag containers, and give them what we know\n"
+  remarks: "\nbase.Data is an object array that <strong>might</strong> contain things like Entity\nobjects; if so then these will be discovered and used by the Info providers\nonce the template variable objects need them.\n<p></p>\nAn object such as DocumentTags will add the document id to whatever else\nis already in the array, and then that gets passed to the factory method\nfor DocumentInfo. The method will iterate through the array, and if it sees\na Entities.Document instance that matches the document id, then it will use\nthat one as the basis for the DocumentInfo; otherwise the factory will create\na new Entities.Document instance that reads data from the database.\n<p></p>\nIt&apos;s a flexible system, but somewhat hard to trace if you have forgotten\nthe original design.\n"
+  syntax:
+    content: protected override void Init()
+    content.vb: Protected Overrides Sub Init
+  overridden: SuperOffice.IO.TagContainer.Init
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.Init*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
+  id: CurrentContact
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: CurrentContact
+  nameWithType: TemplateVariables.CurrentContact
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public ContactTags CurrentContact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.ContactTags
+    content.vb: Public Property CurrentContact As ContactTags
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
+  id: CurrentPerson
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: CurrentPerson
+  nameWithType: TemplateVariables.CurrentPerson
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public CurrentPersonVariables CurrentPerson { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.CurrentPersonVariables
+    content.vb: Public Property CurrentPerson As CurrentPersonVariables
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.Id
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.Id
+  id: Id
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TemplateVariables.Id
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public override int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Id As Integer
+  overridden: SuperOffice.IO.TagContainer.Id
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.Id*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.PersonId
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: TemplateVariables.PersonId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int PersonId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PersonId As Integer
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.ContactId
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: TemplateVariables.ContactId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.ContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int ContactId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ContactId As Integer
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: TemplateVariables.AssociateId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int AssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AssociateId As Integer
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.QuoteId
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.QuoteId
+  id: QuoteId
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: QuoteId
+  nameWithType: TemplateVariables.QuoteId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.QuoteId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int QuoteId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property QuoteId As Integer
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.QuoteId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: TemplateVariables.QuoteVersionId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int QuoteVersionId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property QuoteVersionId As Integer
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: TemplateVariables.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int QuoteAlternativeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property QuoteAlternativeId As Integer
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags
+  commentId: P:SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags
+  id: DoGetPersonTags
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: DoGetPersonTags
+  nameWithType: TemplateVariables.DoGetPersonTags
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual bool DoGetPersonTags { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable ReadOnly Property DoGetPersonTags As Boolean
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.TagContainer
+  commentId: T:SuperOffice.IO.TagContainer
+  parent: SuperOffice.IO
+  isExternal: true
+  name: TagContainer
+  nameWithType: TagContainer
+  fullName: SuperOffice.IO.TagContainer
+- uid: SuperOffice.IO.TagContainer._bInitiated
+  commentId: F:SuperOffice.IO.TagContainer._bInitiated
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: _bInitiated
+  nameWithType: TagContainer._bInitiated
+  fullName: SuperOffice.IO.TagContainer._bInitiated
+- uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  commentId: M:SuperOffice.IO.TagContainer.AddData(System.Object[])
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: AddData(Object[])
+  nameWithType: TagContainer.AddData(Object[])
+  fullName: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  nameWithType.vb: TagContainer.AddData(Object())
+  fullName.vb: SuperOffice.IO.TagContainer.AddData(System.Object())
+  name.vb: AddData(Object())
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.GetData
+  commentId: M:SuperOffice.IO.TagContainer.GetData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetData()
+  nameWithType: TagContainer.GetData()
+  fullName: SuperOffice.IO.TagContainer.GetData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.ClearData
+  commentId: M:SuperOffice.IO.TagContainer.ClearData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: ClearData()
+  nameWithType: TagContainer.ClearData()
+  fullName: SuperOffice.IO.TagContainer.ClearData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: SetValue(String, String)
+  nameWithType: TagContainer.SetValue(String, String)
+  fullName: SuperOffice.IO.TagContainer.SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: RemoveCustomValue(String)
+  nameWithType: TagContainer.RemoveCustomValue(String)
+  fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.CurrentUiCulture
+  commentId: P:SuperOffice.IO.TagContainer.CurrentUiCulture
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: CurrentUiCulture
+  nameWithType: TagContainer.CurrentUiCulture
+  fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
+- uid: SuperOffice.IO.TagContainer.Data
+  commentId: P:SuperOffice.IO.TagContainer.Data
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Data
+  nameWithType: TagContainer.Data
+  fullName: SuperOffice.IO.TagContainer.Data
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TemplateVariables, To>()
+  nameWithType: EnumUtil.MapEnums<TemplateVariables, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.TemplateVariables, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TemplateVariables, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.TemplateVariables, To)()
+  name.vb: MapEnums(Of TemplateVariables, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TemplateVariables, To>
+    nameWithType: EnumUtil.MapEnums<TemplateVariables, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.TemplateVariables, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TemplateVariables, To)
+    nameWithType: EnumUtil.MapEnums(Of TemplateVariables, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.TemplateVariables, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TemplateVariables, To>()
+  nameWithType: Converters.MapEnums<TemplateVariables, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.TemplateVariables, To>()
+  nameWithType.vb: Converters.MapEnums(Of TemplateVariables, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.TemplateVariables, To)()
+  name.vb: MapEnums(Of TemplateVariables, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TemplateVariables, To>
+    nameWithType: Converters.MapEnums<TemplateVariables, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.TemplateVariables, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TemplateVariables, To)
+    nameWithType: Converters.MapEnums(Of TemplateVariables, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.TemplateVariables, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.ContactTags
+  commentId: T:SuperOffice.CRM.Globalization.ContactTags
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: ContactTags
+  nameWithType: ContactTags
+  fullName: SuperOffice.CRM.Globalization.ContactTags
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.#ctor
+  isExternal: true
+  name: TemplateVariables
+  nameWithType: TemplateVariables.TemplateVariables
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.TemplateVariables
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.TemplateVariableIds
+  commentId: T:SuperOffice.CRM.Globalization.TemplateVariableIds
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: TemplateVariableIds
+  nameWithType: TemplateVariableIds
+  fullName: SuperOffice.CRM.Globalization.TemplateVariableIds
+- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetValue(String)
+  nameWithType: TagContainer.GetValue(String)
+  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.GetValue*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: TemplateVariables.GetValue
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.GetValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: IsTagLegal(String)
+  nameWithType: TagContainer.IsTagLegal(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal
+  isExternal: true
+  name: IsTagLegal
+  nameWithType: TemplateVariables.IsTagLegal
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.IsTagLegal
+- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: IsTagInContext(String)
+  nameWithType: TagContainer.IsTagInContext(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext
+  isExternal: true
+  name: IsTagInContext
+  nameWithType: TemplateVariables.IsTagInContext
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.IsTagInContext
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId
+  isExternal: true
+  name: SetInviteePersonId
+  nameWithType: TemplateVariables.SetInviteePersonId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId
+  isExternal: true
+  name: SetContactPersonId
+  nameWithType: TemplateVariables.SetContactPersonId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+  isExternal: true
+  name: SetCurrentContact
+  nameWithType: TemplateVariables.SetCurrentContact
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+- uid: SuperOffice.IO.TagContainer.Init
+  commentId: M:SuperOffice.IO.TagContainer.Init
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Init()
+  nameWithType: TagContainer.Init()
+  fullName: SuperOffice.IO.TagContainer.Init()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.Init*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.Init
+  isExternal: true
+  name: Init
+  nameWithType: TemplateVariables.Init
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.Init
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
+  isExternal: true
+  name: CurrentContact
+  nameWithType: TemplateVariables.CurrentContact
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
+  isExternal: true
+  name: CurrentPerson
+  nameWithType: TemplateVariables.CurrentPerson
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables
+  commentId: T:SuperOffice.CRM.Globalization.CurrentPersonVariables
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: CurrentPersonVariables
+  nameWithType: CurrentPersonVariables
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables
+- uid: SuperOffice.IO.TagContainer.Id
+  commentId: P:SuperOffice.IO.TagContainer.Id
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Id
+  nameWithType: TagContainer.Id
+  fullName: SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.Id*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.Id
+  isExternal: true
+  name: Id
+  nameWithType: TemplateVariables.Id
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.Id
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.PersonId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: TemplateVariables.PersonId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.PersonId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.ContactId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: TemplateVariables.ContactId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.ContactId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: TemplateVariables.AssociateId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.QuoteId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.QuoteId
+  isExternal: true
+  name: QuoteId
+  nameWithType: TemplateVariables.QuoteId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.QuoteId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: TemplateVariables.QuoteVersionId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: TemplateVariables.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.QuoteAlternativeId
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags
+  isExternal: true
+  name: DoGetPersonTags
+  nameWithType: TemplateVariables.DoGetPersonTags
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.DoGetPersonTags

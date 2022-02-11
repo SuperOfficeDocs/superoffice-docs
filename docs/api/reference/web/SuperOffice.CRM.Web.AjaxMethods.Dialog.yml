@@ -1,0 +1,1320 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Dialog
+  id: Dialog
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel(System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete(System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment(System.Int32,System.String,System.Boolean,System.Boolean,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail(System.Int32,System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail(System.Int32,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.Information(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo(System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading(System.String,System.String,System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Dialog
+  nameWithType: Dialog
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Dialog")]
+
+      public class Dialog : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Dialog")>
+
+      Public Class Dialog
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Dialog
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL
+  id: GetOnlineLearningURL
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: GetOnlineLearningURL()
+  nameWithType: Dialog.GetOnlineLearningURL()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetOnlineLearningURL()
+    return:
+      type: System.String
+    content.vb: Public Function GetOnlineLearningURL As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl(System.String)
+  id: SubstituteTemplateVariablesInUrl(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: SubstituteTemplateVariablesInUrl(String)
+  nameWithType: Dialog.SubstituteTemplateVariablesInUrl(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SubstituteTemplateVariablesInUrl(string inStr)
+    parameters:
+    - id: inStr
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SubstituteTemplateVariablesInUrl(inStr As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete(System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete(System.String,System.Boolean,System.String)
+  id: ConfirmDelete(System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ConfirmDelete(String, Boolean, String)
+  nameWithType: Dialog.ConfirmDelete(String, Boolean, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ConfirmDelete(string linkHint, bool enableYesToAll, string callBack)
+    parameters:
+    - id: linkHint
+      type: System.String
+    - id: enableYesToAll
+      type: System.Boolean
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ConfirmDelete(linkHint As String, enableYesToAll As Boolean, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo(System.String,System.String,System.String,System.String,System.String)
+  id: YesNo(System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: YesNo(String, String, String, String, String)
+  nameWithType: Dialog.YesNo(String, String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo(System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string YesNo(string title, string text, string dialogType, string checkBoxText, string callBack)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: checkBoxText
+      type: System.String
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function YesNo(title As String, text As String, dialogType As String, checkBoxText As String, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: YesNoHeading(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: YesNoHeading(String, String, String, String, String, String)
+  nameWithType: Dialog.YesNoHeading(String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string YesNoHeading(string title, string text, string dialogType, string checkBoxText, string callBack, string heading)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: checkBoxText
+      type: System.String
+    - id: callBack
+      type: System.String
+    - id: heading
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function YesNoHeading(title As String, text As String, dialogType As String, checkBoxText As String, callBack As String, heading As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser(System.Int32,System.String)
+  id: DeleteUser(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: DeleteUser(Int32, String)
+  nameWithType: Dialog.DeleteUser(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DeleteUser(int associateId, string callBack)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function DeleteUser(associateId As Integer, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.Information(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.Information(System.String,System.String,System.String)
+  id: Information(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: Information(String, String, String)
+  nameWithType: Dialog.Information(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.Information(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string Information(string title, string text, string dialogType)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Information(title As String, text As String, dialogType As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.Information*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  id: OneButtonDialog(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: OneButtonDialog(String, String, String, String, Boolean, Boolean)
+  nameWithType: Dialog.OneButtonDialog(String, String, String, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog(System.String, System.String, System.String, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string OneButtonDialog(string title, string text, string dialogType, string callback, bool addCancel = false, bool useYesNo = false)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: callback
+      type: System.String
+    - id: addCancel
+      type: System.Boolean
+    - id: useYesNo
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function OneButtonDialog(title As String, text As String, dialogType As String, callback As String, addCancel As Boolean = False, useYesNo As Boolean = False) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment(System.String,System.String,System.String,System.String)
+  id: ConfirmCreateSuggestedAppointment(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ConfirmCreateSuggestedAppointment(String, String, String, String)
+  nameWithType: Dialog.ConfirmCreateSuggestedAppointment(String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string ConfirmCreateSuggestedAppointment(string salesguidename, string appTitle, string date, string callback)
+    parameters:
+    - id: salesguidename
+      type: System.String
+    - id: appTitle
+      type: System.String
+    - id: date
+      type: System.String
+    - id: callback
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ConfirmCreateSuggestedAppointment(salesguidename As String, appTitle As String, date As String, callback As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment(System.Int32,System.String,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment(System.Int32,System.String,System.Boolean,System.Boolean,System.String)
+  id: ConfirmDeleteRecurringAppointment(System.Int32,System.String,System.Boolean,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ConfirmDeleteRecurringAppointment(Int32, String, Boolean, Boolean, String)
+  nameWithType: Dialog.ConfirmDeleteRecurringAppointment(Int32, String, Boolean, Boolean, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment(System.Int32, System.String, System.Boolean, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ConfirmDeleteRecurringAppointment(int appointmentId, string task, bool enableYesToAll, bool ignoreEmail, string callBack)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: task
+      type: System.String
+    - id: enableYesToAll
+      type: System.Boolean
+    - id: ignoreEmail
+      type: System.Boolean
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ConfirmDeleteRecurringAppointment(appointmentId As Integer, task As String, enableYesToAll As Boolean, ignoreEmail As Boolean, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail(System.Int32,System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail(System.Int32,System.String,System.Boolean,System.String)
+  id: ConfirmDeleteRecurringAppointmentWithEmail(System.Int32,System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ConfirmDeleteRecurringAppointmentWithEmail(Int32, String, Boolean, String)
+  nameWithType: Dialog.ConfirmDeleteRecurringAppointmentWithEmail(Int32, String, Boolean, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail(System.Int32, System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ConfirmDeleteRecurringAppointmentWithEmail(int appointmentId, string task, bool enableYesToAll, string callBack)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: task
+      type: System.String
+    - id: enableYesToAll
+      type: System.Boolean
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ConfirmDeleteRecurringAppointmentWithEmail(appointmentId As Integer, task As String, enableYesToAll As Boolean, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail(System.Int32,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail(System.Int32,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)
+  id: ConfirmUpdateAppointmentSendEmail(System.Int32,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ConfirmUpdateAppointmentSendEmail(Int32, String, Boolean, Boolean, String, Boolean)
+  nameWithType: Dialog.ConfirmUpdateAppointmentSendEmail(Int32, String, Boolean, Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail(System.Int32, System.String, System.Boolean, System.Boolean, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ConfirmUpdateAppointmentSendEmail(int appointmentId, string task, bool enableYesToAll, bool isLoggedOnMailServer, string callBack, bool displayNeverShowAgainCheckbox)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: task
+      type: System.String
+    - id: enableYesToAll
+      type: System.Boolean
+    - id: isLoggedOnMailServer
+      type: System.Boolean
+    - id: callBack
+      type: System.String
+    - id: displayNeverShowAgainCheckbox
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function ConfirmUpdateAppointmentSendEmail(appointmentId As Integer, task As String, enableYesToAll As Boolean, isLoggedOnMailServer As Boolean, callBack As String, displayNeverShowAgainCheckbox As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: ThreeButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ThreeButton(String, String, String, String, String, String, String)
+  nameWithType: Dialog.ThreeButton(String, String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ThreeButton(string title, string text, string buttonText1, string buttonText2, string dialogType, string context, string callBack)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: buttonText1
+      type: System.String
+    - id: buttonText2
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: context
+      type: System.String
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ThreeButton(title As String, text As String, buttonText1 As String, buttonText2 As String, dialogType As String, context As String, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: OkNormalButtonWithCancel(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: OkNormalButtonWithCancel(String, String, String, String, String, String, String)
+  nameWithType: Dialog.OkNormalButtonWithCancel(String, String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string OkNormalButtonWithCancel(string title, string text, string buttonText1, string buttonText2, string dialogType, string context, string callBack)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: buttonText1
+      type: System.String
+    - id: buttonText2
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: context
+      type: System.String
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function OkNormalButtonWithCancel(title As String, text As String, buttonText1 As String, buttonText2 As String, dialogType As String, context As String, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: OkNormalButton(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: OkNormalButton(String, String, String, String, String, String, String)
+  nameWithType: Dialog.OkNormalButton(String, String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string OkNormalButton(string title, string text, string buttonText1, string buttonText2, string dialogType, string context, string callBack)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: buttonText1
+      type: System.String
+    - id: buttonText2
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: context
+      type: System.String
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function OkNormalButton(title As String, text As String, buttonText1 As String, buttonText2 As String, dialogType As String, context As String, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: ButtonDialogWithCancel(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: ButtonDialogWithCancel(String, String, String, String, String, String)
+  nameWithType: Dialog.ButtonDialogWithCancel(String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ButtonDialogWithCancel(string title, string text, string dialogType, string context, string callBack, string buttonTexts)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: context
+      type: System.String
+    - id: callBack
+      type: System.String
+    - id: buttonTexts
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ButtonDialogWithCancel(title As String, text As String, dialogType As String, context As String, callBack As String, buttonTexts As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel(System.String,System.String,System.String,System.String)
+  id: YesNoCancel(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: YesNoCancel(String, String, String, String)
+  nameWithType: Dialog.YesNoCancel(String, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string YesNoCancel(string title, string text, string dialogType, string callBack)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    - id: callBack
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function YesNoCancel(title As String, text As String, dialogType As String, callBack As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize(System.String,System.Int32,System.Int32)
+  id: SetDialogSize(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: SetDialogSize(String, Int32, Int32)
+  nameWithType: Dialog.SetDialogSize(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetDialogSize(string name, int width, int height)
+    parameters:
+    - id: name
+      type: System.String
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    content.vb: Public Sub SetDialogSize(name As String, width As Integer, height As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes
+  id: GetDialogSizes
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: GetDialogSizes()
+  nameWithType: Dialog.GetDialogSizes()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Dialog.DialogInfo[] GetDialogSizes()
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo[]
+    content.vb: Public Function GetDialogSizes As Dialog.DialogInfo()
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize(System.String)
+  id: GetDialogSize(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: GetDialogSize(String)
+  nameWithType: Dialog.GetDialogSize(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Dialog.DialogInfo GetDialogSize(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+    content.vb: Public Function GetDialogSize(name As String) As Dialog.DialogInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Dialog.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Dialog
+  langs:
+  - csharp
+  - vb
+  name: Dialog()
+  nameWithType: Dialog.Dialog()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.Dialog()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Dialog()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Dialog.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL
+  isExternal: true
+  name: GetOnlineLearningURL
+  nameWithType: Dialog.GetOnlineLearningURL
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetOnlineLearningURL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl
+  isExternal: true
+  name: SubstituteTemplateVariablesInUrl
+  nameWithType: Dialog.SubstituteTemplateVariablesInUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.SubstituteTemplateVariablesInUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete
+  isExternal: true
+  name: ConfirmDelete
+  nameWithType: Dialog.ConfirmDelete
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDelete
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo
+  isExternal: true
+  name: YesNo
+  nameWithType: Dialog.YesNo
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading
+  isExternal: true
+  name: YesNoHeading
+  nameWithType: Dialog.YesNoHeading
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoHeading
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser
+  isExternal: true
+  name: DeleteUser
+  nameWithType: Dialog.DeleteUser
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.DeleteUser
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.Information*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.Information
+  isExternal: true
+  name: Information
+  nameWithType: Dialog.Information
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.Information
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog
+  isExternal: true
+  name: OneButtonDialog
+  nameWithType: Dialog.OneButtonDialog
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.OneButtonDialog
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment
+  isExternal: true
+  name: ConfirmCreateSuggestedAppointment
+  nameWithType: Dialog.ConfirmCreateSuggestedAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmCreateSuggestedAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment
+  isExternal: true
+  name: ConfirmDeleteRecurringAppointment
+  nameWithType: Dialog.ConfirmDeleteRecurringAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail
+  isExternal: true
+  name: ConfirmDeleteRecurringAppointmentWithEmail
+  nameWithType: Dialog.ConfirmDeleteRecurringAppointmentWithEmail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmDeleteRecurringAppointmentWithEmail
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail
+  isExternal: true
+  name: ConfirmUpdateAppointmentSendEmail
+  nameWithType: Dialog.ConfirmUpdateAppointmentSendEmail
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ConfirmUpdateAppointmentSendEmail
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton
+  isExternal: true
+  name: ThreeButton
+  nameWithType: Dialog.ThreeButton
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ThreeButton
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel
+  isExternal: true
+  name: OkNormalButtonWithCancel
+  nameWithType: Dialog.OkNormalButtonWithCancel
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButtonWithCancel
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton
+  isExternal: true
+  name: OkNormalButton
+  nameWithType: Dialog.OkNormalButton
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.OkNormalButton
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel
+  isExternal: true
+  name: ButtonDialogWithCancel
+  nameWithType: Dialog.ButtonDialogWithCancel
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.ButtonDialogWithCancel
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel
+  isExternal: true
+  name: YesNoCancel
+  nameWithType: Dialog.YesNoCancel
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.YesNoCancel
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize
+  isExternal: true
+  name: SetDialogSize
+  nameWithType: Dialog.SetDialogSize
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.SetDialogSize
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes
+  isExternal: true
+  name: GetDialogSizes
+  nameWithType: Dialog.GetDialogSizes
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSizes
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo[]
+  isExternal: true
+  name: Dialog.DialogInfo[]
+  nameWithType: Dialog.DialogInfo[]
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo[]
+  nameWithType.vb: Dialog.DialogInfo()
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo()
+  name.vb: Dialog.DialogInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+    name: Dialog.DialogInfo
+    nameWithType: Dialog.DialogInfo
+    fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+    name: Dialog.DialogInfo
+    nameWithType: Dialog.DialogInfo
+    fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize
+  isExternal: true
+  name: GetDialogSize
+  nameWithType: Dialog.GetDialogSize
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.GetDialogSize
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: Dialog.DialogInfo
+  nameWithType: Dialog.DialogInfo
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Dialog.#ctor
+  isExternal: true
+  name: Dialog
+  nameWithType: Dialog.Dialog
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Dialog.Dialog

@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  id: DBC.ImportDefaultFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.DbFieldId
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportDefaultId
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportObjectId
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.IntValue
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsBuiltin
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsSearchField
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.Registered
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.StrValue
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.Updated
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ImportDefaultFields
+  nameWithType: DBC.ImportDefaultFields
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ImportDefault, Defaults for import fields/objects\n"
+  syntax:
+    content: public static class ImportDefaultFields
+    content.vb: Public Module ImportDefaultFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportDefaultId
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportDefaultId
+  id: ImportDefaultId
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: ImportDefaultId
+  nameWithType: DBC.ImportDefaultFields.ImportDefaultId
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportDefaultId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.ImportDefaultId: Primary key\n"
+  syntax:
+    content: public const string ImportDefaultId = "ImportDefault_id"
+    return:
+      type: System.String
+    content.vb: Public Const ImportDefaultId As String = "ImportDefault_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportObjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportObjectId
+  id: ImportObjectId
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: ImportObjectId
+  nameWithType: DBC.ImportDefaultFields.ImportObjectId
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.ImportObjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.ImportObjectId: The object this default applies to\n"
+  syntax:
+    content: public const string ImportObjectId = "ImportObject_id"
+    return:
+      type: System.String
+    content.vb: Public Const ImportObjectId As String = "ImportObject_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.DbFieldId
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.DbFieldId
+  id: DbFieldId
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: DbFieldId
+  nameWithType: DBC.ImportDefaultFields.DbFieldId
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.DbFieldId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.DbFieldId: The database field (within that object, presumably!) this default applies to\n"
+  syntax:
+    content: public const string DbFieldId = "dbFieldId"
+    return:
+      type: System.String
+    content.vb: Public Const DbFieldId As String = "dbFieldId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.IntValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.IntValue
+  id: IntValue
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: IntValue
+  nameWithType: DBC.ImportDefaultFields.IntValue
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.IntValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.IntValue: Integer default value\n"
+  syntax:
+    content: public const string IntValue = "intValue"
+    return:
+      type: System.String
+    content.vb: Public Const IntValue As String = "intValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.StrValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.StrValue
+  id: StrValue
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: StrValue
+  nameWithType: DBC.ImportDefaultFields.StrValue
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.StrValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.StrValue: String value\n"
+  syntax:
+    content: public const string StrValue = "strValue"
+    return:
+      type: System.String
+    content.vb: Public Const StrValue As String = "strValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsSearchField
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsSearchField
+  id: IsSearchField
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: IsSearchField
+  nameWithType: DBC.ImportDefaultFields.IsSearchField
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsSearchField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.IsSearchField: If 1, the given db field is part of the search criteria for the given object\n"
+  syntax:
+    content: public const string IsSearchField = "isSearchField"
+    return:
+      type: System.String
+    content.vb: Public Const IsSearchField As String = "isSearchField"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ImportDefaultFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ImportDefaultFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ImportDefaultFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ImportDefaultFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ImportDefaultFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsBuiltin
+  commentId: F:SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsBuiltin
+  id: IsBuiltin
+  parent: SuperOffice.CRM.Data.DBC.ImportDefaultFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin
+  nameWithType: DBC.ImportDefaultFields.IsBuiltin
+  fullName: SuperOffice.CRM.Data.DBC.ImportDefaultFields.IsBuiltin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nImportDefault.IsBuiltin: 1 = This row populated and maintained by SuperOffice\n"
+  syntax:
+    content: public const string IsBuiltin = "isBuiltin"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltin As String = "isBuiltin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,11 @@
+digraph DataRight  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+DataRight[fillcolor = "cadetblue1"]
+Role[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+DataRight -> Role [headlabel = "roleId"]
+DataRight -> associate [headlabel = "registered_associate_id"]
+DataRight -> associate [label = "updated_associate_id"]
+}

@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ChatSessionStatus
+  # Same as SuperOffice.Data.ChatSessionStatus
+  commentId: T:CRMScript.NetServer.ChatSessionStatus
+  id: ChatSessionStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ChatSessionStatus.Invalid
+  - CRMScript.NetServer.ChatSessionStatus.PreChatForm
+  - CRMScript.NetServer.ChatSessionStatus.Faq
+  - CRMScript.NetServer.ChatSessionStatus.OfflineForm
+  - CRMScript.NetServer.ChatSessionStatus.InQueue
+  - CRMScript.NetServer.ChatSessionStatus.CustomerLast
+  - CRMScript.NetServer.ChatSessionStatus.UserLast
+  - CRMScript.NetServer.ChatSessionStatus.Finished
+  - CRMScript.NetServer.ChatSessionStatus.Deleted
+  - CRMScript.NetServer.ChatSessionStatus.Closed
+  - CRMScript.NetServer.ChatSessionStatus.RequestPosted
+  - CRMScript.NetServer.ChatSessionStatus.ClosedFromQueue
+  name: ChatSessionStatus
+  nameWithType: ChatSessionStatus
+  fullName: CRMScript.NetServer.ChatSessionStatus
+  type: Enum
+  summary: # TODO
+- uid: CRMScript.NetServer.ChatSessionStatus.Invalid
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.Invalid
+  id: ChatSessionStatus.Invalid
+  langs:
+  - crmscript
+  name: ChatSessionStatus.Invalid
+  nameWithType: ChatSessionStatus.Invalid
+  fullName: CRMScript.NetServer.ChatSessionStatus.Invalid
+  type: Field
+  summary: "\n0: Invalid\n"
+  syntax: 
+    content: Invalid = 0
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.PreChatForm
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.PreChatForm
+  id: ChatSessionStatus.PreChatForm
+  langs:
+  - crmscript
+  name: ChatSessionStatus.PreChatForm
+  nameWithType: ChatSessionStatus.PreChatForm
+  fullName: CRMScript.NetServer.ChatSessionStatus.PreChatForm
+  type: Field
+  summary: "\n1: PreChatForm\n"
+  syntax: 
+    content: PreChatForm = 1
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.Faq
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.Faq
+  id: ChatSessionStatus.Faq
+  langs:
+  - crmscript
+  name: ChatSessionStatus.Faq
+  nameWithType: ChatSessionStatus.Faq
+  fullName: CRMScript.NetServer.ChatSessionStatus.Faq
+  type: Field
+  summary: "\n2: Faq\n"
+  syntax: 
+    content: Faq = 2
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.OfflineForm
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.OfflineForm
+  id: ChatSessionStatus.OfflineForm
+  langs:
+  - crmscript
+  name: ChatSessionStatus.OfflineForm
+  nameWithType: ChatSessionStatus.OfflineForm
+  fullName: CRMScript.NetServer.ChatSessionStatus.OfflineForm
+  type: Field
+  summary: "\n3: OfflineForm\n"
+  syntax: 
+    content: OfflineForm = 3
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.InQueue
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.InQueue
+  id: ChatSessionStatus.InQueue
+  langs:
+  - crmscript
+  name: ChatSessionStatus.InQueue
+  nameWithType: ChatSessionStatus.InQueue
+  fullName: CRMScript.NetServer.ChatSessionStatus.InQueue
+  type: Field
+  summary: "\n4: InQueue\n"
+  syntax: 
+    content: InQueue = 4
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.CustomerLast
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.CustomerLast
+  id: ChatSessionStatus.CustomerLast
+  langs:
+  - crmscript
+  name: ChatSessionStatus.CustomerLast
+  nameWithType: ChatSessionStatus.CustomerLast
+  fullName: CRMScript.NetServer.ChatSessionStatus.CustomerLast
+  type: Field
+  summary: "\n5: CustomerLast\n"
+  syntax: 
+    content: CustomerLast = 5
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.UserLast
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.UserLast
+  id: ChatSessionStatus.UserLast
+  langs:
+  - crmscript
+  name: ChatSessionStatus.UserLast
+  nameWithType: ChatSessionStatus.UserLast
+  fullName: CRMScript.NetServer.ChatSessionStatus.UserLast
+  type: Field
+  summary: "\n6: UserLast\n"
+  syntax: 
+    content: UserLast = 6
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.Finished
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.Finished
+  id: ChatSessionStatus.Finished
+  langs:
+  - crmscript
+  name: ChatSessionStatus.Finished
+  nameWithType: ChatSessionStatus.Finished
+  fullName: CRMScript.NetServer.ChatSessionStatus.Finished
+  type: Field
+  summary: "\n7: Finished\n"
+  syntax: 
+    content: Finished = 7
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.Deleted
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.Deleted
+  id: ChatSessionStatus.Deleted
+  langs:
+  - crmscript
+  name: ChatSessionStatus.Deleted
+  nameWithType: ChatSessionStatus.Deleted
+  fullName: CRMScript.NetServer.ChatSessionStatus.Deleted
+  type: Field
+  summary: "\n8: Deleted\n"
+  syntax: 
+    content: Deleted = 8
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.Closed
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.Closed
+  id: ChatSessionStatus.Closed
+  langs:
+  - crmscript
+  name: ChatSessionStatus.Closed
+  nameWithType: ChatSessionStatus.Closed
+  fullName: CRMScript.NetServer.ChatSessionStatus.Closed
+  type: Field
+  summary: "\n9: Closed\n"
+  syntax: 
+    content: Closed = 9
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.RequestPosted
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.RequestPosted
+  id: ChatSessionStatus.RequestPosted
+  langs:
+  - crmscript
+  name: ChatSessionStatus.RequestPosted
+  nameWithType: ChatSessionStatus.RequestPosted
+  fullName: CRMScript.NetServer.ChatSessionStatus.RequestPosted
+  type: Field
+  summary: "\n10: RequestPosted\n"
+  syntax: 
+    content: RequestPosted = 10
+    type: CRMScript.NetServer.ChatSessionStatus
+- uid: CRMScript.NetServer.ChatSessionStatus.ClosedFromQueue
+  commentId: F:CRMScript.NetServer.ChatSessionStatus.ClosedFromQueue
+  id: ChatSessionStatus.ClosedFromQueue
+  langs:
+  - crmscript
+  name: ChatSessionStatus.ClosedFromQueue
+  nameWithType: ChatSessionStatus.ClosedFromQueue
+  fullName: CRMScript.NetServer.ChatSessionStatus.ClosedFromQueue
+  type: Field
+  summary: "\n11: ClosedFromQueue\n"
+  syntax: 
+    content: ClosedFromQueue = 11
+    type: CRMScript.NetServer.ChatSessionStatus
+references:
+- uid: CRMScript.NetServer.ChatSessionStatus
+  commentId: T:CRMScript.NetServer.ChatSessionStatus
+  isExternal: true
+  name: ChatSessionStatus
+  nameWithType: ChatSessionStatus
+  fullName: CRMScript.NetServer.ChatSessionStatus

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
+  commentId: T:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
+  id: ForeignSystem_SaveForeignDeviceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.#ctor
+  - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_SaveForeignDeviceRequest
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ForeignSystem_SaveForeignDeviceRequest : Object'
+    content.vb: >-
+      Public Class ForeignSystem_SaveForeignDeviceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_SaveForeignDeviceRequest()
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest.ForeignSystem_SaveForeignDeviceRequest()
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignSystem_SaveForeignDeviceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignSystem_SaveForeignDeviceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  id: ForeignDevice
+  parent: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignDevice
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignDevice ForeignDevice { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ForeignDevice
+    content.vb: Public Property ForeignDevice As ForeignDevice
+  overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.#ctor
+  isExternal: true
+  name: ForeignSystem_SaveForeignDeviceRequest
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest.ForeignSystem_SaveForeignDeviceRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignSystem_SaveForeignDeviceRequest
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  isExternal: true
+  name: ForeignDevice
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ForeignDevice
+- uid: SuperOffice.WebApi.Data.ForeignDevice
+  commentId: T:SuperOffice.WebApi.Data.ForeignDevice
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ForeignDevice
+  nameWithType: ForeignDevice
+  fullName: SuperOffice.WebApi.Data.ForeignDevice
+- uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  id: Document_ExecuteDocumentCommandRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData
+  - SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  - SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command
+  - SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId
+  - SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId
+  langs:
+  - csharp
+  - vb
+  name: Document_ExecuteDocumentCommandRequest
+  nameWithType: Document_ExecuteDocumentCommandRequest
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_ExecuteDocumentCommandRequest : Object'
+    content.vb: >-
+      Public Class Document_ExecuteDocumentCommandRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_ExecuteDocumentCommandRequest()
+  nameWithType: Document_ExecuteDocumentCommandRequest.Document_ExecuteDocumentCommandRequest()
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Document_ExecuteDocumentCommandRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_ExecuteDocumentCommandRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_ExecuteDocumentCommandRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId
+  commentId: P:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId
+  id: VersionId
+  parent: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  langs:
+  - csharp
+  - vb
+  name: VersionId
+  nameWithType: Document_ExecuteDocumentCommandRequest.VersionId
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string VersionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VersionId As String
+  overload: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  commentId: P:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  id: AllowedReturnTypes
+  parent: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  langs:
+  - csharp
+  - vb
+  name: AllowedReturnTypes
+  nameWithType: Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] AllowedReturnTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AllowedReturnTypes As String()
+  overload: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command
+  commentId: P:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command
+  id: Command
+  parent: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: Document_ExecuteDocumentCommandRequest.Command
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Command { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Command As String
+  overload: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData
+  commentId: P:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData
+  id: AdditionalData
+  parent: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest
+  langs:
+  - csharp
+  - vb
+  name: AdditionalData
+  nameWithType: Document_ExecuteDocumentCommandRequest.AdditionalData
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] AdditionalData { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AdditionalData As String()
+  overload: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.#ctor
+  isExternal: true
+  name: Document_ExecuteDocumentCommandRequest
+  nameWithType: Document_ExecuteDocumentCommandRequest.Document_ExecuteDocumentCommandRequest
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Document_ExecuteDocumentCommandRequest
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_ExecuteDocumentCommandRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId
+  isExternal: true
+  name: VersionId
+  nameWithType: Document_ExecuteDocumentCommandRequest.VersionId
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.VersionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  isExternal: true
+  name: AllowedReturnTypes
+  nameWithType: Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AllowedReturnTypes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command
+  isExternal: true
+  name: Command
+  nameWithType: Document_ExecuteDocumentCommandRequest.Command
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.Command
+- uid: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData
+  isExternal: true
+  name: AdditionalData
+  nameWithType: Document_ExecuteDocumentCommandRequest.AdditionalData
+  fullName: SuperOffice.WebApi.Data.Document_ExecuteDocumentCommandRequest.AdditionalData

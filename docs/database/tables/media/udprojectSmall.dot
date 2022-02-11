@@ -1,0 +1,8 @@
+digraph udprojectSmall  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+udprojectSmall[fillcolor = "cadetblue1"]
+project[fillcolor = "azure1"]
+project -> udprojectSmall [label = "userdef_id"]
+}

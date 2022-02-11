@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  id: Archive_GetArchiveListWithContextRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction
+  - SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetArchiveListWithContextRequest
+  nameWithType: Archive_GetArchiveListWithContextRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetArchiveListWithContextRequest : Object'
+    content.vb: >-
+      Public Class Archive_GetArchiveListWithContextRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetArchiveListWithContextRequest()
+  nameWithType: Archive_GetArchiveListWithContextRequest.Archive_GetArchiveListWithContextRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Archive_GetArchiveListWithContextRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetArchiveListWithContextRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName
+  id: GuiName
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: GuiName
+  nameWithType: Archive_GetArchiveListWithContextRequest.GuiName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string GuiName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GuiName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_GetArchiveListWithContextRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: Archive_GetArchiveListWithContextRequest.SortOrder
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveOrderByInfo[] SortOrder { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+    content.vb: Public Property SortOrder As ArchiveOrderByInfo()
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction
+  id: Restriction
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Restriction
+  nameWithType: Archive_GetArchiveListWithContextRequest.Restriction
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restriction { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restriction As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities
+  id: Entities
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: Archive_GetArchiveListWithContextRequest.Entities
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Entities { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Entities As String()
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page
+  id: Page
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: Archive_GetArchiveListWithContextRequest.Page
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Page { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Page As Integer
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize
+  id: PageSize
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: Archive_GetArchiveListWithContextRequest.PageSize
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageSize As Integer
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Archive_GetArchiveListWithContextRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.#ctor
+  isExternal: true
+  name: Archive_GetArchiveListWithContextRequest
+  nameWithType: Archive_GetArchiveListWithContextRequest.Archive_GetArchiveListWithContextRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Archive_GetArchiveListWithContextRequest
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName
+  isExternal: true
+  name: GuiName
+  nameWithType: Archive_GetArchiveListWithContextRequest.GuiName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.GuiName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_GetArchiveListWithContextRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: Archive_GetArchiveListWithContextRequest.SortOrder
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.SortOrder
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction
+  isExternal: true
+  name: Restriction
+  nameWithType: Archive_GetArchiveListWithContextRequest.Restriction
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Restriction
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities
+  isExternal: true
+  name: Entities
+  nameWithType: Archive_GetArchiveListWithContextRequest.Entities
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Entities
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page
+  isExternal: true
+  name: Page
+  nameWithType: Archive_GetArchiveListWithContextRequest.Page
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Page
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: Archive_GetArchiveListWithContextRequest.PageSize
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.PageSize
+- uid: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Archive_GetArchiveListWithContextRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListWithContextRequest.Context

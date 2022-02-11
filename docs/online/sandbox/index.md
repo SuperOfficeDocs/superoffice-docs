@@ -95,7 +95,7 @@ To turn off these settings, set both preferences to **No**.
 <!-- Referenced links -->
 [1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FWebpanel.htm
 [2]: replace.md
-[3]: ../../license/user-plans.md
+[3]: ../../admin/license/user-plans.md
 [4]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=formFrame&formId=F-M6gYjVxc
 
 <!-- Referenced images -->

@@ -1,0 +1,597 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  commentId: T:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  id: UserPreferenceAsResourceProvider
+  parent: SuperOffice.CRM.Web.Globalization
+  children:
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.#ctor
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String)
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String,System.String)
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages
+  - SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceAsResourceProvider
+  nameWithType: UserPreferenceAsResourceProvider
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: 'public sealed class UserPreferenceAsResourceProvider : IResourceProvider, IPlugin'
+    content.vb: >-
+      Public NotInheritable Class UserPreferenceAsResourceProvider
+          Implements IResourceProvider, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Globalization.IResourceProvider
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize
+  commentId: M:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize
+  id: Initialize
+  parent: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: UserPreferenceAsResourceProvider.Initialize()
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize
+  commentId: M:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize
+  id: CanInitialize
+  parent: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: CanInitialize()
+  nameWithType: UserPreferenceAsResourceProvider.CanInitialize()
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: public bool CanInitialize()
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanInitialize As Boolean
+  overload: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages
+  commentId: M:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages
+  id: GetSupportedLanguages
+  parent: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedLanguages()
+  nameWithType: UserPreferenceAsResourceProvider.GetSupportedLanguages()
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: public CultureInfo[] GetSupportedLanguages()
+    return:
+      type: System.Globalization.CultureInfo[]
+    content.vb: Public Function GetSupportedLanguages As CultureInfo()
+  overload: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String)
+  commentId: M:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String)
+  id: GetResource(System.String)
+  parent: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetResource(String)
+  nameWithType: UserPreferenceAsResourceProvider.GetResource(String)
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: public string GetResource(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetResource(name As String) As String
+  overload: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String,System.String)
+  id: GetResource(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetResource(String, String)
+  nameWithType: UserPreferenceAsResourceProvider.GetResource(String, String)
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: public string GetResource(string name, string cultureName)
+    parameters:
+    - id: name
+      type: System.String
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetResource(name As String, cultureName As String) As String
+  overload: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.#ctor
+  commentId: M:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceAsResourceProvider()
+  nameWithType: UserPreferenceAsResourceProvider.UserPreferenceAsResourceProvider()
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.UserPreferenceAsResourceProvider()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Globalization
+  syntax:
+    content: public UserPreferenceAsResourceProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Globalization
+  commentId: N:SuperOffice.CRM.Web.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Web.Globalization
+  nameWithType: SuperOffice.CRM.Web.Globalization
+  fullName: SuperOffice.CRM.Web.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: IResourceProvider
+  nameWithType: IResourceProvider
+  fullName: SuperOffice.Globalization.IResourceProvider
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: UserPreferenceAsResourceProvider.Initialize
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.Initialize
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize*
+  commentId: Overload:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize
+  isExternal: true
+  name: CanInitialize
+  nameWithType: UserPreferenceAsResourceProvider.CanInitialize
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.CanInitialize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages*
+  commentId: Overload:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages
+  isExternal: true
+  name: GetSupportedLanguages
+  nameWithType: UserPreferenceAsResourceProvider.GetSupportedLanguages
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetSupportedLanguages
+- uid: System.Globalization.CultureInfo[]
+  isExternal: true
+  name: CultureInfo[]
+  nameWithType: CultureInfo[]
+  fullName: System.Globalization.CultureInfo[]
+  nameWithType.vb: CultureInfo()
+  fullName.vb: System.Globalization.CultureInfo()
+  name.vb: CultureInfo()
+  spec.csharp:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource*
+  commentId: Overload:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource
+  isExternal: true
+  name: GetResource
+  nameWithType: UserPreferenceAsResourceProvider.GetResource
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.GetResource
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.#ctor
+  isExternal: true
+  name: UserPreferenceAsResourceProvider
+  nameWithType: UserPreferenceAsResourceProvider.UserPreferenceAsResourceProvider
+  fullName: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider.UserPreferenceAsResourceProvider

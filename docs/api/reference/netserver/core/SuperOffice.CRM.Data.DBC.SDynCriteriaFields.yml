@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  id: DBC.SDynCriteriaFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.CriteriaValue
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Field
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.ListId
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.LogOp
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Operator
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SDynCriteriaId
+  - SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: DBC.SDynCriteriaFields
+  nameWithType: DBC.SDynCriteriaFields
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SDynCriteria, Contains criterias for a dynamic list.\n"
+  syntax:
+    content: public static class SDynCriteriaFields
+    content.vb: Public Module SDynCriteriaFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SDynCriteriaId
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SDynCriteriaId
+  id: SDynCriteriaId
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: SDynCriteriaId
+  nameWithType: DBC.SDynCriteriaFields.SDynCriteriaId
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SDynCriteriaId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.SDynCriteriaId: Primary key\n"
+  syntax:
+    content: public const string SDynCriteriaId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const SDynCriteriaId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.ListId
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.ListId
+  id: ListId
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: ListId
+  nameWithType: DBC.SDynCriteriaFields.ListId
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.ListId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.ListId: Connects the criteria to a list.\n"
+  syntax:
+    content: public const string ListId = "list_id"
+    return:
+      type: System.String
+    content.vb: Public Const ListId As String = "list_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SortOrder
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: DBC.SDynCriteriaFields.SortOrder
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.SortOrder: The order to sort the query. Not really relevant\n"
+  syntax:
+    content: public const string SortOrder = "sort_order"
+    return:
+      type: System.String
+    content.vb: Public Const SortOrder As String = "sort_order"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Field
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Field
+  id: Field
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: DBC.SDynCriteriaFields.Field
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Field
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.Field: Which field to test in this criteria\n"
+  syntax:
+    content: public const string Field = "field"
+    return:
+      type: System.String
+    content.vb: Public Const Field As String = "field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Operator
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Operator
+  id: Operator
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: DBC.SDynCriteriaFields.Operator
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.Operator
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.Operator: Equals, gt, lt etc.\n"
+  syntax:
+    content: public const string Operator = "operator"
+    return:
+      type: System.String
+    content.vb: Public Const Operator As String = "operator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.CriteriaValue
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.CriteriaValue
+  id: CriteriaValue
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: CriteriaValue
+  nameWithType: DBC.SDynCriteriaFields.CriteriaValue
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.CriteriaValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.CriteriaValue: The value\n"
+  syntax:
+    content: public const string CriteriaValue = "value"
+    return:
+      type: System.String
+    content.vb: Public Const CriteriaValue As String = "value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.LogOp
+  commentId: F:SuperOffice.CRM.Data.DBC.SDynCriteriaFields.LogOp
+  id: LogOp
+  parent: SuperOffice.CRM.Data.DBC.SDynCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: LogOp
+  nameWithType: DBC.SDynCriteriaFields.LogOp
+  fullName: SuperOffice.CRM.Data.DBC.SDynCriteriaFields.LogOp
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSDynCriteria.LogOp: And/or\n"
+  syntax:
+    content: public const string LogOp = "log_op"
+    return:
+      type: System.String
+    content.vb: Public Const LogOp As String = "log_op"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem
+  commentId: T:SuperOffice.WebApi.Data.ActivitySummaryItem
+  id: ActivitySummaryItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.#ctor
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.Date
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.Description
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId
+  - SuperOffice.WebApi.Data.ActivitySummaryItem.Registered
+  langs:
+  - csharp
+  - vb
+  name: ActivitySummaryItem
+  nameWithType: ActivitySummaryItem
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ActivitySummaryItem.\nSummary details about appointments and documents.    \n"
+  syntax:
+    content: 'public class ActivitySummaryItem : Object'
+    content.vb: >-
+      Public Class ActivitySummaryItem
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ActivitySummaryItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ActivitySummaryItem()
+  nameWithType: ActivitySummaryItem.ActivitySummaryItem()
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.ActivitySummaryItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ActivitySummaryItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: ActivitySummaryItem.AppointmentId
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: ActivitySummaryItem.DocumentId
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDocument id - 0 if not a document\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Date
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: ActivitySummaryItem.Date
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Date
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStart/Document date\n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Description
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ActivitySummaryItem.Description
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe appointment&apos;s textbox; document title\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  id: Completed_String
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Completed_String
+  nameWithType: ActivitySummaryItem.Completed_String
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Completed state. NotStarted(1) or Completed(3)\nRaw string enum value.\n"
+  syntax:
+    content: public string Completed_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Completed_String As String
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+    commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  id: Completed
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: ActivitySummaryItem.Completed
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Completed state. NotStarted(1) or Completed(3)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ActivityStatus> Completed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
+    content.vb: Public Property Completed As Nullable(Of ActivityStatus)
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+    commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Registered
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.ActivitySummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ActivitySummaryItem.Registered
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered date\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.ActivitySummaryItem.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.#ctor
+  isExternal: true
+  name: ActivitySummaryItem
+  nameWithType: ActivitySummaryItem.ActivitySummaryItem
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.ActivitySummaryItem
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: ActivitySummaryItem.AppointmentId
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: ActivitySummaryItem.DocumentId
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.DocumentId
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Date*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.Date
+  isExternal: true
+  name: Date
+  nameWithType: ActivitySummaryItem.Date
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.Description
+  isExternal: true
+  name: Description
+  nameWithType: ActivitySummaryItem.Description
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  isExternal: true
+  name: Completed_String
+  nameWithType: ActivitySummaryItem.Completed_String
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: ActivitySummaryItem.Completed
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummaryItem.Completed_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}'
+  definition: System.Nullable`1
+  name: Nullable<ActivityStatus>
+  nameWithType: Nullable<ActivityStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ActivityStatus>
+  nameWithType.vb: Nullable(Of ActivityStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ActivityStatus)
+  name.vb: Nullable(Of ActivityStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ActivityStatus
+    name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ActivityStatus
+    name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ActivitySummaryItem.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummaryItem.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: ActivitySummaryItem.Registered
+  fullName: SuperOffice.WebApi.Data.ActivitySummaryItem.Registered

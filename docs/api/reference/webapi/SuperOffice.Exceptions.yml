@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  id: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.WebApiException
+  - SuperOffice.Exceptions.WebApiUnauthorizedException
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi
+references:
+- uid: SuperOffice.Exceptions.WebApiException
+  commentId: T:SuperOffice.Exceptions.WebApiException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: WebApiException
+  nameWithType: WebApiException
+  fullName: SuperOffice.Exceptions.WebApiException
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException
+  commentId: T:SuperOffice.Exceptions.WebApiUnauthorizedException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: WebApiUnauthorizedException
+  nameWithType: WebApiUnauthorizedException
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions

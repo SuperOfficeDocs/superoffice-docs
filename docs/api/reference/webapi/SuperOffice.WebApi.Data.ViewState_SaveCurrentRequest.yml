@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest
+  id: ViewState_SaveCurrentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SaveCurrentRequest
+  nameWithType: ViewState_SaveCurrentRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_SaveCurrentRequest : Object'
+    content.vb: >-
+      Public Class ViewState_SaveCurrentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SaveCurrentRequest()
+  nameWithType: ViewState_SaveCurrentRequest.ViewState_SaveCurrentRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.ViewState_SaveCurrentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_SaveCurrentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current
+  commentId: P:SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current
+  id: Current
+  parent: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: ViewState_SaveCurrentRequest.Current
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public History Current { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.History
+    content.vb: Public Property Current As History
+  overload: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.#ctor
+  isExternal: true
+  name: ViewState_SaveCurrentRequest
+  nameWithType: ViewState_SaveCurrentRequest.ViewState_SaveCurrentRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.ViewState_SaveCurrentRequest
+- uid: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current
+  isExternal: true
+  name: Current
+  nameWithType: ViewState_SaveCurrentRequest.Current
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveCurrentRequest.Current
+- uid: SuperOffice.WebApi.Data.History
+  commentId: T:SuperOffice.WebApi.Data.History
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: History
+  nameWithType: History
+  fullName: SuperOffice.WebApi.Data.History

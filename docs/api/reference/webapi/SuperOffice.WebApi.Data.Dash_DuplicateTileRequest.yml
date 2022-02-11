@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  id: Dash_DuplicateTileRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId
+  - SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: Dash_DuplicateTileRequest
+  nameWithType: Dash_DuplicateTileRequest
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_DuplicateTileRequest : Object'
+    content.vb: >-
+      Public Class Dash_DuplicateTileRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_DuplicateTileRequest()
+  nameWithType: Dash_DuplicateTileRequest.Dash_DuplicateTileRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Dash_DuplicateTileRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_DuplicateTileRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId
+  commentId: P:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId
+  id: DashTileId
+  parent: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  langs:
+  - csharp
+  - vb
+  name: DashTileId
+  nameWithType: Dash_DuplicateTileRequest.DashTileId
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashTileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashTileId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Dash_DuplicateTileRequest.Name
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.#ctor
+  isExternal: true
+  name: Dash_DuplicateTileRequest
+  nameWithType: Dash_DuplicateTileRequest.Dash_DuplicateTileRequest
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Dash_DuplicateTileRequest
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId
+  isExternal: true
+  name: DashTileId
+  nameWithType: Dash_DuplicateTileRequest.DashTileId
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.DashTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Dash_DuplicateTileRequest.Name
+  fullName: SuperOffice.WebApi.Data.Dash_DuplicateTileRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

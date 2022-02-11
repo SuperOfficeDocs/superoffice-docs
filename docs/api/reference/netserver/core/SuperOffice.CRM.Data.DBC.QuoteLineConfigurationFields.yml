@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  id: DBC.QuoteLineConfigurationFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.QuoteLineConfigurationFields
+  nameWithType: DBC.QuoteLineConfigurationFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for QuoteLineConfiguration, Configuration of quote lines - which fields are in use, rights, labels etc\n"
+  syntax:
+    content: public static class QuoteLineConfigurationFields
+    content.vb: Public Module QuoteLineConfigurationFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
+  id: QuoteLineConfigurationId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineConfigurationId
+  nameWithType: DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.QuoteLineConfigurationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.QuoteLineConfigurationId: Primary key\n"
+  syntax:
+    content: public const string QuoteLineConfigurationId = "quotelineconfiguration_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLineConfigurationId As String = "quotelineconfiguration_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
+  id: FieldName
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: FieldName
+  nameWithType: DBC.QuoteLineConfigurationFields.FieldName
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.FieldName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.FieldName: The name of the field being configured, from data dictionary\n"
+  syntax:
+    content: public const string FieldName = "FieldName"
+    return:
+      type: System.String
+    content.vb: Public Const FieldName As String = "FieldName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
+  id: LabelRes
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: LabelRes
+  nameWithType: DBC.QuoteLineConfigurationFields.LabelRes
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.LabelRes
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.LabelRes: The name of the label resource, without square brackets\n"
+  syntax:
+    content: public const string LabelRes = "LabelRes"
+    return:
+      type: System.String
+    content.vb: Public Const LabelRes As String = "LabelRes"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
+  id: TooltipRes
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: TooltipRes
+  nameWithType: DBC.QuoteLineConfigurationFields.TooltipRes
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.TooltipRes
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.TooltipRes: The name of the tooltip/description resource, without square brackets\n"
+  syntax:
+    content: public const string TooltipRes = "TooltipRes"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipRes As String = "TooltipRes"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
+  id: InUse
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: InUse
+  nameWithType: DBC.QuoteLineConfigurationFields.InUse
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.InUse
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.InUse: Is this field in use (visible)\n"
+  syntax:
+    content: public const string InUse = "InUse"
+    return:
+      type: System.String
+    content.vb: Public Const InUse As String = "InUse"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
+  id: Mandatory
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: DBC.QuoteLineConfigurationFields.Mandatory
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Mandatory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.Mandatory: Is this field mandatory (must have a value\n"
+  syntax:
+    content: public const string Mandatory = "Mandatory"
+    return:
+      type: System.String
+    content.vb: Public Const Mandatory As String = "Mandatory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
+  id: Editable
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Editable
+  nameWithType: DBC.QuoteLineConfigurationFields.Editable
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Editable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.Editable: Is this field editable, as opposed to read-only\n"
+  syntax:
+    content: public const string Editable = "Editable"
+    return:
+      type: System.String
+    content.vb: Public Const Editable As String = "Editable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.QuoteLineConfigurationFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.Rank: Rank order of configuration lines\n"
+  syntax:
+    content: public const string Rank = "Rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "Rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
+  id: PreventHide
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: PreventHide
+  nameWithType: DBC.QuoteLineConfigurationFields.PreventHide
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.PreventHide
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.PreventHide: If true, then this field cannot be hidden from the GUI\n"
+  syntax:
+    content: public const string PreventHide = "PreventHide"
+    return:
+      type: System.String
+    content.vb: Public Const PreventHide As String = "PreventHide"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
+  id: RestrictEdit
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: RestrictEdit
+  nameWithType: DBC.QuoteLineConfigurationFields.RestrictEdit
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RestrictEdit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.RestrictEdit: If true, then this field cannot be set readwrite or mandatory: It&apos;s bound to be readonly\n"
+  syntax:
+    content: public const string RestrictEdit = "RestrictEdit"
+    return:
+      type: System.String
+    content.vb: Public Const RestrictEdit As String = "RestrictEdit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.QuoteLineConfigurationFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.QuoteLineConfigurationFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.QuoteLineConfigurationFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.QuoteLineConfigurationFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.QuoteLineConfigurationFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteLineConfiguration.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

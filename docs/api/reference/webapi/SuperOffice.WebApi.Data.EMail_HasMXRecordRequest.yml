@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_HasMXRecordRequest
+  id: EMail_HasMXRecordRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain
+  langs:
+  - csharp
+  - vb
+  name: EMail_HasMXRecordRequest
+  nameWithType: EMail_HasMXRecordRequest
+  fullName: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_HasMXRecordRequest : Object'
+    content.vb: >-
+      Public Class EMail_HasMXRecordRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_HasMXRecordRequest()
+  nameWithType: EMail_HasMXRecordRequest.EMail_HasMXRecordRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.EMail_HasMXRecordRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_HasMXRecordRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain
+  commentId: P:SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain
+  id: MailDomain
+  parent: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest
+  langs:
+  - csharp
+  - vb
+  name: MailDomain
+  nameWithType: EMail_HasMXRecordRequest.MailDomain
+  fullName: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string MailDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MailDomain As String
+  overload: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.#ctor
+  isExternal: true
+  name: EMail_HasMXRecordRequest
+  nameWithType: EMail_HasMXRecordRequest.EMail_HasMXRecordRequest
+  fullName: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.EMail_HasMXRecordRequest
+- uid: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain
+  isExternal: true
+  name: MailDomain
+  nameWithType: EMail_HasMXRecordRequest.MailDomain
+  fullName: SuperOffice.WebApi.Data.EMail_HasMXRecordRequest.MailDomain
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

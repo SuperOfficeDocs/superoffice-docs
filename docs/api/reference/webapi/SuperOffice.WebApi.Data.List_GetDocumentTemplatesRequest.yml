@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest
+  id: List_GetDocumentTemplatesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplatesRequest
+  nameWithType: List_GetDocumentTemplatesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetDocumentTemplatesRequest : Object'
+    content.vb: >-
+      Public Class List_GetDocumentTemplatesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplatesRequest()
+  nameWithType: List_GetDocumentTemplatesRequest.List_GetDocumentTemplatesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.List_GetDocumentTemplatesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetDocumentTemplatesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.#ctor
+  isExternal: true
+  name: List_GetDocumentTemplatesRequest
+  nameWithType: List_GetDocumentTemplatesRequest.List_GetDocumentTemplatesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplatesRequest.List_GetDocumentTemplatesRequest

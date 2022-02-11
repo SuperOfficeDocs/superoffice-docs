@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SortListItemsRequest
+  id: List_SortListItemsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SortListItemsRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName
+  - SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_SortListItemsRequest
+  nameWithType: List_SortListItemsRequest
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SortListItemsRequest : Object'
+    content.vb: >-
+      Public Class List_SortListItemsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SortListItemsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SortListItemsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SortListItemsRequest()
+  nameWithType: List_SortListItemsRequest.List_SortListItemsRequest()
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest.List_SortListItemsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SortListItemsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SortListItemsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_SortListItemsRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_SortListItemsRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName
+  commentId: P:SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName
+  id: CultureName
+  parent: SuperOffice.WebApi.Data.List_SortListItemsRequest
+  langs:
+  - csharp
+  - vb
+  name: CultureName
+  nameWithType: List_SortListItemsRequest.CultureName
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CultureName As String
+  overload: SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SortListItemsRequest.#ctor
+  isExternal: true
+  name: List_SortListItemsRequest
+  nameWithType: List_SortListItemsRequest.List_SortListItemsRequest
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest.List_SortListItemsRequest
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_SortListItemsRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName
+  isExternal: true
+  name: CultureName
+  nameWithType: List_SortListItemsRequest.CultureName
+  fullName: SuperOffice.WebApi.Data.List_SortListItemsRequest.CultureName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

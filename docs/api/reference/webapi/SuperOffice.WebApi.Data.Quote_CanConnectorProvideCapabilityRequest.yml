@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest
+  id: Quote_CanConnectorProvideCapabilityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  - SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_CanConnectorProvideCapabilityRequest
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CanConnectorProvideCapabilityRequest : Object'
+    content.vb: >-
+      Public Class Quote_CanConnectorProvideCapabilityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CanConnectorProvideCapabilityRequest()
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest.Quote_CanConnectorProvideCapabilityRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.Quote_CanConnectorProvideCapabilityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CanConnectorProvideCapabilityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  commentId: P:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  id: CapabilityName
+  parent: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest
+  langs:
+  - csharp
+  - vb
+  name: CapabilityName
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CapabilityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CapabilityName As String
+  overload: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.#ctor
+  isExternal: true
+  name: Quote_CanConnectorProvideCapabilityRequest
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest.Quote_CanConnectorProvideCapabilityRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.Quote_CanConnectorProvideCapabilityRequest
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.QuoteConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  isExternal: true
+  name: CapabilityName
+  nameWithType: Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+  fullName: SuperOffice.WebApi.Data.Quote_CanConnectorProvideCapabilityRequest.CapabilityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,2167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.CardBase
+  id: CardBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.#ctor
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad(System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  langs:
+  - csharp
+  - vb
+  name: CardBase
+  nameWithType: CardBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: 'public class CardBase : Control, ICard, ISave, ILayout, IHasSchema'
+    content.vb: >-
+      Public Class CardBase
+          Inherits Control
+          Implements ICard, ISave, ILayout, IHasSchema
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.FloatingCard
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  - SuperOffice.CRM.Web.UI.Controls.WizardCard
+  - SuperOffice.DCF.Web.UI.Controls.Card
+  - SuperOffice.DCF.Web.UI.Controls.WizardCard
+  - SuperOffice.Web.UI.Controls.ScilCard
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard
+  - SuperOffice.DCF.Web.UI.ISave
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: CardBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overridable Sub Initialize(config As XmlNode, id As String)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.Initialize(System.Xml.XmlNode,System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  id: ParseConfiguration(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ParseConfiguration(XmlNode)
+  nameWithType: CardBase.ParseConfiguration(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected virtual void ParseConfiguration(XmlNode config)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    content.vb: Protected Overridable Sub ParseConfiguration(config As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  id: InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: InitializeViews(XmlNode, Dictionary<String, IView>)
+  nameWithType: CardBase.InitializeViews(XmlNode, Dictionary<String, IView>)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected virtual void InitializeViews(XmlNode config, Dictionary<string, IView> views)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: views
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+    content.vb: Protected Overridable Sub InitializeViews(config As XmlNode, views As Dictionary(Of String, IView))
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews*
+  nameWithType.vb: CardBase.InitializeViews(XmlNode, Dictionary(Of String, IView))
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: InitializeViews(XmlNode, Dictionary(Of String, IView))
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: CardBase.OnLoad(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+  id: Page_LoadComplete(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Page_LoadComplete(Object, EventArgs)
+  nameWithType: CardBase.Page_LoadComplete(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected virtual void Page_LoadComplete(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overridable Sub Page_LoadComplete(sender As Object, e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: CardBase.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave
+  id: OnSave
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: OnSave()
+  nameWithType: CardBase.OnSave()
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual Dictionary<string, object> OnSave()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Overridable Function OnSave As Dictionary(Of String, Object)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave*
+  implements:
+  - SuperOffice.DCF.Web.UI.ISave.OnSave
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: CardBase()
+  nameWithType: CardBase.CardBase()
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.CardBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public CardBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  id: ViewCollection
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ViewCollection
+  nameWithType: CardBase.ViewCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public Dictionary<string, IView> ViewCollection { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+    content.vb: Public ReadOnly Property ViewCollection As Dictionary(Of String, IView)
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.ViewCollection
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  id: Style
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: CardBase.Style
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public CssStyleCollection Style { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.CssStyleCollection
+    content.vb: Public ReadOnly Property Style As CssStyleCollection
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Style*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.Style
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  id: PlaceholderId
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: PlaceholderId
+  nameWithType: CardBase.PlaceholderId
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual string PlaceholderId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PlaceholderId As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.PlaceholderId
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  id: PlaceholderClientId
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: PlaceholderClientId
+  nameWithType: CardBase.PlaceholderClientId
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual string PlaceholderClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PlaceholderClientId As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.PlaceholderClientId
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  id: Size
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: CardBase.Size
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual Size Size { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Overridable Property Size As Size
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Size*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.Size
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  id: Id
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CardBase.Id
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Id*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  id: hasEditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: hasEditMode
+  nameWithType: CardBase.hasEditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool hasEditMode { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasEditMode As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  id: EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: EditMode
+  nameWithType: CardBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool EditMode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EditMode As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.EditMode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  id: HasReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: HasReadOnly
+  nameWithType: CardBase.HasReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool HasReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasReadOnly As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  id: ReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: CardBase.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual bool ReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReadOnly As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.ReadOnly
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  id: KeepParamsOnSave
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: KeepParamsOnSave
+  nameWithType: CardBase.KeepParamsOnSave
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool KeepParamsOnSave { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property KeepParamsOnSave As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.KeepParamsOnSave
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  id: MenuObject
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: MenuObject
+  nameWithType: CardBase.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public IMenuObject MenuObject { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.IMenuObject
+    content.vb: Public Property MenuObject As IMenuObject
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.MenuObject
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  id: ParentPanel
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ParentPanel
+  nameWithType: CardBase.ParentPanel
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public IPanel ParentPanel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.IPanel
+    content.vb: Public Property ParentPanel As IPanel
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel*
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard.ParentPanel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  id: LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: LayoutPosition
+  nameWithType: CardBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string LayoutPosition { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LayoutPosition As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.LayoutPosition
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  id: Position
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: CardBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Position { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Position As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Position*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Position
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  id: Top
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: CardBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Top { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Top As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Top*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Top
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  id: BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: BackgroundColor
+  nameWithType: CardBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string BackgroundColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BackgroundColor As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.BackgroundColor
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  id: Left
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: CardBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Left { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Left As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Left*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Left
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  id: Right
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: CardBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Right { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Right As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Right*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Right
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  id: Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: CardBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Bottom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bottom As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Bottom
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  id: Width
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CardBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Width { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Width As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Width*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Width
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  id: Height
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CardBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Height { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Height As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Height*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Height
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  id: ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ZIndex
+  nameWithType: CardBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string ZIndex { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ZIndex As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.ZIndex
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  id: Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Overflow
+  nameWithType: CardBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Overflow { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Overflow As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Overflow
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  id: Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Visibility
+  nameWithType: CardBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Visibility { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Visibility As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Visibility
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  id: Column
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: CardBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Column { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Column As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Column*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Column
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  id: Row
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: CardBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Row { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Row As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.Row*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.Row
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  id: RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: RowSpan
+  nameWithType: CardBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string RowSpan { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RowSpan As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.RowSpan
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  id: ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ColSpan
+  nameWithType: CardBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string ColSpan { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ColSpan As String
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.ColSpan
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  id: ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationSchema
+  nameWithType: CardBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public virtual Stream ConfigurationSchema { get; }
+    parameters: []
+    return:
+      type: System.IO.Stream
+    content.vb: Public Overridable ReadOnly Property ConfigurationSchema As Stream
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema*
+  implements:
+  - SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  id: VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  langs:
+  - csharp
+  - vb
+  name: VisibilityBinding
+  nameWithType: CardBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public BindingType VisibilityBinding { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+    content.vb: Public Property VisibilityBinding As BindingType
+  overload: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding*
+  implements:
+  - SuperOffice.DCF.Web.UI.ILayout.VisibilityBinding
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ICard
+  commentId: T:SuperOffice.DCF.Web.UI.ICard
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ICard
+  nameWithType: ICard
+  fullName: SuperOffice.DCF.Web.UI.ICard
+- uid: SuperOffice.DCF.Web.UI.ISave
+  commentId: T:SuperOffice.DCF.Web.UI.ISave
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ISave
+  nameWithType: ISave
+  fullName: SuperOffice.DCF.Web.UI.ISave
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: CardBase.Initialize
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Initialize
+- uid: SuperOffice.DCF.Web.UI.ICard.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ICard.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: ICard.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.ICard.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ICard.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ICard.Initialize
+    fullName: SuperOffice.DCF.Web.UI.ICard.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ICard.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ICard.Initialize
+    fullName: SuperOffice.DCF.Web.UI.ICard.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration
+  isExternal: true
+  name: ParseConfiguration
+  nameWithType: CardBase.ParseConfiguration
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews
+  isExternal: true
+  name: InitializeViews
+  nameWithType: CardBase.InitializeViews
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, IView>
+  nameWithType: Dictionary<String, IView>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>
+  nameWithType.vb: Dictionary(Of String, IView)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView)
+  name.vb: Dictionary(Of String, IView)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: CardBase.OnLoad
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete
+  isExternal: true
+  name: Page_LoadComplete
+  nameWithType: CardBase.Page_LoadComplete
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Render*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Render
+  isExternal: true
+  name: Render
+  nameWithType: CardBase.Render
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave
+  isExternal: true
+  name: OnSave
+  nameWithType: CardBase.OnSave
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.OnSave
+- uid: SuperOffice.DCF.Web.UI.ISave.OnSave
+  commentId: M:SuperOffice.DCF.Web.UI.ISave.OnSave
+  parent: SuperOffice.DCF.Web.UI.ISave
+  isExternal: true
+  name: OnSave()
+  nameWithType: ISave.OnSave()
+  fullName: SuperOffice.DCF.Web.UI.ISave.OnSave()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ISave.OnSave
+    name: OnSave
+    nameWithType: ISave.OnSave
+    fullName: SuperOffice.DCF.Web.UI.ISave.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ISave.OnSave
+    name: OnSave
+    nameWithType: ISave.OnSave
+    fullName: SuperOffice.DCF.Web.UI.ISave.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.#ctor
+  isExternal: true
+  name: CardBase
+  nameWithType: CardBase.CardBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.CardBase
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  isExternal: true
+  name: ViewCollection
+  nameWithType: CardBase.ViewCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+- uid: SuperOffice.DCF.Web.UI.ICard.ViewCollection
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.ViewCollection
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: ViewCollection
+  nameWithType: ICard.ViewCollection
+  fullName: SuperOffice.DCF.Web.UI.ICard.ViewCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Style*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  isExternal: true
+  name: Style
+  nameWithType: CardBase.Style
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+- uid: SuperOffice.DCF.Web.UI.ICard.Style
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.Style
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: Style
+  nameWithType: ICard.Style
+  fullName: SuperOffice.DCF.Web.UI.ICard.Style
+- uid: System.Web.UI.CssStyleCollection
+  isExternal: true
+  name: CssStyleCollection
+  nameWithType: CssStyleCollection
+  fullName: System.Web.UI.CssStyleCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  isExternal: true
+  name: PlaceholderId
+  nameWithType: CardBase.PlaceholderId
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+- uid: SuperOffice.DCF.Web.UI.ICard.PlaceholderId
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.PlaceholderId
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: PlaceholderId
+  nameWithType: ICard.PlaceholderId
+  fullName: SuperOffice.DCF.Web.UI.ICard.PlaceholderId
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  isExternal: true
+  name: PlaceholderClientId
+  nameWithType: CardBase.PlaceholderClientId
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+- uid: SuperOffice.DCF.Web.UI.ICard.PlaceholderClientId
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.PlaceholderClientId
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: PlaceholderClientId
+  nameWithType: ICard.PlaceholderClientId
+  fullName: SuperOffice.DCF.Web.UI.ICard.PlaceholderClientId
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Size*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  isExternal: true
+  name: Size
+  nameWithType: CardBase.Size
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+- uid: SuperOffice.DCF.Web.UI.ICard.Size
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.Size
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: Size
+  nameWithType: ICard.Size
+  fullName: SuperOffice.DCF.Web.UI.ICard.Size
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Id*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  isExternal: true
+  name: Id
+  nameWithType: CardBase.Id
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+- uid: SuperOffice.DCF.Web.UI.ICard.Id
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.Id
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: Id
+  nameWithType: ICard.Id
+  fullName: SuperOffice.DCF.Web.UI.ICard.Id
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  isExternal: true
+  name: hasEditMode
+  nameWithType: CardBase.hasEditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  isExternal: true
+  name: EditMode
+  nameWithType: CardBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.ICard.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.EditMode
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: EditMode
+  nameWithType: ICard.EditMode
+  fullName: SuperOffice.DCF.Web.UI.ICard.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  isExternal: true
+  name: HasReadOnly
+  nameWithType: CardBase.HasReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: CardBase.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ICard.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.ReadOnly
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: ReadOnly
+  nameWithType: ICard.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.ICard.ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  isExternal: true
+  name: KeepParamsOnSave
+  nameWithType: CardBase.KeepParamsOnSave
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+- uid: SuperOffice.DCF.Web.UI.ICard.KeepParamsOnSave
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.KeepParamsOnSave
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: KeepParamsOnSave
+  nameWithType: ICard.KeepParamsOnSave
+  fullName: SuperOffice.DCF.Web.UI.ICard.KeepParamsOnSave
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  isExternal: true
+  name: MenuObject
+  nameWithType: CardBase.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+- uid: SuperOffice.DCF.Web.UI.ICard.MenuObject
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.MenuObject
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: MenuObject
+  nameWithType: ICard.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.ICard.MenuObject
+- uid: SuperOffice.DCF.Web.UI.IMenuObject
+  commentId: T:SuperOffice.DCF.Web.UI.IMenuObject
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IMenuObject
+  nameWithType: IMenuObject
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  isExternal: true
+  name: ParentPanel
+  nameWithType: CardBase.ParentPanel
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+- uid: SuperOffice.DCF.Web.UI.ICard.ParentPanel
+  commentId: P:SuperOffice.DCF.Web.UI.ICard.ParentPanel
+  parent: SuperOffice.DCF.Web.UI.ICard
+  isExternal: true
+  name: ParentPanel
+  nameWithType: ICard.ParentPanel
+  fullName: SuperOffice.DCF.Web.UI.ICard.ParentPanel
+- uid: SuperOffice.DCF.Web.UI.IPanel
+  commentId: T:SuperOffice.DCF.Web.UI.IPanel
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IPanel
+  nameWithType: IPanel
+  fullName: SuperOffice.DCF.Web.UI.IPanel
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: CardBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.ILayout.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: ILayout.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.ILayout.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Position*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  isExternal: true
+  name: Position
+  nameWithType: CardBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+- uid: SuperOffice.DCF.Web.UI.ILayout.Position
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Position
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Position
+  nameWithType: ILayout.Position
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Top*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  isExternal: true
+  name: Top
+  nameWithType: CardBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+- uid: SuperOffice.DCF.Web.UI.ILayout.Top
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Top
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Top
+  nameWithType: ILayout.Top
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: CardBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.ILayout.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: ILayout.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.ILayout.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Left*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  isExternal: true
+  name: Left
+  nameWithType: CardBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+- uid: SuperOffice.DCF.Web.UI.ILayout.Left
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Left
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Left
+  nameWithType: ILayout.Left
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Right*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  isExternal: true
+  name: Right
+  nameWithType: CardBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+- uid: SuperOffice.DCF.Web.UI.ILayout.Right
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Right
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Right
+  nameWithType: ILayout.Right
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  isExternal: true
+  name: Bottom
+  nameWithType: CardBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.ILayout.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Bottom
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Bottom
+  nameWithType: ILayout.Bottom
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Width*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  isExternal: true
+  name: Width
+  nameWithType: CardBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+- uid: SuperOffice.DCF.Web.UI.ILayout.Width
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Width
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Width
+  nameWithType: ILayout.Width
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Height*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  isExternal: true
+  name: Height
+  nameWithType: CardBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+- uid: SuperOffice.DCF.Web.UI.ILayout.Height
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Height
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Height
+  nameWithType: ILayout.Height
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  isExternal: true
+  name: ZIndex
+  nameWithType: CardBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.ILayout.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.ZIndex
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: ZIndex
+  nameWithType: ILayout.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.ILayout.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  isExternal: true
+  name: Overflow
+  nameWithType: CardBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.ILayout.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Overflow
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Overflow
+  nameWithType: ILayout.Overflow
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  isExternal: true
+  name: Visibility
+  nameWithType: CardBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.ILayout.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Visibility
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Visibility
+  nameWithType: ILayout.Visibility
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Column*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  isExternal: true
+  name: Column
+  nameWithType: CardBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+- uid: SuperOffice.DCF.Web.UI.ILayout.Column
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Column
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Column
+  nameWithType: ILayout.Column
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Row*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  isExternal: true
+  name: Row
+  nameWithType: CardBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+- uid: SuperOffice.DCF.Web.UI.ILayout.Row
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.Row
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: Row
+  nameWithType: ILayout.Row
+  fullName: SuperOffice.DCF.Web.UI.ILayout.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  isExternal: true
+  name: RowSpan
+  nameWithType: CardBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.ILayout.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.RowSpan
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: RowSpan
+  nameWithType: ILayout.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.ILayout.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  isExternal: true
+  name: ColSpan
+  nameWithType: CardBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.ILayout.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.ColSpan
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: ColSpan
+  nameWithType: ILayout.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.ILayout.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: CardBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+- uid: SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  commentId: P:SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+  parent: SuperOffice.Configuration.IHasSchema
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: IHasSchema.ConfigurationSchema
+  fullName: SuperOffice.Configuration.IHasSchema.ConfigurationSchema
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: CardBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+- uid: SuperOffice.DCF.Web.UI.ILayout.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.ILayout.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.ILayout
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: ILayout.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.ILayout.VisibilityBinding
+- uid: SuperOffice.DCF.Web.UI.BindingType
+  commentId: T:SuperOffice.DCF.Web.UI.BindingType
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: BindingType
+  nameWithType: BindingType
+  fullName: SuperOffice.DCF.Web.UI.BindingType

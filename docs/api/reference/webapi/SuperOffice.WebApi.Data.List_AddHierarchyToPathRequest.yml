@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  commentId: T:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  id: List_AddHierarchyToPathRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.#ctor
+  - SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain
+  - SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name
+  - SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path
+  langs:
+  - csharp
+  - vb
+  name: List_AddHierarchyToPathRequest
+  nameWithType: List_AddHierarchyToPathRequest
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_AddHierarchyToPathRequest : Object'
+    content.vb: >-
+      Public Class List_AddHierarchyToPathRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  langs:
+  - csharp
+  - vb
+  name: List_AddHierarchyToPathRequest()
+  nameWithType: List_AddHierarchyToPathRequest.List_AddHierarchyToPathRequest()
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.List_AddHierarchyToPathRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_AddHierarchyToPathRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain
+  commentId: P:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: List_AddHierarchyToPathRequest.Domain
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Domain Domain { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Property Domain As Domain
+  overload: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path
+  commentId: P:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path
+  id: Path
+  parent: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: List_AddHierarchyToPathRequest.Path
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: List_AddHierarchyToPathRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.#ctor
+  isExternal: true
+  name: List_AddHierarchyToPathRequest
+  nameWithType: List_AddHierarchyToPathRequest.List_AddHierarchyToPathRequest
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.List_AddHierarchyToPathRequest
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: List_AddHierarchyToPathRequest.Domain
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Domain
+- uid: SuperOffice.WebApi.Data.Domain
+  commentId: T:SuperOffice.WebApi.Data.Domain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Domain
+  nameWithType: Domain
+  fullName: SuperOffice.WebApi.Data.Domain
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path*
+  commentId: Overload:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path
+  isExternal: true
+  name: Path
+  nameWithType: List_AddHierarchyToPathRequest.Path
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: List_AddHierarchyToPathRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_AddHierarchyToPathRequest.Name

@@ -1,0 +1,53 @@
+
+<page id="PersonalInformationDialog">
+  <title>Personal Information Dialogtitle>
+  <data>
+    <datahandlers>
+      <datahandler id="PersonalColorDataHandler"type="PersonalColorDataHandler">
+        <config>
+          <PersonDataSourceName>PersonalColorDataHandler.PersonCarrier</PersonDataSourceName>
+          <UDFieldProgId>SuperOffice:2</UDFieldProgId>
+          <UDListId>31</UDListId>
+        </config>
+      </datahandler>
+    </datahandlers>
+  </data>
+  <panels>
+    <panel id="MainPanel" type="SoDialogPanel" soprotocol="personalcolor" paneltype="Main" placeholderid="MainPlaceHolder" >
+      <cards>
+        <card id="PersonColorDialogCard" type="SoTabbedCard" placeholderid="DialogCardPlaceHolder" cardtype="MainCard" >
+          <views>
+            <view id="PersonalColorExampleControl" type="SoDialogView" soprotocol="main">
+              <caption>Personal Information</caption>
+              <controlgroups>
+                <controlgroup id="DateControlsControlGroup" type="SoControlGroup" top="10px" height="100%" width="100%" left="10px" right="0px" position="absolute">
+                  <controls>
+                    <control id="PersonalColorControl" type="PersonalInfoUserControl" width="100%" top="0px" left="0px" height="100%" position="absolute" >
+                      <datasource>PersonalColorDataHandler.PersonalColorCarrier</datasource>
+                        <config>
+                          <PersonDataSourceName>PersonalColorDataHandler.PersonCarrier</PersonDataSourceName>
+                          <UDFieldProgId>SuperOffice:2</UDFieldProgId>
+                          <UDListId>31</UDListId>
+                        </config>
+                    </control>
+                  </controls>
+                </controlgroup>
+              </controlgroups>
+            </view>
+          </views>
+          <config>
+            <tabbedviews>
+              <viewref>PersonalColorExampleControl</viewref>
+            </tabbedviews>
+            <only-visible-views>true</only-visible-views>
+            <datahandlers-to-save>
+              <datahandler-reference>PersonalColorDataHandler</datahandler-reference>
+            </datahandlers-to-save>
+          </config>
+        </card>
+      </cards>
+      <config>
+      </config>
+    </panel>
+  </panels>
+</page>

@@ -1,0 +1,1463 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+  id: TicketSelectionCombinedProviderV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  children:
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.#ctor
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: TicketSelectionCombinedProviderV2
+  nameWithType: TicketSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nImplementation of the provider for the combined selection\n"
+  syntax:
+    content: >-
+      [ArchiveProvider("TicketSelectionCombinedV2", 1073741823)]
+
+      public class TicketSelectionCombinedProviderV2 : CombinedSelectionProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+    content.vb: >-
+      <ArchiveProvider("TicketSelectionCombinedV2", 1073741823)>
+
+      Public Class TicketSelectionCombinedProviderV2
+          Inherits CombinedSelectionProviderBase
+          Implements IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute
+    ctor: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: TicketSelectionCombinedV2
+    - type: System.Int32
+      value: 1073741823
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: TicketSelectionCombinedProviderV2.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ProviderName = "TicketSelectionCombinedV2"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "TicketSelectionCombinedV2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+  langs:
+  - csharp
+  - vb
+  name: TicketSelectionCombinedProviderV2()
+  nameWithType: TicketSelectionCombinedProviderV2.TicketSelectionCombinedProviderV2()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.TicketSelectionCombinedProviderV2()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public TicketSelectionCombinedProviderV2()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists.Archive
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive
+  fullName: SuperOffice.CRM.ArchiveLists.Archive
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: CombinedSelectionProviderBase
+  nameWithType: CombinedSelectionProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasEntities
+  nameWithType: IArchiveProviderHasEntities
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColSelectionId
+  nameWithType: CombinedSelectionProviderBase.ColSelectionId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColLeftId
+  nameWithType: CombinedSelectionProviderBase.ColLeftId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColRightId
+  nameWithType: CombinedSelectionProviderBase.ColRightId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColTargetTableNumber
+  nameWithType: CombinedSelectionProviderBase.ColTargetTableNumber
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColCombineType
+  nameWithType: CombinedSelectionProviderBase.ColCombineType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColCompanyUnique
+  nameWithType: CombinedSelectionProviderBase.ColCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: ColIsShadow
+  nameWithType: CombinedSelectionProviderBase.ColIsShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _leftProvider
+  nameWithType: CombinedSelectionProviderBase._leftProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _rightProvider
+  nameWithType: CombinedSelectionProviderBase._rightProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _isShadow
+  nameWithType: CombinedSelectionProviderBase._isShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _isCompanyUnique
+  nameWithType: CombinedSelectionProviderBase._isCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _leftId
+  nameWithType: CombinedSelectionProviderBase._leftId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _rightId
+  nameWithType: CombinedSelectionProviderBase._rightId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _entityType
+  nameWithType: CombinedSelectionProviderBase._entityType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: _combineType
+  nameWithType: CombinedSelectionProviderBase._combineType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: GetReader(String)
+  nameWithType: CombinedSelectionProviderBase.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+    name: GetReader
+    nameWithType: CombinedSelectionProviderBase.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+    name: GetReader
+    nameWithType: CombinedSelectionProviderBase.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: GetRows(String)
+  nameWithType: CombinedSelectionProviderBase.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+    name: GetRows
+    nameWithType: CombinedSelectionProviderBase.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+    name: GetRows
+    nameWithType: CombinedSelectionProviderBase.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: GetResultInformation()
+  nameWithType: CombinedSelectionProviderBase.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+    name: GetResultInformation
+    nameWithType: CombinedSelectionProviderBase.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+    name: GetResultInformation
+    nameWithType: CombinedSelectionProviderBase.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: Close()
+  nameWithType: CombinedSelectionProviderBase.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+    name: Close
+    nameWithType: CombinedSelectionProviderBase.Close
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+    name: Close
+    nameWithType: CombinedSelectionProviderBase.Close
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: CombinedSelectionProviderBase.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: CombinedSelectionProviderBase.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: CombinedSelectionProviderBase.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: CombinedSelectionProviderBase.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: CombinedSelectionProviderBase.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: CombinedSelectionProviderBase.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: CombinedSelectionProviderBase.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: CombinedSelectionProviderBase.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: CombinedSelectionProviderBase.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: CombinedSelectionProviderBase.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: CombinedSelectionProviderBase.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: CombinedSelectionProviderBase.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: CombinedSelectionProviderBase.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: CombinedSelectionProviderBase.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: CombinedSelectionProviderBase.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: GetAvailableEntities()
+  nameWithType: CombinedSelectionProviderBase.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: CombinedSelectionProviderBase.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: CombinedSelectionProviderBase.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: SetDesiredEntities(String[])
+  nameWithType: CombinedSelectionProviderBase.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: CombinedSelectionProviderBase.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: CombinedSelectionProviderBase.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: IsShadow
+  nameWithType: CombinedSelectionProviderBase.IsShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: IsCompanyUnique
+  nameWithType: CombinedSelectionProviderBase.IsCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: EntityType
+  nameWithType: CombinedSelectionProviderBase.EntityType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: Combinator
+  nameWithType: CombinedSelectionProviderBase.Combinator
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: LeftProvider
+  nameWithType: CombinedSelectionProviderBase.LeftProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  isExternal: true
+  name: RightProvider
+  nameWithType: CombinedSelectionProviderBase.RightProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketSelectionCombinedProviderV2, To>()
+  nameWithType: EnumUtil.MapEnums<TicketSelectionCombinedProviderV2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketSelectionCombinedProviderV2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To)()
+  name.vb: MapEnums(Of TicketSelectionCombinedProviderV2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketSelectionCombinedProviderV2, To>
+    nameWithType: EnumUtil.MapEnums<TicketSelectionCombinedProviderV2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketSelectionCombinedProviderV2, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketSelectionCombinedProviderV2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketSelectionCombinedProviderV2>(TicketSelectionCombinedProviderV2)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketSelectionCombinedProviderV2>(TicketSelectionCombinedProviderV2)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2>(SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketSelectionCombinedProviderV2)(TicketSelectionCombinedProviderV2)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)(SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)
+  name.vb: AssignByReflection(Of TicketSelectionCombinedProviderV2)(TicketSelectionCombinedProviderV2)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketSelectionCombinedProviderV2>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketSelectionCombinedProviderV2>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+    name: TicketSelectionCombinedProviderV2
+    nameWithType: TicketSelectionCombinedProviderV2
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketSelectionCombinedProviderV2)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketSelectionCombinedProviderV2)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+    name: TicketSelectionCombinedProviderV2
+    nameWithType: TicketSelectionCombinedProviderV2
+    fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketSelectionCombinedProviderV2>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketSelectionCombinedProviderV2>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketSelectionCombinedProviderV2)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)()
+  name.vb: GraphCopy(Of TicketSelectionCombinedProviderV2)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketSelectionCombinedProviderV2>
+    nameWithType: ObjectExtensions.GraphCopy<TicketSelectionCombinedProviderV2>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketSelectionCombinedProviderV2)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketSelectionCombinedProviderV2)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketSelectionCombinedProviderV2, To>()
+  nameWithType: Converters.MapEnums<TicketSelectionCombinedProviderV2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketSelectionCombinedProviderV2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To)()
+  name.vb: MapEnums(Of TicketSelectionCombinedProviderV2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketSelectionCombinedProviderV2, To>
+    nameWithType: Converters.MapEnums<TicketSelectionCombinedProviderV2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketSelectionCombinedProviderV2, To)
+    nameWithType: Converters.MapEnums(Of TicketSelectionCombinedProviderV2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.#ctor
+  isExternal: true
+  name: TicketSelectionCombinedProviderV2
+  nameWithType: TicketSelectionCombinedProviderV2.TicketSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2.TicketSelectionCombinedProviderV2

@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest
+  id: Archive_GetAvailableColumnsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context
+  - SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetAvailableColumnsRequest
+  nameWithType: Archive_GetAvailableColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetAvailableColumnsRequest : Object'
+    content.vb: >-
+      Public Class Archive_GetAvailableColumnsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetAvailableColumnsRequest()
+  nameWithType: Archive_GetAvailableColumnsRequest.Archive_GetAvailableColumnsRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Archive_GetAvailableColumnsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetAvailableColumnsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_GetAvailableColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Archive_GetAvailableColumnsRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.#ctor
+  isExternal: true
+  name: Archive_GetAvailableColumnsRequest
+  nameWithType: Archive_GetAvailableColumnsRequest.Archive_GetAvailableColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Archive_GetAvailableColumnsRequest
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_GetAvailableColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Archive_GetAvailableColumnsRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableColumnsRequest.Context

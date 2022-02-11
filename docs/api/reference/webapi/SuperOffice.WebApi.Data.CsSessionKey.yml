@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CsSessionKey
+  commentId: T:SuperOffice.WebApi.Data.CsSessionKey
+  id: CsSessionKey
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CsSessionKey.#ctor
+  - SuperOffice.WebApi.Data.CsSessionKey.Key
+  - SuperOffice.WebApi.Data.CsSessionKey.LoginId
+  - SuperOffice.WebApi.Data.CsSessionKey.UserId
+  langs:
+  - csharp
+  - vb
+  name: CsSessionKey
+  nameWithType: CsSessionKey
+  fullName: SuperOffice.WebApi.Data.CsSessionKey
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CsSessionKey.\n\n"
+  syntax:
+    content: 'public class CsSessionKey : Carrier'
+    content.vb: >-
+      Public Class CsSessionKey
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CsSessionKey.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CsSessionKey.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: CsSessionKey()
+  nameWithType: CsSessionKey.CsSessionKey()
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.CsSessionKey()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CsSessionKey()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CsSessionKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CsSessionKey.Key
+  commentId: P:SuperOffice.WebApi.Data.CsSessionKey.Key
+  id: Key
+  parent: SuperOffice.WebApi.Data.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: CsSessionKey.Key
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.Key
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe session key created in the login table\n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.WebApi.Data.CsSessionKey.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CsSessionKey.LoginId
+  commentId: P:SuperOffice.WebApi.Data.CsSessionKey.LoginId
+  id: LoginId
+  parent: SuperOffice.WebApi.Data.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: LoginId
+  nameWithType: CsSessionKey.LoginId
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.LoginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the login row\n"
+  syntax:
+    content: public virtual int LoginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LoginId As Integer
+  overload: SuperOffice.WebApi.Data.CsSessionKey.LoginId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CsSessionKey.UserId
+  commentId: P:SuperOffice.WebApi.Data.CsSessionKey.UserId
+  id: UserId
+  parent: SuperOffice.WebApi.Data.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: CsSessionKey.UserId
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.UserId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ejuser id owning this session key\n"
+  syntax:
+    content: public virtual int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserId As Integer
+  overload: SuperOffice.WebApi.Data.CsSessionKey.UserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CsSessionKey.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CsSessionKey.#ctor
+  isExternal: true
+  name: CsSessionKey
+  nameWithType: CsSessionKey.CsSessionKey
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.CsSessionKey
+- uid: SuperOffice.WebApi.Data.CsSessionKey.Key*
+  commentId: Overload:SuperOffice.WebApi.Data.CsSessionKey.Key
+  isExternal: true
+  name: Key
+  nameWithType: CsSessionKey.Key
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CsSessionKey.LoginId*
+  commentId: Overload:SuperOffice.WebApi.Data.CsSessionKey.LoginId
+  isExternal: true
+  name: LoginId
+  nameWithType: CsSessionKey.LoginId
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.LoginId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CsSessionKey.UserId*
+  commentId: Overload:SuperOffice.WebApi.Data.CsSessionKey.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: CsSessionKey.UserId
+  fullName: SuperOffice.WebApi.Data.CsSessionKey.UserId

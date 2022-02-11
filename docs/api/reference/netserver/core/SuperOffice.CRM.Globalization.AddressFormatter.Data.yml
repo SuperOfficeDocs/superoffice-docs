@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  commentId: T:SuperOffice.CRM.Globalization.AddressFormatter.Data
+  id: AddressFormatter.Data
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.#ctor
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote
+  langs:
+  - csharp
+  - vb
+  name: AddressFormatter.Data
+  nameWithType: AddressFormatter.Data
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nData struct for formatted Address data\n"
+  syntax:
+    content: public abstract class Data
+    content.vb: Public MustInherit Class Data
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Globalization.ContactAddressData
+  - SuperOffice.CRM.Globalization.PersonAddressData
+  - SuperOffice.CRM.Globalization.QuoteAddressData
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.AddressFormatter.Data.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.#ctor
+  commentId: M:SuperOffice.CRM.Globalization.AddressFormatter.Data.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  langs:
+  - csharp
+  - vb
+  name: Data()
+  nameWithType: AddressFormatter.Data.Data()
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.Data()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected Data()
+    content.vb: Protected Sub New
+  overload: SuperOffice.CRM.Globalization.AddressFormatter.Data.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson
+  id: IsPerson
+  parent: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  langs:
+  - csharp
+  - vb
+  name: IsPerson
+  nameWithType: AddressFormatter.Data.IsPerson
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTrue if owner is person. Do not assume it&apos;s a contact if false, it might be a Quote!\n"
+  syntax:
+    content: public abstract bool IsPerson { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property IsPerson As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact
+  id: IsContact
+  parent: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  langs:
+  - csharp
+  - vb
+  name: IsContact
+  nameWithType: AddressFormatter.Data.IsContact
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTrue if owner is contact. Do not assume it&apos;s a person if false, it might be a Quote!\n"
+  syntax:
+    content: public abstract bool IsContact { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property IsContact As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote
+  id: IsQuote
+  parent: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  langs:
+  - csharp
+  - vb
+  name: IsQuote
+  nameWithType: AddressFormatter.Data.IsQuote
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTrue if owner is quote.\n"
+  syntax:
+    content: public abstract bool IsQuote { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property IsQuote As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: AddressFormatter.Data.CountryId
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThe country id of the address owner\n"
+  syntax:
+    content: public abstract int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride Property CountryId As Integer
+  overload: SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses
+  id: Addresses
+  parent: SuperOffice.CRM.Globalization.AddressFormatter.Data
+  langs:
+  - csharp
+  - vb
+  name: Addresses
+  nameWithType: AddressFormatter.Data.Addresses
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nAddresses that are formatted. If owner is contact postalAddress is expected first then StreetAdderss.\n"
+  syntax:
+    content: public abstract AddressFormatter.AddressData[] Addresses { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressFormatter.AddressData[]
+    content.vb: Public MustOverride ReadOnly Property Addresses As AddressFormatter.AddressData()
+  overload: SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AddressFormatter.Data, To>()
+  nameWithType: EnumUtil.MapEnums<AddressFormatter.Data, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter.Data, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormatter.Data, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter.Data, To)()
+  name.vb: MapEnums(Of AddressFormatter.Data, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AddressFormatter.Data, To>
+    nameWithType: EnumUtil.MapEnums<AddressFormatter.Data, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter.Data, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AddressFormatter.Data, To)
+    nameWithType: EnumUtil.MapEnums(Of AddressFormatter.Data, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter.Data, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AddressFormatter.Data, To>()
+  nameWithType: Converters.MapEnums<AddressFormatter.Data, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter.Data, To>()
+  nameWithType.vb: Converters.MapEnums(Of AddressFormatter.Data, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter.Data, To)()
+  name.vb: MapEnums(Of AddressFormatter.Data, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AddressFormatter.Data, To>
+    nameWithType: Converters.MapEnums<AddressFormatter.Data, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormatter.Data, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AddressFormatter.Data, To)
+    nameWithType: Converters.MapEnums(Of AddressFormatter.Data, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormatter.Data, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.Data.#ctor
+  isExternal: true
+  name: Data
+  nameWithType: AddressFormatter.Data.Data
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.Data
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson
+  isExternal: true
+  name: IsPerson
+  nameWithType: AddressFormatter.Data.IsPerson
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsPerson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact
+  isExternal: true
+  name: IsContact
+  nameWithType: AddressFormatter.Data.IsContact
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsContact
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote
+  isExternal: true
+  name: IsQuote
+  nameWithType: AddressFormatter.Data.IsQuote
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.IsQuote
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: AddressFormatter.Data.CountryId
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.CountryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses
+  isExternal: true
+  name: Addresses
+  nameWithType: AddressFormatter.Data.Addresses
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data.Addresses
+- uid: SuperOffice.CRM.Globalization.AddressFormatter.AddressData[]
+  isExternal: true
+  name: AddressFormatter.AddressData[]
+  nameWithType: AddressFormatter.AddressData[]
+  fullName: SuperOffice.CRM.Globalization.AddressFormatter.AddressData[]
+  nameWithType.vb: AddressFormatter.AddressData()
+  fullName.vb: SuperOffice.CRM.Globalization.AddressFormatter.AddressData()
+  name.vb: AddressFormatter.AddressData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
+    name: AddressFormatter.AddressData
+    nameWithType: AddressFormatter.AddressData
+    fullName: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
+    name: AddressFormatter.AddressData
+    nameWithType: AddressFormatter.AddressData
+    fullName: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

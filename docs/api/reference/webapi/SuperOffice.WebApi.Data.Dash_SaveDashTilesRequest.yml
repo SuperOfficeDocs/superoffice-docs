@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  id: Dash_SaveDashTilesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId
+  - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles
+  langs:
+  - csharp
+  - vb
+  name: Dash_SaveDashTilesRequest
+  nameWithType: Dash_SaveDashTilesRequest
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_SaveDashTilesRequest : Object'
+    content.vb: >-
+      Public Class Dash_SaveDashTilesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_SaveDashTilesRequest()
+  nameWithType: Dash_SaveDashTilesRequest.Dash_SaveDashTilesRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.Dash_SaveDashTilesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_SaveDashTilesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId
+  commentId: P:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId
+  id: DashboardId
+  parent: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardId
+  nameWithType: Dash_SaveDashTilesRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles
+  commentId: P:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles
+  id: DashTiles
+  parent: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  langs:
+  - csharp
+  - vb
+  name: DashTiles
+  nameWithType: Dash_SaveDashTilesRequest.DashTiles
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DashTile[] DashTiles { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DashTile[]
+    content.vb: Public Property DashTiles As DashTile()
+  overload: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.#ctor
+  isExternal: true
+  name: Dash_SaveDashTilesRequest
+  nameWithType: Dash_SaveDashTilesRequest.Dash_SaveDashTilesRequest
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.Dash_SaveDashTilesRequest
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId
+  isExternal: true
+  name: DashboardId
+  nameWithType: Dash_SaveDashTilesRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashboardId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles
+  isExternal: true
+  name: DashTiles
+  nameWithType: Dash_SaveDashTilesRequest.DashTiles
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest.DashTiles
+- uid: SuperOffice.WebApi.Data.DashTile[]
+  isExternal: true
+  name: DashTile[]
+  nameWithType: DashTile[]
+  fullName: SuperOffice.WebApi.Data.DashTile[]
+  nameWithType.vb: DashTile()
+  fullName.vb: SuperOffice.WebApi.Data.DashTile()
+  name.vb: DashTile()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DashTile
+    name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.WebApi.Data.DashTile
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DashTile
+    name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.WebApi.Data.DashTile
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

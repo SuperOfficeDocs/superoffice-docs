@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  id: Document_GetDocumentUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId
+  - SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId
+  - SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl
+  langs:
+  - csharp
+  - vb
+  name: Document_GetDocumentUrlRequest
+  nameWithType: Document_GetDocumentUrlRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetDocumentUrlRequest : Object'
+    content.vb: >-
+      Public Class Document_GetDocumentUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetDocumentUrlRequest()
+  nameWithType: Document_GetDocumentUrlRequest.Document_GetDocumentUrlRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.Document_GetDocumentUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetDocumentUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_GetDocumentUrlRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId
+  id: VersionId
+  parent: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: VersionId
+  nameWithType: Document_GetDocumentUrlRequest.VersionId
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string VersionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VersionId As String
+  overload: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl
+  commentId: P:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl
+  id: WriteableUrl
+  parent: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteableUrl
+  nameWithType: Document_GetDocumentUrlRequest.WriteableUrl
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool WriteableUrl { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WriteableUrl As Boolean
+  overload: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.#ctor
+  isExternal: true
+  name: Document_GetDocumentUrlRequest
+  nameWithType: Document_GetDocumentUrlRequest.Document_GetDocumentUrlRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.Document_GetDocumentUrlRequest
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_GetDocumentUrlRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId
+  isExternal: true
+  name: VersionId
+  nameWithType: Document_GetDocumentUrlRequest.VersionId
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.VersionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl
+  isExternal: true
+  name: WriteableUrl
+  nameWithType: Document_GetDocumentUrlRequest.WriteableUrl
+  fullName: SuperOffice.WebApi.Data.Document_GetDocumentUrlRequest.WriteableUrl
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

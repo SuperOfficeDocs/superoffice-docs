@@ -29,7 +29,7 @@ This path must resolve to the same location for farms/clusters. -->
 ```
 
 <!-- Referenced links -->
-[1]: ../../../../data-access/docs/netserver/config/documents.md
+[1]: ../../api/config/documents.md
 
 <!-- Referenced images -->
 [img4]: media/allow-log-on-locally.png

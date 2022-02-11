@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  id: MenuObjectMouseClick
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Left
+  - SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Right
+  langs:
+  - csharp
+  - vb
+  name: MenuObjectMouseClick
+  nameWithType: MenuObjectMouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum MenuObjectMouseClick
+    content.vb: Public Enum MenuObjectMouseClick
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Left
+  commentId: F:SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Left
+  id: Left
+  parent: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: MenuObjectMouseClick.Left
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Left
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Left = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Right
+  commentId: F:SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Right
+  id: Right
+  parent: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: MenuObjectMouseClick.Right
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick.Right
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Right = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectMouseClick
+  nameWithType: MenuObjectMouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick

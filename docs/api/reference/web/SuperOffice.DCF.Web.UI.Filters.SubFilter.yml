@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  commentId: N:SuperOffice.DCF.Web.UI.Filters.SubFilter
+  id: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  children:
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.ApplicationConfigurationFilter
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.ObjectMappingFilter
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.PageFilter
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  nameWithType: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.ApplicationConfigurationFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.ApplicationConfigurationFilter
+  isExternal: true
+  name: ApplicationConfigurationFilter
+  nameWithType: ApplicationConfigurationFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.ApplicationConfigurationFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: IMergeFilterPlugin
+  nameWithType: IMergeFilterPlugin
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: MergeFilterPluginAttribute
+  nameWithType: MergeFilterPluginAttribute
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: IMergeSubFilter
+  nameWithType: IMergeSubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: MergeSubFilterBase
+  nameWithType: MergeSubFilterBase
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.ObjectMappingFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.ObjectMappingFilter
+  isExternal: true
+  name: ObjectMappingFilter
+  nameWithType: ObjectMappingFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.ObjectMappingFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.PageFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.PageFilter
+  isExternal: true
+  name: PageFilter
+  nameWithType: PageFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.PageFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  commentId: N:SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  nameWithType: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter

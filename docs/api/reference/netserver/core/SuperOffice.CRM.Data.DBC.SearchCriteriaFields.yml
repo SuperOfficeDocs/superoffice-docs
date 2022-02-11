@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  id: DBC.SearchCriteriaFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.DisplayName
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Name
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerGuiName
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerId
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerName
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerTable
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerType
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Registered
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.SearchCriteriaId
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.TextId
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Updated
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.SearchCriteriaFields
+  nameWithType: DBC.SearchCriteriaFields
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SearchCriteria, Criteria storage for Selection and other Find mechanisms\n"
+  syntax:
+    content: public static class SearchCriteriaFields
+    content.vb: Public Module SearchCriteriaFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.SearchCriteriaId
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.SearchCriteriaId
+  id: SearchCriteriaId
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: SearchCriteriaId
+  nameWithType: DBC.SearchCriteriaFields.SearchCriteriaId
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.SearchCriteriaId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.SearchCriteriaId: Primary key\n"
+  syntax:
+    content: public const string SearchCriteriaId = "SearchCriteria_id"
+    return:
+      type: System.String
+    content.vb: Public Const SearchCriteriaId As String = "SearchCriteria_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.SearchCriteriaFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.Name: Name of this criteria collection\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.TextId
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: DBC.SearchCriteriaFields.TextId
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.TextId: Extra information (descriptive) for this Criteria set\n"
+  syntax:
+    content: public const string TextId = "textId"
+    return:
+      type: System.String
+    content.vb: Public Const TextId As String = "textId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerType
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerType
+  id: OwnerType
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: DBC.SearchCriteriaFields.OwnerType
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.OwnerType: Selection, Reporter, FindProject, ...\n"
+  syntax:
+    content: public const string OwnerType = "ownerType"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerType As String = "ownerType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerTable
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: DBC.SearchCriteriaFields.OwnerTable
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.OwnerTable: Table number of table that owns these criteria\n"
+  syntax:
+    content: public const string OwnerTable = "ownerTable"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerTable As String = "ownerTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerId
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerId
+  id: OwnerId
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerId
+  nameWithType: DBC.SearchCriteriaFields.OwnerId
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.OwnerId: Record ID in ownerTable that owns these criteria\n"
+  syntax:
+    content: public const string OwnerId = "ownerId"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerId As String = "ownerId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.SearchCriteriaFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.SearchCriteriaFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.SearchCriteriaFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.SearchCriteriaFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.SearchCriteriaFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerName
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerName
+  id: OwnerName
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: DBC.SearchCriteriaFields.OwnerName
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.OwnerName: Name of owner; this is the archive provider name in NetServer/SIX.web\n"
+  syntax:
+    content: public const string OwnerName = "ownerName"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerName As String = "ownerName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerGuiName
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerGuiName
+  id: OwnerGuiName
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerGuiName
+  nameWithType: DBC.SearchCriteriaFields.OwnerGuiName
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.OwnerGuiName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.OwnerGuiName: Name of the owner GUI control, this is the GUI XML id in SIX.web\n"
+  syntax:
+    content: public const string OwnerGuiName = "ownerGuiName"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerGuiName As String = "ownerGuiName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.DisplayName
+  commentId: F:SuperOffice.CRM.Data.DBC.SearchCriteriaFields.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Data.DBC.SearchCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: DBC.SearchCriteriaFields.DisplayName
+  fullName: SuperOffice.CRM.Data.DBC.SearchCriteriaFields.DisplayName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSearchCriteria.DisplayName: Display name when these criteria are a saved archive filter\n"
+  syntax:
+    content: public const string DisplayName = "displayName"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayName As String = "displayName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

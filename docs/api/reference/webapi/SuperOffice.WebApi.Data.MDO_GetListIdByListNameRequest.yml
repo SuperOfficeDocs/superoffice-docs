@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest
+  id: MDO_GetListIdByListNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetListIdByListNameRequest
+  nameWithType: MDO_GetListIdByListNameRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_GetListIdByListNameRequest : Object'
+    content.vb: >-
+      Public Class MDO_GetListIdByListNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetListIdByListNameRequest()
+  nameWithType: MDO_GetListIdByListNameRequest.MDO_GetListIdByListNameRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.MDO_GetListIdByListNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_GetListIdByListNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_GetListIdByListNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.#ctor
+  isExternal: true
+  name: MDO_GetListIdByListNameRequest
+  nameWithType: MDO_GetListIdByListNameRequest.MDO_GetListIdByListNameRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.MDO_GetListIdByListNameRequest
+- uid: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_GetListIdByListNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetListIdByListNameRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

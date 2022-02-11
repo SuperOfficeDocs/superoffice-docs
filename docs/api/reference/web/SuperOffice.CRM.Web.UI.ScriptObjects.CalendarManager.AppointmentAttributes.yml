@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  id: CalendarManager.AppointmentAttributes
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate
+  langs:
+  - csharp
+  - vb
+  name: CalendarManager.AppointmentAttributes
+  nameWithType: CalendarManager.AppointmentAttributes
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public class AppointmentAttributes
+    content.vb: Public Class AppointmentAttributes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: AppointmentAttributes()
+  nameWithType: CalendarManager.AppointmentAttributes.AppointmentAttributes()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentAttributes()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public AppointmentAttributes()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: CalendarManager.AppointmentAttributes.AppointmentId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string AppointmentId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AppointmentId As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence
+  id: IsRecurrence
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: IsRecurrence
+  nameWithType: CalendarManager.AppointmentAttributes.IsRecurrence
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string IsRecurrence { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property IsRecurrence As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking
+  id: IsBooking
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: IsBooking
+  nameWithType: CalendarManager.AppointmentAttributes.IsBooking
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string IsBooking { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property IsBooking As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected
+  id: CanBeSelected
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: CanBeSelected
+  nameWithType: CalendarManager.AppointmentAttributes.CanBeSelected
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string CanBeSelected { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CanBeSelected As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated
+  id: CanBeUpdated
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: CanBeUpdated
+  nameWithType: CalendarManager.AppointmentAttributes.CanBeUpdated
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string CanBeUpdated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CanBeUpdated As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead
+  id: CanBeRead
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: CanBeRead
+  nameWithType: CalendarManager.AppointmentAttributes.CanBeRead
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string CanBeRead { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CanBeRead As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: CalendarManager.AppointmentAttributes.StartDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string StartDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StartDate As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: CalendarManager.AppointmentAttributes.EndDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string EndDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property EndDate As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize
+  id: AppointmentResize
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+  langs:
+  - csharp
+  - vb
+  name: AppointmentResize
+  nameWithType: CalendarManager.AppointmentAttributes.AppointmentResize
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string AppointmentResize { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AppointmentResize As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.#ctor
+  isExternal: true
+  name: AppointmentAttributes
+  nameWithType: CalendarManager.AppointmentAttributes.AppointmentAttributes
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentAttributes
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: CalendarManager.AppointmentAttributes.AppointmentId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence
+  isExternal: true
+  name: IsRecurrence
+  nameWithType: CalendarManager.AppointmentAttributes.IsRecurrence
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsRecurrence
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking
+  isExternal: true
+  name: IsBooking
+  nameWithType: CalendarManager.AppointmentAttributes.IsBooking
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.IsBooking
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected
+  isExternal: true
+  name: CanBeSelected
+  nameWithType: CalendarManager.AppointmentAttributes.CanBeSelected
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeSelected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated
+  isExternal: true
+  name: CanBeUpdated
+  nameWithType: CalendarManager.AppointmentAttributes.CanBeUpdated
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeUpdated
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead
+  isExternal: true
+  name: CanBeRead
+  nameWithType: CalendarManager.AppointmentAttributes.CanBeRead
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.CanBeRead
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: CalendarManager.AppointmentAttributes.StartDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.StartDate
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: CalendarManager.AppointmentAttributes.EndDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.EndDate
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize
+  isExternal: true
+  name: AppointmentResize
+  nameWithType: CalendarManager.AppointmentAttributes.AppointmentResize
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes.AppointmentResize

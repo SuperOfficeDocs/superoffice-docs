@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.WidgetRequiredFields
+  # Same as SuperOffice.Data.WidgetRequiredFields
+  commentId: T:CRMScript.NetServer.WidgetRequiredFields
+  id: WidgetRequiredFields
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.WidgetRequiredFields.None
+  - CRMScript.NetServer.WidgetRequiredFields.Email
+  - CRMScript.NetServer.WidgetRequiredFields.Name
+  - CRMScript.NetServer.WidgetRequiredFields.Company
+  - CRMScript.NetServer.WidgetRequiredFields.Phone
+  - CRMScript.NetServer.WidgetRequiredFields.Country
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: CRMScript.NetServer.WidgetRequiredFields
+  type: Enum
+  summary: "\nValue for field widget_offline_fields in table chat_topic.\nConsists of flag values that can be combined.\n"
+- uid: CRMScript.NetServer.WidgetRequiredFields.None
+  commentId: F:CRMScript.NetServer.WidgetRequiredFields.None
+  id: WidgetRequiredFields.None
+  langs:
+  - crmscript
+  name: WidgetRequiredFields.None
+  nameWithType: WidgetRequiredFields.None
+  fullName: CRMScript.NetServer.WidgetRequiredFields.None
+  type: Field
+  summary: "\n0: No required fields\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.WidgetRequiredFields
+- uid: CRMScript.NetServer.WidgetRequiredFields.Email
+  commentId: F:CRMScript.NetServer.WidgetRequiredFields.Email
+  id: WidgetRequiredFields.Email
+  langs:
+  - crmscript
+  name: WidgetRequiredFields.Email
+  nameWithType: WidgetRequiredFields.Email
+  fullName: CRMScript.NetServer.WidgetRequiredFields.Email
+  type: Field
+  summary: "\n1: Email field is required\n"
+  syntax: 
+    content: Email = 1
+    type: CRMScript.NetServer.WidgetRequiredFields
+- uid: CRMScript.NetServer.WidgetRequiredFields.Name
+  commentId: F:CRMScript.NetServer.WidgetRequiredFields.Name
+  id: WidgetRequiredFields.Name
+  langs:
+  - crmscript
+  name: WidgetRequiredFields.Name
+  nameWithType: WidgetRequiredFields.Name
+  fullName: CRMScript.NetServer.WidgetRequiredFields.Name
+  type: Field
+  summary: "\n2: Name field is required\n"
+  syntax: 
+    content: Name = 2
+    type: CRMScript.NetServer.WidgetRequiredFields
+- uid: CRMScript.NetServer.WidgetRequiredFields.Company
+  commentId: F:CRMScript.NetServer.WidgetRequiredFields.Company
+  id: WidgetRequiredFields.Company
+  langs:
+  - crmscript
+  name: WidgetRequiredFields.Company
+  nameWithType: WidgetRequiredFields.Company
+  fullName: CRMScript.NetServer.WidgetRequiredFields.Company
+  type: Field
+  summary: "\n4: Company field is required\n"
+  syntax: 
+    content: Company = 4
+    type: CRMScript.NetServer.WidgetRequiredFields
+- uid: CRMScript.NetServer.WidgetRequiredFields.Phone
+  commentId: F:CRMScript.NetServer.WidgetRequiredFields.Phone
+  id: WidgetRequiredFields.Phone
+  langs:
+  - crmscript
+  name: WidgetRequiredFields.Phone
+  nameWithType: WidgetRequiredFields.Phone
+  fullName: CRMScript.NetServer.WidgetRequiredFields.Phone
+  type: Field
+  summary: "\n8: Phone field is required\n"
+  syntax: 
+    content: Phone = 8
+    type: CRMScript.NetServer.WidgetRequiredFields
+- uid: CRMScript.NetServer.WidgetRequiredFields.Country
+  commentId: F:CRMScript.NetServer.WidgetRequiredFields.Country
+  id: WidgetRequiredFields.Country
+  langs:
+  - crmscript
+  name: WidgetRequiredFields.Country
+  nameWithType: WidgetRequiredFields.Country
+  fullName: CRMScript.NetServer.WidgetRequiredFields.Country
+  type: Field
+  summary: "\n16: Country field is required\n"
+  syntax: 
+    content: Country = 16
+    type: CRMScript.NetServer.WidgetRequiredFields
+references:
+- uid: CRMScript.NetServer.WidgetRequiredFields
+  commentId: T:CRMScript.NetServer.WidgetRequiredFields
+  isExternal: true
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: CRMScript.NetServer.WidgetRequiredFields

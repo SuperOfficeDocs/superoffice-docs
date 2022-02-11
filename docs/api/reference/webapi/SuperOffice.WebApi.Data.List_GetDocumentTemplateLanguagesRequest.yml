@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest
+  id: List_GetDocumentTemplateLanguagesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateLanguagesRequest
+  nameWithType: List_GetDocumentTemplateLanguagesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetDocumentTemplateLanguagesRequest : Object'
+    content.vb: >-
+      Public Class List_GetDocumentTemplateLanguagesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetDocumentTemplateLanguagesRequest()
+  nameWithType: List_GetDocumentTemplateLanguagesRequest.List_GetDocumentTemplateLanguagesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.List_GetDocumentTemplateLanguagesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetDocumentTemplateLanguagesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.#ctor
+  isExternal: true
+  name: List_GetDocumentTemplateLanguagesRequest
+  nameWithType: List_GetDocumentTemplateLanguagesRequest.List_GetDocumentTemplateLanguagesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.List_GetDocumentTemplateLanguagesRequest
+- uid: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_GetDocumentTemplateLanguagesRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

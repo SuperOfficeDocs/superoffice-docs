@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus
+  commentId: T:SuperOffice.WebApi.Data.FormSubmissionStatus
+  id: FormSubmissionStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.EmailVerification
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.Failed
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.InProgress
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.Processed
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.Submitted
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.Unknown
+  - SuperOffice.WebApi.Data.FormSubmissionStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionStatus
+  nameWithType: FormSubmissionStatus
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the status of this submission\nThis Enum is used by:  form_submission.status\n"
+  syntax:
+    content: 'public sealed class FormSubmissionStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class FormSubmissionStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FormSubmissionStatus.value__
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: FormSubmissionStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown status\n"
+  syntax:
+    content: public const FormSubmissionStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.FormSubmissionStatus
+    content.vb: Public Const Unknown As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.InProgress
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.InProgress
+  id: InProgress
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: InProgress
+  nameWithType: FormSubmissionStatus.InProgress
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.InProgress
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: In progress, the customer has started filling out fields but has not yet submitted\n"
+  syntax:
+    content: public const FormSubmissionStatus InProgress
+    return:
+      type: SuperOffice.WebApi.Data.FormSubmissionStatus
+    content.vb: Public Const InProgress As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.EmailVerification
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.EmailVerification
+  id: EmailVerification
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: EmailVerification
+  nameWithType: FormSubmissionStatus.EmailVerification
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.EmailVerification
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: EmailVerification, the customer has submitted but we are waiting for click from sent email\n"
+  syntax:
+    content: public const FormSubmissionStatus EmailVerification
+    return:
+      type: SuperOffice.WebApi.Data.FormSubmissionStatus
+    content.vb: Public Const EmailVerification As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.Submitted
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.Submitted
+  id: Submitted
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: Submitted
+  nameWithType: FormSubmissionStatus.Submitted
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.Submitted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Submitted, the form is submitted but has not yet been executed\n"
+  syntax:
+    content: public const FormSubmissionStatus Submitted
+    return:
+      type: SuperOffice.WebApi.Data.FormSubmissionStatus
+    content.vb: Public Const Submitted As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.Processed
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.Processed
+  id: Processed
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: Processed
+  nameWithType: FormSubmissionStatus.Processed
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.Processed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Processed, the actions of the form have been executed\n"
+  syntax:
+    content: public const FormSubmissionStatus Processed
+    return:
+      type: SuperOffice.WebApi.Data.FormSubmissionStatus
+    content.vb: Public Const Processed As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus.Failed
+  commentId: F:SuperOffice.WebApi.Data.FormSubmissionStatus.Failed
+  id: Failed
+  parent: SuperOffice.WebApi.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: FormSubmissionStatus.Failed
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus.Failed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Failed, there was an error when processing the form\n"
+  syntax:
+    content: public const FormSubmissionStatus Failed
+    return:
+      type: SuperOffice.WebApi.Data.FormSubmissionStatus
+    content.vb: Public Const Failed As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.FormSubmissionStatus
+  commentId: T:SuperOffice.WebApi.Data.FormSubmissionStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FormSubmissionStatus
+  nameWithType: FormSubmissionStatus
+  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  id: SuperOffice.DCF.Drawing
+  children:
+  - SuperOffice.DCF.Drawing.FallbackStrategy
+  - SuperOffice.DCF.Drawing.ImageSize
+  - SuperOffice.DCF.Drawing.ImageUtility
+  - SuperOffice.DCF.Drawing.ScaleStrategy
+  - SuperOffice.DCF.Drawing.VerticalAlignment
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCF
+references:
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy
+  commentId: T:SuperOffice.DCF.Drawing.FallbackStrategy
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: FallbackStrategy
+  nameWithType: FallbackStrategy
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy
+- uid: SuperOffice.DCF.Drawing.ImageSize
+  commentId: T:SuperOffice.DCF.Drawing.ImageSize
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: ImageSize
+  nameWithType: ImageSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize
+- uid: SuperOffice.DCF.Drawing.ImageUtility
+  commentId: T:SuperOffice.DCF.Drawing.ImageUtility
+  isExternal: true
+  name: ImageUtility
+  nameWithType: ImageUtility
+  fullName: SuperOffice.DCF.Drawing.ImageUtility
+- uid: SuperOffice.DCF.Drawing.VerticalAlignment
+  commentId: T:SuperOffice.DCF.Drawing.VerticalAlignment
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: VerticalAlignment
+  nameWithType: VerticalAlignment
+  fullName: SuperOffice.DCF.Drawing.VerticalAlignment
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy
+  commentId: T:SuperOffice.DCF.Drawing.ScaleStrategy
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: ScaleStrategy
+  nameWithType: ScaleStrategy
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  isExternal: true
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing

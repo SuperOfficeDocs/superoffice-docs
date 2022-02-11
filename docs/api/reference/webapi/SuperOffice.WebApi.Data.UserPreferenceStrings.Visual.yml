@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  id: UserPreferenceStrings.Visual
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ActiveSound
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.AnimatePanels
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FrameType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.HistorySize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.JpegQuality
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.MonitorLight
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ShowNotepad
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Tooltips
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Visual
+  nameWithType: UserPreferenceStrings.Visual
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nVisual effects\n"
+  syntax:
+    content: 'public static class Visual : Object'
+    content.vb: >-
+      Public Module Visual
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Visual.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Visual"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Visual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ActiveSound
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ActiveSound
+  id: ActiveSound
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: ActiveSound
+  nameWithType: UserPreferenceStrings.Visual.ActiveSound
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ActiveSound
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnables the use of sounds for events in SuperOffice CRM. The various sounds may be defined individually under Sounds and Audio Devices in the Windows Control Panel.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ActiveSound = "ActiveSound"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveSound As String = "ActiveSound"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.AnimatePanels
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.AnimatePanels
+  id: AnimatePanels
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: AnimatePanels
+  nameWithType: UserPreferenceStrings.Visual.AnimatePanels
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.AnimatePanels
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnables animation when switching screens\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string AnimatePanels = "AnimatePanels"
+    return:
+      type: System.String
+    content.vb: Public Const AnimatePanels As String = "AnimatePanels"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  id: FilterCompletedFromTodo
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: FilterCompletedFromTodo
+  nameWithType: UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFilter: Removes completed activities from the checklist\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string FilterCompletedFromTodo = "FilterCompletedFromTodo"
+    return:
+      type: System.String
+    content.vb: Public Const FilterCompletedFromTodo As String = "FilterCompletedFromTodo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FrameType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FrameType
+  id: FrameType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: FrameType
+  nameWithType: UserPreferenceStrings.Visual.FrameType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.FrameType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich frame type to use in edit fields\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string FrameType = "FrameType"
+    return:
+      type: System.String
+    content.vb: Public Const FrameType As String = "FrameType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.HistorySize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.HistorySize
+  id: HistorySize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: HistorySize
+  nameWithType: UserPreferenceStrings.Visual.HistorySize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.HistorySize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe maximum number of elements in a history list\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string HistorySize = "HistorySize"
+    return:
+      type: System.String
+    content.vb: Public Const HistorySize As String = "HistorySize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.JpegQuality
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.JpegQuality
+  id: JpegQuality
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: JpegQuality
+  nameWithType: UserPreferenceStrings.Visual.JpegQuality
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.JpegQuality
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuality parameter for JPEG compression of stored images, from 0 to 100; 100 is best, default is 40. Setting high values will result in sharper images, at the cost of storage space in the database and loading times.\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string JpegQuality = "JpegQuality"
+    return:
+      type: System.String
+    content.vb: Public Const JpegQuality As String = "JpegQuality"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.MonitorLight
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.MonitorLight
+  id: MonitorLight
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: MonitorLight
+  nameWithType: UserPreferenceStrings.Visual.MonitorLight
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.MonitorLight
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus images are processed to make them seem transparent. This parameter controls how much the light level is increased from a normalized starting point. Higher values will result in lighter images, possibly resulting in loss of detail. Default is 80.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MonitorLight = "MonitorLight"
+    return:
+      type: System.String
+    content.vb: Public Const MonitorLight As String = "MonitorLight"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ShowNotepad
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ShowNotepad
+  id: ShowNotepad
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: ShowNotepad
+  nameWithType: UserPreferenceStrings.Visual.ShowNotepad
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.ShowNotepad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the Notepad be displayed when CRM is started? (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowNotepad = "ShowNotepad"
+    return:
+      type: System.String
+    content.vb: Public Const ShowNotepad As String = "ShowNotepad"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Tooltips
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Tooltips
+  id: Tooltips
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: Tooltips
+  nameWithType: UserPreferenceStrings.Visual.Tooltips
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Visual.Tooltips
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTurn tooltips on or off\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string Tooltips = "Tooltips"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltips As String = "Tooltips"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,404 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.CacheEventHandler
+  commentId: T:SuperOffice.Data.Cache.CacheEventHandler
+  id: CacheEventHandler
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.CacheEventHandler.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke(SuperOffice.Data.Cache.CacheBase,System.AsyncCallback,System.Object)
+  - SuperOffice.Data.Cache.CacheEventHandler.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Data.Cache.CacheEventHandler.Invoke(SuperOffice.Data.Cache.CacheBase)
+  langs:
+  - csharp
+  - vb
+  name: CacheEventHandler
+  nameWithType: CacheEventHandler
+  fullName: SuperOffice.Data.Cache.CacheEventHandler
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nDelegate for the cache\n"
+  syntax:
+    content: public delegate void CacheEventHandler(CacheBase cache);
+    parameters:
+    - id: cache
+      type: SuperOffice.Data.Cache.CacheBase
+      description: Reference to the cache.
+    content.vb: Public Delegate Sub CacheEventHandler(cache As CacheBase)
+  extensionMethods:
+  - SuperOffice.Data.Cache.CacheEventHandler.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.CacheEventHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Data.Cache.CacheEventHandler.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Data.Cache.CacheEventHandler.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Data.Cache.CacheEventHandler
+  langs:
+  - csharp
+  - vb
+  name: CacheEventHandler(Object, IntPtr)
+  nameWithType: CacheEventHandler.CacheEventHandler(Object, IntPtr)
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.CacheEventHandler(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public CacheEventHandler(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Data.Cache.CacheEventHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Cache.CacheEventHandler.Invoke(SuperOffice.Data.Cache.CacheBase)
+  commentId: M:SuperOffice.Data.Cache.CacheEventHandler.Invoke(SuperOffice.Data.Cache.CacheBase)
+  id: Invoke(SuperOffice.Data.Cache.CacheBase)
+  parent: SuperOffice.Data.Cache.CacheEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Invoke(CacheBase)
+  nameWithType: CacheEventHandler.Invoke(CacheBase)
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.Invoke(SuperOffice.Data.Cache.CacheBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public virtual void Invoke(CacheBase cache)
+    parameters:
+    - id: cache
+      type: SuperOffice.Data.Cache.CacheBase
+    content.vb: Public Overridable Sub Invoke(cache As CacheBase)
+  overload: SuperOffice.Data.Cache.CacheEventHandler.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke(SuperOffice.Data.Cache.CacheBase,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke(SuperOffice.Data.Cache.CacheBase,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Data.Cache.CacheBase,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Data.Cache.CacheEventHandler
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(CacheBase, AsyncCallback, Object)
+  nameWithType: CacheEventHandler.BeginInvoke(CacheBase, AsyncCallback, Object)
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke(SuperOffice.Data.Cache.CacheBase, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(CacheBase cache, AsyncCallback callback, object object)
+    parameters:
+    - id: cache
+      type: SuperOffice.Data.Cache.CacheBase
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(cache As CacheBase, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Cache.CacheEventHandler.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Data.Cache.CacheEventHandler.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Data.Cache.CacheEventHandler
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: CacheEventHandler.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Data.Cache.CacheEventHandler.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: SuperOffice.Data.Cache.CacheEventHandler.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CacheEventHandler, To>()
+  nameWithType: EnumUtil.MapEnums<CacheEventHandler, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheEventHandler, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheEventHandler, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheEventHandler, To)()
+  name.vb: MapEnums(Of CacheEventHandler, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CacheEventHandler, To>
+    nameWithType: EnumUtil.MapEnums<CacheEventHandler, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheEventHandler, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CacheEventHandler, To)
+    nameWithType: EnumUtil.MapEnums(Of CacheEventHandler, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheEventHandler, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheEventHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CacheEventHandler, To>()
+  nameWithType: Converters.MapEnums<CacheEventHandler, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheEventHandler, To>()
+  nameWithType.vb: Converters.MapEnums(Of CacheEventHandler, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheEventHandler, To)()
+  name.vb: MapEnums(Of CacheEventHandler, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CacheEventHandler, To>
+    nameWithType: Converters.MapEnums<CacheEventHandler, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheEventHandler, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CacheEventHandler, To)
+    nameWithType: Converters.MapEnums(Of CacheEventHandler, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheEventHandler, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase
+  commentId: T:SuperOffice.Data.Cache.CacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBase
+  nameWithType: CacheBase
+  fullName: SuperOffice.Data.Cache.CacheBase
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.CacheEventHandler.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.CacheEventHandler.#ctor
+  isExternal: true
+  name: CacheEventHandler
+  nameWithType: CacheEventHandler.CacheEventHandler
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.CacheEventHandler
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache.CacheEventHandler.Invoke*
+  commentId: Overload:SuperOffice.Data.Cache.CacheEventHandler.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: CacheEventHandler.Invoke
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.Invoke
+- uid: SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke*
+  commentId: Overload:SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: CacheEventHandler.BeginInvoke
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Data.Cache.CacheEventHandler.EndInvoke*
+  commentId: Overload:SuperOffice.Data.Cache.CacheEventHandler.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: CacheEventHandler.EndInvoke
+  fullName: SuperOffice.Data.Cache.CacheEventHandler.EndInvoke

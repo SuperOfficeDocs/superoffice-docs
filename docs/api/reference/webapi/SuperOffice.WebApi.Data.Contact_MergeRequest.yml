@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_MergeRequest
+  id: Contact_MergeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_MergeRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId
+  - SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons
+  - SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  - SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId
+  langs:
+  - csharp
+  - vb
+  name: Contact_MergeRequest
+  nameWithType: Contact_MergeRequest
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_MergeRequest : Object'
+    content.vb: >-
+      Public Class Contact_MergeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_MergeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_MergeRequest()
+  nameWithType: Contact_MergeRequest.Contact_MergeRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.Contact_MergeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_MergeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_MergeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId
+  commentId: P:SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId
+  id: SourceContactId
+  parent: SuperOffice.WebApi.Data.Contact_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceContactId
+  nameWithType: Contact_MergeRequest.SourceContactId
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceContactId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId
+  commentId: P:SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId
+  id: DestinationContactId
+  parent: SuperOffice.WebApi.Data.Contact_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactId
+  nameWithType: Contact_MergeRequest.DestinationContactId
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DestinationContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DestinationContactId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons
+  commentId: P:SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons
+  id: MergeIdenticalPersons
+  parent: SuperOffice.WebApi.Data.Contact_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeIdenticalPersons
+  nameWithType: Contact_MergeRequest.MergeIdenticalPersons
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool MergeIdenticalPersons { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MergeIdenticalPersons As Boolean
+  overload: SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  commentId: P:SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  id: ReplaceEmptyFieldsOnDestination
+  parent: SuperOffice.WebApi.Data.Contact_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplaceEmptyFieldsOnDestination
+  nameWithType: Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ReplaceEmptyFieldsOnDestination { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReplaceEmptyFieldsOnDestination As Boolean
+  overload: SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_MergeRequest.#ctor
+  isExternal: true
+  name: Contact_MergeRequest
+  nameWithType: Contact_MergeRequest.Contact_MergeRequest
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.Contact_MergeRequest
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId
+  isExternal: true
+  name: SourceContactId
+  nameWithType: Contact_MergeRequest.SourceContactId
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.SourceContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId
+  isExternal: true
+  name: DestinationContactId
+  nameWithType: Contact_MergeRequest.DestinationContactId
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.DestinationContactId
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons
+  isExternal: true
+  name: MergeIdenticalPersons
+  nameWithType: Contact_MergeRequest.MergeIdenticalPersons
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.MergeIdenticalPersons
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  isExternal: true
+  name: ReplaceEmptyFieldsOnDestination
+  nameWithType: Contact_MergeRequest.ReplaceEmptyFieldsOnDestination
+  fullName: SuperOffice.WebApi.Data.Contact_MergeRequest.ReplaceEmptyFieldsOnDestination

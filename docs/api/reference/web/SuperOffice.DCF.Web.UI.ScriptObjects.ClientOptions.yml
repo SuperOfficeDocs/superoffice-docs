@@ -1,0 +1,1587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  id: ClientOptions
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.#ctor
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode
+  langs:
+  - csharp
+  - vb
+  name: ClientOptions
+  nameWithType: ClientOptions
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: 'public class ClientOptions : ScriptObjectBase'
+    content.vb: >-
+      Public Class ClientOptions
+          Inherits ScriptObjectBase
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: ClientOptions()
+  nameWithType: ClientOptions.ClientOptions()
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ClientOptions()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public ClientOptions()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance
+  id: Instance
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ClientOptions.Instance
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public static ClientOptions Instance { get; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+    content.vb: Public Shared ReadOnly Property Instance As ClientOptions
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible
+  id: ButtonBarVisible
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: ButtonBarVisible
+  nameWithType: ClientOptions.ButtonBarVisible
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public bool ButtonBarVisible { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ButtonBarVisible As Boolean
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight
+  id: ButtonBarHeight
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: ButtonBarHeight
+  nameWithType: ClientOptions.ButtonBarHeight
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public int ButtonBarHeight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ButtonBarHeight As Integer
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog
+  id: IsDialog
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: IsDialog
+  nameWithType: ClientOptions.IsDialog
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public bool IsDialog { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDialog As Boolean
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType
+  id: LayoutType
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: LayoutType
+  nameWithType: ClientOptions.LayoutType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string LayoutType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LayoutType As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem
+  id: LastValidHistoryItem
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: LastValidHistoryItem
+  nameWithType: ClientOptions.LastValidHistoryItem
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public int LastValidHistoryItem { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property LastValidHistoryItem As Integer
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent
+  id: BrowserIdent
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: BrowserIdent
+  nameWithType: ClientOptions.BrowserIdent
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string BrowserIdent { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BrowserIdent As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion
+  id: BrowserVersion
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: BrowserVersion
+  nameWithType: ClientOptions.BrowserVersion
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string BrowserVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BrowserVersion As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion
+  id: BrowserMajorVersion
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: BrowserMajorVersion
+  nameWithType: ClientOptions.BrowserMajorVersion
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public int BrowserMajorVersion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BrowserMajorVersion As Integer
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice
+  id: BrowserIsMobileDevice
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: BrowserIsMobileDevice
+  nameWithType: ClientOptions.BrowserIsMobileDevice
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public bool BrowserIsMobileDevice { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property BrowserIsMobileDevice As Boolean
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform
+  id: Platform
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: ClientOptions.Platform
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string Platform { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Platform As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion
+  id: ProductVersion
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: ProductVersion
+  nameWithType: ClientOptions.ProductVersion
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string ProductVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ProductVersion As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient
+  id: SubClient
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: SubClient
+  nameWithType: ClientOptions.SubClient
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string SubClient { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SubClient As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: ClientOptions.LanguageCode
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string LanguageCode { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LanguageCode As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode
+  id: SuperOfficeLanguageCode
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeLanguageCode
+  nameWithType: ClientOptions.SuperOfficeLanguageCode
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string SuperOfficeLanguageCode { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SuperOfficeLanguageCode As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages
+  id: AvailableLanguages
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: AvailableLanguages
+  nameWithType: ClientOptions.AvailableLanguages
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public List<Language> AvailableLanguages { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Globalization.Language}
+    content.vb: Public ReadOnly Property AvailableLanguages As List(Of Language)
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl
+  id: HelpDispatcherUrl
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: HelpDispatcherUrl
+  nameWithType: ClientOptions.HelpDispatcherUrl
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string HelpDispatcherUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HelpDispatcherUrl As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug
+  id: Debug
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: ClientOptions.Debug
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public bool Debug { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Debug As Boolean
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames
+  id: MonthNames
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: MonthNames
+  nameWithType: ClientOptions.MonthNames
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string[] MonthNames { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property MonthNames As String()
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated
+  id: OkTranslated
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: OkTranslated
+  nameWithType: ClientOptions.OkTranslated
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string OkTranslated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property OkTranslated As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated
+  id: CancelTranslated
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: CancelTranslated
+  nameWithType: ClientOptions.CancelTranslated
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string CancelTranslated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CancelTranslated As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth
+  id: MinClientWidth
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: MinClientWidth
+  nameWithType: ClientOptions.MinClientWidth
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public int MinClientWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinClientWidth As Integer
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight
+  id: MinClientHeight
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: MinClientHeight
+  nameWithType: ClientOptions.MinClientHeight
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public int MinClientHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinClientHeight As Integer
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan
+  id: LocalizedNullTimeSpan
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  langs:
+  - csharp
+  - vb
+  name: LocalizedNullTimeSpan
+  nameWithType: ClientOptions.LocalizedNullTimeSpan
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public string LocalizedNullTimeSpan { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LocalizedNullTimeSpan As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: SoIdSelector(String)
+  nameWithType: ScriptObjectBase.SoIdSelector(String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateClickFunctionForSoId(String, String)
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId(String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateHoverFunctionForSoId(String, String, String)
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId(String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.#ctor
+  isExternal: true
+  name: ClientOptions
+  nameWithType: ClientOptions.ClientOptions
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ClientOptions
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: ClientOptions.Instance
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Instance
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ClientOptions
+  nameWithType: ClientOptions
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible
+  isExternal: true
+  name: ButtonBarVisible
+  nameWithType: ClientOptions.ButtonBarVisible
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight
+  isExternal: true
+  name: ButtonBarHeight
+  nameWithType: ClientOptions.ButtonBarHeight
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ButtonBarHeight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog
+  isExternal: true
+  name: IsDialog
+  nameWithType: ClientOptions.IsDialog
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.IsDialog
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType
+  isExternal: true
+  name: LayoutType
+  nameWithType: ClientOptions.LayoutType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LayoutType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem
+  isExternal: true
+  name: LastValidHistoryItem
+  nameWithType: ClientOptions.LastValidHistoryItem
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LastValidHistoryItem
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent
+  isExternal: true
+  name: BrowserIdent
+  nameWithType: ClientOptions.BrowserIdent
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIdent
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion
+  isExternal: true
+  name: BrowserVersion
+  nameWithType: ClientOptions.BrowserVersion
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserVersion
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion
+  isExternal: true
+  name: BrowserMajorVersion
+  nameWithType: ClientOptions.BrowserMajorVersion
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserMajorVersion
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice
+  isExternal: true
+  name: BrowserIsMobileDevice
+  nameWithType: ClientOptions.BrowserIsMobileDevice
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.BrowserIsMobileDevice
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform
+  isExternal: true
+  name: Platform
+  nameWithType: ClientOptions.Platform
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Platform
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion
+  isExternal: true
+  name: ProductVersion
+  nameWithType: ClientOptions.ProductVersion
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.ProductVersion
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient
+  isExternal: true
+  name: SubClient
+  nameWithType: ClientOptions.SubClient
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SubClient
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: ClientOptions.LanguageCode
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LanguageCode
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode
+  isExternal: true
+  name: SuperOfficeLanguageCode
+  nameWithType: ClientOptions.SuperOfficeLanguageCode
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.SuperOfficeLanguageCode
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages
+  isExternal: true
+  name: AvailableLanguages
+  nameWithType: ClientOptions.AvailableLanguages
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.AvailableLanguages
+- uid: System.Collections.Generic.List{SuperOffice.Globalization.Language}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Globalization.Language}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Language>
+  nameWithType: List<Language>
+  fullName: System.Collections.Generic.List<SuperOffice.Globalization.Language>
+  nameWithType.vb: List(Of Language)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Globalization.Language)
+  name.vb: List(Of Language)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Globalization.Language
+    name: Language
+    nameWithType: Language
+    fullName: SuperOffice.Globalization.Language
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Globalization.Language
+    name: Language
+    nameWithType: Language
+    fullName: SuperOffice.Globalization.Language
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl
+  isExternal: true
+  name: HelpDispatcherUrl
+  nameWithType: ClientOptions.HelpDispatcherUrl
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.HelpDispatcherUrl
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug
+  isExternal: true
+  name: Debug
+  nameWithType: ClientOptions.Debug
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.Debug
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames
+  isExternal: true
+  name: MonthNames
+  nameWithType: ClientOptions.MonthNames
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MonthNames
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated
+  isExternal: true
+  name: OkTranslated
+  nameWithType: ClientOptions.OkTranslated
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.OkTranslated
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated
+  isExternal: true
+  name: CancelTranslated
+  nameWithType: ClientOptions.CancelTranslated
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.CancelTranslated
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth
+  isExternal: true
+  name: MinClientWidth
+  nameWithType: ClientOptions.MinClientWidth
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientWidth
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight
+  isExternal: true
+  name: MinClientHeight
+  nameWithType: ClientOptions.MinClientHeight
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.MinClientHeight
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan
+  isExternal: true
+  name: LocalizedNullTimeSpan
+  nameWithType: ClientOptions.LocalizedNullTimeSpan
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions.LocalizedNullTimeSpan

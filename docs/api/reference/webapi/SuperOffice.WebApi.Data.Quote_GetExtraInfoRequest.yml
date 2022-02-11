@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
+  id: Quote_GetExtraInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetExtraInfoRequest
+  nameWithType: Quote_GetExtraInfoRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetExtraInfoRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetExtraInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetExtraInfoRequest()
+  nameWithType: Quote_GetExtraInfoRequest.Quote_GetExtraInfoRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.Quote_GetExtraInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetExtraInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData
+  id: QuoteLineExtraData
+  parent: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineExtraData
+  nameWithType: Quote_GetExtraInfoRequest.QuoteLineExtraData
+  fullName: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string QuoteLineExtraData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property QuoteLineExtraData As String
+  overload: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.#ctor
+  isExternal: true
+  name: Quote_GetExtraInfoRequest
+  nameWithType: Quote_GetExtraInfoRequest.Quote_GetExtraInfoRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.Quote_GetExtraInfoRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData
+  isExternal: true
+  name: QuoteLineExtraData
+  nameWithType: Quote_GetExtraInfoRequest.QuoteLineExtraData
+  fullName: SuperOffice.WebApi.Data.Quote_GetExtraInfoRequest.QuoteLineExtraData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

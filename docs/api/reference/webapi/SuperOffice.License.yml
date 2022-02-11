@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  id: SuperOffice.License
+  children:
+  - SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi
+references:
+- uid: SuperOffice.License.SoLicenseNames
+  commentId: T:SuperOffice.License.SoLicenseNames
+  isExternal: true
+  name: SoLicenseNames
+  nameWithType: SoLicenseNames
+  fullName: SuperOffice.License.SoLicenseNames

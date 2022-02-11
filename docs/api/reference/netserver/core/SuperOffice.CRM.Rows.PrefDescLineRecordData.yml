@@ -1,0 +1,1138 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  commentId: T:SuperOffice.CRM.Rows.PrefDescLineRecordData
+  id: PrefDescLineRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.#ctor
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.Description
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.IsBuiltin
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescId
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescLineId
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefShowValue
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefValue
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.Registered
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.Updated
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: PrefDescLineRecordData
+  nameWithType: PrefDescLineRecordData
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the PrefDescLine table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.PrefDescLineRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.PrefDescLineTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class PrefDescLineRecordData
+    content.vb: Public Class PrefDescLineRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescLineId
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescLineId
+  id: PrefDescLineId
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrefDescLineId
+  nameWithType: PrefDescLineRecordData.PrefDescLineId
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescLineId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int PrefDescLineId
+    return:
+      type: System.Int32
+    content.vb: Public PrefDescLineId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescId
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescId
+  id: PrefDescId
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrefDescId
+  nameWithType: PrefDescLineRecordData.PrefDescId
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPreference description (parent) \n"
+  syntax:
+    content: public int PrefDescId
+    return:
+      type: System.Int32
+    content.vb: Public PrefDescId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefValue
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefValue
+  id: PrefValue
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrefValue
+  nameWithType: PrefDescLineRecordData.PrefValue
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPossible value \n"
+  syntax:
+    content: public string PrefValue
+    return:
+      type: System.String
+    content.vb: Public PrefValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefShowValue
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefShowValue
+  id: PrefShowValue
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrefShowValue
+  nameWithType: PrefDescLineRecordData.PrefShowValue
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefShowValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescriptive value, multilang-parsed, to put in list \n"
+  syntax:
+    content: public string PrefShowValue
+    return:
+      type: System.String
+    content.vb: Public PrefShowValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: PrefDescLineRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: PrefDescLineRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: PrefDescLineRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: PrefDescLineRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: PrefDescLineRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PrefDescLineRecordData.Description
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescription of preference value, multi-language parsed \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.IsBuiltin
+  commentId: F:SuperOffice.CRM.Rows.PrefDescLineRecordData.IsBuiltin
+  id: IsBuiltin
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin
+  nameWithType: PrefDescLineRecordData.IsBuiltin
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.IsBuiltin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n1 = This row populated and maintained by SuperOffice \n"
+  syntax:
+    content: public short IsBuiltin
+    return:
+      type: System.Int16
+    content.vb: Public IsBuiltin As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrefDescLineRecordData()
+  nameWithType: PrefDescLineRecordData.PrefDescLineRecordData()
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescLineRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public PrefDescLineRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.PrefDescLineRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PrefDescLineRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<PrefDescLineRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PrefDescLineRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PrefDescLineRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PrefDescLineRecordData, To)()
+  name.vb: MapEnums(Of PrefDescLineRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PrefDescLineRecordData, To>
+    nameWithType: EnumUtil.MapEnums<PrefDescLineRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PrefDescLineRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PrefDescLineRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of PrefDescLineRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PrefDescLineRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PrefDescLineRecordData>(PrefDescLineRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<PrefDescLineRecordData>(PrefDescLineRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PrefDescLineRecordData>(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PrefDescLineRecordData)(PrefDescLineRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  name.vb: AssignByReflection(Of PrefDescLineRecordData)(PrefDescLineRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PrefDescLineRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<PrefDescLineRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PrefDescLineRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    name: PrefDescLineRecordData
+    nameWithType: PrefDescLineRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PrefDescLineRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PrefDescLineRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    name: PrefDescLineRecordData
+    nameWithType: PrefDescLineRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PrefDescLineRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<PrefDescLineRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PrefDescLineRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PrefDescLineRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)()
+  name.vb: GraphCopy(Of PrefDescLineRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PrefDescLineRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<PrefDescLineRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PrefDescLineRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PrefDescLineRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of PrefDescLineRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PrefDescLineRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  parent: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  name: ToInsert()
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PrefDescLineRecordData, To>()
+  nameWithType: Converters.MapEnums<PrefDescLineRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PrefDescLineRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of PrefDescLineRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PrefDescLineRecordData, To)()
+  name.vb: MapEnums(Of PrefDescLineRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PrefDescLineRecordData, To>
+    nameWithType: Converters.MapEnums<PrefDescLineRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PrefDescLineRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PrefDescLineRecordData, To)
+    nameWithType: Converters.MapEnums(Of PrefDescLineRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PrefDescLineRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  commentId: M:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  isExternal: true
+  name: ToInsert(PrefDescLineRecordData)
+  nameWithType: PrefDescLineRecordDataExtensions.ToInsert(PrefDescLineRecordData)
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+    name: ToInsert
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    name: PrefDescLineRecordData
+    nameWithType: PrefDescLineRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.PrefDescLineRecordData)
+    name: ToInsert
+    nameWithType: PrefDescLineRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    name: PrefDescLineRecordData
+    nameWithType: PrefDescLineRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PrefDescLineRecordDataExtensions
+  nameWithType: PrefDescLineRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.PrefDescLineRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.PrefDescLineRecordData.#ctor
+  isExternal: true
+  name: PrefDescLineRecordData
+  nameWithType: PrefDescLineRecordData.PrefDescLineRecordData
+  fullName: SuperOffice.CRM.Rows.PrefDescLineRecordData.PrefDescLineRecordData

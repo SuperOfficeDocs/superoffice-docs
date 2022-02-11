@@ -1,0 +1,13 @@
+digraph PriorityGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PriorityGroupLink[fillcolor = "cadetblue1"]
+Priority[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PriorityGroupLink -> Priority [headlabel = "priority_id"]
+PriorityGroupLink -> UserGroup [headlabel = "group_id"]
+PriorityGroupLink -> associate [headlabel = "registered_associate_id"]
+PriorityGroupLink -> associate [label = "updated_associate_id"]
+}

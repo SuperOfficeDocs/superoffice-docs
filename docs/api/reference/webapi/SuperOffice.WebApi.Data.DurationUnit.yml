@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DurationUnit
+  commentId: T:SuperOffice.WebApi.Data.DurationUnit
+  id: DurationUnit
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DurationUnit.Century
+  - SuperOffice.WebApi.Data.DurationUnit.Day
+  - SuperOffice.WebApi.Data.DurationUnit.Decade
+  - SuperOffice.WebApi.Data.DurationUnit.HalfYear
+  - SuperOffice.WebApi.Data.DurationUnit.Hour
+  - SuperOffice.WebApi.Data.DurationUnit.Millenium
+  - SuperOffice.WebApi.Data.DurationUnit.Minute
+  - SuperOffice.WebApi.Data.DurationUnit.Month
+  - SuperOffice.WebApi.Data.DurationUnit.Quarter
+  - SuperOffice.WebApi.Data.DurationUnit.Second
+  - SuperOffice.WebApi.Data.DurationUnit.Unknown
+  - SuperOffice.WebApi.Data.DurationUnit.value__
+  - SuperOffice.WebApi.Data.DurationUnit.Week
+  - SuperOffice.WebApi.Data.DurationUnit.Year
+  langs:
+  - csharp
+  - vb
+  name: DurationUnit
+  nameWithType: DurationUnit
+  fullName: SuperOffice.WebApi.Data.DurationUnit
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnits of duration - from seconds to centuries\nThis Enum is used by:  ProjType.durationUnit; SaleType.durationUnit\n"
+  syntax:
+    content: 'public sealed class DurationUnit : Enum'
+    content.vb: >-
+      Public NotInheritable Class DurationUnit
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DurationUnit.value__
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DurationUnit.value__
+  fullName: SuperOffice.WebApi.Data.DurationUnit.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DurationUnit.Unknown
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DurationUnit.Unknown
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Duration is unknown\n"
+  syntax:
+    content: public const DurationUnit Unknown
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Unknown As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Second
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Second
+  id: Second
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: DurationUnit.Second
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Second
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Duration is in Seconds\n"
+  syntax:
+    content: public const DurationUnit Second
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Second As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Minute
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Minute
+  id: Minute
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Minute
+  nameWithType: DurationUnit.Minute
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Minute
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Duration is in Minutes\n"
+  syntax:
+    content: public const DurationUnit Minute
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Minute As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Hour
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Hour
+  id: Hour
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Hour
+  nameWithType: DurationUnit.Hour
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Hour
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Duration is in Hours\n"
+  syntax:
+    content: public const DurationUnit Hour
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Hour As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Day
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Day
+  id: Day
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: DurationUnit.Day
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Day
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Duration is in Days\n"
+  syntax:
+    content: public const DurationUnit Day
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Day As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Week
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Week
+  id: Week
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: DurationUnit.Week
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Week
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Duration is in Weeks\n"
+  syntax:
+    content: public const DurationUnit Week
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Week As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Month
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Month
+  id: Month
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: DurationUnit.Month
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Month
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Duration is in Months\n"
+  syntax:
+    content: public const DurationUnit Month
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Month As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Quarter
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Quarter
+  id: Quarter
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Quarter
+  nameWithType: DurationUnit.Quarter
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Quarter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Duration is in Quarters\n"
+  syntax:
+    content: public const DurationUnit Quarter
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Quarter As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.HalfYear
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.HalfYear
+  id: HalfYear
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: HalfYear
+  nameWithType: DurationUnit.HalfYear
+  fullName: SuperOffice.WebApi.Data.DurationUnit.HalfYear
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Duration is in HalfYears\n"
+  syntax:
+    content: public const DurationUnit HalfYear
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const HalfYear As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Year
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Year
+  id: Year
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: DurationUnit.Year
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Year
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Duration is in Years\n"
+  syntax:
+    content: public const DurationUnit Year
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Year As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Decade
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Decade
+  id: Decade
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Decade
+  nameWithType: DurationUnit.Decade
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Decade
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: Duration is in Decades\n"
+  syntax:
+    content: public const DurationUnit Decade
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Decade As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Century
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Century
+  id: Century
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Century
+  nameWithType: DurationUnit.Century
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Century
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: Duration is in Centurys\n"
+  syntax:
+    content: public const DurationUnit Century
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Century As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DurationUnit.Millenium
+  commentId: F:SuperOffice.WebApi.Data.DurationUnit.Millenium
+  id: Millenium
+  parent: SuperOffice.WebApi.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: Millenium
+  nameWithType: DurationUnit.Millenium
+  fullName: SuperOffice.WebApi.Data.DurationUnit.Millenium
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: Duration is in Milleniums\n"
+  syntax:
+    content: public const DurationUnit Millenium
+    return:
+      type: SuperOffice.WebApi.Data.DurationUnit
+    content.vb: Public Const Millenium As DurationUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DurationUnit
+  commentId: T:SuperOffice.WebApi.Data.DurationUnit
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DurationUnit
+  nameWithType: DurationUnit
+  fullName: SuperOffice.WebApi.Data.DurationUnit

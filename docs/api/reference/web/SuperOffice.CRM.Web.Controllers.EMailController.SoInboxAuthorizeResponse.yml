@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  id: EMailController.SoInboxAuthorizeResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.#ctor
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.authenticationMethod
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.emailServers
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthProvider
+  - SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthRedirectUrl
+  langs:
+  - csharp
+  - vb
+  name: EMailController.SoInboxAuthorizeResponse
+  nameWithType: EMailController.SoInboxAuthorizeResponse
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public class SoInboxAuthorizeResponse
+    content.vb: Public Class SoInboxAuthorizeResponse
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.authenticationMethod
+  commentId: F:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.authenticationMethod
+  id: authenticationMethod
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  langs:
+  - csharp
+  - vb
+  name: authenticationMethod
+  nameWithType: EMailController.SoInboxAuthorizeResponse.authenticationMethod
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.authenticationMethod
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public EMailController.EmailAuthenticationMethod authenticationMethod
+    return:
+      type: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+    content.vb: Public authenticationMethod As EMailController.EmailAuthenticationMethod
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthProvider
+  commentId: F:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthProvider
+  id: oAuthProvider
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  langs:
+  - csharp
+  - vb
+  name: oAuthProvider
+  nameWithType: EMailController.SoInboxAuthorizeResponse.oAuthProvider
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthProvider
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string oAuthProvider
+    return:
+      type: System.String
+    content.vb: Public oAuthProvider As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthRedirectUrl
+  commentId: F:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthRedirectUrl
+  id: oAuthRedirectUrl
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  langs:
+  - csharp
+  - vb
+  name: oAuthRedirectUrl
+  nameWithType: EMailController.SoInboxAuthorizeResponse.oAuthRedirectUrl
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.oAuthRedirectUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string oAuthRedirectUrl
+    return:
+      type: System.String
+    content.vb: Public oAuthRedirectUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.emailServers
+  commentId: F:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.emailServers
+  id: emailServers
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  langs:
+  - csharp
+  - vb
+  name: emailServers
+  nameWithType: EMailController.SoInboxAuthorizeResponse.emailServers
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.emailServers
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public EMailController.ExpertEmailAuthentiction emailServers
+    return:
+      type: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+    content.vb: Public emailServers As EMailController.ExpertEmailAuthentiction
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse
+  langs:
+  - csharp
+  - vb
+  name: SoInboxAuthorizeResponse()
+  nameWithType: EMailController.SoInboxAuthorizeResponse.SoInboxAuthorizeResponse()
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.SoInboxAuthorizeResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SoInboxAuthorizeResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.EmailAuthenticationMethod
+  nameWithType: EMailController.EmailAuthenticationMethod
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthenticationMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.ExpertEmailAuthentiction
+  nameWithType: EMailController.ExpertEmailAuthentiction
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.ExpertEmailAuthentiction
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.#ctor
+  isExternal: true
+  name: SoInboxAuthorizeResponse
+  nameWithType: EMailController.SoInboxAuthorizeResponse.SoInboxAuthorizeResponse
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SoInboxAuthorizeResponse.SoInboxAuthorizeResponse

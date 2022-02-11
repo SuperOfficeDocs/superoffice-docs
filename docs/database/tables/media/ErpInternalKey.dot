@@ -1,0 +1,11 @@
+digraph ErpInternalKey  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpInternalKey[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ErpExternalKey[fillcolor = "azure1"]
+ErpInternalKey -> associate [headlabel = "registered_associate_id"]
+ErpInternalKey -> associate [label = "updated_associate_id"]
+ErpExternalKey -> ErpInternalKey [label = "ErpInternalKeyId"]
+}

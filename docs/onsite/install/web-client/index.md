@@ -90,12 +90,12 @@ The server where you install SuperOffice Web needs to have an internet connectio
 [3]: ../../../mobile/pocket-crm/deploy.md
 [4]: ../../security/secure-deployment-guide.md
 [5]: ../iis/index.md
-[6]: ../../../../../data-access/docs/netserver/config/documents.md
+[6]: ../../../api/config/documents.md
 [7]: ../../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
 [9]: ../../reporter/config.md
-[10]: ../../../../../data-access/docs/netserver/config/diagnostics.md
+[10]: ../../../api/config/diagnostics.md
 [11]: ../../../service/install/index.md
-[12]: ../../../../../data-access/docs/netserver/config/security.md
-[14]: ../../../../../data-access/docs/netserver/config/data.md#database
-[15]: ../../../../../data-access/docs/netserver/config/globalization.md
+[12]: ../../../api/config/security.md
+[14]: ../../../api/config/data.md#database
+[15]: ../../../api/config/globalization.md

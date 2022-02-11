@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest
+  id: List_GetAllSaleStagesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllSaleStagesRequest
+  nameWithType: List_GetAllSaleStagesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllSaleStagesRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllSaleStagesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllSaleStagesRequest()
+  nameWithType: List_GetAllSaleStagesRequest.List_GetAllSaleStagesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.List_GetAllSaleStagesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllSaleStagesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetAllSaleStagesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.#ctor
+  isExternal: true
+  name: List_GetAllSaleStagesRequest
+  nameWithType: List_GetAllSaleStagesRequest.List_GetAllSaleStagesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.List_GetAllSaleStagesRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetAllSaleStagesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllSaleStagesRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,1598 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo
+  commentId: T:SuperOffice.CRM.Data.TimestampsTableInfo
+  id: TimestampsTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets
+  - SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets
+  - SuperOffice.CRM.Data.TimestampsTableInfo.Autologout
+  - SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq
+  - SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail
+  - SuperOffice.CRM.Data.TimestampsTableInfo.Definition
+  - SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket
+  - SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron
+  - SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel
+  - SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter
+  - SuperOffice.CRM.Data.TimestampsTableInfo.MailSender
+  - SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync
+  - SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert
+  - SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId
+  - SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat
+  langs:
+  - csharp
+  - vb
+  name: TimestampsTableInfo
+  nameWithType: TimestampsTableInfo
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;timestamps&apos;: Timestamp information\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetTimestampsInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("timestamps")]
+
+      public class TimestampsTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("timestamps")>
+
+      Public Class TimestampsTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.TimestampsTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.TimestampsTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: timestamps
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: TimestampsTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table Timestamps in the database dictionary: timestamps\n"
+  syntax:
+    content: public const string DictionaryTableName = "timestamps"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "timestamps"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: TimestampsTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table Timestamps in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: TimestampsTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: TimestampsTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId
+  id: TimestampsId
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TimestampsId
+  nameWithType: TimestampsTableInfo.TimestampsId
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id&apos; in table &apos;timestamps&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public Int32FieldInfo TimestampsId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TimestampsId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter
+  id: MailFilter
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MailFilter
+  nameWithType: TimestampsTableInfo.MailFilter
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mail_filter&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for the last time importMail was started.\n"
+  syntax:
+    content: public DateTimeFieldInfo MailFilter { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property MailFilter As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.MailSender
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.MailSender
+  id: MailSender
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MailSender
+  nameWithType: TimestampsTableInfo.MailSender
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.MailSender
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mail_sender&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for the last time mailSender was started.\n"
+  syntax:
+    content: public DateTimeFieldInfo MailSender { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property MailSender As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.MailSender*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron
+  id: EjournalCron
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EjournalCron
+  nameWithType: TimestampsTableInfo.EjournalCron
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ejournal_cron&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for the last time ejournalCron was started.\n"
+  syntax:
+    content: public DateTimeFieldInfo EjournalCron { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property EjournalCron As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.Autologout
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.Autologout
+  id: Autologout
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Autologout
+  nameWithType: TimestampsTableInfo.Autologout
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.Autologout
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;autologout&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when users should be checked for automatic logout.\n"
+  syntax:
+    content: public DateTimeFieldInfo Autologout { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Autologout As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.Autologout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets
+  id: ActivateTickets
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ActivateTickets
+  nameWithType: TimestampsTableInfo.ActivateTickets
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;activate_tickets&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when tickets should be checked for activation.\n"
+  syntax:
+    content: public DateTimeFieldInfo ActivateTickets { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property ActivateTickets As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert
+  id: TicketAlert
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketAlert
+  nameWithType: TimestampsTableInfo.TicketAlert
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ticket_alert&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when tickets should be checked for escalation.\n"
+  syntax:
+    content: public DateTimeFieldInfo TicketAlert { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property TicketAlert As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket
+  id: DeleteTempTicket
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DeleteTempTicket
+  nameWithType: TimestampsTableInfo.DeleteTempTicket
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;delete_temp_ticket&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when tickets should be checked for deletion.\n"
+  syntax:
+    content: public DateTimeFieldInfo DeleteTempTicket { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property DeleteTempTicket As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets
+  id: ActiveTickets
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ActiveTickets
+  nameWithType: TimestampsTableInfo.ActiveTickets
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;active_tickets&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  syntax:
+    content: public DateTimeFieldInfo ActiveTickets { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property ActiveTickets As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail
+  id: CriticalEmail
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CriticalEmail
+  nameWithType: TimestampsTableInfo.CriticalEmail
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;critical_email&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when we last emailed a critical email to panic_email (usually error@superoffice.com).\n"
+  syntax:
+    content: public DateTimeFieldInfo CriticalEmail { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property CriticalEmail As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel
+  id: LastTicketdel
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastTicketdel
+  nameWithType: TimestampsTableInfo.LastTicketdel
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;last_ticketdel&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when we last physically removed tickets tagged for deletion.\n"
+  syntax:
+    content: public DateTimeFieldInfo LastTicketdel { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastTicketdel As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq
+  id: BuildFaq
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BuildFaq
+  nameWithType: TimestampsTableInfo.BuildFaq
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;build_faq&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when the FAQ search tree was last rebuilt.\n"
+  syntax:
+    content: public DateTimeFieldInfo BuildFaq { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property BuildFaq As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat
+  id: WeekStat
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WeekStat
+  nameWithType: TimestampsTableInfo.WeekStat
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;week_stat&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for when the week statistics was last sent.\n"
+  syntax:
+    content: public DateTimeFieldInfo WeekStat { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property WeekStat As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync
+  commentId: P:SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync
+  id: Mailsync
+  parent: SuperOffice.CRM.Data.TimestampsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Mailsync
+  nameWithType: TimestampsTableInfo.Mailsync
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mailsync&apos; in table &apos;timestamps&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimestamp for syncing crm inbox2 email accounts\n"
+  syntax:
+    content: public DateTimeFieldInfo Mailsync { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Mailsync As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimestampsTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<TimestampsTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TimestampsTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimestampsTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TimestampsTableInfo, To)()
+  name.vb: MapEnums(Of TimestampsTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimestampsTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<TimestampsTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TimestampsTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimestampsTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of TimestampsTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TimestampsTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimestampsTableInfo, To>()
+  nameWithType: Converters.MapEnums<TimestampsTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TimestampsTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimestampsTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TimestampsTableInfo, To)()
+  name.vb: MapEnums(Of TimestampsTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimestampsTableInfo, To>
+    nameWithType: Converters.MapEnums<TimestampsTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TimestampsTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimestampsTableInfo, To)
+    nameWithType: Converters.MapEnums(Of TimestampsTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TimestampsTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: TimestampsTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: TimestampsTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: TimestampsTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.Definition
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId
+  isExternal: true
+  name: TimestampsId
+  nameWithType: TimestampsTableInfo.TimestampsId
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.TimestampsId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter
+  isExternal: true
+  name: MailFilter
+  nameWithType: TimestampsTableInfo.MailFilter
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.MailFilter
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.MailSender*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.MailSender
+  isExternal: true
+  name: MailSender
+  nameWithType: TimestampsTableInfo.MailSender
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.MailSender
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron
+  isExternal: true
+  name: EjournalCron
+  nameWithType: TimestampsTableInfo.EjournalCron
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.EjournalCron
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.Autologout*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.Autologout
+  isExternal: true
+  name: Autologout
+  nameWithType: TimestampsTableInfo.Autologout
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.Autologout
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets
+  isExternal: true
+  name: ActivateTickets
+  nameWithType: TimestampsTableInfo.ActivateTickets
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.ActivateTickets
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert
+  isExternal: true
+  name: TicketAlert
+  nameWithType: TimestampsTableInfo.TicketAlert
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.TicketAlert
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket
+  isExternal: true
+  name: DeleteTempTicket
+  nameWithType: TimestampsTableInfo.DeleteTempTicket
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.DeleteTempTicket
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets
+  isExternal: true
+  name: ActiveTickets
+  nameWithType: TimestampsTableInfo.ActiveTickets
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.ActiveTickets
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail
+  isExternal: true
+  name: CriticalEmail
+  nameWithType: TimestampsTableInfo.CriticalEmail
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.CriticalEmail
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel
+  isExternal: true
+  name: LastTicketdel
+  nameWithType: TimestampsTableInfo.LastTicketdel
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.LastTicketdel
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq
+  isExternal: true
+  name: BuildFaq
+  nameWithType: TimestampsTableInfo.BuildFaq
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.BuildFaq
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat
+  isExternal: true
+  name: WeekStat
+  nameWithType: TimestampsTableInfo.WeekStat
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.WeekStat
+- uid: SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync*
+  commentId: Overload:SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync
+  isExternal: true
+  name: Mailsync
+  nameWithType: TimestampsTableInfo.Mailsync
+  fullName: SuperOffice.CRM.Data.TimestampsTableInfo.Mailsync

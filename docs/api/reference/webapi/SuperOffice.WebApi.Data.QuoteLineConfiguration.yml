@@ -1,0 +1,502 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  commentId: T:SuperOffice.WebApi.Data.QuoteLineConfiguration
+  id: QuoteLineConfiguration
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.#ctor
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.Label
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit
+  - SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineConfiguration
+  nameWithType: QuoteLineConfiguration
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteLineConfiguration.\nQuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.    \n"
+  syntax:
+    content: 'public class QuoteLineConfiguration : Carrier'
+    content.vb: >-
+      Public Class QuoteLineConfiguration
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteLineConfiguration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineConfiguration()
+  nameWithType: QuoteLineConfiguration.QuoteLineConfiguration()
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfiguration()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteLineConfiguration()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId
+  id: QuoteLineConfigurationId
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineConfigurationId
+  nameWithType: QuoteLineConfiguration.QuoteLineConfigurationId
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int QuoteLineConfigurationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteLineConfigurationId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName
+  id: FieldName
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: FieldName
+  nameWithType: QuoteLineConfiguration.FieldName
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the field being configured, from data dictionary\n"
+  syntax:
+    content: public virtual string FieldName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldName As String
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Label
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.Label
+  id: Label
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: QuoteLineConfiguration.Label
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Label
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLabel resource string.\n"
+  syntax:
+    content: public virtual string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Label As String
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.Label*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: QuoteLineConfiguration.Tooltip
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip resource string.\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable
+  id: Editable
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Editable
+  nameWithType: QuoteLineConfiguration.Editable
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this a read only field?\n"
+  syntax:
+    content: public virtual bool Editable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Editable As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse
+  id: InUse
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: InUse
+  nameWithType: QuoteLineConfiguration.InUse
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould this field be displayed in the GUI?\n"
+  syntax:
+    content: public virtual bool InUse { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property InUse As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory
+  id: Mandatory
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: QuoteLineConfiguration.Mandatory
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this a mandatory field?\n"
+  syntax:
+    content: public virtual bool Mandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Mandatory As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: QuoteLineConfiguration.Rank
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank of the field\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit
+  commentId: P:SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit
+  id: RestrictEdit
+  parent: SuperOffice.WebApi.Data.QuoteLineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: RestrictEdit
+  nameWithType: QuoteLineConfiguration.RestrictEdit
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, then this field cannot be set readwrite or mandatory: It&apos;s bound to be readonly\n"
+  syntax:
+    content: public virtual bool RestrictEdit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property RestrictEdit As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.#ctor
+  isExternal: true
+  name: QuoteLineConfiguration
+  nameWithType: QuoteLineConfiguration.QuoteLineConfiguration
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfiguration
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId
+  isExternal: true
+  name: QuoteLineConfigurationId
+  nameWithType: QuoteLineConfiguration.QuoteLineConfigurationId
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.QuoteLineConfigurationId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName
+  isExternal: true
+  name: FieldName
+  nameWithType: QuoteLineConfiguration.FieldName
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.FieldName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Label*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.Label
+  isExternal: true
+  name: Label
+  nameWithType: QuoteLineConfiguration.Label
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Label
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: QuoteLineConfiguration.Tooltip
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Tooltip
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable
+  isExternal: true
+  name: Editable
+  nameWithType: QuoteLineConfiguration.Editable
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Editable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse
+  isExternal: true
+  name: InUse
+  nameWithType: QuoteLineConfiguration.InUse
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.InUse
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory
+  isExternal: true
+  name: Mandatory
+  nameWithType: QuoteLineConfiguration.Mandatory
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Mandatory
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: QuoteLineConfiguration.Rank
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.Rank
+- uid: SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit
+  isExternal: true
+  name: RestrictEdit
+  nameWithType: QuoteLineConfiguration.RestrictEdit
+  fullName: SuperOffice.WebApi.Data.QuoteLineConfiguration.RestrictEdit

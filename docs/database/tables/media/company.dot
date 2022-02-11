@@ -1,0 +1,9 @@
+digraph company  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+company[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+company -> associate [headlabel = "registered_associate_id"]
+company -> associate [label = "updated_associate_id"]
+}

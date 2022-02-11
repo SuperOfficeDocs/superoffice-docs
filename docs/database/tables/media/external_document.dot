@@ -1,0 +1,15 @@
+digraph external_document  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+external_document[fillcolor = "cadetblue1"]
+hierarchy[fillcolor = "azure1"]
+attachment[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+s_message[fillcolor = "azure1"]
+external_document -> hierarchy [headlabel = "hierarchy_id"]
+external_document -> attachment [headlabel = "attachment_id"]
+external_document -> ejuser [headlabel = "created_by"]
+external_document -> ejuser [label = "changed_by"]
+external_document -> s_message [headlabel = "s_message"]
+}

@@ -1,0 +1,12 @@
+digraph s_sent_message  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_sent_message[fillcolor = "cadetblue1"]
+s_shipment[fillcolor = "azure1"]
+s_message[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+s_sent_message -> s_shipment [headlabel = "shipment_id"]
+s_sent_message -> s_message [headlabel = "message_id"]
+s_sent_message -> person [headlabel = "customer_id"]
+}

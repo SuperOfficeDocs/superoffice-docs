@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SmsConfig
+  commentId: T:SuperOffice.WebApi.Data.SmsConfig
+  id: SmsConfig
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SmsConfig.#ctor
+  - SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry
+  - SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider
+  - SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig
+  - SuperOffice.WebApi.Data.SmsConfig.NsPluginSender
+  langs:
+  - csharp
+  - vb
+  name: SmsConfig
+  nameWithType: SmsConfig
+  fullName: SuperOffice.WebApi.Data.SmsConfig
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SmsConfig.\nSms settings for Customer Service sms providers.    \n"
+  syntax:
+    content: 'public class SmsConfig : Carrier'
+    content.vb: >-
+      Public Class SmsConfig
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SmsConfig.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SmsConfig.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SmsConfig
+  langs:
+  - csharp
+  - vb
+  name: SmsConfig()
+  nameWithType: SmsConfig.SmsConfig()
+  fullName: SuperOffice.WebApi.Data.SmsConfig.SmsConfig()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SmsConfig()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SmsConfig.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry
+  commentId: P:SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry
+  id: DefaultSmsCountry
+  parent: SuperOffice.WebApi.Data.SmsConfig
+  langs:
+  - csharp
+  - vb
+  name: DefaultSmsCountry
+  nameWithType: SmsConfig.DefaultSmsCountry
+  fullName: SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPhone prefix, will default to the current users HomeCountryId.\n"
+  syntax:
+    content: public virtual string DefaultSmsCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DefaultSmsCountry As String
+  overload: SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider
+  commentId: P:SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider
+  id: NetServerSmsProvider
+  parent: SuperOffice.WebApi.Data.SmsConfig
+  langs:
+  - csharp
+  - vb
+  name: NetServerSmsProvider
+  nameWithType: SmsConfig.NetServerSmsProvider
+  fullName: SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal.\n"
+  syntax:
+    content: public virtual string NetServerSmsProvider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property NetServerSmsProvider As String
+  overload: SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SmsConfig.NsPluginSender
+  commentId: P:SuperOffice.WebApi.Data.SmsConfig.NsPluginSender
+  id: NsPluginSender
+  parent: SuperOffice.WebApi.Data.SmsConfig
+  langs:
+  - csharp
+  - vb
+  name: NsPluginSender
+  nameWithType: SmsConfig.NsPluginSender
+  fullName: SuperOffice.WebApi.Data.SmsConfig.NsPluginSender
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sender of the SMS messages. This text will appear on the recipient&apos;s mobile phone.\n"
+  syntax:
+    content: public virtual string NsPluginSender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property NsPluginSender As String
+  overload: SuperOffice.WebApi.Data.SmsConfig.NsPluginSender*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig
+  commentId: P:SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig
+  id: NsPluginConfig
+  parent: SuperOffice.WebApi.Data.SmsConfig
+  langs:
+  - csharp
+  - vb
+  name: NsPluginConfig
+  nameWithType: SmsConfig.NsPluginConfig
+  fullName: SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConfiguration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password.\n"
+  syntax:
+    content: public virtual StringDictionary NsPluginConfig { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property NsPluginConfig As StringDictionary
+  overload: SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SmsConfig.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SmsConfig.#ctor
+  isExternal: true
+  name: SmsConfig
+  nameWithType: SmsConfig.SmsConfig
+  fullName: SuperOffice.WebApi.Data.SmsConfig.SmsConfig
+- uid: SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry*
+  commentId: Overload:SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry
+  isExternal: true
+  name: DefaultSmsCountry
+  nameWithType: SmsConfig.DefaultSmsCountry
+  fullName: SuperOffice.WebApi.Data.SmsConfig.DefaultSmsCountry
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider*
+  commentId: Overload:SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider
+  isExternal: true
+  name: NetServerSmsProvider
+  nameWithType: SmsConfig.NetServerSmsProvider
+  fullName: SuperOffice.WebApi.Data.SmsConfig.NetServerSmsProvider
+- uid: SuperOffice.WebApi.Data.SmsConfig.NsPluginSender*
+  commentId: Overload:SuperOffice.WebApi.Data.SmsConfig.NsPluginSender
+  isExternal: true
+  name: NsPluginSender
+  nameWithType: SmsConfig.NsPluginSender
+  fullName: SuperOffice.WebApi.Data.SmsConfig.NsPluginSender
+- uid: SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig*
+  commentId: Overload:SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig
+  isExternal: true
+  name: NsPluginConfig
+  nameWithType: SmsConfig.NsPluginConfig
+  fullName: SuperOffice.WebApi.Data.SmsConfig.NsPluginConfig
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

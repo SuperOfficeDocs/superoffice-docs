@@ -1,0 +1,12 @@
+digraph extra_fields  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+extra_fields[fillcolor = "cadetblue1"]
+extra_tables[fillcolor = "azure1"]
+ticket_log_change[fillcolor = "azure1"]
+extra_fields -> extra_tables [headlabel = "extra_table"]
+extra_fields -> extra_tables [label = "target_extra_table"]
+ticket_log_change -> extra_fields [label = "extra_field_id"]
+extra_tables -> extra_fields [label = "display_field"]
+}

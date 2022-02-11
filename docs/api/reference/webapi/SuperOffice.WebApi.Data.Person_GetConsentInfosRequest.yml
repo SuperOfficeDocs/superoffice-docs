@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetConsentInfosRequest
+  id: Person_GetConsentInfosRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetConsentInfosRequest
+  nameWithType: Person_GetConsentInfosRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetConsentInfosRequest : Object'
+    content.vb: >-
+      Public Class Person_GetConsentInfosRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetConsentInfosRequest()
+  nameWithType: Person_GetConsentInfosRequest.Person_GetConsentInfosRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.Person_GetConsentInfosRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetConsentInfosRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_GetConsentInfosRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.#ctor
+  isExternal: true
+  name: Person_GetConsentInfosRequest
+  nameWithType: Person_GetConsentInfosRequest.Person_GetConsentInfosRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.Person_GetConsentInfosRequest
+- uid: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_GetConsentInfosRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetConsentInfosRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

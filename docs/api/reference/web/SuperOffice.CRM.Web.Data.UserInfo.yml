@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.UserInfo
+  commentId: T:SuperOffice.CRM.Web.Data.UserInfo
+  id: UserInfo
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.UserInfo.#ctor
+  - SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials
+  - SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials
+  - SuperOffice.CRM.Web.Data.UserInfo.Credentials
+  - SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners
+  - SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName
+  - SuperOffice.CRM.Web.Data.UserInfo.OtherGroups
+  - SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl
+  - SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle
+  - SuperOffice.CRM.Web.Data.UserInfo.ShowUserName
+  - SuperOffice.CRM.Web.Data.UserInfo.UserIsActive
+  langs:
+  - csharp
+  - vb
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: SuperOffice.CRM.Web.Data.UserInfo
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class UserInfo : Carrier'
+    content.vb: >-
+      Public Class UserInfo
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.UserInfo.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.UserInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: UserInfo()
+  nameWithType: UserInfo.UserInfo()
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.UserInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public UserInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.UserInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.Credentials
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.Credentials
+  id: Credentials
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: UserInfo.Credentials
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.Credentials
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public CredentialInfo[] Credentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Data.CredentialInfo[]
+    content.vb: Public Property Credentials As CredentialInfo()
+  overload: SuperOffice.CRM.Web.Data.UserInfo.Credentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials
+  id: CanAddCredentials
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: CanAddCredentials
+  nameWithType: UserInfo.CanAddCredentials
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool CanAddCredentials { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanAddCredentials As Boolean
+  overload: SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials
+  id: CanChangeCredentials
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: CanChangeCredentials
+  nameWithType: UserInfo.CanChangeCredentials
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool CanChangeCredentials { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanChangeCredentials As Boolean
+  overload: SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle
+  id: PrefsTitle
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: PrefsTitle
+  nameWithType: UserInfo.PrefsTitle
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string PrefsTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrefsTitle As String
+  overload: SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.UserIsActive
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.UserIsActive
+  id: UserIsActive
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: UserIsActive
+  nameWithType: UserInfo.UserIsActive
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.UserIsActive
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool UserIsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UserIsActive As Boolean
+  overload: SuperOffice.CRM.Web.Data.UserInfo.UserIsActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName
+  id: LoginAndFullName
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: LoginAndFullName
+  nameWithType: UserInfo.LoginAndFullName
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string LoginAndFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LoginAndFullName As String
+  overload: SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners
+  id: LicenseOwners
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: LicenseOwners
+  nameWithType: UserInfo.LicenseOwners
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public LicenseOwner[] LicenseOwners { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    content.vb: Public Property LicenseOwners As LicenseOwner()
+  overload: SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.OtherGroups
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.OtherGroups
+  id: OtherGroups
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: OtherGroups
+  nameWithType: UserInfo.OtherGroups
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.OtherGroups
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string OtherGroups { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OtherGroups As String
+  overload: SuperOffice.CRM.Web.Data.UserInfo.OtherGroups*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl
+  id: OtherGroupsUrl
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: OtherGroupsUrl
+  nameWithType: UserInfo.OtherGroupsUrl
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string OtherGroupsUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OtherGroupsUrl As String
+  overload: SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.UserInfo.ShowUserName
+  commentId: P:SuperOffice.CRM.Web.Data.UserInfo.ShowUserName
+  id: ShowUserName
+  parent: SuperOffice.CRM.Web.Data.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: ShowUserName
+  nameWithType: UserInfo.ShowUserName
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.ShowUserName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool ShowUserName { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowUserName As Boolean
+  overload: SuperOffice.CRM.Web.Data.UserInfo.ShowUserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.UserInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.#ctor
+  isExternal: true
+  name: UserInfo
+  nameWithType: UserInfo.UserInfo
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.UserInfo
+- uid: SuperOffice.CRM.Web.Data.UserInfo.Credentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.Credentials
+  isExternal: true
+  name: Credentials
+  nameWithType: UserInfo.Credentials
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.Credentials
+- uid: SuperOffice.CRM.Web.Data.CredentialInfo[]
+  isExternal: true
+  name: CredentialInfo[]
+  nameWithType: CredentialInfo[]
+  fullName: SuperOffice.CRM.Web.Data.CredentialInfo[]
+  nameWithType.vb: CredentialInfo()
+  fullName.vb: SuperOffice.CRM.Web.Data.CredentialInfo()
+  name.vb: CredentialInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.CredentialInfo
+    name: CredentialInfo
+    nameWithType: CredentialInfo
+    fullName: SuperOffice.CRM.Web.Data.CredentialInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.CredentialInfo
+    name: CredentialInfo
+    nameWithType: CredentialInfo
+    fullName: SuperOffice.CRM.Web.Data.CredentialInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials
+  isExternal: true
+  name: CanAddCredentials
+  nameWithType: UserInfo.CanAddCredentials
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.CanAddCredentials
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials
+  isExternal: true
+  name: CanChangeCredentials
+  nameWithType: UserInfo.CanChangeCredentials
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.CanChangeCredentials
+- uid: SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle
+  isExternal: true
+  name: PrefsTitle
+  nameWithType: UserInfo.PrefsTitle
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.PrefsTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.UserInfo.UserIsActive*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.UserIsActive
+  isExternal: true
+  name: UserIsActive
+  nameWithType: UserInfo.UserIsActive
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.UserIsActive
+- uid: SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName
+  isExternal: true
+  name: LoginAndFullName
+  nameWithType: UserInfo.LoginAndFullName
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.LoginAndFullName
+- uid: SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners
+  isExternal: true
+  name: LicenseOwners
+  nameWithType: UserInfo.LicenseOwners
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.LicenseOwners
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.UserInfo.OtherGroups*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.OtherGroups
+  isExternal: true
+  name: OtherGroups
+  nameWithType: UserInfo.OtherGroups
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.OtherGroups
+- uid: SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl
+  isExternal: true
+  name: OtherGroupsUrl
+  nameWithType: UserInfo.OtherGroupsUrl
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.OtherGroupsUrl
+- uid: SuperOffice.CRM.Web.Data.UserInfo.ShowUserName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.UserInfo.ShowUserName
+  isExternal: true
+  name: ShowUserName
+  nameWithType: UserInfo.ShowUserName
+  fullName: SuperOffice.CRM.Web.Data.UserInfo.ShowUserName

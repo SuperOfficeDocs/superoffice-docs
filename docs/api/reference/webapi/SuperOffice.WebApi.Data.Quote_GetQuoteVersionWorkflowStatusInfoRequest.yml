@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  id: Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  nameWithType: Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetQuoteVersionWorkflowStatusInfoRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetQuoteVersionWorkflowStatusInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteVersionWorkflowStatusInfoRequest()
+  nameWithType: Quote_GetQuoteVersionWorkflowStatusInfoRequest.Quote_GetQuoteVersionWorkflowStatusInfoRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.Quote_GetQuoteVersionWorkflowStatusInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetQuoteVersionWorkflowStatusInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.#ctor
+  isExternal: true
+  name: Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  nameWithType: Quote_GetQuoteVersionWorkflowStatusInfoRequest.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.Quote_GetQuoteVersionWorkflowStatusInfoRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteVersionWorkflowStatusInfoRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

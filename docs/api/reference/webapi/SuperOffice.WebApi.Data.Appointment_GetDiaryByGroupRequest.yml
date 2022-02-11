@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  id: Appointment_GetDiaryByGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count
+  - SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime
+  - SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId
+  - SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType
+  - SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetDiaryByGroupRequest
+  nameWithType: Appointment_GetDiaryByGroupRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetDiaryByGroupRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetDiaryByGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetDiaryByGroupRequest()
+  nameWithType: Appointment_GetDiaryByGroupRequest.Appointment_GetDiaryByGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Appointment_GetDiaryByGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetDiaryByGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId
+  id: GroupId
+  parent: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: Appointment_GetDiaryByGroupRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType
+  id: GroupType
+  parent: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: GroupType
+  nameWithType: Appointment_GetDiaryByGroupRequest.GroupType
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int GroupType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupType As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Appointment_GetDiaryByGroupRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Appointment_GetDiaryByGroupRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Appointment_GetDiaryByGroupRequest.Count
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.#ctor
+  isExternal: true
+  name: Appointment_GetDiaryByGroupRequest
+  nameWithType: Appointment_GetDiaryByGroupRequest.Appointment_GetDiaryByGroupRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Appointment_GetDiaryByGroupRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: Appointment_GetDiaryByGroupRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType
+  isExternal: true
+  name: GroupType
+  nameWithType: Appointment_GetDiaryByGroupRequest.GroupType
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.GroupType
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Appointment_GetDiaryByGroupRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Appointment_GetDiaryByGroupRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.EndTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Appointment_GetDiaryByGroupRequest.Count
+  fullName: SuperOffice.WebApi.Data.Appointment_GetDiaryByGroupRequest.Count

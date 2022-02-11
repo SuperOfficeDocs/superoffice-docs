@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult
+  commentId: T:SuperOffice.WebApi.Data.ExportArchiveResult
+  id: ExportArchiveResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExportArchiveResult.#ctor
+  - SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId
+  - SuperOffice.WebApi.Data.ExportArchiveResult.FileName
+  - SuperOffice.WebApi.Data.ExportArchiveResult.Message
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ExportArchiveResult.\n\n"
+  syntax:
+    content: 'public class ExportArchiveResult : Carrier'
+    content.vb: >-
+      Public Class ExportArchiveResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ExportArchiveResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveResult()
+  nameWithType: ExportArchiveResult.ExportArchiveResult()
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.ExportArchiveResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ExportArchiveResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ExportArchiveResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId
+  commentId: P:SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId
+  id: BatchTaskId
+  parent: SuperOffice.WebApi.Data.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskId
+  nameWithType: ExportArchiveResult.BatchTaskId
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the BatchTask created. &lt;=0 if no BatchTask was created.\n"
+  syntax:
+    content: public virtual int BatchTaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BatchTaskId As Integer
+  overload: SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.FileName
+  commentId: P:SuperOffice.WebApi.Data.ExportArchiveResult.FileName
+  id: FileName
+  parent: SuperOffice.WebApi.Data.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: ExportArchiveResult.FileName
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.FileName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe path to the output file created, if it exists. Will be an empty string if no file was created.\n"
+  syntax:
+    content: public virtual string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FileName As String
+  overload: SuperOffice.WebApi.Data.ExportArchiveResult.FileName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.Message
+  commentId: P:SuperOffice.WebApi.Data.ExportArchiveResult.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.ExportArchiveResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ExportArchiveResult.Message
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescriptive messages; errors, etc.\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.ExportArchiveResult.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ExportArchiveResult.#ctor
+  isExternal: true
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult.ExportArchiveResult
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.ExportArchiveResult
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId*
+  commentId: Overload:SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId
+  isExternal: true
+  name: BatchTaskId
+  nameWithType: ExportArchiveResult.BatchTaskId
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.BatchTaskId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.FileName*
+  commentId: Overload:SuperOffice.WebApi.Data.ExportArchiveResult.FileName
+  isExternal: true
+  name: FileName
+  nameWithType: ExportArchiveResult.FileName
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ExportArchiveResult.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.ExportArchiveResult.Message
+  isExternal: true
+  name: Message
+  nameWithType: ExportArchiveResult.Message
+  fullName: SuperOffice.WebApi.Data.ExportArchiveResult.Message

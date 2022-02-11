@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web
+  commentId: N:SuperOffice.CRM.Web
+  id: SuperOffice.CRM.Web
+  children:
+  - SuperOffice.CRM.Web.ApplicationDefs_old
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  - SuperOffice.CRM.Web.SoCrmFormsAuthorizerPlugin
+  - SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  - SuperOffice.CRM.Web.SoCurrentCalculator
+  - SuperOffice.CRM.Web.SoFormsAdminRedirectPlugin
+  - SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  - SuperOffice.CRM.Web.SoUserCalAuthorizerPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web
+  nameWithType: SuperOffice.CRM.Web
+  fullName: SuperOffice.CRM.Web
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.SoUserCalAuthorizerPlugin
+  commentId: T:SuperOffice.CRM.Web.SoUserCalAuthorizerPlugin
+  isExternal: true
+  name: SoUserCalAuthorizerPlugin
+  nameWithType: SoUserCalAuthorizerPlugin
+  fullName: SuperOffice.CRM.Web.SoUserCalAuthorizerPlugin
+- uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  commentId: T:SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+  isExternal: true
+  name: SoFormsCsRedirectPlugin
+  nameWithType: SoFormsCsRedirectPlugin
+  fullName: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+- uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  commentId: T:SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+  isExternal: true
+  name: SoCsFormsAuthorizerPlugin
+  nameWithType: SoCsFormsAuthorizerPlugin
+  fullName: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+- uid: SuperOffice.CRM.Web.SoCurrentCalculator
+  commentId: T:SuperOffice.CRM.Web.SoCurrentCalculator
+  isExternal: true
+  name: SoCurrentCalculator
+  nameWithType: SoCurrentCalculator
+  fullName: SuperOffice.CRM.Web.SoCurrentCalculator
+- uid: SuperOffice.CRM.Web.SoCrmFormsAuthorizerPlugin
+  commentId: T:SuperOffice.CRM.Web.SoCrmFormsAuthorizerPlugin
+  isExternal: true
+  name: SoCrmFormsAuthorizerPlugin
+  nameWithType: SoCrmFormsAuthorizerPlugin
+  fullName: SuperOffice.CRM.Web.SoCrmFormsAuthorizerPlugin
+- uid: SuperOffice.CRM.Web.SoFormsAdminRedirectPlugin
+  commentId: T:SuperOffice.CRM.Web.SoFormsAdminRedirectPlugin
+  isExternal: true
+  name: SoFormsAdminRedirectPlugin
+  nameWithType: SoFormsAdminRedirectPlugin
+  fullName: SuperOffice.CRM.Web.SoFormsAdminRedirectPlugin
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old
+  commentId: T:SuperOffice.CRM.Web.ApplicationDefs_old
+  isExternal: true
+  name: ApplicationDefs_old
+  nameWithType: ApplicationDefs_old
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  commentId: T:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  isExternal: true
+  name: ApplicationDefs_old.CurrentNames
+  nameWithType: ApplicationDefs_old.CurrentNames
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames

@@ -47,5 +47,5 @@ When it is time to develop your application idea, you have 3 options:
 [4]: getting-started/app-envir.md
 [5]: activate/index.md
 [6]: activate/activate-custom-app.md
-[7]: ../license/expander-services/index.md
-[8]: ../license/user-plans.md
+[7]: ../admin/license/expander-services/index.md
+[8]: ../admin/license/user-plans.md

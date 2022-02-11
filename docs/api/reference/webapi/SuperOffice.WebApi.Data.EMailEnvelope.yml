@@ -1,0 +1,800 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailEnvelope
+  commentId: T:SuperOffice.WebApi.Data.EMailEnvelope
+  id: EMailEnvelope
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailEnvelope.#ctor
+  - SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo
+  - SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  - SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  - SuperOffice.WebApi.Data.EMailEnvelope.From
+  - SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  - SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  - SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  - SuperOffice.WebApi.Data.EMailEnvelope.Sent
+  - SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+  - SuperOffice.WebApi.Data.EMailEnvelope.Size
+  - SuperOffice.WebApi.Data.EMailEnvelope.Subject
+  - SuperOffice.WebApi.Data.EMailEnvelope.To
+  langs:
+  - csharp
+  - vb
+  name: EMailEnvelope
+  nameWithType: EMailEnvelope
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailEnvelope.\nLimited information about one e-mail.    \n"
+  syntax:
+    content: 'public class EMailEnvelope : Carrier'
+    content.vb: >-
+      Public Class EMailEnvelope
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailEnvelope.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: EMailEnvelope()
+  nameWithType: EMailEnvelope.EMailEnvelope()
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.EMailEnvelope()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailEnvelope()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+  id: ServerId
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: ServerId
+  nameWithType: EMailEnvelope.ServerId
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnique id for the e-mail on the server\n"
+  syntax:
+    content: public virtual int ServerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ServerId As Integer
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.ServerId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  id: MessageId
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: EMailEnvelope.MessageId
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnique id of e-mails\n"
+  syntax:
+    content: public virtual string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MessageId As String
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.MessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Subject
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Subject
+  id: Subject
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: EMailEnvelope.Subject
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Subject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSubject of the e-mail\n"
+  syntax:
+    content: public virtual string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Subject As String
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Subject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.From
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.From
+  id: From
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: EMailEnvelope.From
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.From
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho did the e-mail originate from\n"
+  syntax:
+    content: public virtual EMailAddress From { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailAddress
+    content.vb: Public Overridable Property From As EMailAddress
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.From*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.To
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.To
+  id: To
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: EMailEnvelope.To
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.To
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTo recipients of e-mail\n"
+  syntax:
+    content: public virtual EMailAddress[] To { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailAddress[]
+    content.vb: Public Overridable Property To As EMailAddress()
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.To*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Sent
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Sent
+  id: Sent
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Sent
+  nameWithType: EMailEnvelope.Sent
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Sent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen was the e-mail sent\n"
+  syntax:
+    content: public virtual DateTime Sent { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Sent As DateTime
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Sent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  id: Priority_String
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Priority_String
+  nameWithType: EMailEnvelope.Priority_String
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nImportance of the e-mail\nRaw string enum value.\n"
+  syntax:
+    content: public string Priority_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Priority_String As String
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EMailEnvelope.Priority
+    commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  id: Priority
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: EMailEnvelope.Priority
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nImportance of the e-mail\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EMailPriority> Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EMailPriority}
+    content.vb: Public Property Priority As Nullable(Of EMailPriority)
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Priority*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+    commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  id: Flags_String
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Flags_String
+  nameWithType: EMailEnvelope.Flags_String
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFlag status of this mail (unread, replied, deleted )\nRaw string enum value.\n"
+  syntax:
+    content: public string Flags_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Flags_String As String
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EMailEnvelope.Flags
+    commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  id: Flags
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: EMailEnvelope.Flags
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFlag status of this mail (unread, replied, deleted )\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EMailFlags> Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EMailFlags}
+    content.vb: Public Property Flags As Nullable(Of EMailFlags)
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Flags*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+    commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Size
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Size
+  id: Size
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: EMailEnvelope.Size
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Size
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal size of the e-mail\n"
+  syntax:
+    content: public virtual int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Size As Integer
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo
+  id: EMailSOInfo
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: EMailSOInfo
+  nameWithType: EMailEnvelope.EMailSOInfo
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGlue between SuperOffice data and an e-mail.\n"
+  syntax:
+    content: public virtual EMailSOInfo EMailSOInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailSOInfo
+    content.vb: Public Overridable Property EMailSOInfo As EMailSOInfo
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.#ctor
+  isExternal: true
+  name: EMailEnvelope
+  nameWithType: EMailEnvelope.EMailEnvelope
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.EMailEnvelope
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.ServerId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+  isExternal: true
+  name: ServerId
+  nameWithType: EMailEnvelope.ServerId
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.MessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: EMailEnvelope.MessageId
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Subject*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: EMailEnvelope.Subject
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Subject
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.From*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.From
+  isExternal: true
+  name: From
+  nameWithType: EMailEnvelope.From
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.From
+- uid: SuperOffice.WebApi.Data.EMailAddress
+  commentId: T:SuperOffice.WebApi.Data.EMailAddress
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailAddress
+  nameWithType: EMailAddress
+  fullName: SuperOffice.WebApi.Data.EMailAddress
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.To*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.To
+  isExternal: true
+  name: To
+  nameWithType: EMailEnvelope.To
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.To
+- uid: SuperOffice.WebApi.Data.EMailAddress[]
+  isExternal: true
+  name: EMailAddress[]
+  nameWithType: EMailAddress[]
+  fullName: SuperOffice.WebApi.Data.EMailAddress[]
+  nameWithType.vb: EMailAddress()
+  fullName.vb: SuperOffice.WebApi.Data.EMailAddress()
+  name.vb: EMailAddress()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.WebApi.Data.EMailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.WebApi.Data.EMailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Sent*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Sent
+  isExternal: true
+  name: Sent
+  nameWithType: EMailEnvelope.Sent
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Sent
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  isExternal: true
+  name: Priority_String
+  nameWithType: EMailEnvelope.Priority_String
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Priority*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: EMailEnvelope.Priority
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Priority
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EMailPriority}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EMailPriority}'
+  definition: System.Nullable`1
+  name: Nullable<EMailPriority>
+  nameWithType: Nullable<EMailPriority>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EMailPriority>
+  nameWithType.vb: Nullable(Of EMailPriority)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EMailPriority)
+  name.vb: Nullable(Of EMailPriority)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EMailPriority
+    name: EMailPriority
+    nameWithType: EMailPriority
+    fullName: SuperOffice.WebApi.Data.EMailPriority
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EMailPriority
+    name: EMailPriority
+    nameWithType: EMailPriority
+    fullName: SuperOffice.WebApi.Data.EMailPriority
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  isExternal: true
+  name: Flags_String
+  nameWithType: EMailEnvelope.Flags_String
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: EMailEnvelope.Flags
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Flags
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.Flags_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EMailFlags}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EMailFlags}'
+  definition: System.Nullable`1
+  name: Nullable<EMailFlags>
+  nameWithType: Nullable<EMailFlags>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EMailFlags>
+  nameWithType.vb: Nullable(Of EMailFlags)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EMailFlags)
+  name.vb: Nullable(Of EMailFlags)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EMailFlags
+    name: EMailFlags
+    nameWithType: EMailFlags
+    fullName: SuperOffice.WebApi.Data.EMailFlags
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EMailFlags
+    name: EMailFlags
+    nameWithType: EMailFlags
+    fullName: SuperOffice.WebApi.Data.EMailFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.Size*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Size
+  isExternal: true
+  name: Size
+  nameWithType: EMailEnvelope.Size
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.Size
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo
+  isExternal: true
+  name: EMailSOInfo
+  nameWithType: EMailEnvelope.EMailSOInfo
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.EMailSOInfo
+- uid: SuperOffice.WebApi.Data.EMailSOInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailSOInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailSOInfo
+  nameWithType: EMailSOInfo
+  fullName: SuperOffice.WebApi.Data.EMailSOInfo

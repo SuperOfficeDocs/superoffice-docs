@@ -1,0 +1,15 @@
+digraph URL  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+URL[fillcolor = "cadetblue1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+project[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+URL -> contact [headlabel = "contact_id"]
+URL -> person [headlabel = "person_id"]
+URL -> project [headlabel = "project_id"]
+URL -> associate [headlabel = "registered_associate_id"]
+URL -> associate [label = "updated_associate_id"]
+}

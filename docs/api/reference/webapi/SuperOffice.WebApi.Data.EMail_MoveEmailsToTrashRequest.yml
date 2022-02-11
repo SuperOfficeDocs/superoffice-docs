@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest
+  id: EMail_MoveEmailsToTrashRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids
+  langs:
+  - csharp
+  - vb
+  name: EMail_MoveEmailsToTrashRequest
+  nameWithType: EMail_MoveEmailsToTrashRequest
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_MoveEmailsToTrashRequest : Object'
+    content.vb: >-
+      Public Class EMail_MoveEmailsToTrashRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_MoveEmailsToTrashRequest()
+  nameWithType: EMail_MoveEmailsToTrashRequest.EMail_MoveEmailsToTrashRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.EMail_MoveEmailsToTrashRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_MoveEmailsToTrashRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids
+  commentId: P:SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids
+  id: Ids
+  parent: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest
+  langs:
+  - csharp
+  - vb
+  name: Ids
+  nameWithType: EMail_MoveEmailsToTrashRequest.Ids
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] Ids { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Ids As Integer()
+  overload: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.#ctor
+  isExternal: true
+  name: EMail_MoveEmailsToTrashRequest
+  nameWithType: EMail_MoveEmailsToTrashRequest.EMail_MoveEmailsToTrashRequest
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.EMail_MoveEmailsToTrashRequest
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids
+  isExternal: true
+  name: Ids
+  nameWithType: EMail_MoveEmailsToTrashRequest.Ids
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest.Ids
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

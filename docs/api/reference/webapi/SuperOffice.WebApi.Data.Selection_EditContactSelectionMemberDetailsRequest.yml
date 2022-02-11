@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
+  id: Selection_EditContactSelectionMemberDetailsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  langs:
+  - csharp
+  - vb
+  name: Selection_EditContactSelectionMemberDetailsRequest
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_EditContactSelectionMemberDetailsRequest : Object'
+    content.vb: >-
+      Public Class Selection_EditContactSelectionMemberDetailsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_EditContactSelectionMemberDetailsRequest()
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest.Selection_EditContactSelectionMemberDetailsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.Selection_EditContactSelectionMemberDetailsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_EditContactSelectionMemberDetailsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  commentId: P:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  id: SelectionMemberEditValues
+  parent: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionMemberEditValues
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SelectionMemberEditValues SelectionMemberEditValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectionMemberEditValues
+    content.vb: Public Property SelectionMemberEditValues As SelectionMemberEditValues
+  overload: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues*
+  see:
+  - linkId: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+    commentId: P:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.#ctor
+  isExternal: true
+  name: Selection_EditContactSelectionMemberDetailsRequest
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest.Selection_EditContactSelectionMemberDetailsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.Selection_EditContactSelectionMemberDetailsRequest
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  isExternal: true
+  name: SelectionMemberEditValues
+  nameWithType: Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  fullName: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+- uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  commentId: P:SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest.SelectionMemberEditValues
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.SelectionMemberEditValues
+  commentId: T:SuperOffice.WebApi.Data.SelectionMemberEditValues
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionMemberEditValues
+  nameWithType: SelectionMemberEditValues
+  fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues

@@ -1,0 +1,13 @@
+digraph ticket_status  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_status[fillcolor = "cadetblue1"]
+ticket_status_history[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+ticket_status_history -> ticket_status [label = "ticket_status"]
+ticket -> ticket_status [label = "ticket_status"]
+ejuser -> ticket_status [label = "default_status_new_ticket"]
+ejuser -> ticket_status [label = "default_status_add_message"]
+}

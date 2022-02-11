@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EntityElement
+  commentId: T:SuperOffice.WebApi.Data.EntityElement
+  id: EntityElement
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EntityElement.#ctor
+  - SuperOffice.WebApi.Data.EntityElement.Description
+  - SuperOffice.WebApi.Data.EntityElement.StrippedValue
+  - SuperOffice.WebApi.Data.EntityElement.Value
+  langs:
+  - csharp
+  - vb
+  name: EntityElement
+  nameWithType: EntityElement
+  fullName: SuperOffice.WebApi.Data.EntityElement
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EntityElement.\nGeneric carrier object for entity elements such as Phone, EntityElement, Url. These elements do not have id and rank. These values are changed on each save, and should not be depended on. When used in a list or array the rank is the ascending list order.    \n"
+  syntax:
+    content: 'public class EntityElement : Carrier'
+    content.vb: >-
+      Public Class EntityElement
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EntityElement.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EntityElement.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: EntityElement()
+  nameWithType: EntityElement.EntityElement()
+  fullName: SuperOffice.WebApi.Data.EntityElement.EntityElement()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EntityElement()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EntityElement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EntityElement.Value
+  commentId: P:SuperOffice.WebApi.Data.EntityElement.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: EntityElement.Value
+  fullName: SuperOffice.WebApi.Data.EntityElement.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Element FullName.  This is a value that is intended to be shown to the user.\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.EntityElement.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EntityElement.StrippedValue
+  commentId: P:SuperOffice.WebApi.Data.EntityElement.StrippedValue
+  id: StrippedValue
+  parent: SuperOffice.WebApi.Data.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: StrippedValue
+  nameWithType: EntityElement.StrippedValue
+  fullName: SuperOffice.WebApi.Data.EntityElement.StrippedValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Element FullName.  This is a value that can be parsed and used by systems.\n"
+  syntax:
+    content: public virtual string StrippedValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StrippedValue As String
+  overload: SuperOffice.WebApi.Data.EntityElement.StrippedValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EntityElement.Description
+  commentId: P:SuperOffice.WebApi.Data.EntityElement.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EntityElement.Description
+  fullName: SuperOffice.WebApi.Data.EntityElement.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Element Description\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.EntityElement.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EntityElement.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityElement.#ctor
+  isExternal: true
+  name: EntityElement
+  nameWithType: EntityElement.EntityElement
+  fullName: SuperOffice.WebApi.Data.EntityElement.EntityElement
+- uid: SuperOffice.WebApi.Data.EntityElement.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityElement.Value
+  isExternal: true
+  name: Value
+  nameWithType: EntityElement.Value
+  fullName: SuperOffice.WebApi.Data.EntityElement.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EntityElement.StrippedValue*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityElement.StrippedValue
+  isExternal: true
+  name: StrippedValue
+  nameWithType: EntityElement.StrippedValue
+  fullName: SuperOffice.WebApi.Data.EntityElement.StrippedValue
+- uid: SuperOffice.WebApi.Data.EntityElement.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityElement.Description
+  isExternal: true
+  name: Description
+  nameWithType: EntityElement.Description
+  fullName: SuperOffice.WebApi.Data.EntityElement.Description

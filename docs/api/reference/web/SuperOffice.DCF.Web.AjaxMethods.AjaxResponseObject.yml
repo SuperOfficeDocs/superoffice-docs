@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  id: AjaxResponseObject
+  parent: SuperOffice.DCF.Web.AjaxMethods
+  children:
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.#ctor
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChanges
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChangeValues
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.PiggyBack
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.Value
+  langs:
+  - csharp
+  - vb
+  name: AjaxResponseObject
+  nameWithType: AjaxResponseObject
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public class AjaxResponseObject
+    content.vb: Public Class AjaxResponseObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.PiggyBack
+  commentId: F:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.PiggyBack
+  id: PiggyBack
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  langs:
+  - csharp
+  - vb
+  name: PiggyBack
+  nameWithType: AjaxResponseObject.PiggyBack
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.PiggyBack
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public object PiggyBack
+    return:
+      type: System.Object
+    content.vb: Public PiggyBack As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChanges
+  commentId: F:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChanges
+  id: CurrentChanges
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  langs:
+  - csharp
+  - vb
+  name: CurrentChanges
+  nameWithType: AjaxResponseObject.CurrentChanges
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChanges
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public List<string> CurrentChanges
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public CurrentChanges As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChangeValues
+  commentId: F:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChangeValues
+  id: CurrentChangeValues
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  langs:
+  - csharp
+  - vb
+  name: CurrentChangeValues
+  nameWithType: AjaxResponseObject.CurrentChangeValues
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.CurrentChangeValues
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public List<HistoryItem> CurrentChangeValues
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+    content.vb: Public CurrentChangeValues As List(Of HistoryItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.Value
+  commentId: F:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.Value
+  id: Value
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: AjaxResponseObject.Value
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.Value
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public object Value
+    return:
+      type: System.Object
+    content.vb: Public Value As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.#ctor
+  commentId: M:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  langs:
+  - csharp
+  - vb
+  name: AjaxResponseObject()
+  nameWithType: AjaxResponseObject.AjaxResponseObject()
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.AjaxResponseObject()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.AjaxMethods
+  syntax:
+    content: public AjaxResponseObject()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.AjaxMethods
+  commentId: N:SuperOffice.DCF.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.DCF.Web.AjaxMethods
+  nameWithType: SuperOffice.DCF.Web.AjaxMethods
+  fullName: SuperOffice.DCF.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Cache.HistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<HistoryItem>
+  nameWithType: List<HistoryItem>
+  fullName: System.Collections.Generic.List<SuperOffice.Cache.HistoryItem>
+  nameWithType.vb: List(Of HistoryItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Cache.HistoryItem)
+  name.vb: List(Of HistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.#ctor
+  isExternal: true
+  name: AjaxResponseObject
+  nameWithType: AjaxResponseObject.AjaxResponseObject
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject.AjaxResponseObject

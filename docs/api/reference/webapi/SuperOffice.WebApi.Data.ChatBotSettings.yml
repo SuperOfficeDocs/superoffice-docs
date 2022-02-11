@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatBotSettings
+  commentId: T:SuperOffice.WebApi.Data.ChatBotSettings
+  id: ChatBotSettings
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatBotSettings.#ctor
+  - SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId
+  - SuperOffice.WebApi.Data.ChatBotSettings.BotName
+  - SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId
+  - SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId
+  - SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId
+  langs:
+  - csharp
+  - vb
+  name: ChatBotSettings
+  nameWithType: ChatBotSettings
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatBotSettings.\nChat Topic bot settings. Trigger script ids to run on bot events    \n"
+  syntax:
+    content: 'public class ChatBotSettings : Object'
+    content.vb: >-
+      Public Class ChatBotSettings
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatBotSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: ChatBotSettings()
+  nameWithType: ChatBotSettings.ChatBotSettings()
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.ChatBotSettings()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatBotSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatBotSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotName
+  commentId: P:SuperOffice.WebApi.Data.ChatBotSettings.BotName
+  id: BotName
+  parent: SuperOffice.WebApi.Data.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotName
+  nameWithType: ChatBotSettings.BotName
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChatbot name\n"
+  syntax:
+    content: public virtual string BotName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BotName As String
+  overload: SuperOffice.WebApi.Data.ChatBotSettings.BotName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId
+  commentId: P:SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId
+  id: BotRegisterScriptId
+  parent: SuperOffice.WebApi.Data.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotRegisterScriptId
+  nameWithType: ChatBotSettings.BotRegisterScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nScript id to register/unregister chatbot. 0 if there is no bot\n"
+  syntax:
+    content: public virtual int BotRegisterScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotRegisterScriptId As Integer
+  overload: SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId
+  commentId: P:SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId
+  id: BotSessionCreatedScriptId
+  parent: SuperOffice.WebApi.Data.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotSessionCreatedScriptId
+  nameWithType: ChatBotSettings.BotSessionCreatedScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nScript id to run on new session.\n"
+  syntax:
+    content: public virtual int BotSessionCreatedScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotSessionCreatedScriptId As Integer
+  overload: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId
+  commentId: P:SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId
+  id: BotSessionChangedScriptId
+  parent: SuperOffice.WebApi.Data.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotSessionChangedScriptId
+  nameWithType: ChatBotSettings.BotSessionChangedScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nScript id to run when session state changes.\n"
+  syntax:
+    content: public virtual int BotSessionChangedScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotSessionChangedScriptId As Integer
+  overload: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId
+  commentId: P:SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId
+  id: BotMessageReceivedScriptId
+  parent: SuperOffice.WebApi.Data.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotMessageReceivedScriptId
+  nameWithType: ChatBotSettings.BotMessageReceivedScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nScript id to run when new messages received from customer.\n"
+  syntax:
+    content: public virtual int BotMessageReceivedScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotMessageReceivedScriptId As Integer
+  overload: SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatBotSettings.#ctor
+  isExternal: true
+  name: ChatBotSettings
+  nameWithType: ChatBotSettings.ChatBotSettings
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.ChatBotSettings
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotName*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatBotSettings.BotName
+  isExternal: true
+  name: BotName
+  nameWithType: ChatBotSettings.BotName
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId
+  isExternal: true
+  name: BotRegisterScriptId
+  nameWithType: ChatBotSettings.BotRegisterScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotRegisterScriptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId
+  isExternal: true
+  name: BotSessionCreatedScriptId
+  nameWithType: ChatBotSettings.BotSessionCreatedScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionCreatedScriptId
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId
+  isExternal: true
+  name: BotSessionChangedScriptId
+  nameWithType: ChatBotSettings.BotSessionChangedScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotSessionChangedScriptId
+- uid: SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId
+  isExternal: true
+  name: BotMessageReceivedScriptId
+  nameWithType: ChatBotSettings.BotMessageReceivedScriptId
+  fullName: SuperOffice.WebApi.Data.ChatBotSettings.BotMessageReceivedScriptId

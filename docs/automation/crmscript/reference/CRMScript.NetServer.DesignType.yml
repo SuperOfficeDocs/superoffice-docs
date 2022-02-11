@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.DesignType
+  # Same as SuperOffice.Data.DesignType
+  commentId: T:CRMScript.NetServer.DesignType
+  id: DesignType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.DesignType.Unknown
+  - CRMScript.NetServer.DesignType.SOEditor
+  - CRMScript.NetServer.DesignType.Unlayer
+  name: DesignType
+  nameWithType: DesignType
+  fullName: CRMScript.NetServer.DesignType
+  type: Enum
+  summary: "\nIndicates what design type this message is created with.\n"
+- uid: CRMScript.NetServer.DesignType.Unknown
+  commentId: F:CRMScript.NetServer.DesignType.Unknown
+  id: DesignType.Unknown
+  langs:
+  - crmscript
+  name: DesignType.Unknown
+  nameWithType: DesignType.Unknown
+  fullName: CRMScript.NetServer.DesignType.Unknown
+  type: Field
+  summary: "\n0: Unknown type\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.DesignType
+- uid: CRMScript.NetServer.DesignType.SOEditor
+  commentId: F:CRMScript.NetServer.DesignType.SOEditor
+  id: DesignType.SOEditor
+  langs:
+  - crmscript
+  name: DesignType.SOEditor
+  nameWithType: DesignType.SOEditor
+  fullName: CRMScript.NetServer.DesignType.SOEditor
+  type: Field
+  summary: "\n1: Created with SOEditor\n"
+  syntax: 
+    content: SOEditor = 1
+    type: CRMScript.NetServer.DesignType
+- uid: CRMScript.NetServer.DesignType.Unlayer
+  commentId: F:CRMScript.NetServer.DesignType.Unlayer
+  id: DesignType.Unlayer
+  langs:
+  - crmscript
+  name: DesignType.Unlayer
+  nameWithType: DesignType.Unlayer
+  fullName: CRMScript.NetServer.DesignType.Unlayer
+  type: Field
+  summary: "\n2: Created with Unlayer editor.\n"
+  syntax: 
+    content: Unlayer = 2
+    type: CRMScript.NetServer.DesignType
+references:
+- uid: CRMScript.NetServer.DesignType
+  commentId: T:CRMScript.NetServer.DesignType
+  isExternal: true
+  name: DesignType
+  nameWithType: DesignType
+  fullName: CRMScript.NetServer.DesignType

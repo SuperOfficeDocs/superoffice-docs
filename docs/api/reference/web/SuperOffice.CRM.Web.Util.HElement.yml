@@ -1,0 +1,957 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.HElement
+  commentId: T:SuperOffice.CRM.Web.Util.HElement
+  id: HElement
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.HElement.#ctor(System.String)
+  - SuperOffice.CRM.Web.Util.HElement.A
+  - SuperOffice.CRM.Web.Util.HElement.Attributes
+  - SuperOffice.CRM.Web.Util.HElement.ChildNodes
+  - SuperOffice.CRM.Web.Util.HElement.Create(System.String)
+  - SuperOffice.CRM.Web.Util.HElement.Div
+  - SuperOffice.CRM.Web.Util.HElement.Input
+  - SuperOffice.CRM.Web.Util.HElement.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.Util.HElement.Text(System.String)
+  - SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HAttribute[])
+  - SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HElement[])
+  langs:
+  - csharp
+  - vb
+  name: HElement
+  nameWithType: HElement
+  fullName: SuperOffice.CRM.Web.Util.HElement
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class HElement
+    content.vb: Public Class HElement
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.HElement.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HElement.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: HElement(String)
+  nameWithType: HElement.HElement(String)
+  fullName: SuperOffice.CRM.Web.Util.HElement.HElement(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: protected HElement(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Protected Sub New(name As String)
+  overload: SuperOffice.CRM.Web.Util.HElement.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.Util.HElement.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.Util.HElement.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: HElement.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.Util.HElement.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public virtual void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Public Overridable Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.Util.HElement.Render*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HAttribute[])
+  commentId: M:SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HAttribute[])
+  id: With(SuperOffice.CRM.Web.Util.HAttribute[])
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: With(HAttribute[])
+  nameWithType: HElement.With(HAttribute[])
+  fullName: SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HAttribute[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public HElement With(params HAttribute[] attributes)
+    parameters:
+    - id: attributes
+      type: SuperOffice.CRM.Web.Util.HAttribute[]
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Function With(ParamArray attributes As HAttribute()) As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.With*
+  nameWithType.vb: HElement.With(HAttribute())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HAttribute())
+  name.vb: With(HAttribute())
+- uid: SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HElement[])
+  commentId: M:SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HElement[])
+  id: With(SuperOffice.CRM.Web.Util.HElement[])
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: With(HElement[])
+  nameWithType: HElement.With(HElement[])
+  fullName: SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HElement[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public HElement With(params HElement[] childElements)
+    parameters:
+    - id: childElements
+      type: SuperOffice.CRM.Web.Util.HElement[]
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Function With(ParamArray childElements As HElement()) As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.With*
+  nameWithType.vb: HElement.With(HElement())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Util.HElement.With(SuperOffice.CRM.Web.Util.HElement())
+  name.vb: With(HElement())
+- uid: SuperOffice.CRM.Web.Util.HElement.Create(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HElement.Create(System.String)
+  id: Create(System.String)
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: HElement.Create(String)
+  fullName: SuperOffice.CRM.Web.Util.HElement.Create(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HElement Create(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Shared Function Create(name As String) As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HElement.Text(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HElement.Text(System.String)
+  id: Text(System.String)
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: Text(String)
+  nameWithType: HElement.Text(String)
+  fullName: SuperOffice.CRM.Web.Util.HElement.Text(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HElement Text(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Shared Function Text(text As String) As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.Text*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HElement.ChildNodes
+  commentId: P:SuperOffice.CRM.Web.Util.HElement.ChildNodes
+  id: ChildNodes
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: ChildNodes
+  nameWithType: HElement.ChildNodes
+  fullName: SuperOffice.CRM.Web.Util.HElement.ChildNodes
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public List<HElement> ChildNodes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Web.Util.HElement}
+    content.vb: Public ReadOnly Property ChildNodes As List(Of HElement)
+  overload: SuperOffice.CRM.Web.Util.HElement.ChildNodes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.HElement.Attributes
+  commentId: P:SuperOffice.CRM.Web.Util.HElement.Attributes
+  id: Attributes
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: HElement.Attributes
+  fullName: SuperOffice.CRM.Web.Util.HElement.Attributes
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public List<HAttribute> Attributes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Web.Util.HAttribute}
+    content.vb: Public ReadOnly Property Attributes As List(Of HAttribute)
+  overload: SuperOffice.CRM.Web.Util.HElement.Attributes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.HElement.Div
+  commentId: P:SuperOffice.CRM.Web.Util.HElement.Div
+  id: Div
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: Div
+  nameWithType: HElement.Div
+  fullName: SuperOffice.CRM.Web.Util.HElement.Div
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HElement Div { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Shared ReadOnly Property Div As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.Div*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.HElement.A
+  commentId: P:SuperOffice.CRM.Web.Util.HElement.A
+  id: A
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: HElement.A
+  fullName: SuperOffice.CRM.Web.Util.HElement.A
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HElement A { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Shared ReadOnly Property A As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.A*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.HElement.Input
+  commentId: P:SuperOffice.CRM.Web.Util.HElement.Input
+  id: Input
+  parent: SuperOffice.CRM.Web.Util.HElement
+  langs:
+  - csharp
+  - vb
+  name: Input
+  nameWithType: HElement.Input
+  fullName: SuperOffice.CRM.Web.Util.HElement.Input
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HElement Input { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Util.HElement
+    content.vb: Public Shared ReadOnly Property Input As HElement
+  overload: SuperOffice.CRM.Web.Util.HElement.Input*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.HElement.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.#ctor
+  isExternal: true
+  name: HElement
+  nameWithType: HElement.HElement
+  fullName: SuperOffice.CRM.Web.Util.HElement.HElement
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.HElement.Render*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.Render
+  isExternal: true
+  name: Render
+  nameWithType: HElement.Render
+  fullName: SuperOffice.CRM.Web.Util.HElement.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.Util.HElement.With*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.With
+  isExternal: true
+  name: With
+  nameWithType: HElement.With
+  fullName: SuperOffice.CRM.Web.Util.HElement.With
+- uid: SuperOffice.CRM.Web.Util.HAttribute[]
+  isExternal: true
+  name: HAttribute[]
+  nameWithType: HAttribute[]
+  fullName: SuperOffice.CRM.Web.Util.HAttribute[]
+  nameWithType.vb: HAttribute()
+  fullName.vb: SuperOffice.CRM.Web.Util.HAttribute()
+  name.vb: HAttribute()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Util.HAttribute
+    name: HAttribute
+    nameWithType: HAttribute
+    fullName: SuperOffice.CRM.Web.Util.HAttribute
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Util.HAttribute
+    name: HAttribute
+    nameWithType: HAttribute
+    fullName: SuperOffice.CRM.Web.Util.HAttribute
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Util.HElement
+  commentId: T:SuperOffice.CRM.Web.Util.HElement
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: HElement
+  nameWithType: HElement
+  fullName: SuperOffice.CRM.Web.Util.HElement
+- uid: SuperOffice.CRM.Web.Util.HElement[]
+  isExternal: true
+  name: HElement[]
+  nameWithType: HElement[]
+  fullName: SuperOffice.CRM.Web.Util.HElement[]
+  nameWithType.vb: HElement()
+  fullName.vb: SuperOffice.CRM.Web.Util.HElement()
+  name.vb: HElement()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Util.HElement
+    name: HElement
+    nameWithType: HElement
+    fullName: SuperOffice.CRM.Web.Util.HElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Util.HElement
+    name: HElement
+    nameWithType: HElement
+    fullName: SuperOffice.CRM.Web.Util.HElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Util.HElement.Create*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.Create
+  isExternal: true
+  name: Create
+  nameWithType: HElement.Create
+  fullName: SuperOffice.CRM.Web.Util.HElement.Create
+- uid: SuperOffice.CRM.Web.Util.HElement.Text*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.Text
+  isExternal: true
+  name: Text
+  nameWithType: HElement.Text
+  fullName: SuperOffice.CRM.Web.Util.HElement.Text
+- uid: SuperOffice.CRM.Web.Util.HElement.ChildNodes*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.ChildNodes
+  isExternal: true
+  name: ChildNodes
+  nameWithType: HElement.ChildNodes
+  fullName: SuperOffice.CRM.Web.Util.HElement.ChildNodes
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Web.Util.HElement}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Web.Util.HElement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<HElement>
+  nameWithType: List<HElement>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Web.Util.HElement>
+  nameWithType.vb: List(Of HElement)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Web.Util.HElement)
+  name.vb: List(Of HElement)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Util.HElement
+    name: HElement
+    nameWithType: HElement
+    fullName: SuperOffice.CRM.Web.Util.HElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Util.HElement
+    name: HElement
+    nameWithType: HElement
+    fullName: SuperOffice.CRM.Web.Util.HElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Util.HElement.Attributes*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.Attributes
+  isExternal: true
+  name: Attributes
+  nameWithType: HElement.Attributes
+  fullName: SuperOffice.CRM.Web.Util.HElement.Attributes
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Web.Util.HAttribute}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Web.Util.HAttribute}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<HAttribute>
+  nameWithType: List<HAttribute>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Web.Util.HAttribute>
+  nameWithType.vb: List(Of HAttribute)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Web.Util.HAttribute)
+  name.vb: List(Of HAttribute)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Util.HAttribute
+    name: HAttribute
+    nameWithType: HAttribute
+    fullName: SuperOffice.CRM.Web.Util.HAttribute
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Util.HAttribute
+    name: HAttribute
+    nameWithType: HAttribute
+    fullName: SuperOffice.CRM.Web.Util.HAttribute
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.HElement.Div*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.Div
+  isExternal: true
+  name: Div
+  nameWithType: HElement.Div
+  fullName: SuperOffice.CRM.Web.Util.HElement.Div
+- uid: SuperOffice.CRM.Web.Util.HElement.A*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.A
+  isExternal: true
+  name: A
+  nameWithType: HElement.A
+  fullName: SuperOffice.CRM.Web.Util.HElement.A
+- uid: SuperOffice.CRM.Web.Util.HElement.Input*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HElement.Input
+  isExternal: true
+  name: Input
+  nameWithType: HElement.Input
+  fullName: SuperOffice.CRM.Web.Util.HElement.Input

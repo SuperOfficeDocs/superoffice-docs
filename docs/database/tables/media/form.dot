@@ -1,0 +1,19 @@
+digraph form  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+form[fillcolor = "cadetblue1"]
+s_picture_folder[fillcolor = "azure1"]
+ejscript[fillcolor = "azure1"]
+s_shipment[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+form_submission[fillcolor = "azure1"]
+form -> s_picture_folder [headlabel = "folder_id"]
+form -> ejscript [headlabel = "script_id"]
+form -> s_shipment [headlabel = "response_shipment_id"]
+form -> associate [headlabel = "registered_associate_id"]
+form -> associate [label = "updated_associate_id"]
+form -> UserGroup [headlabel = "group_id"]
+form_submission -> form [label = "form_id"]
+}

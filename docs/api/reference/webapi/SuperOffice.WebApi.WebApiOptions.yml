@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  id: WebApiOptions
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.WebApiOptions.#ctor
+  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String)
+  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  - SuperOffice.WebApi.WebApiOptions.Authorization
+  - SuperOffice.WebApi.WebApiOptions.BaseUrl
+  - SuperOffice.WebApi.WebApiOptions.Clone
+  - SuperOffice.WebApi.WebApiOptions.Compressed
+  - SuperOffice.WebApi.WebApiOptions.Logger
+  - SuperOffice.WebApi.WebApiOptions.ProgressListener
+  - SuperOffice.WebApi.WebApiOptions.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConfigure the WebAPI clients with the right URL, language, timeout, and compression flags.\nThe language and timezones can be overridden per request.\n"
+  syntax:
+    content: 'public class WebApiOptions : RequestOptions'
+    content.vb: >-
+      Public Class WebApiOptions
+          Inherits RequestOptions
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.RequestOptions
+  inheritedMembers:
+  - SuperOffice.WebApi.RequestOptions.LanguageCode
+  - SuperOffice.WebApi.RequestOptions.CultureCode
+  - SuperOffice.WebApi.RequestOptions.Timeout
+  - SuperOffice.WebApi.RequestOptions.TimeZone
+  - SuperOffice.WebApi.RequestOptions.TimeZoneIncludeOffset
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor
+  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: WebApiOptions()
+  nameWithType: WebApiOptions.WebApiOptions()
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConstructor\n"
+  syntax:
+    content: public WebApiOptions()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.WebApiOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String)
+  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: WebApiOptions(String)
+  nameWithType: WebApiOptions.WebApiOptions(String)
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConstructor\n"
+  syntax:
+    content: public WebApiOptions(string baseUrl)
+    parameters:
+    - id: baseUrl
+      type: System.String
+    content.vb: Public Sub New(baseUrl As String)
+  overload: SuperOffice.WebApi.WebApiOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization)
+  id: '#ctor(System.String,SuperOffice.WebApi.IAuthorization)'
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: WebApiOptions(String, IAuthorization)
+  nameWithType: WebApiOptions.WebApiOptions(String, IAuthorization)
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String, SuperOffice.WebApi.IAuthorization)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConstructor\n"
+  syntax:
+    content: public WebApiOptions(string baseUrl, IAuthorization authorization)
+    parameters:
+    - id: baseUrl
+      type: System.String
+    - id: authorization
+      type: SuperOffice.WebApi.IAuthorization
+    content.vb: Public Sub New(baseUrl As String, authorization As IAuthorization)
+  overload: SuperOffice.WebApi.WebApiOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)'
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: WebApiOptions(String, IAuthorization, ILogger, String, String, Boolean)
+  nameWithType: WebApiOptions.WebApiOptions(String, IAuthorization, ILogger, String, String, Boolean)
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String, SuperOffice.WebApi.IAuthorization, Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConstructor\n"
+  syntax:
+    content: public WebApiOptions(string baseUrl, IAuthorization authorization, ILogger logger = null, string languageCode = null, string timeZone = null, bool verifyUrl = true)
+    parameters:
+    - id: baseUrl
+      type: System.String
+      description: 'SuperOffice WebAPI base URL: &quot;https://example.com/Super/api/&quot;'
+    - id: authorization
+      type: SuperOffice.WebApi.IAuthorization
+      description: Instance used to set Authorization scheme and value.
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+      description: Optional logger
+    - id: languageCode
+      type: System.String
+      description: ISO Language &quot;en&quot;, &quot;sv&quot;
+    - id: timeZone
+      type: System.String
+      description: 'Timezone code: &quot;utc&quot;, &quot;NO&quot;.'
+    - id: verifyUrl
+      type: System.Boolean
+      description: Determines whether base url is verified - end with /api, &quot;https://example.com/Super/api/&quot;.
+    content.vb: Public Sub New(baseUrl As String, authorization As IAuthorization, logger As ILogger = Nothing, languageCode As String = Nothing, timeZone As String = Nothing, verifyUrl As Boolean = True)
+  overload: SuperOffice.WebApi.WebApiOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.Clone
+  commentId: M:SuperOffice.WebApi.WebApiOptions.Clone
+  id: Clone
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: WebApiOptions.Clone()
+  fullName: SuperOffice.WebApi.WebApiOptions.Clone()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nCreates a shallow copy of the current WebApiOptions.\n"
+  syntax:
+    content: public WebApiOptions Clone()
+    return:
+      type: SuperOffice.WebApi.WebApiOptions
+      description: A shallow copy of the current WebApiOptions.
+    content.vb: Public Function Clone As WebApiOptions
+  overload: SuperOffice.WebApi.WebApiOptions.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.Authorization
+  commentId: P:SuperOffice.WebApi.WebApiOptions.Authorization
+  id: Authorization
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: Authorization
+  nameWithType: WebApiOptions.Authorization
+  fullName: SuperOffice.WebApi.WebApiOptions.Authorization
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nUsed to set the Authorization header scheme and value.\nUse <xref href=\"SuperOffice.WebApi.AuthorizationUsernamePassword\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.AuthorizationAccessToken\" data-throw-if-not-resolved=\"false\"></xref>, \n<xref href=\"SuperOffice.WebApi.AuthorizationTicket\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.AuthorizationImplicit\" data-throw-if-not-resolved=\"false\"></xref>\n<xref href=\"SuperOffice.WebApi.AuthorizationSystemUserTicket\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.WebApi.AuthorizationUserToken\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public IAuthorization Authorization { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IAuthorization
+    content.vb: Public Property Authorization As IAuthorization
+  overload: SuperOffice.WebApi.WebApiOptions.Authorization*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.BaseUrl
+  commentId: P:SuperOffice.WebApi.WebApiOptions.BaseUrl
+  id: BaseUrl
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: BaseUrl
+  nameWithType: WebApiOptions.BaseUrl
+  fullName: SuperOffice.WebApi.WebApiOptions.BaseUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nSuperOffice WebAPI base URL: &quot;https://example.com/Super/api/&quot;\nMust be set. &quot;/api/&quot; suffix added if not present.\n"
+  syntax:
+    content: public string BaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BaseUrl As String
+  overload: SuperOffice.WebApi.WebApiOptions.BaseUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.UserAgent
+  commentId: P:SuperOffice.WebApi.WebApiOptions.UserAgent
+  id: UserAgent
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: UserAgent
+  nameWithType: WebApiOptions.UserAgent
+  fullName: SuperOffice.WebApi.WebApiOptions.UserAgent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nUser Agent string override.\n"
+  syntax:
+    content: public string UserAgent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserAgent As String
+  overload: SuperOffice.WebApi.WebApiOptions.UserAgent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.Compressed
+  commentId: P:SuperOffice.WebApi.WebApiOptions.Compressed
+  id: Compressed
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: Compressed
+  nameWithType: WebApiOptions.Compressed
+  fullName: SuperOffice.WebApi.WebApiOptions.Compressed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nGZip Compress request?\n"
+  syntax:
+    content: public bool Compressed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Compressed As Boolean
+  overload: SuperOffice.WebApi.WebApiOptions.Compressed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.WebApiOptions.Logger
+  commentId: P:SuperOffice.WebApi.WebApiOptions.Logger
+  id: Logger
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: WebApiOptions.Logger
+  fullName: SuperOffice.WebApi.WebApiOptions.Logger
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nLogger set via constructor.\n"
+  syntax:
+    content: public ILogger Logger { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.Logging.ILogger
+    content.vb: Public ReadOnly Property Logger As ILogger
+  overload: SuperOffice.WebApi.WebApiOptions.Logger*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.WebApiOptions.ProgressListener
+  commentId: P:SuperOffice.WebApi.WebApiOptions.ProgressListener
+  id: ProgressListener
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: ProgressListener
+  nameWithType: WebApiOptions.ProgressListener
+  fullName: SuperOffice.WebApi.WebApiOptions.ProgressListener
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nCallback for progress during downloads.\nCopied to the agent during initialization - can be overridden on each agent using <xref href=\"SuperOffice.WebApi.Agents.AgentBase.ProgressListener\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public IProgressListener ProgressListener { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IProgressListener
+    content.vb: Public Property ProgressListener As IProgressListener
+  overload: SuperOffice.WebApi.WebApiOptions.ProgressListener*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: SuperOffice.WebApi.RequestOptions.LanguageCode
+  commentId: P:SuperOffice.WebApi.RequestOptions.LanguageCode
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: LanguageCode
+  nameWithType: RequestOptions.LanguageCode
+  fullName: SuperOffice.WebApi.RequestOptions.LanguageCode
+- uid: SuperOffice.WebApi.RequestOptions.CultureCode
+  commentId: P:SuperOffice.WebApi.RequestOptions.CultureCode
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: CultureCode
+  nameWithType: RequestOptions.CultureCode
+  fullName: SuperOffice.WebApi.RequestOptions.CultureCode
+- uid: SuperOffice.WebApi.RequestOptions.Timeout
+  commentId: P:SuperOffice.WebApi.RequestOptions.Timeout
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: Timeout
+  nameWithType: RequestOptions.Timeout
+  fullName: SuperOffice.WebApi.RequestOptions.Timeout
+- uid: SuperOffice.WebApi.RequestOptions.TimeZone
+  commentId: P:SuperOffice.WebApi.RequestOptions.TimeZone
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: TimeZone
+  nameWithType: RequestOptions.TimeZone
+  fullName: SuperOffice.WebApi.RequestOptions.TimeZone
+- uid: SuperOffice.WebApi.RequestOptions.TimeZoneIncludeOffset
+  commentId: P:SuperOffice.WebApi.RequestOptions.TimeZoneIncludeOffset
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: TimeZoneIncludeOffset
+  nameWithType: RequestOptions.TimeZoneIncludeOffset
+  fullName: SuperOffice.WebApi.RequestOptions.TimeZoneIncludeOffset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.#ctor
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions.WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.IAuthorization
+  commentId: T:SuperOffice.WebApi.IAuthorization
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization
+- uid: Microsoft.Extensions.Logging.ILogger
+  isExternal: true
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.WebApiOptions.Clone*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: WebApiOptions.Clone
+  fullName: SuperOffice.WebApi.WebApiOptions.Clone
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi.WebApiOptions.Authorization*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.Authorization
+  isExternal: true
+  name: Authorization
+  nameWithType: WebApiOptions.Authorization
+  fullName: SuperOffice.WebApi.WebApiOptions.Authorization
+- uid: SuperOffice.WebApi.WebApiOptions.BaseUrl*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.BaseUrl
+  isExternal: true
+  name: BaseUrl
+  nameWithType: WebApiOptions.BaseUrl
+  fullName: SuperOffice.WebApi.WebApiOptions.BaseUrl
+- uid: SuperOffice.WebApi.WebApiOptions.UserAgent*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: WebApiOptions.UserAgent
+  fullName: SuperOffice.WebApi.WebApiOptions.UserAgent
+- uid: SuperOffice.WebApi.WebApiOptions.Compressed*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.Compressed
+  isExternal: true
+  name: Compressed
+  nameWithType: WebApiOptions.Compressed
+  fullName: SuperOffice.WebApi.WebApiOptions.Compressed
+- uid: SuperOffice.WebApi.WebApiOptions.Logger*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.Logger
+  isExternal: true
+  name: Logger
+  nameWithType: WebApiOptions.Logger
+  fullName: SuperOffice.WebApi.WebApiOptions.Logger
+- uid: SuperOffice.WebApi.WebApiOptions.ProgressListener*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.ProgressListener
+  isExternal: true
+  name: ProgressListener
+  nameWithType: WebApiOptions.ProgressListener
+  fullName: SuperOffice.WebApi.WebApiOptions.ProgressListener
+- uid: SuperOffice.WebApi.IProgressListener
+  commentId: T:SuperOffice.WebApi.IProgressListener
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IProgressListener
+  nameWithType: IProgressListener
+  fullName: SuperOffice.WebApi.IProgressListener

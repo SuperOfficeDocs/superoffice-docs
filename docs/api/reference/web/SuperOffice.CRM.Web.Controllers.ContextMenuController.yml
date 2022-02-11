@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.ContextMenuController
+  commentId: T:SuperOffice.CRM.Web.Controllers.ContextMenuController
+  id: ContextMenuController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.ContextMenuController.#ctor
+  - SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu(SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest)
+  langs:
+  - csharp
+  - vb
+  name: ContextMenuController
+  nameWithType: ContextMenuController
+  fullName: SuperOffice.CRM.Web.Controllers.ContextMenuController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class ContextMenuController : ApiController'
+    content.vb: >-
+      Public Class ContextMenuController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu(SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu(SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest)
+  id: GetContextMenu(SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest)
+  parent: SuperOffice.CRM.Web.Controllers.ContextMenuController
+  langs:
+  - csharp
+  - vb
+  name: GetContextMenu(ContextMenuController.GetContextMenuRequest)
+  nameWithType: ContextMenuController.GetContextMenu(ContextMenuController.GetContextMenuRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu(SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MenuListItem[] GetContextMenu(ContextMenuController.GetContextMenuRequest getContextMenuRequest)
+    parameters:
+    - id: getContextMenuRequest
+      type: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest
+    return:
+      type: SuperOffice.CRM.Lists.MenuListItem[]
+    content.vb: Public Function GetContextMenu(getContextMenuRequest As ContextMenuController.GetContextMenuRequest) As MenuListItem()
+  overload: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ContextMenuController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.ContextMenuController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.ContextMenuController
+  langs:
+  - csharp
+  - vb
+  name: ContextMenuController()
+  nameWithType: ContextMenuController.ContextMenuController()
+  fullName: SuperOffice.CRM.Web.Controllers.ContextMenuController.ContextMenuController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ContextMenuController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.ContextMenuController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu
+  isExternal: true
+  name: GetContextMenu
+  nameWithType: ContextMenuController.GetContextMenu
+  fullName: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenu
+- uid: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: ContextMenuController.GetContextMenuRequest
+  nameWithType: ContextMenuController.GetContextMenuRequest
+  fullName: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest
+- uid: SuperOffice.CRM.Lists.MenuListItem[]
+  isExternal: true
+  name: MenuListItem[]
+  nameWithType: MenuListItem[]
+  fullName: SuperOffice.CRM.Lists.MenuListItem[]
+  nameWithType.vb: MenuListItem()
+  fullName.vb: SuperOffice.CRM.Lists.MenuListItem()
+  name.vb: MenuListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Controllers.ContextMenuController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ContextMenuController.#ctor
+  isExternal: true
+  name: ContextMenuController
+  nameWithType: ContextMenuController.ContextMenuController
+  fullName: SuperOffice.CRM.Web.Controllers.ContextMenuController.ContextMenuController

@@ -1,0 +1,1421 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Drawing.ImageUtility
+  commentId: T:SuperOffice.DCF.Drawing.ImageUtility
+  id: ImageUtility
+  parent: SuperOffice.DCF.Drawing
+  children:
+  - SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel(System.Drawing.Size)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage
+  - SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage
+  - SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail
+  - SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage
+  - SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo(System.String)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32,System.String,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  - SuperOffice.DCF.Drawing.ImageUtility.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  - SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.VerticalAlignment)
+  - SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  langs:
+  - csharp
+  - vb
+  name: ImageUtility
+  nameWithType: ImageUtility
+  fullName: SuperOffice.DCF.Drawing.ImageUtility
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nUtility class for dealing with images\n"
+  syntax:
+    content: public static class ImageUtility
+    content.vb: Public Module ImageUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32)
+  id: GetProjectImage(System.Int32)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImage(Int32)
+  nameWithType: ImageUtility.GetProjectImage(Int32)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for the Project.\nIf there are no images for the Project, a default image is returned.\n"
+  syntax:
+    content: public static Image GetProjectImage(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: ProjectId of the Project to get the image for.
+    return:
+      type: System.Drawing.Image
+      description: Image for the Project.
+    content.vb: Public Shared Function GetProjectImage(projectId As Integer) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  id: GetProjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  nameWithType: ImageUtility.GetProjectImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage(System.Int32, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for the Project.\n"
+  syntax:
+    content: public static Image GetProjectImage(int projectId, ImageSize imageSize, FallbackStrategy fallbackStrategy, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: ProjectId of the Project to get the image for.
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the image size
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Image for the Project.
+    content.vb: Public Shared Function GetProjectImage(projectId As Integer, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32)
+  id: GetPersonImage(System.Int32)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImage(Int32)
+  nameWithType: ImageUtility.GetPersonImage(Int32)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for the Person.\nIf there are no images for the Person, a default image is returned.\n"
+  syntax:
+    content: public static Image GetPersonImage(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    return:
+      type: System.Drawing.Image
+      description: Image for the Person.
+    content.vb: Public Shared Function GetPersonImage(personId As Integer) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  id: GetPersonImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  nameWithType: ImageUtility.GetPersonImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage(System.Int32, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for the Person.\n"
+  syntax:
+    content: public static Image GetPersonImage(int personId, ImageSize imageSize, FallbackStrategy fallbackStrategy, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the image size
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Image for the Person.
+    content.vb: Public Shared Function GetPersonImage(personId As Integer, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  id: GetProductImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetProductImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  nameWithType: ImageUtility.GetProductImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for a product, from the superoffice database.\n"
+  syntax:
+    content: public static Image GetProductImage(int productId, ImageSize imageSize, FallbackStrategy fallbackStrategy, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: Id of the Product to get the image for from our database.
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the image size
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Image for the Product.
+    content.vb: Public Shared Function GetProductImage(productId As Integer, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32,System.String,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32,System.String,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  id: GetProductImage(System.Int32,System.String,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetProductImage(Int32, String, ImageSize, FallbackStrategy, Boolean, Color)
+  nameWithType: ImageUtility.GetProductImage(Int32, String, ImageSize, FallbackStrategy, Boolean, Color)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage(System.Int32, System.String, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for a product, from a quote connector.\n"
+  syntax:
+    content: public static Image GetProductImage(int connectionId, string productKey, ImageSize imageSize, FallbackStrategy fallbackStrategy, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+      description: Id of the quote connection to get the image from.
+    - id: productKey
+      type: System.String
+      description: Key of the Product to get the image for.
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the image size
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Image for the Person.
+    content.vb: Public Shared Function GetProductImage(connectionId As Integer, productKey As String, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  id: GetQuoteLineImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLineImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  nameWithType: ImageUtility.GetQuoteLineImage(Int32, ImageSize, FallbackStrategy, Boolean, Color)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage(System.Int32, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for a quote line.\n"
+  syntax:
+    content: public static Image GetQuoteLineImage(int quoteLineId, ImageSize imageSize, FallbackStrategy fallbackStrategy, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+      description: QuoteLineId of the QuoteLine to get the image for.
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the image size
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Image for the Person.
+    content.vb: Public Shared Function GetQuoteLineImage(quoteLineId As Integer, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32)
+  id: GetBinaryObjectImage(System.Int32)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetBinaryObjectImage(Int32)
+  nameWithType: ImageUtility.GetBinaryObjectImage(Int32)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for the Person.\nIf there are no images for the Person, a default image is returned.\n"
+  syntax:
+    content: public static Image GetBinaryObjectImage(int binaryObjectId)
+    parameters:
+    - id: binaryObjectId
+      type: System.Int32
+    return:
+      type: System.Drawing.Image
+      description: Image for the Person.
+    content.vb: Public Shared Function GetBinaryObjectImage(binaryObjectId As Integer) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  id: GetBinaryObjectImage(System.Int32,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Boolean,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetBinaryObjectImage(Int32, ImageSize, FallbackStrategy, Boolean, Color, VerticalAlignment)
+  nameWithType: ImageUtility.GetBinaryObjectImage(Int32, ImageSize, FallbackStrategy, Boolean, Color, VerticalAlignment)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage(System.Int32, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Boolean, System.Drawing.Color, SuperOffice.DCF.Drawing.VerticalAlignment)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image for the BinaryObject.\n"
+  syntax:
+    content: public static Image GetBinaryObjectImage(int binaryObjectId, ImageSize imageSize, FallbackStrategy fallbackStrategy, bool borderOnSrNoPhoto, Color borderColor, VerticalAlignment align)
+    parameters:
+    - id: binaryObjectId
+      type: System.Int32
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the image size
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    - id: align
+      type: SuperOffice.DCF.Drawing.VerticalAlignment
+    return:
+      type: System.Drawing.Image
+      description: Image for the BinaryObject.
+    content.vb: Public Shared Function GetBinaryObjectImage(binaryObjectId As Integer, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, borderOnSrNoPhoto As Boolean, borderColor As Color, align As VerticalAlignment) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo(System.String)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo(System.String)
+  id: GetEncoderInfo(System.String)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetEncoderInfo(String)
+  nameWithType: ImageUtility.GetEncoderInfo(String)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet codec for a mime type.\n"
+  syntax:
+    content: public static ImageCodecInfo GetEncoderInfo(string mimeType)
+    parameters:
+    - id: mimeType
+      type: System.String
+      description: Mime type to get encodec for
+    return:
+      type: System.Drawing.Imaging.ImageCodecInfo
+      description: Encodec for the mime type.
+    content.vb: Public Shared Function GetEncoderInfo(mimeType As String) As ImageCodecInfo
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage
+  id: GetDefaultProjectImage
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultProjectImage()
+  nameWithType: ImageUtility.GetDefaultProjectImage()
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet default image for a project\n"
+  syntax:
+    content: public static Image GetDefaultProjectImage()
+    return:
+      type: System.Drawing.Image
+      description: Default image for a project
+    content.vb: Public Shared Function GetDefaultProjectImage As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage
+  id: GetDefaultPersonImage
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultPersonImage()
+  nameWithType: ImageUtility.GetDefaultPersonImage()
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet default image for a person.\n"
+  syntax:
+    content: public static Image GetDefaultPersonImage()
+    return:
+      type: System.Drawing.Image
+      description: Default image for a person.
+    content.vb: Public Shared Function GetDefaultPersonImage As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage
+  id: GetDefaultProductImage
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultProductImage()
+  nameWithType: ImageUtility.GetDefaultProductImage()
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet default image for a Product.\n"
+  syntax:
+    content: public static Image GetDefaultProductImage()
+    return:
+      type: System.Drawing.Image
+      description: Default image for a Product.
+    content.vb: Public Shared Function GetDefaultProductImage As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail
+  id: GetDefaultProductThumbnail
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultProductThumbnail()
+  nameWithType: ImageUtility.GetDefaultProductThumbnail()
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet default image for a Product thumbnail.\n"
+  syntax:
+    content: public static Image GetDefaultProductThumbnail()
+    return:
+      type: System.Drawing.Image
+      description: Default image for a Product.
+    content.vb: Public Shared Function GetDefaultProductThumbnail As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel(System.Drawing.Size)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel(System.Drawing.Size)
+  id: GetClearPixel(System.Drawing.Size)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetClearPixel(Size)
+  nameWithType: ImageUtility.GetClearPixel(Size)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel(System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet an image containing a transperant background\n"
+  syntax:
+    content: public static Image GetClearPixel(Size size)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+    return:
+      type: System.Drawing.Image
+    content.vb: Public Shared Function GetClearPixel(size As Size) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  id: GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSrNoPhoto(Size, Color, Color, Boolean)
+  nameWithType: ImageUtility.GetSrNoPhoto(Size, Color, Color, Boolean)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto(System.Drawing.Size, System.Drawing.Color, System.Drawing.Color, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet an image containing the string represented by the resource value of SR_NO_PHOTO.\n"
+  syntax:
+    content: public static Image GetSrNoPhoto(Size size, Color bgColor, Color borderColor, bool hasBorder)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+      description: Size of the image.
+    - id: bgColor
+      type: System.Drawing.Color
+      description: Background color for the image.
+    - id: borderColor
+      type: System.Drawing.Color
+    - id: hasBorder
+      type: System.Boolean
+    return:
+      type: System.Drawing.Image
+      description: Image containing the text represented by the resource value of SR_NO_PHOTO.
+    content.vb: Public Shared Function GetSrNoPhoto(size As Size, bgColor As Color, borderColor As Color, hasBorder As Boolean) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  id: GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
+  nameWithType: ImageUtility.GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetTextImage(System.Drawing.Size, System.String, System.Drawing.Font, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet an image containing a text center both horizontally and vertically.\n"
+  syntax:
+    content: public static Image GetTextImage(Size size, string text, Font font, Color textColor, Color bgColor, Color borderColor, bool border)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+      description: Size of the image
+    - id: text
+      type: System.String
+      description: Text to write in the image.
+    - id: font
+      type: System.Drawing.Font
+      description: Font to use when writing the text.
+    - id: textColor
+      type: System.Drawing.Color
+      description: The color to use when writing the text.
+    - id: bgColor
+      type: System.Drawing.Color
+      description: The background color of the image.
+    - id: borderColor
+      type: System.Drawing.Color
+    - id: border
+      type: System.Boolean
+    return:
+      type: System.Drawing.Image
+      description: An image containing a text center both horizontally and vertically.
+    content.vb: Public Shared Function GetTextImage(size As Size, text As String, font As Font, textColor As Color, bgColor As Color, borderColor As Color, border As Boolean) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetTextImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.VerticalAlignment)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.VerticalAlignment)
+  id: ScaleImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.VerticalAlignment)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: ScaleImage(Image, ImageSize, VerticalAlignment)
+  nameWithType: ImageUtility.ScaleImage(Image, ImageSize, VerticalAlignment)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.VerticalAlignment)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nScale an image to comply with the <see cref=\"!:ImageDescription\"></see>\n"
+  syntax:
+    content: public static Image ScaleImage(Image image, ImageSize imageSize, VerticalAlignment align)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: The image to scale.
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Description of the scaling.
+    - id: align
+      type: SuperOffice.DCF.Drawing.VerticalAlignment
+    return:
+      type: System.Drawing.Image
+      description: The scaled image.
+    content.vb: Public Shared Function ScaleImage(image As Image, imageSize As ImageSize, align As VerticalAlignment) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  id: ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.DCF.Drawing.VerticalAlignment)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: ScaleImage(Image, Double, Double, Size, Size, Color, VerticalAlignment)
+  nameWithType: ImageUtility.ScaleImage(Image, Double, Double, Size, Size, Color, VerticalAlignment)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage(System.Drawing.Image, System.Double, System.Double, System.Drawing.Size, System.Drawing.Size, System.Drawing.Color, SuperOffice.DCF.Drawing.VerticalAlignment)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nScale an image\n"
+  syntax:
+    content: public static Image ScaleImage(Image image, double scaleX, double scaleY, Size minSize, Size maxSize, Color fillColor, VerticalAlignment align)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: The Image to scale.
+    - id: scaleX
+      type: System.Double
+      description: Scaling vector for the x (width) axis.  values below 1 means shrinking.
+    - id: scaleY
+      type: System.Double
+      description: Scaling vector for the y (height) axis.  values below 1 means shrinking.
+    - id: minSize
+      type: System.Drawing.Size
+      description: Minimum size of the picture.
+    - id: maxSize
+      type: System.Drawing.Size
+      description: Maximum size of the picture.
+    - id: fillColor
+      type: System.Drawing.Color
+      description: The color to be used when filling out the minimum area not covered by the image.
+    - id: align
+      type: SuperOffice.DCF.Drawing.VerticalAlignment
+    return:
+      type: System.Drawing.Image
+      description: The scaled image.
+    content.vb: Public Shared Function ScaleImage(image As Image, scaleX As Double, scaleY As Double, minSize As Size, maxSize As Size, fillColor As Color, align As VerticalAlignment) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  id: GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.DCF.Drawing.ImageSize,SuperOffice.DCF.Drawing.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.DCF.Drawing.ImageUtility
+  langs:
+  - csharp
+  - vb
+  name: GetScaledImageOrDefaultImage(Image, ImageSize, FallbackStrategy, Func<Image>, Boolean, Color)
+  nameWithType: ImageUtility.GetScaledImageOrDefaultImage(Image, ImageSize, FallbackStrategy, Func<Image>, Boolean, Color)
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Func<System.Drawing.Image>, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nGet image or default image provided by a callback function.\n"
+  remarks: "\nThis function does not access the database. Does not require a session. Entirely in-memory.\n"
+  syntax:
+    content: public static Image GetScaledImageOrDefaultImage(Image image, ImageSize imageSize, FallbackStrategy fallbackStrategy, Func<Image> defaultImageFunc, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: The image - which may be null.
+    - id: imageSize
+      type: SuperOffice.DCF.Drawing.ImageSize
+      description: Desired returned image size. 0 = no change
+    - id: fallbackStrategy
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+      description: Strategy to use if there are no pictures available. Null = return NULL value instead of a default or blank image.
+    - id: defaultImageFunc
+      type: System.Func{System.Drawing.Image}
+      description: Returns a default image when called. NULL means no default image -- get a transparent bitmap instead.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Scaled Image or scaled default/fallback image, or blank transparent image.
+    content.vb: Public Shared Function GetScaledImageOrDefaultImage(image As Image, imageSize As ImageSize, fallbackStrategy As FallbackStrategy, defaultImageFunc As Func(Of Image), borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage*
+  nameWithType.vb: ImageUtility.GetScaledImageOrDefaultImage(Image, ImageSize, FallbackStrategy, Func(Of Image), Boolean, Color)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.DCF.Drawing.ImageSize, SuperOffice.DCF.Drawing.FallbackStrategy, System.Func(Of System.Drawing.Image), System.Boolean, System.Drawing.Color)
+  name.vb: GetScaledImageOrDefaultImage(Image, ImageSize, FallbackStrategy, Func(Of Image), Boolean, Color)
+references:
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  isExternal: true
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage
+  isExternal: true
+  name: GetProjectImage
+  nameWithType: ImageUtility.GetProjectImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetProjectImage
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Drawing.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: SuperOffice.DCF.Drawing.ImageSize
+  commentId: T:SuperOffice.DCF.Drawing.ImageSize
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: ImageSize
+  nameWithType: ImageSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy
+  commentId: T:SuperOffice.DCF.Drawing.FallbackStrategy
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: FallbackStrategy
+  nameWithType: FallbackStrategy
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Drawing.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage
+  isExternal: true
+  name: GetPersonImage
+  nameWithType: ImageUtility.GetPersonImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetPersonImage
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetProductImage
+  isExternal: true
+  name: GetProductImage
+  nameWithType: ImageUtility.GetProductImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetProductImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage
+  isExternal: true
+  name: GetQuoteLineImage
+  nameWithType: ImageUtility.GetQuoteLineImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetQuoteLineImage
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage
+  isExternal: true
+  name: GetBinaryObjectImage
+  nameWithType: ImageUtility.GetBinaryObjectImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetBinaryObjectImage
+- uid: SuperOffice.DCF.Drawing.VerticalAlignment
+  commentId: T:SuperOffice.DCF.Drawing.VerticalAlignment
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: VerticalAlignment
+  nameWithType: VerticalAlignment
+  fullName: SuperOffice.DCF.Drawing.VerticalAlignment
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo
+  isExternal: true
+  name: GetEncoderInfo
+  nameWithType: ImageUtility.GetEncoderInfo
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetEncoderInfo
+- uid: System.Drawing.Imaging.ImageCodecInfo
+  commentId: '!:System.Drawing.Imaging.ImageCodecInfo'
+  isExternal: true
+  name: ImageCodecInfo
+  nameWithType: ImageCodecInfo
+  fullName: System.Drawing.Imaging.ImageCodecInfo
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage
+  isExternal: true
+  name: GetDefaultProjectImage
+  nameWithType: ImageUtility.GetDefaultProjectImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProjectImage
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage
+  isExternal: true
+  name: GetDefaultPersonImage
+  nameWithType: ImageUtility.GetDefaultPersonImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultPersonImage
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage
+  isExternal: true
+  name: GetDefaultProductImage
+  nameWithType: ImageUtility.GetDefaultProductImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductImage
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail
+  isExternal: true
+  name: GetDefaultProductThumbnail
+  nameWithType: ImageUtility.GetDefaultProductThumbnail
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetDefaultProductThumbnail
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel
+  isExternal: true
+  name: GetClearPixel
+  nameWithType: ImageUtility.GetClearPixel
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetClearPixel
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto
+  isExternal: true
+  name: GetSrNoPhoto
+  nameWithType: ImageUtility.GetSrNoPhoto
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetSrNoPhoto
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetTextImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetTextImage
+  isExternal: true
+  name: GetTextImage
+  nameWithType: ImageUtility.GetTextImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetTextImage
+- uid: System.Drawing.Font
+  commentId: '!:System.Drawing.Font'
+  isExternal: true
+  name: Font
+  nameWithType: Font
+  fullName: System.Drawing.Font
+- uid: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.ScaleImage
+  isExternal: true
+  name: ScaleImage
+  nameWithType: ImageUtility.ScaleImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.ScaleImage
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage
+  isExternal: true
+  name: GetScaledImageOrDefaultImage
+  nameWithType: ImageUtility.GetScaledImageOrDefaultImage
+  fullName: SuperOffice.DCF.Drawing.ImageUtility.GetScaledImageOrDefaultImage
+- uid: System.Func{System.Drawing.Image}
+  commentId: T:System.Func{System.Drawing.Image}
+  parent: System
+  definition: System.Func`1
+  name: Func<Image>
+  nameWithType: Func<Image>
+  fullName: System.Func<System.Drawing.Image>
+  nameWithType.vb: Func(Of Image)
+  fullName.vb: System.Func(Of System.Drawing.Image)
+  name.vb: Func(Of Image)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )

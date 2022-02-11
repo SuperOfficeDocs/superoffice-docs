@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSKbCategory
+  commentId: T:CRMScript.NetServer.NSKbCategory
+  id: NSKbCategory
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSKbCategory.#ctor
+  - CRMScript.NetServer.NSKbCategory.GetDescription()
+  - CRMScript.NetServer.NSKbCategory.GetFullname()
+  - CRMScript.NetServer.NSKbCategory.GetKbCategoryId()
+  - CRMScript.NetServer.NSKbCategory.GetName()
+  - CRMScript.NetServer.NSKbCategory.GetParentId()
+  - CRMScript.NetServer.NSKbCategory.GetSortOrder()
+  - CRMScript.NetServer.NSKbCategory.SetDescription(String)
+  - CRMScript.NetServer.NSKbCategory.SetFullname(String)
+  - CRMScript.NetServer.NSKbCategory.SetKbCategoryId(Integer)
+  - CRMScript.NetServer.NSKbCategory.SetName(String)
+  - CRMScript.NetServer.NSKbCategory.SetParentId(Integer)
+  - CRMScript.NetServer.NSKbCategory.SetSortOrder(Integer)
+  name: NSKbCategory
+  nameWithType: NSKbCategory
+  fullName: CRMScript.NetServer.NSKbCategory
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSKbCategory.#ctor
+  commentId: M:CRMScript.NetServer.NSKbCategory.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSKbCategory
+  langs:
+  - crmscript
+  name: NSKbCategory()
+  nameWithType: NSKbCategory.#ctor
+  fullName: CRMScript.NetServer.NSKbCategory.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSKbCategory class.\n"
+  remarks: 
+  syntax: 
+    content: NSKbCategory
+  example: 
+- uid: CRMScript.NetServer.NSKbCategory.GetDescription()
+  commentId: M:CRMScript.NetServer.NSKbCategory.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSKbCategory.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSKbCategory.GetDescription()
+  fullName: CRMScript.NetServer.NSKbCategory.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The description of this category."
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.GetFullname()
+  commentId: M:CRMScript.NetServer.NSKbCategory.GetFullname()
+  id: 'GetFullname()'
+  so.intellisense: NSKbCategory.GetFullname
+  langs:
+  - crmscript
+  name: 'GetFullname()'
+  nameWithType: NSKbCategory.GetFullname()
+  fullName: CRMScript.NetServer.NSKbCategory.GetFullname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The full name of this category, i.e. Foo/bar/test."
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nString fullname = thing.GetFullname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.GetKbCategoryId()
+  commentId: M:CRMScript.NetServer.NSKbCategory.GetKbCategoryId()
+  id: 'GetKbCategoryId()'
+  so.intellisense: NSKbCategory.GetKbCategoryId
+  langs:
+  - crmscript
+  name: 'GetKbCategoryId()'
+  nameWithType: NSKbCategory.GetKbCategoryId()
+  fullName: CRMScript.NetServer.NSKbCategory.GetKbCategoryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetKbCategoryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nInteger kbCategoryId = thing.GetKbCategoryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.GetName()
+  commentId: M:CRMScript.NetServer.NSKbCategory.GetName()
+  id: 'GetName()'
+  so.intellisense: NSKbCategory.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSKbCategory.GetName()
+  fullName: CRMScript.NetServer.NSKbCategory.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of this category."
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.GetParentId()
+  commentId: M:CRMScript.NetServer.NSKbCategory.GetParentId()
+  id: 'GetParentId()'
+  so.intellisense: NSKbCategory.GetParentId
+  langs:
+  - crmscript
+  name: 'GetParentId()'
+  nameWithType: NSKbCategory.GetParentId()
+  fullName: CRMScript.NetServer.NSKbCategory.GetParentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetParentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "This entry contains a reference to the parent category. NULL or -1 if this is a top-level category."
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nInteger parentId = thing.GetParentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.GetSortOrder()
+  commentId: M:CRMScript.NetServer.NSKbCategory.GetSortOrder()
+  id: 'GetSortOrder()'
+  so.intellisense: NSKbCategory.GetSortOrder
+  langs:
+  - crmscript
+  name: 'GetSortOrder()'
+  nameWithType: NSKbCategory.GetSortOrder()
+  fullName: CRMScript.NetServer.NSKbCategory.GetSortOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSortOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer'
+      description: "A strictly ascending number used for sorting categories when they are listed."
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nInteger sortOrder = thing.GetSortOrder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSKbCategory.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSKbCategory.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSKbCategory.SetDescription(String)
+  fullName: CRMScript.NetServer.NSKbCategory.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The description of this category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.SetFullname(String)
+  commentId: M:CRMScript.NetServer.NSKbCategory.SetFullname(String)
+  id: 'SetFullname(String)'
+  so.intellisense: NSKbCategory.SetFullname
+  langs:
+  - crmscript
+  name: 'SetFullname(String)'
+  nameWithType: NSKbCategory.SetFullname(String)
+  fullName: CRMScript.NetServer.NSKbCategory.SetFullname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullname(String fullname)
+    parameters:
+    - id: fullname
+      type: CRMScript.Global.String
+      description: "The full name of this category, i.e. Foo/bar/test."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nString fullname;\nthing.SetFullname(fullname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.SetKbCategoryId(Integer)
+  commentId: M:CRMScript.NetServer.NSKbCategory.SetKbCategoryId(Integer)
+  id: 'SetKbCategoryId(Integer)'
+  so.intellisense: NSKbCategory.SetKbCategoryId
+  langs:
+  - crmscript
+  name: 'SetKbCategoryId(Integer)'
+  nameWithType: NSKbCategory.SetKbCategoryId(Integer)
+  fullName: CRMScript.NetServer.NSKbCategory.SetKbCategoryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKbCategoryId(Integer kbCategoryId)
+    parameters:
+    - id: kbCategoryId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nInteger kbCategoryId;\nthing.SetKbCategoryId(kbCategoryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.SetName(String)
+  commentId: M:CRMScript.NetServer.NSKbCategory.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSKbCategory.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSKbCategory.SetName(String)
+  fullName: CRMScript.NetServer.NSKbCategory.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of this category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.SetParentId(Integer)
+  commentId: M:CRMScript.NetServer.NSKbCategory.SetParentId(Integer)
+  id: 'SetParentId(Integer)'
+  so.intellisense: NSKbCategory.SetParentId
+  langs:
+  - crmscript
+  name: 'SetParentId(Integer)'
+  nameWithType: NSKbCategory.SetParentId(Integer)
+  fullName: CRMScript.NetServer.NSKbCategory.SetParentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetParentId(Integer parentId)
+    parameters:
+    - id: parentId
+      type: CRMScript.Global.Integer
+      description: "This entry contains a reference to the parent category. NULL or -1 if this is a top-level category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nInteger parentId;\nthing.SetParentId(parentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSKbCategory.SetSortOrder(Integer)
+  commentId: M:CRMScript.NetServer.NSKbCategory.SetSortOrder(Integer)
+  id: 'SetSortOrder(Integer)'
+  so.intellisense: NSKbCategory.SetSortOrder
+  langs:
+  - crmscript
+  name: 'SetSortOrder(Integer)'
+  nameWithType: NSKbCategory.SetSortOrder(Integer)
+  fullName: CRMScript.NetServer.NSKbCategory.SetSortOrder(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSortOrder(Integer sortOrder)
+    parameters:
+    - id: sortOrder
+      type: CRMScript.Global.Integer
+      description: "A strictly ascending number used for sorting categories when they are listed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSKbCategory thing;\nInteger sortOrder;\nthing.SetSortOrder(sortOrder);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSKbCategory
+  commentId: T:CRMScript.NetServer.NSKbCategory
+  isExternal: true
+  name: NSKbCategory
+  nameWithType: NSKbCategory
+  fullName: CRMScript.NetServer.NSKbCategory
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

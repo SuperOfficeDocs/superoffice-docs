@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  commentId: T:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  id: SoFormsAuthentication.SetLicenseFailure
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke(System.AsyncCallback,System.Object)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke(System.IAsyncResult)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke
+  langs:
+  - csharp
+  - vb
+  name: SoFormsAuthentication.SetLicenseFailure
+  nameWithType: SoFormsAuthentication.SetLicenseFailure
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  type: Delegate
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public delegate void SetLicenseFailure();
+    content.vb: Public Delegate Sub SetLicenseFailure
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  langs:
+  - csharp
+  - vb
+  name: SetLicenseFailure(Object, IntPtr)
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.SetLicenseFailure(Object, IntPtr)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.SetLicenseFailure(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public SetLicenseFailure(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke
+  id: Invoke
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  langs:
+  - csharp
+  - vb
+  name: Invoke()
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.Invoke()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void Invoke()
+    content.vb: Public Overridable Sub Invoke
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke(System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke(System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.AsyncCallback,System.Object)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(AsyncCallback, Object)
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.BeginInvoke(AsyncCallback, Object)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke(System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
+    parameters:
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.#ctor
+  isExternal: true
+  name: SetLicenseFailure
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.SetLicenseFailure
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.SetLicenseFailure
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.Invoke
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.Invoke
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.BeginInvoke
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: SoFormsAuthentication.SetLicenseFailure.EndInvoke
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure.EndInvoke

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest
+  id: EMail_SaveToMailServerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email
+  langs:
+  - csharp
+  - vb
+  name: EMail_SaveToMailServerRequest
+  nameWithType: EMail_SaveToMailServerRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_SaveToMailServerRequest : Object'
+    content.vb: >-
+      Public Class EMail_SaveToMailServerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_SaveToMailServerRequest()
+  nameWithType: EMail_SaveToMailServerRequest.EMail_SaveToMailServerRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.EMail_SaveToMailServerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_SaveToMailServerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email
+  commentId: P:SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email
+  id: Email
+  parent: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: EMail_SaveToMailServerRequest.Email
+  fullName: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailEntity Email { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailEntity
+    content.vb: Public Property Email As EMailEntity
+  overload: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.#ctor
+  isExternal: true
+  name: EMail_SaveToMailServerRequest
+  nameWithType: EMail_SaveToMailServerRequest.EMail_SaveToMailServerRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.EMail_SaveToMailServerRequest
+- uid: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email
+  isExternal: true
+  name: Email
+  nameWithType: EMail_SaveToMailServerRequest.Email
+  fullName: SuperOffice.WebApi.Data.EMail_SaveToMailServerRequest.Email
+- uid: SuperOffice.WebApi.Data.EMailEntity
+  commentId: T:SuperOffice.WebApi.Data.EMailEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailEntity
+  nameWithType: EMailEntity
+  fullName: SuperOffice.WebApi.Data.EMailEntity

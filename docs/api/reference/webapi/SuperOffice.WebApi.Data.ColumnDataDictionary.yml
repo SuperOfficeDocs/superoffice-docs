@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ColumnDataDictionary
+  commentId: T:SuperOffice.WebApi.Data.ColumnDataDictionary
+  id: ColumnDataDictionary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ColumnDataDictionary.#ctor
+  - SuperOffice.WebApi.Data.ColumnDataDictionary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ColumnDataDictionary
+  nameWithType: ColumnDataDictionary
+  fullName: SuperOffice.WebApi.Data.ColumnDataDictionary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSerializable dictionary.\nThis class works as a regular dictionary. The only restriction is that the string is a value type\n"
+  syntax:
+    content: 'public class ColumnDataDictionary : Dictionary<string, ArchiveColumnData>'
+    content.vb: >-
+      Public Class ColumnDataDictionary
+          Inherits Dictionary(Of String, ArchiveColumnData)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ColumnDataDictionary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ColumnDataDictionary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ColumnDataDictionary
+  langs:
+  - csharp
+  - vb
+  name: ColumnDataDictionary()
+  nameWithType: ColumnDataDictionary.ColumnDataDictionary()
+  fullName: SuperOffice.WebApi.Data.ColumnDataDictionary.ColumnDataDictionary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ColumnDataDictionary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ColumnDataDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ColumnDataDictionary.ToString(System.String)
+  commentId: M:SuperOffice.WebApi.Data.ColumnDataDictionary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.WebApi.Data.ColumnDataDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ColumnDataDictionary.ToString(String)
+  fullName: SuperOffice.WebApi.Data.ColumnDataDictionary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.WebApi.Data.ColumnDataDictionary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ColumnDataDictionary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ColumnDataDictionary.#ctor
+  isExternal: true
+  name: ColumnDataDictionary
+  nameWithType: ColumnDataDictionary.ColumnDataDictionary
+  fullName: SuperOffice.WebApi.Data.ColumnDataDictionary.ColumnDataDictionary
+- uid: SuperOffice.WebApi.Data.ColumnDataDictionary.ToString*
+  commentId: Overload:SuperOffice.WebApi.Data.ColumnDataDictionary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ColumnDataDictionary.ToString
+  fullName: SuperOffice.WebApi.Data.ColumnDataDictionary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

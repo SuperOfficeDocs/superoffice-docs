@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields
+  commentId: T:SuperOffice.CRM.Data.DBC.StatusDefFields
+  id: DBC.StatusDefFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.DefaultTask
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.Deleted
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.DirtyOnChange
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.GenerationStart
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.IsVisual
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.LastGenerated
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.NeedsUpdate
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.NumMatches
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.NumNeedUpdate
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.OwnerTable
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.Rank
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.Registered
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.StatusDefId
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.Updated
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.StatusDefFields
+  nameWithType: DBC.StatusDefFields
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for StatusDef, Status definitions. Name and description are in LocaleText for internationalization\n"
+  syntax:
+    content: public static class StatusDefFields
+    content.vb: Public Module StatusDefFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.StatusDefId
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.StatusDefId
+  id: StatusDefId
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: StatusDefId
+  nameWithType: DBC.StatusDefFields.StatusDefId
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.StatusDefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.StatusDefId: Primary key\n"
+  syntax:
+    content: public const string StatusDefId = "StatusDef_id"
+    return:
+      type: System.String
+    content.vb: Public Const StatusDefId As String = "StatusDef_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.IsVisual
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.IsVisual
+  id: IsVisual
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: IsVisual
+  nameWithType: DBC.StatusDefFields.IsVisual
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.IsVisual
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.IsVisual: Should the status be visualized (active) in the client\n"
+  syntax:
+    content: public const string IsVisual = "isVisual"
+    return:
+      type: System.String
+    content.vb: Public Const IsVisual As String = "isVisual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.NeedsUpdate
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.NeedsUpdate
+  id: NeedsUpdate
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: NeedsUpdate
+  nameWithType: DBC.StatusDefFields.NeedsUpdate
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.NeedsUpdate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.NeedsUpdate: Is the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue\n"
+  syntax:
+    content: public const string NeedsUpdate = "needsUpdate"
+    return:
+      type: System.String
+    content.vb: Public Const NeedsUpdate As String = "needsUpdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.StatusDefFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.Rank: Priority rank, in case more than one status is signalled. Lowest wins\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.StatusDefFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.Deleted: Deleted flag, 1 if this record is deleted (never from the database)\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.OwnerTable
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: DBC.StatusDefFields.OwnerTable
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.OwnerTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.OwnerTable: The owning entity, currently contact or project\n"
+  syntax:
+    content: public const string OwnerTable = "ownerTable"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerTable As String = "ownerTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.DirtyOnChange
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.DirtyOnChange
+  id: DirtyOnChange
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: DirtyOnChange
+  nameWithType: DBC.StatusDefFields.DirtyOnChange
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.DirtyOnChange
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.DirtyOnChange: If 1, the statusValue records should be set to dirty whenever information related to the owning entity changes. If 0, nothing happens.\n"
+  syntax:
+    content: public const string DirtyOnChange = "dirtyOnChange"
+    return:
+      type: System.String
+    content.vb: Public Const DirtyOnChange As String = "dirtyOnChange"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.DefaultTask
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.DefaultTask
+  id: DefaultTask
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultTask
+  nameWithType: DBC.StatusDefFields.DefaultTask
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.DefaultTask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.DefaultTask: Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables\n"
+  syntax:
+    content: public const string DefaultTask = "defaultTask"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTask As String = "defaultTask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.LastGenerated
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: DBC.StatusDefFields.LastGenerated
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.LastGenerated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.LastGenerated: When was the last generation finished  (i.e., statusValue rows created)\n"
+  syntax:
+    content: public const string LastGenerated = "lastGenerated"
+    return:
+      type: System.String
+    content.vb: Public Const LastGenerated As String = "lastGenerated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.NumMatches
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.NumMatches
+  id: NumMatches
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: NumMatches
+  nameWithType: DBC.StatusDefFields.NumMatches
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.NumMatches
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.NumMatches: Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1\n"
+  syntax:
+    content: public const string NumMatches = "numMatches"
+    return:
+      type: System.String
+    content.vb: Public Const NumMatches As String = "numMatches"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.NumNeedUpdate
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.NumNeedUpdate
+  id: NumNeedUpdate
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: NumNeedUpdate
+  nameWithType: DBC.StatusDefFields.NumNeedUpdate
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.NumNeedUpdate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.NumNeedUpdate: Number of targets that had this status, but have their needsUpdate bit set due to some change\n"
+  syntax:
+    content: public const string NumNeedUpdate = "numNeedUpdate"
+    return:
+      type: System.String
+    content.vb: Public Const NumNeedUpdate As String = "numNeedUpdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.StatusDefFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.StatusDefFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.StatusDefFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.StatusDefFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.StatusDefFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.StatusDefFields.GenerationStart
+  commentId: F:SuperOffice.CRM.Data.DBC.StatusDefFields.GenerationStart
+  id: GenerationStart
+  parent: SuperOffice.CRM.Data.DBC.StatusDefFields
+  langs:
+  - csharp
+  - vb
+  name: GenerationStart
+  nameWithType: DBC.StatusDefFields.GenerationStart
+  fullName: SuperOffice.CRM.Data.DBC.StatusDefFields.GenerationStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nStatusDef.GenerationStart: When was the last regeneration started\n"
+  syntax:
+    content: public const string GenerationStart = "generationStart"
+    return:
+      type: System.String
+    content.vb: Public Const GenerationStart As String = "generationStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

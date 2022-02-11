@@ -1,0 +1,2718 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Archives.ActivityListItem
+  commentId: T:SuperOffice.CRM.Archives.ActivityListItem
+  id: ActivityListItem
+  parent: SuperOffice.CRM.Archives
+  children:
+  - SuperOffice.CRM.Archives.ActivityListItem.#ctor(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Archives.ActivityListItem.ActiveDate
+  - SuperOffice.CRM.Archives.ActivityListItem.Amount
+  - SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials
+  - SuperOffice.CRM.Archives.ActivityListItem.CreatedBy
+  - SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId
+  - SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName
+  - SuperOffice.CRM.Archives.ActivityListItem.CreatedDate
+  - SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup
+  - SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner
+  - SuperOffice.CRM.Archives.ActivityListItem.FirstName
+  - SuperOffice.CRM.Archives.ActivityListItem.Id
+  - SuperOffice.CRM.Archives.ActivityListItem.Initialize
+  - SuperOffice.CRM.Archives.ActivityListItem.LastName
+  - SuperOffice.CRM.Archives.ActivityListItem.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Archives.ActivityListItem.MiddleName
+  - SuperOffice.CRM.Archives.ActivityListItem.PersonId
+  - SuperOffice.CRM.Archives.ActivityListItem.Private
+  - SuperOffice.CRM.Archives.ActivityListItem.Probability
+  - SuperOffice.CRM.Archives.ActivityListItem.ProjectId
+  - SuperOffice.CRM.Archives.ActivityListItem.ProjectName
+  - SuperOffice.CRM.Archives.ActivityListItem.RecordType
+  - SuperOffice.CRM.Archives.ActivityListItem.Status
+  - SuperOffice.CRM.Archives.ActivityListItem.Text
+  - SuperOffice.CRM.Archives.ActivityListItem.TypeName
+  langs:
+  - csharp
+  - vb
+  name: ActivityListItem
+  nameWithType: ActivityListItem
+  fullName: SuperOffice.CRM.Archives.ActivityListItem
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  syntax:
+    content: 'public sealed class ActivityListItem : ListItemBase<ActivityList.ActivityListQuery>'
+    content.vb: >-
+      Public NotInheritable Class ActivityListItem
+          Inherits ListItemBase(Of ActivityList.ActivityListQuery)
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,{T}@,System.String)
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.TableRight
+  - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Archives.ActivityListItem.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Archives.ActivityListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Archives.ActivityListItem.#ctor(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.Archives.ActivityListItem.#ctor(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  id: '#ctor(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)'
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: ActivityListItem(ActivityList.ActivityListQuery, SoDataReader)
+  nameWithType: ActivityListItem.ActivityListItem(ActivityList.ActivityListQuery, SoDataReader)
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ActivityListItem(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ActivityListItem(ActivityList.ActivityListQuery query, SoDataReader reader)
+    parameters:
+    - id: query
+      type: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    content.vb: Public Sub New(query As ActivityList.ActivityListQuery, reader As SoDataReader)
+  overload: SuperOffice.CRM.Archives.ActivityListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Initialize
+  commentId: M:SuperOffice.CRM.Archives.ActivityListItem.Initialize
+  id: Initialize
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: ActivityListItem.Initialize()
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Initialize()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nInitializes all class-members.\n"
+  syntax:
+    content: protected override void Initialize()
+    content.vb: Protected Overrides Sub Initialize
+  overridden: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.Initialize
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Initialize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.Archives.ActivityListItem.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  id: Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Load(ActivityList.ActivityListQuery, SoDataReader)
+  nameWithType: ActivityListItem.Load(ActivityList.ActivityListQuery, SoDataReader)
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nResponsible for reading the current row in the data reader and insert the value in the right part ob the object.\n"
+  syntax:
+    content: protected override void Load(ActivityList.ActivityListQuery query, SoDataReader reader)
+    parameters:
+    - id: query
+      type: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+      description: The reader contains the items data.
+    content.vb: Protected Overrides Sub Load(query As ActivityList.ActivityListQuery, reader As SoDataReader)
+  overridden: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Load*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Id
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.Id
+  id: Id
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ActivityListItem.Id
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nThe unique identifier for the Id\n"
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Status
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.Status
+  id: Status
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ActivityListItem.Status
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Status
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nThe different statuses an activity may have, from a fixed predefined list. \n"
+  syntax:
+    content: public short Status { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Status As Short
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.RecordType
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: ActivityListItem.RecordType
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.RecordType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nRecord type.\n"
+  syntax:
+    content: public int RecordType { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RecordType As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.RecordType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.ActiveDate
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.ActiveDate
+  id: ActiveDate
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: ActiveDate
+  nameWithType: ActivityListItem.ActiveDate
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ActiveDate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nActivedate\n"
+  syntax:
+    content: public DateTime ActiveDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property ActiveDate As Date
+  overload: SuperOffice.CRM.Archives.ActivityListItem.ActiveDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Probability
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.Probability
+  id: Probability
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: ActivityListItem.Probability
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Probability
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nSale probability, if activity is a sale \n"
+  syntax:
+    content: public string Probability { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Probability As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Probability*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.TypeName
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.TypeName
+  id: TypeName
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: TypeName
+  nameWithType: ActivityListItem.TypeName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.TypeName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nType name\n"
+  syntax:
+    content: public string TypeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TypeName As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.TypeName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Private
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.Private
+  id: Private
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: ActivityListItem.Private
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Private
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nPrivate, is the activity marked as private for user, group or all\n"
+  syntax:
+    content: public short Private { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Private As Short
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Private*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner
+  id: CurrentOwner
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: CurrentOwner
+  nameWithType: ActivityListItem.CurrentOwner
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nCurrent owner, the associate that owns this activity\n"
+  syntax:
+    content: public int CurrentOwner { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrentOwner As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup
+  id: CurrentGroup
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: CurrentGroup
+  nameWithType: ActivityListItem.CurrentGroup
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nCurrent usergroup of the associate that owns this activity\n"
+  syntax:
+    content: public int CurrentGroup { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrentGroup As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.ProjectName
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: ActivityListItem.ProjectName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ProjectName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nProject name (if the activity is linked to a project)\n"
+  syntax:
+    content: public string ProjectName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ProjectName As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.ProjectName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.PersonId
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ActivityListItem.PersonId
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nPerson_id (if the activity is linked to a person)\n"
+  syntax:
+    content: public int PersonId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PersonId As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.FirstName
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.FirstName
+  id: FirstName
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: ActivityListItem.FirstName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.FirstName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nFirst name (if the activity is linked to a person)\n"
+  syntax:
+    content: public string FirstName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FirstName As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.MiddleName
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: ActivityListItem.MiddleName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.MiddleName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nMiddle name (if the activity is linked to a person)\n"
+  syntax:
+    content: public string MiddleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MiddleName As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.MiddleName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.LastName
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.LastName
+  id: LastName
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: ActivityListItem.LastName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.LastName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nLast name (if the activity is linked to a person)\n"
+  syntax:
+    content: public string LastName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LastName As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials
+  id: AssociateInitials
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: AssociateInitials
+  nameWithType: ActivityListItem.AssociateInitials
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nAssociate initials\n"
+  syntax:
+    content: public string AssociateInitials { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AssociateInitials As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Amount
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.Amount
+  id: Amount
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: ActivityListItem.Amount
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Amount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nSale amount\n"
+  syntax:
+    content: public string Amount { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Amount As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Amount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Text
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.Text
+  id: Text
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ActivityListItem.Text
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Text
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nActivity text\n"
+  syntax:
+    content: public string Text { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Text As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.Text*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.ProjectId
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ActivityListItem.ProjectId
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ProjectId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nProject_id (if the activity is linked to a project)\n"
+  syntax:
+    content: public int ProjectId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ProjectId As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedDate
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ActivityListItem.CreatedDate
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedDate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nCreated  date\n"
+  syntax:
+    content: public DateTime CreatedDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property CreatedDate As Date
+  overload: SuperOffice.CRM.Archives.ActivityListItem.CreatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedBy
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ActivityListItem.CreatedBy
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nCreated by\n"
+  syntax:
+    content: public string CreatedBy { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CreatedBy As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId
+  id: CreatedByAssociateId
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: CreatedByAssociateId
+  nameWithType: ActivityListItem.CreatedByAssociateId
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nCreated by associate id\n"
+  syntax:
+    content: public int CreatedByAssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CreatedByAssociateId As Integer
+  overload: SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName
+  commentId: P:SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName
+  id: CreatedByFullName
+  parent: SuperOffice.CRM.Archives.ActivityListItem
+  langs:
+  - csharp
+  - vb
+  name: CreatedByFullName
+  nameWithType: ActivityListItem.CreatedByFullName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nCreated by full name\n"
+  syntax:
+    content: public string CreatedByFullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CreatedByFullName As String
+  overload: SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Archives
+  commentId: N:SuperOffice.CRM.Archives
+  isExternal: true
+  name: SuperOffice.CRM.Archives
+  nameWithType: SuperOffice.CRM.Archives
+  fullName: SuperOffice.CRM.Archives
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  commentId: T:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  parent: SuperOffice.CRM.Lists
+  definition: SuperOffice.CRM.Lists.ListItemBase`1
+  name: ListItemBase<ActivityList.ActivityListQuery>
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery)
+  name.vb: ListItemBase(Of ActivityList.ActivityListQuery)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1
+    name: ListItemBase
+    nameWithType: ListItemBase
+    fullName: SuperOffice.CRM.Lists.ListItemBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    name: ActivityList.ActivityListQuery
+    nameWithType: ActivityList.ActivityListQuery
+    fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1
+    name: ListItemBase
+    nameWithType: ListItemBase
+    fullName: SuperOffice.CRM.Lists.ListItemBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    name: ActivityList.ActivityListQuery
+    nameWithType: ActivityList.ActivityListQuery
+    fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  name: AddFieldProperty(String, FieldProperty)
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AddFieldProperty(String, FieldProperty)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AddFieldProperty(System.String, SuperOffice.CRM.Security.FieldProperty)
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).AddFieldProperty(String, FieldProperty)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AddFieldProperty(System.String, SuperOffice.CRM.Security.FieldProperty)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+    name: AddFieldProperty
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AddFieldProperty
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AddFieldProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldProperty
+    name: FieldProperty
+    nameWithType: FieldProperty
+    fullName: SuperOffice.CRM.Security.FieldProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+    name: AddFieldProperty
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).AddFieldProperty
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AddFieldProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldProperty
+    name: FieldProperty
+    nameWithType: FieldProperty
+    fullName: SuperOffice.CRM.Security.FieldProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  name: HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.HandleFieldRights(System.String, SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.FieldInfo, System.Type, SuperOffice.Data.EFieldRight, System.Boolean)
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).HandleFieldRights(System.String, SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.FieldInfo, System.Type, SuperOffice.Data.EFieldRight, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+    name: HandleFieldRights
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.HandleFieldRights
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.HandleFieldRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.EFieldRight
+    name: EFieldRight
+    nameWithType: EFieldRight
+    fullName: SuperOffice.Data.EFieldRight
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+    name: HandleFieldRights
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).HandleFieldRights
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).HandleFieldRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.EFieldRight
+    name: EFieldRight
+    nameWithType: EFieldRight
+    fullName: SuperOffice.Data.EFieldRight
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  name: AssignFromReader(SoDataReader, FieldInfo, Int32, String)
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AssignFromReader(SoDataReader, FieldInfo, Int32, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.Int32, System.String)
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).AssignFromReader(SoDataReader, FieldInfo, Int32, String)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  name: AssignFromReader(SoDataReader, FieldInfo, String, String)
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AssignFromReader(SoDataReader, FieldInfo, String, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.String, System.String)
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).AssignFromReader(SoDataReader, FieldInfo, String, String)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,{T}@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  name: AssignFromReader<T>(SoDataReader, FieldInfo, T, String)
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AssignFromReader<T>(SoDataReader, FieldInfo, T, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AssignFromReader<T>(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, T, System.String)
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).AssignFromReader(Of T)(SoDataReader, FieldInfo, T, String)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AssignFromReader(Of T)(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, T, System.String)
+  name.vb: AssignFromReader(Of T)(SoDataReader, FieldInfo, T, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+    name: AssignFromReader<T>
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.AssignFromReader<T>
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.AssignFromReader<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+    name: AssignFromReader(Of T)
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).AssignFromReader(Of T)
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).AssignFromReader(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.TableRight
+  commentId: P:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.TableRight
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  name: TableRight
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.TableRight
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.TableRight
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).TableRight
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).TableRight
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.FieldProperties
+  commentId: P:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.FieldProperties
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  name: FieldProperties
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.FieldProperties
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.FieldProperties
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).FieldProperties
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityListItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ActivityListItem, To>()
+  nameWithType: EnumUtil.MapEnums<ActivityListItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.ActivityListItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ActivityListItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.ActivityListItem, To)()
+  name.vb: MapEnums(Of ActivityListItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ActivityListItem, To>
+    nameWithType: EnumUtil.MapEnums<ActivityListItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.ActivityListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ActivityListItem, To)
+    nameWithType: EnumUtil.MapEnums(Of ActivityListItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.ActivityListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ActivityListItem, To>()
+  nameWithType: Converters.MapEnums<ActivityListItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.ActivityListItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of ActivityListItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.ActivityListItem, To)()
+  name.vb: MapEnums(Of ActivityListItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ActivityListItem, To>
+    nameWithType: Converters.MapEnums<ActivityListItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.ActivityListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ActivityListItem, To)
+    nameWithType: Converters.MapEnums(Of ActivityListItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.ActivityListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Lists.ListItemBase`1
+  commentId: T:SuperOffice.CRM.Lists.ListItemBase`1
+  isExternal: true
+  name: ListItemBase<TListSelect>
+  nameWithType: ListItemBase<TListSelect>
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>
+  nameWithType.vb: ListItemBase(Of TListSelect)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect)
+  name.vb: ListItemBase(Of TListSelect)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1
+    name: ListItemBase
+    nameWithType: ListItemBase
+    fullName: SuperOffice.CRM.Lists.ListItemBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TListSelect
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1
+    name: ListItemBase
+    nameWithType: ListItemBase
+    fullName: SuperOffice.CRM.Lists.ListItemBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TListSelect
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  isExternal: true
+  name: AddFieldProperty(String, FieldProperty)
+  nameWithType: ListItemBase<TListSelect>.AddFieldProperty(String, FieldProperty)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AddFieldProperty(System.String, SuperOffice.CRM.Security.FieldProperty)
+  nameWithType.vb: ListItemBase(Of TListSelect).AddFieldProperty(String, FieldProperty)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AddFieldProperty(System.String, SuperOffice.CRM.Security.FieldProperty)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+    name: AddFieldProperty
+    nameWithType: ListItemBase<TListSelect>.AddFieldProperty
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AddFieldProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldProperty
+    name: FieldProperty
+    nameWithType: FieldProperty
+    fullName: SuperOffice.CRM.Security.FieldProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+    name: AddFieldProperty
+    nameWithType: ListItemBase(Of TListSelect).AddFieldProperty
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AddFieldProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldProperty
+    name: FieldProperty
+    nameWithType: FieldProperty
+    fullName: SuperOffice.CRM.Security.FieldProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  isExternal: true
+  name: HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  nameWithType: ListItemBase<TListSelect>.HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.HandleFieldRights(System.String, SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.FieldInfo, System.Type, SuperOffice.Data.EFieldRight, System.Boolean)
+  nameWithType.vb: ListItemBase(Of TListSelect).HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).HandleFieldRights(System.String, SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.FieldInfo, System.Type, SuperOffice.Data.EFieldRight, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+    name: HandleFieldRights
+    nameWithType: ListItemBase<TListSelect>.HandleFieldRights
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.HandleFieldRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.EFieldRight
+    name: EFieldRight
+    nameWithType: EFieldRight
+    fullName: SuperOffice.Data.EFieldRight
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+    name: HandleFieldRights
+    nameWithType: ListItemBase(Of TListSelect).HandleFieldRights
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).HandleFieldRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.EFieldRight
+    name: EFieldRight
+    nameWithType: EFieldRight
+    fullName: SuperOffice.Data.EFieldRight
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  isExternal: true
+  name: AssignFromReader(SoDataReader, FieldInfo, Int32, String)
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader(SoDataReader, FieldInfo, Int32, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.Int32, System.String)
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader(SoDataReader, FieldInfo, Int32, String)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase<TListSelect>.AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase(Of TListSelect).AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  isExternal: true
+  name: AssignFromReader(SoDataReader, FieldInfo, String, String)
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader(SoDataReader, FieldInfo, String, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.String, System.String)
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader(SoDataReader, FieldInfo, String, String)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase<TListSelect>.AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+    name: AssignFromReader
+    nameWithType: ListItemBase(Of TListSelect).AssignFromReader
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  isExternal: true
+  name: AssignFromReader<T>(SoDataReader, FieldInfo, T, String)
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader<T>(SoDataReader, FieldInfo, T, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader<T>(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, T, System.String)
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader(Of T)(SoDataReader, FieldInfo, T, String)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(Of T)(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, T, System.String)
+  name.vb: AssignFromReader(Of T)(SoDataReader, FieldInfo, T, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+    name: AssignFromReader<T>
+    nameWithType: ListItemBase<TListSelect>.AssignFromReader<T>
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+    name: AssignFromReader(Of T)
+    nameWithType: ListItemBase(Of TListSelect).AssignFromReader(Of T)
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  commentId: P:SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: ListItemBase<TListSelect>.TableRight
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.TableRight
+  nameWithType.vb: ListItemBase(Of TListSelect).TableRight
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).TableRight
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  commentId: P:SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  isExternal: true
+  name: FieldProperties
+  nameWithType: ListItemBase<TListSelect>.FieldProperties
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.FieldProperties
+  nameWithType.vb: ListItemBase(Of TListSelect).FieldProperties
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).FieldProperties
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Archives.ActivityListItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.#ctor
+  isExternal: true
+  name: ActivityListItem
+  nameWithType: ActivityListItem.ActivityListItem
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ActivityListItem
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  commentId: T:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  parent: SuperOffice.CRM.Archives
+  isExternal: true
+  name: ActivityList.ActivityListQuery
+  nameWithType: ActivityList.ActivityListQuery
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.Initialize
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.Initialize
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  name: Initialize()
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.Initialize()
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.Initialize()
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).Initialize()
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).Initialize()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+    name: Initialize
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.Initialize
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+    name: Initialize
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).Initialize
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Initialize*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: ActivityListItem.Initialize
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Initialize
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  isExternal: true
+  name: Initialize()
+  nameWithType: ListItemBase<TListSelect>.Initialize()
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Initialize()
+  nameWithType.vb: ListItemBase(Of TListSelect).Initialize()
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Initialize()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+    name: Initialize
+    nameWithType: ListItemBase<TListSelect>.Initialize
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+    name: Initialize
+    nameWithType: ListItemBase(Of TListSelect).Initialize
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery,SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.ActivityList.ActivityListQuery}
+  definition: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+  name: Load(ActivityList.ActivityListQuery, SoDataReader)
+  nameWithType: ListItemBase<ActivityList.ActivityListQuery>.Load(ActivityList.ActivityListQuery, SoDataReader)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
+  nameWithType.vb: ListItemBase(Of ActivityList.ActivityListQuery).Load(ActivityList.ActivityListQuery, SoDataReader)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).Load(SuperOffice.CRM.Archives.ActivityList.ActivityListQuery, SuperOffice.Data.SoDataReader)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+    name: Load
+    nameWithType: ListItemBase<ActivityList.ActivityListQuery>.Load
+    fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.ActivityList.ActivityListQuery>.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    name: ActivityList.ActivityListQuery
+    nameWithType: ActivityList.ActivityListQuery
+    fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+    name: Load
+    nameWithType: ListItemBase(Of ActivityList.ActivityListQuery).Load
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.ActivityList.ActivityListQuery).Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    name: ActivityList.ActivityListQuery
+    nameWithType: ActivityList.ActivityListQuery
+    fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Load*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Load
+  isExternal: true
+  name: Load
+  nameWithType: ActivityListItem.Load
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Load
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+  isExternal: true
+  name: Load(TListSelect, SoDataReader)
+  nameWithType: ListItemBase<TListSelect>.Load(TListSelect, SoDataReader)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Load(TListSelect, SuperOffice.Data.SoDataReader)
+  nameWithType.vb: ListItemBase(Of TListSelect).Load(TListSelect, SoDataReader)
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Load(TListSelect, SuperOffice.Data.SoDataReader)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+    name: Load
+    nameWithType: ListItemBase<TListSelect>.Load
+    fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TListSelect
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+    name: Load
+    nameWithType: ListItemBase(Of TListSelect).Load
+    fullName: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TListSelect
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Id*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: ActivityListItem.Id
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Status*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Status
+  isExternal: true
+  name: Status
+  nameWithType: ActivityListItem.Status
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Status
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Archives.ActivityListItem.RecordType*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.RecordType
+  isExternal: true
+  name: RecordType
+  nameWithType: ActivityListItem.RecordType
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.RecordType
+- uid: SuperOffice.CRM.Archives.ActivityListItem.ActiveDate*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.ActiveDate
+  isExternal: true
+  name: ActiveDate
+  nameWithType: ActivityListItem.ActiveDate
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ActiveDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Probability*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: ActivityListItem.Probability
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Probability
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Archives.ActivityListItem.TypeName*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.TypeName
+  isExternal: true
+  name: TypeName
+  nameWithType: ActivityListItem.TypeName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.TypeName
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Private*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Private
+  isExternal: true
+  name: Private
+  nameWithType: ActivityListItem.Private
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Private
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner
+  isExternal: true
+  name: CurrentOwner
+  nameWithType: ActivityListItem.CurrentOwner
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CurrentOwner
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup
+  isExternal: true
+  name: CurrentGroup
+  nameWithType: ActivityListItem.CurrentGroup
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CurrentGroup
+- uid: SuperOffice.CRM.Archives.ActivityListItem.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: ActivityListItem.ProjectName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ProjectName
+- uid: SuperOffice.CRM.Archives.ActivityListItem.PersonId*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ActivityListItem.PersonId
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.PersonId
+- uid: SuperOffice.CRM.Archives.ActivityListItem.FirstName*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: ActivityListItem.FirstName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.FirstName
+- uid: SuperOffice.CRM.Archives.ActivityListItem.MiddleName*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: ActivityListItem.MiddleName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.MiddleName
+- uid: SuperOffice.CRM.Archives.ActivityListItem.LastName*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: ActivityListItem.LastName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.LastName
+- uid: SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials
+  isExternal: true
+  name: AssociateInitials
+  nameWithType: ActivityListItem.AssociateInitials
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.AssociateInitials
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Amount*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: ActivityListItem.Amount
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Amount
+- uid: SuperOffice.CRM.Archives.ActivityListItem.Text*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.Text
+  isExternal: true
+  name: Text
+  nameWithType: ActivityListItem.Text
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.Text
+- uid: SuperOffice.CRM.Archives.ActivityListItem.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: ActivityListItem.ProjectId
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.ProjectId
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ActivityListItem.CreatedDate
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedDate
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ActivityListItem.CreatedBy
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedBy
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId
+  isExternal: true
+  name: CreatedByAssociateId
+  nameWithType: ActivityListItem.CreatedByAssociateId
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedByAssociateId
+- uid: SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName
+  isExternal: true
+  name: CreatedByFullName
+  nameWithType: ActivityListItem.CreatedByFullName
+  fullName: SuperOffice.CRM.Archives.ActivityListItem.CreatedByFullName

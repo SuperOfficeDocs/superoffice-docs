@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Previews.PreviewProvider
+  commentId: T:SuperOffice.CRM.Previews.PreviewProvider
+  id: PreviewProvider
+  parent: SuperOffice.CRM.Previews
+  children:
+  - SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
+  - SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
+  - SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String,System.Int32)
+  - SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
+  - SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String,System.Int32)
+  - SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PreviewProvider
+  nameWithType: PreviewProvider
+  fullName: SuperOffice.CRM.Previews.PreviewProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nThe one-stop shop for asynchronous Previews. This class takes a Preview hint and through the static\n<xref href=\"SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method converts it into a Preview. The underlying Preview providers are \ndynamically loaded plugins.\n<p></p>\nDue to the possibility of fairly expensive operations behind the Preview, this system SHOULD NOT be\nused to mass-produce Previews in some tight loop. Call the Preview provider only when you know that the \nuser actually needs a Preview here and now.\n"
+  remarks: "\nPreview plugin providers must implement the <xref href=\"SuperOffice.CRM.Previews.IPreviewProviderPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface, and\nare welcome to use the <xref href=\"SuperOffice.CRM.Previews.PreviewPluginBase\" data-throw-if-not-resolved=\"false\"></xref> base class as well.\n<p></p>\n<example>\nA trivial Preview example:\n<pre><code>string myPreview = PreviewProvider.GetPreview(&quot;{contact_id=&quot; + myContactId + &quot;}&quot;);</code></pre>\n</example>\n"
+  syntax:
+    content: public static class PreviewProvider
+    content.vb: Public Module PreviewProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
+  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
+  id: GetPreview(System.String)
+  parent: SuperOffice.CRM.Previews.PreviewProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPreview(String)
+  nameWithType: PreviewProvider.GetPreview(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nProcess the incoming hint, and return a Preview. \nThe Preview is either a parseable Preview hint, or a literal text. \n"
+  remarks: "\nIf it is a literal, it may be formatted according to current Preview rules, and is then returned.\nA Preview hint has the syntax {&lt;id>=&lt;value>[&lt;id>=&lt;value>]...}, ie., curly braces around \nthe whole string, and one or more id/value pairs. The delimiter within each pair is an equals sign, \nand the delimiter between pairs is an ampersand.\nA typical hint is {contact_id=5}. Another possible hint would be {contact_id=123&amp;simple=true}.\n<p></p>Id&apos;s are case-insensitive, using the <xref href=\"System.StringComparer.OrdinalIgnoreCase\" data-throw-if-not-resolved=\"false\"></xref> comparer\nprovided by the .NET framework.\n"
+  syntax:
+    content: public static string GetPreview(string PreviewHint)
+    parameters:
+    - id: PreviewHint
+      type: System.String
+      description: Preview hint, or literal text
+    return:
+      type: System.String
+      description: Formatted Preview, possibly including image tags or other metainformation
+    content.vb: Public Shared Function GetPreview(PreviewHint As String) As String
+  overload: SuperOffice.CRM.Previews.PreviewProvider.GetPreview*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
+  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
+  id: ProcessHints(System.String)
+  parent: SuperOffice.CRM.Previews.PreviewProvider
+  langs:
+  - csharp
+  - vb
+  name: ProcessHints(String)
+  nameWithType: PreviewProvider.ProcessHints(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nProcess hints by calling provider plugins as needed\n"
+  remarks: "\nPreview plugins are called in parallel to improve snappiness\n"
+  syntax:
+    content: public static PreviewData ProcessHints(string nameValueHints)
+    parameters:
+    - id: nameValueHints
+      type: System.String
+      description: Name/value hints without leading/trailing braces
+    return:
+      type: SuperOffice.CRM.Previews.PreviewData
+      description: Hints from each Preview provider, separated by newline
+    content.vb: Public Shared Function ProcessHints(nameValueHints As String) As PreviewData
+  overload: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
+  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
+  id: GetPreviewHintValue(System.String)
+  parent: SuperOffice.CRM.Previews.PreviewProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewHintValue(String)
+  nameWithType: PreviewProvider.GetPreviewHintValue(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nGet the inner value of a dynamic Preview hint - or nothing, if the Preview\nis not a dynamic hint. Dynamic hints are delimited by braces\nand contain at least one name value pair.\n"
+  syntax:
+    content: public static string GetPreviewHintValue(string delimitedHint)
+    parameters:
+    - id: delimitedHint
+      type: System.String
+      description: Preview hint, including the braces
+    return:
+      type: System.String
+      description: Preview hint minus the braces, or string.Empty if no braces were present (then this is not a dynamic hint at all)
+    content.vb: Public Shared Function GetPreviewHintValue(delimitedHint As String) As String
+  overload: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String,System.Int32)
+  id: MakePreviewHint(System.String,System.Int32)
+  parent: SuperOffice.CRM.Previews.PreviewProvider
+  langs:
+  - csharp
+  - vb
+  name: MakePreviewHint(String, Int32)
+  nameWithType: PreviewProvider.MakePreviewHint(String, Int32)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nUtility method for creating a Preview hint with the correct syntax, from a single key and single value\n"
+  syntax:
+    content: public static string MakePreviewHint(string key, int value)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key name
+    - id: value
+      type: System.Int32
+      description: Key value
+    return:
+      type: System.String
+      description: Preview hint
+    content.vb: Public Shared Function MakePreviewHint(key As String, value As Integer) As String
+  overload: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
+  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
+  id: MakePreviewHint(System.String)
+  parent: SuperOffice.CRM.Previews.PreviewProvider
+  langs:
+  - csharp
+  - vb
+  name: MakePreviewHint(String)
+  nameWithType: PreviewProvider.MakePreviewHint(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nUtility method for creating a Preview hint with the correct syntax, from a single key and single value\n"
+  syntax:
+    content: public static string MakePreviewHint(string keyAndValue)
+    parameters:
+    - id: keyAndValue
+      type: System.String
+      description: Key and value with an equals sign as the delimiter
+    return:
+      type: System.String
+      description: Preview hint
+    content.vb: Public Shared Function MakePreviewHint(keyAndValue As String) As String
+  overload: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String,System.Int32)
+  id: MakeImageHint(System.String,System.Int32)
+  parent: SuperOffice.CRM.Previews.PreviewProvider
+  langs:
+  - csharp
+  - vb
+  name: MakeImageHint(String, Int32)
+  nameWithType: PreviewProvider.MakeImageHint(String, Int32)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Previews
+  summary: "\nUtility method for creating an image hint with the correct syntax, from a key and id combination.\nIf you are programming something that is derived from <xref href=\"SuperOffice.CRM.Previews.PreviewPluginBase\" data-throw-if-not-resolved=\"false\"></xref>, using the\n<xref href=\"SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> is somewhat simpler than using this method.\n"
+  syntax:
+    content: public static string MakeImageHint(string key, int id)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key name, for instance person_id. This key must be something that is recognized by the image streaming service.
+    - id: id
+      type: System.Int32
+      description: ID for the given key
+    return:
+      type: System.String
+      description: Image hint
+    content.vb: Public Shared Function MakeImageHint(key As String, id As Integer) As String
+  overload: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Previews
+  commentId: N:SuperOffice.CRM.Previews
+  isExternal: true
+  name: SuperOffice.CRM.Previews
+  nameWithType: SuperOffice.CRM.Previews
+  fullName: SuperOffice.CRM.Previews
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview*
+  commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.GetPreview
+  isExternal: true
+  name: GetPreview
+  nameWithType: PreviewProvider.GetPreview
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreview
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints*
+  commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.ProcessHints
+  isExternal: true
+  name: ProcessHints
+  nameWithType: PreviewProvider.ProcessHints
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints
+- uid: SuperOffice.CRM.Previews.PreviewData
+  commentId: T:SuperOffice.CRM.Previews.PreviewData
+  parent: SuperOffice.CRM.Previews
+  isExternal: true
+  name: PreviewData
+  nameWithType: PreviewData
+  fullName: SuperOffice.CRM.Previews.PreviewData
+- uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue*
+  commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue
+  isExternal: true
+  name: GetPreviewHintValue
+  nameWithType: PreviewProvider.GetPreviewHintValue
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue
+- uid: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint*
+  commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint
+  isExternal: true
+  name: MakePreviewHint
+  nameWithType: PreviewProvider.MakePreviewHint
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint*
+  commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint
+  isExternal: true
+  name: MakeImageHint
+  nameWithType: PreviewProvider.MakeImageHint
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint

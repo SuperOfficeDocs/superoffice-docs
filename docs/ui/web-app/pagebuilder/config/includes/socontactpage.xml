@@ -1,0 +1,34 @@
+<page id="ContactPage">
+  <data>
+    <datahandlers>
+      <datahandler id="NavigatorDataHandler" type="NavigatorDataHandler"></datahandler>
+      <datahandler id="ContactEntityDataHandler" type="ContactEntityDataHandler"></datahandler>
+      <datahandler id="PersonEntityDataHandler" type="PersonEntityDataHandler"></datahandler>
+      <datahandler id="DiaryDataHandler" type="DiaryDataHandler"></datahandler>
+      <datahandler id="MiniCardDataHandler" type="MiniCardDataHandler">
+        <config>
+          <archivecolumninfos>
+            <archivecolumninfo guiname="SelectionMemberMiniCardArchive" providername="contactselection"/>
+            <archivecolumninfo guiname="ProjectMemberMiniCardArchive" providername="projectmember"/>
+          </archivecolumninfos>
+        </config>
+      </datahandler>
+      <datahandler id="ArchiveColumnConfigDataHandler" type="ArchiveColumnConfigDataHandler">
+        <config>
+          <archivecolumninfos>
+            <archivecolumninfo guiname="ContactPersonArchive" providername="person"/>
+            <archivecolumninfo guiname="ContactRelationArchive" providername="relation"/>
+            <archivecolumninfo guiname="ContactActivityArchive" providername="contactactivity"/>
+            <archivecolumninfo guiname="ContactProjectsArchive" providername="contactprojects"/>
+          </archivecolumninfos>
+        </config>
+      </datahandler>
+    </datahandlers>
+  </data>
+  <panels>
+    <panel reference="Menu" />
+    <panel reference="ButtonBar" />
+    <panel reference="Navigator" />
+    <panel reference="Contact" />
+  </panels>
+</page>

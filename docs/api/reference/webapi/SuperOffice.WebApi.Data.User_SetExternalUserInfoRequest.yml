@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  id: User_SetExternalUserInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId
+  - SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName
+  langs:
+  - csharp
+  - vb
+  name: User_SetExternalUserInfoRequest
+  nameWithType: User_SetExternalUserInfoRequest
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_SetExternalUserInfoRequest : Object'
+    content.vb: >-
+      Public Class User_SetExternalUserInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: User_SetExternalUserInfoRequest()
+  nameWithType: User_SetExternalUserInfoRequest.User_SetExternalUserInfoRequest()
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.User_SetExternalUserInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_SetExternalUserInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: User_SetExternalUserInfoRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName
+  commentId: P:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName
+  id: UserName
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: User_SetExternalUserInfoRequest.UserName
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password
+  commentId: P:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password
+  id: Password
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: User_SetExternalUserInfoRequest.Password
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive
+  commentId: P:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive
+  id: IsActive
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: User_SetExternalUserInfoRequest.IsActive
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActive As Boolean
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId
+  commentId: P:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId
+  id: RoleId
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: User_SetExternalUserInfoRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RoleId As Integer
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  commentId: P:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  id: ExternalUserInfoModification
+  parent: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: ExternalUserInfoModification
+  nameWithType: User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ExternalUserInfoModification ExternalUserInfoModification { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Property ExternalUserInfoModification As ExternalUserInfoModification
+  overload: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.#ctor
+  isExternal: true
+  name: User_SetExternalUserInfoRequest
+  nameWithType: User_SetExternalUserInfoRequest.User_SetExternalUserInfoRequest
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.User_SetExternalUserInfoRequest
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: User_SetExternalUserInfoRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: User_SetExternalUserInfoRequest.UserName
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.UserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password
+  isExternal: true
+  name: Password
+  nameWithType: User_SetExternalUserInfoRequest.Password
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.Password
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: User_SetExternalUserInfoRequest.IsActive
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: User_SetExternalUserInfoRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.RoleId
+- uid: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  isExternal: true
+  name: ExternalUserInfoModification
+  nameWithType: User_SetExternalUserInfoRequest.ExternalUserInfoModification
+  fullName: SuperOffice.WebApi.Data.User_SetExternalUserInfoRequest.ExternalUserInfoModification
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  commentId: T:SuperOffice.WebApi.Data.ExternalUserInfoModification
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExternalUserInfoModification
+  nameWithType: ExternalUserInfoModification
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification

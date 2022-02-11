@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExtTableFields
+  id: DBC.ExtTableFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.ChildTable
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.ExtDatasource
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.ExtTableId
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchBase2
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchFilter
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchResult
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.Name
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.ParentTable
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.PrimaryKey
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.Priority
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.SqlLimit
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery2
+  - SuperOffice.CRM.Data.DBC.ExtTableFields.Target
+  langs:
+  - csharp
+  - vb
+  name: DBC.ExtTableFields
+  nameWithType: DBC.ExtTableFields
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ExtTable, This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration.\n"
+  syntax:
+    content: public static class ExtTableFields
+    content.vb: Public Module ExtTableFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.ExtTableId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.ExtTableId
+  id: ExtTableId
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: ExtTableId
+  nameWithType: DBC.ExtTableFields.ExtTableId
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.ExtTableId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.ExtTableId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ExtTableId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ExtTableId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.ExtDatasource
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.ExtDatasource
+  id: ExtDatasource
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: ExtDatasource
+  nameWithType: DBC.ExtTableFields.ExtDatasource
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.ExtDatasource
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.ExtDatasource: The reference to the associated datasource.\n"
+  syntax:
+    content: public const string ExtDatasource = "ext_datasource"
+    return:
+      type: System.String
+    content.vb: Public Const ExtDatasource As String = "ext_datasource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.ParentTable
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.ParentTable
+  id: ParentTable
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: ParentTable
+  nameWithType: DBC.ExtTableFields.ParentTable
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.ParentTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.ParentTable: The reference to the parent table.\n"
+  syntax:
+    content: public const string ParentTable = "parent_table"
+    return:
+      type: System.String
+    content.vb: Public Const ParentTable As String = "parent_table"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.ChildTable
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.ChildTable
+  id: ChildTable
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: ChildTable
+  nameWithType: DBC.ExtTableFields.ChildTable
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.ChildTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.ChildTable: The reference to the child table.\n"
+  syntax:
+    content: public const string ChildTable = "child_table"
+    return:
+      type: System.String
+    content.vb: Public Const ChildTable As String = "child_table"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ExtTableFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.Name: The name for this field\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.Target
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.Target
+  id: Target
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: DBC.ExtTableFields.Target
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.Target
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.Target: Enum indicating the target table (customer or cust_company).\n"
+  syntax:
+    content: public const string Target = "target"
+    return:
+      type: System.String
+    content.vb: Public Const Target As String = "target"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.Priority
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DBC.ExtTableFields.Priority
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.Priority: TODO: depreciated?\n"
+  syntax:
+    content: public const string Priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchBase2
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchBase2
+  id: LdapSearchBase2
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: LdapSearchBase2
+  nameWithType: DBC.ExtTableFields.LdapSearchBase2
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchBase2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.LdapSearchBase2: LDAP search base, multiple search bases are seperated by new line\n"
+  syntax:
+    content: public const string LdapSearchBase2 = "ldap_search_base2"
+    return:
+      type: System.String
+    content.vb: Public Const LdapSearchBase2 As String = "ldap_search_base2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchFilter
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchFilter
+  id: LdapSearchFilter
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: LdapSearchFilter
+  nameWithType: DBC.ExtTableFields.LdapSearchFilter
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchFilter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.LdapSearchFilter: LDAP search query\n"
+  syntax:
+    content: public const string LdapSearchFilter = "ldap_search_filter"
+    return:
+      type: System.String
+    content.vb: Public Const LdapSearchFilter As String = "ldap_search_filter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchResult
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchResult
+  id: LdapSearchResult
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: LdapSearchResult
+  nameWithType: DBC.ExtTableFields.LdapSearchResult
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.LdapSearchResult
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.LdapSearchResult: Select which data to return from LDAP\n"
+  syntax:
+    content: public const string LdapSearchResult = "ldap_search_result"
+    return:
+      type: System.String
+    content.vb: Public Const LdapSearchResult As String = "ldap_search_result"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery
+  id: SqlQuery
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: SqlQuery
+  nameWithType: DBC.ExtTableFields.SqlQuery
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.SqlQuery: The SQL query used for fetching the external data.\n"
+  syntax:
+    content: public const string SqlQuery = "sql_query"
+    return:
+      type: System.String
+    content.vb: Public Const SqlQuery As String = "sql_query"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery2
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery2
+  id: SqlQuery2
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: SqlQuery2
+  nameWithType: DBC.ExtTableFields.SqlQuery2
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.SqlQuery2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.SqlQuery2: The SQL query used for fetching the external data. Part 2\n"
+  syntax:
+    content: public const string SqlQuery2 = "sql_query2"
+    return:
+      type: System.String
+    content.vb: Public Const SqlQuery2 As String = "sql_query2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.PrimaryKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: DBC.ExtTableFields.PrimaryKey
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.PrimaryKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.PrimaryKey: The name of the primary key. TODO: depreciated?\n"
+  syntax:
+    content: public const string PrimaryKey = "primary_key"
+    return:
+      type: System.String
+    content.vb: Public Const PrimaryKey As String = "primary_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtTableFields.SqlLimit
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtTableFields.SqlLimit
+  id: SqlLimit
+  parent: SuperOffice.CRM.Data.DBC.ExtTableFields
+  langs:
+  - csharp
+  - vb
+  name: SqlLimit
+  nameWithType: DBC.ExtTableFields.SqlLimit
+  fullName: SuperOffice.CRM.Data.DBC.ExtTableFields.SqlLimit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtTable.SqlLimit: Used for LIMIT optimiziation of the search query\n"
+  syntax:
+    content: public const string SqlLimit = "sql_limit"
+    return:
+      type: System.String
+    content.vb: Public Const SqlLimit As String = "sql_limit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

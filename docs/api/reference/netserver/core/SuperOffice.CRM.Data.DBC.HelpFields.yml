@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.HelpFields
+  commentId: T:SuperOffice.CRM.Data.DBC.HelpFields
+  id: DBC.HelpFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.HelpFields.ApplicationAreaId
+  - SuperOffice.CRM.Data.DBC.HelpFields.Body
+  - SuperOffice.CRM.Data.DBC.HelpFields.HelpId
+  - SuperOffice.CRM.Data.DBC.HelpFields.Language
+  - SuperOffice.CRM.Data.DBC.HelpFields.ModuleId
+  - SuperOffice.CRM.Data.DBC.HelpFields.Name
+  - SuperOffice.CRM.Data.DBC.HelpFields.ParentId
+  - SuperOffice.CRM.Data.DBC.HelpFields.ScreenId
+  - SuperOffice.CRM.Data.DBC.HelpFields.SortOrder
+  - SuperOffice.CRM.Data.DBC.HelpFields.Title
+  langs:
+  - csharp
+  - vb
+  name: DBC.HelpFields
+  nameWithType: DBC.HelpFields
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Help, This table contains the help pages.\n"
+  syntax:
+    content: public static class HelpFields
+    content.vb: Public Module HelpFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.HelpId
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.HelpId
+  id: HelpId
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: HelpId
+  nameWithType: DBC.HelpFields.HelpId
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.HelpId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.HelpId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string HelpId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const HelpId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.HelpFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.Name: The name for this help page.\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.Title
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: DBC.HelpFields.Title
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.Title: The title for this help page.\n"
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.ParentId
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.ParentId
+  id: ParentId
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: DBC.HelpFields.ParentId
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.ParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.ParentId: The id of the parent help page. NULL or -1 if this is a toplevel helppage.\n"
+  syntax:
+    content: public const string ParentId = "parent_id"
+    return:
+      type: System.String
+    content.vb: Public Const ParentId As String = "parent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.HelpFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.Language: A string indicating the language for this helppage (&apos;no&apos; or &apos;en&apos;).\n"
+  syntax:
+    content: public const string Language = "language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.SortOrder
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: DBC.HelpFields.SortOrder
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.SortOrder: The sort-order for this helppage when listed among its siblings.\n"
+  syntax:
+    content: public const string SortOrder = "sort_order"
+    return:
+      type: System.String
+    content.vb: Public Const SortOrder As String = "sort_order"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.ModuleId
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.ModuleId
+  id: ModuleId
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: ModuleId
+  nameWithType: DBC.HelpFields.ModuleId
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.ModuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.ModuleId: The id of the module, if this page is the description for a module..\n"
+  syntax:
+    content: public const string ModuleId = "module_id"
+    return:
+      type: System.String
+    content.vb: Public Const ModuleId As String = "module_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.ApplicationAreaId
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.ApplicationAreaId
+  id: ApplicationAreaId
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: ApplicationAreaId
+  nameWithType: DBC.HelpFields.ApplicationAreaId
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.ApplicationAreaId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.ApplicationAreaId: The id of the application_area, if this page is the description for a application_area..\n"
+  syntax:
+    content: public const string ApplicationAreaId = "application_area_id"
+    return:
+      type: System.String
+    content.vb: Public Const ApplicationAreaId As String = "application_area_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.ScreenId
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.ScreenId
+  id: ScreenId
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenId
+  nameWithType: DBC.HelpFields.ScreenId
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.ScreenId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.ScreenId: The id of the screen, if this page is the description for a screen..\n"
+  syntax:
+    content: public const string ScreenId = "screen_id"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenId As String = "screen_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.HelpFields.Body
+  commentId: F:SuperOffice.CRM.Data.DBC.HelpFields.Body
+  id: Body
+  parent: SuperOffice.CRM.Data.DBC.HelpFields
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: DBC.HelpFields.Body
+  fullName: SuperOffice.CRM.Data.DBC.HelpFields.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nHelp.Body: The actual body for the helppage. HTML format.\n"
+  syntax:
+    content: public const string Body = "body"
+    return:
+      type: System.String
+    content.vb: Public Const Body As String = "body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

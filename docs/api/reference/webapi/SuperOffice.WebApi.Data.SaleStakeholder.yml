@@ -1,0 +1,921 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SaleStakeholder
+  commentId: T:SuperOffice.WebApi.Data.SaleStakeholder
+  id: SaleStakeholder
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SaleStakeholder.#ctor
+  - SuperOffice.WebApi.Data.SaleStakeholder.Comment
+  - SuperOffice.WebApi.Data.SaleStakeholder.ContactId
+  - SuperOffice.WebApi.Data.SaleStakeholder.ContactName
+  - SuperOffice.WebApi.Data.SaleStakeholder.CountryId
+  - SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress
+  - SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription
+  - SuperOffice.WebApi.Data.SaleStakeholder.EmailId
+  - SuperOffice.WebApi.Data.SaleStakeholder.Firstname
+  - SuperOffice.WebApi.Data.SaleStakeholder.Lastname
+  - SuperOffice.WebApi.Data.SaleStakeholder.MiddleName
+  - SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs
+  - SuperOffice.WebApi.Data.SaleStakeholder.PersonId
+  - SuperOffice.WebApi.Data.SaleStakeholder.Phone
+  - SuperOffice.WebApi.Data.SaleStakeholder.PhoneId
+  - SuperOffice.WebApi.Data.SaleStakeholder.Rank
+  - SuperOffice.WebApi.Data.SaleStakeholder.SaleId
+  - SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId
+  - SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId
+  - SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholder
+  nameWithType: SaleStakeholder
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SaleStakeholder.\n\n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All SaleStakeholder: <pre><code>&quot;SaleStakeholder&quot;</code></pre>
+  example:
+  - "\nGet SaleStakeholder 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new SaleAgent(configuration);\nvar saleStakeholder = agent.GetSaleStakeholder( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SaleStakeholder : Carrier'
+    content.vb: >-
+      Public Class SaleStakeholder
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SaleAgent
+    commentId: T:SuperOffice.WebApi.Agents.SaleAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SaleStakeholder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholder()
+  nameWithType: SaleStakeholder.SaleStakeholder()
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholder()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SaleStakeholder()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName
+  id: StakeholderRoleName
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: StakeholderRoleName
+  nameWithType: SaleStakeholder.StakeholderRoleName
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStakeholder role name\n"
+  syntax:
+    content: public virtual string StakeholderRoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StakeholderRoleName As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Comment
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: SaleStakeholder.Comment
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Comment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional comment text\n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId
+  id: StakeholderRoleId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: StakeholderRoleId
+  nameWithType: SaleStakeholder.StakeholderRoleId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStakeholde role list id - Primary key\n"
+  syntax:
+    content: public virtual int StakeholderRoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StakeholderRoleId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.CountryId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: SaleStakeholder.CountryId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCountry id - primary key\n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.PersonId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SaleStakeholder.PersonId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson id - Primary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription
+  id: EmailDescription
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: EmailDescription
+  nameWithType: SaleStakeholder.EmailDescription
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nE-mail description\n"
+  syntax:
+    content: public virtual string EmailDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailDescription As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.EmailId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.EmailId
+  id: EmailId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: SaleStakeholder.EmailId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.EmailId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nE-mail address id - Primary key\n"
+  syntax:
+    content: public virtual int EmailId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.EmailId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: SaleStakeholder.EmailAddress
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nE-mail address\n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.PhoneId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.PhoneId
+  id: PhoneId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: PhoneId
+  nameWithType: SaleStakeholder.PhoneId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.PhoneId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PhoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PhoneId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.PhoneId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.ContactName
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: SaleStakeholder.ContactName
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.ContactId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: SaleStakeholder.ContactId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact ID of person or contact who is the sale stakeholder\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.SaleId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: SaleStakeholder.SaleId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nParent sale\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: SaleStakeholder.Mrmrs
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ne.g. Mrs, Mr, Ms, Dr.\n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Firstname
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.Firstname
+  id: Firstname
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: SaleStakeholder.Firstname
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Firstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFirst name\n"
+  syntax:
+    content: public virtual string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Firstname As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.Firstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.MiddleName
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.MiddleName
+  id: MiddleName
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: SaleStakeholder.MiddleName
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.MiddleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMiddle name or &apos;van&apos; etc.\n"
+  syntax:
+    content: public virtual string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MiddleName As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.MiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Lastname
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.Lastname
+  id: Lastname
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: SaleStakeholder.Lastname
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Lastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast name\n"
+  syntax:
+    content: public virtual string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Lastname As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.Lastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId
+  id: SaleStakeholderId
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholderId
+  nameWithType: SaleStakeholder.SaleStakeholderId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SaleStakeholderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleStakeholderId As Integer
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Rank
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SaleStakeholder.Rank
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank in list of stakeholders\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Phone
+  commentId: P:SuperOffice.WebApi.Data.SaleStakeholder.Phone
+  id: Phone
+  parent: SuperOffice.WebApi.Data.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: SaleStakeholder.Phone
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Phone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPhone number\n"
+  syntax:
+    content: public virtual string Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Phone As String
+  overload: SuperOffice.WebApi.Data.SaleStakeholder.Phone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SaleAgent
+  commentId: T:SuperOffice.WebApi.Agents.SaleAgent
+  isExternal: true
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.WebApi.Agents.SaleAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.#ctor
+  isExternal: true
+  name: SaleStakeholder
+  nameWithType: SaleStakeholder.SaleStakeholder
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholder
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName
+  isExternal: true
+  name: StakeholderRoleName
+  nameWithType: SaleStakeholder.StakeholderRoleName
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Comment*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: SaleStakeholder.Comment
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Comment
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId
+  isExternal: true
+  name: StakeholderRoleId
+  nameWithType: SaleStakeholder.StakeholderRoleId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.StakeholderRoleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: SaleStakeholder.CountryId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.CountryId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: SaleStakeholder.PersonId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.PersonId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription
+  isExternal: true
+  name: EmailDescription
+  nameWithType: SaleStakeholder.EmailDescription
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.EmailDescription
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.EmailId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.EmailId
+  isExternal: true
+  name: EmailId
+  nameWithType: SaleStakeholder.EmailId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.EmailId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: SaleStakeholder.EmailAddress
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.EmailAddress
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.PhoneId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.PhoneId
+  isExternal: true
+  name: PhoneId
+  nameWithType: SaleStakeholder.PhoneId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.PhoneId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: SaleStakeholder.ContactName
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.ContactName
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: SaleStakeholder.ContactId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.ContactId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: SaleStakeholder.SaleId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.SaleId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: SaleStakeholder.Mrmrs
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Mrmrs
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Firstname*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.Firstname
+  isExternal: true
+  name: Firstname
+  nameWithType: SaleStakeholder.Firstname
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Firstname
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.MiddleName*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: SaleStakeholder.MiddleName
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.MiddleName
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Lastname*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.Lastname
+  isExternal: true
+  name: Lastname
+  nameWithType: SaleStakeholder.Lastname
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Lastname
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId
+  isExternal: true
+  name: SaleStakeholderId
+  nameWithType: SaleStakeholder.SaleStakeholderId
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.SaleStakeholderId
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SaleStakeholder.Rank
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SaleStakeholder.Phone*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleStakeholder.Phone
+  isExternal: true
+  name: Phone
+  nameWithType: SaleStakeholder.Phone
+  fullName: SuperOffice.WebApi.Data.SaleStakeholder.Phone

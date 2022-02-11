@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  id: SystemUserInfo
+  parent: SuperOffice.WebApi.IdentityModel
+  children:
+  - SuperOffice.WebApi.IdentityModel.SystemUserInfo.#ctor
+  - SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret
+  - SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier
+  - SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment
+  - SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey
+  - SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken
+  langs:
+  - csharp
+  - vb
+  name: SystemUserInfo
+  nameWithType: SystemUserInfo
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nUsed in conjunction with obtaining and refreshing System User Ticket.\n"
+  syntax:
+    content: 'public class SystemUserInfo : Object'
+    content.vb: >-
+      Public Class SystemUserInfo
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.#ctor
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: SystemUserInfo()
+  nameWithType: SystemUserInfo.SystemUserInfo()
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public SystemUserInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret
+  id: ClientSecret
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: ClientSecret
+  nameWithType: SystemUserInfo.ClientSecret
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nThe application secret, used in CRM online only. Equivalent to OAuth client_secret.\n"
+  syntax:
+    content: public string ClientSecret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientSecret As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: SystemUserInfo.ContextIdentifier
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nThe customer id, used in CRM online only. Example Cust12345.\n"
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey
+  id: PrivateKey
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: PrivateKey
+  nameWithType: SystemUserInfo.PrivateKey
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string PrivateKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrivateKey As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment
+  id: Environment
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: SystemUserInfo.Environment
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nThe target SuperOffice CRM online environment.\n"
+  syntax:
+    content: public OnlineEnvironment Environment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+    content.vb: Public Property Environment As OnlineEnvironment
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken
+  id: SystemUserToken
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: SystemUserToken
+  nameWithType: SystemUserInfo.SystemUserToken
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nApplication system user token. Obtained as a claim in an authorization response.\n"
+  syntax:
+    content: public string SystemUserToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SystemUserToken As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.IdentityModel
+  commentId: N:SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SuperOffice.WebApi.IdentityModel
+  nameWithType: SuperOffice.WebApi.IdentityModel
+  fullName: SuperOffice.WebApi.IdentityModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserInfo.#ctor
+  isExternal: true
+  name: SystemUserInfo
+  nameWithType: SystemUserInfo.SystemUserInfo
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserInfo
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret
+  isExternal: true
+  name: ClientSecret
+  nameWithType: SystemUserInfo.ClientSecret
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ClientSecret
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: SystemUserInfo.ContextIdentifier
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.ContextIdentifier
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey
+  isExternal: true
+  name: PrivateKey
+  nameWithType: SystemUserInfo.PrivateKey
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.PrivateKey
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment
+  isExternal: true
+  name: Environment
+  nameWithType: SystemUserInfo.Environment
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.Environment
+- uid: SuperOffice.WebApi.Data.OnlineEnvironment
+  commentId: T:SuperOffice.WebApi.Data.OnlineEnvironment
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: OnlineEnvironment
+  nameWithType: OnlineEnvironment
+  fullName: SuperOffice.WebApi.Data.OnlineEnvironment
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken
+  isExternal: true
+  name: SystemUserToken
+  nameWithType: SystemUserInfo.SystemUserToken
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo.SystemUserToken

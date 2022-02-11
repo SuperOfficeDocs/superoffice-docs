@@ -1,0 +1,1150 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.PersonVariables
+  commentId: T:SuperOffice.CRM.Globalization.PersonVariables
+  id: PersonVariables
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
+  - SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32)
+  - SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32,System.Int32)
+  - SuperOffice.CRM.Globalization.PersonVariables._contact
+  - SuperOffice.CRM.Globalization.PersonVariables._person
+  - SuperOffice.CRM.Globalization.PersonVariables.Contact
+  langs:
+  - csharp
+  - vb
+  name: PersonVariables
+  nameWithType: PersonVariables
+  fullName: SuperOffice.CRM.Globalization.PersonVariables
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nContainer for tag variables for person information, based on data from a <xref href=\"SuperOffice.CRM.IPersonInfo2\" data-throw-if-not-resolved=\"false\"></xref>.  \n"
+  remarks: "\nNote to implementers: Please <strong>DO NOT</strong> make this class dependent on the database in any\nway - the design is explicitly constructed to allow multiple implementations of the data-carrying\nInfo interface object, including database-free ones.\n"
+  syntax:
+    content: 'public abstract class PersonVariables : TagContainer'
+    content.vb: >-
+      Public MustInherit Class PersonVariables
+          Inherits TagContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.IO.TagContainer
+  derivedClasses:
+  - SuperOffice.CRM.Globalization.CurrentPersonVariables
+  - SuperOffice.CRM.Globalization.OwnPersonVariables
+  inheritedMembers:
+  - SuperOffice.IO.TagContainer._bInitiated
+  - SuperOffice.IO.TagContainer.AddData(System.Object[])
+  - SuperOffice.IO.TagContainer.GetData
+  - SuperOffice.IO.TagContainer.ClearData
+  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.CurrentUiCulture
+  - SuperOffice.IO.TagContainer.Id
+  - SuperOffice.IO.TagContainer.Data
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.PersonVariables.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.PersonVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Globalization.PersonVariables._person
+  commentId: F:SuperOffice.CRM.Globalization.PersonVariables._person
+  id: _person
+  parent: SuperOffice.CRM.Globalization.PersonVariables
+  langs:
+  - csharp
+  - vb
+  name: _person
+  nameWithType: PersonVariables._person
+  fullName: SuperOffice.CRM.Globalization.PersonVariables._person
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nVariable holding <xref href=\"SuperOffice.CRM.IPersonInfo2\" data-throw-if-not-resolved=\"false\"></xref>, use the <xref href=\"SuperOffice.CRM.Globalization.PersonVariables.Person\" data-throw-if-not-resolved=\"false\"></xref> property to access this variable.\n"
+  syntax:
+    content: protected IPersonInfo2 _person
+    return:
+      type: SuperOffice.CRM.IPersonInfo2
+    content.vb: Protected _person As IPersonInfo2
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.PersonVariables._contact
+  commentId: F:SuperOffice.CRM.Globalization.PersonVariables._contact
+  id: _contact
+  parent: SuperOffice.CRM.Globalization.PersonVariables
+  langs:
+  - csharp
+  - vb
+  name: _contact
+  nameWithType: PersonVariables._contact
+  fullName: SuperOffice.CRM.Globalization.PersonVariables._contact
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nVariable holding <xref href=\"SuperOffice.CRM.IContactInfo2\" data-throw-if-not-resolved=\"false\"></xref>, use the <xref href=\"SuperOffice.CRM.Globalization.PersonVariables.Person\" data-throw-if-not-resolved=\"false\"></xref> property to access this variable.\n"
+  syntax:
+    content: protected IContactInfo2 _contact
+    return:
+      type: SuperOffice.CRM.IContactInfo2
+    content.vb: Protected _contact As IContactInfo2
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.CRM.Globalization.PersonVariables
+  langs:
+  - csharp
+  - vb
+  name: PersonVariables(Int32)
+  nameWithType: PersonVariables.PersonVariables(Int32)
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.PersonVariables(System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public PersonVariables(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    content.vb: Public Sub New(personId As Integer)
+  overload: SuperOffice.CRM.Globalization.PersonVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.PersonVariables.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: SuperOffice.CRM.Globalization.PersonVariables
+  langs:
+  - csharp
+  - vb
+  name: PersonVariables(Int32, Int32)
+  nameWithType: PersonVariables.PersonVariables(Int32, Int32)
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.PersonVariables(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public PersonVariables(int personId, int contactId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    content.vb: Public Sub New(personId As Integer, contactId As Integer)
+  overload: SuperOffice.CRM.Globalization.PersonVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
+  commentId: M:SuperOffice.CRM.Globalization.PersonVariables.#ctor(SuperOffice.CRM.IPersonInfo2)
+  id: '#ctor(SuperOffice.CRM.IPersonInfo2)'
+  parent: SuperOffice.CRM.Globalization.PersonVariables
+  langs:
+  - csharp
+  - vb
+  name: PersonVariables(IPersonInfo2)
+  nameWithType: PersonVariables.PersonVariables(IPersonInfo2)
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.PersonVariables(SuperOffice.CRM.IPersonInfo2)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public PersonVariables(IPersonInfo2 personInfo)
+    parameters:
+    - id: personInfo
+      type: SuperOffice.CRM.IPersonInfo2
+    content.vb: Public Sub New(personInfo As IPersonInfo2)
+  overload: SuperOffice.CRM.Globalization.PersonVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.PersonVariables.Contact
+  commentId: P:SuperOffice.CRM.Globalization.PersonVariables.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Globalization.PersonVariables
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: PersonVariables.Contact
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.Contact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nEncapsulation of the <xref href=\"SuperOffice.CRM.Globalization.PersonVariables._contact\" data-throw-if-not-resolved=\"false\"></xref> member variable.  \nAccessing this property will make sure that the this variable is set.\n"
+  syntax:
+    content: protected IContactInfo2 Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.IContactInfo2
+    content.vb: Protected ReadOnly Property Contact As IContactInfo2
+  overload: SuperOffice.CRM.Globalization.PersonVariables.Contact*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.TagContainer
+  commentId: T:SuperOffice.IO.TagContainer
+  parent: SuperOffice.IO
+  isExternal: true
+  name: TagContainer
+  nameWithType: TagContainer
+  fullName: SuperOffice.IO.TagContainer
+- uid: SuperOffice.IO.TagContainer._bInitiated
+  commentId: F:SuperOffice.IO.TagContainer._bInitiated
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: _bInitiated
+  nameWithType: TagContainer._bInitiated
+  fullName: SuperOffice.IO.TagContainer._bInitiated
+- uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  commentId: M:SuperOffice.IO.TagContainer.AddData(System.Object[])
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: AddData(Object[])
+  nameWithType: TagContainer.AddData(Object[])
+  fullName: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  nameWithType.vb: TagContainer.AddData(Object())
+  fullName.vb: SuperOffice.IO.TagContainer.AddData(System.Object())
+  name.vb: AddData(Object())
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.GetData
+  commentId: M:SuperOffice.IO.TagContainer.GetData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetData()
+  nameWithType: TagContainer.GetData()
+  fullName: SuperOffice.IO.TagContainer.GetData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.ClearData
+  commentId: M:SuperOffice.IO.TagContainer.ClearData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: ClearData()
+  nameWithType: TagContainer.ClearData()
+  fullName: SuperOffice.IO.TagContainer.ClearData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetValue(String)
+  nameWithType: TagContainer.GetValue(String)
+  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: SetValue(String, String)
+  nameWithType: TagContainer.SetValue(String, String)
+  fullName: SuperOffice.IO.TagContainer.SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: RemoveCustomValue(String)
+  nameWithType: TagContainer.RemoveCustomValue(String)
+  fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: IsTagLegal(String)
+  nameWithType: TagContainer.IsTagLegal(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: IsTagInContext(String)
+  nameWithType: TagContainer.IsTagInContext(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.Init
+  commentId: M:SuperOffice.IO.TagContainer.Init
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Init()
+  nameWithType: TagContainer.Init()
+  fullName: SuperOffice.IO.TagContainer.Init()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.CurrentUiCulture
+  commentId: P:SuperOffice.IO.TagContainer.CurrentUiCulture
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: CurrentUiCulture
+  nameWithType: TagContainer.CurrentUiCulture
+  fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
+- uid: SuperOffice.IO.TagContainer.Id
+  commentId: P:SuperOffice.IO.TagContainer.Id
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Id
+  nameWithType: TagContainer.Id
+  fullName: SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.IO.TagContainer.Data
+  commentId: P:SuperOffice.IO.TagContainer.Data
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Data
+  nameWithType: TagContainer.Data
+  fullName: SuperOffice.IO.TagContainer.Data
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.PersonVariables.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PersonVariables, To>()
+  nameWithType: EnumUtil.MapEnums<PersonVariables, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.PersonVariables, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PersonVariables, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.PersonVariables, To)()
+  name.vb: MapEnums(Of PersonVariables, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PersonVariables, To>
+    nameWithType: EnumUtil.MapEnums<PersonVariables, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.PersonVariables, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PersonVariables, To)
+    nameWithType: EnumUtil.MapEnums(Of PersonVariables, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.PersonVariables, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.PersonVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PersonVariables, To>()
+  nameWithType: Converters.MapEnums<PersonVariables, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.PersonVariables, To>()
+  nameWithType.vb: Converters.MapEnums(Of PersonVariables, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.PersonVariables, To)()
+  name.vb: MapEnums(Of PersonVariables, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PersonVariables, To>
+    nameWithType: Converters.MapEnums<PersonVariables, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.PersonVariables, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PersonVariables, To)
+    nameWithType: Converters.MapEnums(Of PersonVariables, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.PersonVariables, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IPersonInfo2
+  commentId: T:SuperOffice.CRM.IPersonInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IPersonInfo2
+  nameWithType: IPersonInfo2
+  fullName: SuperOffice.CRM.IPersonInfo2
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IContactInfo2
+  commentId: T:SuperOffice.CRM.IContactInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IContactInfo2
+  nameWithType: IContactInfo2
+  fullName: SuperOffice.CRM.IContactInfo2
+- uid: SuperOffice.CRM.Globalization.PersonVariables.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonVariables.#ctor
+  isExternal: true
+  name: PersonVariables
+  nameWithType: PersonVariables.PersonVariables
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.PersonVariables
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.PersonVariables.Contact*
+  commentId: Overload:SuperOffice.CRM.Globalization.PersonVariables.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: PersonVariables.Contact
+  fullName: SuperOffice.CRM.Globalization.PersonVariables.Contact

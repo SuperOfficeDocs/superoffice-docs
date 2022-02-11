@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest
+  id: Quote_CreateAndSaveQuoteFromSaleRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateAndSaveQuoteFromSaleRequest
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CreateAndSaveQuoteFromSaleRequest : Object'
+    content.vb: >-
+      Public Class Quote_CreateAndSaveQuoteFromSaleRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateAndSaveQuoteFromSaleRequest()
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest.Quote_CreateAndSaveQuoteFromSaleRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.Quote_CreateAndSaveQuoteFromSaleRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CreateAndSaveQuoteFromSaleRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  id: CopyFromSaleId
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest
+  langs:
+  - csharp
+  - vb
+  name: CopyFromSaleId
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CopyFromSaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CopyFromSaleId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  id: CopyToSaleId
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest
+  langs:
+  - csharp
+  - vb
+  name: CopyToSaleId
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CopyToSaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CopyToSaleId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.#ctor
+  isExternal: true
+  name: Quote_CreateAndSaveQuoteFromSaleRequest
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest.Quote_CreateAndSaveQuoteFromSaleRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.Quote_CreateAndSaveQuoteFromSaleRequest
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  isExternal: true
+  name: CopyFromSaleId
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyFromSaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  isExternal: true
+  name: CopyToSaleId
+  nameWithType: Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteFromSaleRequest.CopyToSaleId

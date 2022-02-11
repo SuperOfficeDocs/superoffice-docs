@@ -1,0 +1,10 @@
+digraph PushNotificationService  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PushNotificationService[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+PushNotificationService -> associate [headlabel = "AssociateId"]
+PushNotificationService -> associate [label = "registered_associate_id"]
+PushNotificationService -> associate [label = "updated_associate_id"]
+}

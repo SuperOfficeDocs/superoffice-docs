@@ -1,0 +1,11 @@
+digraph attachment_location  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+attachment_location[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+attachment[fillcolor = "azure1"]
+attachment_location -> associate [headlabel = "registered_associate_id"]
+attachment_location -> associate [label = "updated_associate_id"]
+attachment -> attachment_location [label = "attachment_location_id"]
+}

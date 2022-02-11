@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  id: DBC.AssociateHistoryFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateHistoryId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.ContactId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.EjUserId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Firstname
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.GroupId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Lastname
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.LocationAddress
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.MiddleName
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Name
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.OriginalRegistered
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.PersonId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Registered
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Type
+  langs:
+  - csharp
+  - vb
+  name: DBC.AssociateHistoryFields
+  nameWithType: DBC.AssociateHistoryFields
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for AssociateHistory, Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database\n"
+  syntax:
+    content: public static class AssociateHistoryFields
+    content.vb: Public Module AssociateHistoryFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateHistoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateHistoryId
+  id: AssociateHistoryId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateHistoryId
+  nameWithType: DBC.AssociateHistoryFields.AssociateHistoryId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateHistoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.AssociateHistoryId: Primary key\n"
+  syntax:
+    content: public const string AssociateHistoryId = "associatehistory_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateHistoryId As String = "associatehistory_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.AssociateHistoryFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.AssociateId: The original primary key of the deleted associate\n"
+  syntax:
+    content: public const string AssociateId = "associateId"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associateId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.GroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DBC.AssociateHistoryFields.GroupId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.GroupId: The group id\n"
+  syntax:
+    content: public const string GroupId = "groupId"
+    return:
+      type: System.String
+    content.vb: Public Const GroupId As String = "groupId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.AssociateHistoryFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.PersonId: The person id\n"
+  syntax:
+    content: public const string PersonId = "personId"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "personId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.AssociateHistoryFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.Type: Associate type\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.OriginalRegistered
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.OriginalRegistered
+  id: OriginalRegistered
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: OriginalRegistered
+  nameWithType: DBC.AssociateHistoryFields.OriginalRegistered
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.OriginalRegistered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.OriginalRegistered: Registered when\n"
+  syntax:
+    content: public const string OriginalRegistered = "originalRegistered"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalRegistered As String = "originalRegistered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.LocationAddress
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.LocationAddress
+  id: LocationAddress
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: LocationAddress
+  nameWithType: DBC.AssociateHistoryFields.LocationAddress
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.LocationAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.LocationAddress: Address of location, if this is a resource that is a location\n"
+  syntax:
+    content: public const string LocationAddress = "locationAddress"
+    return:
+      type: System.String
+    content.vb: Public Const LocationAddress As String = "locationAddress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.EjUserId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.EjUserId
+  id: EjUserId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: EjUserId
+  nameWithType: DBC.AssociateHistoryFields.EjUserId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.EjUserId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.EjUserId: The ejuser reference, if any\n"
+  syntax:
+    content: public const string EjUserId = "ejUserId"
+    return:
+      type: System.String
+    content.vb: Public Const EjUserId As String = "ejUserId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.AssociateHistoryFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.Name: The associate name/initials\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Firstname
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: DBC.AssociateHistoryFields.Firstname
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Firstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.Firstname: First name\n"
+  syntax:
+    content: public const string Firstname = "firstname"
+    return:
+      type: System.String
+    content.vb: Public Const Firstname As String = "firstname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.MiddleName
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: DBC.AssociateHistoryFields.MiddleName
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.MiddleName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.MiddleName: Middle name or &apos;van&apos; etc.\n"
+  syntax:
+    content: public const string MiddleName = "middleName"
+    return:
+      type: System.String
+    content.vb: Public Const MiddleName As String = "middleName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Lastname
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: DBC.AssociateHistoryFields.Lastname
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Lastname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.Lastname: Last name\n"
+  syntax:
+    content: public const string Lastname = "lastname"
+    return:
+      type: System.String
+    content.vb: Public Const Lastname As String = "lastname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.AssociateHistoryFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.ContactId: The original contact_id\n"
+  syntax:
+    content: public const string ContactId = "contactId"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contactId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.AssociateHistoryFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AssociateHistoryFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.AssociateHistoryFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAssociateHistory.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

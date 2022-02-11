@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  id: Configuration_SaveAndPublishRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: Configuration_SaveAndPublishRequest
+  nameWithType: Configuration_SaveAndPublishRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_SaveAndPublishRequest : Object'
+    content.vb: >-
+      Public Class Configuration_SaveAndPublishRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_SaveAndPublishRequest()
+  nameWithType: Configuration_SaveAndPublishRequest.Configuration_SaveAndPublishRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.Configuration_SaveAndPublishRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_SaveAndPublishRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  commentId: P:SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  id: ConfigurableScreenDelta
+  parent: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenDelta
+  nameWithType: Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ConfigurableScreenDelta ConfigurableScreenDelta { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    content.vb: Public Property ConfigurableScreenDelta As ConfigurableScreenDelta
+  overload: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.#ctor
+  isExternal: true
+  name: Configuration_SaveAndPublishRequest
+  nameWithType: Configuration_SaveAndPublishRequest.Configuration_SaveAndPublishRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.Configuration_SaveAndPublishRequest
+- uid: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  isExternal: true
+  name: ConfigurableScreenDelta
+  nameWithType: Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveAndPublishRequest.ConfigurableScreenDelta
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  commentId: T:SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConfigurableScreenDelta
+  nameWithType: ConfigurableScreenDelta
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta

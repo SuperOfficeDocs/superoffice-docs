@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.WebhookState
+  # Same as SuperOffice.Data.WebhookState
+  commentId: T:CRMScript.NetServer.WebhookState
+  id: WebhookState
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.WebhookState.Unknown
+  - CRMScript.NetServer.WebhookState.Active
+  - CRMScript.NetServer.WebhookState.Stopped
+  - CRMScript.NetServer.WebhookState.TooManyErrors
+  name: WebhookState
+  nameWithType: WebhookState
+  fullName: CRMScript.NetServer.WebhookState
+  type: Enum
+  summary: "\nWebhook status: active, stopped, or tooManyErrors.\n"
+- uid: CRMScript.NetServer.WebhookState.Unknown
+  commentId: F:CRMScript.NetServer.WebhookState.Unknown
+  id: WebhookState.Unknown
+  langs:
+  - crmscript
+  name: WebhookState.Unknown
+  nameWithType: WebhookState.Unknown
+  fullName: CRMScript.NetServer.WebhookState.Unknown
+  type: Field
+  summary: "\n0: Unknown state\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.WebhookState
+- uid: CRMScript.NetServer.WebhookState.Active
+  commentId: F:CRMScript.NetServer.WebhookState.Active
+  id: WebhookState.Active
+  langs:
+  - crmscript
+  name: WebhookState.Active
+  nameWithType: WebhookState.Active
+  fullName: CRMScript.NetServer.WebhookState.Active
+  type: Field
+  summary: "\n1: Active - webhook is posting events to receiver\n"
+  syntax: 
+    content: Active = 1
+    type: CRMScript.NetServer.WebhookState
+- uid: CRMScript.NetServer.WebhookState.Stopped
+  commentId: F:CRMScript.NetServer.WebhookState.Stopped
+  id: WebhookState.Stopped
+  langs:
+  - crmscript
+  name: WebhookState.Stopped
+  nameWithType: WebhookState.Stopped
+  fullName: CRMScript.NetServer.WebhookState.Stopped
+  type: Field
+  summary: "\n2: Stopped - webhook has been turned off. Not posting events to receiver.\n"
+  syntax: 
+    content: Stopped = 2
+    type: CRMScript.NetServer.WebhookState
+- uid: CRMScript.NetServer.WebhookState.TooManyErrors
+  commentId: F:CRMScript.NetServer.WebhookState.TooManyErrors
+  id: WebhookState.TooManyErrors
+  langs:
+  - crmscript
+  name: WebhookState.TooManyErrors
+  nameWithType: WebhookState.TooManyErrors
+  fullName: CRMScript.NetServer.WebhookState.TooManyErrors
+  type: Field
+  summary: "\n3: Too many errors received - webhook has been turned off automatically.\n"
+  syntax: 
+    content: TooManyErrors = 3
+    type: CRMScript.NetServer.WebhookState
+references:
+- uid: CRMScript.NetServer.WebhookState
+  commentId: T:CRMScript.NetServer.WebhookState
+  isExternal: true
+  name: WebhookState
+  nameWithType: WebhookState
+  fullName: CRMScript.NetServer.WebhookState

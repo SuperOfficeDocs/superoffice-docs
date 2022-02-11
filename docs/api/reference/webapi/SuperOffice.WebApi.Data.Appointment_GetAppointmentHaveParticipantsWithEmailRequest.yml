@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  id: Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  nameWithType: Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetAppointmentHaveParticipantsWithEmailRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentHaveParticipantsWithEmailRequest()
+  nameWithType: Appointment_GetAppointmentHaveParticipantsWithEmailRequest.Appointment_GetAppointmentHaveParticipantsWithEmailRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.Appointment_GetAppointmentHaveParticipantsWithEmailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetAppointmentHaveParticipantsWithEmailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.#ctor
+  isExternal: true
+  name: Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  nameWithType: Appointment_GetAppointmentHaveParticipantsWithEmailRequest.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.Appointment_GetAppointmentHaveParticipantsWithEmailRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentHaveParticipantsWithEmailRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

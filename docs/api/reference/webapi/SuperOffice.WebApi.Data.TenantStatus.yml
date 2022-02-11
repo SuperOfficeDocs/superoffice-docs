@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TenantStatus
+  commentId: T:SuperOffice.WebApi.Data.TenantStatus
+  id: TenantStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TenantStatus.#ctor
+  - SuperOffice.WebApi.Data.TenantStatus.Api
+  - SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
+  - SuperOffice.WebApi.Data.TenantStatus.Endpoint
+  - SuperOffice.WebApi.Data.TenantStatus.IsRunning
+  - SuperOffice.WebApi.Data.TenantStatus.State
+  - SuperOffice.WebApi.Data.TenantStatus.ValidUntil
+  langs:
+  - csharp
+  - vb
+  name: TenantStatus
+  nameWithType: TenantStatus
+  fullName: SuperOffice.WebApi.Data.TenantStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOnline tenant status: Endpoint URL, State, IsRunning\n"
+  syntax:
+    content: 'public class TenantStatus : Object'
+    content.vb: >-
+      Public Class TenantStatus
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TenantStatus.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TenantStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: TenantStatus()
+  nameWithType: TenantStatus.TenantStatus()
+  fullName: SuperOffice.WebApi.Data.TenantStatus.TenantStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TenantStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TenantStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
+  commentId: P:SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: TenantStatus.ContextIdentifier
+  fullName: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustomer identifier: &quot;Cust30884&quot;\n"
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TenantStatus.Endpoint
+  commentId: P:SuperOffice.WebApi.Data.TenantStatus.Endpoint
+  id: Endpoint
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: Endpoint
+  nameWithType: TenantStatus.Endpoint
+  fullName: SuperOffice.WebApi.Data.TenantStatus.Endpoint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBase URL to tenant: &quot;https://sod2.superoffice.com/Cust30884&quot;\n"
+  syntax:
+    content: public string Endpoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Endpoint As String
+  overload: SuperOffice.WebApi.Data.TenantStatus.Endpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TenantStatus.State
+  commentId: P:SuperOffice.WebApi.Data.TenantStatus.State
+  id: State
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: TenantStatus.State
+  fullName: SuperOffice.WebApi.Data.TenantStatus.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the tenant running or down for maintenance?\n"
+  syntax:
+    content: public TenantState State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Property State As TenantState
+  overload: SuperOffice.WebApi.Data.TenantStatus.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TenantStatus.IsRunning
+  commentId: P:SuperOffice.WebApi.Data.TenantStatus.IsRunning
+  id: IsRunning
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: IsRunning
+  nameWithType: TenantStatus.IsRunning
+  fullName: SuperOffice.WebApi.Data.TenantStatus.IsRunning
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the tenant state Running or OnlineMaintenance.  \nThis indicates that APIs are up and running and all is good.\n"
+  syntax:
+    content: public bool IsRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsRunning As Boolean
+  overload: SuperOffice.WebApi.Data.TenantStatus.IsRunning*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TenantStatus.ValidUntil
+  commentId: P:SuperOffice.WebApi.Data.TenantStatus.ValidUntil
+  id: ValidUntil
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: ValidUntil
+  nameWithType: TenantStatus.ValidUntil
+  fullName: SuperOffice.WebApi.Data.TenantStatus.ValidUntil
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen to check next time if an updated state is needed.\n"
+  syntax:
+    content: public DateTime ValidUntil { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ValidUntil As DateTime
+  overload: SuperOffice.WebApi.Data.TenantStatus.ValidUntil*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TenantStatus.Api
+  commentId: P:SuperOffice.WebApi.Data.TenantStatus.Api
+  id: Api
+  parent: SuperOffice.WebApi.Data.TenantStatus
+  langs:
+  - csharp
+  - vb
+  name: Api
+  nameWithType: TenantStatus.Api
+  fullName: SuperOffice.WebApi.Data.TenantStatus.Api
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBase URL to tenant API: &quot;https://sod2.superoffice.com/Cust30884/api&quot;\n"
+  syntax:
+    content: public string Api { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Api As String
+  overload: SuperOffice.WebApi.Data.TenantStatus.Api*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TenantStatus.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.#ctor
+  isExternal: true
+  name: TenantStatus
+  nameWithType: TenantStatus.TenantStatus
+  fullName: SuperOffice.WebApi.Data.TenantStatus.TenantStatus
+- uid: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: TenantStatus.ContextIdentifier
+  fullName: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TenantStatus.Endpoint*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.Endpoint
+  isExternal: true
+  name: Endpoint
+  nameWithType: TenantStatus.Endpoint
+  fullName: SuperOffice.WebApi.Data.TenantStatus.Endpoint
+- uid: SuperOffice.WebApi.Data.TenantStatus.State*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.State
+  isExternal: true
+  name: State
+  nameWithType: TenantStatus.State
+  fullName: SuperOffice.WebApi.Data.TenantStatus.State
+- uid: SuperOffice.WebApi.Data.TenantState
+  commentId: T:SuperOffice.WebApi.Data.TenantState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TenantState
+  nameWithType: TenantState
+  fullName: SuperOffice.WebApi.Data.TenantState
+- uid: SuperOffice.WebApi.Data.TenantStatus.IsRunning*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.IsRunning
+  isExternal: true
+  name: IsRunning
+  nameWithType: TenantStatus.IsRunning
+  fullName: SuperOffice.WebApi.Data.TenantStatus.IsRunning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.TenantStatus.ValidUntil*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.ValidUntil
+  isExternal: true
+  name: ValidUntil
+  nameWithType: TenantStatus.ValidUntil
+  fullName: SuperOffice.WebApi.Data.TenantStatus.ValidUntil
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.TenantStatus.Api*
+  commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.Api
+  isExternal: true
+  name: Api
+  nameWithType: TenantStatus.Api
+  fullName: SuperOffice.WebApi.Data.TenantStatus.Api

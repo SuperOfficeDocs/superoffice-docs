@@ -1,0 +1,481 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailAttachment
+  commentId: T:SuperOffice.WebApi.Data.EMailAttachment
+  id: EMailAttachment
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailAttachment.#ctor
+  - SuperOffice.WebApi.Data.EMailAttachment.Description
+  - SuperOffice.WebApi.Data.EMailAttachment.Disposition
+  - SuperOffice.WebApi.Data.EMailAttachment.Encoding
+  - SuperOffice.WebApi.Data.EMailAttachment.Filename
+  - SuperOffice.WebApi.Data.EMailAttachment.Id
+  - SuperOffice.WebApi.Data.EMailAttachment.Size
+  - SuperOffice.WebApi.Data.EMailAttachment.Stream
+  - SuperOffice.WebApi.Data.EMailAttachment.Type
+  langs:
+  - csharp
+  - vb
+  name: EMailAttachment
+  nameWithType: EMailAttachment
+  fullName: SuperOffice.WebApi.Data.EMailAttachment
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailAttachment.\nInformation about an attachment    \n"
+  syntax:
+    content: 'public class EMailAttachment : Carrier'
+    content.vb: >-
+      Public Class EMailAttachment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailAttachment.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailAttachment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: EMailAttachment()
+  nameWithType: EMailAttachment.EMailAttachment()
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.EMailAttachment()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailAttachment()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailAttachment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Description
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EMailAttachment.Description
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName/description\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Filename
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Filename
+  id: Filename
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: EMailAttachment.Filename
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Filename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFilename\n"
+  syntax:
+    content: public virtual string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Filename As String
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Filename*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Size
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Size
+  id: Size
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: EMailAttachment.Size
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Size
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSize of attachment\n"
+  syntax:
+    content: public virtual int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Size As Integer
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Type
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EMailAttachment.Type
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAttachment Content-Type\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Encoding
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Encoding
+  id: Encoding
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: EMailAttachment.Encoding
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Encoding
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContent-Transfer-Encoding\n"
+  syntax:
+    content: public virtual string Encoding { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Encoding As String
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Encoding*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Id
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: EMailAttachment.Id
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContent-ID\n"
+  syntax:
+    content: public virtual string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Id As String
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Disposition
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Disposition
+  id: Disposition
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Disposition
+  nameWithType: EMailAttachment.Disposition
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Disposition
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContent-Disposition\n"
+  syntax:
+    content: public virtual string Disposition { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Disposition As String
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Disposition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Stream
+  commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Stream
+  id: Stream
+  parent: SuperOffice.WebApi.Data.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: EMailAttachment.Stream
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Stream
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBinary stream for outgoing attachments. This property will not be populated for existing e-mail items.\n"
+  syntax:
+    content: public virtual byte[] Stream { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property Stream As Byte()
+  overload: SuperOffice.WebApi.Data.EMailAttachment.Stream*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailAttachment.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.#ctor
+  isExternal: true
+  name: EMailAttachment
+  nameWithType: EMailAttachment.EMailAttachment
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.EMailAttachment
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Description
+  isExternal: true
+  name: Description
+  nameWithType: EMailAttachment.Description
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Filename*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: EMailAttachment.Filename
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Filename
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Size*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Size
+  isExternal: true
+  name: Size
+  nameWithType: EMailAttachment.Size
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Size
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Type
+  isExternal: true
+  name: Type
+  nameWithType: EMailAttachment.Type
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Type
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Encoding*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: EMailAttachment.Encoding
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Encoding
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Id
+  isExternal: true
+  name: Id
+  nameWithType: EMailAttachment.Id
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Id
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Disposition*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Disposition
+  isExternal: true
+  name: Disposition
+  nameWithType: EMailAttachment.Disposition
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Disposition
+- uid: SuperOffice.WebApi.Data.EMailAttachment.Stream*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: EMailAttachment.Stream
+  fullName: SuperOffice.WebApi.Data.EMailAttachment.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

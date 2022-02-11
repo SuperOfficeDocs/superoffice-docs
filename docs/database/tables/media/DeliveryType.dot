@@ -1,0 +1,13 @@
+digraph DeliveryType  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+DeliveryType[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+DeliveryTypeGroupLink[fillcolor = "azure1"]
+DeliveryTypeHeadingLink[fillcolor = "azure1"]
+DeliveryType -> associate [headlabel = "registered_associate_id"]
+DeliveryType -> associate [label = "updated_associate_id"]
+DeliveryTypeGroupLink -> DeliveryType [label = "deliverytype_id"]
+DeliveryTypeHeadingLink -> DeliveryType [label = "deliverytype_id"]
+}

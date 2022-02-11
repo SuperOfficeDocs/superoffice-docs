@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter
+  commentId: T:SuperOffice.WebApi.Data.AudienceConfigParameter
+  id: AudienceConfigParameter
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.#ctor
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.Name
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate
+  - SuperOffice.WebApi.Data.AudienceConfigParameter.Value
+  langs:
+  - csharp
+  - vb
+  name: AudienceConfigParameter
+  nameWithType: AudienceConfigParameter
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AudienceConfigParameter.\nAn Audience configuration parameter, used for handling Audience application or Web part settings.    \n"
+  syntax:
+    content: 'public class AudienceConfigParameter : Carrier'
+    content.vb: >-
+      Public Class AudienceConfigParameter
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AudienceAgent
+    commentId: T:SuperOffice.WebApi.Agents.AudienceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AudienceConfigParameter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: AudienceConfigParameter()
+  nameWithType: AudienceConfigParameter.AudienceConfigParameter()
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceConfigParameter()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AudienceConfigParameter()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId
+  id: AudienceLayoutId
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: AudienceLayoutId
+  nameWithType: AudienceConfigParameter.AudienceLayoutId
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the Audience layout this configuration setting belongs to\n"
+  syntax:
+    content: public virtual int AudienceLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AudienceLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.Name
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AudienceConfigParameter.Name
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the configuration parameter\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.Value
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: AudienceConfigParameter.Value
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe value of the configuration parameter\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: AudienceConfigParameter.CreatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date and time the configuration parameter was created\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: AudienceConfigParameter.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date and time the configuration parameter was last updated\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: AudienceConfigParameter.CreatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person that created the configuration parameter\n"
+  syntax:
+    content: public virtual string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CreatedBy As String
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.AudienceConfigParameter
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: AudienceConfigParameter.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person that last updated the configuration parameter\n"
+  syntax:
+    content: public virtual string UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedBy As String
+  overload: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AudienceAgent
+  commentId: T:SuperOffice.WebApi.Agents.AudienceAgent
+  isExternal: true
+  name: AudienceAgent
+  nameWithType: AudienceAgent
+  fullName: SuperOffice.WebApi.Agents.AudienceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.#ctor
+  isExternal: true
+  name: AudienceConfigParameter
+  nameWithType: AudienceConfigParameter.AudienceConfigParameter
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceConfigParameter
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId
+  isExternal: true
+  name: AudienceLayoutId
+  nameWithType: AudienceConfigParameter.AudienceLayoutId
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.AudienceLayoutId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.Name
+  isExternal: true
+  name: Name
+  nameWithType: AudienceConfigParameter.Name
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.Value
+  isExternal: true
+  name: Value
+  nameWithType: AudienceConfigParameter.Value
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.Value
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: AudienceConfigParameter.CreatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: AudienceConfigParameter.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedDate
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: AudienceConfigParameter.CreatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.CreatedBy
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: AudienceConfigParameter.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter.UpdatedBy

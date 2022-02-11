@@ -1,0 +1,9 @@
+digraph Favourite  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Favourite[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+Favourite -> associate [headlabel = "associate_id"]
+Favourite -> associate [label = "registered_by"]
+}

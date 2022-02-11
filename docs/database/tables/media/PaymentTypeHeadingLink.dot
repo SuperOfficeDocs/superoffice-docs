@@ -1,0 +1,13 @@
+digraph PaymentTypeHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PaymentTypeHeadingLink[fillcolor = "cadetblue1"]
+PaymentType[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PaymentTypeHeadingLink -> PaymentType [headlabel = "paymenttype_id"]
+PaymentTypeHeadingLink -> Heading [headlabel = "heading_id"]
+PaymentTypeHeadingLink -> associate [headlabel = "registered_associate_id"]
+PaymentTypeHeadingLink -> associate [label = "updated_associate_id"]
+}

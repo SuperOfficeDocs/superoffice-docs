@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  id: Appointment_AcceptWithSmtpEmailConfirmationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  - SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_AcceptWithSmtpEmailConfirmationRequest
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_AcceptWithSmtpEmailConfirmationRequest : Object'
+    content.vb: >-
+      Public Class Appointment_AcceptWithSmtpEmailConfirmationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_AcceptWithSmtpEmailConfirmationRequest()
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.Appointment_AcceptWithSmtpEmailConfirmationRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.Appointment_AcceptWithSmtpEmailConfirmationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_AcceptWithSmtpEmailConfirmationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  id: SmtpEMailConnectionInfo
+  parent: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: SmtpEMailConnectionInfo
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo SmtpEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property SmtpEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.#ctor
+  isExternal: true
+  name: Appointment_AcceptWithSmtpEmailConfirmationRequest
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.Appointment_AcceptWithSmtpEmailConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.Appointment_AcceptWithSmtpEmailConfirmationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+- uid: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  isExternal: true
+  name: SmtpEMailConnectionInfo
+  nameWithType: Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_AcceptWithSmtpEmailConfirmationRequest.SmtpEMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo

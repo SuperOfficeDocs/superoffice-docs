@@ -1,0 +1,13 @@
+digraph PaymentTermsHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PaymentTermsHeadingLink[fillcolor = "cadetblue1"]
+PaymentTerms[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+PaymentTermsHeadingLink -> PaymentTerms [headlabel = "paymentterms_id"]
+PaymentTermsHeadingLink -> Heading [headlabel = "heading_id"]
+PaymentTermsHeadingLink -> associate [headlabel = "registered_associate_id"]
+PaymentTermsHeadingLink -> associate [label = "updated_associate_id"]
+}

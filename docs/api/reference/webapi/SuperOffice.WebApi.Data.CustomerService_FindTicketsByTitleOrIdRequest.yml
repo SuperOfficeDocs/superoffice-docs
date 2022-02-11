@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
+  id: CustomerService_FindTicketsByTitleOrIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  - SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_FindTicketsByTitleOrIdRequest
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_FindTicketsByTitleOrIdRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_FindTicketsByTitleOrIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_FindTicketsByTitleOrIdRequest()
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest.CustomerService_FindTicketsByTitleOrIdRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.CustomerService_FindTicketsByTitleOrIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_FindTicketsByTitleOrIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  id: TitleOrId
+  parent: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
+  langs:
+  - csharp
+  - vb
+  name: TitleOrId
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TitleOrId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TitleOrId As String
+  overload: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  id: MaxRows
+  parent: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxRows
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MaxRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxRows As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.#ctor
+  isExternal: true
+  name: CustomerService_FindTicketsByTitleOrIdRequest
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest.CustomerService_FindTicketsByTitleOrIdRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.CustomerService_FindTicketsByTitleOrIdRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  isExternal: true
+  name: TitleOrId
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.TitleOrId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  isExternal: true
+  name: MaxRows
+  nameWithType: CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+  fullName: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest.MaxRows
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

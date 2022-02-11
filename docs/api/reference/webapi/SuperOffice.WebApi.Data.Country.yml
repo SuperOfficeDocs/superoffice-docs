@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Country
+  commentId: T:SuperOffice.WebApi.Data.Country
+  id: Country
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Country.#ctor
+  - SuperOffice.WebApi.Data.Country.AddressLayoutId
+  - SuperOffice.WebApi.Data.Country.CountryId
+  - SuperOffice.WebApi.Data.Country.CurrencyId
+  - SuperOffice.WebApi.Data.Country.Deleted
+  - SuperOffice.WebApi.Data.Country.DialInPrefix
+  - SuperOffice.WebApi.Data.Country.DomainName
+  - SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId
+  - SuperOffice.WebApi.Data.Country.EnglishName
+  - SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId
+  - SuperOffice.WebApi.Data.Country.ImageDescription
+  - SuperOffice.WebApi.Data.Country.InterAreaPrefix
+  - SuperOffice.WebApi.Data.Country.Name
+  - SuperOffice.WebApi.Data.Country.OrgNrText
+  - SuperOffice.WebApi.Data.Country.Rank
+  - SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry
+  - SuperOffice.WebApi.Data.Country.Tooltip
+  - SuperOffice.WebApi.Data.Country.TwoLetterISOCountry
+  - SuperOffice.WebApi.Data.Country.ZipPrefix
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: Country
+  fullName: SuperOffice.WebApi.Data.Country
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Country.\n\n"
+  example:
+  - "\nGet Country 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar country = agent.GetCountry( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Country : Carrier'
+    content.vb: >-
+      Public Class Country
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Country.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Country.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: Country()
+  nameWithType: Country.Country()
+  fullName: SuperOffice.WebApi.Data.Country.Country()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Country()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Country.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Country.CountryId
+  commentId: P:SuperOffice.WebApi.Data.Country.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: Country.CountryId
+  fullName: SuperOffice.WebApi.Data.Country.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.Country.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.Name
+  commentId: P:SuperOffice.WebApi.Data.Country.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Country.Name
+  fullName: SuperOffice.WebApi.Data.Country.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of country in installed language\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Country.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.CurrencyId
+  commentId: P:SuperOffice.WebApi.Data.Country.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: Country.CurrencyId
+  fullName: SuperOffice.WebApi.Data.Country.CurrencyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault currency for this country\n"
+  syntax:
+    content: public virtual int CurrencyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrencyId As Integer
+  overload: SuperOffice.WebApi.Data.Country.CurrencyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.EnglishName
+  commentId: P:SuperOffice.WebApi.Data.Country.EnglishName
+  id: EnglishName
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: EnglishName
+  nameWithType: Country.EnglishName
+  fullName: SuperOffice.WebApi.Data.Country.EnglishName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of country in english\n"
+  syntax:
+    content: public virtual string EnglishName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EnglishName As String
+  overload: SuperOffice.WebApi.Data.Country.EnglishName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.TwoLetterISOCountry
+  commentId: P:SuperOffice.WebApi.Data.Country.TwoLetterISOCountry
+  id: TwoLetterISOCountry
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: TwoLetterISOCountry
+  nameWithType: Country.TwoLetterISOCountry
+  fullName: SuperOffice.WebApi.Data.Country.TwoLetterISOCountry
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTwo-letter country-code according to ISO3166 \n"
+  syntax:
+    content: public virtual string TwoLetterISOCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TwoLetterISOCountry As String
+  overload: SuperOffice.WebApi.Data.Country.TwoLetterISOCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry
+  commentId: P:SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry
+  id: ThreeLetterISOCountry
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: ThreeLetterISOCountry
+  nameWithType: Country.ThreeLetterISOCountry
+  fullName: SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThree-letter country-code according to ISO3166 \n"
+  syntax:
+    content: public virtual string ThreeLetterISOCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ThreeLetterISOCountry As String
+  overload: SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.ImageDescription
+  commentId: P:SuperOffice.WebApi.Data.Country.ImageDescription
+  id: ImageDescription
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: ImageDescription
+  nameWithType: Country.ImageDescription
+  fullName: SuperOffice.WebApi.Data.Country.ImageDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of the country&apos;s flag image. (This is the country flag that is displayed in the CRM client)\n"
+  syntax:
+    content: public virtual string ImageDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ImageDescription As String
+  overload: SuperOffice.WebApi.Data.Country.ImageDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.OrgNrText
+  commentId: P:SuperOffice.WebApi.Data.Country.OrgNrText
+  id: OrgNrText
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: OrgNrText
+  nameWithType: Country.OrgNrText
+  fullName: SuperOffice.WebApi.Data.Country.OrgNrText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLead text for organisation field\n"
+  syntax:
+    content: public virtual string OrgNrText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OrgNrText As String
+  overload: SuperOffice.WebApi.Data.Country.OrgNrText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.InterAreaPrefix
+  commentId: P:SuperOffice.WebApi.Data.Country.InterAreaPrefix
+  id: InterAreaPrefix
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: InterAreaPrefix
+  nameWithType: Country.InterAreaPrefix
+  fullName: SuperOffice.WebApi.Data.Country.InterAreaPrefix
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInternational prefix\n"
+  syntax:
+    content: public virtual string InterAreaPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InterAreaPrefix As String
+  overload: SuperOffice.WebApi.Data.Country.InterAreaPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.DialInPrefix
+  commentId: P:SuperOffice.WebApi.Data.Country.DialInPrefix
+  id: DialInPrefix
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: DialInPrefix
+  nameWithType: Country.DialInPrefix
+  fullName: SuperOffice.WebApi.Data.Country.DialInPrefix
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDial in prefix\n"
+  syntax:
+    content: public virtual string DialInPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DialInPrefix As String
+  overload: SuperOffice.WebApi.Data.Country.DialInPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.ZipPrefix
+  commentId: P:SuperOffice.WebApi.Data.Country.ZipPrefix
+  id: ZipPrefix
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: ZipPrefix
+  nameWithType: Country.ZipPrefix
+  fullName: SuperOffice.WebApi.Data.Country.ZipPrefix
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPost prefix\n"
+  syntax:
+    content: public virtual string ZipPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ZipPrefix As String
+  overload: SuperOffice.WebApi.Data.Country.ZipPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.DomainName
+  commentId: P:SuperOffice.WebApi.Data.Country.DomainName
+  id: DomainName
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: DomainName
+  nameWithType: Country.DomainName
+  fullName: SuperOffice.WebApi.Data.Country.DomainName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDomain name of the country\n"
+  syntax:
+    content: public virtual string DomainName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DomainName As String
+  overload: SuperOffice.WebApi.Data.Country.DomainName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.AddressLayoutId
+  commentId: P:SuperOffice.WebApi.Data.Country.AddressLayoutId
+  id: AddressLayoutId
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutId
+  nameWithType: Country.AddressLayoutId
+  fullName: SuperOffice.WebApi.Data.Country.AddressLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAddress layout of the country\n"
+  syntax:
+    content: public virtual int AddressLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AddressLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.Country.AddressLayoutId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId
+  commentId: P:SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId
+  id: DomesticAddressLayoutId
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: DomesticAddressLayoutId
+  nameWithType: Country.DomesticAddressLayoutId
+  fullName: SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDomestic address layout of the country\n"
+  syntax:
+    content: public virtual int DomesticAddressLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DomesticAddressLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId
+  commentId: P:SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId
+  id: ForeignAddressLayoutId
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: ForeignAddressLayoutId
+  nameWithType: Country.ForeignAddressLayoutId
+  fullName: SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForeign address layout of the country\n"
+  syntax:
+    content: public virtual int ForeignAddressLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ForeignAddressLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.Rank
+  commentId: P:SuperOffice.WebApi.Data.Country.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Country.Rank
+  fullName: SuperOffice.WebApi.Data.Country.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe rank of the country\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.Country.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.Country.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: Country.Tooltip
+  fullName: SuperOffice.WebApi.Data.Country.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip of the country\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.Country.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Country.Deleted
+  commentId: P:SuperOffice.WebApi.Data.Country.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.Country
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: Country.Deleted
+  fullName: SuperOffice.WebApi.Data.Country.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ntrue if the country is deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.Country.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Country.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.#ctor
+  isExternal: true
+  name: Country
+  nameWithType: Country.Country
+  fullName: SuperOffice.WebApi.Data.Country.Country
+- uid: SuperOffice.WebApi.Data.Country.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: Country.CountryId
+  fullName: SuperOffice.WebApi.Data.Country.CountryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Country.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.Name
+  isExternal: true
+  name: Name
+  nameWithType: Country.Name
+  fullName: SuperOffice.WebApi.Data.Country.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Country.CurrencyId*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: Country.CurrencyId
+  fullName: SuperOffice.WebApi.Data.Country.CurrencyId
+- uid: SuperOffice.WebApi.Data.Country.EnglishName*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.EnglishName
+  isExternal: true
+  name: EnglishName
+  nameWithType: Country.EnglishName
+  fullName: SuperOffice.WebApi.Data.Country.EnglishName
+- uid: SuperOffice.WebApi.Data.Country.TwoLetterISOCountry*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.TwoLetterISOCountry
+  isExternal: true
+  name: TwoLetterISOCountry
+  nameWithType: Country.TwoLetterISOCountry
+  fullName: SuperOffice.WebApi.Data.Country.TwoLetterISOCountry
+- uid: SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry
+  isExternal: true
+  name: ThreeLetterISOCountry
+  nameWithType: Country.ThreeLetterISOCountry
+  fullName: SuperOffice.WebApi.Data.Country.ThreeLetterISOCountry
+- uid: SuperOffice.WebApi.Data.Country.ImageDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.ImageDescription
+  isExternal: true
+  name: ImageDescription
+  nameWithType: Country.ImageDescription
+  fullName: SuperOffice.WebApi.Data.Country.ImageDescription
+- uid: SuperOffice.WebApi.Data.Country.OrgNrText*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.OrgNrText
+  isExternal: true
+  name: OrgNrText
+  nameWithType: Country.OrgNrText
+  fullName: SuperOffice.WebApi.Data.Country.OrgNrText
+- uid: SuperOffice.WebApi.Data.Country.InterAreaPrefix*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.InterAreaPrefix
+  isExternal: true
+  name: InterAreaPrefix
+  nameWithType: Country.InterAreaPrefix
+  fullName: SuperOffice.WebApi.Data.Country.InterAreaPrefix
+- uid: SuperOffice.WebApi.Data.Country.DialInPrefix*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.DialInPrefix
+  isExternal: true
+  name: DialInPrefix
+  nameWithType: Country.DialInPrefix
+  fullName: SuperOffice.WebApi.Data.Country.DialInPrefix
+- uid: SuperOffice.WebApi.Data.Country.ZipPrefix*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.ZipPrefix
+  isExternal: true
+  name: ZipPrefix
+  nameWithType: Country.ZipPrefix
+  fullName: SuperOffice.WebApi.Data.Country.ZipPrefix
+- uid: SuperOffice.WebApi.Data.Country.DomainName*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.DomainName
+  isExternal: true
+  name: DomainName
+  nameWithType: Country.DomainName
+  fullName: SuperOffice.WebApi.Data.Country.DomainName
+- uid: SuperOffice.WebApi.Data.Country.AddressLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.AddressLayoutId
+  isExternal: true
+  name: AddressLayoutId
+  nameWithType: Country.AddressLayoutId
+  fullName: SuperOffice.WebApi.Data.Country.AddressLayoutId
+- uid: SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId
+  isExternal: true
+  name: DomesticAddressLayoutId
+  nameWithType: Country.DomesticAddressLayoutId
+  fullName: SuperOffice.WebApi.Data.Country.DomesticAddressLayoutId
+- uid: SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId
+  isExternal: true
+  name: ForeignAddressLayoutId
+  nameWithType: Country.ForeignAddressLayoutId
+  fullName: SuperOffice.WebApi.Data.Country.ForeignAddressLayoutId
+- uid: SuperOffice.WebApi.Data.Country.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Country.Rank
+  fullName: SuperOffice.WebApi.Data.Country.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.Country.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: Country.Tooltip
+  fullName: SuperOffice.WebApi.Data.Country.Tooltip
+- uid: SuperOffice.WebApi.Data.Country.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.Country.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: Country.Deleted
+  fullName: SuperOffice.WebApi.Data.Country.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

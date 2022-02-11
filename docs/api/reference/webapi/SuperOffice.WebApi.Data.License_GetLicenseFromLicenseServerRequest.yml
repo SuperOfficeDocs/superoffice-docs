@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest
+  id: License_GetLicenseFromLicenseServerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.#ctor
+  - SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName
+  langs:
+  - csharp
+  - vb
+  name: License_GetLicenseFromLicenseServerRequest
+  nameWithType: License_GetLicenseFromLicenseServerRequest
+  fullName: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_GetLicenseFromLicenseServerRequest : Object'
+    content.vb: >-
+      Public Class License_GetLicenseFromLicenseServerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest
+  langs:
+  - csharp
+  - vb
+  name: License_GetLicenseFromLicenseServerRequest()
+  nameWithType: License_GetLicenseFromLicenseServerRequest.License_GetLicenseFromLicenseServerRequest()
+  fullName: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.License_GetLicenseFromLicenseServerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_GetLicenseFromLicenseServerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName
+  commentId: P:SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName
+  id: OwnerName
+  parent: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: License_GetLicenseFromLicenseServerRequest.OwnerName
+  fullName: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerName As String
+  overload: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.#ctor
+  isExternal: true
+  name: License_GetLicenseFromLicenseServerRequest
+  nameWithType: License_GetLicenseFromLicenseServerRequest.License_GetLicenseFromLicenseServerRequest
+  fullName: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.License_GetLicenseFromLicenseServerRequest
+- uid: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: License_GetLicenseFromLicenseServerRequest.OwnerName
+  fullName: SuperOffice.WebApi.Data.License_GetLicenseFromLicenseServerRequest.OwnerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

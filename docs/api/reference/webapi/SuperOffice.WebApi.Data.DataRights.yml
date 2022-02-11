@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DataRights
+  commentId: T:SuperOffice.WebApi.Data.DataRights
+  id: DataRights
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DataRights.#ctor
+  - SuperOffice.WebApi.Data.DataRights.ColumnsInfo
+  - SuperOffice.WebApi.Data.DataRights.Rights
+  - SuperOffice.WebApi.Data.DataRights.RowsInfo
+  langs:
+  - csharp
+  - vb
+  name: DataRights
+  nameWithType: DataRights
+  fullName: SuperOffice.WebApi.Data.DataRights
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DataRights.\n\n"
+  syntax:
+    content: 'public class DataRights : Carrier'
+    content.vb: >-
+      Public Class DataRights
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DataRights.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DataRights.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DataRights
+  langs:
+  - csharp
+  - vb
+  name: DataRights()
+  nameWithType: DataRights.DataRights()
+  fullName: SuperOffice.WebApi.Data.DataRights.DataRights()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DataRights()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DataRights.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DataRights.ColumnsInfo
+  commentId: P:SuperOffice.WebApi.Data.DataRights.ColumnsInfo
+  id: ColumnsInfo
+  parent: SuperOffice.WebApi.Data.DataRights
+  langs:
+  - csharp
+  - vb
+  name: ColumnsInfo
+  nameWithType: DataRights.ColumnsInfo
+  fullName: SuperOffice.WebApi.Data.DataRights.ColumnsInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual RelationToOwner[] ColumnsInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RelationToOwner[]
+    content.vb: Public Overridable Property ColumnsInfo As RelationToOwner()
+  overload: SuperOffice.WebApi.Data.DataRights.ColumnsInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DataRights.RowsInfo
+  commentId: P:SuperOffice.WebApi.Data.DataRights.RowsInfo
+  id: RowsInfo
+  parent: SuperOffice.WebApi.Data.DataRights
+  langs:
+  - csharp
+  - vb
+  name: RowsInfo
+  nameWithType: DataRights.RowsInfo
+  fullName: SuperOffice.WebApi.Data.DataRights.RowsInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual EntityName[] RowsInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityName[]
+    content.vb: Public Overridable Property RowsInfo As EntityName()
+  overload: SuperOffice.WebApi.Data.DataRights.RowsInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DataRights.Rights
+  commentId: P:SuperOffice.WebApi.Data.DataRights.Rights
+  id: Rights
+  parent: SuperOffice.WebApi.Data.DataRights
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: DataRights.Rights
+  fullName: SuperOffice.WebApi.Data.DataRights.Rights
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual DataRight[][] Rights { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DataRight[][]
+    content.vb: Public Overridable Property Rights As DataRight()()
+  overload: SuperOffice.WebApi.Data.DataRights.Rights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DataRights.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DataRights.#ctor
+  isExternal: true
+  name: DataRights
+  nameWithType: DataRights.DataRights
+  fullName: SuperOffice.WebApi.Data.DataRights.DataRights
+- uid: SuperOffice.WebApi.Data.DataRights.ColumnsInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.DataRights.ColumnsInfo
+  isExternal: true
+  name: ColumnsInfo
+  nameWithType: DataRights.ColumnsInfo
+  fullName: SuperOffice.WebApi.Data.DataRights.ColumnsInfo
+- uid: SuperOffice.WebApi.Data.RelationToOwner[]
+  isExternal: true
+  name: RelationToOwner[]
+  nameWithType: RelationToOwner[]
+  fullName: SuperOffice.WebApi.Data.RelationToOwner[]
+  nameWithType.vb: RelationToOwner()
+  fullName.vb: SuperOffice.WebApi.Data.RelationToOwner()
+  name.vb: RelationToOwner()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.RelationToOwner
+    name: RelationToOwner
+    nameWithType: RelationToOwner
+    fullName: SuperOffice.WebApi.Data.RelationToOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.RelationToOwner
+    name: RelationToOwner
+    nameWithType: RelationToOwner
+    fullName: SuperOffice.WebApi.Data.RelationToOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DataRights.RowsInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.DataRights.RowsInfo
+  isExternal: true
+  name: RowsInfo
+  nameWithType: DataRights.RowsInfo
+  fullName: SuperOffice.WebApi.Data.DataRights.RowsInfo
+- uid: SuperOffice.WebApi.Data.EntityName[]
+  isExternal: true
+  name: EntityName[]
+  nameWithType: EntityName[]
+  fullName: SuperOffice.WebApi.Data.EntityName[]
+  nameWithType.vb: EntityName()
+  fullName.vb: SuperOffice.WebApi.Data.EntityName()
+  name.vb: EntityName()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EntityName
+    name: EntityName
+    nameWithType: EntityName
+    fullName: SuperOffice.WebApi.Data.EntityName
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EntityName
+    name: EntityName
+    nameWithType: EntityName
+    fullName: SuperOffice.WebApi.Data.EntityName
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DataRights.Rights*
+  commentId: Overload:SuperOffice.WebApi.Data.DataRights.Rights
+  isExternal: true
+  name: Rights
+  nameWithType: DataRights.Rights
+  fullName: SuperOffice.WebApi.Data.DataRights.Rights
+- uid: SuperOffice.WebApi.Data.DataRight[][]
+  isExternal: true
+  name: DataRight[][]
+  nameWithType: DataRight[][]
+  fullName: SuperOffice.WebApi.Data.DataRight[][]
+  nameWithType.vb: DataRight()()
+  fullName.vb: SuperOffice.WebApi.Data.DataRight()()
+  name.vb: DataRight()()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DataRight
+    name: DataRight
+    nameWithType: DataRight
+    fullName: SuperOffice.WebApi.Data.DataRight
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DataRight
+    name: DataRight
+    nameWithType: DataRight
+    fullName: SuperOffice.WebApi.Data.DataRight
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()

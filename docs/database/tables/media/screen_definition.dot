@@ -1,0 +1,16 @@
+digraph screen_definition  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+screen_definition[fillcolor = "cadetblue1"]
+hierarchy[fillcolor = "azure1"]
+screen_definition_action[fillcolor = "azure1"]
+screen_definition_element[fillcolor = "azure1"]
+screen_definition_hidden[fillcolor = "azure1"]
+screen_definition_language[fillcolor = "azure1"]
+screen_definition -> hierarchy [headlabel = "hierarchy_id"]
+screen_definition_action -> screen_definition [label = "screen_definition"]
+screen_definition_element -> screen_definition [label = "screen_definition"]
+screen_definition_hidden -> screen_definition [label = "screen_definition"]
+screen_definition_language -> screen_definition [label = "screen_definition"]
+}

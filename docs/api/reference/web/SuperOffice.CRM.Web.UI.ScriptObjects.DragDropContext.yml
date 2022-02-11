@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  id: DragDropContext
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackCopyFunction
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackFunction
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._canStartDrag
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragGuideId
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragObject
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject
+  langs:
+  - csharp
+  - vb
+  name: DragDropContext
+  nameWithType: DragDropContext
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: 'public class DragDropContext : ContextBase'
+    content.vb: >-
+      Public Class DragDropContext
+          Inherits ContextBase
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.ArchiveRowContextObject
+  - SuperOffice.CRM.Web.UI.CalendarContainerEvent
+  - SuperOffice.CRM.Web.UI.Controls.TaskContext
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._canStartDrag
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._canStartDrag
+  id: _canStartDrag
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: _canStartDrag
+  nameWithType: DragDropContext._canStartDrag
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._canStartDrag
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: protected bool _canStartDrag
+    return:
+      type: System.Boolean
+    content.vb: Protected _canStartDrag As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragGuideId
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragGuideId
+  id: _dragGuideId
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: _dragGuideId
+  nameWithType: DragDropContext._dragGuideId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragGuideId
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _dragGuideId
+    return:
+      type: System.String
+    content.vb: Protected _dragGuideId As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackFunction
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackFunction
+  id: _callbackFunction
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: _callbackFunction
+  nameWithType: DragDropContext._callbackFunction
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackFunction
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _callbackFunction
+    return:
+      type: System.String
+    content.vb: Protected _callbackFunction As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackCopyFunction
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackCopyFunction
+  id: _callbackCopyFunction
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: _callbackCopyFunction
+  nameWithType: DragDropContext._callbackCopyFunction
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._callbackCopyFunction
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: protected string _callbackCopyFunction
+    return:
+      type: System.String
+    content.vb: Protected _callbackCopyFunction As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragObject
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragObject
+  id: _dragObject
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: _dragObject
+  nameWithType: DragDropContext._dragObject
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext._dragObject
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: protected DragObject _dragObject
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragObject
+    content.vb: Protected _dragObject As DragObject
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: DragDropContext()
+  nameWithType: DragDropContext.DragDropContext()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragDropContext()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public DragDropContext()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject
+  id: DragObject
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: DragObject
+  nameWithType: DragDropContext.DragObject
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public DragObject DragObject { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.ScriptObjects.DragObject
+    content.vb: Public Property DragObject As DragObject
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag
+  id: CanStartDrag
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: CanStartDrag
+  nameWithType: DragDropContext.CanStartDrag
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public bool CanStartDrag { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanStartDrag As Boolean
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId
+  id: DragGuideId
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: DragGuideId
+  nameWithType: DragDropContext.DragGuideId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string DragGuideId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DragGuideId As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction
+  id: CallbackFunction
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: CallbackFunction
+  nameWithType: DragDropContext.CallbackFunction
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string CallbackFunction { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CallbackFunction As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction
+  id: CallbackCopyFunction
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+  langs:
+  - csharp
+  - vb
+  name: CallbackCopyFunction
+  nameWithType: DragDropContext.CallbackCopyFunction
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string CallbackCopyFunction { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CallbackCopyFunction As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ContextBase
+  nameWithType: ContextBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: _contextType
+  nameWithType: ContextBase._contextType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._contextType
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: _clientId
+  nameWithType: ContextBase._clientId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientId
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: _htmlElement
+  nameWithType: ContextBase._htmlElement
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._htmlElement
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: _containerId
+  nameWithType: ContextBase._containerId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._containerId
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: _clientScript
+  nameWithType: ContextBase._clientScript
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._clientScript
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  commentId: F:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: _offsetTop
+  nameWithType: ContextBase._offsetTop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase._offsetTop
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: ToString()
+  nameWithType: ContextBase.ToString()
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+    name: ToString
+    nameWithType: ContextBase.ToString
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+    name: ToString
+    nameWithType: ContextBase.ToString
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: OffsetTop
+  nameWithType: ContextBase.OffsetTop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.OffsetTop
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: ClientScript
+  nameWithType: ContextBase.ClientScript
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientScript
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: ContainerId
+  nameWithType: ContextBase.ContainerId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContainerId
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: HtmlElement
+  nameWithType: ContextBase.HtmlElement
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.HtmlElement
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: ContextType
+  nameWithType: ContextBase.ContextType
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ContextType
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  isExternal: true
+  name: ClientID
+  nameWithType: ContextBase.ClientID
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase.ClientID
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragObject
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DragObject
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: DragObject
+  nameWithType: DragObject
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragObject
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.#ctor
+  isExternal: true
+  name: DragDropContext
+  nameWithType: DragDropContext.DragDropContext
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragDropContext
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject
+  isExternal: true
+  name: DragObject
+  nameWithType: DragDropContext.DragObject
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragObject
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag
+  isExternal: true
+  name: CanStartDrag
+  nameWithType: DragDropContext.CanStartDrag
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CanStartDrag
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId
+  isExternal: true
+  name: DragGuideId
+  nameWithType: DragDropContext.DragGuideId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.DragGuideId
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction
+  isExternal: true
+  name: CallbackFunction
+  nameWithType: DragDropContext.CallbackFunction
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackFunction
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction
+  isExternal: true
+  name: CallbackCopyFunction
+  nameWithType: DragDropContext.CallbackCopyFunction
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext.CallbackCopyFunction

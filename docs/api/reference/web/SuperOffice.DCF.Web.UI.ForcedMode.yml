@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ForcedMode
+  commentId: T:SuperOffice.DCF.Web.UI.ForcedMode
+  id: ForcedMode
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.ForcedMode.Display
+  - SuperOffice.DCF.Web.UI.ForcedMode.Edit
+  - SuperOffice.DCF.Web.UI.ForcedMode.None
+  langs:
+  - csharp
+  - vb
+  name: ForcedMode
+  nameWithType: ForcedMode
+  fullName: SuperOffice.DCF.Web.UI.ForcedMode
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum ForcedMode
+    content.vb: Public Enum ForcedMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.ForcedMode.None
+  commentId: F:SuperOffice.DCF.Web.UI.ForcedMode.None
+  id: None
+  parent: SuperOffice.DCF.Web.UI.ForcedMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ForcedMode.None
+  fullName: SuperOffice.DCF.Web.UI.ForcedMode.None
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.ForcedMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ForcedMode.Display
+  commentId: F:SuperOffice.DCF.Web.UI.ForcedMode.Display
+  id: Display
+  parent: SuperOffice.DCF.Web.UI.ForcedMode
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: ForcedMode.Display
+  fullName: SuperOffice.DCF.Web.UI.ForcedMode.Display
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Display = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.ForcedMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ForcedMode.Edit
+  commentId: F:SuperOffice.DCF.Web.UI.ForcedMode.Edit
+  id: Edit
+  parent: SuperOffice.DCF.Web.UI.ForcedMode
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: ForcedMode.Edit
+  fullName: SuperOffice.DCF.Web.UI.ForcedMode.Edit
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Edit = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.ForcedMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.ForcedMode
+  commentId: T:SuperOffice.DCF.Web.UI.ForcedMode
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ForcedMode
+  nameWithType: ForcedMode
+  fullName: SuperOffice.DCF.Web.UI.ForcedMode

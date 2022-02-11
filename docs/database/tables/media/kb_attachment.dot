@@ -1,0 +1,10 @@
+digraph kb_attachment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_attachment[fillcolor = "cadetblue1"]
+kb_entry[fillcolor = "azure1"]
+attachment[fillcolor = "azure1"]
+kb_attachment -> kb_entry [headlabel = "entry_id"]
+kb_attachment -> attachment [headlabel = "attachment_id"]
+}

@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ImportErpData
+  commentId: T:SuperOffice.WebApi.Data.ImportErpData
+  id: ImportErpData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ImportErpData.#ctor
+  - SuperOffice.WebApi.Data.ImportErpData.ColumnInfos
+  - SuperOffice.WebApi.Data.ImportErpData.ImportLines
+  langs:
+  - csharp
+  - vb
+  name: ImportErpData
+  nameWithType: ImportErpData
+  fullName: SuperOffice.WebApi.Data.ImportErpData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ImportErpData.\nUsed to import data into the system. Representing one entity that will be imported.    \n"
+  syntax:
+    content: 'public class ImportErpData : Carrier'
+    content.vb: >-
+      Public Class ImportErpData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ImportAgent
+    commentId: T:SuperOffice.WebApi.Agents.ImportAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ImportErpData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ImportErpData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ImportErpData()
+  nameWithType: ImportErpData.ImportErpData()
+  fullName: SuperOffice.WebApi.Data.ImportErpData.ImportErpData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ImportErpData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ImportErpData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportErpData.ImportLines
+  commentId: P:SuperOffice.WebApi.Data.ImportErpData.ImportLines
+  id: ImportLines
+  parent: SuperOffice.WebApi.Data.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ImportLines
+  nameWithType: ImportErpData.ImportLines
+  fullName: SuperOffice.WebApi.Data.ImportErpData.ImportLines
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn array of Import lines\n"
+  syntax:
+    content: public virtual ImportLine[] ImportLines { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ImportLine[]
+    content.vb: Public Overridable Property ImportLines As ImportLine()
+  overload: SuperOffice.WebApi.Data.ImportErpData.ImportLines*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ImportErpData.ColumnInfos
+  commentId: P:SuperOffice.WebApi.Data.ImportErpData.ColumnInfos
+  id: ColumnInfos
+  parent: SuperOffice.WebApi.Data.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ColumnInfos
+  nameWithType: ImportErpData.ColumnInfos
+  fullName: SuperOffice.WebApi.Data.ImportErpData.ColumnInfos
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of column definitions\n"
+  syntax:
+    content: public virtual ImportColumnInfo[] ColumnInfos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ImportColumnInfo[]
+    content.vb: Public Overridable Property ColumnInfos As ImportColumnInfo()
+  overload: SuperOffice.WebApi.Data.ImportErpData.ColumnInfos*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ImportAgent
+  commentId: T:SuperOffice.WebApi.Agents.ImportAgent
+  isExternal: true
+  name: ImportAgent
+  nameWithType: ImportAgent
+  fullName: SuperOffice.WebApi.Agents.ImportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ImportErpData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportErpData.#ctor
+  isExternal: true
+  name: ImportErpData
+  nameWithType: ImportErpData.ImportErpData
+  fullName: SuperOffice.WebApi.Data.ImportErpData.ImportErpData
+- uid: SuperOffice.WebApi.Data.ImportErpData.ImportLines*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportErpData.ImportLines
+  isExternal: true
+  name: ImportLines
+  nameWithType: ImportErpData.ImportLines
+  fullName: SuperOffice.WebApi.Data.ImportErpData.ImportLines
+- uid: SuperOffice.WebApi.Data.ImportLine[]
+  isExternal: true
+  name: ImportLine[]
+  nameWithType: ImportLine[]
+  fullName: SuperOffice.WebApi.Data.ImportLine[]
+  nameWithType.vb: ImportLine()
+  fullName.vb: SuperOffice.WebApi.Data.ImportLine()
+  name.vb: ImportLine()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.WebApi.Data.ImportLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.WebApi.Data.ImportLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ImportErpData.ColumnInfos*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportErpData.ColumnInfos
+  isExternal: true
+  name: ColumnInfos
+  nameWithType: ImportErpData.ColumnInfos
+  fullName: SuperOffice.WebApi.Data.ImportErpData.ColumnInfos
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo[]
+  isExternal: true
+  name: ImportColumnInfo[]
+  nameWithType: ImportColumnInfo[]
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo[]
+  nameWithType.vb: ImportColumnInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ImportColumnInfo()
+  name.vb: ImportColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.WebApi.Data.ImportColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.WebApi.Data.ImportColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

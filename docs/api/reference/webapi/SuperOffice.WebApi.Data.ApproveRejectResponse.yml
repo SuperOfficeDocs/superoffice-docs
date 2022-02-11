@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse
+  commentId: T:SuperOffice.WebApi.Data.ApproveRejectResponse
+  id: ApproveRejectResponse
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ApproveRejectResponse.#ctor
+  - SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId
+  - SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: ApproveRejectResponse
+  nameWithType: ApproveRejectResponse
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ApproveRejectResponse.\nApproveRejectResponse contains a PluginResponse and an appointmentId if the operation created one.    \n"
+  syntax:
+    content: 'public class ApproveRejectResponse : Carrier'
+    content.vb: >-
+      Public Class ApproveRejectResponse
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ApproveRejectResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ApproveRejectResponse
+  langs:
+  - csharp
+  - vb
+  name: ApproveRejectResponse()
+  nameWithType: ApproveRejectResponse.ApproveRejectResponse()
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse.ApproveRejectResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ApproveRejectResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ApproveRejectResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse
+  commentId: P:SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse
+  id: PluginResponse
+  parent: SuperOffice.WebApi.Data.ApproveRejectResponse
+  langs:
+  - csharp
+  - vb
+  name: PluginResponse
+  nameWithType: ApproveRejectResponse.PluginResponse
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe response from the operation.\n"
+  syntax:
+    content: public virtual PluginResponse PluginResponse { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PluginResponse
+    content.vb: Public Overridable Property PluginResponse As PluginResponse
+  overload: SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId
+  commentId: P:SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId
+  id: CreatedAppointmentId
+  parent: SuperOffice.WebApi.Data.ApproveRejectResponse
+  langs:
+  - csharp
+  - vb
+  name: CreatedAppointmentId
+  nameWithType: ApproveRejectResponse.CreatedAppointmentId
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the created follow up.\n"
+  syntax:
+    content: public virtual int CreatedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedAppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ApproveRejectResponse.#ctor
+  isExternal: true
+  name: ApproveRejectResponse
+  nameWithType: ApproveRejectResponse.ApproveRejectResponse
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse.ApproveRejectResponse
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse*
+  commentId: Overload:SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse
+  isExternal: true
+  name: PluginResponse
+  nameWithType: ApproveRejectResponse.PluginResponse
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse.PluginResponse
+- uid: SuperOffice.WebApi.Data.PluginResponse
+  commentId: T:SuperOffice.WebApi.Data.PluginResponse
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PluginResponse
+  nameWithType: PluginResponse
+  fullName: SuperOffice.WebApi.Data.PluginResponse
+- uid: SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId
+  isExternal: true
+  name: CreatedAppointmentId
+  nameWithType: ApproveRejectResponse.CreatedAppointmentId
+  fullName: SuperOffice.WebApi.Data.ApproveRejectResponse.CreatedAppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

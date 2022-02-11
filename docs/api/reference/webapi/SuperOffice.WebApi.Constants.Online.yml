@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Online
+  commentId: T:SuperOffice.WebApi.Constants.Online
+  id: Constants.Online
+  parent: SuperOffice.WebApi
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Constants.Online
+  nameWithType: Constants.Online
+  fullName: SuperOffice.WebApi.Constants.Online
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nConstants for well-known Online URLs\n"
+  syntax:
+    content: 'public static class Online : Object'
+    content.vb: >-
+      Public Module Online
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

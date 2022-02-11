@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.MailClient
+  commentId: T:SuperOffice.CRM.Web.Util.MailClient
+  id: MailClient
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.MailClient.ClientDefault
+  - SuperOffice.CRM.Web.Util.MailClient.LotusNotes
+  - SuperOffice.CRM.Web.Util.MailClient.Outlook
+  - SuperOffice.CRM.Web.Util.MailClient.SuperOffice
+  langs:
+  - csharp
+  - vb
+  name: MailClient
+  nameWithType: MailClient
+  fullName: SuperOffice.CRM.Web.Util.MailClient
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public enum MailClient
+    content.vb: Public Enum MailClient
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Util.MailClient.ClientDefault
+  commentId: F:SuperOffice.CRM.Web.Util.MailClient.ClientDefault
+  id: ClientDefault
+  parent: SuperOffice.CRM.Web.Util.MailClient
+  langs:
+  - csharp
+  - vb
+  name: ClientDefault
+  nameWithType: MailClient.ClientDefault
+  fullName: SuperOffice.CRM.Web.Util.MailClient.ClientDefault
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: ClientDefault = 0
+    return:
+      type: SuperOffice.CRM.Web.Util.MailClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.MailClient.SuperOffice
+  commentId: F:SuperOffice.CRM.Web.Util.MailClient.SuperOffice
+  id: SuperOffice
+  parent: SuperOffice.CRM.Web.Util.MailClient
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice
+  nameWithType: MailClient.SuperOffice
+  fullName: SuperOffice.CRM.Web.Util.MailClient.SuperOffice
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: SuperOffice = 1
+    return:
+      type: SuperOffice.CRM.Web.Util.MailClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.MailClient.Outlook
+  commentId: F:SuperOffice.CRM.Web.Util.MailClient.Outlook
+  id: Outlook
+  parent: SuperOffice.CRM.Web.Util.MailClient
+  langs:
+  - csharp
+  - vb
+  name: Outlook
+  nameWithType: MailClient.Outlook
+  fullName: SuperOffice.CRM.Web.Util.MailClient.Outlook
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: Outlook = 2
+    return:
+      type: SuperOffice.CRM.Web.Util.MailClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.MailClient.LotusNotes
+  commentId: F:SuperOffice.CRM.Web.Util.MailClient.LotusNotes
+  id: LotusNotes
+  parent: SuperOffice.CRM.Web.Util.MailClient
+  langs:
+  - csharp
+  - vb
+  name: LotusNotes
+  nameWithType: MailClient.LotusNotes
+  fullName: SuperOffice.CRM.Web.Util.MailClient.LotusNotes
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: LotusNotes = 3
+    return:
+      type: SuperOffice.CRM.Web.Util.MailClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: SuperOffice.CRM.Web.Util.MailClient
+  commentId: T:SuperOffice.CRM.Web.Util.MailClient
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: MailClient
+  nameWithType: MailClient
+  fullName: SuperOffice.CRM.Web.Util.MailClient

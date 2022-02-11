@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  id: UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_GetCustomFieldInfoListRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetCustomFieldInfoListRequest()
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest.UserDefinedFieldInfo_GetCustomFieldInfoListRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.UserDefinedFieldInfo_GetCustomFieldInfoListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_GetCustomFieldInfoListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  id: IncludeStandard
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeStandard
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeStandard { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeStandard As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.UserDefinedFieldInfo_GetCustomFieldInfoListRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  isExternal: true
+  name: IncludeStandard
+  nameWithType: UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetCustomFieldInfoListRequest.IncludeStandard
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

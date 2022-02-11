@@ -1,0 +1,17 @@
+digraph SuggestedAppointment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SuggestedAppointment[fillcolor = "cadetblue1"]
+SaleTypeStageLink[fillcolor = "azure1"]
+ProjectTypeStatusLink[fillcolor = "azure1"]
+Task[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+appointment[fillcolor = "azure1"]
+SuggestedAppointment -> SaleTypeStageLink [headlabel = "saleTypeStageLinkId"]
+SuggestedAppointment -> ProjectTypeStatusLink [headlabel = "projectTypeStatusLinkId"]
+SuggestedAppointment -> Task [headlabel = "task_id"]
+SuggestedAppointment -> associate [headlabel = "registered_associate_id"]
+SuggestedAppointment -> associate [label = "updated_associate_id"]
+appointment -> SuggestedAppointment [label = "suggestedAppointmentId"]
+}

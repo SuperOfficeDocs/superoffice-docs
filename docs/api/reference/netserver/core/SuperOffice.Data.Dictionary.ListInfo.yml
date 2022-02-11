@@ -1,0 +1,985 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dictionary.ListInfo
+  commentId: T:SuperOffice.Data.Dictionary.ListInfo
+  id: ListInfo
+  parent: SuperOffice.Data.Dictionary
+  children:
+  - SuperOffice.Data.Dictionary.ListInfo.Deleted
+  - SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey
+  - SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey
+  - SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable
+  - SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey
+  - SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey
+  - SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable
+  - SuperOffice.Data.Dictionary.ListInfo.ListTable
+  - SuperOffice.Data.Dictionary.ListInfo.Name
+  - SuperOffice.Data.Dictionary.ListInfo.PrimaryKey
+  - SuperOffice.Data.Dictionary.ListInfo.Rank
+  - SuperOffice.Data.Dictionary.ListInfo.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: ListInfo
+  nameWithType: ListInfo
+  fullName: SuperOffice.Data.Dictionary.ListInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nThis class exposes properties and information related to the MDO List system,\nfor one &apos;source&apos; class. It is instantiated once for each table that is recognized\nas an MDO list when the dictionary is read.\n"
+  syntax:
+    content: public sealed class ListInfo
+    content.vb: Public NotInheritable Class ListInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Dictionary.ListInfo.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dictionary.ListInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable
+  id: GroupLinkTable
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: GroupLinkTable
+  nameWithType: ListInfo.GroupLinkTable
+  fullName: SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the table that has the group link role\n"
+  syntax:
+    content: public TableInfo GroupLinkTable { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public ReadOnly Property GroupLinkTable As TableInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey
+  id: GroupLinkListKey
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: GroupLinkListKey
+  nameWithType: ListInfo.GroupLinkListKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the field representing the list key from the group link table\n"
+  syntax:
+    content: public FieldInfo GroupLinkListKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property GroupLinkListKey As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey
+  id: GroupLinkGroupKey
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: GroupLinkGroupKey
+  nameWithType: ListInfo.GroupLinkGroupKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the field representing the group key from the group link table\n"
+  syntax:
+    content: public FieldInfo GroupLinkGroupKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property GroupLinkGroupKey As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable
+  id: HeadingLinkTable
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: HeadingLinkTable
+  nameWithType: ListInfo.HeadingLinkTable
+  fullName: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the table that has the heading link role\n"
+  syntax:
+    content: public TableInfo HeadingLinkTable { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public ReadOnly Property HeadingLinkTable As TableInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.ListTable
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.ListTable
+  id: ListTable
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: ListTable
+  nameWithType: ListInfo.ListTable
+  fullName: SuperOffice.Data.Dictionary.ListInfo.ListTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the table that is the MDO table\n"
+  syntax:
+    content: public TableInfo ListTable { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public ReadOnly Property ListTable As TableInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.ListTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey
+  id: headingLinkListKey
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: headingLinkListKey
+  nameWithType: ListInfo.headingLinkListKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the field representing the list key from the heading link table\n"
+  syntax:
+    content: public FieldInfo headingLinkListKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property headingLinkListKey As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey
+  id: HeadingLinkHeadingKey
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: HeadingLinkHeadingKey
+  nameWithType: ListInfo.HeadingLinkHeadingKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the field representing the heading ket from the heading link table\n"
+  syntax:
+    content: public FieldInfo HeadingLinkHeadingKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property HeadingLinkHeadingKey As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.PrimaryKey
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: ListInfo.PrimaryKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.PrimaryKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the primary key field from the list table\n"
+  syntax:
+    content: public FieldInfo PrimaryKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property PrimaryKey As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.PrimaryKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.Name
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.Name
+  id: Name
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ListInfo.Name
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the name field from the list table\n"
+  syntax:
+    content: public FieldInfo Name { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Name As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.Tooltip
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.Tooltip
+  id: Tooltip
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ListInfo.Tooltip
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the tooltip/description field from the list table\n"
+  syntax:
+    content: public FieldInfo Tooltip { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Tooltip As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.Rank
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.Rank
+  id: Rank
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ListInfo.Rank
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the rank field from the list table\n"
+  syntax:
+    content: public FieldInfo Rank { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Rank As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.ListInfo.Deleted
+  commentId: P:SuperOffice.Data.Dictionary.ListInfo.Deleted
+  id: Deleted
+  parent: SuperOffice.Data.Dictionary.ListInfo
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ListInfo.Deleted
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Deleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the deleted flag field from the list table\n"
+  syntax:
+    content: public FieldInfo Deleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Deleted As FieldInfo
+  overload: SuperOffice.Data.Dictionary.ListInfo.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.ListInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ListInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ListInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.ListInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ListInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.ListInfo, To)()
+  name.vb: MapEnums(Of ListInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ListInfo, To>
+    nameWithType: EnumUtil.MapEnums<ListInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.ListInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ListInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ListInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.ListInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.ListInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ListInfo, To>()
+  nameWithType: Converters.MapEnums<ListInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.ListInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ListInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.ListInfo, To)()
+  name.vb: MapEnums(Of ListInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ListInfo, To>
+    nameWithType: Converters.MapEnums<ListInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.ListInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ListInfo, To)
+    nameWithType: Converters.MapEnums(Of ListInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.ListInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable
+  isExternal: true
+  name: GroupLinkTable
+  nameWithType: ListInfo.GroupLinkTable
+  fullName: SuperOffice.Data.Dictionary.ListInfo.GroupLinkTable
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey
+  isExternal: true
+  name: GroupLinkListKey
+  nameWithType: ListInfo.GroupLinkListKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.GroupLinkListKey
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey
+  isExternal: true
+  name: GroupLinkGroupKey
+  nameWithType: ListInfo.GroupLinkGroupKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.GroupLinkGroupKey
+- uid: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable
+  isExternal: true
+  name: HeadingLinkTable
+  nameWithType: ListInfo.HeadingLinkTable
+  fullName: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkTable
+- uid: SuperOffice.Data.Dictionary.ListInfo.ListTable*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.ListTable
+  isExternal: true
+  name: ListTable
+  nameWithType: ListInfo.ListTable
+  fullName: SuperOffice.Data.Dictionary.ListInfo.ListTable
+- uid: SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey
+  isExternal: true
+  name: headingLinkListKey
+  nameWithType: ListInfo.headingLinkListKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.headingLinkListKey
+- uid: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey
+  isExternal: true
+  name: HeadingLinkHeadingKey
+  nameWithType: ListInfo.HeadingLinkHeadingKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.HeadingLinkHeadingKey
+- uid: SuperOffice.Data.Dictionary.ListInfo.PrimaryKey*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.PrimaryKey
+  isExternal: true
+  name: PrimaryKey
+  nameWithType: ListInfo.PrimaryKey
+  fullName: SuperOffice.Data.Dictionary.ListInfo.PrimaryKey
+- uid: SuperOffice.Data.Dictionary.ListInfo.Name*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ListInfo.Name
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Name
+- uid: SuperOffice.Data.Dictionary.ListInfo.Tooltip*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ListInfo.Tooltip
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Tooltip
+- uid: SuperOffice.Data.Dictionary.ListInfo.Rank*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ListInfo.Rank
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Rank
+- uid: SuperOffice.Data.Dictionary.ListInfo.Deleted*
+  commentId: Overload:SuperOffice.Data.Dictionary.ListInfo.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ListInfo.Deleted
+  fullName: SuperOffice.Data.Dictionary.ListInfo.Deleted

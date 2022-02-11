@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CommandAction
+  commentId: T:SuperOffice.WebApi.Data.CommandAction
+  id: CommandAction
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CommandAction.Implicit
+  - SuperOffice.WebApi.Data.CommandAction.Ok
+  - SuperOffice.WebApi.Data.CommandAction.OkCancel
+  - SuperOffice.WebApi.Data.CommandAction.value__
+  - SuperOffice.WebApi.Data.CommandAction.YesNo
+  langs:
+  - csharp
+  - vb
+  name: CommandAction
+  nameWithType: CommandAction
+  fullName: SuperOffice.WebApi.Data.CommandAction
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCommand action\n"
+  syntax:
+    content: 'public sealed class CommandAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class CommandAction
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CommandAction.value__
+  commentId: F:SuperOffice.WebApi.Data.CommandAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CommandAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CommandAction.value__
+  fullName: SuperOffice.WebApi.Data.CommandAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CommandAction.Implicit
+  commentId: F:SuperOffice.WebApi.Data.CommandAction.Implicit
+  id: Implicit
+  parent: SuperOffice.WebApi.Data.CommandAction
+  langs:
+  - csharp
+  - vb
+  name: Implicit
+  nameWithType: CommandAction.Implicit
+  fullName: SuperOffice.WebApi.Data.CommandAction.Implicit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Command should be implicitly executed.\n"
+  syntax:
+    content: public const CommandAction Implicit
+    return:
+      type: SuperOffice.WebApi.Data.CommandAction
+    content.vb: Public Const Implicit As CommandAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CommandAction.YesNo
+  commentId: F:SuperOffice.WebApi.Data.CommandAction.YesNo
+  id: YesNo
+  parent: SuperOffice.WebApi.Data.CommandAction
+  langs:
+  - csharp
+  - vb
+  name: YesNo
+  nameWithType: CommandAction.YesNo
+  fullName: SuperOffice.WebApi.Data.CommandAction.YesNo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The client must display a dialog with buttons Yes and No.\n"
+  syntax:
+    content: public const CommandAction YesNo
+    return:
+      type: SuperOffice.WebApi.Data.CommandAction
+    content.vb: Public Const YesNo As CommandAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CommandAction.OkCancel
+  commentId: F:SuperOffice.WebApi.Data.CommandAction.OkCancel
+  id: OkCancel
+  parent: SuperOffice.WebApi.Data.CommandAction
+  langs:
+  - csharp
+  - vb
+  name: OkCancel
+  nameWithType: CommandAction.OkCancel
+  fullName: SuperOffice.WebApi.Data.CommandAction.OkCancel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The client must display a dialog with buttons Ok and Cancel.\n"
+  syntax:
+    content: public const CommandAction OkCancel
+    return:
+      type: SuperOffice.WebApi.Data.CommandAction
+    content.vb: Public Const OkCancel As CommandAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CommandAction.Ok
+  commentId: F:SuperOffice.WebApi.Data.CommandAction.Ok
+  id: Ok
+  parent: SuperOffice.WebApi.Data.CommandAction
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: CommandAction.Ok
+  fullName: SuperOffice.WebApi.Data.CommandAction.Ok
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The client must display a dialog with Ok-button\n"
+  syntax:
+    content: public const CommandAction Ok
+    return:
+      type: SuperOffice.WebApi.Data.CommandAction
+    content.vb: Public Const Ok As CommandAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CommandAction
+  commentId: T:SuperOffice.WebApi.Data.CommandAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CommandAction
+  nameWithType: CommandAction
+  fullName: SuperOffice.WebApi.Data.CommandAction

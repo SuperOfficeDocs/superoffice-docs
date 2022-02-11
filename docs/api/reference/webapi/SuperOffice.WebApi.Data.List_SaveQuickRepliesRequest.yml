@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
+  id: List_SaveQuickRepliesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies
+  langs:
+  - csharp
+  - vb
+  name: List_SaveQuickRepliesRequest
+  nameWithType: List_SaveQuickRepliesRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveQuickRepliesRequest : Object'
+    content.vb: >-
+      Public Class List_SaveQuickRepliesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveQuickRepliesRequest()
+  nameWithType: List_SaveQuickRepliesRequest.List_SaveQuickRepliesRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.List_SaveQuickRepliesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveQuickRepliesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies
+  commentId: P:SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies
+  id: QuickReplies
+  parent: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest
+  langs:
+  - csharp
+  - vb
+  name: QuickReplies
+  nameWithType: List_SaveQuickRepliesRequest.QuickReplies
+  fullName: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public QuickReply[] QuickReplies { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuickReply[]
+    content.vb: Public Property QuickReplies As QuickReply()
+  overload: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.#ctor
+  isExternal: true
+  name: List_SaveQuickRepliesRequest
+  nameWithType: List_SaveQuickRepliesRequest.List_SaveQuickRepliesRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.List_SaveQuickRepliesRequest
+- uid: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies
+  isExternal: true
+  name: QuickReplies
+  nameWithType: List_SaveQuickRepliesRequest.QuickReplies
+  fullName: SuperOffice.WebApi.Data.List_SaveQuickRepliesRequest.QuickReplies
+- uid: SuperOffice.WebApi.Data.QuickReply[]
+  isExternal: true
+  name: QuickReply[]
+  nameWithType: QuickReply[]
+  fullName: SuperOffice.WebApi.Data.QuickReply[]
+  nameWithType.vb: QuickReply()
+  fullName.vb: SuperOffice.WebApi.Data.QuickReply()
+  name.vb: QuickReply()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuickReply
+    name: QuickReply
+    nameWithType: QuickReply
+    fullName: SuperOffice.WebApi.Data.QuickReply
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuickReply
+    name: QuickReply
+    nameWithType: QuickReply
+    fullName: SuperOffice.WebApi.Data.QuickReply
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

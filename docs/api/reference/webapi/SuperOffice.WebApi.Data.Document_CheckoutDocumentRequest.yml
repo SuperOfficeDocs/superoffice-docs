@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest
+  id: Document_CheckoutDocumentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes
+  - SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId
+  langs:
+  - csharp
+  - vb
+  name: Document_CheckoutDocumentRequest
+  nameWithType: Document_CheckoutDocumentRequest
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_CheckoutDocumentRequest : Object'
+    content.vb: >-
+      Public Class Document_CheckoutDocumentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_CheckoutDocumentRequest()
+  nameWithType: Document_CheckoutDocumentRequest.Document_CheckoutDocumentRequest()
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.Document_CheckoutDocumentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_CheckoutDocumentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_CheckoutDocumentRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes
+  commentId: P:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes
+  id: AllowedReturnTypes
+  parent: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: AllowedReturnTypes
+  nameWithType: Document_CheckoutDocumentRequest.AllowedReturnTypes
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] AllowedReturnTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AllowedReturnTypes As String()
+  overload: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.#ctor
+  isExternal: true
+  name: Document_CheckoutDocumentRequest
+  nameWithType: Document_CheckoutDocumentRequest.Document_CheckoutDocumentRequest
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.Document_CheckoutDocumentRequest
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_CheckoutDocumentRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes
+  isExternal: true
+  name: AllowedReturnTypes
+  nameWithType: Document_CheckoutDocumentRequest.AllowedReturnTypes
+  fullName: SuperOffice.WebApi.Data.Document_CheckoutDocumentRequest.AllowedReturnTypes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

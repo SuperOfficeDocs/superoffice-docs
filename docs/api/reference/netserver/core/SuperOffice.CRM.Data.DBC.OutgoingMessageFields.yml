@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  id: DBC.OutgoingMessageFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.ExternalMessageId
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.OutgoingMessageId
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Plugin
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Registered
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.SessionKey
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Status
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.StatusDescription
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Updated
+  - SuperOffice.CRM.Data.DBC.OutgoingMessageFields.UpdatedAssociateId
+  langs:
+  - csharp
+  - vb
+  name: DBC.OutgoingMessageFields
+  nameWithType: DBC.OutgoingMessageFields
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for OutgoingMessage, Delivery of outgoing messages to messageplugins, updated with status asynchroneously\n"
+  syntax:
+    content: public static class OutgoingMessageFields
+    content.vb: Public Module OutgoingMessageFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.OutgoingMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.OutgoingMessageId
+  id: OutgoingMessageId
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: OutgoingMessageId
+  nameWithType: DBC.OutgoingMessageFields.OutgoingMessageId
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.OutgoingMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.OutgoingMessageId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string OutgoingMessageId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const OutgoingMessageId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.SessionKey
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.SessionKey
+  id: SessionKey
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: DBC.OutgoingMessageFields.SessionKey
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.SessionKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.SessionKey: Session key used for threading.\n"
+  syntax:
+    content: public const string SessionKey = "session_key"
+    return:
+      type: System.String
+    content.vb: Public Const SessionKey As String = "session_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.ExternalMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.ExternalMessageId
+  id: ExternalMessageId
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: ExternalMessageId
+  nameWithType: DBC.OutgoingMessageFields.ExternalMessageId
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.ExternalMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.ExternalMessageId: Session key used for threading.\n"
+  syntax:
+    content: public const string ExternalMessageId = "external_message_id"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalMessageId As String = "external_message_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.OutgoingMessageFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.Status: Current status of outgoing message\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.StatusDescription
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.StatusDescription
+  id: StatusDescription
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: StatusDescription
+  nameWithType: DBC.OutgoingMessageFields.StatusDescription
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.StatusDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.StatusDescription: Description of current status\n"
+  syntax:
+    content: public const string StatusDescription = "status_description"
+    return:
+      type: System.String
+    content.vb: Public Const StatusDescription As String = "status_description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Plugin
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Plugin
+  id: Plugin
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: DBC.OutgoingMessageFields.Plugin
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Plugin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.Plugin: Name of plugin\n"
+  syntax:
+    content: public const string Plugin = "plugin"
+    return:
+      type: System.String
+    content.vb: Public Const Plugin As String = "plugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.OutgoingMessageFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.OutgoingMessageFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.OutgoingMessageFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutgoingMessageFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.OutgoingMessageFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.OutgoingMessageFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.OutgoingMessageFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutgoingMessage.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

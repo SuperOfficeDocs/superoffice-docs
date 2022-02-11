@@ -1,0 +1,9 @@
+digraph ejsel_ejsel  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ejsel_ejsel[fillcolor = "cadetblue1"]
+ejselection[fillcolor = "azure1"]
+ejsel_ejsel -> ejselection [headlabel = "parent"]
+ejsel_ejsel -> ejselection [label = "child"]
+}

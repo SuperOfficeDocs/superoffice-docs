@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities
+  commentId: T:SuperOffice.CRM.Documents.Constants.Capabilities
+  id: Constants.Capabilities
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.Constants.Capabilities.CanCreateDocumentTemplates
+  - SuperOffice.CRM.Documents.Constants.Capabilities.FastExists
+  - SuperOffice.CRM.Documents.Constants.Capabilities.FastLockStatus
+  - SuperOffice.CRM.Documents.Constants.Capabilities.FastVersionList
+  - SuperOffice.CRM.Documents.Constants.Capabilities.Locking
+  - SuperOffice.CRM.Documents.Constants.Capabilities.MaxDocumentSize
+  - SuperOffice.CRM.Documents.Constants.Capabilities.Timeout
+  - SuperOffice.CRM.Documents.Constants.Capabilities.Versioning
+  langs:
+  - csharp
+  - vb
+  name: Constants.Capabilities
+  nameWithType: Constants.Capabilities
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nString constants for document plugin capability names\n"
+  syntax:
+    content: public static class Capabilities
+    content.vb: Public Module Capabilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.Locking
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.Locking
+  id: Locking
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: Locking
+  nameWithType: Constants.Capabilities.Locking
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.Locking
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDoes the plugin support locking?  Values are <xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref>,\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Optional\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Mandatory\" data-throw-if-not-resolved=\"false\"></xref>. \n<p></p>False implies that the feature is available. Optional implies that it is available and can\nbe enabled or disabled on a per-document basis. Mandatory implies that all\ndocuments will have locking and that this feature cannot be disabled.\n"
+  syntax:
+    content: public const string Locking = "locking"
+    return:
+      type: System.String
+    content.vb: Public Const Locking As String = "locking"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.FastLockStatus
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.FastLockStatus
+  id: FastLockStatus
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: FastLockStatus
+  nameWithType: Constants.Capabilities.FastLockStatus
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.FastLockStatus
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDoes the plugin support efficient querying of checkout status?  Values are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public const string FastLockStatus = "fast-lock-status"
+    return:
+      type: System.String
+    content.vb: Public Const FastLockStatus As String = "fast-lock-status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.Versioning
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.Versioning
+  id: Versioning
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: Versioning
+  nameWithType: Constants.Capabilities.Versioning
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.Versioning
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDoes the plugin support versioning? Versioning support also implies locking support. \nValues are <xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref>,\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Optional\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Mandatory\" data-throw-if-not-resolved=\"false\"></xref>. \n<p></p>False implies that the feature is available. Optional implies that it is available and can\nbe enabled or disabled on a per-document basis. Mandatory implies that all\ndocuments will have locking and that this feature cannot be disabled.\n"
+  syntax:
+    content: public const string Versioning = "versioning"
+    return:
+      type: System.String
+    content.vb: Public Const Versioning As String = "versioning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.FastVersionList
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.FastVersionList
+  id: FastVersionList
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: FastVersionList
+  nameWithType: Constants.Capabilities.FastVersionList
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.FastVersionList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDoes the plugin support efficient querying of the version list for a document?  Values are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public const string FastVersionList = "fast-version-list"
+    return:
+      type: System.String
+    content.vb: Public Const FastVersionList As String = "fast-version-list"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.FastExists
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.FastExists
+  id: FastExists
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: FastExists
+  nameWithType: Constants.Capabilities.FastExists
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.FastExists
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDoes the plugin support efficient querying of document existence? Values are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public const string FastExists = "fast-exists"
+    return:
+      type: System.String
+    content.vb: Public Const FastExists As String = "fast-exists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.MaxDocumentSize
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.MaxDocumentSize
+  id: MaxDocumentSize
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: MaxDocumentSize
+  nameWithType: Constants.Capabilities.MaxDocumentSize
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.MaxDocumentSize
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nMaximum supported document content size. Value should be parseable as an integer in the InvariantCulture, specifying number of bytes.\n"
+  syntax:
+    content: public const string MaxDocumentSize = "max-document-size"
+    return:
+      type: System.String
+    content.vb: Public Const MaxDocumentSize As String = "max-document-size"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.Timeout
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.Timeout
+  id: Timeout
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: Constants.Capabilities.Timeout
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.Timeout
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGeneral timeout value. NetServer may abandon document plugin calls if this value is exceeded.\nValue should be parseable as an integer in the InvariantCulture, specifying number of seconds.\n"
+  syntax:
+    content: public const string Timeout = "timeout"
+    return:
+      type: System.String
+    content.vb: Public Const Timeout As String = "timeout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Capabilities.CanCreateDocumentTemplates
+  commentId: F:SuperOffice.CRM.Documents.Constants.Capabilities.CanCreateDocumentTemplates
+  id: CanCreateDocumentTemplates
+  parent: SuperOffice.CRM.Documents.Constants.Capabilities
+  langs:
+  - csharp
+  - vb
+  name: CanCreateDocumentTemplates
+  nameWithType: Constants.Capabilities.CanCreateDocumentTemplates
+  fullName: SuperOffice.CRM.Documents.Constants.Capabilities.CanCreateDocumentTemplates
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCan the document plugin create new document templates.\n"
+  syntax:
+    content: public const string CanCreateDocumentTemplates = "can-create-document-templates"
+    return:
+      type: System.String
+    content.vb: Public Const CanCreateDocumentTemplates As String = "can-create-document-templates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

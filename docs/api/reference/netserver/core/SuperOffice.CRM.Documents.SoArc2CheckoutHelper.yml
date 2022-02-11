@@ -1,0 +1,1118 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  commentId: T:SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  id: SoArc2CheckoutHelper
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.#ctor(SuperOffice.CRM.Documents.ICheckinFileOperations)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath(SuperOffice.CRM.IDocumentInfo,System.Boolean)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice(SuperOffice.CRM.IDocumentInfo,System.String@)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.LockedFolderName
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData)
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout(SuperOffice.CRM.IDocumentInfo)
+  langs:
+  - csharp
+  - vb
+  name: SoArc2CheckoutHelper
+  nameWithType: SoArc2CheckoutHelper
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nClass for helping with locking/checkout functionality\n"
+  syntax:
+    content: public class SoArc2CheckoutHelper
+    content.vb: Public Class SoArc2CheckoutHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.LockedFolderName
+  commentId: F:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.LockedFolderName
+  id: LockedFolderName
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: LockedFolderName
+  nameWithType: SoArc2CheckoutHelper.LockedFolderName
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.LockedFolderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public const string LockedFolderName = "locked"
+    return:
+      type: System.String
+    content.vb: Public Const LockedFolderName As String = "locked"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.#ctor(SuperOffice.CRM.Documents.ICheckinFileOperations)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.#ctor(SuperOffice.CRM.Documents.ICheckinFileOperations)
+  id: '#ctor(SuperOffice.CRM.Documents.ICheckinFileOperations)'
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: SoArc2CheckoutHelper(ICheckinFileOperations)
+  nameWithType: SoArc2CheckoutHelper.SoArc2CheckoutHelper(ICheckinFileOperations)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SoArc2CheckoutHelper(SuperOffice.CRM.Documents.ICheckinFileOperations)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public SoArc2CheckoutHelper(ICheckinFileOperations fileOps)
+    parameters:
+    - id: fileOps
+      type: SuperOffice.CRM.Documents.ICheckinFileOperations
+    content.vb: Public Sub New(fileOps As ICheckinFileOperations)
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  id: CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckoutDocument(IDocumentInfo, Int32)
+  nameWithType: SoArc2CheckoutHelper.CheckoutDocument(IDocumentInfo, Int32)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument(SuperOffice.CRM.IDocumentInfo, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck-out the document. This will copy the current document to the locked folder. \n"
+  syntax:
+    content: public string CheckoutDocument(IDocumentInfo documentInfo, int associateId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+      description: The path to the locked document.
+    content.vb: Public Function CheckoutDocument(documentInfo As IDocumentInfo, associateId As Integer) As String
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument(SuperOffice.CRM.IDocumentInfo)
+  id: CheckinDocument(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckinDocument(IDocumentInfo)
+  nameWithType: SoArc2CheckoutHelper.CheckinDocument(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck-in the document. This will copy the locked\\document to the original folder and remove the checkoutdata.\n"
+  syntax:
+    content: public void CheckinDocument(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    content.vb: Public Sub CheckinDocument(documentInfo As IDocumentInfo)
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData(SuperOffice.CRM.IDocumentInfo)
+  id: GetCheckoutData(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCheckoutData(IDocumentInfo)
+  nameWithType: SoArc2CheckoutHelper.GetCheckoutData(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the internal representation of the checkout meta-data. \n"
+  syntax:
+    content: public CheckoutData GetCheckoutData(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    return:
+      type: SuperOffice.CRM.Documents.CheckoutData
+    content.vb: Public Function GetCheckoutData(documentInfo As IDocumentInfo) As CheckoutData
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout(SuperOffice.CRM.IDocumentInfo)
+  id: UndoCheckout(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: UndoCheckout(IDocumentInfo)
+  nameWithType: SoArc2CheckoutHelper.UndoCheckout(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public void UndoCheckout(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    content.vb: Public Sub UndoCheckout(documentInfo As IDocumentInfo)
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData)
+  id: SaveCheckoutData(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveCheckoutData(IDocumentInfo, CheckoutData)
+  nameWithType: SoArc2CheckoutHelper.SaveCheckoutData(IDocumentInfo, CheckoutData)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData(SuperOffice.CRM.IDocumentInfo, SuperOffice.CRM.Documents.CheckoutData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nSave the checkout data as JSON in the archivepath. The checkoutdata is removed if the checkoutData is null. \n"
+  syntax:
+    content: public void SaveCheckoutData(IDocumentInfo documentInfo, CheckoutData checkoutData)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: checkoutData
+      type: SuperOffice.CRM.Documents.CheckoutData
+    content.vb: Public Sub SaveCheckoutData(documentInfo As IDocumentInfo, checkoutData As CheckoutData)
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath(SuperOffice.CRM.IDocumentInfo)
+  id: GetCheckedOutDocumentPath(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCheckedOutDocumentPath(IDocumentInfo)
+  nameWithType: SoArc2CheckoutHelper.GetCheckedOutDocumentPath(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the path to the checked-out document. \n\nAssumes that the document is checked-out. \n"
+  syntax:
+    content: public string GetCheckedOutDocumentPath(IDocumentInfo incomingInfo)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    return:
+      type: System.String
+    content.vb: Public Function GetCheckedOutDocumentPath(incomingInfo As IDocumentInfo) As String
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  id: GetDocumentPath(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentPath(IDocumentInfo, Int32)
+  nameWithType: SoArc2CheckoutHelper.GetDocumentPath(IDocumentInfo, Int32)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the path to the document which this associate has access to. If the document is checked-out to the user, he will receive the path to the document in the locked\nfolder. If the document is not checked out, or the current associate is not the checked-out-associate, he will receive the path to the original document.\n"
+  syntax:
+    content: public string GetDocumentPath(IDocumentInfo documentInfo, int associateId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetDocumentPath(documentInfo As IDocumentInfo, associateId As Integer) As String
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  id: GetDocumentPath(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentPath(IDocumentInfo, CheckoutData, Int32)
+  nameWithType: SoArc2CheckoutHelper.GetDocumentPath(IDocumentInfo, CheckoutData, Int32)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath(SuperOffice.CRM.IDocumentInfo, SuperOffice.CRM.Documents.CheckoutData, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the path to the document which this associate has access to. If the document is checked-out to the user, he will receive the path to the document in the locked\nfolder. If the document is not checked out, or the current associate is not the checked-out-associate, he will receive the path to the original document.\n"
+  syntax:
+    content: public string GetDocumentPath(IDocumentInfo documentInfo, CheckoutData checkoutData, int associateId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: checkoutData
+      type: SuperOffice.CRM.Documents.CheckoutData
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetDocumentPath(documentInfo As IDocumentInfo, checkoutData As CheckoutData, associateId As Integer) As String
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath(SuperOffice.CRM.IDocumentInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath(SuperOffice.CRM.IDocumentInfo,System.Boolean)
+  id: GetDocumentLockedPath(SuperOffice.CRM.IDocumentInfo,System.Boolean)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentLockedPath(IDocumentInfo, Boolean)
+  nameWithType: SoArc2CheckoutHelper.GetDocumentLockedPath(IDocumentInfo, Boolean)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath(SuperOffice.CRM.IDocumentInfo, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the path to the locked folder for the supplied document. \n"
+  syntax:
+    content: protected string GetDocumentLockedPath(IDocumentInfo documentInfo, bool createIfNeccessary = false)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: createIfNeccessary
+      type: System.Boolean
+    return:
+      type: System.String
+      description: The path to the locked folder for the document - excluding the document name
+    content.vb: Protected Function GetDocumentLockedPath(documentInfo As IDocumentInfo, createIfNeccessary As Boolean = False) As String
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  id: IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,System.Int32)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: IsWriteableForAssociate(IDocumentInfo, Int32)
+  nameWithType: SoArc2CheckoutHelper.IsWriteableForAssociate(IDocumentInfo, Int32)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public bool IsWriteableForAssociate(IDocumentInfo documentInfo, int associateId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsWriteableForAssociate(documentInfo As IDocumentInfo, associateId As Integer) As Boolean
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  id: IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.CheckoutData,System.Int32)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: IsWriteableForAssociate(IDocumentInfo, CheckoutData, Int32)
+  nameWithType: SoArc2CheckoutHelper.IsWriteableForAssociate(IDocumentInfo, CheckoutData, Int32)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate(SuperOffice.CRM.IDocumentInfo, SuperOffice.CRM.Documents.CheckoutData, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public bool IsWriteableForAssociate(IDocumentInfo documentInfo, CheckoutData checkoutData, int associateId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: checkoutData
+      type: SuperOffice.CRM.Documents.CheckoutData
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsWriteableForAssociate(documentInfo As IDocumentInfo, checkoutData As CheckoutData, associateId As Integer) As Boolean
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: RenameDocument(IDocumentInfo, String)
+  nameWithType: SoArc2CheckoutHelper.RenameDocument(IDocumentInfo, String)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument(SuperOffice.CRM.IDocumentInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRename the checkout data when the document is renamed. \nShould only be called when the document has actually changed file name. \n"
+  syntax:
+    content: public void RenameDocument(IDocumentInfo documentInfo, string newFileName)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: newFileName
+      type: System.String
+    content.vb: Public Sub RenameDocument(documentInfo As IDocumentInfo, newFileName As String)
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice(SuperOffice.CRM.IDocumentInfo,System.String@)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice(SuperOffice.CRM.IDocumentInfo,System.String@)
+  id: IsDocumentLockedByOffice(SuperOffice.CRM.IDocumentInfo,System.String@)
+  parent: SuperOffice.CRM.Documents.SoArc2CheckoutHelper
+  langs:
+  - csharp
+  - vb
+  name: IsDocumentLockedByOffice(IDocumentInfo, out String)
+  nameWithType: SoArc2CheckoutHelper.IsDocumentLockedByOffice(IDocumentInfo, out String)
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice(SuperOffice.CRM.IDocumentInfo, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck if the document is locked by Office. If the file is locked, displayName will be populated with the name of the editor.\n\n"
+  remarks: "\nThe displayName will be the name supplied by the user in Microsoft Office. Note that the name *MAY* in some scenarios be wrong.\n"
+  syntax:
+    content: public bool IsDocumentLockedByOffice(IDocumentInfo documentInfo, out string displayName)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+    - id: displayName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDocumentLockedByOffice(documentInfo As IDocumentInfo, ByRef displayName As String) As Boolean
+  overload: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice*
+  nameWithType.vb: SoArc2CheckoutHelper.IsDocumentLockedByOffice(IDocumentInfo, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice(SuperOffice.CRM.IDocumentInfo, ByRef System.String)
+  name.vb: IsDocumentLockedByOffice(IDocumentInfo, ByRef String)
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoArc2CheckoutHelper, To>()
+  nameWithType: EnumUtil.MapEnums<SoArc2CheckoutHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoArc2CheckoutHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To)()
+  name.vb: MapEnums(Of SoArc2CheckoutHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoArc2CheckoutHelper, To>
+    nameWithType: EnumUtil.MapEnums<SoArc2CheckoutHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoArc2CheckoutHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of SoArc2CheckoutHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoArc2CheckoutHelper, To>()
+  nameWithType: Converters.MapEnums<SoArc2CheckoutHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoArc2CheckoutHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To)()
+  name.vb: MapEnums(Of SoArc2CheckoutHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoArc2CheckoutHelper, To>
+    nameWithType: Converters.MapEnums<SoArc2CheckoutHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoArc2CheckoutHelper, To)
+    nameWithType: Converters.MapEnums(Of SoArc2CheckoutHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.SoArc2CheckoutHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.#ctor
+  isExternal: true
+  name: SoArc2CheckoutHelper
+  nameWithType: SoArc2CheckoutHelper.SoArc2CheckoutHelper
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SoArc2CheckoutHelper
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations
+  commentId: T:SuperOffice.CRM.Documents.ICheckinFileOperations
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: ICheckinFileOperations
+  nameWithType: ICheckinFileOperations
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument
+  isExternal: true
+  name: CheckoutDocument
+  nameWithType: SoArc2CheckoutHelper.CheckoutDocument
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckoutDocument
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument
+  isExternal: true
+  name: CheckinDocument
+  nameWithType: SoArc2CheckoutHelper.CheckinDocument
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.CheckinDocument
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData
+  isExternal: true
+  name: GetCheckoutData
+  nameWithType: SoArc2CheckoutHelper.GetCheckoutData
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckoutData
+- uid: SuperOffice.CRM.Documents.CheckoutData
+  commentId: T:SuperOffice.CRM.Documents.CheckoutData
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: CheckoutData
+  nameWithType: CheckoutData
+  fullName: SuperOffice.CRM.Documents.CheckoutData
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout
+  isExternal: true
+  name: UndoCheckout
+  nameWithType: SoArc2CheckoutHelper.UndoCheckout
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.UndoCheckout
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData
+  isExternal: true
+  name: SaveCheckoutData
+  nameWithType: SoArc2CheckoutHelper.SaveCheckoutData
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.SaveCheckoutData
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath
+  isExternal: true
+  name: GetCheckedOutDocumentPath
+  nameWithType: SoArc2CheckoutHelper.GetCheckedOutDocumentPath
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetCheckedOutDocumentPath
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath
+  isExternal: true
+  name: GetDocumentPath
+  nameWithType: SoArc2CheckoutHelper.GetDocumentPath
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentPath
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath
+  isExternal: true
+  name: GetDocumentLockedPath
+  nameWithType: SoArc2CheckoutHelper.GetDocumentLockedPath
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.GetDocumentLockedPath
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate
+  isExternal: true
+  name: IsWriteableForAssociate
+  nameWithType: SoArc2CheckoutHelper.IsWriteableForAssociate
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsWriteableForAssociate
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument
+  isExternal: true
+  name: RenameDocument
+  nameWithType: SoArc2CheckoutHelper.RenameDocument
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.RenameDocument
+- uid: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice*
+  commentId: Overload:SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice
+  isExternal: true
+  name: IsDocumentLockedByOffice
+  nameWithType: SoArc2CheckoutHelper.IsDocumentLockedByOffice
+  fullName: SuperOffice.CRM.Documents.SoArc2CheckoutHelper.IsDocumentLockedByOffice

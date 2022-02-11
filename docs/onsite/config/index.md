@@ -78,7 +78,7 @@ The following steps are recommended to increase security:
 [3]: ../install/win-client/superoffice-config.md
 [4]: ../command-line-switches.md
 [5]: ../debug/web-client.md
-[6]: ../../../../data-access/docs/netserver/config/index.md
+[6]: ../../api/config/index.md
 [7]: ../../webtools/debug.md
 [10]: ../../service/log-files.md
 [11]: ../../service/config/index.md

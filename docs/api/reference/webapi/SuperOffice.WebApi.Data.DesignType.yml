@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DesignType
+  commentId: T:SuperOffice.WebApi.Data.DesignType
+  id: DesignType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DesignType.SOEditor
+  - SuperOffice.WebApi.Data.DesignType.Unknown
+  - SuperOffice.WebApi.Data.DesignType.Unlayer
+  - SuperOffice.WebApi.Data.DesignType.value__
+  langs:
+  - csharp
+  - vb
+  name: DesignType
+  nameWithType: DesignType
+  fullName: SuperOffice.WebApi.Data.DesignType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates what design type this message is created with\nThis Enum is used by:  s_message.designtype\n"
+  syntax:
+    content: 'public sealed class DesignType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DesignType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DesignType.value__
+  commentId: F:SuperOffice.WebApi.Data.DesignType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DesignType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DesignType.value__
+  fullName: SuperOffice.WebApi.Data.DesignType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DesignType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.DesignType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.DesignType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DesignType.Unknown
+  fullName: SuperOffice.WebApi.Data.DesignType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown type\n"
+  syntax:
+    content: public const DesignType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.DesignType
+    content.vb: Public Const Unknown As DesignType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DesignType.SOEditor
+  commentId: F:SuperOffice.WebApi.Data.DesignType.SOEditor
+  id: SOEditor
+  parent: SuperOffice.WebApi.Data.DesignType
+  langs:
+  - csharp
+  - vb
+  name: SOEditor
+  nameWithType: DesignType.SOEditor
+  fullName: SuperOffice.WebApi.Data.DesignType.SOEditor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Created with SOEditor\n"
+  syntax:
+    content: public const DesignType SOEditor
+    return:
+      type: SuperOffice.WebApi.Data.DesignType
+    content.vb: Public Const SOEditor As DesignType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DesignType.Unlayer
+  commentId: F:SuperOffice.WebApi.Data.DesignType.Unlayer
+  id: Unlayer
+  parent: SuperOffice.WebApi.Data.DesignType
+  langs:
+  - csharp
+  - vb
+  name: Unlayer
+  nameWithType: DesignType.Unlayer
+  fullName: SuperOffice.WebApi.Data.DesignType.Unlayer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Created with Unlayer editor\n"
+  syntax:
+    content: public const DesignType Unlayer
+    return:
+      type: SuperOffice.WebApi.Data.DesignType
+    content.vb: Public Const Unlayer As DesignType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DesignType
+  commentId: T:SuperOffice.WebApi.Data.DesignType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DesignType
+  nameWithType: DesignType
+  fullName: SuperOffice.WebApi.Data.DesignType

@@ -69,7 +69,7 @@ If an older original is restored from backup, then the mirror should be thrown a
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/application-registration
-[2]: ../../../data-access/docs/authentication/online/auth-application/sign-system-user-token.md
+[2]: ../api/authentication/online/auth-application/sign-system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/trendsyapp.png

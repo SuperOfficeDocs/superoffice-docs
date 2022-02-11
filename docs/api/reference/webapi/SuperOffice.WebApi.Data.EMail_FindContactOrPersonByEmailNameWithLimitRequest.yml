@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  id: EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  langs:
+  - csharp
+  - vb
+  name: EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_FindContactOrPersonByEmailNameWithLimitRequest : Object'
+    content.vb: >-
+      Public Class EMail_FindContactOrPersonByEmailNameWithLimitRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_FindContactOrPersonByEmailNameWithLimitRequest()
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.EMail_FindContactOrPersonByEmailNameWithLimitRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EMail_FindContactOrPersonByEmailNameWithLimitRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_FindContactOrPersonByEmailNameWithLimitRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  id: NumberOfContacts
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  langs:
+  - csharp
+  - vb
+  name: NumberOfContacts
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NumberOfContacts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumberOfContacts As Integer
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  id: NumberOfPersons
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  langs:
+  - csharp
+  - vb
+  name: NumberOfPersons
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NumberOfPersons { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumberOfPersons As Integer
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.#ctor
+  isExternal: true
+  name: EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EMail_FindContactOrPersonByEmailNameWithLimitRequest
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.EmailAddress
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  isExternal: true
+  name: NumberOfContacts
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfContacts
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  isExternal: true
+  name: NumberOfPersons
+  nameWithType: EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameWithLimitRequest.NumberOfPersons

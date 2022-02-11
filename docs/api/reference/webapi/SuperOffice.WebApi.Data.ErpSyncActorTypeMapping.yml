@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  id: ErpSyncActorTypeMapping
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings
+  - SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorTypeMapping
+  nameWithType: ErpSyncActorTypeMapping
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncActorTypeMapping.\nMapping information for one Actor, contains array of field mappings (ERP &lt;-> SuperOffice)    \n"
+  syntax:
+    content: 'public class ErpSyncActorTypeMapping : Carrier'
+    content.vb: >-
+      Public Class ErpSyncActorTypeMapping
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorTypeMapping()
+  nameWithType: ErpSyncActorTypeMapping.ErpSyncActorTypeMapping()
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpSyncActorTypeMapping()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncActorTypeMapping()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSyncActorTypeMapping.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive
+  id: IsActive
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: ErpSyncActorTypeMapping.IsActive
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this sync mapping active\n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings
+  id: FieldMappings
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: FieldMappings
+  nameWithType: ErpSyncActorTypeMapping.FieldMappings
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync\n"
+  syntax:
+    content: public virtual ErpSyncFieldMapping[] FieldMappings { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncFieldMapping[]
+    content.vb: Public Overridable Property FieldMappings As ErpSyncFieldMapping()
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  id: ActorTypeErp_String
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: ActorTypeErp_String
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeErp_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actor type (ERP side)\nRaw string enum value.\n"
+  syntax:
+    content: public string ActorTypeErp_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActorTypeErp_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  id: ActorTypeErp
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: ActorTypeErp
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeErp
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actor type (ERP side)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ErpActorType> ActorTypeErp { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}
+    content.vb: Public Property ActorTypeErp As Nullable(Of ErpActorType)
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  id: ActorTypeCrm_String
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: ActorTypeCrm_String
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeCrm_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actor type (CRM side)\nRaw string enum value.\n"
+  syntax:
+    content: public string ActorTypeCrm_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActorTypeCrm_String As String
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  id: ActorTypeCrm
+  parent: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  langs:
+  - csharp
+  - vb
+  name: ActorTypeCrm
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeCrm
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actor type (CRM side)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<CrmActorType> ActorTypeCrm { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.CrmActorType}
+    content.vb: Public Property ActorTypeCrm As Nullable(Of CrmActorType)
+  overload: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+    commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.#ctor
+  isExternal: true
+  name: ErpSyncActorTypeMapping
+  nameWithType: ErpSyncActorTypeMapping.ErpSyncActorTypeMapping
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpSyncActorTypeMapping
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSyncActorTypeMapping.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: ErpSyncActorTypeMapping.IsActive
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings
+  isExternal: true
+  name: FieldMappings
+  nameWithType: ErpSyncActorTypeMapping.FieldMappings
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.FieldMappings
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping[]
+  isExternal: true
+  name: ErpSyncFieldMapping[]
+  nameWithType: ErpSyncFieldMapping[]
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping[]
+  nameWithType.vb: ErpSyncFieldMapping()
+  fullName.vb: SuperOffice.WebApi.Data.ErpSyncFieldMapping()
+  name.vb: ErpSyncFieldMapping()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+    name: ErpSyncFieldMapping
+    nameWithType: ErpSyncFieldMapping
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+    name: ErpSyncFieldMapping
+    nameWithType: ErpSyncFieldMapping
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldMapping
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  isExternal: true
+  name: ActorTypeErp_String
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeErp_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+  isExternal: true
+  name: ActorTypeErp
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeErp
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeErp_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ErpActorType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ErpActorType}'
+  definition: System.Nullable`1
+  name: Nullable<ErpActorType>
+  nameWithType: Nullable<ErpActorType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ErpActorType>
+  nameWithType.vb: Nullable(Of ErpActorType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ErpActorType)
+  name.vb: Nullable(Of ErpActorType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.WebApi.Data.ErpActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  isExternal: true
+  name: ActorTypeCrm_String
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeCrm_String
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+  isExternal: true
+  name: ActorTypeCrm
+  nameWithType: ErpSyncActorTypeMapping.ActorTypeCrm
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping.ActorTypeCrm_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.CrmActorType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.CrmActorType}'
+  definition: System.Nullable`1
+  name: Nullable<CrmActorType>
+  nameWithType: Nullable<CrmActorType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.CrmActorType>
+  nameWithType.vb: Nullable(Of CrmActorType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.CrmActorType)
+  name.vb: Nullable(Of CrmActorType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.WebApi.Data.CrmActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.WebApi.Data.CrmActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

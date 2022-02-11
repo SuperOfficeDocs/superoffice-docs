@@ -1,0 +1,983 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  id: ShadowSelectionHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow(SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  langs:
+  - csharp
+  - vb
+  name: ShadowSelectionHelper
+  nameWithType: ShadowSelectionHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nClass for working with common functionality in Shadow selections.\n"
+  syntax:
+    content: public class ShadowSelectionHelper
+    content.vb: Public Class ShadowSelectionHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ArchiveSelect)'
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: ShadowSelectionHelper(ArchiveSelect)
+  nameWithType: ShadowSelectionHelper.ShadowSelectionHelper(ArchiveSelect)
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.ShadowSelectionHelper(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault constructor. Takes the RootQuery ArchiveSelect\n"
+  syntax:
+    content: public ShadowSelectionHelper(ArchiveSelect rootQuery)
+    parameters:
+    - id: rootQuery
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+      description: ArchiveSelect
+    content.vb: Public Sub New(rootQuery As ArchiveSelect)
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  id: SetRootQuery(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: SetRootQuery(ArchiveSelect)
+  nameWithType: ShadowSelectionHelper.SetRootQuery(ArchiveSelect)
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery(SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the root query. The helper  might be instanciated before the query is available.\n"
+  syntax:
+    content: public void SetRootQuery(ArchiveSelect rootQuery)
+    parameters:
+    - id: rootQuery
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+    content.vb: Public Sub SetRootQuery(rootQuery As ArchiveSelect)
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery(SuperOffice.Data.SQL.TableInfo)
+  id: AnalyzeQuery(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeQuery(TableInfo)
+  nameWithType: ShadowSelectionHelper.AnalyzeQuery(TableInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAnalyze the query to find the relevant contact and person id fields.\n"
+  remarks: "\nWe look for Contact and Person table instances directly joined, through an inner or left outer join, to the <see cref=\"!:tableToExtend\"></see> parameter\n"
+  syntax:
+    content: public void AnalyzeQuery(TableInfo tableToExtend)
+    parameters:
+    - id: tableToExtend
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Sub AnalyzeQuery(tableToExtend As TableInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: ShadowSelectionHelper.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\n\n"
+  syntax:
+    content: public void SetRestriction(ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Sub SetRestriction(restrictions As ArchiveRestrictionInfo())
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction*
+  nameWithType.vb: ShadowSelectionHelper.SetRestriction(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields
+  id: RequiredPhaseOneFields
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: RequiredPhaseOneFields()
+  nameWithType: ShadowSelectionHelper.RequiredPhaseOneFields()
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd contact and person id fields as required phase one fields.\n"
+  syntax:
+    content: public FieldInfo[] RequiredPhaseOneFields()
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Public Function RequiredPhaseOneFields As FieldInfo()
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns(System.String[])
+  id: AddContactAndPersonColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: AddContactAndPersonColumns(String[])
+  nameWithType: ShadowSelectionHelper.AddContactAndPersonColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd contact/contactId and person/personId columns to desired columns if they are not already added.\n"
+  syntax:
+    content: public static string[] AddContactAndPersonColumns(string[] columnIds)
+    parameters:
+    - id: columnIds
+      type: System.String[]
+      description: Current column collection.
+    return:
+      type: System.String[]
+      description: Modified column collection.
+    content.vb: Public Shared Function AddContactAndPersonColumns(columnIds As String()) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns*
+  nameWithType.vb: ShadowSelectionHelper.AddContactAndPersonColumns(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns(System.String())
+  name.vb: AddContactAndPersonColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow(SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow(SuperOffice.Data.SoDataReader)
+  id: AcceptRow(SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: AcceptRow(SoDataReader)
+  nameWithType: ShadowSelectionHelper.AcceptRow(SoDataReader)
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow(SuperOffice.Data.SoDataReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCommon <see cref=\"!:QueryProviderBase.AcceptRow\"></see> method for shadow selections.\n"
+  syntax:
+    content: public bool AcceptRow(SoDataReader reader)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    return:
+      type: System.Boolean
+    content.vb: Public Function AcceptRow(reader As SoDataReader) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: AddRowInfo(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: AddRowInfo(SoDataReader, ArchiveRow)
+  nameWithType: ShadowSelectionHelper.AddRowInfo(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd RowType, RowKey and LinkHint to a shadow selection row. Replacing any nav linkhint with person or contact.\n"
+  syntax:
+    content: public void AddRowInfo(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Public Sub AddRowInfo(reader As SoDataReader, row As ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: SetStyleHint(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
+  langs:
+  - csharp
+  - vb
+  name: SetStyleHint(ArchiveRow)
+  nameWithType: ShadowSelectionHelper.SetStyleHint(ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nModify the stylehint of shadow selection rows. \nStylehint &apos;expired&apos; will be removed\n"
+  syntax:
+    content: public string SetStyleHint(ArchiveRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    return:
+      type: System.String
+      description: Modified stylehint
+    content.vb: Public Function SetStyleHint(row As ArchiveRow) As String
+  overload: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ShadowSelectionHelper, To>()
+  nameWithType: EnumUtil.MapEnums<ShadowSelectionHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ShadowSelectionHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To)()
+  name.vb: MapEnums(Of ShadowSelectionHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ShadowSelectionHelper, To>
+    nameWithType: EnumUtil.MapEnums<ShadowSelectionHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ShadowSelectionHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of ShadowSelectionHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ShadowSelectionHelper, To>()
+  nameWithType: Converters.MapEnums<ShadowSelectionHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ShadowSelectionHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To)()
+  name.vb: MapEnums(Of ShadowSelectionHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ShadowSelectionHelper, To>
+    nameWithType: Converters.MapEnums<ShadowSelectionHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ShadowSelectionHelper, To)
+    nameWithType: Converters.MapEnums(Of ShadowSelectionHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.#ctor
+  isExternal: true
+  name: ShadowSelectionHelper
+  nameWithType: ShadowSelectionHelper.ShadowSelectionHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.ShadowSelectionHelper
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveSelect
+  nameWithType: ArchiveSelect
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery
+  isExternal: true
+  name: SetRootQuery
+  nameWithType: ShadowSelectionHelper.SetRootQuery
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRootQuery
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery
+  isExternal: true
+  name: AnalyzeQuery
+  nameWithType: ShadowSelectionHelper.AnalyzeQuery
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AnalyzeQuery
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction
+  isExternal: true
+  name: SetRestriction
+  nameWithType: ShadowSelectionHelper.SetRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetRestriction
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields
+  isExternal: true
+  name: RequiredPhaseOneFields
+  nameWithType: ShadowSelectionHelper.RequiredPhaseOneFields
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.RequiredPhaseOneFields
+- uid: SuperOffice.Data.SQL.FieldInfo[]
+  isExternal: true
+  name: FieldInfo[]
+  nameWithType: FieldInfo[]
+  fullName: SuperOffice.Data.SQL.FieldInfo[]
+  nameWithType.vb: FieldInfo()
+  fullName.vb: SuperOffice.Data.SQL.FieldInfo()
+  name.vb: FieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns
+  isExternal: true
+  name: AddContactAndPersonColumns
+  nameWithType: ShadowSelectionHelper.AddContactAndPersonColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddContactAndPersonColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow
+  isExternal: true
+  name: AcceptRow
+  nameWithType: ShadowSelectionHelper.AcceptRow
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AcceptRow
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo
+  isExternal: true
+  name: AddRowInfo
+  nameWithType: ShadowSelectionHelper.AddRowInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.AddRowInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint
+  isExternal: true
+  name: SetStyleHint
+  nameWithType: ShadowSelectionHelper.SetStyleHint
+  fullName: SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper.SetStyleHint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

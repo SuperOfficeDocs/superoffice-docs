@@ -1,0 +1,1122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.MailTask
+  commentId: T:SuperOffice.CRM.Web.Util.MailTask
+  id: MailTask
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.MailTask.#ctor
+  - SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail(System.Int32[])
+  - SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail(SuperOffice.CRM.Services.EMailEntity)
+  - SuperOffice.CRM.Web.Util.MailTask.AddForwardMail(System.Int32)
+  - SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument(SuperOffice.CRM.Services.DocumentEntity)
+  - SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail(System.String)
+  - SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail(System.Int32)
+  - SuperOffice.CRM.Web.Util.MailTask.AddSendDocument(System.Int32[])
+  - SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax(System.Int32)
+  - SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(SuperOffice.CRM.Services.QuotePublishDocuments)
+  - SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(System.Int32[])
+  - SuperOffice.CRM.Web.Util.MailTask.Base64Encode(System.String)
+  - SuperOffice.CRM.Web.Util.MailTask.CanSendEmail
+  - SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName(System.String)
+  - SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink(SuperOffice.CRM.Web.Util.MailClient)
+  - SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  - SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler
+  - SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie
+  - SuperOffice.CRM.Web.Util.MailTask.Save
+  - SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MailTask
+  nameWithType: MailTask
+  fullName: SuperOffice.CRM.Web.Util.MailTask
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class MailTask
+    content.vb: Public Class MailTask
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.MailTask.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: MailTask()
+  nameWithType: MailTask.MailTask()
+  fullName: SuperOffice.CRM.Web.Util.MailTask.MailTask()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailTask()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.MailTask.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.CanSendEmail
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.CanSendEmail
+  id: CanSendEmail
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: CanSendEmail()
+  nameWithType: MailTask.CanSendEmail()
+  fullName: SuperOffice.CRM.Web.Util.MailTask.CanSendEmail()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool CanSendEmail()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanSendEmail As Boolean
+  overload: SuperOffice.CRM.Web.Util.MailTask.CanSendEmail*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie
+  id: HasDefaultMailClientCookie
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: HasDefaultMailClientCookie()
+  nameWithType: MailTask.HasDefaultMailClientCookie()
+  fullName: SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool HasDefaultMailClientCookie()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasDefaultMailClientCookie As Boolean
+  overload: SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler(System.Int32)
+  id: SetDefaultMailHandler(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultMailHandler(Int32)
+  nameWithType: MailTask.SetDefaultMailHandler(Int32)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static void SetDefaultMailHandler(int mailClient)
+    parameters:
+    - id: mailClient
+      type: System.Int32
+    content.vb: Public Shared Sub SetDefaultMailHandler(mailClient As Integer)
+  overload: SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler
+  id: GetDefaultMailHandler
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultMailHandler()
+  nameWithType: MailTask.GetDefaultMailHandler()
+  fullName: SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static MailClient GetDefaultMailHandler()
+    return:
+      type: SuperOffice.CRM.Web.Util.MailClient
+    content.vb: Public Shared Function GetDefaultMailHandler As MailClient
+  overload: SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName(System.String)
+  id: CreateMailXmlFileName(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: CreateMailXmlFileName(String)
+  nameWithType: MailTask.CreateMailXmlFileName(String)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string CreateMailXmlFileName(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateMailXmlFileName(prefix As String) As String
+  overload: SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  id: ExecuteMailLinkMailTask(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: ExecuteMailLinkMailTask(MailClient, String)
+  nameWithType: MailTask.ExecuteMailLinkMailTask(MailClient, String)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask(SuperOffice.CRM.Web.Util.MailClient, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void ExecuteMailLinkMailTask(MailClient client, string taskid)
+    parameters:
+    - id: client
+      type: SuperOffice.CRM.Web.Util.MailClient
+    - id: taskid
+      type: System.String
+    content.vb: Public Sub ExecuteMailLinkMailTask(client As MailClient, taskid As String)
+  overload: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink(SuperOffice.CRM.Web.Util.MailClient)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink(SuperOffice.CRM.Web.Util.MailClient)
+  id: ExecuteMailLink(SuperOffice.CRM.Web.Util.MailClient)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: ExecuteMailLink(MailClient)
+  nameWithType: MailTask.ExecuteMailLink(MailClient)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink(SuperOffice.CRM.Web.Util.MailClient)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void ExecuteMailLink(MailClient client)
+    parameters:
+    - id: client
+      type: SuperOffice.CRM.Web.Util.MailClient
+    content.vb: Public Sub ExecuteMailLink(client As MailClient)
+  overload: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.Base64Encode(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.Base64Encode(System.String)
+  id: Base64Encode(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: Base64Encode(String)
+  nameWithType: MailTask.Base64Encode(String)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.Base64Encode(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string Base64Encode(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Base64Encode(input As String) As String
+  overload: SuperOffice.CRM.Web.Util.MailTask.Base64Encode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail(SuperOffice.CRM.Services.EMailEntity)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail(SuperOffice.CRM.Services.EMailEntity)
+  id: AddDisplayNewMail(SuperOffice.CRM.Services.EMailEntity)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddDisplayNewMail(EMailEntity)
+  nameWithType: MailTask.AddDisplayNewMail(EMailEntity)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail(SuperOffice.CRM.Services.EMailEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddDisplayNewMail(EMailEntity entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Sub AddDisplayNewMail(entity As EMailEntity)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendDocument(System.Int32[])
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddSendDocument(System.Int32[])
+  id: AddSendDocument(System.Int32[])
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddSendDocument(Int32[])
+  nameWithType: MailTask.AddSendDocument(Int32[])
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendDocument(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddSendDocument(int[] documentIds)
+    parameters:
+    - id: documentIds
+      type: System.Int32[]
+    content.vb: Public Sub AddSendDocument(documentIds As Integer())
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddSendDocument*
+  nameWithType.vb: MailTask.AddSendDocument(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Util.MailTask.AddSendDocument(System.Int32())
+  name.vb: AddSendDocument(Int32())
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(System.Int32[])
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(System.Int32[])
+  id: AddSendQuoteDocuments(System.Int32[])
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddSendQuoteDocuments(Int32[])
+  nameWithType: MailTask.AddSendQuoteDocuments(Int32[])
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddSendQuoteDocuments(int[] documentIds)
+    parameters:
+    - id: documentIds
+      type: System.Int32[]
+    content.vb: Public Sub AddSendQuoteDocuments(documentIds As Integer())
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments*
+  nameWithType.vb: MailTask.AddSendQuoteDocuments(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(System.Int32())
+  name.vb: AddSendQuoteDocuments(Int32())
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax(System.Int32)
+  id: AddSendDocumentAsFax(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddSendDocumentAsFax(Int32)
+  nameWithType: MailTask.AddSendDocumentAsFax(Int32)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddSendDocumentAsFax(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Sub AddSendDocumentAsFax(documentId As Integer)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument(SuperOffice.CRM.Services.DocumentEntity)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument(SuperOffice.CRM.Services.DocumentEntity)
+  id: AddOpenMailDocument(SuperOffice.CRM.Services.DocumentEntity)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddOpenMailDocument(DocumentEntity)
+  nameWithType: MailTask.AddOpenMailDocument(DocumentEntity)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument(SuperOffice.CRM.Services.DocumentEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddOpenMailDocument(DocumentEntity document)
+    parameters:
+    - id: document
+      type: SuperOffice.CRM.Services.DocumentEntity
+    content.vb: Public Sub AddOpenMailDocument(document As DocumentEntity)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail(System.Int32[])
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail(System.Int32[])
+  id: AddAttachmentsToExistingMail(System.Int32[])
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddAttachmentsToExistingMail(Int32[])
+  nameWithType: MailTask.AddAttachmentsToExistingMail(Int32[])
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddAttachmentsToExistingMail(int[] documentIds)
+    parameters:
+    - id: documentIds
+      type: System.Int32[]
+    content.vb: Public Sub AddAttachmentsToExistingMail(documentIds As Integer())
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail*
+  nameWithType.vb: MailTask.AddAttachmentsToExistingMail(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail(System.Int32())
+  name.vb: AddAttachmentsToExistingMail(Int32())
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail(System.Int32)
+  id: AddReplyToMail(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddReplyToMail(Int32)
+  nameWithType: MailTask.AddReplyToMail(Int32)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddReplyToMail(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Sub AddReplyToMail(documentId As Integer)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddForwardMail(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddForwardMail(System.Int32)
+  id: AddForwardMail(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddForwardMail(Int32)
+  nameWithType: MailTask.AddForwardMail(Int32)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddForwardMail(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddForwardMail(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Sub AddForwardMail(documentId As Integer)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddForwardMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail(System.String)
+  id: AddRecipientsToExistingMail(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddRecipientsToExistingMail(String)
+  nameWithType: MailTask.AddRecipientsToExistingMail(String)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddRecipientsToExistingMail(string recipients)
+    parameters:
+    - id: recipients
+      type: System.String
+    content.vb: Public Sub AddRecipientsToExistingMail(recipients As String)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.Save
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.Save
+  id: Save
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: MailTask.Save()
+  fullName: SuperOffice.CRM.Web.Util.MailTask.Save()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string Save()
+    return:
+      type: System.String
+    content.vb: Public Function Save As String
+  overload: SuperOffice.CRM.Web.Util.MailTask.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(SuperOffice.CRM.Services.QuotePublishDocuments)
+  commentId: M:SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(SuperOffice.CRM.Services.QuotePublishDocuments)
+  id: AddSendQuoteDocuments(SuperOffice.CRM.Services.QuotePublishDocuments)
+  parent: SuperOffice.CRM.Web.Util.MailTask
+  langs:
+  - csharp
+  - vb
+  name: AddSendQuoteDocuments(QuotePublishDocuments)
+  nameWithType: MailTask.AddSendQuoteDocuments(QuotePublishDocuments)
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments(SuperOffice.CRM.Services.QuotePublishDocuments)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddSendQuoteDocuments(QuotePublishDocuments generateQuoteDocuments)
+    parameters:
+    - id: generateQuoteDocuments
+      type: SuperOffice.CRM.Services.QuotePublishDocuments
+    content.vb: Public Sub AddSendQuoteDocuments(generateQuoteDocuments As QuotePublishDocuments)
+  overload: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.MailTask.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.#ctor
+  isExternal: true
+  name: MailTask
+  nameWithType: MailTask.MailTask
+  fullName: SuperOffice.CRM.Web.Util.MailTask.MailTask
+- uid: SuperOffice.CRM.Web.Util.MailTask.CanSendEmail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.CanSendEmail
+  isExternal: true
+  name: CanSendEmail
+  nameWithType: MailTask.CanSendEmail
+  fullName: SuperOffice.CRM.Web.Util.MailTask.CanSendEmail
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie
+  isExternal: true
+  name: HasDefaultMailClientCookie
+  nameWithType: MailTask.HasDefaultMailClientCookie
+  fullName: SuperOffice.CRM.Web.Util.MailTask.HasDefaultMailClientCookie
+- uid: SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler
+  isExternal: true
+  name: SetDefaultMailHandler
+  nameWithType: MailTask.SetDefaultMailHandler
+  fullName: SuperOffice.CRM.Web.Util.MailTask.SetDefaultMailHandler
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler
+  isExternal: true
+  name: GetDefaultMailHandler
+  nameWithType: MailTask.GetDefaultMailHandler
+  fullName: SuperOffice.CRM.Web.Util.MailTask.GetDefaultMailHandler
+- uid: SuperOffice.CRM.Web.Util.MailClient
+  commentId: T:SuperOffice.CRM.Web.Util.MailClient
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: MailClient
+  nameWithType: MailClient
+  fullName: SuperOffice.CRM.Web.Util.MailClient
+- uid: SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName
+  isExternal: true
+  name: CreateMailXmlFileName
+  nameWithType: MailTask.CreateMailXmlFileName
+  fullName: SuperOffice.CRM.Web.Util.MailTask.CreateMailXmlFileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask
+  isExternal: true
+  name: ExecuteMailLinkMailTask
+  nameWithType: MailTask.ExecuteMailLinkMailTask
+  fullName: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLinkMailTask
+- uid: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink
+  isExternal: true
+  name: ExecuteMailLink
+  nameWithType: MailTask.ExecuteMailLink
+  fullName: SuperOffice.CRM.Web.Util.MailTask.ExecuteMailLink
+- uid: SuperOffice.CRM.Web.Util.MailTask.Base64Encode*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.Base64Encode
+  isExternal: true
+  name: Base64Encode
+  nameWithType: MailTask.Base64Encode
+  fullName: SuperOffice.CRM.Web.Util.MailTask.Base64Encode
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail
+  isExternal: true
+  name: AddDisplayNewMail
+  nameWithType: MailTask.AddDisplayNewMail
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddDisplayNewMail
+- uid: SuperOffice.CRM.Services.EMailEntity
+  isExternal: true
+  name: EMailEntity
+  nameWithType: EMailEntity
+  fullName: SuperOffice.CRM.Services.EMailEntity
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendDocument*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddSendDocument
+  isExternal: true
+  name: AddSendDocument
+  nameWithType: MailTask.AddSendDocument
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendDocument
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments
+  isExternal: true
+  name: AddSendQuoteDocuments
+  nameWithType: MailTask.AddSendQuoteDocuments
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendQuoteDocuments
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax
+  isExternal: true
+  name: AddSendDocumentAsFax
+  nameWithType: MailTask.AddSendDocumentAsFax
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddSendDocumentAsFax
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument
+  isExternal: true
+  name: AddOpenMailDocument
+  nameWithType: MailTask.AddOpenMailDocument
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddOpenMailDocument
+- uid: SuperOffice.CRM.Services.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.CRM.Services.DocumentEntity
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail
+  isExternal: true
+  name: AddAttachmentsToExistingMail
+  nameWithType: MailTask.AddAttachmentsToExistingMail
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddAttachmentsToExistingMail
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail
+  isExternal: true
+  name: AddReplyToMail
+  nameWithType: MailTask.AddReplyToMail
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddReplyToMail
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddForwardMail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddForwardMail
+  isExternal: true
+  name: AddForwardMail
+  nameWithType: MailTask.AddForwardMail
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddForwardMail
+- uid: SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail
+  isExternal: true
+  name: AddRecipientsToExistingMail
+  nameWithType: MailTask.AddRecipientsToExistingMail
+  fullName: SuperOffice.CRM.Web.Util.MailTask.AddRecipientsToExistingMail
+- uid: SuperOffice.CRM.Web.Util.MailTask.Save*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailTask.Save
+  isExternal: true
+  name: Save
+  nameWithType: MailTask.Save
+  fullName: SuperOffice.CRM.Web.Util.MailTask.Save
+- uid: SuperOffice.CRM.Services.QuotePublishDocuments
+  commentId: '!:SuperOffice.CRM.Services.QuotePublishDocuments'
+  isExternal: true
+  name: QuotePublishDocuments
+  nameWithType: QuotePublishDocuments
+  fullName: SuperOffice.CRM.Services.QuotePublishDocuments

@@ -1,0 +1,1668 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  id: FindSelectionMembersDataHandler
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.#ctor
+  - SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear
+  - SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load(System.String)
+  - SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  - SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save
+  langs:
+  - csharp
+  - vb
+  name: FindSelectionMembersDataHandler
+  nameWithType: FindSelectionMembersDataHandler
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class FindSelectionMembersDataHandler : FindDataHandler, IDataHandler, IWebObject, IPlugin'
+    content.vb: >-
+      Public Class FindSelectionMembersDataHandler
+          Inherits FindDataHandler
+          Implements IDataHandler, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.Data.DataHandlerBase
+  - SuperOffice.CRM.Web.Data.FindDataHandler
+  implements:
+  - SuperOffice.Data.IDataHandler
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfos
+  - SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfosAsColumnData
+  - SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionColumns
+  - SuperOffice.CRM.Web.Data.FindDataHandler._addedRestrictionInfo
+  - SuperOffice.CRM.Web.Data.FindDataHandler._freeTextValue
+  - SuperOffice.CRM.Web.Data.FindDataHandler.staticSyncList
+  - SuperOffice.CRM.Web.Data.FindDataHandler._providerName
+  - SuperOffice.CRM.Web.Data.FindDataHandler._addedNewStaticOverrides
+  - SuperOffice.CRM.Web.Data.FindDataHandler._storageType
+  - SuperOffice.CRM.Web.Data.FindDataHandler._setCriteria
+  - SuperOffice.CRM.Web.Data.FindDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria(SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera)
+  - SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+  - SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers(SuperOffice.CRM.Services.CriteriaInformation)
+  - SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+  - SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+  - SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo(System.String)
+  - SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo(System.String)
+  - SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+  - SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear
+  commentId: M:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear
+  id: Clear
+  parent: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: FindSelectionMembersDataHandler.Clear()
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Clear()
+    content.vb: Public Overrides Sub Clear
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  overload: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load(System.String)
+  id: Load(System.String)
+  parent: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: FindSelectionMembersDataHandler.Load(String)
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Load(string CarrierId)
+    parameters:
+    - id: CarrierId
+      type: System.String
+    content.vb: Public Overrides Sub Load(CarrierId As String)
+  overridden: SuperOffice.CRM.Web.Data.FindDataHandler.Load(System.String)
+  overload: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save
+  commentId: M:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save
+  id: Save
+  parent: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: FindSelectionMembersDataHandler.Save()
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override object Save()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Save As Object
+  overridden: SuperOffice.CRM.Web.Data.FindDataHandler.Save
+  overload: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  id: LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  parent: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  langs:
+  - csharp
+  - vb
+  name: LoadDefaultInternalArchiveRestrictionInfo(String)
+  nameWithType: FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo(String)
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: protected override FindDataHandler.InternalArchiveRestrictionInfo LoadDefaultInternalArchiveRestrictionInfo(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Data.FindDataHandler.InternalArchiveRestrictionInfo
+    content.vb: Protected Overrides Function LoadDefaultInternalArchiveRestrictionInfo(name As String) As FindDataHandler.InternalArchiveRestrictionInfo
+  overridden: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  overload: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+  langs:
+  - csharp
+  - vb
+  name: FindSelectionMembersDataHandler()
+  nameWithType: FindSelectionMembersDataHandler.FindSelectionMembersDataHandler()
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.FindSelectionMembersDataHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public FindSelectionMembersDataHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase
+  commentId: T:SuperOffice.DCF.Web.Data.DataHandlerBase
+  parent: SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: DataHandlerBase
+  nameWithType: DataHandlerBase
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.FindDataHandler
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: FindDataHandler
+  nameWithType: FindDataHandler
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfos
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfos
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _archiveRestrictionInfos
+  nameWithType: FindDataHandler._archiveRestrictionInfos
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfos
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfosAsColumnData
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfosAsColumnData
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _archiveRestrictionInfosAsColumnData
+  nameWithType: FindDataHandler._archiveRestrictionInfosAsColumnData
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionInfosAsColumnData
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionColumns
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionColumns
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _archiveRestrictionColumns
+  nameWithType: FindDataHandler._archiveRestrictionColumns
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._archiveRestrictionColumns
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._addedRestrictionInfo
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._addedRestrictionInfo
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _addedRestrictionInfo
+  nameWithType: FindDataHandler._addedRestrictionInfo
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._addedRestrictionInfo
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._freeTextValue
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._freeTextValue
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _freeTextValue
+  nameWithType: FindDataHandler._freeTextValue
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._freeTextValue
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.staticSyncList
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler.staticSyncList
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: staticSyncList
+  nameWithType: FindDataHandler.staticSyncList
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.staticSyncList
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._providerName
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._providerName
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _providerName
+  nameWithType: FindDataHandler._providerName
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._providerName
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._addedNewStaticOverrides
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._addedNewStaticOverrides
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _addedNewStaticOverrides
+  nameWithType: FindDataHandler._addedNewStaticOverrides
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._addedNewStaticOverrides
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._storageType
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._storageType
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _storageType
+  nameWithType: FindDataHandler._storageType
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._storageType
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler._setCriteria
+  commentId: F:SuperOffice.CRM.Web.Data.FindDataHandler._setCriteria
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: _setCriteria
+  nameWithType: FindDataHandler._setCriteria
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler._setCriteria
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: FindDataHandler.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: FindDataHandler.Initialize
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: FindDataHandler.Initialize
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria(SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria(SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: AddSetCriteria(FindDataHandler.SetCritera)
+  nameWithType: FindDataHandler.AddSetCriteria(FindDataHandler.SetCritera)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria(SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria(SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera)
+    name: AddSetCriteria
+    nameWithType: FindDataHandler.AddSetCriteria
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+    name: FindDataHandler.SetCritera
+    nameWithType: FindDataHandler.SetCritera
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria(SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera)
+    name: AddSetCriteria
+    nameWithType: FindDataHandler.AddSetCriteria
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.AddSetCriteria
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+    name: FindDataHandler.SetCritera
+    nameWithType: FindDataHandler.SetCritera
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: getProviderName()
+  nameWithType: FindDataHandler.getProviderName()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+    name: getProviderName
+    nameWithType: FindDataHandler.getProviderName
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+    name: getProviderName
+    nameWithType: FindDataHandler.getProviderName
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getProviderName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers(SuperOffice.CRM.Services.CriteriaInformation)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers(SuperOffice.CRM.Services.CriteriaInformation)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: setDataCarriers(CriteriaInformation)
+  nameWithType: FindDataHandler.setDataCarriers(CriteriaInformation)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers(SuperOffice.CRM.Services.CriteriaInformation)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers(SuperOffice.CRM.Services.CriteriaInformation)
+    name: setDataCarriers
+    nameWithType: FindDataHandler.setDataCarriers
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.CriteriaInformation
+    name: CriteriaInformation
+    nameWithType: CriteriaInformation
+    fullName: SuperOffice.CRM.Services.CriteriaInformation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers(SuperOffice.CRM.Services.CriteriaInformation)
+    name: setDataCarriers
+    nameWithType: FindDataHandler.setDataCarriers
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.setDataCarriers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.CriteriaInformation
+    name: CriteriaInformation
+    nameWithType: CriteriaInformation
+    fullName: SuperOffice.CRM.Services.CriteriaInformation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: updateArchiveRestrictionInfos()
+  nameWithType: FindDataHandler.updateArchiveRestrictionInfos()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+    name: updateArchiveRestrictionInfos
+    nameWithType: FindDataHandler.updateArchiveRestrictionInfos
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+    name: updateArchiveRestrictionInfos
+    nameWithType: FindDataHandler.updateArchiveRestrictionInfos
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.updateArchiveRestrictionInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: getStorageKey()
+  nameWithType: FindDataHandler.getStorageKey()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+    name: getStorageKey
+    nameWithType: FindDataHandler.getStorageKey
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+    name: getStorageKey
+    nameWithType: FindDataHandler.getStorageKey
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getStorageKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo(System.String)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: LoadStaticArchiveRestrictionInfo(String)
+  nameWithType: FindDataHandler.LoadStaticArchiveRestrictionInfo(String)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo(System.String)
+    name: LoadStaticArchiveRestrictionInfo
+    nameWithType: FindDataHandler.LoadStaticArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo(System.String)
+    name: LoadStaticArchiveRestrictionInfo
+    nameWithType: FindDataHandler.LoadStaticArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadStaticArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo(System.String)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: LoadDefaultArchiveRestrictionInfo(String)
+  nameWithType: FindDataHandler.LoadDefaultArchiveRestrictionInfo(String)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo(System.String)
+    name: LoadDefaultArchiveRestrictionInfo
+    nameWithType: FindDataHandler.LoadDefaultArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo(System.String)
+    name: LoadDefaultArchiveRestrictionInfo
+    nameWithType: FindDataHandler.LoadDefaultArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: getStaticFieldNames()
+  nameWithType: FindDataHandler.getStaticFieldNames()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+    name: getStaticFieldNames
+    nameWithType: FindDataHandler.getStaticFieldNames
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+    name: getStaticFieldNames
+    nameWithType: FindDataHandler.getStaticFieldNames
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.getStaticFieldNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: LoadArchiveRestrictionInfos()
+  nameWithType: FindDataHandler.LoadArchiveRestrictionInfos()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+    name: LoadArchiveRestrictionInfos
+    nameWithType: FindDataHandler.LoadArchiveRestrictionInfos
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+    name: LoadArchiveRestrictionInfos
+    nameWithType: FindDataHandler.LoadArchiveRestrictionInfos
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadArchiveRestrictionInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: isPreLoadMode
+  nameWithType: DataHandlerBase.isPreLoadMode
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _dataCarriers
+  nameWithType: DataHandlerBase._dataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _mandatoryDataCarriers
+  nameWithType: DataHandlerBase._mandatoryDataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _primaryCurrent
+  nameWithType: DataHandlerBase._primaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _currentHistoryItem
+  nameWithType: DataHandlerBase._currentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _config
+  nameWithType: DataHandlerBase._config
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _id
+  nameWithType: DataHandlerBase._id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _hasLoaded
+  nameWithType: DataHandlerBase._hasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _isNew
+  nameWithType: DataHandlerBase._isNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String, String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New()
+  nameWithType: DataHandlerBase.New()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New(String)
+  nameWithType: DataHandlerBase.New(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Delete()
+  nameWithType: DataHandlerBase.Delete()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeDataBind()
+  nameWithType: DataHandlerBase.OnBeforeDataBind()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeValidate()
+  nameWithType: DataHandlerBase.OnBeforeValidate()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CheckMandatoryData(String)
+  nameWithType: DataHandlerBase.CheckMandatoryData(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriersToExpose
+  nameWithType: DataHandlerBase.DataCarriersToExpose
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: ExposeToClient
+  nameWithType: DataHandlerBase.ExposeToClient
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Id
+  nameWithType: DataHandlerBase.Id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: HasLoaded
+  nameWithType: DataHandlerBase.HasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: IsNew
+  nameWithType: DataHandlerBase.IsNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriers
+  nameWithType: DataHandlerBase.DataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: PrimaryCurrent
+  nameWithType: DataHandlerBase.PrimaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CurrentHistoryItem
+  nameWithType: DataHandlerBase.CurrentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventArgument
+  nameWithType: DataHandlerBase.EventArgument
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventTarget
+  nameWithType: DataHandlerBase.EventTarget
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Clear()
+  nameWithType: DataHandlerBase.Clear()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: FindSelectionMembersDataHandler.Clear
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Clear
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.Load(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.Load(System.String)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: Load(String)
+  nameWithType: FindDataHandler.Load(String)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Load(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.Load(System.String)
+    name: Load
+    nameWithType: FindDataHandler.Load
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.Load(System.String)
+    name: Load
+    nameWithType: FindDataHandler.Load
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load
+  isExternal: true
+  name: Load
+  nameWithType: FindSelectionMembersDataHandler.Load
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Load
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.Save
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.Save
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: Save()
+  nameWithType: FindDataHandler.Save()
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Save()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.Save
+    name: Save
+    nameWithType: FindDataHandler.Save
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.Save
+    name: Save
+    nameWithType: FindDataHandler.Save
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save
+  isExternal: true
+  name: Save
+  nameWithType: FindSelectionMembersDataHandler.Save
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.Save
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  parent: SuperOffice.CRM.Web.Data.FindDataHandler
+  isExternal: true
+  name: LoadDefaultInternalArchiveRestrictionInfo(String)
+  nameWithType: FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(String)
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+    name: LoadDefaultInternalArchiveRestrictionInfo
+    nameWithType: FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo(System.String)
+    name: LoadDefaultInternalArchiveRestrictionInfo
+    nameWithType: FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.Web.Data.FindDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+  isExternal: true
+  name: LoadDefaultInternalArchiveRestrictionInfo
+  nameWithType: FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.LoadDefaultInternalArchiveRestrictionInfo
+- uid: SuperOffice.CRM.Web.Data.FindDataHandler.InternalArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.Web.Data.FindDataHandler.InternalArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: FindDataHandler.InternalArchiveRestrictionInfo
+  nameWithType: FindDataHandler.InternalArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.Data.FindDataHandler.InternalArchiveRestrictionInfo
+- uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.#ctor
+  isExternal: true
+  name: FindSelectionMembersDataHandler
+  nameWithType: FindSelectionMembersDataHandler.FindSelectionMembersDataHandler
+  fullName: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler.FindSelectionMembersDataHandler

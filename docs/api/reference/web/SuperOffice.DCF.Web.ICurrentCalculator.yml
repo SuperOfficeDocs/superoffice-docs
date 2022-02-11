@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ICurrentCalculator
+  commentId: T:SuperOffice.DCF.Web.ICurrentCalculator
+  id: ICurrentCalculator
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  langs:
+  - csharp
+  - vb
+  name: ICurrentCalculator
+  nameWithType: ICurrentCalculator
+  fullName: SuperOffice.DCF.Web.ICurrentCalculator
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public interface ICurrentCalculator : ICurrentCalculatorPlugin, IPlugin'
+    content.vb: >-
+      Public Interface ICurrentCalculator
+          Inherits ICurrentCalculatorPlugin, IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  commentId: M:SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  id: Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  parent: SuperOffice.DCF.Web.ICurrentCalculator
+  langs:
+  - csharp
+  - vb
+  name: Calculate(String, HistoryItem, SuperStateHelper)
+  nameWithType: ICurrentCalculator.Calculate(String, HistoryItem, SuperStateHelper)
+  fullName: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String, SuperOffice.Cache.HistoryItem, SuperOffice.Cache.SuperStateHelper)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: HistoryItem Calculate(string entityName, HistoryItem current, SuperStateHelper helper)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: current
+      type: SuperOffice.Cache.HistoryItem
+    - id: helper
+      type: SuperOffice.Cache.SuperStateHelper
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Function Calculate(entityName As String, current As HistoryItem, helper As SuperStateHelper) As HistoryItem
+  overload: SuperOffice.DCF.Web.ICurrentCalculator.Calculate*
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.ICurrentCalculator.Calculate*
+  commentId: Overload:SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+  isExternal: true
+  name: Calculate
+  nameWithType: ICurrentCalculator.Calculate
+  fullName: SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Cache.SuperStateHelper
+  commentId: T:SuperOffice.Cache.SuperStateHelper
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperStateHelper
+  nameWithType: SuperStateHelper
+  fullName: SuperOffice.Cache.SuperStateHelper
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache

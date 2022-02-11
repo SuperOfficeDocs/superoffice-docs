@@ -1,0 +1,22 @@
+digraph cust_lang  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+cust_lang[fillcolor = "cadetblue1"]
+kb_category[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+mail_in_filter[fillcolor = "azure1"]
+reply_template_body[fillcolor = "azure1"]
+cust_category[fillcolor = "azure1"]
+chat_topic[fillcolor = "azure1"]
+cust_config[fillcolor = "azure1"]
+cust_lang -> kb_category [headlabel = "kb_root"]
+contact -> cust_lang [label = "supportLanguageId"]
+person -> cust_lang [label = "supportLanguageId"]
+mail_in_filter -> cust_lang [label = "language_id"]
+reply_template_body -> cust_lang [label = "language_id"]
+cust_category -> cust_lang [label = "language_id"]
+chat_topic -> cust_lang [label = "language_id"]
+cust_config -> cust_lang [label = "cust_lang_id"]
+}

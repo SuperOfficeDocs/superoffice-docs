@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  id: SuperOffice.CRM.Notification
+  children:
+  - SuperOffice.CRM.Notification.AppointmentAlarmBroker
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  - SuperOffice.CRM.Notification.DeviceInfo
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Notification.AppointmentAlarmBroker
+  commentId: T:SuperOffice.CRM.Notification.AppointmentAlarmBroker
+  isExternal: true
+  name: AppointmentAlarmBroker
+  nameWithType: AppointmentAlarmBroker
+  fullName: SuperOffice.CRM.Notification.AppointmentAlarmBroker
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  commentId: T:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  isExternal: true
+  name: CentralServicesPushNotificationClient
+  nameWithType: CentralServicesPushNotificationClient
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+- uid: SuperOffice.CRM.Notification.DeviceInfo
+  commentId: T:SuperOffice.CRM.Notification.DeviceInfo
+  parent: SuperOffice.CRM.Notification
+  isExternal: true
+  name: DeviceInfo
+  nameWithType: DeviceInfo
+  fullName: SuperOffice.CRM.Notification.DeviceInfo
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  commentId: T:SuperOffice.CRM.Notification.PushNotificationServiceManager
+  isExternal: true
+  name: PushNotificationServiceManager
+  nameWithType: PushNotificationServiceManager
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  isExternal: true
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification

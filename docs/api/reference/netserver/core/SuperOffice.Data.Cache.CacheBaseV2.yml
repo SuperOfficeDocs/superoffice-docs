@@ -1,0 +1,819 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.CacheBaseV2
+  commentId: T:SuperOffice.Data.Cache.CacheBaseV2
+  id: CacheBaseV2
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.CacheBaseV2.#ctor
+  - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.Load
+  - SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  langs:
+  - csharp
+  - vb
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nBase class for caches.\n"
+  remarks: "\n<p>\n Implement this class if you want to implement a cache within \n NetServer.  Classes implementing this class should always be \n instantiated with the <xref href=\"SuperOffice.Data.Cache.CacheManager.Get%60%601\" data-throw-if-not-resolved=\"false\"></xref> method.\n</p>\n"
+  syntax:
+    content: 'public abstract class CacheBaseV2 : IFlushableV2, IDisposable'
+    content.vb: >-
+      Public MustInherit Class CacheBaseV2
+          Implements IFlushableV2, IDisposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Cache.CategoryCache
+  - SuperOffice.CRM.Cache.ConsentCache
+  - SuperOffice.CRM.Cache.ProbCache
+  - SuperOffice.CRM.Cache.ShipmentTypeCache
+  - SuperOffice.CRM.Security.QuoteLineConfigurationCache
+  - SuperOffice.CRM.Security.UserGroupCache
+  - SuperOffice.License.LicenseAssocLinkCache
+  - SuperOffice.License.LicenseCache
+  implements:
+  - SuperOffice.Data.Cache.IFlushableV2
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Cache.CacheBaseV2.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.CacheBaseV2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Data.Cache.CacheBaseV2.#ctor
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: CacheBaseV2()
+  nameWithType: CacheBaseV2.CacheBaseV2()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.CacheBaseV2()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nDefault constructor for CacheBase\n"
+  remarks: "\nClasses inheriting this class should only be instantiated through the <xref href=\"SuperOffice.Data.Cache.CacheManager.Get%60%601\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
+  syntax:
+    content: protected CacheBaseV2()
+    content.vb: Protected Sub New
+  overload: SuperOffice.Data.Cache.CacheBaseV2.#ctor*
+  exceptions:
+  - type: System.Security.SecurityException
+    commentId: T:System.Security.SecurityException
+    description: "\nThis exception will be thrown if not above elements in the call stack \nis saved with the SuperOffice strong name.\n"
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  id: Dispose
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CacheBaseV2.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nDispose of the cache\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Data.Cache.CacheBaseV2.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
+  id: Flush
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: CacheBaseV2.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nReleases the cache instance for the GC to clean up, next cache fetched will be a new instance with\nnew data loaded.\n"
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush
+  overload: SuperOffice.Data.Cache.CacheBaseV2.Flush*
+  implements:
+  - SuperOffice.Data.Cache.IFlushableV2.Flush
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  id: BeginDisableAutoUpdate
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: BeginDisableAutoUpdate()
+  nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public CacheManager.DisableAutoUpdateScope BeginDisableAutoUpdate()
+    return:
+      type: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
+    content.vb: Public Function BeginDisableAutoUpdate As CacheManager.DisableAutoUpdateScope
+  overload: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
+  id: Load
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: CacheBaseV2.Load()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nLoads the cache data\n"
+  syntax:
+    content: protected void Load()
+    content.vb: Protected Sub Load
+  overload: SuperOffice.Data.Cache.CacheBaseV2.Load*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  id: OnLoad
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: OnLoad()
+  nameWithType: CacheBaseV2.OnLoad()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: protected abstract void OnLoad()
+    content.vb: Protected MustOverride Sub OnLoad
+  overload: SuperOffice.Data.Cache.CacheBaseV2.OnLoad*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.IFlushableV2
+  commentId: T:SuperOffice.Data.Cache.IFlushableV2
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushableV2
+  nameWithType: IFlushableV2
+  fullName: SuperOffice.Data.Cache.IFlushableV2
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CacheBaseV2, To>()
+  nameWithType: EnumUtil.MapEnums<CacheBaseV2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheBaseV2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheBaseV2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheBaseV2, To)()
+  name.vb: MapEnums(Of CacheBaseV2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CacheBaseV2, To>
+    nameWithType: EnumUtil.MapEnums<CacheBaseV2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheBaseV2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CacheBaseV2, To)
+    nameWithType: EnumUtil.MapEnums(Of CacheBaseV2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheBaseV2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CacheBaseV2, To>()
+  nameWithType: Converters.MapEnums<CacheBaseV2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheBaseV2, To>()
+  nameWithType.vb: Converters.MapEnums(Of CacheBaseV2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheBaseV2, To)()
+  name.vb: MapEnums(Of CacheBaseV2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CacheBaseV2, To>
+    nameWithType: Converters.MapEnums<CacheBaseV2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheBaseV2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CacheBaseV2, To)
+    nameWithType: Converters.MapEnums(Of CacheBaseV2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheBaseV2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.CacheBaseV2.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBaseV2.#ctor
+  isExternal: true
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2.CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.CacheBaseV2
+- uid: System.Security.SecurityException
+  commentId: T:System.Security.SecurityException
+  isExternal: true
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: CacheBaseV2.Dispose
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBaseV2.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: CacheBaseV2.Flush
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
+- uid: SuperOffice.Data.Cache.IFlushableV2.Flush
+  commentId: M:SuperOffice.Data.Cache.IFlushableV2.Flush
+  parent: SuperOffice.Data.Cache.IFlushableV2
+  isExternal: true
+  name: Flush()
+  nameWithType: IFlushableV2.Flush()
+  fullName: SuperOffice.Data.Cache.IFlushableV2.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.IFlushableV2.Flush
+    name: Flush
+    nameWithType: IFlushableV2.Flush
+    fullName: SuperOffice.Data.Cache.IFlushableV2.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.IFlushableV2.Flush
+    name: Flush
+    nameWithType: IFlushableV2.Flush
+    fullName: SuperOffice.Data.Cache.IFlushableV2.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  isExternal: true
+  name: BeginDisableAutoUpdate
+  nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+- uid: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
+  commentId: T:SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheManager.DisableAutoUpdateScope
+  nameWithType: CacheManager.DisableAutoUpdateScope
+  fullName: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBaseV2.Load
+  isExternal: true
+  name: Load
+  nameWithType: CacheBaseV2.Load
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: CacheBaseV2.OnLoad
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad

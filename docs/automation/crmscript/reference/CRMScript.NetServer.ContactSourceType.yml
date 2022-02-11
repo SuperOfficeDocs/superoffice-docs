@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ContactSourceType
+  # Same as SuperOffice.WebApi.Data.ContactContactSourceType
+  commentId: T:CRMScript.NetServer.ContactSourceType
+  id: ContactSourceType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ContactSourceType.Unknown
+  - CRMScript.NetServer.ContactSourceType.History
+  - CRMScript.NetServer.ContactSourceType.Diary
+  - CRMScript.NetServer.ContactSourceType.Favorites
+  - CRMScript.NetServer.ContactSourceType.All
+  name: ContactSourceType
+  nameWithType: ContactSourceType
+  fullName: CRMScript.NetServer.ContactSourceType
+  type: Enum
+  summary: "\nDescribes what source the contacts should be retrieved from.<p></p>\nConsists of flag values that can be combined.\n"
+- uid: CRMScript.NetServer.ContactSourceType.Unknown
+  commentId: F:CRMScript.NetServer.ContactSourceType.Unknown
+  id: ContactSourceType.Unknown
+  langs:
+  - crmscript
+  name: ContactSourceType.Unknown
+  nameWithType: ContactSourceType.Unknown
+  fullName: CRMScript.NetServer.ContactSourceType.Unknown
+  type: Field
+  summary: "\n0: Unknown/undecided type\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.ContactSourceType
+- uid: CRMScript.NetServer.ContactSourceType.History
+  commentId: F:CRMScript.NetServer.ContactSourceType.History
+  id: ContactSourceType.History
+  langs:
+  - crmscript
+  name: ContactSourceType.History
+  nameWithType: ContactSourceType.History
+  fullName: CRMScript.NetServer.ContactSourceType.History
+  type: Field
+  summary: "\n1: Contact is retrieved from the history list\n"
+  syntax: 
+    content: History = 1
+    type: CRMScript.NetServer.ContactSourceType
+- uid: CRMScript.NetServer.ContactSourceType.Diary
+  commentId: F:CRMScript.NetServer.ContactSourceType.Diary
+  id: ContactSourceType.Diary
+  langs:
+  - crmscript
+  name: ContactSourceType.Diary
+  nameWithType: ContactSourceType.Diary
+  fullName: CRMScript.NetServer.ContactSourceType.Diary
+  type: Field
+  summary: "\n2: Contact is retrieved from the diary\n"
+  syntax: 
+    content: Diary = 2
+    type: CRMScript.NetServer.ContactSourceType
+- uid: CRMScript.NetServer.ContactSourceType.Favorites
+  commentId: F:CRMScript.NetServer.ContactSourceType.Favorites
+  id: ContactSourceType.Favorites
+  langs:
+  - crmscript
+  name: ContactSourceType.Favorites
+  nameWithType: ContactSourceType.Favorites
+  fullName: CRMScript.NetServer.ContactSourceType.Favorites
+  type: Field
+  summary: "\n4: Contact is retrieved from the favorites list\n"
+  syntax: 
+    content: Favorites = 4
+    type: CRMScript.NetServer.ContactSourceType
+- uid: CRMScript.NetServer.ContactSourceType.All
+  commentId: F:CRMScript.NetServer.ContactSourceType.All
+  id: ContactSourceType.All
+  langs:
+  - crmscript
+  name: ContactSourceType.All
+  nameWithType: ContactSourceType.All
+  fullName: CRMScript.NetServer.ContactSourceType.All
+  type: Field
+  summary: "\n7: All\n"
+  syntax: 
+    content: All = 7
+    type: CRMScript.NetServer.ContactSourceType
+references:
+- uid: CRMScript.NetServer.ContactSourceType
+  commentId: T:CRMScript.NetServer.ContactSourceType
+  isExternal: true
+  name: ContactSourceType
+  nameWithType: ContactSourceType
+  fullName: CRMScript.NetServer.ContactSourceType

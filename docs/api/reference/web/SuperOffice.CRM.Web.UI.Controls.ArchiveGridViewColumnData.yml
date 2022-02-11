@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  id: ArchiveGridViewColumnData
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint
+  langs:
+  - csharp
+  - vb
+  name: ArchiveGridViewColumnData
+  nameWithType: ArchiveGridViewColumnData
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class ArchiveGridViewColumnData
+    content.vb: Public Class ArchiveGridViewColumnData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)'
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveGridViewColumnData(ArchiveColumnData)
+  nameWithType: ArchiveGridViewColumnData.ArchiveGridViewColumnData(ArchiveColumnData)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.ArchiveGridViewColumnData(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveGridViewColumnData(ArchiveColumnData acd)
+    parameters:
+    - id: acd
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Sub New(acd As ArchiveColumnData)
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: ArchiveGridViewColumnData.DisplayValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayValue As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint
+  id: TooltipHint
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  langs:
+  - csharp
+  - vb
+  name: TooltipHint
+  nameWithType: ArchiveGridViewColumnData.TooltipHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string TooltipHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TooltipHint As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint
+  id: LinkHint
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+  langs:
+  - csharp
+  - vb
+  name: LinkHint
+  nameWithType: ArchiveGridViewColumnData.LinkHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string LinkHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LinkHint As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.#ctor
+  isExternal: true
+  name: ArchiveGridViewColumnData
+  nameWithType: ArchiveGridViewColumnData.ArchiveGridViewColumnData
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.ArchiveGridViewColumnData
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: ArchiveGridViewColumnData.DisplayValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.DisplayValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint
+  isExternal: true
+  name: TooltipHint
+  nameWithType: ArchiveGridViewColumnData.TooltipHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.TooltipHint
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint
+  isExternal: true
+  name: LinkHint
+  nameWithType: ArchiveGridViewColumnData.LinkHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData.LinkHint

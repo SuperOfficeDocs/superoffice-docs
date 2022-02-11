@@ -1,0 +1,1235 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.NotInAll
+  commentId: T:SuperOffice.Data.SQL.NotInAll
+  id: NotInAll
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.NotInAll.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.NotInAll.Clone
+  - SuperOffice.Data.SQL.NotInAll.ToString
+  langs:
+  - csharp
+  - vb
+  name: NotInAll
+  nameWithType: NotInAll
+  fullName: SuperOffice.Data.SQL.NotInAll
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nNotInAll is a special case, valid only for the int[] datatype (think TAGS), that means &quot;all of&quot;\n"
+  syntax:
+    content: 'public sealed class NotInAll : ArrayCompare, ICloneable'
+    content.vb: >-
+      Public NotInheritable Class NotInAll
+          Inherits ArrayCompare
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.QueryElement
+  - SuperOffice.Data.SQL.Restriction
+  - SuperOffice.Data.SQL.Compare
+  - SuperOffice.Data.SQL.ArrayCompare
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.ArrayCompare._right
+  - SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+  - SuperOffice.Data.SQL.ArrayCompare.Right
+  - SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
+  - SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
+  - SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
+  - SuperOffice.Data.SQL.Compare.Left
+  - SuperOffice.Data.SQL.Compare.IsRelationDescription
+  - SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.NotInAll.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.NotInAll.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SQL.NotInAll.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.SQL.NotInAll.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])
+  id: '#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])'
+  parent: SuperOffice.Data.SQL.NotInAll
+  langs:
+  - csharp
+  - vb
+  name: NotInAll(Argument, Argument[])
+  nameWithType: NotInAll.NotInAll(Argument, Argument[])
+  fullName: SuperOffice.Data.SQL.NotInAll.NotInAll(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.In\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public NotInAll(Argument left, params Argument[] right)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+      description: Leftside argument
+    - id: right
+      type: SuperOffice.Data.SQL.Argument[]
+      description: Rightside argument
+    content.vb: Public Sub New(left As Argument, ParamArray right As Argument())
+  overload: SuperOffice.Data.SQL.NotInAll.#ctor*
+  nameWithType.vb: NotInAll.NotInAll(Argument, Argument())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.NotInAll.NotInAll(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument())
+  name.vb: NotInAll(Argument, Argument())
+- uid: SuperOffice.Data.SQL.NotInAll.Clone
+  commentId: M:SuperOffice.Data.SQL.NotInAll.Clone
+  id: Clone
+  parent: SuperOffice.Data.SQL.NotInAll
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: NotInAll.Clone()
+  fullName: SuperOffice.Data.SQL.NotInAll.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nClone the query. Parameter values are shared between the original and the clone.\n"
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+      description: Copy of the and the sub-elements
+    content.vb: Public Overrides Function Clone As Object
+  overridden: SuperOffice.Data.SQL.ArrayCompare.Clone
+  overload: SuperOffice.Data.SQL.NotInAll.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.NotInAll.ToString
+  commentId: M:SuperOffice.Data.SQL.NotInAll.ToString
+  id: ToString
+  parent: SuperOffice.Data.SQL.NotInAll
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NotInAll.ToString()
+  fullName: SuperOffice.Data.SQL.NotInAll.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nString output.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: a IN b
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.Data.SQL.ArrayCompare.ToString
+  overload: SuperOffice.Data.SQL.NotInAll.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.QueryElement
+  commentId: T:SuperOffice.Data.SQL.QueryElement
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: QueryElement
+  nameWithType: QueryElement
+  fullName: SuperOffice.Data.SQL.QueryElement
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.Data.SQL.Compare
+  commentId: T:SuperOffice.Data.SQL.Compare
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Compare
+  nameWithType: Compare
+  fullName: SuperOffice.Data.SQL.Compare
+- uid: SuperOffice.Data.SQL.ArrayCompare
+  commentId: T:SuperOffice.Data.SQL.ArrayCompare
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ArrayCompare
+  nameWithType: ArrayCompare
+  fullName: SuperOffice.Data.SQL.ArrayCompare
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.ArrayCompare._right
+  commentId: F:SuperOffice.Data.SQL.ArrayCompare._right
+  parent: SuperOffice.Data.SQL.ArrayCompare
+  isExternal: true
+  name: _right
+  nameWithType: ArrayCompare._right
+  fullName: SuperOffice.Data.SQL.ArrayCompare._right
+- uid: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+  commentId: M:SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+  parent: SuperOffice.Data.SQL.ArrayCompare
+  isExternal: true
+  name: GetSubElements()
+  nameWithType: ArrayCompare.GetSubElements()
+  fullName: SuperOffice.Data.SQL.ArrayCompare.GetSubElements()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+    name: GetSubElements
+    nameWithType: ArrayCompare.GetSubElements
+    fullName: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+    name: GetSubElements
+    nameWithType: ArrayCompare.GetSubElements
+    fullName: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.ArrayCompare.Right
+  commentId: P:SuperOffice.Data.SQL.ArrayCompare.Right
+  parent: SuperOffice.Data.SQL.ArrayCompare
+  isExternal: true
+  name: Right
+  nameWithType: ArrayCompare.Right
+  fullName: SuperOffice.Data.SQL.ArrayCompare.Right
+- uid: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.Compare
+  isExternal: true
+  name: IsTableInvolved(TableInfo)
+  nameWithType: Compare.IsTableInvolved(TableInfo)
+  fullName: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
+    name: IsTableInvolved
+    nameWithType: Compare.IsTableInvolved
+    fullName: SuperOffice.Data.SQL.Compare.IsTableInvolved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
+    name: IsTableInvolved
+    nameWithType: Compare.IsTableInvolved
+    fullName: SuperOffice.Data.SQL.Compare.IsTableInvolved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
+  commentId: M:SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
+  parent: SuperOffice.Data.SQL.Compare
+  isExternal: true
+  name: AreAllTablesInvolved(TableInfo, SoTable[])
+  nameWithType: Compare.AreAllTablesInvolved(TableInfo, SoTable[])
+  fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.Dictionary.SoTable[])
+  nameWithType.vb: Compare.AreAllTablesInvolved(TableInfo, SoTable())
+  fullName.vb: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.Dictionary.SoTable())
+  name.vb: AreAllTablesInvolved(TableInfo, SoTable())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
+    name: AreAllTablesInvolved
+    nameWithType: Compare.AreAllTablesInvolved
+    fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
+    name: AreAllTablesInvolved
+    nameWithType: Compare.AreAllTablesInvolved
+    fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
+  commentId: M:SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
+  parent: SuperOffice.Data.SQL.Compare
+  isExternal: true
+  name: GetInvolvedTables(Dictionary<TableInfo, Object>)
+  nameWithType: Compare.GetInvolvedTables(Dictionary<TableInfo, Object>)
+  fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary<SuperOffice.Data.SQL.TableInfo, System.Object>)
+  nameWithType.vb: Compare.GetInvolvedTables(Dictionary(Of TableInfo, Object))
+  fullName.vb: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary(Of SuperOffice.Data.SQL.TableInfo, System.Object))
+  name.vb: GetInvolvedTables(Dictionary(Of TableInfo, Object))
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
+    name: GetInvolvedTables
+    nameWithType: Compare.GetInvolvedTables
+    fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
+    name: GetInvolvedTables
+    nameWithType: Compare.GetInvolvedTables
+    fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
+  commentId: M:SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
+  parent: SuperOffice.Data.SQL.Compare
+  isExternal: true
+  name: GetTypedSubElement<T>()
+  nameWithType: Compare.GetTypedSubElement<T>()
+  fullName: SuperOffice.Data.SQL.Compare.GetTypedSubElement<T>()
+  nameWithType.vb: Compare.GetTypedSubElement(Of T)()
+  fullName.vb: SuperOffice.Data.SQL.Compare.GetTypedSubElement(Of T)()
+  name.vb: GetTypedSubElement(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
+    name: GetTypedSubElement<T>
+    nameWithType: Compare.GetTypedSubElement<T>
+    fullName: SuperOffice.Data.SQL.Compare.GetTypedSubElement<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
+    name: GetTypedSubElement(Of T)
+    nameWithType: Compare.GetTypedSubElement(Of T)
+    fullName: SuperOffice.Data.SQL.Compare.GetTypedSubElement(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Compare.Left
+  commentId: P:SuperOffice.Data.SQL.Compare.Left
+  parent: SuperOffice.Data.SQL.Compare
+  isExternal: true
+  name: Left
+  nameWithType: Compare.Left
+  fullName: SuperOffice.Data.SQL.Compare.Left
+- uid: SuperOffice.Data.SQL.Compare.IsRelationDescription
+  commentId: P:SuperOffice.Data.SQL.Compare.IsRelationDescription
+  parent: SuperOffice.Data.SQL.Compare
+  isExternal: true
+  name: IsRelationDescription
+  nameWithType: Compare.IsRelationDescription
+  fullName: SuperOffice.Data.SQL.Compare.IsRelationDescription
+- uid: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.Data.SQL.Restriction
+  isExternal: true
+  name: And(Restriction)
+  nameWithType: Restriction.And(Restriction)
+  fullName: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
+    name: And
+    nameWithType: Restriction.And
+    fullName: SuperOffice.Data.SQL.Restriction.And
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
+    name: And
+    nameWithType: Restriction.And
+    fullName: SuperOffice.Data.SQL.Restriction.And
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.Data.SQL.Restriction
+  isExternal: true
+  name: Or(Restriction)
+  nameWithType: Restriction.Or(Restriction)
+  fullName: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
+    name: Or
+    nameWithType: Restriction.Or
+    fullName: SuperOffice.Data.SQL.Restriction.Or
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
+    name: Or
+    nameWithType: Restriction.Or
+    fullName: SuperOffice.Data.SQL.Restriction.Or
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.Data.SQL.Restriction
+  isExternal: true
+  name: RestrictionAnd(Restriction, Restriction)
+  nameWithType: Restriction.RestrictionAnd(Restriction, Restriction)
+  fullName: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction, SuperOffice.Data.SQL.Restriction)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+    name: RestrictionAnd
+    nameWithType: Restriction.RestrictionAnd
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionAnd
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+    name: RestrictionAnd
+    nameWithType: Restriction.RestrictionAnd
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionAnd
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.Data.SQL.Restriction
+  isExternal: true
+  name: RestrictionOr(Restriction, Restriction)
+  nameWithType: Restriction.RestrictionOr(Restriction, Restriction)
+  fullName: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction, SuperOffice.Data.SQL.Restriction)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+    name: RestrictionOr
+    nameWithType: Restriction.RestrictionOr
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionOr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
+    name: RestrictionOr
+    nameWithType: Restriction.RestrictionOr
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionOr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.NotInAll.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NotInAll, To>()
+  nameWithType: EnumUtil.MapEnums<NotInAll, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.NotInAll, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NotInAll, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.NotInAll, To)()
+  name.vb: MapEnums(Of NotInAll, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NotInAll, To>
+    nameWithType: EnumUtil.MapEnums<NotInAll, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.NotInAll, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NotInAll, To)
+    nameWithType: EnumUtil.MapEnums(Of NotInAll, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.NotInAll, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.NotInAll.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NotInAll, To>()
+  nameWithType: Converters.MapEnums<NotInAll, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.NotInAll, To>()
+  nameWithType.vb: Converters.MapEnums(Of NotInAll, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.NotInAll, To)()
+  name.vb: MapEnums(Of NotInAll, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NotInAll, To>
+    nameWithType: Converters.MapEnums<NotInAll, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.NotInAll, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NotInAll, To)
+    nameWithType: Converters.MapEnums(Of NotInAll, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.NotInAll, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SQL.NotInAll.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.NotInAll.#ctor
+  isExternal: true
+  name: NotInAll
+  nameWithType: NotInAll.NotInAll
+  fullName: SuperOffice.Data.SQL.NotInAll.NotInAll
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: SuperOffice.Data.SQL.Argument[]
+  isExternal: true
+  name: Argument[]
+  nameWithType: Argument[]
+  fullName: SuperOffice.Data.SQL.Argument[]
+  nameWithType.vb: Argument()
+  fullName.vb: SuperOffice.Data.SQL.Argument()
+  name.vb: Argument()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.ArrayCompare.Clone
+  commentId: M:SuperOffice.Data.SQL.ArrayCompare.Clone
+  parent: SuperOffice.Data.SQL.ArrayCompare
+  isExternal: true
+  name: Clone()
+  nameWithType: ArrayCompare.Clone()
+  fullName: SuperOffice.Data.SQL.ArrayCompare.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.ArrayCompare.Clone
+    name: Clone
+    nameWithType: ArrayCompare.Clone
+    fullName: SuperOffice.Data.SQL.ArrayCompare.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.ArrayCompare.Clone
+    name: Clone
+    nameWithType: ArrayCompare.Clone
+    fullName: SuperOffice.Data.SQL.ArrayCompare.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.NotInAll.Clone*
+  commentId: Overload:SuperOffice.Data.SQL.NotInAll.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: NotInAll.Clone
+  fullName: SuperOffice.Data.SQL.NotInAll.Clone
+- uid: SuperOffice.Data.SQL.ArrayCompare.ToString
+  commentId: M:SuperOffice.Data.SQL.ArrayCompare.ToString
+  parent: SuperOffice.Data.SQL.ArrayCompare
+  isExternal: true
+  name: ToString()
+  nameWithType: ArrayCompare.ToString()
+  fullName: SuperOffice.Data.SQL.ArrayCompare.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.ArrayCompare.ToString
+    name: ToString
+    nameWithType: ArrayCompare.ToString
+    fullName: SuperOffice.Data.SQL.ArrayCompare.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.ArrayCompare.ToString
+    name: ToString
+    nameWithType: ArrayCompare.ToString
+    fullName: SuperOffice.Data.SQL.ArrayCompare.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.NotInAll.ToString*
+  commentId: Overload:SuperOffice.Data.SQL.NotInAll.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: NotInAll.ToString
+  fullName: SuperOffice.Data.SQL.NotInAll.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

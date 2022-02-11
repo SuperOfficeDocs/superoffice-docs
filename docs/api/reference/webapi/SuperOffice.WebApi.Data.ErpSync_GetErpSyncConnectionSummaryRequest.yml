@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest
+  id: ErpSync_GetErpSyncConnectionSummaryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetErpSyncConnectionSummaryRequest
+  nameWithType: ErpSync_GetErpSyncConnectionSummaryRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_GetErpSyncConnectionSummaryRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_GetErpSyncConnectionSummaryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetErpSyncConnectionSummaryRequest()
+  nameWithType: ErpSync_GetErpSyncConnectionSummaryRequest.ErpSync_GetErpSyncConnectionSummaryRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSync_GetErpSyncConnectionSummaryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_GetErpSyncConnectionSummaryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  id: ErpSyncConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectionId
+  nameWithType: ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpSyncConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpSyncConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.#ctor
+  isExternal: true
+  name: ErpSync_GetErpSyncConnectionSummaryRequest
+  nameWithType: ErpSync_GetErpSyncConnectionSummaryRequest.ErpSync_GetErpSyncConnectionSummaryRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSync_GetErpSyncConnectionSummaryRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  isExternal: true
+  name: ErpSyncConnectionId
+  nameWithType: ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetErpSyncConnectionSummaryRequest.ErpSyncConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,13 @@
+digraph CurrencyGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+CurrencyGroupLink[fillcolor = "cadetblue1"]
+Currency[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+CurrencyGroupLink -> Currency [headlabel = "currency_id"]
+CurrencyGroupLink -> UserGroup [headlabel = "group_id"]
+CurrencyGroupLink -> associate [headlabel = "registered_associate_id"]
+CurrencyGroupLink -> associate [label = "updated_associate_id"]
+}

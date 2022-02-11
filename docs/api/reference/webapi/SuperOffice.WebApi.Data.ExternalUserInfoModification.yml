@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  commentId: T:SuperOffice.WebApi.Data.ExternalUserInfoModification
+  id: ExternalUserInfoModification
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.Active
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.All
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.Password
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.Role
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.UndefinedValue16
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.Unknown
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.UserName
+  - SuperOffice.WebApi.Data.ExternalUserInfoModification.value__
+  langs:
+  - csharp
+  - vb
+  name: ExternalUserInfoModification
+  nameWithType: ExternalUserInfoModification
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescribes what part of the external user should be changed.\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ExternalUserInfoModification : Enum'
+    content.vb: >-
+      Public NotInheritable Class ExternalUserInfoModification
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.value__
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ExternalUserInfoModification.value__
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ExternalUserInfoModification.Unknown
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: public const ExternalUserInfoModification Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const Unknown As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.UserName
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.UserName
+  id: UserName
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: ExternalUserInfoModification.UserName
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.UserName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Change the UserName\n"
+  syntax:
+    content: public const ExternalUserInfoModification UserName
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const UserName As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.Password
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.Password
+  id: Password
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: ExternalUserInfoModification.Password
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.Password
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Change the Password\n"
+  syntax:
+    content: public const ExternalUserInfoModification Password
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const Password As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.Role
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.Role
+  id: Role
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: ExternalUserInfoModification.Role
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.Role
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Change role id.\n"
+  syntax:
+    content: public const ExternalUserInfoModification Role
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const Role As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.Active
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: ExternalUserInfoModification.Active
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.Active
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Change isActive\n"
+  syntax:
+    content: public const ExternalUserInfoModification Active
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const Active As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.All
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.All
+  id: All
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ExternalUserInfoModification.All
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.All
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n15: Enumeration generated from the wsdl doesn&apos;t handle the [Flags] attribute (bit enumeration)\n"
+  syntax:
+    content: public const ExternalUserInfoModification All
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const All As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification.UndefinedValue16
+  commentId: F:SuperOffice.WebApi.Data.ExternalUserInfoModification.UndefinedValue16
+  id: UndefinedValue16
+  parent: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  langs:
+  - csharp
+  - vb
+  name: UndefinedValue16
+  nameWithType: ExternalUserInfoModification.UndefinedValue16
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification.UndefinedValue16
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: Undefined and generated value 16\n"
+  syntax:
+    content: public const ExternalUserInfoModification UndefinedValue16
+    return:
+      type: SuperOffice.WebApi.Data.ExternalUserInfoModification
+    content.vb: Public Const UndefinedValue16 As ExternalUserInfoModification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ExternalUserInfoModification
+  commentId: T:SuperOffice.WebApi.Data.ExternalUserInfoModification
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExternalUserInfoModification
+  nameWithType: ExternalUserInfoModification
+  fullName: SuperOffice.WebApi.Data.ExternalUserInfoModification

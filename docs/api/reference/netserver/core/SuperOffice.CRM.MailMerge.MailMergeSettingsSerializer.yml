@@ -1,0 +1,650 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  commentId: T:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  id: MailMergeSettingsSerializer
+  parent: SuperOffice.CRM.MailMerge
+  children:
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
+  langs:
+  - csharp
+  - vb
+  name: MailMergeSettingsSerializer
+  nameWithType: MailMergeSettingsSerializer
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: 'public sealed class MailMergeSettingsSerializer : XmlSerializer1'
+    content.vb: >-
+      Public NotInheritable Class MailMergeSettingsSerializer
+          Inherits XmlSerializer1
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.MailMerge.XmlSerializer1
+  inheritedMembers:
+  - SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+  - SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+  extensionMethods:
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
+  commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
+  id: CanDeserialize(System.Xml.XmlReader)
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  langs:
+  - csharp
+  - vb
+  name: CanDeserialize(XmlReader)
+  nameWithType: MailMergeSettingsSerializer.CanDeserialize(XmlReader)
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: public override bool CanDeserialize(XmlReader xmlReader)
+    parameters:
+    - id: xmlReader
+      type: System.Xml.XmlReader
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanDeserialize(xmlReader As XmlReader) As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
+  commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
+  id: Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(Object, XmlSerializationWriter)
+  nameWithType: MailMergeSettingsSerializer.Serialize(Object, XmlSerializationWriter)
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object, System.Xml.Serialization.XmlSerializationWriter)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: protected override void Serialize(object objectToSerialize, XmlSerializationWriter writer)
+    parameters:
+    - id: objectToSerialize
+      type: System.Object
+    - id: writer
+      type: System.Xml.Serialization.XmlSerializationWriter
+    content.vb: Protected Overrides Sub Serialize(objectToSerialize As Object, writer As XmlSerializationWriter)
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
+  commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
+  id: Deserialize(System.Xml.Serialization.XmlSerializationReader)
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(XmlSerializationReader)
+  nameWithType: MailMergeSettingsSerializer.Deserialize(XmlSerializationReader)
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: protected override object Deserialize(XmlSerializationReader reader)
+    parameters:
+    - id: reader
+      type: System.Xml.Serialization.XmlSerializationReader
+    return:
+      type: System.Object
+    content.vb: Protected Overrides Function Deserialize(reader As XmlSerializationReader) As Object
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
+  commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+  langs:
+  - csharp
+  - vb
+  name: MailMergeSettingsSerializer()
+  nameWithType: MailMergeSettingsSerializer.MailMergeSettingsSerializer()
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.MailMergeSettingsSerializer()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: public MailMergeSettingsSerializer()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.MailMerge
+  commentId: N:SuperOffice.CRM.MailMerge
+  isExternal: true
+  name: SuperOffice.CRM.MailMerge
+  nameWithType: SuperOffice.CRM.MailMerge
+  fullName: SuperOffice.CRM.MailMerge
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.MailMerge.XmlSerializer1
+  commentId: T:SuperOffice.CRM.MailMerge.XmlSerializer1
+  parent: SuperOffice.CRM.MailMerge
+  isExternal: true
+  name: XmlSerializer1
+  nameWithType: XmlSerializer1
+  fullName: SuperOffice.CRM.MailMerge.XmlSerializer1
+- uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+  commentId: M:SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+  parent: SuperOffice.CRM.MailMerge.XmlSerializer1
+  isExternal: true
+  name: CreateReader()
+  nameWithType: XmlSerializer1.CreateReader()
+  fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader()
+  spec.csharp:
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+    name: CreateReader
+    nameWithType: XmlSerializer1.CreateReader
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+    name: CreateReader
+    nameWithType: XmlSerializer1.CreateReader
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+  commentId: M:SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+  parent: SuperOffice.CRM.MailMerge.XmlSerializer1
+  isExternal: true
+  name: CreateWriter()
+  nameWithType: XmlSerializer1.CreateWriter()
+  fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter()
+  spec.csharp:
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+    name: CreateWriter
+    nameWithType: XmlSerializer1.CreateWriter
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+    name: CreateWriter
+    nameWithType: XmlSerializer1.CreateWriter
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MailMergeSettingsSerializer, To>()
+  nameWithType: EnumUtil.MapEnums<MailMergeSettingsSerializer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MailMergeSettingsSerializer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)()
+  name.vb: MapEnums(Of MailMergeSettingsSerializer, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MailMergeSettingsSerializer, To>
+    nameWithType: EnumUtil.MapEnums<MailMergeSettingsSerializer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MailMergeSettingsSerializer, To)
+    nameWithType: EnumUtil.MapEnums(Of MailMergeSettingsSerializer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<MailMergeSettingsSerializer>(MailMergeSettingsSerializer)
+  nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettingsSerializer>(MailMergeSettingsSerializer)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+  name.vb: AssignByReflection(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MailMergeSettingsSerializer>
+    nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettingsSerializer>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+    name: MailMergeSettingsSerializer
+    nameWithType: MailMergeSettingsSerializer
+    fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MailMergeSettingsSerializer)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MailMergeSettingsSerializer)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+    name: MailMergeSettingsSerializer
+    nameWithType: MailMergeSettingsSerializer
+    fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<MailMergeSettingsSerializer>()
+  nameWithType: ObjectExtensions.GraphCopy<MailMergeSettingsSerializer>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailMergeSettingsSerializer)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)()
+  name.vb: GraphCopy(Of MailMergeSettingsSerializer)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MailMergeSettingsSerializer>
+    nameWithType: ObjectExtensions.GraphCopy<MailMergeSettingsSerializer>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MailMergeSettingsSerializer)
+    nameWithType: ObjectExtensions.GraphCopy(Of MailMergeSettingsSerializer)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MailMergeSettingsSerializer, To>()
+  nameWithType: Converters.MapEnums<MailMergeSettingsSerializer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>()
+  nameWithType.vb: Converters.MapEnums(Of MailMergeSettingsSerializer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)()
+  name.vb: MapEnums(Of MailMergeSettingsSerializer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MailMergeSettingsSerializer, To>
+    nameWithType: Converters.MapEnums<MailMergeSettingsSerializer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MailMergeSettingsSerializer, To)
+    nameWithType: Converters.MapEnums(Of MailMergeSettingsSerializer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize
+  isExternal: true
+  name: CanDeserialize
+  nameWithType: MailMergeSettingsSerializer.CanDeserialize
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize
+- uid: System.Xml.XmlReader
+  isExternal: true
+  name: XmlReader
+  nameWithType: XmlReader
+  fullName: System.Xml.XmlReader
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize
+  isExternal: true
+  name: Serialize
+  nameWithType: MailMergeSettingsSerializer.Serialize
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize
+- uid: System.Xml.Serialization.XmlSerializationWriter
+  isExternal: true
+  name: XmlSerializationWriter
+  nameWithType: XmlSerializationWriter
+  fullName: System.Xml.Serialization.XmlSerializationWriter
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize
+  isExternal: true
+  name: Deserialize
+  nameWithType: MailMergeSettingsSerializer.Deserialize
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize
+- uid: System.Xml.Serialization.XmlSerializationReader
+  isExternal: true
+  name: XmlSerializationReader
+  nameWithType: XmlSerializationReader
+  fullName: System.Xml.Serialization.XmlSerializationReader
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
+  isExternal: true
+  name: MailMergeSettingsSerializer
+  nameWithType: MailMergeSettingsSerializer.MailMergeSettingsSerializer
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.MailMergeSettingsSerializer

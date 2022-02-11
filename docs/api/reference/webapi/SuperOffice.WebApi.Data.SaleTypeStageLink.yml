@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink
+  commentId: T:SuperOffice.WebApi.Data.SaleTypeStageLink
+  id: SaleTypeStageLink
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.#ctor
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.Probability
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId
+  - SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink
+  nameWithType: SaleTypeStageLink
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SaleTypeStageLink.\n\n"
+  syntax:
+    content: 'public class SaleTypeStageLink : Carrier'
+    content.vb: >-
+      Public Class SaleTypeStageLink
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SaleTypeStageLink.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink()
+  nameWithType: SaleTypeStageLink.SaleTypeStageLink()
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLink()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SaleTypeStageLink()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId
+  id: SaleTypeStageLinkId
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkId
+  nameWithType: SaleTypeStageLink.SaleTypeStageLinkId
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SaleTypeStageLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeStageLinkId As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId
+  id: SaleTypeId
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeId
+  nameWithType: SaleTypeStageLink.SaleTypeId
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SaleTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeId As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName
+  id: SaleTypeName
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeName
+  nameWithType: SaleTypeStageLink.SaleTypeName
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string SaleTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleTypeName As String
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip
+  id: SaleTypeTooltip
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeTooltip
+  nameWithType: SaleTypeStageLink.SaleTypeTooltip
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string SaleTypeTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleTypeTooltip As String
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId
+  id: ProbId
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ProbId
+  nameWithType: SaleTypeStageLink.ProbId
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProbId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProbId As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName
+  id: ProbName
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ProbName
+  nameWithType: SaleTypeStageLink.ProbName
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string ProbName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProbName As String
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip
+  id: ProbTooltip
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ProbTooltip
+  nameWithType: SaleTypeStageLink.ProbTooltip
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string ProbTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProbTooltip As String
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.Probability
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeStageLink.Probability
+  id: Probability
+  parent: SuperOffice.WebApi.Data.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: SaleTypeStageLink.Probability
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.Probability
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe numeric probability of the sale\n"
+  syntax:
+    content: public virtual short Probability { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Probability As Short
+  overload: SuperOffice.WebApi.Data.SaleTypeStageLink.Probability*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.#ctor
+  isExternal: true
+  name: SaleTypeStageLink
+  nameWithType: SaleTypeStageLink.SaleTypeStageLink
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLink
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId
+  isExternal: true
+  name: SaleTypeStageLinkId
+  nameWithType: SaleTypeStageLink.SaleTypeStageLinkId
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeStageLinkId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId
+  isExternal: true
+  name: SaleTypeId
+  nameWithType: SaleTypeStageLink.SaleTypeId
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeId
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName
+  isExternal: true
+  name: SaleTypeName
+  nameWithType: SaleTypeStageLink.SaleTypeName
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip
+  isExternal: true
+  name: SaleTypeTooltip
+  nameWithType: SaleTypeStageLink.SaleTypeTooltip
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.SaleTypeTooltip
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId
+  isExternal: true
+  name: ProbId
+  nameWithType: SaleTypeStageLink.ProbId
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbId
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName
+  isExternal: true
+  name: ProbName
+  nameWithType: SaleTypeStageLink.ProbName
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbName
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip
+  isExternal: true
+  name: ProbTooltip
+  nameWithType: SaleTypeStageLink.ProbTooltip
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.ProbTooltip
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink.Probability*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeStageLink.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: SaleTypeStageLink.Probability
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink.Probability
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

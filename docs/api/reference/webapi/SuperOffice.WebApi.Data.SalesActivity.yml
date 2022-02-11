@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SalesActivity
+  commentId: T:SuperOffice.WebApi.Data.SalesActivity
+  id: SalesActivity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SalesActivity.#ctor
+  - SuperOffice.WebApi.Data.SalesActivity.RequestedContacts
+  - SuperOffice.WebApi.Data.SalesActivity.RequestedPerson
+  - SuperOffice.WebApi.Data.SalesActivity.SalesRep
+  langs:
+  - csharp
+  - vb
+  name: SalesActivity
+  nameWithType: SalesActivity
+  fullName: SuperOffice.WebApi.Data.SalesActivity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SalesActivity.\n\n"
+  syntax:
+    content: 'public class SalesActivity : Carrier'
+    content.vb: >-
+      Public Class SalesActivity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SalesActivity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SalesActivity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SalesActivity
+  langs:
+  - csharp
+  - vb
+  name: SalesActivity()
+  nameWithType: SalesActivity.SalesActivity()
+  fullName: SuperOffice.WebApi.Data.SalesActivity.SalesActivity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SalesActivity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SalesActivity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SalesActivity.RequestedContacts
+  commentId: P:SuperOffice.WebApi.Data.SalesActivity.RequestedContacts
+  id: RequestedContacts
+  parent: SuperOffice.WebApi.Data.SalesActivity
+  langs:
+  - csharp
+  - vb
+  name: RequestedContacts
+  nameWithType: SalesActivity.RequestedContacts
+  fullName: SuperOffice.WebApi.Data.SalesActivity.RequestedContacts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe companies that match the request\n"
+  syntax:
+    content: public virtual Contact[] RequestedContacts { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Contact[]
+    content.vb: Public Overridable Property RequestedContacts As Contact()
+  overload: SuperOffice.WebApi.Data.SalesActivity.RequestedContacts*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SalesActivity.RequestedPerson
+  commentId: P:SuperOffice.WebApi.Data.SalesActivity.RequestedPerson
+  id: RequestedPerson
+  parent: SuperOffice.WebApi.Data.SalesActivity
+  langs:
+  - csharp
+  - vb
+  name: RequestedPerson
+  nameWithType: SalesActivity.RequestedPerson
+  fullName: SuperOffice.WebApi.Data.SalesActivity.RequestedPerson
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that matches the request.\n"
+  syntax:
+    content: public virtual Person RequestedPerson { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Person
+    content.vb: Public Overridable Property RequestedPerson As Person
+  overload: SuperOffice.WebApi.Data.SalesActivity.RequestedPerson*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SalesActivity.SalesRep
+  commentId: P:SuperOffice.WebApi.Data.SalesActivity.SalesRep
+  id: SalesRep
+  parent: SuperOffice.WebApi.Data.SalesActivity
+  langs:
+  - csharp
+  - vb
+  name: SalesRep
+  nameWithType: SalesActivity.SalesRep
+  fullName: SuperOffice.WebApi.Data.SalesActivity.SalesRep
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sales representative for the person that matches the request.\n"
+  syntax:
+    content: public virtual Person SalesRep { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Person
+    content.vb: Public Overridable Property SalesRep As Person
+  overload: SuperOffice.WebApi.Data.SalesActivity.SalesRep*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SalesActivity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SalesActivity.#ctor
+  isExternal: true
+  name: SalesActivity
+  nameWithType: SalesActivity.SalesActivity
+  fullName: SuperOffice.WebApi.Data.SalesActivity.SalesActivity
+- uid: SuperOffice.WebApi.Data.SalesActivity.RequestedContacts*
+  commentId: Overload:SuperOffice.WebApi.Data.SalesActivity.RequestedContacts
+  isExternal: true
+  name: RequestedContacts
+  nameWithType: SalesActivity.RequestedContacts
+  fullName: SuperOffice.WebApi.Data.SalesActivity.RequestedContacts
+- uid: SuperOffice.WebApi.Data.Contact[]
+  isExternal: true
+  name: Contact[]
+  nameWithType: Contact[]
+  fullName: SuperOffice.WebApi.Data.Contact[]
+  nameWithType.vb: Contact()
+  fullName.vb: SuperOffice.WebApi.Data.Contact()
+  name.vb: Contact()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Contact
+    name: Contact
+    nameWithType: Contact
+    fullName: SuperOffice.WebApi.Data.Contact
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Contact
+    name: Contact
+    nameWithType: Contact
+    fullName: SuperOffice.WebApi.Data.Contact
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.SalesActivity.RequestedPerson*
+  commentId: Overload:SuperOffice.WebApi.Data.SalesActivity.RequestedPerson
+  isExternal: true
+  name: RequestedPerson
+  nameWithType: SalesActivity.RequestedPerson
+  fullName: SuperOffice.WebApi.Data.SalesActivity.RequestedPerson
+- uid: SuperOffice.WebApi.Data.Person
+  commentId: T:SuperOffice.WebApi.Data.Person
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.WebApi.Data.Person
+- uid: SuperOffice.WebApi.Data.SalesActivity.SalesRep*
+  commentId: Overload:SuperOffice.WebApi.Data.SalesActivity.SalesRep
+  isExternal: true
+  name: SalesRep
+  nameWithType: SalesActivity.SalesRep
+  fullName: SuperOffice.WebApi.Data.SalesActivity.SalesRep

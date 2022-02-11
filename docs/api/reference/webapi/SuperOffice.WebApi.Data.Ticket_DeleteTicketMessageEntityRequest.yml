@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest
+  id: Ticket_DeleteTicketMessageEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_DeleteTicketMessageEntityRequest
+  nameWithType: Ticket_DeleteTicketMessageEntityRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_DeleteTicketMessageEntityRequest : Object'
+    content.vb: >-
+      Public Class Ticket_DeleteTicketMessageEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_DeleteTicketMessageEntityRequest()
+  nameWithType: Ticket_DeleteTicketMessageEntityRequest.Ticket_DeleteTicketMessageEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.Ticket_DeleteTicketMessageEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_DeleteTicketMessageEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  id: TicketMessageEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageEntityId
+  nameWithType: Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketMessageEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketMessageEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.#ctor
+  isExternal: true
+  name: Ticket_DeleteTicketMessageEntityRequest
+  nameWithType: Ticket_DeleteTicketMessageEntityRequest.Ticket_DeleteTicketMessageEntityRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.Ticket_DeleteTicketMessageEntityRequest
+- uid: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  isExternal: true
+  name: TicketMessageEntityId
+  nameWithType: Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_DeleteTicketMessageEntityRequest.TicketMessageEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

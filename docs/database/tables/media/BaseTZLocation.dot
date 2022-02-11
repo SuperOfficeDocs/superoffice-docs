@@ -1,0 +1,11 @@
+digraph BaseTZLocation  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+BaseTZLocation[fillcolor = "cadetblue1"]
+TZLocation[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+BaseTZLocation -> TZLocation [headlabel = "TZLocation_id"]
+BaseTZLocation -> associate [headlabel = "registered_associate_id"]
+BaseTZLocation -> associate [label = "updated_associate_id"]
+}

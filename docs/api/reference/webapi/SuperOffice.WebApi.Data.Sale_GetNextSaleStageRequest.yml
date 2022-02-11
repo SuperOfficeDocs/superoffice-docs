@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest
+  id: Sale_GetNextSaleStageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  - SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetNextSaleStageRequest
+  nameWithType: Sale_GetNextSaleStageRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetNextSaleStageRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetNextSaleStageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetNextSaleStageRequest()
+  nameWithType: Sale_GetNextSaleStageRequest.Sale_GetNextSaleStageRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.Sale_GetNextSaleStageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetNextSaleStageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Sale_GetNextSaleStageRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  id: IncludeCurrentStage
+  parent: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeCurrentStage
+  nameWithType: Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeCurrentStage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeCurrentStage As Boolean
+  overload: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.#ctor
+  isExternal: true
+  name: Sale_GetNextSaleStageRequest
+  nameWithType: Sale_GetNextSaleStageRequest.Sale_GetNextSaleStageRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.Sale_GetNextSaleStageRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Sale_GetNextSaleStageRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  isExternal: true
+  name: IncludeCurrentStage
+  nameWithType: Sale_GetNextSaleStageRequest.IncludeCurrentStage
+  fullName: SuperOffice.WebApi.Data.Sale_GetNextSaleStageRequest.IncludeCurrentStage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

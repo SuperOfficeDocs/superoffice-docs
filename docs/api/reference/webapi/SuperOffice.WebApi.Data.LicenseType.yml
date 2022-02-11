@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.LicenseType
+  commentId: T:SuperOffice.WebApi.Data.LicenseType
+  id: LicenseType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.LicenseType.SatelliteLicense
+  - SuperOffice.WebApi.Data.LicenseType.SiteLicense
+  - SuperOffice.WebApi.Data.LicenseType.Unknown
+  - SuperOffice.WebApi.Data.LicenseType.UserLicense
+  - SuperOffice.WebApi.Data.LicenseType.value__
+  langs:
+  - csharp
+  - vb
+  name: LicenseType
+  nameWithType: LicenseType
+  fullName: SuperOffice.WebApi.Data.LicenseType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEntire system, per database, or per associate\nThis Enum is used by:  ModuleLicense.licenseType\n"
+  syntax:
+    content: 'public sealed class LicenseType : Enum'
+    content.vb: >-
+      Public NotInheritable Class LicenseType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.LicenseType.value__
+  commentId: F:SuperOffice.WebApi.Data.LicenseType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.LicenseType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: LicenseType.value__
+  fullName: SuperOffice.WebApi.Data.LicenseType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.LicenseType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.LicenseType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.LicenseType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: LicenseType.Unknown
+  fullName: SuperOffice.WebApi.Data.LicenseType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const LicenseType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.LicenseType
+    content.vb: Public Const Unknown As LicenseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseType.SiteLicense
+  commentId: F:SuperOffice.WebApi.Data.LicenseType.SiteLicense
+  id: SiteLicense
+  parent: SuperOffice.WebApi.Data.LicenseType
+  langs:
+  - csharp
+  - vb
+  name: SiteLicense
+  nameWithType: LicenseType.SiteLicense
+  fullName: SuperOffice.WebApi.Data.LicenseType.SiteLicense
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const LicenseType SiteLicense
+    return:
+      type: SuperOffice.WebApi.Data.LicenseType
+    content.vb: Public Const SiteLicense As LicenseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseType.SatelliteLicense
+  commentId: F:SuperOffice.WebApi.Data.LicenseType.SatelliteLicense
+  id: SatelliteLicense
+  parent: SuperOffice.WebApi.Data.LicenseType
+  langs:
+  - csharp
+  - vb
+  name: SatelliteLicense
+  nameWithType: LicenseType.SatelliteLicense
+  fullName: SuperOffice.WebApi.Data.LicenseType.SatelliteLicense
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const LicenseType SatelliteLicense
+    return:
+      type: SuperOffice.WebApi.Data.LicenseType
+    content.vb: Public Const SatelliteLicense As LicenseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseType.UserLicense
+  commentId: F:SuperOffice.WebApi.Data.LicenseType.UserLicense
+  id: UserLicense
+  parent: SuperOffice.WebApi.Data.LicenseType
+  langs:
+  - csharp
+  - vb
+  name: UserLicense
+  nameWithType: LicenseType.UserLicense
+  fullName: SuperOffice.WebApi.Data.LicenseType.UserLicense
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const LicenseType UserLicense
+    return:
+      type: SuperOffice.WebApi.Data.LicenseType
+    content.vb: Public Const UserLicense As LicenseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.LicenseType
+  commentId: T:SuperOffice.WebApi.Data.LicenseType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LicenseType
+  nameWithType: LicenseType
+  fullName: SuperOffice.WebApi.Data.LicenseType

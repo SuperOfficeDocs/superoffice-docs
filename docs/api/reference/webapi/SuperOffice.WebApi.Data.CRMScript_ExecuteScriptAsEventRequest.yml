@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest
+  id: CRMScript_ExecuteScriptAsEventRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ExecuteScriptAsEventRequest
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_ExecuteScriptAsEventRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_ExecuteScriptAsEventRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ExecuteScriptAsEventRequest()
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest.CRMScript_ExecuteScriptAsEventRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScript_ExecuteScriptAsEventRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_ExecuteScriptAsEventRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  id: CRMScriptId
+  parent: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptId
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CRMScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CRMScriptId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData
+  id: EventData
+  parent: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest
+  langs:
+  - csharp
+  - vb
+  name: EventData
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest.EventData
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EventData EventData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EventData
+    content.vb: Public Property EventData As EventData
+  overload: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.#ctor
+  isExternal: true
+  name: CRMScript_ExecuteScriptAsEventRequest
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest.CRMScript_ExecuteScriptAsEventRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScript_ExecuteScriptAsEventRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  isExternal: true
+  name: CRMScriptId
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.CRMScriptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData
+  isExternal: true
+  name: EventData
+  nameWithType: CRMScript_ExecuteScriptAsEventRequest.EventData
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptAsEventRequest.EventData
+- uid: SuperOffice.WebApi.Data.EventData
+  commentId: T:SuperOffice.WebApi.Data.EventData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EventData
+  nameWithType: EventData
+  fullName: SuperOffice.WebApi.Data.EventData

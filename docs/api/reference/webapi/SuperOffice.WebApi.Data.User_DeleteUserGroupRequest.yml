@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  id: User_DeleteUserGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete
+  - SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo
+  langs:
+  - csharp
+  - vb
+  name: User_DeleteUserGroupRequest
+  nameWithType: User_DeleteUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_DeleteUserGroupRequest : Object'
+    content.vb: >-
+      Public Class User_DeleteUserGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: User_DeleteUserGroupRequest()
+  nameWithType: User_DeleteUserGroupRequest.User_DeleteUserGroupRequest()
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.User_DeleteUserGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_DeleteUserGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete
+  commentId: P:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete
+  id: UserGroupToDelete
+  parent: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupToDelete
+  nameWithType: User_DeleteUserGroupRequest.UserGroupToDelete
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupToDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupToDelete As Integer
+  overload: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo
+  commentId: P:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo
+  id: UserGroupToMoveTo
+  parent: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupToMoveTo
+  nameWithType: User_DeleteUserGroupRequest.UserGroupToMoveTo
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupToMoveTo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupToMoveTo As Integer
+  overload: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.#ctor
+  isExternal: true
+  name: User_DeleteUserGroupRequest
+  nameWithType: User_DeleteUserGroupRequest.User_DeleteUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.User_DeleteUserGroupRequest
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete
+  isExternal: true
+  name: UserGroupToDelete
+  nameWithType: User_DeleteUserGroupRequest.UserGroupToDelete
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToDelete
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo
+  isExternal: true
+  name: UserGroupToMoveTo
+  nameWithType: User_DeleteUserGroupRequest.UserGroupToMoveTo
+  fullName: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest.UserGroupToMoveTo

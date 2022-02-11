@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  id: PanelWithNoUniqueId
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.#ctor
+  - SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID
+  - SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer
+  - SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID
+  langs:
+  - csharp
+  - vb
+  name: PanelWithNoUniqueId
+  nameWithType: PanelWithNoUniqueId
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: 'public class PanelWithNoUniqueId : Panel'
+    content.vb: >-
+      Public Class PanelWithNoUniqueId
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  langs:
+  - csharp
+  - vb
+  name: PanelWithNoUniqueId()
+  nameWithType: PanelWithNoUniqueId.PanelWithNoUniqueId()
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.PanelWithNoUniqueId()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public PanelWithNoUniqueId()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID
+  id: UniqueID
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  langs:
+  - csharp
+  - vb
+  name: UniqueID
+  nameWithType: PanelWithNoUniqueId.UniqueID
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public override string UniqueID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property UniqueID As String
+  overload: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer
+  id: NamingContainer
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  langs:
+  - csharp
+  - vb
+  name: NamingContainer
+  nameWithType: PanelWithNoUniqueId.NamingContainer
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public override Control NamingContainer { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.Control
+    content.vb: Public Overrides ReadOnly Property NamingContainer As Control
+  overload: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID
+  id: ClientID
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+  langs:
+  - csharp
+  - vb
+  name: ClientID
+  nameWithType: PanelWithNoUniqueId.ClientID
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public override string ClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property ClientID As String
+  overload: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.#ctor
+  isExternal: true
+  name: PanelWithNoUniqueId
+  nameWithType: PanelWithNoUniqueId.PanelWithNoUniqueId
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.PanelWithNoUniqueId
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID
+  isExternal: true
+  name: UniqueID
+  nameWithType: PanelWithNoUniqueId.UniqueID
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.UniqueID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer
+  isExternal: true
+  name: NamingContainer
+  nameWithType: PanelWithNoUniqueId.NamingContainer
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.NamingContainer
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID
+  isExternal: true
+  name: ClientID
+  nameWithType: PanelWithNoUniqueId.ClientID
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId.ClientID

@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  commentId: T:SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  id: SoFormsRedirectPluginAttribute
+  parent: SuperOffice.Web.Redirection
+  children:
+  - SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SoFormsRedirectPluginAttribute
+  nameWithType: SoFormsRedirectPluginAttribute
+  fullName: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Redirection
+  syntax:
+    content: 'public class SoFormsRedirectPluginAttribute : PrioritizedPluginAttribute'
+    content.vb: >-
+      Public Class SoFormsRedirectPluginAttribute
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoFormsRedirectPluginAttribute(String, Int32)
+  nameWithType: SoFormsRedirectPluginAttribute.SoFormsRedirectPluginAttribute(String, Int32)
+  fullName: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.SoFormsRedirectPluginAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Redirection
+  syntax:
+    content: public SoFormsRedirectPluginAttribute(string name, int priority)
+    parameters:
+    - id: name
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(name As String, priority As Integer)
+  overload: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Redirection
+  commentId: N:SuperOffice.Web.Redirection
+  isExternal: true
+  name: SuperOffice.Web.Redirection
+  nameWithType: SuperOffice.Web.Redirection
+  fullName: SuperOffice.Web.Redirection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.#ctor
+  isExternal: true
+  name: SoFormsRedirectPluginAttribute
+  nameWithType: SoFormsRedirectPluginAttribute.SoFormsRedirectPluginAttribute
+  fullName: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute.SoFormsRedirectPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

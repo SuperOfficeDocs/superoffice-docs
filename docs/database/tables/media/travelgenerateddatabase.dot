@@ -1,0 +1,9 @@
+digraph travelgenerateddatabase  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+travelgenerateddatabase[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+travelgenerateddatabase -> associate [headlabel = "registered_associate_id"]
+travelgenerateddatabase -> associate [label = "updated_associate_id"]
+}

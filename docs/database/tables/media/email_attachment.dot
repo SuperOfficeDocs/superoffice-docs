@@ -1,0 +1,8 @@
+digraph email_attachment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+email_attachment[fillcolor = "cadetblue1"]
+email_item[fillcolor = "azure1"]
+email_attachment -> email_item [headlabel = "email_item_id"]
+}

@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  commentId: T:SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  id: DBC.PrefDescLineFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.Description
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.IsBuiltin
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescId
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescLineId
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefShowValue
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefValue
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.Registered
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.Updated
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.PrefDescLineFields
+  nameWithType: DBC.PrefDescLineFields
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for PrefDescLine, Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.\n"
+  syntax:
+    content: public static class PrefDescLineFields
+    content.vb: Public Module PrefDescLineFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescLineId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescLineId
+  id: PrefDescLineId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: PrefDescLineId
+  nameWithType: DBC.PrefDescLineFields.PrefDescLineId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescLineId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.PrefDescLineId: Primary key\n"
+  syntax:
+    content: public const string PrefDescLineId = "PrefDescLine_id"
+    return:
+      type: System.String
+    content.vb: Public Const PrefDescLineId As String = "PrefDescLine_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescId
+  id: PrefDescId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: PrefDescId
+  nameWithType: DBC.PrefDescLineFields.PrefDescId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefDescId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.PrefDescId: Preference description (parent)\n"
+  syntax:
+    content: public const string PrefDescId = "PrefDesc_id"
+    return:
+      type: System.String
+    content.vb: Public Const PrefDescId As String = "PrefDesc_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefValue
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefValue
+  id: PrefValue
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: PrefValue
+  nameWithType: DBC.PrefDescLineFields.PrefValue
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.PrefValue: Possible value\n"
+  syntax:
+    content: public const string PrefValue = "prefValue"
+    return:
+      type: System.String
+    content.vb: Public Const PrefValue As String = "prefValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefShowValue
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefShowValue
+  id: PrefShowValue
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: PrefShowValue
+  nameWithType: DBC.PrefDescLineFields.PrefShowValue
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.PrefShowValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.PrefShowValue: Descriptive value, multilang-parsed, to put in list\n"
+  syntax:
+    content: public const string PrefShowValue = "prefShowValue"
+    return:
+      type: System.String
+    content.vb: Public Const PrefShowValue As String = "prefShowValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.PrefDescLineFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.PrefDescLineFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.PrefDescLineFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.PrefDescLineFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.PrefDescLineFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.PrefDescLineFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.Description: Description of preference value, multi-language parsed\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescLineFields.IsBuiltin
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescLineFields.IsBuiltin
+  id: IsBuiltin
+  parent: SuperOffice.CRM.Data.DBC.PrefDescLineFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin
+  nameWithType: DBC.PrefDescLineFields.IsBuiltin
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescLineFields.IsBuiltin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDescLine.IsBuiltin: 1 = This row populated and maintained by SuperOffice\n"
+  syntax:
+    content: public const string IsBuiltin = "isBuiltin"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltin As String = "isBuiltin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

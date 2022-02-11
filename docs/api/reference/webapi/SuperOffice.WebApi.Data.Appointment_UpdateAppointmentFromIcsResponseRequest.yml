@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
+  id: Appointment_UpdateAppointmentFromIcsResponseRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  - SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  langs:
+  - csharp
+  - vb
+  name: Appointment_UpdateAppointmentFromIcsResponseRequest
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_UpdateAppointmentFromIcsResponseRequest : Object'
+    content.vb: >-
+      Public Class Appointment_UpdateAppointmentFromIcsResponseRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_UpdateAppointmentFromIcsResponseRequest()
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest.Appointment_UpdateAppointmentFromIcsResponseRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.Appointment_UpdateAppointmentFromIcsResponseRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_UpdateAppointmentFromIcsResponseRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  id: IcsData
+  parent: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: IcsData
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] IcsData { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IcsData As Byte()
+  overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.#ctor
+  isExternal: true
+  name: Appointment_UpdateAppointmentFromIcsResponseRequest
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest.Appointment_UpdateAppointmentFromIcsResponseRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.Appointment_UpdateAppointmentFromIcsResponseRequest
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  isExternal: true
+  name: IcsData
+  nameWithType: Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+  fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentFromIcsResponseRequest.IcsData
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

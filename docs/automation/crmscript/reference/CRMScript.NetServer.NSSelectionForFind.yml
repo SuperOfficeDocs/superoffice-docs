@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSelectionForFind
+  commentId: T:CRMScript.NetServer.NSSelectionForFind
+  id: NSSelectionForFind
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSelectionForFind.#ctor
+  - CRMScript.NetServer.NSSelectionForFind.GetCanSaveAsSelection()
+  - CRMScript.NetServer.NSSelectionForFind.GetFilterScreenHeading()
+  - CRMScript.NetServer.NSSelectionForFind.GetMainHeading()
+  - CRMScript.NetServer.NSSelectionForFind.GetProviderName()
+  - CRMScript.NetServer.NSSelectionForFind.GetSelectionEntityHeading()
+  - CRMScript.NetServer.NSSelectionForFind.GetSelectionId()
+  - CRMScript.NetServer.NSSelectionForFind.SetCanSaveAsSelection(Bool)
+  - CRMScript.NetServer.NSSelectionForFind.SetFilterScreenHeading(String)
+  - CRMScript.NetServer.NSSelectionForFind.SetMainHeading(String)
+  - CRMScript.NetServer.NSSelectionForFind.SetProviderName(String)
+  - CRMScript.NetServer.NSSelectionForFind.SetSelectionEntityHeading(String)
+  - CRMScript.NetServer.NSSelectionForFind.SetSelectionId(Integer)
+  name: NSSelectionForFind
+  nameWithType: NSSelectionForFind
+  fullName: CRMScript.NetServer.NSSelectionForFind
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSelectionForFind.#ctor
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSelectionForFind
+  langs:
+  - crmscript
+  name: NSSelectionForFind()
+  nameWithType: NSSelectionForFind.#ctor
+  fullName: CRMScript.NetServer.NSSelectionForFind.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSelectionForFind class.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectionForFind
+  example: 
+- uid: CRMScript.NetServer.NSSelectionForFind.GetCanSaveAsSelection()
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.GetCanSaveAsSelection()
+  id: 'GetCanSaveAsSelection()'
+  so.intellisense: NSSelectionForFind.GetCanSaveAsSelection
+  langs:
+  - crmscript
+  name: 'GetCanSaveAsSelection()'
+  nameWithType: NSSelectionForFind.GetCanSaveAsSelection()
+  fullName: CRMScript.NetServer.NSSelectionForFind.GetCanSaveAsSelection()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCanSaveAsSelection()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Most Find entities support saving the search as a Dynamic Selection. This bool indicates if that is the case."
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nBool canSaveAsSelection = thing.GetCanSaveAsSelection();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.GetFilterScreenHeading()
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.GetFilterScreenHeading()
+  id: 'GetFilterScreenHeading()'
+  so.intellisense: NSSelectionForFind.GetFilterScreenHeading
+  langs:
+  - crmscript
+  name: 'GetFilterScreenHeading()'
+  nameWithType: NSSelectionForFind.GetFilterScreenHeading()
+  fullName: CRMScript.NetServer.NSSelectionForFind.GetFilterScreenHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFilterScreenHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "'Find sale', or whatever is appropriate for the Find<entity>filter page; this string will contain resource references"
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString filterScreenHeading = thing.GetFilterScreenHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.GetMainHeading()
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.GetMainHeading()
+  id: 'GetMainHeading()'
+  so.intellisense: NSSelectionForFind.GetMainHeading
+  langs:
+  - crmscript
+  name: 'GetMainHeading()'
+  nameWithType: NSSelectionForFind.GetMainHeading()
+  fullName: CRMScript.NetServer.NSSelectionForFind.GetMainHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMainHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "'Sale', intended for the main headings in the Find front page; this string will contain resource references"
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString mainHeading = thing.GetMainHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.GetProviderName()
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.GetProviderName()
+  id: 'GetProviderName()'
+  so.intellisense: NSSelectionForFind.GetProviderName
+  langs:
+  - crmscript
+  name: 'GetProviderName()'
+  nameWithType: NSSelectionForFind.GetProviderName()
+  fullName: CRMScript.NetServer.NSSelectionForFind.GetProviderName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProviderName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the Archive Provider to use when working with this selection; this is the main entity provider, never Shadow, Combined or anything else fancy."
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString providerName = thing.GetProviderName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.GetSelectionEntityHeading()
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.GetSelectionEntityHeading()
+  id: 'GetSelectionEntityHeading()'
+  so.intellisense: NSSelectionForFind.GetSelectionEntityHeading
+  langs:
+  - crmscript
+  name: 'GetSelectionEntityHeading()'
+  nameWithType: NSSelectionForFind.GetSelectionEntityHeading()
+  fullName: CRMScript.NetServer.NSSelectionForFind.GetSelectionEntityHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSelectionEntityHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "'Companies', or whatever else is appropriate* the plural form of the entity name, intended for the Selection.Details tab before it is saved (!!); this string will contain resource references"
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString selectionEntityHeading = thing.GetSelectionEntityHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.GetSelectionId()
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.GetSelectionId()
+  id: 'GetSelectionId()'
+  so.intellisense: NSSelectionForFind.GetSelectionId
+  langs:
+  - crmscript
+  name: 'GetSelectionId()'
+  nameWithType: NSSelectionForFind.GetSelectionId()
+  fullName: CRMScript.NetServer.NSSelectionForFind.GetSelectionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nInteger selectionId = thing.GetSelectionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.SetCanSaveAsSelection(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.SetCanSaveAsSelection(Bool)
+  id: 'SetCanSaveAsSelection(Bool)'
+  so.intellisense: NSSelectionForFind.SetCanSaveAsSelection
+  langs:
+  - crmscript
+  name: 'SetCanSaveAsSelection(Bool)'
+  nameWithType: NSSelectionForFind.SetCanSaveAsSelection(Bool)
+  fullName: CRMScript.NetServer.NSSelectionForFind.SetCanSaveAsSelection(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCanSaveAsSelection(Bool canSaveAsSelection)
+    parameters:
+    - id: canSaveAsSelection
+      type: CRMScript.Global.Bool
+      description: "Most Find entities support saving the search as a Dynamic Selection this bool indicates if that is the case."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nBool canSaveAsSelection;\nthing.SetCanSaveAsSelection(canSaveAsSelection);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.SetFilterScreenHeading(String)
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.SetFilterScreenHeading(String)
+  id: 'SetFilterScreenHeading(String)'
+  so.intellisense: NSSelectionForFind.SetFilterScreenHeading
+  langs:
+  - crmscript
+  name: 'SetFilterScreenHeading(String)'
+  nameWithType: NSSelectionForFind.SetFilterScreenHeading(String)
+  fullName: CRMScript.NetServer.NSSelectionForFind.SetFilterScreenHeading(String)
+  type: Method
+  summary: "\n'Find sale', or whatever is appropriate for the Find<entity>filter page; this string will contain resource references\n"
+  remarks: 
+  syntax: 
+    content: Void SetFilterScreenHeading(String filterScreenHeading)
+    parameters:
+    - id: filterScreenHeading
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString filterScreenHeading;\nthing.SetFilterScreenHeading(filterScreenHeading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.SetMainHeading(String)
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.SetMainHeading(String)
+  id: 'SetMainHeading(String)'
+  so.intellisense: NSSelectionForFind.SetMainHeading
+  langs:
+  - crmscript
+  name: 'SetMainHeading(String)'
+  nameWithType: NSSelectionForFind.SetMainHeading(String)
+  fullName: CRMScript.NetServer.NSSelectionForFind.SetMainHeading(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMainHeading(String mainHeading)
+    parameters:
+    - id: mainHeading
+      type: CRMScript.Global.String
+      description: "'Sale', intended for the main headings in the Find front page; this string will contain resource references"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString mainHeading;\nthing.SetMainHeading(mainHeading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.SetProviderName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.SetProviderName(String)
+  id: 'SetProviderName(String)'
+  so.intellisense: NSSelectionForFind.SetProviderName
+  langs:
+  - crmscript
+  name: 'SetProviderName(String)'
+  nameWithType: NSSelectionForFind.SetProviderName(String)
+  fullName: CRMScript.NetServer.NSSelectionForFind.SetProviderName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProviderName(String providerName)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: "The name of the Archive Provider to use when working with this selection; this is the main entity provider, never Shadow, Combined or anything else fancy."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString providerName;\nthing.SetProviderName(providerName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.SetSelectionEntityHeading(String)
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.SetSelectionEntityHeading(String)
+  id: 'SetSelectionEntityHeading(String)'
+  so.intellisense: NSSelectionForFind.SetSelectionEntityHeading
+  langs:
+  - crmscript
+  name: 'SetSelectionEntityHeading(String)'
+  nameWithType: NSSelectionForFind.SetSelectionEntityHeading(String)
+  fullName: CRMScript.NetServer.NSSelectionForFind.SetSelectionEntityHeading(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelectionEntityHeading(String selectionEntityHeading)
+    parameters:
+    - id: selectionEntityHeading
+      type: CRMScript.Global.String
+      description: "'Companies', or whatever else is appropriate* the plural form of the entity name, intended for the Selection.Details tab before it is saved (!!); this string will contain resource references"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nString selectionEntityHeading;\nthing.SetSelectionEntityHeading(selectionEntityHeading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionForFind.SetSelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionForFind.SetSelectionId(Integer)
+  id: 'SetSelectionId(Integer)'
+  so.intellisense: NSSelectionForFind.SetSelectionId
+  langs:
+  - crmscript
+  name: 'SetSelectionId(Integer)'
+  nameWithType: NSSelectionForFind.SetSelectionId(Integer)
+  fullName: CRMScript.NetServer.NSSelectionForFind.SetSelectionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelectionId(Integer selectionId)
+    parameters:
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionForFind thing;\nInteger selectionId;\nthing.SetSelectionId(selectionId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSelectionForFind
+  commentId: T:CRMScript.NetServer.NSSelectionForFind
+  isExternal: true
+  name: NSSelectionForFind
+  nameWithType: NSSelectionForFind
+  fullName: CRMScript.NetServer.NSSelectionForFind
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

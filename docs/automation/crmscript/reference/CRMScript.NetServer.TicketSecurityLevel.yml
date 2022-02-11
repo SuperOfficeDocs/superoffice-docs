@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketSecurityLevel
+  # Same as SuperOffice.Data.TicketSecurityLevel
+  commentId: T:CRMScript.NetServer.TicketSecurityLevel
+  id: TicketSecurityLevel
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketSecurityLevel.Unknown
+  - CRMScript.NetServer.TicketSecurityLevel.Internal
+  - CRMScript.NetServer.TicketSecurityLevel.External
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: CRMScript.NetServer.TicketSecurityLevel
+  type: Enum
+  summary: "\nIndicates if a ticket is external or internal.\n"
+- uid: CRMScript.NetServer.TicketSecurityLevel.Unknown
+  commentId: F:CRMScript.NetServer.TicketSecurityLevel.Unknown
+  id: TicketSecurityLevel.Unknown
+  langs:
+  - crmscript
+  name: TicketSecurityLevel.Unknown
+  nameWithType: TicketSecurityLevel.Unknown
+  fullName: CRMScript.NetServer.TicketSecurityLevel.Unknown
+  type: Field
+  summary: "\n0: Unknown level\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TicketSecurityLevel
+- uid: CRMScript.NetServer.TicketSecurityLevel.Internal
+  commentId: F:CRMScript.NetServer.TicketSecurityLevel.Internal
+  id: TicketSecurityLevel.Internal
+  langs:
+  - crmscript
+  name: TicketSecurityLevel.Internal
+  nameWithType: TicketSecurityLevel.Internal
+  fullName: CRMScript.NetServer.TicketSecurityLevel.Internal
+  type: Field
+  summary: "\n1: Internal tickets will not be shown on the Customer Centre\n"
+  syntax: 
+    content: Internal = 1
+    type: CRMScript.NetServer.TicketSecurityLevel
+- uid: CRMScript.NetServer.TicketSecurityLevel.External
+  commentId: F:CRMScript.NetServer.TicketSecurityLevel.External
+  id: TicketSecurityLevel.External
+  langs:
+  - crmscript
+  name: TicketSecurityLevel.External
+  nameWithType: TicketSecurityLevel.External
+  fullName: CRMScript.NetServer.TicketSecurityLevel.External
+  type: Field
+  summary: "\n2: External tickets will be shown on the Customer Centre\n"
+  syntax: 
+    content: External = 2
+    type: CRMScript.NetServer.TicketSecurityLevel
+references:
+- uid: CRMScript.NetServer.TicketSecurityLevel
+  commentId: T:CRMScript.NetServer.TicketSecurityLevel
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: CRMScript.NetServer.TicketSecurityLevel

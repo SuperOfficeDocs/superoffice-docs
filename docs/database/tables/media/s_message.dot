@@ -1,0 +1,19 @@
+digraph s_message  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_message[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+document[fillcolor = "azure1"]
+s_shipment[fillcolor = "azure1"]
+s_attachment[fillcolor = "azure1"]
+external_document[fillcolor = "azure1"]
+s_sent_message[fillcolor = "azure1"]
+s_message -> associate [headlabel = "registered_associate_id"]
+s_message -> associate [label = "updated_associate_id"]
+s_message -> document [headlabel = "document_message"]
+s_shipment -> s_message [label = "message_id"]
+s_attachment -> s_message [label = "message_id"]
+external_document -> s_message [label = "s_message"]
+s_sent_message -> s_message [label = "message_id"]
+}

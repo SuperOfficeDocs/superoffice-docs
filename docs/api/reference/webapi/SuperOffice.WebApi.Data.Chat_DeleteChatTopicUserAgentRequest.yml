@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest
+  id: Chat_DeleteChatTopicUserAgentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  - SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username
+  langs:
+  - csharp
+  - vb
+  name: Chat_DeleteChatTopicUserAgentRequest
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_DeleteChatTopicUserAgentRequest : Object'
+    content.vb: >-
+      Public Class Chat_DeleteChatTopicUserAgentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_DeleteChatTopicUserAgentRequest()
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest.Chat_DeleteChatTopicUserAgentRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Chat_DeleteChatTopicUserAgentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_DeleteChatTopicUserAgentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  commentId: P:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatTopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatTopicId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username
+  commentId: P:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username
+  id: Username
+  parent: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest.Username
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.#ctor
+  isExternal: true
+  name: Chat_DeleteChatTopicUserAgentRequest
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest.Chat_DeleteChatTopicUserAgentRequest
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Chat_DeleteChatTopicUserAgentRequest
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  isExternal: true
+  name: ChatTopicId
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.ChatTopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username
+  isExternal: true
+  name: Username
+  nameWithType: Chat_DeleteChatTopicUserAgentRequest.Username
+  fullName: SuperOffice.WebApi.Data.Chat_DeleteChatTopicUserAgentRequest.Username
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

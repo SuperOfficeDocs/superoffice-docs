@@ -1,0 +1,23 @@
+digraph chat_session  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+chat_session[fillcolor = "cadetblue1"]
+chat_topic[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+project[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+ticket[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+chat_message[fillcolor = "azure1"]
+chat_session -> chat_topic [headlabel = "topic_id"]
+chat_session -> ejuser [headlabel = "user_id"]
+chat_session -> person [headlabel = "customer_id"]
+chat_session -> project [headlabel = "project_id"]
+chat_session -> sale [headlabel = "sale_id"]
+chat_session -> ticket [headlabel = "ticket_id"]
+chat_session -> contact [headlabel = "contact_id"]
+chat_session -> ejuser [label = "transfer_to"]
+chat_message -> chat_session [label = "session_id"]
+}

@@ -1,0 +1,481 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments
+  commentId: T:SuperOffice.WebApi.Data.QuotePublishDocuments
+  id: QuotePublishDocuments
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.#ctor
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail
+  - SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName
+  langs:
+  - csharp
+  - vb
+  name: QuotePublishDocuments
+  nameWithType: QuotePublishDocuments
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuotePublishDocuments.\nPrepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments    \n"
+  syntax:
+    content: 'public class QuotePublishDocuments : Carrier'
+    content.vb: >-
+      Public Class QuotePublishDocuments
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuotePublishDocuments.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: QuotePublishDocuments()
+  nameWithType: QuotePublishDocuments.QuotePublishDocuments()
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotePublishDocuments()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuotePublishDocuments()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId
+  id: QuoteDocumentId
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: QuoteDocumentId
+  nameWithType: QuotePublishDocuments.QuoteDocumentId
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuote document, as PDF; may be zero if there is no document specified for the version\n"
+  syntax:
+    content: public virtual int QuoteDocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteDocumentId As Integer
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId
+  id: QuotedProductsId
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: QuotedProductsId
+  nameWithType: QuotePublishDocuments.QuotedProductsId
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuoted products (quote lines or confirmation lines) document, as PDF\n"
+  syntax:
+    content: public virtual int QuotedProductsId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuotedProductsId As Integer
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds
+  id: QuoteAttachmentIds
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: QuoteAttachmentIds
+  nameWithType: QuotePublishDocuments.QuoteAttachmentIds
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of id&apos;s of any attachments (standard + custom for this version)\n"
+  syntax:
+    content: public virtual int[] QuoteAttachmentIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property QuoteAttachmentIds As Integer()
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody
+  id: MailBody
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: MailBody
+  nameWithType: QuotePublishDocuments.MailBody
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values\n"
+  syntax:
+    content: public virtual string MailBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MailBody As String
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject
+  id: MailSubject
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: MailSubject
+  nameWithType: QuotePublishDocuments.MailSubject
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values\n"
+  syntax:
+    content: public virtual string MailSubject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MailSubject As String
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail
+  id: ToEmail
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: ToEmail
+  nameWithType: QuotePublishDocuments.ToEmail
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe email address of the recipient, taken from the sale&apos;s person\n"
+  syntax:
+    content: public virtual string ToEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToEmail As String
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName
+  id: ToFullName
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: ToFullName
+  nameWithType: QuotePublishDocuments.ToFullName
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe full name of the recipient, taken from the sale&apos;s person\n"
+  syntax:
+    content: public virtual string ToFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToFullName As String
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage
+  commentId: P:SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.WebApi.Data.QuotePublishDocuments
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: QuotePublishDocuments.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf something went wrong, show this message and do not continue\n"
+  syntax:
+    content: public virtual string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorMessage As String
+  overload: SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.#ctor
+  isExternal: true
+  name: QuotePublishDocuments
+  nameWithType: QuotePublishDocuments.QuotePublishDocuments
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotePublishDocuments
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId
+  isExternal: true
+  name: QuoteDocumentId
+  nameWithType: QuotePublishDocuments.QuoteDocumentId
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteDocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId
+  isExternal: true
+  name: QuotedProductsId
+  nameWithType: QuotePublishDocuments.QuotedProductsId
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuotedProductsId
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds
+  isExternal: true
+  name: QuoteAttachmentIds
+  nameWithType: QuotePublishDocuments.QuoteAttachmentIds
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.QuoteAttachmentIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody
+  isExternal: true
+  name: MailBody
+  nameWithType: QuotePublishDocuments.MailBody
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.MailBody
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject
+  isExternal: true
+  name: MailSubject
+  nameWithType: QuotePublishDocuments.MailSubject
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.MailSubject
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail
+  isExternal: true
+  name: ToEmail
+  nameWithType: QuotePublishDocuments.ToEmail
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.ToEmail
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName
+  isExternal: true
+  name: ToFullName
+  nameWithType: QuotePublishDocuments.ToFullName
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.ToFullName
+- uid: SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: QuotePublishDocuments.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.QuotePublishDocuments.ErrorMessage

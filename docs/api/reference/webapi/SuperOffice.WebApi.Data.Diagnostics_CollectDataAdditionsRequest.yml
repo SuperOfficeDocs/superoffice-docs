@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest
+  id: Diagnostics_CollectDataAdditionsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_CollectDataAdditionsRequest
+  nameWithType: Diagnostics_CollectDataAdditionsRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_CollectDataAdditionsRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_CollectDataAdditionsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_CollectDataAdditionsRequest()
+  nameWithType: Diagnostics_CollectDataAdditionsRequest.Diagnostics_CollectDataAdditionsRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.Diagnostics_CollectDataAdditionsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_CollectDataAdditionsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.#ctor
+  isExternal: true
+  name: Diagnostics_CollectDataAdditionsRequest
+  nameWithType: Diagnostics_CollectDataAdditionsRequest.Diagnostics_CollectDataAdditionsRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_CollectDataAdditionsRequest.Diagnostics_CollectDataAdditionsRequest

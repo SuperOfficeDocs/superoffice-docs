@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest
+  id: Sale_GetRecentSalesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit
+  - SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetRecentSalesRequest
+  nameWithType: Sale_GetRecentSalesRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetRecentSalesRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetRecentSalesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetRecentSalesRequest()
+  nameWithType: Sale_GetRecentSalesRequest.Sale_GetRecentSalesRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Sale_GetRecentSalesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetRecentSalesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit
+  id: AmountLimit
+  parent: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest
+  langs:
+  - csharp
+  - vb
+  name: AmountLimit
+  nameWithType: Sale_GetRecentSalesRequest.AmountLimit
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AmountLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AmountLimit As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Sale_GetRecentSalesRequest.Count
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.#ctor
+  isExternal: true
+  name: Sale_GetRecentSalesRequest
+  nameWithType: Sale_GetRecentSalesRequest.Sale_GetRecentSalesRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Sale_GetRecentSalesRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit
+  isExternal: true
+  name: AmountLimit
+  nameWithType: Sale_GetRecentSalesRequest.AmountLimit
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.AmountLimit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Sale_GetRecentSalesRequest.Count
+  fullName: SuperOffice.WebApi.Data.Sale_GetRecentSalesRequest.Count

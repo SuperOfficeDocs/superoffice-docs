@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  commentId: T:SuperOffice.WebApi.Data.UpsertRowActionStatus
+  id: UpsertRowActionStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
+  - SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
+  - SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
+  - SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
+  - SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
+  - SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: UpsertRowActionStatus
+  nameWithType: UpsertRowActionStatus
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpsert: Action status for each row\n"
+  syntax:
+    content: 'public sealed class UpsertRowActionStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class UpsertRowActionStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UpsertRowActionStatus.value__
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
+  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
+  id: Inserted
+  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: Inserted
+  nameWithType: UpsertRowActionStatus.Inserted
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Row not found in target, inserted; primary key assigned as required\n"
+  syntax:
+    content: public const UpsertRowActionStatus Inserted
+    return:
+      type: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    content.vb: Public Const Inserted As UpsertRowActionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
+  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: UpsertRowActionStatus.Updated
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Row found in target, update needed\n"
+  syntax:
+    content: public const UpsertRowActionStatus Updated
+    return:
+      type: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    content.vb: Public Const Updated As UpsertRowActionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
+  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
+  id: NoUpdateNeeded
+  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: NoUpdateNeeded
+  nameWithType: UpsertRowActionStatus.NoUpdateNeeded
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Row found in target, no updated needed\n"
+  syntax:
+    content: public const UpsertRowActionStatus NoUpdateNeeded
+    return:
+      type: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    content.vb: Public Const NoUpdateNeeded As UpsertRowActionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
+  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: UpsertRowActionStatus.Deleted
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Row not matched in incoming keys and DELETED\n"
+  syntax:
+    content: public const UpsertRowActionStatus Deleted
+    return:
+      type: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    content.vb: Public Const Deleted As UpsertRowActionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
+  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
+  id: ColumnsZeroed
+  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: ColumnsZeroed
+  nameWithType: UpsertRowActionStatus.ColumnsZeroed
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Row not matched in incoming keys and COLUMNS ZEROED\n"
+  syntax:
+    content: public const UpsertRowActionStatus ColumnsZeroed
+    return:
+      type: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    content.vb: Public Const ColumnsZeroed As UpsertRowActionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus
+  commentId: T:SuperOffice.WebApi.Data.UpsertRowActionStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UpsertRowActionStatus
+  nameWithType: UpsertRowActionStatus
+  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus

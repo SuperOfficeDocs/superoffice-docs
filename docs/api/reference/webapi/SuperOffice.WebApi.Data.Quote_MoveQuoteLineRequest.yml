@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest
+  id: Quote_MoveQuoteLineRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction
+  - SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId
+  langs:
+  - csharp
+  - vb
+  name: Quote_MoveQuoteLineRequest
+  nameWithType: Quote_MoveQuoteLineRequest
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_MoveQuoteLineRequest : Object'
+    content.vb: >-
+      Public Class Quote_MoveQuoteLineRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_MoveQuoteLineRequest()
+  nameWithType: Quote_MoveQuoteLineRequest.Quote_MoveQuoteLineRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Quote_MoveQuoteLineRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_MoveQuoteLineRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId
+  commentId: P:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: Quote_MoveQuoteLineRequest.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteLineId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction
+  commentId: P:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction
+  id: Direction
+  parent: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: Quote_MoveQuoteLineRequest.Direction
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Direction { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Direction As Boolean
+  overload: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.#ctor
+  isExternal: true
+  name: Quote_MoveQuoteLineRequest
+  nameWithType: Quote_MoveQuoteLineRequest.Quote_MoveQuoteLineRequest
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Quote_MoveQuoteLineRequest
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: Quote_MoveQuoteLineRequest.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.QuoteLineId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: Quote_MoveQuoteLineRequest.Direction
+  fullName: SuperOffice.WebApi.Data.Quote_MoveQuoteLineRequest.Direction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

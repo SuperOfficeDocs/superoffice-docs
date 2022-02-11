@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest
+  commentId: T:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest
+  id: DatabaseTable_DeleteRowRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.#ctor
+  - SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id
+  - SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTable_DeleteRowRequest
+  nameWithType: DatabaseTable_DeleteRowRequest
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DatabaseTable_DeleteRowRequest : Object'
+    content.vb: >-
+      Public Class DatabaseTable_DeleteRowRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTable_DeleteRowRequest()
+  nameWithType: DatabaseTable_DeleteRowRequest.DatabaseTable_DeleteRowRequest()
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.DatabaseTable_DeleteRowRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DatabaseTable_DeleteRowRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: DatabaseTable_DeleteRowRequest.TableName
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DatabaseTable_DeleteRowRequest.Id
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.#ctor
+  isExternal: true
+  name: DatabaseTable_DeleteRowRequest
+  nameWithType: DatabaseTable_DeleteRowRequest.DatabaseTable_DeleteRowRequest
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.DatabaseTable_DeleteRowRequest
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: DatabaseTable_DeleteRowRequest.TableName
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: DatabaseTable_DeleteRowRequest.Id
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRowRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

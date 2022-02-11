@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Project
+  id: Project
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Project.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate(System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId
+  - SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus(SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus
+  - SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Project")]
+
+      public class Project : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Project")>
+
+      Public Class Project
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Project
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers(System.String)
+  id: RemoveProjectMembers(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: RemoveProjectMembers(String)
+  nameWithType: Project.RemoveProjectMembers(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string RemoveProjectMembers(string ids)
+    parameters:
+    - id: ids
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function RemoveProjectMembers(ids As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject(System.Int32)
+  id: DeleteProject(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: DeleteProject(Int32)
+  nameWithType: Project.DeleteProject(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteProject(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    content.vb: Public Sub DeleteProject(projectId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers(System.String)
+  id: NewProjectWithMembers(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: NewProjectWithMembers(String)
+  nameWithType: Project.NewProjectWithMembers(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int NewProjectWithMembers(string ids)
+    parameters:
+    - id: ids
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function NewProjectWithMembers(ids As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate(System.Int32,System.Int32)
+  id: GetEndDate(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: GetEndDate(Int32, Int32)
+  nameWithType: Project.GetEndDate(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetEndDate(int duration, int unit)
+    parameters:
+    - id: duration
+      type: System.Int32
+    - id: unit
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetEndDate(duration As Integer, unit As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage(System.Int32)
+  id: DeleteProjectImage(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectImage(Int32)
+  nameWithType: Project.DeleteProjectImage(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteProjectImage(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Public Sub DeleteProjectImage(id As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus
+  id: MoveToStatus
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: MoveToStatus()
+  nameWithType: Project.MoveToStatus()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void MoveToStatus()
+    content.vb: Public Sub MoveToStatus
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus(SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus(SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo)
+  id: MoveToNextStatus(SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: MoveToNextStatus(NextProjectStatusInfo)
+  nameWithType: Project.MoveToNextStatus(NextProjectStatusInfo)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus(SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void MoveToNextStatus(NextProjectStatusInfo info)
+    parameters:
+    - id: info
+      type: SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo
+    content.vb: Public Sub MoveToNextStatus(info As NextProjectStatusInfo)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId
+  id: GetProjectStatusId
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: GetProjectStatusId()
+  nameWithType: Project.GetProjectStatusId()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int GetProjectStatusId()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetProjectStatusId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus(System.Int32)
+  id: SuggestMoveToNextStatus(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: SuggestMoveToNextStatus(Int32)
+  nameWithType: Project.SuggestMoveToNextStatus(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public NextProjectStatusInfo SuggestMoveToNextStatus(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo
+    content.vb: Public Function SuggestMoveToNextStatus(appointmentId As Integer) As NextProjectStatusInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember(System.Int32)
+  id: HasAssignToProjectMember(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: HasAssignToProjectMember(Int32)
+  nameWithType: Project.HasAssignToProjectMember(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool HasAssignToProjectMember(int suggestedAppointmentId)
+    parameters:
+    - id: suggestedAppointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasAssignToProjectMember(suggestedAppointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog(System.String)
+  id: DisplayConfirmationDialog(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfirmationDialog(String)
+  nameWithType: Project.DisplayConfirmationDialog(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool DisplayConfirmationDialog(string savingProjType)
+    parameters:
+    - id: savingProjType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function DisplayConfirmationDialog(savingProjType As String) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Project.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Project
+  langs:
+  - csharp
+  - vb
+  name: Project()
+  nameWithType: Project.Project()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.Project()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Project()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Project.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers
+  isExternal: true
+  name: RemoveProjectMembers
+  nameWithType: Project.RemoveProjectMembers
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.RemoveProjectMembers
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject
+  isExternal: true
+  name: DeleteProject
+  nameWithType: Project.DeleteProject
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProject
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers
+  isExternal: true
+  name: NewProjectWithMembers
+  nameWithType: Project.NewProjectWithMembers
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.NewProjectWithMembers
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate
+  isExternal: true
+  name: GetEndDate
+  nameWithType: Project.GetEndDate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.GetEndDate
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage
+  isExternal: true
+  name: DeleteProjectImage
+  nameWithType: Project.DeleteProjectImage
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.DeleteProjectImage
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus
+  isExternal: true
+  name: MoveToStatus
+  nameWithType: Project.MoveToStatus
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToStatus
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus
+  isExternal: true
+  name: MoveToNextStatus
+  nameWithType: Project.MoveToNextStatus
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.MoveToNextStatus
+- uid: SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: NextProjectStatusInfo
+  nameWithType: NextProjectStatusInfo
+  fullName: SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId
+  isExternal: true
+  name: GetProjectStatusId
+  nameWithType: Project.GetProjectStatusId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.GetProjectStatusId
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus
+  isExternal: true
+  name: SuggestMoveToNextStatus
+  nameWithType: Project.SuggestMoveToNextStatus
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.SuggestMoveToNextStatus
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember
+  isExternal: true
+  name: HasAssignToProjectMember
+  nameWithType: Project.HasAssignToProjectMember
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.HasAssignToProjectMember
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog
+  isExternal: true
+  name: DisplayConfirmationDialog
+  nameWithType: Project.DisplayConfirmationDialog
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.DisplayConfirmationDialog
+- uid: SuperOffice.CRM.Web.AjaxMethods.Project.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Project.#ctor
+  isExternal: true
+  name: Project
+  nameWithType: Project.Project
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Project.Project

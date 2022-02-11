@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Drawing.ImageSize
+  commentId: T:SuperOffice.DCF.Drawing.ImageSize
+  id: ImageSize
+  parent: SuperOffice.DCF.Drawing
+  children:
+  - SuperOffice.DCF.Drawing.ImageSize.#ctor
+  - SuperOffice.DCF.Drawing.ImageSize.#ctor(System.Int32,System.Int32)
+  - SuperOffice.DCF.Drawing.ImageSize.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.DCF.Drawing.ImageSize.DefualtSize
+  - SuperOffice.DCF.Drawing.ImageSize.FillColor
+  - SuperOffice.DCF.Drawing.ImageSize.MaxSize
+  - SuperOffice.DCF.Drawing.ImageSize.MinSize
+  - SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: ImageSize
+  nameWithType: ImageSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nDescription of requested size for an image.\n"
+  syntax:
+    content: public class ImageSize
+    content.vb: Public Class ImageSize
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Drawing.ImageSize.#ctor
+  commentId: M:SuperOffice.DCF.Drawing.ImageSize.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ImageSize()
+  nameWithType: ImageSize.ImageSize()
+  fullName: SuperOffice.DCF.Drawing.ImageSize.ImageSize()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nConstructor that sets no restriction on the image size.\n"
+  syntax:
+    content: public ImageSize()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Drawing.ImageSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.#ctor(System.Int32,System.Int32)
+  commentId: M:SuperOffice.DCF.Drawing.ImageSize.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ImageSize(Int32, Int32)
+  nameWithType: ImageSize.ImageSize(Int32, Int32)
+  fullName: SuperOffice.DCF.Drawing.ImageSize.ImageSize(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nConstructor forcing the image to the given size.  \nThe image is scaled so it fits within the boounds.  \nAreas of the image not filling the requested area is \nfilled with <xref href=\"System.Drawing.Color.White\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public ImageSize(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: With of the image.
+    - id: height
+      type: System.Int32
+      description: Height of the image.
+    content.vb: Public Sub New(width As Integer, height As Integer)
+  overload: SuperOffice.DCF.Drawing.ImageSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.DCF.Drawing.ImageSize.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ImageSize(Int32, Int32, Int32, Int32)
+  nameWithType: ImageSize.ImageSize(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.DCF.Drawing.ImageSize.ImageSize(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nConstructor forcing the image to be larger than the \nsmallest size specified, yet larger then the outer bounds.\nAreas of the image not filling the requested area is \nfilled with <xref href=\"System.Drawing.Color.White\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public ImageSize(int minWidth, int minHeight, int maxWidth, int maxHeight)
+    parameters:
+    - id: minWidth
+      type: System.Int32
+      description: Minimum width of the image.
+    - id: minHeight
+      type: System.Int32
+      description: Minimum height of the image.
+    - id: maxWidth
+      type: System.Int32
+      description: Maximum height of the image.
+    - id: maxHeight
+      type: System.Int32
+      description: Maximum height of the image.
+    content.vb: Public Sub New(minWidth As Integer, minHeight As Integer, maxWidth As Integer, maxHeight As Integer)
+  overload: SuperOffice.DCF.Drawing.ImageSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.MinSize
+  commentId: P:SuperOffice.DCF.Drawing.ImageSize.MinSize
+  id: MinSize
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: MinSize
+  nameWithType: ImageSize.MinSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.MinSize
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nMinimum size of a picture.  A width or hight of 0 indicates no minimum size.\n"
+  syntax:
+    content: public Size MinSize { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Property MinSize As Size
+  overload: SuperOffice.DCF.Drawing.ImageSize.MinSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.MaxSize
+  commentId: P:SuperOffice.DCF.Drawing.ImageSize.MaxSize
+  id: MaxSize
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: MaxSize
+  nameWithType: ImageSize.MaxSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.MaxSize
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nMaximum size of a picture.  A width or height of 0 indicates no maximum size.\n"
+  syntax:
+    content: public Size MaxSize { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Property MaxSize As Size
+  overload: SuperOffice.DCF.Drawing.ImageSize.MaxSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy
+  commentId: P:SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy
+  id: ScaleStrategy
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ScaleStrategy
+  nameWithType: ImageSize.ScaleStrategy
+  fullName: SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nStrategy for scaling the picture within the supplied bounds.\n"
+  syntax:
+    content: public ScaleStrategy ScaleStrategy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Drawing.ScaleStrategy
+    content.vb: Public Property ScaleStrategy As ScaleStrategy
+  overload: SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.FillColor
+  commentId: P:SuperOffice.DCF.Drawing.ImageSize.FillColor
+  id: FillColor
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: FillColor
+  nameWithType: ImageSize.FillColor
+  fullName: SuperOffice.DCF.Drawing.ImageSize.FillColor
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nFill color to be used in areas of the image not filled by the original image\n"
+  syntax:
+    content: public Color FillColor { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property FillColor As Color
+  overload: SuperOffice.DCF.Drawing.ImageSize.FillColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Drawing.ImageSize.DefualtSize
+  commentId: P:SuperOffice.DCF.Drawing.ImageSize.DefualtSize
+  id: DefualtSize
+  parent: SuperOffice.DCF.Drawing.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: DefualtSize
+  nameWithType: ImageSize.DefualtSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.DefualtSize
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nCalculate the default size that can be used for fall-back images.\n"
+  syntax:
+    content: public Size DefualtSize { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public ReadOnly Property DefualtSize As Size
+  overload: SuperOffice.DCF.Drawing.ImageSize.DefualtSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  isExternal: true
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Drawing.ImageSize.#ctor*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageSize.#ctor
+  isExternal: true
+  name: ImageSize
+  nameWithType: ImageSize.ImageSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.ImageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Drawing.ImageSize.MinSize*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageSize.MinSize
+  isExternal: true
+  name: MinSize
+  nameWithType: ImageSize.MinSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.MinSize
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.DCF.Drawing.ImageSize.MaxSize*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageSize.MaxSize
+  isExternal: true
+  name: MaxSize
+  nameWithType: ImageSize.MaxSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.MaxSize
+- uid: SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy
+  isExternal: true
+  name: ScaleStrategy
+  nameWithType: ImageSize.ScaleStrategy
+  fullName: SuperOffice.DCF.Drawing.ImageSize.ScaleStrategy
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy
+  commentId: T:SuperOffice.DCF.Drawing.ScaleStrategy
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: ScaleStrategy
+  nameWithType: ScaleStrategy
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy
+- uid: SuperOffice.DCF.Drawing.ImageSize.FillColor*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageSize.FillColor
+  isExternal: true
+  name: FillColor
+  nameWithType: ImageSize.FillColor
+  fullName: SuperOffice.DCF.Drawing.ImageSize.FillColor
+- uid: System.Drawing.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: SuperOffice.DCF.Drawing.ImageSize.DefualtSize*
+  commentId: Overload:SuperOffice.DCF.Drawing.ImageSize.DefualtSize
+  isExternal: true
+  name: DefualtSize
+  nameWithType: ImageSize.DefualtSize
+  fullName: SuperOffice.DCF.Drawing.ImageSize.DefualtSize

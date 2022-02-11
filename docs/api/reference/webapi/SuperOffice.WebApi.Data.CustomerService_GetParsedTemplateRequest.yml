@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  id: CustomerService_GetParsedTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId
+  - SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId
+  - SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  - SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetParsedTemplateRequest
+  nameWithType: CustomerService_GetParsedTemplateRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_GetParsedTemplateRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_GetParsedTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetParsedTemplateRequest()
+  nameWithType: CustomerService_GetParsedTemplateRequest.CustomerService_GetParsedTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.CustomerService_GetParsedTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_GetParsedTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId
+  id: LanguageId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: CustomerService_GetParsedTemplateRequest.LanguageId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int LanguageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LanguageId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CustomerService_GetParsedTemplateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: CustomerService_GetParsedTemplateRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.#ctor
+  isExternal: true
+  name: CustomerService_GetParsedTemplateRequest
+  nameWithType: CustomerService_GetParsedTemplateRequest.CustomerService_GetParsedTemplateRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.CustomerService_GetParsedTemplateRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.ReplyTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId
+  isExternal: true
+  name: LanguageId
+  nameWithType: CustomerService_GetParsedTemplateRequest.LanguageId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.LanguageId
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: CustomerService_GetParsedTemplateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.PersonId
+- uid: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: CustomerService_GetParsedTemplateRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetParsedTemplateRequest.TicketId

@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse
+  commentId: T:CRMScript.NetServer.NSCategorizationStatusResponse
+  id: NSCategorizationStatusResponse
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCategorizationStatusResponse.#ctor
+  - CRMScript.NetServer.NSCategorizationStatusResponse.GetContextIdentifier()
+  - CRMScript.NetServer.NSCategorizationStatusResponse.GetCurrentModel()
+  - CRMScript.NetServer.NSCategorizationStatusResponse.GetPreviousModel()
+  - CRMScript.NetServer.NSCategorizationStatusResponse.GetStatus()
+  - CRMScript.NetServer.NSCategorizationStatusResponse.SetContextIdentifier(String)
+  - CRMScript.NetServer.NSCategorizationStatusResponse.SetCurrentModel(NSCategorizationModelDetails)
+  - CRMScript.NetServer.NSCategorizationStatusResponse.SetPreviousModel(NSCategorizationModelDetails)
+  - CRMScript.NetServer.NSCategorizationStatusResponse.SetStatus(String)
+  name: NSCategorizationStatusResponse
+  nameWithType: NSCategorizationStatusResponse
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse
+  type: Class
+  summary: "\nCarrier to describe the current categorization training status for a tenant in HugoA. Carrier object for CategorizationStatusResponse.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.#ctor
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCategorizationStatusResponse
+  langs:
+  - crmscript
+  name: NSCategorizationStatusResponse()
+  nameWithType: NSCategorizationStatusResponse.#ctor
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCategorizationStatusResponse class.\n"
+  remarks: 
+  syntax: 
+    content: NSCategorizationStatusResponse
+  example: 
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.GetContextIdentifier()
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.GetContextIdentifier()
+  id: 'GetContextIdentifier()'
+  so.intellisense: NSCategorizationStatusResponse.GetContextIdentifier
+  langs:
+  - crmscript
+  name: 'GetContextIdentifier()'
+  nameWithType: NSCategorizationStatusResponse.GetContextIdentifier()
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.GetContextIdentifier()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContextIdentifier()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Context-identifier to identify customer."
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nString contextIdentifier = thing.GetContextIdentifier();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.GetCurrentModel()
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.GetCurrentModel()
+  id: 'GetCurrentModel()'
+  so.intellisense: NSCategorizationStatusResponse.GetCurrentModel
+  langs:
+  - crmscript
+  name: 'GetCurrentModel()'
+  nameWithType: NSCategorizationStatusResponse.GetCurrentModel()
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.GetCurrentModel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCategorizationModelDetails GetCurrentModel()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCategorizationModelDetails
+      description: "Current model information."
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nNSCategorizationModelDetails currentModel = thing.GetCurrentModel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.GetPreviousModel()
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.GetPreviousModel()
+  id: 'GetPreviousModel()'
+  so.intellisense: NSCategorizationStatusResponse.GetPreviousModel
+  langs:
+  - crmscript
+  name: 'GetPreviousModel()'
+  nameWithType: NSCategorizationStatusResponse.GetPreviousModel()
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.GetPreviousModel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCategorizationModelDetails GetPreviousModel()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCategorizationModelDetails
+      description: "Previous model information."
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nNSCategorizationModelDetails previousModel = thing.GetPreviousModel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.GetStatus()
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSCategorizationStatusResponse.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSCategorizationStatusResponse.GetStatus()
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Determines if a training is running, finished, or unavailable."
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nString status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.SetContextIdentifier(String)
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.SetContextIdentifier(String)
+  id: 'SetContextIdentifier(String)'
+  so.intellisense: NSCategorizationStatusResponse.SetContextIdentifier
+  langs:
+  - crmscript
+  name: 'SetContextIdentifier(String)'
+  nameWithType: NSCategorizationStatusResponse.SetContextIdentifier(String)
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.SetContextIdentifier(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContextIdentifier(String contextIdentifier)
+    parameters:
+    - id: contextIdentifier
+      type: CRMScript.Global.String
+      description: "Context-identifier to identify customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nString contextIdentifier;\nthing.SetContextIdentifier(contextIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.SetCurrentModel(NSCategorizationModelDetails)
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.SetCurrentModel(NSCategorizationModelDetails)
+  id: 'SetCurrentModel(NSCategorizationModelDetails)'
+  so.intellisense: NSCategorizationStatusResponse.SetCurrentModel
+  langs:
+  - crmscript
+  name: 'SetCurrentModel(NSCategorizationModelDetails)'
+  nameWithType: NSCategorizationStatusResponse.SetCurrentModel(NSCategorizationModelDetails)
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.SetCurrentModel(NSCategorizationModelDetails)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentModel(NSCategorizationModelDetails currentModel)
+    parameters:
+    - id: currentModel
+      type: CRMScript.NetServer.NSCategorizationModelDetails
+      description: "Current model information."
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nNSCategorizationModelDetails currentModel;\nthing.SetCurrentModel(currentModel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.SetPreviousModel(NSCategorizationModelDetails)
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.SetPreviousModel(NSCategorizationModelDetails)
+  id: 'SetPreviousModel(NSCategorizationModelDetails)'
+  so.intellisense: NSCategorizationStatusResponse.SetPreviousModel
+  langs:
+  - crmscript
+  name: 'SetPreviousModel(NSCategorizationModelDetails)'
+  nameWithType: NSCategorizationStatusResponse.SetPreviousModel(NSCategorizationModelDetails)
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.SetPreviousModel(NSCategorizationModelDetails)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreviousModel(NSCategorizationModelDetails previousModel)
+    parameters:
+    - id: previousModel
+      type: CRMScript.NetServer.NSCategorizationModelDetails
+      description: "Previous model information."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nNSCategorizationModelDetails previousModel;\nthing.SetPreviousModel(previousModel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse.SetStatus(String)
+  commentId: M:CRMScript.NetServer.NSCategorizationStatusResponse.SetStatus(String)
+  id: 'SetStatus(String)'
+  so.intellisense: NSCategorizationStatusResponse.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(String)'
+  nameWithType: NSCategorizationStatusResponse.SetStatus(String)
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse.SetStatus(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStatus(String status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.String
+      description: "Determines if a training is running, finished, or unavailable."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCategorizationStatusResponse thing;\nString status;\nthing.SetStatus(status);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCategorizationStatusResponse
+  commentId: T:CRMScript.NetServer.NSCategorizationStatusResponse
+  isExternal: true
+  name: NSCategorizationStatusResponse
+  nameWithType: NSCategorizationStatusResponse
+  fullName: CRMScript.NetServer.NSCategorizationStatusResponse
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSCategorizationModelDetails
+  commentId: T:CRMScript.NetServer.NSCategorizationModelDetails
+  isExternal: true
+  name: NSCategorizationModelDetails
+  nameWithType: NSCategorizationModelDetails
+  fullName: CRMScript.NetServer.NSCategorizationModelDetails
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

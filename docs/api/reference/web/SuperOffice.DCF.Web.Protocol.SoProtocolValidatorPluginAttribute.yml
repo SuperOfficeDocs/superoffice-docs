@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute
+  commentId: T:SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute
+  id: SoProtocolValidatorPluginAttribute
+  parent: SuperOffice.DCF.Web.Protocol
+  children:
+  - SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor(System.String)
+  - SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolValidatorPluginAttribute
+  nameWithType: SoProtocolValidatorPluginAttribute
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: 'public class SoProtocolValidatorPluginAttribute : PrioritizedPluginAttribute'
+    content.vb: >-
+      Public Class SoProtocolValidatorPluginAttribute
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolValidatorPluginAttribute(String)
+  nameWithType: SoProtocolValidatorPluginAttribute.SoProtocolValidatorPluginAttribute(String)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.SoProtocolValidatorPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public SoProtocolValidatorPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoProtocolValidatorPluginAttribute(String, Int32)
+  nameWithType: SoProtocolValidatorPluginAttribute.SoProtocolValidatorPluginAttribute(String, Int32)
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.SoProtocolValidatorPluginAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: public SoProtocolValidatorPluginAttribute(string name, int priority)
+    parameters:
+    - id: name
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(name As String, priority As Integer)
+  overload: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.Protocol
+  commentId: N:SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SuperOffice.DCF.Web.Protocol
+  nameWithType: SuperOffice.DCF.Web.Protocol
+  fullName: SuperOffice.DCF.Web.Protocol
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.#ctor
+  isExternal: true
+  name: SoProtocolValidatorPluginAttribute
+  nameWithType: SoProtocolValidatorPluginAttribute.SoProtocolValidatorPluginAttribute
+  fullName: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute.SoProtocolValidatorPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,2290 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.ResourceManager
+  commentId: T:SuperOffice.Globalization.ResourceManager
+  id: ResourceManager
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.ResourceManager.#ctor
+  - SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString(System.DayOfWeek)
+  - SuperOffice.Globalization.ResourceManager.ConvertToLongDateString(System.DateTime)
+  - SuperOffice.Globalization.ResourceManager.ConvertToShortDateString(System.DateTime)
+  - SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString(System.DateTime)
+  - SuperOffice.Globalization.ResourceManager.CultureInfo
+  - SuperOffice.Globalization.ResourceManager.DEFAULT_CULTURE
+  - SuperOffice.Globalization.ResourceManager.FilterForClient(System.String,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.FindResourceStrings(System.String,System.String)
+  - SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString(System.DayOfWeek)
+  - SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings(System.String)
+  - SuperOffice.Globalization.ResourceManager.GetCulture
+  - SuperOffice.Globalization.ResourceManager.GetEnumResourceName(System.Enum)
+  - SuperOffice.Globalization.ResourceManager.GetInlineLabelString(System.String)
+  - SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString(System.Int32)
+  - SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString(System.Int32)
+  - SuperOffice.Globalization.ResourceManager.GetMultiLangString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetProviderInfo
+  - SuperOffice.Globalization.ResourceManager.GetString(System.Enum,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetString(System.Enum,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetString(System.Enum,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetString(System.String,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetString(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.GetSupportedLanguages
+  - SuperOffice.Globalization.ResourceManager.GetUICulture
+  - SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture(System.String,System.String)
+  - SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture(System.String)
+  - SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String)
+  - SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.Boolean)
+  - SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String)
+  - SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean)
+  - SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  - SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat,System.Boolean,System.Boolean)
+  - SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String)
+  - SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String,System.String)
+  - SuperOffice.Globalization.ResourceManager.Refresh
+  - SuperOffice.Globalization.ResourceManager.SetCulture(System.String)
+  - SuperOffice.Globalization.ResourceManager.SetCulture(System.String,System.String)
+  - SuperOffice.Globalization.ResourceManager.StartupCulture
+  - SuperOffice.Globalization.ResourceManager.UICultureInfo
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: SuperOffice.Globalization.ResourceManager
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nThe ResourceManager is a singleton object which controls access to all resources.\n"
+  remarks: "\n"
+  example:
+  - "\nUse like this:\n<pre><code>string someText = ResourceManager.GetString(&quot;symbolname&quot;);</code></pre>\nThe ResourceManager will return the value associated with &quot;symbolname&quot; according\nto the current UI culture.\n"
+  syntax:
+    content: public class ResourceManager
+    content.vb: Public Class ResourceManager
+  seealso:
+  - linkId: SuperOffice.Globalization.IResourceProvider
+    commentId: T:SuperOffice.Globalization.IResourceProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Globalization.ResourceManager.DEFAULT_CULTURE
+  commentId: F:SuperOffice.Globalization.ResourceManager.DEFAULT_CULTURE
+  id: DEFAULT_CULTURE
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_CULTURE
+  nameWithType: ResourceManager.DEFAULT_CULTURE
+  fullName: SuperOffice.Globalization.ResourceManager.DEFAULT_CULTURE
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nUltimate fallback culture\n"
+  syntax:
+    content: public const string DEFAULT_CULTURE = "en-US"
+    return:
+      type: System.String
+    content.vb: Public Const DEFAULT_CULTURE As String = "en-US"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Globalization.ResourceManager.Refresh
+  commentId: M:SuperOffice.Globalization.ResourceManager.Refresh
+  id: Refresh
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: ResourceManager.Refresh()
+  fullName: SuperOffice.Globalization.ResourceManager.Refresh()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nRefresh all resource providers. \n"
+  syntax:
+    content: public static void Refresh()
+    content.vb: Public Shared Sub Refresh
+  overload: SuperOffice.Globalization.ResourceManager.Refresh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.SetCulture(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.SetCulture(System.String)
+  id: SetCulture(System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: SetCulture(String)
+  nameWithType: ResourceManager.SetCulture(String)
+  fullName: SuperOffice.Globalization.ResourceManager.SetCulture(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nSets the culture of the currently executing thread.\n"
+  syntax:
+    content: public static void SetCulture(string culturename)
+    parameters:
+    - id: culturename
+      type: System.String
+    content.vb: Public Shared Sub SetCulture(culturename As String)
+  overload: SuperOffice.Globalization.ResourceManager.SetCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.SetCulture(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.SetCulture(System.String,System.String)
+  id: SetCulture(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: SetCulture(String, String)
+  nameWithType: ResourceManager.SetCulture(String, String)
+  fullName: SuperOffice.Globalization.ResourceManager.SetCulture(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nSets the culture of the currently executing thread. Specific cultures are respected, neutral cultures\nare converted into the default specific variant.\n"
+  syntax:
+    content: public static void SetCulture(string cultureName, string cultureUiName)
+    parameters:
+    - id: cultureName
+      type: System.String
+      description: The culture name, e.g. &quot;nb-NO&quot; -or just &quot;FR&quot;
+    - id: cultureUiName
+      type: System.String
+      description: Resource strings will use the cultureUiName for translating.
+    content.vb: Public Shared Sub SetCulture(cultureName As String, cultureUiName As String)
+  overload: SuperOffice.Globalization.ResourceManager.SetCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetCulture
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetCulture
+  id: GetCulture
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetCulture()
+  nameWithType: ResourceManager.GetCulture()
+  fullName: SuperOffice.Globalization.ResourceManager.GetCulture()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the name of the current culture. \nEquivalent to ResourceManager.CultureInfo.Name\n"
+  syntax:
+    content: public static string GetCulture()
+    return:
+      type: System.String
+      description: '&quot;nb-NO&quot; or &quot;en-US&quot; or similar.'
+    content.vb: Public Shared Function GetCulture As String
+  overload: SuperOffice.Globalization.ResourceManager.GetCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetUICulture
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetUICulture
+  id: GetUICulture
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetUICulture()
+  nameWithType: ResourceManager.GetUICulture()
+  fullName: SuperOffice.Globalization.ResourceManager.GetUICulture()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static string GetUICulture()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUICulture As String
+  overload: SuperOffice.Globalization.ResourceManager.GetUICulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetSupportedLanguages
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetSupportedLanguages
+  id: GetSupportedLanguages
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedLanguages()
+  nameWithType: ResourceManager.GetSupportedLanguages()
+  fullName: SuperOffice.Globalization.ResourceManager.GetSupportedLanguages()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static CultureInfo[] GetSupportedLanguages()
+    return:
+      type: System.Globalization.CultureInfo[]
+    content.vb: Public Shared Function GetSupportedLanguages As CultureInfo()
+  overload: SuperOffice.Globalization.ResourceManager.GetSupportedLanguages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetProviderInfo
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetProviderInfo
+  id: GetProviderInfo
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetProviderInfo()
+  nameWithType: ResourceManager.GetProviderInfo()
+  fullName: SuperOffice.Globalization.ResourceManager.GetProviderInfo()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static ResourceManager.ProviderInfo[] GetProviderInfo()
+    return:
+      type: SuperOffice.Globalization.ResourceManager.ProviderInfo[]
+    content.vb: Public Shared Function GetProviderInfo As ResourceManager.ProviderInfo()
+  overload: SuperOffice.Globalization.ResourceManager.GetProviderInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ConvertToShortDateString(System.DateTime)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ConvertToShortDateString(System.DateTime)
+  id: ConvertToShortDateString(System.DateTime)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertToShortDateString(DateTime)
+  nameWithType: ResourceManager.ConvertToShortDateString(DateTime)
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertToShortDateString(System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nConverts a date to a localized short date string using the culture of the <xref href=\"SuperOffice.Globalization.ResourceManager\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static string ConvertToShortDateString(DateTime date)
+    parameters:
+    - id: date
+      type: System.DateTime
+      description: DateTime to convert
+    return:
+      type: System.String
+      description: A localized short date string
+    content.vb: Public Shared Function ConvertToShortDateString(date As Date) As String
+  overload: SuperOffice.Globalization.ResourceManager.ConvertToShortDateString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString(System.DateTime)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString(System.DateTime)
+  id: ConvertToShortTimeString(System.DateTime)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertToShortTimeString(DateTime)
+  nameWithType: ResourceManager.ConvertToShortTimeString(DateTime)
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString(System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nConverts a time to a localized short time string using the current culture\n"
+  syntax:
+    content: public static string ConvertToShortTimeString(DateTime time)
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: Public Shared Function ConvertToShortTimeString(time As Date) As String
+  overload: SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ConvertToLongDateString(System.DateTime)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ConvertToLongDateString(System.DateTime)
+  id: ConvertToLongDateString(System.DateTime)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertToLongDateString(DateTime)
+  nameWithType: ResourceManager.ConvertToLongDateString(DateTime)
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertToLongDateString(System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nConverts a date to a localized long date string using the culture of the <xref href=\"SuperOffice.Globalization.ResourceManager\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static string ConvertToLongDateString(DateTime date)
+    parameters:
+    - id: date
+      type: System.DateTime
+      description: DateTime to convert
+    return:
+      type: System.String
+      description: A localized long date string
+    content.vb: Public Shared Function ConvertToLongDateString(date As Date) As String
+  overload: SuperOffice.Globalization.ResourceManager.ConvertToLongDateString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString(System.DayOfWeek)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString(System.DayOfWeek)
+  id: ConvertDayOfWeekToLocalizedString(System.DayOfWeek)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ConvertDayOfWeekToLocalizedString(DayOfWeek)
+  nameWithType: ResourceManager.ConvertDayOfWeekToLocalizedString(DayOfWeek)
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString(System.DayOfWeek)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a <xref href=\"System.DayOfWeek\" data-throw-if-not-resolved=\"false\"></xref> enum to a localized string.\n"
+  syntax:
+    content: public static string ConvertDayOfWeekToLocalizedString(DayOfWeek dayOfWeek)
+    parameters:
+    - id: dayOfWeek
+      type: System.DayOfWeek
+      description: The day of week to convert.
+    return:
+      type: System.String
+      description: A localized string containing the localized day of week string.
+    content.vb: Public Shared Function ConvertDayOfWeekToLocalizedString(dayOfWeek As DayOfWeek) As String
+  overload: SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString(System.DayOfWeek)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString(System.DayOfWeek)
+  id: GetAbbreviatedDayOfWeekToLocalizedString(System.DayOfWeek)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetAbbreviatedDayOfWeekToLocalizedString(DayOfWeek)
+  nameWithType: ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString(DayOfWeek)
+  fullName: SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString(System.DayOfWeek)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a <xref href=\"System.DayOfWeek\" data-throw-if-not-resolved=\"false\"></xref> enum to a abbreviated localized string.\n"
+  syntax:
+    content: public static string GetAbbreviatedDayOfWeekToLocalizedString(DayOfWeek dayOfWeek)
+    parameters:
+    - id: dayOfWeek
+      type: System.DayOfWeek
+      description: The day of week to convert.
+    return:
+      type: System.String
+      description: localized string containing the abbreviated localized day of week string.
+    content.vb: Public Shared Function GetAbbreviatedDayOfWeekToLocalizedString(dayOfWeek As DayOfWeek) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString(System.Int32)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString(System.Int32)
+  id: GetMonthToLocalizedString(System.Int32)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetMonthToLocalizedString(Int32)
+  nameWithType: ResourceManager.GetMonthToLocalizedString(Int32)
+  fullName: SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a month into a localized string.\n"
+  syntax:
+    content: public static string GetMonthToLocalizedString(int month)
+    parameters:
+    - id: month
+      type: System.Int32
+      description: The month to return.
+    return:
+      type: System.String
+      description: Localized month name.
+    content.vb: Public Shared Function GetMonthToLocalizedString(month As Integer) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString(System.Int32)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString(System.Int32)
+  id: GetMonthToAbbreviatedLocalizedString(System.Int32)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetMonthToAbbreviatedLocalizedString(Int32)
+  nameWithType: ResourceManager.GetMonthToAbbreviatedLocalizedString(Int32)
+  fullName: SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a month into a abbreviated localized string.\n"
+  syntax:
+    content: public static string GetMonthToAbbreviatedLocalizedString(int month)
+    parameters:
+    - id: month
+      type: System.Int32
+      description: The month to return.
+    return:
+      type: System.String
+      description: Localized abbreviated month name.
+    content.vb: Public Shared Function GetMonthToAbbreviatedLocalizedString(month As Integer) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetString(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetString(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetString(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, String, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetString(String, String, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetString(System.String, System.String, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a string in a specific culture.\n"
+  syntax:
+    content: public static string GetString(string resourceName, string culturename, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: The resource/symbol name.
+    - id: culturename
+      type: System.String
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+      description: Ignore user defined field labels
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetString(resourceName As String, culturename As String, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetMultiLangString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetMultiLangString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetMultiLangString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetMultiLangString(String, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetMultiLangString(String, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetMultiLangString(System.String, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static string GetMultiLangString(string resourceName, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: resourceName
+      type: System.String
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetMultiLangString(resourceName As String, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetMultiLangString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.FilterForClient(System.String,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.FilterForClient(System.String,SuperOffice.Globalization.ClientFilterFormat)
+  id: FilterForClient(System.String,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: FilterForClient(String, ClientFilterFormat)
+  nameWithType: ResourceManager.FilterForClient(String, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.FilterForClient(System.String, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static string FilterForClient(string resString, ClientFilterFormat clientformat)
+    parameters:
+    - id: resString
+      type: System.String
+    - id: clientformat
+      type: SuperOffice.Globalization.ClientFilterFormat
+    return:
+      type: System.String
+    content.vb: Public Shared Function FilterForClient(resString As String, clientformat As ClientFilterFormat) As String
+  overload: SuperOffice.Globalization.ResourceManager.FilterForClient*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetString(System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetString(String, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetString(System.String, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a resource string in the current culture.\n"
+  syntax:
+    content: public static string GetString(string resourceName, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: The resource/symbol name.
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+      description: Ignore user defined field labels
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetString(resourceName As String, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetString(System.String,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetString(System.String,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetString(System.String,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, ResourceStringFormat, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetString(String, ResourceStringFormat, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetString(System.String, SuperOffice.Globalization.ResourceStringFormat, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a resource string in the current culture. Colons and shortcut indicators can be stripped/manipulated.\n"
+  syntax:
+    content: public static string GetString(string resourceName, ResourceStringFormat format, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: The resource/symbol name.
+    - id: format
+      type: SuperOffice.Globalization.ResourceStringFormat
+      description: Determines how the string should be formatted
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+      description: Ignore user defined field labels
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetString(resourceName As String, format As ResourceStringFormat, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetEnumResourceName(System.Enum)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetEnumResourceName(System.Enum)
+  id: GetEnumResourceName(System.Enum)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetEnumResourceName(Enum)
+  nameWithType: ResourceManager.GetEnumResourceName(Enum)
+  fullName: SuperOffice.Globalization.ResourceManager.GetEnumResourceName(System.Enum)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a resource label string associated with an enum value\n"
+  syntax:
+    content: public static string GetEnumResourceName(Enum enumValue)
+    parameters:
+    - id: enumValue
+      type: System.Enum
+      description: The enum value
+    return:
+      type: System.String
+      description: The resource label string associated with an enum value.
+    content.vb: Public Shared Function GetEnumResourceName(enumValue As  Enum) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetEnumResourceName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetString(System.Enum,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetString(System.Enum,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetString(System.Enum,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(Enum, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetString(Enum, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetString(System.Enum, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a resource string in the current culture.\n"
+  syntax:
+    content: public static string GetString(Enum enumValue, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: enumValue
+      type: System.Enum
+      description: The enum value
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+      description: Ignore user defined field labels
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetString(enumValue As  Enum, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetString(System.Enum,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetString(System.Enum,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetString(System.Enum,SuperOffice.Globalization.ResourceStringFormat,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(Enum, ResourceStringFormat, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetString(Enum, ResourceStringFormat, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetString(System.Enum, SuperOffice.Globalization.ResourceStringFormat, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a resource string in the current culture.\n"
+  syntax:
+    content: public static string GetString(Enum enumValue, ResourceStringFormat format, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: enumValue
+      type: System.Enum
+      description: The enum value
+    - id: format
+      type: SuperOffice.Globalization.ResourceStringFormat
+      description: Determines how the string should be formatted
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+      description: Ignore user defined field labels
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetString(enumValue As  Enum, format As ResourceStringFormat, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetString(System.Enum,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetString(System.Enum,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: GetString(System.Enum,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(Enum, String, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.GetString(Enum, String, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.GetString(System.Enum, System.String, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a string in a specific culture.\n"
+  syntax:
+    content: public static string GetString(Enum enumValue, string cultureName, bool ignoreUserDefinedFieldLabels = false, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: enumValue
+      type: System.Enum
+      description: The enum value
+    - id: cultureName
+      type: System.String
+      description: The culture, e.g. &quot;nb-NO&quot;
+    - id: ignoreUserDefinedFieldLabels
+      type: System.Boolean
+      description: Ignore user defined field labels
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetString(enumValue As  Enum, cultureName As String, ignoreUserDefinedFieldLabels As Boolean = False, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetInlineLabelString(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetInlineLabelString(System.String)
+  id: GetInlineLabelString(System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetInlineLabelString(String)
+  nameWithType: ResourceManager.GetInlineLabelString(String)
+  fullName: SuperOffice.Globalization.ResourceManager.GetInlineLabelString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets a resource string in the current culture, and\nrepresents it as an inline label string\n"
+  syntax:
+    content: public static string GetInlineLabelString(string resourceName)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: The resource/symbol name.
+    return:
+      type: System.String
+      description: The string that the symbol represents.
+    content.vb: Public Shared Function GetInlineLabelString(resourceName As String) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetInlineLabelString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String)
+  id: ParseMultiLanguageString(System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseMultiLanguageString(String)
+  nameWithType: ResourceManager.ParseMultiLanguageString(String)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the string part of the default culture from the multi language string\nThese strings are typically used in SuperOffice list and description data\n<example>\nString example from PrefDesc table:\nUS:&quot;Location and size&quot;;US:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;\n</example>\n"
+  syntax:
+    content: public static string ParseMultiLanguageString(string multilangString)
+    parameters:
+    - id: multilangString
+      type: System.String
+      description: The multilanguage string to parse
+    return:
+      type: System.String
+      description: Default culture specific string part
+    content.vb: Public Shared Function ParseMultiLanguageString(multilangString As String) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String,System.String)
+  id: ParseMultiLanguageString(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseMultiLanguageString(String, String)
+  nameWithType: ResourceManager.ParseMultiLanguageString(String, String)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the string part of the specified culture from the multi language string\nThese strings are typically used in SuperOffice list and description data\n<example>\nString example from PrefDesc table:\nUS:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;\n</example>\n"
+  syntax:
+    content: public static string ParseMultiLanguageString(string multilangString, string cultureName)
+    parameters:
+    - id: multilangString
+      type: System.String
+      description: The multilanguage string to parse
+    - id: cultureName
+      type: System.String
+      description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
+    return:
+      type: System.String
+      description: Culture specific string part
+    content.vb: Public Shared Function ParseMultiLanguageString(multilangString As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String)
+  id: ParseInlineResources(System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseInlineResources(String)
+  nameWithType: ResourceManager.ParseInlineResources(String)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nParses a resource string with inline resources of the format &quot;text [symbol] more text [next symbol] ...\nReplaces the symbols with actual text\n"
+  syntax:
+    content: public static string ParseInlineResources(string resourceString)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: The resource string to parse
+    return:
+      type: System.String
+      description: Parsed resource string.
+    content.vb: Public Shared Function ParseInlineResources(resourceString As String) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String)
+  id: ParseInlineResources(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseInlineResources(String, String)
+  nameWithType: ResourceManager.ParseInlineResources(String, String)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nParses a resource string with inline resources of the format &quot;text [symbol] more text [next symbol] ...\nReplaces the symbols with actual text. Also uses the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>\nto parse and reformat any culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> in the first place.\n"
+  syntax:
+    content: public static string ParseInlineResources(string resourceString, string cultureName)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: The resource string to parse
+    - id: cultureName
+      type: System.String
+      description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
+    return:
+      type: System.String
+      description: Parsed resource string.
+    content.vb: Public Shared Function ParseInlineResources(resourceString As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.Boolean)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.Boolean)
+  id: ParseInlineResources(System.String,System.Boolean)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseInlineResources(String, Boolean)
+  nameWithType: ResourceManager.ParseInlineResources(String, Boolean)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nParses a resource string with inline resources of the format &quot;text [symbol] more text [next symbol] ...\nReplaces the symbols with actual text. Also uses the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>\nto parse and reformat any culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> in the first place.\n"
+  syntax:
+    content: public static string ParseInlineResources(string resourceString, bool suppressColons)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: The resource string to parse
+    - id: suppressColons
+      type: System.Boolean
+    return:
+      type: System.String
+      description: Parsed resource string.
+    content.vb: Public Shared Function ParseInlineResources(resourceString As String, suppressColons As Boolean) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean)
+  id: ParseInlineResources(System.String,System.String,System.Boolean)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseInlineResources(String, String, Boolean)
+  nameWithType: ResourceManager.ParseInlineResources(String, String, Boolean)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nParses a resource string with inline resources of the format &quot;text [symbol] more text [next symbol] ...\nReplaces the symbols with actual text. Also uses the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>\nto parse and reformat any culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> in the first place.\n"
+  remarks: "\nIn the string &apos;this [ is maybe [SR_SINGULAR_CONTACT] a resource [] Apple ][ would like&apos;, the SR_SINGULAR_CONTACT is a valid resource,\neverything else is not, and will be left alone by the parser.\n"
+  syntax:
+    content: public static string ParseInlineResources(string resourceString, string cultureName, bool suppressColons)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: The resource string to parse
+    - id: cultureName
+      type: System.String
+      description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
+    - id: suppressColons
+      type: System.Boolean
+      description: Should colons be supressed
+    return:
+      type: System.String
+      description: Parsed resource string.
+    content.vb: Public Shared Function ParseInlineResources(resourceString As String, cultureName As String, suppressColons As Boolean) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  id: ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseInlineResources(String, String, Boolean, ClientFilterFormat)
+  nameWithType: ResourceManager.ParseInlineResources(String, String, Boolean, ClientFilterFormat)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String, System.String, System.Boolean, SuperOffice.Globalization.ClientFilterFormat)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nParses a resource string with inline resources of the format &quot;text [symbol] more text [next symbol] ...\nReplaces the symbols with actual text. Also uses the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>\nto parse and reformat any culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> in the first place.\n"
+  remarks: "\nIn the string &apos;this [ is maybe [SR_SINGULAR_CONTACT] a resource [] Apple ][ would like&apos;, the SR_SINGULAR_CONTACT is a valid resource,\neverything else is not, and will be left alone by the parser.\n"
+  syntax:
+    content: public static string ParseInlineResources(string resourceString, string cultureName, bool suppressColons, ClientFilterFormat filterFormat = ClientFilterFormat.Web)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: The resource string to parse
+    - id: cultureName
+      type: System.String
+      description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
+    - id: suppressColons
+      type: System.Boolean
+      description: Should colons be supressed
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    return:
+      type: System.String
+      description: Parsed resource string.
+    content.vb: Public Shared Function ParseInlineResources(resourceString As String, cultureName As String, suppressColons As Boolean, filterFormat As ClientFilterFormat = ClientFilterFormat.Web) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat,System.Boolean,System.Boolean)
+  id: ParseInlineResources(System.String,System.String,System.Boolean,SuperOffice.Globalization.ClientFilterFormat,System.Boolean,System.Boolean)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ParseInlineResources(String, String, Boolean, ClientFilterFormat, Boolean, Boolean)
+  nameWithType: ResourceManager.ParseInlineResources(String, String, Boolean, ClientFilterFormat, Boolean, Boolean)
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources(System.String, System.String, System.Boolean, SuperOffice.Globalization.ClientFilterFormat, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nParses a resource string with inline resources of the format &quot;text [symbol] more text [next symbol] ...\nReplaces the symbols with actual text. Also uses the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>\nto parse and reformat any culture-sensitive data in the text, for instance dates... provided they have\nbeen encoded using the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> in the first place.\n"
+  remarks: "\nIn the string &apos;this [ is maybe [SR_SINGULAR_CONTACT] a resource [] Apple ][ would like&apos;, the SR_SINGULAR_CONTACT is a valid resource,\neverything else is not, and will be left alone by the parser.\n"
+  syntax:
+    content: public static string ParseInlineResources(string resourceString, string cultureName, bool suppressColons, ClientFilterFormat filterFormat = ClientFilterFormat.Web, bool skipMultiLanguageStrings = false, bool skipLocalizeEncodedValues = false)
+    parameters:
+    - id: resourceString
+      type: System.String
+      description: The resource string to parse
+    - id: cultureName
+      type: System.String
+      description: The cultureName, typically en-US, nb-NO, but also US, NO is accepted
+    - id: suppressColons
+      type: System.Boolean
+      description: Should colons be supressed
+    - id: filterFormat
+      type: SuperOffice.Globalization.ClientFilterFormat
+      description: 'Apply any known client specific filtering, default: Web'
+    - id: skipMultiLanguageStrings
+      type: System.Boolean
+    - id: skipLocalizeEncodedValues
+      type: System.Boolean
+    return:
+      type: System.String
+      description: Parsed resource string.
+    content.vb: Public Shared Function ParseInlineResources(resourceString As String, cultureName As String, suppressColons As Boolean, filterFormat As ClientFilterFormat = ClientFilterFormat.Web, skipMultiLanguageStrings As Boolean = False, skipLocalizeEncodedValues As Boolean = False) As String
+  overload: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture(System.String)
+  id: GetUnfilteredResourcesForCulture(System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetUnfilteredResourcesForCulture(String)
+  nameWithType: ResourceManager.GetUnfilteredResourcesForCulture(String)
+  fullName: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns all resource strings for the specified culture as a dictionary\n"
+  syntax:
+    content: public static Dictionary<string, string> GetUnfilteredResourcesForCulture(string cultureName)
+    parameters:
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Dictionary of all resource labels and values
+    content.vb: Public Shared Function GetUnfilteredResourcesForCulture(cultureName As String) As Dictionary(Of String, String)
+  overload: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture(System.String,System.String)
+  id: GetUnfilteredResourceForCulture(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetUnfilteredResourceForCulture(String, String)
+  nameWithType: ResourceManager.GetUnfilteredResourceForCulture(String, String)
+  fullName: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the unfiltered string from this provider in the specified culture\n"
+  syntax:
+    content: public static string GetUnfilteredResourceForCulture(string name, string cultureName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String
+      description: The unfiltered resource string, or null if not found
+    content.vb: Public Shared Function GetUnfilteredResourceForCulture(name As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.FindResourceStrings(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.FindResourceStrings(System.String,System.String)
+  id: FindResourceStrings(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: FindResourceStrings(String, String)
+  nameWithType: ResourceManager.FindResourceStrings(String, String)
+  fullName: SuperOffice.Globalization.ResourceManager.FindResourceStrings(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns all resource strings containing searchString in the specified culture\n"
+  syntax:
+    content: public static string[] FindResourceStrings(string searchString, string cultureName)
+    parameters:
+    - id: searchString
+      type: System.String
+      description: The string to search for, in both the resource name and the resource value. Case insensitive
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String[]
+      description: Array of resource names matching searchString
+    content.vb: Public Shared Function FindResourceStrings(searchString As String, cultureName As String) As String()
+  overload: SuperOffice.Globalization.ResourceManager.FindResourceStrings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings(System.String)
+  id: GetAllTranslatedResourceStrings(System.String)
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetAllTranslatedResourceStrings(String)
+  nameWithType: ResourceManager.GetAllTranslatedResourceStrings(String)
+  fullName: SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static string[] GetAllTranslatedResourceStrings(string cultureName)
+    parameters:
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetAllTranslatedResourceStrings(cultureName As String) As String()
+  overload: SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.#ctor
+  commentId: M:SuperOffice.Globalization.ResourceManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager()
+  nameWithType: ResourceManager.ResourceManager()
+  fullName: SuperOffice.Globalization.ResourceManager.ResourceManager()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public ResourceManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.Globalization.ResourceManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.ResourceManager.StartupCulture
+  commentId: P:SuperOffice.Globalization.ResourceManager.StartupCulture
+  id: StartupCulture
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: StartupCulture
+  nameWithType: ResourceManager.StartupCulture
+  fullName: SuperOffice.Globalization.ResourceManager.StartupCulture
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nThe culture that was in effect when the ResourceManager was first touched. This may be\nimportant as it reflects the Control Panel settings. You can have a French Windows, \nrunning the Windows client in German, and it says &quot;Italian - Switzerland&quot; in \nControl Panel. In that case we would like to remember the control panel setting\nsomewhere, but at the same time we need to overwrite it\n"
+  syntax:
+    content: public static CultureInfo StartupCulture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Property StartupCulture As CultureInfo
+  overload: SuperOffice.Globalization.ResourceManager.StartupCulture*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.ResourceManager.CultureInfo
+  commentId: P:SuperOffice.Globalization.ResourceManager.CultureInfo
+  id: CultureInfo
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: CultureInfo
+  nameWithType: ResourceManager.CultureInfo
+  fullName: SuperOffice.Globalization.ResourceManager.CultureInfo
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets the <xref href=\"SuperOffice.Globalization.ResourceManager.CultureInfo\" data-throw-if-not-resolved=\"false\"></xref> used by the <xref href=\"SuperOffice.Globalization.ResourceManager\" data-throw-if-not-resolved=\"false\"></xref>.\nThe set accessor will call <xref href=\"SuperOffice.Globalization.ResourceManager.SetCulture(System.String)\" data-throw-if-not-resolved=\"false\"></xref> with the name of the culture, setting it on the current thread.\n<remarks>\nCultureInfo is used for formatting dates, number etc. See <xref href=\"SuperOffice.Globalization.ResourceManager.UICultureInfo\" data-throw-if-not-resolved=\"false\"></xref> for translating resource.\n</remarks>\n"
+  syntax:
+    content: public static CultureInfo CultureInfo { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property CultureInfo As CultureInfo
+  overload: SuperOffice.Globalization.ResourceManager.CultureInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Globalization.ResourceManager.UICultureInfo
+  commentId: P:SuperOffice.Globalization.ResourceManager.UICultureInfo
+  id: UICultureInfo
+  parent: SuperOffice.Globalization.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: UICultureInfo
+  nameWithType: ResourceManager.UICultureInfo
+  fullName: SuperOffice.Globalization.ResourceManager.UICultureInfo
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nGets the <xref href=\"SuperOffice.Globalization.ResourceManager.CultureInfo\" data-throw-if-not-resolved=\"false\"></xref> used by the <xref href=\"SuperOffice.Globalization.ResourceManager\" data-throw-if-not-resolved=\"false\"></xref>.\nThe set accessor will call <xref href=\"SuperOffice.Globalization.ResourceManager.SetCulture(System.String)\" data-throw-if-not-resolved=\"false\"></xref> with the name of the culture, setting it on the current thread.\n<remarks>\nUICultureInfo is used for translating resources. <xref href=\"SuperOffice.Globalization.ResourceManager.CultureInfo\" data-throw-if-not-resolved=\"false\"></xref> for formatting dates, numbers, etc.\n</remarks>\n"
+  syntax:
+    content: public static CultureInfo UICultureInfo { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property UICultureInfo As CultureInfo
+  overload: SuperOffice.Globalization.ResourceManager.UICultureInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: IResourceProvider
+  nameWithType: IResourceProvider
+  fullName: SuperOffice.Globalization.IResourceProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Globalization.ResourceManager.Refresh*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.Refresh
+  isExternal: true
+  name: Refresh
+  nameWithType: ResourceManager.Refresh
+  fullName: SuperOffice.Globalization.ResourceManager.Refresh
+- uid: SuperOffice.Globalization.ResourceManager.SetCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.SetCulture
+  isExternal: true
+  name: SetCulture
+  nameWithType: ResourceManager.SetCulture
+  fullName: SuperOffice.Globalization.ResourceManager.SetCulture
+- uid: SuperOffice.Globalization.ResourceManager.GetCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetCulture
+  isExternal: true
+  name: GetCulture
+  nameWithType: ResourceManager.GetCulture
+  fullName: SuperOffice.Globalization.ResourceManager.GetCulture
+- uid: SuperOffice.Globalization.ResourceManager.GetUICulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetUICulture
+  isExternal: true
+  name: GetUICulture
+  nameWithType: ResourceManager.GetUICulture
+  fullName: SuperOffice.Globalization.ResourceManager.GetUICulture
+- uid: SuperOffice.Globalization.ResourceManager.GetSupportedLanguages*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetSupportedLanguages
+  isExternal: true
+  name: GetSupportedLanguages
+  nameWithType: ResourceManager.GetSupportedLanguages
+  fullName: SuperOffice.Globalization.ResourceManager.GetSupportedLanguages
+- uid: System.Globalization.CultureInfo[]
+  isExternal: true
+  name: CultureInfo[]
+  nameWithType: CultureInfo[]
+  fullName: System.Globalization.CultureInfo[]
+  nameWithType.vb: CultureInfo()
+  fullName.vb: System.Globalization.CultureInfo()
+  name.vb: CultureInfo()
+  spec.csharp:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Globalization.ResourceManager.GetProviderInfo*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetProviderInfo
+  isExternal: true
+  name: GetProviderInfo
+  nameWithType: ResourceManager.GetProviderInfo
+  fullName: SuperOffice.Globalization.ResourceManager.GetProviderInfo
+- uid: SuperOffice.Globalization.ResourceManager.ProviderInfo[]
+  isExternal: true
+  name: ResourceManager.ProviderInfo[]
+  nameWithType: ResourceManager.ProviderInfo[]
+  fullName: SuperOffice.Globalization.ResourceManager.ProviderInfo[]
+  nameWithType.vb: ResourceManager.ProviderInfo()
+  fullName.vb: SuperOffice.Globalization.ResourceManager.ProviderInfo()
+  name.vb: ResourceManager.ProviderInfo()
+  spec.csharp:
+  - uid: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    name: ResourceManager.ProviderInfo
+    nameWithType: ResourceManager.ProviderInfo
+    fullName: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    name: ResourceManager.ProviderInfo
+    nameWithType: ResourceManager.ProviderInfo
+    fullName: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Globalization.ResourceManager.ConvertToShortDateString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.ConvertToShortDateString
+  isExternal: true
+  name: ConvertToShortDateString
+  nameWithType: ResourceManager.ConvertToShortDateString
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertToShortDateString
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString
+  isExternal: true
+  name: ConvertToShortTimeString
+  nameWithType: ResourceManager.ConvertToShortTimeString
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertToShortTimeString
+- uid: SuperOffice.Globalization.ResourceManager.ConvertToLongDateString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.ConvertToLongDateString
+  isExternal: true
+  name: ConvertToLongDateString
+  nameWithType: ResourceManager.ConvertToLongDateString
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertToLongDateString
+- uid: SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString
+  isExternal: true
+  name: ConvertDayOfWeekToLocalizedString
+  nameWithType: ResourceManager.ConvertDayOfWeekToLocalizedString
+  fullName: SuperOffice.Globalization.ResourceManager.ConvertDayOfWeekToLocalizedString
+- uid: System.DayOfWeek
+  commentId: T:System.DayOfWeek
+  parent: System
+  isExternal: true
+  name: DayOfWeek
+  nameWithType: DayOfWeek
+  fullName: System.DayOfWeek
+- uid: SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString
+  isExternal: true
+  name: GetAbbreviatedDayOfWeekToLocalizedString
+  nameWithType: ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString
+  fullName: SuperOffice.Globalization.ResourceManager.GetAbbreviatedDayOfWeekToLocalizedString
+- uid: SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString
+  isExternal: true
+  name: GetMonthToLocalizedString
+  nameWithType: ResourceManager.GetMonthToLocalizedString
+  fullName: SuperOffice.Globalization.ResourceManager.GetMonthToLocalizedString
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString
+  isExternal: true
+  name: GetMonthToAbbreviatedLocalizedString
+  nameWithType: ResourceManager.GetMonthToAbbreviatedLocalizedString
+  fullName: SuperOffice.Globalization.ResourceManager.GetMonthToAbbreviatedLocalizedString
+- uid: SuperOffice.Globalization.ResourceManager.GetString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: ResourceManager.GetString
+  fullName: SuperOffice.Globalization.ResourceManager.GetString
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Globalization.ClientFilterFormat
+  commentId: T:SuperOffice.Globalization.ClientFilterFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: ClientFilterFormat
+  nameWithType: ClientFilterFormat
+  fullName: SuperOffice.Globalization.ClientFilterFormat
+- uid: SuperOffice.Globalization.ResourceManager.GetMultiLangString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetMultiLangString
+  isExternal: true
+  name: GetMultiLangString
+  nameWithType: ResourceManager.GetMultiLangString
+  fullName: SuperOffice.Globalization.ResourceManager.GetMultiLangString
+- uid: SuperOffice.Globalization.ResourceManager.FilterForClient*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.FilterForClient
+  isExternal: true
+  name: FilterForClient
+  nameWithType: ResourceManager.FilterForClient
+  fullName: SuperOffice.Globalization.ResourceManager.FilterForClient
+- uid: SuperOffice.Globalization.ResourceStringFormat
+  commentId: T:SuperOffice.Globalization.ResourceStringFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: ResourceStringFormat
+  nameWithType: ResourceStringFormat
+  fullName: SuperOffice.Globalization.ResourceStringFormat
+- uid: SuperOffice.Globalization.ResourceManager.GetEnumResourceName*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetEnumResourceName
+  isExternal: true
+  name: GetEnumResourceName
+  nameWithType: ResourceManager.GetEnumResourceName
+  fullName: SuperOffice.Globalization.ResourceManager.GetEnumResourceName
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: SuperOffice.Globalization.ResourceManager.GetInlineLabelString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetInlineLabelString
+  isExternal: true
+  name: GetInlineLabelString
+  nameWithType: ResourceManager.GetInlineLabelString
+  fullName: SuperOffice.Globalization.ResourceManager.GetInlineLabelString
+- uid: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString
+  isExternal: true
+  name: ParseMultiLanguageString
+  nameWithType: ResourceManager.ParseMultiLanguageString
+  fullName: SuperOffice.Globalization.ResourceManager.ParseMultiLanguageString
+- uid: SuperOffice.Globalization.ResourceManager.ParseInlineResources*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.ParseInlineResources
+  isExternal: true
+  name: ParseInlineResources
+  nameWithType: ResourceManager.ParseInlineResources
+  fullName: SuperOffice.Globalization.ResourceManager.ParseInlineResources
+- uid: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture
+  isExternal: true
+  name: GetUnfilteredResourcesForCulture
+  nameWithType: ResourceManager.GetUnfilteredResourcesForCulture
+  fullName: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourcesForCulture
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture
+  isExternal: true
+  name: GetUnfilteredResourceForCulture
+  nameWithType: ResourceManager.GetUnfilteredResourceForCulture
+  fullName: SuperOffice.Globalization.ResourceManager.GetUnfilteredResourceForCulture
+- uid: SuperOffice.Globalization.ResourceManager.FindResourceStrings*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.FindResourceStrings
+  isExternal: true
+  name: FindResourceStrings
+  nameWithType: ResourceManager.FindResourceStrings
+  fullName: SuperOffice.Globalization.ResourceManager.FindResourceStrings
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings
+  isExternal: true
+  name: GetAllTranslatedResourceStrings
+  nameWithType: ResourceManager.GetAllTranslatedResourceStrings
+  fullName: SuperOffice.Globalization.ResourceManager.GetAllTranslatedResourceStrings
+- uid: SuperOffice.Globalization.ResourceManager.#ctor*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.#ctor
+  isExternal: true
+  name: ResourceManager
+  nameWithType: ResourceManager.ResourceManager
+  fullName: SuperOffice.Globalization.ResourceManager.ResourceManager
+- uid: SuperOffice.Globalization.ResourceManager.StartupCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.StartupCulture
+  isExternal: true
+  name: StartupCulture
+  nameWithType: ResourceManager.StartupCulture
+  fullName: SuperOffice.Globalization.ResourceManager.StartupCulture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: SuperOffice.Globalization.ResourceManager.CultureInfo*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.CultureInfo
+  isExternal: true
+  name: CultureInfo
+  nameWithType: ResourceManager.CultureInfo
+  fullName: SuperOffice.Globalization.ResourceManager.CultureInfo
+- uid: SuperOffice.Globalization.ResourceManager.UICultureInfo*
+  commentId: Overload:SuperOffice.Globalization.ResourceManager.UICultureInfo
+  isExternal: true
+  name: UICultureInfo
+  nameWithType: ResourceManager.UICultureInfo
+  fullName: SuperOffice.Globalization.ResourceManager.UICultureInfo

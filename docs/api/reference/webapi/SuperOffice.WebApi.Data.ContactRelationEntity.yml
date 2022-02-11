@@ -1,0 +1,893 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactRelationEntity
+  id: ContactRelationEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ContactRelationEntity.#ctor
+  - SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText
+  - SuperOffice.WebApi.Data.ContactRelationEntity.Comment
+  - SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy
+  - SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate
+  - SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId
+  - SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName
+  - SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId
+  - SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName
+  - SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText
+  - SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId
+  - SuperOffice.WebApi.Data.ContactRelationEntity.RelationId
+  - SuperOffice.WebApi.Data.ContactRelationEntity.Reversed
+  - SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId
+  - SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName
+  - SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId
+  - SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName
+  - SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy
+  - SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ContactRelationEntity.\nRelationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All ContactRelationEntity: <pre><code>&quot;Relation&quot;</code></pre>
+  example:
+  - "\nGet ContactRelationEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new RelationAgent(configuration);\nvar contactRelationEntity = agent.GetContactRelationEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ContactRelationEntity : Carrier'
+    content.vb: >-
+      Public Class ContactRelationEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.RelationAgent
+    commentId: T:SuperOffice.WebApi.Agents.RelationAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ContactRelationEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: ContactRelationEntity()
+  nameWithType: ContactRelationEntity.ContactRelationEntity()
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.ContactRelationEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ContactRelationEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId
+  id: SourceContactId
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceContactId
+  nameWithType: ContactRelationEntity.SourceContactId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the source contact. The value is mandatory.\n"
+  syntax:
+    content: public virtual int SourceContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SourceContactId As Integer
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId
+  id: SourcePersonId
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourcePersonId
+  nameWithType: ContactRelationEntity.SourcePersonId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the source person. The value is not mandatory. The person must belong to the source contact.\n"
+  syntax:
+    content: public virtual int SourcePersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SourcePersonId As Integer
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId
+  id: DestinationContactId
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactId
+  nameWithType: ContactRelationEntity.DestinationContactId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the destination contact. The value is mandatory.\n"
+  syntax:
+    content: public virtual int DestinationContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DestinationContactId As Integer
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId
+  id: DestinationPersonId
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationPersonId
+  nameWithType: ContactRelationEntity.DestinationPersonId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the destination person. The value is not mandatory. The person must belong to the destination contact.\n"
+  syntax:
+    content: public virtual int DestinationPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DestinationPersonId As Integer
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.RelationId
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.RelationId
+  id: RelationId
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: ContactRelationEntity.RelationId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.RelationId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RelationId As Integer
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.RelationId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.Comment
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ContactRelationEntity.Comment
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.Comment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nComment for relation\n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId
+  id: RelationDefinitionId
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationDefinitionId
+  nameWithType: ContactRelationEntity.RelationDefinitionId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to definition\n"
+  syntax:
+    content: public virtual int RelationDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RelationDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.Reversed
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.Reversed
+  id: Reversed
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: Reversed
+  nameWithType: ContactRelationEntity.Reversed
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.Reversed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs direction reversed relative to definition\n"
+  syntax:
+    content: public virtual short Reversed { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Reversed As Short
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.Reversed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ContactRelationEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ContactRelationEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ContactRelationEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ContactRelationEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName
+  id: SourceContactName
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceContactName
+  nameWithType: ContactRelationEntity.SourceContactName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the source contact.\n"
+  syntax:
+    content: public virtual string SourceContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceContactName As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName
+  id: SourcePersonName
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourcePersonName
+  nameWithType: ContactRelationEntity.SourcePersonName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the source person.\n"
+  syntax:
+    content: public virtual string SourcePersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourcePersonName As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName
+  id: DestinationContactName
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactName
+  nameWithType: ContactRelationEntity.DestinationContactName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the destination contact.\n"
+  syntax:
+    content: public virtual string DestinationContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DestinationContactName As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName
+  id: DestinationPersonName
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationPersonName
+  nameWithType: ContactRelationEntity.DestinationPersonName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the destination person.\n"
+  syntax:
+    content: public virtual string DestinationPersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DestinationPersonName As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText
+  id: ActiveText
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveText
+  nameWithType: ContactRelationEntity.ActiveText
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActive text for the relation.\n"
+  syntax:
+    content: public virtual string ActiveText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ActiveText As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText
+  commentId: P:SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText
+  id: PassiveText
+  parent: SuperOffice.WebApi.Data.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: PassiveText
+  nameWithType: ContactRelationEntity.PassiveText
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPassive text for the relation.\n"
+  syntax:
+    content: public virtual string PassiveText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PassiveText As String
+  overload: SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.RelationAgent
+  commentId: T:SuperOffice.WebApi.Agents.RelationAgent
+  isExternal: true
+  name: RelationAgent
+  nameWithType: RelationAgent
+  fullName: SuperOffice.WebApi.Agents.RelationAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.#ctor
+  isExternal: true
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity.ContactRelationEntity
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.ContactRelationEntity
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId
+  isExternal: true
+  name: SourceContactId
+  nameWithType: ContactRelationEntity.SourceContactId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId
+  isExternal: true
+  name: SourcePersonId
+  nameWithType: ContactRelationEntity.SourcePersonId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonId
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId
+  isExternal: true
+  name: DestinationContactId
+  nameWithType: ContactRelationEntity.DestinationContactId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactId
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId
+  isExternal: true
+  name: DestinationPersonId
+  nameWithType: ContactRelationEntity.DestinationPersonId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonId
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.RelationId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.RelationId
+  isExternal: true
+  name: RelationId
+  nameWithType: ContactRelationEntity.RelationId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.RelationId
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.Comment*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: ContactRelationEntity.Comment
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.Comment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId
+  isExternal: true
+  name: RelationDefinitionId
+  nameWithType: ContactRelationEntity.RelationDefinitionId
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.RelationDefinitionId
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.Reversed*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.Reversed
+  isExternal: true
+  name: Reversed
+  nameWithType: ContactRelationEntity.Reversed
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.Reversed
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: ContactRelationEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ContactRelationEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedDate
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ContactRelationEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.CreatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ContactRelationEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.UpdatedBy
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName
+  isExternal: true
+  name: SourceContactName
+  nameWithType: ContactRelationEntity.SourceContactName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourceContactName
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName
+  isExternal: true
+  name: SourcePersonName
+  nameWithType: ContactRelationEntity.SourcePersonName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.SourcePersonName
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName
+  isExternal: true
+  name: DestinationContactName
+  nameWithType: ContactRelationEntity.DestinationContactName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationContactName
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName
+  isExternal: true
+  name: DestinationPersonName
+  nameWithType: ContactRelationEntity.DestinationPersonName
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.DestinationPersonName
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText
+  isExternal: true
+  name: ActiveText
+  nameWithType: ContactRelationEntity.ActiveText
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.ActiveText
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText
+  isExternal: true
+  name: PassiveText
+  nameWithType: ContactRelationEntity.PassiveText
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity.PassiveText

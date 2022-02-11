@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetColleaguesRequest
+  id: Person_GetColleaguesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetColleaguesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Person_GetColleaguesRequest
+  nameWithType: Person_GetColleaguesRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetColleaguesRequest : Object'
+    content.vb: >-
+      Public Class Person_GetColleaguesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetColleaguesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetColleaguesRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetColleaguesRequest()
+  nameWithType: Person_GetColleaguesRequest.Person_GetColleaguesRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesRequest.Person_GetColleaguesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetColleaguesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetColleaguesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetColleaguesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetColleaguesRequest.#ctor
+  isExternal: true
+  name: Person_GetColleaguesRequest
+  nameWithType: Person_GetColleaguesRequest.Person_GetColleaguesRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetColleaguesRequest.Person_GetColleaguesRequest

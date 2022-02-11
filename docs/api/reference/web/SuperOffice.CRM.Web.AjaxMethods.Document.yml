@@ -1,0 +1,1238 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Document
+  id: Document
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Document.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate(System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties(System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript
+  - SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected
+  - SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream(System.Int32,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: Document
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Document")]
+
+      public class Document : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Document")>
+
+      Public Class Document
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Document
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument(System.String)
+  id: DeleteTempDocument(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DeleteTempDocument(String)
+  nameWithType: Document.DeleteTempDocument(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteTempDocument(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub DeleteTempDocument(name As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument(System.Int32)
+  id: DeleteDocument(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocument(Int32)
+  nameWithType: Document.DeleteDocument(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteDocument(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Sub DeleteDocument(documentId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument(System.Int32,System.String,System.Boolean)
+  id: OpenDocument(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: OpenDocument(Int32, String, Boolean)
+  nameWithType: Document.OpenDocument(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string OpenDocument(int documentId, string archiveControlId, bool useSuperStateCopy)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    - id: archiveControlId
+      type: System.String
+    - id: useSuperStateCopy
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function OpenDocument(documentId As Integer, archiveControlId As String, useSuperStateCopy As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp(System.Int32)
+  id: OpenDocumentWithTrayApp(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: OpenDocumentWithTrayApp(Int32)
+  nameWithType: Document.OpenDocumentWithTrayApp(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool OpenDocumentWithTrayApp(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function OpenDocumentWithTrayApp(documentId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp(System.Int32)
+  id: CheckoutAndOpenDocumentWithTrayApp(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: CheckoutAndOpenDocumentWithTrayApp(Int32)
+  nameWithType: Document.CheckoutAndOpenDocumentWithTrayApp(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool CheckoutAndOpenDocumentWithTrayApp(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function CheckoutAndOpenDocumentWithTrayApp(documentId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument(System.Int32)
+  id: DownloadDocument(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DownloadDocument(Int32)
+  nameWithType: Document.DownloadDocument(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DownloadDocument(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function DownloadDocument(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile(System.Int32)
+  id: DownloadDocumentFile(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DownloadDocumentFile(Int32)
+  nameWithType: Document.DownloadDocumentFile(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DownloadDocumentFile(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function DownloadDocumentFile(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile(System.Int32)
+  id: DownloadReadOnlyDocumentFile(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DownloadReadOnlyDocumentFile(Int32)
+  nameWithType: Document.DownloadReadOnlyDocumentFile(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DownloadReadOnlyDocumentFile(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function DownloadReadOnlyDocumentFile(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties(System.Int32,System.Int32)
+  id: GetDocumentTemplateProperties(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateProperties(Int32, Int32)
+  nameWithType: Document.GetDocumentTemplateProperties(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public StringDictionary GetDocumentTemplateProperties(int documentTemplateId, int languageLCID)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+    - id: languageLCID
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Function GetDocumentTemplateProperties(documentTemplateId As Integer, languageLCID As Integer) As StringDictionary
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream(System.Int32,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream(System.Int32,System.String,System.String,System.Int32)
+  id: SaveDocumentTemplateStream(System.Int32,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentTemplateStream(Int32, String, String, Int32)
+  nameWithType: Document.SaveDocumentTemplateStream(Int32, String, String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream(System.Int32, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public TemplateInfo SaveDocumentTemplateStream(int documentTemplateId, string base64content, string languageCode = "", int pluginId = -1)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+    - id: base64content
+      type: System.String
+    - id: languageCode
+      type: System.String
+    - id: pluginId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Documents.TemplateInfo
+    content.vb: Public Function SaveDocumentTemplateStream(documentTemplateId As Integer, base64content As String, languageCode As String = "", pluginId As Integer = -1) As TemplateInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate(System.Int32,System.Int32)
+  id: DownloadDocumentTemplate(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DownloadDocumentTemplate(Int32, Int32)
+  nameWithType: Document.DownloadDocumentTemplate(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DownloadDocumentTemplate(int documentTemplateId, int languageLCID)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+    - id: languageLCID
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function DownloadDocumentTemplate(documentTemplateId As Integer, languageLCID As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript
+  id: GetPreferredOpenScript
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: GetPreferredOpenScript()
+  nameWithType: Document.GetPreferredOpenScript()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetPreferredOpenScript()
+    return:
+      type: System.String
+    content.vb: Public Function GetPreferredOpenScript As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument
+  id: DownloadCurrentDocument
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: DownloadCurrentDocument()
+  nameWithType: Document.DownloadCurrentDocument()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DownloadCurrentDocument()
+    return:
+      type: System.String
+    content.vb: Public Function DownloadCurrentDocument As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson(System.Int32)
+  id: SetCurrentContactPerson(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentContactPerson(Int32)
+  nameWithType: Document.SetCurrentContactPerson(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetCurrentContactPerson(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Sub SetCurrentContactPerson(documentId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand(System.Int32,System.String)
+  id: ExecuteDocumentCommand(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: ExecuteDocumentCommand(Int32, String)
+  nameWithType: Document.ExecuteDocumentCommand(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static ReturnInfo ExecuteDocumentCommand(int docId, string command)
+    parameters:
+    - id: docId
+      type: System.Int32
+    - id: command
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Shared Function ExecuteDocumentCommand(docId As Integer, command As String) As ReturnInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback(System.Int32)
+  id: GetCreateDocumentCallback(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: GetCreateDocumentCallback(Int32)
+  nameWithType: Document.GetCreateDocumentCallback(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string GetCreateDocumentCallback(int docTemplateId)
+    parameters:
+    - id: docTemplateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCreateDocumentCallback(docTemplateId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected
+  id: IsTrayAppConnected
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: IsTrayAppConnected()
+  nameWithType: Document.IsTrayAppConnected()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static bool IsTrayAppConnected()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsTrayAppConnected As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument(System.Int32)
+  id: CheckOutDocument(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: CheckOutDocument(Int32)
+  nameWithType: Document.CheckOutDocument(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static ReturnInfo CheckOutDocument(int docId)
+    parameters:
+    - id: docId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Shared Function CheckOutDocument(docId As Integer) As ReturnInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument(System.Int32)
+  id: UndoCheckOutDocument(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: UndoCheckOutDocument(Int32)
+  nameWithType: Document.UndoCheckOutDocument(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static ReturnInfo UndoCheckOutDocument(int docId)
+    parameters:
+    - id: docId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+    content.vb: Public Shared Function UndoCheckOutDocument(docId As Integer) As ReturnInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState(System.Int32)
+  id: GetCheckOutState(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: GetCheckOutState(Int32)
+  nameWithType: Document.GetCheckOutState(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static CheckoutInfo GetCheckOutState(int docId)
+    parameters:
+    - id: docId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Documents.CheckoutInfo
+    content.vb: Public Shared Function GetCheckOutState(docId As Integer) As CheckoutInfo
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason(System.Int32)
+  id: GetDocumentTableRightsReason(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTableRightsReason(Int32)
+  nameWithType: Document.GetDocumentTableRightsReason(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string GetDocumentTableRightsReason(int docId)
+    parameters:
+    - id: docId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDocumentTableRightsReason(docId As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Document.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Document
+  langs:
+  - csharp
+  - vb
+  name: Document()
+  nameWithType: Document.Document()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.Document()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Document()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Document.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument
+  isExternal: true
+  name: DeleteTempDocument
+  nameWithType: Document.DeleteTempDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteTempDocument
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument
+  isExternal: true
+  name: DeleteDocument
+  nameWithType: Document.DeleteDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DeleteDocument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument
+  isExternal: true
+  name: OpenDocument
+  nameWithType: Document.OpenDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocument
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp
+  isExternal: true
+  name: OpenDocumentWithTrayApp
+  nameWithType: Document.OpenDocumentWithTrayApp
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.OpenDocumentWithTrayApp
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp
+  isExternal: true
+  name: CheckoutAndOpenDocumentWithTrayApp
+  nameWithType: Document.CheckoutAndOpenDocumentWithTrayApp
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.CheckoutAndOpenDocumentWithTrayApp
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument
+  isExternal: true
+  name: DownloadDocument
+  nameWithType: Document.DownloadDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocument
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile
+  isExternal: true
+  name: DownloadDocumentFile
+  nameWithType: Document.DownloadDocumentFile
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentFile
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile
+  isExternal: true
+  name: DownloadReadOnlyDocumentFile
+  nameWithType: Document.DownloadReadOnlyDocumentFile
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadReadOnlyDocumentFile
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties
+  isExternal: true
+  name: GetDocumentTemplateProperties
+  nameWithType: Document.GetDocumentTemplateProperties
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTemplateProperties
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream
+  isExternal: true
+  name: SaveDocumentTemplateStream
+  nameWithType: Document.SaveDocumentTemplateStream
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.SaveDocumentTemplateStream
+- uid: SuperOffice.CRM.Documents.TemplateInfo
+  isExternal: true
+  name: TemplateInfo
+  nameWithType: TemplateInfo
+  fullName: SuperOffice.CRM.Documents.TemplateInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate
+  isExternal: true
+  name: DownloadDocumentTemplate
+  nameWithType: Document.DownloadDocumentTemplate
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadDocumentTemplate
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript
+  isExternal: true
+  name: GetPreferredOpenScript
+  nameWithType: Document.GetPreferredOpenScript
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetPreferredOpenScript
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument
+  isExternal: true
+  name: DownloadCurrentDocument
+  nameWithType: Document.DownloadCurrentDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.DownloadCurrentDocument
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson
+  isExternal: true
+  name: SetCurrentContactPerson
+  nameWithType: Document.SetCurrentContactPerson
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.SetCurrentContactPerson
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand
+  isExternal: true
+  name: ExecuteDocumentCommand
+  nameWithType: Document.ExecuteDocumentCommand
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.ExecuteDocumentCommand
+- uid: SuperOffice.CRM.ReturnInfo
+  isExternal: true
+  name: ReturnInfo
+  nameWithType: ReturnInfo
+  fullName: SuperOffice.CRM.ReturnInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback
+  isExternal: true
+  name: GetCreateDocumentCallback
+  nameWithType: Document.GetCreateDocumentCallback
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetCreateDocumentCallback
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected
+  isExternal: true
+  name: IsTrayAppConnected
+  nameWithType: Document.IsTrayAppConnected
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.IsTrayAppConnected
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument
+  isExternal: true
+  name: CheckOutDocument
+  nameWithType: Document.CheckOutDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.CheckOutDocument
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument
+  isExternal: true
+  name: UndoCheckOutDocument
+  nameWithType: Document.UndoCheckOutDocument
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.UndoCheckOutDocument
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState
+  isExternal: true
+  name: GetCheckOutState
+  nameWithType: Document.GetCheckOutState
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetCheckOutState
+- uid: SuperOffice.CRM.Documents.CheckoutInfo
+  commentId: '!:SuperOffice.CRM.Documents.CheckoutInfo'
+  isExternal: true
+  name: CheckoutInfo
+  nameWithType: CheckoutInfo
+  fullName: SuperOffice.CRM.Documents.CheckoutInfo
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason
+  isExternal: true
+  name: GetDocumentTableRightsReason
+  nameWithType: Document.GetDocumentTableRightsReason
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.GetDocumentTableRightsReason
+- uid: SuperOffice.CRM.Web.AjaxMethods.Document.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Document.#ctor
+  isExternal: true
+  name: Document
+  nameWithType: Document.Document
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Document.Document

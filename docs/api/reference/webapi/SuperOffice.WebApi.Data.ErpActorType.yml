@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpActorType.Customer
+  - SuperOffice.WebApi.Data.ErpActorType.Employee
+  - SuperOffice.WebApi.Data.ErpActorType.Partner
+  - SuperOffice.WebApi.Data.ErpActorType.Person
+  - SuperOffice.WebApi.Data.ErpActorType.Project
+  - SuperOffice.WebApi.Data.ErpActorType.Sale
+  - SuperOffice.WebApi.Data.ErpActorType.Supplier
+  - SuperOffice.WebApi.Data.ErpActorType.Unknown
+  - SuperOffice.WebApi.Data.ErpActorType.value__
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActor type within the ERP system, related but not identitcal to SuperOffice Entity type\nThis Enum is used by:  ErpConnectionActorType.ActorTypeErp; ErpExternalKey.ActorType\n"
+  syntax:
+    content: 'public sealed class ErpActorType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ErpActorType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpActorType.value__
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ErpActorType.value__
+  fullName: SuperOffice.WebApi.Data.ErpActorType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpActorType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ErpActorType.Unknown
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: public const ErpActorType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Unknown As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Customer
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Customer
+  id: Customer
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Customer
+  nameWithType: ErpActorType.Customer
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Customer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Erp Customer\n"
+  syntax:
+    content: public const ErpActorType Customer
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Customer As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Supplier
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Supplier
+  id: Supplier
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: ErpActorType.Supplier
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Supplier
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Supplier or Vendor\n"
+  syntax:
+    content: public const ErpActorType Supplier
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Supplier As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Partner
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Partner
+  id: Partner
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Partner
+  nameWithType: ErpActorType.Partner
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Partner
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Both customer and supplier\n"
+  syntax:
+    content: public const ErpActorType Partner
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Partner As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Person
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ErpActorType.Person
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Person
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Contact person\n"
+  syntax:
+    content: public const ErpActorType Person
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Person As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Project
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: ErpActorType.Project
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Project\n"
+  syntax:
+    content: public const ErpActorType Project
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Project As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Employee
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Employee
+  id: Employee
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Employee
+  nameWithType: ErpActorType.Employee
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Employee
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Employee, often mapped to associate\n"
+  syntax:
+    content: public const ErpActorType Employee
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Employee As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ErpActorType.Sale
+  commentId: F:SuperOffice.WebApi.Data.ErpActorType.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: ErpActorType.Sale
+  fullName: SuperOffice.WebApi.Data.ErpActorType.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Sale\n"
+  syntax:
+    content: public const ErpActorType Sale
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Const Sale As ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType

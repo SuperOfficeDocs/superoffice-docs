@@ -1,0 +1,3248 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  commentId: T:SuperOffice.DCF.Web.UI.PageBuilderHelper
+  id: PageBuilderHelper
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent(System.Collections.Hashtable)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout(SuperOffice.DCF.Web.UI.ILayout,System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(System.Int32)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(System.Int32,System.Int32)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.Collections.Hashtable)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls(SuperOffice.DCF.Web.UI.ICard)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive(System.Web.UI.Control,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard(SuperOffice.DCF.Web.UI.ICard)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty(System.Object)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.HorizontalBorderWidth
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode(System.String,System.String,System.Boolean@)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly(System.String,System.String,System.Boolean@)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode(System.Collections.Hashtable)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate(SuperOffice.Cache.SuperState)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode(System.Collections.Hashtable)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View,System.Boolean@)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly(SuperOffice.Cache.View,System.Boolean@)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode(SuperOffice.Cache.View)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientHeight
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientWidth
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogHeight
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogWidth
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.MinWidthLeftPanel
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.NavigatorWidth
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick(System.Web.UI.WebControls.IButtonControl,System.EventHandler)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute(System.Type,System.Web.UI.AttributeCollection,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage(System.Exception)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl,SuperOffice.DCF.Web.UI.ILayout)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl,System.String,System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl,SuperOffice.DCF.Web.UI.ILayout)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl,System.String,System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus(System.Web.UI.Page,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId(System.Web.UI.Page,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView(SuperOffice.DCF.Web.UI.ICard,System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey(System.String)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  - SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  langs:
+  - csharp
+  - vb
+  name: PageBuilderHelper
+  nameWithType: PageBuilderHelper
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static class PageBuilderHelper
+    content.vb: Public Module PageBuilderHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientWidth
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientWidth
+  id: MinClientWidth
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: MinClientWidth
+  nameWithType: PageBuilderHelper.MinClientWidth
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientWidth
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int MinClientWidth = 950
+    return:
+      type: System.Int32
+    content.vb: Public Const MinClientWidth As Integer = 950
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientHeight
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientHeight
+  id: MinClientHeight
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: MinClientHeight
+  nameWithType: PageBuilderHelper.MinClientHeight
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinClientHeight
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int MinClientHeight = 530
+    return:
+      type: System.Int32
+    content.vb: Public Const MinClientHeight As Integer = 530
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogWidth
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogWidth
+  id: MinDialogWidth
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: MinDialogWidth
+  nameWithType: PageBuilderHelper.MinDialogWidth
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogWidth
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int MinDialogWidth = 800
+    return:
+      type: System.Int32
+    content.vb: Public Const MinDialogWidth As Integer = 800
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogHeight
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogHeight
+  id: MinDialogHeight
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: MinDialogHeight
+  nameWithType: PageBuilderHelper.MinDialogHeight
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinDialogHeight
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int MinDialogHeight = 500
+    return:
+      type: System.Int32
+    content.vb: Public Const MinDialogHeight As Integer = 500
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinWidthLeftPanel
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.MinWidthLeftPanel
+  id: MinWidthLeftPanel
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: MinWidthLeftPanel
+  nameWithType: PageBuilderHelper.MinWidthLeftPanel
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.MinWidthLeftPanel
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int MinWidthLeftPanel = 520
+    return:
+      type: System.Int32
+    content.vb: Public Const MinWidthLeftPanel As Integer = 520
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.NavigatorWidth
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.NavigatorWidth
+  id: NavigatorWidth
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: NavigatorWidth
+  nameWithType: PageBuilderHelper.NavigatorWidth
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.NavigatorWidth
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int NavigatorWidth = 166
+    return:
+      type: System.Int32
+    content.vb: Public Const NavigatorWidth As Integer = 166
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.HorizontalBorderWidth
+  commentId: F:SuperOffice.DCF.Web.UI.PageBuilderHelper.HorizontalBorderWidth
+  id: HorizontalBorderWidth
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: HorizontalBorderWidth
+  nameWithType: PageBuilderHelper.HorizontalBorderWidth
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.HorizontalBorderWidth
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public const int HorizontalBorderWidth = 55
+    return:
+      type: System.Int32
+    content.vb: Public Const HorizontalBorderWidth As Integer = 55
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect(System.String)
+  id: RegisterPageUpdateRedirect(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: RegisterPageUpdateRedirect(String)
+  nameWithType: PageBuilderHelper.RegisterPageUpdateRedirect(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RegisterPageUpdateRedirect(string soProtocol)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    content.vb: Public Shared Sub RegisterPageUpdateRedirect(soProtocol As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute(System.Type,System.Web.UI.AttributeCollection,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute(System.Type,System.Web.UI.AttributeCollection,System.String)
+  id: RegisterSoIdAttribute(System.Type,System.Web.UI.AttributeCollection,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: RegisterSoIdAttribute(Type, AttributeCollection, String)
+  nameWithType: PageBuilderHelper.RegisterSoIdAttribute(Type, AttributeCollection, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute(System.Type, System.Web.UI.AttributeCollection, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RegisterSoIdAttribute(Type type, AttributeCollection attributes, string soId)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: attributes
+      type: System.Web.UI.AttributeCollection
+    - id: soId
+      type: System.String
+    content.vb: Public Shared Sub RegisterSoIdAttribute(type As Type, attributes As AttributeCollection, soId As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  id: CreateSaveCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateSaveCallbackWithServerSideEvent(Control, String)
+  nameWithType: PageBuilderHelper.CreateSaveCallbackWithServerSideEvent(Control, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent(System.Web.UI.Control, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateSaveCallbackWithServerSideEvent(Control control, string clientCallback)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: clientCallback
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateSaveCallbackWithServerSideEvent(control As Control, clientCallback As String) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  id: CreateCallbackWithServerSideEvent(System.Web.UI.Control,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateCallbackWithServerSideEvent(Control, String)
+  nameWithType: PageBuilderHelper.CreateCallbackWithServerSideEvent(Control, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateCallbackWithServerSideEvent(Control control, string clientCallback)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: clientCallback
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateCallbackWithServerSideEvent(control As Control, clientCallback As String) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control)
+  id: CreateCallbackWithServerSideEvent(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateCallbackWithServerSideEvent(Control)
+  nameWithType: PageBuilderHelper.CreateCallbackWithServerSideEvent(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateCallbackWithServerSideEvent(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateCallbackWithServerSideEvent(control As Control) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.Collections.Hashtable)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.Collections.Hashtable)
+  id: CreateLinkWithParams(System.Web.UI.Control,System.Collections.Hashtable)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateLinkWithParams(Control, Hashtable)
+  nameWithType: PageBuilderHelper.CreateLinkWithParams(Control, Hashtable)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control, System.Collections.Hashtable)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateLinkWithParams(Control control, Hashtable param)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: param
+      type: System.Collections.Hashtable
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateLinkWithParams(control As Control, param As Hashtable) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable)
+  id: CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateLinkWithParams(Control, String, Hashtable)
+  nameWithType: PageBuilderHelper.CreateLinkWithParams(Control, String, Hashtable)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control, System.String, System.Collections.Hashtable)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateLinkWithParams(Control control, string soprotocolPrefix, Hashtable param)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: soprotocolPrefix
+      type: System.String
+    - id: param
+      type: System.Collections.Hashtable
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateLinkWithParams(control As Control, soprotocolPrefix As String, param As Hashtable) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String)
+  id: CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateLinkWithParams(Control, String, Hashtable, String)
+  nameWithType: PageBuilderHelper.CreateLinkWithParams(Control, String, Hashtable, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control, System.String, System.Collections.Hashtable, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateLinkWithParams(Control control, string soprotocolPrefix, Hashtable param, string currentString)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: soprotocolPrefix
+      type: System.String
+    - id: param
+      type: System.Collections.Hashtable
+    - id: currentString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateLinkWithParams(control As Control, soprotocolPrefix As String, param As Hashtable, currentString As String) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String,System.Boolean)
+  id: CreateLinkWithParams(System.Web.UI.Control,System.String,System.Collections.Hashtable,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateLinkWithParams(Control, String, Hashtable, String, Boolean)
+  nameWithType: PageBuilderHelper.CreateLinkWithParams(Control, String, Hashtable, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams(System.Web.UI.Control, System.String, System.Collections.Hashtable, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string CreateLinkWithParams(Control control, string soprotocolPrefix, Hashtable param, string currentString, bool queued)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    - id: soprotocolPrefix
+      type: System.String
+    - id: param
+      type: System.Collections.Hashtable
+    - id: currentString
+      type: System.String
+    - id: queued
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateLinkWithParams(control As Control, soprotocolPrefix As String, param As Hashtable, currentString As String, queued As Boolean) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent(System.Collections.Hashtable)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent(System.Collections.Hashtable)
+  id: AppendParamsOnServerEvent(System.Collections.Hashtable)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: AppendParamsOnServerEvent(Hashtable)
+  nameWithType: PageBuilderHelper.AppendParamsOnServerEvent(Hashtable)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent(System.Collections.Hashtable)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string AppendParamsOnServerEvent(Hashtable param)
+    parameters:
+    - id: param
+      type: System.Collections.Hashtable
+    return:
+      type: System.String
+    content.vb: Public Shared Function AppendParamsOnServerEvent(param As Hashtable) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl(System.Web.UI.Control)
+  id: GetViewFromControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetViewFromControl(Control)
+  nameWithType: PageBuilderHelper.GetViewFromControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static IView GetViewFromControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: SuperOffice.DCF.Web.UI.IView
+    content.vb: Public Shared Function GetViewFromControl(control As Control) As IView
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl(System.Web.UI.Control)
+  id: GetPanelFromControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPanelFromControl(Control)
+  nameWithType: PageBuilderHelper.GetPanelFromControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static IPanel GetPanelFromControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: SuperOffice.DCF.Web.UI.IPanel
+    content.vb: Public Shared Function GetPanelFromControl(control As Control) As IPanel
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl(System.Web.UI.Control)
+  id: GetControlGroupFromControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetControlGroupFromControl(Control)
+  nameWithType: PageBuilderHelper.GetControlGroupFromControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static IControlGroup GetControlGroupFromControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: SuperOffice.DCF.Web.UI.IControlGroup
+    content.vb: Public Shared Function GetControlGroupFromControl(control As Control) As IControlGroup
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl(System.Web.UI.Control)
+  id: GetCardFromControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCardFromControl(Control)
+  nameWithType: PageBuilderHelper.GetCardFromControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static ICard GetCardFromControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: SuperOffice.DCF.Web.UI.ICard
+    content.vb: Public Shared Function GetCardFromControl(control As Control) As ICard
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode(System.Collections.Hashtable)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode(System.Collections.Hashtable)
+  id: IsEditMode(System.Collections.Hashtable)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEditMode(Hashtable)
+  nameWithType: PageBuilderHelper.IsEditMode(Hashtable)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode(System.Collections.Hashtable)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsEditMode(Hashtable param)
+    parameters:
+    - id: param
+      type: System.Collections.Hashtable
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEditMode(param As Hashtable) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode(System.Collections.Hashtable)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode(System.Collections.Hashtable)
+  id: IsSaveMode(System.Collections.Hashtable)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSaveMode(Hashtable)
+  nameWithType: PageBuilderHelper.IsSaveMode(Hashtable)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode(System.Collections.Hashtable)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsSaveMode(Hashtable param)
+    parameters:
+    - id: param
+      type: System.Collections.Hashtable
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSaveMode(param As Hashtable) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  id: SaveFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveFromControl(ICard, String[])
+  nameWithType: PageBuilderHelper.SaveFromControl(ICard, String[])
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl(SuperOffice.DCF.Web.UI.ICard, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static Dictionary<string, object> SaveFromControl(ICard card, string[] dataHandlers)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    - id: dataHandlers
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function SaveFromControl(card As ICard, dataHandlers As String()) As Dictionary(Of String, Object)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl*
+  nameWithType.vb: PageBuilderHelper.SaveFromControl(ICard, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl(SuperOffice.DCF.Web.UI.ICard, System.String())
+  name.vb: SaveFromControl(ICard, String())
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls(SuperOffice.DCF.Web.UI.ICard)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls(SuperOffice.DCF.Web.UI.ICard)
+  id: DataBindControls(SuperOffice.DCF.Web.UI.ICard)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: DataBindControls(ICard)
+  nameWithType: PageBuilderHelper.DataBindControls(ICard)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls(SuperOffice.DCF.Web.UI.ICard)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void DataBindControls(ICard card)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    content.vb: Public Shared Sub DataBindControls(card As ICard)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  id: DeleteFromControl(SuperOffice.DCF.Web.UI.ICard,System.String[])
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteFromControl(ICard, String[])
+  nameWithType: PageBuilderHelper.DeleteFromControl(ICard, String[])
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl(SuperOffice.DCF.Web.UI.ICard, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void DeleteFromControl(ICard card, string[] dataHandlers)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    - id: dataHandlers
+      type: System.String[]
+    content.vb: Public Shared Sub DeleteFromControl(card As ICard, dataHandlers As String())
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl*
+  nameWithType.vb: PageBuilderHelper.DeleteFromControl(ICard, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl(SuperOffice.DCF.Web.UI.ICard, System.String())
+  name.vb: DeleteFromControl(ICard, String())
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String,System.Boolean)
+  id: ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeCardMode(ICard, String, Boolean)
+  nameWithType: PageBuilderHelper.ChangeCardMode(ICard, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void ChangeCardMode(ICard card, string panelId, bool mode)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    - id: panelId
+      type: System.String
+    - id: mode
+      type: System.Boolean
+    content.vb: Public Shared Sub ChangeCardMode(card As ICard, panelId As String, mode As Boolean)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String)
+  id: ChangeCardMode(SuperOffice.DCF.Web.UI.ICard,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeCardMode(ICard, String)
+  nameWithType: PageBuilderHelper.ChangeCardMode(ICard, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode(SuperOffice.DCF.Web.UI.ICard, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void ChangeCardMode(ICard card, string panelId)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    - id: panelId
+      type: System.String
+    content.vb: Public Shared Sub ChangeCardMode(card As ICard, panelId As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard(SuperOffice.DCF.Web.UI.ICard)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard(SuperOffice.DCF.Web.UI.ICard)
+  id: GetCurrentViewFromCard(SuperOffice.DCF.Web.UI.ICard)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentViewFromCard(ICard)
+  nameWithType: PageBuilderHelper.GetCurrentViewFromCard(ICard)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard(SuperOffice.DCF.Web.UI.ICard)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static View GetCurrentViewFromCard(ICard card)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    return:
+      type: SuperOffice.Cache.View
+    content.vb: Public Shared Function GetCurrentViewFromCard(card As ICard) As View
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode(System.String,System.String,System.Boolean@)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode(System.String,System.String,System.Boolean@)
+  id: IsCardEditMode(System.String,System.String,System.Boolean@)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsCardEditMode(String, String, out Boolean)
+  nameWithType: PageBuilderHelper.IsCardEditMode(String, String, out Boolean)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode(System.String, System.String, out System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsCardEditMode(string cardId, string panelId, out bool editMode)
+    parameters:
+    - id: cardId
+      type: System.String
+    - id: panelId
+      type: System.String
+    - id: editMode
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCardEditMode(cardId As String, panelId As String, ByRef editMode As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode*
+  nameWithType.vb: PageBuilderHelper.IsCardEditMode(String, String, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode(System.String, System.String, ByRef System.Boolean)
+  name.vb: IsCardEditMode(String, String, ByRef Boolean)
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly(System.String,System.String,System.Boolean@)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly(System.String,System.String,System.Boolean@)
+  id: IsCardReadOnly(System.String,System.String,System.Boolean@)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsCardReadOnly(String, String, out Boolean)
+  nameWithType: PageBuilderHelper.IsCardReadOnly(String, String, out Boolean)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly(System.String, System.String, out System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsCardReadOnly(string cardId, string panelId, out bool readOnly)
+    parameters:
+    - id: cardId
+      type: System.String
+    - id: panelId
+      type: System.String
+    - id: readOnly
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCardReadOnly(cardId As String, panelId As String, ByRef readOnly As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly*
+  nameWithType.vb: PageBuilderHelper.IsCardReadOnly(String, String, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly(System.String, System.String, ByRef System.Boolean)
+  name.vb: IsCardReadOnly(String, String, ByRef Boolean)
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam(System.String)
+  id: IsPersistentParam(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPersistentParam(String)
+  nameWithType: PageBuilderHelper.IsPersistentParam(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsPersistentParam(string paramKey)
+    parameters:
+    - id: paramKey
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsPersistentParam(paramKey As String) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode(SuperOffice.Cache.View)
+  id: IsViewSingleViewEditMode(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewSingleViewEditMode(View)
+  nameWithType: PageBuilderHelper.IsViewSingleViewEditMode(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewSingleViewEditMode(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewSingleViewEditMode(view As View) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate(SuperOffice.Cache.SuperState)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate(SuperOffice.Cache.SuperState)
+  id: IsNoUpdate(SuperOffice.Cache.SuperState)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNoUpdate(SuperState)
+  nameWithType: PageBuilderHelper.IsNoUpdate(SuperState)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate(SuperOffice.Cache.SuperState)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsNoUpdate(SuperState superstate)
+    parameters:
+    - id: superstate
+      type: SuperOffice.Cache.SuperState
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsNoUpdate(superstate As SuperState) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View,System.Boolean@)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View,System.Boolean@)
+  id: IsViewEditMode(SuperOffice.Cache.View,System.Boolean@)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewEditMode(View, out Boolean)
+  nameWithType: PageBuilderHelper.IsViewEditMode(View, out Boolean)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View, out System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewEditMode(View view, out bool editMode)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    - id: editMode
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewEditMode(view As View, ByRef editMode As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode*
+  nameWithType.vb: PageBuilderHelper.IsViewEditMode(View, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View, ByRef System.Boolean)
+  name.vb: IsViewEditMode(View, ByRef Boolean)
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View)
+  id: IsViewEditMode(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewEditMode(View)
+  nameWithType: PageBuilderHelper.IsViewEditMode(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewEditMode(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewEditMode(view As View) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly(SuperOffice.Cache.View,System.Boolean@)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly(SuperOffice.Cache.View,System.Boolean@)
+  id: IsViewReadOnly(SuperOffice.Cache.View,System.Boolean@)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewReadOnly(View, out Boolean)
+  nameWithType: PageBuilderHelper.IsViewReadOnly(View, out Boolean)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly(SuperOffice.Cache.View, out System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewReadOnly(View view, out bool readOnly)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    - id: readOnly
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewReadOnly(view As View, ByRef readOnly As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly*
+  nameWithType.vb: PageBuilderHelper.IsViewReadOnly(View, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly(SuperOffice.Cache.View, ByRef System.Boolean)
+  name.vb: IsViewReadOnly(View, ByRef Boolean)
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode(SuperOffice.Cache.View)
+  id: IsViewSaveMode(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewSaveMode(View)
+  nameWithType: PageBuilderHelper.IsViewSaveMode(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewSaveMode(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewSaveMode(view As View) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode(SuperOffice.Cache.View)
+  id: IsViewDeleteMode(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewDeleteMode(View)
+  nameWithType: PageBuilderHelper.IsViewDeleteMode(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewDeleteMode(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewDeleteMode(view As View) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode(SuperOffice.Cache.View)
+  id: IsViewClearMode(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewClearMode(View)
+  nameWithType: PageBuilderHelper.IsViewClearMode(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewClearMode(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewClearMode(view As View) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode(SuperOffice.Cache.View)
+  id: IsViewNewMode(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsViewNewMode(View)
+  nameWithType: PageBuilderHelper.IsViewNewMode(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsViewNewMode(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsViewNewMode(view As View) As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit(SuperOffice.Cache.View)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit(SuperOffice.Cache.View)
+  id: ChangeModeToEdit(SuperOffice.Cache.View)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeModeToEdit(View)
+  nameWithType: PageBuilderHelper.ChangeModeToEdit(View)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit(SuperOffice.Cache.View)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void ChangeModeToEdit(View view)
+    parameters:
+    - id: view
+      type: SuperOffice.Cache.View
+    content.vb: Public Shared Sub ChangeModeToEdit(view As View)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView(SuperOffice.DCF.Web.UI.ICard,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView(SuperOffice.DCF.Web.UI.ICard,System.String)
+  id: SetSelectedView(SuperOffice.DCF.Web.UI.ICard,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedView(ICard, String)
+  nameWithType: PageBuilderHelper.SetSelectedView(ICard, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView(SuperOffice.DCF.Web.UI.ICard, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetSelectedView(ICard card, string viewId)
+    parameters:
+    - id: card
+      type: SuperOffice.DCF.Web.UI.ICard
+    - id: viewId
+      type: System.String
+    content.vb: Public Shared Sub SetSelectedView(card As ICard, viewId As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize(System.Web.UI.Control)
+  id: GetContainerSize(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetContainerSize(Control)
+  nameWithType: PageBuilderHelper.GetContainerSize(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static Size GetContainerSize(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Shared Function GetContainerSize(control As Control) As Size
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(System.Int32,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(System.Int32,System.Int32)
+  id: CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(System.Int32,System.Int32)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(Int32, Int32)
+  nameWithType: PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(Int32, Int32)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static int CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(int mainWinWidth, int pos)
+    parameters:
+    - id: mainWinWidth
+      type: System.Int32
+    - id: pos
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde(mainWinWidth As Integer, pos As Integer) As Integer
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(System.Int32)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(System.Int32)
+  id: CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(System.Int32)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(Int32)
+  nameWithType: PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(Int32)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static int CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(int percentage)
+    parameters:
+    - id: percentage
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage(percentage As Integer) As Integer
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos(System.String)
+  id: GetVerticalSplitterPos(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVerticalSplitterPos(String)
+  nameWithType: PageBuilderHelper.GetVerticalSplitterPos(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string GetVerticalSplitterPos(string panelId)
+    parameters:
+    - id: panelId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetVerticalSplitterPos(panelId As String) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  id: SetVerticalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVerticalSplitterPos(Int32, String, Size)
+  nameWithType: PageBuilderHelper.SetVerticalSplitterPos(Int32, String, Size)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos(System.Int32, System.String, System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetVerticalSplitterPos(int pos, string panelId, Size previousSize)
+    parameters:
+    - id: pos
+      type: System.Int32
+    - id: panelId
+      type: System.String
+    - id: previousSize
+      type: System.Drawing.Size
+    content.vb: Public Shared Sub SetVerticalSplitterPos(pos As Integer, panelId As String, previousSize As Size)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos(System.String)
+  id: GetHorizontalSplitterPos(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHorizontalSplitterPos(String)
+  nameWithType: PageBuilderHelper.GetHorizontalSplitterPos(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string GetHorizontalSplitterPos(string panelId)
+    parameters:
+    - id: panelId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetHorizontalSplitterPos(panelId As String) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  id: SetHorizontalSplitterPos(System.Int32,System.String,System.Drawing.Size)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetHorizontalSplitterPos(Int32, String, Size)
+  nameWithType: PageBuilderHelper.SetHorizontalSplitterPos(Int32, String, Size)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos(System.Int32, System.String, System.Drawing.Size)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetHorizontalSplitterPos(int pos, string panelId, Size previousSize)
+    parameters:
+    - id: pos
+      type: System.Int32
+    - id: panelId
+      type: System.String
+    - id: previousSize
+      type: System.Drawing.Size
+    content.vb: Public Shared Sub SetHorizontalSplitterPos(pos As Integer, panelId As String, previousSize As Size)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout(SuperOffice.DCF.Web.UI.ILayout,System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout(SuperOffice.DCF.Web.UI.ILayout,System.Web.UI.Control)
+  id: ApplyLayout(SuperOffice.DCF.Web.UI.ILayout,System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: ApplyLayout(ILayout, Control)
+  nameWithType: PageBuilderHelper.ApplyLayout(ILayout, Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout(SuperOffice.DCF.Web.UI.ILayout, System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void ApplyLayout(ILayout layout, Control control)
+    parameters:
+    - id: layout
+      type: SuperOffice.DCF.Web.UI.ILayout
+    - id: control
+      type: System.Web.UI.Control
+    content.vb: Public Shared Sub ApplyLayout(layout As ILayout, control As Control)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus(System.Web.UI.Page,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus(System.Web.UI.Page,System.String)
+  id: SetFocus(System.Web.UI.Page,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetFocus(Page, String)
+  nameWithType: PageBuilderHelper.SetFocus(Page, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus(System.Web.UI.Page, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: >-
+      [Obsolete("Use SetFocusBySoId instead")]
+
+      public static void SetFocus(Page page, string controlId)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    - id: controlId
+      type: System.String
+    content.vb: >-
+      <Obsolete("Use SetFocusBySoId instead")>
+
+      Public Shared Sub SetFocus(page As Page, controlId As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use SetFocusBySoId instead
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId(System.Web.UI.Page,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId(System.Web.UI.Page,System.String)
+  id: SetFocusBySoId(System.Web.UI.Page,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetFocusBySoId(Page, String)
+  nameWithType: PageBuilderHelper.SetFocusBySoId(Page, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId(System.Web.UI.Page, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetFocusBySoId(Page page, string soId)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    - id: soId
+      type: System.String
+    content.vb: Public Shared Sub SetFocusBySoId(page As Page, soId As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl,SuperOffice.DCF.Web.UI.ILayout)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl,SuperOffice.DCF.Web.UI.ILayout)
+  id: SetControlSize(System.Web.UI.HtmlControls.HtmlControl,SuperOffice.DCF.Web.UI.ILayout)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetControlSize(HtmlControl, ILayout)
+  nameWithType: PageBuilderHelper.SetControlSize(HtmlControl, ILayout)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl, SuperOffice.DCF.Web.UI.ILayout)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetControlSize(HtmlControl control, ILayout layout)
+    parameters:
+    - id: control
+      type: System.Web.UI.HtmlControls.HtmlControl
+    - id: layout
+      type: SuperOffice.DCF.Web.UI.ILayout
+    content.vb: Public Shared Sub SetControlSize(control As HtmlControl, layout As ILayout)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl,System.String,System.String,System.String,System.String)
+  id: SetControlSize(System.Web.UI.HtmlControls.HtmlControl,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetControlSize(HtmlControl, String, String, String, String)
+  nameWithType: PageBuilderHelper.SetControlSize(HtmlControl, String, String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.HtmlControls.HtmlControl, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetControlSize(HtmlControl control, string Top, string Bottom, string Left, string Right)
+    parameters:
+    - id: control
+      type: System.Web.UI.HtmlControls.HtmlControl
+    - id: Top
+      type: System.String
+    - id: Bottom
+      type: System.String
+    - id: Left
+      type: System.String
+    - id: Right
+      type: System.String
+    content.vb: Public Shared Sub SetControlSize(control As HtmlControl, Top As String, Bottom As String, Left As String, Right As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl,SuperOffice.DCF.Web.UI.ILayout)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl,SuperOffice.DCF.Web.UI.ILayout)
+  id: SetControlSize(System.Web.UI.WebControls.WebControl,SuperOffice.DCF.Web.UI.ILayout)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetControlSize(WebControl, ILayout)
+  nameWithType: PageBuilderHelper.SetControlSize(WebControl, ILayout)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl, SuperOffice.DCF.Web.UI.ILayout)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetControlSize(WebControl control, ILayout layout)
+    parameters:
+    - id: control
+      type: System.Web.UI.WebControls.WebControl
+    - id: layout
+      type: SuperOffice.DCF.Web.UI.ILayout
+    content.vb: Public Shared Sub SetControlSize(control As WebControl, layout As ILayout)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl,System.String,System.String,System.String,System.String)
+  id: SetControlSize(System.Web.UI.WebControls.WebControl,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetControlSize(WebControl, String, String, String, String)
+  nameWithType: PageBuilderHelper.SetControlSize(WebControl, String, String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize(System.Web.UI.WebControls.WebControl, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetControlSize(WebControl control, string Top, string Bottom, string Left, string Right)
+    parameters:
+    - id: control
+      type: System.Web.UI.WebControls.WebControl
+    - id: Top
+      type: System.String
+    - id: Bottom
+      type: System.String
+    - id: Left
+      type: System.String
+    - id: Right
+      type: System.String
+    content.vb: Public Shared Sub SetControlSize(control As WebControl, Top As String, Bottom As String, Left As String, Right As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam(System.String)
+  id: GetParam(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetParam(String)
+  nameWithType: PageBuilderHelper.GetParam(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string GetParam(string paramKey)
+    parameters:
+    - id: paramKey
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetParam(paramKey As String) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage(System.Exception)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage(System.Exception)
+  id: RenderErrorPage(System.Exception)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: RenderErrorPage(Exception)
+  nameWithType: PageBuilderHelper.RenderErrorPage(Exception)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage(System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string RenderErrorPage(Exception error)
+    parameters:
+    - id: error
+      type: System.Exception
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderErrorPage(error As Exception) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl(System.Web.UI.Control)
+  id: RenderCallBackControl(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: RenderCallBackControl(Control)
+  nameWithType: PageBuilderHelper.RenderCallBackControl(Control)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string RenderCallBackControl(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderCallBackControl(control As Control) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  id: StoreCurrentHistoryItem(System.String,SuperOffice.Cache.HistoryItem)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: StoreCurrentHistoryItem(String, HistoryItem)
+  nameWithType: PageBuilderHelper.StoreCurrentHistoryItem(String, HistoryItem)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem(System.String, SuperOffice.Cache.HistoryItem)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void StoreCurrentHistoryItem(string currentName, HistoryItem historyItem)
+    parameters:
+    - id: currentName
+      type: System.String
+    - id: historyItem
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Sub StoreCurrentHistoryItem(currentName As String, historyItem As HistoryItem)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem(System.String)
+  id: GetStoredCurrentHistoryItem(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStoredCurrentHistoryItem(String)
+  nameWithType: PageBuilderHelper.GetStoredCurrentHistoryItem(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static HistoryItem GetStoredCurrentHistoryItem(string currentName)
+    parameters:
+    - id: currentName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Shared Function GetStoredCurrentHistoryItem(currentName As String) As HistoryItem
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey
+  id: GetSuperStateCopyKey
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSuperStateCopyKey()
+  nameWithType: PageBuilderHelper.GetSuperStateCopyKey()
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string GetSuperStateCopyKey()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSuperStateCopyKey As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey(System.String)
+  id: SetSuperStateCopyKey(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetSuperStateCopyKey(String)
+  nameWithType: PageBuilderHelper.SetSuperStateCopyKey(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void SetSuperStateCopyKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    content.vb: Public Shared Sub SetSuperStateCopyKey(key As String)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty(System.Object)
+  id: GetVisibilityStringFromDataBoundProperty(System.Object)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVisibilityStringFromDataBoundProperty(Object)
+  nameWithType: PageBuilderHelper.GetVisibilityStringFromDataBoundProperty(Object)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string GetVisibilityStringFromDataBoundProperty(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetVisibilityStringFromDataBoundProperty(value As Object) As String
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive(System.Web.UI.Control,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive(System.Web.UI.Control,System.String)
+  id: FindControlRecursive(System.Web.UI.Control,System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: FindControlRecursive(Control, String)
+  nameWithType: PageBuilderHelper.FindControlRecursive(Control, String)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive(System.Web.UI.Control, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static Control FindControlRecursive(Control root, string id)
+    parameters:
+    - id: root
+      type: System.Web.UI.Control
+    - id: id
+      type: System.String
+    return:
+      type: System.Web.UI.Control
+    content.vb: Public Shared Function FindControlRecursive(root As Control, id As String) As Control
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick(System.Web.UI.WebControls.IButtonControl,System.EventHandler)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick(System.Web.UI.WebControls.IButtonControl,System.EventHandler)
+  id: RegisterDataboundClick(System.Web.UI.WebControls.IButtonControl,System.EventHandler)
+  isExtensionMethod: true
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: RegisterDataboundClick(IButtonControl, EventHandler)
+  nameWithType: PageBuilderHelper.RegisterDataboundClick(IButtonControl, EventHandler)
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick(System.Web.UI.WebControls.IButtonControl, System.EventHandler)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RegisterDataboundClick(this IButtonControl instance, EventHandler handler)
+    parameters:
+    - id: instance
+      type: System.Web.UI.WebControls.IButtonControl
+    - id: handler
+      type: System.EventHandler
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub RegisterDataboundClick(instance As IButtonControl, handler As EventHandler)
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice
+  commentId: P:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice
+  id: IsTouchDevice
+  parent: SuperOffice.DCF.Web.UI.PageBuilderHelper
+  langs:
+  - csharp
+  - vb
+  name: IsTouchDevice
+  nameWithType: PageBuilderHelper.IsTouchDevice
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static bool IsTouchDevice { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsTouchDevice As Boolean
+  overload: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect
+  isExternal: true
+  name: RegisterPageUpdateRedirect
+  nameWithType: PageBuilderHelper.RegisterPageUpdateRedirect
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterPageUpdateRedirect
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute
+  isExternal: true
+  name: RegisterSoIdAttribute
+  nameWithType: PageBuilderHelper.RegisterSoIdAttribute
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterSoIdAttribute
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Web.UI.AttributeCollection
+  isExternal: true
+  name: AttributeCollection
+  nameWithType: AttributeCollection
+  fullName: System.Web.UI.AttributeCollection
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent
+  isExternal: true
+  name: CreateSaveCallbackWithServerSideEvent
+  nameWithType: PageBuilderHelper.CreateSaveCallbackWithServerSideEvent
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateSaveCallbackWithServerSideEvent
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent
+  isExternal: true
+  name: CreateCallbackWithServerSideEvent
+  nameWithType: PageBuilderHelper.CreateCallbackWithServerSideEvent
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateCallbackWithServerSideEvent
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams
+  isExternal: true
+  name: CreateLinkWithParams
+  nameWithType: PageBuilderHelper.CreateLinkWithParams
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CreateLinkWithParams
+- uid: System.Collections.Hashtable
+  commentId: T:System.Collections.Hashtable
+  parent: System.Collections
+  isExternal: true
+  name: Hashtable
+  nameWithType: Hashtable
+  fullName: System.Collections.Hashtable
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent
+  isExternal: true
+  name: AppendParamsOnServerEvent
+  nameWithType: PageBuilderHelper.AppendParamsOnServerEvent
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.AppendParamsOnServerEvent
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl
+  isExternal: true
+  name: GetViewFromControl
+  nameWithType: PageBuilderHelper.GetViewFromControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetViewFromControl
+- uid: SuperOffice.DCF.Web.UI.IView
+  commentId: T:SuperOffice.DCF.Web.UI.IView
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IView
+  nameWithType: IView
+  fullName: SuperOffice.DCF.Web.UI.IView
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl
+  isExternal: true
+  name: GetPanelFromControl
+  nameWithType: PageBuilderHelper.GetPanelFromControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetPanelFromControl
+- uid: SuperOffice.DCF.Web.UI.IPanel
+  commentId: T:SuperOffice.DCF.Web.UI.IPanel
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IPanel
+  nameWithType: IPanel
+  fullName: SuperOffice.DCF.Web.UI.IPanel
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl
+  isExternal: true
+  name: GetControlGroupFromControl
+  nameWithType: PageBuilderHelper.GetControlGroupFromControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetControlGroupFromControl
+- uid: SuperOffice.DCF.Web.UI.IControlGroup
+  commentId: T:SuperOffice.DCF.Web.UI.IControlGroup
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IControlGroup
+  nameWithType: IControlGroup
+  fullName: SuperOffice.DCF.Web.UI.IControlGroup
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl
+  isExternal: true
+  name: GetCardFromControl
+  nameWithType: PageBuilderHelper.GetCardFromControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCardFromControl
+- uid: SuperOffice.DCF.Web.UI.ICard
+  commentId: T:SuperOffice.DCF.Web.UI.ICard
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ICard
+  nameWithType: ICard
+  fullName: SuperOffice.DCF.Web.UI.ICard
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode
+  isExternal: true
+  name: IsEditMode
+  nameWithType: PageBuilderHelper.IsEditMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsEditMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode
+  isExternal: true
+  name: IsSaveMode
+  nameWithType: PageBuilderHelper.IsSaveMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsSaveMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl
+  isExternal: true
+  name: SaveFromControl
+  nameWithType: PageBuilderHelper.SaveFromControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SaveFromControl
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls
+  isExternal: true
+  name: DataBindControls
+  nameWithType: PageBuilderHelper.DataBindControls
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.DataBindControls
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl
+  isExternal: true
+  name: DeleteFromControl
+  nameWithType: PageBuilderHelper.DeleteFromControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.DeleteFromControl
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode
+  isExternal: true
+  name: ChangeCardMode
+  nameWithType: PageBuilderHelper.ChangeCardMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeCardMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard
+  isExternal: true
+  name: GetCurrentViewFromCard
+  nameWithType: PageBuilderHelper.GetCurrentViewFromCard
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetCurrentViewFromCard
+- uid: SuperOffice.Cache.View
+  commentId: T:SuperOffice.Cache.View
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: SuperOffice.Cache.View
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode
+  isExternal: true
+  name: IsCardEditMode
+  nameWithType: PageBuilderHelper.IsCardEditMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardEditMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly
+  isExternal: true
+  name: IsCardReadOnly
+  nameWithType: PageBuilderHelper.IsCardReadOnly
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsCardReadOnly
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam
+  isExternal: true
+  name: IsPersistentParam
+  nameWithType: PageBuilderHelper.IsPersistentParam
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsPersistentParam
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode
+  isExternal: true
+  name: IsViewSingleViewEditMode
+  nameWithType: PageBuilderHelper.IsViewSingleViewEditMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSingleViewEditMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate
+  isExternal: true
+  name: IsNoUpdate
+  nameWithType: PageBuilderHelper.IsNoUpdate
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsNoUpdate
+- uid: SuperOffice.Cache.SuperState
+  commentId: T:SuperOffice.Cache.SuperState
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.Cache.SuperState
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode
+  isExternal: true
+  name: IsViewEditMode
+  nameWithType: PageBuilderHelper.IsViewEditMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewEditMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly
+  isExternal: true
+  name: IsViewReadOnly
+  nameWithType: PageBuilderHelper.IsViewReadOnly
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewReadOnly
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode
+  isExternal: true
+  name: IsViewSaveMode
+  nameWithType: PageBuilderHelper.IsViewSaveMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewSaveMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode
+  isExternal: true
+  name: IsViewDeleteMode
+  nameWithType: PageBuilderHelper.IsViewDeleteMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewDeleteMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode
+  isExternal: true
+  name: IsViewClearMode
+  nameWithType: PageBuilderHelper.IsViewClearMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewClearMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode
+  isExternal: true
+  name: IsViewNewMode
+  nameWithType: PageBuilderHelper.IsViewNewMode
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsViewNewMode
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit
+  isExternal: true
+  name: ChangeModeToEdit
+  nameWithType: PageBuilderHelper.ChangeModeToEdit
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ChangeModeToEdit
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView
+  isExternal: true
+  name: SetSelectedView
+  nameWithType: PageBuilderHelper.SetSelectedView
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSelectedView
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize
+  isExternal: true
+  name: GetContainerSize
+  nameWithType: PageBuilderHelper.GetContainerSize
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetContainerSize
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde
+  isExternal: true
+  name: CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde
+  nameWithType: PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterPercentageUsingDistanceFromRightEdgde
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage
+  isExternal: true
+  name: CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage
+  nameWithType: PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.CalculateVerticalSplitterDistanceFromRightEdgdeUsingPercentage
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos
+  isExternal: true
+  name: GetVerticalSplitterPos
+  nameWithType: PageBuilderHelper.GetVerticalSplitterPos
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVerticalSplitterPos
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos
+  isExternal: true
+  name: SetVerticalSplitterPos
+  nameWithType: PageBuilderHelper.SetVerticalSplitterPos
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetVerticalSplitterPos
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos
+  isExternal: true
+  name: GetHorizontalSplitterPos
+  nameWithType: PageBuilderHelper.GetHorizontalSplitterPos
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetHorizontalSplitterPos
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos
+  isExternal: true
+  name: SetHorizontalSplitterPos
+  nameWithType: PageBuilderHelper.SetHorizontalSplitterPos
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetHorizontalSplitterPos
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout
+  isExternal: true
+  name: ApplyLayout
+  nameWithType: PageBuilderHelper.ApplyLayout
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.ApplyLayout
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus
+  isExternal: true
+  name: SetFocus
+  nameWithType: PageBuilderHelper.SetFocus
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocus
+- uid: System.Web.UI.Page
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: System.Web.UI.Page
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId
+  isExternal: true
+  name: SetFocusBySoId
+  nameWithType: PageBuilderHelper.SetFocusBySoId
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetFocusBySoId
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize
+  isExternal: true
+  name: SetControlSize
+  nameWithType: PageBuilderHelper.SetControlSize
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetControlSize
+- uid: System.Web.UI.HtmlControls.HtmlControl
+  isExternal: true
+  name: HtmlControl
+  nameWithType: HtmlControl
+  fullName: System.Web.UI.HtmlControls.HtmlControl
+- uid: System.Web.UI.WebControls.WebControl
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam
+  isExternal: true
+  name: GetParam
+  nameWithType: PageBuilderHelper.GetParam
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetParam
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage
+  isExternal: true
+  name: RenderErrorPage
+  nameWithType: PageBuilderHelper.RenderErrorPage
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderErrorPage
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl
+  isExternal: true
+  name: RenderCallBackControl
+  nameWithType: PageBuilderHelper.RenderCallBackControl
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RenderCallBackControl
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem
+  isExternal: true
+  name: StoreCurrentHistoryItem
+  nameWithType: PageBuilderHelper.StoreCurrentHistoryItem
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.StoreCurrentHistoryItem
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem
+  isExternal: true
+  name: GetStoredCurrentHistoryItem
+  nameWithType: PageBuilderHelper.GetStoredCurrentHistoryItem
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetStoredCurrentHistoryItem
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey
+  isExternal: true
+  name: GetSuperStateCopyKey
+  nameWithType: PageBuilderHelper.GetSuperStateCopyKey
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetSuperStateCopyKey
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey
+  isExternal: true
+  name: SetSuperStateCopyKey
+  nameWithType: PageBuilderHelper.SetSuperStateCopyKey
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.SetSuperStateCopyKey
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty
+  isExternal: true
+  name: GetVisibilityStringFromDataBoundProperty
+  nameWithType: PageBuilderHelper.GetVisibilityStringFromDataBoundProperty
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.GetVisibilityStringFromDataBoundProperty
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive
+  isExternal: true
+  name: FindControlRecursive
+  nameWithType: PageBuilderHelper.FindControlRecursive
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.FindControlRecursive
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick
+  isExternal: true
+  name: RegisterDataboundClick
+  nameWithType: PageBuilderHelper.RegisterDataboundClick
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.RegisterDataboundClick
+- uid: System.Web.UI.WebControls.IButtonControl
+  commentId: '!:System.Web.UI.WebControls.IButtonControl'
+  isExternal: true
+  name: IButtonControl
+  nameWithType: IButtonControl
+  fullName: System.Web.UI.WebControls.IButtonControl
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice
+  isExternal: true
+  name: IsTouchDevice
+  nameWithType: PageBuilderHelper.IsTouchDevice
+  fullName: SuperOffice.DCF.Web.UI.PageBuilderHelper.IsTouchDevice

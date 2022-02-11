@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketPriorityStatus
+  # Same as SuperOffice.Data.TicketPriorityStatus
+  commentId: T:CRMScript.NetServer.TicketPriorityStatus
+  id: TicketPriorityStatus
+  children:
+  - CRMScript.NetServer.TicketPriorityStatus.Deleted
+  - CRMScript.NetServer.TicketPriorityStatus.Normal
+  - CRMScript.NetServer.TicketPriorityStatus.Unknown
+  langs:
+  - crmscript
+  name: TicketPriorityStatus
+  nameWithType: TicketPriorityStatus
+  fullName: CRMScript.NetServer.TicketPriorityStatus
+  type: Enum
+  summary: "\nStatus of the ticket priority.\n"
+- uid: CRMScript.NetServer.TicketPriorityStatus.Unknown
+  commentId: F:CRMScript.NetServer.TicketPriorityStatus.Unknown
+  id: Unknown
+  langs:
+  - crmscript
+  name: Unknown
+  nameWithType: TicketPriorityStatus.Unknown
+  fullName: CRMScript.NetServer.TicketPriorityStatus.Unknown
+  type: Field
+  summary: "\n0: The status is unknown, should normally not occur in the database.\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: CRMScript.NetServer.TicketPriorityStatus
+- uid: CRMScript.NetServer.TicketPriorityStatus.Normal
+  commentId: F:CRMScript.NetServer.TicketPriorityStatus.Normal
+  id: Normal
+  langs:
+  - crmscript
+  name: Normal
+  nameWithType: TicketPriorityStatus.Normal
+  fullName: CRMScript.NetServer.TicketPriorityStatus.Normal
+  type: Field
+  summary: "\n1: The status is normal\n"
+  syntax:
+    content: Normal = 1
+    return:
+      type: CRMScript.NetServer.TicketPriorityStatus
+- uid: CRMScript.NetServer.TicketPriorityStatus.Deleted
+  commentId: F:CRMScript.NetServer.TicketPriorityStatus.Deleted
+  id: Deleted
+  langs:
+  - crmscript
+  name: Deleted
+  nameWithType: TicketPriorityStatus.Deleted
+  fullName: CRMScript.NetServer.TicketPriorityStatus.Deleted
+  type: Field
+  summary: "\n2: The status is marked as deleted\n"
+  syntax:
+    content: Deleted = 2
+    return:
+      type: CRMScript.NetServer.TicketPriorityStatus
+references:
+- uid: CRMScript.NetServer.TicketPriorityStatus
+  commentId: T:CRMScript.NetServer.TicketPriorityStatus
+  isExternal: true
+  name: TicketPriorityStatus
+  nameWithType: TicketPriorityStatus
+  fullName: CRMScript.NetServer.TicketPriorityStatus

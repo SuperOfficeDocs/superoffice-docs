@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  id: BulkUpdate_ExecuteByEntityIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  - SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_ExecuteByEntityIdsRequest
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BulkUpdate_ExecuteByEntityIdsRequest : Object'
+    content.vb: >-
+      Public Class BulkUpdate_ExecuteByEntityIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_ExecuteByEntityIdsRequest()
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.BulkUpdate_ExecuteByEntityIdsRequest()
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.BulkUpdate_ExecuteByEntityIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BulkUpdate_ExecuteByEntityIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  id: FieldValueInfos
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: FieldValueInfos
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FieldValueInfo[] FieldValueInfos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.FieldValueInfo[]
+    content.vb: Public Property FieldValueInfos As FieldValueInfo()
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.Context
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  id: Ids
+  parent: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ids
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Ids { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ids As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.#ctor
+  isExternal: true
+  name: BulkUpdate_ExecuteByEntityIdsRequest
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.BulkUpdate_ExecuteByEntityIdsRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.BulkUpdate_ExecuteByEntityIdsRequest
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  isExternal: true
+  name: FieldValueInfos
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.FieldValueInfos
+- uid: SuperOffice.WebApi.Data.FieldValueInfo[]
+  isExternal: true
+  name: FieldValueInfo[]
+  nameWithType: FieldValueInfo[]
+  fullName: SuperOffice.WebApi.Data.FieldValueInfo[]
+  nameWithType.vb: FieldValueInfo()
+  fullName.vb: SuperOffice.WebApi.Data.FieldValueInfo()
+  name.vb: FieldValueInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.WebApi.Data.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.WebApi.Data.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.TableName
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.Context
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Context
+- uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  isExternal: true
+  name: Ids
+  nameWithType: BulkUpdate_ExecuteByEntityIdsRequest.Ids
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest.Ids

@@ -1,0 +1,17 @@
+digraph SaleStakeholder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SaleStakeholder[fillcolor = "cadetblue1"]
+sale[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+StakeholderRole[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SaleStakeholder -> sale [headlabel = "sale_id"]
+SaleStakeholder -> contact [headlabel = "contact_id"]
+SaleStakeholder -> person [headlabel = "person_id"]
+SaleStakeholder -> StakeholderRole [headlabel = "stakeholderrole_id"]
+SaleStakeholder -> associate [headlabel = "registered_associate_id"]
+SaleStakeholder -> associate [label = "updated_associate_id"]
+}

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest
+  id: Project_GetNextMilestoneRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId
+  langs:
+  - csharp
+  - vb
+  name: Project_GetNextMilestoneRequest
+  nameWithType: Project_GetNextMilestoneRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetNextMilestoneRequest : Object'
+    content.vb: >-
+      Public Class Project_GetNextMilestoneRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetNextMilestoneRequest()
+  nameWithType: Project_GetNextMilestoneRequest.Project_GetNextMilestoneRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.Project_GetNextMilestoneRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetNextMilestoneRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Project_GetNextMilestoneRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.#ctor
+  isExternal: true
+  name: Project_GetNextMilestoneRequest
+  nameWithType: Project_GetNextMilestoneRequest.Project_GetNextMilestoneRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.Project_GetNextMilestoneRequest
+- uid: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Project_GetNextMilestoneRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,751 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AddressSyncData
+  commentId: T:SuperOffice.WebApi.Data.AddressSyncData
+  id: AddressSyncData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AddressSyncData.#ctor
+  - SuperOffice.WebApi.Data.AddressSyncData.Address1
+  - SuperOffice.WebApi.Data.AddressSyncData.Address2
+  - SuperOffice.WebApi.Data.AddressSyncData.Address3
+  - SuperOffice.WebApi.Data.AddressSyncData.AddressId
+  - SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  - SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  - SuperOffice.WebApi.Data.AddressSyncData.City
+  - SuperOffice.WebApi.Data.AddressSyncData.County
+  - SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress
+  - SuperOffice.WebApi.Data.AddressSyncData.Latitude
+  - SuperOffice.WebApi.Data.AddressSyncData.Longitude
+  - SuperOffice.WebApi.Data.AddressSyncData.State
+  - SuperOffice.WebApi.Data.AddressSyncData.ZipCode
+  langs:
+  - csharp
+  - vb
+  name: AddressSyncData
+  nameWithType: AddressSyncData
+  fullName: SuperOffice.WebApi.Data.AddressSyncData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AddressSyncData.\n\n"
+  syntax:
+    content: 'public class AddressSyncData : Carrier'
+    content.vb: >-
+      Public Class AddressSyncData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AddressSyncData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AddressSyncData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: AddressSyncData()
+  nameWithType: AddressSyncData.AddressSyncData()
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressSyncData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AddressSyncData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AddressSyncData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressId
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressId
+  id: AddressId
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: AddressId
+  nameWithType: AddressSyncData.AddressId
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AddressId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AddressId As Integer
+  overload: SuperOffice.WebApi.Data.AddressSyncData.AddressId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  id: AddressType_String
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: AddressType_String
+  nameWithType: AddressSyncData.AddressType_String
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\nRaw string enum value.\n"
+  syntax:
+    content: public string AddressType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AddressType_String As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AddressSyncData.AddressType
+    commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  id: AddressType
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: AddressSyncData.AddressType
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AddressType> AddressType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AddressType}
+    content.vb: Public Property AddressType As Nullable(Of AddressType)
+  overload: SuperOffice.WebApi.Data.AddressSyncData.AddressType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+    commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Address1
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.Address1
+  id: Address1
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: AddressSyncData.Address1
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Address1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Address1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address1 As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.Address1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Address2
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.Address2
+  id: Address2
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: Address2
+  nameWithType: AddressSyncData.Address2
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Address2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Address2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address2 As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.Address2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Address3
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.Address3
+  id: Address3
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: Address3
+  nameWithType: AddressSyncData.Address3
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Address3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Address3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address3 As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.Address3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.City
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.City
+  id: City
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: AddressSyncData.City
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.City
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property City As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.City*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.County
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.County
+  id: County
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: County
+  nameWithType: AddressSyncData.County
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.County
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string County { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property County As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.County*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.ZipCode
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.ZipCode
+  id: ZipCode
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: ZipCode
+  nameWithType: AddressSyncData.ZipCode
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.ZipCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ZipCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ZipCode As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.ZipCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.State
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.State
+  id: State
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: AddressSyncData.State
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property State As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Latitude
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.Latitude
+  id: Latitude
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: Latitude
+  nameWithType: AddressSyncData.Latitude
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Latitude
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual double Latitude { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Latitude As Double
+  overload: SuperOffice.WebApi.Data.AddressSyncData.Latitude*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Longitude
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.Longitude
+  id: Longitude
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: Longitude
+  nameWithType: AddressSyncData.Longitude
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Longitude
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual double Longitude { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Longitude As Double
+  overload: SuperOffice.WebApi.Data.AddressSyncData.Longitude*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress
+  id: FormattedAddress
+  parent: SuperOffice.WebApi.Data.AddressSyncData
+  langs:
+  - csharp
+  - vb
+  name: FormattedAddress
+  nameWithType: AddressSyncData.FormattedAddress
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string FormattedAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormattedAddress As String
+  overload: SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AddressSyncData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.#ctor
+  isExternal: true
+  name: AddressSyncData
+  nameWithType: AddressSyncData.AddressSyncData
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressSyncData
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressId*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.AddressId
+  isExternal: true
+  name: AddressId
+  nameWithType: AddressSyncData.AddressId
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  isExternal: true
+  name: AddressType_String
+  nameWithType: AddressSyncData.AddressType_String
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressType*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressSyncData.AddressType
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.AddressType
+- uid: SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  commentId: P:SuperOffice.WebApi.Data.AddressSyncData.AddressType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AddressType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AddressType}'
+  definition: System.Nullable`1
+  name: Nullable<AddressType>
+  nameWithType: Nullable<AddressType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AddressType>
+  nameWithType.vb: Nullable(Of AddressType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AddressType)
+  name.vb: Nullable(Of AddressType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: SuperOffice.WebApi.Data.AddressType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: SuperOffice.WebApi.Data.AddressType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Address1*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.Address1
+  isExternal: true
+  name: Address1
+  nameWithType: AddressSyncData.Address1
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Address1
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Address2*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.Address2
+  isExternal: true
+  name: Address2
+  nameWithType: AddressSyncData.Address2
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Address2
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Address3*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.Address3
+  isExternal: true
+  name: Address3
+  nameWithType: AddressSyncData.Address3
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Address3
+- uid: SuperOffice.WebApi.Data.AddressSyncData.City*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.City
+  isExternal: true
+  name: City
+  nameWithType: AddressSyncData.City
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.City
+- uid: SuperOffice.WebApi.Data.AddressSyncData.County*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.County
+  isExternal: true
+  name: County
+  nameWithType: AddressSyncData.County
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.County
+- uid: SuperOffice.WebApi.Data.AddressSyncData.ZipCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.ZipCode
+  isExternal: true
+  name: ZipCode
+  nameWithType: AddressSyncData.ZipCode
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.ZipCode
+- uid: SuperOffice.WebApi.Data.AddressSyncData.State*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.State
+  isExternal: true
+  name: State
+  nameWithType: AddressSyncData.State
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.State
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Latitude*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.Latitude
+  isExternal: true
+  name: Latitude
+  nameWithType: AddressSyncData.Latitude
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Latitude
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.AddressSyncData.Longitude*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.Longitude
+  isExternal: true
+  name: Longitude
+  nameWithType: AddressSyncData.Longitude
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.Longitude
+- uid: SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress
+  isExternal: true
+  name: FormattedAddress
+  nameWithType: AddressSyncData.FormattedAddress
+  fullName: SuperOffice.WebApi.Data.AddressSyncData.FormattedAddress

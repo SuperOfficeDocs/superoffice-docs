@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoSprite
+  id: SoSprite
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoSprite.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt
+  - SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource
+  - SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl
+  - SuperOffice.CRM.Web.UI.Controls.SoSprite.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: SoSprite
+  nameWithType: SoSprite
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class SoSprite : WebControl'
+    content.vb: >-
+      Public Class SoSprite
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoSprite.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoSprite.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoSprite.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource
+  id: GetSpriteFromSource
+  parent: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  langs:
+  - csharp
+  - vb
+  name: GetSpriteFromSource()
+  nameWithType: SoSprite.GetSpriteFromSource()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string GetSpriteFromSource()
+    return:
+      type: System.String
+    content.vb: Protected Function GetSpriteFromSource As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoSprite.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  langs:
+  - csharp
+  - vb
+  name: SoSprite()
+  nameWithType: SoSprite.SoSprite()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.SoSprite()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoSprite()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoSprite.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl
+  id: ImageUrl
+  parent: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: SoSprite.ImageUrl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string ImageUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageUrl As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt
+  id: Alt
+  parent: SuperOffice.CRM.Web.UI.Controls.SoSprite
+  langs:
+  - csharp
+  - vb
+  name: Alt
+  nameWithType: SoSprite.Alt
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Alt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Alt As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.Render*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoSprite.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoSprite.Render
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource
+  isExternal: true
+  name: GetSpriteFromSource
+  nameWithType: SoSprite.GetSpriteFromSource
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.GetSpriteFromSource
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoSprite.#ctor
+  isExternal: true
+  name: SoSprite
+  nameWithType: SoSprite.SoSprite
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.SoSprite
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl
+  isExternal: true
+  name: ImageUrl
+  nameWithType: SoSprite.ImageUrl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.ImageUrl
+- uid: SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt
+  isExternal: true
+  name: Alt
+  nameWithType: SoSprite.Alt
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoSprite.Alt

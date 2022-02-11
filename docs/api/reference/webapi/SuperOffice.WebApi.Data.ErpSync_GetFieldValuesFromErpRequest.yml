@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  id: ErpSync_GetFieldValuesFromErpRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  - SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  - SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetFieldValuesFromErpRequest
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_GetFieldValuesFromErpRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_GetFieldValuesFromErpRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetFieldValuesFromErpRequest()
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ErpSync_GetFieldValuesFromErpRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpSync_GetFieldValuesFromErpRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_GetFieldValuesFromErpRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  id: ActorTypeErp
+  parent: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  langs:
+  - csharp
+  - vb
+  name: ActorTypeErp
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpActorType ActorTypeErp { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpActorType
+    content.vb: Public Property ActorTypeErp As ErpActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  id: ErpKey
+  parent: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpKey
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ErpKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpKey As String
+  overload: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.#ctor
+  isExternal: true
+  name: ErpSync_GetFieldValuesFromErpRequest
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ErpSync_GetFieldValuesFromErpRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpSync_GetFieldValuesFromErpRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  isExternal: true
+  name: ActorTypeErp
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ActorTypeErp
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType
+- uid: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  isExternal: true
+  name: ErpKey
+  nameWithType: ErpSync_GetFieldValuesFromErpRequest.ErpKey
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetFieldValuesFromErpRequest.ErpKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

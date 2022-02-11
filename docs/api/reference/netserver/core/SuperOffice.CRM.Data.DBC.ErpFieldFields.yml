@@ -1,0 +1,1157 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ErpFieldFields
+  id: DBC.ErpFieldFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.Access
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.CrmFieldKey
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.DefaultValue
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayDescription
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayName
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpConnectionActorTypeId
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldId
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldKey
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.FieldType
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.FirstSyncDefaultValue
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.HasFirstSyncDefaultValue
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ListName
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ListReference
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.Mandatory
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.MaxLength
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.MissingInERP
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.PromptUser
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.Rank
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.Registered
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInGui
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInSearch
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToCrm
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToErp
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.Updated
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ErpFieldFields
+  nameWithType: DBC.ErpFieldFields
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ErpField, Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector\n"
+  syntax:
+    content: public static class ErpFieldFields
+    content.vb: Public Module ErpFieldFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: DBC.ErpFieldFields.ErpFieldId
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ErpFieldId: Primary key\n"
+  syntax:
+    content: public const string ErpFieldId = "erpfield_id"
+    return:
+      type: System.String
+    content.vb: Public Const ErpFieldId As String = "erpfield_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpConnectionActorTypeId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpConnectionActorTypeId
+  id: ErpConnectionActorTypeId
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionActorTypeId
+  nameWithType: DBC.ErpFieldFields.ErpConnectionActorTypeId
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpConnectionActorTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ErpConnectionActorTypeId: Link to Erp Connection/Actor type\n"
+  syntax:
+    content: public const string ErpConnectionActorTypeId = "ErpConnectionActorTypeId"
+    return:
+      type: System.String
+    content.vb: Public Const ErpConnectionActorTypeId As String = "ErpConnectionActorTypeId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldKey
+  id: ErpFieldKey
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldKey
+  nameWithType: DBC.ErpFieldFields.ErpFieldKey
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ErpFieldKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ErpFieldKey: The ERP field key\n"
+  syntax:
+    content: public const string ErpFieldKey = "ErpFieldKey"
+    return:
+      type: System.String
+    content.vb: Public Const ErpFieldKey As String = "ErpFieldKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayName
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: DBC.ErpFieldFields.DisplayName
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.DisplayName: Localized field name – shown in the GUI as the label for the control.\n"
+  syntax:
+    content: public const string DisplayName = "DisplayName"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayName As String = "DisplayName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayDescription
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: DBC.ErpFieldFields.DisplayDescription
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.DisplayDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.DisplayDescription: Tooltip for the field name.\n"
+  syntax:
+    content: public const string DisplayDescription = "DisplayDescription"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayDescription As String = "DisplayDescription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.FieldType
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: DBC.ErpFieldFields.FieldType
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.FieldType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.FieldType: Field type\n"
+  syntax:
+    content: public const string FieldType = "FieldType"
+    return:
+      type: System.String
+    content.vb: Public Const FieldType As String = "FieldType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ListName
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ListName
+  id: ListName
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: DBC.ErpFieldFields.ListName
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ListName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ListName: The ERP list name, if the field has a list of values supplied by the ERP Connector\n"
+  syntax:
+    content: public const string ListName = "ListName"
+    return:
+      type: System.String
+    content.vb: Public Const ListName As String = "ListName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.DefaultValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: DBC.ErpFieldFields.DefaultValue
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.DefaultValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.DefaultValue: Default value, stored using CultureDataFormatter format if it is not a string\n"
+  syntax:
+    content: public const string DefaultValue = "DefaultValue"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultValue As String = "DefaultValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.MaxLength
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.MaxLength
+  id: MaxLength
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: DBC.ErpFieldFields.MaxLength
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.MaxLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.MaxLength: Maximum size of the field, if there is a limit\n"
+  syntax:
+    content: public const string MaxLength = "MaxLength"
+    return:
+      type: System.String
+    content.vb: Public Const MaxLength As String = "MaxLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.Access
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.Access
+  id: Access
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: DBC.ErpFieldFields.Access
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.Access
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.Access: Access restrictions for the field\n"
+  syntax:
+    content: public const string Access = "Access"
+    return:
+      type: System.String
+    content.vb: Public Const Access As String = "Access"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.HasFirstSyncDefaultValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.HasFirstSyncDefaultValue
+  id: HasFirstSyncDefaultValue
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: HasFirstSyncDefaultValue
+  nameWithType: DBC.ErpFieldFields.HasFirstSyncDefaultValue
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.HasFirstSyncDefaultValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.HasFirstSyncDefaultValue: Should a default value be set on first sync\n"
+  syntax:
+    content: public const string HasFirstSyncDefaultValue = "HasFirstSyncDefaultValue"
+    return:
+      type: System.String
+    content.vb: Public Const HasFirstSyncDefaultValue As String = "HasFirstSyncDefaultValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.FirstSyncDefaultValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.FirstSyncDefaultValue
+  id: FirstSyncDefaultValue
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: FirstSyncDefaultValue
+  nameWithType: DBC.ErpFieldFields.FirstSyncDefaultValue
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.FirstSyncDefaultValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.FirstSyncDefaultValue: The default value to be set, can be blank\n"
+  syntax:
+    content: public const string FirstSyncDefaultValue = "FirstSyncDefaultValue"
+    return:
+      type: System.String
+    content.vb: Public Const FirstSyncDefaultValue As String = "FirstSyncDefaultValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.PromptUser
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.PromptUser
+  id: PromptUser
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: PromptUser
+  nameWithType: DBC.ErpFieldFields.PromptUser
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.PromptUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.PromptUser: Should the field be shown in the first-sync GUI; independent of whether a default value should be set\n"
+  syntax:
+    content: public const string PromptUser = "PromptUser"
+    return:
+      type: System.String
+    content.vb: Public Const PromptUser As String = "PromptUser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.Mandatory
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.Mandatory
+  id: Mandatory
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: DBC.ErpFieldFields.Mandatory
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.Mandatory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.Mandatory: Should the user be forced to set a value (the Erp Connector may declare fields mandatory as well)\n"
+  syntax:
+    content: public const string Mandatory = "Mandatory"
+    return:
+      type: System.String
+    content.vb: Public Const Mandatory As String = "Mandatory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.CrmFieldKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.CrmFieldKey
+  id: CrmFieldKey
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldKey
+  nameWithType: DBC.ErpFieldFields.CrmFieldKey
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.CrmFieldKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.CrmFieldKey: The CRM field name, as implemented by the Sync entities\n"
+  syntax:
+    content: public const string CrmFieldKey = "CrmFieldKey"
+    return:
+      type: System.String
+    content.vb: Public Const CrmFieldKey As String = "CrmFieldKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToCrm
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToCrm
+  id: SyncToCrm
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: SyncToCrm
+  nameWithType: DBC.ErpFieldFields.SyncToCrm
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToCrm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.SyncToCrm: Should value changes in ERP be automatically transferred to CRM\n"
+  syntax:
+    content: public const string SyncToCrm = "SyncToCrm"
+    return:
+      type: System.String
+    content.vb: Public Const SyncToCrm As String = "SyncToCrm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToErp
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToErp
+  id: SyncToErp
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: SyncToErp
+  nameWithType: DBC.ErpFieldFields.SyncToErp
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.SyncToErp
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.SyncToErp: Should value changes in CRM be automatically transferred to ERP\n"
+  syntax:
+    content: public const string SyncToErp = "SyncToErp"
+    return:
+      type: System.String
+    content.vb: Public Const SyncToErp As String = "SyncToErp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInGui
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInGui
+  id: ShowInGui
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ShowInGui
+  nameWithType: DBC.ErpFieldFields.ShowInGui
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInGui
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ShowInGui: Should this field be shown as a (read-only!) field in the CRM Gui\n"
+  syntax:
+    content: public const string ShowInGui = "ShowInGui"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInGui As String = "ShowInGui"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInSearch
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInSearch
+  id: ShowInSearch
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ShowInSearch
+  nameWithType: DBC.ErpFieldFields.ShowInSearch
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ShowInSearch
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ShowInSearch: Should this field be shown in searches\n"
+  syntax:
+    content: public const string ShowInSearch = "ShowInSearch"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInSearch As String = "ShowInSearch"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.ErpFieldFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.Rank: Rank order of lines in GUI, relevant if ShowInGui is true\n"
+  syntax:
+    content: public const string Rank = "Rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "Rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.ListReference
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.ListReference
+  id: ListReference
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: ListReference
+  nameWithType: DBC.ErpFieldFields.ListReference
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.ListReference
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.ListReference: Reference to CRM list, if a mapping exists. Format: table=&lt;table name>[&amp;&lt;extra id>=&lt;value>], to make it independent of actual table numbers\n"
+  syntax:
+    content: public const string ListReference = "ListReference"
+    return:
+      type: System.String
+    content.vb: Public Const ListReference As String = "ListReference"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.MissingInERP
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.MissingInERP
+  id: MissingInERP
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: MissingInERP
+  nameWithType: DBC.ErpFieldFields.MissingInERP
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.MissingInERP
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.MissingInERP: Set to true if this field has previously been defined, but was no longer in the &apos;supported fields&apos; response from the connector. This typically happens if the target ERP system changes, and means the field needs to be unmapped.\n"
+  syntax:
+    content: public const string MissingInERP = "MissingInERP"
+    return:
+      type: System.String
+    content.vb: Public Const MissingInERP As String = "MissingInERP"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ErpFieldFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ErpFieldFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ErpFieldFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ErpFieldFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ErpFieldFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ErpFieldFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ErpFieldFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpField.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

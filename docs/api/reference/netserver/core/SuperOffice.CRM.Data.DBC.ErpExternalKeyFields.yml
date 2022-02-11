@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  id: DBC.ErpExternalKeyFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ActorType
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpConnectionId
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpExternalKeyId
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpInternalKeyId
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpKey
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.MostRecentTimestamp
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Registered
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Updated
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ErpExternalKeyFields
+  nameWithType: DBC.ErpExternalKeyFields
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ErpExternalKey, The external (ERP-facing) key related to a synchronized record / connection\n"
+  syntax:
+    content: public static class ErpExternalKeyFields
+    content.vb: Public Module ErpExternalKeyFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpExternalKeyId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpExternalKeyId
+  id: ErpExternalKeyId
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: ErpExternalKeyId
+  nameWithType: DBC.ErpExternalKeyFields.ErpExternalKeyId
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpExternalKeyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.ErpExternalKeyId: Primary key\n"
+  syntax:
+    content: public const string ErpExternalKeyId = "erpexternalkey_id"
+    return:
+      type: System.String
+    content.vb: Public Const ErpExternalKeyId As String = "erpexternalkey_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpInternalKeyId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpInternalKeyId
+  id: ErpInternalKeyId
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: ErpInternalKeyId
+  nameWithType: DBC.ErpExternalKeyFields.ErpInternalKeyId
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpInternalKeyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.ErpInternalKeyId: Link to the internal key and thus the original table/record in SuperOffice that is being synchronized\n"
+  syntax:
+    content: public const string ErpInternalKeyId = "ErpInternalKeyId"
+    return:
+      type: System.String
+    content.vb: Public Const ErpInternalKeyId As String = "ErpInternalKeyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpConnectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: DBC.ErpExternalKeyFields.ErpConnectionId
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpConnectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.ErpConnectionId: Link to the Erp connection the key relates to\n"
+  syntax:
+    content: public const string ErpConnectionId = "ErpConnectionId"
+    return:
+      type: System.String
+    content.vb: Public Const ErpConnectionId As String = "ErpConnectionId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpKey
+  id: ErpKey
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: ErpKey
+  nameWithType: DBC.ErpExternalKeyFields.ErpKey
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ErpKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.ErpKey: The primary key from the ERP system\n"
+  syntax:
+    content: public const string ErpKey = "ErpKey"
+    return:
+      type: System.String
+    content.vb: Public Const ErpKey As String = "ErpKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ActorType
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ActorType
+  id: ActorType
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: ActorType
+  nameWithType: DBC.ErpExternalKeyFields.ActorType
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.ActorType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.ActorType: The actor type within the ERP system of this synchronized record\n"
+  syntax:
+    content: public const string ActorType = "ActorType"
+    return:
+      type: System.String
+    content.vb: Public Const ActorType As String = "ActorType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.MostRecentTimestamp
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.MostRecentTimestamp
+  id: MostRecentTimestamp
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: MostRecentTimestamp
+  nameWithType: DBC.ErpExternalKeyFields.MostRecentTimestamp
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.MostRecentTimestamp
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.MostRecentTimestamp: Datetime, transaction number or other identification of the point in time of the most-recently seen actor in the ERP system\n"
+  syntax:
+    content: public const string MostRecentTimestamp = "MostRecentTimestamp"
+    return:
+      type: System.String
+    content.vb: Public Const MostRecentTimestamp As String = "MostRecentTimestamp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ErpExternalKeyFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ErpExternalKeyFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ErpExternalKeyFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ErpExternalKeyFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ErpExternalKeyFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ErpExternalKeyFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nErpExternalKey.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

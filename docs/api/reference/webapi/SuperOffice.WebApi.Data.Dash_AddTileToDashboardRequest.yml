@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest
+  id: Dash_AddTileToDashboardRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId
+  - SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: Dash_AddTileToDashboardRequest
+  nameWithType: Dash_AddTileToDashboardRequest
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_AddTileToDashboardRequest : Object'
+    content.vb: >-
+      Public Class Dash_AddTileToDashboardRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_AddTileToDashboardRequest()
+  nameWithType: Dash_AddTileToDashboardRequest.Dash_AddTileToDashboardRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.Dash_AddTileToDashboardRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_AddTileToDashboardRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId
+  commentId: P:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId
+  id: DashboardId
+  parent: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardId
+  nameWithType: Dash_AddTileToDashboardRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  id: DashTileDefinitionId
+  parent: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest
+  langs:
+  - csharp
+  - vb
+  name: DashTileDefinitionId
+  nameWithType: Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashTileDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashTileDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.#ctor
+  isExternal: true
+  name: Dash_AddTileToDashboardRequest
+  nameWithType: Dash_AddTileToDashboardRequest.Dash_AddTileToDashboardRequest
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.Dash_AddTileToDashboardRequest
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId
+  isExternal: true
+  name: DashboardId
+  nameWithType: Dash_AddTileToDashboardRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashboardId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  isExternal: true
+  name: DashTileDefinitionId
+  nameWithType: Dash_AddTileToDashboardRequest.DashTileDefinitionId
+  fullName: SuperOffice.WebApi.Data.Dash_AddTileToDashboardRequest.DashTileDefinitionId

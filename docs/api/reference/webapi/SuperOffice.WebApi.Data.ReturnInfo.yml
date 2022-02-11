@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReturnInfo
+  commentId: T:SuperOffice.WebApi.Data.ReturnInfo
+  id: ReturnInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReturnInfo.#ctor
+  - SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo
+  - SuperOffice.WebApi.Data.ReturnInfo.ExternalReference
+  - SuperOffice.WebApi.Data.ReturnInfo.Success
+  - SuperOffice.WebApi.Data.ReturnInfo.Type
+  - SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  - SuperOffice.WebApi.Data.ReturnInfo.Value
+  - SuperOffice.WebApi.Data.ReturnInfo.VersionId
+  langs:
+  - csharp
+  - vb
+  name: ReturnInfo
+  nameWithType: ReturnInfo
+  fullName: SuperOffice.WebApi.Data.ReturnInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ReturnInfo.\nReturn value object for Document Plugin API calls    \n"
+  syntax:
+    content: 'public class ReturnInfo : Object'
+    content.vb: >-
+      Public Class ReturnInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ReturnInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ReturnInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: ReturnInfo()
+  nameWithType: ReturnInfo.ReturnInfo()
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.ReturnInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ReturnInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ReturnInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReturnInfo.ExternalReference
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.ExternalReference
+  id: ExternalReference
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalReference
+  nameWithType: ReturnInfo.ExternalReference
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.ExternalReference
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe document plugin&apos;s key that uniquely identifies a document; stored in the externalReference field of the document table\n"
+  syntax:
+    content: public virtual string ExternalReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExternalReference As String
+  overload: SuperOffice.WebApi.Data.ReturnInfo.ExternalReference*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReturnInfo.VersionId
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.VersionId
+  id: VersionId
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: VersionId
+  nameWithType: ReturnInfo.VersionId
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.VersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe document plugin&apos;s version id that uniquely identifies one version of a document. If versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.\n"
+  syntax:
+    content: public virtual string VersionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VersionId As String
+  overload: SuperOffice.WebApi.Data.ReturnInfo.VersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Success
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Success
+  id: Success
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: ReturnInfo.Success
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Success
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nid the call succeed. A successful call may still return a message or other return value.\n"
+  syntax:
+    content: public virtual bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Success As Boolean
+  overload: SuperOffice.WebApi.Data.ReturnInfo.Success*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: ReturnInfo.Type_String
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow is the return value to be understood by the caller\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.ReturnInfo.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReturnInfo.Type
+    commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Type
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ReturnInfo.Type
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow is the return value to be understood by the caller\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ReturnType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
+    content.vb: Public Property Type As Nullable(Of ReturnType)
+  overload: SuperOffice.WebApi.Data.ReturnInfo.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReturnInfo.Type_String
+    commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Value
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ReturnInfo.Value
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturn value, may be blank.\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.ReturnInfo.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo
+  id: AdditionalInfo
+  parent: SuperOffice.WebApi.Data.ReturnInfo
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: ReturnInfo.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional, additional information meant for further processing. This member is ignored for return types None, Message and SoProtocol. It can be used to pass execution-dependent information to the code that handles CustomGui and Other.\n"
+  syntax:
+    content: public virtual string AdditionalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AdditionalInfo As String
+  overload: SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ReturnInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.#ctor
+  isExternal: true
+  name: ReturnInfo
+  nameWithType: ReturnInfo.ReturnInfo
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.ReturnInfo
+- uid: SuperOffice.WebApi.Data.ReturnInfo.ExternalReference*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.ExternalReference
+  isExternal: true
+  name: ExternalReference
+  nameWithType: ReturnInfo.ExternalReference
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.ExternalReference
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ReturnInfo.VersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.VersionId
+  isExternal: true
+  name: VersionId
+  nameWithType: ReturnInfo.VersionId
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.VersionId
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Success*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.Success
+  isExternal: true
+  name: Success
+  nameWithType: ReturnInfo.Success
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: ReturnInfo.Type_String
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Type_String
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Type
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: ReturnInfo.Type
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Type
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ReturnInfo.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ReturnType}'
+  definition: System.Nullable`1
+  name: Nullable<ReturnType>
+  nameWithType: Nullable<ReturnType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ReturnType>
+  nameWithType.vb: Nullable(Of ReturnType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ReturnType)
+  name.vb: Nullable(Of ReturnType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReturnType
+    name: ReturnType
+    nameWithType: ReturnType
+    fullName: SuperOffice.WebApi.Data.ReturnType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReturnType
+    name: ReturnType
+    nameWithType: ReturnType
+    fullName: SuperOffice.WebApi.Data.ReturnType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ReturnInfo.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.Value
+  isExternal: true
+  name: Value
+  nameWithType: ReturnInfo.Value
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.Value
+- uid: SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: ReturnInfo.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.ReturnInfo.AdditionalInfo

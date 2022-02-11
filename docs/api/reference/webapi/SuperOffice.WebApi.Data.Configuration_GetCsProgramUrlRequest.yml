@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  id: Configuration_GetCsProgramUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action
+  - SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters
+  - SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language
+  - SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCsProgramUrlRequest
+  nameWithType: Configuration_GetCsProgramUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetCsProgramUrlRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetCsProgramUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCsProgramUrlRequest()
+  nameWithType: Configuration_GetCsProgramUrlRequest.Configuration_GetCsProgramUrlRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Configuration_GetCsProgramUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetCsProgramUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Configuration_GetCsProgramUrlRequest.Language
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName
+  id: ProgramName
+  parent: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: ProgramName
+  nameWithType: Configuration_GetCsProgramUrlRequest.ProgramName
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProgramName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProgramName As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Configuration_GetCsProgramUrlRequest.Action
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Action { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Action As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters
+  id: ExtraParameters
+  parent: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: ExtraParameters
+  nameWithType: Configuration_GetCsProgramUrlRequest.ExtraParameters
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ExtraParameters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraParameters As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.#ctor
+  isExternal: true
+  name: Configuration_GetCsProgramUrlRequest
+  nameWithType: Configuration_GetCsProgramUrlRequest.Configuration_GetCsProgramUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Configuration_GetCsProgramUrlRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language
+  isExternal: true
+  name: Language
+  nameWithType: Configuration_GetCsProgramUrlRequest.Language
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Language
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName
+  isExternal: true
+  name: ProgramName
+  nameWithType: Configuration_GetCsProgramUrlRequest.ProgramName
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ProgramName
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action
+  isExternal: true
+  name: Action
+  nameWithType: Configuration_GetCsProgramUrlRequest.Action
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.Action
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters
+  isExternal: true
+  name: ExtraParameters
+  nameWithType: Configuration_GetCsProgramUrlRequest.ExtraParameters
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest.ExtraParameters

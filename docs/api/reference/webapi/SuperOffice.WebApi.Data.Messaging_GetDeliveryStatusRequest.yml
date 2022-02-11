@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest
+  id: Messaging_GetDeliveryStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds
+  langs:
+  - csharp
+  - vb
+  name: Messaging_GetDeliveryStatusRequest
+  nameWithType: Messaging_GetDeliveryStatusRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Messaging_GetDeliveryStatusRequest : Object'
+    content.vb: >-
+      Public Class Messaging_GetDeliveryStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Messaging_GetDeliveryStatusRequest()
+  nameWithType: Messaging_GetDeliveryStatusRequest.Messaging_GetDeliveryStatusRequest()
+  fullName: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.Messaging_GetDeliveryStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Messaging_GetDeliveryStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds
+  commentId: P:SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds
+  id: MessagingIds
+  parent: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: MessagingIds
+  nameWithType: Messaging_GetDeliveryStatusRequest.MessagingIds
+  fullName: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] MessagingIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property MessagingIds As Integer()
+  overload: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.#ctor
+  isExternal: true
+  name: Messaging_GetDeliveryStatusRequest
+  nameWithType: Messaging_GetDeliveryStatusRequest.Messaging_GetDeliveryStatusRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.Messaging_GetDeliveryStatusRequest
+- uid: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds
+  isExternal: true
+  name: MessagingIds
+  nameWithType: Messaging_GetDeliveryStatusRequest.MessagingIds
+  fullName: SuperOffice.WebApi.Data.Messaging_GetDeliveryStatusRequest.MessagingIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,617 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  id: DBC.EmailAttachmentFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Cid
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Description
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Disposition
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailAttachmentId
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailItemId
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Encoding
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Filename
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Size
+  - SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Type
+  langs:
+  - csharp
+  - vb
+  name: DBC.EmailAttachmentFields
+  nameWithType: DBC.EmailAttachmentFields
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for EmailAttachment, Attachment info related to an email_item\n"
+  syntax:
+    content: public static class EmailAttachmentFields
+    content.vb: Public Module EmailAttachmentFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailAttachmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailAttachmentId
+  id: EmailAttachmentId
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: EmailAttachmentId
+  nameWithType: DBC.EmailAttachmentFields.EmailAttachmentId
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailAttachmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.EmailAttachmentId: Primary key\n"
+  syntax:
+    content: public const string EmailAttachmentId = "email_attachment_id"
+    return:
+      type: System.String
+    content.vb: Public Const EmailAttachmentId As String = "email_attachment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailItemId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailItemId
+  id: EmailItemId
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: EmailItemId
+  nameWithType: DBC.EmailAttachmentFields.EmailItemId
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.EmailItemId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.EmailItemId: Id of the email_item\n"
+  syntax:
+    content: public const string EmailItemId = "email_item_id"
+    return:
+      type: System.String
+    content.vb: Public Const EmailItemId As String = "email_item_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Cid
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Cid
+  id: Cid
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Cid
+  nameWithType: DBC.EmailAttachmentFields.Cid
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Cid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Cid: The actual cid or the index of the mime part (an integer)\n"
+  syntax:
+    content: public const string Cid = "cid"
+    return:
+      type: System.String
+    content.vb: Public Const Cid As String = "cid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.EmailAttachmentFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Description: Attachment description\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Filename
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Filename
+  id: Filename
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: DBC.EmailAttachmentFields.Filename
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Filename
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Filename: Filename of attachment\n"
+  syntax:
+    content: public const string Filename = "filename"
+    return:
+      type: System.String
+    content.vb: Public Const Filename As String = "filename"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Disposition
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Disposition
+  id: Disposition
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Disposition
+  nameWithType: DBC.EmailAttachmentFields.Disposition
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Disposition
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Disposition: Attachment disposition\n"
+  syntax:
+    content: public const string Disposition = "disposition"
+    return:
+      type: System.String
+    content.vb: Public Const Disposition As String = "disposition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.EmailAttachmentFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Type: Attachment type\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Encoding
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Encoding
+  id: Encoding
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: DBC.EmailAttachmentFields.Encoding
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Encoding
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Encoding: The attachment encoding\n"
+  syntax:
+    content: public const string Encoding = "encoding"
+    return:
+      type: System.String
+    content.vb: Public Const Encoding As String = "encoding"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Size
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Size
+  id: Size
+  parent: SuperOffice.CRM.Data.DBC.EmailAttachmentFields
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: DBC.EmailAttachmentFields.Size
+  fullName: SuperOffice.CRM.Data.DBC.EmailAttachmentFields.Size
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailAttachment.Size: Attachment file size\n"
+  syntax:
+    content: public const string Size = "size"
+    return:
+      type: System.String
+    content.vb: Public Const Size As String = "size"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

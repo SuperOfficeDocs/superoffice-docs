@@ -1,0 +1,640 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Notepad
+  id: Notepad
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Notepad.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote(System.Int32,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Notepad
+  nameWithType: Notepad
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Notepad")]
+
+      public class Notepad : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Notepad")>
+
+      Public Class Notepad
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Notepad
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor(System.Int32,System.String)
+  id: GetNotePadEditor(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  langs:
+  - csharp
+  - vb
+  name: GetNotePadEditor(Int32, String)
+  nameWithType: Notepad.GetNotePadEditor(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetNotePadEditor(int id, string entity)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: entity
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetNotePadEditor(id As Integer, entity As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook(System.String)
+  id: GetNoteBook(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  langs:
+  - csharp
+  - vb
+  name: GetNoteBook(String)
+  nameWithType: Notepad.GetNoteBook(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public object GetNoteBook(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Function GetNoteBook(id As String) As Object
+  overload: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook(System.String[])
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook(System.String[])
+  id: SaveNoteBook(System.String[])
+  parent: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  langs:
+  - csharp
+  - vb
+  name: SaveNoteBook(String[])
+  nameWithType: Notepad.SaveNoteBook(String[])
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SaveNoteBook(string[] notes)
+    parameters:
+    - id: notes
+      type: System.String[]
+    content.vb: Public Sub SaveNoteBook(notes As String())
+  overload: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook*
+  nameWithType.vb: Notepad.SaveNoteBook(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook(System.String())
+  name.vb: SaveNoteBook(String())
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote(System.Int32,System.String,System.String,System.String)
+  id: SaveNote(System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  langs:
+  - csharp
+  - vb
+  name: SaveNote(Int32, String, String, String)
+  nameWithType: Notepad.SaveNote(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote(System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SaveNote(int id, string entity, string noteText, string date)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: entity
+      type: System.String
+    - id: noteText
+      type: System.String
+    - id: date
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SaveNote(id As Integer, entity As String, noteText As String, date As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote(System.Int32,System.String)
+  id: DeleteNote(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  langs:
+  - csharp
+  - vb
+  name: DeleteNote(Int32, String)
+  nameWithType: Notepad.DeleteNote(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string DeleteNote(int id, string entity)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: entity
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function DeleteNote(id As Integer, entity As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Notepad.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Notepad
+  langs:
+  - csharp
+  - vb
+  name: Notepad()
+  nameWithType: Notepad.Notepad()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.Notepad()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Notepad()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Notepad.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor
+  isExternal: true
+  name: GetNotePadEditor
+  nameWithType: Notepad.GetNotePadEditor
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNotePadEditor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook
+  isExternal: true
+  name: GetNoteBook
+  nameWithType: Notepad.GetNoteBook
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.GetNoteBook
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook
+  isExternal: true
+  name: SaveNoteBook
+  nameWithType: Notepad.SaveNoteBook
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNoteBook
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote
+  isExternal: true
+  name: SaveNote
+  nameWithType: Notepad.SaveNote
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.SaveNote
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote
+  isExternal: true
+  name: DeleteNote
+  nameWithType: Notepad.DeleteNote
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.DeleteNote
+- uid: SuperOffice.CRM.Web.AjaxMethods.Notepad.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Notepad.#ctor
+  isExternal: true
+  name: Notepad
+  nameWithType: Notepad.Notepad
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Notepad.Notepad

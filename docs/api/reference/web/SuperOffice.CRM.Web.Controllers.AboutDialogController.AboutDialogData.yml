@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  commentId: T:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  id: AboutDialogController.AboutDialogData
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.#ctor
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.company
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.copyright
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.customerId
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.netServerVersion
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.role
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.user
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.userplan
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.version
+  langs:
+  - csharp
+  - vb
+  name: AboutDialogController.AboutDialogData
+  nameWithType: AboutDialogController.AboutDialogData
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public class AboutDialogData
+    content.vb: Public Class AboutDialogData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.version
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.version
+  id: version
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: AboutDialogController.AboutDialogData.version
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.version
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string version
+    return:
+      type: System.String
+    content.vb: Public version As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.netServerVersion
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.netServerVersion
+  id: netServerVersion
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: netServerVersion
+  nameWithType: AboutDialogController.AboutDialogData.netServerVersion
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.netServerVersion
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string netServerVersion
+    return:
+      type: System.String
+    content.vb: Public netServerVersion As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.company
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.company
+  id: company
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: company
+  nameWithType: AboutDialogController.AboutDialogData.company
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.company
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string company
+    return:
+      type: System.String
+    content.vb: Public company As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.user
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.user
+  id: user
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: user
+  nameWithType: AboutDialogController.AboutDialogData.user
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.user
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string user
+    return:
+      type: System.String
+    content.vb: Public user As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.role
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.role
+  id: role
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: AboutDialogController.AboutDialogData.role
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.role
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string role
+    return:
+      type: System.String
+    content.vb: Public role As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.userplan
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.userplan
+  id: userplan
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: userplan
+  nameWithType: AboutDialogController.AboutDialogData.userplan
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.userplan
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string userplan
+    return:
+      type: System.String
+    content.vb: Public userplan As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.customerId
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.customerId
+  id: customerId
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: customerId
+  nameWithType: AboutDialogController.AboutDialogData.customerId
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.customerId
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string customerId
+    return:
+      type: System.String
+    content.vb: Public customerId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.copyright
+  commentId: F:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.copyright
+  id: copyright
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: copyright
+  nameWithType: AboutDialogController.AboutDialogData.copyright
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.copyright
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string copyright
+    return:
+      type: System.String
+    content.vb: Public copyright As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  langs:
+  - csharp
+  - vb
+  name: AboutDialogData()
+  nameWithType: AboutDialogController.AboutDialogData.AboutDialogData()
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.AboutDialogData()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public AboutDialogData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.#ctor
+  isExternal: true
+  name: AboutDialogData
+  nameWithType: AboutDialogController.AboutDialogData.AboutDialogData
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData.AboutDialogData

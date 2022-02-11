@@ -101,6 +101,6 @@ Example:
 [5]: ../../onsite/security/deployment-scenarios.md
 [6]: upgrade-to-8.md
 [7]: ../../onsite/install/iis/reverse-proxy.md
-[8]: ../../../../data-access/docs/netserver/config/diagnostics.md
-[9]: ../../../../data-access/docs/netserver/config/SoFormsAuthentication.md
-[10]: ../../../../data-access/docs/netserver/config/globalization.md
+[8]: ../../api/config/diagnostics.md
+[9]: ../../api/config/SoFormsAuthentication.md
+[10]: ../../api/config/globalization.md

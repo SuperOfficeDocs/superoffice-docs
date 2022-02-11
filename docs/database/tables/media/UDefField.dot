@@ -1,0 +1,15 @@
+digraph UDefField  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+UDefField[fillcolor = "cadetblue1"]
+UDListDefinition[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+UDefFieldGL[fillcolor = "azure1"]
+UDefField -> UDListDefinition [headlabel = "UDListDefinition_id"]
+UDefField -> UDefField [headlabel = "lastVersionId"]
+UDefField -> associate [headlabel = "registered_associate_id"]
+UDefField -> associate [label = "updated_associate_id"]
+text -> UDefField [label = "owner_id" style="dashed"]
+UDefFieldGL -> UDefField [label = "UDefFieldId"]
+}

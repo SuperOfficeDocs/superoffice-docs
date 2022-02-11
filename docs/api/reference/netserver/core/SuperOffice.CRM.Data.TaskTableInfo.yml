@@ -1,0 +1,2698 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.TaskTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskTableInfo
+  id: TaskTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.TaskTableInfo.ColorIndex
+  - SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent
+  - SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy
+  - SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType
+  - SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus
+  - SuperOffice.CRM.Data.TaskTableInfo.Definition
+  - SuperOffice.CRM.Data.TaskTableInfo.Deleted
+  - SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.TaskTableInfo.Direction
+  - SuperOffice.CRM.Data.TaskTableInfo.IntentId
+  - SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  - SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  - SuperOffice.CRM.Data.TaskTableInfo.Name
+  - SuperOffice.CRM.Data.TaskTableInfo.Rank
+  - SuperOffice.CRM.Data.TaskTableInfo.RecordType
+  - SuperOffice.CRM.Data.TaskTableInfo.Registered
+  - SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.TaskTableInfo.TaskId
+  - SuperOffice.CRM.Data.TaskTableInfo.Tooltip
+  - SuperOffice.CRM.Data.TaskTableInfo.Updated
+  - SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: TaskTableInfo
+  nameWithType: TaskTableInfo
+  fullName: SuperOffice.CRM.Data.TaskTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;Task&apos;: Task list table, activity types, like Phone, Meeting\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetTaskInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("Task")]
+
+      public class TaskTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("Task")>
+
+      Public Class TaskTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.TaskTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.TaskTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Task
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: TaskTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table Task in the database dictionary: Task\n"
+  syntax:
+    content: public const string DictionaryTableName = "Task"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "Task"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: TaskTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table Task in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: TaskTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: TaskTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.TaskId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.TaskId
+  id: TaskId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TaskId
+  nameWithType: TaskTableInfo.TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.TaskId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;Task_id&apos; in table &apos;Task&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo TaskId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TaskId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.TaskId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Name
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TaskTableInfo.Name
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;name&apos; in table &apos;Task&apos;: Dictionary type String[240], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe list item\n"
+  syntax:
+    content: public StringFieldInfo Name { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Name As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Rank
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TaskTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;rank&apos; in table &apos;Task&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRank order\n"
+  syntax:
+    content: public UInt16FieldInfo Rank { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Rank As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Tooltip
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: TaskTableInfo.Tooltip
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;tooltip&apos; in table &apos;Task&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTooltip or other description\n"
+  syntax:
+    content: public StringFieldInfo Tooltip { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Tooltip As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Deleted
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TaskTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Deleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;deleted&apos; in table &apos;Task&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public UInt16FieldInfo Deleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Deleted As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RecordType
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: TaskTableInfo.RecordType
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RecordType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;record_type&apos; in table &apos;Task&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TaskType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\n"
+  syntax:
+    content: public TaskTypeFieldInfo RecordType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TaskTypeFieldInfo
+    content.vb: Public ReadOnly Property RecordType As TaskTypeFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.RecordType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Direction
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: TaskTableInfo.Direction
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Direction
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;direction&apos; in table &apos;Task&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TaskDirection\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1 = incoming, 2 = outgoing, see EAppntDirection\n"
+  syntax:
+    content: public TaskDirectionFieldInfo Direction { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TaskDirectionFieldInfo
+    content.vb: Public ReadOnly Property Direction As TaskDirectionFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.ColorIndex
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: TaskTableInfo.ColorIndex
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.ColorIndex
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;color_index&apos; in table &apos;Task&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nJAP\n"
+  syntax:
+    content: public UInt16FieldInfo ColorIndex { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ColorIndex As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.ColorIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TaskTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;Task&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: TaskTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Task&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: TaskTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;Task&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: TaskTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Task&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: TaskTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;Task&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent
+  id: DefaultAlldayEvent
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultAlldayEvent
+  nameWithType: TaskTableInfo.DefaultAlldayEvent
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;defaultAlldayEvent&apos; in table &apos;Task&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.AllDayEvent\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault value for alldayEvent flag\n"
+  syntax:
+    content: public AllDayEventFieldInfo DefaultAlldayEvent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.AllDayEventFieldInfo
+    content.vb: Public ReadOnly Property DefaultAlldayEvent As AllDayEventFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy
+  id: DefaultFreeBusy
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultFreeBusy
+  nameWithType: TaskTableInfo.DefaultFreeBusy
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;defaultFreeBusy&apos; in table &apos;Task&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.FreeBusy\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault value for Free/Busy indicator\n"
+  syntax:
+    content: public FreeBusyFieldInfo DefaultFreeBusy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FreeBusyFieldInfo
+    content.vb: Public ReadOnly Property DefaultFreeBusy As FreeBusyFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType
+  id: DefaultPublishType
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultPublishType
+  nameWithType: TaskTableInfo.DefaultPublishType
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;defaultPublishType&apos; in table &apos;Task&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.PublishType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould this field be published by default?\n"
+  syntax:
+    content: public PublishTypeFieldInfo DefaultPublishType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.PublishTypeFieldInfo
+    content.vb: Public ReadOnly Property DefaultPublishType As PublishTypeFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.IntentId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: TaskTableInfo.IntentId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.IntentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;intentId&apos; in table &apos;Task&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to the intention of this kind of task (used by SAINT)\n"
+  syntax:
+    content: public Int32FieldInfo IntentId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property IntentId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.IntentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus
+  id: DefaultVideomeetingStatus
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultVideomeetingStatus
+  nameWithType: TaskTableInfo.DefaultVideomeetingStatus
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;default_videomeeting_status&apos; in table &apos;Task&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.VideoMeetingStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault video-meeting status for meetings created in SuperOffice CRM.\n"
+  syntax:
+    content: public VideoMeetingStatusFieldInfo DefaultVideomeetingStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+    content.vb: Public ReadOnly Property DefaultVideomeetingStatus As VideoMeetingStatusFieldInfo
+  overload: SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent
+  id: IntentId_InnerJoin_Intent
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IntentId_InnerJoin_Intent
+  nameWithType: TaskTableInfo.IntentId_InnerJoin_Intent
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key IntentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.IntentTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<IntentTableInfo> IntentId_InnerJoin_Intent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.IntentTableInfo}
+    content.vb: Public ReadOnly Property IntentId_InnerJoin_Intent As TargetedInnerJoin(Of IntentTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  id: LeftOuterJoin_Appointment_TaskIdx
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Appointment_TaskIdx
+  nameWithType: TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to Appointment.<xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo.TaskIdx\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<AppointmentTableInfo> LeftOuterJoin_Appointment_TaskIdx { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Appointment_TaskIdx As TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  id: LeftOuterJoin_TaskGroupLink_TaskId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TaskGroupLink_TaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to TaskGroupLink.<xref href=\"SuperOffice.CRM.Data.TaskGroupLinkTableInfo.TaskId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TaskGroupLinkTableInfo> LeftOuterJoin_TaskGroupLink_TaskId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskGroupLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TaskGroupLink_TaskId As TargetedLeftOuterJoin(Of TaskGroupLinkTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  id: LeftOuterJoin_TaskHeadingLink_TaskId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TaskHeadingLink_TaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to TaskHeadingLink.<xref href=\"SuperOffice.CRM.Data.TaskHeadingLinkTableInfo.TaskId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TaskHeadingLinkTableInfo> LeftOuterJoin_TaskHeadingLink_TaskId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskHeadingLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TaskHeadingLink_TaskId As TargetedLeftOuterJoin(Of TaskHeadingLinkTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  id: LeftOuterJoin_SuggestedAppointment_TaskId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_SuggestedAppointment_TaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to SuggestedAppointment.<xref href=\"SuperOffice.CRM.Data.SuggestedAppointmentTableInfo.TaskId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<SuggestedAppointmentTableInfo> LeftOuterJoin_SuggestedAppointment_TaskId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_SuggestedAppointment_TaskId As TargetedLeftOuterJoin(Of SuggestedAppointmentTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  id: LeftOuterJoin_StatusDef_DefaultTask
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_StatusDef_DefaultTask
+  nameWithType: TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to StatusDef.<xref href=\"SuperOffice.CRM.Data.StatusDefTableInfo.DefaultTask\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<StatusDefTableInfo> LeftOuterJoin_StatusDef_DefaultTask { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.StatusDefTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_StatusDef_DefaultTask As TargetedLeftOuterJoin(Of StatusDefTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  id: LeftOuterJoin_ExternalEvent_SignOnTaskId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ExternalEvent_SignOnTaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to ExternalEvent.<xref href=\"SuperOffice.CRM.Data.ExternalEventTableInfo.SignOnTaskId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ExternalEventTableInfo> LeftOuterJoin_ExternalEvent_SignOnTaskId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalEventTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ExternalEvent_SignOnTaskId As TargetedLeftOuterJoin(Of ExternalEventTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  id: LeftOuterJoin_ExternalEvent_SignOffTaskId
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ExternalEvent_SignOffTaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to ExternalEvent.<xref href=\"SuperOffice.CRM.Data.ExternalEventTableInfo.SignOffTaskId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ExternalEventTableInfo> LeftOuterJoin_ExternalEvent_SignOffTaskId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalEventTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ExternalEvent_SignOffTaskId As TargetedLeftOuterJoin(Of ExternalEventTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  commentId: P:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  id: LeftOuterJoin_SLink_TaskIdx
+  parent: SuperOffice.CRM.Data.TaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_SLink_TaskIdx
+  nameWithType: TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TaskId on this table, to SLink.<xref href=\"SuperOffice.CRM.Data.SLinkTableInfo.TaskIdx\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<SLinkTableInfo> LeftOuterJoin_SLink_TaskIdx { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_SLink_TaskIdx As TargetedLeftOuterJoin(Of SLinkTableInfo)
+  overload: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TaskTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<TaskTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TaskTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TaskTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TaskTableInfo, To)()
+  name.vb: MapEnums(Of TaskTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TaskTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<TaskTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TaskTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TaskTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of TaskTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TaskTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TaskTableInfo, To>()
+  nameWithType: Converters.MapEnums<TaskTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TaskTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of TaskTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TaskTableInfo, To)()
+  name.vb: MapEnums(Of TaskTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TaskTableInfo, To>
+    nameWithType: Converters.MapEnums<TaskTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TaskTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TaskTableInfo, To)
+    nameWithType: Converters.MapEnums(Of TaskTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TaskTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: TaskTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: TaskTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: TaskTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Definition
+- uid: SuperOffice.CRM.Data.TaskTableInfo.TaskId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.TaskId
+  isExternal: true
+  name: TaskId
+  nameWithType: TaskTableInfo.TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.TaskId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: TaskTableInfo.Name
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Name
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: TaskTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Rank
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: TaskTableInfo.Tooltip
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Tooltip
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Deleted*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: TaskTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Deleted
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RecordType*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.RecordType
+  isExternal: true
+  name: RecordType
+  nameWithType: TaskTableInfo.RecordType
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RecordType
+- uid: SuperOffice.Data.SQL.TaskTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TaskTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TaskTypeFieldInfo
+  nameWithType: TaskTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.TaskTypeFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Direction*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: TaskTableInfo.Direction
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Direction
+- uid: SuperOffice.Data.SQL.TaskDirectionFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TaskDirectionFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TaskDirectionFieldInfo
+  nameWithType: TaskDirectionFieldInfo
+  fullName: SuperOffice.Data.SQL.TaskDirectionFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.ColorIndex*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.ColorIndex
+  isExternal: true
+  name: ColorIndex
+  nameWithType: TaskTableInfo.ColorIndex
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.ColorIndex
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: TaskTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: TaskTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.TaskTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: TaskTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.Updated
+- uid: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: TaskTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: TaskTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent
+  isExternal: true
+  name: DefaultAlldayEvent
+  nameWithType: TaskTableInfo.DefaultAlldayEvent
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultAlldayEvent
+- uid: SuperOffice.Data.SQL.AllDayEventFieldInfo
+  commentId: T:SuperOffice.Data.SQL.AllDayEventFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: AllDayEventFieldInfo
+  nameWithType: AllDayEventFieldInfo
+  fullName: SuperOffice.Data.SQL.AllDayEventFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy
+  isExternal: true
+  name: DefaultFreeBusy
+  nameWithType: TaskTableInfo.DefaultFreeBusy
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultFreeBusy
+- uid: SuperOffice.Data.SQL.FreeBusyFieldInfo
+  commentId: T:SuperOffice.Data.SQL.FreeBusyFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FreeBusyFieldInfo
+  nameWithType: FreeBusyFieldInfo
+  fullName: SuperOffice.Data.SQL.FreeBusyFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType
+  isExternal: true
+  name: DefaultPublishType
+  nameWithType: TaskTableInfo.DefaultPublishType
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultPublishType
+- uid: SuperOffice.Data.SQL.PublishTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.PublishTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: PublishTypeFieldInfo
+  nameWithType: PublishTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.PublishTypeFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.IntentId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.IntentId
+  isExternal: true
+  name: IntentId
+  nameWithType: TaskTableInfo.IntentId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.IntentId
+- uid: SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus
+  isExternal: true
+  name: DefaultVideomeetingStatus
+  nameWithType: TaskTableInfo.DefaultVideomeetingStatus
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.DefaultVideomeetingStatus
+- uid: SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: VideoMeetingStatusFieldInfo
+  nameWithType: VideoMeetingStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+- uid: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent
+  isExternal: true
+  name: IntentId_InnerJoin_Intent
+  nameWithType: TaskTableInfo.IntentId_InnerJoin_Intent
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.IntentId_InnerJoin_Intent
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.IntentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.IntentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<IntentTableInfo>
+  nameWithType: TargetedInnerJoin<IntentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.IntentTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of IntentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.IntentTableInfo)
+  name.vb: TargetedInnerJoin(Of IntentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.IntentTableInfo
+    name: IntentTableInfo
+    nameWithType: IntentTableInfo
+    fullName: SuperOffice.CRM.Data.IntentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.IntentTableInfo
+    name: IntentTableInfo
+    nameWithType: IntentTableInfo
+    fullName: SuperOffice.CRM.Data.IntentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  isExternal: true
+  name: LeftOuterJoin_Appointment_TaskIdx
+  nameWithType: TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_Appointment_TaskIdx
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<AppointmentTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AppointmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AppointmentTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  isExternal: true
+  name: LeftOuterJoin_TaskGroupLink_TaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskGroupLink_TaskId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskGroupLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskGroupLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TaskGroupLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TaskGroupLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TaskGroupLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TaskGroupLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TaskGroupLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TaskGroupLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TaskGroupLinkTableInfo
+    name: TaskGroupLinkTableInfo
+    nameWithType: TaskGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskGroupLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TaskGroupLinkTableInfo
+    name: TaskGroupLinkTableInfo
+    nameWithType: TaskGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskGroupLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  isExternal: true
+  name: LeftOuterJoin_TaskHeadingLink_TaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_TaskHeadingLink_TaskId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskHeadingLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskHeadingLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TaskHeadingLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TaskHeadingLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TaskHeadingLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TaskHeadingLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TaskHeadingLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TaskHeadingLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+    name: TaskHeadingLinkTableInfo
+    nameWithType: TaskHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+    name: TaskHeadingLinkTableInfo
+    nameWithType: TaskHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  isExternal: true
+  name: LeftOuterJoin_SuggestedAppointment_TaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SuggestedAppointment_TaskId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SuggestedAppointmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<SuggestedAppointmentTableInfo>
+  nameWithType: TargetedLeftOuterJoin<SuggestedAppointmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SuggestedAppointmentTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of SuggestedAppointmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SuggestedAppointmentTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of SuggestedAppointmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
+    name: SuggestedAppointmentTableInfo
+    nameWithType: SuggestedAppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
+    name: SuggestedAppointmentTableInfo
+    nameWithType: SuggestedAppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  isExternal: true
+  name: LeftOuterJoin_StatusDef_DefaultTask
+  nameWithType: TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_StatusDef_DefaultTask
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.StatusDefTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.StatusDefTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<StatusDefTableInfo>
+  nameWithType: TargetedLeftOuterJoin<StatusDefTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.StatusDefTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of StatusDefTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.StatusDefTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of StatusDefTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.StatusDefTableInfo
+    name: StatusDefTableInfo
+    nameWithType: StatusDefTableInfo
+    fullName: SuperOffice.CRM.Data.StatusDefTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.StatusDefTableInfo
+    name: StatusDefTableInfo
+    nameWithType: StatusDefTableInfo
+    fullName: SuperOffice.CRM.Data.StatusDefTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  isExternal: true
+  name: LeftOuterJoin_ExternalEvent_SignOnTaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOnTaskId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalEventTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ExternalEventTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ExternalEventTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ExternalEventTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ExternalEventTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ExternalEventTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ExternalEventTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ExternalEventTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ExternalEventTableInfo
+    name: ExternalEventTableInfo
+    nameWithType: ExternalEventTableInfo
+    fullName: SuperOffice.CRM.Data.ExternalEventTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ExternalEventTableInfo
+    name: ExternalEventTableInfo
+    nameWithType: ExternalEventTableInfo
+    fullName: SuperOffice.CRM.Data.ExternalEventTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  isExternal: true
+  name: LeftOuterJoin_ExternalEvent_SignOffTaskId
+  nameWithType: TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_ExternalEvent_SignOffTaskId
+- uid: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx*
+  commentId: Overload:SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  isExternal: true
+  name: LeftOuterJoin_SLink_TaskIdx
+  nameWithType: TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+  fullName: SuperOffice.CRM.Data.TaskTableInfo.LeftOuterJoin_SLink_TaskIdx
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<SLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<SLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of SLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of SLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SLinkTableInfo
+    name: SLinkTableInfo
+    nameWithType: SLinkTableInfo
+    fullName: SuperOffice.CRM.Data.SLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SLinkTableInfo
+    name: SLinkTableInfo
+    nameWithType: SLinkTableInfo
+    fullName: SuperOffice.CRM.Data.SLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

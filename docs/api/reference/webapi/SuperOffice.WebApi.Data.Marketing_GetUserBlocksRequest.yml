@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
+  id: Marketing_GetUserBlocksRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.#ctor
+  - SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: Marketing_GetUserBlocksRequest
+  nameWithType: Marketing_GetUserBlocksRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Marketing_GetUserBlocksRequest : Object'
+    content.vb: >-
+      Public Class Marketing_GetUserBlocksRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
+  langs:
+  - csharp
+  - vb
+  name: Marketing_GetUserBlocksRequest()
+  nameWithType: Marketing_GetUserBlocksRequest.Marketing_GetUserBlocksRequest()
+  fullName: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.Marketing_GetUserBlocksRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Marketing_GetUserBlocksRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Marketing_GetUserBlocksRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.#ctor
+  isExternal: true
+  name: Marketing_GetUserBlocksRequest
+  nameWithType: Marketing_GetUserBlocksRequest.Marketing_GetUserBlocksRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.Marketing_GetUserBlocksRequest
+- uid: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Marketing_GetUserBlocksRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

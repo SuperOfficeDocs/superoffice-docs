@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation
+  commentId: T:SuperOffice.WebApi.Data.DictionaryStepInformation
+  id: DictionaryStepInformation
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DictionaryStepInformation.#ctor
+  - SuperOffice.WebApi.Data.DictionaryStepInformation.Name
+  - SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber
+  langs:
+  - csharp
+  - vb
+  name: DictionaryStepInformation
+  nameWithType: DictionaryStepInformation
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DictionaryStepInformation.\nInformation about a dictionary step    \n"
+  syntax:
+    content: 'public class DictionaryStepInformation : Carrier'
+    content.vb: >-
+      Public Class DictionaryStepInformation
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DatabaseAgent
+    commentId: T:SuperOffice.WebApi.Agents.DatabaseAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DictionaryStepInformation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DictionaryStepInformation
+  langs:
+  - csharp
+  - vb
+  name: DictionaryStepInformation()
+  nameWithType: DictionaryStepInformation.DictionaryStepInformation()
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation.DictionaryStepInformation()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DictionaryStepInformation()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DictionaryStepInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation.Name
+  commentId: P:SuperOffice.WebApi.Data.DictionaryStepInformation.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.DictionaryStepInformation
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DictionaryStepInformation.Name
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the dictionary step (from attribute, not class name)\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.DictionaryStepInformation.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber
+  commentId: P:SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber
+  id: StepNumber
+  parent: SuperOffice.WebApi.Data.DictionaryStepInformation
+  langs:
+  - csharp
+  - vb
+  name: StepNumber
+  nameWithType: DictionaryStepInformation.StepNumber
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGeneration number of step\n"
+  syntax:
+    content: public virtual int StepNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StepNumber As Integer
+  overload: SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DatabaseAgent
+  commentId: T:SuperOffice.WebApi.Agents.DatabaseAgent
+  isExternal: true
+  name: DatabaseAgent
+  nameWithType: DatabaseAgent
+  fullName: SuperOffice.WebApi.Agents.DatabaseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DictionaryStepInformation.#ctor
+  isExternal: true
+  name: DictionaryStepInformation
+  nameWithType: DictionaryStepInformation.DictionaryStepInformation
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation.DictionaryStepInformation
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.DictionaryStepInformation.Name
+  isExternal: true
+  name: Name
+  nameWithType: DictionaryStepInformation.Name
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber
+  isExternal: true
+  name: StepNumber
+  nameWithType: DictionaryStepInformation.StepNumber
+  fullName: SuperOffice.WebApi.Data.DictionaryStepInformation.StepNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

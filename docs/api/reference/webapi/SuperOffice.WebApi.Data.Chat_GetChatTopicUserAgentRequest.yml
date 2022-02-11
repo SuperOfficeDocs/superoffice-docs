@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest
+  id: Chat_GetChatTopicUserAgentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  - SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetChatTopicUserAgentRequest
+  nameWithType: Chat_GetChatTopicUserAgentRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_GetChatTopicUserAgentRequest : Object'
+    content.vb: >-
+      Public Class Chat_GetChatTopicUserAgentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetChatTopicUserAgentRequest()
+  nameWithType: Chat_GetChatTopicUserAgentRequest.Chat_GetChatTopicUserAgentRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Chat_GetChatTopicUserAgentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_GetChatTopicUserAgentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatTopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatTopicId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username
+  id: Username
+  parent: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: Chat_GetChatTopicUserAgentRequest.Username
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.#ctor
+  isExternal: true
+  name: Chat_GetChatTopicUserAgentRequest
+  nameWithType: Chat_GetChatTopicUserAgentRequest.Chat_GetChatTopicUserAgentRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Chat_GetChatTopicUserAgentRequest
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  isExternal: true
+  name: ChatTopicId
+  nameWithType: Chat_GetChatTopicUserAgentRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.ChatTopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username
+  isExternal: true
+  name: Username
+  nameWithType: Chat_GetChatTopicUserAgentRequest.Username
+  fullName: SuperOffice.WebApi.Data.Chat_GetChatTopicUserAgentRequest.Username
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

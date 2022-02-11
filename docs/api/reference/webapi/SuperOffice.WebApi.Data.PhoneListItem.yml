@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneListItem
+  commentId: T:SuperOffice.WebApi.Data.PhoneListItem
+  id: PhoneListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneListItem.#ctor
+  - SuperOffice.WebApi.Data.PhoneListItem.Id
+  - SuperOffice.WebApi.Data.PhoneListItem.Name
+  - SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
+  - SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
+  - SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
+  - SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
+  - SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
+  - SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
+  - SuperOffice.WebApi.Data.PhoneListItem.Tooltip
+  - SuperOffice.WebApi.Data.PhoneListItem.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: PhoneListItem
+  nameWithType: PhoneListItem
+  fullName: SuperOffice.WebApi.Data.PhoneListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PhoneListItem.\n\n"
+  syntax:
+    content: 'public class PhoneListItem : Carrier'
+    content.vb: >-
+      Public Class PhoneListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PhoneListAgent
+    commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PhoneListItem()
+  nameWithType: PhoneListItem.PhoneListItem()
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PhoneListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PhoneListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
+  id: PersonDirectPhone
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonDirectPhone
+  nameWithType: PhoneListItem.PersonDirectPhone
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson Direct Phone\n"
+  syntax:
+    content: public virtual string PersonDirectPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonDirectPhone As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
+  id: PersonCellPhone
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonCellPhone
+  nameWithType: PhoneListItem.PersonCellPhone
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson Cell Phone\n"
+  syntax:
+    content: public virtual string PersonCellPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonCellPhone As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
+  id: PersonPrivatePhone
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonPrivatePhone
+  nameWithType: PhoneListItem.PersonPrivatePhone
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson Private Phone\n"
+  syntax:
+    content: public virtual string PersonPrivatePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonPrivatePhone As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
+  id: PersonFaxNumber
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonFaxNumber
+  nameWithType: PhoneListItem.PersonFaxNumber
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActual phone number as eneterd by the user\n"
+  syntax:
+    content: public virtual string PersonFaxNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFaxNumber As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
+  id: PersonPagerNumber
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonPagerNumber
+  nameWithType: PhoneListItem.PersonPagerNumber
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActual phone number as eneterd by the user\n"
+  syntax:
+    content: public virtual string PersonPagerNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonPagerNumber As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
+  id: PersonEmail
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonEmail
+  nameWithType: PhoneListItem.PersonEmail
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe address itself\n"
+  syntax:
+    content: public virtual string PersonEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonEmail As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.Id
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PhoneListItem.Id
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe contact or person&apos;s id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.PhoneListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.Name
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PhoneListItem.Name
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe contact or person&apos;s name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: PhoneListItem.Tooltip
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PhoneListItem.UniqueId
+  commentId: P:SuperOffice.WebApi.Data.PhoneListItem.UniqueId
+  id: UniqueId
+  parent: SuperOffice.WebApi.Data.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: PhoneListItem.UniqueId
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.UniqueId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProperty setting a unique id indicating if this is a person or contact\n"
+  syntax:
+    content: public virtual string UniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueId As String
+  overload: SuperOffice.WebApi.Data.PhoneListItem.UniqueId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PhoneListAgent
+  commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
+  isExternal: true
+  name: PhoneListAgent
+  nameWithType: PhoneListAgent
+  fullName: SuperOffice.WebApi.Agents.PhoneListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.#ctor
+  isExternal: true
+  name: PhoneListItem
+  nameWithType: PhoneListItem.PhoneListItem
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PhoneListItem
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
+  isExternal: true
+  name: PersonDirectPhone
+  nameWithType: PhoneListItem.PersonDirectPhone
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
+  isExternal: true
+  name: PersonCellPhone
+  nameWithType: PhoneListItem.PersonCellPhone
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
+  isExternal: true
+  name: PersonPrivatePhone
+  nameWithType: PhoneListItem.PersonPrivatePhone
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
+  isExternal: true
+  name: PersonFaxNumber
+  nameWithType: PhoneListItem.PersonFaxNumber
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
+  isExternal: true
+  name: PersonPagerNumber
+  nameWithType: PhoneListItem.PersonPagerNumber
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
+- uid: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
+  isExternal: true
+  name: PersonEmail
+  nameWithType: PhoneListItem.PersonEmail
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
+- uid: SuperOffice.WebApi.Data.PhoneListItem.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: PhoneListItem.Id
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PhoneListItem.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: PhoneListItem.Name
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.Name
+- uid: SuperOffice.WebApi.Data.PhoneListItem.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: PhoneListItem.Tooltip
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.Tooltip
+- uid: SuperOffice.WebApi.Data.PhoneListItem.UniqueId*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.UniqueId
+  isExternal: true
+  name: UniqueId
+  nameWithType: PhoneListItem.UniqueId
+  fullName: SuperOffice.WebApi.Data.PhoneListItem.UniqueId

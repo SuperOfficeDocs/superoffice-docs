@@ -1,0 +1,183 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Custom screens
+  href: custom-screens/index.md
+  expanded: true
+  items:
+  - name: bLogic query syntax
+    href: custom-screens/blogic-query-syntax.md
+  - name: Layout elements
+    href: custom-screens/layout-elements.md
+  - name: View elements
+    href: custom-screens/view-elements.md
+  - name: Form elements
+    href: custom-screens/form-elements.md
+  - name: Form elements per entity
+    href: custom-screens/form-elements-per-entity.md
+  - name: How to add a screen element
+    href: custom-screens/add-screen-element.md
+- name: Button scripts
+  href: button-scripts.md
+- name: Extra menus
+  href: extra-menus.md
+- name: Screen choosers
+  href: screen-choosers.md
+- name: Screen events
+  href: screen-events.md
+- name: URL parameters
+  href: url-parameters.md
+- name: bLogic screen element reference
+  href: reference/index.md
+  items:
+  - name: Address book
+    href: reference/address-book.md
+  - name: Anchor line
+    href: reference/anchor-line.md
+  - name: Attachment
+    href: reference/attachment.md
+  - name: Br
+    href: reference/br.md
+  - name: Button
+    href: reference/button.md
+  - name: Button row
+    href: reference/button-row.md
+  - name: Category membership
+    href: reference/category-membership.md
+  - name: Chart
+    href: reference/chart.md
+  - name: Checkbox
+    href: reference/checkbox.md
+  - name: Ck editor
+    href: reference/ck-editor.md
+  - name: Contact and recipient
+    href: reference/contact-and-recipient.md
+  - name: Data table
+    href: reference/data-table.md
+  - name: Dependency graph
+    href: reference/dependency-graph.md
+  - name: Edit entity menu
+    href: reference/edit-entity-menu.md
+  - name: Ejscript element
+    href: reference/ejscript-element.md
+  - name: Element table
+    href: reference/element-table.md
+  - name: Element table 2
+    href: reference/element-table-2.md
+  - name: Fck editor
+    href: reference/fck-editor.md
+  - name: Fieldset
+    href: reference/fieldset.md
+  - name: Form page
+    href: reference/form-page.md
+  - name: Group end
+    href: reference/group-end.md
+  - name: Header
+    href: reference/header.md
+  - name: Hr
+    href: reference/hr.md
+  - name: Html grid
+    href: reference/html-grid.md
+  - name: Info fields 2
+    href: reference/info-fields-2.md
+  - name: Invoice
+    href: reference/invoice.md
+  - name: Language menu
+    href: reference/language-menu.md
+  - name: List box
+    href: reference/list-box.md
+  - name: Mdo list
+    href: reference/mdo-list.md
+  - name: Message grid
+    href: reference/message-grid.md
+  - name: Messages
+    href: reference/messages.md
+  - name: Pane
+    href: reference/pane.md
+  - name: Panel
+    href: reference/panel.md
+  - name: Panes
+    href: reference/panes.md
+  - name: Parser code
+    href: reference/parser-code.md
+  - name: Planner
+    href: reference/planner.md
+  - name: Radio buttons
+    href: reference/radio-buttons.md
+  - name: Recipients
+    href: reference/recipients.md
+  - name: Related drop downs
+    href: reference/related-drop-downs.md
+  - name: Select agent
+    href: reference/select-agent.md
+  - name: Select appointment
+    href: reference/select-appointment.md
+  - name: Select category
+    href: reference/select-category.md
+  - name: Select company
+    href: reference/select-company.md
+  - name: Select contact business
+    href: reference/select-contact-business.md
+  - name: Select contact category
+    href: reference/select-contact-category.md
+  - name: Select crm selection
+    href: reference/select-crm-selection.md
+  - name: Select customer
+    href: reference/select-customer.md
+  - name: Select customers
+    href: reference/select-customers.md
+  - name: Select date
+    href: reference/select-date.md
+  - name: Select datetime
+    href: reference/select-datetime.md
+  - name: Select extra field
+    href: reference/select-extra-field.md
+  - name: Select faq
+    href: reference/select-faq.md
+  - name: Select insert text
+    href: reference/select-insert-text.md
+  - name: Select message
+    href: reference/select-message.md
+  - name: Select priority
+    href: reference/select-priority.md
+  - name: Select project
+    href: reference/select-project.md
+  - name: Select relation
+    href: reference/select-relation.md
+  - name: Select relations
+    href: reference/select-relations.md
+  - name: Select reply template
+    href: reference/select-reply-template.md
+  - name: Select request status
+    href: reference/select-request-status.md
+  - name: Select sale
+    href: reference/select-sale.md
+  - name: Select slevel
+    href: reference/select-slevel.md
+  - name: Select table
+    href: reference/select-table.md
+  - name: Select ticket status
+    href: reference/select-ticket-status.md
+  - name: Select time
+    href: reference/select-time.md
+  - name: Select timespan
+    href: reference/select-timespan.md
+  - name: Select user
+    href: reference/select-user.md
+  - name: Show recipients
+    href: reference/show-recipients.md
+  - name: Static grid
+    href: reference/static-grid.md
+  - name: Text
+    href: reference/text.md
+  - name: Textarea
+    href: reference/textarea.md
+  - name: Ticket status
+    href: reference/ticket-status.md
+  - name: Tree explorer
+    href: reference/tree-explorer.md
+- name: Tutorials
+  expanded: true
+  items:
+  - name: Custom database and UI
+    href: tutorials/custom-db-and-ui.md

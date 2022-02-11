@@ -1,0 +1,2189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityVisibleForHelper
+  id: EntityVisibleForHelper
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.#ctor(SuperOffice.CRM.Data.VisibleForTableInfo,SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo(SuperOffice.CRM.Rows.VisibleForRow)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery(SuperOffice.CRM.Rows.IdxBase)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.Row
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility,System.Int32)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsDirty
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsSaving
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnElementIdUpdate
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#Save
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EntityVisibleForHelper
+  nameWithType: EntityVisibleForHelper
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHelper class for working with visible for on enteties.\n"
+  syntax:
+    content: 'public sealed class EntityVisibleForHelper : ITableRowLoadHandler, INestedPersist'
+    content.vb: >-
+      Public NotInheritable Class EntityVisibleForHelper
+          Implements ITableRowLoadHandler, INestedPersist
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Rows.ITableRowLoadHandler
+  - SuperOffice.Data.INestedPersist
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.#ctor(SuperOffice.CRM.Data.VisibleForTableInfo,SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.#ctor(SuperOffice.CRM.Data.VisibleForTableInfo,SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.TableRowBase)
+  id: '#ctor(SuperOffice.CRM.Data.VisibleForTableInfo,SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.TableRowBase)'
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: EntityVisibleForHelper(VisibleForTableInfo, EntityBase, TableRowBase)
+  nameWithType: EntityVisibleForHelper.EntityVisibleForHelper(VisibleForTableInfo, EntityBase, TableRowBase)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.EntityVisibleForHelper(SuperOffice.CRM.Data.VisibleForTableInfo, SuperOffice.CRM.Entities.EntityBase, SuperOffice.CRM.Rows.TableRowBase)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDefault constructor for the visible for helper.\n"
+  syntax:
+    content: public EntityVisibleForHelper(VisibleForTableInfo visibleForTableInfo, EntityBase entity, TableRowBase mainRow)
+    parameters:
+    - id: visibleForTableInfo
+      type: SuperOffice.CRM.Data.VisibleForTableInfo
+      description: <see cref="!:TableInfo"></see> for the visible for row.
+    - id: entity
+      type: SuperOffice.CRM.Entities.EntityBase
+      description: Entity the visible for is part of
+    - id: mainRow
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: The main row of the entity.
+    content.vb: Public Sub New(visibleForTableInfo As VisibleForTableInfo, entity As EntityBase, mainRow As TableRowBase)
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery(SuperOffice.CRM.Rows.IdxBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery(SuperOffice.CRM.Rows.IdxBase)
+  id: ModifyQuery(SuperOffice.CRM.Rows.IdxBase)
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: ModifyQuery(IdxBase)
+  nameWithType: EntityVisibleForHelper.ModifyQuery(IdxBase)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery(SuperOffice.CRM.Rows.IdxBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nModify a query to join in visible for using inner join.\n"
+  syntax:
+    content: public static VisibleForTableInfo ModifyQuery(IdxBase query)
+    parameters:
+    - id: query
+      type: SuperOffice.CRM.Rows.IdxBase
+      description: Query to modify.
+    return:
+      type: SuperOffice.CRM.Data.VisibleForTableInfo
+      description: <see cref="!:TableInfo"></see> for the visible for table used in the query.
+    content.vb: Public Shared Function ModifyQuery(query As IdxBase) As VisibleForTableInfo
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility)
+  id: SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility)
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleForTypeOnRow(VisibleForRow, Visibility)
+  nameWithType: EntityVisibleForHelper.SetVisibleForTypeOnRow(VisibleForRow, Visibility)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow, SuperOffice.Data.Visibility)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet a visible for type on a visible for row.\n"
+  syntax:
+    content: public static void SetVisibleForTypeOnRow(VisibleForRow visibleForRow, Visibility visibleForType)
+    parameters:
+    - id: visibleForRow
+      type: SuperOffice.CRM.Rows.VisibleForRow
+      description: Row to set visible for on.
+    - id: visibleForType
+      type: SuperOffice.Data.Visibility
+      description: Type of visibility.
+    content.vb: Public Shared Sub SetVisibleForTypeOnRow(visibleForRow As VisibleForRow, visibleForType As Visibility)
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility,System.Int32)
+  id: SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow,SuperOffice.Data.Visibility,System.Int32)
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleForTypeOnRow(VisibleForRow, Visibility, Int32)
+  nameWithType: EntityVisibleForHelper.SetVisibleForTypeOnRow(VisibleForRow, Visibility, Int32)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow(SuperOffice.CRM.Rows.VisibleForRow, SuperOffice.Data.Visibility, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet a visible for type on a visible for row.\n"
+  syntax:
+    content: public static void SetVisibleForTypeOnRow(VisibleForRow visibleForRow, Visibility visibleForType, int id)
+    parameters:
+    - id: visibleForRow
+      type: SuperOffice.CRM.Rows.VisibleForRow
+      description: Row to set visible for on.
+    - id: visibleForType
+      type: SuperOffice.Data.Visibility
+      description: Type of visibility.
+    - id: id
+      type: System.Int32
+      description: Value of group or associate if one of these are chosen.
+    content.vb: Public Shared Sub SetVisibleForTypeOnRow(visibleForRow As VisibleForRow, visibleForType As Visibility, id As Integer)
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  id: OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: EntityVisibleForHelper.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCalled by the entity when it is loaded from the database so the \nunderlying <xref href=\"SuperOffice.CRM.Rows.VisibleForRow\" data-throw-if-not-resolved=\"false\"></xref> object can be fetched.\n"
+  syntax:
+    content: public void OnRowLoad(SoDataReader reader, TableRowBase row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+      description: Reader to read publish information from
+    - id: row
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: The main row of the query.
+    content.vb: Public Sub OnRowLoad(reader As SoDataReader, row As TableRowBase)
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad*
+  implements:
+  - SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded
+  id: OnRowLoaded
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: OnRowLoaded()
+  nameWithType: EntityVisibleForHelper.OnRowLoaded()
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCalled by the entity when it has been loaded successfully.\n"
+  syntax:
+    content: public void OnRowLoaded()
+    content.vb: Public Sub OnRowLoaded
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded*
+  implements:
+  - SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  id: SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.OnPreIdUpdate()
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnPreIdUpdate Implements INestedPersist.OnPreIdUpdate
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  id: SuperOffice#Data#INestedPersist#OnIdUpdate
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.OnIdUpdate()
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnIdUpdate Implements INestedPersist.OnIdUpdate
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnIdUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnIdUpdate
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.OnPrimaryKeyRequest(PKContainer pkContainer)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(pkContainer As PKContainer) Implements INestedPersist.OnPrimaryKeyRequest
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  id: SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.OnPrimaryKeyUpdate(PKContainer pkContainer)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(pkContainer As PKContainer) Implements INestedPersist.OnPrimaryKeyUpdate
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  id: SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.OnSave(BatchSave batchSave)
+    parameters:
+    - id: batchSave
+      type: SuperOffice.Data.SQL.BatchSave
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnSave(batchSave As BatchSave) Implements INestedPersist.OnSave
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSave*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  id: SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.OnSaved(bool bSucceeded)
+    parameters:
+    - id: bSucceeded
+      type: System.Boolean
+    content.vb: Sub SuperOffice.Data.INestedPersist.OnSaved(bSucceeded As Boolean) Implements INestedPersist.OnSaved
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSaved*
+  implements:
+  - SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#Save
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#Save
+  id: SuperOffice#Data#INestedPersist#Save
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.Save()
+  nameWithType: EntityVisibleForHelper.INestedPersist.Save()
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.Save()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.Save()
+    content.vb: Sub SuperOffice.Data.INestedPersist.Save Implements INestedPersist.Save
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#Save*
+  implements:
+  - SuperOffice.Data.INestedPersist.Save
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.Save()
+  name.vb: SuperOffice.Data.INestedPersist.Save()
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  id: SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.SetSaveOwner(INestedPersist)
+  nameWithType: EntityVisibleForHelper.INestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.SetSaveOwner(INestedPersist saveOwner)
+    parameters:
+    - id: saveOwner
+      type: SuperOffice.Data.INestedPersist
+    content.vb: Sub SuperOffice.Data.INestedPersist.SetSaveOwner(saveOwner As INestedPersist) Implements INestedPersist.SetSaveOwner
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#SetSaveOwner*
+  implements:
+  - SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.SetSaveOwner(INestedPersist)
+  name.vb: SuperOffice.Data.INestedPersist.SetSaveOwner(INestedPersist)
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo(SuperOffice.CRM.Rows.VisibleForRow)
+  commentId: M:SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo(SuperOffice.CRM.Rows.VisibleForRow)
+  id: CopyVisibilityTo(SuperOffice.CRM.Rows.VisibleForRow)
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: CopyVisibilityTo(VisibleForRow)
+  nameWithType: EntityVisibleForHelper.CopyVisibilityTo(VisibleForRow)
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo(SuperOffice.CRM.Rows.VisibleForRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCopy visibility from the helper to a visible for row.\n"
+  syntax:
+    content: public void CopyVisibilityTo(VisibleForRow visibleForRow)
+    parameters:
+    - id: visibleForRow
+      type: SuperOffice.CRM.Rows.VisibleForRow
+      description: Visible for row to set visibility on.
+    content.vb: Public Sub CopyVisibilityTo(visibleForRow As VisibleForRow)
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries
+  id: Sentries
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: Sentries
+  nameWithType: EntityVisibleForHelper.Sentries
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet sentries governing the visible for row\n"
+  syntax:
+    content: public SentryCollection Sentries { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Public ReadOnly Property Sentries As SentryCollection
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo
+  id: VisibleForTableInfo
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: VisibleForTableInfo
+  nameWithType: EntityVisibleForHelper.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the <see cref=\"!:TableInfo\"></see> for the visible for row.\n"
+  syntax:
+    content: public VisibleForTableInfo VisibleForTableInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Data.VisibleForTableInfo
+    content.vb: Public ReadOnly Property VisibleForTableInfo As VisibleForTableInfo
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: EntityVisibleForHelper.VisibleFor
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet or set the type of visibility for the entity.\n"
+  syntax:
+    content: public Visibility VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Visibility
+    content.vb: Public Property VisibleFor As Visibility
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId
+  id: VisibleForId
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: VisibleForId
+  nameWithType: EntityVisibleForHelper.VisibleForId
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the visible for id for used on the visible for row. \n"
+  remarks: "\nIf <xref href=\"SuperOffice.Data.Visibility\" data-throw-if-not-resolved=\"false\"></xref> is All, 1 is allways returned.  GroupId and AssociateId will be returned for corresponding values on the <xref href=\"SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  syntax:
+    content: public int VisibleForId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property VisibleForId As Integer
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: EntityVisibleForHelper.GroupId
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet or set group the entity is visible for.\n"
+  remarks: "\nSetting the group id will for the visibillity to be for this group.\n"
+  syntax:
+    content: public int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupId As Integer
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName
+  id: GroupName
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: GroupName
+  nameWithType: EntityVisibleForHelper.GroupName
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the name of the group.\n"
+  syntax:
+    content: public string GroupName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property GroupName As String
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: EntityVisibleForHelper.AssociateId
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet or set the user the entity is visible for. \n"
+  remarks: Setting this value will force the visibillity to be for the associate.
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: EntityVisibleForHelper.AssociateFullName
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet the associate full name of the user the entity is visible for.\n"
+  syntax:
+    content: public string AssociateFullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AssociateFullName As String
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.Row
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.Row
+  id: Row
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: EntityVisibleForHelper.Row
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.Row
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe actual visible for row that is being worked on.\n"
+  syntax:
+    content: public VisibleForRow Row { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.VisibleForRow
+    content.vb: Public ReadOnly Property Row As VisibleForRow
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.Row*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsDirty
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsDirty
+  id: SuperOffice#Data#INestedPersist#IsDirty
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.IsDirty
+  nameWithType: EntityVisibleForHelper.INestedPersist.IsDirty
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsDirty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool INestedPersist.IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property SuperOffice.Data.INestedPersist.IsDirty As Boolean Implements INestedPersist.IsDirty
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsDirty*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsDirty
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsDirty
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsSaving
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsSaving
+  id: SuperOffice#Data#INestedPersist#IsSaving
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.IsSaving
+  nameWithType: EntityVisibleForHelper.INestedPersist.IsSaving
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsSaving
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: bool INestedPersist.IsSaving { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property SuperOffice.Data.INestedPersist.IsSaving As Boolean Implements INestedPersist.IsSaving
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsSaving*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsSaving
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsSaving
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: SuperOffice.Data.INestedPersist.IsSaving
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: EntityVisibleForHelper.IsDeleted
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet if the visible for row is deleted.\n"
+  syntax:
+    content: public bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsDeleted
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete
+  commentId: P:SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete
+  id: IsMarkedForDelete
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMarkedForDelete
+  nameWithType: EntityVisibleForHelper.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet or set the IsMarkedForDelete flag on the visible for row.\n"
+  syntax:
+    content: public bool IsMarkedForDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMarkedForDelete As Boolean
+  overload: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete*
+  implements:
+  - SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnElementIdUpdate
+  commentId: E:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnElementIdUpdate
+  id: SuperOffice#Data#INestedPersist#OnElementIdUpdate
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.OnElementIdUpdate
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnElementIdUpdate
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: event OnIdUpdate INestedPersist.OnElementIdUpdate
+    return:
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Event SuperOffice.Data.INestedPersist.OnElementIdUpdate As OnIdUpdate Implements INestedPersist.OnElementIdUpdate
+  implements:
+  - SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandler
+  commentId: T:SuperOffice.CRM.Rows.ITableRowLoadHandler
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ITableRowLoadHandler
+  nameWithType: ITableRowLoadHandler
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EntityVisibleForHelper, To>()
+  nameWithType: EnumUtil.MapEnums<EntityVisibleForHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityVisibleForHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityVisibleForHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityVisibleForHelper, To)()
+  name.vb: MapEnums(Of EntityVisibleForHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityVisibleForHelper, To>
+    nameWithType: EnumUtil.MapEnums<EntityVisibleForHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityVisibleForHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityVisibleForHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityVisibleForHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityVisibleForHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EntityVisibleForHelper, To>()
+  nameWithType: Converters.MapEnums<EntityVisibleForHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityVisibleForHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityVisibleForHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityVisibleForHelper, To)()
+  name.vb: MapEnums(Of EntityVisibleForHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityVisibleForHelper, To>
+    nameWithType: Converters.MapEnums<EntityVisibleForHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityVisibleForHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityVisibleForHelper, To)
+    nameWithType: Converters.MapEnums(Of EntityVisibleForHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityVisibleForHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.#ctor
+  isExternal: true
+  name: EntityVisibleForHelper
+  nameWithType: EntityVisibleForHelper.EntityVisibleForHelper
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.EntityVisibleForHelper
+- uid: SuperOffice.CRM.Data.VisibleForTableInfo
+  commentId: T:SuperOffice.CRM.Data.VisibleForTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: VisibleForTableInfo
+  fullName: SuperOffice.CRM.Data.VisibleForTableInfo
+- uid: SuperOffice.CRM.Entities.EntityBase
+  commentId: T:SuperOffice.CRM.Entities.EntityBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityBase
+  nameWithType: EntityBase
+  fullName: SuperOffice.CRM.Entities.EntityBase
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery
+  isExternal: true
+  name: ModifyQuery
+  nameWithType: EntityVisibleForHelper.ModifyQuery
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.ModifyQuery
+- uid: SuperOffice.CRM.Rows.IdxBase
+  commentId: T:SuperOffice.CRM.Rows.IdxBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: IdxBase
+  nameWithType: IdxBase
+  fullName: SuperOffice.CRM.Rows.IdxBase
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow
+  isExternal: true
+  name: SetVisibleForTypeOnRow
+  nameWithType: EntityVisibleForHelper.SetVisibleForTypeOnRow
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SetVisibleForTypeOnRow
+- uid: SuperOffice.CRM.Rows.VisibleForRow
+  commentId: T:SuperOffice.CRM.Rows.VisibleForRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: VisibleForRow
+  nameWithType: VisibleForRow
+  fullName: SuperOffice.CRM.Rows.VisibleForRow
+- uid: SuperOffice.Data.Visibility
+  commentId: T:SuperOffice.Data.Visibility
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: SuperOffice.Data.Visibility
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad
+  isExternal: true
+  name: OnRowLoad
+  nameWithType: EntityVisibleForHelper.OnRowLoad
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoad
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Rows.ITableRowLoadHandler
+  isExternal: true
+  name: OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: OnRowLoad
+    nameWithType: ITableRowLoadHandler.OnRowLoad
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: OnRowLoad
+    nameWithType: ITableRowLoadHandler.OnRowLoad
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded
+  isExternal: true
+  name: OnRowLoaded
+  nameWithType: EntityVisibleForHelper.OnRowLoaded
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.OnRowLoaded
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  commentId: M:SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  parent: SuperOffice.CRM.Rows.ITableRowLoadHandler
+  isExternal: true
+  name: OnRowLoaded()
+  nameWithType: ITableRowLoadHandler.OnRowLoaded()
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    name: OnRowLoaded
+    nameWithType: ITableRowLoadHandler.OnRowLoaded
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    name: OnRowLoaded
+    nameWithType: ITableRowLoadHandler.OnRowLoaded
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnPreIdUpdate
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnPreIdUpdate()
+  nameWithType: INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
+  isExternal: true
+  name: INestedPersist.OnIdUpdate
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnIdUpdate
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnIdUpdate
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnIdUpdate()
+  nameWithType: INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnPrimaryKeyRequest
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnPrimaryKeyRequest(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PKContainer
+  commentId: T:SuperOffice.Data.PKContainer
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PKContainer
+  nameWithType: PKContainer
+  fullName: SuperOffice.Data.PKContainer
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnPrimaryKeyUpdate
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSave*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSave
+  isExternal: true
+  name: INestedPersist.OnSave
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnSave
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSave
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSave
+  name.vb: SuperOffice.Data.INestedPersist.OnSave
+- uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnSave(BatchSave)
+  nameWithType: INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: INestedPersist.OnSave
+    fullName: SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: INestedPersist.OnSave
+    fullName: SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.BatchSave
+  commentId: T:SuperOffice.Data.SQL.BatchSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: BatchSave
+  nameWithType: BatchSave
+  fullName: SuperOffice.Data.SQL.BatchSave
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSaved*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#OnSaved
+  isExternal: true
+  name: INestedPersist.OnSaved
+  nameWithType: EntityVisibleForHelper.INestedPersist.OnSaved
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSaved
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.OnSaved
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved
+- uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnSaved(Boolean)
+  nameWithType: INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: INestedPersist.OnSaved
+    fullName: SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: INestedPersist.OnSaved
+    fullName: SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#Save*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#Save
+  isExternal: true
+  name: INestedPersist.Save
+  nameWithType: EntityVisibleForHelper.INestedPersist.Save
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.Save
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.Save
+  name.vb: SuperOffice.Data.INestedPersist.Save
+- uid: SuperOffice.Data.INestedPersist.Save
+  commentId: M:SuperOffice.Data.INestedPersist.Save
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: Save()
+  nameWithType: INestedPersist.Save()
+  fullName: SuperOffice.Data.INestedPersist.Save()
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.Save
+    name: Save
+    nameWithType: INestedPersist.Save
+    fullName: SuperOffice.Data.INestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.Save
+    name: Save
+    nameWithType: INestedPersist.Save
+    fullName: SuperOffice.Data.INestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#SetSaveOwner*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#SetSaveOwner
+  isExternal: true
+  name: INestedPersist.SetSaveOwner
+  nameWithType: EntityVisibleForHelper.INestedPersist.SetSaveOwner
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.SetSaveOwner
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.SetSaveOwner
+  name.vb: SuperOffice.Data.INestedPersist.SetSaveOwner
+- uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: SetSaveOwner(INestedPersist)
+  nameWithType: INestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: INestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.INestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: INestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.INestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo
+  isExternal: true
+  name: CopyVisibilityTo
+  nameWithType: EntityVisibleForHelper.CopyVisibilityTo
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.CopyVisibilityTo
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries
+  isExternal: true
+  name: Sentries
+  nameWithType: EntityVisibleForHelper.Sentries
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.Sentries
+- uid: SuperOffice.CRM.Security.SentryCollection
+  commentId: T:SuperOffice.CRM.Security.SentryCollection
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryCollection
+  nameWithType: SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: EntityVisibleForHelper.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForTableInfo
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: EntityVisibleForHelper.VisibleFor
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleFor
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId
+  isExternal: true
+  name: VisibleForId
+  nameWithType: EntityVisibleForHelper.VisibleForId
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.VisibleForId
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: EntityVisibleForHelper.GroupId
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupId
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName
+  isExternal: true
+  name: GroupName
+  nameWithType: EntityVisibleForHelper.GroupName
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.GroupName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: EntityVisibleForHelper.AssociateId
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateId
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: EntityVisibleForHelper.AssociateFullName
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.AssociateFullName
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.Row*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.Row
+  isExternal: true
+  name: Row
+  nameWithType: EntityVisibleForHelper.Row
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.Row
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsDirty*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsDirty
+  isExternal: true
+  name: INestedPersist.IsDirty
+  nameWithType: EntityVisibleForHelper.INestedPersist.IsDirty
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsDirty
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsDirty
+  name.vb: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.Data.INestedPersist.IsDirty
+  commentId: P:SuperOffice.Data.INestedPersist.IsDirty
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsDirty
+  nameWithType: INestedPersist.IsDirty
+  fullName: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsSaving*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice#Data#INestedPersist#IsSaving
+  isExternal: true
+  name: INestedPersist.IsSaving
+  nameWithType: EntityVisibleForHelper.INestedPersist.IsSaving
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsSaving
+  nameWithType.vb: EntityVisibleForHelper.SuperOffice.Data.INestedPersist.IsSaving
+  name.vb: SuperOffice.Data.INestedPersist.IsSaving
+- uid: SuperOffice.Data.INestedPersist.IsSaving
+  commentId: P:SuperOffice.Data.INestedPersist.IsSaving
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsSaving
+  nameWithType: INestedPersist.IsSaving
+  fullName: SuperOffice.Data.INestedPersist.IsSaving
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: EntityVisibleForHelper.IsDeleted
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsDeleted
+- uid: SuperOffice.Data.INestedPersist.IsDeleted
+  commentId: P:SuperOffice.Data.INestedPersist.IsDeleted
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsDeleted
+  nameWithType: INestedPersist.IsDeleted
+  fullName: SuperOffice.Data.INestedPersist.IsDeleted
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: EntityVisibleForHelper.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper.IsMarkedForDelete
+- uid: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  commentId: P:SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: INestedPersist.IsMarkedForDelete
+  fullName: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+- uid: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  commentId: E:SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: OnElementIdUpdate
+  nameWithType: INestedPersist.OnElementIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+- uid: SuperOffice.Data.OnIdUpdate
+  commentId: T:SuperOffice.Data.OnIdUpdate
+  parent: SuperOffice.Data
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: OnIdUpdate
+  fullName: SuperOffice.Data.OnIdUpdate

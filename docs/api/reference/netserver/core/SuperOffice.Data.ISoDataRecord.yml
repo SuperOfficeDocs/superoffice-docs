@@ -1,0 +1,1048 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ISoDataRecord
+  commentId: T:SuperOffice.Data.ISoDataRecord
+  id: ISoDataRecord
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  - SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  - SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  - SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.ISoDataRecord.Reader
+  langs:
+  - csharp
+  - vb
+  name: ISoDataRecord
+  nameWithType: ISoDataRecord
+  fullName: SuperOffice.Data.ISoDataRecord
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nA version of <xref href=\"System.Data.IDataRecord\" data-throw-if-not-resolved=\"false\"></xref> customized for superoffice - using <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> to look up fields, \nand missing some of the more obscure functions that we don&apos;t use. Intended for iteration over result sets\n"
+  syntax:
+    content: public interface ISoDataRecord
+    content.vb: Public Interface ISoDataRecord
+  extensionMethods:
+  - SuperOffice.Data.ISoDataRecord.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ISoDataRecord.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  id: GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetBoolean(FieldInfo)
+  nameWithType: ISoDataRecord.GetBoolean(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool GetBoolean(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Function GetBoolean(field As FieldInfo) As Boolean
+  overload: SuperOffice.Data.ISoDataRecord.GetBoolean*
+- uid: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  id: GetByte(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetByte(FieldInfo)
+  nameWithType: ISoDataRecord.GetByte(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: byte GetByte(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Byte
+    content.vb: Function GetByte(field As FieldInfo) As Byte
+  overload: SuperOffice.Data.ISoDataRecord.GetByte*
+- uid: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  id: GetChar(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetChar(FieldInfo)
+  nameWithType: ISoDataRecord.GetChar(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: char GetChar(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Char
+    content.vb: Function GetChar(field As FieldInfo) As Char
+  overload: SuperOffice.Data.ISoDataRecord.GetChar*
+- uid: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetDateTime(FieldInfo)
+  nameWithType: ISoDataRecord.GetDateTime(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: DateTime GetDateTime(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.DateTime
+    content.vb: Function GetDateTime(field As FieldInfo) As Date
+  overload: SuperOffice.Data.ISoDataRecord.GetDateTime*
+- uid: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetDecimal(FieldInfo)
+  nameWithType: ISoDataRecord.GetDecimal(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: decimal GetDecimal(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Decimal
+    content.vb: Function GetDecimal(field As FieldInfo) As Decimal
+  overload: SuperOffice.Data.ISoDataRecord.GetDecimal*
+- uid: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetDouble(FieldInfo)
+  nameWithType: ISoDataRecord.GetDouble(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: double GetDouble(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Double
+    content.vb: Function GetDouble(field As FieldInfo) As Double
+  overload: SuperOffice.Data.ISoDataRecord.GetDouble*
+- uid: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  id: GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetFloat(FieldInfo)
+  nameWithType: ISoDataRecord.GetFloat(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: float GetFloat(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Single
+    content.vb: Function GetFloat(field As FieldInfo) As Single
+  overload: SuperOffice.Data.ISoDataRecord.GetFloat*
+- uid: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  id: GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetGuid(FieldInfo)
+  nameWithType: ISoDataRecord.GetGuid(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Guid GetGuid(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Guid
+    content.vb: Function GetGuid(field As FieldInfo) As Guid
+  overload: SuperOffice.Data.ISoDataRecord.GetGuid*
+- uid: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetInt16(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt16(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: short GetInt16(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int16
+    content.vb: Function GetInt16(field As FieldInfo) As Short
+  overload: SuperOffice.Data.ISoDataRecord.GetInt16*
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetInt32(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt32(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: int GetInt32(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int32
+    content.vb: Function GetInt32(field As FieldInfo) As Integer
+  overload: SuperOffice.Data.ISoDataRecord.GetInt32*
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  id: GetInt32(System.Int32)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetInt32(Int32)
+  nameWithType: ISoDataRecord.GetInt32(Int32)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: int GetInt32(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetInt32(index As Integer) As Integer
+  overload: SuperOffice.Data.ISoDataRecord.GetInt32*
+- uid: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetInt64(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt64(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: long GetInt64(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int64
+    content.vb: Function GetInt64(field As FieldInfo) As Long
+  overload: SuperOffice.Data.ISoDataRecord.GetInt64*
+- uid: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  id: GetOrdinal(System.String)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetOrdinal(String)
+  nameWithType: ISoDataRecord.GetOrdinal(String)
+  fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: int GetOrdinal(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Function GetOrdinal(name As String) As Integer
+  overload: SuperOffice.Data.ISoDataRecord.GetOrdinal*
+- uid: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  id: GetString(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetString(FieldInfo)
+  nameWithType: ISoDataRecord.GetString(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: string GetString(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.String
+    content.vb: Function GetString(field As FieldInfo) As String
+  overload: SuperOffice.Data.ISoDataRecord.GetString*
+- uid: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  id: GetValue(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetValue(FieldInfo)
+  nameWithType: ISoDataRecord.GetValue(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: object GetValue(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Object
+    content.vb: Function GetValue(field As FieldInfo) As Object
+  overload: SuperOffice.Data.ISoDataRecord.GetValue*
+- uid: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  id: GetValues(System.Object[])
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetValues(Object[])
+  nameWithType: ISoDataRecord.GetValues(Object[])
+  fullName: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: int GetValues(object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.Int32
+    content.vb: Function GetValues(values As Object()) As Integer
+  overload: SuperOffice.Data.ISoDataRecord.GetValues*
+  nameWithType.vb: ISoDataRecord.GetValues(Object())
+  fullName.vb: SuperOffice.Data.ISoDataRecord.GetValues(System.Object())
+  name.vb: GetValues(Object())
+- uid: SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  id: GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetEnum<E>(FieldInfo)
+  nameWithType: ISoDataRecord.GetEnum<E>(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetEnum<E>(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: E GetEnum<E>(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    typeParameters:
+    - id: E
+    return:
+      type: '{E}'
+    content.vb: Function GetEnum(Of E)(field As FieldInfo) As E
+  overload: SuperOffice.Data.ISoDataRecord.GetEnum*
+  nameWithType.vb: ISoDataRecord.GetEnum(Of E)(FieldInfo)
+  fullName.vb: SuperOffice.Data.ISoDataRecord.GetEnum(Of E)(SuperOffice.Data.SQL.FieldInfo)
+  name.vb: GetEnum(Of E)(FieldInfo)
+- uid: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  id: IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: IsDBNull(FieldInfo)
+  nameWithType: ISoDataRecord.IsDBNull(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool IsDBNull(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Function IsDBNull(field As FieldInfo) As Boolean
+  overload: SuperOffice.Data.ISoDataRecord.IsDBNull*
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  id: GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: GetInt32Array(FieldInfo)
+  nameWithType: ISoDataRecord.GetInt32Array(FieldInfo)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: int[] GetInt32Array(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int32[]
+    content.vb: Function GetInt32Array(field As FieldInfo) As Integer()
+  overload: SuperOffice.Data.ISoDataRecord.GetInt32Array*
+- uid: SuperOffice.Data.ISoDataRecord.Reader
+  commentId: P:SuperOffice.Data.ISoDataRecord.Reader
+  id: Reader
+  parent: SuperOffice.Data.ISoDataRecord
+  langs:
+  - csharp
+  - vb
+  name: Reader
+  nameWithType: ISoDataRecord.Reader
+  fullName: SuperOffice.Data.ISoDataRecord.Reader
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: SoDataReader Reader { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SoDataReader
+    content.vb: ReadOnly Property Reader As SoDataReader
+  overload: SuperOffice.Data.ISoDataRecord.Reader*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ISoDataRecord.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoDataRecord, To>()
+  nameWithType: EnumUtil.MapEnums<ISoDataRecord, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoDataRecord, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoDataRecord, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)()
+  name.vb: MapEnums(Of ISoDataRecord, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoDataRecord, To>
+    nameWithType: EnumUtil.MapEnums<ISoDataRecord, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoDataRecord, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoDataRecord, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoDataRecord, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISoDataRecord.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoDataRecord, To>()
+  nameWithType: Converters.MapEnums<ISoDataRecord, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoDataRecord, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoDataRecord, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)()
+  name.vb: MapEnums(Of ISoDataRecord, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoDataRecord, To>
+    nameWithType: Converters.MapEnums<ISoDataRecord, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoDataRecord, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoDataRecord, To)
+    nameWithType: Converters.MapEnums(Of ISoDataRecord, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ISoDataRecord.GetBoolean*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetBoolean
+  isExternal: true
+  name: GetBoolean
+  nameWithType: ISoDataRecord.GetBoolean
+  fullName: SuperOffice.Data.ISoDataRecord.GetBoolean
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.ISoDataRecord.GetByte*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetByte
+  isExternal: true
+  name: GetByte
+  nameWithType: ISoDataRecord.GetByte
+  fullName: SuperOffice.Data.ISoDataRecord.GetByte
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: SuperOffice.Data.ISoDataRecord.GetChar*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetChar
+  isExternal: true
+  name: GetChar
+  nameWithType: ISoDataRecord.GetChar
+  fullName: SuperOffice.Data.ISoDataRecord.GetChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: SuperOffice.Data.ISoDataRecord.GetDateTime*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetDateTime
+  isExternal: true
+  name: GetDateTime
+  nameWithType: ISoDataRecord.GetDateTime
+  fullName: SuperOffice.Data.ISoDataRecord.GetDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.ISoDataRecord.GetDecimal*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetDecimal
+  isExternal: true
+  name: GetDecimal
+  nameWithType: ISoDataRecord.GetDecimal
+  fullName: SuperOffice.Data.ISoDataRecord.GetDecimal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: SuperOffice.Data.ISoDataRecord.GetDouble*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetDouble
+  isExternal: true
+  name: GetDouble
+  nameWithType: ISoDataRecord.GetDouble
+  fullName: SuperOffice.Data.ISoDataRecord.GetDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.Data.ISoDataRecord.GetFloat*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetFloat
+  isExternal: true
+  name: GetFloat
+  nameWithType: ISoDataRecord.GetFloat
+  fullName: SuperOffice.Data.ISoDataRecord.GetFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: SuperOffice.Data.ISoDataRecord.GetGuid*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetGuid
+  isExternal: true
+  name: GetGuid
+  nameWithType: ISoDataRecord.GetGuid
+  fullName: SuperOffice.Data.ISoDataRecord.GetGuid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.Data.ISoDataRecord.GetInt16*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt16
+  isExternal: true
+  name: GetInt16
+  nameWithType: ISoDataRecord.GetInt16
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt16
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt32
+  isExternal: true
+  name: GetInt32
+  nameWithType: ISoDataRecord.GetInt32
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.ISoDataRecord.GetInt64*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt64
+  isExternal: true
+  name: GetInt64
+  nameWithType: ISoDataRecord.GetInt64
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt64
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.Data.ISoDataRecord.GetOrdinal*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetOrdinal
+  isExternal: true
+  name: GetOrdinal
+  nameWithType: ISoDataRecord.GetOrdinal
+  fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.ISoDataRecord.GetString*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: ISoDataRecord.GetString
+  fullName: SuperOffice.Data.ISoDataRecord.GetString
+- uid: SuperOffice.Data.ISoDataRecord.GetValue*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: ISoDataRecord.GetValue
+  fullName: SuperOffice.Data.ISoDataRecord.GetValue
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ISoDataRecord.GetValues*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetValues
+  isExternal: true
+  name: GetValues
+  nameWithType: ISoDataRecord.GetValues
+  fullName: SuperOffice.Data.ISoDataRecord.GetValues
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.ISoDataRecord.GetEnum*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetEnum
+  isExternal: true
+  name: GetEnum
+  nameWithType: ISoDataRecord.GetEnum
+  fullName: SuperOffice.Data.ISoDataRecord.GetEnum
+- uid: '{E}'
+  commentId: '!:E'
+  definition: E
+  name: E
+  nameWithType: E
+  fullName: E
+- uid: E
+  name: E
+  nameWithType: E
+  fullName: E
+- uid: SuperOffice.Data.ISoDataRecord.IsDBNull*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.IsDBNull
+  isExternal: true
+  name: IsDBNull
+  nameWithType: ISoDataRecord.IsDBNull
+  fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
+- uid: SuperOffice.Data.ISoDataRecord.GetInt32Array*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt32Array
+  isExternal: true
+  name: GetInt32Array
+  nameWithType: ISoDataRecord.GetInt32Array
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.ISoDataRecord.Reader*
+  commentId: Overload:SuperOffice.Data.ISoDataRecord.Reader
+  isExternal: true
+  name: Reader
+  nameWithType: ISoDataRecord.Reader
+  fullName: SuperOffice.Data.ISoDataRecord.Reader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader

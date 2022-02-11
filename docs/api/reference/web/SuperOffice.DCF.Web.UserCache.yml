@@ -1,0 +1,643 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UserCache
+  commentId: T:SuperOffice.DCF.Web.UserCache
+  id: UserCache
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.UserCache.#ctor
+  - SuperOffice.DCF.Web.UserCache.Clear(System.String)
+  - SuperOffice.DCF.Web.UserCache.Exists(System.String)
+  - SuperOffice.DCF.Web.UserCache.Exists(System.String,System.String)
+  - SuperOffice.DCF.Web.UserCache.Load(System.String)
+  - SuperOffice.DCF.Web.UserCache.Load(System.String,System.String)
+  - SuperOffice.DCF.Web.UserCache.Save(System.String,System.Object)
+  - SuperOffice.DCF.Web.UserCache.Save(System.String,System.Object,System.String)
+  langs:
+  - csharp
+  - vb
+  name: UserCache
+  nameWithType: UserCache
+  fullName: SuperOffice.DCF.Web.UserCache
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class UserCache
+    content.vb: Public Class UserCache
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UserCache.Save(System.String,System.Object)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Save(System.String,System.Object)
+  id: Save(System.String,System.Object)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Save(String, Object)
+  nameWithType: UserCache.Save(String, Object)
+  fullName: SuperOffice.DCF.Web.UserCache.Save(System.String, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void Save(string key, object obj)
+    parameters:
+    - id: key
+      type: System.String
+    - id: obj
+      type: System.Object
+    content.vb: Public Shared Sub Save(key As String, obj As Object)
+  overload: SuperOffice.DCF.Web.UserCache.Save*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.Save(System.String,System.Object,System.String)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Save(System.String,System.Object,System.String)
+  id: Save(System.String,System.Object,System.String)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Save(String, Object, String)
+  nameWithType: UserCache.Save(String, Object, String)
+  fullName: SuperOffice.DCF.Web.UserCache.Save(System.String, System.Object, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void Save(string key, object obj, string identifier)
+    parameters:
+    - id: key
+      type: System.String
+    - id: obj
+      type: System.Object
+    - id: identifier
+      type: System.String
+    content.vb: Public Shared Sub Save(key As String, obj As Object, identifier As String)
+  overload: SuperOffice.DCF.Web.UserCache.Save*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.Load(System.String)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Load(System.String)
+  id: Load(System.String)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: UserCache.Load(String)
+  fullName: SuperOffice.DCF.Web.UserCache.Load(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static object Load(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function Load(key As String) As Object
+  overload: SuperOffice.DCF.Web.UserCache.Load*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.Exists(System.String)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Exists(System.String)
+  id: Exists(System.String)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Exists(String)
+  nameWithType: UserCache.Exists(String)
+  fullName: SuperOffice.DCF.Web.UserCache.Exists(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool Exists(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Exists(key As String) As Boolean
+  overload: SuperOffice.DCF.Web.UserCache.Exists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.Exists(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Exists(System.String,System.String)
+  id: Exists(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Exists(String, String)
+  nameWithType: UserCache.Exists(String, String)
+  fullName: SuperOffice.DCF.Web.UserCache.Exists(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool Exists(string key, string identifier)
+    parameters:
+    - id: key
+      type: System.String
+    - id: identifier
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Exists(key As String, identifier As String) As Boolean
+  overload: SuperOffice.DCF.Web.UserCache.Exists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.Load(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Load(System.String,System.String)
+  id: Load(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Load(String, String)
+  nameWithType: UserCache.Load(String, String)
+  fullName: SuperOffice.DCF.Web.UserCache.Load(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static object Load(string key, string identifier)
+    parameters:
+    - id: key
+      type: System.String
+    - id: identifier
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function Load(key As String, identifier As String) As Object
+  overload: SuperOffice.DCF.Web.UserCache.Load*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.Clear(System.String)
+  commentId: M:SuperOffice.DCF.Web.UserCache.Clear(System.String)
+  id: Clear(System.String)
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: Clear(String)
+  nameWithType: UserCache.Clear(String)
+  fullName: SuperOffice.DCF.Web.UserCache.Clear(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void Clear(string key)
+    parameters:
+    - id: key
+      type: System.String
+    content.vb: Public Shared Sub Clear(key As String)
+  overload: SuperOffice.DCF.Web.UserCache.Clear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UserCache.#ctor
+  commentId: M:SuperOffice.DCF.Web.UserCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UserCache
+  langs:
+  - csharp
+  - vb
+  name: UserCache()
+  nameWithType: UserCache.UserCache()
+  fullName: SuperOffice.DCF.Web.UserCache.UserCache()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public UserCache()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UserCache.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UserCache.Save*
+  commentId: Overload:SuperOffice.DCF.Web.UserCache.Save
+  isExternal: true
+  name: Save
+  nameWithType: UserCache.Save
+  fullName: SuperOffice.DCF.Web.UserCache.Save
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UserCache.Load*
+  commentId: Overload:SuperOffice.DCF.Web.UserCache.Load
+  isExternal: true
+  name: Load
+  nameWithType: UserCache.Load
+  fullName: SuperOffice.DCF.Web.UserCache.Load
+- uid: SuperOffice.DCF.Web.UserCache.Exists*
+  commentId: Overload:SuperOffice.DCF.Web.UserCache.Exists
+  isExternal: true
+  name: Exists
+  nameWithType: UserCache.Exists
+  fullName: SuperOffice.DCF.Web.UserCache.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UserCache.Clear*
+  commentId: Overload:SuperOffice.DCF.Web.UserCache.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: UserCache.Clear
+  fullName: SuperOffice.DCF.Web.UserCache.Clear
+- uid: SuperOffice.DCF.Web.UserCache.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UserCache.#ctor
+  isExternal: true
+  name: UserCache
+  nameWithType: UserCache.UserCache
+  fullName: SuperOffice.DCF.Web.UserCache.UserCache

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Debug
+  id: UserPreferenceStrings.Debug
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritInfo
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritShowIgnored
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Debug
+  nameWithType: UserPreferenceStrings.Debug
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public static class Debug : Object'
+    content.vb: >-
+      Public Module Debug
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Debug.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Section = "Debug"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Debug"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritInfo
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritInfo
+  id: ColCritInfo
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug
+  langs:
+  - csharp
+  - vb
+  name: ColCritInfo
+  nameWithType: UserPreferenceStrings.Debug.ColCritInfo
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritInfo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string ColCritInfo = "colCritInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ColCritInfo As String = "colCritInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritShowIgnored
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritShowIgnored
+  id: ColCritShowIgnored
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug
+  langs:
+  - csharp
+  - vb
+  name: ColCritShowIgnored
+  nameWithType: UserPreferenceStrings.Debug.ColCritShowIgnored
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Debug.ColCritShowIgnored
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string ColCritShowIgnored = "colCritShowIgnored"
+    return:
+      type: System.String
+    content.vb: Public Const ColCritShowIgnored As String = "colCritShowIgnored"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

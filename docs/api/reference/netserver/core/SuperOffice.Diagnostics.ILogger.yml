@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ILogger
+  commentId: T:SuperOffice.Diagnostics.ILogger
+  id: ILogger
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ILogger.LogError(System.Exception)
+  - SuperOffice.Diagnostics.ILogger.LogError(System.Type,System.String,System.String)
+  - SuperOffice.Diagnostics.ILogger.LogInformation(System.Type,System.String,System.String,System.Boolean)
+  - SuperOffice.Diagnostics.ILogger.LogWarning(System.Exception)
+  - SuperOffice.Diagnostics.ILogger.LogWarning(System.Type,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ILogger
+  nameWithType: ILogger
+  fullName: SuperOffice.Diagnostics.ILogger
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nA wrapper-interface for logging-related operations.\nThis interface is used internally to assist testing.\n"
+  syntax:
+    content: public interface ILogger
+    content.vb: Public Interface ILogger
+  extensionMethods:
+  - SuperOffice.Diagnostics.ILogger.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ILogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Diagnostics.ILogger.LogInformation(System.Type,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Diagnostics.ILogger.LogInformation(System.Type,System.String,System.String,System.Boolean)
+  id: LogInformation(System.Type,System.String,System.String,System.Boolean)
+  parent: SuperOffice.Diagnostics.ILogger
+  langs:
+  - csharp
+  - vb
+  name: LogInformation(Type, String, String, Boolean)
+  nameWithType: ILogger.LogInformation(Type, String, String, Boolean)
+  fullName: SuperOffice.Diagnostics.ILogger.LogInformation(System.Type, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Information to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: void LogInformation(Type sourceType, string message, string details, bool lightLogOutput)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    - id: lightLogOutput
+      type: System.Boolean
+      description: 'If lightLogOutput is true, stack trace and environment is not logged as part of the log entry. '
+    content.vb: Sub LogInformation(sourceType As Type, message As String, details As String, lightLogOutput As Boolean)
+  overload: SuperOffice.Diagnostics.ILogger.LogInformation*
+- uid: SuperOffice.Diagnostics.ILogger.LogWarning(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.ILogger.LogWarning(System.Type,System.String,System.String)
+  id: LogWarning(System.Type,System.String,System.String)
+  parent: SuperOffice.Diagnostics.ILogger
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(Type, String, String)
+  nameWithType: ILogger.LogWarning(Type, String, String)
+  fullName: SuperOffice.Diagnostics.ILogger.LogWarning(System.Type, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Warning to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: void LogWarning(Type sourceType, string message, string details)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    content.vb: Sub LogWarning(sourceType As Type, message As String, details As String)
+  overload: SuperOffice.Diagnostics.ILogger.LogWarning*
+- uid: SuperOffice.Diagnostics.ILogger.LogWarning(System.Exception)
+  commentId: M:SuperOffice.Diagnostics.ILogger.LogWarning(System.Exception)
+  id: LogWarning(System.Exception)
+  parent: SuperOffice.Diagnostics.ILogger
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(Exception)
+  nameWithType: ILogger.LogWarning(Exception)
+  fullName: SuperOffice.Diagnostics.ILogger.LogWarning(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog an exception as a warning\n"
+  syntax:
+    content: void LogWarning(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+      description: Exception to log as warning.
+    content.vb: Sub LogWarning(ex As Exception)
+  overload: SuperOffice.Diagnostics.ILogger.LogWarning*
+- uid: SuperOffice.Diagnostics.ILogger.LogError(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.ILogger.LogError(System.Type,System.String,System.String)
+  id: LogError(System.Type,System.String,System.String)
+  parent: SuperOffice.Diagnostics.ILogger
+  langs:
+  - csharp
+  - vb
+  name: LogError(Type, String, String)
+  nameWithType: ILogger.LogError(Type, String, String)
+  fullName: SuperOffice.Diagnostics.ILogger.LogError(System.Type, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Error to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: void LogError(Type sourceType, string message, string details)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    content.vb: Sub LogError(sourceType As Type, message As String, details As String)
+  overload: SuperOffice.Diagnostics.ILogger.LogError*
+- uid: SuperOffice.Diagnostics.ILogger.LogError(System.Exception)
+  commentId: M:SuperOffice.Diagnostics.ILogger.LogError(System.Exception)
+  id: LogError(System.Exception)
+  parent: SuperOffice.Diagnostics.ILogger
+  langs:
+  - csharp
+  - vb
+  name: LogError(Exception)
+  nameWithType: ILogger.LogError(Exception)
+  fullName: SuperOffice.Diagnostics.ILogger.LogError(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog en exception as an error.\n"
+  syntax:
+    content: void LogError(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+      description: Exception to report.
+    content.vb: Sub LogError(ex As Exception)
+  overload: SuperOffice.Diagnostics.ILogger.LogError*
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.ILogger.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ILogger, To>()
+  nameWithType: EnumUtil.MapEnums<ILogger, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ILogger, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ILogger, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ILogger, To)()
+  name.vb: MapEnums(Of ILogger, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ILogger, To>
+    nameWithType: EnumUtil.MapEnums<ILogger, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ILogger, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ILogger, To)
+    nameWithType: EnumUtil.MapEnums(Of ILogger, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ILogger, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ILogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ILogger, To>()
+  nameWithType: Converters.MapEnums<ILogger, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ILogger, To>()
+  nameWithType.vb: Converters.MapEnums(Of ILogger, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ILogger, To)()
+  name.vb: MapEnums(Of ILogger, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ILogger, To>
+    nameWithType: Converters.MapEnums<ILogger, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ILogger, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ILogger, To)
+    nameWithType: Converters.MapEnums(Of ILogger, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ILogger, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.ILogger.LogInformation*
+  commentId: Overload:SuperOffice.Diagnostics.ILogger.LogInformation
+  isExternal: true
+  name: LogInformation
+  nameWithType: ILogger.LogInformation
+  fullName: SuperOffice.Diagnostics.ILogger.LogInformation
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics.ILogger.LogWarning*
+  commentId: Overload:SuperOffice.Diagnostics.ILogger.LogWarning
+  isExternal: true
+  name: LogWarning
+  nameWithType: ILogger.LogWarning
+  fullName: SuperOffice.Diagnostics.ILogger.LogWarning
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.Diagnostics.ILogger.LogError*
+  commentId: Overload:SuperOffice.Diagnostics.ILogger.LogError
+  isExternal: true
+  name: LogError
+  nameWithType: ILogger.LogError
+  fullName: SuperOffice.Diagnostics.ILogger.LogError

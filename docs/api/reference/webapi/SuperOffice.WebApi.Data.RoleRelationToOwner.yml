@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner
+  commentId: T:SuperOffice.WebApi.Data.RoleRelationToOwner
+  id: RoleRelationToOwner
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.Anonymous
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.ExternalUser
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.MyCompany
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.MyOwn
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.OtherAssociates
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.OtherGroups
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.PrimaryGroup
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.SameProject
+  - SuperOffice.WebApi.Data.RoleRelationToOwner.value__
+  langs:
+  - csharp
+  - vb
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescribes the available relation to owner types available for roles\n"
+  syntax:
+    content: 'public sealed class RoleRelationToOwner : Enum'
+    content.vb: >-
+      Public NotInheritable Class RoleRelationToOwner
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.value__
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RoleRelationToOwner.value__
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.MyOwn
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.MyOwn
+  id: MyOwn
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: MyOwn
+  nameWithType: RoleRelationToOwner.MyOwn
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.MyOwn
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Data owned by my own user\n"
+  syntax:
+    content: public const RoleRelationToOwner MyOwn
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const MyOwn As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.PrimaryGroup
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.PrimaryGroup
+  id: PrimaryGroup
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: PrimaryGroup
+  nameWithType: RoleRelationToOwner.PrimaryGroup
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.PrimaryGroup
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Data owned by users in my primary group\n"
+  syntax:
+    content: public const RoleRelationToOwner PrimaryGroup
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const PrimaryGroup As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.OtherGroups
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.OtherGroups
+  id: OtherGroups
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: OtherGroups
+  nameWithType: RoleRelationToOwner.OtherGroups
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.OtherGroups
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Data owned by users in my other groups\n"
+  syntax:
+    content: public const RoleRelationToOwner OtherGroups
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const OtherGroups As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.OtherAssociates
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.OtherAssociates
+  id: OtherAssociates
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: OtherAssociates
+  nameWithType: RoleRelationToOwner.OtherAssociates
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.OtherAssociates
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Data owned by users that has no common user groups with the current user\n"
+  syntax:
+    content: public const RoleRelationToOwner OtherAssociates
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const OtherAssociates As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.ExternalUser
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.ExternalUser
+  id: ExternalUser
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: ExternalUser
+  nameWithType: RoleRelationToOwner.ExternalUser
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.ExternalUser
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Data owned by external users\n"
+  syntax:
+    content: public const RoleRelationToOwner ExternalUser
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const ExternalUser As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.Anonymous
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.Anonymous
+  id: Anonymous
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: Anonymous
+  nameWithType: RoleRelationToOwner.Anonymous
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.Anonymous
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Data owned by anonymous users\n"
+  syntax:
+    content: public const RoleRelationToOwner Anonymous
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const Anonymous As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.MyCompany
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.MyCompany
+  id: MyCompany
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: MyCompany
+  nameWithType: RoleRelationToOwner.MyCompany
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.MyCompany
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Data owned by my company\n"
+  syntax:
+    content: public const RoleRelationToOwner MyCompany
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const MyCompany As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner.SameProject
+  commentId: F:SuperOffice.WebApi.Data.RoleRelationToOwner.SameProject
+  id: SameProject
+  parent: SuperOffice.WebApi.Data.RoleRelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: SameProject
+  nameWithType: RoleRelationToOwner.SameProject
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner.SameProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Data owned by users on the same project\n"
+  syntax:
+    content: public const RoleRelationToOwner SameProject
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Const SameProject As RoleRelationToOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner
+  commentId: T:SuperOffice.WebApi.Data.RoleRelationToOwner
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner

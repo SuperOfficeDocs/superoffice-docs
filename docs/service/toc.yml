@@ -15,7 +15,6 @@ items:
     href: upgrade/index.md
   - name: Attachments
     href: attachments/index.md
-    expanded: true
     items:
     - name: Update location
       href: attachments/update-location.md
@@ -26,11 +25,10 @@ items:
     - name: Migrate
       href: mailboxes/migrate.md
   - name: Reply templates
-    href: ../reply-templates/index.md
-    expanded: true
+    href: reply-templates/index.md
     items:
     - name: System templates
-      href: ../reply-templates/system-templates.md
+      href: reply-templates/system-templates.md
   - name: Report parameters
     href: reports/parameters.md
   - name: Automated tasks
@@ -54,7 +52,7 @@ items:
     href: config/index.md
     items:
     - name: FAQ
-      href: ../customer-center/faq/configure.md
+      href: customer-center/faq/configure.md
     - name: Set up Facebook integration
       href: config/set-up-facebook-integration.md
   - name: SMS
@@ -75,39 +73,38 @@ items:
     - name: TxtLocal
       href: sms/txtlocal.md
   - name: Customer center
-    href: ../customer-center/index.yml
-    expanded: true
+    href: customer-center/index.yml
     items:
     - name: Overview
-      href: ../customer-center/overview.md
+      href: customer-center/overview.md
     - name: Configuration
-      href: ../customer-center/config.md
+      href: customer-center/config.md
     - name: Templates
-      href: ../customer-center/templates.md
+      href: customer-center/templates.md
     - name: Inline CRMSCript
-      href: ../customer-center/inline-crmscript.md
+      href: customer-center/inline-crmscript.md
     - name: Access script
-      href: ../customer-center/access-script.md
+      href: customer-center/access-script.md
     - name: Create web forms with special templates
-      href: ../customer-center/create-webform-with-template.md
+      href: customer-center/create-webform-with-template.md
     - name: Update extra table
-      href: ../customer-center/update-extra-table.md
+      href: customer-center/update-extra-table.md
     - name: Tutorials
       items:
       - name: Custom form - book appointment
-        href: ../customer-center/tutorials/custom-form-book-apt.md
+        href: customer-center/tutorials/custom-form-book-apt.md
       - name: Custom form - edit customer
-        href: ../customer-center/tutorials/custom-form-edit-customer.md
+        href: customer-center/tutorials/custom-form-edit-customer.md
       - name: Call script in Service with AJAX
-        href: ../customer-center/tutorials/call-script-in-cs-with-ajax.md
+        href: customer-center/tutorials/call-script-in-cs-with-ajax.md
       - name: Display KAM picture
-        href: ../customer-center/tutorials/display-kam-picture.md
+        href: customer-center/tutorials/display-kam-picture.md
       - name: Embed chat widget on external site
-        href: ../customer-center/tutorials/embed-chat-widget.md
+        href: customer-center/tutorials/embed-chat-widget.md
   - name: Integrate with Service
     href: integrate/index.md
   - name: API options
-    href: ../../../data-access/docs/service-soap/toc.yml
+    href: soap/toc.yml
   - name: Google reCaptcha in forms
     href: ../marketing/forms/recaptcha.md
   - name: Expand quick search

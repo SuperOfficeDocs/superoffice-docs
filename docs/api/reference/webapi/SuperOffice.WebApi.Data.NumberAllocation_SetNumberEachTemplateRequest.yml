@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest
+  id: NumberAllocation_SetNumberEachTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocation_SetNumberEachTemplateRequest
+  nameWithType: NumberAllocation_SetNumberEachTemplateRequest
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class NumberAllocation_SetNumberEachTemplateRequest : Object'
+    content.vb: >-
+      Public Class NumberAllocation_SetNumberEachTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocation_SetNumberEachTemplateRequest()
+  nameWithType: NumberAllocation_SetNumberEachTemplateRequest.NumberAllocation_SetNumberEachTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.NumberAllocation_SetNumberEachTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public NumberAllocation_SetNumberEachTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  commentId: P:SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  id: SetValue
+  parent: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: SetValue
+  nameWithType: NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SetValue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SetValue As Boolean
+  overload: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.#ctor
+  isExternal: true
+  name: NumberAllocation_SetNumberEachTemplateRequest
+  nameWithType: NumberAllocation_SetNumberEachTemplateRequest.NumberAllocation_SetNumberEachTemplateRequest
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.NumberAllocation_SetNumberEachTemplateRequest
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue*
+  commentId: Overload:SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  isExternal: true
+  name: SetValue
+  nameWithType: NumberAllocation_SetNumberEachTemplateRequest.SetValue
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest.SetValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

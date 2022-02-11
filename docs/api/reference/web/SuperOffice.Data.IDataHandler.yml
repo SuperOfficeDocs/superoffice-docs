@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  id: IDataHandler
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IDataHandler.CheckMandatoryData(System.String@)
+  - SuperOffice.Data.IDataHandler.Clear
+  - SuperOffice.Data.IDataHandler.CurrentHistoryItem
+  - SuperOffice.Data.IDataHandler.DataCarriers
+  - SuperOffice.Data.IDataHandler.DataCarriersToExpose
+  - SuperOffice.Data.IDataHandler.Delete
+  - SuperOffice.Data.IDataHandler.ExposeToClient
+  - SuperOffice.Data.IDataHandler.HasLoaded
+  - SuperOffice.Data.IDataHandler.Id
+  - SuperOffice.Data.IDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.Data.IDataHandler.IsNew
+  - SuperOffice.Data.IDataHandler.Load(System.String)
+  - SuperOffice.Data.IDataHandler.New
+  - SuperOffice.Data.IDataHandler.New(System.String)
+  - SuperOffice.Data.IDataHandler.OnBeforeDataBind
+  - SuperOffice.Data.IDataHandler.OnBeforeValidate
+  - SuperOffice.Data.IDataHandler.PrimaryCurrent
+  - SuperOffice.Data.IDataHandler.Save
+  langs:
+  - csharp
+  - vb
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+  type: Interface
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe DataHandlers must implement this interface.\n"
+  syntax:
+    content: public interface IDataHandler
+    content.vb: Public Interface IDataHandler
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.IDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.Data.IDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: IDataHandler.Initialize(XmlNode, String)
+  fullName: SuperOffice.Data.IDataHandler.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDataHandlers is configurable.\n"
+  syntax:
+    content: void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Sub Initialize(config As XmlNode, id As String)
+  overload: SuperOffice.Data.IDataHandler.Initialize*
+- uid: SuperOffice.Data.IDataHandler.Clear
+  commentId: M:SuperOffice.Data.IDataHandler.Clear
+  id: Clear
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: IDataHandler.Clear()
+  fullName: SuperOffice.Data.IDataHandler.Clear()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nResets data\n"
+  syntax:
+    content: void Clear()
+    content.vb: Sub Clear
+  overload: SuperOffice.Data.IDataHandler.Clear*
+- uid: SuperOffice.Data.IDataHandler.New
+  commentId: M:SuperOffice.Data.IDataHandler.New
+  id: New
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: New()
+  nameWithType: IDataHandler.New()
+  fullName: SuperOffice.Data.IDataHandler.New()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nCreate new carriers with default data\n"
+  syntax:
+    content: void New()
+    content.vb: Sub New
+  overload: SuperOffice.Data.IDataHandler.New*
+- uid: SuperOffice.Data.IDataHandler.New(System.String)
+  commentId: M:SuperOffice.Data.IDataHandler.New(System.String)
+  id: New(System.String)
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: New(String)
+  nameWithType: IDataHandler.New(String)
+  fullName: SuperOffice.Data.IDataHandler.New(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nCreate new carrier with default data\n"
+  syntax:
+    content: void New(string carrierId)
+    parameters:
+    - id: carrierId
+      type: System.String
+      description: The carrier id
+    content.vb: Sub New(carrierId As String)
+  overload: SuperOffice.Data.IDataHandler.New*
+- uid: SuperOffice.Data.IDataHandler.Load(System.String)
+  commentId: M:SuperOffice.Data.IDataHandler.Load(System.String)
+  id: Load(System.String)
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: IDataHandler.Load(String)
+  fullName: SuperOffice.Data.IDataHandler.Load(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nFetch data\n"
+  syntax:
+    content: void Load(string carrierId)
+    parameters:
+    - id: carrierId
+      type: System.String
+      description: The carrier id
+    content.vb: Sub Load(carrierId As String)
+  overload: SuperOffice.Data.IDataHandler.Load*
+- uid: SuperOffice.Data.IDataHandler.Save
+  commentId: M:SuperOffice.Data.IDataHandler.Save
+  id: Save
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: IDataHandler.Save()
+  fullName: SuperOffice.Data.IDataHandler.Save()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSave data\n"
+  syntax:
+    content: object Save()
+    return:
+      type: System.Object
+    content.vb: Function Save As Object
+  overload: SuperOffice.Data.IDataHandler.Save*
+- uid: SuperOffice.Data.IDataHandler.Delete
+  commentId: M:SuperOffice.Data.IDataHandler.Delete
+  id: Delete
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: IDataHandler.Delete()
+  fullName: SuperOffice.Data.IDataHandler.Delete()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDelete data carrier\n"
+  syntax:
+    content: void Delete()
+    content.vb: Sub Delete
+  overload: SuperOffice.Data.IDataHandler.Delete*
+- uid: SuperOffice.Data.IDataHandler.OnBeforeDataBind
+  commentId: M:SuperOffice.Data.IDataHandler.OnBeforeDataBind
+  id: OnBeforeDataBind
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeDataBind()
+  nameWithType: IDataHandler.OnBeforeDataBind()
+  fullName: SuperOffice.Data.IDataHandler.OnBeforeDataBind()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nOnBeforeDataBind is called after UpdateDatasource and before Databind.\nUsed for calculations and data processing.\n"
+  syntax:
+    content: void OnBeforeDataBind()
+    content.vb: Sub OnBeforeDataBind
+  overload: SuperOffice.Data.IDataHandler.OnBeforeDataBind*
+- uid: SuperOffice.Data.IDataHandler.OnBeforeValidate
+  commentId: M:SuperOffice.Data.IDataHandler.OnBeforeValidate
+  id: OnBeforeValidate
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeValidate()
+  nameWithType: IDataHandler.OnBeforeValidate()
+  fullName: SuperOffice.Data.IDataHandler.OnBeforeValidate()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nOnBeforeValidate is called after posted form data has been processed, but before\nvalidation functions are called on individual controls.\n"
+  syntax:
+    content: void OnBeforeValidate()
+    content.vb: Sub OnBeforeValidate
+  overload: SuperOffice.Data.IDataHandler.OnBeforeValidate*
+- uid: SuperOffice.Data.IDataHandler.CheckMandatoryData(System.String@)
+  commentId: M:SuperOffice.Data.IDataHandler.CheckMandatoryData(System.String@)
+  id: CheckMandatoryData(System.String@)
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: CheckMandatoryData(out String)
+  nameWithType: IDataHandler.CheckMandatoryData(out String)
+  fullName: SuperOffice.Data.IDataHandler.CheckMandatoryData(out System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nChecks if carriers marked as mandatory can be populated.\n<remarks>This method will trigger load on all carrires marked as mandatory.</remarks>\n"
+  syntax:
+    content: bool CheckMandatoryData(out string reason)
+    parameters:
+    - id: reason
+      type: System.String
+      description: The reason the mandatory carrier is empty
+    return:
+      type: System.Boolean
+      description: False if there i uninitialized mandatory datahandlers
+    content.vb: Function CheckMandatoryData(ByRef reason As String) As Boolean
+  overload: SuperOffice.Data.IDataHandler.CheckMandatoryData*
+  nameWithType.vb: IDataHandler.CheckMandatoryData(ByRef String)
+  fullName.vb: SuperOffice.Data.IDataHandler.CheckMandatoryData(ByRef System.String)
+  name.vb: CheckMandatoryData(ByRef String)
+- uid: SuperOffice.Data.IDataHandler.Id
+  commentId: P:SuperOffice.Data.IDataHandler.Id
+  id: Id
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IDataHandler.Id
+  fullName: SuperOffice.Data.IDataHandler.Id
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDataHandler id.\n"
+  syntax:
+    content: string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Id As String
+  overload: SuperOffice.Data.IDataHandler.Id*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.IDataHandler.DataCarriers
+  commentId: P:SuperOffice.Data.IDataHandler.DataCarriers
+  id: DataCarriers
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: DataCarriers
+  nameWithType: IDataHandler.DataCarriers
+  fullName: SuperOffice.Data.IDataHandler.DataCarriers
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe data carrier object.\n"
+  syntax:
+    content: Dictionary<string, object> DataCarriers { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: ReadOnly Property DataCarriers As Dictionary(Of String, Object)
+  overload: SuperOffice.Data.IDataHandler.DataCarriers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.IDataHandler.PrimaryCurrent
+  commentId: P:SuperOffice.Data.IDataHandler.PrimaryCurrent
+  id: PrimaryCurrent
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: PrimaryCurrent
+  nameWithType: IDataHandler.PrimaryCurrent
+  fullName: SuperOffice.Data.IDataHandler.PrimaryCurrent
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe name of the datahandlers primary current.\n"
+  syntax:
+    content: string PrimaryCurrent { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PrimaryCurrent As String
+  overload: SuperOffice.Data.IDataHandler.PrimaryCurrent*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.IDataHandler.CurrentHistoryItem
+  commentId: P:SuperOffice.Data.IDataHandler.CurrentHistoryItem
+  id: CurrentHistoryItem
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: CurrentHistoryItem
+  nameWithType: IDataHandler.CurrentHistoryItem
+  fullName: SuperOffice.Data.IDataHandler.CurrentHistoryItem
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe HistoryItem of the PrimaryCurrent.\n"
+  syntax:
+    content: HistoryItem CurrentHistoryItem { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Property CurrentHistoryItem As HistoryItem
+  overload: SuperOffice.Data.IDataHandler.CurrentHistoryItem*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Data.IDataHandler.HasLoaded
+  commentId: P:SuperOffice.Data.IDataHandler.HasLoaded
+  id: HasLoaded
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: HasLoaded
+  nameWithType: IDataHandler.HasLoaded
+  fullName: SuperOffice.Data.IDataHandler.HasLoaded
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nTrue if the Load method has been called by the DataDispatcher.\n"
+  syntax:
+    content: bool HasLoaded { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property HasLoaded As Boolean
+  overload: SuperOffice.Data.IDataHandler.HasLoaded*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Data.IDataHandler.IsNew
+  commentId: P:SuperOffice.Data.IDataHandler.IsNew
+  id: IsNew
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: IsNew
+  nameWithType: IDataHandler.IsNew
+  fullName: SuperOffice.Data.IDataHandler.IsNew
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nTrue if the New method has been called by the DataDispatcher.\n"
+  syntax:
+    content: bool IsNew { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsNew As Boolean
+  overload: SuperOffice.Data.IDataHandler.IsNew*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Data.IDataHandler.ExposeToClient
+  commentId: P:SuperOffice.Data.IDataHandler.ExposeToClient
+  id: ExposeToClient
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: ExposeToClient
+  nameWithType: IDataHandler.ExposeToClient
+  fullName: SuperOffice.Data.IDataHandler.ExposeToClient
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nTrue if the datahandler data should be serialized to the client\n"
+  syntax:
+    content: bool ExposeToClient { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExposeToClient As Boolean
+  overload: SuperOffice.Data.IDataHandler.ExposeToClient*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Data.IDataHandler.DataCarriersToExpose
+  commentId: P:SuperOffice.Data.IDataHandler.DataCarriersToExpose
+  id: DataCarriersToExpose
+  parent: SuperOffice.Data.IDataHandler
+  langs:
+  - csharp
+  - vb
+  name: DataCarriersToExpose
+  nameWithType: IDataHandler.DataCarriersToExpose
+  fullName: SuperOffice.Data.IDataHandler.DataCarriersToExpose
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nReturn a list of datacarriers to expose. The bool value indicates if the carrier is readonly from javascript.\n"
+  syntax:
+    content: Dictionary<string, SoStateObjectInfo> DataCarriersToExpose { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SoStateObjectInfo}
+    content.vb: Property DataCarriersToExpose As Dictionary(Of String, SoStateObjectInfo)
+  overload: SuperOffice.Data.IDataHandler.DataCarriersToExpose*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.IDataHandler.Initialize*
+  commentId: Overload:SuperOffice.Data.IDataHandler.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: IDataHandler.Initialize
+  fullName: SuperOffice.Data.IDataHandler.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.IDataHandler.Clear*
+  commentId: Overload:SuperOffice.Data.IDataHandler.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: IDataHandler.Clear
+  fullName: SuperOffice.Data.IDataHandler.Clear
+- uid: SuperOffice.Data.IDataHandler.New*
+  commentId: Overload:SuperOffice.Data.IDataHandler.New
+  isExternal: true
+  name: New
+  nameWithType: IDataHandler.New
+  fullName: SuperOffice.Data.IDataHandler.New
+- uid: SuperOffice.Data.IDataHandler.Load*
+  commentId: Overload:SuperOffice.Data.IDataHandler.Load
+  isExternal: true
+  name: Load
+  nameWithType: IDataHandler.Load
+  fullName: SuperOffice.Data.IDataHandler.Load
+- uid: SuperOffice.Data.IDataHandler.Save*
+  commentId: Overload:SuperOffice.Data.IDataHandler.Save
+  isExternal: true
+  name: Save
+  nameWithType: IDataHandler.Save
+  fullName: SuperOffice.Data.IDataHandler.Save
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.IDataHandler.Delete*
+  commentId: Overload:SuperOffice.Data.IDataHandler.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: IDataHandler.Delete
+  fullName: SuperOffice.Data.IDataHandler.Delete
+- uid: SuperOffice.Data.IDataHandler.OnBeforeDataBind*
+  commentId: Overload:SuperOffice.Data.IDataHandler.OnBeforeDataBind
+  isExternal: true
+  name: OnBeforeDataBind
+  nameWithType: IDataHandler.OnBeforeDataBind
+  fullName: SuperOffice.Data.IDataHandler.OnBeforeDataBind
+- uid: SuperOffice.Data.IDataHandler.OnBeforeValidate*
+  commentId: Overload:SuperOffice.Data.IDataHandler.OnBeforeValidate
+  isExternal: true
+  name: OnBeforeValidate
+  nameWithType: IDataHandler.OnBeforeValidate
+  fullName: SuperOffice.Data.IDataHandler.OnBeforeValidate
+- uid: SuperOffice.Data.IDataHandler.CheckMandatoryData*
+  commentId: Overload:SuperOffice.Data.IDataHandler.CheckMandatoryData
+  isExternal: true
+  name: CheckMandatoryData
+  nameWithType: IDataHandler.CheckMandatoryData
+  fullName: SuperOffice.Data.IDataHandler.CheckMandatoryData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.IDataHandler.Id*
+  commentId: Overload:SuperOffice.Data.IDataHandler.Id
+  isExternal: true
+  name: Id
+  nameWithType: IDataHandler.Id
+  fullName: SuperOffice.Data.IDataHandler.Id
+- uid: SuperOffice.Data.IDataHandler.DataCarriers*
+  commentId: Overload:SuperOffice.Data.IDataHandler.DataCarriers
+  isExternal: true
+  name: DataCarriers
+  nameWithType: IDataHandler.DataCarriers
+  fullName: SuperOffice.Data.IDataHandler.DataCarriers
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.IDataHandler.PrimaryCurrent*
+  commentId: Overload:SuperOffice.Data.IDataHandler.PrimaryCurrent
+  isExternal: true
+  name: PrimaryCurrent
+  nameWithType: IDataHandler.PrimaryCurrent
+  fullName: SuperOffice.Data.IDataHandler.PrimaryCurrent
+- uid: SuperOffice.Data.IDataHandler.CurrentHistoryItem*
+  commentId: Overload:SuperOffice.Data.IDataHandler.CurrentHistoryItem
+  isExternal: true
+  name: CurrentHistoryItem
+  nameWithType: IDataHandler.CurrentHistoryItem
+  fullName: SuperOffice.Data.IDataHandler.CurrentHistoryItem
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.Data.IDataHandler.HasLoaded*
+  commentId: Overload:SuperOffice.Data.IDataHandler.HasLoaded
+  isExternal: true
+  name: HasLoaded
+  nameWithType: IDataHandler.HasLoaded
+  fullName: SuperOffice.Data.IDataHandler.HasLoaded
+- uid: SuperOffice.Data.IDataHandler.IsNew*
+  commentId: Overload:SuperOffice.Data.IDataHandler.IsNew
+  isExternal: true
+  name: IsNew
+  nameWithType: IDataHandler.IsNew
+  fullName: SuperOffice.Data.IDataHandler.IsNew
+- uid: SuperOffice.Data.IDataHandler.ExposeToClient*
+  commentId: Overload:SuperOffice.Data.IDataHandler.ExposeToClient
+  isExternal: true
+  name: ExposeToClient
+  nameWithType: IDataHandler.ExposeToClient
+  fullName: SuperOffice.Data.IDataHandler.ExposeToClient
+- uid: SuperOffice.Data.IDataHandler.DataCarriersToExpose*
+  commentId: Overload:SuperOffice.Data.IDataHandler.DataCarriersToExpose
+  isExternal: true
+  name: DataCarriersToExpose
+  nameWithType: IDataHandler.DataCarriersToExpose
+  fullName: SuperOffice.Data.IDataHandler.DataCarriersToExpose
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SoStateObjectInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SoStateObjectInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, SoStateObjectInfo>
+  nameWithType: Dictionary<String, SoStateObjectInfo>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Data.SoStateObjectInfo>
+  nameWithType.vb: Dictionary(Of String, SoStateObjectInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Data.SoStateObjectInfo)
+  name.vb: Dictionary(Of String, SoStateObjectInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoStateObjectInfo
+    name: SoStateObjectInfo
+    nameWithType: SoStateObjectInfo
+    fullName: SuperOffice.Data.SoStateObjectInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoStateObjectInfo
+    name: SoStateObjectInfo
+    nameWithType: SoStateObjectInfo
+    fullName: SuperOffice.Data.SoStateObjectInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

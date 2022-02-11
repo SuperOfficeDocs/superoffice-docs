@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  id: Document_SubstituteMergeDocumentTemplateVariablesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  - SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  - SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  - SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  langs:
+  - csharp
+  - vb
+  name: Document_SubstituteMergeDocumentTemplateVariablesRequest
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_SubstituteMergeDocumentTemplateVariablesRequest : Object'
+    content.vb: >-
+      Public Class Document_SubstituteMergeDocumentTemplateVariablesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_SubstituteMergeDocumentTemplateVariablesRequest()
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.Document_SubstituteMergeDocumentTemplateVariablesRequest()
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.Document_SubstituteMergeDocumentTemplateVariablesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_SubstituteMergeDocumentTemplateVariablesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  id: CustomTags
+  parent: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomTags
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CustomTags { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CustomTags As String()
+  overload: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  commentId: P:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  id: CustomValues
+  parent: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomValues
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CustomValues { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CustomValues As String()
+  overload: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.#ctor
+  isExternal: true
+  name: Document_SubstituteMergeDocumentTemplateVariablesRequest
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.Document_SubstituteMergeDocumentTemplateVariablesRequest
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.Document_SubstituteMergeDocumentTemplateVariablesRequest
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.AssociateId
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  isExternal: true
+  name: CustomTags
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomTags
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  isExternal: true
+  name: CustomValues
+  nameWithType: Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues
+  fullName: SuperOffice.WebApi.Data.Document_SubstituteMergeDocumentTemplateVariablesRequest.CustomValues

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RoleType
+  commentId: T:SuperOffice.WebApi.Data.RoleType
+  id: RoleType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RoleType.Anonymous
+  - SuperOffice.WebApi.Data.RoleType.Employee
+  - SuperOffice.WebApi.Data.RoleType.ExternalUser
+  - SuperOffice.WebApi.Data.RoleType.System
+  - SuperOffice.WebApi.Data.RoleType.value__
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.WebApi.Data.RoleType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 = employee, 1 = external user, 2 = anonymous\nThis Enum is used by:  Role.roleType\n"
+  syntax:
+    content: 'public sealed class RoleType : Enum'
+    content.vb: >-
+      Public NotInheritable Class RoleType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RoleType.value__
+  commentId: F:SuperOffice.WebApi.Data.RoleType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RoleType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RoleType.value__
+  fullName: SuperOffice.WebApi.Data.RoleType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RoleType.Employee
+  commentId: F:SuperOffice.WebApi.Data.RoleType.Employee
+  id: Employee
+  parent: SuperOffice.WebApi.Data.RoleType
+  langs:
+  - csharp
+  - vb
+  name: Employee
+  nameWithType: RoleType.Employee
+  fullName: SuperOffice.WebApi.Data.RoleType.Employee
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Normal employee\n"
+  syntax:
+    content: public const RoleType Employee
+    return:
+      type: SuperOffice.WebApi.Data.RoleType
+    content.vb: Public Const Employee As RoleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleType.ExternalUser
+  commentId: F:SuperOffice.WebApi.Data.RoleType.ExternalUser
+  id: ExternalUser
+  parent: SuperOffice.WebApi.Data.RoleType
+  langs:
+  - csharp
+  - vb
+  name: ExternalUser
+  nameWithType: RoleType.ExternalUser
+  fullName: SuperOffice.WebApi.Data.RoleType.ExternalUser
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: External User\n"
+  syntax:
+    content: public const RoleType ExternalUser
+    return:
+      type: SuperOffice.WebApi.Data.RoleType
+    content.vb: Public Const ExternalUser As RoleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleType.Anonymous
+  commentId: F:SuperOffice.WebApi.Data.RoleType.Anonymous
+  id: Anonymous
+  parent: SuperOffice.WebApi.Data.RoleType
+  langs:
+  - csharp
+  - vb
+  name: Anonymous
+  nameWithType: RoleType.Anonymous
+  fullName: SuperOffice.WebApi.Data.RoleType.Anonymous
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Anonymous (implicit) users.\n"
+  syntax:
+    content: public const RoleType Anonymous
+    return:
+      type: SuperOffice.WebApi.Data.RoleType
+    content.vb: Public Const Anonymous As RoleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RoleType.System
+  commentId: F:SuperOffice.WebApi.Data.RoleType.System
+  id: System
+  parent: SuperOffice.WebApi.Data.RoleType
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: RoleType.System
+  fullName: SuperOffice.WebApi.Data.RoleType.System
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: System users - sentry is bypassed for this kind of users.\n"
+  syntax:
+    content: public const RoleType System
+    return:
+      type: SuperOffice.WebApi.Data.RoleType
+    content.vb: Public Const System As RoleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.RoleType
+  commentId: T:SuperOffice.WebApi.Data.RoleType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.WebApi.Data.RoleType

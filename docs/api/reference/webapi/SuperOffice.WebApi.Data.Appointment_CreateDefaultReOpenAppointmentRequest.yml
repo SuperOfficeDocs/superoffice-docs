@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
+  id: Appointment_CreateDefaultReOpenAppointmentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateDefaultReOpenAppointmentRequest
+  nameWithType: Appointment_CreateDefaultReOpenAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CreateDefaultReOpenAppointmentRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CreateDefaultReOpenAppointmentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateDefaultReOpenAppointmentRequest()
+  nameWithType: Appointment_CreateDefaultReOpenAppointmentRequest.Appointment_CreateDefaultReOpenAppointmentRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.Appointment_CreateDefaultReOpenAppointmentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CreateDefaultReOpenAppointmentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.#ctor
+  isExternal: true
+  name: Appointment_CreateDefaultReOpenAppointmentRequest
+  nameWithType: Appointment_CreateDefaultReOpenAppointmentRequest.Appointment_CreateDefaultReOpenAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.Appointment_CreateDefaultReOpenAppointmentRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
+  id: Preference_SavePreferenceDescriptionLinesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  langs:
+  - csharp
+  - vb
+  name: Preference_SavePreferenceDescriptionLinesRequest
+  nameWithType: Preference_SavePreferenceDescriptionLinesRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_SavePreferenceDescriptionLinesRequest : Object'
+    content.vb: >-
+      Public Class Preference_SavePreferenceDescriptionLinesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_SavePreferenceDescriptionLinesRequest()
+  nameWithType: Preference_SavePreferenceDescriptionLinesRequest.Preference_SavePreferenceDescriptionLinesRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.Preference_SavePreferenceDescriptionLinesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_SavePreferenceDescriptionLinesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  commentId: P:SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  id: PreferenceDescriptionLines
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDescriptionLines
+  nameWithType: Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PreferenceDescriptionLine[] PreferenceDescriptionLines { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PreferenceDescriptionLine[]
+    content.vb: Public Property PreferenceDescriptionLines As PreferenceDescriptionLine()
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.#ctor
+  isExternal: true
+  name: Preference_SavePreferenceDescriptionLinesRequest
+  nameWithType: Preference_SavePreferenceDescriptionLinesRequest.Preference_SavePreferenceDescriptionLinesRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.Preference_SavePreferenceDescriptionLinesRequest
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  isExternal: true
+  name: PreferenceDescriptionLines
+  nameWithType: Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest.PreferenceDescriptionLines
+- uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine[]
+  isExternal: true
+  name: PreferenceDescriptionLine[]
+  nameWithType: PreferenceDescriptionLine[]
+  fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine[]
+  nameWithType.vb: PreferenceDescriptionLine()
+  fullName.vb: SuperOffice.WebApi.Data.PreferenceDescriptionLine()
+  name.vb: PreferenceDescriptionLine()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

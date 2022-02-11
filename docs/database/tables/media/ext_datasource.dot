@@ -1,0 +1,8 @@
+digraph ext_datasource  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ext_datasource[fillcolor = "cadetblue1"]
+ext_table[fillcolor = "azure1"]
+ext_table -> ext_datasource [label = "ext_datasource"]
+}

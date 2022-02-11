@@ -1,0 +1,10 @@
+digraph ms_filter_mail  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ms_filter_mail[fillcolor = "cadetblue1"]
+ms_filter[fillcolor = "azure1"]
+mail_in_filter[fillcolor = "azure1"]
+ms_filter_mail -> ms_filter [headlabel = "mail_sorter_id"]
+ms_filter_mail -> mail_in_filter [headlabel = "mail_in_filter_id"]
+}

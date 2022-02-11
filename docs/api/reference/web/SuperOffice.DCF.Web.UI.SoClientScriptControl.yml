@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl
+  commentId: T:SuperOffice.DCF.Web.UI.SoClientScriptControl
+  id: SoClientScriptControl
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection(SuperOffice.DCF.Web.UI.SoScriptType)
+  - SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts(System.Web.UI.Page,SuperOffice.DCF.Web.UI.SoScriptType)
+  - SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SoClientScriptControl
+  nameWithType: SoClientScriptControl
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static class SoClientScriptControl
+    content.vb: Public Module SoClientScriptControl
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  id: ReplaceScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.SoClientScriptControl
+  langs:
+  - csharp
+  - vb
+  name: ReplaceScript(SoScriptType, Type, String, String, Boolean)
+  nameWithType: SoClientScriptControl.ReplaceScript(SoScriptType, Type, String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript(SuperOffice.DCF.Web.UI.SoScriptType, System.Type, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void ReplaceScript(SoScriptType scriptType, Type type, string name, string script, bool addScriptTags)
+    parameters:
+    - id: scriptType
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+    - id: type
+      type: System.Type
+    - id: name
+      type: System.String
+    - id: script
+      type: System.String
+    - id: addScriptTags
+      type: System.Boolean
+    content.vb: Public Shared Sub ReplaceScript(scriptType As SoScriptType, type As Type, name As String, script As String, addScriptTags As Boolean)
+  overload: SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  id: AddScript(SuperOffice.DCF.Web.UI.SoScriptType,System.Type,System.String,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.SoClientScriptControl
+  langs:
+  - csharp
+  - vb
+  name: AddScript(SoScriptType, Type, String, String, Boolean)
+  nameWithType: SoClientScriptControl.AddScript(SoScriptType, Type, String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript(SuperOffice.DCF.Web.UI.SoScriptType, System.Type, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void AddScript(SoScriptType scriptType, Type type, string name, string script, bool addScriptTags)
+    parameters:
+    - id: scriptType
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+    - id: type
+      type: System.Type
+    - id: name
+      type: System.String
+    - id: script
+      type: System.String
+    - id: addScriptTags
+      type: System.Boolean
+    content.vb: Public Shared Sub AddScript(scriptType As SoScriptType, type As Type, name As String, script As String, addScriptTags As Boolean)
+  overload: SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection(SuperOffice.DCF.Web.UI.SoScriptType)
+  commentId: M:SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection(SuperOffice.DCF.Web.UI.SoScriptType)
+  id: GetScriptCollection(SuperOffice.DCF.Web.UI.SoScriptType)
+  parent: SuperOffice.DCF.Web.UI.SoClientScriptControl
+  langs:
+  - csharp
+  - vb
+  name: GetScriptCollection(SoScriptType)
+  nameWithType: SoClientScriptControl.GetScriptCollection(SoScriptType)
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection(SuperOffice.DCF.Web.UI.SoScriptType)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static Dictionary<string, SoScriptItem> GetScriptCollection(SoScriptType scripttype)
+    parameters:
+    - id: scripttype
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.SoScriptItem}
+    content.vb: Public Shared Function GetScriptCollection(scripttype As SoScriptType) As Dictionary(Of String, SoScriptItem)
+  overload: SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts(System.Web.UI.Page,SuperOffice.DCF.Web.UI.SoScriptType)
+  commentId: M:SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts(System.Web.UI.Page,SuperOffice.DCF.Web.UI.SoScriptType)
+  id: RegisterScripts(System.Web.UI.Page,SuperOffice.DCF.Web.UI.SoScriptType)
+  parent: SuperOffice.DCF.Web.UI.SoClientScriptControl
+  langs:
+  - csharp
+  - vb
+  name: RegisterScripts(Page, SoScriptType)
+  nameWithType: SoClientScriptControl.RegisterScripts(Page, SoScriptType)
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts(System.Web.UI.Page, SuperOffice.DCF.Web.UI.SoScriptType)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RegisterScripts(Page page, SoScriptType scriptType)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    - id: scriptType
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+    content.vb: Public Shared Sub RegisterScripts(page As Page, scriptType As SoScriptType)
+  overload: SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript
+  isExternal: true
+  name: ReplaceScript
+  nameWithType: SoClientScriptControl.ReplaceScript
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.ReplaceScript
+- uid: SuperOffice.DCF.Web.UI.SoScriptType
+  commentId: T:SuperOffice.DCF.Web.UI.SoScriptType
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SoScriptType
+  nameWithType: SoScriptType
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript
+  isExternal: true
+  name: AddScript
+  nameWithType: SoClientScriptControl.AddScript
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.AddScript
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection
+  isExternal: true
+  name: GetScriptCollection
+  nameWithType: SoClientScriptControl.GetScriptCollection
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.GetScriptCollection
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.SoScriptItem}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.SoScriptItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, SoScriptItem>
+  nameWithType: Dictionary<String, SoScriptItem>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.SoScriptItem>
+  nameWithType.vb: Dictionary(Of String, SoScriptItem)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.SoScriptItem)
+  name.vb: Dictionary(Of String, SoScriptItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.SoScriptItem
+    name: SoScriptItem
+    nameWithType: SoScriptItem
+    fullName: SuperOffice.DCF.Web.UI.SoScriptItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.SoScriptItem
+    name: SoScriptItem
+    nameWithType: SoScriptItem
+    fullName: SuperOffice.DCF.Web.UI.SoScriptItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts
+  isExternal: true
+  name: RegisterScripts
+  nameWithType: SoClientScriptControl.RegisterScripts
+  fullName: SuperOffice.DCF.Web.UI.SoClientScriptControl.RegisterScripts
+- uid: System.Web.UI.Page
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: System.Web.UI.Page

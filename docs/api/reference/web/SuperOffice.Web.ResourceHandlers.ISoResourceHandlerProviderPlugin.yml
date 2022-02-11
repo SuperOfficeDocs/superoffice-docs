@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  commentId: T:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  id: ISoResourceHandlerProviderPlugin
+  parent: SuperOffice.Web.ResourceHandlers
+  children:
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  langs:
+  - csharp
+  - vb
+  name: ISoResourceHandlerProviderPlugin
+  nameWithType: ISoResourceHandlerProviderPlugin
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: 'public interface ISoResourceHandlerProviderPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ISoResourceHandlerProviderPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object,System.String)
+  id: Cache(System.Object,System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  langs:
+  - csharp
+  - vb
+  name: Cache(Object, String)
+  nameWithType: ISoResourceHandlerProviderPlugin.Cache(Object, String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache(System.Object, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: void Cache(object obj, string module)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: module
+      type: System.String
+    content.vb: Sub Cache(obj As Object, module As String)
+  overload: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache*
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  id: ClearCache(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  langs:
+  - csharp
+  - vb
+  name: ClearCache(String)
+  nameWithType: ISoResourceHandlerProviderPlugin.ClearCache(String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: void ClearCache(string module)
+    parameters:
+    - id: module
+      type: System.String
+    content.vb: Sub ClearCache(module As String)
+  overload: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache*
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  id: IsCached(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsCached(String)
+  nameWithType: ISoResourceHandlerProviderPlugin.IsCached(String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: bool IsCached(string module)
+    parameters:
+    - id: module
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsCached(module As String) As Boolean
+  overload: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached*
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  id: ProcessRequest(System.Web.HttpContextBase)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  langs:
+  - csharp
+  - vb
+  name: ProcessRequest(HttpContextBase)
+  nameWithType: ISoResourceHandlerProviderPlugin.ProcessRequest(HttpContextBase)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest(System.Web.HttpContextBase)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: void ProcessRequest(HttpContextBase context)
+    parameters:
+    - id: context
+      type: System.Web.HttpContextBase
+    content.vb: Sub ProcessRequest(context As HttpContextBase)
+  overload: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest*
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  id: GetCacheHash(System.String)
+  parent: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  langs:
+  - csharp
+  - vb
+  name: GetCacheHash(String)
+  nameWithType: ISoResourceHandlerProviderPlugin.GetCacheHash(String)
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: string GetCacheHash(string module)
+    parameters:
+    - id: module
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function GetCacheHash(module As String) As String
+  overload: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash*
+references:
+- uid: SuperOffice.Web.ResourceHandlers
+  commentId: N:SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: SuperOffice.Web.ResourceHandlers
+  nameWithType: SuperOffice.Web.ResourceHandlers
+  fullName: SuperOffice.Web.ResourceHandlers
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache
+  isExternal: true
+  name: Cache
+  nameWithType: ISoResourceHandlerProviderPlugin.Cache
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache
+  isExternal: true
+  name: ClearCache
+  nameWithType: ISoResourceHandlerProviderPlugin.ClearCache
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ClearCache
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached
+  isExternal: true
+  name: IsCached
+  nameWithType: ISoResourceHandlerProviderPlugin.IsCached
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.IsCached
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest
+  isExternal: true
+  name: ProcessRequest
+  nameWithType: ISoResourceHandlerProviderPlugin.ProcessRequest
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.ProcessRequest
+- uid: System.Web.HttpContextBase
+  isExternal: true
+  name: HttpContextBase
+  nameWithType: HttpContextBase
+  fullName: System.Web.HttpContextBase
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash
+  isExternal: true
+  name: GetCacheHash
+  nameWithType: ISoResourceHandlerProviderPlugin.GetCacheHash
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin.GetCacheHash

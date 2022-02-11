@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
+  commentId: T:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
+  id: Audience_GetConfigParameterOnPersonRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.#ctor
+  - SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName
+  - SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Audience_GetConfigParameterOnPersonRequest
+  nameWithType: Audience_GetConfigParameterOnPersonRequest
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Audience_GetConfigParameterOnPersonRequest : Object'
+    content.vb: >-
+      Public Class Audience_GetConfigParameterOnPersonRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: Audience_GetConfigParameterOnPersonRequest()
+  nameWithType: Audience_GetConfigParameterOnPersonRequest.Audience_GetConfigParameterOnPersonRequest()
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.Audience_GetConfigParameterOnPersonRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Audience_GetConfigParameterOnPersonRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName
+  commentId: P:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName
+  id: ParameterName
+  parent: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: ParameterName
+  nameWithType: Audience_GetConfigParameterOnPersonRequest.ParameterName
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ParameterName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParameterName As String
+  overload: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Audience_GetConfigParameterOnPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.#ctor
+  isExternal: true
+  name: Audience_GetConfigParameterOnPersonRequest
+  nameWithType: Audience_GetConfigParameterOnPersonRequest.Audience_GetConfigParameterOnPersonRequest
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.Audience_GetConfigParameterOnPersonRequest
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName
+  isExternal: true
+  name: ParameterName
+  nameWithType: Audience_GetConfigParameterOnPersonRequest.ParameterName
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.ParameterName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Audience_GetConfigParameterOnPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Audience_GetConfigParameterOnPersonRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

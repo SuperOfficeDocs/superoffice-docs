@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
+  id: CRMScript_ExecuteScriptRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId
+  - SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ExecuteScriptRequest
+  nameWithType: CRMScript_ExecuteScriptRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_ExecuteScriptRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_ExecuteScriptRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ExecuteScriptRequest()
+  nameWithType: CRMScript_ExecuteScriptRequest.CRMScript_ExecuteScriptRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScript_ExecuteScriptRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_ExecuteScriptRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId
+  id: CRMScriptId
+  parent: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptId
+  nameWithType: CRMScript_ExecuteScriptRequest.CRMScriptId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CRMScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CRMScriptId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters
+  id: Parameters
+  parent: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: CRMScript_ExecuteScriptRequest.Parameters
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public StringDictionary Parameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Property Parameters As StringDictionary
+  overload: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.#ctor
+  isExternal: true
+  name: CRMScript_ExecuteScriptRequest
+  nameWithType: CRMScript_ExecuteScriptRequest.CRMScript_ExecuteScriptRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScript_ExecuteScriptRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId
+  isExternal: true
+  name: CRMScriptId
+  nameWithType: CRMScript_ExecuteScriptRequest.CRMScriptId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.CRMScriptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters
+  isExternal: true
+  name: Parameters
+  nameWithType: CRMScript_ExecuteScriptRequest.Parameters
+  fullName: SuperOffice.WebApi.Data.CRMScript_ExecuteScriptRequest.Parameters
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

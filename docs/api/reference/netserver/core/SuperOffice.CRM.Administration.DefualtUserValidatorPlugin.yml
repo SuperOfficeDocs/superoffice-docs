@@ -1,0 +1,1244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  commentId: T:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  id: DefualtUserValidatorPlugin
+  parent: SuperOffice.CRM.Administration
+  children:
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.#ctor
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: DefualtUserValidatorPlugin
+  nameWithType: DefualtUserValidatorPlugin
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: >-
+      [UserValidatorPlugin("DefaultUserValidatorPlugin")]
+
+      public sealed class DefualtUserValidatorPlugin : IUserValidatorPlugin, IPlugin
+    content.vb: >-
+      <UserValidatorPlugin("DefaultUserValidatorPlugin")>
+
+      Public NotInheritable Class DefualtUserValidatorPlugin
+          Implements IUserValidatorPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Administration.UserValidatorPluginAttribute
+    ctor: SuperOffice.CRM.Administration.UserValidatorPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DefaultUserValidatorPlugin
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  id: IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsAssociateNameLegal(Int32, UserType, Int32, String, out String)
+  nameWithType: DefualtUserValidatorPlugin.IsAssociateNameLegal(Int32, UserType, Int32, String, out String)
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nCheck if a user name is already in use\n"
+  syntax:
+    content: public bool IsAssociateNameLegal(int associateId, UserType type, int personId, string userName, out string reason)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the user to check if the user name is valid for.
+    - id: type
+      type: SuperOffice.License.UserType
+      description: Type of user.
+    - id: personId
+      type: System.Int32
+      description: Person id of the user (if the user is a named user).
+    - id: userName
+      type: System.String
+      description: Candidate for user name.
+    - id: reason
+      type: System.String
+      description: The reason for denying a user name.
+    return:
+      type: System.Boolean
+      description: Return true if the user name is valid.
+    content.vb: Public Function IsAssociateNameLegal(associateId As Integer, type As UserType, personId As Integer, userName As String, ByRef reason As String) As Boolean
+  overload: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal*
+  implements:
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  nameWithType.vb: DefualtUserValidatorPlugin.IsAssociateNameLegal(Int32, UserType, Int32, String, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, ByRef System.String)
+  name.vb: IsAssociateNameLegal(Int32, UserType, Int32, String, ByRef String)
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  id: IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsPasswordLegal(Int32, UserType, Int32, String, out String)
+  nameWithType: DefualtUserValidatorPlugin.IsPasswordLegal(Int32, UserType, Int32, String, out String)
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nPassword policy validation - implementing the rules using the PasswordRules table, which now has a nice GUI faked\nthrough the preference system\n"
+  syntax:
+    content: public bool IsPasswordLegal(int associateId, UserType type, int personId, string password, out string reason)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: type
+      type: SuperOffice.License.UserType
+    - id: personId
+      type: System.Int32
+    - id: password
+      type: System.String
+    - id: reason
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsPasswordLegal(associateId As Integer, type As UserType, personId As Integer, password As String, ByRef reason As String) As Boolean
+  overload: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal*
+  implements:
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  nameWithType.vb: DefualtUserValidatorPlugin.IsPasswordLegal(Int32, UserType, Int32, String, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, ByRef System.String)
+  name.vb: IsPasswordLegal(Int32, UserType, Int32, String, ByRef String)
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  id: IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsAssociateUserNameLegal(Int32, UserType, Int32, String, out String)
+  nameWithType: DefualtUserValidatorPlugin.IsAssociateUserNameLegal(Int32, UserType, Int32, String, out String)
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public bool IsAssociateUserNameLegal(int associateId, UserType type, int personId, string associateUsername, out string reason)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: type
+      type: SuperOffice.License.UserType
+    - id: personId
+      type: System.Int32
+    - id: associateUsername
+      type: System.String
+    - id: reason
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsAssociateUserNameLegal(associateId As Integer, type As UserType, personId As Integer, associateUsername As String, ByRef reason As String) As Boolean
+  overload: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal*
+  implements:
+  - SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  nameWithType.vb: DefualtUserValidatorPlugin.IsAssociateUserNameLegal(Int32, UserType, Int32, String, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, ByRef System.String)
+  name.vb: IsAssociateUserNameLegal(Int32, UserType, Int32, String, ByRef String)
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  langs:
+  - csharp
+  - vb
+  name: DefualtUserValidatorPlugin()
+  nameWithType: DefualtUserValidatorPlugin.DefualtUserValidatorPlugin()
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.DefualtUserValidatorPlugin()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public DefualtUserValidatorPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Administration
+  commentId: N:SuperOffice.CRM.Administration
+  isExternal: true
+  name: SuperOffice.CRM.Administration
+  nameWithType: SuperOffice.CRM.Administration
+  fullName: SuperOffice.CRM.Administration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  commentId: T:SuperOffice.CRM.Administration.IUserValidatorPlugin
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  name: IUserValidatorPlugin
+  nameWithType: IUserValidatorPlugin
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DefualtUserValidatorPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<DefualtUserValidatorPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DefualtUserValidatorPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To)()
+  name.vb: MapEnums(Of DefualtUserValidatorPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DefualtUserValidatorPlugin, To>
+    nameWithType: EnumUtil.MapEnums<DefualtUserValidatorPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DefualtUserValidatorPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of DefualtUserValidatorPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DefualtUserValidatorPlugin>(DefualtUserValidatorPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<DefualtUserValidatorPlugin>(DefualtUserValidatorPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin>(SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DefualtUserValidatorPlugin)(DefualtUserValidatorPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)(SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)
+  name.vb: AssignByReflection(Of DefualtUserValidatorPlugin)(DefualtUserValidatorPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DefualtUserValidatorPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<DefualtUserValidatorPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+    name: DefualtUserValidatorPlugin
+    nameWithType: DefualtUserValidatorPlugin
+    fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DefualtUserValidatorPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DefualtUserValidatorPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+    name: DefualtUserValidatorPlugin
+    nameWithType: DefualtUserValidatorPlugin
+    fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DefualtUserValidatorPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<DefualtUserValidatorPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DefualtUserValidatorPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)()
+  name.vb: GraphCopy(Of DefualtUserValidatorPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DefualtUserValidatorPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<DefualtUserValidatorPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DefualtUserValidatorPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of DefualtUserValidatorPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DefualtUserValidatorPlugin, To>()
+  nameWithType: Converters.MapEnums<DefualtUserValidatorPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of DefualtUserValidatorPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To)()
+  name.vb: MapEnums(Of DefualtUserValidatorPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DefualtUserValidatorPlugin, To>
+    nameWithType: Converters.MapEnums<DefualtUserValidatorPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DefualtUserValidatorPlugin, To)
+    nameWithType: Converters.MapEnums(Of DefualtUserValidatorPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.DefualtUserValidatorPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal*
+  commentId: Overload:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal
+  isExternal: true
+  name: IsAssociateNameLegal
+  nameWithType: DefualtUserValidatorPlugin.IsAssociateNameLegal
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateNameLegal
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  isExternal: true
+  name: IsAssociateNameLegal(Int32, UserType, Int32, String, String)
+  nameWithType: IUserValidatorPlugin.IsAssociateNameLegal(Int32, UserType, Int32, String, String)
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+    name: IsAssociateNameLegal
+    nameWithType: IUserValidatorPlugin.IsAssociateNameLegal
+    fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+    name: IsAssociateNameLegal
+    nameWithType: IUserValidatorPlugin.IsAssociateNameLegal
+    fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateNameLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal*
+  commentId: Overload:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal
+  isExternal: true
+  name: IsPasswordLegal
+  nameWithType: DefualtUserValidatorPlugin.IsPasswordLegal
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsPasswordLegal
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  isExternal: true
+  name: IsPasswordLegal(Int32, UserType, Int32, String, String)
+  nameWithType: IUserValidatorPlugin.IsPasswordLegal(Int32, UserType, Int32, String, String)
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+    name: IsPasswordLegal
+    nameWithType: IUserValidatorPlugin.IsPasswordLegal
+    fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+    name: IsPasswordLegal
+    nameWithType: IUserValidatorPlugin.IsPasswordLegal
+    fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsPasswordLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal*
+  commentId: Overload:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal
+  isExternal: true
+  name: IsAssociateUserNameLegal
+  nameWithType: DefualtUserValidatorPlugin.IsAssociateUserNameLegal
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.IsAssociateUserNameLegal
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  commentId: M:SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+  parent: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  isExternal: true
+  name: IsAssociateUserNameLegal(Int32, UserType, Int32, String, String)
+  nameWithType: IUserValidatorPlugin.IsAssociateUserNameLegal(Int32, UserType, Int32, String, String)
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32, SuperOffice.License.UserType, System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+    name: IsAssociateUserNameLegal
+    nameWithType: IUserValidatorPlugin.IsAssociateUserNameLegal
+    fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal(System.Int32,SuperOffice.License.UserType,System.Int32,System.String,System.String@)
+    name: IsAssociateUserNameLegal
+    nameWithType: IUserValidatorPlugin.IsAssociateUserNameLegal
+    fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin.IsAssociateUserNameLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.License.UserType
+    name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.#ctor
+  isExternal: true
+  name: DefualtUserValidatorPlugin
+  nameWithType: DefualtUserValidatorPlugin.DefualtUserValidatorPlugin
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin.DefualtUserValidatorPlugin

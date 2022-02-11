@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.ContentType
+  commentId: T:SuperOffice.WebApi.Constants.ContentType
+  id: Constants.ContentType
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.ContentType.Json
+  - SuperOffice.WebApi.Constants.ContentType.OctetStream
+  - SuperOffice.WebApi.Constants.ContentType.Xml
+  langs:
+  - csharp
+  - vb
+  name: Constants.ContentType
+  nameWithType: Constants.ContentType
+  fullName: SuperOffice.WebApi.Constants.ContentType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class ContentType : Object'
+    content.vb: >-
+      Public Module ContentType
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.ContentType.Json
+  commentId: F:SuperOffice.WebApi.Constants.ContentType.Json
+  id: Json
+  parent: SuperOffice.WebApi.Constants.ContentType
+  langs:
+  - csharp
+  - vb
+  name: Json
+  nameWithType: Constants.ContentType.Json
+  fullName: SuperOffice.WebApi.Constants.ContentType.Json
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Json = "application/json"
+    return:
+      type: System.String
+    content.vb: Public Const Json As String = "application/json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ContentType.OctetStream
+  commentId: F:SuperOffice.WebApi.Constants.ContentType.OctetStream
+  id: OctetStream
+  parent: SuperOffice.WebApi.Constants.ContentType
+  langs:
+  - csharp
+  - vb
+  name: OctetStream
+  nameWithType: Constants.ContentType.OctetStream
+  fullName: SuperOffice.WebApi.Constants.ContentType.OctetStream
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string OctetStream = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const OctetStream As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.ContentType.Xml
+  commentId: F:SuperOffice.WebApi.Constants.ContentType.Xml
+  id: Xml
+  parent: SuperOffice.WebApi.Constants.ContentType
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: Constants.ContentType.Xml
+  fullName: SuperOffice.WebApi.Constants.ContentType.Xml
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Xml = "text/xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xml As String = "text/xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

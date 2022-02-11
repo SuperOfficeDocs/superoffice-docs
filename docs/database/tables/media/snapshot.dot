@@ -1,0 +1,6 @@
+digraph snapshot  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+snapshot[fillcolor = "cadetblue1"]
+}

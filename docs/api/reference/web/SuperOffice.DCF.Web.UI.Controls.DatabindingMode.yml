@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  id: DatabindingMode
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.DatabindingMode.Default
+  - SuperOffice.DCF.Web.UI.Controls.DatabindingMode.DefaultAndModel
+  - SuperOffice.DCF.Web.UI.Controls.DatabindingMode.ModelOnly
+  langs:
+  - csharp
+  - vb
+  name: DatabindingMode
+  nameWithType: DatabindingMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public enum DatabindingMode
+    content.vb: Public Enum DatabindingMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode.Default
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.DatabindingMode.Default
+  id: Default
+  parent: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: DatabindingMode.Default
+  fullName: SuperOffice.DCF.Web.UI.Controls.DatabindingMode.Default
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: Default = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode.DefaultAndModel
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.DatabindingMode.DefaultAndModel
+  id: DefaultAndModel
+  parent: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  langs:
+  - csharp
+  - vb
+  name: DefaultAndModel
+  nameWithType: DatabindingMode.DefaultAndModel
+  fullName: SuperOffice.DCF.Web.UI.Controls.DatabindingMode.DefaultAndModel
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: DefaultAndModel = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode.ModelOnly
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.DatabindingMode.ModelOnly
+  id: ModelOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  langs:
+  - csharp
+  - vb
+  name: ModelOnly
+  nameWithType: DatabindingMode.ModelOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.DatabindingMode.ModelOnly
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: ModelOnly = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: DatabindingMode
+  nameWithType: DatabindingMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.DatabindingMode

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest
+  id: Contact_SetDuplicateRulesStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules
+  langs:
+  - csharp
+  - vb
+  name: Contact_SetDuplicateRulesStatusRequest
+  nameWithType: Contact_SetDuplicateRulesStatusRequest
+  fullName: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_SetDuplicateRulesStatusRequest : Object'
+    content.vb: >-
+      Public Class Contact_SetDuplicateRulesStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_SetDuplicateRulesStatusRequest()
+  nameWithType: Contact_SetDuplicateRulesStatusRequest.Contact_SetDuplicateRulesStatusRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Contact_SetDuplicateRulesStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_SetDuplicateRulesStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules
+  commentId: P:SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules
+  id: Rules
+  parent: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Rules
+  nameWithType: Contact_SetDuplicateRulesStatusRequest.Rules
+  fullName: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DuplicateRule[] Rules { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DuplicateRule[]
+    content.vb: Public Property Rules As DuplicateRule()
+  overload: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.#ctor
+  isExternal: true
+  name: Contact_SetDuplicateRulesStatusRequest
+  nameWithType: Contact_SetDuplicateRulesStatusRequest.Contact_SetDuplicateRulesStatusRequest
+  fullName: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Contact_SetDuplicateRulesStatusRequest
+- uid: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules
+  isExternal: true
+  name: Rules
+  nameWithType: Contact_SetDuplicateRulesStatusRequest.Rules
+  fullName: SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest.Rules
+- uid: SuperOffice.WebApi.Data.DuplicateRule[]
+  isExternal: true
+  name: DuplicateRule[]
+  nameWithType: DuplicateRule[]
+  fullName: SuperOffice.WebApi.Data.DuplicateRule[]
+  nameWithType.vb: DuplicateRule()
+  fullName.vb: SuperOffice.WebApi.Data.DuplicateRule()
+  name.vb: DuplicateRule()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

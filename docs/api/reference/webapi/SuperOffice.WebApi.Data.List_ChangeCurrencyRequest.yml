@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  commentId: T:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  id: List_ChangeCurrencyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.#ctor
+  - SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount
+  - SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency
+  - SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency
+  langs:
+  - csharp
+  - vb
+  name: List_ChangeCurrencyRequest
+  nameWithType: List_ChangeCurrencyRequest
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_ChangeCurrencyRequest : Object'
+    content.vb: >-
+      Public Class List_ChangeCurrencyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  langs:
+  - csharp
+  - vb
+  name: List_ChangeCurrencyRequest()
+  nameWithType: List_ChangeCurrencyRequest.List_ChangeCurrencyRequest()
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.List_ChangeCurrencyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_ChangeCurrencyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount
+  commentId: P:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount
+  id: Amount
+  parent: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: List_ChangeCurrencyRequest.Amount
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Amount As Double
+  overload: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency
+  commentId: P:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency
+  id: FromCurrency
+  parent: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  langs:
+  - csharp
+  - vb
+  name: FromCurrency
+  nameWithType: List_ChangeCurrencyRequest.FromCurrency
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FromCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FromCurrency As String
+  overload: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency
+  commentId: P:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency
+  id: ToCurrency
+  parent: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest
+  langs:
+  - csharp
+  - vb
+  name: ToCurrency
+  nameWithType: List_ChangeCurrencyRequest.ToCurrency
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ToCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ToCurrency As String
+  overload: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.#ctor
+  isExternal: true
+  name: List_ChangeCurrencyRequest
+  nameWithType: List_ChangeCurrencyRequest.List_ChangeCurrencyRequest
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.List_ChangeCurrencyRequest
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount*
+  commentId: Overload:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: List_ChangeCurrencyRequest.Amount
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency
+  isExternal: true
+  name: FromCurrency
+  nameWithType: List_ChangeCurrencyRequest.FromCurrency
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.FromCurrency
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency
+  isExternal: true
+  name: ToCurrency
+  nameWithType: List_ChangeCurrencyRequest.ToCurrency
+  fullName: SuperOffice.WebApi.Data.List_ChangeCurrencyRequest.ToCurrency

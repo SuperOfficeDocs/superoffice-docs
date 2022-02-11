@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReportLayout
+  commentId: T:SuperOffice.WebApi.Data.ReportLayout
+  id: ReportLayout
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
+  - SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
+  - SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
+  - SuperOffice.WebApi.Data.ReportLayout.CrossTable
+  - SuperOffice.WebApi.Data.ReportLayout.GroupList
+  - SuperOffice.WebApi.Data.ReportLayout.Label
+  - SuperOffice.WebApi.Data.ReportLayout.List
+  - SuperOffice.WebApi.Data.ReportLayout.Text
+  - SuperOffice.WebApi.Data.ReportLayout.Unknown
+  - SuperOffice.WebApi.Data.ReportLayout.value__
+  langs:
+  - csharp
+  - vb
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: SuperOffice.WebApi.Data.ReportLayout
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: 'public sealed class ReportLayout : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReportLayout
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ReportLayout.value__
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReportLayout.value__
+  fullName: SuperOffice.WebApi.Data.ReportLayout.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportLayout.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ReportLayout.Unknown
+  fullName: SuperOffice.WebApi.Data.ReportLayout.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const ReportLayout Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const Unknown As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.List
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.List
+  id: List
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: ReportLayout.List
+  fullName: SuperOffice.WebApi.Data.ReportLayout.List
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const ReportLayout List
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const List As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.Label
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.Label
+  id: Label
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: ReportLayout.Label
+  fullName: SuperOffice.WebApi.Data.ReportLayout.Label
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const ReportLayout Label
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const Label As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.GroupList
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.GroupList
+  id: GroupList
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: GroupList
+  nameWithType: ReportLayout.GroupList
+  fullName: SuperOffice.WebApi.Data.ReportLayout.GroupList
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const ReportLayout GroupList
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const GroupList As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.CrossTable
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.CrossTable
+  id: CrossTable
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CrossTable
+  nameWithType: ReportLayout.CrossTable
+  fullName: SuperOffice.WebApi.Data.ReportLayout.CrossTable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: \n"
+  syntax:
+    content: public const ReportLayout CrossTable
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const CrossTable As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
+  id: CalendarWeek5
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CalendarWeek5
+  nameWithType: ReportLayout.CalendarWeek5
+  fullName: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: \n"
+  syntax:
+    content: public const ReportLayout CalendarWeek5
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const CalendarWeek5 As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
+  id: CalendarWeek7
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CalendarWeek7
+  nameWithType: ReportLayout.CalendarWeek7
+  fullName: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: \n"
+  syntax:
+    content: public const ReportLayout CalendarWeek7
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const CalendarWeek7 As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
+  id: CalendarMonth
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CalendarMonth
+  nameWithType: ReportLayout.CalendarMonth
+  fullName: SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: \n"
+  syntax:
+    content: public const ReportLayout CalendarMonth
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const CalendarMonth As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ReportLayout.Text
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ReportLayout.Text
+  fullName: SuperOffice.WebApi.Data.ReportLayout.Text
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: \n"
+  syntax:
+    content: public const ReportLayout Text
+    return:
+      type: SuperOffice.WebApi.Data.ReportLayout
+    content.vb: Public Const Text As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReportLayout
+  commentId: T:SuperOffice.WebApi.Data.ReportLayout
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: SuperOffice.WebApi.Data.ReportLayout

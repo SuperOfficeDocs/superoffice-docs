@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoDynamicLink
+  id: FieldInfoDynamicLink
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldInfoDynamicLink.#ctor
+  - SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName
+  - SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoDynamicLink
+  nameWithType: FieldInfoDynamicLink
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FieldInfoDynamicLink.\nDynamic Link custom database field. Links are resolved indirectly via by CS.    \n"
+  syntax:
+    content: 'public class FieldInfoDynamicLink : FieldInfoBase'
+    content.vb: >-
+      Public Class FieldInfoDynamicLink
+          Inherits FieldInfoBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.FieldInfoBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  - SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  - SuperOffice.WebApi.Data.FieldInfoBase.Description
+  - SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  - SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  - SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldInfoDynamicLink.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldInfoDynamicLink
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoDynamicLink()
+  nameWithType: FieldInfoDynamicLink.FieldInfoDynamicLink()
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink.FieldInfoDynamicLink()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FieldInfoDynamicLink()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldInfoDynamicLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName
+  id: LinkName
+  parent: SuperOffice.WebApi.Data.FieldInfoDynamicLink
+  langs:
+  - csharp
+  - vb
+  name: LinkName
+  nameWithType: FieldInfoDynamicLink.LinkName
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay text for link.\n"
+  syntax:
+    content: public virtual string LinkName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LinkName As String
+  overload: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue
+  id: LinkValue
+  parent: SuperOffice.WebApi.Data.FieldInfoDynamicLink
+  langs:
+  - csharp
+  - vb
+  name: LinkValue
+  nameWithType: FieldInfoDynamicLink.LinkValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nURL link value. May contain CS tags to be replaced.\n"
+  syntax:
+    content: public virtual string LinkValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LinkValue As String
+  overload: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.FieldInfoBase
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType_String
+  nameWithType: FieldInfoBase.FieldType_String
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldInfoBase.FieldType
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldName
+  nameWithType: FieldInfoBase.FieldName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldInfoBase.DisplayName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Description
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Description
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Description
+  nameWithType: FieldInfoBase.Description
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Description
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: ShortLabel
+  nameWithType: FieldInfoBase.ShortLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideLabel
+  nameWithType: FieldInfoBase.HideLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideField
+  nameWithType: FieldInfoBase.HideField
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsIndexed
+  nameWithType: FieldInfoBase.IsIndexed
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsMandatory
+  nameWithType: FieldInfoBase.IsMandatory
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: FieldInfoBase.IsReadOnly
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsExternal
+  nameWithType: FieldInfoBase.IsExternal
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Rank
+  nameWithType: FieldInfoBase.Rank
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: FieldInfoBase.TemplateVariableName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+- uid: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoDynamicLink.#ctor
+  isExternal: true
+  name: FieldInfoDynamicLink
+  nameWithType: FieldInfoDynamicLink.FieldInfoDynamicLink
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink.FieldInfoDynamicLink
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName
+  isExternal: true
+  name: LinkName
+  nameWithType: FieldInfoDynamicLink.LinkName
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue
+  isExternal: true
+  name: LinkValue
+  nameWithType: FieldInfoDynamicLink.LinkValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoDynamicLink.LinkValue

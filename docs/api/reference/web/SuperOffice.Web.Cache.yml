@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Cache
+  commentId: N:SuperOffice.Web.Cache
+  id: SuperOffice.Web.Cache
+  children:
+  - SuperOffice.Web.Cache.ViewStateProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.Cache
+  nameWithType: SuperOffice.Web.Cache
+  fullName: SuperOffice.Web.Cache
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase
+  commentId: T:SuperOffice.Web.Cache.ViewStateProviderBase
+  parent: SuperOffice.Web.Cache
+  isExternal: true
+  name: ViewStateProviderBase
+  nameWithType: ViewStateProviderBase
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase
+- uid: SuperOffice.Web.Cache
+  commentId: N:SuperOffice.Web.Cache
+  isExternal: true
+  name: SuperOffice.Web.Cache
+  nameWithType: SuperOffice.Web.Cache
+  fullName: SuperOffice.Web.Cache

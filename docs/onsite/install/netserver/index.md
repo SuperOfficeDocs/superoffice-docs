@@ -67,6 +67,6 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 <!-- Referenced links -->
 [1]: ../../reporter/config.md
 [2]: ../web-client/index.md
-[3]: ../../../../../data-access/docs/netserver/config/data.md#database
-[4]: ../../../../../data-access/docs/netserver/config/documents.md
-[5]: ../../../../../data-access/docs/netserver/config/globalization.md
+[3]: ../../../api/config/data.md#database
+[4]: ../../../api/config/documents.md
+[5]: ../../../api/config/globalization.md

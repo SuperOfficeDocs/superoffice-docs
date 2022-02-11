@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  id: SoButtonBarLayout
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Horizontal
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Navigator
+  - SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Vertical
+  langs:
+  - csharp
+  - vb
+  name: SoButtonBarLayout
+  nameWithType: SoButtonBarLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum SoButtonBarLayout
+    content.vb: Public Enum SoButtonBarLayout
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Horizontal
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Horizontal
+  id: Horizontal
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: SoButtonBarLayout.Horizontal
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Horizontal
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Horizontal = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Vertical
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Vertical
+  id: Vertical
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: SoButtonBarLayout.Vertical
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Vertical
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Vertical = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Navigator
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Navigator
+  id: Navigator
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  langs:
+  - csharp
+  - vb
+  name: Navigator
+  nameWithType: SoButtonBarLayout.Navigator
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout.Navigator
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Navigator = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoButtonBarLayout
+  nameWithType: SoButtonBarLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout

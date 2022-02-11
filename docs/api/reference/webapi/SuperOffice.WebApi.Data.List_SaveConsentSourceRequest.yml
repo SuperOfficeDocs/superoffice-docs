@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveConsentSourceRequest
+  id: List_SaveConsentSourceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: List_SaveConsentSourceRequest
+  nameWithType: List_SaveConsentSourceRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveConsentSourceRequest : Object'
+    content.vb: >-
+      Public Class List_SaveConsentSourceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveConsentSourceRequest()
+  nameWithType: List_SaveConsentSourceRequest.List_SaveConsentSourceRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.List_SaveConsentSourceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveConsentSourceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource
+  commentId: P:SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource
+  id: ConsentSource
+  parent: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ConsentSource
+  nameWithType: List_SaveConsentSourceRequest.ConsentSource
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ConsentSource ConsentSource { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ConsentSource
+    content.vb: Public Property ConsentSource As ConsentSource
+  overload: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.#ctor
+  isExternal: true
+  name: List_SaveConsentSourceRequest
+  nameWithType: List_SaveConsentSourceRequest.List_SaveConsentSourceRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.List_SaveConsentSourceRequest
+- uid: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource
+  isExternal: true
+  name: ConsentSource
+  nameWithType: List_SaveConsentSourceRequest.ConsentSource
+  fullName: SuperOffice.WebApi.Data.List_SaveConsentSourceRequest.ConsentSource
+- uid: SuperOffice.WebApi.Data.ConsentSource
+  commentId: T:SuperOffice.WebApi.Data.ConsentSource
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConsentSource
+  nameWithType: ConsentSource
+  fullName: SuperOffice.WebApi.Data.ConsentSource

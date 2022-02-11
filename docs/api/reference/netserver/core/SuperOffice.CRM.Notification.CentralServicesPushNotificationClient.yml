@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  commentId: T:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  id: CentralServicesPushNotificationClient
+  parent: SuperOffice.CRM.Notification
+  children:
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
+  langs:
+  - csharp
+  - vb
+  name: CentralServicesPushNotificationClient
+  nameWithType: CentralServicesPushNotificationClient
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nThis class can be used to communicate with SuperOffice Central Services, \nfor sending push notification to Pocket users\n"
+  syntax:
+    content: 'public class CentralServicesPushNotificationClient : INotificationHubClient'
+    content.vb: >-
+      Public Class CentralServicesPushNotificationClient
+          Implements INotificationHubClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor
+  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: CentralServicesPushNotificationClient()
+  nameWithType: CentralServicesPushNotificationClient.CentralServicesPushNotificationClient()
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.CentralServicesPushNotificationClient()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public CentralServicesPushNotificationClient()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
+  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
+  id: SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient,CentralServices.Data.Pocket.PushNotificationMessage)
+  parent: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(PushNotificationRecipient, PushNotificationMessage)
+  nameWithType: CentralServicesPushNotificationClient.SendMessage(PushNotificationRecipient, PushNotificationMessage)
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage(CentralServices.Data.Pocket.PushNotificationRecipient, CentralServices.Data.Pocket.PushNotificationMessage)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nSend a message to a single device\n"
+  syntax:
+    content: public void SendMessage(PushNotificationRecipient recipient, PushNotificationMessage message)
+    parameters:
+    - id: recipient
+      type: CentralServices.Data.Pocket.PushNotificationRecipient
+    - id: message
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+      description: The message to send
+    content.vb: Public Sub SendMessage(recipient As PushNotificationRecipient, message As PushNotificationMessage)
+  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
+  commentId: M:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
+  id: SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[],CentralServices.Data.Pocket.PushNotificationMessage)
+  parent: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: SendMessages(PushNotificationRecipient[], PushNotificationMessage)
+  nameWithType: CentralServicesPushNotificationClient.SendMessages(PushNotificationRecipient[], PushNotificationMessage)
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient[], CentralServices.Data.Pocket.PushNotificationMessage)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void SendMessages(PushNotificationRecipient[] recipients, PushNotificationMessage message)
+    parameters:
+    - id: recipients
+      type: CentralServices.Data.Pocket.PushNotificationRecipient[]
+    - id: message
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+    content.vb: Public Sub SendMessages(recipients As PushNotificationRecipient(), message As PushNotificationMessage)
+  overload: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages*
+  nameWithType.vb: CentralServicesPushNotificationClient.SendMessages(PushNotificationRecipient(), PushNotificationMessage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages(CentralServices.Data.Pocket.PushNotificationRecipient(), CentralServices.Data.Pocket.PushNotificationMessage)
+  name.vb: SendMessages(PushNotificationRecipient(), PushNotificationMessage)
+references:
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  isExternal: true
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CentralServicesPushNotificationClient, To>()
+  nameWithType: EnumUtil.MapEnums<CentralServicesPushNotificationClient, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CentralServicesPushNotificationClient, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To)()
+  name.vb: MapEnums(Of CentralServicesPushNotificationClient, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CentralServicesPushNotificationClient, To>
+    nameWithType: EnumUtil.MapEnums<CentralServicesPushNotificationClient, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CentralServicesPushNotificationClient, To)
+    nameWithType: EnumUtil.MapEnums(Of CentralServicesPushNotificationClient, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CentralServicesPushNotificationClient>(CentralServicesPushNotificationClient)
+  nameWithType: ObjectExtensions.AssignByReflection<CentralServicesPushNotificationClient>(CentralServicesPushNotificationClient)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient>(SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CentralServicesPushNotificationClient)(CentralServicesPushNotificationClient)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)(SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)
+  name.vb: AssignByReflection(Of CentralServicesPushNotificationClient)(CentralServicesPushNotificationClient)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CentralServicesPushNotificationClient>
+    nameWithType: ObjectExtensions.AssignByReflection<CentralServicesPushNotificationClient>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+    name: CentralServicesPushNotificationClient
+    nameWithType: CentralServicesPushNotificationClient
+    fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CentralServicesPushNotificationClient)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CentralServicesPushNotificationClient)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+    name: CentralServicesPushNotificationClient
+    nameWithType: CentralServicesPushNotificationClient
+    fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CentralServicesPushNotificationClient>()
+  nameWithType: ObjectExtensions.GraphCopy<CentralServicesPushNotificationClient>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CentralServicesPushNotificationClient)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)()
+  name.vb: GraphCopy(Of CentralServicesPushNotificationClient)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CentralServicesPushNotificationClient>
+    nameWithType: ObjectExtensions.GraphCopy<CentralServicesPushNotificationClient>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CentralServicesPushNotificationClient)
+    nameWithType: ObjectExtensions.GraphCopy(Of CentralServicesPushNotificationClient)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CentralServicesPushNotificationClient, To>()
+  nameWithType: Converters.MapEnums<CentralServicesPushNotificationClient, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To>()
+  nameWithType.vb: Converters.MapEnums(Of CentralServicesPushNotificationClient, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To)()
+  name.vb: MapEnums(Of CentralServicesPushNotificationClient, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CentralServicesPushNotificationClient, To>
+    nameWithType: Converters.MapEnums<CentralServicesPushNotificationClient, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CentralServicesPushNotificationClient, To)
+    nameWithType: Converters.MapEnums(Of CentralServicesPushNotificationClient, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.CentralServicesPushNotificationClient, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor*
+  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.#ctor
+  isExternal: true
+  name: CentralServicesPushNotificationClient
+  nameWithType: CentralServicesPushNotificationClient.CentralServicesPushNotificationClient
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.CentralServicesPushNotificationClient
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage*
+  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage
+  isExternal: true
+  name: SendMessage
+  nameWithType: CentralServicesPushNotificationClient.SendMessage
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessage
+- uid: CentralServices.Data.Pocket.PushNotificationRecipient
+  commentId: '!:CentralServices.Data.Pocket.PushNotificationRecipient'
+  isExternal: true
+  name: PushNotificationRecipient
+  nameWithType: PushNotificationRecipient
+  fullName: CentralServices.Data.Pocket.PushNotificationRecipient
+- uid: CentralServices.Data.Pocket.PushNotificationMessage
+  isExternal: true
+  name: PushNotificationMessage
+  nameWithType: PushNotificationMessage
+  fullName: CentralServices.Data.Pocket.PushNotificationMessage
+- uid: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages*
+  commentId: Overload:SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages
+  isExternal: true
+  name: SendMessages
+  nameWithType: CentralServicesPushNotificationClient.SendMessages
+  fullName: SuperOffice.CRM.Notification.CentralServicesPushNotificationClient.SendMessages
+- uid: CentralServices.Data.Pocket.PushNotificationRecipient[]
+  isExternal: true
+  name: PushNotificationRecipient[]
+  nameWithType: PushNotificationRecipient[]
+  fullName: CentralServices.Data.Pocket.PushNotificationRecipient[]
+  nameWithType.vb: PushNotificationRecipient()
+  fullName.vb: CentralServices.Data.Pocket.PushNotificationRecipient()
+  name.vb: PushNotificationRecipient()
+  spec.csharp:
+  - uid: CentralServices.Data.Pocket.PushNotificationRecipient
+    name: PushNotificationRecipient
+    nameWithType: PushNotificationRecipient
+    fullName: CentralServices.Data.Pocket.PushNotificationRecipient
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: CentralServices.Data.Pocket.PushNotificationRecipient
+    name: PushNotificationRecipient
+    nameWithType: PushNotificationRecipient
+    fullName: CentralServices.Data.Pocket.PushNotificationRecipient
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

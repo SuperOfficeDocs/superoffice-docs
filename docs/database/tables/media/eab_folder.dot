@@ -1,0 +1,9 @@
+digraph eab_folder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+eab_folder[fillcolor = "cadetblue1"]
+eab_entry[fillcolor = "azure1"]
+eab_folder -> eab_folder [headlabel = "folder_id"]
+eab_entry -> eab_folder [label = "folder_id"]
+}

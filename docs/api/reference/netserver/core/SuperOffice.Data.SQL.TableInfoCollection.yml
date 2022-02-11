@@ -1,0 +1,1388 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.TableInfoCollection
+  commentId: T:SuperOffice.Data.SQL.TableInfoCollection
+  id: TableInfoCollection
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.TableInfoCollection.#ctor
+  - SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo[])
+  - SuperOffice.Data.SQL.TableInfoCollection.Clone
+  - SuperOffice.Data.SQL.TableInfoCollection.Exists(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfoCollection.GetAlias(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator
+  - SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems
+  - SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo(System.Int32)
+  - SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf``1(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.SQL.TableInfoCollection.Remove(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfoCollection.RemoveAll
+  langs:
+  - csharp
+  - vb
+  name: TableInfoCollection
+  nameWithType: TableInfoCollection
+  fullName: SuperOffice.Data.SQL.TableInfoCollection
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nThe TableInfoCollection class contains the necessary methods and member-variables to \ncontrol the different tables associated with a sql-expression. \n"
+  syntax:
+    content: 'public class TableInfoCollection : IEnumerable, ICloneable'
+    content.vb: >-
+      Public Class TableInfoCollection
+          Implements IEnumerable, ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.IEnumerable
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.TableInfoCollection.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.TableInfoCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.TableInfoCollection)
+  - SuperOffice.Data.SQL.TableInfoCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.SQL.TableInfoCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator
+  id: GetEnumerator
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: TableInfoCollection.GetEnumerator()
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns an enumerator for the hashtable _tableInfos.\n"
+  syntax:
+    content: public IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+      description: "\nAn <xref href=\"System.Collections.IEnumerator\" data-throw-if-not-resolved=\"false\"></xref> object that can be used to iterate through the collection.\n"
+    content.vb: Public Function GetEnumerator As IEnumerator
+  overload: SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator*
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Exists(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.Exists(SuperOffice.Data.SQL.TableInfo)
+  id: Exists(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: Exists(TableInfo)
+  nameWithType: TableInfoCollection.Exists(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Exists(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns true/false in regard that the in-parameter exists or not.\n"
+  syntax:
+    content: protected bool Exists(TableInfo info)
+    parameters:
+    - id: info
+      type: SuperOffice.Data.SQL.TableInfo
+      description: The table
+    return:
+      type: System.Boolean
+    content.vb: Protected Function Exists(info As TableInfo) As Boolean
+  overload: SuperOffice.Data.SQL.TableInfoCollection.Exists*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  id: HasAtLeastOneInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: HasAtLeastOneInstanceOf(SoTable)
+  nameWithType: TableInfoCollection.HasAtLeastOneInstanceOf(SoTable)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCheck if the collection contains at least one instance of the given\ntable (by definition); equivalence is by table definition name\n"
+  syntax:
+    content: public bool HasAtLeastOneInstanceOf(SoTable definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Definition of table to find
+    return:
+      type: System.Boolean
+      description: true if at least one instance of this table exists
+    content.vb: Public Function HasAtLeastOneInstanceOf(definition As SoTable) As Boolean
+  overload: SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  id: GetFirstInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: GetFirstInstanceOf(SoTable)
+  nameWithType: TableInfoCollection.GetFirstInstanceOf(SoTable)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCheck if the collection contains at least one instance of the given\ntable (by definition); equivalence is by table definition name; and\nreturn this instance. If no equivalent table is found, return null.\n"
+  syntax:
+    content: public TableInfo GetFirstInstanceOf(SoTable definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Definition of table to find
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+      description: TableInfo, if at least one instance of this table exists
+    content.vb: Public Function GetFirstInstanceOf(definition As SoTable) As TableInfo
+  overload: SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf``1(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf``1(SuperOffice.Data.Dictionary.SoTable)
+  id: GetTypedFirstInstanceOf``1(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: GetTypedFirstInstanceOf<ReturnType>(SoTable)
+  nameWithType: TableInfoCollection.GetTypedFirstInstanceOf<ReturnType>(SoTable)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf<ReturnType>(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCheck if the collection contains at least one instance of the given\ntable (by definition); equivalence is by table definition name; and\nreturn this instance. If no equivalent table is found, return null.\n"
+  syntax:
+    content: >-
+      public ReturnType GetTypedFirstInstanceOf<ReturnType>(SoTable definition)
+          where ReturnType : TableInfo
+    parameters:
+    - id: definition
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Definition of table to find
+    typeParameters:
+    - id: ReturnType
+      description: Type of tableinfo to return, a cast if performed and will yield NULL if it fails
+    return:
+      type: '{ReturnType}'
+      description: TableInfo, if at least one instance of this table exists
+    content.vb: Public Function GetTypedFirstInstanceOf(Of ReturnType As TableInfo)(definition As SoTable) As ReturnType
+  overload: SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf*
+  nameWithType.vb: TableInfoCollection.GetTypedFirstInstanceOf(Of ReturnType)(SoTable)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf(Of ReturnType)(SuperOffice.Data.Dictionary.SoTable)
+  name.vb: GetTypedFirstInstanceOf(Of ReturnType)(SoTable)
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Remove(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.Remove(SuperOffice.Data.SQL.TableInfo)
+  id: Remove(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: Remove(TableInfo)
+  nameWithType: TableInfoCollection.Remove(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Remove(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nRemoves the given in-parameter from the collection if exists there.\n"
+  syntax:
+    content: protected void Remove(TableInfo info)
+    parameters:
+    - id: info
+      type: SuperOffice.Data.SQL.TableInfo
+      description: The tableinfo you want to remove.
+    content.vb: Protected Sub Remove(info As TableInfo)
+  overload: SuperOffice.Data.SQL.TableInfoCollection.Remove*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.SQL.TableInfoCollection.RemoveAll
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.RemoveAll
+  id: RemoveAll
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll()
+  nameWithType: TableInfoCollection.RemoveAll()
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.RemoveAll()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nRemoves all tables from the collection.\n"
+  syntax:
+    content: protected void RemoveAll()
+    content.vb: Protected Sub RemoveAll
+  overload: SuperOffice.Data.SQL.TableInfoCollection.RemoveAll*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo)
+  id: Add(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(TableInfo)
+  nameWithType: TableInfoCollection.Add(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nAdds the table to the member-hashtable. \n"
+  syntax:
+    content: public void Add(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+      description: The table to add.
+    content.vb: Public Sub Add(table As TableInfo)
+  overload: SuperOffice.Data.SQL.TableInfoCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo[])
+  id: Add(SuperOffice.Data.SQL.TableInfo[])
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(TableInfo[])
+  nameWithType: TableInfoCollection.Add(TableInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nAdd the tables to the member-hashtable. \n"
+  syntax:
+    content: public void Add(params TableInfo[] tables)
+    parameters:
+    - id: tables
+      type: SuperOffice.Data.SQL.TableInfo[]
+      description: The tables to add.
+    content.vb: Public Sub Add(ParamArray tables As TableInfo())
+  overload: SuperOffice.Data.SQL.TableInfoCollection.Add*
+  nameWithType.vb: TableInfoCollection.Add(TableInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.TableInfoCollection.Add(SuperOffice.Data.SQL.TableInfo())
+  name.vb: Add(TableInfo())
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetAlias(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.GetAlias(SuperOffice.Data.SQL.TableInfo)
+  id: GetAlias(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: GetAlias(TableInfo)
+  nameWithType: TableInfoCollection.GetAlias(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetAlias(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns the table&apos;s alias. If the alias does not exist, GetAlias will call \nthe function GenerateAlias to get one generated. \n"
+  syntax:
+    content: public string GetAlias(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: System.String
+    content.vb: Public Function GetAlias(table As TableInfo) As String
+  overload: SuperOffice.Data.SQL.TableInfoCollection.GetAlias*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo(System.Int32)
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo(System.Int32)
+  id: GetTableInfo(System.Int32)
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: GetTableInfo(Int32)
+  nameWithType: TableInfoCollection.GetTableInfo(Int32)
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns the given index&apos;s tableInfo. \n"
+  syntax:
+    content: public TableInfo GetTableInfo(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public Function GetTableInfo(index As Integer) As TableInfo
+  overload: SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems
+  id: GetNumberOfItems
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: GetNumberOfItems()
+  nameWithType: TableInfoCollection.GetNumberOfItems()
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns the number of items in the member hashtable. \n"
+  syntax:
+    content: public int GetNumberOfItems()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNumberOfItems As Integer
+  overload: SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.Clone
+  id: Clone
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TableInfoCollection.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCloning function, copies TableInfos by reference and aliases by value\n"
+  syntax:
+    content: public object Clone()
+    return:
+      type: System.Object
+      description: "\nA new object that is a copy of this instance.\n"
+    content.vb: Public Function Clone As Object
+  overload: SuperOffice.Data.SQL.TableInfoCollection.Clone*
+  implements:
+  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfoCollection.#ctor
+  commentId: M:SuperOffice.Data.SQL.TableInfoCollection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.SQL.TableInfoCollection
+  langs:
+  - csharp
+  - vb
+  name: TableInfoCollection()
+  nameWithType: TableInfoCollection.TableInfoCollection()
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.TableInfoCollection()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public TableInfoCollection()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.SQL.TableInfoCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfoCollection.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TableInfoCollection, To>()
+  nameWithType: EnumUtil.MapEnums<TableInfoCollection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.TableInfoCollection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TableInfoCollection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.TableInfoCollection, To)()
+  name.vb: MapEnums(Of TableInfoCollection, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TableInfoCollection, To>
+    nameWithType: EnumUtil.MapEnums<TableInfoCollection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.TableInfoCollection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TableInfoCollection, To)
+    nameWithType: EnumUtil.MapEnums(Of TableInfoCollection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.TableInfoCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfoCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.TableInfoCollection)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TableInfoCollection>(TableInfoCollection)
+  nameWithType: ObjectExtensions.AssignByReflection<TableInfoCollection>(TableInfoCollection)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.TableInfoCollection>(SuperOffice.Data.SQL.TableInfoCollection)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TableInfoCollection)(TableInfoCollection)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.TableInfoCollection)(SuperOffice.Data.SQL.TableInfoCollection)
+  name.vb: AssignByReflection(Of TableInfoCollection)(TableInfoCollection)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TableInfoCollection>
+    nameWithType: ObjectExtensions.AssignByReflection<TableInfoCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.TableInfoCollection>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfoCollection
+    name: TableInfoCollection
+    nameWithType: TableInfoCollection
+    fullName: SuperOffice.Data.SQL.TableInfoCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TableInfoCollection)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TableInfoCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.TableInfoCollection)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfoCollection
+    name: TableInfoCollection
+    nameWithType: TableInfoCollection
+    fullName: SuperOffice.Data.SQL.TableInfoCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfoCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TableInfoCollection>()
+  nameWithType: ObjectExtensions.GraphCopy<TableInfoCollection>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.TableInfoCollection>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TableInfoCollection)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.TableInfoCollection)()
+  name.vb: GraphCopy(Of TableInfoCollection)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TableInfoCollection>
+    nameWithType: ObjectExtensions.GraphCopy<TableInfoCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.TableInfoCollection>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TableInfoCollection)
+    nameWithType: ObjectExtensions.GraphCopy(Of TableInfoCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.TableInfoCollection)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfoCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TableInfoCollection, To>()
+  nameWithType: Converters.MapEnums<TableInfoCollection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.TableInfoCollection, To>()
+  nameWithType.vb: Converters.MapEnums(Of TableInfoCollection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.TableInfoCollection, To)()
+  name.vb: MapEnums(Of TableInfoCollection, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TableInfoCollection, To>
+    nameWithType: Converters.MapEnums<TableInfoCollection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.TableInfoCollection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TableInfoCollection, To)
+    nameWithType: Converters.MapEnums(Of TableInfoCollection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.TableInfoCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: TableInfoCollection.GetEnumerator
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Exists*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.Exists
+  isExternal: true
+  name: Exists
+  nameWithType: TableInfoCollection.Exists
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Exists
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf
+  isExternal: true
+  name: HasAtLeastOneInstanceOf
+  nameWithType: TableInfoCollection.HasAtLeastOneInstanceOf
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.HasAtLeastOneInstanceOf
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf
+  isExternal: true
+  name: GetFirstInstanceOf
+  nameWithType: TableInfoCollection.GetFirstInstanceOf
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetFirstInstanceOf
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf
+  isExternal: true
+  name: GetTypedFirstInstanceOf
+  nameWithType: TableInfoCollection.GetTypedFirstInstanceOf
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetTypedFirstInstanceOf
+- uid: '{ReturnType}'
+  commentId: '!:ReturnType'
+  definition: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Remove*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.Remove
+  isExternal: true
+  name: Remove
+  nameWithType: TableInfoCollection.Remove
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Remove
+- uid: SuperOffice.Data.SQL.TableInfoCollection.RemoveAll*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.RemoveAll
+  isExternal: true
+  name: RemoveAll
+  nameWithType: TableInfoCollection.RemoveAll
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.RemoveAll
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Add*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.Add
+  isExternal: true
+  name: Add
+  nameWithType: TableInfoCollection.Add
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Add
+- uid: SuperOffice.Data.SQL.TableInfo[]
+  isExternal: true
+  name: TableInfo[]
+  nameWithType: TableInfo[]
+  fullName: SuperOffice.Data.SQL.TableInfo[]
+  nameWithType.vb: TableInfo()
+  fullName.vb: SuperOffice.Data.SQL.TableInfo()
+  name.vb: TableInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetAlias*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.GetAlias
+  isExternal: true
+  name: GetAlias
+  nameWithType: TableInfoCollection.GetAlias
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetAlias
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo
+  isExternal: true
+  name: GetTableInfo
+  nameWithType: TableInfoCollection.GetTableInfo
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetTableInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems
+  isExternal: true
+  name: GetNumberOfItems
+  nameWithType: TableInfoCollection.GetNumberOfItems
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.GetNumberOfItems
+- uid: SuperOffice.Data.SQL.TableInfoCollection.Clone*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: TableInfoCollection.Clone
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfoCollection.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfoCollection.#ctor
+  isExternal: true
+  name: TableInfoCollection
+  nameWithType: TableInfoCollection.TableInfoCollection
+  fullName: SuperOffice.Data.SQL.TableInfoCollection.TableInfoCollection

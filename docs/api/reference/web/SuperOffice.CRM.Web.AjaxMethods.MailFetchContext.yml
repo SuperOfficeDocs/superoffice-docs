@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  id: MailFetchContext
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy
+  - SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret
+  langs:
+  - csharp
+  - vb
+  name: MailFetchContext
+  nameWithType: MailFetchContext
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public class MailFetchContext
+    content.vb: Public Class MailFetchContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: MailFetchContext()
+  nameWithType: MailFetchContext.MailFetchContext()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.MailFetchContext()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public MailFetchContext()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: MailFetchContext.ContextIdentifier
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret
+  id: Secret
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: MailFetchContext.Secret
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Secret As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy
+  id: RequestedBy
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: RequestedBy
+  nameWithType: MailFetchContext.RequestedBy
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string RequestedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequestedBy As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: MailFetchContext.AssociateId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName
+  id: AssociateName
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: AssociateName
+  nameWithType: MailFetchContext.AssociateName
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string AssociateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssociateName As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId
+  id: AccountId
+  parent: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+  langs:
+  - csharp
+  - vb
+  name: AccountId
+  nameWithType: MailFetchContext.AccountId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int AccountId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AccountId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.#ctor
+  isExternal: true
+  name: MailFetchContext
+  nameWithType: MailFetchContext.MailFetchContext
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.MailFetchContext
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: MailFetchContext.ContextIdentifier
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.ContextIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret
+  isExternal: true
+  name: Secret
+  nameWithType: MailFetchContext.Secret
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.Secret
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy
+  isExternal: true
+  name: RequestedBy
+  nameWithType: MailFetchContext.RequestedBy
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.RequestedBy
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: MailFetchContext.AssociateId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName
+  isExternal: true
+  name: AssociateName
+  nameWithType: MailFetchContext.AssociateName
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AssociateName
+- uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId
+  isExternal: true
+  name: AccountId
+  nameWithType: MailFetchContext.AccountId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext.AccountId

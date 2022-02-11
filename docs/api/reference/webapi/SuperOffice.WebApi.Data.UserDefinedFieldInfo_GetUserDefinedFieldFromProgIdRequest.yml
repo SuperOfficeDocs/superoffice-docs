@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  id: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest()
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  id: ProgId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  langs:
+  - csharp
+  - vb
+  name: ProgId
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProgId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProgId As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  id: OwnerType
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UDefType OwnerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Property OwnerType As UDefType
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  isExternal: true
+  name: ProgId
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.ProgId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetUserDefinedFieldFromProgIdRequest.OwnerType
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType

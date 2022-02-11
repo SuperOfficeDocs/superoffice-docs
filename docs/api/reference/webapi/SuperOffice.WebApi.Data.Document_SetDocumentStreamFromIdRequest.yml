@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest
+  id: Document_SetDocumentStreamFromIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId
+  - SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream
+  langs:
+  - csharp
+  - vb
+  name: Document_SetDocumentStreamFromIdRequest
+  nameWithType: Document_SetDocumentStreamFromIdRequest
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_SetDocumentStreamFromIdRequest : Object'
+    content.vb: >-
+      Public Class Document_SetDocumentStreamFromIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_SetDocumentStreamFromIdRequest()
+  nameWithType: Document_SetDocumentStreamFromIdRequest.Document_SetDocumentStreamFromIdRequest()
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Document_SetDocumentStreamFromIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_SetDocumentStreamFromIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_SetDocumentStreamFromIdRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream
+  commentId: P:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream
+  id: Stream
+  parent: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: Document_SetDocumentStreamFromIdRequest.Stream
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] Stream { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Stream As Byte()
+  overload: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.#ctor
+  isExternal: true
+  name: Document_SetDocumentStreamFromIdRequest
+  nameWithType: Document_SetDocumentStreamFromIdRequest.Document_SetDocumentStreamFromIdRequest
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Document_SetDocumentStreamFromIdRequest
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_SetDocumentStreamFromIdRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Document_SetDocumentStreamFromIdRequest.Stream
+  fullName: SuperOffice.WebApi.Data.Document_SetDocumentStreamFromIdRequest.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

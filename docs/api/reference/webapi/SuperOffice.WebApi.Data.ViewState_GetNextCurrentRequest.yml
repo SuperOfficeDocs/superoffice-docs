@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest
+  id: ViewState_GetNextCurrentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName
+  - SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id
+  langs:
+  - csharp
+  - vb
+  name: ViewState_GetNextCurrentRequest
+  nameWithType: ViewState_GetNextCurrentRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_GetNextCurrentRequest : Object'
+    content.vb: >-
+      Public Class ViewState_GetNextCurrentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_GetNextCurrentRequest()
+  nameWithType: ViewState_GetNextCurrentRequest.ViewState_GetNextCurrentRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.ViewState_GetNextCurrentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_GetNextCurrentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName
+  commentId: P:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName
+  id: HistoryName
+  parent: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest
+  langs:
+  - csharp
+  - vb
+  name: HistoryName
+  nameWithType: ViewState_GetNextCurrentRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string HistoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HistoryName As String
+  overload: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ViewState_GetNextCurrentRequest.Id
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.#ctor
+  isExternal: true
+  name: ViewState_GetNextCurrentRequest
+  nameWithType: ViewState_GetNextCurrentRequest.ViewState_GetNextCurrentRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.ViewState_GetNextCurrentRequest
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName
+  isExternal: true
+  name: HistoryName
+  nameWithType: ViewState_GetNextCurrentRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.HistoryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: ViewState_GetNextCurrentRequest.Id
+  fullName: SuperOffice.WebApi.Data.ViewState_GetNextCurrentRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

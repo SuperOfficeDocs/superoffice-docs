@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldMetadataDictionary
+  commentId: T:SuperOffice.WebApi.Data.FieldMetadataDictionary
+  id: FieldMetadataDictionary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldMetadataDictionary.#ctor
+  - SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadataDictionary
+  nameWithType: FieldMetadataDictionary
+  fullName: SuperOffice.WebApi.Data.FieldMetadataDictionary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSerializable dictionary.\nThis class works as a regular dictionary. The only restriction is that the string is a value type\n"
+  syntax:
+    content: 'public class FieldMetadataDictionary : Dictionary<string, FieldMetadata>'
+    content.vb: >-
+      Public Class FieldMetadataDictionary
+          Inherits Dictionary(Of String, FieldMetadata)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldMetadataDictionary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldMetadataDictionary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldMetadataDictionary
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadataDictionary()
+  nameWithType: FieldMetadataDictionary.FieldMetadataDictionary()
+  fullName: SuperOffice.WebApi.Data.FieldMetadataDictionary.FieldMetadataDictionary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public FieldMetadataDictionary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldMetadataDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString(System.String)
+  commentId: M:SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.WebApi.Data.FieldMetadataDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: FieldMetadataDictionary.ToString(String)
+  fullName: SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldMetadataDictionary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldMetadataDictionary.#ctor
+  isExternal: true
+  name: FieldMetadataDictionary
+  nameWithType: FieldMetadataDictionary.FieldMetadataDictionary
+  fullName: SuperOffice.WebApi.Data.FieldMetadataDictionary.FieldMetadataDictionary
+- uid: SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldMetadataDictionary.ToString
+  fullName: SuperOffice.WebApi.Data.FieldMetadataDictionary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

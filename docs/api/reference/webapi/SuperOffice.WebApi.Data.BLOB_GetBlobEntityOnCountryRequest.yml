@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest
+  id: BLOB_GetBlobEntityOnCountryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId
+  langs:
+  - csharp
+  - vb
+  name: BLOB_GetBlobEntityOnCountryRequest
+  nameWithType: BLOB_GetBlobEntityOnCountryRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_GetBlobEntityOnCountryRequest : Object'
+    content.vb: >-
+      Public Class BLOB_GetBlobEntityOnCountryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_GetBlobEntityOnCountryRequest()
+  nameWithType: BLOB_GetBlobEntityOnCountryRequest.BLOB_GetBlobEntityOnCountryRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.BLOB_GetBlobEntityOnCountryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_GetBlobEntityOnCountryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: BLOB_GetBlobEntityOnCountryRequest.CountryId
+  fullName: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.#ctor
+  isExternal: true
+  name: BLOB_GetBlobEntityOnCountryRequest
+  nameWithType: BLOB_GetBlobEntityOnCountryRequest.BLOB_GetBlobEntityOnCountryRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.BLOB_GetBlobEntityOnCountryRequest
+- uid: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: BLOB_GetBlobEntityOnCountryRequest.CountryId
+  fullName: SuperOffice.WebApi.Data.BLOB_GetBlobEntityOnCountryRequest.CountryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

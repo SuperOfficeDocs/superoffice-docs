@@ -1,0 +1,12 @@
+digraph ejpackage  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ejpackage[fillcolor = "cadetblue1"]
+attachment[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+ejpackage_item[fillcolor = "azure1"]
+ejpackage -> attachment [headlabel = "attachment_id"]
+ejpackage -> ejuser [headlabel = "uploaded_by"]
+ejpackage_item -> ejpackage [label = "ejpackage"]
+}

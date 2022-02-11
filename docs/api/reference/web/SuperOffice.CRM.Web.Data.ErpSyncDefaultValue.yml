@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  commentId: T:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  id: ErpSyncDefaultValue
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.#ctor
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.DisplayName
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSide
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSideDisplay
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.Name
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSide
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSideDisplay
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.syncBothways
+  - SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.useLeft
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class ErpSyncDefaultValue
+    content.vb: Public Class ErpSyncDefaultValue
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.Name
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ErpSyncDefaultValue.Name
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.Name
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.DisplayName
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpSyncDefaultValue.DisplayName
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.DisplayName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string DisplayName
+    return:
+      type: System.String
+    content.vb: Public DisplayName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSide
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSide
+  id: LeftSide
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: LeftSide
+  nameWithType: ErpSyncDefaultValue.LeftSide
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSide
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string LeftSide
+    return:
+      type: System.String
+    content.vb: Public LeftSide As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSideDisplay
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSideDisplay
+  id: LeftSideDisplay
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: LeftSideDisplay
+  nameWithType: ErpSyncDefaultValue.LeftSideDisplay
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.LeftSideDisplay
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string LeftSideDisplay
+    return:
+      type: System.String
+    content.vb: Public LeftSideDisplay As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSide
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSide
+  id: RightSide
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: RightSide
+  nameWithType: ErpSyncDefaultValue.RightSide
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSide
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string RightSide
+    return:
+      type: System.String
+    content.vb: Public RightSide As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSideDisplay
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSideDisplay
+  id: RightSideDisplay
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: RightSideDisplay
+  nameWithType: ErpSyncDefaultValue.RightSideDisplay
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.RightSideDisplay
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string RightSideDisplay
+    return:
+      type: System.String
+    content.vb: Public RightSideDisplay As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.useLeft
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.useLeft
+  id: useLeft
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: useLeft
+  nameWithType: ErpSyncDefaultValue.useLeft
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.useLeft
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool useLeft
+    return:
+      type: System.Boolean
+    content.vb: Public useLeft As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.syncBothways
+  commentId: F:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.syncBothways
+  id: syncBothways
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: syncBothways
+  nameWithType: ErpSyncDefaultValue.syncBothways
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.syncBothways
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool syncBothways
+    return:
+      type: System.Boolean
+    content.vb: Public syncBothways As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncDefaultValue()
+  nameWithType: ErpSyncDefaultValue.ErpSyncDefaultValue()
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.ErpSyncDefaultValue()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public ErpSyncDefaultValue()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.#ctor
+  isExternal: true
+  name: ErpSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue.ErpSyncDefaultValue
+  fullName: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue.ErpSyncDefaultValue

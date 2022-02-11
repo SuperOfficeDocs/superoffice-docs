@@ -1,0 +1,16 @@
+digraph SearchCriteriaGroup  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SearchCriteriaGroup[fillcolor = "cadetblue1"]
+SearchCriteria[fillcolor = "azure1"]
+text[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+SearchCriterion[fillcolor = "azure1"]
+SearchCriteriaGroup -> SearchCriteria [headlabel = "SearchCriteria_id"]
+SearchCriteriaGroup -> text [headlabel = "textId"]
+SearchCriteriaGroup -> associate [headlabel = "registered_associate_id"]
+SearchCriteriaGroup -> associate [label = "updated_associate_id"]
+text -> SearchCriteriaGroup [label = "owner_id" style="dashed"]
+SearchCriterion -> SearchCriteriaGroup [label = "SearchCriteriaGroup_id"]
+}

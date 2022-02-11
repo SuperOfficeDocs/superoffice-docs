@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader
+  commentId: T:SuperOffice.WebApi.Data.EMailCustomHeader
+  id: EMailCustomHeader
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailCustomHeader.#ctor
+  - SuperOffice.WebApi.Data.EMailCustomHeader.Name
+  - SuperOffice.WebApi.Data.EMailCustomHeader.Values
+  langs:
+  - csharp
+  - vb
+  name: EMailCustomHeader
+  nameWithType: EMailCustomHeader
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailCustomHeader.\n\n"
+  syntax:
+    content: 'public class EMailCustomHeader : Carrier'
+    content.vb: >-
+      Public Class EMailCustomHeader
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailCustomHeader.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: EMailCustomHeader()
+  nameWithType: EMailCustomHeader.EMailCustomHeader()
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader.EMailCustomHeader()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailCustomHeader()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailCustomHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader.Name
+  commentId: P:SuperOffice.WebApi.Data.EMailCustomHeader.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EMailCustomHeader.Name
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of header\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.EMailCustomHeader.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader.Values
+  commentId: P:SuperOffice.WebApi.Data.EMailCustomHeader.Values
+  id: Values
+  parent: SuperOffice.WebApi.Data.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: EMailCustomHeader.Values
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader.Values
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Values As String()
+  overload: SuperOffice.WebApi.Data.EMailCustomHeader.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailCustomHeader.#ctor
+  isExternal: true
+  name: EMailCustomHeader
+  nameWithType: EMailCustomHeader.EMailCustomHeader
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader.EMailCustomHeader
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailCustomHeader.Name
+  isExternal: true
+  name: Name
+  nameWithType: EMailCustomHeader.Name
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMailCustomHeader.Values*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailCustomHeader.Values
+  isExternal: true
+  name: Values
+  nameWithType: EMailCustomHeader.Values
+  fullName: SuperOffice.WebApi.Data.EMailCustomHeader.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

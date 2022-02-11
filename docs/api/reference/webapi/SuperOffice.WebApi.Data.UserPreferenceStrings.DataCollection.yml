@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  id: UserPreferenceStrings.DataCollection
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.DataCollection
+  nameWithType: UserPreferenceStrings.DataCollection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nData collection (usage statistics) - used for status storage and locking, not intended for user interaction\n"
+  syntax:
+    content: 'public static class DataCollection : Object'
+    content.vb: >-
+      Public Module DataCollection
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.DataCollection.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Section = "DataCollection"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "DataCollection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
+  id: UsageStats
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: UsageStats
+  nameWithType: UserPreferenceStrings.DataCollection.UsageStats
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWindows client usage statistics\n"
+  syntax:
+    content: public const string UsageStats = "UsageStats"
+    return:
+      type: System.String
+    content.vb: Public Const UsageStats As String = "UsageStats"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: UserPreferenceStrings.DataCollection.WebAppUsage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSMweb, CS, Pocket usage statistics\n"
+  syntax:
+    content: public const string WebAppUsage = "WebAppUsage"
+    return:
+      type: System.String
+    content.vb: Public Const WebAppUsage As String = "WebAppUsage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
+  id: DataAdd
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: DataAdd
+  nameWithType: UserPreferenceStrings.DataCollection.DataAdd
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nData additions for specific tables\n"
+  syntax:
+    content: public const string DataAdd = "DataAdd"
+    return:
+      type: System.String
+    content.vb: Public Const DataAdd As String = "DataAdd"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
+  id: DataAddTables
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: DataAddTables
+  nameWithType: UserPreferenceStrings.DataCollection.DataAddTables
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nData additions for specific tables: semicolon-separated list of table names; initialized from code but updated from server\n"
+  syntax:
+    content: public const string DataAddTables = "DataAddTables"
+    return:
+      type: System.String
+    content.vb: Public Const DataAddTables As String = "DataAddTables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
+  id: TableSize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: TableSize
+  nameWithType: UserPreferenceStrings.DataCollection.TableSize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal table sizes\n"
+  syntax:
+    content: public const string TableSize = "TableSize"
+    return:
+      type: System.String
+    content.vb: Public Const TableSize As String = "TableSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
+  id: Configured
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Configured
+  nameWithType: UserPreferenceStrings.DataCollection.Configured
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
+  syntax:
+    content: public const string Configured = "Configured"
+    return:
+      type: System.String
+    content.vb: Public Const Configured As String = "Configured"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
+  id: Running
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: UserPreferenceStrings.DataCollection.Running
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
+  syntax:
+    content: public const string Running = "Running"
+    return:
+      type: System.String
+    content.vb: Public Const Running As String = "Running"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
+  id: Statistics
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Statistics
+  nameWithType: UserPreferenceStrings.DataCollection.Statistics
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpt-in preference for Statistics\n"
+  syntax:
+    content: public const string Statistics = "Statistics"
+    return:
+      type: System.String
+    content.vb: Public Const Statistics As String = "Statistics"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
+  id: UserSync
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: UserSync
+  nameWithType: UserPreferenceStrings.DataCollection.UserSync
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpt-in preference for UserSync\n"
+  syntax:
+    content: public const string UserSync = "UserSync"
+    return:
+      type: System.String
+    content.vb: Public Const UserSync As String = "UserSync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
+  id: CollectionUrl
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: CollectionUrl
+  nameWithType: UserPreferenceStrings.DataCollection.CollectionUrl
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpt-in preference for UserSync\n"
+  syntax:
+    content: public const string CollectionUrl = "CollectionUrl"
+    return:
+      type: System.String
+    content.vb: Public Const CollectionUrl As String = "CollectionUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  id: ConfiguredUserSync
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: ConfiguredUserSync
+  nameWithType: UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpt-in preference for Configured UserSync\n"
+  syntax:
+    content: public const string ConfiguredUserSync = "ConfiguredUserSync"
+    return:
+      type: System.String
+    content.vb: Public Const ConfiguredUserSync As String = "ConfiguredUserSync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  id: ConfiguredStatistics
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: ConfiguredStatistics
+  nameWithType: UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpt-in preference for Configured Statistics\n"
+  syntax:
+    content: public const string ConfiguredStatistics = "ConfiguredStatistics"
+    return:
+      type: System.String
+    content.vb: Public Const ConfiguredStatistics As String = "ConfiguredStatistics"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

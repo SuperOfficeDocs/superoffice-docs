@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.LocalizationController
+  commentId: T:SuperOffice.CRM.Web.Controllers.LocalizationController
+  id: LocalizationController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.LocalizationController.#ctor
+  - SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters
+  langs:
+  - csharp
+  - vb
+  name: LocalizationController
+  nameWithType: LocalizationController
+  fullName: SuperOffice.CRM.Web.Controllers.LocalizationController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class LocalizationController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class LocalizationController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters
+  commentId: M:SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters
+  id: GetLocalizationParameters
+  parent: SuperOffice.CRM.Web.Controllers.LocalizationController
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizationParameters()
+  nameWithType: LocalizationController.GetLocalizationParameters()
+  fullName: SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public LocalizationParameters GetLocalizationParameters()
+    return:
+      type: SuperOffice.DCF.Web.LocalizationParameters
+    content.vb: Public Function GetLocalizationParameters As LocalizationParameters
+  overload: SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.LocalizationController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.LocalizationController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.LocalizationController
+  langs:
+  - csharp
+  - vb
+  name: LocalizationController()
+  nameWithType: LocalizationController.LocalizationController()
+  fullName: SuperOffice.CRM.Web.Controllers.LocalizationController.LocalizationController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public LocalizationController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.LocalizationController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters
+  isExternal: true
+  name: GetLocalizationParameters
+  nameWithType: LocalizationController.GetLocalizationParameters
+  fullName: SuperOffice.CRM.Web.Controllers.LocalizationController.GetLocalizationParameters
+- uid: SuperOffice.DCF.Web.LocalizationParameters
+  commentId: T:SuperOffice.DCF.Web.LocalizationParameters
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: LocalizationParameters
+  nameWithType: LocalizationParameters
+  fullName: SuperOffice.DCF.Web.LocalizationParameters
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.CRM.Web.Controllers.LocalizationController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.LocalizationController.#ctor
+  isExternal: true
+  name: LocalizationController
+  nameWithType: LocalizationController.LocalizationController
+  fullName: SuperOffice.CRM.Web.Controllers.LocalizationController.LocalizationController

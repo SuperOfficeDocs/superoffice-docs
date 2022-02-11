@@ -1,0 +1,2213 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.ConfigTableInfo
+  commentId: T:SuperOffice.CRM.Data.ConfigTableInfo
+  id: ConfigTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.ConfigTableInfo.AdminMail
+  - SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath
+  - SuperOffice.CRM.Data.ConfigTableInfo.Autologout
+  - SuperOffice.CRM.Data.ConfigTableInfo.CgiBin
+  - SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl
+  - SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal
+  - SuperOffice.CRM.Data.ConfigTableInfo.ConfigId
+  - SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags
+  - SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail
+  - SuperOffice.CRM.Data.ConfigTableInfo.Definition
+  - SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle
+  - SuperOffice.CRM.Data.ConfigTableInfo.Flags
+  - SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl
+  - SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt
+  - SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy
+  - SuperOffice.CRM.Data.ConfigTableInfo.Language
+  - SuperOffice.CRM.Data.ConfigTableInfo.Mailheader
+  - SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue
+  - SuperOffice.CRM.Data.ConfigTableInfo.MbModifier
+  - SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold
+  - SuperOffice.CRM.Data.ConfigTableInfo.PanicMail
+  - SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.ConfigTableInfo.Simautologout
+  - SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost
+  - SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort
+  - SuperOffice.CRM.Data.ConfigTableInfo.Tag
+  - SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath
+  - SuperOffice.CRM.Data.ConfigTableInfo.TempLicense
+  - SuperOffice.CRM.Data.ConfigTableInfo.TextPath
+  - SuperOffice.CRM.Data.ConfigTableInfo.UniqueId
+  - SuperOffice.CRM.Data.ConfigTableInfo.Version
+  - SuperOffice.CRM.Data.ConfigTableInfo.Warning
+  langs:
+  - csharp
+  - vb
+  name: ConfigTableInfo
+  nameWithType: ConfigTableInfo
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;config&apos;: This table contains certain system-wide configuration values.\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetConfigInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("config")]
+
+      public class ConfigTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("config")>
+
+      Public Class ConfigTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.ConfigTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.ConfigTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: config
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: ConfigTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table Config in the database dictionary: config\n"
+  syntax:
+    content: public const string DictionaryTableName = "config"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "config"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: ConfigTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table Config in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: ConfigTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: ConfigTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.ConfigId
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.ConfigId
+  id: ConfigId
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ConfigId
+  nameWithType: ConfigTableInfo.ConfigId
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.ConfigId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id&apos; in table &apos;config&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public Int32FieldInfo ConfigId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ConfigId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.ConfigId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.TextPath
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.TextPath
+  id: TextPath
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TextPath
+  nameWithType: ConfigTableInfo.TextPath
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.TextPath
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;text_path&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe path to the text-folder containing the emailBackup, trashbin, etc. subfolders.\n"
+  syntax:
+    content: public StringFieldInfo TextPath { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property TextPath As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.TextPath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath
+  id: AttachmentPath
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AttachmentPath
+  nameWithType: ConfigTableInfo.AttachmentPath
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;attachment_path&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe path to the folder containing the attachments.\n"
+  syntax:
+    content: public StringFieldInfo AttachmentPath { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property AttachmentPath As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath
+  id: TemplatePath
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TemplatePath
+  nameWithType: ConfigTableInfo.TemplatePath
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;template_path&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe path to the templates used for the customer front-end.\n"
+  syntax:
+    content: public StringFieldInfo TemplatePath { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property TemplatePath As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.AdminMail
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.AdminMail
+  id: AdminMail
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AdminMail
+  nameWithType: ConfigTableInfo.AdminMail
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.AdminMail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;admin_mail&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe email address to the administrator of the system. E.g. ejournal-admin@company.com.\n"
+  syntax:
+    content: public StringFieldInfo AdminMail { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property AdminMail As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.AdminMail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail
+  id: DefaultMail
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultMail
+  nameWithType: ConfigTableInfo.DefaultMail
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;default_mail&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe default from address in emails being sent from the system. E.g. support@company.com.\n"
+  syntax:
+    content: public StringFieldInfo DefaultMail { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DefaultMail As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.PanicMail
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.PanicMail
+  id: PanicMail
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PanicMail
+  nameWithType: ConfigTableInfo.PanicMail
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.PanicMail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;panic_mail&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe email address to where error messages are sent. Normally error@superoffice.com.\n"
+  syntax:
+    content: public StringFieldInfo PanicMail { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property PanicMail As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.PanicMail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost
+  id: SmtpHost
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SmtpHost
+  nameWithType: ConfigTableInfo.SmtpHost
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;smtp_host&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe hostname or IP-address of the SMTP server used for sending email.\n"
+  syntax:
+    content: public StringFieldInfo SmtpHost { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SmtpHost As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort
+  id: SmtpPort
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SmtpPort
+  nameWithType: ConfigTableInfo.SmtpPort
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;smtp_port&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe port of the SMTP server used for sending email.\n"
+  syntax:
+    content: public Int32FieldInfo SmtpPort { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SmtpPort As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.CgiBin
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.CgiBin
+  id: CgiBin
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CgiBin
+  nameWithType: ConfigTableInfo.CgiBin
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.CgiBin
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;cgi_bin&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe cgi-bin alias used to access the executables through HTTP. E.g. &apos;/bin&apos;\n"
+  syntax:
+    content: public StringFieldInfo CgiBin { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CgiBin As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.CgiBin*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl
+  id: CgiUrl
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CgiUrl
+  nameWithType: ConfigTableInfo.CgiUrl
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;cgi_url&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe base URL to the system. E.g. &apos;http://ejournal.company.com&apos;.\n"
+  syntax:
+    content: public StringFieldInfo CgiUrl { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CgiUrl As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl
+  id: GfxUrl
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: GfxUrl
+  nameWithType: ConfigTableInfo.GfxUrl
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;gfx_url&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe base URL to the graphics files.\n"
+  syntax:
+    content: public StringFieldInfo GfxUrl { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property GfxUrl As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Warning
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Warning
+  id: Warning
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: ConfigTableInfo.Warning
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Warning
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;warning&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe path + leading filename for the warning logfiles.\n"
+  syntax:
+    content: public StringFieldInfo Warning { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Warning As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Warning*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Tag
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Tag
+  id: Tag
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: ConfigTableInfo.Tag
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Tag
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;tag&apos; in table &apos;config&apos;: Dictionary type String[33], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe tag used as ticket id identificator in the subject of emails.\n"
+  syntax:
+    content: public StringFieldInfo Tag { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Tag As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Mailheader
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Mailheader
+  id: Mailheader
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Mailheader
+  nameWithType: ConfigTableInfo.Mailheader
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Mailheader
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mailheader&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe default header used (i.e. line 1) in outbound email.\n"
+  syntax:
+    content: public StringFieldInfo Mailheader { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Mailheader As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Mailheader*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Autologout
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Autologout
+  id: Autologout
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Autologout
+  nameWithType: ConfigTableInfo.Autologout
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Autologout
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;autologout&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe number of minutes if idle time before a user is logged ut. A zero value means no autologout.\n"
+  syntax:
+    content: public Int32FieldInfo Autologout { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Autologout As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Autologout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Simautologout
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Simautologout
+  id: Simautologout
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Simautologout
+  nameWithType: ConfigTableInfo.Simautologout
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Simautologout
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;simautologout&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe number of minutes if idle time before a simultaneus user is logged ut. A zero value means no autologout.\n"
+  syntax:
+    content: public Int32FieldInfo Simautologout { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Simautologout As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Simautologout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Flags
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ConfigTableInfo.Flags
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Flags
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;flags&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA bitmask of flags controlling various options.\n"
+  syntax:
+    content: public Int32FieldInfo Flags { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Flags As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags
+  id: DebugFlags
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DebugFlags
+  nameWithType: ConfigTableInfo.DebugFlags
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;debug_flags&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA default bitmask of flags controlling debug logging.\n"
+  syntax:
+    content: public Int32FieldInfo DebugFlags { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DebugFlags As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Language
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: ConfigTableInfo.Language
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Language
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;language&apos; in table &apos;config&apos;: Dictionary type String[6], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe systemlanguage. &apos;no&apos; or &apos;en&apos;.\n"
+  syntax:
+    content: public StringFieldInfo Language { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Language As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Language*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue
+  id: MbMaxValue
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MbMaxValue
+  nameWithType: ConfigTableInfo.MbMaxValue
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mb_max_value&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis is the upper (initial) value for the spam-control algorithm, which makes sure that a single email address does not recieve too many emails.\n"
+  syntax:
+    content: public Int32FieldInfo MbMaxValue { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MbMaxValue As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold
+  id: MbThreshold
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MbThreshold
+  nameWithType: ConfigTableInfo.MbThreshold
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mb_threshold&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis is the treshold value for the spam-contol algorithm. When the value for a given email address is below this value, emails will be blocked.\n"
+  syntax:
+    content: public Int32FieldInfo MbThreshold { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MbThreshold As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.MbModifier
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.MbModifier
+  id: MbModifier
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MbModifier
+  nameWithType: ConfigTableInfo.MbModifier
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.MbModifier
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;mb_modifier&apos; in table &apos;config&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis is the &apos;cost&apos; of sending an email, which is subtracted from the mb-value for the given email address. The mb-value is increased with 1 every second.\n"
+  syntax:
+    content: public Int32FieldInfo MbModifier { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MbModifier As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.MbModifier*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Version
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.Version
+  id: Version
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: ConfigTableInfo.Version
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Version
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;version&apos; in table &apos;config&apos;: Dictionary type String[33], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe version of the installed software.\n"
+  syntax:
+    content: public StringFieldInfo Version { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Version As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.Version*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt
+  id: InstalledAt
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: InstalledAt
+  nameWithType: ConfigTableInfo.InstalledAt
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;installed_at&apos; in table &apos;config&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe timestamp of when the system was installed, or last upgraded.\n"
+  syntax:
+    content: public DateTimeFieldInfo InstalledAt { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property InstalledAt As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy
+  id: InstalledBy
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: InstalledBy
+  nameWithType: ConfigTableInfo.InstalledBy
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;installed_by&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhoever installed the software.\n"
+  syntax:
+    content: public StringFieldInfo InstalledBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property InstalledBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.UniqueId
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.UniqueId
+  id: UniqueId
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: ConfigTableInfo.UniqueId
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.UniqueId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;unique_id&apos; in table &apos;config&apos;: Dictionary type String[33], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAn ID that should be unique for all eJournal installations.\n"
+  syntax:
+    content: public StringFieldInfo UniqueId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property UniqueId As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.UniqueId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal
+  id: CgiUrlInternal
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CgiUrlInternal
+  nameWithType: ConfigTableInfo.CgiUrlInternal
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;cgi_url_internal&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe internal base URL to the system. E.g. &apos;http://ejournal.company.com&apos;.\n"
+  syntax:
+    content: public StringFieldInfo CgiUrlInternal { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CgiUrlInternal As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.TempLicense
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.TempLicense
+  id: TempLicense
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TempLicense
+  nameWithType: ConfigTableInfo.TempLicense
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.TempLicense
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;temp_license&apos; in table &apos;config&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTemporary license key created for this session.\n"
+  syntax:
+    content: public StringFieldInfo TempLicense { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property TempLicense As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.TempLicense*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle
+  commentId: P:SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle
+  id: FeatureToggle
+  parent: SuperOffice.CRM.Data.ConfigTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FeatureToggle
+  nameWithType: ConfigTableInfo.FeatureToggle
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;feature_toggle&apos; in table &apos;config&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTemporary values used for feature toggles\n"
+  syntax:
+    content: public StringFieldInfo FeatureToggle { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FeatureToggle As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ConfigTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ConfigTableInfo, To)()
+  name.vb: MapEnums(Of ConfigTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ConfigTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ConfigTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ConfigTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigTableInfo, To>()
+  nameWithType: Converters.MapEnums<ConfigTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ConfigTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ConfigTableInfo, To)()
+  name.vb: MapEnums(Of ConfigTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigTableInfo, To>
+    nameWithType: Converters.MapEnums<ConfigTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ConfigTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ConfigTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ConfigTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: ConfigTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: ConfigTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: ConfigTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Definition
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.ConfigId*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.ConfigId
+  isExternal: true
+  name: ConfigId
+  nameWithType: ConfigTableInfo.ConfigId
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.ConfigId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.TextPath*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.TextPath
+  isExternal: true
+  name: TextPath
+  nameWithType: ConfigTableInfo.TextPath
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.TextPath
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath
+  isExternal: true
+  name: AttachmentPath
+  nameWithType: ConfigTableInfo.AttachmentPath
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.AttachmentPath
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath
+  isExternal: true
+  name: TemplatePath
+  nameWithType: ConfigTableInfo.TemplatePath
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.TemplatePath
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.AdminMail*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.AdminMail
+  isExternal: true
+  name: AdminMail
+  nameWithType: ConfigTableInfo.AdminMail
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.AdminMail
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail
+  isExternal: true
+  name: DefaultMail
+  nameWithType: ConfigTableInfo.DefaultMail
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DefaultMail
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.PanicMail*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.PanicMail
+  isExternal: true
+  name: PanicMail
+  nameWithType: ConfigTableInfo.PanicMail
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.PanicMail
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost
+  isExternal: true
+  name: SmtpHost
+  nameWithType: ConfigTableInfo.SmtpHost
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.SmtpHost
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort
+  isExternal: true
+  name: SmtpPort
+  nameWithType: ConfigTableInfo.SmtpPort
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.SmtpPort
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.CgiBin*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.CgiBin
+  isExternal: true
+  name: CgiBin
+  nameWithType: ConfigTableInfo.CgiBin
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.CgiBin
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl
+  isExternal: true
+  name: CgiUrl
+  nameWithType: ConfigTableInfo.CgiUrl
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrl
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl
+  isExternal: true
+  name: GfxUrl
+  nameWithType: ConfigTableInfo.GfxUrl
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.GfxUrl
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Warning*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Warning
+  isExternal: true
+  name: Warning
+  nameWithType: ConfigTableInfo.Warning
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Warning
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Tag*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Tag
+  isExternal: true
+  name: Tag
+  nameWithType: ConfigTableInfo.Tag
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Tag
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Mailheader*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Mailheader
+  isExternal: true
+  name: Mailheader
+  nameWithType: ConfigTableInfo.Mailheader
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Mailheader
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Autologout*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Autologout
+  isExternal: true
+  name: Autologout
+  nameWithType: ConfigTableInfo.Autologout
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Autologout
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Simautologout*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Simautologout
+  isExternal: true
+  name: Simautologout
+  nameWithType: ConfigTableInfo.Simautologout
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Simautologout
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Flags*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: ConfigTableInfo.Flags
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Flags
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags
+  isExternal: true
+  name: DebugFlags
+  nameWithType: ConfigTableInfo.DebugFlags
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.DebugFlags
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Language*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Language
+  isExternal: true
+  name: Language
+  nameWithType: ConfigTableInfo.Language
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Language
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue
+  isExternal: true
+  name: MbMaxValue
+  nameWithType: ConfigTableInfo.MbMaxValue
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.MbMaxValue
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold
+  isExternal: true
+  name: MbThreshold
+  nameWithType: ConfigTableInfo.MbThreshold
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.MbThreshold
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.MbModifier*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.MbModifier
+  isExternal: true
+  name: MbModifier
+  nameWithType: ConfigTableInfo.MbModifier
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.MbModifier
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.Version*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.Version
+  isExternal: true
+  name: Version
+  nameWithType: ConfigTableInfo.Version
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.Version
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt
+  isExternal: true
+  name: InstalledAt
+  nameWithType: ConfigTableInfo.InstalledAt
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.InstalledAt
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy
+  isExternal: true
+  name: InstalledBy
+  nameWithType: ConfigTableInfo.InstalledBy
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.InstalledBy
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.UniqueId*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.UniqueId
+  isExternal: true
+  name: UniqueId
+  nameWithType: ConfigTableInfo.UniqueId
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.UniqueId
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal
+  isExternal: true
+  name: CgiUrlInternal
+  nameWithType: ConfigTableInfo.CgiUrlInternal
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.CgiUrlInternal
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.TempLicense*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.TempLicense
+  isExternal: true
+  name: TempLicense
+  nameWithType: ConfigTableInfo.TempLicense
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.TempLicense
+- uid: SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle*
+  commentId: Overload:SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle
+  isExternal: true
+  name: FeatureToggle
+  nameWithType: ConfigTableInfo.FeatureToggle
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo.FeatureToggle

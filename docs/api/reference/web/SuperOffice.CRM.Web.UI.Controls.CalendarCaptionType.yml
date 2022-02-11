@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  id: CalendarCaptionType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Mini
+  - SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Normal
+  langs:
+  - csharp
+  - vb
+  name: CalendarCaptionType
+  nameWithType: CalendarCaptionType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum CalendarCaptionType
+    content.vb: Public Enum CalendarCaptionType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Normal
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Normal
+  id: Normal
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: CalendarCaptionType.Normal
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Normal
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Normal = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Mini
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Mini
+  id: Mini
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  langs:
+  - csharp
+  - vb
+  name: Mini
+  nameWithType: CalendarCaptionType.Mini
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType.Mini
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Mini = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarCaptionType
+  nameWithType: CalendarCaptionType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType

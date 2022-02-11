@@ -1,0 +1,4595 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.SoLists
+  commentId: T:SuperOffice.CRM.Lists.SoLists
+  id: SoLists
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.SoLists.GetAmountClassList
+  - SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  - SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.String)
+  - SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  - SuperOffice.CRM.Lists.SoLists.GetAssociateList
+  - SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetBusinessList
+  - SuperOffice.CRM.Lists.SoLists.GetCategoryList
+  - SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetComptrList
+  - SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetContIntList
+  - SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetCountryList
+  - SuperOffice.CRM.Lists.SoLists.GetCreditedList
+  - SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetCurrencyList
+  - SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList
+  - SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetDocTmplList
+  - SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetExtAppList
+  - SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetGroupViewList
+  - SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetIntentList
+  - SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetMrMrsList
+  - SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetOptCatList
+  - SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetOptDecList
+  - SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetOptIntList
+  - SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetOptStateList
+  - SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetOptTypeList
+  - SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetOwnerContactList
+  - SuperOffice.CRM.Lists.SoLists.GetPersIntList
+  - SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetPersPosList
+  - SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetPMembTypeList
+  - SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetPriorityList
+  - SuperOffice.CRM.Lists.SoLists.GetProbList
+  - SuperOffice.CRM.Lists.SoLists.GetProbList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetProbList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetProjectList
+  - SuperOffice.CRM.Lists.SoLists.GetProjectList(System.String)
+  - SuperOffice.CRM.Lists.SoLists.GetProjStatusList
+  - SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetProjTypeList
+  - SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetReasonList
+  - SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetRejectReasonList
+  - SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList
+  - SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetResourceList
+  - SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetRolesList(SuperOffice.Data.RoleType)
+  - SuperOffice.CRM.Lists.SoLists.GetSalutationList
+  - SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetSearchCatList
+  - SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetSourceList
+  - SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetTaskList
+  - SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32)
+  - SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Lists.SoLists.GetUserGroupList
+  langs:
+  - csharp
+  - vb
+  name: SoLists
+  nameWithType: SoLists
+  fullName: SuperOffice.CRM.Lists.SoLists
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public static class SoLists
+    content.vb: Public Module SoLists
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Lists.SoLists.GetCountryList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCountryList
+  id: GetCountryList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCountryList()
+  nameWithType: SoLists.GetCountryList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCountryList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Country:\n<p>Country list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCountryList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCountryList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCountryList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList
+  id: GetRelationDefinitionList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRelationDefinitionList()
+  nameWithType: SoLists.GetRelationDefinitionList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table RelationDefinition:\n<p>List of all valid relation types.  </p><p>This table defines the relations that can exist in the database. Each relation has an active text and a passive text. The table RelationTarget specifies which pairs of tables this relation can connect.  Use of the active and passive texts is dependent on which direction the relation is viewed in, e.g., active text = “Owns” and passive text = “Is owned by”.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetRelationDefinitionList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetRelationDefinitionList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Boolean)
+  id: GetRelationDefinitionList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRelationDefinitionList(Boolean)
+  nameWithType: SoLists.GetRelationDefinitionList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table RelationDefinition:\n<p>List of all valid relation types.  </p><p>This table defines the relations that can exist in the database. Each relation has an active text and a passive text. The table RelationTarget specifies which pairs of tables this relation can connect.  Use of the active and passive texts is dependent on which direction the relation is viewed in, e.g., active text = “Owns” and passive text = “Is owned by”.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetRelationDefinitionList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetRelationDefinitionList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Int32[])
+  id: GetRelationDefinitionList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRelationDefinitionList(Int32[])
+  nameWithType: SoLists.GetRelationDefinitionList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table RelationDefinition:\n<p>List of all valid relation types.  </p><p>This table defines the relations that can exist in the database. Each relation has an active text and a passive text. The table RelationTarget specifies which pairs of tables this relation can connect.  Use of the active and passive texts is dependent on which direction the relation is viewed in, e.g., active text = “Owns” and passive text = “Is owned by”.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetRelationDefinitionList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetRelationDefinitionList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList*
+  nameWithType.vb: SoLists.GetRelationDefinitionList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList(System.Int32())
+  name.vb: GetRelationDefinitionList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetBusinessList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetBusinessList
+  id: GetBusinessList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetBusinessList()
+  nameWithType: SoLists.GetBusinessList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetBusinessList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Business:\n<p>List of valid business types  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetBusinessList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetBusinessList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetBusinessList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCategoryList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCategoryList
+  id: GetCategoryList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCategoryList()
+  nameWithType: SoLists.GetCategoryList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCategoryList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Category:\n<p>List of valid category types  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCategoryList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCategoryList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCategoryList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Boolean)
+  id: GetCategoryList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCategoryList(Boolean)
+  nameWithType: SoLists.GetCategoryList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Category:\n<p>List of valid category types  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCategoryList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCategoryList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCategoryList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Int32[])
+  id: GetCategoryList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCategoryList(Int32[])
+  nameWithType: SoLists.GetCategoryList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Category:\n<p>List of valid category types  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCategoryList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCategoryList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCategoryList*
+  nameWithType.vb: SoLists.GetCategoryList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetCategoryList(System.Int32())
+  name.vb: GetCategoryList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetTaskList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetTaskList
+  id: GetTaskList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetTaskList()
+  nameWithType: SoLists.GetTaskList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetTaskList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Task:\n<p>The activity types, like “Phone”, “Meeting”…  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetTaskList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetTaskList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetTaskList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Boolean)
+  id: GetTaskList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetTaskList(Boolean)
+  nameWithType: SoLists.GetTaskList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Task:\n<p>The activity types, like “Phone”, “Meeting”…  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetTaskList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetTaskList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetTaskList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Int32[])
+  id: GetTaskList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetTaskList(Int32[])
+  nameWithType: SoLists.GetTaskList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Task:\n<p>The activity types, like “Phone”, “Meeting”…  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetTaskList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetTaskList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetTaskList*
+  nameWithType.vb: SoLists.GetTaskList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetTaskList(System.Int32())
+  name.vb: GetTaskList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetContIntList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetContIntList
+  id: GetContIntList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetContIntList()
+  nameWithType: SoLists.GetContIntList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetContIntList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ContInt:\n<p>List-text of all valid contact interest types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetContIntList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetContIntList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetContIntList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Boolean)
+  id: GetContIntList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetContIntList(Boolean)
+  nameWithType: SoLists.GetContIntList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ContInt:\n<p>List-text of all valid contact interest types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetContIntList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetContIntList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetContIntList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Int32[])
+  id: GetContIntList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetContIntList(Int32[])
+  nameWithType: SoLists.GetContIntList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ContInt:\n<p>List-text of all valid contact interest types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetContIntList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetContIntList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetContIntList*
+  nameWithType.vb: SoLists.GetContIntList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetContIntList(System.Int32())
+  name.vb: GetContIntList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetOwnerContactList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOwnerContactList
+  id: GetOwnerContactList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerContactList()
+  nameWithType: SoLists.GetOwnerContactList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOwnerContactList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nList of owner contacts\n"
+  syntax:
+    content: public static ISoListProvider GetOwnerContactList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOwnerContactList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOwnerContactList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersIntList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPersIntList
+  id: GetPersIntList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPersIntList()
+  nameWithType: SoLists.GetPersIntList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersIntList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PersInt:\n<p>List of Person interests.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPersIntList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPersIntList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPersIntList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Boolean)
+  id: GetPersIntList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPersIntList(Boolean)
+  nameWithType: SoLists.GetPersIntList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PersInt:\n<p>List of Person interests.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPersIntList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPersIntList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPersIntList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Int32[])
+  id: GetPersIntList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPersIntList(Int32[])
+  nameWithType: SoLists.GetPersIntList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PersInt:\n<p>List of Person interests.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPersIntList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPersIntList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPersIntList*
+  nameWithType.vb: SoLists.GetPersIntList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetPersIntList(System.Int32())
+  name.vb: GetPersIntList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersPosList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPersPosList
+  id: GetPersPosList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPersPosList()
+  nameWithType: SoLists.GetPersPosList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersPosList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PersPos:\n<p>Contact person position list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPersPosList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPersPosList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPersPosList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Boolean)
+  id: GetPersPosList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPersPosList(Boolean)
+  nameWithType: SoLists.GetPersPosList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PersPos:\n<p>Contact person position list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPersPosList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPersPosList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPersPosList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Int32[])
+  id: GetPersPosList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPersPosList(Int32[])
+  nameWithType: SoLists.GetPersPosList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PersPos:\n<p>Contact person position list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPersPosList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPersPosList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPersPosList*
+  nameWithType.vb: SoLists.GetPersPosList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetPersPosList(System.Int32())
+  name.vb: GetPersPosList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetPriorityList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPriorityList
+  id: GetPriorityList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPriorityList()
+  nameWithType: SoLists.GetPriorityList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPriorityList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Priority:\n<p>Used with appointments, “low”, “high”…  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPriorityList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPriorityList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPriorityList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProbList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProbList
+  id: GetProbList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProbList()
+  nameWithType: SoLists.GetProbList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProbList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Prob:\n<p>Probability, used in sale.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProbList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProbList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProbList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProbList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProbList(System.Boolean)
+  id: GetProbList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProbList(Boolean)
+  nameWithType: SoLists.GetProbList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProbList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Prob:\n<p>Probability, used in sale.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProbList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProbList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProbList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProbList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProbList(System.Int32[])
+  id: GetProbList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProbList(Int32[])
+  nameWithType: SoLists.GetProbList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProbList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Prob:\n<p>Probability, used in sale.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProbList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProbList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProbList*
+  nameWithType.vb: SoLists.GetProbList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetProbList(System.Int32())
+  name.vb: GetProbList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjectList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjectList
+  id: GetProjectList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjectList()
+  nameWithType: SoLists.GetProjectList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjectList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public static ISoListProvider GetProjectList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjectList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjectList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjectList(System.String)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjectList(System.String)
+  id: GetProjectList(System.String)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjectList(String)
+  nameWithType: SoLists.GetProjectList(String)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjectList(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public static ISoListProvider GetProjectList(string searchValue)
+    parameters:
+    - id: searchValue
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjectList(searchValue As String) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjectList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjTypeList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjTypeList
+  id: GetProjTypeList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjTypeList()
+  nameWithType: SoLists.GetProjTypeList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjTypeList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ProjType:\n<p>List of valid Project types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProjTypeList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjTypeList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjTypeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Boolean)
+  id: GetProjTypeList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjTypeList(Boolean)
+  nameWithType: SoLists.GetProjTypeList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ProjType:\n<p>List of valid Project types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProjTypeList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjTypeList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjTypeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Int32[])
+  id: GetProjTypeList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjTypeList(Int32[])
+  nameWithType: SoLists.GetProjTypeList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ProjType:\n<p>List of valid Project types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProjTypeList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjTypeList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjTypeList*
+  nameWithType.vb: SoLists.GetProjTypeList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetProjTypeList(System.Int32())
+  name.vb: GetProjTypeList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjStatusList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjStatusList
+  id: GetProjStatusList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjStatusList()
+  nameWithType: SoLists.GetProjStatusList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjStatusList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ProjStatus:\n<p>Project status.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProjStatusList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjStatusList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjStatusList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Boolean)
+  id: GetProjStatusList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjStatusList(Boolean)
+  nameWithType: SoLists.GetProjStatusList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ProjStatus:\n<p>Project status.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProjStatusList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjStatusList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjStatusList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Int32[])
+  id: GetProjStatusList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetProjStatusList(Int32[])
+  nameWithType: SoLists.GetProjStatusList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ProjStatus:\n<p>Project status.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetProjStatusList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetProjStatusList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetProjStatusList*
+  nameWithType.vb: SoLists.GetProjStatusList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetProjStatusList(System.Int32())
+  name.vb: GetProjStatusList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPMembTypeList
+  id: GetPMembTypeList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPMembTypeList()
+  nameWithType: SoLists.GetPMembTypeList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PMembType:\n<p>List text of titles (member types) for project members.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPMembTypeList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPMembTypeList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Boolean)
+  id: GetPMembTypeList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPMembTypeList(Boolean)
+  nameWithType: SoLists.GetPMembTypeList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PMembType:\n<p>List text of titles (member types) for project members.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPMembTypeList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPMembTypeList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Int32[])
+  id: GetPMembTypeList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetPMembTypeList(Int32[])
+  nameWithType: SoLists.GetPMembTypeList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table PMembType:\n<p>List text of titles (member types) for project members.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetPMembTypeList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetPMembTypeList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList*
+  nameWithType.vb: SoLists.GetPMembTypeList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList(System.Int32())
+  name.vb: GetPMembTypeList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetMrMrsList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetMrMrsList
+  id: GetMrMrsList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetMrMrsList()
+  nameWithType: SoLists.GetMrMrsList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetMrMrsList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table MrMrs:\n<p>List of salutations  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetMrMrsList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetMrMrsList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetMrMrsList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Boolean)
+  id: GetMrMrsList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetMrMrsList(Boolean)
+  nameWithType: SoLists.GetMrMrsList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table MrMrs:\n<p>List of salutations  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetMrMrsList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetMrMrsList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetMrMrsList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Int32[])
+  id: GetMrMrsList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetMrMrsList(Int32[])
+  nameWithType: SoLists.GetMrMrsList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table MrMrs:\n<p>List of salutations  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetMrMrsList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetMrMrsList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetMrMrsList*
+  nameWithType.vb: SoLists.GetMrMrsList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetMrMrsList(System.Int32())
+  name.vb: GetMrMrsList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetCreditedList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCreditedList
+  id: GetCreditedList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCreditedList()
+  nameWithType: SoLists.GetCreditedList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCreditedList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Credited:\n<p>List of who is to be credited for the sale.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCreditedList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCreditedList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCreditedList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Boolean)
+  id: GetCreditedList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCreditedList(Boolean)
+  nameWithType: SoLists.GetCreditedList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Credited:\n<p>List of who is to be credited for the sale.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCreditedList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCreditedList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCreditedList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Int32[])
+  id: GetCreditedList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCreditedList(Int32[])
+  nameWithType: SoLists.GetCreditedList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Credited:\n<p>List of who is to be credited for the sale.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCreditedList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCreditedList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCreditedList*
+  nameWithType.vb: SoLists.GetCreditedList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetCreditedList(System.Int32())
+  name.vb: GetCreditedList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetSourceList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSourceList
+  id: GetSourceList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSourceList()
+  nameWithType: SoLists.GetSourceList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSourceList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Source:\n<p>Source for sale (list)  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetSourceList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSourceList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSourceList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Boolean)
+  id: GetSourceList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSourceList(Boolean)
+  nameWithType: SoLists.GetSourceList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Source:\n<p>Source for sale (list)  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetSourceList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSourceList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSourceList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Int32[])
+  id: GetSourceList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSourceList(Int32[])
+  nameWithType: SoLists.GetSourceList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Source:\n<p>Source for sale (list)  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetSourceList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSourceList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSourceList*
+  nameWithType.vb: SoLists.GetSourceList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetSourceList(System.Int32())
+  name.vb: GetSourceList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetReasonList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetReasonList
+  id: GetReasonList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetReasonList()
+  nameWithType: SoLists.GetReasonList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetReasonList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Reason:\n<p>Why we lost the sale (list)  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetReasonList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetReasonList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetReasonList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Boolean)
+  id: GetReasonList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetReasonList(Boolean)
+  nameWithType: SoLists.GetReasonList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Reason:\n<p>Why we lost the sale (list)  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetReasonList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetReasonList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetReasonList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Int32[])
+  id: GetReasonList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetReasonList(Int32[])
+  nameWithType: SoLists.GetReasonList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Reason:\n<p>Why we lost the sale (list)  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetReasonList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetReasonList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetReasonList*
+  nameWithType.vb: SoLists.GetReasonList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetReasonList(System.Int32())
+  name.vb: GetReasonList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetSearchCatList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSearchCatList
+  id: GetSearchCatList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSearchCatList()
+  nameWithType: SoLists.GetSearchCatList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSearchCatList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table SearchCat:\n<p>List of selection types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetSearchCatList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSearchCatList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSearchCatList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Boolean)
+  id: GetSearchCatList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSearchCatList(Boolean)
+  nameWithType: SoLists.GetSearchCatList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table SearchCat:\n<p>List of selection types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetSearchCatList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSearchCatList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSearchCatList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Int32[])
+  id: GetSearchCatList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSearchCatList(Int32[])
+  nameWithType: SoLists.GetSearchCatList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table SearchCat:\n<p>List of selection types.  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetSearchCatList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSearchCatList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSearchCatList*
+  nameWithType.vb: SoLists.GetSearchCatList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetSearchCatList(System.Int32())
+  name.vb: GetSearchCatList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetComptrList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetComptrList
+  id: GetComptrList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetComptrList()
+  nameWithType: SoLists.GetComptrList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetComptrList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Comptr:\n<p>List of all possible competitors (sale).  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetComptrList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetComptrList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetComptrList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Boolean)
+  id: GetComptrList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetComptrList(Boolean)
+  nameWithType: SoLists.GetComptrList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Comptr:\n<p>List of all possible competitors (sale).  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetComptrList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetComptrList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetComptrList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Int32[])
+  id: GetComptrList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetComptrList(Int32[])
+  nameWithType: SoLists.GetComptrList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Comptr:\n<p>List of all possible competitors (sale).  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetComptrList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetComptrList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetComptrList*
+  nameWithType.vb: SoLists.GetComptrList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetComptrList(System.Int32())
+  name.vb: GetComptrList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetCurrencyList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCurrencyList
+  id: GetCurrencyList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyList()
+  nameWithType: SoLists.GetCurrencyList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCurrencyList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Currency:\n<p>Currency list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCurrencyList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCurrencyList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCurrencyList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Boolean)
+  id: GetCurrencyList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyList(Boolean)
+  nameWithType: SoLists.GetCurrencyList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Currency:\n<p>Currency list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCurrencyList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCurrencyList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCurrencyList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Int32[])
+  id: GetCurrencyList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyList(Int32[])
+  nameWithType: SoLists.GetCurrencyList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Currency:\n<p>Currency list  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetCurrencyList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetCurrencyList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetCurrencyList*
+  nameWithType.vb: SoLists.GetCurrencyList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetCurrencyList(System.Int32())
+  name.vb: GetCurrencyList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptCatList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptCatList
+  id: GetOptCatList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptCatList()
+  nameWithType: SoLists.GetOptCatList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptCatList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptCat:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptCatList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptCatList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptCatList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Boolean)
+  id: GetOptCatList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptCatList(Boolean)
+  nameWithType: SoLists.GetOptCatList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptCat:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptCatList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptCatList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptCatList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Int32[])
+  id: GetOptCatList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptCatList(Int32[])
+  nameWithType: SoLists.GetOptCatList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptCat:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptCatList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptCatList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptCatList*
+  nameWithType.vb: SoLists.GetOptCatList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetOptCatList(System.Int32())
+  name.vb: GetOptCatList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptTypeList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptTypeList
+  id: GetOptTypeList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptTypeList()
+  nameWithType: SoLists.GetOptTypeList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptTypeList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptType:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptTypeList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptTypeList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptTypeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Boolean)
+  id: GetOptTypeList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptTypeList(Boolean)
+  nameWithType: SoLists.GetOptTypeList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptType:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptTypeList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptTypeList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptTypeList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Int32[])
+  id: GetOptTypeList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptTypeList(Int32[])
+  nameWithType: SoLists.GetOptTypeList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptType:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptTypeList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptTypeList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptTypeList*
+  nameWithType.vb: SoLists.GetOptTypeList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetOptTypeList(System.Int32())
+  name.vb: GetOptTypeList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptStateList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptStateList
+  id: GetOptStateList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptStateList()
+  nameWithType: SoLists.GetOptStateList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptStateList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptState:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptStateList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptStateList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptStateList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Boolean)
+  id: GetOptStateList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptStateList(Boolean)
+  nameWithType: SoLists.GetOptStateList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptState:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptStateList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptStateList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptStateList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Int32[])
+  id: GetOptStateList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptStateList(Int32[])
+  nameWithType: SoLists.GetOptStateList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptState:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptStateList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptStateList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptStateList*
+  nameWithType.vb: SoLists.GetOptStateList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetOptStateList(System.Int32())
+  name.vb: GetOptStateList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptIntList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptIntList
+  id: GetOptIntList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptIntList()
+  nameWithType: SoLists.GetOptIntList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptIntList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptInt:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptIntList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptIntList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptIntList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Boolean)
+  id: GetOptIntList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptIntList(Boolean)
+  nameWithType: SoLists.GetOptIntList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptInt:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptIntList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptIntList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptIntList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Int32[])
+  id: GetOptIntList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptIntList(Int32[])
+  nameWithType: SoLists.GetOptIntList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptInt:\n<p>This table is not used in SuperOffice CRM 5 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptIntList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptIntList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptIntList*
+  nameWithType.vb: SoLists.GetOptIntList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetOptIntList(System.Int32())
+  name.vb: GetOptIntList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptDecList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptDecList
+  id: GetOptDecList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptDecList()
+  nameWithType: SoLists.GetOptDecList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptDecList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptDec:\n<p>This table is not used in SuperOffice 5.0 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptDecList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptDecList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptDecList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Boolean)
+  id: GetOptDecList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptDecList(Boolean)
+  nameWithType: SoLists.GetOptDecList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptDec:\n<p>This table is not used in SuperOffice 5.0 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptDecList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptDecList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptDecList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Int32[])
+  id: GetOptDecList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetOptDecList(Int32[])
+  nameWithType: SoLists.GetOptDecList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table OptDec:\n<p>This table is not used in SuperOffice 5.0 - reserved for Japan  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetOptDecList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetOptDecList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetOptDecList*
+  nameWithType.vb: SoLists.GetOptDecList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetOptDecList(System.Int32())
+  name.vb: GetOptDecList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetDocTmplList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetDocTmplList
+  id: GetDocTmplList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetDocTmplList()
+  nameWithType: SoLists.GetDocTmplList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDocTmplList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table DocTmpl:\n<p>Describes templates available for writing new documents  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetDocTmplList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetDocTmplList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetDocTmplList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Boolean)
+  id: GetDocTmplList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetDocTmplList(Boolean)
+  nameWithType: SoLists.GetDocTmplList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table DocTmpl:\n<p>Describes templates available for writing new documents  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetDocTmplList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetDocTmplList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetDocTmplList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Int32[])
+  id: GetDocTmplList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetDocTmplList(Int32[])
+  nameWithType: SoLists.GetDocTmplList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table DocTmpl:\n<p>Describes templates available for writing new documents  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetDocTmplList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetDocTmplList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetDocTmplList*
+  nameWithType.vb: SoLists.GetDocTmplList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetDocTmplList(System.Int32())
+  name.vb: GetDocTmplList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetExtAppList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetExtAppList
+  id: GetExtAppList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetExtAppList()
+  nameWithType: SoLists.GetExtAppList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetExtAppList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ExtApp:\n<p>Applications startable from SuperOffice  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetExtAppList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetExtAppList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetExtAppList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Boolean)
+  id: GetExtAppList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetExtAppList(Boolean)
+  nameWithType: SoLists.GetExtAppList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ExtApp:\n<p>Applications startable from SuperOffice  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetExtAppList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetExtAppList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetExtAppList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Int32[])
+  id: GetExtAppList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetExtAppList(Int32[])
+  nameWithType: SoLists.GetExtAppList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table ExtApp:\n<p>Applications startable from SuperOffice  </p>\n"
+  syntax:
+    content: public static ISoListProvider GetExtAppList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetExtAppList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetExtAppList*
+  nameWithType.vb: SoLists.GetExtAppList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetExtAppList(System.Int32())
+  name.vb: GetExtAppList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetIntentList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetIntentList
+  id: GetIntentList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetIntentList()
+  nameWithType: SoLists.GetIntentList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetIntentList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Intent:\n\n"
+  syntax:
+    content: public static ISoListProvider GetIntentList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetIntentList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetIntentList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Boolean)
+  id: GetIntentList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetIntentList(Boolean)
+  nameWithType: SoLists.GetIntentList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Intent:\n\n"
+  syntax:
+    content: public static ISoListProvider GetIntentList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetIntentList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetIntentList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Int32[])
+  id: GetIntentList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetIntentList(Int32[])
+  nameWithType: SoLists.GetIntentList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Intent:\n\n"
+  syntax:
+    content: public static ISoListProvider GetIntentList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetIntentList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetIntentList*
+  nameWithType.vb: SoLists.GetIntentList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetIntentList(System.Int32())
+  name.vb: GetIntentList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetSalutationList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSalutationList
+  id: GetSalutationList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSalutationList()
+  nameWithType: SoLists.GetSalutationList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSalutationList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Salutation:\n\n"
+  syntax:
+    content: public static ISoListProvider GetSalutationList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSalutationList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSalutationList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Boolean)
+  id: GetSalutationList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSalutationList(Boolean)
+  nameWithType: SoLists.GetSalutationList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Salutation:\n\n"
+  syntax:
+    content: public static ISoListProvider GetSalutationList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSalutationList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSalutationList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Int32[])
+  id: GetSalutationList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetSalutationList(Int32[])
+  nameWithType: SoLists.GetSalutationList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table Salutation:\n\n"
+  syntax:
+    content: public static ISoListProvider GetSalutationList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetSalutationList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetSalutationList*
+  nameWithType.vb: SoLists.GetSalutationList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetSalutationList(System.Int32())
+  name.vb: GetSalutationList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRejectReasonList
+  id: GetRejectReasonList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRejectReasonList()
+  nameWithType: SoLists.GetRejectReasonList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table RejectReason:\n\n"
+  syntax:
+    content: public static ISoListProvider GetRejectReasonList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetRejectReasonList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Boolean)
+  id: GetRejectReasonList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRejectReasonList(Boolean)
+  nameWithType: SoLists.GetRejectReasonList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table RejectReason:\n\n"
+  syntax:
+    content: public static ISoListProvider GetRejectReasonList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetRejectReasonList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Int32[])
+  id: GetRejectReasonList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRejectReasonList(Int32[])
+  nameWithType: SoLists.GetRejectReasonList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table RejectReason:\n\n"
+  syntax:
+    content: public static ISoListProvider GetRejectReasonList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetRejectReasonList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList*
+  nameWithType.vb: SoLists.GetRejectReasonList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList(System.Int32())
+  name.vb: GetRejectReasonList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetAmountClassList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetAmountClassList
+  id: GetAmountClassList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetAmountClassList()
+  nameWithType: SoLists.GetAmountClassList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAmountClassList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table AmountClass:\n\n"
+  syntax:
+    content: public static ISoListProvider GetAmountClassList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetAmountClassList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetAmountClassList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Boolean)
+  id: GetAmountClassList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetAmountClassList(Boolean)
+  nameWithType: SoLists.GetAmountClassList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table AmountClass:\n\n"
+  syntax:
+    content: public static ISoListProvider GetAmountClassList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetAmountClassList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetAmountClassList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Int32[])
+  id: GetAmountClassList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetAmountClassList(Int32[])
+  nameWithType: SoLists.GetAmountClassList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for table AmountClass:\n\n"
+  syntax:
+    content: public static ISoListProvider GetAmountClassList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetAmountClassList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetAmountClassList*
+  nameWithType.vb: SoLists.GetAmountClassList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetAmountClassList(System.Int32())
+  name.vb: GetAmountClassList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList
+  id: GetDiaryOwnerList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetDiaryOwnerList()
+  nameWithType: SoLists.GetDiaryOwnerList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for DiaryOwner: Associates records of type employee (type = 0), AND resources (type = 1)\n"
+  syntax:
+    content: public static ISoListProvider GetDiaryOwnerList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetDiaryOwnerList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Boolean)
+  id: GetDiaryOwnerList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetDiaryOwnerList(Boolean)
+  nameWithType: SoLists.GetDiaryOwnerList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for DiaryOwner: Associates records of type employee (type = 0), AND resources (type = 1)\n"
+  syntax:
+    content: public static ISoListProvider GetDiaryOwnerList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetDiaryOwnerList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Int32[])
+  id: GetDiaryOwnerList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetDiaryOwnerList(Int32[])
+  nameWithType: SoLists.GetDiaryOwnerList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for DiaryOwner: Associates records of type employee (type = 0), AND resources (type = 1)\n"
+  syntax:
+    content: public static ISoListProvider GetDiaryOwnerList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetDiaryOwnerList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList*
+  nameWithType.vb: SoLists.GetDiaryOwnerList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList(System.Int32())
+  name.vb: GetDiaryOwnerList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetResourceList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetResourceList
+  id: GetResourceList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetResourceList()
+  nameWithType: SoLists.GetResourceList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetResourceList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Resource: Associate records of type Resource (type = 1)\n"
+  syntax:
+    content: public static ISoListProvider GetResourceList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetResourceList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetResourceList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Boolean)
+  id: GetResourceList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetResourceList(Boolean)
+  nameWithType: SoLists.GetResourceList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Resource: Associate records of type Resource (type = 1)\n"
+  syntax:
+    content: public static ISoListProvider GetResourceList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetResourceList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetResourceList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Int32[])
+  id: GetResourceList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetResourceList(Int32[])
+  nameWithType: SoLists.GetResourceList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Resource: Associate records of type Resource (type = 1)\n"
+  syntax:
+    content: public static ISoListProvider GetResourceList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetResourceList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetResourceList*
+  nameWithType.vb: SoLists.GetResourceList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetResourceList(System.Int32())
+  name.vb: GetResourceList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetAssociateList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetAssociateList
+  id: GetAssociateList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateList()
+  nameWithType: SoLists.GetAssociateList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAssociateList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Associate: Associate records of type employee (type = 0)\n"
+  syntax:
+    content: public static ISoListProvider GetAssociateList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetAssociateList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetAssociateList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Boolean)
+  id: GetAssociateList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateList(Boolean)
+  nameWithType: SoLists.GetAssociateList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Associate: Associate records of type employee (type = 0)\n"
+  syntax:
+    content: public static ISoListProvider GetAssociateList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetAssociateList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetAssociateList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Int32[])
+  id: GetAssociateList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateList(Int32[])
+  nameWithType: SoLists.GetAssociateList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Associate: Associate records of type employee (type = 0)\n"
+  syntax:
+    content: public static ISoListProvider GetAssociateList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetAssociateList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetAssociateList*
+  nameWithType.vb: SoLists.GetAssociateList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetAssociateList(System.Int32())
+  name.vb: GetAssociateList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetGroupViewList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetGroupViewList
+  id: GetGroupViewList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetGroupViewList()
+  nameWithType: SoLists.GetGroupViewList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetGroupViewList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for GroupView: GroupView records of type employee (type = 0)\n"
+  syntax:
+    content: public static ISoListProvider GetGroupViewList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetGroupViewList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetGroupViewList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Boolean)
+  id: GetGroupViewList(System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetGroupViewList(Boolean)
+  nameWithType: SoLists.GetGroupViewList(Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for GroupView: GroupView records of type employee (type = 0)\n"
+  syntax:
+    content: public static ISoListProvider GetGroupViewList(bool bForceFlat)
+    parameters:
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetGroupViewList(bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetGroupViewList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Int32[])
+  id: GetGroupViewList(System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetGroupViewList(Int32[])
+  nameWithType: SoLists.GetGroupViewList(Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for GroupView: GroupView records of type employee (type = 0)\n"
+  syntax:
+    content: public static ISoListProvider GetGroupViewList(int[] historyIds)
+    parameters:
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetGroupViewList(historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetGroupViewList*
+  nameWithType.vb: SoLists.GetGroupViewList(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetGroupViewList(System.Int32())
+  name.vb: GetGroupViewList(Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32)
+  id: GetUserDefinedList(System.Int32)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedList(Int32)
+  nameWithType: SoLists.GetUserDefinedList(Int32)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for UserDefined lists (from the udlist multi-list table)\n"
+  syntax:
+    content: public static ISoListProvider GetUserDefinedList(int udListId)
+    parameters:
+    - id: udListId
+      type: System.Int32
+      description: ID of the user-defined list to fetch items from
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetUserDefinedList(udListId As Integer) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32,System.Boolean)
+  id: GetUserDefinedList(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedList(Int32, Boolean)
+  nameWithType: SoLists.GetUserDefinedList(Int32, Boolean)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for UserDefined lists (from the udlist multi-list table)\n"
+  syntax:
+    content: public static ISoListProvider GetUserDefinedList(int udListId, bool bForceFlat)
+    parameters:
+    - id: udListId
+      type: System.Int32
+      description: ID of the user-defined list to fetch items from
+    - id: bForceFlat
+      type: System.Boolean
+      description: Force the list to be flattened. Note that filtering according to the group_link tables will still be performed if the list has been set to &apos;Enable grouping and filtering&apos; in the Admin application; only the result will always be flat.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetUserDefinedList(udListId As Integer, bForceFlat As Boolean) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32,System.Int32[])
+  id: GetUserDefinedList(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedList(Int32, Int32[])
+  nameWithType: SoLists.GetUserDefinedList(Int32, Int32[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for UserDefined lists (from the udlist multi-list table)\n"
+  syntax:
+    content: public static ISoListProvider GetUserDefinedList(int udListId, int[] historyIds)
+    parameters:
+    - id: udListId
+      type: System.Int32
+      description: ID of the user-defined list to fetch items from
+    - id: historyIds
+      type: System.Int32[]
+      description: Array of item id&apos;s to return as &apos;history&apos; items
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetUserDefinedList(udListId As Integer, historyIds As Integer()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList*
+  nameWithType.vb: SoLists.GetUserDefinedList(Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList(System.Int32, System.Int32())
+  name.vb: GetUserDefinedList(Int32, Int32())
+- uid: SuperOffice.CRM.Lists.SoLists.GetRolesList(SuperOffice.Data.RoleType)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetRolesList(SuperOffice.Data.RoleType)
+  id: GetRolesList(SuperOffice.Data.RoleType)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetRolesList(RoleType)
+  nameWithType: SoLists.GetRolesList(RoleType)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRolesList(SuperOffice.Data.RoleType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO List for Roles specified by <xref href=\"SuperOffice.Data.RoleType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static ISoListProvider GetRolesList(RoleType roleType)
+    parameters:
+    - id: roleType
+      type: SuperOffice.Data.RoleType
+      description: <xref href="SuperOffice.Data.RoleType" data-throw-if-not-resolved="false"></xref> to get the list for.
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: MDO list provider for the Roles list
+    content.vb: Public Shared Function GetRolesList(roleType As RoleType) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetRolesList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList(String, String[], ArchiveRestrictionInfo[])
+  nameWithType: SoLists.GetArchiveList(String, String[], ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO list based on an underlying Archive Provider. \n"
+  remarks: "\nItems will contain concatenated values of the desired columns in\nthe order they are given. Rows will be ordered by the first possible column. If a column is of type icon in the \narchive provider, it will be used for the icon hint instead of being part of the item name. Tooltips from all\nnon-icon columns are concatenated to be the tooltip for the item.\n<p></p>\nA maximum of <see cref=\"!:SuperOffice.ArchiveLists.ArchiveRowProvider.MAX_ITEMS\"></see> rows (currently 200) are fetched, since\nlonger MDO lists are not really helpful. If more than 200 rows exist, then the last row will have primary key 0 and be an overflow\nmarker.\n<p></p>\nThe extraInfo field of the list item will contain the entity name, a colon, and\nthe actual primary key of the row. If the archive provider only has one entity, then the primary key will also be used for the list item\nid. If the archive has more than one entity, the primary key cannot be used for the list item id since primary keys may overlap between entities.\nIn that case, the list item id will be an arbitrary integer.\n<p></p>\nNote that complex archives may apply further restrictions by themselves - Activity Archives will apply your current Filter settings,\netc. This will influence the result set. Also note that culture-dependent data, such as dates, are returned in the format\nset up by <see cref=\"!:SuperOffice.Util.CultureDataFormatter\"></see> and have to be decoded by that class before display. The resource manager\nsystem in Six.Web also has methods for decoding of complete strings that may contain such elements.\n"
+  syntax:
+    content: public static ISoListProvider GetArchiveList(string providerName, string[] columns, ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of archive provider
+    - id: columns
+      type: System.String[]
+      description: Array of column names to fetch
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Array of restrictions to apply on the archive provider
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: MDO list provider for the archive
+    content.vb: Public Shared Function GetArchiveList(providerName As String, columns As String(), restrictions As ArchiveRestrictionInfo()) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetArchiveList*
+  nameWithType.vb: SoLists.GetArchiveList(String, String(), ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: GetArchiveList(String, String(), ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  id: GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList(String, String, ArchiveRestrictionInfo)
+  nameWithType: SoLists.GetArchiveList(String, String, ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO list based on an underlying Archive Provider. \n"
+  remarks: "\nItems will contain concatenated values of the desired columns in\nthe order they are given. Rows will be ordered by the first possible column. If a column is of type icon in the \narchive provider, it will be used for the icon hint instead of being part of the item name. Tooltips from all\nnon-icon columns are concatenated to be the tooltip for the item.\n<p></p>\nA maximum of <see cref=\"!:SuperOffice.ArchiveLists.ArchiveRowProvider.MAX_ITEMS\"></see> rows (currently 200) are fetched, since\nlonger MDO lists are not really helpful. If more than 200 rows exist, then the last row will have primary key 0 and be an overflow\nmarker.\n<p></p>\nThe extraInfo field of the list item will contain the entity name, a colon, and\nthe actual primary key of the row. If the archive provider only has one entity, then the primary key will also be used for the list item\nid. If the archive has more than one entity, the primary key cannot be used for the list item id since primary keys may overlap between entities.\nIn that case, the list item id will be an arbitrary integer.\n<p></p>\nNote that complex archives may apply further restrictions by themselves - Activity Archives will apply your current Filter settings,\netc. This will influence the result set. Also note that culture-dependent data, such as dates, are returned in the format\nset up by <see cref=\"!:SuperOffice.Util.CultureDataFormatter\"></see> and have to be decoded by that class before display. The resource manager\nsystem in Six.Web also has methods for decoding of complete strings that may contain such elements.\n"
+  syntax:
+    content: public static ISoListProvider GetArchiveList(string providerName, string commaSeparatedColumns, ArchiveRestrictionInfo singleRestriction)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of archive provider
+    - id: commaSeparatedColumns
+      type: System.String
+      description: String containing a comma-separated list of columns, like &apos;name,department,hasInfoText&apos;
+    - id: singleRestriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: One restriction, to be passed to the archive provider
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: MDO list provider for the archive
+    content.vb: Public Shared Function GetArchiveList(providerName As String, commaSeparatedColumns As String, singleRestriction As ArchiveRestrictionInfo) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetArchiveList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  id: GetArchiveList(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList(String, String[], ArchiveRestrictionInfo[], String)
+  nameWithType: SoLists.GetArchiveList(String, String[], ArchiveRestrictionInfo[], String)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO list based on an underlying Archive Provider and search value, which is applied to the first column.\n"
+  remarks: "\nItems will contain concatenated values of the desired columns in\nthe order they are given. Rows will be ordered by the first possible column. If a column is of type icon in the \narchive provider, it will be used for the icon hint instead of being part of the item name. Tooltips from all\nnon-icon columns are concatenated to be the tooltip for the item.\n<p></p>\nA maximum of <see cref=\"!:SuperOffice.ArchiveLists.ArchiveRowProvider.MAX_ITEMS\"></see> rows (currently 200) are fetched, since\nlonger MDO lists are not really helpful. If more than 200 rows exist, then the last row will have primary key 0 and be an overflow\nmarker.\n<p></p>\nThe extraInfo field of the list item will contain the entity name, a colon, and\nthe actual primary key of the row. If the archive provider only has one entity, then the primary key will also be used for the list item\nid. If the archive has more than one entity, the primary key cannot be used for the list item id since primary keys may overlap between entities.\nIn that case, the list item id will be an arbitrary integer.\n<p></p>\nNote that complex archives may apply further restrictions by themselves - Activity Archives will apply your current Filter settings,\netc. This will influence the result set. Also note that culture-dependent data, such as dates, are returned in the format\nset up by <see cref=\"!:SuperOffice.Util.CultureDataFormatter\"></see> and have to be decoded by that class before display. The resource manager\nsystem in Six.Web also has methods for decoding of complete strings that may contain such elements.\n"
+  syntax:
+    content: public static ISoListProvider GetArchiveList(string providerName, string[] columns, ArchiveRestrictionInfo[] restrictions, string searchValue)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of archive provider
+    - id: columns
+      type: System.String[]
+      description: "Array of column names to fetch.\nThe search value will be applied to the FIRST of these, using <xref href=\"System.String.StartsWith(System.String)\" data-throw-if-not-resolved=\"false\"></xref> and \n<xref href=\"System.String.ToLowerInvariant\" data-throw-if-not-resolved=\"false\"></xref>."
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Array of restrictions to apply on the archive provider
+    - id: searchValue
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: MDO list provider for the archive
+    content.vb: Public Shared Function GetArchiveList(providerName As String, columns As String(), restrictions As ArchiveRestrictionInfo(), searchValue As String) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetArchiveList*
+  nameWithType.vb: SoLists.GetArchiveList(String, String(), ArchiveRestrictionInfo(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String)
+  name.vb: GetArchiveList(String, String(), ArchiveRestrictionInfo(), String)
+- uid: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.String)
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.String)
+  id: GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.String)
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList(String, String, ArchiveRestrictionInfo, String)
+  nameWithType: SoLists.GetArchiveList(String, String, ArchiveRestrictionInfo, String)
+  fullName: SuperOffice.CRM.Lists.SoLists.GetArchiveList(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO list based on an underlying Archive Provider and search value, which is applied to the first column.\n"
+  remarks: "\nItems will contain concatenated values of the desired columns in\nthe order they are given. Rows will be ordered by the first possible column. If a column is of type icon in the \narchive provider, it will be used for the icon hint instead of being part of the item name. Tooltips from all\nnon-icon columns are concatenated to be the tooltip for the item.\n<p></p>\nA maximum of <see cref=\"!:SuperOffice.ArchiveLists.ArchiveRowProvider.MAX_ITEMS\"></see> rows (currently 200) are fetched, since\nlonger MDO lists are not really helpful. If more than 200 rows exist, then the last row will have primary key 0 and be an overflow\nmarker.\n<p></p>\nThe extraInfo field of the list item will contain the entity name, a colon, and\nthe actual primary key of the row. If the archive provider only has one entity, then the primary key will also be used for the list item\nid. If the archive has more than one entity, the primary key cannot be used for the list item id since primary keys may overlap between entities.\nIn that case, the list item id will be an arbitrary integer.\n<p></p>\nNote that complex archives may apply further restrictions by themselves - Activity Archives will apply your current Filter settings,\netc. This will influence the result set. Also note that culture-dependent data, such as dates, are returned in the format\nset up by <see cref=\"!:SuperOffice.Util.CultureDataFormatter\"></see> and have to be decoded by that class before display. The resource manager\nsystem in Six.Web also has methods for decoding of complete strings that may contain such elements.\n"
+  syntax:
+    content: public static ISoListProvider GetArchiveList(string providerName, string commaSeparatedColumns, ArchiveRestrictionInfo singleRestriction, string searchValue)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of archive provider
+    - id: commaSeparatedColumns
+      type: System.String
+      description: "String containing a comma-separated list of columns, like &apos;name,department,hasInfoText&apos;.\nThe search value will be applied to the FIRST of these, using <xref href=\"System.String.StartsWith(System.String)\" data-throw-if-not-resolved=\"false\"></xref> and \n<xref href=\"System.String.ToLowerInvariant\" data-throw-if-not-resolved=\"false\"></xref>."
+    - id: singleRestriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: One restriction, to be passed to the archive provider
+    - id: searchValue
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: MDO list provider for the archive
+    content.vb: Public Shared Function GetArchiveList(providerName As String, commaSeparatedColumns As String, singleRestriction As ArchiveRestrictionInfo, searchValue As String) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetArchiveList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SoLists.GetUserGroupList
+  commentId: M:SuperOffice.CRM.Lists.SoLists.GetUserGroupList
+  id: GetUserGroupList
+  parent: SuperOffice.CRM.Lists.SoLists
+  langs:
+  - csharp
+  - vb
+  name: GetUserGroupList()
+  nameWithType: SoLists.GetUserGroupList()
+  fullName: SuperOffice.CRM.Lists.SoLists.GetUserGroupList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nList of user groups\n"
+  syntax:
+    content: public static ISoListProvider GetUserGroupList()
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Shared Function GetUserGroupList As ISoListProvider
+  overload: SuperOffice.CRM.Lists.SoLists.GetUserGroupList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Lists.SoLists.GetCountryList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetCountryList
+  isExternal: true
+  name: GetCountryList
+  nameWithType: SoLists.GetCountryList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCountryList
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList
+  isExternal: true
+  name: GetRelationDefinitionList
+  nameWithType: SoLists.GetRelationDefinitionList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRelationDefinitionList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Lists.SoLists.GetBusinessList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetBusinessList
+  isExternal: true
+  name: GetBusinessList
+  nameWithType: SoLists.GetBusinessList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetBusinessList
+- uid: SuperOffice.CRM.Lists.SoLists.GetCategoryList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetCategoryList
+  isExternal: true
+  name: GetCategoryList
+  nameWithType: SoLists.GetCategoryList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCategoryList
+- uid: SuperOffice.CRM.Lists.SoLists.GetTaskList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetTaskList
+  isExternal: true
+  name: GetTaskList
+  nameWithType: SoLists.GetTaskList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetTaskList
+- uid: SuperOffice.CRM.Lists.SoLists.GetContIntList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetContIntList
+  isExternal: true
+  name: GetContIntList
+  nameWithType: SoLists.GetContIntList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetContIntList
+- uid: SuperOffice.CRM.Lists.SoLists.GetOwnerContactList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetOwnerContactList
+  isExternal: true
+  name: GetOwnerContactList
+  nameWithType: SoLists.GetOwnerContactList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOwnerContactList
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersIntList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetPersIntList
+  isExternal: true
+  name: GetPersIntList
+  nameWithType: SoLists.GetPersIntList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersIntList
+- uid: SuperOffice.CRM.Lists.SoLists.GetPersPosList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetPersPosList
+  isExternal: true
+  name: GetPersPosList
+  nameWithType: SoLists.GetPersPosList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPersPosList
+- uid: SuperOffice.CRM.Lists.SoLists.GetPriorityList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetPriorityList
+  isExternal: true
+  name: GetPriorityList
+  nameWithType: SoLists.GetPriorityList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPriorityList
+- uid: SuperOffice.CRM.Lists.SoLists.GetProbList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetProbList
+  isExternal: true
+  name: GetProbList
+  nameWithType: SoLists.GetProbList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProbList
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjectList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetProjectList
+  isExternal: true
+  name: GetProjectList
+  nameWithType: SoLists.GetProjectList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjectList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjTypeList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetProjTypeList
+  isExternal: true
+  name: GetProjTypeList
+  nameWithType: SoLists.GetProjTypeList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjTypeList
+- uid: SuperOffice.CRM.Lists.SoLists.GetProjStatusList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetProjStatusList
+  isExternal: true
+  name: GetProjStatusList
+  nameWithType: SoLists.GetProjStatusList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetProjStatusList
+- uid: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetPMembTypeList
+  isExternal: true
+  name: GetPMembTypeList
+  nameWithType: SoLists.GetPMembTypeList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetPMembTypeList
+- uid: SuperOffice.CRM.Lists.SoLists.GetMrMrsList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetMrMrsList
+  isExternal: true
+  name: GetMrMrsList
+  nameWithType: SoLists.GetMrMrsList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetMrMrsList
+- uid: SuperOffice.CRM.Lists.SoLists.GetCreditedList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetCreditedList
+  isExternal: true
+  name: GetCreditedList
+  nameWithType: SoLists.GetCreditedList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCreditedList
+- uid: SuperOffice.CRM.Lists.SoLists.GetSourceList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetSourceList
+  isExternal: true
+  name: GetSourceList
+  nameWithType: SoLists.GetSourceList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSourceList
+- uid: SuperOffice.CRM.Lists.SoLists.GetReasonList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetReasonList
+  isExternal: true
+  name: GetReasonList
+  nameWithType: SoLists.GetReasonList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetReasonList
+- uid: SuperOffice.CRM.Lists.SoLists.GetSearchCatList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetSearchCatList
+  isExternal: true
+  name: GetSearchCatList
+  nameWithType: SoLists.GetSearchCatList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSearchCatList
+- uid: SuperOffice.CRM.Lists.SoLists.GetComptrList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetComptrList
+  isExternal: true
+  name: GetComptrList
+  nameWithType: SoLists.GetComptrList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetComptrList
+- uid: SuperOffice.CRM.Lists.SoLists.GetCurrencyList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetCurrencyList
+  isExternal: true
+  name: GetCurrencyList
+  nameWithType: SoLists.GetCurrencyList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetCurrencyList
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptCatList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetOptCatList
+  isExternal: true
+  name: GetOptCatList
+  nameWithType: SoLists.GetOptCatList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptCatList
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptTypeList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetOptTypeList
+  isExternal: true
+  name: GetOptTypeList
+  nameWithType: SoLists.GetOptTypeList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptTypeList
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptStateList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetOptStateList
+  isExternal: true
+  name: GetOptStateList
+  nameWithType: SoLists.GetOptStateList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptStateList
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptIntList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetOptIntList
+  isExternal: true
+  name: GetOptIntList
+  nameWithType: SoLists.GetOptIntList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptIntList
+- uid: SuperOffice.CRM.Lists.SoLists.GetOptDecList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetOptDecList
+  isExternal: true
+  name: GetOptDecList
+  nameWithType: SoLists.GetOptDecList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetOptDecList
+- uid: SuperOffice.CRM.Lists.SoLists.GetDocTmplList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetDocTmplList
+  isExternal: true
+  name: GetDocTmplList
+  nameWithType: SoLists.GetDocTmplList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDocTmplList
+- uid: SuperOffice.CRM.Lists.SoLists.GetExtAppList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetExtAppList
+  isExternal: true
+  name: GetExtAppList
+  nameWithType: SoLists.GetExtAppList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetExtAppList
+- uid: SuperOffice.CRM.Lists.SoLists.GetIntentList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetIntentList
+  isExternal: true
+  name: GetIntentList
+  nameWithType: SoLists.GetIntentList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetIntentList
+- uid: SuperOffice.CRM.Lists.SoLists.GetSalutationList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetSalutationList
+  isExternal: true
+  name: GetSalutationList
+  nameWithType: SoLists.GetSalutationList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetSalutationList
+- uid: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetRejectReasonList
+  isExternal: true
+  name: GetRejectReasonList
+  nameWithType: SoLists.GetRejectReasonList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRejectReasonList
+- uid: SuperOffice.CRM.Lists.SoLists.GetAmountClassList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetAmountClassList
+  isExternal: true
+  name: GetAmountClassList
+  nameWithType: SoLists.GetAmountClassList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAmountClassList
+- uid: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList
+  isExternal: true
+  name: GetDiaryOwnerList
+  nameWithType: SoLists.GetDiaryOwnerList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetDiaryOwnerList
+- uid: SuperOffice.CRM.Lists.SoLists.GetResourceList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetResourceList
+  isExternal: true
+  name: GetResourceList
+  nameWithType: SoLists.GetResourceList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetResourceList
+- uid: SuperOffice.CRM.Lists.SoLists.GetAssociateList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetAssociateList
+  isExternal: true
+  name: GetAssociateList
+  nameWithType: SoLists.GetAssociateList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetAssociateList
+- uid: SuperOffice.CRM.Lists.SoLists.GetGroupViewList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetGroupViewList
+  isExternal: true
+  name: GetGroupViewList
+  nameWithType: SoLists.GetGroupViewList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetGroupViewList
+- uid: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetUserDefinedList
+  isExternal: true
+  name: GetUserDefinedList
+  nameWithType: SoLists.GetUserDefinedList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetUserDefinedList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Lists.SoLists.GetRolesList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetRolesList
+  isExternal: true
+  name: GetRolesList
+  nameWithType: SoLists.GetRolesList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetRolesList
+- uid: SuperOffice.Data.RoleType
+  commentId: T:SuperOffice.Data.RoleType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.SoLists.GetArchiveList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetArchiveList
+  isExternal: true
+  name: GetArchiveList
+  nameWithType: SoLists.GetArchiveList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetArchiveList
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.Lists.SoLists.GetUserGroupList*
+  commentId: Overload:SuperOffice.CRM.Lists.SoLists.GetUserGroupList
+  isExternal: true
+  name: GetUserGroupList
+  nameWithType: SoLists.GetUserGroupList
+  fullName: SuperOffice.CRM.Lists.SoLists.GetUserGroupList

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest
+  id: ErpSync_SaveActorTypeMappingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveActorTypeMappingRequest
+  nameWithType: ErpSync_SaveActorTypeMappingRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_SaveActorTypeMappingRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_SaveActorTypeMappingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_SaveActorTypeMappingRequest()
+  nameWithType: ErpSync_SaveActorTypeMappingRequest.ErpSync_SaveActorTypeMappingRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.ErpSync_SaveActorTypeMappingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_SaveActorTypeMappingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping
+  id: Mapping
+  parent: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest
+  langs:
+  - csharp
+  - vb
+  name: Mapping
+  nameWithType: ErpSync_SaveActorTypeMappingRequest.Mapping
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSyncActorTypeMapping Mapping { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+    content.vb: Public Property Mapping As ErpSyncActorTypeMapping
+  overload: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.#ctor
+  isExternal: true
+  name: ErpSync_SaveActorTypeMappingRequest
+  nameWithType: ErpSync_SaveActorTypeMappingRequest.ErpSync_SaveActorTypeMappingRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.ErpSync_SaveActorTypeMappingRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping
+  isExternal: true
+  name: Mapping
+  nameWithType: ErpSync_SaveActorTypeMappingRequest.Mapping
+  fullName: SuperOffice.WebApi.Data.ErpSync_SaveActorTypeMappingRequest.Mapping
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpSyncActorTypeMapping
+  nameWithType: ErpSyncActorTypeMapping
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping

@@ -1,0 +1,638 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  id: ICalendarOptions
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  langs:
+  - csharp
+  - vb
+  name: ICalendarOptions
+  nameWithType: ICalendarOptions
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface ICalendarOptions
+    content.vb: Public Interface ICalendarOptions
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly
+  id: PrinterFriendly
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: PrinterFriendly
+  nameWithType: ICalendarOptions.PrinterFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: CalendarContainer.PrinterFriendly PrinterFriendly { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+    content.vb: Property PrinterFriendly As CalendarContainer.PrinterFriendly
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth
+  id: CalendarWidth
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: CalendarWidth
+  nameWithType: ICalendarOptions.CalendarWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int CalendarWidth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property CalendarWidth As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID
+  id: ClientID
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: ClientID
+  nameWithType: ICalendarOptions.ClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ClientID As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID
+  id: ContainerClientID
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: ContainerClientID
+  nameWithType: ICalendarOptions.ContainerClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ContainerClientID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ContainerClientID As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop
+  id: OffsetTop
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: OffsetTop
+  nameWithType: ICalendarOptions.OffsetTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int OffsetTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property OffsetTop As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType
+  id: TimeScaleType
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: TimeScaleType
+  nameWithType: ICalendarOptions.TimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: CalendarTimeScaleType TimeScaleType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+    content.vb: Property TimeScaleType As CalendarTimeScaleType
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement
+  id: AppointmentPlacement
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPlacement
+  nameWithType: ICalendarOptions.AppointmentPlacement
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: CalendarAppointmentPlacement AppointmentPlacement { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+    content.vb: Property AppointmentPlacement As CalendarAppointmentPlacement
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition
+  id: AppointmentPosition
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPosition
+  nameWithType: ICalendarOptions.AppointmentPosition
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int AppointmentPosition { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property AppointmentPosition As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft
+  id: AppointmentMarginLeft
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: AppointmentMarginLeft
+  nameWithType: ICalendarOptions.AppointmentMarginLeft
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int AppointmentMarginLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property AppointmentMarginLeft As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID
+  id: AssociateID
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: AssociateID
+  nameWithType: ICalendarOptions.AssociateID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int AssociateID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property AssociateID As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth
+  id: AppointmentPercentWidth
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPercentWidth
+  nameWithType: ICalendarOptions.AppointmentPercentWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int AppointmentPercentWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property AppointmentPercentWidth As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames
+  id: BoldNames
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: BoldNames
+  nameWithType: ICalendarOptions.BoldNames
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: bool BoldNames { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property BoldNames As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate
+  id: CalendarDate
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: CalendarDate
+  nameWithType: ICalendarOptions.CalendarDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: DateTime CalendarDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Property CalendarDate As Date
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent
+  id: StartTimeCurrent
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: StartTimeCurrent
+  nameWithType: ICalendarOptions.StartTimeCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string StartTimeCurrent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property StartTimeCurrent As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex
+  id: CalendarIndex
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: CalendarIndex
+  nameWithType: ICalendarOptions.CalendarIndex
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int CalendarIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CalendarIndex As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  id: UseOnlyCalendarContainerMouseEvents
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+  langs:
+  - csharp
+  - vb
+  name: UseOnlyCalendarContainerMouseEvents
+  nameWithType: ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: bool UseOnlyCalendarContainerMouseEvents { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property UseOnlyCalendarContainerMouseEvents As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly
+  isExternal: true
+  name: PrinterFriendly
+  nameWithType: ICalendarOptions.PrinterFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.PrinterFriendly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarContainer.PrinterFriendly
+  nameWithType: CalendarContainer.PrinterFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth
+  isExternal: true
+  name: CalendarWidth
+  nameWithType: ICalendarOptions.CalendarWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarWidth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID
+  isExternal: true
+  name: ClientID
+  nameWithType: ICalendarOptions.ClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ClientID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID
+  isExternal: true
+  name: ContainerClientID
+  nameWithType: ICalendarOptions.ContainerClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.ContainerClientID
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop
+  isExternal: true
+  name: OffsetTop
+  nameWithType: ICalendarOptions.OffsetTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.OffsetTop
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType
+  isExternal: true
+  name: TimeScaleType
+  nameWithType: ICalendarOptions.TimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.TimeScaleType
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarTimeScaleType
+  nameWithType: CalendarTimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement
+  isExternal: true
+  name: AppointmentPlacement
+  nameWithType: ICalendarOptions.AppointmentPlacement
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPlacement
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarAppointmentPlacement
+  nameWithType: CalendarAppointmentPlacement
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition
+  isExternal: true
+  name: AppointmentPosition
+  nameWithType: ICalendarOptions.AppointmentPosition
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPosition
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft
+  isExternal: true
+  name: AppointmentMarginLeft
+  nameWithType: ICalendarOptions.AppointmentMarginLeft
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentMarginLeft
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID
+  isExternal: true
+  name: AssociateID
+  nameWithType: ICalendarOptions.AssociateID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AssociateID
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth
+  isExternal: true
+  name: AppointmentPercentWidth
+  nameWithType: ICalendarOptions.AppointmentPercentWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.AppointmentPercentWidth
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames
+  isExternal: true
+  name: BoldNames
+  nameWithType: ICalendarOptions.BoldNames
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.BoldNames
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate
+  isExternal: true
+  name: CalendarDate
+  nameWithType: ICalendarOptions.CalendarDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent
+  isExternal: true
+  name: StartTimeCurrent
+  nameWithType: ICalendarOptions.StartTimeCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.StartTimeCurrent
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex
+  isExternal: true
+  name: CalendarIndex
+  nameWithType: ICalendarOptions.CalendarIndex
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.CalendarIndex
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  isExternal: true
+  name: UseOnlyCalendarContainerMouseEvents
+  nameWithType: ICalendarOptions.UseOnlyCalendarContainerMouseEvents
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions.UseOnlyCalendarContainerMouseEvents

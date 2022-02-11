@@ -1,0 +1,17 @@
+digraph Source  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Source[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+SourceGroupLink[fillcolor = "azure1"]
+SourceHeadingLink[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+Source -> associate [headlabel = "registered_associate_id"]
+Source -> associate [label = "updated_associate_id"]
+sale -> Source [label = "source_id"]
+SourceGroupLink -> Source [label = "source_id"]
+SourceHeadingLink -> Source [label = "source_id"]
+SaleHist -> Source [label = "source_id"]
+}

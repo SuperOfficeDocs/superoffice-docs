@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest
+  commentId: T:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest
+  id: Saint_GetStatusMonitorsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.#ctor
+  - SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id
+  - SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: Saint_GetStatusMonitorsRequest
+  nameWithType: Saint_GetStatusMonitorsRequest
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Saint_GetStatusMonitorsRequest : Object'
+    content.vb: >-
+      Public Class Saint_GetStatusMonitorsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest
+  langs:
+  - csharp
+  - vb
+  name: Saint_GetStatusMonitorsRequest()
+  nameWithType: Saint_GetStatusMonitorsRequest.Saint_GetStatusMonitorsRequest()
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Saint_GetStatusMonitorsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Saint_GetStatusMonitorsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Saint_GetStatusMonitorsRequest.Id
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Saint_GetStatusMonitorsRequest.Type
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.#ctor
+  isExternal: true
+  name: Saint_GetStatusMonitorsRequest
+  nameWithType: Saint_GetStatusMonitorsRequest.Saint_GetStatusMonitorsRequest
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Saint_GetStatusMonitorsRequest
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: Saint_GetStatusMonitorsRequest.Id
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: Saint_GetStatusMonitorsRequest.Type
+  fullName: SuperOffice.WebApi.Data.Saint_GetStatusMonitorsRequest.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,30 @@
+<authentication mode="Forms">
+  <forms name="RSSFeedFinalVB" loginUrl="~/Default.aspx" protection="All" timeout="30" path="/"></forms>
+</authentication>
+
+<sessionState mode="InProc"
+              stateConnectionString="tcpip=127.0.0.1:42424"
+              stateNetworkTimeout="10"
+              sqlConnectionString="data source=127.0.0.1;Integrated Security=SSPI"
+              cookieless="false"
+              timeout="40"/>
+
+<authorization>
+  <!-- 
+  <deny users="?"/>
+  <allow users="[comma separated list of users]"
+         roles="[comma separated list of roles]" />
+  <deny users="[comma separated list of users]"
+        roles="[comma separated list of roles]" />
+  -->
+</authorization>
+
+<Database>
+  <add key="DatabaseMajor" value="MSSQL"/>
+  <add key="DatabaseMinor" value="8"/>
+  <add key="Server" value="ECCOLVISPHE"/>
+  <add key="Database" value="SuperOffice"/>
+  <add key="CommandTimeOut" value="300"/>
+  <add key="TablePrefix" value="CRM5"/>
+  <add key="ConnectionString" value="Server=[@Server];Database=[@Database];User ID=[@User];Password=[@Password]"/>
+</Database>

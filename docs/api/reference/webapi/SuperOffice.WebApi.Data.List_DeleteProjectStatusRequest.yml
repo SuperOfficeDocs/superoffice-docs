@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
+  id: List_DeleteProjectStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteProjectStatusRequest
+  nameWithType: List_DeleteProjectStatusRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_DeleteProjectStatusRequest : Object'
+    content.vb: >-
+      Public Class List_DeleteProjectStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteProjectStatusRequest()
+  nameWithType: List_DeleteProjectStatusRequest.List_DeleteProjectStatusRequest()
+  fullName: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.List_DeleteProjectStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_DeleteProjectStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId
+  id: ProjectStatusId
+  parent: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectStatusId
+  nameWithType: List_DeleteProjectStatusRequest.ProjectStatusId
+  fullName: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectStatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectStatusId As Integer
+  overload: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.#ctor
+  isExternal: true
+  name: List_DeleteProjectStatusRequest
+  nameWithType: List_DeleteProjectStatusRequest.List_DeleteProjectStatusRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.List_DeleteProjectStatusRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId
+  isExternal: true
+  name: ProjectStatusId
+  nameWithType: List_DeleteProjectStatusRequest.ProjectStatusId
+  fullName: SuperOffice.WebApi.Data.List_DeleteProjectStatusRequest.ProjectStatusId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

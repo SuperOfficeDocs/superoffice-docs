@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  commentId: T:SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  id: Import_PreviewImportRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Import_PreviewImportRequest.#ctor
+  - SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition
+  - SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context
+  - SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture
+  - SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines
+  langs:
+  - csharp
+  - vb
+  name: Import_PreviewImportRequest
+  nameWithType: Import_PreviewImportRequest
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Import_PreviewImportRequest : Object'
+    content.vb: >-
+      Public Class Import_PreviewImportRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Import_PreviewImportRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  langs:
+  - csharp
+  - vb
+  name: Import_PreviewImportRequest()
+  nameWithType: Import_PreviewImportRequest.Import_PreviewImportRequest()
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Import_PreviewImportRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Import_PreviewImportRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Import_PreviewImportRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines
+  commentId: P:SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines
+  id: ImportLines
+  parent: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  langs:
+  - csharp
+  - vb
+  name: ImportLines
+  nameWithType: Import_PreviewImportRequest.ImportLines
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ImportLine[] ImportLines { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ImportLine[]
+    content.vb: Public Property ImportLines As ImportLine()
+  overload: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition
+  commentId: P:SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition
+  id: ColumnDefinition
+  parent: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  langs:
+  - csharp
+  - vb
+  name: ColumnDefinition
+  nameWithType: Import_PreviewImportRequest.ColumnDefinition
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] ColumnDefinition { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ColumnDefinition As String()
+  overload: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture
+  commentId: P:SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture
+  id: Culture
+  parent: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Import_PreviewImportRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Import_PreviewImportRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Import_PreviewImportRequest.Context
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_PreviewImportRequest.#ctor
+  isExternal: true
+  name: Import_PreviewImportRequest
+  nameWithType: Import_PreviewImportRequest.Import_PreviewImportRequest
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Import_PreviewImportRequest
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines
+  isExternal: true
+  name: ImportLines
+  nameWithType: Import_PreviewImportRequest.ImportLines
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ImportLines
+- uid: SuperOffice.WebApi.Data.ImportLine[]
+  isExternal: true
+  name: ImportLine[]
+  nameWithType: ImportLine[]
+  fullName: SuperOffice.WebApi.Data.ImportLine[]
+  nameWithType.vb: ImportLine()
+  fullName.vb: SuperOffice.WebApi.Data.ImportLine()
+  name.vb: ImportLine()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.WebApi.Data.ImportLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.WebApi.Data.ImportLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition
+  isExternal: true
+  name: ColumnDefinition
+  nameWithType: Import_PreviewImportRequest.ColumnDefinition
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.ColumnDefinition
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: Import_PreviewImportRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Culture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Import_PreviewImportRequest.Context
+  fullName: SuperOffice.WebApi.Data.Import_PreviewImportRequest.Context

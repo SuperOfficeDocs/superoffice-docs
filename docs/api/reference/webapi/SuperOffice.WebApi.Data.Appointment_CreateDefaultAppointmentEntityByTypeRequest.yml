@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  id: Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  nameWithType: Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CreateDefaultAppointmentEntityByTypeRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CreateDefaultAppointmentEntityByTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateDefaultAppointmentEntityByTypeRequest()
+  nameWithType: Appointment_CreateDefaultAppointmentEntityByTypeRequest.Appointment_CreateDefaultAppointmentEntityByTypeRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Appointment_CreateDefaultAppointmentEntityByTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CreateDefaultAppointmentEntityByTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TaskType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Property Type As TaskType
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.#ctor
+  isExternal: true
+  name: Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  nameWithType: Appointment_CreateDefaultAppointmentEntityByTypeRequest.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Appointment_CreateDefaultAppointmentEntityByTypeRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityByTypeRequest.Type
+- uid: SuperOffice.WebApi.Data.TaskType
+  commentId: T:SuperOffice.WebApi.Data.TaskType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: SuperOffice.WebApi.Data.TaskType

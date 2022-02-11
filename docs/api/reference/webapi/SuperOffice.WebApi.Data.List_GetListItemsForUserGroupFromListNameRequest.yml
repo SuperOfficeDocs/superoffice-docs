@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest
+  id: List_GetListItemsForUserGroupFromListNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  - SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  langs:
+  - csharp
+  - vb
+  name: List_GetListItemsForUserGroupFromListNameRequest
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetListItemsForUserGroupFromListNameRequest : Object'
+    content.vb: >-
+      Public Class List_GetListItemsForUserGroupFromListNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetListItemsForUserGroupFromListNameRequest()
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest.List_GetListItemsForUserGroupFromListNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.List_GetListItemsForUserGroupFromListNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetListItemsForUserGroupFromListNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  commentId: P:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  id: UdListDefinitionName
+  parent: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionName
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UdListDefinitionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UdListDefinitionName As String
+  overload: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  commentId: P:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  id: GroupId
+  parent: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.#ctor
+  isExternal: true
+  name: List_GetListItemsForUserGroupFromListNameRequest
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest.List_GetListItemsForUserGroupFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.List_GetListItemsForUserGroupFromListNameRequest
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  isExternal: true
+  name: UdListDefinitionName
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.UdListDefinitionName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: List_GetListItemsForUserGroupFromListNameRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.List_GetListItemsForUserGroupFromListNameRequest.GroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

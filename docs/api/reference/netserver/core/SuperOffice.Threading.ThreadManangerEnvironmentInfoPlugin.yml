@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+  id: ThreadManangerEnvironmentInfoPlugin
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.#ctor
+  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  langs:
+  - csharp
+  - vb
+  name: ThreadManangerEnvironmentInfoPlugin
+  nameWithType: ThreadManangerEnvironmentInfoPlugin
+  fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: >-
+      [SoEnvironmentInfoPlugin("ThreadManangerEnvironmentInfoPlugin")]
+
+      public class ThreadManangerEnvironmentInfoPlugin : ISoEnvironmentInfoPlugin, IPlugin
+    content.vb: >-
+      <SoEnvironmentInfoPlugin("ThreadManangerEnvironmentInfoPlugin")>
+
+      Public Class ThreadManangerEnvironmentInfoPlugin
+          Implements ISoEnvironmentInfoPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)
+  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
+    ctor: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ThreadManangerEnvironmentInfoPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public void UpdateEnvironmentInfo(NameValueCollection environmentInfo)
+    parameters:
+    - id: environmentInfo
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Sub UpdateEnvironmentInfo(environmentInfo As NameValueCollection)
+  overload: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  implements:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.#ctor
+  commentId: M:SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: ThreadManangerEnvironmentInfoPlugin()
+  nameWithType: ThreadManangerEnvironmentInfoPlugin.ThreadManangerEnvironmentInfoPlugin()
+  fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.ThreadManangerEnvironmentInfoPlugin()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public ThreadManangerEnvironmentInfoPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: ISoEnvironmentInfoPlugin
+  nameWithType: ISoEnvironmentInfoPlugin
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ThreadManangerEnvironmentInfoPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ThreadManangerEnvironmentInfoPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ThreadManangerEnvironmentInfoPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ThreadManangerEnvironmentInfoPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ThreadManangerEnvironmentInfoPlugin>(ThreadManangerEnvironmentInfoPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<ThreadManangerEnvironmentInfoPlugin>(ThreadManangerEnvironmentInfoPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin>(SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ThreadManangerEnvironmentInfoPlugin)(ThreadManangerEnvironmentInfoPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)(SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)
+  name.vb: AssignByReflection(Of ThreadManangerEnvironmentInfoPlugin)(ThreadManangerEnvironmentInfoPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ThreadManangerEnvironmentInfoPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<ThreadManangerEnvironmentInfoPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+    name: ThreadManangerEnvironmentInfoPlugin
+    nameWithType: ThreadManangerEnvironmentInfoPlugin
+    fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ThreadManangerEnvironmentInfoPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ThreadManangerEnvironmentInfoPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+    name: ThreadManangerEnvironmentInfoPlugin
+    nameWithType: ThreadManangerEnvironmentInfoPlugin
+    fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ThreadManangerEnvironmentInfoPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<ThreadManangerEnvironmentInfoPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ThreadManangerEnvironmentInfoPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)()
+  name.vb: GraphCopy(Of ThreadManangerEnvironmentInfoPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ThreadManangerEnvironmentInfoPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<ThreadManangerEnvironmentInfoPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ThreadManangerEnvironmentInfoPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of ThreadManangerEnvironmentInfoPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ThreadManangerEnvironmentInfoPlugin, To>()
+  nameWithType: Converters.MapEnums<ThreadManangerEnvironmentInfoPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ThreadManangerEnvironmentInfoPlugin, To>
+    nameWithType: Converters.MapEnums<ThreadManangerEnvironmentInfoPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)
+    nameWithType: Converters.MapEnums(Of ThreadManangerEnvironmentInfoPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  commentId: Overload:SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  isExternal: true
+  name: UpdateEnvironmentInfo
+  nameWithType: ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.UpdateEnvironmentInfo
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  isExternal: true
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+    name: UpdateEnvironmentInfo
+    nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+    name: UpdateEnvironmentInfo
+    nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.#ctor*
+  commentId: Overload:SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.#ctor
+  isExternal: true
+  name: ThreadManangerEnvironmentInfoPlugin
+  nameWithType: ThreadManangerEnvironmentInfoPlugin.ThreadManangerEnvironmentInfoPlugin
+  fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin.ThreadManangerEnvironmentInfoPlugin

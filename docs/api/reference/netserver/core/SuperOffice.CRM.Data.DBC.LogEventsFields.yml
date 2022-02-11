@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LogEventsFields
+  id: DBC.LogEventsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.EventGroup
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.EventId
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.EventType
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.LogEventsId
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUser
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUserDesc
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.TargetId
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.TimeOfEvent
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.Var1
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.Var2
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.Var3
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.Var4
+  - SuperOffice.CRM.Data.DBC.LogEventsFields.Var5
+  langs:
+  - csharp
+  - vb
+  name: DBC.LogEventsFields
+  nameWithType: DBC.LogEventsFields
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for LogEvents, System log\n"
+  syntax:
+    content: public static class LogEventsFields
+    content.vb: Public Module LogEventsFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.LogEventsId
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.LogEventsId
+  id: LogEventsId
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: LogEventsId
+  nameWithType: DBC.LogEventsFields.LogEventsId
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.LogEventsId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.LogEventsId: Primary key\n"
+  syntax:
+    content: public const string LogEventsId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const LogEventsId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.TimeOfEvent
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.TimeOfEvent
+  id: TimeOfEvent
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: TimeOfEvent
+  nameWithType: DBC.LogEventsFields.TimeOfEvent
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.TimeOfEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.TimeOfEvent: When did the event take place\n"
+  syntax:
+    content: public const string TimeOfEvent = "time_of_event"
+    return:
+      type: System.String
+    content.vb: Public Const TimeOfEvent As String = "time_of_event"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.EventType
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.EventType
+  id: EventType
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: EventType
+  nameWithType: DBC.LogEventsFields.EventType
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.EventType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.EventType: Notification=1, warning=2, error=3, critical error=4\n"
+  syntax:
+    content: public const string EventType = "event_type"
+    return:
+      type: System.String
+    content.vb: Public Const EventType As String = "event_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.EventGroup
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.EventGroup
+  id: EventGroup
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: EventGroup
+  nameWithType: DBC.LogEventsFields.EventGroup
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.EventGroup
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.EventGroup: See NewLog::EventGroup\n"
+  syntax:
+    content: public const string EventGroup = "event_group"
+    return:
+      type: System.String
+    content.vb: Public Const EventGroup As String = "event_group"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.EventId
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: DBC.LogEventsFields.EventId
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.EventId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.EventId: See NewLog::EventId\n"
+  syntax:
+    content: public const string EventId = "event_id"
+    return:
+      type: System.String
+    content.vb: Public Const EventId As String = "event_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.TargetId
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.TargetId
+  id: TargetId
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: TargetId
+  nameWithType: DBC.LogEventsFields.TargetId
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.TargetId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.TargetId: The id of the target entity (ticket.id, customer.id etc)\n"
+  syntax:
+    content: public const string TargetId = "target_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetId As String = "target_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.Var1
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.Var1
+  id: Var1
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: Var1
+  nameWithType: DBC.LogEventsFields.Var1
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.Var1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.Var1: Dynamic info\n"
+  syntax:
+    content: public const string Var1 = "var1"
+    return:
+      type: System.String
+    content.vb: Public Const Var1 As String = "var1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.Var2
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.Var2
+  id: Var2
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: Var2
+  nameWithType: DBC.LogEventsFields.Var2
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.Var2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.Var2: Dynamic info\n"
+  syntax:
+    content: public const string Var2 = "var2"
+    return:
+      type: System.String
+    content.vb: Public Const Var2 As String = "var2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.Var3
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.Var3
+  id: Var3
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: Var3
+  nameWithType: DBC.LogEventsFields.Var3
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.Var3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.Var3: Dynamic info\n"
+  syntax:
+    content: public const string Var3 = "var3"
+    return:
+      type: System.String
+    content.vb: Public Const Var3 As String = "var3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.Var4
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.Var4
+  id: Var4
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: Var4
+  nameWithType: DBC.LogEventsFields.Var4
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.Var4
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.Var4: Dynamic info\n"
+  syntax:
+    content: public const string Var4 = "var4"
+    return:
+      type: System.String
+    content.vb: Public Const Var4 As String = "var4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.Var5
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.Var5
+  id: Var5
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: Var5
+  nameWithType: DBC.LogEventsFields.Var5
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.Var5
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.Var5: Dynamic info\n"
+  syntax:
+    content: public const string Var5 = "var5"
+    return:
+      type: System.String
+    content.vb: Public Const Var5 As String = "var5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUser
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUser
+  id: SourceUser
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: SourceUser
+  nameWithType: DBC.LogEventsFields.SourceUser
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.SourceUser: The user generating the event. 1=system, other=ejuser.id\n"
+  syntax:
+    content: public const string SourceUser = "source_user"
+    return:
+      type: System.String
+    content.vb: Public Const SourceUser As String = "source_user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUserDesc
+  commentId: F:SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUserDesc
+  id: SourceUserDesc
+  parent: SuperOffice.CRM.Data.DBC.LogEventsFields
+  langs:
+  - csharp
+  - vb
+  name: SourceUserDesc
+  nameWithType: DBC.LogEventsFields.SourceUserDesc
+  fullName: SuperOffice.CRM.Data.DBC.LogEventsFields.SourceUserDesc
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLogEvents.SourceUserDesc: Describing the id in source_user. eg user name or customer name or (System)\n"
+  syntax:
+    content: public const string SourceUserDesc = "source_user_desc"
+    return:
+      type: System.String
+    content.vb: Public Const SourceUserDesc As String = "source_user_desc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

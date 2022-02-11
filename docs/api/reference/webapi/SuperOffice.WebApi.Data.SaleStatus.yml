@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SaleStatus
+  commentId: T:SuperOffice.WebApi.Data.SaleStatus
+  id: SaleStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SaleStatus.Lost
+  - SuperOffice.WebApi.Data.SaleStatus.Open
+  - SuperOffice.WebApi.Data.SaleStatus.SaintAll
+  - SuperOffice.WebApi.Data.SaleStatus.Sold
+  - SuperOffice.WebApi.Data.SaleStatus.Stalled
+  - SuperOffice.WebApi.Data.SaleStatus.Unknown
+  - SuperOffice.WebApi.Data.SaleStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.WebApi.Data.SaleStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for the &apos;status&apos; field in the sale table\nThis Enum is used by:  sale.status; SaleHist.status; CounterValue.sale_status\n"
+  syntax:
+    content: 'public sealed class SaleStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class SaleStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.SaleStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SaleStatus.value__
+  fullName: SuperOffice.WebApi.Data.SaleStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: SaleStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.SaleStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Sale status is unknown\n"
+  syntax:
+    content: public const SaleStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Const Unknown As SaleStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SaleStatus.Open
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.Open
+  id: Open
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: SaleStatus.Open
+  fullName: SuperOffice.WebApi.Data.SaleStatus.Open
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Sale is open\n"
+  syntax:
+    content: public const SaleStatus Open
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Const Open As SaleStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SaleStatus.Sold
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.Sold
+  id: Sold
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: Sold
+  nameWithType: SaleStatus.Sold
+  fullName: SuperOffice.WebApi.Data.SaleStatus.Sold
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Sale has been sold (green $ in GUI)\n"
+  syntax:
+    content: public const SaleStatus Sold
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Const Sold As SaleStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SaleStatus.Lost
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.Lost
+  id: Lost
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: Lost
+  nameWithType: SaleStatus.Lost
+  fullName: SuperOffice.WebApi.Data.SaleStatus.Lost
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Sale has been lost (red $ in GUI)\n"
+  syntax:
+    content: public const SaleStatus Lost
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Const Lost As SaleStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SaleStatus.Stalled
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.Stalled
+  id: Stalled
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: Stalled
+  nameWithType: SaleStatus.Stalled
+  fullName: SuperOffice.WebApi.Data.SaleStatus.Stalled
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Sale has been stalled, or &quot;parked&quot;, awaiting further developments\n"
+  syntax:
+    content: public const SaleStatus Stalled
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Const Stalled As SaleStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SaleStatus.SaintAll
+  commentId: F:SuperOffice.WebApi.Data.SaleStatus.SaintAll
+  id: SaintAll
+  parent: SuperOffice.WebApi.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: SaintAll
+  nameWithType: SaleStatus.SaintAll
+  fullName: SuperOffice.WebApi.Data.SaleStatus.SaintAll
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1000: All&apos; choice for Saint. This is NOT an acceptable value for a sale, but is used by the Saint system for indexing all sales\n"
+  syntax:
+    content: public const SaleStatus SaintAll
+    return:
+      type: SuperOffice.WebApi.Data.SaleStatus
+    content.vb: Public Const SaintAll As SaleStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SaleStatus
+  commentId: T:SuperOffice.WebApi.Data.SaleStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.WebApi.Data.SaleStatus

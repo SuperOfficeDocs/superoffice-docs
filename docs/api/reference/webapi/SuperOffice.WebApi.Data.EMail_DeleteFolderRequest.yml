@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
+  id: EMail_DeleteFolderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EMail_DeleteFolderRequest
+  nameWithType: EMail_DeleteFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_DeleteFolderRequest : Object'
+    content.vb: >-
+      Public Class EMail_DeleteFolderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_DeleteFolderRequest()
+  nameWithType: EMail_DeleteFolderRequest.EMail_DeleteFolderRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.EMail_DeleteFolderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_DeleteFolderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_DeleteFolderRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.#ctor
+  isExternal: true
+  name: EMail_DeleteFolderRequest
+  nameWithType: EMail_DeleteFolderRequest.EMail_DeleteFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.EMail_DeleteFolderRequest
+- uid: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_DeleteFolderRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo

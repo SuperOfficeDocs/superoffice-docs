@@ -1,0 +1,494 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper
+  commentId: T:SuperOffice.DCF.Web.UI.ToolTipHelper
+  id: ToolTipHelper
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.ToolTipHelper.#ctor
+  - SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString(System.String)
+  - SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine(System.String)
+  - SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ToolTipHelper
+  nameWithType: ToolTipHelper
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public class ToolTipHelper
+    content.vb: Public Class ToolTipHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString(System.String)
+  id: FormatToolTipString(System.String)
+  parent: SuperOffice.DCF.Web.UI.ToolTipHelper
+  langs:
+  - csharp
+  - vb
+  name: FormatToolTipString(String)
+  nameWithType: ToolTipHelper.FormatToolTipString(String)
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string FormatToolTipString(string toolTipString)
+    parameters:
+    - id: toolTipString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatToolTipString(toolTipString As String) As String
+  overload: SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine(System.String)
+  id: RemoveNewLine(System.String)
+  parent: SuperOffice.DCF.Web.UI.ToolTipHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveNewLine(String)
+  nameWithType: ToolTipHelper.RemoveNewLine(String)
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string RemoveNewLine(string toolTipString)
+    parameters:
+    - id: toolTipString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveNewLine(toolTipString As String) As String
+  overload: SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray(System.String)
+  id: StripTagsCharArray(System.String)
+  parent: SuperOffice.DCF.Web.UI.ToolTipHelper
+  langs:
+  - csharp
+  - vb
+  name: StripTagsCharArray(String)
+  nameWithType: ToolTipHelper.StripTagsCharArray(String)
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static string StripTagsCharArray(string source)
+    parameters:
+    - id: source
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function StripTagsCharArray(source As String) As String
+  overload: SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.ToolTipHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.ToolTipHelper
+  langs:
+  - csharp
+  - vb
+  name: ToolTipHelper()
+  nameWithType: ToolTipHelper.ToolTipHelper()
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.ToolTipHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public ToolTipHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.ToolTipHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString
+  isExternal: true
+  name: FormatToolTipString
+  nameWithType: ToolTipHelper.FormatToolTipString
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.FormatToolTipString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine
+  isExternal: true
+  name: RemoveNewLine
+  nameWithType: ToolTipHelper.RemoveNewLine
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.RemoveNewLine
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray
+  isExternal: true
+  name: StripTagsCharArray
+  nameWithType: ToolTipHelper.StripTagsCharArray
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.StripTagsCharArray
+- uid: SuperOffice.DCF.Web.UI.ToolTipHelper.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ToolTipHelper.#ctor
+  isExternal: true
+  name: ToolTipHelper
+  nameWithType: ToolTipHelper.ToolTipHelper
+  fullName: SuperOffice.DCF.Web.UI.ToolTipHelper.ToolTipHelper

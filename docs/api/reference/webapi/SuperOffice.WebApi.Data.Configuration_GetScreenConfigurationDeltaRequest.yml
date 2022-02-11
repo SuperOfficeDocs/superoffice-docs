@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest
+  id: Configuration_GetScreenConfigurationDeltaRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  - SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetScreenConfigurationDeltaRequest
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetScreenConfigurationDeltaRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetScreenConfigurationDeltaRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetScreenConfigurationDeltaRequest()
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest.Configuration_GetScreenConfigurationDeltaRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.Configuration_GetScreenConfigurationDeltaRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetScreenConfigurationDeltaRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  id: DeltaType
+  parent: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest
+  langs:
+  - csharp
+  - vb
+  name: DeltaType
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DeltaType DeltaType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DeltaType
+    content.vb: Public Property DeltaType As DeltaType
+  overload: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  id: DeltaState
+  parent: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest
+  langs:
+  - csharp
+  - vb
+  name: DeltaState
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DeltaState DeltaState { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DeltaState
+    content.vb: Public Property DeltaState As DeltaState
+  overload: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.#ctor
+  isExternal: true
+  name: Configuration_GetScreenConfigurationDeltaRequest
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest.Configuration_GetScreenConfigurationDeltaRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.Configuration_GetScreenConfigurationDeltaRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  isExternal: true
+  name: DeltaType
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaType
+- uid: SuperOffice.WebApi.Data.DeltaType
+  commentId: T:SuperOffice.WebApi.Data.DeltaType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DeltaType
+  nameWithType: DeltaType
+  fullName: SuperOffice.WebApi.Data.DeltaType
+- uid: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  isExternal: true
+  name: DeltaState
+  nameWithType: Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+  fullName: SuperOffice.WebApi.Data.Configuration_GetScreenConfigurationDeltaRequest.DeltaState
+- uid: SuperOffice.WebApi.Data.DeltaState
+  commentId: T:SuperOffice.WebApi.Data.DeltaState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: SuperOffice.WebApi.Data.DeltaState

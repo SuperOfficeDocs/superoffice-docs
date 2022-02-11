@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  id: DBC.SORCriteriaFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.FieldName
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.Locked
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.Registered
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORCriteriaId
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.SOROperatorsId
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORPublishId
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.Updated
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.UseIt
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value1
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value2
+  - SuperOffice.CRM.Data.DBC.SORCriteriaFields.WhereOrder
+  langs:
+  - csharp
+  - vb
+  name: DBC.SORCriteriaFields
+  nameWithType: DBC.SORCriteriaFields
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SORCriteria, SuperOffice reporter data\n"
+  syntax:
+    content: public static class SORCriteriaFields
+    content.vb: Public Module SORCriteriaFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORCriteriaId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORCriteriaId
+  id: SORCriteriaId
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: SORCriteriaId
+  nameWithType: DBC.SORCriteriaFields.SORCriteriaId
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORCriteriaId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.SORCriteriaId: Primary key\n"
+  syntax:
+    content: public const string SORCriteriaId = "SORCriteria_id"
+    return:
+      type: System.String
+    content.vb: Public Const SORCriteriaId As String = "SORCriteria_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORPublishId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORPublishId
+  id: SORPublishId
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: SORPublishId
+  nameWithType: DBC.SORCriteriaFields.SORPublishId
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.SORPublishId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.SORPublishId: Owning publish name\n"
+  syntax:
+    content: public const string SORPublishId = "SORPublish_id"
+    return:
+      type: System.String
+    content.vb: Public Const SORPublishId As String = "SORPublish_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.FieldName
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.FieldName
+  id: FieldName
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: FieldName
+  nameWithType: DBC.SORCriteriaFields.FieldName
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.FieldName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.FieldName: Database field name\n"
+  syntax:
+    content: public const string FieldName = "fieldName"
+    return:
+      type: System.String
+    content.vb: Public Const FieldName As String = "fieldName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.SOROperatorsId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.SOROperatorsId
+  id: SOROperatorsId
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: SOROperatorsId
+  nameWithType: DBC.SORCriteriaFields.SOROperatorsId
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.SOROperatorsId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.SOROperatorsId: Operator foreign key\n"
+  syntax:
+    content: public const string SOROperatorsId = "SOROperators_id"
+    return:
+      type: System.String
+    content.vb: Public Const SOROperatorsId As String = "SOROperators_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value1
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value1
+  id: Value1
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Value1
+  nameWithType: DBC.SORCriteriaFields.Value1
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.Value1: First part of value\n"
+  syntax:
+    content: public const string Value1 = "value1"
+    return:
+      type: System.String
+    content.vb: Public Const Value1 As String = "value1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value2
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value2
+  id: Value2
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Value2
+  nameWithType: DBC.SORCriteriaFields.Value2
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Value2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.Value2: Second part of value\n"
+  syntax:
+    content: public const string Value2 = "value2"
+    return:
+      type: System.String
+    content.vb: Public Const Value2 As String = "value2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.UseIt
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.UseIt
+  id: UseIt
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: UseIt
+  nameWithType: DBC.SORCriteriaFields.UseIt
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.UseIt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.UseIt: 1=criterion is in use, otherwise 0\n"
+  syntax:
+    content: public const string UseIt = "useIt"
+    return:
+      type: System.String
+    content.vb: Public Const UseIt As String = "useIt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.WhereOrder
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.WhereOrder
+  id: WhereOrder
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: WhereOrder
+  nameWithType: DBC.SORCriteriaFields.WhereOrder
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.WhereOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.WhereOrder: relative order in where clause\n"
+  syntax:
+    content: public const string WhereOrder = "whereOrder"
+    return:
+      type: System.String
+    content.vb: Public Const WhereOrder As String = "whereOrder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.SORCriteriaFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.SORCriteriaFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.SORCriteriaFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.SORCriteriaFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.SORCriteriaFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Locked
+  commentId: F:SuperOffice.CRM.Data.DBC.SORCriteriaFields.Locked
+  id: Locked
+  parent: SuperOffice.CRM.Data.DBC.SORCriteriaFields
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: DBC.SORCriteriaFields.Locked
+  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields.Locked
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORCriteria.Locked: If 1, then this crierion is locked and its value cannot be changed outside of Reporter Studio\n"
+  syntax:
+    content: public const string Locked = "locked"
+    return:
+      type: System.String
+    content.vb: Public Const Locked As String = "locked"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

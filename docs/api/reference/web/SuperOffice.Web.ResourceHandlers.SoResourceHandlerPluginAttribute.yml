@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  commentId: T:SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  id: SoResourceHandlerPluginAttribute
+  parent: SuperOffice.Web.ResourceHandlers
+  children:
+  - SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SoResourceHandlerPluginAttribute
+  nameWithType: SoResourceHandlerPluginAttribute
+  fullName: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: 'public class SoResourceHandlerPluginAttribute : PrioritizedPluginAttribute'
+    content.vb: >-
+      Public Class SoResourceHandlerPluginAttribute
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoResourceHandlerPluginAttribute(String, Int32)
+  nameWithType: SoResourceHandlerPluginAttribute.SoResourceHandlerPluginAttribute(String, Int32)
+  fullName: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.SoResourceHandlerPluginAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public SoResourceHandlerPluginAttribute(string name, int priority)
+    parameters:
+    - id: name
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(name As String, priority As Integer)
+  overload: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.ResourceHandlers
+  commentId: N:SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: SuperOffice.Web.ResourceHandlers
+  nameWithType: SuperOffice.Web.ResourceHandlers
+  fullName: SuperOffice.Web.ResourceHandlers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.#ctor
+  isExternal: true
+  name: SoResourceHandlerPluginAttribute
+  nameWithType: SoResourceHandlerPluginAttribute.SoResourceHandlerPluginAttribute
+  fullName: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute.SoResourceHandlerPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,8 +1,0 @@
-items:
-- name: Custom fields
-  expanded: true
-  items:
-  - name: API options
-    href: ../../../data-access/docs/custom-fields/toc.yml
-    topicHref: ../../../data-access/docs/custom-fields/overview.md
-    expanded: true

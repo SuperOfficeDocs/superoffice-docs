@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserType
+  commentId: T:SuperOffice.WebApi.Data.UserType
+  id: UserType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserType.AnonymousAssociate
+  - SuperOffice.WebApi.Data.UserType.ExternalAssociate
+  - SuperOffice.WebApi.Data.UserType.InternalAssociate
+  - SuperOffice.WebApi.Data.UserType.ResourceAssociate
+  - SuperOffice.WebApi.Data.UserType.SystemAssociate
+  - SuperOffice.WebApi.Data.UserType.Unknown
+  - SuperOffice.WebApi.Data.UserType.value__
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.WebApi.Data.UserType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of user (or resource). Mapps functionally to associate type - but with different binary values.\n"
+  syntax:
+    content: 'public sealed class UserType : Enum'
+    content.vb: >-
+      Public NotInheritable Class UserType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UserType.value__
+  commentId: F:SuperOffice.WebApi.Data.UserType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UserType.value__
+  fullName: SuperOffice.WebApi.Data.UserType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.UserType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: UserType.Unknown
+  fullName: SuperOffice.WebApi.Data.UserType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const UserType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Const Unknown As UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserType.InternalAssociate
+  commentId: F:SuperOffice.WebApi.Data.UserType.InternalAssociate
+  id: InternalAssociate
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: InternalAssociate
+  nameWithType: UserType.InternalAssociate
+  fullName: SuperOffice.WebApi.Data.UserType.InternalAssociate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Employee\n"
+  syntax:
+    content: public const UserType InternalAssociate
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Const InternalAssociate As UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserType.ResourceAssociate
+  commentId: F:SuperOffice.WebApi.Data.UserType.ResourceAssociate
+  id: ResourceAssociate
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: ResourceAssociate
+  nameWithType: UserType.ResourceAssociate
+  fullName: SuperOffice.WebApi.Data.UserType.ResourceAssociate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Resource - meeting room, projector or other bookable resource\n"
+  syntax:
+    content: public const UserType ResourceAssociate
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Const ResourceAssociate As UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserType.ExternalAssociate
+  commentId: F:SuperOffice.WebApi.Data.UserType.ExternalAssociate
+  id: ExternalAssociate
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: ExternalAssociate
+  nameWithType: UserType.ExternalAssociate
+  fullName: SuperOffice.WebApi.Data.UserType.ExternalAssociate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: External person\n"
+  syntax:
+    content: public const UserType ExternalAssociate
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Const ExternalAssociate As UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserType.AnonymousAssociate
+  commentId: F:SuperOffice.WebApi.Data.UserType.AnonymousAssociate
+  id: AnonymousAssociate
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: AnonymousAssociate
+  nameWithType: UserType.AnonymousAssociate
+  fullName: SuperOffice.WebApi.Data.UserType.AnonymousAssociate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Anonymous user - used by applications that does not require logins\n"
+  syntax:
+    content: public const UserType AnonymousAssociate
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Const AnonymousAssociate As UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserType.SystemAssociate
+  commentId: F:SuperOffice.WebApi.Data.UserType.SystemAssociate
+  id: SystemAssociate
+  parent: SuperOffice.WebApi.Data.UserType
+  langs:
+  - csharp
+  - vb
+  name: SystemAssociate
+  nameWithType: UserType.SystemAssociate
+  fullName: SuperOffice.WebApi.Data.UserType.SystemAssociate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: System user - mainly used for integrations or administration.  This user is not goverened sentry\n"
+  syntax:
+    content: public const UserType SystemAssociate
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Const SystemAssociate As UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UserType
+  commentId: T:SuperOffice.WebApi.Data.UserType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.WebApi.Data.UserType

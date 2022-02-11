@@ -1,0 +1,869 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project
+  commentId: T:SuperOffice.WebApi.Data.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project.#ctor
+  - SuperOffice.WebApi.Data.Project.ActiveErpLinks
+  - SuperOffice.WebApi.Data.Project.AssociateFullName
+  - SuperOffice.WebApi.Data.Project.AssociateId
+  - SuperOffice.WebApi.Data.Project.Description
+  - SuperOffice.WebApi.Data.Project.IsPublished
+  - SuperOffice.WebApi.Data.Project.Name
+  - SuperOffice.WebApi.Data.Project.ProjectId
+  - SuperOffice.WebApi.Data.Project.ProjectNumber
+  - SuperOffice.WebApi.Data.Project.PublishFrom
+  - SuperOffice.WebApi.Data.Project.PublishTo
+  - SuperOffice.WebApi.Data.Project.Status
+  - SuperOffice.WebApi.Data.Project.StatusId
+  - SuperOffice.WebApi.Data.Project.TextId
+  - SuperOffice.WebApi.Data.Project.Type
+  - SuperOffice.WebApi.Data.Project.TypeId
+  - SuperOffice.WebApi.Data.Project.Updated
+  - SuperOffice.WebApi.Data.Project.URL
+  - SuperOffice.WebApi.Data.Project.URLName
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.WebApi.Data.Project
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Project.\n\n"
+  example:
+  - "\nGet Project 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ProjectAgent(configuration);\nvar project = agent.GetProject( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Project : Carrier'
+    content.vb: >-
+      Public Class Project
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ProjectAgent
+    commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: Project()
+  nameWithType: Project.Project()
+  fullName: SuperOffice.WebApi.Data.Project.Project()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Project()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Project.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Project.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Project.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.Name
+  commentId: P:SuperOffice.WebApi.Data.Project.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Project.Name
+  fullName: SuperOffice.WebApi.Data.Project.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProject name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Project.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.Description
+  commentId: P:SuperOffice.WebApi.Data.Project.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Project.Description
+  fullName: SuperOffice.WebApi.Data.Project.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe projects description\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Project.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.URL
+  commentId: P:SuperOffice.WebApi.Data.Project.URL
+  id: URL
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: Project.URL
+  fullName: SuperOffice.WebApi.Data.Project.URL
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nURL address\n"
+  syntax:
+    content: public virtual string URL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property URL As String
+  overload: SuperOffice.WebApi.Data.Project.URL*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.Type
+  commentId: P:SuperOffice.WebApi.Data.Project.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Project.Type
+  fullName: SuperOffice.WebApi.Data.Project.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe project type.\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.WebApi.Data.Project.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Project.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Project.AssociateId
+  fullName: SuperOffice.WebApi.Data.Project.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe project owner id (associate id)\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Project.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.AssociateFullName
+  commentId: P:SuperOffice.WebApi.Data.Project.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: Project.AssociateFullName
+  fullName: SuperOffice.WebApi.Data.Project.AssociateFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe project owner\n"
+  syntax:
+    content: public virtual string AssociateFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateFullName As String
+  overload: SuperOffice.WebApi.Data.Project.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.TypeId
+  commentId: P:SuperOffice.WebApi.Data.Project.TypeId
+  id: TypeId
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: TypeId
+  nameWithType: Project.TypeId
+  fullName: SuperOffice.WebApi.Data.Project.TypeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int TypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TypeId As Integer
+  overload: SuperOffice.WebApi.Data.Project.TypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.Updated
+  commentId: P:SuperOffice.WebApi.Data.Project.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Project.Updated
+  fullName: SuperOffice.WebApi.Data.Project.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated date\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.Project.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.StatusId
+  commentId: P:SuperOffice.WebApi.Data.Project.StatusId
+  id: StatusId
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: StatusId
+  nameWithType: Project.StatusId
+  fullName: SuperOffice.WebApi.Data.Project.StatusId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe projects status id\n"
+  syntax:
+    content: public virtual int StatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StatusId As Integer
+  overload: SuperOffice.WebApi.Data.Project.StatusId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.Status
+  commentId: P:SuperOffice.WebApi.Data.Project.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Project.Status
+  fullName: SuperOffice.WebApi.Data.Project.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe projects status\n"
+  syntax:
+    content: public virtual string Status { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Status As String
+  overload: SuperOffice.WebApi.Data.Project.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.TextId
+  commentId: P:SuperOffice.WebApi.Data.Project.TextId
+  id: TextId
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: Project.TextId
+  fullName: SuperOffice.WebApi.Data.Project.TextId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the description\n"
+  syntax:
+    content: public virtual int TextId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TextId As Integer
+  overload: SuperOffice.WebApi.Data.Project.TextId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.PublishTo
+  commentId: P:SuperOffice.WebApi.Data.Project.PublishTo
+  id: PublishTo
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: PublishTo
+  nameWithType: Project.PublishTo
+  fullName: SuperOffice.WebApi.Data.Project.PublishTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublication valid to (inclusive)\n"
+  syntax:
+    content: public virtual DateTime PublishTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property PublishTo As DateTime
+  overload: SuperOffice.WebApi.Data.Project.PublishTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.PublishFrom
+  commentId: P:SuperOffice.WebApi.Data.Project.PublishFrom
+  id: PublishFrom
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: PublishFrom
+  nameWithType: Project.PublishFrom
+  fullName: SuperOffice.WebApi.Data.Project.PublishFrom
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublication valid from (inclusive)\n"
+  syntax:
+    content: public virtual DateTime PublishFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property PublishFrom As DateTime
+  overload: SuperOffice.WebApi.Data.Project.PublishFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.IsPublished
+  commentId: P:SuperOffice.WebApi.Data.Project.IsPublished
+  id: IsPublished
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: IsPublished
+  nameWithType: Project.IsPublished
+  fullName: SuperOffice.WebApi.Data.Project.IsPublished
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPublished As Boolean
+  overload: SuperOffice.WebApi.Data.Project.IsPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.URLName
+  commentId: P:SuperOffice.WebApi.Data.Project.URLName
+  id: URLName
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: URLName
+  nameWithType: Project.URLName
+  fullName: SuperOffice.WebApi.Data.Project.URLName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nVisible field\n"
+  syntax:
+    content: public virtual string URLName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property URLName As String
+  overload: SuperOffice.WebApi.Data.Project.URLName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.ProjectNumber
+  commentId: P:SuperOffice.WebApi.Data.Project.ProjectNumber
+  id: ProjectNumber
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: ProjectNumber
+  nameWithType: Project.ProjectNumber
+  fullName: SuperOffice.WebApi.Data.Project.ProjectNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAutomatically generated number\n"
+  syntax:
+    content: public virtual string ProjectNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectNumber As String
+  overload: SuperOffice.WebApi.Data.Project.ProjectNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Project.ActiveErpLinks
+  commentId: P:SuperOffice.WebApi.Data.Project.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: Project.ActiveErpLinks
+  fullName: SuperOffice.WebApi.Data.Project.ActiveErpLinks
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of active erp links\n"
+  syntax:
+    content: public virtual int ActiveErpLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
+  overload: SuperOffice.WebApi.Data.Project.ActiveErpLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ProjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
+  isExternal: true
+  name: ProjectAgent
+  nameWithType: ProjectAgent
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.#ctor
+  isExternal: true
+  name: Project
+  nameWithType: Project.Project
+  fullName: SuperOffice.WebApi.Data.Project.Project
+- uid: SuperOffice.WebApi.Data.Project.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Project.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Project.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.Name
+  isExternal: true
+  name: Name
+  nameWithType: Project.Name
+  fullName: SuperOffice.WebApi.Data.Project.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Project.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.Description
+  isExternal: true
+  name: Description
+  nameWithType: Project.Description
+  fullName: SuperOffice.WebApi.Data.Project.Description
+- uid: SuperOffice.WebApi.Data.Project.URL*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.URL
+  isExternal: true
+  name: URL
+  nameWithType: Project.URL
+  fullName: SuperOffice.WebApi.Data.Project.URL
+- uid: SuperOffice.WebApi.Data.Project.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.Type
+  isExternal: true
+  name: Type
+  nameWithType: Project.Type
+  fullName: SuperOffice.WebApi.Data.Project.Type
+- uid: SuperOffice.WebApi.Data.Project.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Project.AssociateId
+  fullName: SuperOffice.WebApi.Data.Project.AssociateId
+- uid: SuperOffice.WebApi.Data.Project.AssociateFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: Project.AssociateFullName
+  fullName: SuperOffice.WebApi.Data.Project.AssociateFullName
+- uid: SuperOffice.WebApi.Data.Project.TypeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.TypeId
+  isExternal: true
+  name: TypeId
+  nameWithType: Project.TypeId
+  fullName: SuperOffice.WebApi.Data.Project.TypeId
+- uid: SuperOffice.WebApi.Data.Project.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: Project.Updated
+  fullName: SuperOffice.WebApi.Data.Project.Updated
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Project.StatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.StatusId
+  isExternal: true
+  name: StatusId
+  nameWithType: Project.StatusId
+  fullName: SuperOffice.WebApi.Data.Project.StatusId
+- uid: SuperOffice.WebApi.Data.Project.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.Status
+  isExternal: true
+  name: Status
+  nameWithType: Project.Status
+  fullName: SuperOffice.WebApi.Data.Project.Status
+- uid: SuperOffice.WebApi.Data.Project.TextId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.TextId
+  isExternal: true
+  name: TextId
+  nameWithType: Project.TextId
+  fullName: SuperOffice.WebApi.Data.Project.TextId
+- uid: SuperOffice.WebApi.Data.Project.PublishTo*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.PublishTo
+  isExternal: true
+  name: PublishTo
+  nameWithType: Project.PublishTo
+  fullName: SuperOffice.WebApi.Data.Project.PublishTo
+- uid: SuperOffice.WebApi.Data.Project.PublishFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.PublishFrom
+  isExternal: true
+  name: PublishFrom
+  nameWithType: Project.PublishFrom
+  fullName: SuperOffice.WebApi.Data.Project.PublishFrom
+- uid: SuperOffice.WebApi.Data.Project.IsPublished*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.IsPublished
+  isExternal: true
+  name: IsPublished
+  nameWithType: Project.IsPublished
+  fullName: SuperOffice.WebApi.Data.Project.IsPublished
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Project.URLName*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.URLName
+  isExternal: true
+  name: URLName
+  nameWithType: Project.URLName
+  fullName: SuperOffice.WebApi.Data.Project.URLName
+- uid: SuperOffice.WebApi.Data.Project.ProjectNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.ProjectNumber
+  isExternal: true
+  name: ProjectNumber
+  nameWithType: Project.ProjectNumber
+  fullName: SuperOffice.WebApi.Data.Project.ProjectNumber
+- uid: SuperOffice.WebApi.Data.Project.ActiveErpLinks*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.ActiveErpLinks
+  isExternal: true
+  name: ActiveErpLinks
+  nameWithType: Project.ActiveErpLinks
+  fullName: SuperOffice.WebApi.Data.Project.ActiveErpLinks

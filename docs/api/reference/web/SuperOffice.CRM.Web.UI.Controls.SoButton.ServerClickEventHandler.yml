@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  id: SoButton.ServerClickEventHandler
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke(System.Object,System.EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SoButton.ServerClickEventHandler
+  nameWithType: SoButton.ServerClickEventHandler
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  type: Delegate
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public delegate void ServerClickEventHandler(object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Delegate Sub ServerClickEventHandler(sender As Object, e As EventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: ServerClickEventHandler(Object, IntPtr)
+  nameWithType: SoButton.ServerClickEventHandler.ServerClickEventHandler(Object, IntPtr)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.ServerClickEventHandler(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ServerClickEventHandler(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke(System.Object,System.EventArgs)
+  id: Invoke(System.Object,System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Object, EventArgs)
+  nameWithType: SoButton.ServerClickEventHandler.Invoke(Object, EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual void Invoke(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Overridable Sub Invoke(sender As Object, e As EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Object, EventArgs, AsyncCallback, Object)
+  nameWithType: SoButton.ServerClickEventHandler.BeginInvoke(Object, EventArgs, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke(System.Object, System.EventArgs, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(object sender, EventArgs e, AsyncCallback callback, object object)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(sender As Object, e As EventArgs, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: SoButton.ServerClickEventHandler.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.#ctor
+  isExternal: true
+  name: ServerClickEventHandler
+  nameWithType: SoButton.ServerClickEventHandler.ServerClickEventHandler
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.ServerClickEventHandler
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: SoButton.ServerClickEventHandler.Invoke
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.Invoke
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: SoButton.ServerClickEventHandler.BeginInvoke
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: SoButton.ServerClickEventHandler.EndInvoke
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler.EndInvoke

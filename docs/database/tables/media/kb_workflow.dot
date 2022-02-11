@@ -1,0 +1,14 @@
+digraph kb_workflow  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_workflow[fillcolor = "cadetblue1"]
+kb_entry[fillcolor = "azure1"]
+kb_workflow_access[fillcolor = "azure1"]
+role_workflow[fillcolor = "azure1"]
+kb_workflow -> kb_workflow [headlabel = "next"]
+kb_workflow -> kb_workflow [label = "previous"]
+kb_entry -> kb_workflow [label = "workflow_phase"]
+kb_workflow_access -> kb_workflow [label = "kb_workflow"]
+role_workflow -> kb_workflow [label = "workflow_id"]
+}

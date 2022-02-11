@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.LicenseStatus
+  # Same as SuperOffice.WebApi.Data.LicenseStatus
+  commentId: T:CRMScript.NetServer.LicenseStatus
+  id: LicenseStatus 
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.LicenseStatus.Ok
+  - CRMScript.NetServer.LicenseStatus.NewLicenseAvailable
+  - CRMScript.NetServer.LicenseStatus.NewCompanyNameAvailable
+  - CRMScript.NetServer.LicenseStatus.NewSerialAvailable
+  - CRMScript.NetServer.LicenseStatus.UseCustomMessage
+  - CRMScript.NetServer.LicenseStatus.UseCustomMessageAndUrl
+  - CRMScript.NetServer.LicenseStatus.ProblemWithLicense
+  - CRMScript.NetServer.LicenseStatus.UnknownError
+  name: LicenseStatus
+  nameWithType: LicenseStatus
+  fullName: CRMScript.NetServer.LicenseStatus
+  type: Enum
+  summary: "\nUsed in the CheckLicenseStatusResult to describe how SOADMIN should handle\n"
+- uid: CRMScript.NetServer.LicenseStatus.Ok
+  commentId: F:CRMScript.NetServer.LicenseStatus.Ok
+  id: LicenseStatus.Ok
+  langs:
+  - crmscript
+  name: LicenseStatus.Ok
+  nameWithType: LicenseStatus.Ok
+  fullName: CRMScript.NetServer.LicenseStatus.Ok
+  type: Field
+  summary: "\n0: License is ok. No changes detected\n"
+  syntax: 
+    content: Ok = 0
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.NewLicenseAvailable
+  commentId: F:CRMScript.NetServer.LicenseStatus.NewLicenseAvailable
+  id: LicenseStatus.NewLicenseAvailable
+  langs:
+  - crmscript
+  name: LicenseStatus.NewLicenseAvailable
+  nameWithType: LicenseStatus.NewLicenseAvailable
+  fullName: CRMScript.NetServer.LicenseStatus.NewLicenseAvailable
+  type: Field
+  summary: "\n1: New license information available. Get new license and activate it.\n"
+  syntax: 
+    content: NewLicenseAvailable = 1
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.NewCompanyNameAvailable
+  commentId: F:CRMScript.NetServer.LicenseStatus.NewCompanyNameAvailable
+  id: LicenseStatus.NewCompanyNameAvailable
+  langs:
+  - crmscript
+  name: LicenseStatus.NewCompanyNameAvailable
+  nameWithType: LicenseStatus.NewCompanyNameAvailable
+  fullName: CRMScript.NetServer.LicenseStatus.NewCompanyNameAvailable
+  type: Field
+  summary: "\n2: Name change detected. Fetch new license and activate it.\n"
+  syntax: 
+    content: NewCompanyNameAvailable = 2
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.NewSerialAvailable
+  commentId: F:CRMScript.NetServer.LicenseStatus.NewSerialAvailable
+  id: LicenseStatus.NewSerialAvailable
+  langs:
+  - crmscript
+  name: LicenseStatus.NewSerialAvailable
+  nameWithType: LicenseStatus.NewSerialAvailable
+  fullName: CRMScript.NetServer.LicenseStatus.NewSerialAvailable
+  type: Field
+  summary: "\n3: Serial number change detected. Fetch new license and activate it.\n"
+  syntax: 
+    content: NewSerialAvailable = 3
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.UseCustomMessage
+  commentId: F:CRMScript.NetServer.LicenseStatus.UseCustomMessage
+  id: LicenseStatus.UseCustomMessage
+  langs:
+  - crmscript
+  name: LicenseStatus.UseCustomMessage
+  nameWithType: LicenseStatus.UseCustomMessage
+  fullName: CRMScript.NetServer.LicenseStatus.UseCustomMessage
+  type: Field
+  summary: "\n4: See message for details.\n"
+  syntax: 
+    content: UseCustomMessage = 4
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.UseCustomMessageAndUrl
+  commentId: F:CRMScript.NetServer.LicenseStatus.UseCustomMessageAndUrl
+  id: LicenseStatus.UseCustomMessageAndUrl
+  langs:
+  - crmscript
+  name: LicenseStatus.UseCustomMessageAndUrl
+  nameWithType: LicenseStatus.UseCustomMessageAndUrl
+  fullName: CRMScript.NetServer.LicenseStatus.UseCustomMessageAndUrl
+  type: Field
+  summary: "\n5: See message and URL for details. Client should make URL clickable.\n"
+  syntax: 
+    content: UseCustomMessageAndUrl = 5
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.ProblemWithLicense
+  commentId: F:CRMScript.NetServer.LicenseStatus.ProblemWithLicense
+  id: LicenseStatus.ProblemWithLicense
+  langs:
+  - crmscript
+  name: LicenseStatus.ProblemWithLicense
+  nameWithType: LicenseStatus.ProblemWithLicense
+  fullName: CRMScript.NetServer.LicenseStatus.ProblemWithLicense
+  type: Field
+  summary: "\n100: Something seems to be wrong. Cannot fetch new license.\n"
+  syntax: 
+    content: ProblemWithLicense = 100
+    type: CRMScript.NetServer.LicenseStatus
+- uid: CRMScript.NetServer.LicenseStatus.UnknownError
+  commentId: F:CRMScript.NetServer.LicenseStatus.UnknownError
+  id: LicenseStatus.UnknownError
+  langs:
+  - crmscript
+  name: LicenseStatus.UnknownError
+  nameWithType: LicenseStatus.UnknownError
+  fullName: CRMScript.NetServer.LicenseStatus.UnknownError
+  type: Field
+  summary: "\n5000: UnknownError\n"
+  syntax: 
+    content: UnknownError = 5000
+    type: CRMScript.NetServer.LicenseStatus
+references:
+- uid: CRMScript.NetServer.LicenseStatus
+  commentId: T:CRMScript.NetServer.LicenseStatus
+  isExternal: true
+  name: LicenseStatus
+  nameWithType: LicenseStatus
+  fullName: CRMScript.NetServer.LicenseStatus

@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.UIHelper
+  commentId: T:SuperOffice.Web.UI.Controls.UIHelper
+  id: UIHelper
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.UIHelper.#ctor
+  - SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath
+  - SuperOffice.Web.UI.Controls.UIHelper.paramEncode(System.String)
+  - SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UIHelper
+  nameWithType: UIHelper
+  fullName: SuperOffice.Web.UI.Controls.UIHelper
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public class UIHelper
+    content.vb: Public Class UIHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.UIHelper.paramEncode(System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.UIHelper.paramEncode(System.String)
+  id: paramEncode(System.String)
+  parent: SuperOffice.Web.UI.Controls.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: paramEncode(String)
+  nameWithType: UIHelper.paramEncode(String)
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.paramEncode(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public static string paramEncode(string inStr)
+    parameters:
+    - id: inStr
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function paramEncode(inStr As String) As String
+  overload: SuperOffice.Web.UI.Controls.UIHelper.paramEncode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter(System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter(System.String)
+  id: UrlFormatter(System.String)
+  parent: SuperOffice.Web.UI.Controls.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: UrlFormatter(String)
+  nameWithType: UIHelper.UrlFormatter(String)
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public static string UrlFormatter(string partialUrl)
+    parameters:
+    - id: partialUrl
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function UrlFormatter(partialUrl As String) As String
+  overload: SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath
+  commentId: M:SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath
+  id: GetImageApplicationPath
+  parent: SuperOffice.Web.UI.Controls.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: GetImageApplicationPath()
+  nameWithType: UIHelper.GetImageApplicationPath()
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath()
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public static string GetImageApplicationPath()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetImageApplicationPath As String
+  overload: SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.UI.Controls.UIHelper.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.UIHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: UIHelper()
+  nameWithType: UIHelper.UIHelper()
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.UIHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public UIHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.UIHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.UIHelper.paramEncode*
+  commentId: Overload:SuperOffice.Web.UI.Controls.UIHelper.paramEncode
+  isExternal: true
+  name: paramEncode
+  nameWithType: UIHelper.paramEncode
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.paramEncode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter*
+  commentId: Overload:SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter
+  isExternal: true
+  name: UrlFormatter
+  nameWithType: UIHelper.UrlFormatter
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.UrlFormatter
+- uid: SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath*
+  commentId: Overload:SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath
+  isExternal: true
+  name: GetImageApplicationPath
+  nameWithType: UIHelper.GetImageApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.GetImageApplicationPath
+- uid: SuperOffice.Web.UI.Controls.UIHelper.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.UIHelper.#ctor
+  isExternal: true
+  name: UIHelper
+  nameWithType: UIHelper.UIHelper
+  fullName: SuperOffice.Web.UI.Controls.UIHelper.UIHelper

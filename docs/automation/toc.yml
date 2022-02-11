@@ -5,13 +5,22 @@ items:
   items:
   - name: Overview
     href: overview.md
+  - name: Chatbot
+    href: chatbot/index.md
+    items:
+    - name: Registration
+      href: chatbot/registration.md
+    - name: Chat sessions
+      href: chatbot/sessions.md
+    - name: Messages
+      href: chatbot/messages.md
+    - name: Script reference
+      href: chatbot/reference.md 
   - name: CRMScript
-    href: ../../../crmscript/docs/00-custom/toc.yml
-    expanded: true
-    topicHref: ../../../crmscript/docs/overview/index.md
+    href: crmscript/toc.yml
+    topicHref: crmscript/index.yml
   - name: Event model
     href: event-model/index.md
-    expanded: true
     items:
     - name: Email filter
       href: event-model/email-filter.md
@@ -25,7 +34,6 @@ items:
     href: macro/index.md
   - name: Trigger
     href: trigger/index.md
-    expanded: true
     items:
     - name: Create trigger macro
       href: trigger/create-trigger-macro.md
@@ -35,12 +43,54 @@ items:
       href: trigger/set-validation-rules.md
     - name: Update value
       href: trigger/update-value.md
-  - name: Trigger scripts (intro)
-    href: trigger-scripts/index.md
+    - name: Reference
+      href: trigger/reference/index.md
+      items:
+      - name: Trigger scripts
+        href: trigger/reference/CRMScript.Event.Trigger.yml
   - name: Webhook
     href: webhook/index.md
-    expanded: true
     items:
+    - name: Introduction
+      href: webhook/overview.md
+    - name: Event details
+      href: webhook/event-details.md
+    - name: Subscription
+      href: webhook/subscription.md
+    - name: Notifications
+      href: webhook/notification.md
+    - name: Security
+      href: webhook/security.md
+    - name: CRMScript event handlers
+      href: webhook/crmscript-handlers.md
+    - name: Event Reference
+      items:
+      - name: Activity events
+        href: webhook/reference/activity-events.md
+      - name: Associate events
+        href: webhook/reference/associate-events.md
+      - name: Chat events
+        href: webhook/reference/chat-events.md
+      - name: Contact events
+        href: webhook/reference/contact-events.md
+      - name: Document events
+        href: webhook/reference/document-events.md
+      - name: Person events
+        href: webhook/reference/person-events.md
+      - name: Project events
+        href: webhook/reference/project-events.md
+      - name: Project member events
+        href: webhook/reference/project-member-events.md
+      - name: Quote events
+        href: webhook/reference/quote-events.md
+      - name: Sale events
+        href: webhook/reference/sale-events.md
+      - name: Sale stakeholder events
+        href: webhook/reference/sale-stakeholder-events.md
+      - name: Test events
+        href: webhook/reference/test-event.md
+      - name: Ticket events
+        href: webhook/reference/ticket-events.md
     - name: Tutorials
       items:
       - name: Add msg to ticket with GitHub webhook

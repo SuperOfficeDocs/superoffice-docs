@@ -1,0 +1,15 @@
+digraph ExtApp  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ExtApp[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+document[fillcolor = "azure1"]
+ExtAppGroupLink[fillcolor = "azure1"]
+ExtAppHeadingLink[fillcolor = "azure1"]
+ExtApp -> associate [headlabel = "registered_associate_id"]
+ExtApp -> associate [label = "updated_associate_id"]
+document -> ExtApp [label = "application_id"]
+ExtAppGroupLink -> ExtApp [label = "extapp_id"]
+ExtAppHeadingLink -> ExtApp [label = "extapp_id"]
+}

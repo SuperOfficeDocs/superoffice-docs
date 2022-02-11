@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ChatTopicAgent
+  commentId: T:SuperOffice.CRM.Services.ChatTopicAgent
+  id: ChatTopicAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ChatTopicAgent.#ctor
+  - SuperOffice.CRM.Services.ChatTopicAgent.CanListen
+  - SuperOffice.CRM.Services.ChatTopicAgent.CanManage
+  - SuperOffice.CRM.Services.ChatTopicAgent.CanNotify
+  - SuperOffice.CRM.Services.ChatTopicAgent.CanRespond
+  - SuperOffice.CRM.Services.ChatTopicAgent.TopicId
+  - SuperOffice.CRM.Services.ChatTopicAgent.ToString
+  - SuperOffice.CRM.Services.ChatTopicAgent.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatTopicAgent.User
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicAgent
+  nameWithType: ChatTopicAgent
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUser agents within a chat topic. Which users are assigned and what roles they have within the chat topic.\n<p></p>\nCarrier object for ChatTopicAgent.\nServices for the ChatTopicAgent Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public class ChatTopicAgent
+    content.vb: Public Class ChatTopicAgent
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ChatAgent
+    commentId: T:SuperOffice.CRM.Services.ChatAgent
+  - linkId: SuperOffice.CRM.Services.IChatAgent
+    commentId: T:SuperOffice.CRM.Services.IChatAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ChatTopicAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicAgent()
+  nameWithType: ChatTopicAgent.ChatTopicAgent()
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.ChatTopicAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ChatTopicAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.ToString
+  commentId: M:SuperOffice.CRM.Services.ChatTopicAgent.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatTopicAgent.ToString()
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatTopicAgent.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ChatTopicAgent.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.TopicId
+  commentId: P:SuperOffice.CRM.Services.ChatTopicAgent.TopicId
+  id: TopicId
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: TopicId
+  nameWithType: ChatTopicAgent.TopicId
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.TopicId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe reference to the associated chat topic. \n"
+  syntax:
+    content: public virtual int TopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TopicId As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.TopicId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.User
+  commentId: P:SuperOffice.CRM.Services.ChatTopicAgent.User
+  id: User
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: ChatTopicAgent.User
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.User
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate that is the user agent. \n"
+  syntax:
+    content: public virtual Associate User { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property User As Associate
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.User*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanListen
+  commentId: P:SuperOffice.CRM.Services.ChatTopicAgent.CanListen
+  id: CanListen
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanListen
+  nameWithType: ChatTopicAgent.CanListen
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanListen
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue of a user can listen in on this topic \n"
+  syntax:
+    content: public virtual bool CanListen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanListen As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.CanListen*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanRespond
+  commentId: P:SuperOffice.CRM.Services.ChatTopicAgent.CanRespond
+  id: CanRespond
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanRespond
+  nameWithType: ChatTopicAgent.CanRespond
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanRespond
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the user can respond to chats in this topic \n"
+  syntax:
+    content: public virtual bool CanRespond { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanRespond As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.CanRespond*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanManage
+  commentId: P:SuperOffice.CRM.Services.ChatTopicAgent.CanManage
+  id: CanManage
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanManage
+  nameWithType: ChatTopicAgent.CanManage
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanManage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the user is a manager for this topic \n"
+  syntax:
+    content: public virtual bool CanManage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanManage As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.CanManage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanNotify
+  commentId: P:SuperOffice.CRM.Services.ChatTopicAgent.CanNotify
+  id: CanNotify
+  parent: SuperOffice.CRM.Services.ChatTopicAgent
+  langs:
+  - csharp
+  - vb
+  name: CanNotify
+  nameWithType: ChatTopicAgent.CanNotify
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanNotify
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the user should receive notifications for this topic \n"
+  syntax:
+    content: public virtual bool CanNotify { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanNotify As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicAgent.CanNotify*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent
+  commentId: T:SuperOffice.CRM.Services.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent
+- uid: SuperOffice.CRM.Services.IChatAgent
+  commentId: T:SuperOffice.CRM.Services.IChatAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IChatAgent
+  nameWithType: IChatAgent
+  fullName: SuperOffice.CRM.Services.IChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.#ctor
+  isExternal: true
+  name: ChatTopicAgent
+  nameWithType: ChatTopicAgent.ChatTopicAgent
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.ChatTopicAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ChatTopicAgent.ToString
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.TopicId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.TopicId
+  isExternal: true
+  name: TopicId
+  nameWithType: ChatTopicAgent.TopicId
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.TopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.User*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.User
+  isExternal: true
+  name: User
+  nameWithType: ChatTopicAgent.User
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.User
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanListen*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.CanListen
+  isExternal: true
+  name: CanListen
+  nameWithType: ChatTopicAgent.CanListen
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanListen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanRespond*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.CanRespond
+  isExternal: true
+  name: CanRespond
+  nameWithType: ChatTopicAgent.CanRespond
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanRespond
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanManage*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.CanManage
+  isExternal: true
+  name: CanManage
+  nameWithType: ChatTopicAgent.CanManage
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanManage
+- uid: SuperOffice.CRM.Services.ChatTopicAgent.CanNotify*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicAgent.CanNotify
+  isExternal: true
+  name: CanNotify
+  nameWithType: ChatTopicAgent.CanNotify
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent.CanNotify

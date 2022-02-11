@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  id: Appointment_RejectWithEmailConfirmationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  - SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_RejectWithEmailConfirmationRequest
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_RejectWithEmailConfirmationRequest : Object'
+    content.vb: >-
+      Public Class Appointment_RejectWithEmailConfirmationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_RejectWithEmailConfirmationRequest()
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.Appointment_RejectWithEmailConfirmationRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.Appointment_RejectWithEmailConfirmationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_RejectWithEmailConfirmationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  id: RejectReason
+  parent: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: RejectReason
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RejectReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RejectReason As String
+  overload: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.#ctor
+  isExternal: true
+  name: Appointment_RejectWithEmailConfirmationRequest
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.Appointment_RejectWithEmailConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.Appointment_RejectWithEmailConfirmationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  isExternal: true
+  name: RejectReason
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.RejectReason
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.RejectReason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_RejectWithEmailConfirmationRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.DocTmplQuoteType
+  # Same as SuperOffice.Data.DocTmplQuoteType
+  commentId: T:CRMScript.NetServer.DocTmplQuoteType
+  id: DocTmplQuoteType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.DocTmplQuoteType.None
+  - CRMScript.NetServer.DocTmplQuoteType.MailBody
+  - CRMScript.NetServer.DocTmplQuoteType.MainDocument
+  - CRMScript.NetServer.DocTmplQuoteType.QuoteLines
+  - CRMScript.NetServer.DocTmplQuoteType.ConfirmationMailBody
+  - CRMScript.NetServer.DocTmplQuoteType.ConfirmationLines
+  name: DocTmplQuoteType
+  nameWithType: DocTmplQuoteType
+  fullName: CRMScript.NetServer.DocTmplQuoteType
+  type: Enum
+  summary: "\nIs this document template some kind of quote document, and if so what?\n"
+- uid: CRMScript.NetServer.DocTmplQuoteType.None
+  commentId: F:CRMScript.NetServer.DocTmplQuoteType.None
+  id: DocTmplQuoteType.None
+  langs:
+  - crmscript
+  name: DocTmplQuoteType.None
+  nameWithType: DocTmplQuoteType.None
+  fullName: CRMScript.NetServer.DocTmplQuoteType.None
+  type: Field
+  summary: "\n0: This document template is in no way related to Quote Management\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.DocTmplQuoteType
+- uid: CRMScript.NetServer.DocTmplQuoteType.MailBody
+  commentId: F:CRMScript.NetServer.DocTmplQuoteType.MailBody
+  id: DocTmplQuoteType.MailBody
+  langs:
+  - crmscript
+  name: DocTmplQuoteType.MailBody
+  nameWithType: DocTmplQuoteType.MailBody
+  fullName: CRMScript.NetServer.DocTmplQuoteType.MailBody
+  type: Field
+  summary: "\n1: This is a template for the offer mail body\n"
+  syntax: 
+    content: MailBody = 1
+    type: CRMScript.NetServer.DocTmplQuoteType
+- uid: CRMScript.NetServer.DocTmplQuoteType.MainDocument
+  commentId: F:CRMScript.NetServer.DocTmplQuoteType.MainDocument
+  id: DocTmplQuoteType.MainDocument
+  langs:
+  - crmscript
+  name: DocTmplQuoteType.MainDocument
+  nameWithType: DocTmplQuoteType.MainDocument
+  fullName: CRMScript.NetServer.DocTmplQuoteType.MainDocument
+  type: Field
+  summary: "\n2: This is a template for the main offer document, document instances will be referred through Quote.DocumentId.\n"
+  syntax: 
+    content: MainDocument = 2
+    type: CRMScript.NetServer.DocTmplQuoteType
+- uid: CRMScript.NetServer.DocTmplQuoteType.QuoteLines
+  commentId: F:CRMScript.NetServer.DocTmplQuoteType.QuoteLines
+  id: DocTmplQuoteType.QuoteLines
+  langs:
+  - crmscript
+  name: DocTmplQuoteType.QuoteLines
+  nameWithType: DocTmplQuoteType.QuoteLines
+  fullName: CRMScript.NetServer.DocTmplQuoteType.QuoteLines
+  type: Field
+  summary: "\n3: This is a template for the AsposeWords merge process, generating the offer line details\n"
+  syntax: 
+    content: QuoteLines = 3
+    type: CRMScript.NetServer.DocTmplQuoteType
+- uid: CRMScript.NetServer.DocTmplQuoteType.ConfirmationMailBody
+  commentId: F:CRMScript.NetServer.DocTmplQuoteType.ConfirmationMailBody
+  id: DocTmplQuoteType.ConfirmationMailBody
+  langs:
+  - crmscript
+  name: DocTmplQuoteType.ConfirmationMailBody
+  nameWithType: DocTmplQuoteType.ConfirmationMailBody
+  fullName: CRMScript.NetServer.DocTmplQuoteType.ConfirmationMailBody
+  type: Field
+  summary: "\n4: ConfirmationMailBody\n"
+  syntax: 
+    content: ConfirmationMailBody = 4
+    type: CRMScript.NetServer.DocTmplQuoteType
+- uid: CRMScript.NetServer.DocTmplQuoteType.ConfirmationLines
+  commentId: F:CRMScript.NetServer.DocTmplQuoteType.ConfirmationLines
+  id: DocTmplQuoteType.ConfirmationLines
+  langs:
+  - crmscript
+  name: DocTmplQuoteType.ConfirmationLines
+  nameWithType: DocTmplQuoteType.ConfirmationLines
+  fullName: CRMScript.NetServer.DocTmplQuoteType.ConfirmationLines
+  type: Field
+  summary: "\n5: This is a template for the mail body of the order confirmation.\n"
+  syntax: 
+    content: ConfirmationLines = 5
+    type: CRMScript.NetServer.DocTmplQuoteType
+references:
+- uid: CRMScript.NetServer.DocTmplQuoteType
+  commentId: T:CRMScript.NetServer.DocTmplQuoteType
+  isExternal: true
+  name: DocTmplQuoteType
+  nameWithType: DocTmplQuoteType
+  fullName: CRMScript.NetServer.DocTmplQuoteType

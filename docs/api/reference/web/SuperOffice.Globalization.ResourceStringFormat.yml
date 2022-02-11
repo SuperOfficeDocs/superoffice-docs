@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.ResourceStringFormat
+  commentId: T:SuperOffice.Globalization.ResourceStringFormat
+  id: ResourceStringFormat
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  - SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  - SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  langs:
+  - csharp
+  - vb
+  name: ResourceStringFormat
+  nameWithType: ResourceStringFormat
+  fullName: SuperOffice.Globalization.ResourceStringFormat
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nEnumeration used to decide the formatting of the resource string\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ResourceStringFormat
+    content.vb: >-
+      <Flags>
+
+      Public Enum ResourceStringFormat
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  commentId: F:SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  id: UnFormatted
+  parent: SuperOffice.Globalization.ResourceStringFormat
+  langs:
+  - csharp
+  - vb
+  name: UnFormatted
+  nameWithType: ResourceStringFormat.UnFormatted
+  fullName: SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nUnformatted string\n"
+  syntax:
+    content: UnFormatted = 0
+    return:
+      type: SuperOffice.Globalization.ResourceStringFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  commentId: F:SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  id: IncludeTrailingColon
+  parent: SuperOffice.Globalization.ResourceStringFormat
+  langs:
+  - csharp
+  - vb
+  name: IncludeTrailingColon
+  nameWithType: ResourceStringFormat.IncludeTrailingColon
+  fullName: SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nSemicolon is included at the end\n"
+  syntax:
+    content: IncludeTrailingColon = 1
+    return:
+      type: SuperOffice.Globalization.ResourceStringFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  commentId: F:SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  id: RemoveTrailingColon
+  parent: SuperOffice.Globalization.ResourceStringFormat
+  langs:
+  - csharp
+  - vb
+  name: RemoveTrailingColon
+  nameWithType: ResourceStringFormat.RemoveTrailingColon
+  fullName: SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nSemicolon is removed at the end\n"
+  syntax:
+    content: RemoveTrailingColon = 2
+    return:
+      type: SuperOffice.Globalization.ResourceStringFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: SuperOffice.Globalization.ResourceStringFormat
+  commentId: T:SuperOffice.Globalization.ResourceStringFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: ResourceStringFormat
+  nameWithType: ResourceStringFormat
+  fullName: SuperOffice.Globalization.ResourceStringFormat

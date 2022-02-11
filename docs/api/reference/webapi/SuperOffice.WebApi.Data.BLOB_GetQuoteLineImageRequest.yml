@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
+  id: BLOB_GetQuoteLineImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId
+  langs:
+  - csharp
+  - vb
+  name: BLOB_GetQuoteLineImageRequest
+  nameWithType: BLOB_GetQuoteLineImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_GetQuoteLineImageRequest : Object'
+    content.vb: >-
+      Public Class BLOB_GetQuoteLineImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_GetQuoteLineImageRequest()
+  nameWithType: BLOB_GetQuoteLineImageRequest.BLOB_GetQuoteLineImageRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.BLOB_GetQuoteLineImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_GetQuoteLineImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: BLOB_GetQuoteLineImageRequest.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteLineId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.#ctor
+  isExternal: true
+  name: BLOB_GetQuoteLineImageRequest
+  nameWithType: BLOB_GetQuoteLineImageRequest.BLOB_GetQuoteLineImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.BLOB_GetQuoteLineImageRequest
+- uid: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: BLOB_GetQuoteLineImageRequest.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.BLOB_GetQuoteLineImageRequest.QuoteLineId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,52 @@
+items:
+- name: Database
+  topicHref: index.yml
+  expanded: true
+  items:
+  - name: Introduction
+    href: overview.md
+  - name: Getting started
+    href: getting-started/index.md
+    items:
+    - name: Overview
+      href: getting-started/overview.md
+    - name: SuperOffice view of the world
+      href: getting-started/so-view-of-the-world.md
+    - name: Main tables
+      href: getting-started/main-tables.md
+    - name: Special tables
+      href: getting-started/special-tables.md
+    - name: Naming conventions
+      href: getting-started/naming-conventions.md
+    - name: Table ID sequence
+      href: getting-started/table-id-sequence.md
+  - name: Security
+    href: security/index.md
+    items:
+    - name: Single database user
+      href: security/single-database-user.md
+  - name: Dictionary
+    href: dictionary/index.md
+    items:
+    - name: Dictionary steps
+      href: dictionary/dictionary-steps.md
+    - name: How to make database changes
+      href: dictionary/howto-make-db-changes.md
+    - name: Imp file format
+      href: dictionary/imp-file-format.md
+    - name: Custompriming
+      href: dictionary/custompriming-method.md
+    - name: Impfilenames
+      href: dictionary/impfilenames-method.md
+    - name: Structure
+      href: dictionary/structure-method.md
+  - name: Transaction log
+    href: transaction-log/index.md
+    items:
+    - name: Format
+      href: transaction-log/format.md
+    - name: Inspecting the log
+      href: transaction-log/query-log.md
+  - name: Reference
+    href: tables/toc.yml
+    topicHref: tables/index.md

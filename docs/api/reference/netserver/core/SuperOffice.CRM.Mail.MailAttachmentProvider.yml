@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider
+  commentId: T:SuperOffice.CRM.Mail.MailAttachmentProvider
+  id: MailAttachmentProvider
+  parent: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Documents.PhysicalDocument)
+  - SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Entities.Document)
+  - SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MailAttachmentProvider
+  nameWithType: MailAttachmentProvider
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGets information about an attachment for a mail\n"
+  syntax:
+    content: public static class MailAttachmentProvider
+    content.vb: Public Module MailAttachmentProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(System.Int32)
+  commentId: M:SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(System.Int32)
+  id: GetFor(System.Int32)
+  parent: SuperOffice.CRM.Mail.MailAttachmentProvider
+  langs:
+  - csharp
+  - vb
+  name: GetFor(Int32)
+  nameWithType: MailAttachmentProvider.GetFor(Int32)
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCreate a mail attachment from a document stored in the document archive.\n"
+  syntax:
+    content: public static MailAttachment GetFor(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: Primary key of the document in the database.
+    return:
+      type: SuperOffice.CRM.Mail.MailAttachment
+    content.vb: Public Shared Function GetFor(documentId As Integer) As MailAttachment
+  overload: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Entities.Document)
+  commentId: M:SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Entities.Document)
+  id: GetFor(SuperOffice.CRM.Entities.Document)
+  parent: SuperOffice.CRM.Mail.MailAttachmentProvider
+  langs:
+  - csharp
+  - vb
+  name: GetFor(Document)
+  nameWithType: MailAttachmentProvider.GetFor(Document)
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Entities.Document)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCreate a mail attachment from a document stored in the document archive.\n"
+  syntax:
+    content: public static MailAttachment GetFor(Document document)
+    parameters:
+    - id: document
+      type: SuperOffice.CRM.Entities.Document
+      description: Entity representing the document.
+    return:
+      type: SuperOffice.CRM.Mail.MailAttachment
+    content.vb: Public Shared Function GetFor(document As Document) As MailAttachment
+  overload: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.IDocumentInfo)
+  id: GetFor(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Mail.MailAttachmentProvider
+  langs:
+  - csharp
+  - vb
+  name: GetFor(IDocumentInfo)
+  nameWithType: MailAttachmentProvider.GetFor(IDocumentInfo)
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCreate a mail attachment from a document stored in the document archive.\n"
+  syntax:
+    content: public static MailAttachment GetFor(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Information about the document
+    return:
+      type: SuperOffice.CRM.Mail.MailAttachment
+    content.vb: Public Shared Function GetFor(documentInfo As IDocumentInfo) As MailAttachment
+  overload: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Documents.PhysicalDocument)
+  commentId: M:SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Documents.PhysicalDocument)
+  id: GetFor(SuperOffice.CRM.Documents.PhysicalDocument)
+  parent: SuperOffice.CRM.Mail.MailAttachmentProvider
+  langs:
+  - csharp
+  - vb
+  name: GetFor(PhysicalDocument)
+  nameWithType: MailAttachmentProvider.GetFor(PhysicalDocument)
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor(SuperOffice.CRM.Documents.PhysicalDocument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCreate a mail attachment from a document stored in the document archive.\n"
+  syntax:
+    content: public static MailAttachment GetFor(PhysicalDocument document)
+    parameters:
+    - id: document
+      type: SuperOffice.CRM.Documents.PhysicalDocument
+      description: Object referring to the document in the document archive.
+    return:
+      type: SuperOffice.CRM.Mail.MailAttachment
+    content.vb: Public Shared Function GetFor(document As PhysicalDocument) As MailAttachment
+  overload: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor*
+  commentId: Overload:SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor
+  isExternal: true
+  name: GetFor
+  nameWithType: MailAttachmentProvider.GetFor
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider.GetFor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Mail.MailAttachment
+  isExternal: true
+  name: MailAttachment
+  nameWithType: MailAttachment
+  fullName: SuperOffice.CRM.Mail.MailAttachment
+- uid: SuperOffice.CRM.Entities.Document
+  commentId: T:SuperOffice.CRM.Entities.Document
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Document
+  nameWithType: Document
+  fullName: SuperOffice.CRM.Entities.Document
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Documents.PhysicalDocument
+  commentId: T:SuperOffice.CRM.Documents.PhysicalDocument
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: PhysicalDocument
+  nameWithType: PhysicalDocument
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents

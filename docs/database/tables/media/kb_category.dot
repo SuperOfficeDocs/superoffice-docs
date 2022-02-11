@@ -1,0 +1,23 @@
+digraph kb_category  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_category[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+dbi_agent[fillcolor = "azure1"]
+mail_in_filter[fillcolor = "azure1"]
+kb_entry[fillcolor = "azure1"]
+kb_group[fillcolor = "azure1"]
+kb_category_log[fillcolor = "azure1"]
+cust_lang[fillcolor = "azure1"]
+chat_topic[fillcolor = "azure1"]
+kb_category -> kb_category [headlabel = "parent_id"]
+kb_category -> ejuser [headlabel = "created_by"]
+kb_category -> dbi_agent [headlabel = "dbi_agent_id"]
+mail_in_filter -> kb_category [label = "autofaq_kb_category"]
+kb_entry -> kb_category [label = "category_id"]
+kb_group -> kb_category [label = "kb_category_id"]
+kb_category_log -> kb_category [label = "kb_category_id"]
+cust_lang -> kb_category [label = "kb_root"]
+chat_topic -> kb_category [label = "kb_category_id"]
+}

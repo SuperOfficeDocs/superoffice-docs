@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  id: FindCriteriaListController
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  - SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  - SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  - SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  langs:
+  - csharp
+  - vb
+  name: FindCriteriaListController
+  nameWithType: FindCriteriaListController
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class FindCriteriaListController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class FindCriteriaListController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  id: SaveRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  parent: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  langs:
+  - csharp
+  - vb
+  name: SaveRestrictions(FindCriteriaListController.SaveSearchResultRequest)
+  nameWithType: FindCriteriaListController.SaveRestrictions(FindCriteriaListController.SaveSearchResultRequest)
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void SaveRestrictions(FindCriteriaListController.SaveSearchResultRequest saveSearchResultRequest)
+    parameters:
+    - id: saveSearchResultRequest
+      type: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+    content.vb: Public Sub SaveRestrictions(saveSearchResultRequest As FindCriteriaListController.SaveSearchResultRequest)
+  overload: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  id: SaveRestrictionsToSelection(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  parent: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  langs:
+  - csharp
+  - vb
+  name: SaveRestrictionsToSelection(FindCriteriaListController.SaveSearchResultRequest)
+  nameWithType: FindCriteriaListController.SaveRestrictionsToSelection(FindCriteriaListController.SaveSearchResultRequest)
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int SaveRestrictionsToSelection(FindCriteriaListController.SaveSearchResultRequest saveSearchResultRequest)
+    parameters:
+    - id: saveSearchResultRequest
+      type: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+    return:
+      type: System.Int32
+    content.vb: Public Function SaveRestrictionsToSelection(saveSearchResultRequest As FindCriteriaListController.SaveSearchResultRequest) As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  id: SaveErpSearchResult(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  parent: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  langs:
+  - csharp
+  - vb
+  name: SaveErpSearchResult(FindCriteriaListController.SaveSearchResultRequest)
+  nameWithType: FindCriteriaListController.SaveErpSearchResult(FindCriteriaListController.SaveSearchResultRequest)
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void SaveErpSearchResult(FindCriteriaListController.SaveSearchResultRequest saveErpSearchResultRequest)
+    parameters:
+    - id: saveErpSearchResultRequest
+      type: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+    content.vb: Public Sub SaveErpSearchResult(saveErpSearchResultRequest As FindCriteriaListController.SaveSearchResultRequest)
+  overload: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  id: SaveSaintRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  parent: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  langs:
+  - csharp
+  - vb
+  name: SaveSaintRestrictions(FindCriteriaListController.SaveSearchResultRequest)
+  nameWithType: FindCriteriaListController.SaveSaintRestrictions(FindCriteriaListController.SaveSearchResultRequest)
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions(SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void SaveSaintRestrictions(FindCriteriaListController.SaveSearchResultRequest saveSaintResultRequest)
+    parameters:
+    - id: saveSaintResultRequest
+      type: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+    content.vb: Public Sub SaveSaintRestrictions(saveSaintResultRequest As FindCriteriaListController.SaveSearchResultRequest)
+  overload: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+  langs:
+  - csharp
+  - vb
+  name: FindCriteriaListController()
+  nameWithType: FindCriteriaListController.FindCriteriaListController()
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.FindCriteriaListController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public FindCriteriaListController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions
+  isExternal: true
+  name: SaveRestrictions
+  nameWithType: FindCriteriaListController.SaveRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictions
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: FindCriteriaListController.SaveSearchResultRequest
+  nameWithType: FindCriteriaListController.SaveSearchResultRequest
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection
+  isExternal: true
+  name: SaveRestrictionsToSelection
+  nameWithType: FindCriteriaListController.SaveRestrictionsToSelection
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveRestrictionsToSelection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult
+  isExternal: true
+  name: SaveErpSearchResult
+  nameWithType: FindCriteriaListController.SaveErpSearchResult
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveErpSearchResult
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions
+  isExternal: true
+  name: SaveSaintRestrictions
+  nameWithType: FindCriteriaListController.SaveSaintRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSaintRestrictions
+- uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.#ctor
+  isExternal: true
+  name: FindCriteriaListController
+  nameWithType: FindCriteriaListController.FindCriteriaListController
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.FindCriteriaListController

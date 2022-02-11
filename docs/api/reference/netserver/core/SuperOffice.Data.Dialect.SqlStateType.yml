@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.SqlStateType
+  commentId: T:SuperOffice.Data.Dialect.SqlStateType
+  id: SqlStateType
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.SqlStateType.DB2Delete
+  - SuperOffice.Data.Dialect.SqlStateType.DB2Insert
+  - SuperOffice.Data.Dialect.SqlStateType.DB2Select
+  - SuperOffice.Data.Dialect.SqlStateType.DB2Update
+  - SuperOffice.Data.Dialect.SqlStateType.OracleDelete
+  - SuperOffice.Data.Dialect.SqlStateType.OracleInsert
+  - SuperOffice.Data.Dialect.SqlStateType.OracleSelect
+  - SuperOffice.Data.Dialect.SqlStateType.OracleUpdate
+  - SuperOffice.Data.Dialect.SqlStateType.SqlNoType
+  - SuperOffice.Data.Dialect.SqlStateType.SqlServerDelete
+  - SuperOffice.Data.Dialect.SqlStateType.SqlServerInsert
+  - SuperOffice.Data.Dialect.SqlStateType.SqlServerSelect
+  - SuperOffice.Data.Dialect.SqlStateType.SqlServerUpdate
+  - SuperOffice.Data.Dialect.SqlStateType.SybaseDelete
+  - SuperOffice.Data.Dialect.SqlStateType.SybaseInsert
+  - SuperOffice.Data.Dialect.SqlStateType.SybaseSelect
+  - SuperOffice.Data.Dialect.SqlStateType.SybaseUpdate
+  langs:
+  - csharp
+  - vb
+  name: SqlStateType
+  nameWithType: SqlStateType
+  fullName: SuperOffice.Data.Dialect.SqlStateType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nContains the different sql-state operations we can do.\nUsed when we want to explain to the sqlparser that we&apos;re dealing with\nthis specific type of dialect, ex. when we don&apos;t want alias on the \nreturnfields.\n"
+  syntax:
+    content: public enum SqlStateType
+    content.vb: Public Enum SqlStateType
+  extensionMethods:
+  - SuperOffice.Data.Dialect.SqlStateType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.SqlStateType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.SqlStateType)
+  - SuperOffice.Data.Dialect.SqlStateType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Dialect.SqlStateType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.Dialect.SqlStateType.SqlNoType
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SqlNoType
+  id: SqlNoType
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SqlNoType
+  nameWithType: SqlStateType.SqlNoType
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SqlNoType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SqlNoType = 0
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SqlServerInsert
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SqlServerInsert
+  id: SqlServerInsert
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SqlServerInsert
+  nameWithType: SqlStateType.SqlServerInsert
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SqlServerInsert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SqlServerInsert = 1
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SqlServerUpdate
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SqlServerUpdate
+  id: SqlServerUpdate
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SqlServerUpdate
+  nameWithType: SqlStateType.SqlServerUpdate
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SqlServerUpdate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SqlServerUpdate = 2
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SqlServerDelete
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SqlServerDelete
+  id: SqlServerDelete
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SqlServerDelete
+  nameWithType: SqlStateType.SqlServerDelete
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SqlServerDelete
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SqlServerDelete = 3
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SqlServerSelect
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SqlServerSelect
+  id: SqlServerSelect
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SqlServerSelect
+  nameWithType: SqlStateType.SqlServerSelect
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SqlServerSelect
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SqlServerSelect = 4
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.OracleInsert
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.OracleInsert
+  id: OracleInsert
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: OracleInsert
+  nameWithType: SqlStateType.OracleInsert
+  fullName: SuperOffice.Data.Dialect.SqlStateType.OracleInsert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: OracleInsert = 5
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.OracleUpdate
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.OracleUpdate
+  id: OracleUpdate
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: OracleUpdate
+  nameWithType: SqlStateType.OracleUpdate
+  fullName: SuperOffice.Data.Dialect.SqlStateType.OracleUpdate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: OracleUpdate = 6
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.OracleSelect
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.OracleSelect
+  id: OracleSelect
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: OracleSelect
+  nameWithType: SqlStateType.OracleSelect
+  fullName: SuperOffice.Data.Dialect.SqlStateType.OracleSelect
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: OracleSelect = 7
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.OracleDelete
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.OracleDelete
+  id: OracleDelete
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: OracleDelete
+  nameWithType: SqlStateType.OracleDelete
+  fullName: SuperOffice.Data.Dialect.SqlStateType.OracleDelete
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: OracleDelete = 8
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.DB2Insert
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.DB2Insert
+  id: DB2Insert
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: DB2Insert
+  nameWithType: SqlStateType.DB2Insert
+  fullName: SuperOffice.Data.Dialect.SqlStateType.DB2Insert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: DB2Insert = 9
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.DB2Update
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.DB2Update
+  id: DB2Update
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: DB2Update
+  nameWithType: SqlStateType.DB2Update
+  fullName: SuperOffice.Data.Dialect.SqlStateType.DB2Update
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: DB2Update = 10
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.DB2Select
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.DB2Select
+  id: DB2Select
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: DB2Select
+  nameWithType: SqlStateType.DB2Select
+  fullName: SuperOffice.Data.Dialect.SqlStateType.DB2Select
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: DB2Select = 11
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.DB2Delete
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.DB2Delete
+  id: DB2Delete
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: DB2Delete
+  nameWithType: SqlStateType.DB2Delete
+  fullName: SuperOffice.Data.Dialect.SqlStateType.DB2Delete
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: DB2Delete = 12
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SybaseInsert
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SybaseInsert
+  id: SybaseInsert
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SybaseInsert
+  nameWithType: SqlStateType.SybaseInsert
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SybaseInsert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SybaseInsert = 13
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SybaseUpdate
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SybaseUpdate
+  id: SybaseUpdate
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SybaseUpdate
+  nameWithType: SqlStateType.SybaseUpdate
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SybaseUpdate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SybaseUpdate = 14
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SybaseSelect
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SybaseSelect
+  id: SybaseSelect
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SybaseSelect
+  nameWithType: SqlStateType.SybaseSelect
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SybaseSelect
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SybaseSelect = 15
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dialect.SqlStateType.SybaseDelete
+  commentId: F:SuperOffice.Data.Dialect.SqlStateType.SybaseDelete
+  id: SybaseDelete
+  parent: SuperOffice.Data.Dialect.SqlStateType
+  langs:
+  - csharp
+  - vb
+  name: SybaseDelete
+  nameWithType: SqlStateType.SybaseDelete
+  fullName: SuperOffice.Data.Dialect.SqlStateType.SybaseDelete
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: SybaseDelete = 16
+    return:
+      type: SuperOffice.Data.Dialect.SqlStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+- uid: SuperOffice.Data.Dialect.SqlStateType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SqlStateType, To>()
+  nameWithType: EnumUtil.MapEnums<SqlStateType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.SqlStateType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SqlStateType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.SqlStateType, To)()
+  name.vb: MapEnums(Of SqlStateType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SqlStateType, To>
+    nameWithType: EnumUtil.MapEnums<SqlStateType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.SqlStateType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SqlStateType, To)
+    nameWithType: EnumUtil.MapEnums(Of SqlStateType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.SqlStateType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlStateType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.SqlStateType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SqlStateType>(SqlStateType)
+  nameWithType: ObjectExtensions.AssignByReflection<SqlStateType>(SqlStateType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.SqlStateType>(SuperOffice.Data.Dialect.SqlStateType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SqlStateType)(SqlStateType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.SqlStateType)(SuperOffice.Data.Dialect.SqlStateType)
+  name.vb: AssignByReflection(Of SqlStateType)(SqlStateType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SqlStateType>
+    nameWithType: ObjectExtensions.AssignByReflection<SqlStateType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.SqlStateType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dialect.SqlStateType
+    name: SqlStateType
+    nameWithType: SqlStateType
+    fullName: SuperOffice.Data.Dialect.SqlStateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SqlStateType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SqlStateType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.SqlStateType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dialect.SqlStateType
+    name: SqlStateType
+    nameWithType: SqlStateType
+    fullName: SuperOffice.Data.Dialect.SqlStateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlStateType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SqlStateType>()
+  nameWithType: ObjectExtensions.GraphCopy<SqlStateType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.SqlStateType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SqlStateType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.SqlStateType)()
+  name.vb: GraphCopy(Of SqlStateType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SqlStateType>
+    nameWithType: ObjectExtensions.GraphCopy<SqlStateType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.SqlStateType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SqlStateType)
+    nameWithType: ObjectExtensions.GraphCopy(Of SqlStateType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.SqlStateType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlStateType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SqlStateType, To>()
+  nameWithType: Converters.MapEnums<SqlStateType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.SqlStateType, To>()
+  nameWithType.vb: Converters.MapEnums(Of SqlStateType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.SqlStateType, To)()
+  name.vb: MapEnums(Of SqlStateType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SqlStateType, To>
+    nameWithType: Converters.MapEnums<SqlStateType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.SqlStateType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SqlStateType, To)
+    nameWithType: Converters.MapEnums(Of SqlStateType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.SqlStateType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.SqlStateType
+  commentId: T:SuperOffice.Data.Dialect.SqlStateType
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: SqlStateType
+  nameWithType: SqlStateType
+  fullName: SuperOffice.Data.Dialect.SqlStateType

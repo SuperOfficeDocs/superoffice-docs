@@ -1,0 +1,10 @@
+digraph travelidmapping  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+travelidmapping[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+travelidmapping -> associate [headlabel = "associate_id"]
+travelidmapping -> associate [label = "registered_associate_id"]
+travelidmapping -> associate [label = "updated_associate_id"]
+}

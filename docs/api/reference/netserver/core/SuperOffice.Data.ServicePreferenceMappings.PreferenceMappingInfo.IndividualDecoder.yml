@@ -1,0 +1,417 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  id: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+  - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCustom decoding from stored value to preference string value\n"
+  syntax:
+    content: public delegate string IndividualDecoder(string key, string rawValue);
+    parameters:
+    - id: key
+      type: System.String
+      description: Preference key
+    - id: rawValue
+      type: System.String
+      description: Stored value
+    return:
+      type: System.String
+    content.vb: Public Delegate Function IndividualDecoder(key As String, rawValue As String) As String
+  extensionMethods:
+  - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  langs:
+  - csharp
+  - vb
+  name: IndividualDecoder(Object, IntPtr)
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.IndividualDecoder(Object, IntPtr)
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.IndividualDecoder(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public IndividualDecoder(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke(System.String,System.String)
+  commentId: M:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke(System.String,System.String)
+  id: Invoke(System.String,System.String)
+  parent: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  langs:
+  - csharp
+  - vb
+  name: Invoke(String, String)
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke(String, String)
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public virtual string Invoke(string key, string rawValue)
+    parameters:
+    - id: key
+      type: System.String
+    - id: rawValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Overridable Function Invoke(key As String, rawValue As String) As String
+  overload: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(String, String, AsyncCallback, Object)
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke(String, String, AsyncCallback, Object)
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke(System.String, System.String, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(string key, string rawValue, AsyncCallback callback, object object)
+    parameters:
+    - id: key
+      type: System.String
+    - id: rawValue
+      type: System.String
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(key As String, rawValue As String, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public virtual string EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.String
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As String
+  overload: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>()
+  nameWithType: EnumUtil.MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)()
+  name.vb: MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>
+    nameWithType: EnumUtil.MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)
+    nameWithType: EnumUtil.MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>()
+  nameWithType: Converters.MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)()
+  name.vb: MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>
+    nameWithType: Converters.MapEnums<ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)
+    nameWithType: Converters.MapEnums(Of ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.#ctor*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.#ctor
+  isExternal: true
+  name: IndividualDecoder
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.IndividualDecoder
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.IndividualDecoder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.Invoke
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.EndInvoke

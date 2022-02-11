@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ISelectionInfo
+  commentId: T:SuperOffice.CRM.ISelectionInfo
+  id: ISelectionInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ISelectionInfo.Name
+  - SuperOffice.CRM.ISelectionInfo.SelectedMembers
+  - SuperOffice.CRM.ISelectionInfo.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: ISelectionInfo
+  nameWithType: ISelectionInfo
+  fullName: SuperOffice.CRM.ISelectionInfo
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nInterface providing information about a selection.\n"
+  syntax:
+    content: public interface ISelectionInfo
+    content.vb: Public Interface ISelectionInfo
+  extensionMethods:
+  - SuperOffice.CRM.ISelectionInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ISelectionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.ISelectionInfo.SelectionId
+  commentId: P:SuperOffice.CRM.ISelectionInfo.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.ISelectionInfo
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: ISelectionInfo.SelectionId
+  fullName: SuperOffice.CRM.ISelectionInfo.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nPrimary key of the selection record\n"
+  syntax:
+    content: int SelectionId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SelectionId As Integer
+  overload: SuperOffice.CRM.ISelectionInfo.SelectionId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISelectionInfo.Name
+  commentId: P:SuperOffice.CRM.ISelectionInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.ISelectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ISelectionInfo.Name
+  fullName: SuperOffice.CRM.ISelectionInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nName of the selection\n"
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: SuperOffice.CRM.ISelectionInfo.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.ISelectionInfo.SelectedMembers
+  commentId: P:SuperOffice.CRM.ISelectionInfo.SelectedMembers
+  id: SelectedMembers
+  parent: SuperOffice.CRM.ISelectionInfo
+  langs:
+  - csharp
+  - vb
+  name: SelectedMembers
+  nameWithType: ISelectionInfo.SelectedMembers
+  fullName: SuperOffice.CRM.ISelectionInfo.SelectedMembers
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nHighlighted list from selection. (space separated list consisting of comma separated contacts and persons from selection.)\n"
+  syntax:
+    content: string SelectedMembers { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SelectedMembers As String
+  overload: SuperOffice.CRM.ISelectionInfo.SelectedMembers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.ISelectionInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISelectionInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ISelectionInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISelectionInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISelectionInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ISelectionInfo, To)()
+  name.vb: MapEnums(Of ISelectionInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISelectionInfo, To>
+    nameWithType: EnumUtil.MapEnums<ISelectionInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISelectionInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISelectionInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ISelectionInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ISelectionInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ISelectionInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISelectionInfo, To>()
+  nameWithType: Converters.MapEnums<ISelectionInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISelectionInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISelectionInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISelectionInfo, To)()
+  name.vb: MapEnums(Of ISelectionInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISelectionInfo, To>
+    nameWithType: Converters.MapEnums<ISelectionInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISelectionInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISelectionInfo, To)
+    nameWithType: Converters.MapEnums(Of ISelectionInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISelectionInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ISelectionInfo.SelectionId*
+  commentId: Overload:SuperOffice.CRM.ISelectionInfo.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: ISelectionInfo.SelectionId
+  fullName: SuperOffice.CRM.ISelectionInfo.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ISelectionInfo.Name*
+  commentId: Overload:SuperOffice.CRM.ISelectionInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ISelectionInfo.Name
+  fullName: SuperOffice.CRM.ISelectionInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ISelectionInfo.SelectedMembers*
+  commentId: Overload:SuperOffice.CRM.ISelectionInfo.SelectedMembers
+  isExternal: true
+  name: SelectedMembers
+  nameWithType: ISelectionInfo.SelectedMembers
+  fullName: SuperOffice.CRM.ISelectionInfo.SelectedMembers

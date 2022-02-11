@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
+  id: List_SetDocumentTemplateFromDocumentTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  - SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  langs:
+  - csharp
+  - vb
+  name: List_SetDocumentTemplateFromDocumentTemplateRequest
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetDocumentTemplateFromDocumentTemplateRequest : Object'
+    content.vb: >-
+      Public Class List_SetDocumentTemplateFromDocumentTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetDocumentTemplateFromDocumentTemplateRequest()
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest.List_SetDocumentTemplateFromDocumentTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.List_SetDocumentTemplateFromDocumentTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetDocumentTemplateFromDocumentTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  id: SourceDocumentTemplateId
+  parent: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceDocumentTemplateId
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceDocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceDocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  commentId: P:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  id: DocumentTemplateEntity
+  parent: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateEntity
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DocumentTemplateEntity DocumentTemplateEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DocumentTemplateEntity
+    content.vb: Public Property DocumentTemplateEntity As DocumentTemplateEntity
+  overload: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.#ctor
+  isExternal: true
+  name: List_SetDocumentTemplateFromDocumentTemplateRequest
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest.List_SetDocumentTemplateFromDocumentTemplateRequest
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.List_SetDocumentTemplateFromDocumentTemplateRequest
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  isExternal: true
+  name: SourceDocumentTemplateId
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.SourceDocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  isExternal: true
+  name: DocumentTemplateEntity
+  nameWithType: List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+  fullName: SuperOffice.WebApi.Data.List_SetDocumentTemplateFromDocumentTemplateRequest.DocumentTemplateEntity
+- uid: SuperOffice.WebApi.Data.DocumentTemplateEntity
+  commentId: T:SuperOffice.WebApi.Data.DocumentTemplateEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocumentTemplateEntity
+  nameWithType: DocumentTemplateEntity
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateEntity

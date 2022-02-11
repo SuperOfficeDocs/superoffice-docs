@@ -1,0 +1,17 @@
+digraph AmountClass  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+AmountClass[fillcolor = "cadetblue1"]
+Currency[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+CounterValue[fillcolor = "azure1"]
+AmountClassGroupLink[fillcolor = "azure1"]
+AmountClassHeadingLink[fillcolor = "azure1"]
+AmountClass -> Currency [headlabel = "currencyId"]
+AmountClass -> associate [headlabel = "registered_associate_id"]
+AmountClass -> associate [label = "updated_associate_id"]
+CounterValue -> AmountClass [label = "amountClassId"]
+AmountClassGroupLink -> AmountClass [label = "amountclass_id"]
+AmountClassHeadingLink -> AmountClass [label = "amountclass_id"]
+}

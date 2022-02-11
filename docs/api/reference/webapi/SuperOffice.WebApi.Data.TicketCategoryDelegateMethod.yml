@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  id: TicketCategoryDelegateMethod
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Even
+  - SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Not
+  - SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unfair
+  - SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unknown
+  - SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.value__
+  - SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Weighted
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryDelegateMethod
+  nameWithType: TicketCategoryDelegateMethod
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delegate method used for request assigned to this category\nThis Enum is used by:  ej_category.delegate_method\n"
+  syntax:
+    content: 'public sealed class TicketCategoryDelegateMethod : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketCategoryDelegateMethod
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketCategoryDelegateMethod.value__
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketCategoryDelegateMethod.Unknown
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The delegate method is unknown, should normally not occure in the database\n"
+  syntax:
+    content: public const TicketCategoryDelegateMethod Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+    content.vb: Public Const Unknown As TicketCategoryDelegateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Even
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Even
+  id: Even
+  parent: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  langs:
+  - csharp
+  - vb
+  name: Even
+  nameWithType: TicketCategoryDelegateMethod.Even
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Even
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Delegate request even among the members of the category\n"
+  syntax:
+    content: public const TicketCategoryDelegateMethod Even
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+    content.vb: Public Const Even As TicketCategoryDelegateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Weighted
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Weighted
+  id: Weighted
+  parent: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  langs:
+  - csharp
+  - vb
+  name: Weighted
+  nameWithType: TicketCategoryDelegateMethod.Weighted
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Weighted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Use weights on each member of the category when delegating requests\n"
+  syntax:
+    content: public const TicketCategoryDelegateMethod Weighted
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+    content.vb: Public Const Weighted As TicketCategoryDelegateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unfair
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unfair
+  id: Unfair
+  parent: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  langs:
+  - csharp
+  - vb
+  name: Unfair
+  nameWithType: TicketCategoryDelegateMethod.Unfair
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Unfair
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The user with the least active request will be delegated the request\n"
+  syntax:
+    content: public const TicketCategoryDelegateMethod Unfair
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+    content.vb: Public Const Unfair As TicketCategoryDelegateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Not
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Not
+  id: Not
+  parent: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  langs:
+  - csharp
+  - vb
+  name: Not
+  nameWithType: TicketCategoryDelegateMethod.Not
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod.Not
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Do not delegate request. Instead set them as unassigned\n"
+  syntax:
+    content: public const TicketCategoryDelegateMethod Not
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+    content.vb: Public Const Not As TicketCategoryDelegateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryDelegateMethod
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketCategoryDelegateMethod
+  nameWithType: TicketCategoryDelegateMethod
+  fullName: SuperOffice.WebApi.Data.TicketCategoryDelegateMethod

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.AI
+  commentId: N:SuperOffice.CRM.AI
+  id: SuperOffice.CRM.AI
+  children:
+  - SuperOffice.CRM.AI.CategoryGuessing
+  - SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+  - SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.AI
+  nameWithType: SuperOffice.CRM.AI
+  fullName: SuperOffice.CRM.AI
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.AI.CategoryGuessing
+  commentId: T:SuperOffice.CRM.AI.CategoryGuessing
+  isExternal: true
+  name: CategoryGuessing
+  nameWithType: CategoryGuessing
+  fullName: SuperOffice.CRM.AI.CategoryGuessing
+- uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+  commentId: T:SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+  isExternal: true
+  name: CategoryGuessing.CategorizationTrainingItem
+  nameWithType: CategoryGuessing.CategorizationTrainingItem
+  fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
+- uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+  commentId: T:SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+  parent: SuperOffice.CRM.AI
+  isExternal: true
+  name: CategoryGuessing.CategorizationRequestItem
+  nameWithType: CategoryGuessing.CategorizationRequestItem
+  fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
+- uid: SuperOffice.CRM.AI
+  commentId: N:SuperOffice.CRM.AI
+  isExternal: true
+  name: SuperOffice.CRM.AI
+  nameWithType: SuperOffice.CRM.AI
+  fullName: SuperOffice.CRM.AI

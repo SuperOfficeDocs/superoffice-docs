@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  id: Document_GetPublishedDocumentsByDateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count
+  - SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime
+  - SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  - SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId
+  - SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime
+  langs:
+  - csharp
+  - vb
+  name: Document_GetPublishedDocumentsByDateRequest
+  nameWithType: Document_GetPublishedDocumentsByDateRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetPublishedDocumentsByDateRequest : Object'
+    content.vb: >-
+      Public Class Document_GetPublishedDocumentsByDateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetPublishedDocumentsByDateRequest()
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.Document_GetPublishedDocumentsByDateRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Document_GetPublishedDocumentsByDateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetPublishedDocumentsByDateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  id: IncludeProjectDocuments
+  parent: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeProjectDocuments
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeProjectDocuments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeProjectDocuments As Boolean
+  overload: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.Count
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.#ctor
+  isExternal: true
+  name: Document_GetPublishedDocumentsByDateRequest
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.Document_GetPublishedDocumentsByDateRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Document_GetPublishedDocumentsByDateRequest
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  isExternal: true
+  name: IncludeProjectDocuments
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.IncludeProjectDocuments
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.EndTime
+- uid: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Document_GetPublishedDocumentsByDateRequest.Count
+  fullName: SuperOffice.WebApi.Data.Document_GetPublishedDocumentsByDateRequest.Count

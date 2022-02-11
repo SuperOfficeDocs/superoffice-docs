@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest
+  id: Quote_DeleteQuoteLinesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteQuoteLinesRequest
+  nameWithType: Quote_DeleteQuoteLinesRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_DeleteQuoteLinesRequest : Object'
+    content.vb: >-
+      Public Class Quote_DeleteQuoteLinesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteQuoteLinesRequest()
+  nameWithType: Quote_DeleteQuoteLinesRequest.Quote_DeleteQuoteLinesRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.Quote_DeleteQuoteLinesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_DeleteQuoteLinesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  commentId: P:SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  id: QuoteLineIds
+  parent: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineIds
+  nameWithType: Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] QuoteLineIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property QuoteLineIds As Integer()
+  overload: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.#ctor
+  isExternal: true
+  name: Quote_DeleteQuoteLinesRequest
+  nameWithType: Quote_DeleteQuoteLinesRequest.Quote_DeleteQuoteLinesRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.Quote_DeleteQuoteLinesRequest
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  isExternal: true
+  name: QuoteLineIds
+  nameWithType: Quote_DeleteQuoteLinesRequest.QuoteLineIds
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteLinesRequest.QuoteLineIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

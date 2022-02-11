@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImageRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetPersonImageRequest
+  id: Person_GetPersonImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetPersonImageRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetPersonImageRequest
+  nameWithType: Person_GetPersonImageRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetPersonImageRequest : Object'
+    content.vb: >-
+      Public Class Person_GetPersonImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetPersonImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetPersonImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetPersonImageRequest()
+  nameWithType: Person_GetPersonImageRequest.Person_GetPersonImageRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.Person_GetPersonImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetPersonImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_GetPersonImageRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_GetPersonImageRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonImageRequest.#ctor
+  isExternal: true
+  name: Person_GetPersonImageRequest
+  nameWithType: Person_GetPersonImageRequest.Person_GetPersonImageRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.Person_GetPersonImageRequest
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_GetPersonImageRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImageRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

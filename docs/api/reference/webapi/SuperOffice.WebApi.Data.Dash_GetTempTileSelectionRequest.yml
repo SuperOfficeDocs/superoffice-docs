@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  id: Dash_GetTempTileSelectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Dash_GetTempTileSelectionRequest
+  nameWithType: Dash_GetTempTileSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_GetTempTileSelectionRequest : Object'
+    content.vb: >-
+      Public Class Dash_GetTempTileSelectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_GetTempTileSelectionRequest()
+  nameWithType: Dash_GetTempTileSelectionRequest.Dash_GetTempTileSelectionRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.Dash_GetTempTileSelectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_GetTempTileSelectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Dash_GetTempTileSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.#ctor
+  isExternal: true
+  name: Dash_GetTempTileSelectionRequest
+  nameWithType: Dash_GetTempTileSelectionRequest.Dash_GetTempTileSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.Dash_GetTempTileSelectionRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Dash_GetTempTileSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

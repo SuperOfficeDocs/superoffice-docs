@@ -1,0 +1,11 @@
+digraph TemporaryKey  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TemporaryKey[fillcolor = "cadetblue1"]
+person[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+TemporaryKey -> person [headlabel = "person_id"]
+TemporaryKey -> associate [headlabel = "registered_associate_id"]
+TemporaryKey -> associate [label = "updated_associate_id"]
+}

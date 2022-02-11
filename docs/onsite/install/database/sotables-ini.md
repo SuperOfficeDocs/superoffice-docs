@@ -56,7 +56,7 @@ If you need to reuse a privacy key later, in another table you may use variables
 
 <!-- Referenced links -->
 [1]: dbsetup-exe.md
-[2]: ../../../../../database/docs/dictionary/howto-make-db-changes.md
+[2]: ../../../database/dictionary/howto-make-db-changes.md
 
 <!-- Referenced links -->
 [img1]:media/primaryforeignkey.png

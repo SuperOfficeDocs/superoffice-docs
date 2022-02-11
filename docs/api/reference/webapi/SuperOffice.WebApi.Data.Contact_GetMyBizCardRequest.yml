@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest
+  id: Contact_GetMyBizCardRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetMyBizCardRequest
+  nameWithType: Contact_GetMyBizCardRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetMyBizCardRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetMyBizCardRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetMyBizCardRequest()
+  nameWithType: Contact_GetMyBizCardRequest.Contact_GetMyBizCardRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.Contact_GetMyBizCardRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetMyBizCardRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.#ctor
+  isExternal: true
+  name: Contact_GetMyBizCardRequest
+  nameWithType: Contact_GetMyBizCardRequest.Contact_GetMyBizCardRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyBizCardRequest.Contact_GetMyBizCardRequest

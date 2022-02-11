@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.FormsRecaptchaMode
+  # Same as SuperOffice.Data.FormsFormsRecaptchaMode
+  commentId: T:CRMScript.NetServer.FormsRecaptchaMode
+  id: FormsRecaptchaMode
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.FormsRecaptchaMode.NotAvailable
+  - CRMScript.NetServer.FormsRecaptchaMode.GlobalKeysExist
+  - CRMScript.NetServer.FormsRecaptchaMode.KeysNeeded
+  name: FormsRecaptchaMode
+  nameWithType: FormsRecaptchaMode
+  fullName: CRMScript.NetServer.FormsRecaptchaMode
+  type: Enum
+  summary: "\nForms reCAPTCHA mode\n"
+- uid: CRMScript.NetServer.FormsRecaptchaMode.NotAvailable
+  commentId: F:CRMScript.NetServer.FormsRecaptchaMode.NotAvailable
+  id: FormsRecaptchaMode.NotAvailable
+  langs:
+  - crmscript
+  name: FormsRecaptchaMode.NotAvailable
+  nameWithType: FormsRecaptchaMode.NotAvailable
+  fullName: CRMScript.NetServer.FormsRecaptchaMode.NotAvailable
+  type: Field
+  summary: "\n0: reCAPTCHA is turned off\n"
+  syntax: 
+    content: NotAvailable = 0
+    type: CRMScript.NetServer.FormsRecaptchaMode
+- uid: CRMScript.NetServer.FormsRecaptchaMode.GlobalKeysExist
+  commentId: F:CRMScript.NetServer.FormsRecaptchaMode.GlobalKeysExist
+  id: FormsRecaptchaMode.GlobalKeysExist
+  langs:
+  - crmscript
+  name: FormsRecaptchaMode.GlobalKeysExist
+  nameWithType: FormsRecaptchaMode.GlobalKeysExist
+  fullName: CRMScript.NetServer.FormsRecaptchaMode.GlobalKeysExist
+  type: Field
+  summary: "\n1: Global reCAPTCHA keys are configured\n"
+  syntax: 
+    content: GlobalKeysExist = 1
+    type: CRMScript.NetServer.FormsRecaptchaMode
+- uid: CRMScript.NetServer.FormsRecaptchaMode.KeysNeeded
+  commentId: F:CRMScript.NetServer.FormsRecaptchaMode.KeysNeeded
+  id: FormsRecaptchaMode.KeysNeeded
+  langs:
+  - crmscript
+  name: FormsRecaptchaMode.KeysNeeded
+  nameWithType: FormsRecaptchaMode.KeysNeeded
+  fullName: CRMScript.NetServer.FormsRecaptchaMode.KeysNeeded
+  type: Field
+  summary: "\n2: reCAPTCHA keys need to be supplied\n"
+  syntax: 
+    content: KeysNeeded = 2
+    type: CRMScript.NetServer.FormsRecaptchaMode
+references:
+- uid: CRMScript.NetServer.FormsRecaptchaMode
+  commentId: T:CRMScript.NetServer.FormsRecaptchaMode
+  isExternal: true
+  name: FormsRecaptchaMode
+  nameWithType: FormsRecaptchaMode
+  fullName: CRMScript.NetServer.FormsRecaptchaMode

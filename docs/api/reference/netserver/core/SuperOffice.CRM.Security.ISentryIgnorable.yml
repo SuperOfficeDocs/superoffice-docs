@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.ISentryIgnorable
+  commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
+  id: ISentryIgnorable
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  langs:
+  - csharp
+  - vb
+  name: ISentryIgnorable
+  nameWithType: ISentryIgnorable
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nInterface providing mechanisms for temporary ignoring sentry for the current thread.\n"
+  remarks: "\nImplementers should use the <xref href=\"SuperOffice.CRM.Security.SentryIgnorableHelper\" data-throw-if-not-resolved=\"false\"></xref> implementation.\n"
+  syntax:
+    content: public interface ISentryIgnorable
+    content.vb: Public Interface ISentryIgnorable
+  extensionMethods:
+  - SuperOffice.CRM.Security.ISentryIgnorable.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.ISentryIgnorable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  id: BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  langs:
+  - csharp
+  - vb
+  name: BeginIgnoreSentryCheck()
+  nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nStarts the process of ignoring sentry on the object implementing the interface on the current thread.\n"
+  syntax:
+    content: IgnoreSentryCheck BeginIgnoreSentryCheck()
+    return:
+      type: SuperOffice.CRM.Security.IgnoreSentryCheck
+      description: Disposable object that calls <xref href="SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck" data-throw-if-not-resolved="false"></xref> on Dispose.
+    content.vb: Function BeginIgnoreSentryCheck As IgnoreSentryCheck
+  overload: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck*
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  id: EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  langs:
+  - csharp
+  - vb
+  name: EndIgnoreSentryCheck()
+  nameWithType: ISentryIgnorable.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nEnds the process of ignoring sentry on the object implementing the interface on the current thread.\n"
+  syntax:
+    content: void EndIgnoreSentryCheck()
+    content.vb: Sub
+  overload: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck*
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  id: IsSentryIgnored
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  langs:
+  - csharp
+  - vb
+  name: IsSentryIgnored
+  nameWithType: ISentryIgnorable.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet value indicating whether sentry is ignored on the current object for the current thread.\n"
+  syntax:
+    content: bool IsSentryIgnored { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsSentryIgnored As Boolean
+  overload: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISentryIgnorable, To>()
+  nameWithType: EnumUtil.MapEnums<ISentryIgnorable, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryIgnorable, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISentryIgnorable, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryIgnorable, To)()
+  name.vb: MapEnums(Of ISentryIgnorable, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISentryIgnorable, To>
+    nameWithType: EnumUtil.MapEnums<ISentryIgnorable, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.ISentryIgnorable, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISentryIgnorable, To)
+    nameWithType: EnumUtil.MapEnums(Of ISentryIgnorable, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.ISentryIgnorable, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISentryIgnorable, To>()
+  nameWithType: Converters.MapEnums<ISentryIgnorable, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryIgnorable, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISentryIgnorable, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryIgnorable, To)()
+  name.vb: MapEnums(Of ISentryIgnorable, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISentryIgnorable, To>
+    nameWithType: Converters.MapEnums<ISentryIgnorable, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.ISentryIgnorable, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISentryIgnorable, To)
+    nameWithType: Converters.MapEnums(Of ISentryIgnorable, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.ISentryIgnorable, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck*
+  commentId: Overload:SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  isExternal: true
+  name: BeginIgnoreSentryCheck
+  nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.IgnoreSentryCheck
+  commentId: T:SuperOffice.CRM.Security.IgnoreSentryCheck
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: IgnoreSentryCheck
+  nameWithType: IgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.IgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck*
+  commentId: Overload:SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  isExternal: true
+  name: EndIgnoreSentryCheck
+  nameWithType: ISentryIgnorable.EndIgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored*
+  commentId: Overload:SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: ISentryIgnorable.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

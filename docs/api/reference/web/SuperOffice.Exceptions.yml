@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  id: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.SoDataHandlerException
+  - SuperOffice.Exceptions.SoSchemaValidationException
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Exceptions.SoSchemaValidationException
+  commentId: T:SuperOffice.Exceptions.SoSchemaValidationException
+  isExternal: true
+  name: SoSchemaValidationException
+  nameWithType: SoSchemaValidationException
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException
+- uid: SuperOffice.Exceptions.SoDataHandlerException
+  commentId: T:SuperOffice.Exceptions.SoDataHandlerException
+  isExternal: true
+  name: SoDataHandlerException
+  nameWithType: SoDataHandlerException
+  fullName: SuperOffice.Exceptions.SoDataHandlerException

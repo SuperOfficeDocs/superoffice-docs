@@ -1,0 +1,10 @@
+digraph kb_entry_log  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_entry_log[fillcolor = "cadetblue1"]
+kb_entry[fillcolor = "azure1"]
+ejuser[fillcolor = "azure1"]
+kb_entry_log -> kb_entry [headlabel = "kb_entry_id"]
+kb_entry_log -> ejuser [headlabel = "user_id"]
+}

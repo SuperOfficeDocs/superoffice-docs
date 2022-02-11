@@ -1,0 +1,10 @@
+digraph kb_group_entry  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+kb_group_entry[fillcolor = "cadetblue1"]
+kb_group[fillcolor = "azure1"]
+kb_entry[fillcolor = "azure1"]
+kb_group_entry -> kb_group [headlabel = "kb_group_id"]
+kb_group_entry -> kb_entry [headlabel = "kb_entry_id"]
+}

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_GetShopUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetShopUrlRequest
+  id: License_GetShopUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_GetShopUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName
+  langs:
+  - csharp
+  - vb
+  name: License_GetShopUrlRequest
+  nameWithType: License_GetShopUrlRequest
+  fullName: SuperOffice.WebApi.Data.License_GetShopUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_GetShopUrlRequest : Object'
+    content.vb: >-
+      Public Class License_GetShopUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_GetShopUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_GetShopUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_GetShopUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: License_GetShopUrlRequest()
+  nameWithType: License_GetShopUrlRequest.License_GetShopUrlRequest()
+  fullName: SuperOffice.WebApi.Data.License_GetShopUrlRequest.License_GetShopUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_GetShopUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_GetShopUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName
+  commentId: P:SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName
+  id: OwnerName
+  parent: SuperOffice.WebApi.Data.License_GetShopUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: License_GetShopUrlRequest.OwnerName
+  fullName: SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerName As String
+  overload: SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_GetShopUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetShopUrlRequest.#ctor
+  isExternal: true
+  name: License_GetShopUrlRequest
+  nameWithType: License_GetShopUrlRequest.License_GetShopUrlRequest
+  fullName: SuperOffice.WebApi.Data.License_GetShopUrlRequest.License_GetShopUrlRequest
+- uid: SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: License_GetShopUrlRequest.OwnerName
+  fullName: SuperOffice.WebApi.Data.License_GetShopUrlRequest.OwnerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

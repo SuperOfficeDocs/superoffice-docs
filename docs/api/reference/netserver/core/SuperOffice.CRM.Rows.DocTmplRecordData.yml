@@ -1,0 +1,1781 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData
+  commentId: T:SuperOffice.CRM.Rows.DocTmplRecordData
+  id: DocTmplRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.DocTmplRecordData.#ctor
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Accelerator
+  - SuperOffice.CRM.Rows.DocTmplRecordData.AutoeventId
+  - SuperOffice.CRM.Rows.DocTmplRecordData.DefaultOref
+  - SuperOffice.CRM.Rows.DocTmplRecordData.DefaultPublishType
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Deleted
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Direction
+  - SuperOffice.CRM.Rows.DocTmplRecordData.DocTmplId
+  - SuperOffice.CRM.Rows.DocTmplRecordData.EmailSubject
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Filename
+  - SuperOffice.CRM.Rows.DocTmplRecordData.IncludeSignature
+  - SuperOffice.CRM.Rows.DocTmplRecordData.IntentId
+  - SuperOffice.CRM.Rows.DocTmplRecordData.InvitationDocType
+  - SuperOffice.CRM.Rows.DocTmplRecordData.LoadTemplateFromPlugin
+  - SuperOffice.CRM.Rows.DocTmplRecordData.MimeType
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Name
+  - SuperOffice.CRM.Rows.DocTmplRecordData.PrivacyDocType
+  - SuperOffice.CRM.Rows.DocTmplRecordData.QuoteDocType
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Rank
+  - SuperOffice.CRM.Rows.DocTmplRecordData.RecordType
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Registered
+  - SuperOffice.CRM.Rows.DocTmplRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyEdit
+  - SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyOpen
+  - SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyPrint
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SaveInDb
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailAddress
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailMode
+  - SuperOffice.CRM.Rows.DocTmplRecordData.ShowCurrents
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Tooltip
+  - SuperOffice.CRM.Rows.DocTmplRecordData.Updated
+  - SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DocTmplRecordData
+  nameWithType: DocTmplRecordData
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the DocTmpl table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.DocTmplRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.DocTmplTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class DocTmplRecordData
+    content.vb: Public Class DocTmplRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.DocTmplRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DocTmplRecordData)
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.DocTmplId
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.DocTmplId
+  id: DocTmplId
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: DocTmplId
+  nameWithType: DocTmplRecordData.DocTmplId
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.DocTmplId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int DocTmplId
+    return:
+      type: System.Int32
+    content.vb: Public DocTmplId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DocTmplRecordData.Name
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe list item \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DocTmplRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRank order \n"
+  syntax:
+    content: public short Rank
+    return:
+      type: System.Int16
+    content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Tooltip
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DocTmplRecordData.Tooltip
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public string Tooltip
+    return:
+      type: System.String
+    content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Deleted
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DocTmplRecordData.Deleted
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
+  syntax:
+    content: public short Deleted
+    return:
+      type: System.Int16
+    content.vb: Public Deleted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Filename
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Filename
+  id: Filename
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: DocTmplRecordData.Filename
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Filename
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRelative to TemplatePath in SOARC. Plugin specific extref in other doc archives. i.e. Google document URL or Notes id. \n"
+  syntax:
+    content: public string Filename
+    return:
+      type: System.String
+    content.vb: Public Filename As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.AutoeventId
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.AutoeventId
+  id: AutoeventId
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: AutoeventId
+  nameWithType: DocTmplRecordData.AutoeventId
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.AutoeventId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDocument plugin id - where the documents generated from this template are to be stored. Copied to the document.archiveProvider when document is created. \n"
+  syntax:
+    content: public int AutoeventId
+    return:
+      type: System.Int32
+    content.vb: Public AutoeventId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.RecordType
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: DocTmplRecordData.RecordType
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.RecordType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes \n"
+  syntax:
+    content: public DocTmplType RecordType
+    return:
+      type: SuperOffice.Data.DocTmplType
+    content.vb: Public RecordType As DocTmplType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Direction
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: DocTmplRecordData.Direction
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Direction
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n1 = incoming, 2 = outgoing, see EAppntDirection \n"
+  syntax:
+    content: public DocTmplDirection Direction
+    return:
+      type: SuperOffice.Data.DocTmplDirection
+    content.vb: Public Direction As DocTmplDirection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SaveInDb
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.SaveInDb
+  id: SaveInDb
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaveInDb
+  nameWithType: DocTmplRecordData.SaveInDb
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.SaveInDb
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n1 = save document records in DB; otherwise not. \n"
+  syntax:
+    content: public short SaveInDb
+    return:
+      type: System.Int16
+    content.vb: Public SaveInDb As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.DefaultOref
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.DefaultOref
+  id: DefaultOref
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: DefaultOref
+  nameWithType: DocTmplRecordData.DefaultOref
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.DefaultOref
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nProcessed via tag substitution to give document reference \n"
+  syntax:
+    content: public string DefaultOref
+    return:
+      type: System.String
+    content.vb: Public DefaultOref As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyOpen
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyOpen
+  id: RegkeyOpen
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegkeyOpen
+  nameWithType: DocTmplRecordData.RegkeyOpen
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyOpen
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistry key to use for Open, if blank, we simply ask Windows to do the operation for us \n"
+  syntax:
+    content: public string RegkeyOpen
+    return:
+      type: System.String
+    content.vb: Public RegkeyOpen As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyEdit
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyEdit
+  id: RegkeyEdit
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegkeyEdit
+  nameWithType: DocTmplRecordData.RegkeyEdit
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyEdit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistry key to use for Edit; if blank, we simply ask Windows to do the operation for us \n"
+  syntax:
+    content: public string RegkeyEdit
+    return:
+      type: System.String
+    content.vb: Public RegkeyEdit As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyPrint
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyPrint
+  id: RegkeyPrint
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegkeyPrint
+  nameWithType: DocTmplRecordData.RegkeyPrint
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.RegkeyPrint
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistry key to use for Print; if blank, we simply ask Windows to do the operation for us \n"
+  syntax:
+    content: public string RegkeyPrint
+    return:
+      type: System.String
+    content.vb: Public RegkeyPrint As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Accelerator
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Accelerator
+  id: Accelerator
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Accelerator
+  nameWithType: DocTmplRecordData.Accelerator
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Accelerator
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAccelerator key code for this template \n"
+  syntax:
+    content: public short Accelerator
+    return:
+      type: System.Int16
+    content.vb: Public Accelerator As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DocTmplRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DocTmplRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DocTmplRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DocTmplRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DocTmplRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.DefaultPublishType
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.DefaultPublishType
+  id: DefaultPublishType
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: DefaultPublishType
+  nameWithType: DocTmplRecordData.DefaultPublishType
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.DefaultPublishType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nShould documents based on this template be published=true? Default state of publish flag on documents. \n"
+  syntax:
+    content: public PublishType DefaultPublishType
+    return:
+      type: SuperOffice.Data.PublishType
+    content.vb: Public DefaultPublishType As PublishType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.IntentId
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: DocTmplRecordData.IntentId
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.IntentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat is the intention of this document (used by SAINT) \n"
+  syntax:
+    content: public int IntentId
+    return:
+      type: System.Int32
+    content.vb: Public IntentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.MimeType
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.MimeType
+  id: MimeType
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: DocTmplRecordData.MimeType
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.MimeType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe MIME type, for Web/Browser use of documents of this type \n"
+  syntax:
+    content: public string MimeType
+    return:
+      type: System.String
+    content.vb: Public MimeType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.LoadTemplateFromPlugin
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.LoadTemplateFromPlugin
+  id: LoadTemplateFromPlugin
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: LoadTemplateFromPlugin
+  nameWithType: DocTmplRecordData.LoadTemplateFromPlugin
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.LoadTemplateFromPlugin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf nonzero, then this is the ID of the document plugin that should supply the template document file, instead of the default so_arc/template \n"
+  syntax:
+    content: public int LoadTemplateFromPlugin
+    return:
+      type: System.Int32
+    content.vb: Public LoadTemplateFromPlugin As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.QuoteDocType
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.QuoteDocType
+  id: QuoteDocType
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: QuoteDocType
+  nameWithType: DocTmplRecordData.QuoteDocType
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.QuoteDocType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe role this document plays in the Quote system, if any \n"
+  syntax:
+    content: public DocTmplQuoteType QuoteDocType
+    return:
+      type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public QuoteDocType As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.PrivacyDocType
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.PrivacyDocType
+  id: PrivacyDocType
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrivacyDocType
+  nameWithType: DocTmplRecordData.PrivacyDocType
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.PrivacyDocType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIndicator that this document template has a functional role, related to privacy/GDPR \n"
+  syntax:
+    content: public DocTmplPrivacyType PrivacyDocType
+    return:
+      type: SuperOffice.Data.DocTmplPrivacyType
+    content.vb: Public PrivacyDocType As DocTmplPrivacyType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.EmailSubject
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.EmailSubject
+  id: EmailSubject
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: EmailSubject
+  nameWithType: DocTmplRecordData.EmailSubject
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.EmailSubject
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSubject line for document templates that represent an email; template tags are accepted in this item \n"
+  syntax:
+    content: public string EmailSubject
+    return:
+      type: System.String
+    content.vb: Public EmailSubject As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.IncludeSignature
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.IncludeSignature
+  id: IncludeSignature
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: IncludeSignature
+  nameWithType: DocTmplRecordData.IncludeSignature
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.IncludeSignature
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf True, signature (mail.htm) should be added at bottom of template when used \n"
+  syntax:
+    content: public short IncludeSignature
+    return:
+      type: System.Int16
+    content.vb: Public IncludeSignature As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.ShowCurrents
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.ShowCurrents
+  id: ShowCurrents
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShowCurrents
+  nameWithType: DocTmplRecordData.ShowCurrents
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.ShowCurrents
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf True, A dialog or sidebar will be shown for changing current values on Contact, Person   \n"
+  syntax:
+    content: public short ShowCurrents
+    return:
+      type: System.Int16
+    content.vb: Public ShowCurrents As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailMode
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailMode
+  id: SenderEmailMode
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: SenderEmailMode
+  nameWithType: DocTmplRecordData.SenderEmailMode
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailMode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nType of sender email setting. Always use senderEmailAddress = 0, Use Our contact = 1, Use Support Associate = 2 \n"
+  syntax:
+    content: public SenderMailMode SenderEmailMode
+    return:
+      type: SuperOffice.Data.SenderMailMode
+    content.vb: Public SenderEmailMode As SenderMailMode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailAddress
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailAddress
+  id: SenderEmailAddress
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: SenderEmailAddress
+  nameWithType: DocTmplRecordData.SenderEmailAddress
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.SenderEmailAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe email address to use in from field \n"
+  syntax:
+    content: public string SenderEmailAddress
+    return:
+      type: System.String
+    content.vb: Public SenderEmailAddress As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.InvitationDocType
+  commentId: F:SuperOffice.CRM.Rows.DocTmplRecordData.InvitationDocType
+  id: InvitationDocType
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: InvitationDocType
+  nameWithType: DocTmplRecordData.InvitationDocType
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.InvitationDocType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nType for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 \n"
+  syntax:
+    content: public DocTmplInvitationType InvitationDocType
+    return:
+      type: SuperOffice.Data.DocTmplInvitationType
+    content.vb: Public InvitationDocType As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.DocTmplRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.DocTmplRecordData
+  langs:
+  - csharp
+  - vb
+  name: DocTmplRecordData()
+  nameWithType: DocTmplRecordData.DocTmplRecordData()
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.DocTmplRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public DocTmplRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.DocTmplRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DocTmplRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<DocTmplRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DocTmplRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocTmplRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DocTmplRecordData, To)()
+  name.vb: MapEnums(Of DocTmplRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocTmplRecordData, To>
+    nameWithType: EnumUtil.MapEnums<DocTmplRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DocTmplRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocTmplRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of DocTmplRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DocTmplRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DocTmplRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DocTmplRecordData>(DocTmplRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<DocTmplRecordData>(DocTmplRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DocTmplRecordData>(SuperOffice.CRM.Rows.DocTmplRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplRecordData)(DocTmplRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DocTmplRecordData)(SuperOffice.CRM.Rows.DocTmplRecordData)
+  name.vb: AssignByReflection(Of DocTmplRecordData)(DocTmplRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DocTmplRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<DocTmplRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DocTmplRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordData
+    name: DocTmplRecordData
+    nameWithType: DocTmplRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DocTmplRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DocTmplRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DocTmplRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordData
+    name: DocTmplRecordData
+    nameWithType: DocTmplRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DocTmplRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<DocTmplRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DocTmplRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DocTmplRecordData)()
+  name.vb: GraphCopy(Of DocTmplRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DocTmplRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<DocTmplRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DocTmplRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DocTmplRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of DocTmplRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DocTmplRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+  parent: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+  name: ToInsert()
+  nameWithType: DocTmplRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: DocTmplRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: DocTmplRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocTmplRecordData, To>()
+  nameWithType: Converters.MapEnums<DocTmplRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DocTmplRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocTmplRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DocTmplRecordData, To)()
+  name.vb: MapEnums(Of DocTmplRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocTmplRecordData, To>
+    nameWithType: Converters.MapEnums<DocTmplRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DocTmplRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocTmplRecordData, To)
+    nameWithType: Converters.MapEnums(Of DocTmplRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DocTmplRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+  commentId: M:SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+  isExternal: true
+  name: ToInsert(DocTmplRecordData)
+  nameWithType: DocTmplRecordDataExtensions.ToInsert(DocTmplRecordData)
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+    name: ToInsert
+    nameWithType: DocTmplRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordData
+    name: DocTmplRecordData
+    nameWithType: DocTmplRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplRecordData)
+    name: ToInsert
+    nameWithType: DocTmplRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordData
+    name: DocTmplRecordData
+    nameWithType: DocTmplRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DocTmplRecordDataExtensions
+  nameWithType: DocTmplRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.DocTmplType
+  commentId: T:SuperOffice.Data.DocTmplType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: SuperOffice.Data.DocTmplType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.DocTmplDirection
+  commentId: T:SuperOffice.Data.DocTmplDirection
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplDirection
+  nameWithType: DocTmplDirection
+  fullName: SuperOffice.Data.DocTmplDirection
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.PublishType
+  commentId: T:SuperOffice.Data.PublishType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PublishType
+  nameWithType: PublishType
+  fullName: SuperOffice.Data.PublishType
+- uid: SuperOffice.Data.DocTmplQuoteType
+  commentId: T:SuperOffice.Data.DocTmplQuoteType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplQuoteType
+  nameWithType: DocTmplQuoteType
+  fullName: SuperOffice.Data.DocTmplQuoteType
+- uid: SuperOffice.Data.DocTmplPrivacyType
+  commentId: T:SuperOffice.Data.DocTmplPrivacyType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplPrivacyType
+  nameWithType: DocTmplPrivacyType
+  fullName: SuperOffice.Data.DocTmplPrivacyType
+- uid: SuperOffice.Data.SenderMailMode
+  commentId: T:SuperOffice.Data.SenderMailMode
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SenderMailMode
+  nameWithType: SenderMailMode
+  fullName: SuperOffice.Data.SenderMailMode
+- uid: SuperOffice.Data.DocTmplInvitationType
+  commentId: T:SuperOffice.Data.DocTmplInvitationType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: SuperOffice.Data.DocTmplInvitationType
+- uid: SuperOffice.CRM.Rows.DocTmplRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.DocTmplRecordData.#ctor
+  isExternal: true
+  name: DocTmplRecordData
+  nameWithType: DocTmplRecordData.DocTmplRecordData
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordData.DocTmplRecordData

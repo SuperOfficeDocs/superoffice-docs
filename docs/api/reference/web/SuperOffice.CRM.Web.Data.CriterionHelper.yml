@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper
+  commentId: T:SuperOffice.CRM.Web.Data.CriterionHelper
+  id: CriterionHelper
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName
+  - SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType
+  - SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String,System.String)
+  - SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String,System.String[])
+  - SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.Services.ArchiveListItem[])
+  langs:
+  - csharp
+  - vb
+  name: CriterionHelper
+  nameWithType: CriterionHelper
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static class CriterionHelper
+    content.vb: Public Module CriterionHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName
+  commentId: M:SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName
+  id: GetCriterionEntityName
+  parent: SuperOffice.CRM.Web.Data.CriterionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCriterionEntityName()
+  nameWithType: CriterionHelper.GetCriterionEntityName()
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetCriterionEntityName()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCriterionEntityName As String
+  overload: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType
+  commentId: M:SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType
+  id: GetCriterionType
+  parent: SuperOffice.CRM.Web.Data.CriterionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCriterionType()
+  nameWithType: CriterionHelper.GetCriterionType()
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetCriterionType()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCriterionType As String
+  overload: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: RemoveSpecialCalendarFormatting(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.Web.Data.CriterionHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveSpecialCalendarFormatting(ArchiveRestrictionInfo[])
+  nameWithType: CriterionHelper.RemoveSpecialCalendarFormatting(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void RemoveSpecialCalendarFormatting(ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Shared Sub RemoveSpecialCalendarFormatting(restrictions As ArchiveRestrictionInfo())
+  overload: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting*
+  nameWithType.vb: CriterionHelper.RemoveSpecialCalendarFormatting(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: RemoveSpecialCalendarFormatting(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.Services.ArchiveListItem[])
+  commentId: M:SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.Services.ArchiveListItem[])
+  id: RemoveSpecialCalendarFormatting(SuperOffice.CRM.Services.ArchiveListItem[])
+  parent: SuperOffice.CRM.Web.Data.CriterionHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveSpecialCalendarFormatting(ArchiveListItem[])
+  nameWithType: CriterionHelper.RemoveSpecialCalendarFormatting(ArchiveListItem[])
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.Services.ArchiveListItem[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void RemoveSpecialCalendarFormatting(ArchiveListItem[] criteriaArchiveRows)
+    parameters:
+    - id: criteriaArchiveRows
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+    content.vb: Public Shared Sub RemoveSpecialCalendarFormatting(criteriaArchiveRows As ArchiveListItem())
+  overload: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting*
+  nameWithType.vb: CriterionHelper.RemoveSpecialCalendarFormatting(ArchiveListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting(SuperOffice.CRM.Services.ArchiveListItem())
+  name.vb: RemoveSpecialCalendarFormatting(ArchiveListItem())
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String,System.String)
+  id: RemoveFromFirstInstanceOf(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Web.Data.CriterionHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromFirstInstanceOf(String, String)
+  nameWithType: CriterionHelper.RemoveFromFirstInstanceOf(String, String)
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string RemoveFromFirstInstanceOf(this string ourString, string removeString)
+    parameters:
+    - id: ourString
+      type: System.String
+    - id: removeString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveFromFirstInstanceOf(ourString As String, removeString As String) As String
+  overload: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String,System.String[])
+  id: RemoveFromFirstInstanceOf(System.String,System.String[])
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Web.Data.CriterionHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromFirstInstanceOf(String, String[])
+  nameWithType: CriterionHelper.RemoveFromFirstInstanceOf(String, String[])
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string RemoveFromFirstInstanceOf(this string ourString, string[] removeStrings)
+    parameters:
+    - id: ourString
+      type: System.String
+    - id: removeStrings
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveFromFirstInstanceOf(ourString As String, removeStrings As String()) As String
+  overload: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf*
+  nameWithType.vb: CriterionHelper.RemoveFromFirstInstanceOf(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf(System.String, System.String())
+  name.vb: RemoveFromFirstInstanceOf(String, String())
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName
+  isExternal: true
+  name: GetCriterionEntityName
+  nameWithType: CriterionHelper.GetCriterionEntityName
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionEntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType
+  isExternal: true
+  name: GetCriterionType
+  nameWithType: CriterionHelper.GetCriterionType
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.GetCriterionType
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting
+  isExternal: true
+  name: RemoveSpecialCalendarFormatting
+  nameWithType: CriterionHelper.RemoveSpecialCalendarFormatting
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveSpecialCalendarFormatting
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ArchiveListItem[]
+  isExternal: true
+  name: ArchiveListItem[]
+  nameWithType: ArchiveListItem[]
+  fullName: SuperOffice.CRM.Services.ArchiveListItem[]
+  nameWithType.vb: ArchiveListItem()
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListItem()
+  name.vb: ArchiveListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf
+  isExternal: true
+  name: RemoveFromFirstInstanceOf
+  nameWithType: CriterionHelper.RemoveFromFirstInstanceOf
+  fullName: SuperOffice.CRM.Web.Data.CriterionHelper.RemoveFromFirstInstanceOf
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

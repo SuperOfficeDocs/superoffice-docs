@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_RemoveLicensesRequest
+  commentId: T:SuperOffice.WebApi.Data.User_RemoveLicensesRequest
+  id: User_RemoveLicensesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_RemoveLicensesRequest.#ctor
+  - SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: User_RemoveLicensesRequest
+  nameWithType: User_RemoveLicensesRequest
+  fullName: SuperOffice.WebApi.Data.User_RemoveLicensesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_RemoveLicensesRequest : Object'
+    content.vb: >-
+      Public Class User_RemoveLicensesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_RemoveLicensesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_RemoveLicensesRequest
+  langs:
+  - csharp
+  - vb
+  name: User_RemoveLicensesRequest()
+  nameWithType: User_RemoveLicensesRequest.User_RemoveLicensesRequest()
+  fullName: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.User_RemoveLicensesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_RemoveLicensesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.User_RemoveLicensesRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: User_RemoveLicensesRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_RemoveLicensesRequest.#ctor
+  isExternal: true
+  name: User_RemoveLicensesRequest
+  nameWithType: User_RemoveLicensesRequest.User_RemoveLicensesRequest
+  fullName: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.User_RemoveLicensesRequest
+- uid: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: User_RemoveLicensesRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_RemoveLicensesRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

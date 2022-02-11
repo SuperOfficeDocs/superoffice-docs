@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.SoScriptType
+  commentId: T:SuperOffice.DCF.Web.UI.SoScriptType
+  id: SoScriptType
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.SoScriptType.Finalize
+  - SuperOffice.DCF.Web.UI.SoScriptType.Initialize
+  - SuperOffice.DCF.Web.UI.SoScriptType.Once
+  - SuperOffice.DCF.Web.UI.SoScriptType.Startup
+  langs:
+  - csharp
+  - vb
+  name: SoScriptType
+  nameWithType: SoScriptType
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum SoScriptType
+    content.vb: Public Enum SoScriptType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.SoScriptType.Initialize
+  commentId: F:SuperOffice.DCF.Web.UI.SoScriptType.Initialize
+  id: Initialize
+  parent: SuperOffice.DCF.Web.UI.SoScriptType
+  langs:
+  - csharp
+  - vb
+  name: Initialize
+  nameWithType: SoScriptType.Initialize
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType.Initialize
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Initialize = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.SoScriptType.Startup
+  commentId: F:SuperOffice.DCF.Web.UI.SoScriptType.Startup
+  id: Startup
+  parent: SuperOffice.DCF.Web.UI.SoScriptType
+  langs:
+  - csharp
+  - vb
+  name: Startup
+  nameWithType: SoScriptType.Startup
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType.Startup
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Startup = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.SoScriptType.Finalize
+  commentId: F:SuperOffice.DCF.Web.UI.SoScriptType.Finalize
+  id: Finalize
+  parent: SuperOffice.DCF.Web.UI.SoScriptType
+  langs:
+  - csharp
+  - vb
+  name: Finalize
+  nameWithType: SoScriptType.Finalize
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType.Finalize
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Finalize = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.SoScriptType.Once
+  commentId: F:SuperOffice.DCF.Web.UI.SoScriptType.Once
+  id: Once
+  parent: SuperOffice.DCF.Web.UI.SoScriptType
+  langs:
+  - csharp
+  - vb
+  name: Once
+  nameWithType: SoScriptType.Once
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType.Once
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Once = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.SoScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.SoScriptType
+  commentId: T:SuperOffice.DCF.Web.UI.SoScriptType
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SoScriptType
+  nameWithType: SoScriptType
+  fullName: SuperOffice.DCF.Web.UI.SoScriptType

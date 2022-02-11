@@ -1,0 +1,10 @@
+digraph s_bounce_shipment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+s_bounce_shipment[fillcolor = "cadetblue1"]
+s_shipment[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+s_bounce_shipment -> s_shipment [headlabel = "shipment_id"]
+s_bounce_shipment -> person [headlabel = "customer_id"]
+}

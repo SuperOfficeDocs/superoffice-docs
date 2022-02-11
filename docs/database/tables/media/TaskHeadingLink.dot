@@ -1,0 +1,13 @@
+digraph TaskHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TaskHeadingLink[fillcolor = "cadetblue1"]
+Task[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+TaskHeadingLink -> Task [headlabel = "task_id"]
+TaskHeadingLink -> Heading [headlabel = "heading_id"]
+TaskHeadingLink -> associate [headlabel = "registered_associate_id"]
+TaskHeadingLink -> associate [label = "updated_associate_id"]
+}

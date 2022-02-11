@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RedLetterDetails
+  commentId: T:SuperOffice.WebApi.Data.RedLetterDetails
+  id: RedLetterDetails
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RedLetterDetails.#ctor
+  - SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts
+  - SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts
+  langs:
+  - csharp
+  - vb
+  name: RedLetterDetails
+  nameWithType: RedLetterDetails
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RedLetterDetails.\nRed letter day text details, all the texts related to the given day.    \n"
+  syntax:
+    content: 'public class RedLetterDetails : Carrier'
+    content.vb: >-
+      Public Class RedLetterDetails
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RedLetterDetails.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RedLetterDetails.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RedLetterDetails
+  langs:
+  - csharp
+  - vb
+  name: RedLetterDetails()
+  nameWithType: RedLetterDetails.RedLetterDetails()
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails.RedLetterDetails()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RedLetterDetails()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RedLetterDetails.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts
+  commentId: P:SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts
+  id: OwnCountryDayTexts
+  parent: SuperOffice.WebApi.Data.RedLetterDetails
+  langs:
+  - csharp
+  - vb
+  name: OwnCountryDayTexts
+  nameWithType: RedLetterDetails.OwnCountryDayTexts
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray - possibly empty - of the texts related to one day in the redletter system.\n"
+  syntax:
+    content: public virtual string[] OwnCountryDayTexts { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property OwnCountryDayTexts As String()
+  overload: SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts
+  commentId: P:SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts
+  id: OtherCountryDayTexts
+  parent: SuperOffice.WebApi.Data.RedLetterDetails
+  langs:
+  - csharp
+  - vb
+  name: OtherCountryDayTexts
+  nameWithType: RedLetterDetails.OtherCountryDayTexts
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRed letter day texts for other countries than the associates&apos; own country\n"
+  syntax:
+    content: public virtual string[] OtherCountryDayTexts { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property OtherCountryDayTexts As String()
+  overload: SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RedLetterDetails.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterDetails.#ctor
+  isExternal: true
+  name: RedLetterDetails
+  nameWithType: RedLetterDetails.RedLetterDetails
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails.RedLetterDetails
+- uid: SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts
+  isExternal: true
+  name: OwnCountryDayTexts
+  nameWithType: RedLetterDetails.OwnCountryDayTexts
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails.OwnCountryDayTexts
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts*
+  commentId: Overload:SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts
+  isExternal: true
+  name: OtherCountryDayTexts
+  nameWithType: RedLetterDetails.OtherCountryDayTexts
+  fullName: SuperOffice.WebApi.Data.RedLetterDetails.OtherCountryDayTexts

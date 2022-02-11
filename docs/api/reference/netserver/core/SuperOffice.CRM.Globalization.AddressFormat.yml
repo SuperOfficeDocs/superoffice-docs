@@ -1,0 +1,1538 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.AddressFormat
+  commentId: T:SuperOffice.CRM.Globalization.AddressFormat
+  id: AddressFormat
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.AddressFormat.Address1
+  - SuperOffice.CRM.Globalization.AddressFormat.Address2
+  - SuperOffice.CRM.Globalization.AddressFormat.Address3
+  - SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId
+  - SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle
+  - SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx
+  - SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty
+  - SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip
+  - SuperOffice.CRM.Globalization.AddressFormat.City
+  - SuperOffice.CRM.Globalization.AddressFormat.County
+  - SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson
+  - SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs
+  - SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle
+  - SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName
+  - SuperOffice.CRM.Globalization.AddressFormat.LayoutId
+  - SuperOffice.CRM.Globalization.AddressFormat.Name
+  - SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
+  - SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
+  - SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
+  - SuperOffice.CRM.Globalization.AddressFormat.Row
+  - SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
+  - SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
+  - SuperOffice.CRM.Globalization.AddressFormat.State
+  - SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs
+  - SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName
+  - SuperOffice.CRM.Globalization.AddressFormat.Zip
+  langs:
+  - csharp
+  - vb
+  name: AddressFormat
+  nameWithType: AddressFormat
+  fullName: SuperOffice.CRM.Globalization.AddressFormat
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nClass that interprets the AddressFormat table\n"
+  syntax:
+    content: public sealed class AddressFormat
+    content.vb: Public NotInheritable Class AddressFormat
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.AddressFormat.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.AddressFormat.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Row
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Row
+  id: Row
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: AddressFormat.Row
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Row
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThe underlying <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public AddressFormatRow Row { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AddressFormatRow
+    content.vb: Public ReadOnly Property Row As AddressFormatRow
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Row*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId
+  id: AddressFormatId
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: AddressFormatId
+  nameWithType: AddressFormat.AddressFormatId
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nPrimary key of the address format\n"
+  syntax:
+    content: public int AddressFormatId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AddressFormatId As Integer
+  overload: SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Name
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Name
+  id: Name
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AddressFormat.Name
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nName of address format (descriptive, multilingual) \n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.LayoutId
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.LayoutId
+  id: LayoutId
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: LayoutId
+  nameWithType: AddressFormat.LayoutId
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.LayoutId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCorresponds to Layout id&apos;s on <xref href=\"SuperOffice.CRM.Rows.CountryRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public int LayoutId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property LayoutId As Integer
+  overload: SuperOffice.CRM.Globalization.AddressFormat.LayoutId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx
+  id: AtypeIdx
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: AtypeIdx
+  nameWithType: AddressFormat.AtypeIdx
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCorresponds to <xref href=\"SuperOffice.CRM.Rows.AddressRow.AtypeIdx\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public int AtypeIdx { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AtypeIdx As Integer
+  overload: SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Address1
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Address1
+  id: Address1
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: AddressFormat.Address1
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Address1
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address1\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public AddressElementFormat Address1 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property Address1 As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Address1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Address2
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Address2
+  id: Address2
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: Address2
+  nameWithType: AddressFormat.Address2
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Address2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address2\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public AddressElementFormat Address2 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property Address2 As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Address2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Address3
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Address3
+  id: Address3
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: Address3
+  nameWithType: AddressFormat.Address3
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Address3
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address3\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public AddressElementFormat Address3 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property Address3 As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Address3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.City
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.City
+  id: City
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: AddressFormat.City
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.City
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.City\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public AddressElementFormat City { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property City As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.City*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.County
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.County
+  id: County
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: County
+  nameWithType: AddressFormat.County
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.County
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.County\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public AddressElementFormat County { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property County As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.County*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.State
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.State
+  id: State
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: AddressFormat.State
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.State
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.State\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public AddressElementFormat State { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property State As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.State*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Zip
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Zip
+  id: Zip
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: Zip
+  nameWithType: AddressFormat.Zip
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Zip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nformatting details for <see cref=\"!:AddressRow.Zip\"></see>.\n"
+  syntax:
+    content: public AddressElementFormat Zip { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressElementFormat
+    content.vb: Public ReadOnly Property Zip As AddressElementFormat
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Zip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
+  id: PersonFirst
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: PersonFirst
+  nameWithType: AddressFormat.PersonFirst
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, we have person before company name; otherwise not\n"
+  syntax:
+    content: public bool PersonFirst { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PersonFirst As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.PersonFirst*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
+  id: PersonLastNameFirst
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: PersonLastNameFirst
+  nameWithType: AddressFormat.PersonLastNameFirst
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, name order is lastname, firstname; otherwise firstname lastname\n"
+  syntax:
+    content: public bool PersonLastNameFirst { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PersonLastNameFirst As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle
+  id: IncludeTitle
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: IncludeTitle
+  nameWithType: AddressFormat.IncludeTitle
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, title comes before person\n"
+  syntax:
+    content: public bool IncludeTitle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IncludeTitle As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs
+  id: IncludeMrMrs
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: IncludeMrMrs
+  nameWithType: AddressFormat.IncludeMrMrs
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, MrMrs comes before person\n"
+  syntax:
+    content: public bool IncludeMrMrs { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IncludeMrMrs As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs
+  id: TitleBeforeMrMrs
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: TitleBeforeMrMrs
+  nameWithType: AddressFormat.TitleBeforeMrMrs
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, title is before MrMrs, otherwise after\n"
+  syntax:
+    content: public bool TitleBeforeMrMrs { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property TitleBeforeMrMrs As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
+  id: SeparateTitle
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: SeparateTitle
+  nameWithType: AddressFormat.SeparateTitle
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, add title on separate line after person\n"
+  syntax:
+    content: public bool SeparateTitle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SeparateTitle As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle
+  id: AddressInMiddle
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: AddressInMiddle
+  nameWithType: AddressFormat.AddressInMiddle
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, use company/address/person instead of company/person/address (if <xref href=\"SuperOffice.CRM.Globalization.AddressFormat.PersonFirst\" data-throw-if-not-resolved=\"false\"></xref> is true as well, we get person/address/company)\n"
+  syntax:
+    content: public bool AddressInMiddle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AddressInMiddle As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
+  id: NameBeforeDepartment
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: NameBeforeDepartment
+  nameWithType: AddressFormat.NameBeforeDepartment
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, company name, company department (or opposite order)\n"
+  syntax:
+    content: public bool NameBeforeDepartment { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property NameBeforeDepartment As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
+  id: SeparateNameAndDepartment
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: SeparateNameAndDepartment
+  nameWithType: AddressFormat.SeparateNameAndDepartment
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nif true, company name[/n]company department (or both on same line with comma separator)\n"
+  syntax:
+    content: public bool SeparateNameAndDepartment { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SeparateNameAndDepartment As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip
+  id: BlankLineBeforeZip
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: BlankLineBeforeZip
+  nameWithType: AddressFormat.BlankLineBeforeZip
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, insert a blank line before the Zip code, for Deutsche Bundespost rules!\n"
+  syntax:
+    content: public bool BlankLineBeforeZip { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property BlankLineBeforeZip As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson
+  id: ExcludePerson
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: ExcludePerson
+  nameWithType: AddressFormat.ExcludePerson
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIf true, do not include the person data (name, title etc), just the address\n"
+  syntax:
+    content: public bool ExcludePerson { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ExcludePerson As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty
+  id: BlankLineAfterCounty
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: BlankLineAfterCounty
+  nameWithType: AddressFormat.BlankLineAfterCounty
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nInsert a blank line after County, for Australian suburbs\n"
+  syntax:
+    content: public bool BlankLineAfterCounty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property BlankLineAfterCounty As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName
+  id: InitialsInsteadOfFirstName
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: InitialsInsteadOfFirstName
+  nameWithType: AddressFormat.InitialsInsteadOfFirstName
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nInsert a blank line after County, for Australian suburbs\n"
+  syntax:
+    content: public bool InitialsInsteadOfFirstName { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property InitialsInsteadOfFirstName As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName
+  id: UppercaseLastName
+  parent: SuperOffice.CRM.Globalization.AddressFormat
+  langs:
+  - csharp
+  - vb
+  name: UppercaseLastName
+  nameWithType: AddressFormat.UppercaseLastName
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nInsert a blank line after County, for Australian suburbs\n"
+  syntax:
+    content: public bool UppercaseLastName { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property UppercaseLastName As Boolean
+  overload: SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AddressFormat.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AddressFormat, To>()
+  nameWithType: EnumUtil.MapEnums<AddressFormat, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormat, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormat, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormat, To)()
+  name.vb: MapEnums(Of AddressFormat, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AddressFormat, To>
+    nameWithType: EnumUtil.MapEnums<AddressFormat, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.AddressFormat, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AddressFormat, To)
+    nameWithType: EnumUtil.MapEnums(Of AddressFormat, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormat, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.AddressFormat.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AddressFormat, To>()
+  nameWithType: Converters.MapEnums<AddressFormat, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormat, To>()
+  nameWithType.vb: Converters.MapEnums(Of AddressFormat, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormat, To)()
+  name.vb: MapEnums(Of AddressFormat, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AddressFormat, To>
+    nameWithType: Converters.MapEnums<AddressFormat, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.AddressFormat, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AddressFormat, To)
+    nameWithType: Converters.MapEnums(Of AddressFormat, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.AddressFormat, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Row*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Row
+  isExternal: true
+  name: Row
+  nameWithType: AddressFormat.Row
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Row
+- uid: SuperOffice.CRM.Rows.AddressFormatRow
+  commentId: T:SuperOffice.CRM.Rows.AddressFormatRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AddressFormatRow
+  nameWithType: AddressFormatRow
+  fullName: SuperOffice.CRM.Rows.AddressFormatRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId
+  isExternal: true
+  name: AddressFormatId
+  nameWithType: AddressFormat.AddressFormatId
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.AddressFormatId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Name*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Name
+  isExternal: true
+  name: Name
+  nameWithType: AddressFormat.Name
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Globalization.AddressFormat.LayoutId*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.LayoutId
+  isExternal: true
+  name: LayoutId
+  nameWithType: AddressFormat.LayoutId
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.LayoutId
+- uid: SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx
+  isExternal: true
+  name: AtypeIdx
+  nameWithType: AddressFormat.AtypeIdx
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.AtypeIdx
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Address1*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Address1
+  isExternal: true
+  name: Address1
+  nameWithType: AddressFormat.Address1
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Address1
+- uid: SuperOffice.CRM.Globalization.AddressElementFormat
+  commentId: T:SuperOffice.CRM.Globalization.AddressElementFormat
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: AddressElementFormat
+  nameWithType: AddressElementFormat
+  fullName: SuperOffice.CRM.Globalization.AddressElementFormat
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Address2*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Address2
+  isExternal: true
+  name: Address2
+  nameWithType: AddressFormat.Address2
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Address2
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Address3*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Address3
+  isExternal: true
+  name: Address3
+  nameWithType: AddressFormat.Address3
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Address3
+- uid: SuperOffice.CRM.Globalization.AddressFormat.City*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.City
+  isExternal: true
+  name: City
+  nameWithType: AddressFormat.City
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.City
+- uid: SuperOffice.CRM.Globalization.AddressFormat.County*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.County
+  isExternal: true
+  name: County
+  nameWithType: AddressFormat.County
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.County
+- uid: SuperOffice.CRM.Globalization.AddressFormat.State*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.State
+  isExternal: true
+  name: State
+  nameWithType: AddressFormat.State
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.State
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Zip*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Zip
+  isExternal: true
+  name: Zip
+  nameWithType: AddressFormat.Zip
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Zip
+- uid: SuperOffice.CRM.Globalization.AddressFormat.PersonFirst*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
+  isExternal: true
+  name: PersonFirst
+  nameWithType: AddressFormat.PersonFirst
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
+  isExternal: true
+  name: PersonLastNameFirst
+  nameWithType: AddressFormat.PersonLastNameFirst
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
+- uid: SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle
+  isExternal: true
+  name: IncludeTitle
+  nameWithType: AddressFormat.IncludeTitle
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.IncludeTitle
+- uid: SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs
+  isExternal: true
+  name: IncludeMrMrs
+  nameWithType: AddressFormat.IncludeMrMrs
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.IncludeMrMrs
+- uid: SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs
+  isExternal: true
+  name: TitleBeforeMrMrs
+  nameWithType: AddressFormat.TitleBeforeMrMrs
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.TitleBeforeMrMrs
+- uid: SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
+  isExternal: true
+  name: SeparateTitle
+  nameWithType: AddressFormat.SeparateTitle
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
+- uid: SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle
+  isExternal: true
+  name: AddressInMiddle
+  nameWithType: AddressFormat.AddressInMiddle
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.AddressInMiddle
+- uid: SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
+  isExternal: true
+  name: NameBeforeDepartment
+  nameWithType: AddressFormat.NameBeforeDepartment
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
+- uid: SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
+  isExternal: true
+  name: SeparateNameAndDepartment
+  nameWithType: AddressFormat.SeparateNameAndDepartment
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
+- uid: SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip
+  isExternal: true
+  name: BlankLineBeforeZip
+  nameWithType: AddressFormat.BlankLineBeforeZip
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.BlankLineBeforeZip
+- uid: SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson
+  isExternal: true
+  name: ExcludePerson
+  nameWithType: AddressFormat.ExcludePerson
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.ExcludePerson
+- uid: SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty
+  isExternal: true
+  name: BlankLineAfterCounty
+  nameWithType: AddressFormat.BlankLineAfterCounty
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.BlankLineAfterCounty
+- uid: SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName
+  isExternal: true
+  name: InitialsInsteadOfFirstName
+  nameWithType: AddressFormat.InitialsInsteadOfFirstName
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.InitialsInsteadOfFirstName
+- uid: SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName
+  isExternal: true
+  name: UppercaseLastName
+  nameWithType: AddressFormat.UppercaseLastName
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.UppercaseLastName

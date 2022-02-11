@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  id: PageBuilder
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.#ctor
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender(System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions(System.Web.UI.Control)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit(System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender(System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender(System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrender
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels
+  - SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PageBuilder
+  nameWithType: PageBuilder
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: >-
+      [SoWebObject("PageBuilder")]
+
+      public class PageBuilder : PlaceHolder, ICallbackEventHandler, IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("PageBuilder")>
+
+      Public Class PageBuilder
+          Inherits PlaceHolder
+          Implements ICallbackEventHandler, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.UI.ICallbackEventHandler
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PageBuilder
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit(System.EventArgs)
+  id: OnInit(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: OnInit(EventArgs)
+  nameWithType: PageBuilder.OnInit(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected override void OnInit(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnInit(e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts
+  id: AddSoScripts
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddSoScripts()
+  nameWithType: PageBuilder.AddSoScripts()
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public void AddSoScripts()
+    content.vb: Public Sub AddSoScripts
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender(System.EventArgs)
+  id: OnPreRender(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PageBuilder.OnPreRender(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender(System.EventArgs)
+  id: DoPreRender(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: DoPreRender(EventArgs)
+  nameWithType: PageBuilder.DoPreRender(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public void DoPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Public Sub DoPreRender(e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions(System.Web.UI.Control)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions(System.Web.UI.Control)
+  id: InitClientOptions(System.Web.UI.Control)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: InitClientOptions(Control)
+  nameWithType: PageBuilder.InitClientOptions(Control)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static void InitClientOptions(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    content.vb: Public Shared Sub InitClientOptions(control As Control)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender(System.EventArgs)
+  id: OnPagePrePrender(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: OnPagePrePrender(EventArgs)
+  nameWithType: PageBuilder.OnPagePrePrender(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: protected virtual void OnPagePrePrender(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overridable Sub OnPagePrePrender(e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult
+  id: GetCallbackResult
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetCallbackResult()
+  nameWithType: PageBuilder.GetCallbackResult()
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string GetCallbackResult()
+    return:
+      type: System.String
+    content.vb: Public Function GetCallbackResult As String
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent(System.String)
+  id: RaiseCallbackEvent(System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: RaiseCallbackEvent(String)
+  nameWithType: PageBuilder.RaiseCallbackEvent(String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public void RaiseCallbackEvent(string eventArgument)
+    parameters:
+    - id: eventArgument
+      type: System.String
+    content.vb: Public Sub RaiseCallbackEvent(eventArgument As String)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PageBuilder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: PageBuilder()
+  nameWithType: PageBuilder.PageBuilder()
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PageBuilder()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public PageBuilder()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels
+  id: Panels
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: Panels
+  nameWithType: PageBuilder.Panels
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public Dictionary<string, IPanel> Panels { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IPanel}
+    content.vb: Public ReadOnly Property Panels As Dictionary(Of String, IPanel)
+  overload: SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrender
+  commentId: E:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrender
+  id: PagePrePrender
+  parent: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+  langs:
+  - csharp
+  - vb
+  name: PagePrePrender
+  nameWithType: PageBuilder.PagePrePrender
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrender
+  type: Event
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public event PageBuilder.PagePrePrenderEventHandler PagePrePrender
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+    content.vb: Public Event PagePrePrender As PageBuilder.PagePrePrenderEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.ICallbackEventHandler
+  commentId: '!:System.Web.UI.ICallbackEventHandler'
+  isExternal: true
+  name: ICallbackEventHandler
+  nameWithType: ICallbackEventHandler
+  fullName: System.Web.UI.ICallbackEventHandler
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit
+  isExternal: true
+  name: OnInit
+  nameWithType: PageBuilder.OnInit
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnInit
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts
+  isExternal: true
+  name: AddSoScripts
+  nameWithType: PageBuilder.AddSoScripts
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.AddSoScripts
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender
+  isExternal: true
+  name: OnPreRender
+  nameWithType: PageBuilder.OnPreRender
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPreRender
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender
+  isExternal: true
+  name: DoPreRender
+  nameWithType: PageBuilder.DoPreRender
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.DoPreRender
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions
+  isExternal: true
+  name: InitClientOptions
+  nameWithType: PageBuilder.InitClientOptions
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.InitClientOptions
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender
+  isExternal: true
+  name: OnPagePrePrender
+  nameWithType: PageBuilder.OnPagePrePrender
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.OnPagePrePrender
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult
+  isExternal: true
+  name: GetCallbackResult
+  nameWithType: PageBuilder.GetCallbackResult
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.GetCallbackResult
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent
+  isExternal: true
+  name: RaiseCallbackEvent
+  nameWithType: PageBuilder.RaiseCallbackEvent
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.RaiseCallbackEvent
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.#ctor
+  isExternal: true
+  name: PageBuilder
+  nameWithType: PageBuilder.PageBuilder
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PageBuilder
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels
+  isExternal: true
+  name: Panels
+  nameWithType: PageBuilder.Panels
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.Panels
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IPanel}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IPanel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, IPanel>
+  nameWithType: Dictionary<String, IPanel>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IPanel>
+  nameWithType.vb: Dictionary(Of String, IPanel)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IPanel)
+  name.vb: Dictionary(Of String, IPanel)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IPanel
+    name: IPanel
+    nameWithType: IPanel
+    fullName: SuperOffice.DCF.Web.UI.IPanel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IPanel
+    name: IPanel
+    nameWithType: IPanel
+    fullName: SuperOffice.DCF.Web.UI.IPanel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: PageBuilder.PagePrePrenderEventHandler
+  nameWithType: PageBuilder.PagePrePrenderEventHandler
+  fullName: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler

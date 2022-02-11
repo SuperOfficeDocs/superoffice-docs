@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RelationToOwner
+  commentId: T:SuperOffice.WebApi.Data.RelationToOwner
+  id: RelationToOwner
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RelationToOwner.#ctor
+  - SuperOffice.WebApi.Data.RelationToOwner.Id
+  - SuperOffice.WebApi.Data.RelationToOwner.Tooltip
+  - SuperOffice.WebApi.Data.RelationToOwner.Value
+  langs:
+  - csharp
+  - vb
+  name: RelationToOwner
+  nameWithType: RelationToOwner
+  fullName: SuperOffice.WebApi.Data.RelationToOwner
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RelationToOwner.\n\n"
+  syntax:
+    content: 'public class RelationToOwner : Carrier'
+    content.vb: >-
+      Public Class RelationToOwner
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RelationToOwner.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RelationToOwner.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: RelationToOwner()
+  nameWithType: RelationToOwner.RelationToOwner()
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.RelationToOwner()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RelationToOwner()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RelationToOwner.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelationToOwner.Id
+  commentId: P:SuperOffice.WebApi.Data.RelationToOwner.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.RelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RelationToOwner.Id
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.RelationToOwner.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationToOwner.Value
+  commentId: P:SuperOffice.WebApi.Data.RelationToOwner.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.RelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: RelationToOwner.Value
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.RelationToOwner.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationToOwner.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.RelationToOwner.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.RelationToOwner
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: RelationToOwner.Tooltip
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.RelationToOwner.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RelationToOwner.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationToOwner.#ctor
+  isExternal: true
+  name: RelationToOwner
+  nameWithType: RelationToOwner.RelationToOwner
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.RelationToOwner
+- uid: SuperOffice.WebApi.Data.RelationToOwner.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationToOwner.Id
+  isExternal: true
+  name: Id
+  nameWithType: RelationToOwner.Id
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RelationToOwner.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationToOwner.Value
+  isExternal: true
+  name: Value
+  nameWithType: RelationToOwner.Value
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.RelationToOwner.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationToOwner.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: RelationToOwner.Tooltip
+  fullName: SuperOffice.WebApi.Data.RelationToOwner.Tooltip

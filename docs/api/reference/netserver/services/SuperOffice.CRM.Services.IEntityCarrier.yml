@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IEntityCarrier
+  id: IEntityCarrier
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  - SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  - SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  - SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: IEntityCarrier
+  nameWithType: IEntityCarrier
+  fullName: SuperOffice.CRM.Services.IEntityCarrier
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public interface IEntityCarrier
+    content.vb: Public Interface IEntityCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: IEntityCarrier.CreatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate that first created the entity. The property is read-only.\n"
+  syntax:
+    content: Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: IEntityCarrier.UpdatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person that last updated the entity.\n"
+  syntax:
+    content: Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: IEntityCarrier.CreatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered date\n"
+  syntax:
+    content: DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Property CreatedDate As Date
+  overload: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: IEntityCarrier.UpdatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdated date\n"
+  syntax:
+    content: DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Property UpdatedDate As Date
+  overload: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: IEntityCarrier.CreatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: IEntityCarrier.UpdatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: IEntityCarrier.CreatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: IEntityCarrier.UpdatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate

@@ -1,0 +1,676 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ChatBotSettings
+  commentId: T:SuperOffice.CRM.Services.ChatBotSettings
+  id: ChatBotSettings
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ChatBotSettings.#ctor
+  - SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId
+  - SuperOffice.CRM.Services.ChatBotSettings.BotName
+  - SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId
+  - SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId
+  - SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId
+  - SuperOffice.CRM.Services.ChatBotSettings.ToString
+  - SuperOffice.CRM.Services.ChatBotSettings.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ChatBotSettings
+  nameWithType: ChatBotSettings
+  fullName: SuperOffice.CRM.Services.ChatBotSettings
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChat Topic bot settings. Trigger script ids to run on bot events\n<p></p>\nCarrier object for ChatBotSettings.\nServices for the ChatBotSettings Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public class ChatBotSettings
+    content.vb: Public Class ChatBotSettings
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ChatAgent
+    commentId: T:SuperOffice.CRM.Services.ChatAgent
+  - linkId: SuperOffice.CRM.Services.IChatAgent
+    commentId: T:SuperOffice.CRM.Services.IChatAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ChatBotSettings.#ctor
+  commentId: M:SuperOffice.CRM.Services.ChatBotSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: ChatBotSettings()
+  nameWithType: ChatBotSettings.ChatBotSettings()
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.ChatBotSettings()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ChatBotSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ChatBotSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatBotSettings.ToString
+  commentId: M:SuperOffice.CRM.Services.ChatBotSettings.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatBotSettings.ToString()
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.ChatBotSettings.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ChatBotSettings.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatBotSettings.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ChatBotSettings.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ChatBotSettings.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotName
+  commentId: P:SuperOffice.CRM.Services.ChatBotSettings.BotName
+  id: BotName
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotName
+  nameWithType: ChatBotSettings.BotName
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChatbot name \n"
+  syntax:
+    content: public virtual string BotName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BotName As String
+  overload: SuperOffice.CRM.Services.ChatBotSettings.BotName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId
+  commentId: P:SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId
+  id: BotRegisterScriptId
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotRegisterScriptId
+  nameWithType: ChatBotSettings.BotRegisterScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nScript id to register/unregister chatbot. 0 if there is no bot \n"
+  syntax:
+    content: public virtual int BotRegisterScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotRegisterScriptId As Integer
+  overload: SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId
+  commentId: P:SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId
+  id: BotSessionCreatedScriptId
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotSessionCreatedScriptId
+  nameWithType: ChatBotSettings.BotSessionCreatedScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nScript id to run on new session. \n"
+  syntax:
+    content: public virtual int BotSessionCreatedScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotSessionCreatedScriptId As Integer
+  overload: SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId
+  commentId: P:SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId
+  id: BotSessionChangedScriptId
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotSessionChangedScriptId
+  nameWithType: ChatBotSettings.BotSessionChangedScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nScript id to run when session state changes. \n"
+  syntax:
+    content: public virtual int BotSessionChangedScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotSessionChangedScriptId As Integer
+  overload: SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId
+  commentId: P:SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId
+  id: BotMessageReceivedScriptId
+  parent: SuperOffice.CRM.Services.ChatBotSettings
+  langs:
+  - csharp
+  - vb
+  name: BotMessageReceivedScriptId
+  nameWithType: ChatBotSettings.BotMessageReceivedScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nScript id to run when new messages received from customer. \n"
+  syntax:
+    content: public virtual int BotMessageReceivedScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotMessageReceivedScriptId As Integer
+  overload: SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent
+  commentId: T:SuperOffice.CRM.Services.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent
+- uid: SuperOffice.CRM.Services.IChatAgent
+  commentId: T:SuperOffice.CRM.Services.IChatAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IChatAgent
+  nameWithType: IChatAgent
+  fullName: SuperOffice.CRM.Services.IChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ChatBotSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.#ctor
+  isExternal: true
+  name: ChatBotSettings
+  nameWithType: ChatBotSettings.ChatBotSettings
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.ChatBotSettings
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatBotSettings.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ChatBotSettings.ToString
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotName*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.BotName
+  isExternal: true
+  name: BotName
+  nameWithType: ChatBotSettings.BotName
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotName
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId
+  isExternal: true
+  name: BotRegisterScriptId
+  nameWithType: ChatBotSettings.BotRegisterScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotRegisterScriptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId
+  isExternal: true
+  name: BotSessionCreatedScriptId
+  nameWithType: ChatBotSettings.BotSessionCreatedScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotSessionCreatedScriptId
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId
+  isExternal: true
+  name: BotSessionChangedScriptId
+  nameWithType: ChatBotSettings.BotSessionChangedScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotSessionChangedScriptId
+- uid: SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId
+  isExternal: true
+  name: BotMessageReceivedScriptId
+  nameWithType: ChatBotSettings.BotMessageReceivedScriptId
+  fullName: SuperOffice.CRM.Services.ChatBotSettings.BotMessageReceivedScriptId

@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.UI.Configuration.ICustomUIProvider
+  commentId: T:SuperOffice.UI.Configuration.ICustomUIProvider
+  id: ICustomUIProvider
+  parent: SuperOffice.UI.Configuration
+  children:
+  - SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi(System.String,System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: ICustomUIProvider
+  nameWithType: ICustomUIProvider
+  fullName: SuperOffice.UI.Configuration.ICustomUIProvider
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.UI.Configuration
+  summary: "\nInterface used by plugin modules that wish to declare a custom GUI, using the PageBuilder\n"
+  syntax:
+    content: public interface ICustomUIProvider
+    content.vb: Public Interface ICustomUIProvider
+  extensionMethods:
+  - SuperOffice.UI.Configuration.ICustomUIProvider.EnumUtil.MapEnums``2
+  - SuperOffice.UI.Configuration.ICustomUIProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi(System.String,System.String,System.String[])
+  commentId: M:SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi(System.String,System.String,System.String[])
+  id: GetCustomUi(System.String,System.String,System.String[])
+  parent: SuperOffice.UI.Configuration.ICustomUIProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCustomUi(String, String, String[])
+  nameWithType: ICustomUIProvider.GetCustomUi(String, String, String[])
+  fullName: SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi(System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.UI.Configuration
+  summary: "\nGet a custom GUI for a given operation and client\n"
+  remarks: "\nA custom GUI is declared as a View, containing one or more ControlGroups, in turn containing\ncontrols. Standard SuperOffice controls can be used for simpler GUI&apos;s, or a custom control\nwith arbitrary internal logic can be implemented and requested through this mechanism.\n<p></p>\nThe clienthint is used to inform the document plugin of what kind of client is at the other\nend. A document plugin or other custom UI provider \nis free to ignore this field, but may find it useful to adapt to\ngross differences between user interface platforms - for instance,\nlarge-screen Web vs. handheld device.\n<p></p>Note that a plugin implementing this interface might choose to present a GUI directly\nwhen running in a context with direct access to the user, as on a Windows Client - in this\ncase returning NULL as the return value (since the GUI has already been run by the time\nthe call returns). On non-interactive clients that implement the PageBuilder controlled\nuser interface (like 6.web), a declarative approach is used instead.		/// "
+  syntax:
+    content: View GetCustomUi(string guiName, string clientHint, params string[] additionalData)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: >-
+        Name of GUI element requested. The name &apos;SuperOffice:DocumentDialog&apos; is reserved
+
+        and denotes the custom GUI view in the document dialog. Other custom GUI names are defined by the
+
+        document (or other) plugin itself, and should be prefixed with the plugin name to keep them unique.
+    - id: clientHint
+      type: System.String
+      description: "Client hint, currently SuperOffice:None&apos;, &apos;SuperOffice:6.Web&apos; \nand &apos;SuperOffice:PocketCRM&apos; are used. See the class \n<xref href=\"SuperOffice.UI.Configuration.Constants.Clients\" data-throw-if-not-resolved=\"false\"></xref> for predefined values.\n"
+    - id: additionalData
+      type: System.String[]
+      description: >-
+        Array of strings containing whatever additional data the plugin
+
+        may need. This parameter is intended for authors of more complex custom GUI&apos;s and works as
+
+        a tunnel between the ultimate client and the document plugin. Standard GUI made by SuperOffice,
+
+        such as a context menu connected to a document item in an archive, will not populate this
+
+        member.<br />It is strongly suggested that the convention of using name=value for each string
+
+        array element be followed here. Also, names should be prefixed with the plugin name to
+
+        distinguish them, in case more than one party injects values.
+    return:
+      type: SuperOffice.UI.Configuration.View
+      description: "GUI structure, rooted in a View object. If there is no custom GUI for this name, null \nshould be returned."
+    content.vb: Function GetCustomUi(guiName As String, clientHint As String, ParamArray additionalData As String()) As View
+  overload: SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi*
+  nameWithType.vb: ICustomUIProvider.GetCustomUi(String, String, String())
+  fullName.vb: SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi(System.String, System.String, System.String())
+  name.vb: GetCustomUi(String, String, String())
+references:
+- uid: SuperOffice.UI.Configuration
+  commentId: N:SuperOffice.UI.Configuration
+  isExternal: true
+  name: SuperOffice.UI.Configuration
+  nameWithType: SuperOffice.UI.Configuration
+  fullName: SuperOffice.UI.Configuration
+- uid: SuperOffice.UI.Configuration.ICustomUIProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ICustomUIProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ICustomUIProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.UI.Configuration.ICustomUIProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ICustomUIProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.UI.Configuration.ICustomUIProvider, To)()
+  name.vb: MapEnums(Of ICustomUIProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ICustomUIProvider, To>
+    nameWithType: EnumUtil.MapEnums<ICustomUIProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.UI.Configuration.ICustomUIProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ICustomUIProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ICustomUIProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.UI.Configuration.ICustomUIProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.UI.Configuration.ICustomUIProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ICustomUIProvider, To>()
+  nameWithType: Converters.MapEnums<ICustomUIProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.UI.Configuration.ICustomUIProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ICustomUIProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.UI.Configuration.ICustomUIProvider, To)()
+  name.vb: MapEnums(Of ICustomUIProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ICustomUIProvider, To>
+    nameWithType: Converters.MapEnums<ICustomUIProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.UI.Configuration.ICustomUIProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ICustomUIProvider, To)
+    nameWithType: Converters.MapEnums(Of ICustomUIProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.UI.Configuration.ICustomUIProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi*
+  commentId: Overload:SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi
+  isExternal: true
+  name: GetCustomUi
+  nameWithType: ICustomUIProvider.GetCustomUi
+  fullName: SuperOffice.UI.Configuration.ICustomUIProvider.GetCustomUi
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.UI.Configuration.View
+  commentId: T:SuperOffice.UI.Configuration.View
+  parent: SuperOffice.UI.Configuration
+  isExternal: true
+  name: View
+  nameWithType: View
+  fullName: SuperOffice.UI.Configuration.View
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

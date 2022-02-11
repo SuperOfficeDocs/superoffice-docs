@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest
+  id: Quote_GetConnectionsForAssociateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetConnectionsForAssociateRequest
+  nameWithType: Quote_GetConnectionsForAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetConnectionsForAssociateRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetConnectionsForAssociateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetConnectionsForAssociateRequest()
+  nameWithType: Quote_GetConnectionsForAssociateRequest.Quote_GetConnectionsForAssociateRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.Quote_GetConnectionsForAssociateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetConnectionsForAssociateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Quote_GetConnectionsForAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.#ctor
+  isExternal: true
+  name: Quote_GetConnectionsForAssociateRequest
+  nameWithType: Quote_GetConnectionsForAssociateRequest.Quote_GetConnectionsForAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.Quote_GetConnectionsForAssociateRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Quote_GetConnectionsForAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Quote_GetConnectionsForAssociateRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

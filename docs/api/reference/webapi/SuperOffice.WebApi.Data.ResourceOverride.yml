@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ResourceOverride
+  commentId: T:SuperOffice.WebApi.Data.ResourceOverride
+  id: ResourceOverride
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ResourceOverride.#ctor
+  - SuperOffice.WebApi.Data.ResourceOverride.Culture
+  - SuperOffice.WebApi.Data.ResourceOverride.IsActive
+  - SuperOffice.WebApi.Data.ResourceOverride.ResourceName
+  - SuperOffice.WebApi.Data.ResourceOverride.ResourceValue
+  langs:
+  - csharp
+  - vb
+  name: ResourceOverride
+  nameWithType: ResourceOverride
+  fullName: SuperOffice.WebApi.Data.ResourceOverride
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ResourceOverride.\nOverride specifications for resources/labels    \n"
+  syntax:
+    content: 'public class ResourceOverride : Carrier'
+    content.vb: >-
+      Public Class ResourceOverride
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ResourceAgent
+    commentId: T:SuperOffice.WebApi.Agents.ResourceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ResourceOverride.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ResourceOverride.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ResourceOverride
+  langs:
+  - csharp
+  - vb
+  name: ResourceOverride()
+  nameWithType: ResourceOverride.ResourceOverride()
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.ResourceOverride()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ResourceOverride()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ResourceOverride.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ResourceOverride.ResourceName
+  commentId: P:SuperOffice.WebApi.Data.ResourceOverride.ResourceName
+  id: ResourceName
+  parent: SuperOffice.WebApi.Data.ResourceOverride
+  langs:
+  - csharp
+  - vb
+  name: ResourceName
+  nameWithType: ResourceOverride.ResourceName
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.ResourceName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the resource, without any brackets or braces - example: SR_CONTACT\n"
+  syntax:
+    content: public virtual string ResourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ResourceName As String
+  overload: SuperOffice.WebApi.Data.ResourceOverride.ResourceName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ResourceOverride.ResourceValue
+  commentId: P:SuperOffice.WebApi.Data.ResourceOverride.ResourceValue
+  id: ResourceValue
+  parent: SuperOffice.WebApi.Data.ResourceOverride
+  langs:
+  - csharp
+  - vb
+  name: ResourceValue
+  nameWithType: ResourceOverride.ResourceValue
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.ResourceValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe value of the resource in the given culture\n"
+  syntax:
+    content: public virtual string ResourceValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ResourceValue As String
+  overload: SuperOffice.WebApi.Data.ResourceOverride.ResourceValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ResourceOverride.Culture
+  commentId: P:SuperOffice.WebApi.Data.ResourceOverride.Culture
+  id: Culture
+  parent: SuperOffice.WebApi.Data.ResourceOverride
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: ResourceOverride.Culture
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.Culture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n.NET-style culture code, such as NB-NO or EN-UK\n"
+  syntax:
+    content: public virtual string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Culture As String
+  overload: SuperOffice.WebApi.Data.ResourceOverride.Culture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ResourceOverride.IsActive
+  commentId: P:SuperOffice.WebApi.Data.ResourceOverride.IsActive
+  id: IsActive
+  parent: SuperOffice.WebApi.Data.ResourceOverride
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: ResourceOverride.IsActive
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.IsActive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this override active\n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.WebApi.Data.ResourceOverride.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ResourceAgent
+  commentId: T:SuperOffice.WebApi.Agents.ResourceAgent
+  isExternal: true
+  name: ResourceAgent
+  nameWithType: ResourceAgent
+  fullName: SuperOffice.WebApi.Agents.ResourceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ResourceOverride.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ResourceOverride.#ctor
+  isExternal: true
+  name: ResourceOverride
+  nameWithType: ResourceOverride.ResourceOverride
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.ResourceOverride
+- uid: SuperOffice.WebApi.Data.ResourceOverride.ResourceName*
+  commentId: Overload:SuperOffice.WebApi.Data.ResourceOverride.ResourceName
+  isExternal: true
+  name: ResourceName
+  nameWithType: ResourceOverride.ResourceName
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.ResourceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ResourceOverride.ResourceValue*
+  commentId: Overload:SuperOffice.WebApi.Data.ResourceOverride.ResourceValue
+  isExternal: true
+  name: ResourceValue
+  nameWithType: ResourceOverride.ResourceValue
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.ResourceValue
+- uid: SuperOffice.WebApi.Data.ResourceOverride.Culture*
+  commentId: Overload:SuperOffice.WebApi.Data.ResourceOverride.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: ResourceOverride.Culture
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.Culture
+- uid: SuperOffice.WebApi.Data.ResourceOverride.IsActive*
+  commentId: Overload:SuperOffice.WebApi.Data.ResourceOverride.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: ResourceOverride.IsActive
+  fullName: SuperOffice.WebApi.Data.ResourceOverride.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

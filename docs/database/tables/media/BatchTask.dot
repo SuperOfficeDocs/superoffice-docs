@@ -1,0 +1,11 @@
+digraph BatchTask  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+BatchTask[fillcolor = "cadetblue1"]
+BatchTaskDefinition[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+BatchTask -> BatchTaskDefinition [headlabel = "BatchTaskDefinition_id"]
+BatchTask -> associate [headlabel = "registered_associate_id"]
+BatchTask -> associate [label = "updated_associate_id"]
+}

@@ -1,0 +1,8 @@
+digraph user_attribute  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+user_attribute[fillcolor = "cadetblue1"]
+ejuser[fillcolor = "azure1"]
+user_attribute -> ejuser [headlabel = "user_id"]
+}

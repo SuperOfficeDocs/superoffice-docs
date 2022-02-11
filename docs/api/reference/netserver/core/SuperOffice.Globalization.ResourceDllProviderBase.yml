@@ -1,0 +1,1455 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.ResourceDllProviderBase
+  commentId: T:SuperOffice.Globalization.ResourceDllProviderBase
+  id: ResourceDllProviderBase
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.ResourceDllProviderBase.#ctor(System.Reflection.Assembly,System.String)
+  - SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize
+  - SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings(System.String,System.String)
+  - SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String)
+  - SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String,System.String)
+  - SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages
+  - SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture(System.String,System.String)
+  - SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture(System.String)
+  - SuperOffice.Globalization.ResourceDllProviderBase.Initialize
+  langs:
+  - csharp
+  - vb
+  name: ResourceDllProviderBase
+  nameWithType: ResourceDllProviderBase
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nBase class for standard .NET resource DLL based providers\n"
+  remarks: "\nUsing a minimal derivation from this class, you can make your own resource dll that will be\npicked up by NetServer and inserted into the provider stack. This base class contains\nsufficient implementation of the whole IResourceProvider interface.\n<p></p>\nA derivation of the following form is enough:\n<pre><code>namespace SuperOffice.SM.Resources\n{\n	[ResourceProvider(&quot;SuperOffice.SM.Resources&quot;, int.MaxValue / 2)]\n	public class SuperOfficeResourceDllProvider : ResourceDllProviderBase\n	{\n		public SuperOfficeResourceDllProvider()\n			: base(Assembly.GetExecutingAssembly(), &quot;.ResourceStrings&quot;)\n		{\n		}\n	}\n}	</code></pre>\nThe name of the provider, declared in the ResourceProvider attribute, should be of a form\nthat ensures uniqueness, &lt;Company>.&lt;Product> is suggested. The priority value\ncan be left at int.MaxValue/2 unless the purpose of the provider is to <strong>override existing providers</strong>\nwith new values; in that case a numerically lower value will ensure that this provider\nis called first.\n<p></p>\nThe &quot;.ResourceStrings&quot; constant reflects the name of the resource XML structure, and\ncorresponds to the name of the .resx files in the project.\n"
+  syntax:
+    content: 'public abstract class ResourceDllProviderBase : IResourceProvider, ISearchableResourceProvider, IUnfilteredResourceProvider, IPlugin'
+    content.vb: >-
+      Public MustInherit Class ResourceDllProviderBase
+          Implements IResourceProvider, ISearchableResourceProvider, IUnfilteredResourceProvider, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Globalization.IResourceProvider
+  - SuperOffice.Globalization.ISearchableResourceProvider
+  - SuperOffice.Globalization.IUnfilteredResourceProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Globalization.ResourceDllProviderBase.EnumUtil.MapEnums``2
+  - SuperOffice.Globalization.ResourceDllProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.#ctor(System.Reflection.Assembly,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.#ctor(System.Reflection.Assembly,System.String)
+  id: '#ctor(System.Reflection.Assembly,System.String)'
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ResourceDllProviderBase(Assembly, String)
+  nameWithType: ResourceDllProviderBase.ResourceDllProviderBase(Assembly, String)
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.ResourceDllProviderBase(System.Reflection.Assembly, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nBase constructor.\n"
+  syntax:
+    content: protected ResourceDllProviderBase(Assembly resourceAssembly, string resourceRoot)
+    parameters:
+    - id: resourceAssembly
+      type: System.Reflection.Assembly
+      description: Resource assembly to assign.
+    - id: resourceRoot
+      type: System.String
+      description: Resource root to assign.
+    content.vb: Protected Sub New(resourceAssembly As Assembly, resourceRoot As String)
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.Initialize
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.Initialize
+  id: Initialize
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: ResourceDllProviderBase.Initialize()
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.Initialize()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nInitialize resources.\n"
+  syntax:
+    content: public virtual void Initialize()
+    content.vb: Public Overridable Sub Initialize
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.Initialize*
+  implements:
+  - SuperOffice.Globalization.IResourceProvider.Initialize
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize
+  id: CanInitialize
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: CanInitialize()
+  nameWithType: ResourceDllProviderBase.CanInitialize()
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReports wheter the ResourceDllProvider can/needs initialization.\n"
+  syntax:
+    content: public virtual bool CanInitialize()
+    return:
+      type: System.Boolean
+      description: true if it can be initlialized.
+    content.vb: Public Overridable Function CanInitialize As Boolean
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize*
+  implements:
+  - SuperOffice.Globalization.IResourceProvider.CanInitialize
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages
+  id: GetSupportedLanguages
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedLanguages()
+  nameWithType: ResourceDllProviderBase.GetSupportedLanguages()
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nScan currently loaded assemblies that have the same name as this one, and return the set of cultures (excluding the fallback invariant culture)\n"
+  remarks: "\nResource satellite assembly loading works in different ways depending on your execution model. When running\nas a web application, IIS will shadow-cache and preload all assemblies; this means that all cultures are\nloaded and we can scan the AppDomain. On the other hand, the file/folder structure of the satellite assemblies\nis lost.\n<p></p>\nWhen running as a &quot;normal&quot; application, the .NET <xref href=\"System.Resources.ResourceManager\" data-throw-if-not-resolved=\"false\"></xref> will load\nsatellite assemblies as needed - so looking at the AppDomain will not tell us much beyond the current and fallback\ncultures. In this case we need to do a directory scan to determine what other cultures actually exist.\n"
+  syntax:
+    content: public virtual CultureInfo[] GetSupportedLanguages()
+    return:
+      type: System.Globalization.CultureInfo[]
+    content.vb: Public Overridable Function GetSupportedLanguages As CultureInfo()
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages*
+  implements:
+  - SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture(System.String)
+  id: GetUnfilteredResourcesForCulture(System.String)
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetUnfilteredResourcesForCulture(String)
+  nameWithType: ResourceDllProviderBase.GetUnfilteredResourcesForCulture(String)
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns all resource strings for the specified culture as a dictionary\n"
+  syntax:
+    content: public Dictionary<string, string> GetUnfilteredResourcesForCulture(string cultureName)
+    parameters:
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Dictionary of all resource labels and values
+    content.vb: Public Function GetUnfilteredResourcesForCulture(cultureName As String) As Dictionary(Of String, String)
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture*
+  implements:
+  - SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture(System.String,System.String)
+  id: GetUnfilteredResourceForCulture(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetUnfilteredResourceForCulture(String, String)
+  nameWithType: ResourceDllProviderBase.GetUnfilteredResourceForCulture(String, String)
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the unfiltered string from this provider in the specified culture\n"
+  syntax:
+    content: public string GetUnfilteredResourceForCulture(string name, string cultureName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String
+      description: The unfiltered resource string, or null if not found
+    content.vb: Public Function GetUnfilteredResourceForCulture(name As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture*
+  implements:
+  - SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String)
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String)
+  id: GetResource(System.String)
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetResource(String)
+  nameWithType: ResourceDllProviderBase.GetResource(String)
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a string from this provider in the current culture\n"
+  syntax:
+    content: public virtual string GetResource(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    return:
+      type: System.String
+      description: The resource string
+    content.vb: Public Overridable Function GetResource(name As String) As String
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.GetResource*
+  implements:
+  - SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String,System.String)
+  id: GetResource(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetResource(String, String)
+  nameWithType: ResourceDllProviderBase.GetResource(String, String)
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetResource(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a string from this provider in the specified culture\n"
+  syntax:
+    content: public virtual string GetResource(string name, string cultureName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String
+      description: The resource string
+    content.vb: Public Overridable Function GetResource(name As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.GetResource*
+  implements:
+  - SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings(System.String,System.String)
+  id: FindResourceStrings(System.String,System.String)
+  parent: SuperOffice.Globalization.ResourceDllProviderBase
+  langs:
+  - csharp
+  - vb
+  name: FindResourceStrings(String, String)
+  nameWithType: ResourceDllProviderBase.FindResourceStrings(String, String)
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns all resource strings containing searchString in the specified culture\n"
+  syntax:
+    content: public virtual string[] FindResourceStrings(string searchString, string cultureName)
+    parameters:
+    - id: searchString
+      type: System.String
+      description: The string to search for, case insensitive
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String[]
+      description: Array of resource strings matching searchString
+    content.vb: Public Overridable Function FindResourceStrings(searchString As String, cultureName As String) As String()
+  overload: SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings*
+  implements:
+  - SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Globalization.IResourceProvider
+  commentId: T:SuperOffice.Globalization.IResourceProvider
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: IResourceProvider
+  nameWithType: IResourceProvider
+  fullName: SuperOffice.Globalization.IResourceProvider
+- uid: SuperOffice.Globalization.ISearchableResourceProvider
+  commentId: T:SuperOffice.Globalization.ISearchableResourceProvider
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: ISearchableResourceProvider
+  nameWithType: ISearchableResourceProvider
+  fullName: SuperOffice.Globalization.ISearchableResourceProvider
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider
+  commentId: T:SuperOffice.Globalization.IUnfilteredResourceProvider
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: IUnfilteredResourceProvider
+  nameWithType: IUnfilteredResourceProvider
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ResourceDllProviderBase, To>()
+  nameWithType: EnumUtil.MapEnums<ResourceDllProviderBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.ResourceDllProviderBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ResourceDllProviderBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.ResourceDllProviderBase, To)()
+  name.vb: MapEnums(Of ResourceDllProviderBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ResourceDllProviderBase, To>
+    nameWithType: EnumUtil.MapEnums<ResourceDllProviderBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.ResourceDllProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ResourceDllProviderBase, To)
+    nameWithType: EnumUtil.MapEnums(Of ResourceDllProviderBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.ResourceDllProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ResourceDllProviderBase, To>()
+  nameWithType: Converters.MapEnums<ResourceDllProviderBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.ResourceDllProviderBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of ResourceDllProviderBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.ResourceDllProviderBase, To)()
+  name.vb: MapEnums(Of ResourceDllProviderBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ResourceDllProviderBase, To>
+    nameWithType: Converters.MapEnums<ResourceDllProviderBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.ResourceDllProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ResourceDllProviderBase, To)
+    nameWithType: Converters.MapEnums(Of ResourceDllProviderBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.ResourceDllProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.#ctor*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.#ctor
+  isExternal: true
+  name: ResourceDllProviderBase
+  nameWithType: ResourceDllProviderBase.ResourceDllProviderBase
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.ResourceDllProviderBase
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.Initialize*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: ResourceDllProviderBase.Initialize
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.Initialize
+- uid: SuperOffice.Globalization.IResourceProvider.Initialize
+  commentId: M:SuperOffice.Globalization.IResourceProvider.Initialize
+  parent: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: Initialize()
+  nameWithType: IResourceProvider.Initialize()
+  fullName: SuperOffice.Globalization.IResourceProvider.Initialize()
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IResourceProvider.Initialize
+    name: Initialize
+    nameWithType: IResourceProvider.Initialize
+    fullName: SuperOffice.Globalization.IResourceProvider.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IResourceProvider.Initialize
+    name: Initialize
+    nameWithType: IResourceProvider.Initialize
+    fullName: SuperOffice.Globalization.IResourceProvider.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize
+  isExternal: true
+  name: CanInitialize
+  nameWithType: ResourceDllProviderBase.CanInitialize
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.CanInitialize
+- uid: SuperOffice.Globalization.IResourceProvider.CanInitialize
+  commentId: M:SuperOffice.Globalization.IResourceProvider.CanInitialize
+  parent: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: CanInitialize()
+  nameWithType: IResourceProvider.CanInitialize()
+  fullName: SuperOffice.Globalization.IResourceProvider.CanInitialize()
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IResourceProvider.CanInitialize
+    name: CanInitialize
+    nameWithType: IResourceProvider.CanInitialize
+    fullName: SuperOffice.Globalization.IResourceProvider.CanInitialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IResourceProvider.CanInitialize
+    name: CanInitialize
+    nameWithType: IResourceProvider.CanInitialize
+    fullName: SuperOffice.Globalization.IResourceProvider.CanInitialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages
+  isExternal: true
+  name: GetSupportedLanguages
+  nameWithType: ResourceDllProviderBase.GetSupportedLanguages
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetSupportedLanguages
+- uid: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+  commentId: M:SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+  parent: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: GetSupportedLanguages()
+  nameWithType: IResourceProvider.GetSupportedLanguages()
+  fullName: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages()
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+    name: GetSupportedLanguages
+    nameWithType: IResourceProvider.GetSupportedLanguages
+    fullName: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+    name: GetSupportedLanguages
+    nameWithType: IResourceProvider.GetSupportedLanguages
+    fullName: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Globalization.CultureInfo[]
+  isExternal: true
+  name: CultureInfo[]
+  nameWithType: CultureInfo[]
+  fullName: System.Globalization.CultureInfo[]
+  nameWithType.vb: CultureInfo()
+  fullName.vb: System.Globalization.CultureInfo()
+  name.vb: CultureInfo()
+  spec.csharp:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture
+  isExternal: true
+  name: GetUnfilteredResourcesForCulture
+  nameWithType: ResourceDllProviderBase.GetUnfilteredResourcesForCulture
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourcesForCulture
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  commentId: M:SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  parent: SuperOffice.Globalization.IUnfilteredResourceProvider
+  isExternal: true
+  name: GetUnfilteredResourcesForCulture(String)
+  nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(String)
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+    name: GetUnfilteredResourcesForCulture
+    nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+    fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture(System.String)
+    name: GetUnfilteredResourcesForCulture
+    nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+    fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourcesForCulture
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture
+  isExternal: true
+  name: GetUnfilteredResourceForCulture
+  nameWithType: ResourceDllProviderBase.GetUnfilteredResourceForCulture
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetUnfilteredResourceForCulture
+- uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+  parent: SuperOffice.Globalization.IUnfilteredResourceProvider
+  isExternal: true
+  name: GetUnfilteredResourceForCulture(String, String)
+  nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(String, String)
+  fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+    name: GetUnfilteredResourceForCulture
+    nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourceForCulture
+    fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture(System.String,System.String)
+    name: GetUnfilteredResourceForCulture
+    nameWithType: IUnfilteredResourceProvider.GetUnfilteredResourceForCulture
+    fullName: SuperOffice.Globalization.IUnfilteredResourceProvider.GetUnfilteredResourceForCulture
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.GetResource*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.GetResource
+  isExternal: true
+  name: GetResource
+  nameWithType: ResourceDllProviderBase.GetResource
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.GetResource
+- uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
+  commentId: M:SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
+  parent: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: GetResource(String)
+  nameWithType: IResourceProvider.GetResource(String)
+  fullName: SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
+    name: GetResource
+    nameWithType: IResourceProvider.GetResource
+    fullName: SuperOffice.Globalization.IResourceProvider.GetResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
+    name: GetResource
+    nameWithType: IResourceProvider.GetResource
+    fullName: SuperOffice.Globalization.IResourceProvider.GetResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
+  parent: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: GetResource(String, String)
+  nameWithType: IResourceProvider.GetResource(String, String)
+  fullName: SuperOffice.Globalization.IResourceProvider.GetResource(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
+    name: GetResource
+    nameWithType: IResourceProvider.GetResource
+    fullName: SuperOffice.Globalization.IResourceProvider.GetResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
+    name: GetResource
+    nameWithType: IResourceProvider.GetResource
+    fullName: SuperOffice.Globalization.IResourceProvider.GetResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings*
+  commentId: Overload:SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings
+  isExternal: true
+  name: FindResourceStrings
+  nameWithType: ResourceDllProviderBase.FindResourceStrings
+  fullName: SuperOffice.Globalization.ResourceDllProviderBase.FindResourceStrings
+- uid: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
+  parent: SuperOffice.Globalization.ISearchableResourceProvider
+  isExternal: true
+  name: FindResourceStrings(String, String)
+  nameWithType: ISearchableResourceProvider.FindResourceStrings(String, String)
+  fullName: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
+    name: FindResourceStrings
+    nameWithType: ISearchableResourceProvider.FindResourceStrings
+    fullName: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings(System.String,System.String)
+    name: FindResourceStrings
+    nameWithType: ISearchableResourceProvider.FindResourceStrings
+    fullName: SuperOffice.Globalization.ISearchableResourceProvider.FindResourceStrings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

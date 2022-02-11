@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  commentId: T:SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  id: SoInputButton.ButtonType
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.EditButton
+  - SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.OkButton
+  - SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.Standard
+  langs:
+  - csharp
+  - vb
+  name: SoInputButton.ButtonType
+  nameWithType: SoInputButton.ButtonType
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  type: Enum
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public enum ButtonType
+    content.vb: Public Enum ButtonType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.Standard
+  commentId: F:SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.Standard
+  id: Standard
+  parent: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Standard
+  nameWithType: SoInputButton.ButtonType.Standard
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.Standard
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: Standard = 0
+    return:
+      type: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.OkButton
+  commentId: F:SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.OkButton
+  id: OkButton
+  parent: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: OkButton
+  nameWithType: SoInputButton.ButtonType.OkButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.OkButton
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: OkButton = 1
+    return:
+      type: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.EditButton
+  commentId: F:SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.EditButton
+  id: EditButton
+  parent: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: EditButton
+  nameWithType: SoInputButton.ButtonType.EditButton
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType.EditButton
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: EditButton = 2
+    return:
+      type: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  commentId: T:SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoInputButton.ButtonType
+  nameWithType: SoInputButton.ButtonType
+  fullName: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType

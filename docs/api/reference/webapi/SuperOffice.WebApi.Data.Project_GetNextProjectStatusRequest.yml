@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
+  id: Project_GetNextProjectStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId
+  langs:
+  - csharp
+  - vb
+  name: Project_GetNextProjectStatusRequest
+  nameWithType: Project_GetNextProjectStatusRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetNextProjectStatusRequest : Object'
+    content.vb: >-
+      Public Class Project_GetNextProjectStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetNextProjectStatusRequest()
+  nameWithType: Project_GetNextProjectStatusRequest.Project_GetNextProjectStatusRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.Project_GetNextProjectStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetNextProjectStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Project_GetNextProjectStatusRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.#ctor
+  isExternal: true
+  name: Project_GetNextProjectStatusRequest
+  nameWithType: Project_GetNextProjectStatusRequest.Project_GetNextProjectStatusRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.Project_GetNextProjectStatusRequest
+- uid: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Project_GetNextProjectStatusRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

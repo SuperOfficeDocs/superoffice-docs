@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus
+  commentId: T:SuperOffice.WebApi.Data.UpsertRowStatus
+  id: UpsertRowStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UpsertRowStatus.#ctor
+  - SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  - SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  - SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey
+  - SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys
+  langs:
+  - csharp
+  - vb
+  name: UpsertRowStatus
+  nameWithType: UpsertRowStatus
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UpsertRowStatus.\nInformation about a row of the results of a mass-update operation    \n"
+  syntax:
+    content: 'public class UpsertRowStatus : Carrier'
+    content.vb: >-
+      Public Class UpsertRowStatus
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DatabaseTableAgent
+    commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UpsertRowStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UpsertRowStatus
+  langs:
+  - csharp
+  - vb
+  name: UpsertRowStatus()
+  nameWithType: UpsertRowStatus.UpsertRowStatus()
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.UpsertRowStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UpsertRowStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UpsertRowStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey
+  commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.WebApi.Data.UpsertRowStatus
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: UpsertRowStatus.PrimaryKey
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key of the target table, that matches the keys specified in the data row\n"
+  syntax:
+    content: public virtual int PrimaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrimaryKey As Integer
+  overload: SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  id: Action_String
+  parent: SuperOffice.WebApi.Data.UpsertRowStatus
+  langs:
+  - csharp
+  - vb
+  name: Action_String
+  nameWithType: UpsertRowStatus.Action_String
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActiona taken for row\nRaw string enum value.\n"
+  syntax:
+    content: public string Action_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Action_String As String
+  overload: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UpsertRowStatus.Action
+    commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.UpsertRowStatus
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: UpsertRowStatus.Action
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActiona taken for row\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UpsertRowActionStatus> Action { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UpsertRowActionStatus}
+    content.vb: Public Property Action As Nullable(Of UpsertRowActionStatus)
+  overload: SuperOffice.WebApi.Data.UpsertRowStatus.Action*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+    commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys
+  commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys
+  id: RowKeys
+  parent: SuperOffice.WebApi.Data.UpsertRowStatus
+  langs:
+  - csharp
+  - vb
+  name: RowKeys
+  nameWithType: UpsertRowStatus.RowKeys
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe key values given in the incoming &apos;data&apos; parameter to the Upsert call, in the order they were speicifed in the &apos;keys&apos; array\n"
+  syntax:
+    content: public virtual string[] RowKeys { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property RowKeys As String()
+  overload: SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DatabaseTableAgent
+  commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
+  isExternal: true
+  name: DatabaseTableAgent
+  nameWithType: DatabaseTableAgent
+  fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UpsertRowStatus.#ctor
+  isExternal: true
+  name: UpsertRowStatus
+  nameWithType: UpsertRowStatus.UpsertRowStatus
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.UpsertRowStatus
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey
+  isExternal: true
+  name: PrimaryKey
+  nameWithType: UpsertRowStatus.PrimaryKey
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.PrimaryKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String*
+  commentId: Overload:SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  isExternal: true
+  name: Action_String
+  nameWithType: UpsertRowStatus.Action_String
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.UpsertRowStatus.Action
+  isExternal: true
+  name: Action
+  nameWithType: UpsertRowStatus.Action
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.Action
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  commentId: P:SuperOffice.WebApi.Data.UpsertRowStatus.Action_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UpsertRowActionStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UpsertRowActionStatus}'
+  definition: System.Nullable`1
+  name: Nullable<UpsertRowActionStatus>
+  nameWithType: Nullable<UpsertRowActionStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UpsertRowActionStatus>
+  nameWithType.vb: Nullable(Of UpsertRowActionStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UpsertRowActionStatus)
+  name.vb: Nullable(Of UpsertRowActionStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    name: UpsertRowActionStatus
+    nameWithType: UpsertRowActionStatus
+    fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    name: UpsertRowActionStatus
+    nameWithType: UpsertRowActionStatus
+    fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys*
+  commentId: Overload:SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys
+  isExternal: true
+  name: RowKeys
+  nameWithType: UpsertRowStatus.RowKeys
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus.RowKeys
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

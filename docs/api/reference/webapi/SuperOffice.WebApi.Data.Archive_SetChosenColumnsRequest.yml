@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  id: Archive_SetChosenColumnsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns
+  - SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName
+  - SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: Archive_SetChosenColumnsRequest
+  nameWithType: Archive_SetChosenColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_SetChosenColumnsRequest : Object'
+    content.vb: >-
+      Public Class Archive_SetChosenColumnsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_SetChosenColumnsRequest()
+  nameWithType: Archive_SetChosenColumnsRequest.Archive_SetChosenColumnsRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.Archive_SetChosenColumnsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_SetChosenColumnsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName
+  commentId: P:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName
+  id: GuiName
+  parent: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: GuiName
+  nameWithType: Archive_SetChosenColumnsRequest.GuiName
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string GuiName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GuiName As String
+  overload: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_SetChosenColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns
+  commentId: P:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns
+  id: ChosenColumns
+  parent: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: ChosenColumns
+  nameWithType: Archive_SetChosenColumnsRequest.ChosenColumns
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] ChosenColumns { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ChosenColumns As String()
+  overload: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.#ctor
+  isExternal: true
+  name: Archive_SetChosenColumnsRequest
+  nameWithType: Archive_SetChosenColumnsRequest.Archive_SetChosenColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.Archive_SetChosenColumnsRequest
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName
+  isExternal: true
+  name: GuiName
+  nameWithType: Archive_SetChosenColumnsRequest.GuiName
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.GuiName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_SetChosenColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns
+  isExternal: true
+  name: ChosenColumns
+  nameWithType: Archive_SetChosenColumnsRequest.ChosenColumns
+  fullName: SuperOffice.WebApi.Data.Archive_SetChosenColumnsRequest.ChosenColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  commentId: T:SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  id: TicketSentry.TicketIntent
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.Edit
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.List
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.View
+  langs:
+  - csharp
+  - vb
+  name: TicketSentry.TicketIntent
+  nameWithType: TicketSentry.TicketIntent
+  fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public enum TicketIntent
+    content.vb: Public Enum TicketIntent
+  extensionMethods:
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.TicketSentry.TicketIntent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.List
+  commentId: F:SuperOffice.CRM.Security.TicketSentry.TicketIntent.List
+  id: List
+  parent: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: TicketSentry.TicketIntent.List
+  fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent.List
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: List = 0
+    return:
+      type: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.View
+  commentId: F:SuperOffice.CRM.Security.TicketSentry.TicketIntent.View
+  id: View
+  parent: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: TicketSentry.TicketIntent.View
+  fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent.View
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: View = 1
+    return:
+      type: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.Edit
+  commentId: F:SuperOffice.CRM.Security.TicketSentry.TicketIntent.Edit
+  id: Edit
+  parent: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: TicketSentry.TicketIntent.Edit
+  fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent.Edit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: Edit = 2
+    return:
+      type: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketSentry.TicketIntent, To>()
+  nameWithType: EnumUtil.MapEnums<TicketSentry.TicketIntent, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TicketSentry.TicketIntent, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketSentry.TicketIntent, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent, To)()
+  name.vb: MapEnums(Of TicketSentry.TicketIntent, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketSentry.TicketIntent, To>
+    nameWithType: EnumUtil.MapEnums<TicketSentry.TicketIntent, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TicketSentry.TicketIntent, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketSentry.TicketIntent, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketSentry.TicketIntent, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketSentry.TicketIntent>(TicketSentry.TicketIntent)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketSentry.TicketIntent>(TicketSentry.TicketIntent)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TicketSentry.TicketIntent>(SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketSentry.TicketIntent)(TicketSentry.TicketIntent)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent)(SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  name.vb: AssignByReflection(Of TicketSentry.TicketIntent)(TicketSentry.TicketIntent)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketSentry.TicketIntent>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketSentry.TicketIntent>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TicketSentry.TicketIntent>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+    name: TicketSentry.TicketIntent
+    nameWithType: TicketSentry.TicketIntent
+    fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketSentry.TicketIntent)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketSentry.TicketIntent)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+    name: TicketSentry.TicketIntent
+    nameWithType: TicketSentry.TicketIntent
+    fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketSentry.TicketIntent>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketSentry.TicketIntent>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TicketSentry.TicketIntent>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketSentry.TicketIntent)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent)()
+  name.vb: GraphCopy(Of TicketSentry.TicketIntent)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketSentry.TicketIntent>
+    nameWithType: ObjectExtensions.GraphCopy<TicketSentry.TicketIntent>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TicketSentry.TicketIntent>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketSentry.TicketIntent)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketSentry.TicketIntent)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketSentry.TicketIntent, To>()
+  nameWithType: Converters.MapEnums<TicketSentry.TicketIntent, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TicketSentry.TicketIntent, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketSentry.TicketIntent, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent, To)()
+  name.vb: MapEnums(Of TicketSentry.TicketIntent, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketSentry.TicketIntent, To>
+    nameWithType: Converters.MapEnums<TicketSentry.TicketIntent, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TicketSentry.TicketIntent, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketSentry.TicketIntent, To)
+    nameWithType: Converters.MapEnums(Of TicketSentry.TicketIntent, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TicketSentry.TicketIntent, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  commentId: T:SuperOffice.CRM.Security.TicketSentry.TicketIntent
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TicketSentry.TicketIntent
+  nameWithType: TicketSentry.TicketIntent
+  fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent

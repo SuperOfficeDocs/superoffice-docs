@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoDropDownList
+  commentId: T:SuperOffice.Web.UI.Controls.SoDropDownList
+  id: SoDropDownList
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoDropDownList.#ctor
+  langs:
+  - csharp
+  - vb
+  name: SoDropDownList
+  nameWithType: SoDropDownList
+  fullName: SuperOffice.Web.UI.Controls.SoDropDownList
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoDropDownList : DropDownList, INamingContainer'
+    content.vb: >-
+      Public Class SoDropDownList
+          Inherits DropDownList
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.UI.INamingContainer
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoDropDownList.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoDropDownList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoDropDownList
+  langs:
+  - csharp
+  - vb
+  name: SoDropDownList()
+  nameWithType: SoDropDownList.SoDropDownList()
+  fullName: SuperOffice.Web.UI.Controls.SoDropDownList.SoDropDownList()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoDropDownList()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoDropDownList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoDropDownList.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoDropDownList.#ctor
+  isExternal: true
+  name: SoDropDownList
+  nameWithType: SoDropDownList.SoDropDownList
+  fullName: SuperOffice.Web.UI.Controls.SoDropDownList.SoDropDownList

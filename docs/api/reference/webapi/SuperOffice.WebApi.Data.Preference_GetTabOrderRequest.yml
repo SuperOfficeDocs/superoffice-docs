@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_GetTabOrderRequest
+  id: Preference_GetTabOrderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetTabOrderRequest
+  nameWithType: Preference_GetTabOrderRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_GetTabOrderRequest : Object'
+    content.vb: >-
+      Public Class Preference_GetTabOrderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetTabOrderRequest()
+  nameWithType: Preference_GetTabOrderRequest.Preference_GetTabOrderRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.Preference_GetTabOrderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_GetTabOrderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName
+  id: TabName
+  parent: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: TabName
+  nameWithType: Preference_GetTabOrderRequest.TabName
+  fullName: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TabName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TabName As String
+  overload: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.#ctor
+  isExternal: true
+  name: Preference_GetTabOrderRequest
+  nameWithType: Preference_GetTabOrderRequest.Preference_GetTabOrderRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.Preference_GetTabOrderRequest
+- uid: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName
+  isExternal: true
+  name: TabName
+  nameWithType: Preference_GetTabOrderRequest.TabName
+  fullName: SuperOffice.WebApi.Data.Preference_GetTabOrderRequest.TabName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryFlags
+  id: TicketCategoryFlags
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
+  - SuperOffice.WebApi.Data.TicketCategoryFlags.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryFlags
+  nameWithType: TicketCategoryFlags
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFlags for the ticket category\nThis Enum is used by:  ej_category.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class TicketCategoryFlags : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketCategoryFlags
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketCategoryFlags.value__
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketCategoryFlags.Unknown
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: No flags set\n"
+  syntax:
+    content: public const TicketCategoryFlags Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const Unknown As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
+  id: Internal
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: Internal
+  nameWithType: TicketCategoryFlags.Internal
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The category is set to internal and is not available in the Customer Centre\n"
+  syntax:
+    content: public const TicketCategoryFlags Internal
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const Internal As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
+  id: OnlyLoggedInUsers
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: OnlyLoggedInUsers
+  nameWithType: TicketCategoryFlags.OnlyLoggedInUsers
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Only assign requests to logged in users\n"
+  syntax:
+    content: public const TicketCategoryFlags OnlyLoggedInUsers
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const OnlyLoggedInUsers As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
+  id: DefaultToCategoryMaster
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: DefaultToCategoryMaster
+  nameWithType: TicketCategoryFlags.DefaultToCategoryMaster
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Assign to category administrator if no one is available\n"
+  syntax:
+    content: public const TicketCategoryFlags DefaultToCategoryMaster
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const DefaultToCategoryMaster As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
+  id: ListInMain
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: ListInMain
+  nameWithType: TicketCategoryFlags.ListInMain
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Show category in status view\n"
+  syntax:
+    content: public const TicketCategoryFlags ListInMain
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const ListInMain As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
+  id: RedelegateNewMsg
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: RedelegateNewMsg
+  nameWithType: TicketCategoryFlags.RedelegateNewMsg
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: Reassign requests on new message if user is not present\n"
+  syntax:
+    content: public const TicketCategoryFlags RedelegateNewMsg
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const RedelegateNewMsg As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
+  id: DelegateToOurContact
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: DelegateToOurContact
+  nameWithType: TicketCategoryFlags.DelegateToOurContact
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: Assign to our service contact if available\n"
+  syntax:
+    content: public const TicketCategoryFlags DelegateToOurContact
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const DelegateToOurContact As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
+  id: PropagateReplyTemplate
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: PropagateReplyTemplate
+  nameWithType: TicketCategoryFlags.PropagateReplyTemplate
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n64: Merge outbound e-mails for this category with reply template\n"
+  syntax:
+    content: public const TicketCategoryFlags PropagateReplyTemplate
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const PropagateReplyTemplate As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
+  id: MembersOnly
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: MembersOnly
+  nameWithType: TicketCategoryFlags.MembersOnly
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n128: Only members have access to requests in this category\n"
+  syntax:
+    content: public const TicketCategoryFlags MembersOnly
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const MembersOnly As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
+  id: NotifyMembers
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: NotifyMembers
+  nameWithType: TicketCategoryFlags.NotifyMembers
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n256: Send notification to members about new request\n"
+  syntax:
+    content: public const TicketCategoryFlags NotifyMembers
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const NotifyMembers As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
+  id: AcceptWhenReplying
+  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
+  langs:
+  - csharp
+  - vb
+  name: AcceptWhenReplying
+  nameWithType: TicketCategoryFlags.AcceptWhenReplying
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n512: Take ownership by default when replying\n"
+  syntax:
+    content: public const TicketCategoryFlags AcceptWhenReplying
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryFlags
+    content.vb: Public Const AcceptWhenReplying As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketCategoryFlags
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryFlags
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketCategoryFlags
+  nameWithType: TicketCategoryFlags
+  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags

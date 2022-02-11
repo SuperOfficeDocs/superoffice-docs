@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ISplitter
+  commentId: T:SuperOffice.DCF.Web.UI.ISplitter
+  id: ISplitter
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.ISplitter.GetSize(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISplitter
+  nameWithType: ISplitter
+  fullName: SuperOffice.DCF.Web.UI.ISplitter
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public interface ISplitter
+    content.vb: Public Interface ISplitter
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.UI.ISplitter.GetSize(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ISplitter.GetSize(System.String)
+  id: GetSize(System.String)
+  parent: SuperOffice.DCF.Web.UI.ISplitter
+  langs:
+  - csharp
+  - vb
+  name: GetSize(String)
+  nameWithType: ISplitter.GetSize(String)
+  fullName: SuperOffice.DCF.Web.UI.ISplitter.GetSize(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Size GetSize(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Drawing.Size
+    content.vb: Function GetSize(id As String) As Size
+  overload: SuperOffice.DCF.Web.UI.ISplitter.GetSize*
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.ISplitter.GetSize*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ISplitter.GetSize
+  isExternal: true
+  name: GetSize
+  nameWithType: ISplitter.GetSize
+  fullName: SuperOffice.DCF.Web.UI.ISplitter.GetSize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

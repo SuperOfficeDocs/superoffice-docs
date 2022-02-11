@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest
+  id: ErpSync_GetConnectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetConnectionRequest
+  nameWithType: ErpSync_GetConnectionRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_GetConnectionRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_GetConnectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetConnectionRequest()
+  nameWithType: ErpSync_GetConnectionRequest.ErpSync_GetConnectionRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpSync_GetConnectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_GetConnectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_GetConnectionRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.#ctor
+  isExternal: true
+  name: ErpSync_GetConnectionRequest
+  nameWithType: ErpSync_GetConnectionRequest.ErpSync_GetConnectionRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpSync_GetConnectionRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_GetConnectionRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetConnectionRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

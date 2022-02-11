@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailFolder
+  commentId: T:SuperOffice.WebApi.Data.EMailFolder
+  id: EMailFolder
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailFolder.#ctor
+  - SuperOffice.WebApi.Data.EMailFolder.Delimiter
+  - SuperOffice.WebApi.Data.EMailFolder.EmailFolderId
+  - SuperOffice.WebApi.Data.EMailFolder.Flags
+  - SuperOffice.WebApi.Data.EMailFolder.Name
+  - SuperOffice.WebApi.Data.EMailFolder.Subscribed
+  - SuperOffice.WebApi.Data.EMailFolder.TotalItems
+  - SuperOffice.WebApi.Data.EMailFolder.UnreadItems
+  langs:
+  - csharp
+  - vb
+  name: EMailFolder
+  nameWithType: EMailFolder
+  fullName: SuperOffice.WebApi.Data.EMailFolder
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EMailFolder.\nProperties for a mail folder    \n"
+  syntax:
+    content: 'public class EMailFolder : Carrier'
+    content.vb: >-
+      Public Class EMailFolder
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.EMailAgent
+    commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailFolder.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMailFolder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: EMailFolder()
+  nameWithType: EMailFolder.EMailFolder()
+  fullName: SuperOffice.WebApi.Data.EMailFolder.EMailFolder()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EMailFolder()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMailFolder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailFolder.Name
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EMailFolder.Name
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of folder\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.EMailFolder.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailFolder.Delimiter
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.Delimiter
+  id: Delimiter
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: Delimiter
+  nameWithType: EMailFolder.Delimiter
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Delimiter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe character which is used to delimit folder levels on the server\n"
+  syntax:
+    content: public virtual string Delimiter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Delimiter As String
+  overload: SuperOffice.WebApi.Data.EMailFolder.Delimiter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailFolder.Flags
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.Flags
+  id: Flags
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: EMailFolder.Flags
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Flags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFlags associated with the folder\n"
+  syntax:
+    content: public virtual string Flags { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Flags As String
+  overload: SuperOffice.WebApi.Data.EMailFolder.Flags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailFolder.TotalItems
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.TotalItems
+  id: TotalItems
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: TotalItems
+  nameWithType: EMailFolder.TotalItems
+  fullName: SuperOffice.WebApi.Data.EMailFolder.TotalItems
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal number of messages in the folder\n"
+  syntax:
+    content: public virtual int TotalItems { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TotalItems As Integer
+  overload: SuperOffice.WebApi.Data.EMailFolder.TotalItems*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailFolder.UnreadItems
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.UnreadItems
+  id: UnreadItems
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: UnreadItems
+  nameWithType: EMailFolder.UnreadItems
+  fullName: SuperOffice.WebApi.Data.EMailFolder.UnreadItems
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of unread messages in the folder\n"
+  syntax:
+    content: public virtual int UnreadItems { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UnreadItems As Integer
+  overload: SuperOffice.WebApi.Data.EMailFolder.UnreadItems*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailFolder.Subscribed
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.Subscribed
+  id: Subscribed
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: Subscribed
+  nameWithType: EMailFolder.Subscribed
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Subscribed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the folder is subscribed to\n"
+  syntax:
+    content: public virtual bool Subscribed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Subscribed As Boolean
+  overload: SuperOffice.WebApi.Data.EMailFolder.Subscribed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailFolder.EmailFolderId
+  commentId: P:SuperOffice.WebApi.Data.EMailFolder.EmailFolderId
+  id: EmailFolderId
+  parent: SuperOffice.WebApi.Data.EMailFolder
+  langs:
+  - csharp
+  - vb
+  name: EmailFolderId
+  nameWithType: EMailFolder.EmailFolderId
+  fullName: SuperOffice.WebApi.Data.EMailFolder.EmailFolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int EmailFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailFolderId As Integer
+  overload: SuperOffice.WebApi.Data.EMailFolder.EmailFolderId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMailFolder.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.#ctor
+  isExternal: true
+  name: EMailFolder
+  nameWithType: EMailFolder.EMailFolder
+  fullName: SuperOffice.WebApi.Data.EMailFolder.EMailFolder
+- uid: SuperOffice.WebApi.Data.EMailFolder.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.Name
+  isExternal: true
+  name: Name
+  nameWithType: EMailFolder.Name
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMailFolder.Delimiter*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.Delimiter
+  isExternal: true
+  name: Delimiter
+  nameWithType: EMailFolder.Delimiter
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Delimiter
+- uid: SuperOffice.WebApi.Data.EMailFolder.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: EMailFolder.Flags
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Flags
+- uid: SuperOffice.WebApi.Data.EMailFolder.TotalItems*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.TotalItems
+  isExternal: true
+  name: TotalItems
+  nameWithType: EMailFolder.TotalItems
+  fullName: SuperOffice.WebApi.Data.EMailFolder.TotalItems
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailFolder.UnreadItems*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.UnreadItems
+  isExternal: true
+  name: UnreadItems
+  nameWithType: EMailFolder.UnreadItems
+  fullName: SuperOffice.WebApi.Data.EMailFolder.UnreadItems
+- uid: SuperOffice.WebApi.Data.EMailFolder.Subscribed*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.Subscribed
+  isExternal: true
+  name: Subscribed
+  nameWithType: EMailFolder.Subscribed
+  fullName: SuperOffice.WebApi.Data.EMailFolder.Subscribed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.EMailFolder.EmailFolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailFolder.EmailFolderId
+  isExternal: true
+  name: EmailFolderId
+  nameWithType: EMailFolder.EmailFolderId
+  fullName: SuperOffice.WebApi.Data.EMailFolder.EmailFolderId

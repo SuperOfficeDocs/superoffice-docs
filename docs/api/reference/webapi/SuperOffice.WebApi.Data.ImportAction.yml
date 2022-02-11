@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ImportAction
+  commentId: T:SuperOffice.WebApi.Data.ImportAction
+  id: ImportAction
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ImportAction.ContactAdded
+  - SuperOffice.WebApi.Data.ImportAction.ContactNoChange
+  - SuperOffice.WebApi.Data.ImportAction.ContactUpdated
+  - SuperOffice.WebApi.Data.ImportAction.Obs
+  - SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
+  - SuperOffice.WebApi.Data.ImportAction.PersonAdded
+  - SuperOffice.WebApi.Data.ImportAction.PersonNoChange
+  - SuperOffice.WebApi.Data.ImportAction.PersonUpdated
+  - SuperOffice.WebApi.Data.ImportAction.ProductAdded
+  - SuperOffice.WebApi.Data.ImportAction.ProductNoChange
+  - SuperOffice.WebApi.Data.ImportAction.ProductUpdated
+  - SuperOffice.WebApi.Data.ImportAction.Unknown
+  - SuperOffice.WebApi.Data.ImportAction.value__
+  langs:
+  - csharp
+  - vb
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: SuperOffice.WebApi.Data.ImportAction
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAction being done for the import row\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ImportAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class ImportAction
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ImportAction.value__
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ImportAction.value__
+  fullName: SuperOffice.WebApi.Data.ImportAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportAction.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ImportAction.Unknown
+  fullName: SuperOffice.WebApi.Data.ImportAction.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: public const ImportAction Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const Unknown As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.PersonAdded
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.PersonAdded
+  id: PersonAdded
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: PersonAdded
+  nameWithType: ImportAction.PersonAdded
+  fullName: SuperOffice.WebApi.Data.ImportAction.PersonAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: PersonAdded\n"
+  syntax:
+    content: public const ImportAction PersonAdded
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const PersonAdded As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.PersonUpdated
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: ImportAction.PersonUpdated
+  fullName: SuperOffice.WebApi.Data.ImportAction.PersonUpdated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: PersonUpdated\n"
+  syntax:
+    content: public const ImportAction PersonUpdated
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const PersonUpdated As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.PersonNoChange
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.PersonNoChange
+  id: PersonNoChange
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: PersonNoChange
+  nameWithType: ImportAction.PersonNoChange
+  fullName: SuperOffice.WebApi.Data.ImportAction.PersonNoChange
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: PersonNoChange\n"
+  syntax:
+    content: public const ImportAction PersonNoChange
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const PersonNoChange As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ContactAdded
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ContactAdded
+  id: ContactAdded
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ContactAdded
+  nameWithType: ImportAction.ContactAdded
+  fullName: SuperOffice.WebApi.Data.ImportAction.ContactAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: ContactAdded\n"
+  syntax:
+    content: public const ImportAction ContactAdded
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ContactAdded As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ContactUpdated
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ContactUpdated
+  id: ContactUpdated
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ContactUpdated
+  nameWithType: ImportAction.ContactUpdated
+  fullName: SuperOffice.WebApi.Data.ImportAction.ContactUpdated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: ContactUpdated\n"
+  syntax:
+    content: public const ImportAction ContactUpdated
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ContactUpdated As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ContactNoChange
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ContactNoChange
+  id: ContactNoChange
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ContactNoChange
+  nameWithType: ImportAction.ContactNoChange
+  fullName: SuperOffice.WebApi.Data.ImportAction.ContactNoChange
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: ContactNoChange\n"
+  syntax:
+    content: public const ImportAction ContactNoChange
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ContactNoChange As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ProductAdded
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ProductAdded
+  id: ProductAdded
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ProductAdded
+  nameWithType: ImportAction.ProductAdded
+  fullName: SuperOffice.WebApi.Data.ImportAction.ProductAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n64: ProductAdded\n"
+  syntax:
+    content: public const ImportAction ProductAdded
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ProductAdded As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ProductUpdated
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ProductUpdated
+  id: ProductUpdated
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ProductUpdated
+  nameWithType: ImportAction.ProductUpdated
+  fullName: SuperOffice.WebApi.Data.ImportAction.ProductUpdated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n128: ProductUpdated\n"
+  syntax:
+    content: public const ImportAction ProductUpdated
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ProductUpdated As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ProductNoChange
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ProductNoChange
+  id: ProductNoChange
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ProductNoChange
+  nameWithType: ImportAction.ProductNoChange
+  fullName: SuperOffice.WebApi.Data.ImportAction.ProductNoChange
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n256: ProductNoChange\n"
+  syntax:
+    content: public const ImportAction ProductNoChange
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ProductNoChange As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.Obs
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.Obs
+  id: Obs
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: Obs
+  nameWithType: ImportAction.Obs
+  fullName: SuperOffice.WebApi.Data.ImportAction.Obs
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n512: Obs\n"
+  syntax:
+    content: public const ImportAction Obs
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const Obs As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
+  id: ObsERPDuplicate
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ObsERPDuplicate
+  nameWithType: ImportAction.ObsERPDuplicate
+  fullName: SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1024: ObsERPDuplicate\n"
+  syntax:
+    content: public const ImportAction ObsERPDuplicate
+    return:
+      type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const ObsERPDuplicate As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ImportAction
+  commentId: T:SuperOffice.WebApi.Data.ImportAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: SuperOffice.WebApi.Data.ImportAction

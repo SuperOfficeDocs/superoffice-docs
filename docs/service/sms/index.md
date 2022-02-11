@@ -72,7 +72,7 @@ You may read more about how to use the SMS plugins in the [help file][1]. The i
 <!-- Referenced links -->
 [1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.editInfo.sms.html
 [2]: ../automated-tasks/ejournalcron.md
-[3]: ../../../../crmscript/docs/index.yml
+[3]: ../../automation/crmscript/index.yml
 [4]: cm.md
 [5]: compaya.md
 [6]: intelecom.md

@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+  commentId: T:SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+  id: SoAutomatedLoginPluginAttribute
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoAutomatedLoginPluginAttribute
+  nameWithType: SoAutomatedLoginPluginAttribute
+  fullName: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public class SoAutomatedLoginPluginAttribute : PluginAttribute'
+    content.vb: >-
+      Public Class SoAutomatedLoginPluginAttribute
+          Inherits PluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoAutomatedLoginPluginAttribute(String)
+  nameWithType: SoAutomatedLoginPluginAttribute.SoAutomatedLoginPluginAttribute(String)
+  fullName: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.SoAutomatedLoginPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public SoAutomatedLoginPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.#ctor
+  isExternal: true
+  name: SoAutomatedLoginPluginAttribute
+  nameWithType: SoAutomatedLoginPluginAttribute.SoAutomatedLoginPluginAttribute
+  fullName: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute.SoAutomatedLoginPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

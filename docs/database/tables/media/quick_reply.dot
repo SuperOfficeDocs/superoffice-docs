@@ -1,0 +1,10 @@
+digraph quick_reply  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+quick_reply[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+quick_reply -> associate [headlabel = "associate_id"]
+quick_reply -> associate [label = "registered_associate_id"]
+quick_reply -> associate [label = "updated_associate_id"]
+}

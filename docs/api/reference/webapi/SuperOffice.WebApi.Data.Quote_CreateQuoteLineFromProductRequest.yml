@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest
+  id: Quote_CreateQuoteLineFromProductRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product
+  - SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateQuoteLineFromProductRequest
+  nameWithType: Quote_CreateQuoteLineFromProductRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CreateQuoteLineFromProductRequest : Object'
+    content.vb: >-
+      Public Class Quote_CreateQuoteLineFromProductRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateQuoteLineFromProductRequest()
+  nameWithType: Quote_CreateQuoteLineFromProductRequest.Quote_CreateQuoteLineFromProductRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Quote_CreateQuoteLineFromProductRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CreateQuoteLineFromProductRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product
+  id: Product
+  parent: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Quote_CreateQuoteLineFromProductRequest.Product
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Product Product { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Product
+    content.vb: Public Property Product As Product
+  overload: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.#ctor
+  isExternal: true
+  name: Quote_CreateQuoteLineFromProductRequest
+  nameWithType: Quote_CreateQuoteLineFromProductRequest.Quote_CreateQuoteLineFromProductRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Quote_CreateQuoteLineFromProductRequest
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.QuoteAlternativeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product
+  isExternal: true
+  name: Product
+  nameWithType: Quote_CreateQuoteLineFromProductRequest.Product
+  fullName: SuperOffice.WebApi.Data.Quote_CreateQuoteLineFromProductRequest.Product
+- uid: SuperOffice.WebApi.Data.Product
+  commentId: T:SuperOffice.WebApi.Data.Product
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Product
+  nameWithType: Product
+  fullName: SuperOffice.WebApi.Data.Product

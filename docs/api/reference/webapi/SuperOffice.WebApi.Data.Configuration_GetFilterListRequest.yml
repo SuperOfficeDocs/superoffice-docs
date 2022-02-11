@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest
+  id: Configuration_GetFilterListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application
+  - SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetFilterListRequest
+  nameWithType: Configuration_GetFilterListRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetFilterListRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetFilterListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetFilterListRequest()
+  nameWithType: Configuration_GetFilterListRequest.Configuration_GetFilterListRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Configuration_GetFilterListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetFilterListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application
+  id: Application
+  parent: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: Configuration_GetFilterListRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Application { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Application As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance
+  id: Instance
+  parent: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Configuration_GetFilterListRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Instance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Instance As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.#ctor
+  isExternal: true
+  name: Configuration_GetFilterListRequest
+  nameWithType: Configuration_GetFilterListRequest.Configuration_GetFilterListRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Configuration_GetFilterListRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application
+  isExternal: true
+  name: Application
+  nameWithType: Configuration_GetFilterListRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Application
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: Configuration_GetFilterListRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_GetFilterListRequest.Instance

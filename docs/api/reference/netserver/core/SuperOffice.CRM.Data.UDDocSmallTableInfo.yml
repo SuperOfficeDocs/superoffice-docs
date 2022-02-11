@@ -1,0 +1,5412 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  commentId: T:SuperOffice.CRM.Data.UDDocSmallTableInfo
+  id: UDDocSmallTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String01
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String02
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String03
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String04
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String05
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String06
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String07
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String08
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String09
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String10
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String11
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String12
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String13
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String14
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String15
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String16
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String17
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String18
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String19
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String20
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String21
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String22
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String23
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String24
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String25
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String26
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String27
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String28
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String29
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String30
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String31
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String32
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String33
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String34
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String35
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String36
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String37
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String38
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String39
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.String40
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId
+  langs:
+  - csharp
+  - vb
+  name: UDDocSmallTableInfo
+  nameWithType: UDDocSmallTableInfo
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;uddocsmall&apos;: User-defined fields\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetUDDocSmallInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("uddocsmall")]
+
+      public class UDDocSmallTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("uddocsmall")>
+
+      Public Class UDDocSmallTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: uddocsmall
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: UDDocSmallTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table UDDocSmall in the database dictionary: uddocsmall\n"
+  syntax:
+    content: public const string DictionaryTableName = "uddocsmall"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "uddocsmall"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: UDDocSmallTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table UDDocSmall in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: UDDocSmallTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: UDDocSmallTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId
+  id: UddocsmallId
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UddocsmallId
+  nameWithType: UDDocSmallTableInfo.UddocsmallId
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;uddocsmall_id&apos; in table &apos;uddocsmall&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo UddocsmallId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UddocsmallId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01
+  id: Long01
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long01
+  nameWithType: UDDocSmallTableInfo.Long01
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long01&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 1, indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long01 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long01 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02
+  id: Long02
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long02
+  nameWithType: UDDocSmallTableInfo.Long02
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long02&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 2, indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long02 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long02 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03
+  id: Long03
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long03
+  nameWithType: UDDocSmallTableInfo.Long03
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long03&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 3, indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long03 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long03 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04
+  id: Long04
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long04
+  nameWithType: UDDocSmallTableInfo.Long04
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long04&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 4, indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long04 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long04 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05
+  id: Long05
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long05
+  nameWithType: UDDocSmallTableInfo.Long05
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long05&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 5, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long05 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long05 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06
+  id: Long06
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long06
+  nameWithType: UDDocSmallTableInfo.Long06
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long06&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 6, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long06 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long06 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07
+  id: Long07
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long07
+  nameWithType: UDDocSmallTableInfo.Long07
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long07&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 7, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long07 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long07 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08
+  id: Long08
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long08
+  nameWithType: UDDocSmallTableInfo.Long08
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long08&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 8, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long08 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long08 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09
+  id: Long09
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long09
+  nameWithType: UDDocSmallTableInfo.Long09
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long09&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 9, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long09 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long09 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10
+  id: Long10
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long10
+  nameWithType: UDDocSmallTableInfo.Long10
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long10&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 10, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long10 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long10 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11
+  id: Long11
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long11
+  nameWithType: UDDocSmallTableInfo.Long11
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long11&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 11, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long11 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long11 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12
+  id: Long12
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long12
+  nameWithType: UDDocSmallTableInfo.Long12
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long12&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 12, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long12 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long12 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13
+  id: Long13
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long13
+  nameWithType: UDDocSmallTableInfo.Long13
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long13&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 13, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long13 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long13 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14
+  id: Long14
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long14
+  nameWithType: UDDocSmallTableInfo.Long14
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long14&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 14, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long14 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long14 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15
+  id: Long15
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long15
+  nameWithType: UDDocSmallTableInfo.Long15
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long15&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 15, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long15 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long15 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16
+  id: Long16
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long16
+  nameWithType: UDDocSmallTableInfo.Long16
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long16&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 16, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long16 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long16 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17
+  id: Long17
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long17
+  nameWithType: UDDocSmallTableInfo.Long17
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long17&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 17, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long17 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long17 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18
+  id: Long18
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long18
+  nameWithType: UDDocSmallTableInfo.Long18
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long18&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 18, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long18 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long18 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19
+  id: Long19
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long19
+  nameWithType: UDDocSmallTableInfo.Long19
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long19&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 19, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long19 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long19 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20
+  id: Long20
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long20
+  nameWithType: UDDocSmallTableInfo.Long20
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long20&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 20, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long20 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long20 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21
+  id: Long21
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long21
+  nameWithType: UDDocSmallTableInfo.Long21
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long21&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 21, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long21 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long21 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22
+  id: Long22
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long22
+  nameWithType: UDDocSmallTableInfo.Long22
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long22&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 22, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long22 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long22 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23
+  id: Long23
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long23
+  nameWithType: UDDocSmallTableInfo.Long23
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long23&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 23, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long23 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long23 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24
+  id: Long24
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long24
+  nameWithType: UDDocSmallTableInfo.Long24
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long24&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 24, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long24 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long24 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25
+  id: Long25
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long25
+  nameWithType: UDDocSmallTableInfo.Long25
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long25&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 25, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long25 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long25 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26
+  id: Long26
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long26
+  nameWithType: UDDocSmallTableInfo.Long26
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long26&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 26, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long26 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long26 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27
+  id: Long27
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long27
+  nameWithType: UDDocSmallTableInfo.Long27
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long27&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 27, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long27 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long27 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28
+  id: Long28
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long28
+  nameWithType: UDDocSmallTableInfo.Long28
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long28&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 28, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long28 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long28 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29
+  id: Long29
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long29
+  nameWithType: UDDocSmallTableInfo.Long29
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long29&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 29, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long29 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long29 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30
+  id: Long30
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long30
+  nameWithType: UDDocSmallTableInfo.Long30
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long30&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 30, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long30 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long30 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31
+  id: Long31
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long31
+  nameWithType: UDDocSmallTableInfo.Long31
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long31&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 31, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long31 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long31 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32
+  id: Long32
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long32
+  nameWithType: UDDocSmallTableInfo.Long32
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long32&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 32, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long32 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long32 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33
+  id: Long33
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long33
+  nameWithType: UDDocSmallTableInfo.Long33
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long33&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 33, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long33 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long33 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34
+  id: Long34
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long34
+  nameWithType: UDDocSmallTableInfo.Long34
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long34&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 34, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long34 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long34 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35
+  id: Long35
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long35
+  nameWithType: UDDocSmallTableInfo.Long35
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long35&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 35, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long35 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long35 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36
+  id: Long36
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long36
+  nameWithType: UDDocSmallTableInfo.Long36
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long36&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 36, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long36 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long36 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37
+  id: Long37
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long37
+  nameWithType: UDDocSmallTableInfo.Long37
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long37&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 37, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long37 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long37 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38
+  id: Long38
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long38
+  nameWithType: UDDocSmallTableInfo.Long38
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long38&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 38, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long38 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long38 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39
+  id: Long39
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long39
+  nameWithType: UDDocSmallTableInfo.Long39
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long39&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 39, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long39 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long39 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40
+  id: Long40
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long40
+  nameWithType: UDDocSmallTableInfo.Long40
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long40&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 40, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long40 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long40 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41
+  id: Long41
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long41
+  nameWithType: UDDocSmallTableInfo.Long41
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long41&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 41, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long41 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long41 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42
+  id: Long42
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long42
+  nameWithType: UDDocSmallTableInfo.Long42
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long42&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 42, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long42 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long42 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43
+  id: Long43
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long43
+  nameWithType: UDDocSmallTableInfo.Long43
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long43&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 43, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long43 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long43 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44
+  id: Long44
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long44
+  nameWithType: UDDocSmallTableInfo.Long44
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long44&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 44, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long44 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long44 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45
+  id: Long45
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long45
+  nameWithType: UDDocSmallTableInfo.Long45
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long45&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 45, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long45 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long45 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46
+  id: Long46
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long46
+  nameWithType: UDDocSmallTableInfo.Long46
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long46&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 46, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long46 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long46 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47
+  id: Long47
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long47
+  nameWithType: UDDocSmallTableInfo.Long47
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long47&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 47, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long47 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long47 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48
+  id: Long48
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long48
+  nameWithType: UDDocSmallTableInfo.Long48
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long48&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 48, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long48 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long48 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49
+  id: Long49
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long49
+  nameWithType: UDDocSmallTableInfo.Long49
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long49&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 49, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long49 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long49 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50
+  id: Long50
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long50
+  nameWithType: UDDocSmallTableInfo.Long50
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long50&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 50, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long50 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long50 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51
+  id: Long51
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long51
+  nameWithType: UDDocSmallTableInfo.Long51
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long51&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 51, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long51 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long51 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52
+  id: Long52
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long52
+  nameWithType: UDDocSmallTableInfo.Long52
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long52&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 52, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long52 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long52 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53
+  id: Long53
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long53
+  nameWithType: UDDocSmallTableInfo.Long53
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long53&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 53, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long53 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long53 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54
+  id: Long54
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long54
+  nameWithType: UDDocSmallTableInfo.Long54
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long54&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 54, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long54 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long54 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55
+  id: Long55
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long55
+  nameWithType: UDDocSmallTableInfo.Long55
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long55&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 55, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long55 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long55 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56
+  id: Long56
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long56
+  nameWithType: UDDocSmallTableInfo.Long56
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long56&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 56, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long56 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long56 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57
+  id: Long57
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long57
+  nameWithType: UDDocSmallTableInfo.Long57
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long57&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 57, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long57 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long57 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58
+  id: Long58
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long58
+  nameWithType: UDDocSmallTableInfo.Long58
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long58&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 58, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long58 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long58 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59
+  id: Long59
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long59
+  nameWithType: UDDocSmallTableInfo.Long59
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long59&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 59, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long59 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long59 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60
+  id: Long60
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Long60
+  nameWithType: UDDocSmallTableInfo.Long60
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;long60&apos; in table &apos;uddocsmall&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nlong value 60, not indexed\n"
+  syntax:
+    content: public Int32FieldInfo Long60 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Long60 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String01
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String01
+  id: String01
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String01
+  nameWithType: UDDocSmallTableInfo.String01
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String01
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string01&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 1, indexed\n"
+  syntax:
+    content: public StringFieldInfo String01 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String01 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String01*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String02
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String02
+  id: String02
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String02
+  nameWithType: UDDocSmallTableInfo.String02
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String02
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string02&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 2, indexed\n"
+  syntax:
+    content: public StringFieldInfo String02 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String02 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String02*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String03
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String03
+  id: String03
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String03
+  nameWithType: UDDocSmallTableInfo.String03
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String03
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string03&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 3, indexed\n"
+  syntax:
+    content: public StringFieldInfo String03 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String03 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String03*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String04
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String04
+  id: String04
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String04
+  nameWithType: UDDocSmallTableInfo.String04
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String04
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string04&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 4, indexed\n"
+  syntax:
+    content: public StringFieldInfo String04 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String04 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String04*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String05
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String05
+  id: String05
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String05
+  nameWithType: UDDocSmallTableInfo.String05
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String05
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string05&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 5, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String05 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String05 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String05*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String06
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String06
+  id: String06
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String06
+  nameWithType: UDDocSmallTableInfo.String06
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String06
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string06&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 6, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String06 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String06 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String06*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String07
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String07
+  id: String07
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String07
+  nameWithType: UDDocSmallTableInfo.String07
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String07
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string07&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 7, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String07 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String07 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String07*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String08
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String08
+  id: String08
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String08
+  nameWithType: UDDocSmallTableInfo.String08
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String08
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string08&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 8, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String08 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String08 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String08*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String09
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String09
+  id: String09
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String09
+  nameWithType: UDDocSmallTableInfo.String09
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String09
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string09&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 9, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String09 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String09 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String09*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String10
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String10
+  id: String10
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String10
+  nameWithType: UDDocSmallTableInfo.String10
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String10
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string10&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 10, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String10 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String10 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String10*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String11
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String11
+  id: String11
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String11
+  nameWithType: UDDocSmallTableInfo.String11
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String11
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string11&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 11, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String11 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String11 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String11*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String12
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String12
+  id: String12
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String12
+  nameWithType: UDDocSmallTableInfo.String12
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String12
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string12&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 12, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String12 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String12 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String12*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String13
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String13
+  id: String13
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String13
+  nameWithType: UDDocSmallTableInfo.String13
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String13
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string13&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 13, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String13 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String13 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String13*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String14
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String14
+  id: String14
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String14
+  nameWithType: UDDocSmallTableInfo.String14
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String14
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string14&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 14, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String14 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String14 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String14*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String15
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String15
+  id: String15
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String15
+  nameWithType: UDDocSmallTableInfo.String15
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String15
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string15&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 15, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String15 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String15 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String15*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String16
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String16
+  id: String16
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String16
+  nameWithType: UDDocSmallTableInfo.String16
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String16
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string16&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 16, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String16 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String16 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String16*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String17
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String17
+  id: String17
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String17
+  nameWithType: UDDocSmallTableInfo.String17
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String17
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string17&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 17, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String17 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String17 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String17*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String18
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String18
+  id: String18
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String18
+  nameWithType: UDDocSmallTableInfo.String18
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String18
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string18&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 18, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String18 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String18 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String18*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String19
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String19
+  id: String19
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String19
+  nameWithType: UDDocSmallTableInfo.String19
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String19
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string19&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 19, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String19 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String19 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String19*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String20
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String20
+  id: String20
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String20
+  nameWithType: UDDocSmallTableInfo.String20
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String20
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string20&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 20, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String20 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String20 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String20*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String21
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String21
+  id: String21
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String21
+  nameWithType: UDDocSmallTableInfo.String21
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String21
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string21&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 21, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String21 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String21 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String21*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String22
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String22
+  id: String22
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String22
+  nameWithType: UDDocSmallTableInfo.String22
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String22
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string22&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 22, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String22 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String22 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String22*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String23
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String23
+  id: String23
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String23
+  nameWithType: UDDocSmallTableInfo.String23
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String23
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string23&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 23, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String23 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String23 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String23*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String24
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String24
+  id: String24
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String24
+  nameWithType: UDDocSmallTableInfo.String24
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String24
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string24&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 24, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String24 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String24 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String24*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String25
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String25
+  id: String25
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String25
+  nameWithType: UDDocSmallTableInfo.String25
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String25
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string25&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 25, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String25 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String25 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String25*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String26
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String26
+  id: String26
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String26
+  nameWithType: UDDocSmallTableInfo.String26
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String26
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string26&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 26, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String26 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String26 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String26*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String27
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String27
+  id: String27
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String27
+  nameWithType: UDDocSmallTableInfo.String27
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String27
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string27&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 27, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String27 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String27 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String27*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String28
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String28
+  id: String28
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String28
+  nameWithType: UDDocSmallTableInfo.String28
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String28
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string28&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 28, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String28 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String28 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String28*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String29
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String29
+  id: String29
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String29
+  nameWithType: UDDocSmallTableInfo.String29
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String29
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string29&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 29, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String29 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String29 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String29*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String30
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String30
+  id: String30
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String30
+  nameWithType: UDDocSmallTableInfo.String30
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String30
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string30&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 30, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String30 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String30 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String30*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String31
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String31
+  id: String31
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String31
+  nameWithType: UDDocSmallTableInfo.String31
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String31
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string31&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 31, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String31 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String31 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String31*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String32
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String32
+  id: String32
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String32
+  nameWithType: UDDocSmallTableInfo.String32
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String32
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string32&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 32, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String32 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String32 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String32*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String33
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String33
+  id: String33
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String33
+  nameWithType: UDDocSmallTableInfo.String33
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String33
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string33&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 33, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String33 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String33 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String33*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String34
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String34
+  id: String34
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String34
+  nameWithType: UDDocSmallTableInfo.String34
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String34
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string34&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 34, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String34 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String34 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String34*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String35
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String35
+  id: String35
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String35
+  nameWithType: UDDocSmallTableInfo.String35
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String35
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string35&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 35, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String35 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String35 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String35*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String36
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String36
+  id: String36
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String36
+  nameWithType: UDDocSmallTableInfo.String36
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String36
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string36&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 36, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String36 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String36 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String36*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String37
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String37
+  id: String37
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String37
+  nameWithType: UDDocSmallTableInfo.String37
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String37
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string37&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 37, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String37 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String37 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String37*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String38
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String38
+  id: String38
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String38
+  nameWithType: UDDocSmallTableInfo.String38
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String38
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string38&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 38, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String38 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String38 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String38*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String39
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String39
+  id: String39
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String39
+  nameWithType: UDDocSmallTableInfo.String39
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String39
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string39&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 39, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String39 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String39 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String39*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String40
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.String40
+  id: String40
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: String40
+  nameWithType: UDDocSmallTableInfo.String40
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String40
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;string40&apos; in table &apos;uddocsmall&apos;: Dictionary type String[40], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nstring value 40, not indexed\n"
+  syntax:
+    content: public StringFieldInfo String40 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property String40 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.String40*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01
+  id: Double01
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double01
+  nameWithType: UDDocSmallTableInfo.Double01
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double01&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 1, indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double01 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double01 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02
+  id: Double02
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double02
+  nameWithType: UDDocSmallTableInfo.Double02
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double02&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 2, indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double02 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double02 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03
+  id: Double03
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double03
+  nameWithType: UDDocSmallTableInfo.Double03
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double03&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 3, indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double03 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double03 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04
+  id: Double04
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double04
+  nameWithType: UDDocSmallTableInfo.Double04
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double04&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 4, indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double04 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double04 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05
+  id: Double05
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double05
+  nameWithType: UDDocSmallTableInfo.Double05
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double05&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 5, not indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double05 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double05 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06
+  id: Double06
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double06
+  nameWithType: UDDocSmallTableInfo.Double06
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double06&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 6, not indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double06 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double06 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07
+  id: Double07
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double07
+  nameWithType: UDDocSmallTableInfo.Double07
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double07&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 7, not indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double07 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double07 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08
+  id: Double08
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double08
+  nameWithType: UDDocSmallTableInfo.Double08
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double08&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 8, not indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double08 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double08 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09
+  id: Double09
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double09
+  nameWithType: UDDocSmallTableInfo.Double09
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double09&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 9, not indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double09 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double09 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10
+  id: Double10
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Double10
+  nameWithType: UDDocSmallTableInfo.Double10
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;double10&apos; in table &apos;uddocsmall&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\ndouble value 10, not indexed\n"
+  syntax:
+    content: public DoubleFieldInfo Double10 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property Double10 As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  commentId: P:SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  id: LeftOuterJoin_Document_UserdefId
+  parent: SuperOffice.CRM.Data.UDDocSmallTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Document_UserdefId
+  nameWithType: UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UddocsmallId on this table, to Document.<xref href=\"SuperOffice.CRM.Data.DocumentTableInfo.UserdefId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DocumentTableInfo> LeftOuterJoin_Document_UserdefId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DocumentTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Document_UserdefId As TargetedLeftOuterJoin(Of DocumentTableInfo)
+  overload: SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UDDocSmallTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<UDDocSmallTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.UDDocSmallTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UDDocSmallTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.UDDocSmallTableInfo, To)()
+  name.vb: MapEnums(Of UDDocSmallTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UDDocSmallTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<UDDocSmallTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.UDDocSmallTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UDDocSmallTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of UDDocSmallTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.UDDocSmallTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UDDocSmallTableInfo, To>()
+  nameWithType: Converters.MapEnums<UDDocSmallTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.UDDocSmallTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of UDDocSmallTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.UDDocSmallTableInfo, To)()
+  name.vb: MapEnums(Of UDDocSmallTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UDDocSmallTableInfo, To>
+    nameWithType: Converters.MapEnums<UDDocSmallTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.UDDocSmallTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UDDocSmallTableInfo, To)
+    nameWithType: Converters.MapEnums(Of UDDocSmallTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.UDDocSmallTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: UDDocSmallTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: UDDocSmallTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: UDDocSmallTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Definition
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId
+  isExternal: true
+  name: UddocsmallId
+  nameWithType: UDDocSmallTableInfo.UddocsmallId
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.UddocsmallId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01
+  isExternal: true
+  name: Long01
+  nameWithType: UDDocSmallTableInfo.Long01
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long01
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02
+  isExternal: true
+  name: Long02
+  nameWithType: UDDocSmallTableInfo.Long02
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long02
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03
+  isExternal: true
+  name: Long03
+  nameWithType: UDDocSmallTableInfo.Long03
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long03
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04
+  isExternal: true
+  name: Long04
+  nameWithType: UDDocSmallTableInfo.Long04
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long04
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05
+  isExternal: true
+  name: Long05
+  nameWithType: UDDocSmallTableInfo.Long05
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long05
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06
+  isExternal: true
+  name: Long06
+  nameWithType: UDDocSmallTableInfo.Long06
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long06
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07
+  isExternal: true
+  name: Long07
+  nameWithType: UDDocSmallTableInfo.Long07
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long07
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08
+  isExternal: true
+  name: Long08
+  nameWithType: UDDocSmallTableInfo.Long08
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long08
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09
+  isExternal: true
+  name: Long09
+  nameWithType: UDDocSmallTableInfo.Long09
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long09
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10
+  isExternal: true
+  name: Long10
+  nameWithType: UDDocSmallTableInfo.Long10
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long10
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11
+  isExternal: true
+  name: Long11
+  nameWithType: UDDocSmallTableInfo.Long11
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long11
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12
+  isExternal: true
+  name: Long12
+  nameWithType: UDDocSmallTableInfo.Long12
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long12
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13
+  isExternal: true
+  name: Long13
+  nameWithType: UDDocSmallTableInfo.Long13
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long13
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14
+  isExternal: true
+  name: Long14
+  nameWithType: UDDocSmallTableInfo.Long14
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long14
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15
+  isExternal: true
+  name: Long15
+  nameWithType: UDDocSmallTableInfo.Long15
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long15
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16
+  isExternal: true
+  name: Long16
+  nameWithType: UDDocSmallTableInfo.Long16
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long16
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17
+  isExternal: true
+  name: Long17
+  nameWithType: UDDocSmallTableInfo.Long17
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long17
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18
+  isExternal: true
+  name: Long18
+  nameWithType: UDDocSmallTableInfo.Long18
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long18
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19
+  isExternal: true
+  name: Long19
+  nameWithType: UDDocSmallTableInfo.Long19
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long19
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20
+  isExternal: true
+  name: Long20
+  nameWithType: UDDocSmallTableInfo.Long20
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long20
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21
+  isExternal: true
+  name: Long21
+  nameWithType: UDDocSmallTableInfo.Long21
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long21
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22
+  isExternal: true
+  name: Long22
+  nameWithType: UDDocSmallTableInfo.Long22
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long22
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23
+  isExternal: true
+  name: Long23
+  nameWithType: UDDocSmallTableInfo.Long23
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long23
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24
+  isExternal: true
+  name: Long24
+  nameWithType: UDDocSmallTableInfo.Long24
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long24
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25
+  isExternal: true
+  name: Long25
+  nameWithType: UDDocSmallTableInfo.Long25
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long25
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26
+  isExternal: true
+  name: Long26
+  nameWithType: UDDocSmallTableInfo.Long26
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long26
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27
+  isExternal: true
+  name: Long27
+  nameWithType: UDDocSmallTableInfo.Long27
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long27
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28
+  isExternal: true
+  name: Long28
+  nameWithType: UDDocSmallTableInfo.Long28
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long28
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29
+  isExternal: true
+  name: Long29
+  nameWithType: UDDocSmallTableInfo.Long29
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long29
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30
+  isExternal: true
+  name: Long30
+  nameWithType: UDDocSmallTableInfo.Long30
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long30
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31
+  isExternal: true
+  name: Long31
+  nameWithType: UDDocSmallTableInfo.Long31
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long31
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32
+  isExternal: true
+  name: Long32
+  nameWithType: UDDocSmallTableInfo.Long32
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long32
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33
+  isExternal: true
+  name: Long33
+  nameWithType: UDDocSmallTableInfo.Long33
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long33
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34
+  isExternal: true
+  name: Long34
+  nameWithType: UDDocSmallTableInfo.Long34
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long34
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35
+  isExternal: true
+  name: Long35
+  nameWithType: UDDocSmallTableInfo.Long35
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long35
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36
+  isExternal: true
+  name: Long36
+  nameWithType: UDDocSmallTableInfo.Long36
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long36
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37
+  isExternal: true
+  name: Long37
+  nameWithType: UDDocSmallTableInfo.Long37
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long37
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38
+  isExternal: true
+  name: Long38
+  nameWithType: UDDocSmallTableInfo.Long38
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long38
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39
+  isExternal: true
+  name: Long39
+  nameWithType: UDDocSmallTableInfo.Long39
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long39
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40
+  isExternal: true
+  name: Long40
+  nameWithType: UDDocSmallTableInfo.Long40
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long40
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41
+  isExternal: true
+  name: Long41
+  nameWithType: UDDocSmallTableInfo.Long41
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long41
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42
+  isExternal: true
+  name: Long42
+  nameWithType: UDDocSmallTableInfo.Long42
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long42
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43
+  isExternal: true
+  name: Long43
+  nameWithType: UDDocSmallTableInfo.Long43
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long43
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44
+  isExternal: true
+  name: Long44
+  nameWithType: UDDocSmallTableInfo.Long44
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long44
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45
+  isExternal: true
+  name: Long45
+  nameWithType: UDDocSmallTableInfo.Long45
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long45
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46
+  isExternal: true
+  name: Long46
+  nameWithType: UDDocSmallTableInfo.Long46
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long46
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47
+  isExternal: true
+  name: Long47
+  nameWithType: UDDocSmallTableInfo.Long47
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long47
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48
+  isExternal: true
+  name: Long48
+  nameWithType: UDDocSmallTableInfo.Long48
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long48
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49
+  isExternal: true
+  name: Long49
+  nameWithType: UDDocSmallTableInfo.Long49
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long49
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50
+  isExternal: true
+  name: Long50
+  nameWithType: UDDocSmallTableInfo.Long50
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long50
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51
+  isExternal: true
+  name: Long51
+  nameWithType: UDDocSmallTableInfo.Long51
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long51
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52
+  isExternal: true
+  name: Long52
+  nameWithType: UDDocSmallTableInfo.Long52
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long52
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53
+  isExternal: true
+  name: Long53
+  nameWithType: UDDocSmallTableInfo.Long53
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long53
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54
+  isExternal: true
+  name: Long54
+  nameWithType: UDDocSmallTableInfo.Long54
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long54
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55
+  isExternal: true
+  name: Long55
+  nameWithType: UDDocSmallTableInfo.Long55
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long55
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56
+  isExternal: true
+  name: Long56
+  nameWithType: UDDocSmallTableInfo.Long56
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long56
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57
+  isExternal: true
+  name: Long57
+  nameWithType: UDDocSmallTableInfo.Long57
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long57
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58
+  isExternal: true
+  name: Long58
+  nameWithType: UDDocSmallTableInfo.Long58
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long58
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59
+  isExternal: true
+  name: Long59
+  nameWithType: UDDocSmallTableInfo.Long59
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long59
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60
+  isExternal: true
+  name: Long60
+  nameWithType: UDDocSmallTableInfo.Long60
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Long60
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String01*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String01
+  isExternal: true
+  name: String01
+  nameWithType: UDDocSmallTableInfo.String01
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String01
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String02*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String02
+  isExternal: true
+  name: String02
+  nameWithType: UDDocSmallTableInfo.String02
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String02
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String03*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String03
+  isExternal: true
+  name: String03
+  nameWithType: UDDocSmallTableInfo.String03
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String03
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String04*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String04
+  isExternal: true
+  name: String04
+  nameWithType: UDDocSmallTableInfo.String04
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String04
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String05*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String05
+  isExternal: true
+  name: String05
+  nameWithType: UDDocSmallTableInfo.String05
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String05
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String06*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String06
+  isExternal: true
+  name: String06
+  nameWithType: UDDocSmallTableInfo.String06
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String06
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String07*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String07
+  isExternal: true
+  name: String07
+  nameWithType: UDDocSmallTableInfo.String07
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String07
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String08*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String08
+  isExternal: true
+  name: String08
+  nameWithType: UDDocSmallTableInfo.String08
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String08
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String09*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String09
+  isExternal: true
+  name: String09
+  nameWithType: UDDocSmallTableInfo.String09
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String09
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String10*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String10
+  isExternal: true
+  name: String10
+  nameWithType: UDDocSmallTableInfo.String10
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String10
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String11*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String11
+  isExternal: true
+  name: String11
+  nameWithType: UDDocSmallTableInfo.String11
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String11
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String12*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String12
+  isExternal: true
+  name: String12
+  nameWithType: UDDocSmallTableInfo.String12
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String12
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String13*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String13
+  isExternal: true
+  name: String13
+  nameWithType: UDDocSmallTableInfo.String13
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String13
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String14*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String14
+  isExternal: true
+  name: String14
+  nameWithType: UDDocSmallTableInfo.String14
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String14
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String15*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String15
+  isExternal: true
+  name: String15
+  nameWithType: UDDocSmallTableInfo.String15
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String15
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String16*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String16
+  isExternal: true
+  name: String16
+  nameWithType: UDDocSmallTableInfo.String16
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String16
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String17*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String17
+  isExternal: true
+  name: String17
+  nameWithType: UDDocSmallTableInfo.String17
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String17
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String18*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String18
+  isExternal: true
+  name: String18
+  nameWithType: UDDocSmallTableInfo.String18
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String18
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String19*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String19
+  isExternal: true
+  name: String19
+  nameWithType: UDDocSmallTableInfo.String19
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String19
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String20*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String20
+  isExternal: true
+  name: String20
+  nameWithType: UDDocSmallTableInfo.String20
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String20
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String21*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String21
+  isExternal: true
+  name: String21
+  nameWithType: UDDocSmallTableInfo.String21
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String21
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String22*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String22
+  isExternal: true
+  name: String22
+  nameWithType: UDDocSmallTableInfo.String22
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String22
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String23*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String23
+  isExternal: true
+  name: String23
+  nameWithType: UDDocSmallTableInfo.String23
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String23
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String24*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String24
+  isExternal: true
+  name: String24
+  nameWithType: UDDocSmallTableInfo.String24
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String24
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String25*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String25
+  isExternal: true
+  name: String25
+  nameWithType: UDDocSmallTableInfo.String25
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String25
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String26*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String26
+  isExternal: true
+  name: String26
+  nameWithType: UDDocSmallTableInfo.String26
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String26
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String27*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String27
+  isExternal: true
+  name: String27
+  nameWithType: UDDocSmallTableInfo.String27
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String27
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String28*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String28
+  isExternal: true
+  name: String28
+  nameWithType: UDDocSmallTableInfo.String28
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String28
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String29*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String29
+  isExternal: true
+  name: String29
+  nameWithType: UDDocSmallTableInfo.String29
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String29
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String30*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String30
+  isExternal: true
+  name: String30
+  nameWithType: UDDocSmallTableInfo.String30
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String30
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String31*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String31
+  isExternal: true
+  name: String31
+  nameWithType: UDDocSmallTableInfo.String31
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String31
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String32*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String32
+  isExternal: true
+  name: String32
+  nameWithType: UDDocSmallTableInfo.String32
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String32
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String33*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String33
+  isExternal: true
+  name: String33
+  nameWithType: UDDocSmallTableInfo.String33
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String33
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String34*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String34
+  isExternal: true
+  name: String34
+  nameWithType: UDDocSmallTableInfo.String34
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String34
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String35*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String35
+  isExternal: true
+  name: String35
+  nameWithType: UDDocSmallTableInfo.String35
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String35
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String36*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String36
+  isExternal: true
+  name: String36
+  nameWithType: UDDocSmallTableInfo.String36
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String36
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String37*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String37
+  isExternal: true
+  name: String37
+  nameWithType: UDDocSmallTableInfo.String37
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String37
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String38*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String38
+  isExternal: true
+  name: String38
+  nameWithType: UDDocSmallTableInfo.String38
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String38
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String39*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String39
+  isExternal: true
+  name: String39
+  nameWithType: UDDocSmallTableInfo.String39
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String39
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.String40*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.String40
+  isExternal: true
+  name: String40
+  nameWithType: UDDocSmallTableInfo.String40
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.String40
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01
+  isExternal: true
+  name: Double01
+  nameWithType: UDDocSmallTableInfo.Double01
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double01
+- uid: SuperOffice.Data.SQL.DoubleFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DoubleFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DoubleFieldInfo
+  nameWithType: DoubleFieldInfo
+  fullName: SuperOffice.Data.SQL.DoubleFieldInfo
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02
+  isExternal: true
+  name: Double02
+  nameWithType: UDDocSmallTableInfo.Double02
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double02
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03
+  isExternal: true
+  name: Double03
+  nameWithType: UDDocSmallTableInfo.Double03
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double03
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04
+  isExternal: true
+  name: Double04
+  nameWithType: UDDocSmallTableInfo.Double04
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double04
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05
+  isExternal: true
+  name: Double05
+  nameWithType: UDDocSmallTableInfo.Double05
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double05
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06
+  isExternal: true
+  name: Double06
+  nameWithType: UDDocSmallTableInfo.Double06
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double06
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07
+  isExternal: true
+  name: Double07
+  nameWithType: UDDocSmallTableInfo.Double07
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double07
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08
+  isExternal: true
+  name: Double08
+  nameWithType: UDDocSmallTableInfo.Double08
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double08
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09
+  isExternal: true
+  name: Double09
+  nameWithType: UDDocSmallTableInfo.Double09
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double09
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10
+  isExternal: true
+  name: Double10
+  nameWithType: UDDocSmallTableInfo.Double10
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.Double10
+- uid: SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId*
+  commentId: Overload:SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  isExternal: true
+  name: LeftOuterJoin_Document_UserdefId
+  nameWithType: UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+  fullName: SuperOffice.CRM.Data.UDDocSmallTableInfo.LeftOuterJoin_Document_UserdefId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DocumentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DocumentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DocumentTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DocumentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DocumentTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DocumentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DocumentTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DocumentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DocumentTableInfo
+    name: DocumentTableInfo
+    nameWithType: DocumentTableInfo
+    fullName: SuperOffice.CRM.Data.DocumentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DocumentTableInfo
+    name: DocumentTableInfo
+    nameWithType: DocumentTableInfo
+    fullName: SuperOffice.CRM.Data.DocumentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )

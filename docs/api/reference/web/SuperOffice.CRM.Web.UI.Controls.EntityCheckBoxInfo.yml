@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  id: EntityCheckBoxInfo
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity
+  - SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls
+  - SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls
+  langs:
+  - csharp
+  - vb
+  name: EntityCheckBoxInfo
+  nameWithType: EntityCheckBoxInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class EntityCheckBoxInfo
+    content.vb: Public Class EntityCheckBoxInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String)
+  id: '#ctor(SuperOffice.CRM.Services.SelectableMDOListItem,System.String)'
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  langs:
+  - csharp
+  - vb
+  name: EntityCheckBoxInfo(SelectableMDOListItem, String)
+  nameWithType: EntityCheckBoxInfo.EntityCheckBoxInfo(SelectableMDOListItem, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.EntityCheckBoxInfo(SuperOffice.CRM.Services.SelectableMDOListItem, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public EntityCheckBoxInfo(SelectableMDOListItem entity, string onClickCall)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    - id: onClickCall
+      type: System.String
+    content.vb: Public Sub New(entity As SelectableMDOListItem, onClickCall As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall(System.String)
+  id: AddOnClickCall(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  langs:
+  - csharp
+  - vb
+  name: AddOnClickCall(String)
+  nameWithType: EntityCheckBoxInfo.AddOnClickCall(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void AddOnClickCall(string onClick)
+    parameters:
+    - id: onClick
+      type: System.String
+    content.vb: Public Sub AddOnClickCall(onClick As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls
+  id: GetOnClickCalls
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  langs:
+  - csharp
+  - vb
+  name: GetOnClickCalls()
+  nameWithType: EntityCheckBoxInfo.GetOnClickCalls()
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string GetOnClickCalls()
+    return:
+      type: System.String
+    content.vb: Public Function GetOnClickCalls As String
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity
+  id: Entity
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: EntityCheckBoxInfo.Entity
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SelectableMDOListItem Entity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    content.vb: Public Property Entity As SelectableMDOListItem
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls
+  id: OnClickCalls
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+  langs:
+  - csharp
+  - vb
+  name: OnClickCalls
+  nameWithType: EntityCheckBoxInfo.OnClickCalls
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public List<string> OnClickCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property OnClickCalls As List(Of String)
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.#ctor
+  isExternal: true
+  name: EntityCheckBoxInfo
+  nameWithType: EntityCheckBoxInfo.EntityCheckBoxInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.EntityCheckBoxInfo
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem
+  isExternal: true
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall
+  isExternal: true
+  name: AddOnClickCall
+  nameWithType: EntityCheckBoxInfo.AddOnClickCall
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.AddOnClickCall
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls
+  isExternal: true
+  name: GetOnClickCalls
+  nameWithType: EntityCheckBoxInfo.GetOnClickCalls
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.GetOnClickCalls
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity
+  isExternal: true
+  name: Entity
+  nameWithType: EntityCheckBoxInfo.Entity
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.Entity
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls
+  isExternal: true
+  name: OnClickCalls
+  nameWithType: EntityCheckBoxInfo.OnClickCalls
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo.OnClickCalls
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

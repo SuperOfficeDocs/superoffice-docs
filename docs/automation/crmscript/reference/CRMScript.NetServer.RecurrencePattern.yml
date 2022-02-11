@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.RecurrencePattern
+  # Same as SuperOffice.Data.RecurrencePattern
+  commentId: T:CRMScript.NetServer.RecurrencePattern
+  id: RecurrencePattern
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.RecurrencePattern.Unknown
+  - CRMScript.NetServer.RecurrencePattern.Daily
+  - CRMScript.NetServer.RecurrencePattern.Weekly
+  - CRMScript.NetServer.RecurrencePattern.Monthly
+  - CRMScript.NetServer.RecurrencePattern.Yearly
+  - CRMScript.NetServer.RecurrencePattern.Custom
+  name: RecurrencePattern
+  nameWithType: RecurrencePattern
+  fullName: CRMScript.NetServer.RecurrencePattern
+  type: Enum
+  summary: "\nThe main pattern of recurrence.\n"
+- uid: CRMScript.NetServer.RecurrencePattern.Unknown
+  commentId: F:CRMScript.NetServer.RecurrencePattern.Unknown
+  id: RecurrencePattern.Unknown
+  langs:
+  - crmscript
+  name: RecurrencePattern.Unknown
+  nameWithType: RecurrencePattern.Unknown
+  fullName: CRMScript.NetServer.RecurrencePattern.Unknown
+  type: Field
+  summary: "\n0: Unknown/undecided type\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.RecurrencePattern
+- uid: CRMScript.NetServer.RecurrencePattern.Daily
+  commentId: F:CRMScript.NetServer.RecurrencePattern.Daily
+  id: RecurrencePattern.Daily
+  langs:
+  - crmscript
+  name: RecurrencePattern.Daily
+  nameWithType: RecurrencePattern.Daily
+  fullName: CRMScript.NetServer.RecurrencePattern.Daily
+  type: Field
+  summary: "\n1: Daily recurrence.\n"
+  syntax: 
+    content: Daily = 1
+    type: CRMScript.NetServer.RecurrencePattern
+- uid: CRMScript.NetServer.RecurrencePattern.Weekly
+  commentId: F:CRMScript.NetServer.RecurrencePattern.Weekly
+  id: RecurrencePattern.Weekly
+  langs:
+  - crmscript
+  name: RecurrencePattern.Weekly
+  nameWithType: RecurrencePattern.Weekly
+  fullName: CRMScript.NetServer.RecurrencePattern.Weekly
+  type: Field
+  summary: "\n2: Weekly recurrence.\n"
+  syntax: 
+    content: Weekly = 2
+    type: CRMScript.NetServer.RecurrencePattern
+- uid: CRMScript.NetServer.RecurrencePattern.Monthly
+  commentId: F:CRMScript.NetServer.RecurrencePattern.Monthly
+  id: RecurrencePattern.Monthly
+  langs:
+  - crmscript
+  name: RecurrencePattern.Monthly
+  nameWithType: RecurrencePattern.Monthly
+  fullName: CRMScript.NetServer.RecurrencePattern.Monthly
+  type: Field
+  summary: "\n3: Monthly recurrence.\n"
+  syntax: 
+    content: Monthly = 3
+    type: CRMScript.NetServer.RecurrencePattern
+- uid: CRMScript.NetServer.RecurrencePattern.Yearly
+  commentId: F:CRMScript.NetServer.RecurrencePattern.Yearly
+  id: RecurrencePattern.Yearly
+  langs:
+  - crmscript
+  name: RecurrencePattern.Yearly
+  nameWithType: RecurrencePattern.Yearly
+  fullName: CRMScript.NetServer.RecurrencePattern.Yearly
+  type: Field
+  summary: "\n4: Yearly recurrence.\n"
+  syntax: 
+    content: Yearly = 4
+    type: CRMScript.NetServer.RecurrencePattern
+- uid: CRMScript.NetServer.RecurrencePattern.Custom
+  commentId: F:CRMScript.NetServer.RecurrencePattern.Custom
+  id: RecurrencePattern.Custom
+  langs:
+  - crmscript
+  name: RecurrencePattern.Custom
+  nameWithType: RecurrencePattern.Custom
+  fullName: CRMScript.NetServer.RecurrencePattern.Custom
+  type: Field
+  summary: "\n5: Custom recurrence, only dates are specified. See RecurrenceDayPattern for details\n"
+  syntax: 
+    content: Custom = 5
+    type: CRMScript.NetServer.RecurrencePattern
+references:
+- uid: CRMScript.NetServer.RecurrencePattern
+  commentId: T:CRMScript.NetServer.RecurrencePattern
+  isExternal: true
+  name: RecurrencePattern
+  nameWithType: RecurrencePattern
+  fullName: CRMScript.NetServer.RecurrencePattern

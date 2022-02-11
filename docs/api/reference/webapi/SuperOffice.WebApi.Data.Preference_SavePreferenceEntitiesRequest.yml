@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
+  id: Preference_SavePreferenceEntitiesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  langs:
+  - csharp
+  - vb
+  name: Preference_SavePreferenceEntitiesRequest
+  nameWithType: Preference_SavePreferenceEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_SavePreferenceEntitiesRequest : Object'
+    content.vb: >-
+      Public Class Preference_SavePreferenceEntitiesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_SavePreferenceEntitiesRequest()
+  nameWithType: Preference_SavePreferenceEntitiesRequest.Preference_SavePreferenceEntitiesRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preference_SavePreferenceEntitiesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_SavePreferenceEntitiesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences
+  commentId: P:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences
+  id: Preferences
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: Preferences
+  nameWithType: Preference_SavePreferenceEntitiesRequest.Preferences
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference[] Preferences { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Preference[]
+    content.vb: Public Property Preferences As Preference()
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  commentId: P:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  id: RemoveLowerLevels
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: RemoveLowerLevels
+  nameWithType: Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool RemoveLowerLevels { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RemoveLowerLevels As Boolean
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.#ctor
+  isExternal: true
+  name: Preference_SavePreferenceEntitiesRequest
+  nameWithType: Preference_SavePreferenceEntitiesRequest.Preference_SavePreferenceEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preference_SavePreferenceEntitiesRequest
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences
+  isExternal: true
+  name: Preferences
+  nameWithType: Preference_SavePreferenceEntitiesRequest.Preferences
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.Preferences
+- uid: SuperOffice.WebApi.Data.Preference[]
+  isExternal: true
+  name: Preference[]
+  nameWithType: Preference[]
+  fullName: SuperOffice.WebApi.Data.Preference[]
+  nameWithType.vb: Preference()
+  fullName.vb: SuperOffice.WebApi.Data.Preference()
+  name.vb: Preference()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  isExternal: true
+  name: RemoveLowerLevels
+  nameWithType: Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest.RemoveLowerLevels
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

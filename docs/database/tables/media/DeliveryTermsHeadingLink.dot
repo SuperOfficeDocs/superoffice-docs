@@ -1,0 +1,13 @@
+digraph DeliveryTermsHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+DeliveryTermsHeadingLink[fillcolor = "cadetblue1"]
+DeliveryTerms[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+DeliveryTermsHeadingLink -> DeliveryTerms [headlabel = "deliveryterms_id"]
+DeliveryTermsHeadingLink -> Heading [headlabel = "heading_id"]
+DeliveryTermsHeadingLink -> associate [headlabel = "registered_associate_id"]
+DeliveryTermsHeadingLink -> associate [label = "updated_associate_id"]
+}

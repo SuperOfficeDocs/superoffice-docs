@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.FilterEngine
+  commentId: T:SuperOffice.DCF.Web.UI.FilterEngine
+  id: FilterEngine
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.FilterEngine.#ctor
+  - SuperOffice.DCF.Web.UI.FilterEngine.RunPost(System.Xml.XmlDocument)
+  - SuperOffice.DCF.Web.UI.FilterEngine.RunPre(System.Xml.XmlDocument)
+  - SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache(System.Xml.XmlDocument)
+  langs:
+  - csharp
+  - vb
+  name: FilterEngine
+  nameWithType: FilterEngine
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public class FilterEngine
+    content.vb: Public Class FilterEngine
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.RunPost(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterEngine.RunPost(System.Xml.XmlDocument)
+  id: RunPost(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.FilterEngine
+  langs:
+  - csharp
+  - vb
+  name: RunPost(XmlDocument)
+  nameWithType: FilterEngine.RunPost(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.RunPost(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RunPost(XmlDocument configuration)
+    parameters:
+    - id: configuration
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Sub RunPost(configuration As XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.FilterEngine.RunPost*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.RunPre(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterEngine.RunPre(System.Xml.XmlDocument)
+  id: RunPre(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.FilterEngine
+  langs:
+  - csharp
+  - vb
+  name: RunPre(XmlDocument)
+  nameWithType: FilterEngine.RunPre(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.RunPre(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RunPre(XmlDocument configuration)
+    parameters:
+    - id: configuration
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Sub RunPre(configuration As XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.FilterEngine.RunPre*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache(System.Xml.XmlDocument)
+  id: RunPreCache(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.FilterEngine
+  langs:
+  - csharp
+  - vb
+  name: RunPreCache(XmlDocument)
+  nameWithType: FilterEngine.RunPreCache(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static void RunPreCache(XmlDocument configuration)
+    parameters:
+    - id: configuration
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Sub RunPreCache(configuration As XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.FilterEngine.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.FilterEngine
+  langs:
+  - csharp
+  - vb
+  name: FilterEngine()
+  nameWithType: FilterEngine.FilterEngine()
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.FilterEngine()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public FilterEngine()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.FilterEngine.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.RunPost*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterEngine.RunPost
+  isExternal: true
+  name: RunPost
+  nameWithType: FilterEngine.RunPost
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.RunPost
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.RunPre*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterEngine.RunPre
+  isExternal: true
+  name: RunPre
+  nameWithType: FilterEngine.RunPre
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.RunPre
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache
+  isExternal: true
+  name: RunPreCache
+  nameWithType: FilterEngine.RunPreCache
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.RunPreCache
+- uid: SuperOffice.DCF.Web.UI.FilterEngine.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterEngine.#ctor
+  isExternal: true
+  name: FilterEngine
+  nameWithType: FilterEngine.FilterEngine
+  fullName: SuperOffice.DCF.Web.UI.FilterEngine.FilterEngine

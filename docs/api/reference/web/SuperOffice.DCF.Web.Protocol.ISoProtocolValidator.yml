@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator
+  commentId: T:SuperOffice.DCF.Web.Protocol.ISoProtocolValidator
+  id: ISoProtocolValidator
+  parent: SuperOffice.DCF.Web.Protocol
+  children:
+  - SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol(System.String[],System.String@,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: ISoProtocolValidator
+  nameWithType: ISoProtocolValidator
+  fullName: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: 'public interface ISoProtocolValidator : ISoProtocolValidatorPlugin, IPlugin'
+    content.vb: >-
+      Public Interface ISoProtocolValidator
+          Inherits ISoProtocolValidatorPlugin, IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol(System.String[],System.String@,System.String@)
+  commentId: M:SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol(System.String[],System.String@,System.String@)
+  id: VerifySoProtocol(System.String[],System.String@,System.String@)
+  parent: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator
+  langs:
+  - csharp
+  - vb
+  name: VerifySoProtocol(String[], ref String, ref String)
+  nameWithType: ISoProtocolValidator.VerifySoProtocol(String[], ref String, ref String)
+  fullName: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol(System.String[], ref System.String, ref System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Protocol
+  syntax:
+    content: string[] VerifySoProtocol(string[] supermode, ref string soprotocol, ref string page)
+    parameters:
+    - id: supermode
+      type: System.String[]
+    - id: soprotocol
+      type: System.String
+    - id: page
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Function VerifySoProtocol(supermode As String(), ByRef soprotocol As String, ByRef page As String) As String()
+  overload: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol*
+  nameWithType.vb: ISoProtocolValidator.VerifySoProtocol(String(), ByRef String, ByRef String)
+  fullName.vb: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol(System.String(), ByRef System.String, ByRef System.String)
+  name.vb: VerifySoProtocol(String(), ByRef String, ByRef String)
+references:
+- uid: SuperOffice.DCF.Web.Protocol
+  commentId: N:SuperOffice.DCF.Web.Protocol
+  isExternal: true
+  name: SuperOffice.DCF.Web.Protocol
+  nameWithType: SuperOffice.DCF.Web.Protocol
+  fullName: SuperOffice.DCF.Web.Protocol
+- uid: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol
+  isExternal: true
+  name: VerifySoProtocol
+  nameWithType: ISoProtocolValidator.VerifySoProtocol
+  fullName: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator.VerifySoProtocol
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

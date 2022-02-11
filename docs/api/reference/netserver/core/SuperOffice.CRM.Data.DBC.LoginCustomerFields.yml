@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  id: DBC.LoginCustomerFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.CreatedAt
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.CustomerId
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.ErrorMessage
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.Expire
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginCustomerId
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginOrigin
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteAddr
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteHost
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.SecondsToLive
+  - SuperOffice.CRM.Data.DBC.LoginCustomerFields.SessionKey
+  langs:
+  - csharp
+  - vb
+  name: DBC.LoginCustomerFields
+  nameWithType: DBC.LoginCustomerFields
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for LoginCustomer, This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins\n"
+  syntax:
+    content: public static class LoginCustomerFields
+    content.vb: Public Module LoginCustomerFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginCustomerId
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginCustomerId
+  id: LoginCustomerId
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: LoginCustomerId
+  nameWithType: DBC.LoginCustomerFields.LoginCustomerId
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginCustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.LoginCustomerId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string LoginCustomerId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const LoginCustomerId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.CustomerId
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.CustomerId
+  id: CustomerId
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: CustomerId
+  nameWithType: DBC.LoginCustomerFields.CustomerId
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.CustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.CustomerId: The id of the customer this entry references.\n"
+  syntax:
+    content: public const string CustomerId = "customer_id"
+    return:
+      type: System.String
+    content.vb: Public Const CustomerId As String = "customer_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.SessionKey
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.SessionKey
+  id: SessionKey
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: DBC.LoginCustomerFields.SessionKey
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.SessionKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.SessionKey: A random 32 characters value used as authentication key for the session.\n"
+  syntax:
+    content: public const string SessionKey = "session_key"
+    return:
+      type: System.String
+    content.vb: Public Const SessionKey As String = "session_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.Expire
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.Expire
+  id: Expire
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: Expire
+  nameWithType: DBC.LoginCustomerFields.Expire
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.Expire
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.Expire: The last time this session was active.\n"
+  syntax:
+    content: public const string Expire = "expire"
+    return:
+      type: System.String
+    content.vb: Public Const Expire As String = "expire"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.SecondsToLive
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.SecondsToLive
+  id: SecondsToLive
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: SecondsToLive
+  nameWithType: DBC.LoginCustomerFields.SecondsToLive
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.SecondsToLive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.SecondsToLive: The session key will expire after a given number of seconds.\n"
+  syntax:
+    content: public const string SecondsToLive = "seconds_to_live"
+    return:
+      type: System.String
+    content.vb: Public Const SecondsToLive As String = "seconds_to_live"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteAddr
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteAddr
+  id: RemoteAddr
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: RemoteAddr
+  nameWithType: DBC.LoginCustomerFields.RemoteAddr
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.RemoteAddr: For future use: The IP address of the client for this session.\n"
+  syntax:
+    content: public const string RemoteAddr = "remote_addr"
+    return:
+      type: System.String
+    content.vb: Public Const RemoteAddr As String = "remote_addr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteHost
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteHost
+  id: RemoteHost
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: RemoteHost
+  nameWithType: DBC.LoginCustomerFields.RemoteHost
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.RemoteHost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.RemoteHost: For future use: The hostname (depending on whether reverse lookup is enabled in httpd) or IP address of the client for this session.\n"
+  syntax:
+    content: public const string RemoteHost = "remote_host"
+    return:
+      type: System.String
+    content.vb: Public Const RemoteHost As String = "remote_host"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.ErrorMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: DBC.LoginCustomerFields.ErrorMessage
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.ErrorMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.ErrorMessage: Stores the last error message recorded on this session\n"
+  syntax:
+    content: public const string ErrorMessage = "error_message"
+    return:
+      type: System.String
+    content.vb: Public Const ErrorMessage As String = "error_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginOrigin
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginOrigin
+  id: LoginOrigin
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: LoginOrigin
+  nameWithType: DBC.LoginCustomerFields.LoginOrigin
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.LoginOrigin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.LoginOrigin: 1=soap call, 2=customer pages\n"
+  syntax:
+    content: public const string LoginOrigin = "origin"
+    return:
+      type: System.String
+    content.vb: Public Const LoginOrigin As String = "origin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.LoginCustomerFields.CreatedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.LoginCustomerFields.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Data.DBC.LoginCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: DBC.LoginCustomerFields.CreatedAt
+  fullName: SuperOffice.CRM.Data.DBC.LoginCustomerFields.CreatedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nLoginCustomer.CreatedAt: When the entry was created\n"
+  syntax:
+    content: public const string CreatedAt = "created_at"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedAt As String = "created_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

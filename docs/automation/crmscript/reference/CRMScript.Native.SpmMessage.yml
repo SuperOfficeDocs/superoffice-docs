@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.SpmMessage
+  commentId: T:CRMScript.Native.SpmMessage
+  id: SpmMessage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.SpmMessage.#ctor
+  - CRMScript.Native.SpmMessage.save()
+  - CRMScript.Native.SpmMessage.setBody(String)
+  - CRMScript.Native.SpmMessage.setBodyHtml(String)
+  - CRMScript.Native.SpmMessage.setDescription(String)
+  - CRMScript.Native.SpmMessage.setFolderId(Integer)
+  - CRMScript.Native.SpmMessage.setHeader(String)
+  - CRMScript.Native.SpmMessage.setSubject(String)
+  name: SpmMessage
+  nameWithType: SpmMessage
+  fullName: CRMScript.Native.SpmMessage
+  type: Class
+  summary: "\nRepresent a message in the eMarketeer module. You can create or modify such objects, which later is used by the SpmShipment class to send such messages.\n"
+  example: 
+- uid: CRMScript.Native.SpmMessage.#ctor
+  commentId: M:CRMScript.Native.SpmMessage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.SpmMessage
+  langs:
+  - crmscript
+  name: SpmMessage()
+  nameWithType: SpmMessage.#ctor
+  fullName: CRMScript.Native.SpmMessage.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the SpmMessage class.\n"
+  remarks: 
+  syntax: 
+    content: SpmMessage
+  example: 
+- uid: CRMScript.Native.SpmMessage.save()
+  commentId: M:CRMScript.Native.SpmMessage.save()
+  id: 'save()'
+  so.intellisense: SpmMessage.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: SpmMessage.save()
+  fullName: CRMScript.Native.SpmMessage.save()
+  type: Method
+  summary: "\nSaves an SpmMessage object. If this is a new SpmMessage object (no ID set), a new one will be created.\n"
+  remarks: 
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the SpmMessage object."
+  example: 
+- uid: CRMScript.Native.SpmMessage.setBody(String)
+  commentId: M:CRMScript.Native.SpmMessage.setBody(String)
+  id: 'setBody(String)'
+  so.intellisense: SpmMessage.setBody
+  langs:
+  - crmscript
+  name: 'setBody(String)'
+  nameWithType: SpmMessage.setBody(String)
+  fullName: CRMScript.Native.SpmMessage.setBody(String)
+  type: Method
+  summary: "\nSets the body version of the SpmMessage object (will correspond to the text/plain version in the outgoing email).\n"
+  remarks: 
+  syntax: 
+    content: Void setBody(String body)
+    parameters:
+    - id: body
+      type: CRMScript.Global.String
+      description: "The plain text version of the body."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.SpmMessage.setBodyHtml(String)
+  commentId: M:CRMScript.Native.SpmMessage.setBodyHtml(String)
+  id: 'setBodyHtml(String)'
+  so.intellisense: SpmMessage.setBodyHtml
+  langs:
+  - crmscript
+  name: 'setBodyHtml(String)'
+  nameWithType: SpmMessage.setBodyHtml(String)
+  fullName: CRMScript.Native.SpmMessage.setBodyHtml(String)
+  type: Method
+  summary: "\nSets the HTML body version of the SpmMessage object (will correspond to the text/html version in the outgoing email).\n"
+  remarks: 
+  syntax: 
+    content: Void setBodyHtml(String htmlBody)
+    parameters:
+    - id: htmlBody
+      type: CRMScript.Global.String
+      description: "The HTML version of the body."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmMessage.setDescription(String)
+  commentId: M:CRMScript.Native.SpmMessage.setDescription(String)
+  id: 'setDescription(String)'
+  so.intellisense: SpmMessage.setDescription
+  langs:
+  - crmscript
+  name: 'setDescription(String)'
+  nameWithType: SpmMessage.setDescription(String)
+  fullName: CRMScript.Native.SpmMessage.setDescription(String)
+  type: Method
+  summary: "\nSets the descriptive text of the SpmMessage.\n"
+  remarks: "\nIt is not used in the outgoing email, but will be visible when listed in Service.\n"
+  syntax: 
+    content: Void setDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "A text which describes this message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmMessage.setFolderId(Integer)
+  commentId: M:CRMScript.Native.SpmMessage.setFolderId(Integer)
+  id: 'setFolderId(Integer)'
+  so.intellisense: SpmMessage.setFolderId
+  langs:
+  - crmscript
+  name: 'setFolderId(Integer)'
+  nameWithType: SpmMessage.setFolderId(Integer)
+  fullName: CRMScript.Native.SpmMessage.setFolderId(Integer)
+  type: Method
+  summary: "\nSets the folder which this SpmMessage will be stored in.\n"
+  remarks: "\nIf you specify a folder ID that does not exist, the message will not be visible through Service.\n"
+  syntax: 
+    content: Void setFolderId(Integer folderId)
+    parameters:
+    - id: folderId
+      type: CRMScript.Global.Integer
+      description: "The ID of the folder this message will be stored in. A value of -1 indicates that it should be stored in the root folder."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmMessage.setHeader(String)
+  commentId: M:CRMScript.Native.SpmMessage.setHeader(String)
+  id: 'setHeader(String)'
+  so.intellisense: SpmMessage.setHeader
+  langs:
+  - crmscript
+  name: 'setHeader(String)'
+  nameWithType: SpmMessage.setHeader(String)
+  fullName: CRMScript.Native.SpmMessage.setHeader(String)
+  type: Method
+  summary: "\nIf you need to include additional email headers, they should be added here. You have to format these yourself.\n"
+  remarks: 
+  syntax: 
+    content: Void setHeader(String header)
+    parameters:
+    - id: header
+      type: CRMScript.Global.String
+      description: "The the information."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<code>Header1: Value1\nHeader2: Value2</code>\n"
+- uid: CRMScript.Native.SpmMessage.setSubject(String)
+  commentId: M:CRMScript.Native.SpmMessage.setSubject(String)
+  id: 'setSubject(String)'
+  so.intellisense: SpmMessage.setSubject
+  langs:
+  - crmscript
+  name: 'setSubject(String)'
+  nameWithType: SpmMessage.setSubject(String)
+  fullName: CRMScript.Native.SpmMessage.setSubject(String)
+  type: Method
+  summary: "\nSets the subject of the SpmMessage object. Corresponds to the subject in the outgoing email.\n"
+  remarks: 
+  syntax: 
+    content: Void setSubject(String subject)
+    parameters:
+    - id: subject
+      type: CRMScript.Global.String
+      description: "The subject of the SpmMessage object."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+references:
+- uid: CRMScript.Native.SpmMessage
+  commentId: T:CRMScript.Native.SpmMessage
+  isExternal: true
+  name: SpmMessage
+  nameWithType: SpmMessage
+  fullName: CRMScript.Native.SpmMessage
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

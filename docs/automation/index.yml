@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: "CRMScript"
       itemType: overview
-      url: ../../../crmscript/docs/index.yml
+      url: crmscript/index.yml
     # Card
     - title: "NetServer script engine (onsite)"
       itemType: overview
@@ -30,13 +30,12 @@ highlightedContent:
     # Card
     - title: "Trigger script reference"
       itemType: reference
-      url: ../../../crmscript/docs/api-reference/CRMScript.Event.Trigger.yml
+      url: trigger/reference/CRMScript.Event.Trigger.yml
       # FYI we're linking to a specific file rather than index because the folder doesn't have an index.md
     # Card
     - title: "Macros and scripts"
       itemType: reference
       url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
-
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -47,19 +46,19 @@ conceptualContent:
       - title: CRMScript
         summary: SuperOffice automation scripting language
         links:
-          - url: ../../../crmscript/docs/overview/index.md
+          - url: crmscript/overview/index.md
             itemType: overview
             text: What is CRMScript
-          - url: ../../../crmscript/docs/fundamentals/syntax.md
+          - url: crmscript/fundamentals/syntax.md
             itemType: get-started
             text: Fundamentals
-          - url: ../../../crmscript/docs/code-quality/coding-conventions.md
+          - url: crmscript/code-quality/coding-conventions.md
             itemType: how-to-guide
             text: Coding conventions
-          - url: ../../../crmscript/docs/datatypes/bool-type.md
+          - url: crmscript/datatypes/bool-type.md
             itemType: reference
             text: Basic datatypes
-          - url: ../../../crmscript/docs/index.yml
+          - url: crmscript/index.yml
             itemType: reference
             text: CRMScript API reference
     # Card
@@ -100,7 +99,6 @@ conceptualContent:
         - url: netserver-scripting/reference/index.md
           itemType: reference
           text: Scripting API reference
-        
     # Card
       - title: Event model
         summary: ""
@@ -130,19 +128,19 @@ additionalContent:
       # Card
       - title: Webhooks
         links:
-          - url: ../../../data-access/docs/netserver/webhooks/index.md
+          - url: webhook/index.md
             text: Introduction
-          - url: ../../../data-access/docs/netserver/webhooks/event-details.md
+          - url: webhook/event-details.md
             text: Event details
-          - url: ../../../data-access/docs/netserver/webhooks/subscription.md
+          - url: webhook/subscription.md
             text: Subscribing to a webhook
-          - url: ../../../data-access/docs/netserver/webhooks/notification.md
+          - url: webhook/notification.md
             text: Receiving a webhook
-          - url: ../../../data-access/docs/netserver/webhooks/crmscript-handlers.md
+          - url: webhook/crmscript-handlers.md
             text: CRMScript webhook handlers
-          - url: ../../../data-access/docs/netserver/webhooks/security.md
+          - url: webhook/security.md
             text: About security
-          - url: ../../../data-access/docs/netserver/webhooks/reference/activity-events.md
+          - url: webhook/reference/activity-events.md
             text: Webhook event reference
           - url: webhook/tutorials/add-msg-to-ticket/index.md
             text: Using GitHub webhook to add a message to a ticket

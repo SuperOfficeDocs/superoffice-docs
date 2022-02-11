@@ -1,0 +1,4027 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.InvitationProvider
+  id: InvitationProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.#ctor
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider._colInvitationStatusNotSeenByMe
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.ProviderName
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  langs:
+  - csharp
+  - vb
+  name: InvitationProvider
+  nameWithType: InvitationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nInvitation provider multichannel combiner, consisting of simple, cancelled, rejected, repeating and response invitations. You can also\ncall up appointments explicitly through the Explicit provider.\n"
+  remarks: "\n<xref href=\"SuperOffice.CRM.ArchiveLists.SimpleInvitationProvider\" data-throw-if-not-resolved=\"false\"></xref><seealso cref=\"!:ResponseInvitationProvider\"></seealso><xref href=\"SuperOffice.CRM.ArchiveLists.CancelledInvitationProvider\" data-throw-if-not-resolved=\"false\"></xref>\n<seealso cref=\"!:RepeatingInvitationProvider\"></seealso><xref href=\"SuperOffice.CRM.ArchiveLists.RejectedInvitationProvider\" data-throw-if-not-resolved=\"false\"></xref><xref href=\"SuperOffice.CRM.ArchiveLists.ExplicitInvitationProvider\" data-throw-if-not-resolved=\"false\"></xref>\nThe final result set needs filtering to remove repeating records if we are running in &quot;compressed&quot; mode, and also reordering\nto make sure we get the right order. We also need to filter repeating bookings against explicit records to remove duplicates there,\nbecause someone may explicitly request an instance an a recurring booking, so that all other instances should be suppressed.\n"
+  syntax:
+    content: >-
+      [ArchiveProvider("Invitation", 1073741823)]
+
+      public class InvitationProvider : BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>, IArchiveInvitationProvider, IArchiveTypedProvider<ArchiveInvitationRow>, IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+    content.vb: >-
+      <ArchiveProvider("Invitation", 1073741823)>
+
+      Public Class InvitationProvider
+          Inherits BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner)
+          Implements IArchiveInvitationProvider, IArchiveTypedProvider(Of ArchiveInvitationRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  - SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  - SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+  - SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.InnerProvider
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.InnerOrderBy
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.AdditionalDesiredColumns
+  - SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.ExternalDesiredColumns
+  - SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetRows(System.String)
+  - SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetStandardColumnNames
+  - SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetAdditionalColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}._entityHelper
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Visible
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Invisible
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.AllowOrderBy
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.DenyOrderBy
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Options
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetReader(System.String)
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetResultInformation
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SortData(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow})
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Close
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.EntityHelper
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.ColumnHelper
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.InvitationProvider)
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.InvitationProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute
+    ctor: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Invitation
+    - type: System.Int32
+      value: 1073741823
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider._colInvitationStatusNotSeenByMe
+  commentId: F:SuperOffice.CRM.ArchiveLists.InvitationProvider._colInvitationStatusNotSeenByMe
+  id: _colInvitationStatusNotSeenByMe
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: _colInvitationStatusNotSeenByMe
+  nameWithType: InvitationProvider._colInvitationStatusNotSeenByMe
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider._colInvitationStatusNotSeenByMe
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colInvitationStatusNotSeenByMe
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colInvitationStatusNotSeenByMe As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.InvitationProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: InvitationProvider.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ProviderName = "Invitation"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "Invitation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.InvitationProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: InvitationProvider()
+  nameWithType: InvitationProvider.InvitationProvider()
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.InvitationProvider()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public InvitationProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData
+  commentId: M:SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData
+  id: GetResultData
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: GetResultData()
+  nameWithType: InvitationProvider.GetResultData()
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected override List<ArchiveInvitationRow> GetResultData()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+    content.vb: Protected Overrides Function GetResultData As List(Of ArchiveInvitationRow)
+  overridden: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetResultData
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: InvitationProvider.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nOverride: Extract and drop any restriction relating to Status, since that is handled here in the final filtering step\n"
+  syntax:
+    content: public override bool SetRestriction(params ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function SetRestriction(ParamArray restrictions As ArchiveRestrictionInfo()) As Boolean
+  overridden: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: InvitationProvider.SetRestriction(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId(System.Int32)
+  id: SetAssociateId(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: SetAssociateId(Int32)
+  nameWithType: InvitationProvider.SetAssociateId(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the id of the associate we wish to fetch invitations for. This is equivalent to setting the &apos;associateId&apos; restriction\nwith a unique value.\n"
+  syntax:
+    content: public void SetAssociateId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id to fetch invitations for
+    content.vb: Public Sub SetAssociateId(associateId As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns
+  id: AdditionalDesiredColumns
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: AdditionalDesiredColumns
+  nameWithType: InvitationProvider.AdditionalDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected override string[] AdditionalDesiredColumns { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Protected Overrides ReadOnly Property AdditionalDesiredColumns As String()
+  overridden: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.AdditionalDesiredColumns
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities
+  commentId: P:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities
+  id: BaseClassShouldFilterEntities
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: BaseClassShouldFilterEntities
+  nameWithType: InvitationProvider.BaseClassShouldFilterEntities
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nOverride: Let the base class filter entitities, we will mark them for filtering\n"
+  syntax:
+    content: protected override bool BaseClassShouldFilterEntities { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property BaseClassShouldFilterEntities As Boolean
+  overridden: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldFilterEntities
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns
+  id: BaseClassShouldFilterColumns
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: BaseClassShouldFilterColumns
+  nameWithType: InvitationProvider.BaseClassShouldFilterColumns
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nOverride: Let the inner provider (not the InMemoryProvider base class) filter columns\n"
+  syntax:
+    content: protected override bool BaseClassShouldFilterColumns { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property BaseClassShouldFilterColumns As Boolean
+  overridden: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldFilterColumns
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage
+  commentId: P:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage
+  id: BaseClassShouldPage
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: BaseClassShouldPage
+  nameWithType: InvitationProvider.BaseClassShouldPage
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nOverride: Let the base class do paging (this stategy fails if there are a gazillion invitations!)\n"
+  syntax:
+    content: protected override bool BaseClassShouldPage { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property BaseClassShouldPage As Boolean
+  overridden: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldPage
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort
+  commentId: P:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort
+  id: BaseClassShouldSort
+  parent: SuperOffice.CRM.ArchiveLists.InvitationProvider
+  langs:
+  - csharp
+  - vb
+  name: BaseClassShouldSort
+  nameWithType: InvitationProvider.BaseClassShouldSort
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nOverride: Let the base class do orderBy, since our filtering may mess up the orderby\n"
+  syntax:
+    content: protected override bool BaseClassShouldSort { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property BaseClassShouldSort As Boolean
+  overridden: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldSort
+  overload: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  commentId: T:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  parent: SuperOffice.CRM.ArchiveLists
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+  name: InMemoryProviderBase<ArchiveInvitationRow>
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow)
+  name.vb: InMemoryProviderBase(Of ArchiveInvitationRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+    name: InMemoryProviderBase
+    nameWithType: InMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+    name: InMemoryProviderBase
+    nameWithType: InMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  commentId: T:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  parent: SuperOffice.CRM.ArchiveLists
+  definition: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+  name: TypedInMemoryProviderBase<ArchiveInvitationRow>
+  nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>
+  nameWithType.vb: TypedInMemoryProviderBase(Of ArchiveInvitationRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow)
+  name.vb: TypedInMemoryProviderBase(Of ArchiveInvitationRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+    name: TypedInMemoryProviderBase
+    nameWithType: TypedInMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+    name: TypedInMemoryProviderBase
+    nameWithType: TypedInMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  commentId: T:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  parent: SuperOffice.CRM.ArchiveLists
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+  name: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner)
+  name.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+    name: BufferedQueryProviderBase
+    nameWithType: BufferedQueryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner
+    name: InvitationProviderCombiner
+    nameWithType: InvitationProviderCombiner
+    fullName: SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+    name: BufferedQueryProviderBase
+    nameWithType: BufferedQueryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner
+    name: InvitationProviderCombiner
+    nameWithType: InvitationProviderCombiner
+    fullName: SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveInvitationProvider
+  nameWithType: IArchiveInvitationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  parent: SuperOffice.CRM.ArchiveLists
+  definition: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+  name: IArchiveTypedProvider<ArchiveInvitationRow>
+  nameWithType: IArchiveTypedProvider<ArchiveInvitationRow>
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>
+  nameWithType.vb: IArchiveTypedProvider(Of ArchiveInvitationRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow)
+  name.vb: IArchiveTypedProvider(Of ArchiveInvitationRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    nameWithType: IArchiveTypedProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    nameWithType: IArchiveTypedProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveTypedProviderBase
+  nameWithType: IArchiveTypedProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasEntities
+  nameWithType: IArchiveProviderHasEntities
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetPagingInfo(System.Int32, System.Int32)
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetPagingInfo(Int32, Int32)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+  name: GetAvailableColumns()
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.GetAvailableColumns()
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).GetAvailableColumns()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+  name: SetDesiredColumns(String[])
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetDesiredColumns(System.String[])
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+  name: GetAvailableEntities()
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.GetAvailableEntities()
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).GetAvailableEntities()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+  name: SetDesiredEntities(String[])
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetDesiredEntities(System.String[])
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.InnerProvider
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.InnerProvider
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.InnerProvider
+  name: InnerProvider
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.InnerProvider
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.InnerProvider
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).InnerProvider
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).InnerProvider
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.InnerOrderBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.InnerOrderBy
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.InnerOrderBy
+  name: InnerOrderBy
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.InnerOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.InnerOrderBy
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).InnerOrderBy
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).InnerOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.AdditionalDesiredColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.AdditionalDesiredColumns
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.AdditionalDesiredColumns
+  name: AdditionalDesiredColumns
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.AdditionalDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.AdditionalDesiredColumns
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).AdditionalDesiredColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).AdditionalDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.ExternalDesiredColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}.ExternalDesiredColumns
+  parent: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow,SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner}
+  definition: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.ExternalDesiredColumns
+  name: ExternalDesiredColumns
+  nameWithType: BufferedQueryProviderBase<ArchiveInvitationRow, InvitationProviderCombiner>.ExternalDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner>.ExternalDesiredColumns
+  nameWithType.vb: BufferedQueryProviderBase(Of ArchiveInvitationRow, InvitationProviderCombiner).ExternalDesiredColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow, SuperOffice.CRM.ArchiveLists.InvitationProviderCombiner).ExternalDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+  name: GetRows(String)
+  nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetRows(System.String)
+  nameWithType.vb: TypedInMemoryProviderBase(Of ArchiveInvitationRow).GetRows(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetRows(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+    name: GetRows
+    nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+    name: GetRows
+    nameWithType: TypedInMemoryProviderBase(Of ArchiveInvitationRow).GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetStandardColumnNames
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetStandardColumnNames
+  parent: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+  name: GetStandardColumnNames()
+  nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>.GetStandardColumnNames()
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetStandardColumnNames()
+  nameWithType.vb: TypedInMemoryProviderBase(Of ArchiveInvitationRow).GetStandardColumnNames()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetStandardColumnNames()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+    name: GetStandardColumnNames
+    nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>.GetStandardColumnNames
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetStandardColumnNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+    name: GetStandardColumnNames
+    nameWithType: TypedInMemoryProviderBase(Of ArchiveInvitationRow).GetStandardColumnNames
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetStandardColumnNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetAdditionalColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetAdditionalColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+  name: SetAdditionalColumns(String[])
+  nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>.SetAdditionalColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetAdditionalColumns(System.String[])
+  nameWithType.vb: TypedInMemoryProviderBase(Of ArchiveInvitationRow).SetAdditionalColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetAdditionalColumns(System.String())
+  name.vb: SetAdditionalColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+    name: SetAdditionalColumns
+    nameWithType: TypedInMemoryProviderBase<ArchiveInvitationRow>.SetAdditionalColumns
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetAdditionalColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+    name: SetAdditionalColumns
+    nameWithType: TypedInMemoryProviderBase(Of ArchiveInvitationRow).SetAdditionalColumns
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetAdditionalColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}._entityHelper
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}._entityHelper
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1._entityHelper
+  name: _entityHelper
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>._entityHelper
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>._entityHelper
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow)._entityHelper
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow)._entityHelper
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Visible
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Visible
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Visible
+  name: Visible
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.Visible
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.Visible
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).Visible
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).Visible
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Invisible
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Invisible
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Invisible
+  name: Invisible
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.Invisible
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.Invisible
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).Invisible
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).Invisible
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.AllowOrderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.AllowOrderBy
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.AllowOrderBy
+  name: AllowOrderBy
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.AllowOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.AllowOrderBy
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).AllowOrderBy
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).AllowOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.DenyOrderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.DenyOrderBy
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.DenyOrderBy
+  name: DenyOrderBy
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.DenyOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.DenyOrderBy
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).DenyOrderBy
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).DenyOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Options
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Options
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Options
+  name: Options
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.Options
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.Options
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).Options
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).Options
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name: RegisterEntity(ArchiveRowTypeInfo)
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.RegisterEntity(ArchiveRowTypeInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).RegisterEntity(ArchiveRowTypeInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+    name: RegisterEntity
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.RegisterEntity
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.RegisterEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+    name: RegisterEntity
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).RegisterEntity
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).RegisterEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+  name: GetReader(String)
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetReader(System.String)
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).GetReader(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetReader(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+    name: GetReader
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+    name: GetReader
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+  name: GetResultInformation()
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetResultInformation()
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).GetResultInformation()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetResultInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+    name: GetResultInformation
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+    name: GetResultInformation
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SortData(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow})
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SortData(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow})
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+  name: SortData(List<ArchiveInvitationRow>)
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SortData(List<ArchiveInvitationRow>)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SortData(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>)
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).SortData(List(Of ArchiveInvitationRow))
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SortData(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow))
+  name.vb: SortData(List(Of ArchiveInvitationRow))
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+    name: SortData
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SortData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SortData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+    name: SortData
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).SortData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SortData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.Close
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+  name: Close()
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.Close()
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).Close()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).Close()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+    name: Close
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.Close
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+    name: Close
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).Close
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetPagingInfo(System.Int32, System.Int32)
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).SetPagingInfo(Int32, Int32)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+  name: GetAvailableColumns()
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetAvailableColumns()
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).GetAvailableColumns()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+  name: SetDesiredColumns(String[])
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetDesiredColumns(System.String[])
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+  name: GetAvailableEntities()
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetAvailableEntities()
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).GetAvailableEntities()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+  name: SetDesiredEntities(String[])
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetDesiredEntities(System.String[])
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.EntityHelper
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.EntityHelper
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper
+  name: EntityHelper
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.EntityHelper
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.EntityHelper
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).EntityHelper
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).EntityHelper
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.ColumnHelper
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.ColumnHelper
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper
+  name: ColumnHelper
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.ColumnHelper
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.ColumnHelper
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).ColumnHelper
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).ColumnHelper
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<InvitationProvider, To>()
+  nameWithType: EnumUtil.MapEnums<InvitationProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.InvitationProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of InvitationProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.InvitationProvider, To)()
+  name.vb: MapEnums(Of InvitationProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<InvitationProvider, To>
+    nameWithType: EnumUtil.MapEnums<InvitationProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.InvitationProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of InvitationProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of InvitationProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.InvitationProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.InvitationProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<InvitationProvider>(InvitationProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<InvitationProvider>(InvitationProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.InvitationProvider>(SuperOffice.CRM.ArchiveLists.InvitationProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of InvitationProvider)(InvitationProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.InvitationProvider)(SuperOffice.CRM.ArchiveLists.InvitationProvider)
+  name.vb: AssignByReflection(Of InvitationProvider)(InvitationProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<InvitationProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<InvitationProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.InvitationProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.InvitationProvider
+    name: InvitationProvider
+    nameWithType: InvitationProvider
+    fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of InvitationProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of InvitationProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.InvitationProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.InvitationProvider
+    name: InvitationProvider
+    nameWithType: InvitationProvider
+    fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<InvitationProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<InvitationProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.InvitationProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of InvitationProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.InvitationProvider)()
+  name.vb: GraphCopy(Of InvitationProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<InvitationProvider>
+    nameWithType: ObjectExtensions.GraphCopy<InvitationProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.InvitationProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of InvitationProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of InvitationProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.InvitationProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<InvitationProvider, To>()
+  nameWithType: Converters.MapEnums<InvitationProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.InvitationProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of InvitationProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.InvitationProvider, To)()
+  name.vb: MapEnums(Of InvitationProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<InvitationProvider, To>
+    nameWithType: Converters.MapEnums<InvitationProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.InvitationProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of InvitationProvider, To)
+    nameWithType: Converters.MapEnums(Of InvitationProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.InvitationProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+  commentId: T:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+  isExternal: true
+  name: InMemoryProviderBase<RowType>
+  nameWithType: InMemoryProviderBase<RowType>
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>
+  nameWithType.vb: InMemoryProviderBase(Of RowType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType)
+  name.vb: InMemoryProviderBase(Of RowType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+    name: InMemoryProviderBase
+    nameWithType: InMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
+    name: InMemoryProviderBase
+    nameWithType: InMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+  commentId: T:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+  isExternal: true
+  name: TypedInMemoryProviderBase<RowType>
+  nameWithType: TypedInMemoryProviderBase<RowType>
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>
+  nameWithType.vb: TypedInMemoryProviderBase(Of RowType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType)
+  name.vb: TypedInMemoryProviderBase(Of RowType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+    name: TypedInMemoryProviderBase
+    nameWithType: TypedInMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1
+    name: TypedInMemoryProviderBase
+    nameWithType: TypedInMemoryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+  commentId: T:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+  isExternal: true
+  name: BufferedQueryProviderBase<RowType, InnerProviderType>
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType)
+  name.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+    name: BufferedQueryProviderBase
+    nameWithType: BufferedQueryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: InnerProviderType
+    nameWithType: InnerProviderType
+    fullName: InnerProviderType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
+    name: BufferedQueryProviderBase
+    nameWithType: BufferedQueryProviderBase
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: InnerProviderType
+    nameWithType: InnerProviderType
+    fullName: InnerProviderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+  isExternal: true
+  name: IArchiveTypedProvider<StronglyTypedRow>
+  nameWithType: IArchiveTypedProvider<StronglyTypedRow>
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider<StronglyTypedRow>
+  nameWithType.vb: IArchiveTypedProvider(Of StronglyTypedRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider(Of StronglyTypedRow)
+  name.vb: IArchiveTypedProvider(Of StronglyTypedRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    nameWithType: IArchiveTypedProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: StronglyTypedRow
+    nameWithType: StronglyTypedRow
+    fullName: StronglyTypedRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
+    name: IArchiveTypedProvider
+    nameWithType: IArchiveTypedProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: StronglyTypedRow
+    nameWithType: StronglyTypedRow
+    fullName: StronglyTypedRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+  isExternal: true
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetPagingInfo(System.Int32, System.Int32)
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetPagingInfo(Int32, Int32)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableColumns()
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableColumns()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredColumns(System.String[])
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities()
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableEntities()
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableEntities()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+  isExternal: true
+  name: SetDesiredEntities(String[])
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredEntities(System.String[])
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.InnerProvider
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.InnerProvider
+  isExternal: true
+  name: InnerProvider
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.InnerProvider
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.InnerProvider
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).InnerProvider
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).InnerProvider
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.InnerOrderBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.InnerOrderBy
+  isExternal: true
+  name: InnerOrderBy
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.InnerOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.InnerOrderBy
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).InnerOrderBy
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).InnerOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.AdditionalDesiredColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.AdditionalDesiredColumns
+  isExternal: true
+  name: AdditionalDesiredColumns
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.AdditionalDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.AdditionalDesiredColumns
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).AdditionalDesiredColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).AdditionalDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.ExternalDesiredColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2.ExternalDesiredColumns
+  isExternal: true
+  name: ExternalDesiredColumns
+  nameWithType: BufferedQueryProviderBase<RowType, InnerProviderType>.ExternalDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase<RowType, InnerProviderType>.ExternalDesiredColumns
+  nameWithType.vb: BufferedQueryProviderBase(Of RowType, InnerProviderType).ExternalDesiredColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase(Of RowType, InnerProviderType).ExternalDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+  isExternal: true
+  name: GetRows(String)
+  nameWithType: TypedInMemoryProviderBase<RowType>.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>.GetRows(System.String)
+  nameWithType.vb: TypedInMemoryProviderBase(Of RowType).GetRows(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType).GetRows(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+    name: GetRows
+    nameWithType: TypedInMemoryProviderBase<RowType>.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetRows(System.String)
+    name: GetRows
+    nameWithType: TypedInMemoryProviderBase(Of RowType).GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType).GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+  isExternal: true
+  name: GetStandardColumnNames()
+  nameWithType: TypedInMemoryProviderBase<RowType>.GetStandardColumnNames()
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>.GetStandardColumnNames()
+  nameWithType.vb: TypedInMemoryProviderBase(Of RowType).GetStandardColumnNames()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType).GetStandardColumnNames()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+    name: GetStandardColumnNames
+    nameWithType: TypedInMemoryProviderBase<RowType>.GetStandardColumnNames
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>.GetStandardColumnNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.GetStandardColumnNames
+    name: GetStandardColumnNames
+    nameWithType: TypedInMemoryProviderBase(Of RowType).GetStandardColumnNames
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType).GetStandardColumnNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+  isExternal: true
+  name: SetAdditionalColumns(String[])
+  nameWithType: TypedInMemoryProviderBase<RowType>.SetAdditionalColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>.SetAdditionalColumns(System.String[])
+  nameWithType.vb: TypedInMemoryProviderBase(Of RowType).SetAdditionalColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType).SetAdditionalColumns(System.String())
+  name.vb: SetAdditionalColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+    name: SetAdditionalColumns
+    nameWithType: TypedInMemoryProviderBase<RowType>.SetAdditionalColumns
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase<RowType>.SetAdditionalColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase`1.SetAdditionalColumns(System.String[])
+    name: SetAdditionalColumns
+    nameWithType: TypedInMemoryProviderBase(Of RowType).SetAdditionalColumns
+    fullName: SuperOffice.CRM.ArchiveLists.TypedInMemoryProviderBase(Of RowType).SetAdditionalColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1._entityHelper
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1._entityHelper
+  isExternal: true
+  name: _entityHelper
+  nameWithType: InMemoryProviderBase<RowType>._entityHelper
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>._entityHelper
+  nameWithType.vb: InMemoryProviderBase(Of RowType)._entityHelper
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType)._entityHelper
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Visible
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Visible
+  isExternal: true
+  name: Visible
+  nameWithType: InMemoryProviderBase<RowType>.Visible
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Visible
+  nameWithType.vb: InMemoryProviderBase(Of RowType).Visible
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Visible
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Invisible
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Invisible
+  isExternal: true
+  name: Invisible
+  nameWithType: InMemoryProviderBase<RowType>.Invisible
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Invisible
+  nameWithType.vb: InMemoryProviderBase(Of RowType).Invisible
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Invisible
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.AllowOrderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.AllowOrderBy
+  isExternal: true
+  name: AllowOrderBy
+  nameWithType: InMemoryProviderBase<RowType>.AllowOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.AllowOrderBy
+  nameWithType.vb: InMemoryProviderBase(Of RowType).AllowOrderBy
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).AllowOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.DenyOrderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.DenyOrderBy
+  isExternal: true
+  name: DenyOrderBy
+  nameWithType: InMemoryProviderBase<RowType>.DenyOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.DenyOrderBy
+  nameWithType.vb: InMemoryProviderBase(Of RowType).DenyOrderBy
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).DenyOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Options
+  commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Options
+  isExternal: true
+  name: Options
+  nameWithType: InMemoryProviderBase<RowType>.Options
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Options
+  nameWithType.vb: InMemoryProviderBase(Of RowType).Options
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Options
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  isExternal: true
+  name: RegisterEntity(ArchiveRowTypeInfo)
+  nameWithType: InMemoryProviderBase<RowType>.RegisterEntity(ArchiveRowTypeInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  nameWithType.vb: InMemoryProviderBase(Of RowType).RegisterEntity(ArchiveRowTypeInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+    name: RegisterEntity
+    nameWithType: InMemoryProviderBase<RowType>.RegisterEntity
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.RegisterEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+    name: RegisterEntity
+    nameWithType: InMemoryProviderBase(Of RowType).RegisterEntity
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).RegisterEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+  isExternal: true
+  name: GetReader(String)
+  nameWithType: InMemoryProviderBase<RowType>.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetReader(System.String)
+  nameWithType.vb: InMemoryProviderBase(Of RowType).GetReader(String)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetReader(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+    name: GetReader
+    nameWithType: InMemoryProviderBase<RowType>.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
+    name: GetReader
+    nameWithType: InMemoryProviderBase(Of RowType).GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+  isExternal: true
+  name: GetResultInformation()
+  nameWithType: InMemoryProviderBase<RowType>.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultInformation()
+  nameWithType.vb: InMemoryProviderBase(Of RowType).GetResultInformation()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+    name: GetResultInformation
+    nameWithType: InMemoryProviderBase<RowType>.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
+    name: GetResultInformation
+    nameWithType: InMemoryProviderBase(Of RowType).GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+  isExternal: true
+  name: SortData(List<RowType>)
+  nameWithType: InMemoryProviderBase<RowType>.SortData(List<RowType>)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SortData(System.Collections.Generic.List<RowType>)
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SortData(List(Of RowType))
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SortData(System.Collections.Generic.List(Of RowType))
+  name.vb: SortData(List(Of RowType))
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+    name: SortData
+    nameWithType: InMemoryProviderBase<RowType>.SortData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SortData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
+    name: SortData
+    nameWithType: InMemoryProviderBase(Of RowType).SortData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SortData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: RowType
+    nameWithType: RowType
+    fullName: RowType
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+  isExternal: true
+  name: Close()
+  nameWithType: InMemoryProviderBase<RowType>.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Close()
+  nameWithType.vb: InMemoryProviderBase(Of RowType).Close()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Close()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+    name: Close
+    nameWithType: InMemoryProviderBase<RowType>.Close
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
+    name: Close
+    nameWithType: InMemoryProviderBase(Of RowType).Close
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+  isExternal: true
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: InMemoryProviderBase<RowType>.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetPagingInfo(System.Int32, System.Int32)
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetPagingInfo(Int32, Int32)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: InMemoryProviderBase<RowType>.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: InMemoryProviderBase(Of RowType).SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: InMemoryProviderBase<RowType>.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableColumns()
+  nameWithType.vb: InMemoryProviderBase(Of RowType).GetAvailableColumns()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: InMemoryProviderBase<RowType>.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: InMemoryProviderBase(Of RowType).GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: InMemoryProviderBase<RowType>.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredColumns(System.String[])
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: InMemoryProviderBase<RowType>.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: InMemoryProviderBase(Of RowType).SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: InMemoryProviderBase<RowType>.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: InMemoryProviderBase<RowType>.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: InMemoryProviderBase(Of RowType).SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities()
+  nameWithType: InMemoryProviderBase<RowType>.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableEntities()
+  nameWithType.vb: InMemoryProviderBase(Of RowType).GetAvailableEntities()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: InMemoryProviderBase<RowType>.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: InMemoryProviderBase(Of RowType).GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+  isExternal: true
+  name: SetDesiredEntities(String[])
+  nameWithType: InMemoryProviderBase<RowType>.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredEntities(System.String[])
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: InMemoryProviderBase<RowType>.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: InMemoryProviderBase(Of RowType).SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper
+  isExternal: true
+  name: EntityHelper
+  nameWithType: InMemoryProviderBase<RowType>.EntityHelper
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.EntityHelper
+  nameWithType.vb: InMemoryProviderBase(Of RowType).EntityHelper
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).EntityHelper
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper
+  isExternal: true
+  name: ColumnHelper
+  nameWithType: InMemoryProviderBase<RowType>.ColumnHelper
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.ColumnHelper
+  nameWithType.vb: InMemoryProviderBase(Of RowType).ColumnHelper
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).ColumnHelper
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.#ctor
+  isExternal: true
+  name: InvitationProvider
+  nameWithType: InvitationProvider.InvitationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.InvitationProvider
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetResultData
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.GetResultData
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+  name: GetResultData()
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetResultData()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetResultData()
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).GetResultData()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetResultData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+    name: GetResultData
+    nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.GetResultData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.GetResultData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+    name: GetResultData
+    nameWithType: InMemoryProviderBase(Of ArchiveInvitationRow).GetResultData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).GetResultData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData
+  isExternal: true
+  name: GetResultData
+  nameWithType: InvitationProvider.GetResultData
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.GetResultData
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveInvitationRow>
+  nameWithType: List<ArchiveInvitationRow>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>
+  nameWithType.vb: List(Of ArchiveInvitationRow)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow)
+  name.vb: List(Of ArchiveInvitationRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    name: ArchiveInvitationRow
+    nameWithType: ArchiveInvitationRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+  commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+  isExternal: true
+  name: GetResultData()
+  nameWithType: InMemoryProviderBase<RowType>.GetResultData()
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultData()
+  nameWithType.vb: InMemoryProviderBase(Of RowType).GetResultData()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+    name: GetResultData
+    nameWithType: InMemoryProviderBase<RowType>.GetResultData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
+    name: GetResultData
+    nameWithType: InMemoryProviderBase(Of RowType).GetResultData
+    fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction
+  isExternal: true
+  name: SetRestriction
+  nameWithType: InvitationProvider.SetRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetRestriction
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId
+  isExternal: true
+  name: SetAssociateId
+  nameWithType: InvitationProvider.SetAssociateId
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.SetAssociateId
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider
+  isExternal: true
+  name: SetAssociateId(Int32)
+  nameWithType: IArchiveInvitationProvider.SetAssociateId(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId(System.Int32)
+    name: SetAssociateId
+    nameWithType: IArchiveInvitationProvider.SetAssociateId
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId(System.Int32)
+    name: SetAssociateId
+    nameWithType: IArchiveInvitationProvider.SetAssociateId
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveInvitationProvider.SetAssociateId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns
+  isExternal: true
+  name: AdditionalDesiredColumns
+  nameWithType: InvitationProvider.AdditionalDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.AdditionalDesiredColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldFilterEntities
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldFilterEntities
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
+  name: BaseClassShouldFilterEntities
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.BaseClassShouldFilterEntities
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.BaseClassShouldFilterEntities
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).BaseClassShouldFilterEntities
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).BaseClassShouldFilterEntities
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities
+  isExternal: true
+  name: BaseClassShouldFilterEntities
+  nameWithType: InvitationProvider.BaseClassShouldFilterEntities
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterEntities
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
+  isExternal: true
+  name: BaseClassShouldFilterEntities
+  nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldFilterEntities
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldFilterEntities
+  nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldFilterEntities
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldFilterEntities
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldFilterColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldFilterColumns
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
+  name: BaseClassShouldFilterColumns
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.BaseClassShouldFilterColumns
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.BaseClassShouldFilterColumns
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).BaseClassShouldFilterColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).BaseClassShouldFilterColumns
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns
+  isExternal: true
+  name: BaseClassShouldFilterColumns
+  nameWithType: InvitationProvider.BaseClassShouldFilterColumns
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldFilterColumns
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
+  isExternal: true
+  name: BaseClassShouldFilterColumns
+  nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldFilterColumns
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldFilterColumns
+  nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldFilterColumns
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldFilterColumns
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldPage
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldPage
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage
+  name: BaseClassShouldPage
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.BaseClassShouldPage
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.BaseClassShouldPage
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).BaseClassShouldPage
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).BaseClassShouldPage
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage
+  isExternal: true
+  name: BaseClassShouldPage
+  nameWithType: InvitationProvider.BaseClassShouldPage
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldPage
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage
+  isExternal: true
+  name: BaseClassShouldPage
+  nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldPage
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldPage
+  nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldPage
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldPage
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldSort
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}.BaseClassShouldSort
+  parent: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow}
+  definition: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort
+  name: BaseClassShouldSort
+  nameWithType: InMemoryProviderBase<ArchiveInvitationRow>.BaseClassShouldSort
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow>.BaseClassShouldSort
+  nameWithType.vb: InMemoryProviderBase(Of ArchiveInvitationRow).BaseClassShouldSort
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow).BaseClassShouldSort
+- uid: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort
+  isExternal: true
+  name: BaseClassShouldSort
+  nameWithType: InvitationProvider.BaseClassShouldSort
+  fullName: SuperOffice.CRM.ArchiveLists.InvitationProvider.BaseClassShouldSort
+- uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort
+  commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort
+  isExternal: true
+  name: BaseClassShouldSort
+  nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldSort
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldSort
+  nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldSort
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldSort

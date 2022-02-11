@@ -1,0 +1,532 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DeltaQuery
+  commentId: T:SuperOffice.WebApi.Data.DeltaQuery
+  id: DeltaQuery
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DeltaQuery.#ctor
+  - SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  - SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  - SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  - SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  - SuperOffice.WebApi.Data.DeltaQuery.RecipeId
+  - SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  langs:
+  - csharp
+  - vb
+  name: DeltaQuery
+  nameWithType: DeltaQuery
+  fullName: SuperOffice.WebApi.Data.DeltaQuery
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DeltaQuery.\nQuery object to use to fetch configruablescreendeltas matching this object    \n"
+  syntax:
+    content: 'public class DeltaQuery : Carrier'
+    content.vb: >-
+      Public Class DeltaQuery
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ConfigurationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DeltaQuery.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DeltaQuery.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaQuery()
+  nameWithType: DeltaQuery.DeltaQuery()
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaQuery()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DeltaQuery()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DeltaQuery.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DeltaQuery.RecipeId
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.RecipeId
+  id: RecipeId
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: RecipeId
+  nameWithType: DeltaQuery.RecipeId
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.RecipeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the recipe the deltas belong to\n"
+  syntax:
+    content: public virtual string RecipeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RecipeId As String
+  overload: SuperOffice.WebApi.Data.DeltaQuery.RecipeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  id: DeltaStates_String
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaStates_String
+  nameWithType: DeltaQuery.DeltaStates_String
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe deltas returned has to be in one of these states\nRaw string enum values.\n"
+  syntax:
+    content: public string[] DeltaStates_String { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property DeltaStates_String As String()
+  overload: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+    commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  id: DeltaStates
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaStates
+  nameWithType: DeltaQuery.DeltaStates
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe deltas returned has to be in one of these states\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DeltaState>[] DeltaStates { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DeltaState}[]
+    content.vb: Public Property DeltaStates As Nullable(Of DeltaState)()
+  overload: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+    commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  id: DeltaTypes_String
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaTypes_String
+  nameWithType: DeltaQuery.DeltaTypes_String
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe deltas returned has to be in one of these types\nRaw string enum values.\n"
+  syntax:
+    content: public string[] DeltaTypes_String { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property DeltaTypes_String As String()
+  overload: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+    commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  id: DeltaTypes
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: DeltaTypes
+  nameWithType: DeltaQuery.DeltaTypes
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe deltas returned has to be in one of these types\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DeltaType>[] DeltaTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DeltaType}[]
+    content.vb: Public Property DeltaTypes As Nullable(Of DeltaType)()
+  overload: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+    commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  id: UserGroupIds
+  parent: SuperOffice.WebApi.Data.DeltaQuery
+  langs:
+  - csharp
+  - vb
+  name: UserGroupIds
+  nameWithType: DeltaQuery.UserGroupIds
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMembers of this usergroup will have this delta applied to their resulting ui\n"
+  syntax:
+    content: public virtual int[] UserGroupIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property UserGroupIds As Integer()
+  overload: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DeltaQuery.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.#ctor
+  isExternal: true
+  name: DeltaQuery
+  nameWithType: DeltaQuery.DeltaQuery
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaQuery
+- uid: SuperOffice.WebApi.Data.DeltaQuery.RecipeId*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.RecipeId
+  isExternal: true
+  name: RecipeId
+  nameWithType: DeltaQuery.RecipeId
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.RecipeId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  isExternal: true
+  name: DeltaStates_String
+  nameWithType: DeltaQuery.DeltaStates_String
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  isExternal: true
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+  isExternal: true
+  name: DeltaStates
+  nameWithType: DeltaQuery.DeltaStates
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DeltaState}[]
+  isExternal: true
+  name: Nullable<DeltaState>[]
+  nameWithType: Nullable<DeltaState>[]
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DeltaState>[]
+  nameWithType.vb: Nullable(Of DeltaState)()
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DeltaState)()
+  name.vb: Nullable(Of DeltaState)()
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.WebApi.Data.DeltaState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.WebApi.Data.DeltaState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  isExternal: true
+  name: DeltaTypes_String
+  nameWithType: DeltaQuery.DeltaTypes_String
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+  isExternal: true
+  name: DeltaTypes
+  nameWithType: DeltaQuery.DeltaTypes
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
+- uid: SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DeltaType}[]
+  isExternal: true
+  name: Nullable<DeltaType>[]
+  nameWithType: Nullable<DeltaType>[]
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DeltaType>[]
+  nameWithType.vb: Nullable(Of DeltaType)()
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DeltaType)()
+  name.vb: Nullable(Of DeltaType)()
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.WebApi.Data.DeltaType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.WebApi.Data.DeltaType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  isExternal: true
+  name: UserGroupIds
+  nameWithType: DeltaQuery.UserGroupIds
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

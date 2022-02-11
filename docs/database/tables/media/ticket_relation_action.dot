@@ -1,0 +1,14 @@
+digraph ticket_relation_action  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_relation_action[fillcolor = "cadetblue1"]
+ticket_relation_type[fillcolor = "azure1"]
+ejscript[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ticket_relation_action -> ticket_relation_type [headlabel = "source_relation_type"]
+ticket_relation_action -> ticket_relation_type [label = "target_relation_type"]
+ticket_relation_action -> ejscript [headlabel = "action"]
+ticket_relation_action -> associate [headlabel = "registered_associate_id"]
+ticket_relation_action -> associate [label = "updated_associate_id"]
+}

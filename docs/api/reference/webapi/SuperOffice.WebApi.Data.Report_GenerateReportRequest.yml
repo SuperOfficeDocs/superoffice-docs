@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  commentId: T:SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  id: Report_GenerateReportRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: Report_GenerateReportRequest
+  nameWithType: Report_GenerateReportRequest
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Report_GenerateReportRequest : Object'
+    content.vb: >-
+      Public Class Report_GenerateReportRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Report_GenerateReportRequest()
+  nameWithType: Report_GenerateReportRequest.Report_GenerateReportRequest()
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Report_GenerateReportRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Report_GenerateReportRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
+  commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
+  id: ReportId
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: ReportId
+  nameWithType: Report_GenerateReportRequest.ReportId
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReportId As Integer
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
+  commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
+  id: LabelLayoutId
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: LabelLayoutId
+  nameWithType: Report_GenerateReportRequest.LabelLayoutId
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int LabelLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LabelLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+  commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+  id: Filename
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: Report_GenerateReportRequest.Filename
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filename As String
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
+  commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Report_GenerateReportRequest.Language
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
+  commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
+  id: FileType
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: FileType
+  nameWithType: Report_GenerateReportRequest.FileType
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FileType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileType As String
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Report_GenerateReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Report_GenerateReportRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
+  isExternal: true
+  name: Report_GenerateReportRequest
+  nameWithType: Report_GenerateReportRequest.Report_GenerateReportRequest
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Report_GenerateReportRequest
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
+  isExternal: true
+  name: ReportId
+  nameWithType: Report_GenerateReportRequest.ReportId
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
+  isExternal: true
+  name: LabelLayoutId
+  nameWithType: Report_GenerateReportRequest.LabelLayoutId
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: Report_GenerateReportRequest.Filename
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
+  isExternal: true
+  name: Language
+  nameWithType: Report_GenerateReportRequest.Language
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
+  isExternal: true
+  name: FileType
+  nameWithType: Report_GenerateReportRequest.FileType
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
+- uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Report_GenerateReportRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

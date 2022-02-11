@@ -1,0 +1,431 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  commentId: T:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  id: TabbedViewController.TabItemClickedRequest
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views
+  children:
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.#ctor
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.tabControlName
+  - SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.viewId
+  langs:
+  - csharp
+  - vb
+  name: TabbedViewController.TabItemClickedRequest
+  nameWithType: TabbedViewController.TabItemClickedRequest
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: public class TabItemClickedRequest
+    content.vb: Public Class TabItemClickedRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.tabControlName
+  commentId: F:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.tabControlName
+  id: tabControlName
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  langs:
+  - csharp
+  - vb
+  name: tabControlName
+  nameWithType: TabbedViewController.TabItemClickedRequest.tabControlName
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.tabControlName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: public string tabControlName
+    return:
+      type: System.String
+    content.vb: Public tabControlName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.viewId
+  commentId: F:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.viewId
+  id: viewId
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  langs:
+  - csharp
+  - vb
+  name: viewId
+  nameWithType: TabbedViewController.TabItemClickedRequest.viewId
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.viewId
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: public string viewId
+    return:
+      type: System.String
+    content.vb: Public viewId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+  langs:
+  - csharp
+  - vb
+  name: TabItemClickedRequest()
+  nameWithType: TabbedViewController.TabItemClickedRequest.TabItemClickedRequest()
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.TabItemClickedRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Cards_and_Views
+  syntax:
+    content: public TabItemClickedRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views
+  commentId: N:SuperOffice.CRM.Web.UI.Cards_and_Views
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Cards_and_Views
+  nameWithType: SuperOffice.CRM.Web.UI.Cards_and_Views
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.#ctor
+  isExternal: true
+  name: TabItemClickedRequest
+  nameWithType: TabbedViewController.TabItemClickedRequest.TabItemClickedRequest
+  fullName: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest.TabItemClickedRequest

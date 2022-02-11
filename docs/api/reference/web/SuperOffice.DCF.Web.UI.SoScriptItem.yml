@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem
+  commentId: T:SuperOffice.DCF.Web.UI.SoScriptItem
+  id: SoScriptItem
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.SoScriptItem.#ctor(System.Type,System.String,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags
+  - SuperOffice.DCF.Web.UI.SoScriptItem.Name
+  - SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType
+  - SuperOffice.DCF.Web.UI.SoScriptItem.Script
+  langs:
+  - csharp
+  - vb
+  name: SoScriptItem
+  nameWithType: SoScriptItem
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public class SoScriptItem
+    content.vb: Public Class SoScriptItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.#ctor(System.Type,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.SoScriptItem.#ctor(System.Type,System.String,System.String,System.Boolean)
+  id: '#ctor(System.Type,System.String,System.String,System.Boolean)'
+  parent: SuperOffice.DCF.Web.UI.SoScriptItem
+  langs:
+  - csharp
+  - vb
+  name: SoScriptItem(Type, String, String, Boolean)
+  nameWithType: SoScriptItem.SoScriptItem(Type, String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.SoScriptItem(System.Type, System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public SoScriptItem(Type type, string name, string script, bool addScriptTags)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: name
+      type: System.String
+    - id: script
+      type: System.String
+    - id: addScriptTags
+      type: System.Boolean
+    content.vb: Public Sub New(type As Type, name As String, script As String, addScriptTags As Boolean)
+  overload: SuperOffice.DCF.Web.UI.SoScriptItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType
+  commentId: P:SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType
+  id: ObjectType
+  parent: SuperOffice.DCF.Web.UI.SoScriptItem
+  langs:
+  - csharp
+  - vb
+  name: ObjectType
+  nameWithType: SoScriptItem.ObjectType
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public Type ObjectType { get; set; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public Property ObjectType As Type
+  overload: SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.Name
+  commentId: P:SuperOffice.DCF.Web.UI.SoScriptItem.Name
+  id: Name
+  parent: SuperOffice.DCF.Web.UI.SoScriptItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoScriptItem.Name
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.Name
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.DCF.Web.UI.SoScriptItem.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.Script
+  commentId: P:SuperOffice.DCF.Web.UI.SoScriptItem.Script
+  id: Script
+  parent: SuperOffice.DCF.Web.UI.SoScriptItem
+  langs:
+  - csharp
+  - vb
+  name: Script
+  nameWithType: SoScriptItem.Script
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.Script
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string Script { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Script As String
+  overload: SuperOffice.DCF.Web.UI.SoScriptItem.Script*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags
+  commentId: P:SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags
+  id: AddScriptTags
+  parent: SuperOffice.DCF.Web.UI.SoScriptItem
+  langs:
+  - csharp
+  - vb
+  name: AddScriptTags
+  nameWithType: SoScriptItem.AddScriptTags
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public bool AddScriptTags { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AddScriptTags As Boolean
+  overload: SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoScriptItem.#ctor
+  isExternal: true
+  name: SoScriptItem
+  nameWithType: SoScriptItem.SoScriptItem
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.SoScriptItem
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType
+  isExternal: true
+  name: ObjectType
+  nameWithType: SoScriptItem.ObjectType
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.ObjectType
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.Name*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoScriptItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: SoScriptItem.Name
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.Name
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.Script*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoScriptItem.Script
+  isExternal: true
+  name: Script
+  nameWithType: SoScriptItem.Script
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.Script
+- uid: SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags
+  isExternal: true
+  name: AddScriptTags
+  nameWithType: SoScriptItem.AddScriptTags
+  fullName: SuperOffice.DCF.Web.UI.SoScriptItem.AddScriptTags

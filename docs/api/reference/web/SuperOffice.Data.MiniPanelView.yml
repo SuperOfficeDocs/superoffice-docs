@@ -1,0 +1,632 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.MiniPanelView
+  commentId: T:SuperOffice.Data.MiniPanelView
+  id: MiniPanelView
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.MiniPanelView.Browser
+  - SuperOffice.Data.MiniPanelView.Contact
+  - SuperOffice.Data.MiniPanelView.ContactInterest
+  - SuperOffice.Data.MiniPanelView.ContactUdef
+  - SuperOffice.Data.MiniPanelView.Day
+  - SuperOffice.Data.MiniPanelView.Month
+  - SuperOffice.Data.MiniPanelView.NextDay
+  - SuperOffice.Data.MiniPanelView.NextWeek
+  - SuperOffice.Data.MiniPanelView.None
+  - SuperOffice.Data.MiniPanelView.Notepad
+  - SuperOffice.Data.MiniPanelView.Person
+  - SuperOffice.Data.MiniPanelView.PersonInterest
+  - SuperOffice.Data.MiniPanelView.PersonUdef
+  - SuperOffice.Data.MiniPanelView.Preview
+  - SuperOffice.Data.MiniPanelView.Project
+  - SuperOffice.Data.MiniPanelView.ProjectMember
+  - SuperOffice.Data.MiniPanelView.ProjectUdef
+  - SuperOffice.Data.MiniPanelView.Selection
+  - SuperOffice.Data.MiniPanelView.SelectionMember
+  - SuperOffice.Data.MiniPanelView.ToDo
+  - SuperOffice.Data.MiniPanelView.Week
+  langs:
+  - csharp
+  - vb
+  name: MiniPanelView
+  nameWithType: MiniPanelView
+  fullName: SuperOffice.Data.MiniPanelView
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nMini Panel enums representing the values stored in the UserPreference table\n"
+  syntax:
+    content: 'public enum MiniPanelView : short'
+    content.vb: Public Enum MiniPanelView As Short
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.MiniPanelView.None
+  commentId: F:SuperOffice.Data.MiniPanelView.None
+  id: None
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MiniPanelView.None
+  fullName: SuperOffice.Data.MiniPanelView.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Day
+  commentId: F:SuperOffice.Data.MiniPanelView.Day
+  id: Day
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: MiniPanelView.Day
+  fullName: SuperOffice.Data.MiniPanelView.Day
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Day = 1
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.NextDay
+  commentId: F:SuperOffice.Data.MiniPanelView.NextDay
+  id: NextDay
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: NextDay
+  nameWithType: MiniPanelView.NextDay
+  fullName: SuperOffice.Data.MiniPanelView.NextDay
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: NextDay = 2
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Week
+  commentId: F:SuperOffice.Data.MiniPanelView.Week
+  id: Week
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: MiniPanelView.Week
+  fullName: SuperOffice.Data.MiniPanelView.Week
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Week = 3
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.NextWeek
+  commentId: F:SuperOffice.Data.MiniPanelView.NextWeek
+  id: NextWeek
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: NextWeek
+  nameWithType: MiniPanelView.NextWeek
+  fullName: SuperOffice.Data.MiniPanelView.NextWeek
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: NextWeek = 4
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Month
+  commentId: F:SuperOffice.Data.MiniPanelView.Month
+  id: Month
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: MiniPanelView.Month
+  fullName: SuperOffice.Data.MiniPanelView.Month
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Month = 5
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.ToDo
+  commentId: F:SuperOffice.Data.MiniPanelView.ToDo
+  id: ToDo
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: ToDo
+  nameWithType: MiniPanelView.ToDo
+  fullName: SuperOffice.Data.MiniPanelView.ToDo
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ToDo = 6
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Preview
+  commentId: F:SuperOffice.Data.MiniPanelView.Preview
+  id: Preview
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Preview
+  nameWithType: MiniPanelView.Preview
+  fullName: SuperOffice.Data.MiniPanelView.Preview
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Preview = 7
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Contact
+  commentId: F:SuperOffice.Data.MiniPanelView.Contact
+  id: Contact
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: MiniPanelView.Contact
+  fullName: SuperOffice.Data.MiniPanelView.Contact
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Contact = 8
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.ContactInterest
+  commentId: F:SuperOffice.Data.MiniPanelView.ContactInterest
+  id: ContactInterest
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: ContactInterest
+  nameWithType: MiniPanelView.ContactInterest
+  fullName: SuperOffice.Data.MiniPanelView.ContactInterest
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactInterest = 9
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.ContactUdef
+  commentId: F:SuperOffice.Data.MiniPanelView.ContactUdef
+  id: ContactUdef
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: ContactUdef
+  nameWithType: MiniPanelView.ContactUdef
+  fullName: SuperOffice.Data.MiniPanelView.ContactUdef
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactUdef = 10
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Person
+  commentId: F:SuperOffice.Data.MiniPanelView.Person
+  id: Person
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: MiniPanelView.Person
+  fullName: SuperOffice.Data.MiniPanelView.Person
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Person = 11
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.PersonInterest
+  commentId: F:SuperOffice.Data.MiniPanelView.PersonInterest
+  id: PersonInterest
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: PersonInterest
+  nameWithType: MiniPanelView.PersonInterest
+  fullName: SuperOffice.Data.MiniPanelView.PersonInterest
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: PersonInterest = 12
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.PersonUdef
+  commentId: F:SuperOffice.Data.MiniPanelView.PersonUdef
+  id: PersonUdef
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: PersonUdef
+  nameWithType: MiniPanelView.PersonUdef
+  fullName: SuperOffice.Data.MiniPanelView.PersonUdef
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: PersonUdef = 13
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Project
+  commentId: F:SuperOffice.Data.MiniPanelView.Project
+  id: Project
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: MiniPanelView.Project
+  fullName: SuperOffice.Data.MiniPanelView.Project
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Project = 14
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.ProjectUdef
+  commentId: F:SuperOffice.Data.MiniPanelView.ProjectUdef
+  id: ProjectUdef
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: ProjectUdef
+  nameWithType: MiniPanelView.ProjectUdef
+  fullName: SuperOffice.Data.MiniPanelView.ProjectUdef
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectUdef = 15
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.ProjectMember
+  commentId: F:SuperOffice.Data.MiniPanelView.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: MiniPanelView.ProjectMember
+  fullName: SuperOffice.Data.MiniPanelView.ProjectMember
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectMember = 16
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Selection
+  commentId: F:SuperOffice.Data.MiniPanelView.Selection
+  id: Selection
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: MiniPanelView.Selection
+  fullName: SuperOffice.Data.MiniPanelView.Selection
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Selection = 17
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.SelectionMember
+  commentId: F:SuperOffice.Data.MiniPanelView.SelectionMember
+  id: SelectionMember
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: SelectionMember
+  nameWithType: MiniPanelView.SelectionMember
+  fullName: SuperOffice.Data.MiniPanelView.SelectionMember
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: SelectionMember = 18
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Notepad
+  commentId: F:SuperOffice.Data.MiniPanelView.Notepad
+  id: Notepad
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Notepad
+  nameWithType: MiniPanelView.Notepad
+  fullName: SuperOffice.Data.MiniPanelView.Notepad
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Notepad = 19
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MiniPanelView.Browser
+  commentId: F:SuperOffice.Data.MiniPanelView.Browser
+  id: Browser
+  parent: SuperOffice.Data.MiniPanelView
+  langs:
+  - csharp
+  - vb
+  name: Browser
+  nameWithType: MiniPanelView.Browser
+  fullName: SuperOffice.Data.MiniPanelView.Browser
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Browser = 20
+    return:
+      type: SuperOffice.Data.MiniPanelView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.MiniPanelView
+  commentId: T:SuperOffice.Data.MiniPanelView
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MiniPanelView
+  nameWithType: MiniPanelView
+  fullName: SuperOffice.Data.MiniPanelView

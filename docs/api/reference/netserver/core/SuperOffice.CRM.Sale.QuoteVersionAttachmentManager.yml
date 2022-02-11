@@ -1,0 +1,583 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  commentId: T:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  id: QuoteVersionAttachmentManager
+  parent: SuperOffice.CRM.Sale
+  children:
+  - SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment(System.Int32,System.Int32)
+  - SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments(System.Int32)
+  - SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment(System.Int32)
+  - SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment(System.Int32,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionAttachmentManager
+  nameWithType: QuoteVersionAttachmentManager
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nClass implementing QuoteVersionAttachment business logic\n"
+  syntax:
+    content: public static class QuoteVersionAttachmentManager
+    content.vb: Public Module QuoteVersionAttachmentManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments(System.Int32)
+  id: CreateOrUpdateQuoteVersionAttachments(System.Int32)
+  parent: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateQuoteVersionAttachments(Int32)
+  nameWithType: QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments(Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nLook at the Quote version, related sale and sale type, and ensure that the correct QuoteVersionAttachment records exist. This method may create or delete records\n"
+  syntax:
+    content: public static QuoteVersionAttachmentRows CreateOrUpdateQuoteVersionAttachments(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: The ID of the quote version
+    return:
+      type: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+      description: The current attachments for the given Quote version, after all updates have been completed
+    content.vb: Public Shared Function CreateOrUpdateQuoteVersionAttachments(quoteVersionId As Integer) As QuoteVersionAttachmentRows
+  overload: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment(System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment(System.Int32,System.Int32,System.Boolean)
+  id: IncludeQuoteVersionAttachment(System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  langs:
+  - csharp
+  - vb
+  name: IncludeQuoteVersionAttachment(Int32, Int32, Boolean)
+  nameWithType: QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment(Int32, Int32, Boolean)
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nToggle the &apos;included&apos; state of a quote version attachment; will throw exceptions if called on locked versions\n"
+  syntax:
+    content: public static bool IncludeQuoteVersionAttachment(int quoteVersionId, int documentId, bool include)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: The ID of the Quote version
+    - id: documentId
+      type: System.Int32
+      description: The ID of the document
+    - id: include
+      type: System.Boolean
+      description: Desired state
+    return:
+      type: System.Boolean
+      description: The new state
+    content.vb: Public Shared Function IncludeQuoteVersionAttachment(quoteVersionId As Integer, documentId As Integer, include As Boolean) As Boolean
+  overload: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded(System.Int32)
+  id: ToggleSaleTypeQuoteAttachmentDefaultIncluded(System.Int32)
+  parent: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  langs:
+  - csharp
+  - vb
+  name: ToggleSaleTypeQuoteAttachmentDefaultIncluded(Int32)
+  nameWithType: QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nToggle the &apos;default included&apos; state of a sale type quote attachment\n"
+  syntax:
+    content: public static bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The ID of the sale type quote attachment
+    return:
+      type: System.Boolean
+      description: The new state
+    content.vb: Public Shared Function ToggleSaleTypeQuoteAttachmentDefaultIncluded(id As Integer) As Boolean
+  overload: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment(System.Int32,System.Int32)
+  id: AddSaleTypeQuoteAttachment(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  langs:
+  - csharp
+  - vb
+  name: AddSaleTypeQuoteAttachment(Int32, Int32)
+  nameWithType: QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment(Int32, Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nAdds a new quote attachment document to a sale type\n"
+  syntax:
+    content: public static int AddSaleTypeQuoteAttachment(int saleTypeId, int documentId)
+    parameters:
+    - id: saleTypeId
+      type: System.Int32
+      description: The ID of the sale type
+    - id: documentId
+      type: System.Int32
+      description: The ID of the document
+    return:
+      type: System.Int32
+      description: ID of the new sale type quote attachment row
+    content.vb: Public Shared Function AddSaleTypeQuoteAttachment(saleTypeId As Integer, documentId As Integer) As Integer
+  overload: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment(System.Int32)
+  id: DeleteSaleTypeQuoteAttachment(System.Int32)
+  parent: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaleTypeQuoteAttachment(Int32)
+  nameWithType: QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment(Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nDeletes a sale type quote attachment row\n"
+  syntax:
+    content: public static void DeleteSaleTypeQuoteAttachment(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The ID of the row to delete
+    content.vb: Public Shared Sub DeleteSaleTypeQuoteAttachment(id As Integer)
+  overload: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments
+  isExternal: true
+  name: CreateOrUpdateQuoteVersionAttachments
+  nameWithType: QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.CreateOrUpdateQuoteVersionAttachments
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+  commentId: T:SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: QuoteVersionAttachmentRows
+  nameWithType: QuoteVersionAttachmentRows
+  fullName: SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment
+  isExternal: true
+  name: IncludeQuoteVersionAttachment
+  nameWithType: QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.IncludeQuoteVersionAttachment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded
+  isExternal: true
+  name: ToggleSaleTypeQuoteAttachmentDefaultIncluded
+  nameWithType: QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.ToggleSaleTypeQuoteAttachmentDefaultIncluded
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment
+  isExternal: true
+  name: AddSaleTypeQuoteAttachment
+  nameWithType: QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.AddSaleTypeQuoteAttachment
+- uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment
+  isExternal: true
+  name: DeleteSaleTypeQuoteAttachment
+  nameWithType: QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment
+  fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.DeleteSaleTypeQuoteAttachment

@@ -1,0 +1,17 @@
+digraph OLESubject  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+OLESubject[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+OLESubjectText[fillcolor = "azure1"]
+OLEView[fillcolor = "azure1"]
+OLEViewText[fillcolor = "azure1"]
+OLEFieldText[fillcolor = "azure1"]
+OLESubject -> associate [headlabel = "registered_associate_id"]
+OLESubject -> associate [label = "updated_associate_id"]
+OLESubjectText -> OLESubject [label = "OLESubject_id"]
+OLEView -> OLESubject [label = "OLESubject_id"]
+OLEViewText -> OLESubject [label = "OLEView_id"]
+OLEFieldText -> OLESubject [label = "OLEField_id"]
+}

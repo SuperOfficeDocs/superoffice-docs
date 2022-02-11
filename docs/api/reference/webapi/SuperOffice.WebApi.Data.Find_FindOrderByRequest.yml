@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  id: Find_FindOrderByRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_FindOrderByRequest
+  nameWithType: Find_FindOrderByRequest
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_FindOrderByRequest : Object'
+    content.vb: >-
+      Public Class Find_FindOrderByRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_FindOrderByRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_FindOrderByRequest()
+  nameWithType: Find_FindOrderByRequest.Find_FindOrderByRequest()
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.Find_FindOrderByRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_FindOrderByRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_FindOrderByRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_FindOrderByRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_FindOrderByRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize
+  commentId: P:SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize
+  id: PageSize
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: Find_FindOrderByRequest.PageSize
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageSize As Integer
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber
+  commentId: P:SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber
+  id: PageNumber
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: PageNumber
+  nameWithType: Find_FindOrderByRequest.PageNumber
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageNumber As Integer
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy
+  commentId: P:SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy
+  id: OrderBy
+  parent: SuperOffice.WebApi.Data.Find_FindOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: Find_FindOrderByRequest.OrderBy
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveOrderByInfo[] OrderBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+    content.vb: Public Property OrderBy As ArchiveOrderByInfo()
+  overload: SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.#ctor
+  isExternal: true
+  name: Find_FindOrderByRequest
+  nameWithType: Find_FindOrderByRequest.Find_FindOrderByRequest
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.Find_FindOrderByRequest
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_FindOrderByRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_FindOrderByRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_FindOrderByRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: Find_FindOrderByRequest.PageSize
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber
+  isExternal: true
+  name: PageNumber
+  nameWithType: Find_FindOrderByRequest.PageNumber
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.PageNumber
+- uid: SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: Find_FindOrderByRequest.OrderBy
+  fullName: SuperOffice.WebApi.Data.Find_FindOrderByRequest.OrderBy
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

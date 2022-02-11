@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
+  commentId: T:SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
+  id: NumberAllocation_SaveDefaultNumberingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.#ctor
+  - SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocation_SaveDefaultNumberingRequest
+  nameWithType: NumberAllocation_SaveDefaultNumberingRequest
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class NumberAllocation_SaveDefaultNumberingRequest : Object'
+    content.vb: >-
+      Public Class NumberAllocation_SaveDefaultNumberingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocation_SaveDefaultNumberingRequest()
+  nameWithType: NumberAllocation_SaveDefaultNumberingRequest.NumberAllocation_SaveDefaultNumberingRequest()
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.NumberAllocation_SaveDefaultNumberingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public NumberAllocation_SaveDefaultNumberingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  commentId: P:SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  id: RefCountEntity
+  parent: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
+  langs:
+  - csharp
+  - vb
+  name: RefCountEntity
+  nameWithType: NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RefCountEntity RefCountEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RefCountEntity
+    content.vb: Public Property RefCountEntity As RefCountEntity
+  overload: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.#ctor
+  isExternal: true
+  name: NumberAllocation_SaveDefaultNumberingRequest
+  nameWithType: NumberAllocation_SaveDefaultNumberingRequest.NumberAllocation_SaveDefaultNumberingRequest
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.NumberAllocation_SaveDefaultNumberingRequest
+- uid: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  isExternal: true
+  name: RefCountEntity
+  nameWithType: NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+  fullName: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest.RefCountEntity
+- uid: SuperOffice.WebApi.Data.RefCountEntity
+  commentId: T:SuperOffice.WebApi.Data.RefCountEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RefCountEntity
+  nameWithType: RefCountEntity
+  fullName: SuperOffice.WebApi.Data.RefCountEntity

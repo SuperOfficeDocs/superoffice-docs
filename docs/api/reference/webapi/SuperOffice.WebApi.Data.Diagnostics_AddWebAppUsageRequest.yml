@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest
+  id: Diagnostics_AddWebAppUsageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.#ctor
+  - SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_AddWebAppUsageRequest
+  nameWithType: Diagnostics_AddWebAppUsageRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_AddWebAppUsageRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_AddWebAppUsageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_AddWebAppUsageRequest()
+  nameWithType: Diagnostics_AddWebAppUsageRequest.Diagnostics_AddWebAppUsageRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.Diagnostics_AddWebAppUsageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_AddWebAppUsageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  id: WebAppUsages
+  parent: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsages
+  nameWithType: Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  fullName: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public WebAppUsage[] WebAppUsages { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WebAppUsage[]
+    content.vb: Public Property WebAppUsages As WebAppUsage()
+  overload: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.#ctor
+  isExternal: true
+  name: Diagnostics_AddWebAppUsageRequest
+  nameWithType: Diagnostics_AddWebAppUsageRequest.Diagnostics_AddWebAppUsageRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.Diagnostics_AddWebAppUsageRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  isExternal: true
+  name: WebAppUsages
+  nameWithType: Diagnostics_AddWebAppUsageRequest.WebAppUsages
+  fullName: SuperOffice.WebApi.Data.Diagnostics_AddWebAppUsageRequest.WebAppUsages
+- uid: SuperOffice.WebApi.Data.WebAppUsage[]
+  isExternal: true
+  name: WebAppUsage[]
+  nameWithType: WebAppUsage[]
+  fullName: SuperOffice.WebApi.Data.WebAppUsage[]
+  nameWithType.vb: WebAppUsage()
+  fullName.vb: SuperOffice.WebApi.Data.WebAppUsage()
+  name.vb: WebAppUsage()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WebAppUsage
+    name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.WebApi.Data.WebAppUsage
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WebAppUsage
+    name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.WebApi.Data.WebAppUsage
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

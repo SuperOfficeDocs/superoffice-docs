@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
+  id: Quote_GetQuoteLineImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId
+  - SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteLineImageRequest
+  nameWithType: Quote_GetQuoteLineImageRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetQuoteLineImageRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetQuoteLineImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteLineImageRequest()
+  nameWithType: Quote_GetQuoteLineImageRequest.Quote_GetQuoteLineImageRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Quote_GetQuoteLineImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetQuoteLineImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: Quote_GetQuoteLineImageRequest.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteLineId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Quote_GetQuoteLineImageRequest.Rank
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.#ctor
+  isExternal: true
+  name: Quote_GetQuoteLineImageRequest
+  nameWithType: Quote_GetQuoteLineImageRequest.Quote_GetQuoteLineImageRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Quote_GetQuoteLineImageRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: Quote_GetQuoteLineImageRequest.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.QuoteLineId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Quote_GetQuoteLineImageRequest.Rank
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteLineImageRequest.Rank

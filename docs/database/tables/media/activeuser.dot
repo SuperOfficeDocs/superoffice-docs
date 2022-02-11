@@ -1,0 +1,8 @@
+digraph activeuser  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+activeuser[fillcolor = "cadetblue1"]
+traveller[fillcolor = "azure1"]
+activeuser -> traveller [headlabel = "activeuser_id" style="dashed"]
+}

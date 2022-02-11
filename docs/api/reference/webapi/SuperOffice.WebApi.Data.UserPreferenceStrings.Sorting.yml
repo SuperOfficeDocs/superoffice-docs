@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  id: UserPreferenceStrings.Sorting
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingAssociates
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingLists
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingPersons
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Sorting
+  nameWithType: UserPreferenceStrings.Sorting
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSorting\n"
+  syntax:
+    content: 'public static class Sorting : Object'
+    content.vb: >-
+      Public Module Sorting
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Sorting.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Sorting"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Sorting"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingAssociates
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingAssociates
+  id: SortingAssociates
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  langs:
+  - csharp
+  - vb
+  name: SortingAssociates
+  nameWithType: UserPreferenceStrings.Sorting.SortingAssociates
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingAssociates
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe display format and sort order of associates in lists (e.g. Last name, First name or First name Last name)\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SortingAssociates = "SortingAssociates"
+    return:
+      type: System.String
+    content.vb: Public Const SortingAssociates As String = "SortingAssociates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingLists
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingLists
+  id: SortingLists
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  langs:
+  - csharp
+  - vb
+  name: SortingLists
+  nameWithType: UserPreferenceStrings.Sorting.SortingLists
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingLists
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe display format and sort order of items in lists (e.g. name or rank)\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SortingLists = "SortingLists"
+    return:
+      type: System.String
+    content.vb: Public Const SortingLists As String = "SortingLists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingPersons
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingPersons
+  id: SortingPersons
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
+  langs:
+  - csharp
+  - vb
+  name: SortingPersons
+  nameWithType: UserPreferenceStrings.Sorting.SortingPersons
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting.SortingPersons
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe display format and sort order of contacts in lists (e.g. Last name, First name or First name Last name)\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SortingPersons = "SortingPersons"
+    return:
+      type: System.String
+    content.vb: Public Const SortingPersons As String = "SortingPersons"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

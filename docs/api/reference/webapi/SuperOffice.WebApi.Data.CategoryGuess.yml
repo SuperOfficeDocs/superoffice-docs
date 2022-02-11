@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CategoryGuess
+  commentId: T:SuperOffice.WebApi.Data.CategoryGuess
+  id: CategoryGuess
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CategoryGuess.#ctor
+  - SuperOffice.WebApi.Data.CategoryGuess.Dummy
+  langs:
+  - csharp
+  - vb
+  name: CategoryGuess
+  nameWithType: CategoryGuess
+  fullName: SuperOffice.WebApi.Data.CategoryGuess
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CategoryGuess.\nCategory guess information    \n"
+  syntax:
+    content: 'public class CategoryGuess : Carrier'
+    content.vb: >-
+      Public Class CategoryGuess
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CategoryGuess.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CategoryGuess.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CategoryGuess
+  langs:
+  - csharp
+  - vb
+  name: CategoryGuess()
+  nameWithType: CategoryGuess.CategoryGuess()
+  fullName: SuperOffice.WebApi.Data.CategoryGuess.CategoryGuess()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CategoryGuess()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CategoryGuess.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CategoryGuess.Dummy
+  commentId: P:SuperOffice.WebApi.Data.CategoryGuess.Dummy
+  id: Dummy
+  parent: SuperOffice.WebApi.Data.CategoryGuess
+  langs:
+  - csharp
+  - vb
+  name: Dummy
+  nameWithType: CategoryGuess.Dummy
+  fullName: SuperOffice.WebApi.Data.CategoryGuess.Dummy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis carrier is currently not used\n"
+  syntax:
+    content: public virtual string Dummy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Dummy As String
+  overload: SuperOffice.WebApi.Data.CategoryGuess.Dummy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CategoryGuess.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CategoryGuess.#ctor
+  isExternal: true
+  name: CategoryGuess
+  nameWithType: CategoryGuess.CategoryGuess
+  fullName: SuperOffice.WebApi.Data.CategoryGuess.CategoryGuess
+- uid: SuperOffice.WebApi.Data.CategoryGuess.Dummy*
+  commentId: Overload:SuperOffice.WebApi.Data.CategoryGuess.Dummy
+  isExternal: true
+  name: Dummy
+  nameWithType: CategoryGuess.Dummy
+  fullName: SuperOffice.WebApi.Data.CategoryGuess.Dummy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

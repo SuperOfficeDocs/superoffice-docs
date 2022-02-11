@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  commentId: T:SuperOffice.WebApi.Data.ReplyTemplateParsed
+  id: ReplyTemplateParsed
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed.#ctor
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateParsed
+  nameWithType: ReplyTemplateParsed
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ReplyTemplateParsed.\nReply template with parsed text. Represent one language version of reply template    \n"
+  syntax:
+    content: 'public class ReplyTemplateParsed : Carrier'
+    content.vb: >-
+      Public Class ReplyTemplateParsed
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ReplyTemplateParsed.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateParsed()
+  nameWithType: ReplyTemplateParsed.ReplyTemplateParsed()
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateParsed()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ReplyTemplateParsed()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ReplyTemplateParsed.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplateParsed.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int ReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed
+  id: PlainParsed
+  parent: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: PlainParsed
+  nameWithType: ReplyTemplateParsed.PlainParsed
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe plain text version of the reply template, and if applicable parsed with customer and ticket data\n"
+  syntax:
+    content: public virtual string PlainParsed { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PlainParsed As String
+  overload: SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed
+  id: HtmlParsed
+  parent: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: HtmlParsed
+  nameWithType: ReplyTemplateParsed.HtmlParsed
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe HTML version of the reply template, and if applicable parsed with customer and ticket data\n"
+  syntax:
+    content: public virtual string HtmlParsed { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HtmlParsed As String
+  overload: SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments
+  id: Attachments
+  parent: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: ReplyTemplateParsed.Attachments
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMeta data for the connected attachments\n"
+  syntax:
+    content: public virtual AttachmentEntity[] Attachments { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AttachmentEntity[]
+    content.vb: Public Overridable Property Attachments As AttachmentEntity()
+  overload: SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject
+  commentId: P:SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject
+  id: Subject
+  parent: SuperOffice.WebApi.Data.ReplyTemplateParsed
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: ReplyTemplateParsed.Subject
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe subject for this reply template\n"
+  syntax:
+    content: public virtual string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Subject As String
+  overload: SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplateParsed.#ctor
+  isExternal: true
+  name: ReplyTemplateParsed
+  nameWithType: ReplyTemplateParsed.ReplyTemplateParsed
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateParsed
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: ReplyTemplateParsed.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.ReplyTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed
+  isExternal: true
+  name: PlainParsed
+  nameWithType: ReplyTemplateParsed.PlainParsed
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.PlainParsed
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed
+  isExternal: true
+  name: HtmlParsed
+  nameWithType: ReplyTemplateParsed.HtmlParsed
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.HtmlParsed
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments
+  isExternal: true
+  name: Attachments
+  nameWithType: ReplyTemplateParsed.Attachments
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.Attachments
+- uid: SuperOffice.WebApi.Data.AttachmentEntity[]
+  isExternal: true
+  name: AttachmentEntity[]
+  nameWithType: AttachmentEntity[]
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity[]
+  nameWithType.vb: AttachmentEntity()
+  fullName.vb: SuperOffice.WebApi.Data.AttachmentEntity()
+  name.vb: AttachmentEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject*
+  commentId: Overload:SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: ReplyTemplateParsed.Subject
+  fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed.Subject

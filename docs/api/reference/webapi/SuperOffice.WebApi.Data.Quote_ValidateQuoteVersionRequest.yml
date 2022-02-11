@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  id: Quote_ValidateQuoteVersionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action
+  - SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_ValidateQuoteVersionRequest
+  nameWithType: Quote_ValidateQuoteVersionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_ValidateQuoteVersionRequest : Object'
+    content.vb: >-
+      Public Class Quote_ValidateQuoteVersionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_ValidateQuoteVersionRequest()
+  nameWithType: Quote_ValidateQuoteVersionRequest.Quote_ValidateQuoteVersionRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Quote_ValidateQuoteVersionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_ValidateQuoteVersionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action
+  commentId: P:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Quote_ValidateQuoteVersionRequest.Action
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public QuoteVersionButtonAction Action { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersionButtonAction
+    content.vb: Public Property Action As QuoteVersionButtonAction
+  overload: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.#ctor
+  isExternal: true
+  name: Quote_ValidateQuoteVersionRequest
+  nameWithType: Quote_ValidateQuoteVersionRequest.Quote_ValidateQuoteVersionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Quote_ValidateQuoteVersionRequest
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_ValidateQuoteVersionRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action
+  isExternal: true
+  name: Action
+  nameWithType: Quote_ValidateQuoteVersionRequest.Action
+  fullName: SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest.Action
+- uid: SuperOffice.WebApi.Data.QuoteVersionButtonAction
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionButtonAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteVersionButtonAction
+  nameWithType: QuoteVersionButtonAction
+  fullName: SuperOffice.WebApi.Data.QuoteVersionButtonAction

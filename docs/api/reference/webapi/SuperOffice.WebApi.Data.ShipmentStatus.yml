@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ShipmentStatus
+  commentId: T:SuperOffice.WebApi.Data.ShipmentStatus
+  id: ShipmentStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
+  - SuperOffice.WebApi.Data.ShipmentStatus.Canceled
+  - SuperOffice.WebApi.Data.ShipmentStatus.Deleted
+  - SuperOffice.WebApi.Data.ShipmentStatus.None
+  - SuperOffice.WebApi.Data.ShipmentStatus.Ok
+  - SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
+  - SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
+  - SuperOffice.WebApi.Data.ShipmentStatus.Populating
+  - SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
+  - SuperOffice.WebApi.Data.ShipmentStatus.Retry
+  - SuperOffice.WebApi.Data.ShipmentStatus.Started
+  - SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
+  - SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
+  - SuperOffice.WebApi.Data.ShipmentStatus.value__
+  - SuperOffice.WebApi.Data.ShipmentStatus.Waiting
+  langs:
+  - csharp
+  - vb
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus for shipment (started, cancelled etc)\nThis Enum is used by:  s_shipment.status\n"
+  syntax:
+    content: 'public sealed class ShipmentStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentStatus.value__
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.None
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ShipmentStatus.None
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Initial status, shipment is left alone, can be used for working with shipment\n"
+  syntax:
+    content: public const ShipmentStatus None
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const None As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Ok
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Ok
+  id: Ok
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: ShipmentStatus.Ok
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Ok
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Finished, no errors.\n"
+  syntax:
+    content: public const ShipmentStatus Ok
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Ok As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Canceled
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Canceled
+  id: Canceled
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Canceled
+  nameWithType: ShipmentStatus.Canceled
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Canceled
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Stopped by user.\n"
+  syntax:
+    content: public const ShipmentStatus Canceled
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Canceled As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Waiting
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Waiting
+  id: Waiting
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Waiting
+  nameWithType: ShipmentStatus.Waiting
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Waiting
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Ready for execution, in the queue.\n"
+  syntax:
+    content: public const ShipmentStatus Waiting
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Waiting As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Started
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Started
+  id: Started
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Started
+  nameWithType: ShipmentStatus.Started
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Started
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Executing (sending).\n"
+  syntax:
+    content: public const ShipmentStatus Started
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Started As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
+  id: StatusFailed
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusFailed
+  nameWithType: ShipmentStatus.StatusFailed
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Finished, had some errors.\n"
+  syntax:
+    content: public const ShipmentStatus StatusFailed
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const StatusFailed As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Retry
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Retry
+  id: Retry
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Retry
+  nameWithType: ShipmentStatus.Retry
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Retry
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Retrying the addresses which did not work\n"
+  syntax:
+    content: public const ShipmentStatus Retry
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Retry As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Populating
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Populating
+  id: Populating
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Populating
+  nameWithType: ShipmentStatus.Populating
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Populating
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Between waiting and starting. Used when we populate the recipient lists.\n"
+  syntax:
+    content: public const ShipmentStatus Populating
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Populating As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.Deleted
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ShipmentStatus.Deleted
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.Deleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Deleted\n"
+  syntax:
+    content: public const ShipmentStatus Deleted
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const Deleted As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
+  id: AwaitPopulate
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: AwaitPopulate
+  nameWithType: ShipmentStatus.AwaitPopulate
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Awaiting ejournalCron to start populate\n"
+  syntax:
+    content: public const ShipmentStatus AwaitPopulate
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const AwaitPopulate As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
+  id: PopulatingOnly
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: PopulatingOnly
+  nameWithType: ShipmentStatus.PopulatingOnly
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: eJournalCron has started populateOnly after someone saved choose recipients screen.\n"
+  syntax:
+    content: public const ShipmentStatus PopulatingOnly
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const PopulatingOnly As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
+  id: PopulateAborted
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: PopulateAborted
+  nameWithType: ShipmentStatus.PopulateAborted
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: eJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.\n"
+  syntax:
+    content: public const ShipmentStatus PopulateAborted
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const PopulateAborted As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
+  id: PopulateError
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: PopulateError
+  nameWithType: ShipmentStatus.PopulateError
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: \n"
+  syntax:
+    content: public const ShipmentStatus PopulateError
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const PopulateError As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
+  id: TooManyRecipients
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: TooManyRecipients
+  nameWithType: ShipmentStatus.TooManyRecipients
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: \n"
+  syntax:
+    content: public const ShipmentStatus TooManyRecipients
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentStatus
+    content.vb: Public Const TooManyRecipients As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ShipmentStatus
+  commentId: T:SuperOffice.WebApi.Data.ShipmentStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus

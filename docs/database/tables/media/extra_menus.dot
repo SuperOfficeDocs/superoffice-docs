@@ -1,0 +1,11 @@
+digraph extra_menus  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+extra_menus[fillcolor = "cadetblue1"]
+extra_tables[fillcolor = "azure1"]
+ejscript[fillcolor = "azure1"]
+extra_menus -> extra_tables [headlabel = "extra_table"]
+extra_menus -> extra_menus [headlabel = "group_id"]
+ejscript -> extra_menus [label = "extra_menus_id"]
+}

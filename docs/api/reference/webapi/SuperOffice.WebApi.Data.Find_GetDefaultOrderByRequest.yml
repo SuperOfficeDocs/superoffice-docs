@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  id: Find_GetDefaultOrderByRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_GetDefaultOrderByRequest
+  nameWithType: Find_GetDefaultOrderByRequest
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_GetDefaultOrderByRequest : Object'
+    content.vb: >-
+      Public Class Find_GetDefaultOrderByRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_GetDefaultOrderByRequest()
+  nameWithType: Find_GetDefaultOrderByRequest.Find_GetDefaultOrderByRequest()
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.Find_GetDefaultOrderByRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_GetDefaultOrderByRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_GetDefaultOrderByRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_GetDefaultOrderByRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_GetDefaultOrderByRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.#ctor
+  isExternal: true
+  name: Find_GetDefaultOrderByRequest
+  nameWithType: Find_GetDefaultOrderByRequest.Find_GetDefaultOrderByRequest
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.Find_GetDefaultOrderByRequest
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_GetDefaultOrderByRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_GetDefaultOrderByRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_GetDefaultOrderByRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultOrderByRequest.StorageKey

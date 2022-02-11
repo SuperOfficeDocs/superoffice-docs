@@ -1,0 +1,15 @@
+digraph PersPos  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PersPos[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+PersPosGroupLink[fillcolor = "azure1"]
+PersPosHeadingLink[fillcolor = "azure1"]
+PersPos -> associate [headlabel = "registered_associate_id"]
+PersPos -> associate [label = "updated_associate_id"]
+person -> PersPos [label = "position_idx"]
+PersPosGroupLink -> PersPos [label = "perspos_id"]
+PersPosHeadingLink -> PersPos [label = "perspos_id"]
+}

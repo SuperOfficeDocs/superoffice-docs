@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  id: EMailAddRecipientMode
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromContact
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromEmployee
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromProject
+  - SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromSelection
+  langs:
+  - csharp
+  - vb
+  name: EMailAddRecipientMode
+  nameWithType: EMailAddRecipientMode
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public enum EMailAddRecipientMode
+    content.vb: Public Enum EMailAddRecipientMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromContact
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromContact
+  id: kFromContact
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  langs:
+  - csharp
+  - vb
+  name: kFromContact
+  nameWithType: EMailAddRecipientMode.kFromContact
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromContact
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kFromContact = 0
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromProject
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromProject
+  id: kFromProject
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  langs:
+  - csharp
+  - vb
+  name: kFromProject
+  nameWithType: EMailAddRecipientMode.kFromProject
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromProject
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kFromProject = 1
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromSelection
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromSelection
+  id: kFromSelection
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  langs:
+  - csharp
+  - vb
+  name: kFromSelection
+  nameWithType: EMailAddRecipientMode.kFromSelection
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromSelection
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kFromSelection = 2
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromEmployee
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromEmployee
+  id: kFromEmployee
+  parent: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  langs:
+  - csharp
+  - vb
+  name: kFromEmployee
+  nameWithType: EMailAddRecipientMode.kFromEmployee
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode.kFromEmployee
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kFromEmployee = 3
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: EMailAddRecipientMode
+  nameWithType: EMailAddRecipientMode
+  fullName: SuperOffice.CRM.Web.Data.EMailAddRecipientMode

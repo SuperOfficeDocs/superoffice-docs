@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ListItemEntity
+  commentId: T:SuperOffice.WebApi.Data.ListItemEntity
+  id: ListItemEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ListItemEntity.#ctor
+  - SuperOffice.WebApi.Data.ListItemEntity.Deleted
+  - SuperOffice.WebApi.Data.ListItemEntity.Id
+  - SuperOffice.WebApi.Data.ListItemEntity.Name
+  - SuperOffice.WebApi.Data.ListItemEntity.Rank
+  - SuperOffice.WebApi.Data.ListItemEntity.Tooltip
+  - SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: ListItemEntity
+  nameWithType: ListItemEntity
+  fullName: SuperOffice.WebApi.Data.ListItemEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ListItemEntity.\nThe list item entity contains generic list item information    \n"
+  syntax:
+    content: 'public class ListItemEntity : Carrier'
+    content.vb: >-
+      Public Class ListItemEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ListItemEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ListItemEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: ListItemEntity()
+  nameWithType: ListItemEntity.ListItemEntity()
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.ListItemEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ListItemEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ListItemEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Id
+  commentId: P:SuperOffice.WebApi.Data.ListItemEntity.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ListItemEntity.Id
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe identity of the list item\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.ListItemEntity.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.ListItemEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ListItemEntity.Name
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the list item\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ListItemEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.ListItemEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ListItemEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip of the list item\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.ListItemEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.ListItemEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ListItemEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the list item is marked as deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.ListItemEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: ListItemEntity.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the list which this list item belongs to\n"
+  syntax:
+    content: public virtual int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.ListItemEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ListItemEntity.Rank
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe rank of the list item\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.ListItemEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ListItemEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.#ctor
+  isExternal: true
+  name: ListItemEntity
+  nameWithType: ListItemEntity.ListItemEntity
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.ListItemEntity
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.Id
+  isExternal: true
+  name: Id
+  nameWithType: ListItemEntity.Id
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ListItemEntity.Name
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ListItemEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ListItemEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: ListItemEntity.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.UdListDefinitionId
+- uid: SuperOffice.WebApi.Data.ListItemEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItemEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ListItemEntity.Rank
+  fullName: SuperOffice.WebApi.Data.ListItemEntity.Rank

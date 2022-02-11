@@ -1,0 +1,1166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  commentId: T:SuperOffice.CRM.Rows.ScriptTraceRecordData
+  id: ScriptTraceRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.#ctor
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.AssociateId
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.Enabled
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.Location
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.Name
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.Registered
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.ScriptTraceId
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.SkipFrames
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.Ttl
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.Updated
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: ScriptTraceRecordData
+  nameWithType: ScriptTraceRecordData
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the script_trace table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ScriptTraceRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ScriptTraceTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ScriptTraceRecordData
+    content.vb: Public Class ScriptTraceRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.ScriptTraceId
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.ScriptTraceId
+  id: ScriptTraceId
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScriptTraceId
+  nameWithType: ScriptTraceRecordData.ScriptTraceId
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.ScriptTraceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ScriptTraceId
+    return:
+      type: System.Int32
+    content.vb: Public ScriptTraceId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ScriptTraceRecordData.Name
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe friendly name of the script which should be traced \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.Location
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.Location
+  id: Location
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: ScriptTraceRecordData.Location
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.Location
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe location of the script which should be traced \n"
+  syntax:
+    content: public string Location
+    return:
+      type: System.String
+    content.vb: Public Location As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.SkipFrames
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.SkipFrames
+  id: SkipFrames
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: SkipFrames
+  nameWithType: ScriptTraceRecordData.SkipFrames
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.SkipFrames
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSkip n frames between each save to optimize \n"
+  syntax:
+    content: public int SkipFrames
+    return:
+      type: System.Int32
+    content.vb: Public SkipFrames As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.Enabled
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.Enabled
+  id: Enabled
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: ScriptTraceRecordData.Enabled
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.Enabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether this trace is enabled or not \n"
+  syntax:
+    content: public short Enabled
+    return:
+      type: System.Int16
+    content.vb: Public Enabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.Ttl
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.Ttl
+  id: Ttl
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Ttl
+  nameWithType: ScriptTraceRecordData.Ttl
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.Ttl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHow long traces should be kept before being deleted (in seconds) \n"
+  syntax:
+    content: public int Ttl
+    return:
+      type: System.Int32
+    content.vb: Public Ttl As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ScriptTraceRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptionally limit traces to a specific associate \n"
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ScriptTraceRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ScriptTraceRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ScriptTraceRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ScriptTraceRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ScriptTraceRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScriptTraceRecordData()
+  nameWithType: ScriptTraceRecordData.ScriptTraceRecordData()
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.ScriptTraceRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ScriptTraceRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ScriptTraceRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ScriptTraceRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ScriptTraceRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ScriptTraceRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ScriptTraceRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ScriptTraceRecordData, To)()
+  name.vb: MapEnums(Of ScriptTraceRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ScriptTraceRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ScriptTraceRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ScriptTraceRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ScriptTraceRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ScriptTraceRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ScriptTraceRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ScriptTraceRecordData>(ScriptTraceRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ScriptTraceRecordData>(ScriptTraceRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ScriptTraceRecordData>(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ScriptTraceRecordData)(ScriptTraceRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  name.vb: AssignByReflection(Of ScriptTraceRecordData)(ScriptTraceRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ScriptTraceRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ScriptTraceRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ScriptTraceRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    name: ScriptTraceRecordData
+    nameWithType: ScriptTraceRecordData
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ScriptTraceRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ScriptTraceRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    name: ScriptTraceRecordData
+    nameWithType: ScriptTraceRecordData
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ScriptTraceRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ScriptTraceRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ScriptTraceRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ScriptTraceRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)()
+  name.vb: GraphCopy(Of ScriptTraceRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ScriptTraceRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ScriptTraceRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ScriptTraceRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ScriptTraceRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ScriptTraceRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ScriptTraceRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  parent: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  name: ToInsert()
+  nameWithType: ScriptTraceRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ScriptTraceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ScriptTraceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ScriptTraceRecordData, To>()
+  nameWithType: Converters.MapEnums<ScriptTraceRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ScriptTraceRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ScriptTraceRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ScriptTraceRecordData, To)()
+  name.vb: MapEnums(Of ScriptTraceRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ScriptTraceRecordData, To>
+    nameWithType: Converters.MapEnums<ScriptTraceRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ScriptTraceRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ScriptTraceRecordData, To)
+    nameWithType: Converters.MapEnums(Of ScriptTraceRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ScriptTraceRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  isExternal: true
+  name: ToInsert(ScriptTraceRecordData)
+  nameWithType: ScriptTraceRecordDataExtensions.ToInsert(ScriptTraceRecordData)
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+    name: ToInsert
+    nameWithType: ScriptTraceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    name: ScriptTraceRecordData
+    nameWithType: ScriptTraceRecordData
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScriptTraceRecordData)
+    name: ToInsert
+    nameWithType: ScriptTraceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    name: ScriptTraceRecordData
+    nameWithType: ScriptTraceRecordData
+    fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ScriptTraceRecordDataExtensions
+  nameWithType: ScriptTraceRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.ScriptTraceRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ScriptTraceRecordData.#ctor
+  isExternal: true
+  name: ScriptTraceRecordData
+  nameWithType: ScriptTraceRecordData.ScriptTraceRecordData
+  fullName: SuperOffice.CRM.Rows.ScriptTraceRecordData.ScriptTraceRecordData

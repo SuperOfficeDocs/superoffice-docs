@@ -1,0 +1,13 @@
+digraph dashboard_tile  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+dashboard_tile[fillcolor = "cadetblue1"]
+dashboard[fillcolor = "azure1"]
+dashboard_tile_definition[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+dashboard_tile -> dashboard [headlabel = "dashboard_id"]
+dashboard_tile -> dashboard_tile_definition [headlabel = "dashboard_tile_definition_id"]
+dashboard_tile -> associate [headlabel = "registered_associate_id"]
+dashboard_tile -> associate [label = "updated_associate_id"]
+}

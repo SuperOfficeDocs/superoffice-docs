@@ -1,0 +1,2049 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree
+  commentId: T:SuperOffice.CRM.ArchiveLists.ParseTree
+  id: ParseTree
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ParseTree.#ctor
+  - SuperOffice.CRM.ArchiveLists.ParseTree.Errors
+  - SuperOffice.CRM.ArchiveLists.ParseTree.Eval(System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree
+  - SuperOffice.CRM.ArchiveLists.ParseTree.Skipped
+  langs:
+  - csharp
+  - vb
+  name: ParseTree
+  nameWithType: ParseTree
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class ParseTree : ParseNode'
+    content.vb: >-
+      Public Class ParseTree
+          Inherits ParseNode
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.ParseNode
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.ParseNode.text
+  - SuperOffice.CRM.ArchiveLists.ParseNode.nodes
+  - SuperOffice.CRM.ArchiveLists.ParseNode.Parent
+  - SuperOffice.CRM.ArchiveLists.ParseNode.Token
+  - SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode(SuperOffice.CRM.ArchiveLists.Token,System.String)
+  - SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32@)
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ParseNode.Nodes
+  - SuperOffice.CRM.ArchiveLists.ParseNode.Text
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ParseTree.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ParseTree.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ParseTree)
+  - SuperOffice.CRM.ArchiveLists.ParseTree.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ParseTree.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.Errors
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParseTree.Errors
+  id: Errors
+  parent: SuperOffice.CRM.ArchiveLists.ParseTree
+  langs:
+  - csharp
+  - vb
+  name: Errors
+  nameWithType: ParseTree.Errors
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.Errors
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ParseErrors Errors
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ParseErrors
+    content.vb: Public Errors As ParseErrors
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.Skipped
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParseTree.Skipped
+  id: Skipped
+  parent: SuperOffice.CRM.ArchiveLists.ParseTree
+  langs:
+  - csharp
+  - vb
+  name: Skipped
+  nameWithType: ParseTree.Skipped
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.Skipped
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public List<Token> Skipped
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}
+    content.vb: Public Skipped As List(Of Token)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseTree.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ParseTree
+  langs:
+  - csharp
+  - vb
+  name: ParseTree()
+  nameWithType: ParseTree.ParseTree()
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.ParseTree()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ParseTree()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ParseTree.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree
+  id: PrintTree
+  parent: SuperOffice.CRM.ArchiveLists.ParseTree
+  langs:
+  - csharp
+  - vb
+  name: PrintTree()
+  nameWithType: ParseTree.PrintTree()
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string PrintTree()
+    return:
+      type: System.String
+    content.vb: Public Function PrintTree As String
+  overload: SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.Eval(System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseTree.Eval(System.Object[])
+  id: Eval(System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseTree
+  langs:
+  - csharp
+  - vb
+  name: Eval(Object[])
+  nameWithType: ParseTree.Eval(Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.Eval(System.Object[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nthis is the entry point for executing and evaluating the parse tree.\n"
+  syntax:
+    content: public object Eval(params object[] paramlist)
+    parameters:
+    - id: paramlist
+      type: System.Object[]
+      description: additional optional input parameters
+    return:
+      type: System.Object
+      description: the output of the evaluation function
+    content.vb: Public Function Eval(ParamArray paramlist As Object()) As Object
+  overload: SuperOffice.CRM.ArchiveLists.ParseTree.Eval*
+  nameWithType.vb: ParseTree.Eval(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseTree.Eval(System.Object())
+  name.vb: Eval(Object())
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode
+  commentId: T:SuperOffice.CRM.ArchiveLists.ParseNode
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ParseNode
+  nameWithType: ParseNode
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.text
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParseNode.text
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: text
+  nameWithType: ParseNode.text
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.text
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.nodes
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParseNode.nodes
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: nodes
+  nameWithType: ParseNode.nodes
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.nodes
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.Parent
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParseNode.Parent
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: Parent
+  nameWithType: ParseNode.Parent
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.Parent
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.Token
+  commentId: F:SuperOffice.CRM.ArchiveLists.ParseNode.Token
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: Token
+  nameWithType: ParseNode.Token
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.Token
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode(SuperOffice.CRM.ArchiveLists.Token,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode(SuperOffice.CRM.ArchiveLists.Token,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: CreateNode(Token, String)
+  nameWithType: ParseNode.CreateNode(Token, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode(SuperOffice.CRM.ArchiveLists.Token, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode(SuperOffice.CRM.ArchiveLists.Token,System.String)
+    name: CreateNode
+    nameWithType: ParseNode.CreateNode
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Token
+    name: Token
+    nameWithType: Token
+    fullName: SuperOffice.CRM.ArchiveLists.Token
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode(SuperOffice.CRM.ArchiveLists.Token,System.String)
+    name: CreateNode
+    nameWithType: ParseNode.CreateNode
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.CreateNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Token
+    name: Token
+    nameWithType: Token
+    fullName: SuperOffice.CRM.ArchiveLists.Token
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: GetValue(ParseTree, TokenType, Int32)
+  nameWithType: ParseNode.GetValue(ParseTree, TokenType, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree, SuperOffice.CRM.ArchiveLists.TokenType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32)
+    name: GetValue
+    nameWithType: ParseNode.GetValue
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.TokenType
+    name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32)
+    name: GetValue
+    nameWithType: ParseNode.GetValue
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.TokenType
+    name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32@)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32@)
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: GetValue(ParseTree, TokenType, Int32)
+  nameWithType: ParseNode.GetValue(ParseTree, TokenType, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree, SuperOffice.CRM.ArchiveLists.TokenType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32@)
+    name: GetValue
+    nameWithType: ParseNode.GetValue
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.TokenType
+    name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue(SuperOffice.CRM.ArchiveLists.ParseTree,SuperOffice.CRM.ArchiveLists.TokenType,System.Int32@)
+    name: GetValue
+    nameWithType: ParseNode.GetValue
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.TokenType
+    name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalBINARYOPERATOR(ParseTree, Object[])
+  nameWithType: ParseNode.EvalBINARYOPERATOR(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalBINARYOPERATOR(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalBINARYOPERATOR(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalBINARYOPERATOR
+    nameWithType: ParseNode.EvalBINARYOPERATOR
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalBINARYOPERATOR
+    nameWithType: ParseNode.EvalBINARYOPERATOR
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBINARYOPERATOR
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalStart(ParseTree, Object[])
+  nameWithType: ParseNode.EvalStart(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalStart(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalStart(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalStart
+    nameWithType: ParseNode.EvalStart
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalStart
+    nameWithType: ParseNode.EvalStart
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalStart
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalFilterExpr(ParseTree, Object[])
+  nameWithType: ParseNode.EvalFilterExpr(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalFilterExpr(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalFilterExpr(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalFilterExpr
+    nameWithType: ParseNode.EvalFilterExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalFilterExpr
+    nameWithType: ParseNode.EvalFilterExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFilterExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalBracketExpr(ParseTree, Object[])
+  nameWithType: ParseNode.EvalBracketExpr(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalBracketExpr(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalBracketExpr(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalBracketExpr
+    nameWithType: ParseNode.EvalBracketExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalBracketExpr
+    nameWithType: ParseNode.EvalBracketExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalBracketExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalFieldExpr(ParseTree, Object[])
+  nameWithType: ParseNode.EvalFieldExpr(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalFieldExpr(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalFieldExpr(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalFieldExpr
+    nameWithType: ParseNode.EvalFieldExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalFieldExpr
+    nameWithType: ParseNode.EvalFieldExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFieldExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalSubExpr(ParseTree, Object[])
+  nameWithType: ParseNode.EvalSubExpr(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalSubExpr(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalSubExpr(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalSubExpr
+    nameWithType: ParseNode.EvalSubExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalSubExpr
+    nameWithType: ParseNode.EvalSubExpr
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubExpr
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalTerms(ParseTree, Object[])
+  nameWithType: ParseNode.EvalTerms(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalTerms(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalTerms(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalTerms
+    nameWithType: ParseNode.EvalTerms
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalTerms
+    nameWithType: ParseNode.EvalTerms
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerms
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalTerm(ParseTree, Object[])
+  nameWithType: ParseNode.EvalTerm(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalTerm(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalTerm(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalTerm
+    nameWithType: ParseNode.EvalTerm
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalTerm
+    nameWithType: ParseNode.EvalTerm
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalTerm
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalField(ParseTree, Object[])
+  nameWithType: ParseNode.EvalField(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalField(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalField(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalField
+    nameWithType: ParseNode.EvalField
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalField
+    nameWithType: ParseNode.EvalField
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalJoins(ParseTree, Object[])
+  nameWithType: ParseNode.EvalJoins(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalJoins(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalJoins(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalJoins
+    nameWithType: ParseNode.EvalJoins
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalJoins
+    nameWithType: ParseNode.EvalJoins
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalJoins
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalSubJoin(ParseTree, Object[])
+  nameWithType: ParseNode.EvalSubJoin(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalSubJoin(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalSubJoin(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalSubJoin
+    nameWithType: ParseNode.EvalSubJoin
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalSubJoin
+    nameWithType: ParseNode.EvalSubJoin
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalSubJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: EvalFkField(ParseTree, Object[])
+  nameWithType: ParseNode.EvalFkField(ParseTree, Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object[])
+  nameWithType.vb: ParseNode.EvalFkField(ParseTree, Object())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree, System.Object())
+  name.vb: EvalFkField(ParseTree, Object())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalFkField
+    nameWithType: ParseNode.EvalFkField
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField(SuperOffice.CRM.ArchiveLists.ParseTree,System.Object[])
+    name: EvalFkField
+    nameWithType: ParseNode.EvalFkField
+    fullName: SuperOffice.CRM.ArchiveLists.ParseNode.EvalFkField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.Nodes
+  commentId: P:SuperOffice.CRM.ArchiveLists.ParseNode.Nodes
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: Nodes
+  nameWithType: ParseNode.Nodes
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.Nodes
+- uid: SuperOffice.CRM.ArchiveLists.ParseNode.Text
+  commentId: P:SuperOffice.CRM.ArchiveLists.ParseNode.Text
+  parent: SuperOffice.CRM.ArchiveLists.ParseNode
+  isExternal: true
+  name: Text
+  nameWithType: ParseNode.Text
+  fullName: SuperOffice.CRM.ArchiveLists.ParseNode.Text
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ParseTree, To>()
+  nameWithType: EnumUtil.MapEnums<ParseTree, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ParseTree, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ParseTree, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ParseTree, To)()
+  name.vb: MapEnums(Of ParseTree, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ParseTree, To>
+    nameWithType: EnumUtil.MapEnums<ParseTree, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ParseTree, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ParseTree, To)
+    nameWithType: EnumUtil.MapEnums(Of ParseTree, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ParseTree, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ParseTree)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ParseTree>(ParseTree)
+  nameWithType: ObjectExtensions.AssignByReflection<ParseTree>(ParseTree)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ParseTree>(SuperOffice.CRM.ArchiveLists.ParseTree)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ParseTree)(ParseTree)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ParseTree)(SuperOffice.CRM.ArchiveLists.ParseTree)
+  name.vb: AssignByReflection(Of ParseTree)(ParseTree)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ParseTree>
+    nameWithType: ObjectExtensions.AssignByReflection<ParseTree>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ParseTree>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ParseTree)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ParseTree)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ParseTree)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ParseTree
+    name: ParseTree
+    nameWithType: ParseTree
+    fullName: SuperOffice.CRM.ArchiveLists.ParseTree
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ParseTree>()
+  nameWithType: ObjectExtensions.GraphCopy<ParseTree>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ParseTree>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ParseTree)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ParseTree)()
+  name.vb: GraphCopy(Of ParseTree)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ParseTree>
+    nameWithType: ObjectExtensions.GraphCopy<ParseTree>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ParseTree>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ParseTree)
+    nameWithType: ObjectExtensions.GraphCopy(Of ParseTree)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ParseTree)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ParseTree, To>()
+  nameWithType: Converters.MapEnums<ParseTree, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ParseTree, To>()
+  nameWithType.vb: Converters.MapEnums(Of ParseTree, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ParseTree, To)()
+  name.vb: MapEnums(Of ParseTree, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ParseTree, To>
+    nameWithType: Converters.MapEnums<ParseTree, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ParseTree, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ParseTree, To)
+    nameWithType: Converters.MapEnums(Of ParseTree, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ParseTree, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ParseErrors
+  commentId: T:SuperOffice.CRM.ArchiveLists.ParseErrors
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ParseErrors
+  nameWithType: ParseErrors
+  fullName: SuperOffice.CRM.ArchiveLists.ParseErrors
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Token>
+  nameWithType: List<Token>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.Token>
+  nameWithType.vb: List(Of Token)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.Token)
+  name.vb: List(Of Token)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.Token
+    name: Token
+    nameWithType: Token
+    fullName: SuperOffice.CRM.ArchiveLists.Token
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.Token
+    name: Token
+    nameWithType: Token
+    fullName: SuperOffice.CRM.ArchiveLists.Token
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ParseTree.#ctor
+  isExternal: true
+  name: ParseTree
+  nameWithType: ParseTree.ParseTree
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.ParseTree
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree
+  isExternal: true
+  name: PrintTree
+  nameWithType: ParseTree.PrintTree
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.PrintTree
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ParseTree.Eval*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ParseTree.Eval
+  isExternal: true
+  name: Eval
+  nameWithType: ParseTree.Eval
+  fullName: SuperOffice.CRM.ArchiveLists.ParseTree.Eval
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

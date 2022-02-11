@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CriteriaInformation
+  commentId: T:SuperOffice.WebApi.Data.CriteriaInformation
+  id: CriteriaInformation
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CriteriaInformation.#ctor
+  - SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns
+  - SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows
+  - SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups
+  - SuperOffice.WebApi.Data.CriteriaInformation.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInformation
+  nameWithType: CriteriaInformation
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CriteriaInformation.\nCarrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.    \n"
+  syntax:
+    content: 'public class CriteriaInformation : Carrier'
+    content.vb: >-
+      Public Class CriteriaInformation
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.FindAgent
+    commentId: T:SuperOffice.WebApi.Agents.FindAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CriteriaInformation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInformation()
+  nameWithType: CriteriaInformation.CriteriaInformation()
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaInformation()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CriteriaInformation()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CriteriaInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.CriteriaInformation.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: CriteriaInformation.Restrictions
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of ArchiveRestrictionInfo restriction specifications (for the first restrictiongroup if there are more than one group\n"
+  syntax:
+    content: public virtual ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Overridable Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.CriteriaInformation.Restrictions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns
+  commentId: P:SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns
+  id: CriteriaArchiveColumns
+  parent: SuperOffice.WebApi.Data.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: CriteriaArchiveColumns
+  nameWithType: CriteriaInformation.CriteriaArchiveColumns
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of ColumnInfo column specifications\n"
+  syntax:
+    content: public virtual ArchiveColumnInfo[] CriteriaArchiveColumns { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+    content.vb: Public Overridable Property CriteriaArchiveColumns As ArchiveColumnInfo()
+  overload: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows
+  commentId: P:SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows
+  id: CriteriaArchiveRows
+  parent: SuperOffice.WebApi.Data.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: CriteriaArchiveRows
+  nameWithType: CriteriaInformation.CriteriaArchiveRows
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows.\n"
+  syntax:
+    content: public virtual ArchiveListItem[] CriteriaArchiveRows { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveListItem[]
+    content.vb: Public Overridable Property CriteriaArchiveRows As ArchiveListItem()
+  overload: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups
+  commentId: P:SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups
+  id: RestrictionGroups
+  parent: SuperOffice.WebApi.Data.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroups
+  nameWithType: CriteriaInformation.RestrictionGroups
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of restrictiongroups, including the default first group of restrictions\n"
+  syntax:
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+  overload: SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.FindAgent
+  commentId: T:SuperOffice.WebApi.Agents.FindAgent
+  isExternal: true
+  name: FindAgent
+  nameWithType: FindAgent
+  fullName: SuperOffice.WebApi.Agents.FindAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CriteriaInformation.#ctor
+  isExternal: true
+  name: CriteriaInformation
+  nameWithType: CriteriaInformation.CriteriaInformation
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaInformation
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.CriteriaInformation.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: CriteriaInformation.Restrictions
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns
+  isExternal: true
+  name: CriteriaArchiveColumns
+  nameWithType: CriteriaInformation.CriteriaArchiveColumns
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveColumns
+- uid: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows*
+  commentId: Overload:SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows
+  isExternal: true
+  name: CriteriaArchiveRows
+  nameWithType: CriteriaInformation.CriteriaArchiveRows
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.CriteriaArchiveRows
+- uid: SuperOffice.WebApi.Data.ArchiveListItem[]
+  isExternal: true
+  name: ArchiveListItem[]
+  nameWithType: ArchiveListItem[]
+  fullName: SuperOffice.WebApi.Data.ArchiveListItem[]
+  nameWithType.vb: ArchiveListItem()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveListItem()
+  name.vb: ArchiveListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups*
+  commentId: Overload:SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups
+  isExternal: true
+  name: RestrictionGroups
+  nameWithType: CriteriaInformation.RestrictionGroups
+  fullName: SuperOffice.WebApi.Data.CriteriaInformation.RestrictionGroups
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,1235 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  commentId: T:SuperOffice.CRM.Rows.ServiceAuthRecordData
+  id: ServiceAuthRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.#ctor
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.AssociateId
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthStatus
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthType
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.EncryptedCheck
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.Password
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.Port
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.Registered
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.Server
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.ServiceAuthId
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.Updated
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.Username
+  langs:
+  - csharp
+  - vb
+  name: ServiceAuthRecordData
+  nameWithType: ServiceAuthRecordData
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the service_auth table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ServiceAuthRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ServiceAuthTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ServiceAuthRecordData
+    content.vb: Public Class ServiceAuthRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.ServiceAuthId
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.ServiceAuthId
+  id: ServiceAuthId
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: ServiceAuthId
+  nameWithType: ServiceAuthRecordData.ServiceAuthId
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.ServiceAuthId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ServiceAuthId
+    return:
+      type: System.Int32
+    content.vb: Public ServiceAuthId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.Server
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.Server
+  id: Server
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: ServiceAuthRecordData.Server
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.Server
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe mail server \n"
+  syntax:
+    content: public string Server
+    return:
+      type: System.String
+    content.vb: Public Server As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.Port
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.Port
+  id: Port
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: ServiceAuthRecordData.Port
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.Port
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe server port \n"
+  syntax:
+    content: public int Port
+    return:
+      type: System.Int32
+    content.vb: Public Port As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthType
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthType
+  id: AuthType
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: AuthType
+  nameWithType: ServiceAuthRecordData.AuthType
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe type of authentication, plain-text, OAuth... \n"
+  syntax:
+    content: public string AuthType
+    return:
+      type: System.String
+    content.vb: Public AuthType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.Username
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.Username
+  id: Username
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: ServiceAuthRecordData.Username
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.Username
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe username \n"
+  syntax:
+    content: public string Username
+    return:
+      type: System.String
+    content.vb: Public Username As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.Password
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.Password
+  id: Password
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: ServiceAuthRecordData.Password
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.Password
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe (encrypted) password or token \n"
+  syntax:
+    content: public string Password
+    return:
+      type: System.String
+    content.vb: Public Password As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ServiceAuthRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ServiceAuthRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ServiceAuthRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ServiceAuthRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ServiceAuthRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ServiceAuthRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAssociate who owns this authentication entry \n"
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthStatus
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthStatus
+  id: AuthStatus
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: AuthStatus
+  nameWithType: ServiceAuthRecordData.AuthStatus
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.AuthStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe status of this authentication entry \n"
+  syntax:
+    content: public ServiceAuthStatus AuthStatus
+    return:
+      type: SuperOffice.Data.ServiceAuthStatus
+    content.vb: Public AuthStatus As ServiceAuthStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.EncryptedCheck
+  commentId: F:SuperOffice.CRM.Rows.ServiceAuthRecordData.EncryptedCheck
+  id: EncryptedCheck
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: EncryptedCheck
+  nameWithType: ServiceAuthRecordData.EncryptedCheck
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.EncryptedCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEncrypted hash checksum \n"
+  syntax:
+    content: public string EncryptedCheck
+    return:
+      type: System.String
+    content.vb: Public EncryptedCheck As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordData
+  langs:
+  - csharp
+  - vb
+  name: ServiceAuthRecordData()
+  nameWithType: ServiceAuthRecordData.ServiceAuthRecordData()
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.ServiceAuthRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ServiceAuthRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ServiceAuthRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServiceAuthRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceAuthRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ServiceAuthRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceAuthRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ServiceAuthRecordData, To)()
+  name.vb: MapEnums(Of ServiceAuthRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceAuthRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ServiceAuthRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ServiceAuthRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceAuthRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceAuthRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ServiceAuthRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ServiceAuthRecordData>(ServiceAuthRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ServiceAuthRecordData>(ServiceAuthRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ServiceAuthRecordData>(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceAuthRecordData)(ServiceAuthRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ServiceAuthRecordData)(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  name.vb: AssignByReflection(Of ServiceAuthRecordData)(ServiceAuthRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ServiceAuthRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ServiceAuthRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ServiceAuthRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    nameWithType: ServiceAuthRecordData
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ServiceAuthRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ServiceAuthRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ServiceAuthRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    nameWithType: ServiceAuthRecordData
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ServiceAuthRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ServiceAuthRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ServiceAuthRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceAuthRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ServiceAuthRecordData)()
+  name.vb: GraphCopy(Of ServiceAuthRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ServiceAuthRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ServiceAuthRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ServiceAuthRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ServiceAuthRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ServiceAuthRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ServiceAuthRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  parent: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  name: ToInsert()
+  nameWithType: ServiceAuthRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServiceAuthRecordData, To>()
+  nameWithType: Converters.MapEnums<ServiceAuthRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ServiceAuthRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceAuthRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ServiceAuthRecordData, To)()
+  name.vb: MapEnums(Of ServiceAuthRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceAuthRecordData, To>
+    nameWithType: Converters.MapEnums<ServiceAuthRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ServiceAuthRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceAuthRecordData, To)
+    nameWithType: Converters.MapEnums(Of ServiceAuthRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ServiceAuthRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  isExternal: true
+  name: ToInsert(ServiceAuthRecordData)
+  nameWithType: ServiceAuthRecordDataExtensions.ToInsert(ServiceAuthRecordData)
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+    name: ToInsert
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    nameWithType: ServiceAuthRecordData
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ServiceAuthRecordData)
+    name: ToInsert
+    nameWithType: ServiceAuthRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    name: ServiceAuthRecordData
+    nameWithType: ServiceAuthRecordData
+    fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ServiceAuthRecordDataExtensions
+  nameWithType: ServiceAuthRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.ServiceAuthStatus
+  commentId: T:SuperOffice.Data.ServiceAuthStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ServiceAuthStatus
+  nameWithType: ServiceAuthStatus
+  fullName: SuperOffice.Data.ServiceAuthStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Rows.ServiceAuthRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ServiceAuthRecordData.#ctor
+  isExternal: true
+  name: ServiceAuthRecordData
+  nameWithType: ServiceAuthRecordData.ServiceAuthRecordData
+  fullName: SuperOffice.CRM.Rows.ServiceAuthRecordData.ServiceAuthRecordData

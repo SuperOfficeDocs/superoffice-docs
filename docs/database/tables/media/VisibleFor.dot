@@ -1,0 +1,20 @@
+digraph VisibleFor  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+VisibleFor[fillcolor = "cadetblue1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+appointment[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+selection[fillcolor = "azure1"]
+VisibleFor -> UserGroup [headlabel = "forGroupId"]
+VisibleFor -> associate [headlabel = "forAssocId"]
+VisibleFor -> appointment [headlabel = "appointmentId"]
+VisibleFor -> sale [headlabel = "saleId"]
+VisibleFor -> SaleHist [headlabel = "saleHistId"]
+VisibleFor -> selection [headlabel = "selectionId"]
+VisibleFor -> associate [label = "registered_associate_id"]
+VisibleFor -> associate [label = "updated_associate_id"]
+}

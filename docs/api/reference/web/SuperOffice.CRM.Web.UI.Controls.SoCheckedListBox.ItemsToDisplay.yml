@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  id: SoCheckedListBox.ItemsToDisplay
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.All
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Selected
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Unselected
+  langs:
+  - csharp
+  - vb
+  name: SoCheckedListBox.ItemsToDisplay
+  nameWithType: SoCheckedListBox.ItemsToDisplay
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum ItemsToDisplay
+    content.vb: Public Enum ItemsToDisplay
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.All
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.All
+  id: All
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: SoCheckedListBox.ItemsToDisplay.All
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.All
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: All = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Selected
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Selected
+  id: Selected
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: SoCheckedListBox.ItemsToDisplay.Selected
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Selected
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Selected = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Unselected
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Unselected
+  id: Unselected
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  langs:
+  - csharp
+  - vb
+  name: Unselected
+  nameWithType: SoCheckedListBox.ItemsToDisplay.Unselected
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay.Unselected
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Unselected = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoCheckedListBox.ItemsToDisplay
+  nameWithType: SoCheckedListBox.ItemsToDisplay
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay

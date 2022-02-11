@@ -1,0 +1,12 @@
+digraph SuperListColumnSize  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+SuperListColumnSize[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+SuperListColumnSize -> associate [headlabel = "assoc_id"]
+SuperListColumnSize -> associate [label = "registered_associate_id"]
+SuperListColumnSize -> associate [label = "updated_associate_id"]
+SuperListColumnSize -> UserGroup [headlabel = "group_id"]
+}

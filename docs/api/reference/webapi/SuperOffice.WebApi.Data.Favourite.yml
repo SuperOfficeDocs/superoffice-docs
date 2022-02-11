@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Favourite
+  commentId: T:SuperOffice.WebApi.Data.Favourite
+  id: Favourite
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Favourite.#ctor
+  - SuperOffice.WebApi.Data.Favourite.AssociateId
+  - SuperOffice.WebApi.Data.Favourite.ExtraInfo
+  - SuperOffice.WebApi.Data.Favourite.Rank
+  - SuperOffice.WebApi.Data.Favourite.RecordId
+  - SuperOffice.WebApi.Data.Favourite.TableName
+  langs:
+  - csharp
+  - vb
+  name: Favourite
+  nameWithType: Favourite
+  fullName: SuperOffice.WebApi.Data.Favourite
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Favourite.\nFavourite carrier.    \n"
+  syntax:
+    content: 'public class Favourite : Carrier'
+    content.vb: >-
+      Public Class Favourite
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.FavouriteAgent
+    commentId: T:SuperOffice.WebApi.Agents.FavouriteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Favourite.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Favourite.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Favourite
+  langs:
+  - csharp
+  - vb
+  name: Favourite()
+  nameWithType: Favourite.Favourite()
+  fullName: SuperOffice.WebApi.Data.Favourite.Favourite()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Favourite()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Favourite.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite.TableName
+  commentId: P:SuperOffice.WebApi.Data.Favourite.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.Favourite
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: Favourite.TableName
+  fullName: SuperOffice.WebApi.Data.Favourite.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the table this favourite belongs to.\n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.WebApi.Data.Favourite.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Favourite.RecordId
+  commentId: P:SuperOffice.WebApi.Data.Favourite.RecordId
+  id: RecordId
+  parent: SuperOffice.WebApi.Data.Favourite
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: Favourite.RecordId
+  fullName: SuperOffice.WebApi.Data.Favourite.RecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the record this favourite belongs to.\n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.WebApi.Data.Favourite.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Favourite.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Favourite.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Favourite
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Favourite.AssociateId
+  fullName: SuperOffice.WebApi.Data.Favourite.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the associate this favourite belongs to.\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Favourite.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Favourite.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.Favourite.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.Favourite
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: Favourite.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Favourite.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information for this favourite.\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.Favourite.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Favourite.Rank
+  commentId: P:SuperOffice.WebApi.Data.Favourite.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.Favourite
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Favourite.Rank
+  fullName: SuperOffice.WebApi.Data.Favourite.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.Favourite.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent
+  commentId: T:SuperOffice.WebApi.Agents.FavouriteAgent
+  isExternal: true
+  name: FavouriteAgent
+  nameWithType: FavouriteAgent
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Favourite.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite.#ctor
+  isExternal: true
+  name: Favourite
+  nameWithType: Favourite.Favourite
+  fullName: SuperOffice.WebApi.Data.Favourite.Favourite
+- uid: SuperOffice.WebApi.Data.Favourite.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: Favourite.TableName
+  fullName: SuperOffice.WebApi.Data.Favourite.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Favourite.RecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: Favourite.RecordId
+  fullName: SuperOffice.WebApi.Data.Favourite.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Favourite.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Favourite.AssociateId
+  fullName: SuperOffice.WebApi.Data.Favourite.AssociateId
+- uid: SuperOffice.WebApi.Data.Favourite.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Favourite.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Favourite.ExtraInfo
+- uid: SuperOffice.WebApi.Data.Favourite.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Favourite.Rank
+  fullName: SuperOffice.WebApi.Data.Favourite.Rank

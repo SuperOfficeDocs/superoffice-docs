@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTile
+  commentId: T:SuperOffice.WebApi.Data.DashTile
+  id: DashTile
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTile.#ctor
+  - SuperOffice.WebApi.Data.DashTile.DashboardId
+  - SuperOffice.WebApi.Data.DashTile.DashboardTileId
+  - SuperOffice.WebApi.Data.DashTile.DashTileDefinition
+  - SuperOffice.WebApi.Data.DashTile.Height
+  - SuperOffice.WebApi.Data.DashTile.Rank
+  - SuperOffice.WebApi.Data.DashTile.Width
+  langs:
+  - csharp
+  - vb
+  name: DashTile
+  nameWithType: DashTile
+  fullName: SuperOffice.WebApi.Data.DashTile
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DashTile.\nDashboard Tile configuration    \n"
+  example:
+  - "\nGet DashTile 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new DashAgent(configuration);\nvar dashTile = agent.GetDashTile( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class DashTile : Carrier'
+    content.vb: >-
+      Public Class DashTile
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTile.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DashTile.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: DashTile()
+  nameWithType: DashTile.DashTile()
+  fullName: SuperOffice.WebApi.Data.DashTile.DashTile()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DashTile()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DashTile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTile.DashboardTileId
+  commentId: P:SuperOffice.WebApi.Data.DashTile.DashboardTileId
+  id: DashboardTileId
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileId
+  nameWithType: DashTile.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.DashTile.DashboardTileId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int DashboardTileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardTileId As Integer
+  overload: SuperOffice.WebApi.Data.DashTile.DashboardTileId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTile.DashboardId
+  commentId: P:SuperOffice.WebApi.Data.DashTile.DashboardId
+  id: DashboardId
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: DashboardId
+  nameWithType: DashTile.DashboardId
+  fullName: SuperOffice.WebApi.Data.DashTile.DashboardId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associated dashboard\n"
+  syntax:
+    content: public virtual int DashboardId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardId As Integer
+  overload: SuperOffice.WebApi.Data.DashTile.DashboardId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTile.Height
+  commentId: P:SuperOffice.WebApi.Data.DashTile.Height
+  id: Height
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DashTile.Height
+  fullName: SuperOffice.WebApi.Data.DashTile.Height
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHeight used by this tile in the dashboard\n"
+  syntax:
+    content: public virtual int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Height As Integer
+  overload: SuperOffice.WebApi.Data.DashTile.Height*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTile.Width
+  commentId: P:SuperOffice.WebApi.Data.DashTile.Width
+  id: Width
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: DashTile.Width
+  fullName: SuperOffice.WebApi.Data.DashTile.Width
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWidth used by this tile in the dashboard\n"
+  syntax:
+    content: public virtual int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Width As Integer
+  overload: SuperOffice.WebApi.Data.DashTile.Width*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTile.Rank
+  commentId: P:SuperOffice.WebApi.Data.DashTile.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DashTile.Rank
+  fullName: SuperOffice.WebApi.Data.DashTile.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.DashTile.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTile.DashTileDefinition
+  commentId: P:SuperOffice.WebApi.Data.DashTile.DashTileDefinition
+  id: DashTileDefinition
+  parent: SuperOffice.WebApi.Data.DashTile
+  langs:
+  - csharp
+  - vb
+  name: DashTileDefinition
+  nameWithType: DashTile.DashTileDefinition
+  fullName: SuperOffice.WebApi.Data.DashTile.DashTileDefinition
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tile definition entity\n"
+  syntax:
+    content: public virtual DashTileDefinition DashTileDefinition { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DashTileDefinition
+    content.vb: Public Overridable Property DashTileDefinition As DashTileDefinition
+  overload: SuperOffice.WebApi.Data.DashTile.DashTileDefinition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DashTile.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.#ctor
+  isExternal: true
+  name: DashTile
+  nameWithType: DashTile.DashTile
+  fullName: SuperOffice.WebApi.Data.DashTile.DashTile
+- uid: SuperOffice.WebApi.Data.DashTile.DashboardTileId*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.DashboardTileId
+  isExternal: true
+  name: DashboardTileId
+  nameWithType: DashTile.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.DashTile.DashboardTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DashTile.DashboardId*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.DashboardId
+  isExternal: true
+  name: DashboardId
+  nameWithType: DashTile.DashboardId
+  fullName: SuperOffice.WebApi.Data.DashTile.DashboardId
+- uid: SuperOffice.WebApi.Data.DashTile.Height*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.Height
+  isExternal: true
+  name: Height
+  nameWithType: DashTile.Height
+  fullName: SuperOffice.WebApi.Data.DashTile.Height
+- uid: SuperOffice.WebApi.Data.DashTile.Width*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.Width
+  isExternal: true
+  name: Width
+  nameWithType: DashTile.Width
+  fullName: SuperOffice.WebApi.Data.DashTile.Width
+- uid: SuperOffice.WebApi.Data.DashTile.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: DashTile.Rank
+  fullName: SuperOffice.WebApi.Data.DashTile.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DashTile.DashTileDefinition*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTile.DashTileDefinition
+  isExternal: true
+  name: DashTileDefinition
+  nameWithType: DashTile.DashTileDefinition
+  fullName: SuperOffice.WebApi.Data.DashTile.DashTileDefinition
+- uid: SuperOffice.WebApi.Data.DashTileDefinition
+  commentId: T:SuperOffice.WebApi.Data.DashTileDefinition
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashTileDefinition
+  nameWithType: DashTileDefinition
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition

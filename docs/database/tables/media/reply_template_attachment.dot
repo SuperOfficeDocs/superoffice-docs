@@ -1,0 +1,10 @@
+digraph reply_template_attachment  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+reply_template_attachment[fillcolor = "cadetblue1"]
+reply_template[fillcolor = "azure1"]
+attachment[fillcolor = "azure1"]
+reply_template_attachment -> reply_template [headlabel = "entry_id"]
+reply_template_attachment -> attachment [headlabel = "attachment_id"]
+}

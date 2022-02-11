@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+  id: SoDateRangeManager
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript(System.Web.UI.AttributeCollection,SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback(System.Web.UI.AttributeCollection,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoDateRangeManager
+  nameWithType: SoDateRangeManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public class SoDateRangeManager
+    content.vb: Public Class SoDateRangeManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback(System.Web.UI.AttributeCollection,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback(System.Web.UI.AttributeCollection,System.String)
+  id: RegisterOnRangeSelectedCallback(System.Web.UI.AttributeCollection,System.String)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterOnRangeSelectedCallback(AttributeCollection, String)
+  nameWithType: SoDateRangeManager.RegisterOnRangeSelectedCallback(AttributeCollection, String)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback(System.Web.UI.AttributeCollection, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterOnRangeSelectedCallback(AttributeCollection attributes, string script)
+    parameters:
+    - id: attributes
+      type: System.Web.UI.AttributeCollection
+    - id: script
+      type: System.String
+    content.vb: Public Shared Sub RegisterOnRangeSelectedCallback(attributes As AttributeCollection, script As String)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript(System.Web.UI.AttributeCollection,SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript(System.Web.UI.AttributeCollection,SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass)
+  id: CreatePopUpScript(System.Web.UI.AttributeCollection,SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+  langs:
+  - csharp
+  - vb
+  name: CreatePopUpScript(AttributeCollection, SoDateRange.PropertyClass)
+  nameWithType: SoDateRangeManager.CreatePopUpScript(AttributeCollection, SoDateRange.PropertyClass)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript(System.Web.UI.AttributeCollection, SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void CreatePopUpScript(AttributeCollection attributes, SoDateRange.PropertyClass properties)
+    parameters:
+    - id: attributes
+      type: System.Web.UI.AttributeCollection
+    - id: properties
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+    content.vb: Public Shared Sub CreatePopUpScript(attributes As AttributeCollection, properties As SoDateRange.PropertyClass)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+  langs:
+  - csharp
+  - vb
+  name: SoDateRangeManager()
+  nameWithType: SoDateRangeManager.SoDateRangeManager()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.SoDateRangeManager()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public SoDateRangeManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback
+  isExternal: true
+  name: RegisterOnRangeSelectedCallback
+  nameWithType: SoDateRangeManager.RegisterOnRangeSelectedCallback
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.RegisterOnRangeSelectedCallback
+- uid: System.Web.UI.AttributeCollection
+  isExternal: true
+  name: AttributeCollection
+  nameWithType: AttributeCollection
+  fullName: System.Web.UI.AttributeCollection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript
+  isExternal: true
+  name: CreatePopUpScript
+  nameWithType: SoDateRangeManager.CreatePopUpScript
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.CreatePopUpScript
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoDateRange.PropertyClass
+  nameWithType: SoDateRange.PropertyClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.#ctor
+  isExternal: true
+  name: SoDateRangeManager
+  nameWithType: SoDateRangeManager.SoDateRangeManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager.SoDateRangeManager

@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChangedData
+  commentId: T:SuperOffice.WebApi.Data.ChangedData
+  id: ChangedData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChangedData.#ctor
+  - SuperOffice.WebApi.Data.ChangedData.AddedRecords
+  - SuperOffice.WebApi.Data.ChangedData.DeletedRecords
+  - SuperOffice.WebApi.Data.ChangedData.UpdatedRecords
+  langs:
+  - csharp
+  - vb
+  name: ChangedData
+  nameWithType: ChangedData
+  fullName: SuperOffice.WebApi.Data.ChangedData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChangedData.\nGeneric carrier, used in return values to indicate what data NetServer has changed &apos;behind the scenes&apos; so clients can know what to update    \n"
+  syntax:
+    content: 'public class ChangedData : Carrier'
+    content.vb: >-
+      Public Class ChangedData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChangedData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChangedData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChangedData
+  langs:
+  - csharp
+  - vb
+  name: ChangedData()
+  nameWithType: ChangedData.ChangedData()
+  fullName: SuperOffice.WebApi.Data.ChangedData.ChangedData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChangedData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChangedData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChangedData.AddedRecords
+  commentId: P:SuperOffice.WebApi.Data.ChangedData.AddedRecords
+  id: AddedRecords
+  parent: SuperOffice.WebApi.Data.ChangedData
+  langs:
+  - csharp
+  - vb
+  name: AddedRecords
+  nameWithType: ChangedData.AddedRecords
+  fullName: SuperOffice.WebApi.Data.ChangedData.AddedRecords
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIds of added records.\n"
+  syntax:
+    content: public virtual ChangedDataItem[] AddedRecords { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChangedDataItem[]
+    content.vb: Public Overridable Property AddedRecords As ChangedDataItem()
+  overload: SuperOffice.WebApi.Data.ChangedData.AddedRecords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChangedData.UpdatedRecords
+  commentId: P:SuperOffice.WebApi.Data.ChangedData.UpdatedRecords
+  id: UpdatedRecords
+  parent: SuperOffice.WebApi.Data.ChangedData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedRecords
+  nameWithType: ChangedData.UpdatedRecords
+  fullName: SuperOffice.WebApi.Data.ChangedData.UpdatedRecords
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIds of updated records.\n"
+  syntax:
+    content: public virtual ChangedDataItem[] UpdatedRecords { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChangedDataItem[]
+    content.vb: Public Overridable Property UpdatedRecords As ChangedDataItem()
+  overload: SuperOffice.WebApi.Data.ChangedData.UpdatedRecords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChangedData.DeletedRecords
+  commentId: P:SuperOffice.WebApi.Data.ChangedData.DeletedRecords
+  id: DeletedRecords
+  parent: SuperOffice.WebApi.Data.ChangedData
+  langs:
+  - csharp
+  - vb
+  name: DeletedRecords
+  nameWithType: ChangedData.DeletedRecords
+  fullName: SuperOffice.WebApi.Data.ChangedData.DeletedRecords
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIds of deleted records.\n"
+  syntax:
+    content: public virtual ChangedDataItem[] DeletedRecords { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChangedDataItem[]
+    content.vb: Public Overridable Property DeletedRecords As ChangedDataItem()
+  overload: SuperOffice.WebApi.Data.ChangedData.DeletedRecords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChangedData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedData.#ctor
+  isExternal: true
+  name: ChangedData
+  nameWithType: ChangedData.ChangedData
+  fullName: SuperOffice.WebApi.Data.ChangedData.ChangedData
+- uid: SuperOffice.WebApi.Data.ChangedData.AddedRecords*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedData.AddedRecords
+  isExternal: true
+  name: AddedRecords
+  nameWithType: ChangedData.AddedRecords
+  fullName: SuperOffice.WebApi.Data.ChangedData.AddedRecords
+- uid: SuperOffice.WebApi.Data.ChangedDataItem[]
+  isExternal: true
+  name: ChangedDataItem[]
+  nameWithType: ChangedDataItem[]
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem[]
+  nameWithType.vb: ChangedDataItem()
+  fullName.vb: SuperOffice.WebApi.Data.ChangedDataItem()
+  name.vb: ChangedDataItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChangedDataItem
+    name: ChangedDataItem
+    nameWithType: ChangedDataItem
+    fullName: SuperOffice.WebApi.Data.ChangedDataItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChangedDataItem
+    name: ChangedDataItem
+    nameWithType: ChangedDataItem
+    fullName: SuperOffice.WebApi.Data.ChangedDataItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ChangedData.UpdatedRecords*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedData.UpdatedRecords
+  isExternal: true
+  name: UpdatedRecords
+  nameWithType: ChangedData.UpdatedRecords
+  fullName: SuperOffice.WebApi.Data.ChangedData.UpdatedRecords
+- uid: SuperOffice.WebApi.Data.ChangedData.DeletedRecords*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedData.DeletedRecords
+  isExternal: true
+  name: DeletedRecords
+  nameWithType: ChangedData.DeletedRecords
+  fullName: SuperOffice.WebApi.Data.ChangedData.DeletedRecords

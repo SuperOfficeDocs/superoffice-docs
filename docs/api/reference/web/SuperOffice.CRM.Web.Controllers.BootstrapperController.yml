@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperController
+  commentId: T:SuperOffice.CRM.Web.Controllers.BootstrapperController
+  id: BootstrapperController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.BootstrapperController.#ctor
+  - SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap(SuperOffice.CRM.Web.Controllers.BootstrapperRequest)
+  langs:
+  - csharp
+  - vb
+  name: BootstrapperController
+  nameWithType: BootstrapperController
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class BootstrapperController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class BootstrapperController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap(SuperOffice.CRM.Web.Controllers.BootstrapperRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap(SuperOffice.CRM.Web.Controllers.BootstrapperRequest)
+  id: Bootstrap(SuperOffice.CRM.Web.Controllers.BootstrapperRequest)
+  parent: SuperOffice.CRM.Web.Controllers.BootstrapperController
+  langs:
+  - csharp
+  - vb
+  name: Bootstrap(BootstrapperRequest)
+  nameWithType: BootstrapperController.Bootstrap(BootstrapperRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap(SuperOffice.CRM.Web.Controllers.BootstrapperRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public BootstrapperResponse Bootstrap(BootstrapperRequest bootstrapperRequest)
+    parameters:
+    - id: bootstrapperRequest
+      type: SuperOffice.CRM.Web.Controllers.BootstrapperRequest
+    return:
+      type: SuperOffice.CRM.Web.Controllers.BootstrapperResponse
+    content.vb: Public Function Bootstrap(bootstrapperRequest As BootstrapperRequest) As BootstrapperResponse
+  overload: SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.BootstrapperController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.BootstrapperController
+  langs:
+  - csharp
+  - vb
+  name: BootstrapperController()
+  nameWithType: BootstrapperController.BootstrapperController()
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperController.BootstrapperController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public BootstrapperController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.BootstrapperController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap
+  isExternal: true
+  name: Bootstrap
+  nameWithType: BootstrapperController.Bootstrap
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperController.Bootstrap
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.BootstrapperRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: BootstrapperRequest
+  nameWithType: BootstrapperRequest
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperRequest
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.BootstrapperResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: BootstrapperResponse
+  nameWithType: BootstrapperResponse
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperResponse
+- uid: SuperOffice.CRM.Web.Controllers.BootstrapperController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.BootstrapperController.#ctor
+  isExternal: true
+  name: BootstrapperController
+  nameWithType: BootstrapperController.BootstrapperController
+  fullName: SuperOffice.CRM.Web.Controllers.BootstrapperController.BootstrapperController

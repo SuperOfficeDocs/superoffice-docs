@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest
+  id: Contact_GetMyRecentContactsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetMyRecentContactsRequest
+  nameWithType: Contact_GetMyRecentContactsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetMyRecentContactsRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetMyRecentContactsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetMyRecentContactsRequest()
+  nameWithType: Contact_GetMyRecentContactsRequest.Contact_GetMyRecentContactsRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.Contact_GetMyRecentContactsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetMyRecentContactsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType
+  id: SourceType
+  parent: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceType
+  nameWithType: Contact_GetMyRecentContactsRequest.SourceType
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ContactSourceType SourceType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ContactSourceType
+    content.vb: Public Property SourceType As ContactSourceType
+  overload: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.#ctor
+  isExternal: true
+  name: Contact_GetMyRecentContactsRequest
+  nameWithType: Contact_GetMyRecentContactsRequest.Contact_GetMyRecentContactsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.Contact_GetMyRecentContactsRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType
+  isExternal: true
+  name: SourceType
+  nameWithType: Contact_GetMyRecentContactsRequest.SourceType
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyRecentContactsRequest.SourceType
+- uid: SuperOffice.WebApi.Data.ContactSourceType
+  commentId: T:SuperOffice.WebApi.Data.ContactSourceType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ContactSourceType
+  nameWithType: ContactSourceType
+  fullName: SuperOffice.WebApi.Data.ContactSourceType

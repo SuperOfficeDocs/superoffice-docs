@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.StringSearchType
+  # Same as SuperOffice.Data.StringSearchType
+  commentId: T:CRMScript.NetServer.StringSearchType
+  id: StringSearchType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.StringSearchType.Exact
+  - CRMScript.NetServer.StringSearchType.BeginsWith
+  - CRMScript.NetServer.StringSearchType.EndsWith
+  - CRMScript.NetServer.StringSearchType.Contains
+  name: StringSearchType
+  nameWithType: StringSearchType
+  fullName: CRMScript.NetServer.StringSearchType
+  type: Enum
+  summary: "\nEnumeration that exposes what search types that are supported.\n"
+- uid: CRMScript.NetServer.StringSearchType.Exact
+  commentId: F:CRMScript.NetServer.StringSearchType.Exact
+  id: StringSearchType.Exact
+  langs:
+  - crmscript
+  name: StringSearchType.Exact
+  nameWithType: StringSearchType.Exact
+  fullName: CRMScript.NetServer.StringSearchType.Exact
+  type: Field
+  summary: "\n0: The Exact element searches for an exact string in your searchable content.\n"
+  syntax: 
+    content: Exact = 0
+    type: CRMScript.NetServer.StringSearchType
+- uid: CRMScript.NetServer.StringSearchType.BeginsWith
+  commentId: F:CRMScript.NetServer.StringSearchType.BeginsWith
+  id: StringSearchType.BeginsWith
+  langs:
+  - crmscript
+  name: StringSearchType.BeginsWith
+  nameWithType: StringSearchType.BeginsWith
+  fullName: CRMScript.NetServer.StringSearchType.BeginsWith
+  type: Field
+  summary: "\n1: The BeginsWith element searches for a string at the start of your searchable content.\n"
+  syntax: 
+    content: BeginsWith = 1
+    type: CRMScript.NetServer.StringSearchType
+- uid: CRMScript.NetServer.StringSearchType.EndsWith
+  commentId: F:CRMScript.NetServer.StringSearchType.EndsWith
+  id: StringSearchType.EndsWith
+  langs:
+  - crmscript
+  name: StringSearchType.EndsWith
+  nameWithType: StringSearchType.EndsWith
+  fullName: CRMScript.NetServer.StringSearchType.EndsWith
+  type: Field
+  summary: "\n2: The EndsWith element searches for a string at the end of your searchable content.\n"
+  syntax: 
+    content: EndsWith = 2
+    type: CRMScript.NetServer.StringSearchType
+- uid: CRMScript.NetServer.StringSearchType.Contains
+  commentId: F:CRMScript.NetServer.StringSearchType.Contains
+  id: StringSearchType.Contains
+  langs:
+  - crmscript
+  name: StringSearchType.Contains
+  nameWithType: StringSearchType.Contains
+  fullName: CRMScript.NetServer.StringSearchType.Contains
+  type: Field
+  summary: "\n3: The Exact element searches for a string in searchable content.\n"
+  syntax: 
+    content: Contains = 3
+    type: CRMScript.NetServer.StringSearchType
+references:
+- uid: CRMScript.NetServer.StringSearchType
+  commentId: T:CRMScript.NetServer.StringSearchType
+  isExternal: true
+  name: StringSearchType
+  nameWithType: StringSearchType
+  fullName: CRMScript.NetServer.StringSearchType

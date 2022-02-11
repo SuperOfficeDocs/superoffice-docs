@@ -1,0 +1,865 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SoConnection
+  commentId: T:SuperOffice.Data.SoConnection
+  id: SoConnection
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.SoConnection.BeginTransaction
+  - SuperOffice.Data.SoConnection.BeginTransaction(System.Data.IsolationLevel)
+  - SuperOffice.Data.SoConnection.Close
+  - SuperOffice.Data.SoConnection.CreateCommand
+  - SuperOffice.Data.SoConnection.Dispose
+  - SuperOffice.Data.SoConnection.InnerConnection
+  - SuperOffice.Data.SoConnection.Open
+  - SuperOffice.Data.SoConnection.ToString
+  langs:
+  - csharp
+  - vb
+  name: SoConnection
+  nameWithType: SoConnection
+  fullName: SuperOffice.Data.SoConnection
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nThis class implements the IDbConnection interface, and is the wrapper used to represent a\nconnection against a physical database. The actual connection is an inner object and is\na database-specific class, potentially provided by a dynamically loaded assembly (sybase and\ndb/2).\n"
+  syntax:
+    content: 'public sealed class SoConnection : IDbConnection, IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SoConnection
+          Implements IDbConnection, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Data.IDbConnection
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SoConnection.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SoConnection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SoConnection.Open
+  commentId: M:SuperOffice.Data.SoConnection.Open
+  id: Open
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: SoConnection.Open()
+  fullName: SuperOffice.Data.SoConnection.Open()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nOpens a database connection with the settings specified by the ConnectionString property of the provider-specific Connection object.  \n"
+  syntax:
+    content: public void Open()
+    content.vb: Public Sub Open
+  overload: SuperOffice.Data.SoConnection.Open*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoConnection.Close
+  commentId: M:SuperOffice.Data.SoConnection.Close
+  id: Close
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: SoConnection.Close()
+  fullName: SuperOffice.Data.SoConnection.Close()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCloses the connection to the database.  \n"
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: SuperOffice.Data.SoConnection.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoConnection.ToString
+  commentId: M:SuperOffice.Data.SoConnection.ToString
+  id: ToString
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SoConnection.ToString()
+  fullName: SuperOffice.Data.SoConnection.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Data.SoConnection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SoConnection.BeginTransaction
+  commentId: M:SuperOffice.Data.SoConnection.BeginTransaction
+  id: BeginTransaction
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: BeginTransaction()
+  nameWithType: SoConnection.BeginTransaction()
+  fullName: SuperOffice.Data.SoConnection.BeginTransaction()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nBegins a database transaction.  \n"
+  syntax:
+    content: public SoTransaction BeginTransaction()
+    return:
+      type: SuperOffice.Data.SoTransaction
+      description: An object representing the new transaction.
+    content.vb: Public Function BeginTransaction As SoTransaction
+  overload: SuperOffice.Data.SoConnection.BeginTransaction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoConnection.BeginTransaction(System.Data.IsolationLevel)
+  commentId: M:SuperOffice.Data.SoConnection.BeginTransaction(System.Data.IsolationLevel)
+  id: BeginTransaction(System.Data.IsolationLevel)
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: BeginTransaction(IsolationLevel)
+  nameWithType: SoConnection.BeginTransaction(IsolationLevel)
+  fullName: SuperOffice.Data.SoConnection.BeginTransaction(System.Data.IsolationLevel)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nBegins a database transaction with the specified System.Data.IsolationLevel value.\n"
+  syntax:
+    content: public SoTransaction BeginTransaction(IsolationLevel isolationLevel)
+    parameters:
+    - id: isolationLevel
+      type: System.Data.IsolationLevel
+      description: One of the System.Data.IsolationLevel values.
+    return:
+      type: SuperOffice.Data.SoTransaction
+      description: An object representing the new transaction.
+    content.vb: Public Function BeginTransaction(isolationLevel As IsolationLevel) As SoTransaction
+  overload: SuperOffice.Data.SoConnection.BeginTransaction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoConnection.CreateCommand
+  commentId: M:SuperOffice.Data.SoConnection.CreateCommand
+  id: CreateCommand
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand()
+  nameWithType: SoConnection.CreateCommand()
+  fullName: SuperOffice.Data.SoConnection.CreateCommand()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreates and returns a Command object associated with the connection.\n"
+  syntax:
+    content: public SoCommand CreateCommand()
+    return:
+      type: SuperOffice.Data.SoCommand
+      description: A Command object associated with the connection.
+    content.vb: Public Function CreateCommand As SoCommand
+  overload: SuperOffice.Data.SoConnection.CreateCommand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoConnection.Dispose
+  commentId: M:SuperOffice.Data.SoConnection.Dispose
+  id: Dispose
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoConnection.Dispose()
+  fullName: SuperOffice.Data.SoConnection.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nPerforms application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Data.SoConnection.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoConnection.InnerConnection
+  commentId: P:SuperOffice.Data.SoConnection.InnerConnection
+  id: InnerConnection
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: InnerConnection
+  nameWithType: SoConnection.InnerConnection
+  fullName: SuperOffice.Data.SoConnection.InnerConnection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nThe inner (e.g. native) connection object.\n"
+  syntax:
+    content: public IDbConnection InnerConnection { get; }
+    parameters: []
+    return:
+      type: System.Data.IDbConnection
+      description: The inner connection.
+    content.vb: Public ReadOnly Property InnerConnection As IDbConnection
+  overload: SuperOffice.Data.SoConnection.InnerConnection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Data.IDbConnection
+  isExternal: true
+  name: IDbConnection
+  nameWithType: IDbConnection
+  fullName: System.Data.IDbConnection
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoConnection.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoConnection, To>()
+  nameWithType: EnumUtil.MapEnums<SoConnection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoConnection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoConnection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoConnection, To)()
+  name.vb: MapEnums(Of SoConnection, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoConnection, To>
+    nameWithType: EnumUtil.MapEnums<SoConnection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SoConnection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoConnection, To)
+    nameWithType: EnumUtil.MapEnums(Of SoConnection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoConnection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoConnection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoConnection, To>()
+  nameWithType: Converters.MapEnums<SoConnection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoConnection, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoConnection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoConnection, To)()
+  name.vb: MapEnums(Of SoConnection, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoConnection, To>
+    nameWithType: Converters.MapEnums<SoConnection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoConnection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoConnection, To)
+    nameWithType: Converters.MapEnums(Of SoConnection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoConnection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SoConnection.Open*
+  commentId: Overload:SuperOffice.Data.SoConnection.Open
+  isExternal: true
+  name: Open
+  nameWithType: SoConnection.Open
+  fullName: SuperOffice.Data.SoConnection.Open
+- uid: SuperOffice.Data.SoConnection.Close*
+  commentId: Overload:SuperOffice.Data.SoConnection.Close
+  isExternal: true
+  name: Close
+  nameWithType: SoConnection.Close
+  fullName: SuperOffice.Data.SoConnection.Close
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoConnection.ToString*
+  commentId: Overload:SuperOffice.Data.SoConnection.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SoConnection.ToString
+  fullName: SuperOffice.Data.SoConnection.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SoConnection.BeginTransaction*
+  commentId: Overload:SuperOffice.Data.SoConnection.BeginTransaction
+  isExternal: true
+  name: BeginTransaction
+  nameWithType: SoConnection.BeginTransaction
+  fullName: SuperOffice.Data.SoConnection.BeginTransaction
+- uid: SuperOffice.Data.SoTransaction
+  commentId: T:SuperOffice.Data.SoTransaction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoTransaction
+  nameWithType: SoTransaction
+  fullName: SuperOffice.Data.SoTransaction
+- uid: System.Data.IsolationLevel
+  isExternal: true
+  name: IsolationLevel
+  nameWithType: IsolationLevel
+  fullName: System.Data.IsolationLevel
+- uid: SuperOffice.Data.SoConnection.CreateCommand*
+  commentId: Overload:SuperOffice.Data.SoConnection.CreateCommand
+  isExternal: true
+  name: CreateCommand
+  nameWithType: SoConnection.CreateCommand
+  fullName: SuperOffice.Data.SoConnection.CreateCommand
+- uid: SuperOffice.Data.SoCommand
+  commentId: T:SuperOffice.Data.SoCommand
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoCommand
+  nameWithType: SoCommand
+  fullName: SuperOffice.Data.SoCommand
+- uid: SuperOffice.Data.SoConnection.Dispose*
+  commentId: Overload:SuperOffice.Data.SoConnection.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoConnection.Dispose
+  fullName: SuperOffice.Data.SoConnection.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoConnection.InnerConnection*
+  commentId: Overload:SuperOffice.Data.SoConnection.InnerConnection
+  isExternal: true
+  name: InnerConnection
+  nameWithType: SoConnection.InnerConnection
+  fullName: SuperOffice.Data.SoConnection.InnerConnection

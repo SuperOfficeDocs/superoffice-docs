@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
+  commentId: T:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
+  id: BLOB_ChangeProductImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.#ctor
+  - SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId
+  - SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId
+  langs:
+  - csharp
+  - vb
+  name: BLOB_ChangeProductImageRequest
+  nameWithType: BLOB_ChangeProductImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BLOB_ChangeProductImageRequest : Object'
+    content.vb: >-
+      Public Class BLOB_ChangeProductImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BLOB_ChangeProductImageRequest()
+  nameWithType: BLOB_ChangeProductImageRequest.BLOB_ChangeProductImageRequest()
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BLOB_ChangeProductImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BLOB_ChangeProductImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId
+  id: ProductId
+  parent: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: BLOB_ChangeProductImageRequest.ProductId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProductId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId
+  commentId: P:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId
+  id: BlobId
+  parent: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
+  langs:
+  - csharp
+  - vb
+  name: BlobId
+  nameWithType: BLOB_ChangeProductImageRequest.BlobId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int BlobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BlobId As Integer
+  overload: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.#ctor
+  isExternal: true
+  name: BLOB_ChangeProductImageRequest
+  nameWithType: BLOB_ChangeProductImageRequest.BLOB_ChangeProductImageRequest
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BLOB_ChangeProductImageRequest
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: BLOB_ChangeProductImageRequest.ProductId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.ProductId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId*
+  commentId: Overload:SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId
+  isExternal: true
+  name: BlobId
+  nameWithType: BLOB_ChangeProductImageRequest.BlobId
+  fullName: SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest.BlobId

@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SelectionType
+  commentId: T:SuperOffice.WebApi.Data.SelectionType
+  id: SelectionType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SelectionType.Combined
+  - SuperOffice.WebApi.Data.SelectionType.Dynamic
+  - SuperOffice.WebApi.Data.SelectionType.Static
+  - SuperOffice.WebApi.Data.SelectionType.value__
+  langs:
+  - csharp
+  - vb
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: SuperOffice.WebApi.Data.SelectionType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSelection type - static/dynamic/combined. Works together with targetTable to define what kind of Selection this is.\n"
+  syntax:
+    content: 'public sealed class SelectionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class SelectionType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.SelectionType.value__
+  commentId: F:SuperOffice.WebApi.Data.SelectionType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SelectionType.value__
+  fullName: SuperOffice.WebApi.Data.SelectionType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SelectionType.Static
+  commentId: F:SuperOffice.WebApi.Data.SelectionType.Static
+  id: Static
+  parent: SuperOffice.WebApi.Data.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: SelectionType.Static
+  fullName: SuperOffice.WebApi.Data.SelectionType.Static
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Static selection\n"
+  syntax:
+    content: public const SelectionType Static
+    return:
+      type: SuperOffice.WebApi.Data.SelectionType
+    content.vb: Public Const Static As SelectionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SelectionType.Dynamic
+  commentId: F:SuperOffice.WebApi.Data.SelectionType.Dynamic
+  id: Dynamic
+  parent: SuperOffice.WebApi.Data.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Dynamic
+  nameWithType: SelectionType.Dynamic
+  fullName: SuperOffice.WebApi.Data.SelectionType.Dynamic
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Dynamic selection\n"
+  syntax:
+    content: public const SelectionType Dynamic
+    return:
+      type: SuperOffice.WebApi.Data.SelectionType
+    content.vb: Public Const Dynamic As SelectionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.SelectionType.Combined
+  commentId: F:SuperOffice.WebApi.Data.SelectionType.Combined
+  id: Combined
+  parent: SuperOffice.WebApi.Data.SelectionType
+  langs:
+  - csharp
+  - vb
+  name: Combined
+  nameWithType: SelectionType.Combined
+  fullName: SuperOffice.WebApi.Data.SelectionType.Combined
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Combined selection\n"
+  syntax:
+    content: public const SelectionType Combined
+    return:
+      type: SuperOffice.WebApi.Data.SelectionType
+    content.vb: Public Const Combined As SelectionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SelectionType
+  commentId: T:SuperOffice.WebApi.Data.SelectionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: SuperOffice.WebApi.Data.SelectionType

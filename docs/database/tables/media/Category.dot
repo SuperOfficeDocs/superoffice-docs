@@ -1,0 +1,19 @@
+digraph Category  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Category[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+CategoryFamily[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+CategoryGroupLink[fillcolor = "azure1"]
+CategoryHeadingLink[fillcolor = "azure1"]
+Category -> associate [headlabel = "registered_associate_id"]
+Category -> associate [label = "updated_associate_id"]
+Category -> CategoryFamily [headlabel = "CategoryFamily_id"]
+contact -> Category [label = "category_idx"]
+person -> Category [label = "category_idx"]
+CategoryGroupLink -> Category [label = "category_id"]
+CategoryHeadingLink -> Category [label = "category_id"]
+}

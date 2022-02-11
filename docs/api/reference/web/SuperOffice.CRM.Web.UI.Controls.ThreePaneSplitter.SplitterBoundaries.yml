@@ -1,0 +1,562 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  id: ThreePaneSplitter.SplitterBoundaries
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  - SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  - SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  - SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  - SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  langs:
+  - csharp
+  - vb
+  name: ThreePaneSplitter.SplitterBoundaries
+  nameWithType: ThreePaneSplitter.SplitterBoundaries
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class SplitterBoundaries
+    content.vb: Public Class SplitterBoundaries
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  langs:
+  - csharp
+  - vb
+  name: SplitterBoundaries()
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.SplitterBoundaries()
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.SplitterBoundaries()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SplitterBoundaries()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  id: MinFromTop
+  parent: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  langs:
+  - csharp
+  - vb
+  name: MinFromTop
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int MinFromTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinFromTop As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  id: MinFromBottom
+  parent: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  langs:
+  - csharp
+  - vb
+  name: MinFromBottom
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int MinFromBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinFromBottom As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  id: DefaultFromTop
+  parent: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  langs:
+  - csharp
+  - vb
+  name: DefaultFromTop
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int DefaultFromTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DefaultFromTop As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  id: MinWidthLeftPanel
+  parent: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  langs:
+  - csharp
+  - vb
+  name: MinWidthLeftPanel
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int MinWidthLeftPanel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinWidthLeftPanel As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  id: MinWidthRightPanel
+  parent: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+  langs:
+  - csharp
+  - vb
+  name: MinWidthRightPanel
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int MinWidthRightPanel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinWidthRightPanel As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.#ctor
+  isExternal: true
+  name: SplitterBoundaries
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.SplitterBoundaries
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.SplitterBoundaries
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  isExternal: true
+  name: MinFromTop
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinFromTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromTop
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  isExternal: true
+  name: MinFromBottom
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinFromBottom
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  isExternal: true
+  name: DefaultFromTop
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.DefaultFromTop
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  isExternal: true
+  name: MinWidthLeftPanel
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthLeftPanel
+- uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  isExternal: true
+  name: MinWidthRightPanel
+  nameWithType: ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel
+  fullName: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries.MinWidthRightPanel

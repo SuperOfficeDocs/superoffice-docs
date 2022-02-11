@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  commentId: T:SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  id: TemplateVariablesHandler
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(SuperOffice.CRM.Services.AppointmentEntity)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(SuperOffice.CRM.Services.DocumentEntity)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(SuperOffice.CRM.Services.DocumentEntity,System.String,System.String)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(System.String,System.String)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate(System.DateTime)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers(System.String)
+  - SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables(System.String,SuperOffice.Data.GeneratorEncoding)
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesHandler
+  nameWithType: TemplateVariablesHandler
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class TemplateVariablesHandler
+    content.vb: Public Class TemplateVariablesHandler
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesHandler()
+  nameWithType: TemplateVariablesHandler.TemplateVariablesHandler()
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.TemplateVariablesHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public TemplateVariablesHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(SuperOffice.CRM.Services.AppointmentEntity)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(SuperOffice.CRM.Services.AppointmentEntity)
+  id: '#ctor(SuperOffice.CRM.Services.AppointmentEntity)'
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesHandler(AppointmentEntity)
+  nameWithType: TemplateVariablesHandler.TemplateVariablesHandler(AppointmentEntity)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.TemplateVariablesHandler(SuperOffice.CRM.Services.AppointmentEntity)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public TemplateVariablesHandler(AppointmentEntity appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Services.AppointmentEntity
+    content.vb: Public Sub New(appointment As AppointmentEntity)
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(SuperOffice.CRM.Services.DocumentEntity)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(SuperOffice.CRM.Services.DocumentEntity)
+  id: '#ctor(SuperOffice.CRM.Services.DocumentEntity)'
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesHandler(DocumentEntity)
+  nameWithType: TemplateVariablesHandler.TemplateVariablesHandler(DocumentEntity)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.TemplateVariablesHandler(SuperOffice.CRM.Services.DocumentEntity)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public TemplateVariablesHandler(DocumentEntity document)
+    parameters:
+    - id: document
+      type: SuperOffice.CRM.Services.DocumentEntity
+    content.vb: Public Sub New(document As DocumentEntity)
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)'
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesHandler(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, String)
+  nameWithType: TemplateVariablesHandler.TemplateVariablesHandler(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.TemplateVariablesHandler(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public TemplateVariablesHandler(int contactId, int personId, int appointmentId, int documentId, int saleId, int selectionId, int projectId, int quoteLineId, int quoteAlternativeId, string productKey)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: appointmentId
+      type: System.Int32
+    - id: documentId
+      type: System.Int32
+    - id: saleId
+      type: System.Int32
+    - id: selectionId
+      type: System.Int32
+    - id: projectId
+      type: System.Int32
+    - id: quoteLineId
+      type: System.Int32
+    - id: quoteAlternativeId
+      type: System.Int32
+    - id: productKey
+      type: System.String
+    content.vb: Public Sub New(contactId As Integer, personId As Integer, appointmentId As Integer, documentId As Integer, saleId As Integer, selectionId As Integer, projectId As Integer, quoteLineId As Integer, quoteAlternativeId As Integer, productKey As String)
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate(System.DateTime)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate(System.DateTime)
+  id: SetOldAppointmentDate(System.DateTime)
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: SetOldAppointmentDate(DateTime)
+  nameWithType: TemplateVariablesHandler.SetOldAppointmentDate(DateTime)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate(System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public void SetOldAppointmentDate(DateTime oldDate)
+    parameters:
+    - id: oldDate
+      type: System.DateTime
+    content.vb: Public Sub SetOldAppointmentDate(oldDate As Date)
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers(System.String)
+  id: SetSelectedSelectionMembers(System.String)
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedSelectionMembers(String)
+  nameWithType: TemplateVariablesHandler.SetSelectedSelectionMembers(String)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public void SetSelectedSelectionMembers(string selectedString)
+    parameters:
+    - id: selectedString
+      type: System.String
+    content.vb: Public Sub SetSelectedSelectionMembers(selectedString As String)
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables(System.String,SuperOffice.Data.GeneratorEncoding)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables(System.String,SuperOffice.Data.GeneratorEncoding)
+  id: SubstituteTemplateVariables(System.String,SuperOffice.Data.GeneratorEncoding)
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: SubstituteTemplateVariables(String, GeneratorEncoding)
+  nameWithType: TemplateVariablesHandler.SubstituteTemplateVariables(String, GeneratorEncoding)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables(System.String, SuperOffice.Data.GeneratorEncoding)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string SubstituteTemplateVariables(string source, GeneratorEncoding generatorEncoding)
+    parameters:
+    - id: source
+      type: System.String
+    - id: generatorEncoding
+      type: SuperOffice.Data.GeneratorEncoding
+    return:
+      type: System.String
+    content.vb: Public Function SubstituteTemplateVariables(source As String, generatorEncoding As GeneratorEncoding) As String
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(SuperOffice.CRM.Services.DocumentEntity,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(SuperOffice.CRM.Services.DocumentEntity,System.String,System.String)
+  id: CreateNewPhysicalDocumentFromTemplate(SuperOffice.CRM.Services.DocumentEntity,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPhysicalDocumentFromTemplate(DocumentEntity, String, String)
+  nameWithType: TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(DocumentEntity, String, String)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(SuperOffice.CRM.Services.DocumentEntity, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static DocumentEntity CreateNewPhysicalDocumentFromTemplate(DocumentEntity document, string salutation, string culture)
+    parameters:
+    - id: document
+      type: SuperOffice.CRM.Services.DocumentEntity
+    - id: salutation
+      type: System.String
+    - id: culture
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.DocumentEntity
+    content.vb: Public Shared Function CreateNewPhysicalDocumentFromTemplate(document As DocumentEntity, salutation As String, culture As String) As DocumentEntity
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(System.String,System.String)
+  id: CreateNewPhysicalDocumentFromTemplate(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPhysicalDocumentFromTemplate(String, String)
+  nameWithType: TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(String, String)
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public DocumentEntity CreateNewPhysicalDocumentFromTemplate(string salutation, string culture)
+    parameters:
+    - id: salutation
+      type: System.String
+    - id: culture
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.DocumentEntity
+    content.vb: Public Function CreateNewPhysicalDocumentFromTemplate(salutation As String, culture As String) As DocumentEntity
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues
+  commentId: P:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues
+  id: CustomValues
+  parent: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+  langs:
+  - csharp
+  - vb
+  name: CustomValues
+  nameWithType: TemplateVariablesHandler.CustomValues
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public Dictionary<string, string> CustomValues { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property CustomValues As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.#ctor
+  isExternal: true
+  name: TemplateVariablesHandler
+  nameWithType: TemplateVariablesHandler.TemplateVariablesHandler
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.TemplateVariablesHandler
+- uid: SuperOffice.CRM.Services.AppointmentEntity
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Services.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.CRM.Services.DocumentEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate*
+  commentId: Overload:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate
+  isExternal: true
+  name: SetOldAppointmentDate
+  nameWithType: TemplateVariablesHandler.SetOldAppointmentDate
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetOldAppointmentDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers
+  isExternal: true
+  name: SetSelectedSelectionMembers
+  nameWithType: TemplateVariablesHandler.SetSelectedSelectionMembers
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SetSelectedSelectionMembers
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables*
+  commentId: Overload:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables
+  isExternal: true
+  name: SubstituteTemplateVariables
+  nameWithType: TemplateVariablesHandler.SubstituteTemplateVariables
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.SubstituteTemplateVariables
+- uid: SuperOffice.Data.GeneratorEncoding
+  commentId: '!:SuperOffice.Data.GeneratorEncoding'
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: GeneratorEncoding
+  fullName: SuperOffice.Data.GeneratorEncoding
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate*
+  commentId: Overload:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate
+  isExternal: true
+  name: CreateNewPhysicalDocumentFromTemplate
+  nameWithType: TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CreateNewPhysicalDocumentFromTemplate
+- uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues*
+  commentId: Overload:SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues
+  isExternal: true
+  name: CustomValues
+  nameWithType: TemplateVariablesHandler.CustomValues
+  fullName: SuperOffice.CRM.Web.Data.TemplateVariablesHandler.CustomValues
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

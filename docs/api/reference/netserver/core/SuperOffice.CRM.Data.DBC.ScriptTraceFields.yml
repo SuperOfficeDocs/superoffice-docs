@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  id: DBC.ScriptTraceFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.Enabled
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.Location
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.Name
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.Registered
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.ScriptTraceId
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.SkipFrames
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.Ttl
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.Updated
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ScriptTraceFields
+  nameWithType: DBC.ScriptTraceFields
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ScriptTrace, Scripts which should be traced\n"
+  syntax:
+    content: public static class ScriptTraceFields
+    content.vb: Public Module ScriptTraceFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.ScriptTraceId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.ScriptTraceId
+  id: ScriptTraceId
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: ScriptTraceId
+  nameWithType: DBC.ScriptTraceFields.ScriptTraceId
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.ScriptTraceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.ScriptTraceId: Primary key\n"
+  syntax:
+    content: public const string ScriptTraceId = "script_trace_id"
+    return:
+      type: System.String
+    content.vb: Public Const ScriptTraceId As String = "script_trace_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ScriptTraceFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.Name: The friendly name of the script which should be traced\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Location
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.Location
+  id: Location
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: DBC.ScriptTraceFields.Location
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Location
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.Location: The location of the script which should be traced\n"
+  syntax:
+    content: public const string Location = "location"
+    return:
+      type: System.String
+    content.vb: Public Const Location As String = "location"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.SkipFrames
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.SkipFrames
+  id: SkipFrames
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: SkipFrames
+  nameWithType: DBC.ScriptTraceFields.SkipFrames
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.SkipFrames
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.SkipFrames: Skip n frames between each save to optimize\n"
+  syntax:
+    content: public const string SkipFrames = "skip_frames"
+    return:
+      type: System.String
+    content.vb: Public Const SkipFrames As String = "skip_frames"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Enabled
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.Enabled
+  id: Enabled
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: DBC.ScriptTraceFields.Enabled
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Enabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.Enabled: Whether this trace is enabled or not\n"
+  syntax:
+    content: public const string Enabled = "enabled"
+    return:
+      type: System.String
+    content.vb: Public Const Enabled As String = "enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Ttl
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.Ttl
+  id: Ttl
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: Ttl
+  nameWithType: DBC.ScriptTraceFields.Ttl
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Ttl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.Ttl: How long traces should be kept before being deleted (in seconds)\n"
+  syntax:
+    content: public const string Ttl = "ttl"
+    return:
+      type: System.String
+    content.vb: Public Const Ttl As String = "ttl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.ScriptTraceFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.AssociateId: Optionally limit traces to a specific associate\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ScriptTraceFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ScriptTraceFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ScriptTraceFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ScriptTraceFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ScriptTraceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ScriptTraceFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ScriptTraceFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScriptTrace.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

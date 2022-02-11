@@ -1,0 +1,568 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations
+  commentId: T:SuperOffice.CRM.Documents.ICheckinFileOperations
+  id: ICheckinFileOperations
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.Copy(System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.Delete(System.String)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.Exists(System.String)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.Move(System.String,System.String)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText(System.String)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly(System.String)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly(System.String)
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICheckinFileOperations
+  nameWithType: ICheckinFileOperations
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nOnly public so we can access this during tests. \n"
+  syntax:
+    content: public interface ICheckinFileOperations
+    content.vb: Public Interface ICheckinFileOperations
+  extensionMethods:
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.ICheckinFileOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Move(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.Move(System.String,System.String)
+  id: Move(System.String,System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: Move(String, String)
+  nameWithType: ICheckinFileOperations.Move(String, String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Move(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nMove the file from sourceFileName to destinationFileName\n"
+  syntax:
+    content: void Move(string sourceFileName, string destinationFileName)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+    content.vb: Sub Move(sourceFileName As String, destinationFileName As String)
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.Move*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Copy(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.Copy(System.String,System.String,System.Boolean)
+  id: Copy(System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: Copy(String, String, Boolean)
+  nameWithType: ICheckinFileOperations.Copy(String, String, Boolean)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Copy(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCopy the contents of the sourceFilename to the destinationFilename.\n"
+  syntax:
+    content: void Copy(string sourceFileName, string destinationFileName, bool overwrite)
+    parameters:
+    - id: sourceFileName
+      type: System.String
+    - id: destinationFileName
+      type: System.String
+    - id: overwrite
+      type: System.Boolean
+    content.vb: Sub Copy(sourceFileName As String, destinationFileName As String, overwrite As Boolean)
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.Copy*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText(System.String,System.String)
+  id: WriteAllText(System.String,System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: WriteAllText(String, String)
+  nameWithType: ICheckinFileOperations.WriteAllText(String, String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nWrite all text to the fileName (overwrites the existing content).\n"
+  syntax:
+    content: void WriteAllText(string fileName, string text)
+    parameters:
+    - id: fileName
+      type: System.String
+    - id: text
+      type: System.String
+    content.vb: Sub WriteAllText(fileName As String, text As String)
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Delete(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.Delete(System.String)
+  id: Delete(System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: Delete(String)
+  nameWithType: ICheckinFileOperations.Delete(String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Delete(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDelete the file.\n"
+  syntax:
+    content: void Delete(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    content.vb: Sub Delete(fileName As String)
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.Delete*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Exists(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.Exists(System.String)
+  id: Exists(System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: Exists(String)
+  nameWithType: ICheckinFileOperations.Exists(String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Exists(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck if the file exists. \n"
+  syntax:
+    content: bool Exists(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    return:
+      type: System.Boolean
+      description: True if the file exists.
+    content.vb: Function Exists(fileName As String) As Boolean
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.Exists*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText(System.String)
+  id: ReadAllText(System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: ReadAllText(String)
+  nameWithType: ICheckinFileOperations.ReadAllText(String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRead all text from the given fileName. \n"
+  syntax:
+    content: string ReadAllText(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function ReadAllText(fileName As String) As String
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly(System.String)
+  id: SetReadOnly(System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: SetReadOnly(String)
+  nameWithType: ICheckinFileOperations.SetReadOnly(String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nSet the read-only attribute on the given file.\n"
+  syntax:
+    content: void SetReadOnly(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    content.vb: Sub SetReadOnly(fileName As String)
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly(System.String)
+  id: RemoveReadOnly(System.String)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: RemoveReadOnly(String)
+  nameWithType: ICheckinFileOperations.RemoveReadOnly(String)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRemove the read-only attribute on the given file.\n"
+  syntax:
+    content: void RemoveReadOnly(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    content.vb: Sub RemoveReadOnly(fileName As String)
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly*
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  commentId: M:SuperOffice.CRM.Documents.ICheckinFileOperations.Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  id: Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  parent: SuperOffice.CRM.Documents.ICheckinFileOperations
+  langs:
+  - csharp
+  - vb
+  name: Open(String, FileMode, FileAccess, FileShare)
+  nameWithType: ICheckinFileOperations.Open(String, FileMode, FileAccess, FileShare)
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Open(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nOpen the file in read-only.\n"
+  syntax:
+    content: FileStream Open(string fileName, FileMode fileMode, FileAccess fileAccess, FileShare fileShare)
+    parameters:
+    - id: fileName
+      type: System.String
+    - id: fileMode
+      type: System.IO.FileMode
+    - id: fileAccess
+      type: System.IO.FileAccess
+    - id: fileShare
+      type: System.IO.FileShare
+    return:
+      type: System.IO.FileStream
+    content.vb: Function Open(fileName As String, fileMode As FileMode, fileAccess As FileAccess, fileShare As FileShare) As FileStream
+  overload: SuperOffice.CRM.Documents.ICheckinFileOperations.Open*
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ICheckinFileOperations, To>()
+  nameWithType: EnumUtil.MapEnums<ICheckinFileOperations, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ICheckinFileOperations, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ICheckinFileOperations, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ICheckinFileOperations, To)()
+  name.vb: MapEnums(Of ICheckinFileOperations, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ICheckinFileOperations, To>
+    nameWithType: EnumUtil.MapEnums<ICheckinFileOperations, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.ICheckinFileOperations, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ICheckinFileOperations, To)
+    nameWithType: EnumUtil.MapEnums(Of ICheckinFileOperations, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.ICheckinFileOperations, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ICheckinFileOperations, To>()
+  nameWithType: Converters.MapEnums<ICheckinFileOperations, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ICheckinFileOperations, To>()
+  nameWithType.vb: Converters.MapEnums(Of ICheckinFileOperations, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ICheckinFileOperations, To)()
+  name.vb: MapEnums(Of ICheckinFileOperations, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ICheckinFileOperations, To>
+    nameWithType: Converters.MapEnums<ICheckinFileOperations, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.ICheckinFileOperations, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ICheckinFileOperations, To)
+    nameWithType: Converters.MapEnums(Of ICheckinFileOperations, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.ICheckinFileOperations, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Move*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.Move
+  isExternal: true
+  name: Move
+  nameWithType: ICheckinFileOperations.Move
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Move
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Copy*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.Copy
+  isExternal: true
+  name: Copy
+  nameWithType: ICheckinFileOperations.Copy
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Copy
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText
+  isExternal: true
+  name: WriteAllText
+  nameWithType: ICheckinFileOperations.WriteAllText
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.WriteAllText
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Delete*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: ICheckinFileOperations.Delete
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Delete
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Exists*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.Exists
+  isExternal: true
+  name: Exists
+  nameWithType: ICheckinFileOperations.Exists
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Exists
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText
+  isExternal: true
+  name: ReadAllText
+  nameWithType: ICheckinFileOperations.ReadAllText
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.ReadAllText
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly
+  isExternal: true
+  name: SetReadOnly
+  nameWithType: ICheckinFileOperations.SetReadOnly
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.SetReadOnly
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly
+  isExternal: true
+  name: RemoveReadOnly
+  nameWithType: ICheckinFileOperations.RemoveReadOnly
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.RemoveReadOnly
+- uid: SuperOffice.CRM.Documents.ICheckinFileOperations.Open*
+  commentId: Overload:SuperOffice.CRM.Documents.ICheckinFileOperations.Open
+  isExternal: true
+  name: Open
+  nameWithType: ICheckinFileOperations.Open
+  fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Open
+- uid: System.IO.FileMode
+  commentId: T:System.IO.FileMode
+  parent: System.IO
+  isExternal: true
+  name: FileMode
+  nameWithType: FileMode
+  fullName: System.IO.FileMode
+- uid: System.IO.FileAccess
+  commentId: T:System.IO.FileAccess
+  parent: System.IO
+  isExternal: true
+  name: FileAccess
+  nameWithType: FileAccess
+  fullName: System.IO.FileAccess
+- uid: System.IO.FileShare
+  commentId: T:System.IO.FileShare
+  parent: System.IO
+  isExternal: true
+  name: FileShare
+  nameWithType: FileShare
+  fullName: System.IO.FileShare
+- uid: System.IO.FileStream
+  commentId: T:System.IO.FileStream
+  parent: System.IO
+  isExternal: true
+  name: FileStream
+  nameWithType: FileStream
+  fullName: System.IO.FileStream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO

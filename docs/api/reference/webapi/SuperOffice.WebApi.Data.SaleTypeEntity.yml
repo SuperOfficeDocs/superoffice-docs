@@ -1,0 +1,1186 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity
+  commentId: T:SuperOffice.WebApi.Data.SaleTypeEntity
+  id: SaleTypeEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SaleTypeEntity.#ctor
+  - SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives
+  - SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate
+  - SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity
+  - SuperOffice.WebApi.Data.SaleTypeEntity.Deleted
+  - SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  - SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  - SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy
+  - SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide
+  - SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders
+  - SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance
+  - SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent
+  - SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet
+  - SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent
+  - SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet
+  - SuperOffice.WebApi.Data.SaleTypeEntity.Name
+  - SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate
+  - SuperOffice.WebApi.Data.SaleTypeEntity.Rank
+  - SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration
+  - SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId
+  - SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId
+  - SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy
+  - SuperOffice.WebApi.Data.SaleTypeEntity.Stages
+  - SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeEntity
+  nameWithType: SaleTypeEntity
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SaleTypeEntity.\n\n"
+  example:
+  - "\nGet SaleTypeEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar saleTypeEntity = agent.GetSaleTypeEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SaleTypeEntity : Carrier'
+    content.vb: >-
+      Public Class SaleTypeEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SaleTypeEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeEntity()
+  nameWithType: SaleTypeEntity.SaleTypeEntity()
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SaleTypeEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId
+  id: SaleTypeId
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeId
+  nameWithType: SaleTypeEntity.SaleTypeId
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SaleTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeId As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SaleTypeEntity.Name
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SaleTypeEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SaleTypeEntity.Rank
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  id: DurationUnit_String
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: DurationUnit_String
+  nameWithType: SaleTypeEntity.DurationUnit_String
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnits for the duration (day, week, whatever)\nRaw string enum value.\n"
+  syntax:
+    content: public string DurationUnit_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DurationUnit_String As String
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+    commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  id: DurationUnit
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: DurationUnit
+  nameWithType: SaleTypeEntity.DurationUnit
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnits for the duration (day, week, whatever)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DurationUnit> DurationUnit { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DurationUnit}
+    content.vb: Public Property DurationUnit As Nullable(Of DurationUnit)
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+    commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration
+  id: SaleDuration
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleDuration
+  nameWithType: SaleTypeEntity.SaleDuration
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExpected number of dales from initiation to close of sale\n"
+  syntax:
+    content: public virtual int SaleDuration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleDuration As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId
+  id: SaleTypeCatId
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeCatId
+  nameWithType: SaleTypeEntity.SaleTypeCatId
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCategory of sale type, copied to sale\n"
+  syntax:
+    content: public virtual int SaleTypeCatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeCatId As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SaleTypeEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide
+  id: HasGuide
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: HasGuide
+  nameWithType: SaleTypeEntity.HasGuide
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes this sale type have a guide attached\n"
+  syntax:
+    content: public virtual bool HasGuide { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasGuide As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders
+  id: HasStakeholders
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: HasStakeholders
+  nameWithType: SaleTypeEntity.HasStakeholders
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes this sale type have stakeholders\n"
+  syntax:
+    content: public virtual bool HasStakeholders { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasStakeholders As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance
+  id: IsAutoAdvance
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: IsAutoAdvance
+  nameWithType: SaleTypeEntity.IsAutoAdvance
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes the sale stage advance automatically, when the last guided activity in a stage is completed?\n"
+  syntax:
+    content: public virtual bool IsAutoAdvance { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAutoAdvance As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives
+  id: AllowQuoteAlternatives
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: AllowQuoteAlternatives
+  nameWithType: SaleTypeEntity.AllowQuoteAlternatives
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCan quotes linked to sales of this type, have multiple Alternatives\n"
+  syntax:
+    content: public virtual bool AllowQuoteAlternatives { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AllowQuoteAlternatives As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity
+  id: DefaultQuoteValidity
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuoteValidity
+  nameWithType: SaleTypeEntity.DefaultQuoteValidity
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault valid days for quotes linked to sales of this type (valid from quote transmission)\n"
+  syntax:
+    content: public virtual int DefaultQuoteValidity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultQuoteValidity As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate
+  id: QuoteLinesTemplate
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: QuoteLinesTemplate
+  nameWithType: SaleTypeEntity.QuoteLinesTemplate
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe template that this sale type should use when producing the product lines offer document; the template must have DocTmplQuoteType=QuoteLines\n"
+  syntax:
+    content: public virtual int QuoteLinesTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteLinesTemplate As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate
+  id: ConfirmationLinesTemplate
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ConfirmationLinesTemplate
+  nameWithType: SaleTypeEntity.ConfirmationLinesTemplate
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe template that this sale type should use when producing the order confirmation lines document; the template must have DocTmplQuoteType=ConfirmationLines\n"
+  syntax:
+    content: public virtual int ConfirmationLinesTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ConfirmationLinesTemplate As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet
+  id: MaxDiscountPercentSet
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: MaxDiscountPercentSet
+  nameWithType: SaleTypeEntity.MaxDiscountPercentSet
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs there a limit, in percent, to the total discount on quotes linked to sales of this type\n"
+  syntax:
+    content: public virtual bool MaxDiscountPercentSet { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property MaxDiscountPercentSet As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet
+  id: MinEarningPercentSet
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: MinEarningPercentSet
+  nameWithType: SaleTypeEntity.MinEarningPercentSet
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs there a limit, in earning as percent of total, on quotes linked to sales of this type\n"
+  syntax:
+    content: public virtual bool MinEarningPercentSet { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property MinEarningPercentSet As Boolean
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent
+  id: MaxDiscountPercent
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: MaxDiscountPercent
+  nameWithType: SaleTypeEntity.MaxDiscountPercent
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe maximum discount in percent of total, if set, on quotes linked to sales of this type\n"
+  syntax:
+    content: public virtual int MaxDiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MaxDiscountPercent As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent
+  id: MinEarningPercent
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: MinEarningPercent
+  nameWithType: SaleTypeEntity.MinEarningPercent
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe minimum earning in percent of total, if set, on quotes linked to sales of this type\n"
+  syntax:
+    content: public virtual int MinEarningPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MinEarningPercent As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy
+  id: GroupQuoteLinesBy
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: GroupQuoteLinesBy
+  nameWithType: SaleTypeEntity.GroupQuoteLinesBy
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGroup quote lines by this field\n"
+  syntax:
+    content: public virtual int GroupQuoteLinesBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property GroupQuoteLinesBy As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy
+  id: SortGroupLinesBy
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: SortGroupLinesBy
+  nameWithType: SaleTypeEntity.SortGroupLinesBy
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSort group lines by this field\n"
+  syntax:
+    content: public virtual int SortGroupLinesBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SortGroupLinesBy As Integer
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Stages
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.Stages
+  id: Stages
+  parent: SuperOffice.WebApi.Data.SaleTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Stages
+  nameWithType: SaleTypeEntity.Stages
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Stages
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStages, those associated with this SaleType are selected.\n<p>Use MDO List name &quot;salestage&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] Stages { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property Stages As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.SaleTypeEntity.Stages*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.#ctor
+  isExternal: true
+  name: SaleTypeEntity
+  nameWithType: SaleTypeEntity.SaleTypeEntity
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeEntity
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId
+  isExternal: true
+  name: SaleTypeId
+  nameWithType: SaleTypeEntity.SaleTypeId
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: SaleTypeEntity.Name
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SaleTypeEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SaleTypeEntity.Rank
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  isExternal: true
+  name: DurationUnit_String
+  nameWithType: SaleTypeEntity.DurationUnit_String
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+  isExternal: true
+  name: DurationUnit
+  nameWithType: SaleTypeEntity.DurationUnit
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  commentId: P:SuperOffice.WebApi.Data.SaleTypeEntity.DurationUnit_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DurationUnit}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DurationUnit}'
+  definition: System.Nullable`1
+  name: Nullable<DurationUnit>
+  nameWithType: Nullable<DurationUnit>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DurationUnit>
+  nameWithType.vb: Nullable(Of DurationUnit)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DurationUnit)
+  name.vb: Nullable(Of DurationUnit)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DurationUnit
+    name: DurationUnit
+    nameWithType: DurationUnit
+    fullName: SuperOffice.WebApi.Data.DurationUnit
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DurationUnit
+    name: DurationUnit
+    nameWithType: DurationUnit
+    fullName: SuperOffice.WebApi.Data.DurationUnit
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration
+  isExternal: true
+  name: SaleDuration
+  nameWithType: SaleTypeEntity.SaleDuration
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleDuration
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId
+  isExternal: true
+  name: SaleTypeCatId
+  nameWithType: SaleTypeEntity.SaleTypeCatId
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SaleTypeCatId
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SaleTypeEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide
+  isExternal: true
+  name: HasGuide
+  nameWithType: SaleTypeEntity.HasGuide
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.HasGuide
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders
+  isExternal: true
+  name: HasStakeholders
+  nameWithType: SaleTypeEntity.HasStakeholders
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.HasStakeholders
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance
+  isExternal: true
+  name: IsAutoAdvance
+  nameWithType: SaleTypeEntity.IsAutoAdvance
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.IsAutoAdvance
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives
+  isExternal: true
+  name: AllowQuoteAlternatives
+  nameWithType: SaleTypeEntity.AllowQuoteAlternatives
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.AllowQuoteAlternatives
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity
+  isExternal: true
+  name: DefaultQuoteValidity
+  nameWithType: SaleTypeEntity.DefaultQuoteValidity
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.DefaultQuoteValidity
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate
+  isExternal: true
+  name: QuoteLinesTemplate
+  nameWithType: SaleTypeEntity.QuoteLinesTemplate
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.QuoteLinesTemplate
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate
+  isExternal: true
+  name: ConfirmationLinesTemplate
+  nameWithType: SaleTypeEntity.ConfirmationLinesTemplate
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.ConfirmationLinesTemplate
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet
+  isExternal: true
+  name: MaxDiscountPercentSet
+  nameWithType: SaleTypeEntity.MaxDiscountPercentSet
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercentSet
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet
+  isExternal: true
+  name: MinEarningPercentSet
+  nameWithType: SaleTypeEntity.MinEarningPercentSet
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercentSet
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent
+  isExternal: true
+  name: MaxDiscountPercent
+  nameWithType: SaleTypeEntity.MaxDiscountPercent
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MaxDiscountPercent
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent
+  isExternal: true
+  name: MinEarningPercent
+  nameWithType: SaleTypeEntity.MinEarningPercent
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.MinEarningPercent
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy
+  isExternal: true
+  name: GroupQuoteLinesBy
+  nameWithType: SaleTypeEntity.GroupQuoteLinesBy
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.GroupQuoteLinesBy
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy
+  isExternal: true
+  name: SortGroupLinesBy
+  nameWithType: SaleTypeEntity.SortGroupLinesBy
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.SortGroupLinesBy
+- uid: SuperOffice.WebApi.Data.SaleTypeEntity.Stages*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleTypeEntity.Stages
+  isExternal: true
+  name: Stages
+  nameWithType: SaleTypeEntity.Stages
+  fullName: SuperOffice.WebApi.Data.SaleTypeEntity.Stages
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

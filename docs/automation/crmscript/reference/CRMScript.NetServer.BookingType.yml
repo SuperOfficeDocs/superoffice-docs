@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.BookingType
+  # Same as SuperOffice.Data.BookingType
+  commentId: T:CRMScript.NetServer.BookingType
+  id: BookingType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.BookingType.Unknown
+  - CRMScript.NetServer.BookingType.None
+  - CRMScript.NetServer.BookingType.Owner
+  - CRMScript.NetServer.BookingType.Participant
+  name: BookingType
+  nameWithType: BookingType
+  fullName: CRMScript.NetServer.BookingType
+  type: Enum
+  summary: "\nThe type of booking the appointment represents.\n"
+- uid: CRMScript.NetServer.BookingType.Unknown
+  commentId: F:CRMScript.NetServer.BookingType.Unknown
+  id: BookingType.Unknown
+  langs:
+  - crmscript
+  name: BookingType.Unknown
+  nameWithType: BookingType.Unknown
+  fullName: CRMScript.NetServer.BookingType.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.BookingType
+- uid: CRMScript.NetServer.BookingType.None
+  commentId: F:CRMScript.NetServer.BookingType.None
+  id: BookingType.None
+  langs:
+  - crmscript
+  name: BookingType.None
+  nameWithType: BookingType.None
+  fullName: CRMScript.NetServer.BookingType.None
+  type: Field
+  summary: "\n1: Single appointment records\n"
+  syntax: 
+    content: None = 1
+    type: CRMScript.NetServer.BookingType
+- uid: CRMScript.NetServer.BookingType.Owner
+  commentId: F:CRMScript.NetServer.BookingType.Owner
+  id: BookingType.Owner
+  langs:
+  - crmscript
+  name: BookingType.Owner
+  nameWithType: BookingType.Owner
+  fullName: CRMScript.NetServer.BookingType.Owner
+  type: Field
+  summary: "\n2: Owner of a booking\n"
+  syntax: 
+    content: Owner = 2
+    type: CRMScript.NetServer.BookingType
+- uid: CRMScript.NetServer.BookingType.Participant
+  commentId: F:CRMScript.NetServer.BookingType.Participant
+  id: BookingType.Participant
+  langs:
+  - crmscript
+  name: BookingType.Participant
+  nameWithType: BookingType.Participant
+  fullName: CRMScript.NetServer.BookingType.Participant
+  type: Field
+  summary: "\n3: Participant of a booking\n"
+  syntax: 
+    content: Participant = 3
+    type: CRMScript.NetServer.BookingType
+references:
+- uid: CRMScript.NetServer.BookingType
+  commentId: T:CRMScript.NetServer.BookingType
+  isExternal: true
+  name: BookingType
+  nameWithType: BookingType
+  fullName: CRMScript.NetServer.BookingType

@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_MergeRequest
+  id: Person_MergeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
+  - SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
+  - SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
+  - SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  - SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_MergeRequest
+  nameWithType: Person_MergeRequest
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_MergeRequest : Object'
+    content.vb: >-
+      Public Class Person_MergeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_MergeRequest()
+  nameWithType: Person_MergeRequest.Person_MergeRequest()
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.Person_MergeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_MergeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_MergeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
+  id: SourcePersonId
+  parent: SuperOffice.WebApi.Data.Person_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: SourcePersonId
+  nameWithType: Person_MergeRequest.SourcePersonId
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourcePersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourcePersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
+  id: DestinationPersonId
+  parent: SuperOffice.WebApi.Data.Person_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationPersonId
+  nameWithType: Person_MergeRequest.DestinationPersonId
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DestinationPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DestinationPersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
+  commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
+  id: MoveAfterDate
+  parent: SuperOffice.WebApi.Data.Person_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: MoveAfterDate
+  nameWithType: Person_MergeRequest.MoveAfterDate
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime MoveAfterDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MoveAfterDate As DateTime
+  overload: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
+  commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
+  id: DeleteSource
+  parent: SuperOffice.WebApi.Data.Person_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: DeleteSource
+  nameWithType: Person_MergeRequest.DeleteSource
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool DeleteSource { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DeleteSource As Boolean
+  overload: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  id: ReplaceEmptyFieldsOnDestination
+  parent: SuperOffice.WebApi.Data.Person_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplaceEmptyFieldsOnDestination
+  nameWithType: Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ReplaceEmptyFieldsOnDestination { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReplaceEmptyFieldsOnDestination As Boolean
+  overload: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
+  isExternal: true
+  name: Person_MergeRequest
+  nameWithType: Person_MergeRequest.Person_MergeRequest
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.Person_MergeRequest
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
+  isExternal: true
+  name: SourcePersonId
+  nameWithType: Person_MergeRequest.SourcePersonId
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
+  isExternal: true
+  name: DestinationPersonId
+  nameWithType: Person_MergeRequest.DestinationPersonId
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
+  isExternal: true
+  name: MoveAfterDate
+  nameWithType: Person_MergeRequest.MoveAfterDate
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
+  isExternal: true
+  name: DeleteSource
+  nameWithType: Person_MergeRequest.DeleteSource
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  isExternal: true
+  name: ReplaceEmptyFieldsOnDestination
+  nameWithType: Person_MergeRequest.ReplaceEmptyFieldsOnDestination
+  fullName: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination

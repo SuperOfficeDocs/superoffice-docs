@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  id: DBC.ExtraTablesFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.Description
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.DisplayField
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.EditEntryHeader
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTableName
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTablesId
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.Flags
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.FullnameField
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.Name
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.NewEntryHeader
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ParentField
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserAll
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEdit
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEntry
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.SearchHeader
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.SortOrder
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ViewEntryHeader
+  langs:
+  - csharp
+  - vb
+  name: DBC.ExtraTablesFields
+  nameWithType: DBC.ExtraTablesFields
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ExtraTables, This table contains entries for the extra tables in the system.\n"
+  syntax:
+    content: public static class ExtraTablesFields
+    content.vb: Public Module ExtraTablesFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTablesId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTablesId
+  id: ExtraTablesId
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraTablesId
+  nameWithType: DBC.ExtraTablesFields.ExtraTablesId
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTablesId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ExtraTablesId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ExtraTablesId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraTablesId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTableName
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTableName
+  id: ExtraTableName
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraTableName
+  nameWithType: DBC.ExtraTablesFields.ExtraTableName
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ExtraTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ExtraTableName: The database name of this extra table.\n"
+  syntax:
+    content: public const string ExtraTableName = "table_name"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraTableName As String = "table_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ExtraTablesFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.Name: The name of this extra table.\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.SearchHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.SearchHeader
+  id: SearchHeader
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: SearchHeader
+  nameWithType: DBC.ExtraTablesFields.SearchHeader
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.SearchHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.SearchHeader: The header when searching this table.\n"
+  syntax:
+    content: public const string SearchHeader = "search_header"
+    return:
+      type: System.String
+    content.vb: Public Const SearchHeader As String = "search_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ViewEntryHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ViewEntryHeader
+  id: ViewEntryHeader
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ViewEntryHeader
+  nameWithType: DBC.ExtraTablesFields.ViewEntryHeader
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ViewEntryHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ViewEntryHeader: The header when viewing entries in this table.\n"
+  syntax:
+    content: public const string ViewEntryHeader = "view_entry_header"
+    return:
+      type: System.String
+    content.vb: Public Const ViewEntryHeader As String = "view_entry_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.NewEntryHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.NewEntryHeader
+  id: NewEntryHeader
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: NewEntryHeader
+  nameWithType: DBC.ExtraTablesFields.NewEntryHeader
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.NewEntryHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.NewEntryHeader: The header when creating a new entry in this table.\n"
+  syntax:
+    content: public const string NewEntryHeader = "new_entry_header"
+    return:
+      type: System.String
+    content.vb: Public Const NewEntryHeader As String = "new_entry_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.EditEntryHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.EditEntryHeader
+  id: EditEntryHeader
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: EditEntryHeader
+  nameWithType: DBC.ExtraTablesFields.EditEntryHeader
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.EditEntryHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.EditEntryHeader: The header when editing an entry in this table.\n"
+  syntax:
+    content: public const string EditEntryHeader = "edit_entry_header"
+    return:
+      type: System.String
+    content.vb: Public Const EditEntryHeader As String = "edit_entry_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.HierarchyId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: DBC.ExtraTablesFields.HierarchyId
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.HierarchyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.HierarchyId: This extra table is inside this hierarchy folder\n"
+  syntax:
+    content: public const string HierarchyId = "hierarchy_id"
+    return:
+      type: System.String
+    content.vb: Public Const HierarchyId As String = "hierarchy_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.SortOrder
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: DBC.ExtraTablesFields.SortOrder
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.SortOrder: The default sort_order for this extra table.\n"
+  syntax:
+    content: public const string SortOrder = "sort_order"
+    return:
+      type: System.String
+    content.vb: Public Const SortOrder As String = "sort_order"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.DisplayField
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.DisplayField
+  id: DisplayField
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: DisplayField
+  nameWithType: DBC.ExtraTablesFields.DisplayField
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.DisplayField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.DisplayField: The default field to display for this extra table.\n"
+  syntax:
+    content: public const string DisplayField = "display_field"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayField As String = "display_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.ExtraTablesFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.Flags: Bitmap for flags for this entry.\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ParentField
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ParentField
+  id: ParentField
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ParentField
+  nameWithType: DBC.ExtraTablesFields.ParentField
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ParentField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ParentField: If this table is hierarchically organized, then this field can contain a field which is a parent-field, creating a hierarchy.\n"
+  syntax:
+    content: public const string ParentField = "parent_field"
+    return:
+      type: System.String
+    content.vb: Public Const ParentField As String = "parent_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.FullnameField
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.FullnameField
+  id: FullnameField
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: FullnameField
+  nameWithType: DBC.ExtraTablesFields.FullnameField
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.FullnameField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.FullnameField: If this table is hierarchically organized, then this field can contain a field which will be assigned a fullname, such as &apos;Support/Hardware/Keyboards&apos;.\n"
+  syntax:
+    content: public const string FullnameField = "fullname_field"
+    return:
+      type: System.String
+    content.vb: Public Const FullnameField As String = "fullname_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEntry
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEntry
+  id: ScreenChooserEntry
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenChooserEntry
+  nameWithType: DBC.ExtraTablesFields.ScreenChooserEntry
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEntry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ScreenChooserEntry: The screen chooser to use for this extra table when viewing an entry.\n"
+  syntax:
+    content: public const string ScreenChooserEntry = "screen_chooser_entry"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenChooserEntry As String = "screen_chooser_entry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserAll
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserAll
+  id: ScreenChooserAll
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenChooserAll
+  nameWithType: DBC.ExtraTablesFields.ScreenChooserAll
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserAll
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ScreenChooserAll: The screen chooser to use for this extra table when viewing the table.\n"
+  syntax:
+    content: public const string ScreenChooserAll = "screen_chooser_all"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenChooserAll As String = "screen_chooser_all"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEdit
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEdit
+  id: ScreenChooserEdit
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenChooserEdit
+  nameWithType: DBC.ExtraTablesFields.ScreenChooserEdit
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEdit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.ScreenChooserEdit: The screen chooser to use for this extra table when editing the table.\n"
+  syntax:
+    content: public const string ScreenChooserEdit = "screen_chooser_edit"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenChooserEdit As String = "screen_chooser_edit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.ExtraTablesFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExtraTables.Description: Optional description of what this table is used for\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

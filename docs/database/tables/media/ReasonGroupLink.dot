@@ -1,0 +1,13 @@
+digraph ReasonGroupLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ReasonGroupLink[fillcolor = "cadetblue1"]
+Reason[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ReasonGroupLink -> Reason [headlabel = "reason_id"]
+ReasonGroupLink -> UserGroup [headlabel = "group_id"]
+ReasonGroupLink -> associate [headlabel = "registered_associate_id"]
+ReasonGroupLink -> associate [label = "updated_associate_id"]
+}

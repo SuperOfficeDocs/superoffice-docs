@@ -1,0 +1,1369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  commentId: T:SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  id: SORLabelLayoutRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.#ctor
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.BottomMargin
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountColumns
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountRows
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Description
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LabelHeight
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LeftMargin
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Name
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Orientation
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperHeight
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperWidth
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PrintWidth
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Registered
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RightMargin
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SORLabelLayoutId
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.TopMargin
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Updated
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: SORLabelLayoutRecordData
+  nameWithType: SORLabelLayoutRecordData
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the SORLabelLayout table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SORLabelLayoutRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SORLabelLayoutTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class SORLabelLayoutRecordData
+    content.vb: Public Class SORLabelLayoutRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SORLabelLayoutId
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SORLabelLayoutId
+  id: SORLabelLayoutId
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: SORLabelLayoutId
+  nameWithType: SORLabelLayoutRecordData.SORLabelLayoutId
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SORLabelLayoutId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SORLabelLayoutId
+    return:
+      type: System.Int32
+    content.vb: Public SORLabelLayoutId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SORLabelLayoutRecordData.Name
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName of the label layout \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperWidth
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperWidth
+  id: PaperWidth
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: PaperWidth
+  nameWithType: SORLabelLayoutRecordData.PaperWidth
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPaper width in twips \n"
+  syntax:
+    content: public uint PaperWidth
+    return:
+      type: System.UInt32
+    content.vb: Public PaperWidth As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperHeight
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperHeight
+  id: PaperHeight
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: PaperHeight
+  nameWithType: SORLabelLayoutRecordData.PaperHeight
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PaperHeight
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPaper height in twips \n"
+  syntax:
+    content: public uint PaperHeight
+    return:
+      type: System.UInt32
+    content.vb: Public PaperHeight As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.TopMargin
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.TopMargin
+  id: TopMargin
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: TopMargin
+  nameWithType: SORLabelLayoutRecordData.TopMargin
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.TopMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTop margin in twips \n"
+  syntax:
+    content: public uint TopMargin
+    return:
+      type: System.UInt32
+    content.vb: Public TopMargin As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.BottomMargin
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.BottomMargin
+  id: BottomMargin
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: BottomMargin
+  nameWithType: SORLabelLayoutRecordData.BottomMargin
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.BottomMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBottom margin in twips \n"
+  syntax:
+    content: public uint BottomMargin
+    return:
+      type: System.UInt32
+    content.vb: Public BottomMargin As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LeftMargin
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LeftMargin
+  id: LeftMargin
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: LeftMargin
+  nameWithType: SORLabelLayoutRecordData.LeftMargin
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LeftMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLeft margin in twips \n"
+  syntax:
+    content: public uint LeftMargin
+    return:
+      type: System.UInt32
+    content.vb: Public LeftMargin As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RightMargin
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RightMargin
+  id: RightMargin
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: RightMargin
+  nameWithType: SORLabelLayoutRecordData.RightMargin
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RightMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRight margin in twips \n"
+  syntax:
+    content: public uint RightMargin
+    return:
+      type: System.UInt32
+    content.vb: Public RightMargin As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountColumns
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountColumns
+  id: CountColumns
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountColumns
+  nameWithType: SORLabelLayoutRecordData.CountColumns
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountColumns
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber og columns \n"
+  syntax:
+    content: public short CountColumns
+    return:
+      type: System.Int16
+    content.vb: Public CountColumns As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountRows
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountRows
+  id: CountRows
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountRows
+  nameWithType: SORLabelLayoutRecordData.CountRows
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.CountRows
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of rows \n"
+  syntax:
+    content: public short CountRows
+    return:
+      type: System.Int16
+    content.vb: Public CountRows As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Orientation
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Orientation
+  id: Orientation
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: SORLabelLayoutRecordData.Orientation
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Orientation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPaper orientation: 1=portrait, 2=landscape \n"
+  syntax:
+    content: public short Orientation
+    return:
+      type: System.Int16
+    content.vb: Public Orientation As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PrintWidth
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PrintWidth
+  id: PrintWidth
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: PrintWidth
+  nameWithType: SORLabelLayoutRecordData.PrintWidth
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.PrintWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCalculated: (paperWidth - leftMargin - rightMargin) / countColumns \n"
+  syntax:
+    content: public uint PrintWidth
+    return:
+      type: System.UInt32
+    content.vb: Public PrintWidth As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LabelHeight
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LabelHeight
+  id: LabelHeight
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: LabelHeight
+  nameWithType: SORLabelLayoutRecordData.LabelHeight
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.LabelHeight
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCalculated: (paperHeight - topMargin - bottomMargin) / countRows \n"
+  syntax:
+    content: public uint LabelHeight
+    return:
+      type: System.UInt32
+    content.vb: Public LabelHeight As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SORLabelLayoutRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SORLabelLayoutRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SORLabelLayoutRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SORLabelLayoutRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SORLabelLayoutRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SORLabelLayoutRecordData.Description
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescription \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+  langs:
+  - csharp
+  - vb
+  name: SORLabelLayoutRecordData()
+  nameWithType: SORLabelLayoutRecordData.SORLabelLayoutRecordData()
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SORLabelLayoutRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public SORLabelLayoutRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SORLabelLayoutRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SORLabelLayoutRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SORLabelLayoutRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To)()
+  name.vb: MapEnums(Of SORLabelLayoutRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SORLabelLayoutRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SORLabelLayoutRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SORLabelLayoutRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SORLabelLayoutRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SORLabelLayoutRecordData>(SORLabelLayoutRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SORLabelLayoutRecordData>(SORLabelLayoutRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SORLabelLayoutRecordData>(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SORLabelLayoutRecordData)(SORLabelLayoutRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData)(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  name.vb: AssignByReflection(Of SORLabelLayoutRecordData)(SORLabelLayoutRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SORLabelLayoutRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SORLabelLayoutRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SORLabelLayoutRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    name: SORLabelLayoutRecordData
+    nameWithType: SORLabelLayoutRecordData
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SORLabelLayoutRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SORLabelLayoutRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    name: SORLabelLayoutRecordData
+    nameWithType: SORLabelLayoutRecordData
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SORLabelLayoutRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SORLabelLayoutRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SORLabelLayoutRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SORLabelLayoutRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData)()
+  name.vb: GraphCopy(Of SORLabelLayoutRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SORLabelLayoutRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SORLabelLayoutRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SORLabelLayoutRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SORLabelLayoutRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SORLabelLayoutRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  parent: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  name: ToInsert()
+  nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SORLabelLayoutRecordData, To>()
+  nameWithType: Converters.MapEnums<SORLabelLayoutRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SORLabelLayoutRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To)()
+  name.vb: MapEnums(Of SORLabelLayoutRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SORLabelLayoutRecordData, To>
+    nameWithType: Converters.MapEnums<SORLabelLayoutRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SORLabelLayoutRecordData, To)
+    nameWithType: Converters.MapEnums(Of SORLabelLayoutRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SORLabelLayoutRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  isExternal: true
+  name: ToInsert(SORLabelLayoutRecordData)
+  nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert(SORLabelLayoutRecordData)
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+    name: ToInsert
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    name: SORLabelLayoutRecordData
+    nameWithType: SORLabelLayoutRecordData
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORLabelLayoutRecordData)
+    name: ToInsert
+    nameWithType: SORLabelLayoutRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    name: SORLabelLayoutRecordData
+    nameWithType: SORLabelLayoutRecordData
+    fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SORLabelLayoutRecordDataExtensions
+  nameWithType: SORLabelLayoutRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.SORLabelLayoutRecordData.#ctor
+  isExternal: true
+  name: SORLabelLayoutRecordData
+  nameWithType: SORLabelLayoutRecordData.SORLabelLayoutRecordData
+  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRecordData.SORLabelLayoutRecordData

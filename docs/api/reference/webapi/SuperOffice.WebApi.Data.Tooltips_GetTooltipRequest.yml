@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest
+  commentId: T:SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest
+  id: Tooltips_GetTooltipRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.#ctor
+  - SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint
+  langs:
+  - csharp
+  - vb
+  name: Tooltips_GetTooltipRequest
+  nameWithType: Tooltips_GetTooltipRequest
+  fullName: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Tooltips_GetTooltipRequest : Object'
+    content.vb: >-
+      Public Class Tooltips_GetTooltipRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest
+  langs:
+  - csharp
+  - vb
+  name: Tooltips_GetTooltipRequest()
+  nameWithType: Tooltips_GetTooltipRequest.Tooltips_GetTooltipRequest()
+  fullName: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.Tooltips_GetTooltipRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Tooltips_GetTooltipRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint
+  commentId: P:SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint
+  id: TooltipHint
+  parent: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest
+  langs:
+  - csharp
+  - vb
+  name: TooltipHint
+  nameWithType: Tooltips_GetTooltipRequest.TooltipHint
+  fullName: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TooltipHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TooltipHint As String
+  overload: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.#ctor
+  isExternal: true
+  name: Tooltips_GetTooltipRequest
+  nameWithType: Tooltips_GetTooltipRequest.Tooltips_GetTooltipRequest
+  fullName: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.Tooltips_GetTooltipRequest
+- uid: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint*
+  commentId: Overload:SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint
+  isExternal: true
+  name: TooltipHint
+  nameWithType: Tooltips_GetTooltipRequest.TooltipHint
+  fullName: SuperOffice.WebApi.Data.Tooltips_GetTooltipRequest.TooltipHint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

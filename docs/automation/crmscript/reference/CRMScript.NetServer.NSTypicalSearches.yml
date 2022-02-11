@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTypicalSearches
+  commentId: T:CRMScript.NetServer.NSTypicalSearches
+  id: NSTypicalSearches
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTypicalSearches.#ctor
+  - CRMScript.NetServer.NSTypicalSearches.GetDeleteLeftovers()
+  - CRMScript.NetServer.NSTypicalSearches.GetMasterVersion()
+  - CRMScript.NetServer.NSTypicalSearches.GetSearches()
+  - CRMScript.NetServer.NSTypicalSearches.GetSource()
+  - CRMScript.NetServer.NSTypicalSearches.SetDeleteLeftovers(Bool)
+  - CRMScript.NetServer.NSTypicalSearches.SetMasterVersion(Integer)
+  - CRMScript.NetServer.NSTypicalSearches.SetSearches(NSTypicalSearch[])
+  - CRMScript.NetServer.NSTypicalSearches.SetSource(String)
+  name: NSTypicalSearches
+  nameWithType: NSTypicalSearches
+  fullName: CRMScript.NetServer.NSTypicalSearches
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSTypicalSearches.#ctor
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTypicalSearches
+  langs:
+  - crmscript
+  name: NSTypicalSearches()
+  nameWithType: NSTypicalSearches.#ctor
+  fullName: CRMScript.NetServer.NSTypicalSearches.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTypicalSearches class.\n"
+  remarks: 
+  syntax: 
+    content: NSTypicalSearches
+  example: 
+- uid: CRMScript.NetServer.NSTypicalSearches.GetDeleteLeftovers()
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.GetDeleteLeftovers()
+  id: 'GetDeleteLeftovers()'
+  so.intellisense: NSTypicalSearches.GetDeleteLeftovers
+  langs:
+  - crmscript
+  name: 'GetDeleteLeftovers()'
+  nameWithType: NSTypicalSearches.GetDeleteLeftovers()
+  fullName: CRMScript.NetServer.NSTypicalSearches.GetDeleteLeftovers()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleteLeftovers()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, then any TypicalSearch records in the database that are NOT referenced in this call, should be deleted."
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nBool deleteLeftovers = thing.GetDeleteLeftovers();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.GetMasterVersion()
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.GetMasterVersion()
+  id: 'GetMasterVersion()'
+  so.intellisense: NSTypicalSearches.GetMasterVersion
+  langs:
+  - crmscript
+  name: 'GetMasterVersion()'
+  nameWithType: NSTypicalSearches.GetMasterVersion()
+  fullName: CRMScript.NetServer.NSTypicalSearches.GetMasterVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMasterVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The master version number in this update, at least the highest of those in the searches, but can be higher to force an update (and delete of missing elements)."
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nInteger masterVersion = thing.GetMasterVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.GetSearches()
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.GetSearches()
+  id: 'GetSearches()'
+  so.intellisense: NSTypicalSearches.GetSearches
+  langs:
+  - crmscript
+  name: 'GetSearches()'
+  nameWithType: NSTypicalSearches.GetSearches()
+  fullName: CRMScript.NetServer.NSTypicalSearches.GetSearches()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTypicalSearch[] GetSearches()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTypicalSearch[]
+      description: "The TypicalSearch structures (including criteria) to import."
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nNSTypicalSearch[] searches = thing.GetSearches();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.GetSource()
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.GetSource()
+  id: 'GetSource()'
+  so.intellisense: NSTypicalSearches.GetSource
+  langs:
+  - crmscript
+  name: 'GetSource()'
+  nameWithType: NSTypicalSearches.GetSource()
+  fullName: CRMScript.NetServer.NSTypicalSearches.GetSource()
+  type: Method
+  summary: # TODO
+  remarks: "\nAllows for both SuperOffice and partners to maintain sets of typical searches without conflict\n"
+  syntax: 
+    content: String GetSource()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of organization that sources and maintains this TypicalSearch."
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nString source = thing.GetSource();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.SetDeleteLeftovers(Bool)
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.SetDeleteLeftovers(Bool)
+  id: 'SetDeleteLeftovers(Bool)'
+  so.intellisense: NSTypicalSearches.SetDeleteLeftovers
+  langs:
+  - crmscript
+  name: 'SetDeleteLeftovers(Bool)'
+  nameWithType: NSTypicalSearches.SetDeleteLeftovers(Bool)
+  fullName: CRMScript.NetServer.NSTypicalSearches.SetDeleteLeftovers(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleteLeftovers(Bool deleteLeftovers)
+    parameters:
+    - id: deleteLeftovers
+      type: CRMScript.Global.Bool
+      description: "If true, then any TypicalSearch records in the database that are NOT referenced in this call, should be deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nBool deleteLeftovers;\nthing.SetDeleteLeftovers(deleteLeftovers);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.SetMasterVersion(Integer)
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.SetMasterVersion(Integer)
+  id: 'SetMasterVersion(Integer)'
+  so.intellisense: NSTypicalSearches.SetMasterVersion
+  langs:
+  - crmscript
+  name: 'SetMasterVersion(Integer)'
+  nameWithType: NSTypicalSearches.SetMasterVersion(Integer)
+  fullName: CRMScript.NetServer.NSTypicalSearches.SetMasterVersion(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMasterVersion(Integer masterVersion)
+    parameters:
+    - id: masterVersion
+      type: CRMScript.Global.Integer
+      description: "The master version number in this update, at least the highest of those in the searches, but can be higher to force an update (and delete of missing elements)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nInteger masterVersion;\nthing.SetMasterVersion(masterVersion);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.SetSearches(NSTypicalSearch[])
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.SetSearches(NSTypicalSearch[])
+  id: 'SetSearches(NSTypicalSearch[])'
+  so.intellisense: NSTypicalSearches.SetSearches
+  langs:
+  - crmscript
+  name: 'SetSearches(NSTypicalSearch[])'
+  nameWithType: NSTypicalSearches.SetSearches(NSTypicalSearch[])
+  fullName: CRMScript.NetServer.NSTypicalSearches.SetSearches(NSTypicalSearch[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSearches(NSTypicalSearch[] searches)
+    parameters:
+    - id: searches
+      type: CRMScript.NetServer.NSTypicalSearch[]
+      description: "The TypicalSearch structures (including criteria) to import."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nNSTypicalSearch[] searches;\nthing.SetSearches(searches);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTypicalSearches.SetSource(String)
+  commentId: M:CRMScript.NetServer.NSTypicalSearches.SetSource(String)
+  id: 'SetSource(String)'
+  so.intellisense: NSTypicalSearches.SetSource
+  langs:
+  - crmscript
+  name: 'SetSource(String)'
+  nameWithType: NSTypicalSearches.SetSource(String)
+  fullName: CRMScript.NetServer.NSTypicalSearches.SetSource(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nAllows for both SuperOffice and partners to maintain sets of typical searches without conflict\n"
+  syntax: 
+    content: Void SetSource(String source)
+    parameters:
+    - id: source
+      type: CRMScript.Global.String
+      description: Name of organization that sources and maintains this TypicalSearch. 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTypicalSearches thing;\nString source;\nthing.SetSource(source);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTypicalSearches
+  commentId: T:CRMScript.NetServer.NSTypicalSearches
+  isExternal: true
+  name: NSTypicalSearches
+  nameWithType: NSTypicalSearches
+  fullName: CRMScript.NetServer.NSTypicalSearches
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSTypicalSearch[]
+  isExternal: true
+  name: NSTypicalSearch[]
+  nameWithType: NSTypicalSearch[]
+  fullName: CRMScript.NetServer.NSTypicalSearch[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTypicalSearch
+    isExternal: true
+    name: NSTypicalSearch
+    nameWithType: NSTypicalSearch
+    fullName: CRMScript.NetServer.NSTypicalSearch
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSTypicalSearch
+  commentId: T:CRMScript.NetServer.NSTypicalSearch
+  isExternal: true
+  name: NSTypicalSearch
+  nameWithType: NSTypicalSearch
+  fullName: CRMScript.NetServer.NSTypicalSearch
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

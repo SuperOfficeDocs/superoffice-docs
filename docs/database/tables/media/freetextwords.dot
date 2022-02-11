@@ -1,0 +1,8 @@
+digraph freetextwords  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+freetextwords[fillcolor = "cadetblue1"]
+freetextindex[fillcolor = "azure1"]
+freetextindex -> freetextwords [label = "freetextwords_id"]
+}

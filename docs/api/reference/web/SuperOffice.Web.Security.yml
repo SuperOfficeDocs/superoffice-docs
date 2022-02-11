@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Security
+  commentId: N:SuperOffice.Web.Security
+  id: SuperOffice.Web.Security
+  children:
+  - SuperOffice.Web.Security.HttpContextEnvironmentInfoPlugin
+  - SuperOffice.Web.Security.HttpContextProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.Security
+  nameWithType: SuperOffice.Web.Security
+  fullName: SuperOffice.Web.Security
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.Security.HttpContextProvider
+  commentId: T:SuperOffice.Web.Security.HttpContextProvider
+  isExternal: true
+  name: HttpContextProvider
+  nameWithType: HttpContextProvider
+  fullName: SuperOffice.Web.Security.HttpContextProvider
+- uid: SuperOffice.Web.Security.HttpContextEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Web.Security.HttpContextEnvironmentInfoPlugin
+  isExternal: true
+  name: HttpContextEnvironmentInfoPlugin
+  nameWithType: HttpContextEnvironmentInfoPlugin
+  fullName: SuperOffice.Web.Security.HttpContextEnvironmentInfoPlugin

@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem
+  commentId: T:SuperOffice.WebApi.Data.ActivityInformationListItem
+  id: ActivityInformationListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ActivityInformationListItem.#ctor
+  - SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation
+  - SuperOffice.WebApi.Data.ActivityInformationListItem.Date
+  langs:
+  - csharp
+  - vb
+  name: ActivityInformationListItem
+  nameWithType: ActivityInformationListItem
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ActivityInformationListItem.\n\n"
+  syntax:
+    content: 'public class ActivityInformationListItem : Carrier'
+    content.vb: >-
+      Public Class ActivityInformationListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ActivityInformationListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ActivityInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: ActivityInformationListItem()
+  nameWithType: ActivityInformationListItem.ActivityInformationListItem()
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformationListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ActivityInformationListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ActivityInformationListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem.Date
+  commentId: P:SuperOffice.WebApi.Data.ActivityInformationListItem.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.ActivityInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: ActivityInformationListItem.Date
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem.Date
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate that this item is valid for; there is exactly one item per date, ordered by date.\n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.WebApi.Data.ActivityInformationListItem.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation
+  commentId: P:SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation
+  id: ActivityInformation
+  parent: SuperOffice.WebApi.Data.ActivityInformationListItem
+  langs:
+  - csharp
+  - vb
+  name: ActivityInformation
+  nameWithType: ActivityInformationListItem.ActivityInformation
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActivity information summary - number of free and busy activities.\n"
+  syntax:
+    content: public virtual ActivitySummary ActivityInformation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ActivitySummary
+    content.vb: Public Overridable Property ActivityInformation As ActivitySummary
+  overload: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityInformationListItem.#ctor
+  isExternal: true
+  name: ActivityInformationListItem
+  nameWithType: ActivityInformationListItem.ActivityInformationListItem
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformationListItem
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem.Date*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityInformationListItem.Date
+  isExternal: true
+  name: Date
+  nameWithType: ActivityInformationListItem.Date
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation
+  isExternal: true
+  name: ActivityInformation
+  nameWithType: ActivityInformationListItem.ActivityInformation
+  fullName: SuperOffice.WebApi.Data.ActivityInformationListItem.ActivityInformation
+- uid: SuperOffice.WebApi.Data.ActivitySummary
+  commentId: T:SuperOffice.WebApi.Data.ActivitySummary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ActivitySummary
+  nameWithType: ActivitySummary
+  fullName: SuperOffice.WebApi.Data.ActivitySummary

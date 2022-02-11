@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  id: ImportData.ImportType
+  parent: SuperOffice.CRM.Web.Data.Util
+  children:
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.EIS
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.File
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Google
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Outlook
+  langs:
+  - csharp
+  - vb
+  name: ImportData.ImportType
+  nameWithType: ImportData.ImportType
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public enum ImportType
+    content.vb: Public Enum ImportType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.File
+  commentId: F:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.File
+  id: File
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: ImportData.ImportType.File
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.File
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: File = 0
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Outlook
+  commentId: F:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Outlook
+  id: Outlook
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  langs:
+  - csharp
+  - vb
+  name: Outlook
+  nameWithType: ImportData.ImportType.Outlook
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Outlook
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: Outlook = 1
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Google
+  commentId: F:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Google
+  id: Google
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: ImportData.ImportType.Google
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.Google
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: Google = 2
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.EIS
+  commentId: F:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.EIS
+  id: EIS
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  langs:
+  - csharp
+  - vb
+  name: EIS
+  nameWithType: ImportData.ImportType.EIS
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType.EIS
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: EIS = 3
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Data.Util
+  commentId: N:SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.Util
+  nameWithType: SuperOffice.CRM.Web.Data.Util
+  fullName: SuperOffice.CRM.Web.Data.Util
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ImportData.ImportType
+  nameWithType: ImportData.ImportType
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType

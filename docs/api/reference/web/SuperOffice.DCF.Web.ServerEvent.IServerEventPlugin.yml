@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  id: IServerEventPlugin
+  parent: SuperOffice.DCF.Web.ServerEvent
+  children:
+  - SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  - SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  langs:
+  - csharp
+  - vb
+  name: IServerEventPlugin
+  nameWithType: IServerEventPlugin
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public interface IServerEventPlugin
+    content.vb: Public Interface IServerEventPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  id: BeginExecute(System.String)
+  parent: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  langs:
+  - csharp
+  - vb
+  name: BeginExecute(String)
+  nameWithType: IServerEventPlugin.BeginExecute(String)
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: ServerEventObject BeginExecute(string eventType)
+    parameters:
+    - id: eventType
+      type: System.String
+    return:
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    content.vb: Function BeginExecute(eventType As String) As ServerEventObject
+  overload: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute*
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  id: EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  parent: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  langs:
+  - csharp
+  - vb
+  name: EndExecute(ServerEventObject)
+  nameWithType: IServerEventPlugin.EndExecute(ServerEventObject)
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: void EndExecute(ServerEventObject eventObj)
+    parameters:
+    - id: eventObj
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    content.vb: Sub EndExecute(eventObj As ServerEventObject)
+  overload: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute*
+references:
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute
+  isExternal: true
+  name: BeginExecute
+  nameWithType: IServerEventPlugin.BeginExecute
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventObject
+  nameWithType: ServerEventObject
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute
+  isExternal: true
+  name: EndExecute
+  nameWithType: IServerEventPlugin.EndExecute
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute

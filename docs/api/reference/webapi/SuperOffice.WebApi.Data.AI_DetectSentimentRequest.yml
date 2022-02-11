@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_DetectSentimentRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_DetectSentimentRequest
+  id: AI_DetectSentimentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_DetectSentimentRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text
+  langs:
+  - csharp
+  - vb
+  name: AI_DetectSentimentRequest
+  nameWithType: AI_DetectSentimentRequest
+  fullName: SuperOffice.WebApi.Data.AI_DetectSentimentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_DetectSentimentRequest : Object'
+    content.vb: >-
+      Public Class AI_DetectSentimentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_DetectSentimentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_DetectSentimentRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_DetectSentimentRequest()
+  nameWithType: AI_DetectSentimentRequest.AI_DetectSentimentRequest()
+  fullName: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.AI_DetectSentimentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_DetectSentimentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text
+  commentId: P:SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.AI_DetectSentimentRequest
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: AI_DetectSentimentRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_DetectSentimentRequest.#ctor
+  isExternal: true
+  name: AI_DetectSentimentRequest
+  nameWithType: AI_DetectSentimentRequest.AI_DetectSentimentRequest
+  fullName: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.AI_DetectSentimentRequest
+- uid: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text
+  isExternal: true
+  name: Text
+  nameWithType: AI_DetectSentimentRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_DetectSentimentRequest.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

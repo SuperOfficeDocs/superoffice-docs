@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
+  id: Marketing_GetPreviewMailingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.#ctor
+  - SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  langs:
+  - csharp
+  - vb
+  name: Marketing_GetPreviewMailingRequest
+  nameWithType: Marketing_GetPreviewMailingRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Marketing_GetPreviewMailingRequest : Object'
+    content.vb: >-
+      Public Class Marketing_GetPreviewMailingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
+  langs:
+  - csharp
+  - vb
+  name: Marketing_GetPreviewMailingRequest()
+  nameWithType: Marketing_GetPreviewMailingRequest.Marketing_GetPreviewMailingRequest()
+  fullName: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.Marketing_GetPreviewMailingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Marketing_GetPreviewMailingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  commentId: P:SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  id: ShipmentAddrId
+  parent: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
+  langs:
+  - csharp
+  - vb
+  name: ShipmentAddrId
+  nameWithType: Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  fullName: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ShipmentAddrId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ShipmentAddrId As Integer
+  overload: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.#ctor
+  isExternal: true
+  name: Marketing_GetPreviewMailingRequest
+  nameWithType: Marketing_GetPreviewMailingRequest.Marketing_GetPreviewMailingRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.Marketing_GetPreviewMailingRequest
+- uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId*
+  commentId: Overload:SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  isExternal: true
+  name: ShipmentAddrId
+  nameWithType: Marketing_GetPreviewMailingRequest.ShipmentAddrId
+  fullName: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest.ShipmentAddrId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

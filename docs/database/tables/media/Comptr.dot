@@ -1,0 +1,17 @@
+digraph Comptr  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+Comptr[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+sale[fillcolor = "azure1"]
+ComptrGroupLink[fillcolor = "azure1"]
+ComptrHeadingLink[fillcolor = "azure1"]
+SaleHist[fillcolor = "azure1"]
+Comptr -> associate [headlabel = "registered_associate_id"]
+Comptr -> associate [label = "updated_associate_id"]
+sale -> Comptr [label = "comptr_id"]
+ComptrGroupLink -> Comptr [label = "comptr_id"]
+ComptrHeadingLink -> Comptr [label = "comptr_id"]
+SaleHist -> Comptr [label = "comptr_id"]
+}

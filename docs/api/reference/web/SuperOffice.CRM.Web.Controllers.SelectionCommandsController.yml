@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+  commentId: T:SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+  id: SelectionCommandsController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.SelectionCommandsController.#ctor
+  - SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection(SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest)
+  - SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults
+  langs:
+  - csharp
+  - vb
+  name: SelectionCommandsController
+  nameWithType: SelectionCommandsController
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class SelectionCommandsController : ApiController'
+    content.vb: >-
+      Public Class SelectionCommandsController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection(SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection(SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest)
+  id: CreateTemporarySelection(SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporarySelection(SelectionCommandsController.CreateTemporarySelectionRequest)
+  nameWithType: SelectionCommandsController.CreateTemporarySelection(SelectionCommandsController.CreateTemporarySelectionRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection(SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public int CreateTemporarySelection(SelectionCommandsController.CreateTemporarySelectionRequest createTemporarySelectionRequest)
+    parameters:
+    - id: createTemporarySelectionRequest
+      type: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest
+    return:
+      type: System.Int32
+    content.vb: Public Function CreateTemporarySelection(createTemporarySelectionRequest As SelectionCommandsController.CreateTemporarySelectionRequest) As Integer
+  overload: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults
+  commentId: M:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults
+  id: GetSendEMailScriptWithDefaults
+  parent: SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailScriptWithDefaults()
+  nameWithType: SelectionCommandsController.GetSendEMailScriptWithDefaults()
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetSendEMailScriptWithDefaults()
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailScriptWithDefaults As String
+  overload: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+  langs:
+  - csharp
+  - vb
+  name: SelectionCommandsController()
+  nameWithType: SelectionCommandsController.SelectionCommandsController()
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.SelectionCommandsController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SelectionCommandsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection
+  isExternal: true
+  name: CreateTemporarySelection
+  nameWithType: SelectionCommandsController.CreateTemporarySelection
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelection
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SelectionCommandsController.CreateTemporarySelectionRequest
+  nameWithType: SelectionCommandsController.CreateTemporarySelectionRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults
+  isExternal: true
+  name: GetSendEMailScriptWithDefaults
+  nameWithType: SelectionCommandsController.GetSendEMailScriptWithDefaults
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.GetSendEMailScriptWithDefaults
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SelectionCommandsController.#ctor
+  isExternal: true
+  name: SelectionCommandsController
+  nameWithType: SelectionCommandsController.SelectionCommandsController
+  fullName: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.SelectionCommandsController

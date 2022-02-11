@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
+  id: Contact_GetQuoteVersionAddressesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetQuoteVersionAddressesRequest
+  nameWithType: Contact_GetQuoteVersionAddressesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetQuoteVersionAddressesRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetQuoteVersionAddressesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetQuoteVersionAddressesRequest()
+  nameWithType: Contact_GetQuoteVersionAddressesRequest.Contact_GetQuoteVersionAddressesRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.Contact_GetQuoteVersionAddressesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetQuoteVersionAddressesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.#ctor
+  isExternal: true
+  name: Contact_GetQuoteVersionAddressesRequest
+  nameWithType: Contact_GetQuoteVersionAddressesRequest.Contact_GetQuoteVersionAddressesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.Contact_GetQuoteVersionAddressesRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Contact_GetQuoteVersionAddressesRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

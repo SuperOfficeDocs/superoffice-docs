@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  id: UserPreferenceStrings.Phone
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Phone
+  nameWithType: UserPreferenceStrings.Phone
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPhone\n"
+  syntax:
+    content: 'public static class Phone : Object'
+    content.vb: >-
+      Public Module Phone
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Phone.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Phone"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Phone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
+  id: DdeData
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeData
+  nameWithType: UserPreferenceStrings.Phone.DdeData
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDDE Data\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeData = "DdeData"
+    return:
+      type: System.String
+    content.vb: Public Const DdeData As String = "DdeData"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
+  id: DdeItem
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeItem
+  nameWithType: UserPreferenceStrings.Phone.DdeItem
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDDE Item\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeItem = "DdeItem"
+    return:
+      type: System.String
+    content.vb: Public Const DdeItem As String = "DdeItem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
+  id: DdeService
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeService
+  nameWithType: UserPreferenceStrings.Phone.DdeService
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDDE Service\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeService = "DdeService"
+    return:
+      type: System.String
+    content.vb: Public Const DdeService As String = "DdeService"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
+  id: DdeTopic
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeTopic
+  nameWithType: UserPreferenceStrings.Phone.DdeTopic
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDDE Topic\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeTopic = "DdeTopic"
+    return:
+      type: System.String
+    content.vb: Public Const DdeTopic As String = "DdeTopic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
+  id: DdeType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeType
+  nameWithType: UserPreferenceStrings.Phone.DdeType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDDE Type\n<p></p>Control type: List, access: Wizard\n"
+  syntax:
+    content: public const string DdeType = "DdeType"
+    return:
+      type: System.String
+    content.vb: Public Const DdeType As String = "DdeType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
+  id: DialType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DialType
+  nameWithType: UserPreferenceStrings.Phone.DialType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDial type\n<p></p>Control type: List, access: Wizard\n"
+  syntax:
+    content: public const string DialType = "DialType"
+    return:
+      type: System.String
+    content.vb: Public Const DialType As String = "DialType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
+  id: FormatNumber
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: FormatNumber
+  nameWithType: UserPreferenceStrings.Phone.FormatNumber
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFormats number\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string FormatNumber = "FormatNumber"
+    return:
+      type: System.String
+    content.vb: Public Const FormatNumber As String = "FormatNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
+  id: LocalAreaCode
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: LocalAreaCode
+  nameWithType: UserPreferenceStrings.Phone.LocalAreaCode
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLocal area code\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string LocalAreaCode = "LocalAreaCode"
+    return:
+      type: System.String
+    content.vb: Public Const LocalAreaCode As String = "LocalAreaCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
+  id: LongDistancePrefix
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: LongDistancePrefix
+  nameWithType: UserPreferenceStrings.Phone.LongDistancePrefix
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLong distance prefix\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string LongDistancePrefix = "LongDistancePrefix"
+    return:
+      type: System.String
+    content.vb: Public Const LongDistancePrefix As String = "LongDistancePrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
+  id: Postfix
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: Postfix
+  nameWithType: UserPreferenceStrings.Phone.Postfix
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuffix - e.g. Command to reset your modem\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string Postfix = "Postfix"
+    return:
+      type: System.String
+    content.vb: Public Const Postfix As String = "Postfix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
+  id: Prefix
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: UserPreferenceStrings.Phone.Prefix
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrefix - e.g. Dial 0 to get an outside line\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string Prefix = "Prefix"
+    return:
+      type: System.String
+    content.vb: Public Const Prefix As String = "Prefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
+  id: ProgDir
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ProgDir
+  nameWithType: UserPreferenceStrings.Phone.ProgDir
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProgram folder\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string ProgDir = "ProgDir"
+    return:
+      type: System.String
+    content.vb: Public Const ProgDir As String = "ProgDir"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
+  id: ProgFile
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ProgFile
+  nameWithType: UserPreferenceStrings.Phone.ProgFile
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProgram file\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string ProgFile = "ProgFile"
+    return:
+      type: System.String
+    content.vb: Public Const ProgFile As String = "ProgFile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
+  id: ProgParam
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ProgParam
+  nameWithType: UserPreferenceStrings.Phone.ProgParam
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProgram parameter\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string ProgParam = "ProgParam"
+    return:
+      type: System.String
+    content.vb: Public Const ProgParam As String = "ProgParam"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  id: ReporterDocumentDlgExpanded
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ReporterDocumentDlgExpanded
+  nameWithType: UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExpands the Save report dialog by default\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string ReporterDocumentDlgExpanded = "ReporterDocumentDlgExpanded"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterDocumentDlgExpanded As String = "ReporterDocumentDlgExpanded"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  id: ReporterDocumentDlgOpenDoc
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ReporterDocumentDlgOpenDoc
+  nameWithType: UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpens the report after you have saved it in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string ReporterDocumentDlgOpenDoc = "ReporterDocumentDlgOpenDoc"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterDocumentDlgOpenDoc As String = "ReporterDocumentDlgOpenDoc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  id: ReporterLastUsedReport
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ReporterLastUsedReport
+  nameWithType: UserPreferenceStrings.Phone.ReporterLastUsedReport
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of the report that was active when you last logged out\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string ReporterLastUsedReport = "ReporterLastUsedReport"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterLastUsedReport As String = "ReporterLastUsedReport"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
+  id: EnablePersonalScripts
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: EnablePersonalScripts
+  nameWithType: UserPreferenceStrings.Phone.EnablePersonalScripts
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable personal scripts in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnablePersonalScripts = "EnablePersonalScripts"
+    return:
+      type: System.String
+    content.vb: Public Const EnablePersonalScripts As String = "EnablePersonalScripts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
+  id: EnableScripting
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: EnableScripting
+  nameWithType: UserPreferenceStrings.Phone.EnableScripting
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnables scripting in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnableScripting = "EnableScripting"
+    return:
+      type: System.String
+    content.vb: Public Const EnableScripting As String = "EnableScripting"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

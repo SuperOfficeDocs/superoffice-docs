@@ -1,0 +1,10 @@
+digraph ticket_status_history  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_status_history[fillcolor = "cadetblue1"]
+ticket[fillcolor = "azure1"]
+ticket_status[fillcolor = "azure1"]
+ticket_status_history -> ticket [headlabel = "ticket_id"]
+ticket_status_history -> ticket_status [headlabel = "ticket_status"]
+}

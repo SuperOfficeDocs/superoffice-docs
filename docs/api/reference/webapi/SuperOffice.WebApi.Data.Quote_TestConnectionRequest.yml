@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_TestConnectionRequest
+  id: Quote_TestConnectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_TestConnectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData
+  - SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName
+  langs:
+  - csharp
+  - vb
+  name: Quote_TestConnectionRequest
+  nameWithType: Quote_TestConnectionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_TestConnectionRequest : Object'
+    content.vb: >-
+      Public Class Quote_TestConnectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_TestConnectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_TestConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_TestConnectionRequest()
+  nameWithType: Quote_TestConnectionRequest.Quote_TestConnectionRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.Quote_TestConnectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_TestConnectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName
+  commentId: P:SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName
+  id: ConnectorName
+  parent: SuperOffice.WebApi.Data.Quote_TestConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectorName
+  nameWithType: Quote_TestConnectionRequest.ConnectorName
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ConnectorName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectorName As String
+  overload: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData
+  commentId: P:SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData
+  id: ConnectionData
+  parent: SuperOffice.WebApi.Data.Quote_TestConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionData
+  nameWithType: Quote_TestConnectionRequest.ConnectionData
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public StringDictionary ConnectionData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Property ConnectionData As StringDictionary
+  overload: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_TestConnectionRequest.#ctor
+  isExternal: true
+  name: Quote_TestConnectionRequest
+  nameWithType: Quote_TestConnectionRequest.Quote_TestConnectionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.Quote_TestConnectionRequest
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName
+  isExternal: true
+  name: ConnectorName
+  nameWithType: Quote_TestConnectionRequest.ConnectorName
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectorName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData
+  isExternal: true
+  name: ConnectionData
+  nameWithType: Quote_TestConnectionRequest.ConnectionData
+  fullName: SuperOffice.WebApi.Data.Quote_TestConnectionRequest.ConnectionData
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

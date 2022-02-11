@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileEntityType
+  id: DashboardTileEntityType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Activity
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Company
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Document
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Followup
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.None
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Product
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Project
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.Sale
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.value__
+  - SuperOffice.WebApi.Data.DashboardTileEntityType.WebPanel
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile entity type\n"
+  syntax:
+    content: 'public sealed class DashboardTileEntityType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashboardTileEntityType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.value__
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashboardTileEntityType.value__
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.None
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashboardTileEntityType.None
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown entity type\n"
+  syntax:
+    content: public const DashboardTileEntityType None
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const None As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Company
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Company
+  id: Company
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: DashboardTileEntityType.Company
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Company
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const DashboardTileEntityType Company
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Company As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Project
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: DashboardTileEntityType.Project
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const DashboardTileEntityType Project
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Project As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Sale
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: DashboardTileEntityType.Sale
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const DashboardTileEntityType Sale
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Sale As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Product
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Product
+  id: Product
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: DashboardTileEntityType.Product
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Product
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: \n"
+  syntax:
+    content: public const DashboardTileEntityType Product
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Product As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Activity
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Activity
+  id: Activity
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Activity
+  nameWithType: DashboardTileEntityType.Activity
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Activity
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: \n"
+  syntax:
+    content: public const DashboardTileEntityType Activity
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Activity As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Document
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: DashboardTileEntityType.Document
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Document
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: \n"
+  syntax:
+    content: public const DashboardTileEntityType Document
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Document As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.WebPanel
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.WebPanel
+  id: WebPanel
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: WebPanel
+  nameWithType: DashboardTileEntityType.WebPanel
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.WebPanel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: \n"
+  syntax:
+    content: public const DashboardTileEntityType WebPanel
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const WebPanel As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType.Followup
+  commentId: F:SuperOffice.WebApi.Data.DashboardTileEntityType.Followup
+  id: Followup
+  parent: SuperOffice.WebApi.Data.DashboardTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: Followup
+  nameWithType: DashboardTileEntityType.Followup
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType.Followup
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: \n"
+  syntax:
+    content: public const DashboardTileEntityType Followup
+    return:
+      type: SuperOffice.WebApi.Data.DashboardTileEntityType
+    content.vb: Public Const Followup As DashboardTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType

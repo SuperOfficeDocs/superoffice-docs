@@ -1,0 +1,18 @@
+digraph PersInt  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+PersInt[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+personinterest[fillcolor = "azure1"]
+PersIntGroupLink[fillcolor = "azure1"]
+PersIntHeadingLink[fillcolor = "azure1"]
+s_link[fillcolor = "azure1"]
+PersInt -> associate [headlabel = "registered_associate_id"]
+PersInt -> associate [label = "updated_associate_id"]
+personinterest -> PersInt [label = "pinterest_idx"]
+PersIntGroupLink -> PersInt [label = "persint_id"]
+PersIntHeadingLink -> PersInt [label = "persint_id"]
+s_link -> PersInt [label = "add_person_interest"]
+s_link -> PersInt [label = "remove_person_interest"]
+}

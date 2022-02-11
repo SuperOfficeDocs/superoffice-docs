@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest
+  commentId: T:SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest
+  id: PhoneList_SetPreferencesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.#ctor
+  - SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_SetPreferencesRequest
+  nameWithType: PhoneList_SetPreferencesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class PhoneList_SetPreferencesRequest : Object'
+    content.vb: >-
+      Public Class PhoneList_SetPreferencesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_SetPreferencesRequest()
+  nameWithType: PhoneList_SetPreferencesRequest.PhoneList_SetPreferencesRequest()
+  fullName: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.PhoneList_SetPreferencesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneList_SetPreferencesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences
+  commentId: P:SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences
+  id: Preferences
+  parent: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest
+  langs:
+  - csharp
+  - vb
+  name: Preferences
+  nameWithType: PhoneList_SetPreferencesRequest.Preferences
+  fullName: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneListPreferences Preferences { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PhoneListPreferences
+    content.vb: Public Property Preferences As PhoneListPreferences
+  overload: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.#ctor
+  isExternal: true
+  name: PhoneList_SetPreferencesRequest
+  nameWithType: PhoneList_SetPreferencesRequest.PhoneList_SetPreferencesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.PhoneList_SetPreferencesRequest
+- uid: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences
+  isExternal: true
+  name: Preferences
+  nameWithType: PhoneList_SetPreferencesRequest.Preferences
+  fullName: SuperOffice.WebApi.Data.PhoneList_SetPreferencesRequest.Preferences
+- uid: SuperOffice.WebApi.Data.PhoneListPreferences
+  commentId: T:SuperOffice.WebApi.Data.PhoneListPreferences
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PhoneListPreferences
+  nameWithType: PhoneListPreferences
+  fullName: SuperOffice.WebApi.Data.PhoneListPreferences

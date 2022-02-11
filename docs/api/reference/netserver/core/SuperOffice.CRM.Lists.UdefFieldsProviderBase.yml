@@ -1,0 +1,1064 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase
+  commentId: T:SuperOffice.CRM.Lists.UdefFieldsProviderBase
+  id: UdefFieldsProviderBase
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.UdefFieldsProviderBase.#ctor
+  - SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType(System.String)
+  - SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows(System.String,System.Func{SuperOffice.Data.UDefType,System.Int32})
+  langs:
+  - csharp
+  - vb
+  name: UdefFieldsProviderBase
+  nameWithType: UdefFieldsProviderBase
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: >-
+      [MDOAdditionalInfoSeparator(",")]
+
+      [MDOAdditionalInfo("UDefType,", "Contact,excludepageone")]
+
+      public abstract class UdefFieldsProviderBase : LiteralsOnlyBase, ISoListProvider, ISoList, IPlugin
+    content.vb: >-
+      <MDOAdditionalInfoSeparator(",")>
+
+      <MDOAdditionalInfo("UDefType,", "Contact,excludepageone")>
+
+      Public MustInherit Class UdefFieldsProviderBase
+          Inherits LiteralsOnlyBase
+          Implements ISoListProvider, ISoList, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase
+  derivedClasses:
+  - SuperOffice.CRM.Lists.AdminUdefFieldsProvider
+  - SuperOffice.CRM.Lists.CurrentUdefFieldsProvider
+  - SuperOffice.CRM.Lists.UdefFieldsWithChangesProvider
+  implements:
+  - SuperOffice.CRM.Lists.ISoListProvider
+  - SuperOffice.CRM.Lists.ISoList
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Lists.UdefFieldsProviderBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.UdefFieldsProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoSeparatorAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoSeparatorAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ','
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: UDefType,
+    - type: System.String
+      value: Contact,excludepageone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType(System.String)
+  commentId: M:SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType(System.String)
+  id: GetType(System.String)
+  parent: SuperOffice.CRM.Lists.UdefFieldsProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetType(String)
+  nameWithType: UdefFieldsProviderBase.GetType(String)
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected static UDefType GetType(string extraInfo)
+    parameters:
+    - id: extraInfo
+      type: System.String
+    return:
+      type: SuperOffice.Data.UDefType
+    content.vb: Protected Shared Function GetType(extraInfo As String) As UDefType
+  overload: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows(System.String,System.Func{SuperOffice.Data.UDefType,System.Int32})
+  commentId: M:SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows(System.String,System.Func{SuperOffice.Data.UDefType,System.Int32})
+  id: GetUDefFieldRows(System.String,System.Func{SuperOffice.Data.UDefType,System.Int32})
+  parent: SuperOffice.CRM.Lists.UdefFieldsProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetUDefFieldRows(String, Func<UDefType, Int32>)
+  nameWithType: UdefFieldsProviderBase.GetUDefFieldRows(String, Func<UDefType, Int32>)
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows(System.String, System.Func<SuperOffice.Data.UDefType, System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected static UDefFieldRows GetUDefFieldRows(string extraInfo, Func<UDefType, int> versionSelector)
+    parameters:
+    - id: extraInfo
+      type: System.String
+    - id: versionSelector
+      type: System.Func{SuperOffice.Data.UDefType,System.Int32}
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRows
+    content.vb: Protected Shared Function GetUDefFieldRows(extraInfo As String, versionSelector As Func(Of UDefType, Integer)) As UDefFieldRows
+  overload: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows*
+  nameWithType.vb: UdefFieldsProviderBase.GetUDefFieldRows(String, Func(Of UDefType, Int32))
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows(System.String, System.Func(Of SuperOffice.Data.UDefType, System.Int32))
+  name.vb: GetUDefFieldRows(String, Func(Of UDefType, Int32))
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.#ctor
+  commentId: M:SuperOffice.CRM.Lists.UdefFieldsProviderBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.UdefFieldsProviderBase
+  langs:
+  - csharp
+  - vb
+  name: UdefFieldsProviderBase()
+  nameWithType: UdefFieldsProviderBase.UdefFieldsProviderBase()
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase.UdefFieldsProviderBase()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected UdefFieldsProviderBase()
+    content.vb: Protected Sub New
+  overload: SuperOffice.CRM.Lists.UdefFieldsProviderBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  commentId: T:SuperOffice.CRM.Lists.LiteralsOnlyBase
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: LiteralsOnlyBase
+  nameWithType: LiteralsOnlyBase
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+  commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: AddItems()
+  nameWithType: LiteralsOnlyBase.AddItems()
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+    name: AddItems
+    nameWithType: LiteralsOnlyBase.AddItems
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+    name: AddItems
+    nameWithType: LiteralsOnlyBase.AddItems
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: LiteralsOnlyBase.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: LiteralsOnlyBase.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: LiteralsOnlyBase.Construct
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: LiteralsOnlyBase.Construct
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: ListName
+  nameWithType: LiteralsOnlyBase.ListName
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: LiteralsOnlyBase.ExtraInfo
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: SearchValue
+  nameWithType: LiteralsOnlyBase.SearchValue
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: RawRootItems
+  nameWithType: LiteralsOnlyBase.RawRootItems
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: RawHeadingItems
+  nameWithType: LiteralsOnlyBase.RawHeadingItems
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: RawHistoryItems
+  nameWithType: LiteralsOnlyBase.RawHistoryItems
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: LiteralsOnlyBase.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: HistoryItems
+  nameWithType: LiteralsOnlyBase.HistoryItems
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: RootItems
+  nameWithType: LiteralsOnlyBase.RootItems
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: HeadingItems
+  nameWithType: LiteralsOnlyBase.HeadingItems
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UdefFieldsProviderBase, To>()
+  nameWithType: EnumUtil.MapEnums<UdefFieldsProviderBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.UdefFieldsProviderBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UdefFieldsProviderBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.UdefFieldsProviderBase, To)()
+  name.vb: MapEnums(Of UdefFieldsProviderBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UdefFieldsProviderBase, To>
+    nameWithType: EnumUtil.MapEnums<UdefFieldsProviderBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.UdefFieldsProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UdefFieldsProviderBase, To)
+    nameWithType: EnumUtil.MapEnums(Of UdefFieldsProviderBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.UdefFieldsProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UdefFieldsProviderBase, To>()
+  nameWithType: Converters.MapEnums<UdefFieldsProviderBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.UdefFieldsProviderBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of UdefFieldsProviderBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.UdefFieldsProviderBase, To)()
+  name.vb: MapEnums(Of UdefFieldsProviderBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UdefFieldsProviderBase, To>
+    nameWithType: Converters.MapEnums<UdefFieldsProviderBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.UdefFieldsProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UdefFieldsProviderBase, To)
+    nameWithType: Converters.MapEnums(Of UdefFieldsProviderBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.UdefFieldsProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType*
+  commentId: Overload:SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType
+  isExternal: true
+  name: GetType
+  nameWithType: UdefFieldsProviderBase.GetType
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.UDefType
+  commentId: T:SuperOffice.Data.UDefType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows*
+  commentId: Overload:SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows
+  isExternal: true
+  name: GetUDefFieldRows
+  nameWithType: UdefFieldsProviderBase.GetUDefFieldRows
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase.GetUDefFieldRows
+- uid: System.Func{SuperOffice.Data.UDefType,System.Int32}
+  commentId: T:System.Func{SuperOffice.Data.UDefType,System.Int32}
+  parent: System
+  definition: System.Func`2
+  name: Func<UDefType, Int32>
+  nameWithType: Func<UDefType, Int32>
+  fullName: System.Func<SuperOffice.Data.UDefType, System.Int32>
+  nameWithType.vb: Func(Of UDefType, Int32)
+  fullName.vb: System.Func(Of SuperOffice.Data.UDefType, System.Int32)
+  name.vb: Func(Of UDefType, Int32)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldRows
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDefFieldRows
+  nameWithType: UDefFieldRows
+  fullName: SuperOffice.CRM.Rows.UDefFieldRows
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Lists.UdefFieldsProviderBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.UdefFieldsProviderBase.#ctor
+  isExternal: true
+  name: UdefFieldsProviderBase
+  nameWithType: UdefFieldsProviderBase.UdefFieldsProviderBase
+  fullName: SuperOffice.CRM.Lists.UdefFieldsProviderBase.UdefFieldsProviderBase

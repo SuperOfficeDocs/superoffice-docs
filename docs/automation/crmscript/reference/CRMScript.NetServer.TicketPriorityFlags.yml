@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketPriorityFlags
+  # Same as SuperOffice.Data.TicketPriorityFlags
+  commentId: T:CRMScript.NetServer.TicketPriorityFlags
+  id: TicketPriorityFlags
+  children:
+  - CRMScript.NetServer.TicketPriorityFlags.AlertSchedule
+  - CRMScript.NetServer.TicketPriorityFlags.Default
+  - CRMScript.NetServer.TicketPriorityFlags.External
+  - CRMScript.NetServer.TicketPriorityFlags.Unknown
+  langs:
+  - crmscript
+  name: TicketPriorityFlags
+  nameWithType: TicketPriorityFlags
+  fullName: CRMScript.NetServer.TicketPriorityFlags
+  type: Enum
+  summary: "\nFlags for the ticket priority. Consists of flag values that can be combined.\n"
+- uid: CRMScript.NetServer.TicketPriorityFlags.Unknown
+  commentId: F:CRMScript.NetServer.TicketPriorityFlags.Unknown
+  id: Unknown
+  langs:
+  - crmscript
+  name: Unknown
+  nameWithType: TicketPriorityFlags.Unknown
+  fullName: CRMScript.NetServer.TicketPriorityFlags.Unknown
+  type: Field
+  summary: "\n0: No flags set\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: CRMScript.NetServer.TicketPriorityFlags
+- uid: CRMScript.NetServer.TicketPriorityFlags.External
+  commentId: F:CRMScript.NetServer.TicketPriorityFlags.External
+  id: External
+  langs:
+  - crmscript
+  name: External
+  nameWithType: TicketPriorityFlags.External
+  fullName: CRMScript.NetServer.TicketPriorityFlags.External
+  type: Field
+  summary: "\n1: The ticket priority will be available in the Customer Centre\n"
+  syntax:
+    content: External = 1
+    return:
+      type: CRMScript.NetServer.TicketPriorityFlags
+- uid: CRMScript.NetServer.TicketPriorityFlags.Default
+  commentId: F:CRMScript.NetServer.TicketPriorityFlags.Default
+  id: Default
+  langs:
+  - crmscript
+  name: Default
+  nameWithType: TicketPriorityFlags.Default
+  fullName: CRMScript.NetServer.TicketPriorityFlags.Default
+  type: Field
+  summary: "\n2: This is the ticket priority that should default be set in the UI when creating a request\n"
+  syntax:
+    content: Default = 2
+    return:
+      type: CRMScript.NetServer.TicketPriorityFlags
+- uid: CRMScript.NetServer.TicketPriorityFlags.AlertSchedule
+  commentId: F:CRMScript.NetServer.TicketPriorityFlags.AlertSchedule
+  id: AlertSchedule
+  langs:
+  - crmscript
+  name: AlertSchedule
+  nameWithType: TicketPriorityFlags.AlertSchedule
+  fullName: CRMScript.NetServer.TicketPriorityFlags.AlertSchedule
+  type: Field
+  summary: "\n4: Escalate requests according to time frame\n"
+  syntax:
+    content: AlertSchedule = 4
+    return:
+      type: CRMScript.NetServer.TicketPriorityFlags
+references:
+- uid: CRMScript.NetServer.TicketPriorityFlags
+  commentId: T:CRMScript.NetServer.TicketPriorityFlags
+  isExternal: true
+  name: TicketPriorityFlags
+  nameWithType: TicketPriorityFlags
+  fullName: CRMScript.NetServer.TicketPriorityFlags

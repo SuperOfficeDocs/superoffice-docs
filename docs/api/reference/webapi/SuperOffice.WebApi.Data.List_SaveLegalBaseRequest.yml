@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveLegalBaseRequest
+  id: List_SaveLegalBaseRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: List_SaveLegalBaseRequest
+  nameWithType: List_SaveLegalBaseRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveLegalBaseRequest : Object'
+    content.vb: >-
+      Public Class List_SaveLegalBaseRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveLegalBaseRequest()
+  nameWithType: List_SaveLegalBaseRequest.List_SaveLegalBaseRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.List_SaveLegalBaseRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveLegalBaseRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase
+  commentId: P:SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase
+  id: LegalBase
+  parent: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest
+  langs:
+  - csharp
+  - vb
+  name: LegalBase
+  nameWithType: List_SaveLegalBaseRequest.LegalBase
+  fullName: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public LegalBase LegalBase { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LegalBase
+    content.vb: Public Property LegalBase As LegalBase
+  overload: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.#ctor
+  isExternal: true
+  name: List_SaveLegalBaseRequest
+  nameWithType: List_SaveLegalBaseRequest.List_SaveLegalBaseRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.List_SaveLegalBaseRequest
+- uid: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase
+  isExternal: true
+  name: LegalBase
+  nameWithType: List_SaveLegalBaseRequest.LegalBase
+  fullName: SuperOffice.WebApi.Data.List_SaveLegalBaseRequest.LegalBase
+- uid: SuperOffice.WebApi.Data.LegalBase
+  commentId: T:SuperOffice.WebApi.Data.LegalBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LegalBase
+  nameWithType: LegalBase
+  fullName: SuperOffice.WebApi.Data.LegalBase

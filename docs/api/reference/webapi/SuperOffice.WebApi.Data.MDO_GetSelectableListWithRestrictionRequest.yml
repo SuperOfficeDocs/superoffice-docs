@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  id: MDO_GetSelectableListWithRestrictionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name
+  - SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetSelectableListWithRestrictionRequest
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_GetSelectableListWithRestrictionRequest : Object'
+    content.vb: >-
+      Public Class MDO_GetSelectableListWithRestrictionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetSelectableListWithRestrictionRequest()
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.MDO_GetSelectableListWithRestrictionRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.MDO_GetSelectableListWithRestrictionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_GetSelectableListWithRestrictionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  id: AdditionalInfo
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AdditionalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdditionalInfo As String
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  id: SearchValue
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest
+  langs:
+  - csharp
+  - vb
+  name: SearchValue
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SearchValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchValue As String
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.#ctor
+  isExternal: true
+  name: MDO_GetSelectableListWithRestrictionRequest
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.MDO_GetSelectableListWithRestrictionRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.MDO_GetSelectableListWithRestrictionRequest
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.AdditionalInfo
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  isExternal: true
+  name: SearchValue
+  nameWithType: MDO_GetSelectableListWithRestrictionRequest.SearchValue
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableListWithRestrictionRequest.SearchValue

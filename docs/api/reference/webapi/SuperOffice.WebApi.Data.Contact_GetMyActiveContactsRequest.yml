@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  id: Contact_GetMyActiveContactsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType
+  - SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime
+  - SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetMyActiveContactsRequest
+  nameWithType: Contact_GetMyActiveContactsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetMyActiveContactsRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetMyActiveContactsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetMyActiveContactsRequest()
+  nameWithType: Contact_GetMyActiveContactsRequest.Contact_GetMyActiveContactsRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.Contact_GetMyActiveContactsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetMyActiveContactsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime
+  id: ActivityStartTime
+  parent: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivityStartTime
+  nameWithType: Contact_GetMyActiveContactsRequest.ActivityStartTime
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ActivityStartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ActivityStartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories
+  id: ContactCategories
+  parent: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactCategories
+  nameWithType: Contact_GetMyActiveContactsRequest.ContactCategories
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ContactCategories { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ContactCategories As Integer()
+  overload: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType
+  id: ActionType
+  parent: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: Contact_GetMyActiveContactsRequest.ActionType
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ContactAction ActionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Property ActionType As ContactAction
+  overload: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.#ctor
+  isExternal: true
+  name: Contact_GetMyActiveContactsRequest
+  nameWithType: Contact_GetMyActiveContactsRequest.Contact_GetMyActiveContactsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.Contact_GetMyActiveContactsRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime
+  isExternal: true
+  name: ActivityStartTime
+  nameWithType: Contact_GetMyActiveContactsRequest.ActivityStartTime
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActivityStartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories
+  isExternal: true
+  name: ContactCategories
+  nameWithType: Contact_GetMyActiveContactsRequest.ContactCategories
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ContactCategories
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType
+  isExternal: true
+  name: ActionType
+  nameWithType: Contact_GetMyActiveContactsRequest.ActionType
+  fullName: SuperOffice.WebApi.Data.Contact_GetMyActiveContactsRequest.ActionType
+- uid: SuperOffice.WebApi.Data.ContactAction
+  commentId: T:SuperOffice.WebApi.Data.ContactAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ContactAction
+  nameWithType: ContactAction
+  fullName: SuperOffice.WebApi.Data.ContactAction

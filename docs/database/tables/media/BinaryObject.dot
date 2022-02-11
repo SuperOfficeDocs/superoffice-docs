@@ -1,0 +1,11 @@
+digraph BinaryObject  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+BinaryObject[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+BinaryObjectLink[fillcolor = "azure1"]
+BinaryObject -> associate [headlabel = "registered_associate_id"]
+BinaryObject -> associate [label = "updated_associate_id"]
+BinaryObjectLink -> BinaryObject [label = "binaryObjectId"]
+}

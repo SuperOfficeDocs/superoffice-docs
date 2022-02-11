@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_AddPersonRequest
+  id: Contact_AddPersonRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_AddPersonRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId
+  - SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact_AddPersonRequest
+  nameWithType: Contact_AddPersonRequest
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_AddPersonRequest : Object'
+    content.vb: >-
+      Public Class Contact_AddPersonRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_AddPersonRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_AddPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_AddPersonRequest()
+  nameWithType: Contact_AddPersonRequest.Contact_AddPersonRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest.Contact_AddPersonRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_AddPersonRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_AddPersonRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Contact_AddPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Contact_AddPersonRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity
+  commentId: P:SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity
+  id: NewPersonEntity
+  parent: SuperOffice.WebApi.Data.Contact_AddPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: NewPersonEntity
+  nameWithType: Contact_AddPersonRequest.NewPersonEntity
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PersonEntity NewPersonEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PersonEntity
+    content.vb: Public Property NewPersonEntity As PersonEntity
+  overload: SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_AddPersonRequest.#ctor
+  isExternal: true
+  name: Contact_AddPersonRequest
+  nameWithType: Contact_AddPersonRequest.Contact_AddPersonRequest
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest.Contact_AddPersonRequest
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Contact_AddPersonRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity
+  isExternal: true
+  name: NewPersonEntity
+  nameWithType: Contact_AddPersonRequest.NewPersonEntity
+  fullName: SuperOffice.WebApi.Data.Contact_AddPersonRequest.NewPersonEntity
+- uid: SuperOffice.WebApi.Data.PersonEntity
+  commentId: T:SuperOffice.WebApi.Data.PersonEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.WebApi.Data.PersonEntity

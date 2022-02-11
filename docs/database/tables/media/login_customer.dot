@@ -1,0 +1,8 @@
+digraph login_customer  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+login_customer[fillcolor = "cadetblue1"]
+person[fillcolor = "azure1"]
+login_customer -> person [headlabel = "customer_id"]
+}

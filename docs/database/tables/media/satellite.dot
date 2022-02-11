@@ -1,0 +1,15 @@
+digraph satellite  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+satellite[fillcolor = "cadetblue1"]
+area[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+LicenseSatlLink[fillcolor = "azure1"]
+satellite -> area [headlabel = "area_id"]
+satellite -> contact [headlabel = "contact_id"]
+satellite -> associate [headlabel = "registered_associate_id"]
+satellite -> associate [label = "updated_associate_id"]
+LicenseSatlLink -> satellite [label = "satelliteId"]
+}

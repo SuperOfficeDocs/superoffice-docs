@@ -45,7 +45,7 @@ This is usually initiated by the customer.
 
 <!-- Referenced links -->
 [1]: validate-app.md
-[2]: ../../license/expander-services/index.md
+[2]: ../../admin/license/expander-services/index.md
 [3]: ../provisioning/index.md
 [4]: ../provisioning/consent.md
 [5]: https://community.superoffice.com/activate-custom-application

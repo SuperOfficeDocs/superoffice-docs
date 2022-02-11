@@ -1,0 +1,10 @@
+digraph TrayApp  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TrayApp[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+TrayApp -> associate [headlabel = "associateId"]
+TrayApp -> associate [label = "registered_associate_id"]
+TrayApp -> associate [label = "updated_associate_id"]
+}

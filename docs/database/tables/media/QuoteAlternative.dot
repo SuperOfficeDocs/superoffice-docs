@@ -1,0 +1,16 @@
+digraph QuoteAlternative  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+QuoteAlternative[fillcolor = "cadetblue1"]
+QuoteVersion[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+Quote[fillcolor = "azure1"]
+QuoteLine[fillcolor = "azure1"]
+QuoteAlternative -> QuoteVersion [headlabel = "QuoteVersionId"]
+QuoteAlternative -> associate [headlabel = "registered_associate_id"]
+QuoteAlternative -> associate [label = "updated_associate_id"]
+Quote -> QuoteAlternative [label = "AcceptedQuoteAlternativeId"]
+QuoteVersion -> QuoteAlternative [label = "LikelyQuoteAlternativeId"]
+QuoteLine -> QuoteAlternative [label = "QuoteAlternativeId"]
+}

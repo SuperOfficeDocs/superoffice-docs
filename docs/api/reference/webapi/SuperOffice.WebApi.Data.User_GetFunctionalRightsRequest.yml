@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest
+  id: User_GetFunctionalRightsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId
+  langs:
+  - csharp
+  - vb
+  name: User_GetFunctionalRightsRequest
+  nameWithType: User_GetFunctionalRightsRequest
+  fullName: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetFunctionalRightsRequest : Object'
+    content.vb: >-
+      Public Class User_GetFunctionalRightsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetFunctionalRightsRequest()
+  nameWithType: User_GetFunctionalRightsRequest.User_GetFunctionalRightsRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.User_GetFunctionalRightsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetFunctionalRightsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId
+  commentId: P:SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId
+  id: RoleId
+  parent: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: User_GetFunctionalRightsRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RoleId As Integer
+  overload: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.#ctor
+  isExternal: true
+  name: User_GetFunctionalRightsRequest
+  nameWithType: User_GetFunctionalRightsRequest.User_GetFunctionalRightsRequest
+  fullName: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.User_GetFunctionalRightsRequest
+- uid: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: User_GetFunctionalRightsRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.User_GetFunctionalRightsRequest.RoleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StringObjectDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringObjectDictionary
+  id: StringObjectDictionary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StringObjectDictionary.#ctor
+  - SuperOffice.WebApi.Data.StringObjectDictionary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: SuperOffice.WebApi.Data.StringObjectDictionary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSerializable dictionary.\nThis class works as a regular dictionary. The only restriction is that the string is a value type\n"
+  syntax:
+    content: 'public class StringObjectDictionary : Dictionary<string, object>'
+    content.vb: >-
+      Public Class StringObjectDictionary
+          Inherits Dictionary(Of String, Object)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.StringObjectDictionary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.StringObjectDictionary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.StringObjectDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringObjectDictionary()
+  nameWithType: StringObjectDictionary.StringObjectDictionary()
+  fullName: SuperOffice.WebApi.Data.StringObjectDictionary.StringObjectDictionary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public StringObjectDictionary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.StringObjectDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StringObjectDictionary.ToString(System.String)
+  commentId: M:SuperOffice.WebApi.Data.StringObjectDictionary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.WebApi.Data.StringObjectDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: StringObjectDictionary.ToString(String)
+  fullName: SuperOffice.WebApi.Data.StringObjectDictionary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.WebApi.Data.StringObjectDictionary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.StringObjectDictionary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.StringObjectDictionary.#ctor
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary.StringObjectDictionary
+  fullName: SuperOffice.WebApi.Data.StringObjectDictionary.StringObjectDictionary
+- uid: SuperOffice.WebApi.Data.StringObjectDictionary.ToString*
+  commentId: Overload:SuperOffice.WebApi.Data.StringObjectDictionary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: StringObjectDictionary.ToString
+  fullName: SuperOffice.WebApi.Data.StringObjectDictionary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

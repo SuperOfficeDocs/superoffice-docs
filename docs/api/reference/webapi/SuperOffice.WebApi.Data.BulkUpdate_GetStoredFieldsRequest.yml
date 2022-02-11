@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest
+  id: BulkUpdate_GetStoredFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context
+  - SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_GetStoredFieldsRequest
+  nameWithType: BulkUpdate_GetStoredFieldsRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class BulkUpdate_GetStoredFieldsRequest : Object'
+    content.vb: >-
+      Public Class BulkUpdate_GetStoredFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdate_GetStoredFieldsRequest()
+  nameWithType: BulkUpdate_GetStoredFieldsRequest.BulkUpdate_GetStoredFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.BulkUpdate_GetStoredFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public BulkUpdate_GetStoredFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename
+  id: Tablename
+  parent: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: Tablename
+  nameWithType: BulkUpdate_GetStoredFieldsRequest.Tablename
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Tablename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tablename As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: BulkUpdate_GetStoredFieldsRequest.Context
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.#ctor
+  isExternal: true
+  name: BulkUpdate_GetStoredFieldsRequest
+  nameWithType: BulkUpdate_GetStoredFieldsRequest.BulkUpdate_GetStoredFieldsRequest
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.BulkUpdate_GetStoredFieldsRequest
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename
+  isExternal: true
+  name: Tablename
+  nameWithType: BulkUpdate_GetStoredFieldsRequest.Tablename
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Tablename
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: BulkUpdate_GetStoredFieldsRequest.Context
+  fullName: SuperOffice.WebApi.Data.BulkUpdate_GetStoredFieldsRequest.Context

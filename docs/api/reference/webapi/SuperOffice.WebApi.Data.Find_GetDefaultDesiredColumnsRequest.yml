@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  id: Find_GetDefaultDesiredColumnsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_GetDefaultDesiredColumnsRequest
+  nameWithType: Find_GetDefaultDesiredColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_GetDefaultDesiredColumnsRequest : Object'
+    content.vb: >-
+      Public Class Find_GetDefaultDesiredColumnsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_GetDefaultDesiredColumnsRequest()
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.Find_GetDefaultDesiredColumnsRequest()
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.Find_GetDefaultDesiredColumnsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_GetDefaultDesiredColumnsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.#ctor
+  isExternal: true
+  name: Find_GetDefaultDesiredColumnsRequest
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.Find_GetDefaultDesiredColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.Find_GetDefaultDesiredColumnsRequest
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_GetDefaultDesiredColumnsRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsRequest.StorageKey

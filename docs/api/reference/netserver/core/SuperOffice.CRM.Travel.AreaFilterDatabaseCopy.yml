@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
+  commentId: T:SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
+  id: AreaFilterDatabaseCopy
+  parent: SuperOffice.CRM.Travel
+  children:
+  - SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.#ctor(SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CRM.Travel.OnStartOfTable,SuperOffice.CRM.Travel.OnProcessRow,SuperOffice.CRM.Travel.OnEndOfTable,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AreaFilterDatabaseCopy
+  nameWithType: AreaFilterDatabaseCopy
+  fullName: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Travel
+  summary: "\nCreate a new child database, using Area filtering and copy only Prototype-marked tables\n"
+  syntax:
+    content: 'public class AreaFilterDatabaseCopy : DatabaseCopyParent'
+    content.vb: >-
+      Public Class AreaFilterDatabaseCopy
+          Inherits DatabaseCopyParent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Travel.DatabaseCopyParent
+  inheritedMembers:
+  - SuperOffice.CRM.Travel.DatabaseCopyParent.TravelLogCategory
+  - SuperOffice.CRM.Travel.DatabaseCopyParent.Run(System.Boolean)
+  - SuperOffice.CRM.Travel.DatabaseCopyParent.TablesToCopy
+  - SuperOffice.CRM.Travel.DatabaseCopyParent.Source
+  - SuperOffice.CRM.Travel.DatabaseCopyParent.Destination
+  - SuperOffice.CRM.Travel.DatabaseCopyParent.Model
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.#ctor(SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CRM.Travel.OnStartOfTable,SuperOffice.CRM.Travel.OnProcessRow,SuperOffice.CRM.Travel.OnEndOfTable,System.Int32)
+  commentId: M:SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.#ctor(SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CRM.Travel.OnStartOfTable,SuperOffice.CRM.Travel.OnProcessRow,SuperOffice.CRM.Travel.OnEndOfTable,System.Int32)
+  id: '#ctor(SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement,SuperOffice.CRM.Travel.OnStartOfTable,SuperOffice.CRM.Travel.OnProcessRow,SuperOffice.CRM.Travel.OnEndOfTable,System.Int32)'
+  parent: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
+  langs:
+  - csharp
+  - vb
+  name: AreaFilterDatabaseCopy(DatabaseManagement, DatabaseManagement, OnStartOfTable, OnProcessRow, OnEndOfTable, Int32)
+  nameWithType: AreaFilterDatabaseCopy.AreaFilterDatabaseCopy(DatabaseManagement, DatabaseManagement, OnStartOfTable, OnProcessRow, OnEndOfTable, Int32)
+  fullName: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.AreaFilterDatabaseCopy(SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement, SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement, SuperOffice.CRM.Travel.OnStartOfTable, SuperOffice.CRM.Travel.OnProcessRow, SuperOffice.CRM.Travel.OnEndOfTable, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Travel
+  syntax:
+    content: public AreaFilterDatabaseCopy(DatabaseManagement source, DatabaseManagement destination, OnStartOfTable onStart, OnProcessRow onProcess, OnEndOfTable onEnd, int areaId)
+    parameters:
+    - id: source
+      type: SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement
+    - id: destination
+      type: SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement
+    - id: onStart
+      type: SuperOffice.CRM.Travel.OnStartOfTable
+    - id: onProcess
+      type: SuperOffice.CRM.Travel.OnProcessRow
+    - id: onEnd
+      type: SuperOffice.CRM.Travel.OnEndOfTable
+    - id: areaId
+      type: System.Int32
+    content.vb: Public Sub New(source As DatabaseManagement, destination As DatabaseManagement, onStart As OnStartOfTable, onProcess As OnProcessRow, onEnd As OnEndOfTable, areaId As Integer)
+  overload: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Travel
+  commentId: N:SuperOffice.CRM.Travel
+  isExternal: true
+  name: SuperOffice.CRM.Travel
+  nameWithType: SuperOffice.CRM.Travel
+  fullName: SuperOffice.CRM.Travel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent
+  commentId: T:SuperOffice.CRM.Travel.DatabaseCopyParent
+  parent: SuperOffice.CRM.Travel
+  isExternal: true
+  name: DatabaseCopyParent
+  nameWithType: DatabaseCopyParent
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent.TravelLogCategory
+  commentId: F:SuperOffice.CRM.Travel.DatabaseCopyParent.TravelLogCategory
+  parent: SuperOffice.CRM.Travel.DatabaseCopyParent
+  isExternal: true
+  name: TravelLogCategory
+  nameWithType: DatabaseCopyParent.TravelLogCategory
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.TravelLogCategory
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent.Run(System.Boolean)
+  commentId: M:SuperOffice.CRM.Travel.DatabaseCopyParent.Run(System.Boolean)
+  parent: SuperOffice.CRM.Travel.DatabaseCopyParent
+  isExternal: true
+  name: Run(Boolean)
+  nameWithType: DatabaseCopyParent.Run(Boolean)
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.Run(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Travel.DatabaseCopyParent.Run(System.Boolean)
+    name: Run
+    nameWithType: DatabaseCopyParent.Run
+    fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.Run
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Travel.DatabaseCopyParent.Run(System.Boolean)
+    name: Run
+    nameWithType: DatabaseCopyParent.Run
+    fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.Run
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent.TablesToCopy
+  commentId: P:SuperOffice.CRM.Travel.DatabaseCopyParent.TablesToCopy
+  parent: SuperOffice.CRM.Travel.DatabaseCopyParent
+  isExternal: true
+  name: TablesToCopy
+  nameWithType: DatabaseCopyParent.TablesToCopy
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.TablesToCopy
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent.Source
+  commentId: P:SuperOffice.CRM.Travel.DatabaseCopyParent.Source
+  parent: SuperOffice.CRM.Travel.DatabaseCopyParent
+  isExternal: true
+  name: Source
+  nameWithType: DatabaseCopyParent.Source
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.Source
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent.Destination
+  commentId: P:SuperOffice.CRM.Travel.DatabaseCopyParent.Destination
+  parent: SuperOffice.CRM.Travel.DatabaseCopyParent
+  isExternal: true
+  name: Destination
+  nameWithType: DatabaseCopyParent.Destination
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.Destination
+- uid: SuperOffice.CRM.Travel.DatabaseCopyParent.Model
+  commentId: P:SuperOffice.CRM.Travel.DatabaseCopyParent.Model
+  parent: SuperOffice.CRM.Travel.DatabaseCopyParent
+  isExternal: true
+  name: Model
+  nameWithType: DatabaseCopyParent.Model
+  fullName: SuperOffice.CRM.Travel.DatabaseCopyParent.Model
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AreaFilterDatabaseCopy, To>()
+  nameWithType: EnumUtil.MapEnums<AreaFilterDatabaseCopy, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AreaFilterDatabaseCopy, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To)()
+  name.vb: MapEnums(Of AreaFilterDatabaseCopy, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AreaFilterDatabaseCopy, To>
+    nameWithType: EnumUtil.MapEnums<AreaFilterDatabaseCopy, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AreaFilterDatabaseCopy, To)
+    nameWithType: EnumUtil.MapEnums(Of AreaFilterDatabaseCopy, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AreaFilterDatabaseCopy, To>()
+  nameWithType: Converters.MapEnums<AreaFilterDatabaseCopy, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To>()
+  nameWithType.vb: Converters.MapEnums(Of AreaFilterDatabaseCopy, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To)()
+  name.vb: MapEnums(Of AreaFilterDatabaseCopy, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AreaFilterDatabaseCopy, To>
+    nameWithType: Converters.MapEnums<AreaFilterDatabaseCopy, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AreaFilterDatabaseCopy, To)
+    nameWithType: Converters.MapEnums(Of AreaFilterDatabaseCopy, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Travel.AreaFilterDatabaseCopy, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.#ctor*
+  commentId: Overload:SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.#ctor
+  isExternal: true
+  name: AreaFilterDatabaseCopy
+  nameWithType: AreaFilterDatabaseCopy.AreaFilterDatabaseCopy
+  fullName: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.AreaFilterDatabaseCopy
+- uid: SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement
+  isExternal: true
+  name: DatabaseManagement
+  nameWithType: DatabaseManagement
+  fullName: SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement
+- uid: SuperOffice.CRM.Travel.OnStartOfTable
+  commentId: T:SuperOffice.CRM.Travel.OnStartOfTable
+  parent: SuperOffice.CRM.Travel
+  isExternal: true
+  name: OnStartOfTable
+  nameWithType: OnStartOfTable
+  fullName: SuperOffice.CRM.Travel.OnStartOfTable
+- uid: SuperOffice.CRM.Travel.OnProcessRow
+  commentId: T:SuperOffice.CRM.Travel.OnProcessRow
+  parent: SuperOffice.CRM.Travel
+  isExternal: true
+  name: OnProcessRow
+  nameWithType: OnProcessRow
+  fullName: SuperOffice.CRM.Travel.OnProcessRow
+- uid: SuperOffice.CRM.Travel.OnEndOfTable
+  commentId: T:SuperOffice.CRM.Travel.OnEndOfTable
+  parent: SuperOffice.CRM.Travel
+  isExternal: true
+  name: OnEndOfTable
+  nameWithType: OnEndOfTable
+  fullName: SuperOffice.CRM.Travel.OnEndOfTable
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

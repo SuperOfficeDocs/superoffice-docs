@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.SchemaValidation
+  commentId: T:SuperOffice.Configuration.SchemaValidation
+  id: SchemaValidation
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.SchemaValidation.#ctor
+  - SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.String,System.Object,System.String)
+  - SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.Xml.XmlNode,System.Object,System.String)
+  - SuperOffice.Configuration.SchemaValidation.ValidatePage(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SchemaValidation
+  nameWithType: SchemaValidation
+  fullName: SuperOffice.Configuration.SchemaValidation
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  summary: "\nValidates the generic parts of the page configurations and config sections of each element.\n"
+  syntax:
+    content: public class SchemaValidation
+    content.vb: Public Class SchemaValidation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Configuration.SchemaValidation.ValidatePage(System.String,System.String)
+  commentId: M:SuperOffice.Configuration.SchemaValidation.ValidatePage(System.String,System.String)
+  id: ValidatePage(System.String,System.String)
+  parent: SuperOffice.Configuration.SchemaValidation
+  langs:
+  - csharp
+  - vb
+  name: ValidatePage(String, String)
+  nameWithType: SchemaValidation.ValidatePage(String, String)
+  fullName: SuperOffice.Configuration.SchemaValidation.ValidatePage(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  summary: "\nValidates the generic parts of the page configuration such as page/panel/card/view/controlgroup/control.\n<remarks>\nAfter successful validation, schema defaults are applied, \ntext values are converted to atomic values as necessary, \nand type information is associated with validated information items. \nAs a result, typed XML data replaces previously untyped XML data.\n</remarks>\n"
+  syntax:
+    content: public static XmlDocument ValidatePage(string xml, string id)
+    parameters:
+    - id: xml
+      type: System.String
+      description: The complete page configuration
+    - id: id
+      type: System.String
+    return:
+      type: System.Xml.XmlDocument
+      description: 'The validated xml '
+    content.vb: Public Shared Function ValidatePage(xml As String, id As String) As XmlDocument
+  overload: SuperOffice.Configuration.SchemaValidation.ValidatePage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.String,System.Object,System.String)
+  commentId: M:SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.String,System.Object,System.String)
+  id: ValidateConfig(System.String,System.Object,System.String)
+  parent: SuperOffice.Configuration.SchemaValidation
+  langs:
+  - csharp
+  - vb
+  name: ValidateConfig(String, Object, String)
+  nameWithType: SchemaValidation.ValidateConfig(String, Object, String)
+  fullName: SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.String, System.Object, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  summary: "\nValidates the config section of an element that carries a schema.\n"
+  remarks: "\nAfter successful validation, schema defaults are applied, \ntext values are converted to atomic values as necessary, \nand type information is associated with validated information items. \nAs a result, typed XML data replaces previously untyped XML data.\n"
+  syntax:
+    content: public static XmlNode ValidateConfig(string configXml, object control, string id)
+    parameters:
+    - id: configXml
+      type: System.String
+      description: The config selction of the elements configuration.
+    - id: control
+      type: System.Object
+      description: The instance of the element that carries the schema.
+    - id: id
+      type: System.String
+    return:
+      type: System.Xml.XmlNode
+      description: True after a successful validation.
+    content.vb: Public Shared Function ValidateConfig(configXml As String, control As Object, id As String) As XmlNode
+  overload: SuperOffice.Configuration.SchemaValidation.ValidateConfig*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.Xml.XmlNode,System.Object,System.String)
+  commentId: M:SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.Xml.XmlNode,System.Object,System.String)
+  id: ValidateConfig(System.Xml.XmlNode,System.Object,System.String)
+  parent: SuperOffice.Configuration.SchemaValidation
+  langs:
+  - csharp
+  - vb
+  name: ValidateConfig(XmlNode, Object, String)
+  nameWithType: SchemaValidation.ValidateConfig(XmlNode, Object, String)
+  fullName: SuperOffice.Configuration.SchemaValidation.ValidateConfig(System.Xml.XmlNode, System.Object, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  summary: "\nValidates the config section of an element that carries a schema.\n"
+  remarks: "\nAfter successful validation, schema defaults are applied, \ntext values are converted to atomic values as necessary, \nand type information is associated with validated information items. \nAs a result, typed XML data replaces previously untyped XML data.\n"
+  syntax:
+    content: public static XmlNode ValidateConfig(XmlNode configXml, object control, string id)
+    parameters:
+    - id: configXml
+      type: System.Xml.XmlNode
+      description: The config selction of the elements configuration.
+    - id: control
+      type: System.Object
+      description: The instance of the element that carries the schema.
+    - id: id
+      type: System.String
+      description: The objects configuration id
+    return:
+      type: System.Xml.XmlNode
+      description: True after a successful validation.
+    content.vb: Public Shared Function ValidateConfig(configXml As XmlNode, control As Object, id As String) As XmlNode
+  overload: SuperOffice.Configuration.SchemaValidation.ValidateConfig*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.SchemaValidation.#ctor
+  commentId: M:SuperOffice.Configuration.SchemaValidation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Configuration.SchemaValidation
+  langs:
+  - csharp
+  - vb
+  name: SchemaValidation()
+  nameWithType: SchemaValidation.SchemaValidation()
+  fullName: SuperOffice.Configuration.SchemaValidation.SchemaValidation()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public SchemaValidation()
+    content.vb: Public Sub New
+  overload: SuperOffice.Configuration.SchemaValidation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.SchemaValidation.ValidatePage*
+  commentId: Overload:SuperOffice.Configuration.SchemaValidation.ValidatePage
+  isExternal: true
+  name: ValidatePage
+  nameWithType: SchemaValidation.ValidatePage
+  fullName: SuperOffice.Configuration.SchemaValidation.ValidatePage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.Configuration.SchemaValidation.ValidateConfig*
+  commentId: Overload:SuperOffice.Configuration.SchemaValidation.ValidateConfig
+  isExternal: true
+  name: ValidateConfig
+  nameWithType: SchemaValidation.ValidateConfig
+  fullName: SuperOffice.Configuration.SchemaValidation.ValidateConfig
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.Configuration.SchemaValidation.#ctor*
+  commentId: Overload:SuperOffice.Configuration.SchemaValidation.#ctor
+  isExternal: true
+  name: SchemaValidation
+  nameWithType: SchemaValidation.SchemaValidation
+  fullName: SuperOffice.Configuration.SchemaValidation.SchemaValidation

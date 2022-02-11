@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  commentId: T:SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  id: SoAjaxVisibility
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.SoAjaxVisibility.Client
+  - SuperOffice.DCF.Web.UI.SoAjaxVisibility.ClientAndServer
+  - SuperOffice.DCF.Web.UI.SoAjaxVisibility.Server
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxVisibility
+  nameWithType: SoAjaxVisibility
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum SoAjaxVisibility
+    content.vb: >-
+      <Flags>
+
+      Public Enum SoAjaxVisibility
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.SoAjaxVisibility.Client
+  commentId: F:SuperOffice.DCF.Web.UI.SoAjaxVisibility.Client
+  id: Client
+  parent: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: SoAjaxVisibility.Client
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxVisibility.Client
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Client = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.SoAjaxVisibility.Server
+  commentId: F:SuperOffice.DCF.Web.UI.SoAjaxVisibility.Server
+  id: Server
+  parent: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: SoAjaxVisibility.Server
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxVisibility.Server
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Server = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.SoAjaxVisibility.ClientAndServer
+  commentId: F:SuperOffice.DCF.Web.UI.SoAjaxVisibility.ClientAndServer
+  id: ClientAndServer
+  parent: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  langs:
+  - csharp
+  - vb
+  name: ClientAndServer
+  nameWithType: SoAjaxVisibility.ClientAndServer
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxVisibility.ClientAndServer
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: ClientAndServer = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  commentId: T:SuperOffice.DCF.Web.UI.SoAjaxVisibility
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SoAjaxVisibility
+  nameWithType: SoAjaxVisibility
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxVisibility

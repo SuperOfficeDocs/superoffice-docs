@@ -1,0 +1,11 @@
+digraph invitation  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+invitation[fillcolor = "cadetblue1"]
+appointment[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+invitation -> appointment [headlabel = "appointment_id"]
+invitation -> associate [headlabel = "registered_associate_id"]
+invitation -> associate [label = "updated_associate_id"]
+}

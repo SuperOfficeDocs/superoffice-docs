@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.PageBase
+  commentId: T:SuperOffice.DCF.Web.UI.PageBase
+  id: PageBase
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.PageBase.#ctor
+  - SuperOffice.DCF.Web.UI.PageBase.OnInit(System.EventArgs)
+  - SuperOffice.DCF.Web.UI.PageBase.Page_Error(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PageBase
+  nameWithType: PageBase
+  fullName: SuperOffice.DCF.Web.UI.PageBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: 'public class PageBase : Page'
+    content.vb: >-
+      Public Class PageBase
+          Inherits Page
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.PageBase.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.PageBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.PageBase
+  langs:
+  - csharp
+  - vb
+  name: PageBase()
+  nameWithType: PageBase.PageBase()
+  fullName: SuperOffice.DCF.Web.UI.PageBase.PageBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public PageBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.PageBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.PageBase.OnInit(System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBase.OnInit(System.EventArgs)
+  id: OnInit(System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.PageBase
+  langs:
+  - csharp
+  - vb
+  name: OnInit(EventArgs)
+  nameWithType: PageBase.OnInit(EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.PageBase.OnInit(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected override void OnInit(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnInit(e As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.PageBase.OnInit*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.PageBase.Page_Error(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBase.Page_Error(System.Object,System.EventArgs)
+  id: Page_Error(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.PageBase
+  langs:
+  - csharp
+  - vb
+  name: Page_Error(Object, EventArgs)
+  nameWithType: PageBase.Page_Error(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.PageBase.Page_Error(System.Object, System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public void Page_Error(object sender, EventArgs args)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: args
+      type: System.EventArgs
+    content.vb: Public Sub Page_Error(sender As Object, args As EventArgs)
+  overload: SuperOffice.DCF.Web.UI.PageBase.Page_Error*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage(System.String)
+  id: RedirectToErrorPage(System.String)
+  parent: SuperOffice.DCF.Web.UI.PageBase
+  langs:
+  - csharp
+  - vb
+  name: RedirectToErrorPage(String)
+  nameWithType: PageBase.RedirectToErrorPage(String)
+  fullName: SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected void RedirectToErrorPage(string errorCode)
+    parameters:
+    - id: errorCode
+      type: System.String
+    content.vb: Protected Sub RedirectToErrorPage(errorCode As String)
+  overload: SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.PageBase.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBase.#ctor
+  isExternal: true
+  name: PageBase
+  nameWithType: PageBase.PageBase
+  fullName: SuperOffice.DCF.Web.UI.PageBase.PageBase
+- uid: SuperOffice.DCF.Web.UI.PageBase.OnInit*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBase.OnInit
+  isExternal: true
+  name: OnInit
+  nameWithType: PageBase.OnInit
+  fullName: SuperOffice.DCF.Web.UI.PageBase.OnInit
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.DCF.Web.UI.PageBase.Page_Error*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBase.Page_Error
+  isExternal: true
+  name: Page_Error
+  nameWithType: PageBase.Page_Error
+  fullName: SuperOffice.DCF.Web.UI.PageBase.Page_Error
+- uid: SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage*
+  commentId: Overload:SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage
+  isExternal: true
+  name: RedirectToErrorPage
+  nameWithType: PageBase.RedirectToErrorPage
+  fullName: SuperOffice.DCF.Web.UI.PageBase.RedirectToErrorPage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

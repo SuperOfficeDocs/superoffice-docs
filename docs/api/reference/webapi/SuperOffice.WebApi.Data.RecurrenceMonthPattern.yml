@@ -1,0 +1,612 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  id: RecurrenceMonthPattern
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.#ctor
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  - SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceMonthPattern
+  nameWithType: RecurrenceMonthPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RecurrenceMonthPattern.\nClass representing a pattern for monthly recurrence.    \n"
+  syntax:
+    content: 'public class RecurrenceMonthPattern : Object'
+    content.vb: >-
+      Public Class RecurrenceMonthPattern
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RecurrenceMonthPattern.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceMonthPattern()
+  nameWithType: RecurrenceMonthPattern.RecurrenceMonthPattern()
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.RecurrenceMonthPattern()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RecurrenceMonthPattern()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle
+  id: Cycle
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Cycle
+  nameWithType: RecurrenceMonthPattern.Cycle
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of months between each repetition\n"
+  syntax:
+    content: public virtual int Cycle { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Cycle As Integer
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day
+  id: Day
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: RecurrenceMonthPattern.Day
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe day of the month when the recurrence occurs. Only used when the weekday of month pattern occurs. \n"
+  syntax:
+    content: public virtual int Day { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Day As Integer
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  id: Weekday_String
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Weekday_String
+  nameWithType: RecurrenceMonthPattern.Weekday_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nhe weekday of the recurring pattern. Only used when the weekday of month pattern occurs.\nRaw string enum value.\n"
+  syntax:
+    content: public string Weekday_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Weekday_String As String
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  id: Weekday
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Weekday
+  nameWithType: RecurrenceMonthPattern.Weekday
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nhe weekday of the recurring pattern. Only used when the weekday of month pattern occurs.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<Weekday> Weekday { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.Weekday}
+    content.vb: Public Property Weekday As Nullable(Of Weekday)
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  id: WeekOfMonth_String
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: WeekOfMonth_String
+  nameWithType: RecurrenceMonthPattern.WeekOfMonth_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe week of the month. Only used when the weekday of month pattern occurs. \nRaw string enum value.\n"
+  syntax:
+    content: public string WeekOfMonth_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WeekOfMonth_String As String
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  id: WeekOfMonth
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: WeekOfMonth
+  nameWithType: RecurrenceMonthPattern.WeekOfMonth
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe week of the month. Only used when the weekday of month pattern occurs. \nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WeekOfMonth> WeekOfMonth { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WeekOfMonth}
+    content.vb: Public Property WeekOfMonth As Nullable(Of WeekOfMonth)
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  id: Pattern_String
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Pattern_String
+  nameWithType: RecurrenceMonthPattern.Pattern_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of monthly recurrence pattern\nRaw string enum value.\n"
+  syntax:
+    content: public string Pattern_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Pattern_String As String
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  id: Pattern
+  parent: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Pattern
+  nameWithType: RecurrenceMonthPattern.Pattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of monthly recurrence pattern\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RecurrenceMonthlyPattern> Pattern { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RecurrenceMonthlyPattern}
+    content.vb: Public Property Pattern As Nullable(Of RecurrenceMonthlyPattern)
+  overload: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.#ctor
+  isExternal: true
+  name: RecurrenceMonthPattern
+  nameWithType: RecurrenceMonthPattern.RecurrenceMonthPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.RecurrenceMonthPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle
+  isExternal: true
+  name: Cycle
+  nameWithType: RecurrenceMonthPattern.Cycle
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Cycle
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day
+  isExternal: true
+  name: Day
+  nameWithType: RecurrenceMonthPattern.Day
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Day
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  isExternal: true
+  name: Weekday_String
+  nameWithType: RecurrenceMonthPattern.Weekday_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+  isExternal: true
+  name: Weekday
+  nameWithType: RecurrenceMonthPattern.Weekday
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Weekday_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.Weekday}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Weekday}'
+  definition: System.Nullable`1
+  name: Nullable<Weekday>
+  nameWithType: Nullable<Weekday>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.Weekday>
+  nameWithType.vb: Nullable(Of Weekday)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Weekday)
+  name.vb: Nullable(Of Weekday)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Weekday
+    name: Weekday
+    nameWithType: Weekday
+    fullName: SuperOffice.WebApi.Data.Weekday
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Weekday
+    name: Weekday
+    nameWithType: Weekday
+    fullName: SuperOffice.WebApi.Data.Weekday
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  isExternal: true
+  name: WeekOfMonth_String
+  nameWithType: RecurrenceMonthPattern.WeekOfMonth_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+  isExternal: true
+  name: WeekOfMonth
+  nameWithType: RecurrenceMonthPattern.WeekOfMonth
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.WeekOfMonth_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WeekOfMonth}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WeekOfMonth}'
+  definition: System.Nullable`1
+  name: Nullable<WeekOfMonth>
+  nameWithType: Nullable<WeekOfMonth>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WeekOfMonth>
+  nameWithType.vb: Nullable(Of WeekOfMonth)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WeekOfMonth)
+  name.vb: Nullable(Of WeekOfMonth)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WeekOfMonth
+    name: WeekOfMonth
+    nameWithType: WeekOfMonth
+    fullName: SuperOffice.WebApi.Data.WeekOfMonth
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WeekOfMonth
+    name: WeekOfMonth
+    nameWithType: WeekOfMonth
+    fullName: SuperOffice.WebApi.Data.WeekOfMonth
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  isExternal: true
+  name: Pattern_String
+  nameWithType: RecurrenceMonthPattern.Pattern_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+  isExternal: true
+  name: Pattern
+  nameWithType: RecurrenceMonthPattern.Pattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceMonthPattern.Pattern_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.RecurrenceMonthlyPattern}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RecurrenceMonthlyPattern}'
+  definition: System.Nullable`1
+  name: Nullable<RecurrenceMonthlyPattern>
+  nameWithType: Nullable<RecurrenceMonthlyPattern>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RecurrenceMonthlyPattern>
+  nameWithType.vb: Nullable(Of RecurrenceMonthlyPattern)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RecurrenceMonthlyPattern)
+  name.vb: Nullable(Of RecurrenceMonthlyPattern)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RecurrenceMonthlyPattern
+    name: RecurrenceMonthlyPattern
+    nameWithType: RecurrenceMonthlyPattern
+    fullName: SuperOffice.WebApi.Data.RecurrenceMonthlyPattern
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RecurrenceMonthlyPattern
+    name: RecurrenceMonthlyPattern
+    nameWithType: RecurrenceMonthlyPattern
+    fullName: SuperOffice.WebApi.Data.RecurrenceMonthlyPattern
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

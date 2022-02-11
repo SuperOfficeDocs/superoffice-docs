@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  commentId: T:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  id: WindowsIdentityResolver.AcceptToken
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke(System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke(System.IdentityModel.Tokens.SecurityToken)
+  langs:
+  - csharp
+  - vb
+  name: WindowsIdentityResolver.AcceptToken
+  nameWithType: WindowsIdentityResolver.AcceptToken
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: protected delegate bool AcceptToken(SecurityToken token);
+    parameters:
+    - id: token
+      type: System.IdentityModel.Tokens.SecurityToken
+    return:
+      type: System.Boolean
+    content.vb: Protected Delegate Function AcceptToken(token As SecurityToken) As Boolean
+  extensionMethods:
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - protected
+  - delegate
+  modifiers.vb:
+  - Protected
+  - Delegate
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  langs:
+  - csharp
+  - vb
+  name: AcceptToken(Object, IntPtr)
+  nameWithType: WindowsIdentityResolver.AcceptToken.AcceptToken(Object, IntPtr)
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.AcceptToken(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public AcceptToken(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke(System.IdentityModel.Tokens.SecurityToken)
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke(System.IdentityModel.Tokens.SecurityToken)
+  id: Invoke(System.IdentityModel.Tokens.SecurityToken)
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  langs:
+  - csharp
+  - vb
+  name: Invoke(SecurityToken)
+  nameWithType: WindowsIdentityResolver.AcceptToken.Invoke(SecurityToken)
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke(System.IdentityModel.Tokens.SecurityToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public virtual bool Invoke(SecurityToken token)
+    parameters:
+    - id: token
+      type: System.IdentityModel.Tokens.SecurityToken
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function Invoke(token As SecurityToken) As Boolean
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke(System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke(System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(SecurityToken, AsyncCallback, Object)
+  nameWithType: WindowsIdentityResolver.AcceptToken.BeginInvoke(SecurityToken, AsyncCallback, Object)
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke(System.IdentityModel.Tokens.SecurityToken, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(SecurityToken token, AsyncCallback callback, object object)
+    parameters:
+    - id: token
+      type: System.IdentityModel.Tokens.SecurityToken
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(token As SecurityToken, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: WindowsIdentityResolver.AcceptToken.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public virtual bool EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Boolean
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WindowsIdentityResolver.AcceptToken, To>()
+  nameWithType: EnumUtil.MapEnums<WindowsIdentityResolver.AcceptToken, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WindowsIdentityResolver.AcceptToken, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To)()
+  name.vb: MapEnums(Of WindowsIdentityResolver.AcceptToken, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WindowsIdentityResolver.AcceptToken, To>
+    nameWithType: EnumUtil.MapEnums<WindowsIdentityResolver.AcceptToken, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WindowsIdentityResolver.AcceptToken, To)
+    nameWithType: EnumUtil.MapEnums(Of WindowsIdentityResolver.AcceptToken, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WindowsIdentityResolver.AcceptToken, To>()
+  nameWithType: Converters.MapEnums<WindowsIdentityResolver.AcceptToken, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To>()
+  nameWithType.vb: Converters.MapEnums(Of WindowsIdentityResolver.AcceptToken, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To)()
+  name.vb: MapEnums(Of WindowsIdentityResolver.AcceptToken, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WindowsIdentityResolver.AcceptToken, To>
+    nameWithType: Converters.MapEnums<WindowsIdentityResolver.AcceptToken, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WindowsIdentityResolver.AcceptToken, To)
+    nameWithType: Converters.MapEnums(Of WindowsIdentityResolver.AcceptToken, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IdentityModel.Tokens.SecurityToken
+  isExternal: true
+  name: SecurityToken
+  nameWithType: SecurityToken
+  fullName: System.IdentityModel.Tokens.SecurityToken
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.#ctor
+  isExternal: true
+  name: AcceptToken
+  nameWithType: WindowsIdentityResolver.AcceptToken.AcceptToken
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.AcceptToken
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: WindowsIdentityResolver.AcceptToken.Invoke
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.Invoke
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: WindowsIdentityResolver.AcceptToken.BeginInvoke
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: WindowsIdentityResolver.AcceptToken.EndInvoke
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken.EndInvoke

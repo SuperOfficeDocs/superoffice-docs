@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  commentId: T:SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  id: DBC.PhoneFormatFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.PhoneFormatFields
+  nameWithType: DBC.PhoneFormatFields
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for PhoneFormat, Formatting information for telephone numbers\n"
+  syntax:
+    content: public static class PhoneFormatFields
+    content.vb: Public Module PhoneFormatFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
+  id: PhoneFormatId
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: PhoneFormatId
+  nameWithType: DBC.PhoneFormatFields.PhoneFormatId
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.PhoneFormatId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.PhoneFormatId: Primary key\n"
+  syntax:
+    content: public const string PhoneFormatId = "PhoneFormat_id"
+    return:
+      type: System.String
+    content.vb: Public Const PhoneFormatId As String = "PhoneFormat_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: DBC.PhoneFormatFields.CountryId
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.CountryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.CountryId: Country this format record is valid for\n"
+  syntax:
+    content: public const string CountryId = "countryId"
+    return:
+      type: System.String
+    content.vb: Public Const CountryId As String = "countryId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
+  id: Prefix
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: DBC.PhoneFormatFields.Prefix
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Prefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.Prefix: Prefix that triggers this format\n"
+  syntax:
+    content: public const string Prefix = "prefix"
+    return:
+      type: System.String
+    content.vb: Public Const Prefix As String = "prefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
+  id: DontFormat
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: DontFormat
+  nameWithType: DBC.PhoneFormatFields.DontFormat
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.DontFormat
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.DontFormat: If 1, do not apply any formatting to this number\n"
+  syntax:
+    content: public const string DontFormat = "dontFormat"
+    return:
+      type: System.String
+    content.vb: Public Const DontFormat As String = "dontFormat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
+  id: AreaCodeLength
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: AreaCodeLength
+  nameWithType: DBC.PhoneFormatFields.AreaCodeLength
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.AreaCodeLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.AreaCodeLength: Length of area code (can be interval)\n"
+  syntax:
+    content: public const string AreaCodeLength = "areaCodeLength"
+    return:
+      type: System.String
+    content.vb: Public Const AreaCodeLength As String = "areaCodeLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
+  id: LocalLength
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: LocalLength
+  nameWithType: DBC.PhoneFormatFields.LocalLength
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.LocalLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.LocalLength: Length of local part of telephone number (can be interval)\n"
+  syntax:
+    content: public const string LocalLength = "localLength"
+    return:
+      type: System.String
+    content.vb: Public Const LocalLength As String = "localLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
+  id: Mask
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: DBC.PhoneFormatFields.Mask
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Mask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.Mask: Formatting mask to be applied\n"
+  syntax:
+    content: public const string Mask = "mask"
+    return:
+      type: System.String
+    content.vb: Public Const Mask As String = "mask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.PhoneFormatFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.Description: Description of this format\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: DBC.PhoneFormatFields.IsBuiltIn
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.IsBuiltIn: Does this row come from SuperOffice priming data\n"
+  syntax:
+    content: public const string IsBuiltIn = "isBuiltIn"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltIn As String = "isBuiltIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: DBC.PhoneFormatFields.IsActive
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.IsActive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.IsActive: Is this format record active (handy for experimenting)\n"
+  syntax:
+    content: public const string IsActive = "isActive"
+    return:
+      type: System.String
+    content.vb: Public Const IsActive As String = "isActive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.PhoneFormatFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.PhoneFormatFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.PhoneFormatFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.PhoneFormatFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.PhoneFormatFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.PhoneFormatFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.PhoneFormatFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPhoneFormat.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

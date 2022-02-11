@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
+  id: Person_GetAddressByCountryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId
+  - SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetAddressByCountryRequest
+  nameWithType: Person_GetAddressByCountryRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetAddressByCountryRequest : Object'
+    content.vb: >-
+      Public Class Person_GetAddressByCountryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetAddressByCountryRequest()
+  nameWithType: Person_GetAddressByCountryRequest.Person_GetAddressByCountryRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.Person_GetAddressByCountryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetAddressByCountryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_GetAddressByCountryRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: Person_GetAddressByCountryRequest.CountryId
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.#ctor
+  isExternal: true
+  name: Person_GetAddressByCountryRequest
+  nameWithType: Person_GetAddressByCountryRequest.Person_GetAddressByCountryRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.Person_GetAddressByCountryRequest
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_GetAddressByCountryRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: Person_GetAddressByCountryRequest.CountryId
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressByCountryRequest.CountryId

@@ -1,0 +1,13 @@
+digraph ErpConnectionActorType  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ErpConnectionActorType[fillcolor = "cadetblue1"]
+ErpConnection[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ErpField[fillcolor = "azure1"]
+ErpConnectionActorType -> ErpConnection [headlabel = "ErpConnectionId"]
+ErpConnectionActorType -> associate [headlabel = "registered_associate_id"]
+ErpConnectionActorType -> associate [label = "updated_associate_id"]
+ErpField -> ErpConnectionActorType [label = "ErpConnectionActorTypeId"]
+}

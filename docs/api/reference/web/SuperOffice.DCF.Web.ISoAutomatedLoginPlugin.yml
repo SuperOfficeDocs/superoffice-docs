@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+  commentId: T:SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+  id: ISoAutomatedLoginPlugin
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin(SuperOffice.SoSession@)
+  langs:
+  - csharp
+  - vb
+  name: ISoAutomatedLoginPlugin
+  nameWithType: ISoAutomatedLoginPlugin
+  fullName: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public interface ISoAutomatedLoginPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ISoAutomatedLoginPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin(SuperOffice.SoSession@)
+  commentId: M:SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin(SuperOffice.SoSession@)
+  id: TryAutomatedLogin(SuperOffice.SoSession@)
+  parent: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: TryAutomatedLogin(ref SoSession)
+  nameWithType: ISoAutomatedLoginPlugin.TryAutomatedLogin(ref SoSession)
+  fullName: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin(ref SuperOffice.SoSession)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: bool TryAutomatedLogin(ref SoSession session)
+    parameters:
+    - id: session
+      type: SuperOffice.SoSession
+    return:
+      type: System.Boolean
+    content.vb: Function TryAutomatedLogin(ByRef session As SoSession) As Boolean
+  overload: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin*
+  nameWithType.vb: ISoAutomatedLoginPlugin.TryAutomatedLogin(ByRef SoSession)
+  fullName.vb: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin(ByRef SuperOffice.SoSession)
+  name.vb: TryAutomatedLogin(ByRef SoSession)
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin*
+  commentId: Overload:SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin
+  isExternal: true
+  name: TryAutomatedLogin
+  nameWithType: ISoAutomatedLoginPlugin.TryAutomatedLogin
+  fullName: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin.TryAutomatedLogin
+- uid: SuperOffice.SoSession
+  isExternal: true
+  name: SoSession
+  nameWithType: SoSession
+  fullName: SuperOffice.SoSession
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

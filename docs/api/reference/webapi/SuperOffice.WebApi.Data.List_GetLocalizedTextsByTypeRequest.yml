@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest
+  id: List_GetLocalizedTextsByTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes
+  langs:
+  - csharp
+  - vb
+  name: List_GetLocalizedTextsByTypeRequest
+  nameWithType: List_GetLocalizedTextsByTypeRequest
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetLocalizedTextsByTypeRequest : Object'
+    content.vb: >-
+      Public Class List_GetLocalizedTextsByTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetLocalizedTextsByTypeRequest()
+  nameWithType: List_GetLocalizedTextsByTypeRequest.List_GetLocalizedTextsByTypeRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.List_GetLocalizedTextsByTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetLocalizedTextsByTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes
+  commentId: P:SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes
+  id: TextTypes
+  parent: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: TextTypes
+  nameWithType: List_GetLocalizedTextsByTypeRequest.TextTypes
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public LocalizedTextType[] TextTypes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType[]
+    content.vb: Public Property TextTypes As LocalizedTextType()
+  overload: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.#ctor
+  isExternal: true
+  name: List_GetLocalizedTextsByTypeRequest
+  nameWithType: List_GetLocalizedTextsByTypeRequest.List_GetLocalizedTextsByTypeRequest
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.List_GetLocalizedTextsByTypeRequest
+- uid: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes
+  isExternal: true
+  name: TextTypes
+  nameWithType: List_GetLocalizedTextsByTypeRequest.TextTypes
+  fullName: SuperOffice.WebApi.Data.List_GetLocalizedTextsByTypeRequest.TextTypes
+- uid: SuperOffice.WebApi.Data.LocalizedTextType[]
+  isExternal: true
+  name: LocalizedTextType[]
+  nameWithType: LocalizedTextType[]
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType[]
+  nameWithType.vb: LocalizedTextType()
+  fullName.vb: SuperOffice.WebApi.Data.LocalizedTextType()
+  name.vb: LocalizedTextType()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.LocalizedTextType
+    name: LocalizedTextType
+    nameWithType: LocalizedTextType
+    fullName: SuperOffice.WebApi.Data.LocalizedTextType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.LocalizedTextType
+    name: LocalizedTextType
+    nameWithType: LocalizedTextType
+    fullName: SuperOffice.WebApi.Data.LocalizedTextType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  commentId: T:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  id: Messaging_SendMessagesWithConfigRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.#ctor
+  - SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config
+  - SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  - SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin
+  langs:
+  - csharp
+  - vb
+  name: Messaging_SendMessagesWithConfigRequest
+  nameWithType: Messaging_SendMessagesWithConfigRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Messaging_SendMessagesWithConfigRequest : Object'
+    content.vb: >-
+      Public Class Messaging_SendMessagesWithConfigRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: Messaging_SendMessagesWithConfigRequest()
+  nameWithType: Messaging_SendMessagesWithConfigRequest.Messaging_SendMessagesWithConfigRequest()
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Messaging_SendMessagesWithConfigRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Messaging_SendMessagesWithConfigRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin
+  id: Plugin
+  parent: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: Messaging_SendMessagesWithConfigRequest.Plugin
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Plugin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Plugin As String
+  overload: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  id: OutgoingMessages
+  parent: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: OutgoingMessages
+  nameWithType: Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public OutgoingMessage[] OutgoingMessages { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.OutgoingMessage[]
+    content.vb: Public Property OutgoingMessages As OutgoingMessage()
+  overload: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config
+  commentId: P:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config
+  id: Config
+  parent: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: Messaging_SendMessagesWithConfigRequest.Config
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public StringDictionary Config { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Property Config As StringDictionary
+  overload: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.#ctor
+  isExternal: true
+  name: Messaging_SendMessagesWithConfigRequest
+  nameWithType: Messaging_SendMessagesWithConfigRequest.Messaging_SendMessagesWithConfigRequest
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Messaging_SendMessagesWithConfigRequest
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin
+  isExternal: true
+  name: Plugin
+  nameWithType: Messaging_SendMessagesWithConfigRequest.Plugin
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Plugin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  isExternal: true
+  name: OutgoingMessages
+  nameWithType: Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.OutgoingMessages
+- uid: SuperOffice.WebApi.Data.OutgoingMessage[]
+  isExternal: true
+  name: OutgoingMessage[]
+  nameWithType: OutgoingMessage[]
+  fullName: SuperOffice.WebApi.Data.OutgoingMessage[]
+  nameWithType.vb: OutgoingMessage()
+  fullName.vb: SuperOffice.WebApi.Data.OutgoingMessage()
+  name.vb: OutgoingMessage()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.OutgoingMessage
+    name: OutgoingMessage
+    nameWithType: OutgoingMessage
+    fullName: SuperOffice.WebApi.Data.OutgoingMessage
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.OutgoingMessage
+    name: OutgoingMessage
+    nameWithType: OutgoingMessage
+    fullName: SuperOffice.WebApi.Data.OutgoingMessage
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config*
+  commentId: Overload:SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config
+  isExternal: true
+  name: Config
+  nameWithType: Messaging_SendMessagesWithConfigRequest.Config
+  fullName: SuperOffice.WebApi.Data.Messaging_SendMessagesWithConfigRequest.Config
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

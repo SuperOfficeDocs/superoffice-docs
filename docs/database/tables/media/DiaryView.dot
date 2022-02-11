@@ -1,0 +1,14 @@
+digraph DiaryView  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+DiaryView[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+TZLocation[fillcolor = "azure1"]
+DiaryViewRow[fillcolor = "azure1"]
+DiaryView -> associate [headlabel = "assoc_id"]
+DiaryView -> associate [label = "registered_associate_id"]
+DiaryView -> associate [label = "updated_associate_id"]
+DiaryView -> TZLocation [headlabel = "tzLocationId"]
+DiaryViewRow -> DiaryView [label = "diaryViewId"]
+}

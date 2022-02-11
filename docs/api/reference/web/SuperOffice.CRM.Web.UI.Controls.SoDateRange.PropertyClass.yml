@@ -1,0 +1,1004 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  id: SoDateRange.PropertyClass
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap
+  - SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate
+  langs:
+  - csharp
+  - vb
+  name: SoDateRange.PropertyClass
+  nameWithType: SoDateRange.PropertyClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class PropertyClass
+    content.vb: Public Class PropertyClass
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: PropertyClass()
+  nameWithType: SoDateRange.PropertyClass.PropertyClass()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.PropertyClass()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public PropertyClass()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout
+  id: Layout
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: Layout
+  nameWithType: SoDateRange.PropertyClass.Layout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoDateRange.PropertyClass.LayoutClass Layout { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.LayoutClass
+    content.vb: Public Property Layout As SoDateRange.PropertyClass.LayoutClass
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation
+  id: Animation
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: Animation
+  nameWithType: SoDateRange.PropertyClass.Animation
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoDateRange.PropertyClass.AnimationClass Animation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AnimationClass
+    content.vb: Public Property Animation As SoDateRange.PropertyClass.AnimationClass
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate
+  id: ToDate
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: SoDateRange.PropertyClass.ToDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ToDate As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate
+  id: FromDate
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: SoDateRange.PropertyClass.FromDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FromDate As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate
+  id: MaxDate
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: MaxDate
+  nameWithType: SoDateRange.PropertyClass.MaxDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string MaxDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MaxDate As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate
+  id: MinDate
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: MinDate
+  nameWithType: SoDateRange.PropertyClass.MinDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string MinDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MinDate As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected
+  id: CloseAfterRangeSelected
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: CloseAfterRangeSelected
+  nameWithType: SoDateRange.PropertyClass.CloseAfterRangeSelected
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool CloseAfterRangeSelected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CloseAfterRangeSelected As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  id: ShowExpandBeforeAfterButtons
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: ShowExpandBeforeAfterButtons
+  nameWithType: SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool ShowExpandBeforeAfterButtons { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowExpandBeforeAfterButtons As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons
+  id: ShowExpandContractButtons
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: ShowExpandContractButtons
+  nameWithType: SoDateRange.PropertyClass.ShowExpandContractButtons
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool ShowExpandContractButtons { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowExpandContractButtons As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval
+  id: ExpandInterval
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: ExpandInterval
+  nameWithType: SoDateRange.PropertyClass.ExpandInterval
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int ExpandInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ExpandInterval As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton
+  id: ShowOkButton
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: ShowOkButton
+  nameWithType: SoDateRange.PropertyClass.ShowOkButton
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool ShowOkButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowOkButton As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton
+  id: ShowCancelButton
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: ShowCancelButton
+  nameWithType: SoDateRange.PropertyClass.ShowCancelButton
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool ShowCancelButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowCancelButton As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider
+  id: CanMoveOtherSlider
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: CanMoveOtherSlider
+  nameWithType: SoDateRange.PropertyClass.CanMoveOtherSlider
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool CanMoveOtherSlider { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanMoveOtherSlider As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap
+  id: Snap
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: Snap
+  nameWithType: SoDateRange.PropertyClass.Snap
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoDateRange.RangeFlags Snap { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+    content.vb: Public Property Snap As SoDateRange.RangeFlags
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand
+  id: AutoExpand
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: AutoExpand
+  nameWithType: SoDateRange.PropertyClass.AutoExpand
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool AutoExpand { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoExpand As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange
+  id: CanMoveRange
+  parent: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+  langs:
+  - csharp
+  - vb
+  name: CanMoveRange
+  nameWithType: SoDateRange.PropertyClass.CanMoveRange
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool CanMoveRange { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanMoveRange As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.#ctor
+  isExternal: true
+  name: PropertyClass
+  nameWithType: SoDateRange.PropertyClass.PropertyClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.PropertyClass
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout
+  isExternal: true
+  name: Layout
+  nameWithType: SoDateRange.PropertyClass.Layout
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Layout
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.LayoutClass
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.LayoutClass
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoDateRange.PropertyClass.LayoutClass
+  nameWithType: SoDateRange.PropertyClass.LayoutClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.LayoutClass
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation
+  isExternal: true
+  name: Animation
+  nameWithType: SoDateRange.PropertyClass.Animation
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Animation
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AnimationClass
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AnimationClass
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoDateRange.PropertyClass.AnimationClass
+  nameWithType: SoDateRange.PropertyClass.AnimationClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AnimationClass
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: SoDateRange.PropertyClass.ToDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ToDate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: SoDateRange.PropertyClass.FromDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.FromDate
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate
+  isExternal: true
+  name: MaxDate
+  nameWithType: SoDateRange.PropertyClass.MaxDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MaxDate
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate
+  isExternal: true
+  name: MinDate
+  nameWithType: SoDateRange.PropertyClass.MinDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.MinDate
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected
+  isExternal: true
+  name: CloseAfterRangeSelected
+  nameWithType: SoDateRange.PropertyClass.CloseAfterRangeSelected
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CloseAfterRangeSelected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  isExternal: true
+  name: ShowExpandBeforeAfterButtons
+  nameWithType: SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandBeforeAfterButtons
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons
+  isExternal: true
+  name: ShowExpandContractButtons
+  nameWithType: SoDateRange.PropertyClass.ShowExpandContractButtons
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowExpandContractButtons
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval
+  isExternal: true
+  name: ExpandInterval
+  nameWithType: SoDateRange.PropertyClass.ExpandInterval
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ExpandInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton
+  isExternal: true
+  name: ShowOkButton
+  nameWithType: SoDateRange.PropertyClass.ShowOkButton
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowOkButton
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton
+  isExternal: true
+  name: ShowCancelButton
+  nameWithType: SoDateRange.PropertyClass.ShowCancelButton
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.ShowCancelButton
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider
+  isExternal: true
+  name: CanMoveOtherSlider
+  nameWithType: SoDateRange.PropertyClass.CanMoveOtherSlider
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveOtherSlider
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap
+  isExternal: true
+  name: Snap
+  nameWithType: SoDateRange.PropertyClass.Snap
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.Snap
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoDateRange.RangeFlags
+  nameWithType: SoDateRange.RangeFlags
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand
+  isExternal: true
+  name: AutoExpand
+  nameWithType: SoDateRange.PropertyClass.AutoExpand
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AutoExpand
+- uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange
+  isExternal: true
+  name: CanMoveRange
+  nameWithType: SoDateRange.PropertyClass.CanMoveRange
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.CanMoveRange

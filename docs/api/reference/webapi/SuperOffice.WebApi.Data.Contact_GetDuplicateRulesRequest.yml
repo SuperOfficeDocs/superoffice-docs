@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest
+  id: Contact_GetDuplicateRulesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetDuplicateRulesRequest
+  nameWithType: Contact_GetDuplicateRulesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetDuplicateRulesRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetDuplicateRulesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetDuplicateRulesRequest()
+  nameWithType: Contact_GetDuplicateRulesRequest.Contact_GetDuplicateRulesRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.Contact_GetDuplicateRulesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetDuplicateRulesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.#ctor
+  isExternal: true
+  name: Contact_GetDuplicateRulesRequest
+  nameWithType: Contact_GetDuplicateRulesRequest.Contact_GetDuplicateRulesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetDuplicateRulesRequest.Contact_GetDuplicateRulesRequest

@@ -34,7 +34,7 @@ highlightedContent:
         # Card
     - title: Appointment database table
       itemType: reference
-      url: ../../../database/docs/tables/appointment.md
+      url: ../database/tables/appointment.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -90,13 +90,13 @@ conceptualContent:
       links:
       - text: Web panels
         itemType: overview
-        url: ../../../user-interface/docs/web-panels/index.md
+        url: ../ui/web-panels/index.md
       - text: SoProtocol - create appointment
         itemType: how-to-guide
-        url: ../../../user-interface/docs/soprotocol/create-appointment.md
+        url: ../ui/soprotocol/create-appointment.md
       - text: SoProtocol - open appointment dialog
         itemType: how-to-guide
-        url: ../../:./user-interface/docs/soprotocol/open-appointment-dialog.md
+        url: ../ui/soprotocol/open-appointment-dialog.md
 
     # Card
     - title: Data options
@@ -104,13 +104,13 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/overview.md
+        url: ../custom-objects/overview.md
       - text: UdappntSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udappntsmall.md
+        url: ../database/tables/udappntsmall.md
       - text: UdappntLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udappntlarge.md
+        url: ../database/tables/udappntlarge.md
 
     # Card
     - title: Actions options
@@ -132,25 +132,25 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/follow-ups/index.md
+        url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/sql/create-apt-sql.md
+        url: howto/sql/create-apt-sql.md
       - text: OSQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/osql/create-apt-osql.md
+        url: howto/osql/create-apt-osql.md
       - text: Row
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/row/create-apt-row.md
+        url: howto/row/create-apt-row.md
       - text: Entity
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/entity/create-apt-entity.md
+        url: howto/entity/create-apt-entity.md
       - text: REST
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/services/create-apt-services.md
+        url: howto/services/create-apt-services.md
       - text: Archive (search)
         itemType: how-to-guide
-        url: ../../../data-access/docs/diary/archive/invitation-archive.md
+        url: howto/archive/invitation-archive.md
 
     # Card
     - title: Database options
@@ -158,37 +158,37 @@ conceptualContent:
       links:
       - text: Appointment table
         itemType: reference
-        url: ../../../database/docs/tables/appointment.md
+        url: ../database/tables/appointment.md
       - text: Invitation table
         itemType: reference
-        url: ../../../database/docs/tables/invitation.md
+        url: ../database/tables/invitation.md
       - text: RecurrenceRule table
         itemType: reference
-        url: ../../../database/docs/tables/recurrencerule.md
+        url: ../database/tables/recurrencerule.md
       - text: Priority table
         itemType: reference
-        url: ../../../database/docs/tables/priority.md
+        url: ../database/tables/priority.md
       - text: DiaryView table
         itemType: reference
-        url: ../../../database/docs/tables/diaryview.md
+        url: ../database/tables/diaryview.md
       - text: Task table
         itemType: reference
-        url: ../../../database/docs/tables/task.md
+        url: ../database/tables/task.md
       - text: Project table
         itemType: reference
-        url: ../../../database/docs/tables/project.md
+        url: ../database/tables/project.md
       - text: SuggestedAppointment table
         itemType: reference
-        url: ../../../database/docs/tables/suggestedappointment.md
+        url: ../database/tables/suggestedappointment.md
       - text: Associate table
         itemType: reference
-        url: ../../../database/docs/tables/associate.md
+        url: ../database/tables/associate.md
       - text: UserGroup table
         itemType: reference
-        url: ../../../database/docs/tables/usergroup.md
+        url: ../database/tables/usergroup.md
       - text: UdappntSmall table
         itemType: reference
-        url: ../../../database/docs/tables/udappntsmall.md
+        url: ../database/tables/udappntsmall.md
       - text: UdappntLarge table
         itemType: reference
-        url: ../../../database/docs/tables/udappntlarge.md
+        url: ../database/tables/udappntlarge.md

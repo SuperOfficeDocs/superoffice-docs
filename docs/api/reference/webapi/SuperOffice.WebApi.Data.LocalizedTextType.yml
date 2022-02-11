@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.LocalizedTextType
+  commentId: T:SuperOffice.WebApi.Data.LocalizedTextType
+  id: LocalizedTextType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.LocalizedTextType.Column
+  - SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
+  - SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.ImportField
+  - SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
+  - SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
+  - SuperOffice.WebApi.Data.LocalizedTextType.Label
+  - SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
+  - SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
+  - SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
+  - SuperOffice.WebApi.Data.LocalizedTextType.Table
+  - SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
+  - SuperOffice.WebApi.Data.LocalizedTextType.Unknown
+  - SuperOffice.WebApi.Data.LocalizedTextType.value__
+  langs:
+  - csharp
+  - vb
+  name: LocalizedTextType
+  nameWithType: LocalizedTextType
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of the locale text strings\n"
+  syntax:
+    content: 'public sealed class LocalizedTextType : Enum'
+    content.vb: >-
+      Public NotInheritable Class LocalizedTextType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.value__
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: LocalizedTextType.value__
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: LocalizedTextType.Unknown
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: public const LocalizedTextType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const Unknown As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.Label
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Label
+  id: Label
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: LocalizedTextType.Label
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.Label
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: 1 = fieldlabels \n"
+  syntax:
+    content: public const LocalizedTextType Label
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const Label As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.Table
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Table
+  id: Table
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: Table
+  nameWithType: LocalizedTextType.Table
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.Table
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: \n"
+  syntax:
+    content: public const LocalizedTextType Table
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const Table As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.Column
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Column
+  id: Column
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: LocalizedTextType.Column
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.Column
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: \n"
+  syntax:
+    content: public const LocalizedTextType Column
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const Column As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.ImportField
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.ImportField
+  id: ImportField
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: ImportField
+  nameWithType: LocalizedTextType.ImportField
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.ImportField
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: 4 - import system field names \n"
+  syntax:
+    content: public const LocalizedTextType ImportField
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const ImportField As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
+  id: ImportObject
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: ImportObject
+  nameWithType: LocalizedTextType.ImportObject
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: 5 - import system table names\n"
+  syntax:
+    content: public const LocalizedTextType ImportObject
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const ImportObject As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
+  id: ImportGUICategory
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: ImportGUICategory
+  nameWithType: LocalizedTextType.ImportGUICategory
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: 6 - import system table groups\n"
+  syntax:
+    content: public const LocalizedTextType ImportGUICategory
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const ImportGUICategory As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
+  id: StartupHints
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: StartupHints
+  nameWithType: LocalizedTextType.StartupHints
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: 7  (languageid > 0)\n"
+  syntax:
+    content: public const LocalizedTextType StartupHints
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const StartupHints As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
+  id: FunctionRightLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: FunctionRightLabel
+  nameWithType: LocalizedTextType.FunctionRightLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: 11 (languageid > 0)\n"
+  syntax:
+    content: public const LocalizedTextType FunctionRightLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const FunctionRightLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
+  id: FunctionRightDesc
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: FunctionRightDesc
+  nameWithType: LocalizedTextType.FunctionRightDesc
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: 12 (languageid > 0)\n"
+  syntax:
+    content: public const LocalizedTextType FunctionRightDesc
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const FunctionRightDesc As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
+  id: StatusMonitorName
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorName
+  nameWithType: LocalizedTextType.StatusMonitorName
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: languageid = 0\n"
+  syntax:
+    content: public const LocalizedTextType StatusMonitorName
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const StatusMonitorName As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
+  id: UdefContactLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: UdefContactLabel
+  nameWithType: LocalizedTextType.UdefContactLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n19: 19  (languageid = 0)\n"
+  syntax:
+    content: public const LocalizedTextType UdefContactLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const UdefContactLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
+  id: UdefPersonLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: UdefPersonLabel
+  nameWithType: LocalizedTextType.UdefPersonLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n20: 20  (languageid = 0)\n"
+  syntax:
+    content: public const LocalizedTextType UdefPersonLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const UdefPersonLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
+  id: UdefProjectLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: UdefProjectLabel
+  nameWithType: LocalizedTextType.UdefProjectLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n21: 21  (languageid = 0)\n"
+  syntax:
+    content: public const LocalizedTextType UdefProjectLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const UdefProjectLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
+  id: UdefSaleLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: UdefSaleLabel
+  nameWithType: LocalizedTextType.UdefSaleLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n22: 22 (languageid = 0) \n"
+  syntax:
+    content: public const LocalizedTextType UdefSaleLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const UdefSaleLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
+  id: UdefAppointmentLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: UdefAppointmentLabel
+  nameWithType: LocalizedTextType.UdefAppointmentLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n23: 23 (languageid = 0)\n"
+  syntax:
+    content: public const LocalizedTextType UdefAppointmentLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const UdefAppointmentLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
+  id: UdefDocumentLabel
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: UdefDocumentLabel
+  nameWithType: LocalizedTextType.UdefDocumentLabel
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n24: 24 (languageid = 0)\n"
+  syntax:
+    content: public const LocalizedTextType UdefDocumentLabel
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const UdefDocumentLabel As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
+  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
+  id: PushNotificationText
+  parent: SuperOffice.WebApi.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: PushNotificationText
+  nameWithType: LocalizedTextType.PushNotificationText
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n41: 41 - push notification tex\n"
+  syntax:
+    content: public const LocalizedTextType PushNotificationText
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedTextType
+    content.vb: Public Const PushNotificationText As LocalizedTextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.LocalizedTextType
+  commentId: T:SuperOffice.WebApi.Data.LocalizedTextType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LocalizedTextType
+  nameWithType: LocalizedTextType
+  fullName: SuperOffice.WebApi.Data.LocalizedTextType

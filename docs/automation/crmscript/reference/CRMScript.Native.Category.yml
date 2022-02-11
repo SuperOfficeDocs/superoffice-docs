@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Category
+  commentId: T:CRMScript.Native.Category
+  id: Category
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Category.#ctor
+  - CRMScript.Native.Category.getValue(String)
+  - CRMScript.Native.Category.load(Integer)
+  - CRMScript.Native.Category.save()
+  - CRMScript.Native.Category.setValue(String,String)
+  name: Category
+  nameWithType: Category
+  fullName: CRMScript.Native.Category
+  type: Class
+  summary: "\nFor accessing and changing a ticket category.\n"
+  example: 
+  - "\n<pre><code>Category c;\n\nc.load(2); //Loads category with ID = 2\nprint(c.getValue(&quot;notificationEmail&quot;));\nc.setValue(&quot;name&quot;, &quot;Bob&quot;);</code></pre>\n"
+- uid: CRMScript.Native.Category.#ctor
+  commentId: M:CRMScript.Native.Category.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Category
+  langs:
+  - crmscript
+  name: Category()
+  nameWithType: Category.#ctor
+  fullName: CRMScript.Native.Category.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Category class.\n"
+  remarks: 
+  syntax: 
+    content: Category
+  example: 
+- uid: CRMScript.Native.Category.getValue(String)
+  commentId: M:CRMScript.Native.Category.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: Category.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: Category.getValue(String)
+  fullName: CRMScript.Native.Category.getValue(String)
+  type: Method
+  summary: "\nRetrieves the value of the given field in the category.\n"
+  remarks: "\nAvailable fields: id: The ID of the category; parent: The ID of the parent category; name: The name of the category; fullname: The full name of the category (such as &quot;Support/Product A/bugs&quot;); externalName: The external name of the category; categoryMaster: The ID of the category master; children: A comma-separated list of children IDs; notificationEmail: The value of the email Notification field\n"
+  syntax: 
+    content: String getValue(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field to get."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the specified field."
+  example: 
+  - "\n<pre><code>Category c;\n\nc.load(2);\nprint(c.getValue(&quot;notificationEmail&quot;))</code></pre>\n"
+- uid: CRMScript.Native.Category.load(Integer)
+  commentId: M:CRMScript.Native.Category.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: Category.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: Category.load(Integer)
+  fullName: CRMScript.Native.Category.load(Integer)
+  type: Method
+  summary: "\nLoad object with values from category with given ID.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the category to load."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the category exists; otherwise, false."
+  example: 
+  - "\n<pre><code>Category c;\n\nc.load(2);\nprint(c.getValue(&quot;name&quot;));</code></pre>\n"
+- uid: CRMScript.Native.Category.save()
+  commentId: M:CRMScript.Native.Category.save()
+  id: 'save()'
+  so.intellisense: Category.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: Category.save()
+  fullName: CRMScript.Native.Category.save()
+  type: Method
+  summary: "\nSaves the category and returns its ID.\n"
+  remarks: 
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved category."
+  example: 
+- uid: CRMScript.Native.Category.setValue(String,String)
+  commentId: M:CRMScript.Native.Category.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: Category.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: Category.setValue(String,String)
+  fullName: CRMScript.Native.Category.setValue(String,String)
+  type: Method
+  summary: "\nSets the value of the given field for the category.\n"
+  remarks: "\nAvailable fields: parent: The ID of the parent category; name: The name of the category; externalName: The external name of the category; categoryMaster: The ID of the category master; children: A comma-separated list of children IDs; notificationEmail: The value of the email Notification field\n"
+  syntax: 
+    content: Void SetValue(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The field to set."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to set."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>Category c;\n\nc.load(2);\nc.setValue(&quot;name&quot;, &quot;Test&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.Native.Category
+  commentId: T:CRMScript.Native.Category
+  isExternal: true
+  name: Category
+  nameWithType: Category
+  fullName: CRMScript.Native.Category
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

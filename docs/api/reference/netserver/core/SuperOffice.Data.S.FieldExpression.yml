@@ -1,0 +1,817 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.S.FieldExpression
+  commentId: T:SuperOffice.Data.S.FieldExpression
+  id: S.FieldExpression
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.S.FieldExpression.Count(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.FieldExpression.CountAll(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.FieldExpression.Distinct(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType)
+  - SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType,System.Int32)
+  - SuperOffice.Data.S.FieldExpression.Max(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.FieldExpression.Min(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.FieldExpression.NewAlias(System.String)
+  - SuperOffice.Data.S.FieldExpression.Sum(SuperOffice.Data.SQL.Argument)
+  langs:
+  - csharp
+  - vb
+  name: S.FieldExpression
+  nameWithType: S.FieldExpression
+  fullName: SuperOffice.Data.S.FieldExpression
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static class FieldExpression
+    content.vb: Public Module FieldExpression
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.S.FieldExpression.Count(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.FieldExpression.Count(SuperOffice.Data.SQL.Argument)
+  id: Count(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Count(Argument)
+  nameWithType: S.FieldExpression.Count(Argument)
+  fullName: SuperOffice.Data.S.FieldExpression.Count(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCounts the rows defined by expression or table; counting is done for the argument expression with an implied DISTINCT. \nUse CountAll if you need the total number of rows.\n"
+  syntax:
+    content: public static Count Count(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The Count argument.
+    return:
+      type: SuperOffice.Data.SQL.Count
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Count" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Count(arg As Argument) As Count
+  overload: SuperOffice.Data.S.FieldExpression.Count*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.CountAll(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.FieldExpression.CountAll(SuperOffice.Data.SQL.Argument)
+  id: CountAll(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: CountAll(Argument)
+  nameWithType: S.FieldExpression.CountAll(Argument)
+  fullName: SuperOffice.Data.S.FieldExpression.CountAll(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCounts the rows defined by expression or table; this variant counts the total result set.\n"
+  syntax:
+    content: public static CountAll CountAll(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The Count argument.
+    return:
+      type: SuperOffice.Data.SQL.CountAll
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Count" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function CountAll(arg As Argument) As CountAll
+  overload: SuperOffice.Data.S.FieldExpression.CountAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.Sum(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.FieldExpression.Sum(SuperOffice.Data.SQL.Argument)
+  id: Sum(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Sum(Argument)
+  nameWithType: S.FieldExpression.Sum(Argument)
+  fullName: SuperOffice.Data.S.FieldExpression.Sum(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nFinds the sum of a column by expression.\n"
+  syntax:
+    content: public static Sum Sum(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The Sum argument.
+    return:
+      type: SuperOffice.Data.SQL.Sum
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Sum" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Sum(arg As Argument) As Sum
+  overload: SuperOffice.Data.S.FieldExpression.Sum*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.Max(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.FieldExpression.Max(SuperOffice.Data.SQL.Argument)
+  id: Max(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Max(Argument)
+  nameWithType: S.FieldExpression.Max(Argument)
+  fullName: SuperOffice.Data.S.FieldExpression.Max(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nFinds the maximum value in a column by expression.\n"
+  syntax:
+    content: public static Max Max(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The Max argument.
+    return:
+      type: SuperOffice.Data.SQL.Max
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Max" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Max(arg As Argument) As Max
+  overload: SuperOffice.Data.S.FieldExpression.Max*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.Min(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.FieldExpression.Min(SuperOffice.Data.SQL.Argument)
+  id: Min(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Min(Argument)
+  nameWithType: S.FieldExpression.Min(Argument)
+  fullName: SuperOffice.Data.S.FieldExpression.Min(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nFinds the minimum value in a column by expression.\n"
+  syntax:
+    content: public static Min Min(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The arg.
+    return:
+      type: SuperOffice.Data.SQL.Min
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Min" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Min(arg As Argument) As Min
+  overload: SuperOffice.Data.S.FieldExpression.Min*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.Distinct(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.Data.S.FieldExpression.Distinct(SuperOffice.Data.SQL.FieldInfo)
+  id: Distinct(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Distinct(FieldInfo)
+  nameWithType: S.FieldExpression.Distinct(FieldInfo)
+  fullName: SuperOffice.Data.S.FieldExpression.Distinct(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nDistinct keyword; gives distinct rows by comparing <strong>ALL</strong> fields\n"
+  syntax:
+    content: public static Distinct Distinct(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: This field becomes an ordinary return field, it has <strong>no effect</strong> on the distinct comparison
+    return:
+      type: SuperOffice.Data.SQL.Distinct
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Distinct" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Distinct(field As FieldInfo) As Distinct
+  overload: SuperOffice.Data.S.FieldExpression.Distinct*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.NewAlias(System.String)
+  commentId: M:SuperOffice.Data.S.FieldExpression.NewAlias(System.String)
+  id: NewAlias(System.String)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: NewAlias(String)
+  nameWithType: S.FieldExpression.NewAlias(String)
+  fullName: SuperOffice.Data.S.FieldExpression.NewAlias(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAlias on for example Field or aggregation\n"
+  syntax:
+    content: public static Alias NewAlias(string alias)
+    parameters:
+    - id: alias
+      type: System.String
+      description: The alias
+    return:
+      type: SuperOffice.Data.SQL.Alias
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Alias" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: 'Public Shared Function NewAlias(alias As String) As '
+  overload: SuperOffice.Data.S.FieldExpression.NewAlias*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType)
+  commentId: M:SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType)
+  id: FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: FieldTypeConvert(FieldInfo, FieldDataType)
+  nameWithType: S.FieldExpression.FieldTypeConvert(FieldInfo, FieldDataType)
+  fullName: SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.FieldDataType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nFieldTypeConvert will convert the in-parameter field to the incoming fieldDatatype.\n"
+  syntax:
+    content: public static FieldTypeConvert FieldTypeConvert(FieldInfo field, FieldDataType newType)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: The field you want to convert.
+    - id: newType
+      type: SuperOffice.Data.FieldDataType
+      description: The new type of the field.
+    return:
+      type: SuperOffice.Data.SQL.FieldTypeConvert
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.FieldTypeConvert" data-throw-if-not-resolved="false"></xref> class based on the arguments provided.
+    content.vb: Public Shared Function FieldTypeConvert(field As FieldInfo, newType As FieldDataType) As FieldTypeConvert
+  overload: SuperOffice.Data.S.FieldExpression.FieldTypeConvert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType,System.Int32)
+  commentId: M:SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType,System.Int32)
+  id: FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.FieldDataType,System.Int32)
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: FieldTypeConvert(FieldInfo, FieldDataType, Int32)
+  nameWithType: S.FieldExpression.FieldTypeConvert(FieldInfo, FieldDataType, Int32)
+  fullName: SuperOffice.Data.S.FieldExpression.FieldTypeConvert(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.FieldDataType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nFieldTypeConvert will convert the in-parameter field to the incoming fieldDatatype with length like the in-parameter length.\n"
+  syntax:
+    content: public static FieldTypeConvert FieldTypeConvert(FieldInfo field, FieldDataType newType, int newLength)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: The field you want to convert.
+    - id: newType
+      type: SuperOffice.Data.FieldDataType
+      description: The new type of the field.
+    - id: newLength
+      type: System.Int32
+      description: The length of the conversion.
+    return:
+      type: SuperOffice.Data.SQL.FieldTypeConvert
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.FieldTypeConvert" data-throw-if-not-resolved="false"></xref> class based on the arguments provided.
+    content.vb: Public Shared Function FieldTypeConvert(field As FieldInfo, newType As FieldDataType, newLength As Integer) As FieldTypeConvert
+  overload: SuperOffice.Data.S.FieldExpression.FieldTypeConvert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.S.FieldExpression.Count*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Count
+  isExternal: true
+  name: Count
+  nameWithType: S.FieldExpression.Count
+  fullName: SuperOffice.Data.S.FieldExpression.Count
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: SuperOffice.Data.SQL.Count
+  commentId: T:SuperOffice.Data.SQL.Count
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Count
+  nameWithType: Count
+  fullName: SuperOffice.Data.SQL.Count
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.S.FieldExpression.CountAll*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.CountAll
+  isExternal: true
+  name: CountAll
+  nameWithType: S.FieldExpression.CountAll
+  fullName: SuperOffice.Data.S.FieldExpression.CountAll
+- uid: SuperOffice.Data.SQL.CountAll
+  commentId: T:SuperOffice.Data.SQL.CountAll
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: CountAll
+  nameWithType: CountAll
+  fullName: SuperOffice.Data.SQL.CountAll
+- uid: SuperOffice.Data.S.FieldExpression.Sum*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Sum
+  isExternal: true
+  name: Sum
+  nameWithType: S.FieldExpression.Sum
+  fullName: SuperOffice.Data.S.FieldExpression.Sum
+- uid: SuperOffice.Data.SQL.Sum
+  commentId: T:SuperOffice.Data.SQL.Sum
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Sum
+  nameWithType: Sum
+  fullName: SuperOffice.Data.SQL.Sum
+- uid: SuperOffice.Data.S.FieldExpression.Max*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Max
+  isExternal: true
+  name: Max
+  nameWithType: S.FieldExpression.Max
+  fullName: SuperOffice.Data.S.FieldExpression.Max
+- uid: SuperOffice.Data.SQL.Max
+  commentId: T:SuperOffice.Data.SQL.Max
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Max
+  nameWithType: Max
+  fullName: SuperOffice.Data.SQL.Max
+- uid: SuperOffice.Data.S.FieldExpression.Min*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Min
+  isExternal: true
+  name: Min
+  nameWithType: S.FieldExpression.Min
+  fullName: SuperOffice.Data.S.FieldExpression.Min
+- uid: SuperOffice.Data.SQL.Min
+  commentId: T:SuperOffice.Data.SQL.Min
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Min
+  nameWithType: Min
+  fullName: SuperOffice.Data.SQL.Min
+- uid: SuperOffice.Data.S.FieldExpression.Distinct*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Distinct
+  isExternal: true
+  name: Distinct
+  nameWithType: S.FieldExpression.Distinct
+  fullName: SuperOffice.Data.S.FieldExpression.Distinct
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL.Distinct
+  commentId: T:SuperOffice.Data.SQL.Distinct
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Distinct
+  nameWithType: Distinct
+  fullName: SuperOffice.Data.SQL.Distinct
+- uid: SuperOffice.Data.S.FieldExpression.NewAlias*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.NewAlias
+  isExternal: true
+  name: NewAlias
+  nameWithType: S.FieldExpression.NewAlias
+  fullName: SuperOffice.Data.S.FieldExpression.NewAlias
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL.Alias
+  commentId: T:SuperOffice.Data.SQL.Alias
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Alias
+  nameWithType: Alias
+  fullName: SuperOffice.Data.SQL.Alias
+- uid: SuperOffice.Data.S.FieldExpression.FieldTypeConvert*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.FieldTypeConvert
+  isExternal: true
+  name: FieldTypeConvert
+  nameWithType: S.FieldExpression.FieldTypeConvert
+  fullName: SuperOffice.Data.S.FieldExpression.FieldTypeConvert
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType
+- uid: SuperOffice.Data.SQL.FieldTypeConvert
+  commentId: T:SuperOffice.Data.SQL.FieldTypeConvert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldTypeConvert
+  nameWithType: FieldTypeConvert
+  fullName: SuperOffice.Data.SQL.FieldTypeConvert
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

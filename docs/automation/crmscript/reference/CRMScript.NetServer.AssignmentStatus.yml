@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.AssignmentStatus
+  # Same as SuperOffice.Data.AssignmentStatus
+  commentId: T:CRMScript.NetServer.AssignmentStatus
+  id: AssignmentStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.AssignmentStatus.Unknown
+  - CRMScript.NetServer.AssignmentStatus.None
+  - CRMScript.NetServer.AssignmentStatus.Assigning
+  - CRMScript.NetServer.AssignmentStatus.Seen
+  - CRMScript.NetServer.AssignmentStatus.Declined
+  name: AssignmentStatus
+  nameWithType: AssignmentStatus
+  fullName: CRMScript.NetServer.AssignmentStatus
+  type: Enum
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else\n"
+- uid: CRMScript.NetServer.AssignmentStatus.Unknown
+  commentId: F:CRMScript.NetServer.AssignmentStatus.Unknown
+  id: AssignmentStatus.Unknown
+  langs:
+  - crmscript
+  name: AssignmentStatus.Unknown
+  nameWithType: AssignmentStatus.Unknown
+  fullName: CRMScript.NetServer.AssignmentStatus.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.AssignmentStatus
+- uid: CRMScript.NetServer.AssignmentStatus.None
+  commentId: F:CRMScript.NetServer.AssignmentStatus.None
+  id: AssignmentStatus.None
+  langs:
+  - crmscript
+  name: AssignmentStatus.None
+  nameWithType: AssignmentStatus.None
+  fullName: CRMScript.NetServer.AssignmentStatus.None
+  type: Field
+  summary: "\n1: All appointments not in the process of being assigned to someone else\n"
+  syntax: 
+    content: None = 1
+    type: CRMScript.NetServer.AssignmentStatus
+- uid: CRMScript.NetServer.AssignmentStatus.Assigning
+  commentId: F:CRMScript.NetServer.AssignmentStatus.Assigning
+  id: AssignmentStatus.Assigning
+  langs:
+  - crmscript
+  name: AssignmentStatus.Assigning
+  nameWithType: AssignmentStatus.Assigning
+  fullName: CRMScript.NetServer.AssignmentStatus.Assigning
+  type: Field
+  summary: "\n11: Appointment in the process of being assigned to someone else\n"
+  syntax: 
+    content: Assigning = 11
+    type: CRMScript.NetServer.AssignmentStatus
+- uid: CRMScript.NetServer.AssignmentStatus.Seen
+  commentId: F:CRMScript.NetServer.AssignmentStatus.Seen
+  id: AssignmentStatus.Seen
+  langs:
+  - crmscript
+  name: AssignmentStatus.Seen
+  nameWithType: AssignmentStatus.Seen
+  fullName: CRMScript.NetServer.AssignmentStatus.Seen
+  type: Field
+  summary: "\n12: Appointment where the party requested to take ownership of the appointment or task has observed the request, but not yet accepted or declined the request.\n"
+  syntax: 
+    content: Seen = 12
+    type: CRMScript.NetServer.AssignmentStatus
+- uid: CRMScript.NetServer.AssignmentStatus.Declined
+  commentId: F:CRMScript.NetServer.AssignmentStatus.Declined
+  id: AssignmentStatus.Declined
+  langs:
+  - crmscript
+  name: AssignmentStatus.Declined
+  nameWithType: AssignmentStatus.Declined
+  fullName: CRMScript.NetServer.AssignmentStatus.Declined
+  type: Field
+  summary: "\n13: Appointment where the person requested to take ownership has declined.\n"
+  syntax: 
+    content: Declined = 13
+    type: CRMScript.NetServer.AssignmentStatus
+references:
+- uid: CRMScript.NetServer.AssignmentStatus
+  commentId: T:CRMScript.NetServer.AssignmentStatus
+  isExternal: true
+  name: AssignmentStatus
+  nameWithType: AssignmentStatus
+  fullName: CRMScript.NetServer.AssignmentStatus

@@ -1,0 +1,1374 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.TokenType
+  commentId: T:SuperOffice.CRM.ArchiveLists.TokenType
+  id: TokenType
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.TokenType._NONE_
+  - SuperOffice.CRM.ArchiveLists.TokenType._UNDETERMINED_
+  - SuperOffice.CRM.ArchiveLists.TokenType.ANDOR
+  - SuperOffice.CRM.ArchiveLists.TokenType.ARROW
+  - SuperOffice.CRM.ArchiveLists.TokenType.ASSOCOPS
+  - SuperOffice.CRM.ArchiveLists.TokenType.BINARYOPERATOR
+  - SuperOffice.CRM.ArchiveLists.TokenType.BracketExpr
+  - SuperOffice.CRM.ArchiveLists.TokenType.BRCLOSE
+  - SuperOffice.CRM.ArchiveLists.TokenType.BROPEN
+  - SuperOffice.CRM.ArchiveLists.TokenType.COLON
+  - SuperOffice.CRM.ArchiveLists.TokenType.COMMA
+  - SuperOffice.CRM.ArchiveLists.TokenType.DATEOPS
+  - SuperOffice.CRM.ArchiveLists.TokenType.DOT
+  - SuperOffice.CRM.ArchiveLists.TokenType.EOF
+  - SuperOffice.CRM.ArchiveLists.TokenType.Field
+  - SuperOffice.CRM.ArchiveLists.TokenType.FieldExpr
+  - SuperOffice.CRM.ArchiveLists.TokenType.FilterExpr
+  - SuperOffice.CRM.ArchiveLists.TokenType.FkField
+  - SuperOffice.CRM.ArchiveLists.TokenType.IDENTIFIER
+  - SuperOffice.CRM.ArchiveLists.TokenType.INTOPS
+  - SuperOffice.CRM.ArchiveLists.TokenType.Joins
+  - SuperOffice.CRM.ArchiveLists.TokenType.LISTOPS
+  - SuperOffice.CRM.ArchiveLists.TokenType.NUMBER
+  - SuperOffice.CRM.ArchiveLists.TokenType.ODATAOPS
+  - SuperOffice.CRM.ArchiveLists.TokenType.QUOTESTRING
+  - SuperOffice.CRM.ArchiveLists.TokenType.SQCLOSE
+  - SuperOffice.CRM.ArchiveLists.TokenType.SQOPEN
+  - SuperOffice.CRM.ArchiveLists.TokenType.Start
+  - SuperOffice.CRM.ArchiveLists.TokenType.STRINGOPS
+  - SuperOffice.CRM.ArchiveLists.TokenType.SubExpr
+  - SuperOffice.CRM.ArchiveLists.TokenType.SubJoin
+  - SuperOffice.CRM.ArchiveLists.TokenType.Term
+  - SuperOffice.CRM.ArchiveLists.TokenType.Terms
+  - SuperOffice.CRM.ArchiveLists.TokenType.UNARYOPERATOR
+  - SuperOffice.CRM.ArchiveLists.TokenType.WHITESPACE
+  langs:
+  - csharp
+  - vb
+  name: TokenType
+  nameWithType: TokenType
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public enum TokenType
+    content.vb: Public Enum TokenType
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.TokenType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.TokenType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.TokenType)
+  - SuperOffice.CRM.ArchiveLists.TokenType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.TokenType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.ArchiveLists.TokenType._NONE_
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType._NONE_
+  id: _NONE_
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: _NONE_
+  nameWithType: TokenType._NONE_
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType._NONE_
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: _NONE_ = 0
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType._UNDETERMINED_
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType._UNDETERMINED_
+  id: _UNDETERMINED_
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: _UNDETERMINED_
+  nameWithType: TokenType._UNDETERMINED_
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType._UNDETERMINED_
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: _UNDETERMINED_ = 1
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.BINARYOPERATOR
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.BINARYOPERATOR
+  id: BINARYOPERATOR
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: BINARYOPERATOR
+  nameWithType: TokenType.BINARYOPERATOR
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.BINARYOPERATOR
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: BINARYOPERATOR = 2
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.Start
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.Start
+  id: Start
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: TokenType.Start
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.Start
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Start = 3
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.FilterExpr
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.FilterExpr
+  id: FilterExpr
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: FilterExpr
+  nameWithType: TokenType.FilterExpr
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.FilterExpr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FilterExpr = 4
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.BracketExpr
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.BracketExpr
+  id: BracketExpr
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: BracketExpr
+  nameWithType: TokenType.BracketExpr
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.BracketExpr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: BracketExpr = 5
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.FieldExpr
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.FieldExpr
+  id: FieldExpr
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: FieldExpr
+  nameWithType: TokenType.FieldExpr
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.FieldExpr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FieldExpr = 6
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SubExpr
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.SubExpr
+  id: SubExpr
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: SubExpr
+  nameWithType: TokenType.SubExpr
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.SubExpr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SubExpr = 7
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.Terms
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.Terms
+  id: Terms
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Terms
+  nameWithType: TokenType.Terms
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.Terms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Terms = 8
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.Term
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.Term
+  id: Term
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: TokenType.Term
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.Term
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Term = 9
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.Field
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.Field
+  id: Field
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: TokenType.Field
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.Field
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Field = 10
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.Joins
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.Joins
+  id: Joins
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Joins
+  nameWithType: TokenType.Joins
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.Joins
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Joins = 11
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SubJoin
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.SubJoin
+  id: SubJoin
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: SubJoin
+  nameWithType: TokenType.SubJoin
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.SubJoin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SubJoin = 12
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.FkField
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.FkField
+  id: FkField
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: FkField
+  nameWithType: TokenType.FkField
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.FkField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FkField = 13
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.EOF
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.EOF
+  id: EOF
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: EOF
+  nameWithType: TokenType.EOF
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.EOF
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: EOF = 14
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.NUMBER
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.NUMBER
+  id: NUMBER
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: NUMBER
+  nameWithType: TokenType.NUMBER
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.NUMBER
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: NUMBER = 15
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.IDENTIFIER
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.IDENTIFIER
+  id: IDENTIFIER
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: IDENTIFIER
+  nameWithType: TokenType.IDENTIFIER
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.IDENTIFIER
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: IDENTIFIER = 16
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.QUOTESTRING
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.QUOTESTRING
+  id: QUOTESTRING
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: QUOTESTRING
+  nameWithType: TokenType.QUOTESTRING
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.QUOTESTRING
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: QUOTESTRING = 17
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.ODATAOPS
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.ODATAOPS
+  id: ODATAOPS
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: ODATAOPS
+  nameWithType: TokenType.ODATAOPS
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.ODATAOPS
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ODATAOPS = 18
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.INTOPS
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.INTOPS
+  id: INTOPS
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: INTOPS
+  nameWithType: TokenType.INTOPS
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.INTOPS
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: INTOPS = 19
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.STRINGOPS
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.STRINGOPS
+  id: STRINGOPS
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: STRINGOPS
+  nameWithType: TokenType.STRINGOPS
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.STRINGOPS
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: STRINGOPS = 20
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.ASSOCOPS
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.ASSOCOPS
+  id: ASSOCOPS
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: ASSOCOPS
+  nameWithType: TokenType.ASSOCOPS
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.ASSOCOPS
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ASSOCOPS = 21
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.LISTOPS
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.LISTOPS
+  id: LISTOPS
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: LISTOPS
+  nameWithType: TokenType.LISTOPS
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.LISTOPS
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: LISTOPS = 22
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.DATEOPS
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.DATEOPS
+  id: DATEOPS
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: DATEOPS
+  nameWithType: TokenType.DATEOPS
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.DATEOPS
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: DATEOPS = 23
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.UNARYOPERATOR
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.UNARYOPERATOR
+  id: UNARYOPERATOR
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: UNARYOPERATOR
+  nameWithType: TokenType.UNARYOPERATOR
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.UNARYOPERATOR
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: UNARYOPERATOR = 24
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.ANDOR
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.ANDOR
+  id: ANDOR
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: ANDOR
+  nameWithType: TokenType.ANDOR
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.ANDOR
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ANDOR = 25
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.COMMA
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.COMMA
+  id: COMMA
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: COMMA
+  nameWithType: TokenType.COMMA
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.COMMA
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: COMMA = 26
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.BROPEN
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.BROPEN
+  id: BROPEN
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: BROPEN
+  nameWithType: TokenType.BROPEN
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.BROPEN
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: BROPEN = 27
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.BRCLOSE
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.BRCLOSE
+  id: BRCLOSE
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: BRCLOSE
+  nameWithType: TokenType.BRCLOSE
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.BRCLOSE
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: BRCLOSE = 28
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SQOPEN
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.SQOPEN
+  id: SQOPEN
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: SQOPEN
+  nameWithType: TokenType.SQOPEN
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.SQOPEN
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SQOPEN = 29
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SQCLOSE
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.SQCLOSE
+  id: SQCLOSE
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: SQCLOSE
+  nameWithType: TokenType.SQCLOSE
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.SQCLOSE
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SQCLOSE = 30
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.DOT
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.DOT
+  id: DOT
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: DOT
+  nameWithType: TokenType.DOT
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.DOT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: DOT = 31
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.COLON
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.COLON
+  id: COLON
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: COLON
+  nameWithType: TokenType.COLON
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.COLON
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: COLON = 32
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.ARROW
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.ARROW
+  id: ARROW
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: ARROW
+  nameWithType: TokenType.ARROW
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.ARROW
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ARROW = 33
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.WHITESPACE
+  commentId: F:SuperOffice.CRM.ArchiveLists.TokenType.WHITESPACE
+  id: WHITESPACE
+  parent: SuperOffice.CRM.ArchiveLists.TokenType
+  langs:
+  - csharp
+  - vb
+  name: WHITESPACE
+  nameWithType: TokenType.WHITESPACE
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType.WHITESPACE
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: WHITESPACE = 34
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TokenType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TokenType, To>()
+  nameWithType: EnumUtil.MapEnums<TokenType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TokenType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TokenType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TokenType, To)()
+  name.vb: MapEnums(Of TokenType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TokenType, To>
+    nameWithType: EnumUtil.MapEnums<TokenType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TokenType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TokenType, To)
+    nameWithType: EnumUtil.MapEnums(Of TokenType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TokenType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.TokenType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TokenType>(TokenType)
+  nameWithType: ObjectExtensions.AssignByReflection<TokenType>(TokenType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.TokenType>(SuperOffice.CRM.ArchiveLists.TokenType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TokenType)(TokenType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.TokenType)(SuperOffice.CRM.ArchiveLists.TokenType)
+  name.vb: AssignByReflection(Of TokenType)(TokenType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TokenType>
+    nameWithType: ObjectExtensions.AssignByReflection<TokenType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.TokenType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.TokenType
+    name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TokenType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TokenType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.TokenType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.TokenType
+    name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TokenType>()
+  nameWithType: ObjectExtensions.GraphCopy<TokenType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.TokenType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TokenType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.TokenType)()
+  name.vb: GraphCopy(Of TokenType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TokenType>
+    nameWithType: ObjectExtensions.GraphCopy<TokenType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.TokenType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TokenType)
+    nameWithType: ObjectExtensions.GraphCopy(Of TokenType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.TokenType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TokenType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TokenType, To>()
+  nameWithType: Converters.MapEnums<TokenType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TokenType, To>()
+  nameWithType.vb: Converters.MapEnums(Of TokenType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TokenType, To)()
+  name.vb: MapEnums(Of TokenType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TokenType, To>
+    nameWithType: Converters.MapEnums<TokenType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TokenType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TokenType, To)
+    nameWithType: Converters.MapEnums(Of TokenType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TokenType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.TokenType
+  commentId: T:SuperOffice.CRM.ArchiveLists.TokenType
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: TokenType
+  nameWithType: TokenType
+  fullName: SuperOffice.CRM.ArchiveLists.TokenType

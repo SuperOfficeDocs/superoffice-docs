@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest
+  id: Pocket_GetRegisteredDevicesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: Pocket_GetRegisteredDevicesRequest
+  nameWithType: Pocket_GetRegisteredDevicesRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_GetRegisteredDevicesRequest : Object'
+    content.vb: >-
+      Public Class Pocket_GetRegisteredDevicesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_GetRegisteredDevicesRequest()
+  nameWithType: Pocket_GetRegisteredDevicesRequest.Pocket_GetRegisteredDevicesRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.Pocket_GetRegisteredDevicesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_GetRegisteredDevicesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Pocket_GetRegisteredDevicesRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.#ctor
+  isExternal: true
+  name: Pocket_GetRegisteredDevicesRequest
+  nameWithType: Pocket_GetRegisteredDevicesRequest.Pocket_GetRegisteredDevicesRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.Pocket_GetRegisteredDevicesRequest
+- uid: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Pocket_GetRegisteredDevicesRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Pocket_GetRegisteredDevicesRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

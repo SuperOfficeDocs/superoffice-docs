@@ -1,0 +1,1961 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.Country
+  commentId: T:SuperOffice.CRM.Globalization.Country
+  id: Country
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRow)
+  - SuperOffice.CRM.Globalization.Country.AddressLayout
+  - SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
+  - SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
+  - SuperOffice.CRM.Globalization.Country.CountryId
+  - SuperOffice.CRM.Globalization.Country.Cultures
+  - SuperOffice.CRM.Globalization.Country.CurrencyId
+  - SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
+  - SuperOffice.CRM.Globalization.Country.DefaultLCID
+  - SuperOffice.CRM.Globalization.Country.Deleted
+  - SuperOffice.CRM.Globalization.Country.DomainName
+  - SuperOffice.CRM.Globalization.Country.EnglishName
+  - SuperOffice.CRM.Globalization.Country.FlagresId
+  - SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
+  - SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  - SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  - SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
+  - SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
+  - SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
+  - SuperOffice.CRM.Globalization.Country.ISO3166Number
+  - SuperOffice.CRM.Globalization.Country.Name
+  - SuperOffice.CRM.Globalization.Country.OrgNrText
+  - SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString(System.String)
+  - SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix
+  - SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix
+  - SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix
+  - SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix
+  - SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
+  - SuperOffice.CRM.Globalization.Country.Rank
+  - SuperOffice.CRM.Globalization.Country.RegionInfo
+  - SuperOffice.CRM.Globalization.Country.Row
+  - SuperOffice.CRM.Globalization.Country.Tooltip
+  - SuperOffice.CRM.Globalization.Country.ToString
+  - SuperOffice.CRM.Globalization.Country.ZipPrefix
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: Country
+  fullName: SuperOffice.CRM.Globalization.Country
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nClass that holds one row of the Country table\n"
+  syntax:
+    content: public class Country
+    content.vb: Public Class Country
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.Country.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.Country.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRow)
+  commentId: M:SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRow)
+  id: '#ctor(SuperOffice.CRM.Rows.CountryRow)'
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Country(CountryRow)
+  nameWithType: Country.Country(CountryRow)
+  fullName: SuperOffice.CRM.Globalization.Country.Country(SuperOffice.CRM.Rows.CountryRow)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public Country(CountryRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.CountryRow
+    content.vb: Public Sub New(row As CountryRow)
+  overload: SuperOffice.CRM.Globalization.Country.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString(System.String)
+  id: ParseMultiLanguageString(System.String)
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ParseMultiLanguageString(String)
+  nameWithType: Country.ParseMultiLanguageString(String)
+  fullName: SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nParse a multi-language string according to the default language of the Country\n"
+  example:
+  - "\nString example from PrefDesc table:\nUS:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;\n"
+  syntax:
+    content: public string ParseMultiLanguageString(string multiLanguageString)
+    parameters:
+    - id: multiLanguageString
+      type: System.String
+    return:
+      type: System.String
+      description: Culture specific string part, or original string if there is a problem
+    content.vb: Public Function ParseMultiLanguageString(multiLanguageString As String) As String
+  overload: SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.Country.ToString
+  commentId: M:SuperOffice.CRM.Globalization.Country.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Country.ToString()
+  fullName: SuperOffice.CRM.Globalization.Country.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Globalization.Country.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.Country.Row
+  commentId: P:SuperOffice.CRM.Globalization.Country.Row
+  id: Row
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: Country.Row
+  fullName: SuperOffice.CRM.Globalization.Country.Row
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public CountryRow Row { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.CountryRow
+    content.vb: Public ReadOnly Property Row As CountryRow
+  overload: SuperOffice.CRM.Globalization.Country.Row*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.CountryId
+  commentId: P:SuperOffice.CRM.Globalization.Country.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: Country.CountryId
+  fullName: SuperOffice.CRM.Globalization.Country.CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Primary key  </p>\n"
+  syntax:
+    content: public int CountryId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CountryId As Integer
+  overload: SuperOffice.CRM.Globalization.Country.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.Name
+  commentId: P:SuperOffice.CRM.Globalization.Country.Name
+  id: Name
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Country.Name
+  fullName: SuperOffice.CRM.Globalization.Country.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Country name in local language  </p>\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Globalization.Country.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.Rank
+  commentId: P:SuperOffice.CRM.Globalization.Country.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Country.Rank
+  fullName: SuperOffice.CRM.Globalization.Country.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Rank order  </p>\n"
+  syntax:
+    content: public short Rank { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Rank As Short
+  overload: SuperOffice.CRM.Globalization.Country.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.Tooltip
+  commentId: P:SuperOffice.CRM.Globalization.Country.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: Country.Tooltip
+  fullName: SuperOffice.CRM.Globalization.Country.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Tooltip or other description  </p>\n"
+  syntax:
+    content: public string Tooltip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Tooltip As String
+  overload: SuperOffice.CRM.Globalization.Country.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.EnglishName
+  commentId: P:SuperOffice.CRM.Globalization.Country.EnglishName
+  id: EnglishName
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: EnglishName
+  nameWithType: Country.EnglishName
+  fullName: SuperOffice.CRM.Globalization.Country.EnglishName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Country name in English  </p>\n"
+  syntax:
+    content: public string EnglishName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EnglishName As String
+  overload: SuperOffice.CRM.Globalization.Country.EnglishName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
+  commentId: P:SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
+  id: ISO3166EnglishName
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ISO3166EnglishName
+  nameWithType: Country.ISO3166EnglishName
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nEnglish short name according to ISO3166\n"
+  syntax:
+    content: >-
+      [Obsolete("Use English name instead", true)]
+
+      public string ISO3166EnglishName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("Use English name instead", True)>
+
+      Public ReadOnly Property ISO3166EnglishName As String
+  overload: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use English name instead
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
+  commentId: P:SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
+  id: ISO3166Alpha2
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ISO3166Alpha2
+  nameWithType: Country.ISO3166Alpha2
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTwo-letter country-code according to ISO3166\n"
+  syntax:
+    content: public string ISO3166Alpha2 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ISO3166Alpha2 As String
+  overload: SuperOffice.CRM.Globalization.Country.ISO3166Alpha2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
+  commentId: P:SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
+  id: ISO3166Alpha3
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ISO3166Alpha3
+  nameWithType: Country.ISO3166Alpha3
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThree-letter country-code according to ISO3166\n"
+  syntax:
+    content: public string ISO3166Alpha3 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ISO3166Alpha3 As String
+  overload: SuperOffice.CRM.Globalization.Country.ISO3166Alpha3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166Number
+  commentId: P:SuperOffice.CRM.Globalization.Country.ISO3166Number
+  id: ISO3166Number
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ISO3166Number
+  nameWithType: Country.ISO3166Number
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166Number
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nNumeric country-code according to ISO3166\n"
+  syntax:
+    content: public uint ISO3166Number { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property ISO3166Number As UInteger
+  overload: SuperOffice.CRM.Globalization.Country.ISO3166Number*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix
+  commentId: P:SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix
+  id: PhoneDialOutPrefix
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: PhoneDialOutPrefix
+  nameWithType: Country.PhoneDialOutPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nPhone code to dial out from the country.\n"
+  syntax:
+    content: public string PhoneDialOutPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PhoneDialOutPrefix As String
+  overload: SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix
+  commentId: P:SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix
+  id: PhoneDialOutFaxPrefix
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: PhoneDialOutFaxPrefix
+  nameWithType: Country.PhoneDialOutFaxPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nPhone code for Fax to dial out from the country.\n"
+  syntax:
+    content: >-
+      [Obsolete("Use PhoneDialOutPrefix instead", false)]
+
+      public string PhoneDialOutFaxPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("Use PhoneDialOutPrefix instead", False)>
+
+      Public ReadOnly Property PhoneDialOutFaxPrefix As String
+  overload: SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use PhoneDialOutPrefix instead
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix
+  commentId: P:SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix
+  id: PhoneDialInPrefix
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: PhoneDialInPrefix
+  nameWithType: Country.PhoneDialInPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCountry&apos;s phone country code.\n"
+  syntax:
+    content: public string PhoneDialInPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PhoneDialInPrefix As String
+  overload: SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
+  commentId: P:SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
+  id: PhoneIsNorthAmerican
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: PhoneIsNorthAmerican
+  nameWithType: Country.PhoneIsNorthAmerican
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nIs the phone system part of the North-American phone system..\n"
+  syntax:
+    content: public bool PhoneIsNorthAmerican { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PhoneIsNorthAmerican As Boolean
+  overload: SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix
+  commentId: P:SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix
+  id: PhoneDialInterAreaPrefix
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: PhoneDialInterAreaPrefix
+  nameWithType: Country.PhoneDialInterAreaPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nCode to dial another areacode within the country. See remarks of <xref href=\"SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic\" data-throw-if-not-resolved=\"false\"></xref> for\na discussion of functionality related to this property, which is not quite trivial\n"
+  remarks: Trailing m characters are removed but can be checked using <xref href="SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public string PhoneDialInterAreaPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PhoneDialInterAreaPrefix As String
+  overload: SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
+  commentId: P:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
+  id: IsInterAreaPrefixClassic
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: IsInterAreaPrefixClassic
+  nameWithType: Country.IsInterAreaPrefixClassic
+  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nClassic inter-area prefixes behave in the following way: If you are in the\nsame area as the one you&apos;re calling to, you drop the prefix (typically 0) and also\nthe area code. If you are outside, but inside the country, you dial the 0 and the area\ncode. If you are outside the country, you dial your country&apos;s dial-out, the target country,\nand the target area code (without the 0).\nNon-classic inter-area prefixes retain the 0 and the area code inside the country, and drop\nthe 0 when calling from another country.\n"
+  remarks: "\nClassic inter-area prefixes are displayed like +46 (0) 8 123 4567, while non-classics\nwould look like +46 8 12 456 from abroad; inside, a classic would be 8 123 4567, while \na non-classic would be 08 123 4567. \nIf the inter-area code is non-empty and not exactly equal to &quot;0&quot;, it is considered classic.\nThe inter-area code of &quot;0&quot; is NOT classic by default, but can be forced to be classic\nby ending the customphonedescription field with the token &quot;/classic&quot;.\n<p></p>Complain to your national phone authority if you are confused. We did not invent this :-).\n"
+  syntax:
+    content: >-
+      [Obsolete("This feature is removed, as it is not supported when dialing phone numbers.", false)]
+
+      public bool IsInterAreaPrefixClassic { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete("This feature is removed, as it is not supported when dialing phone numbers.", False)>
+
+      Public ReadOnly Property IsInterAreaPrefixClassic As Boolean
+  overload: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This feature is removed, as it is not supported when dialing phone numbers.
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  commentId: P:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  id: IsInterAreaPrefixMandatoryOnNationalCalls
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: IsInterAreaPrefixMandatoryOnNationalCalls
+  nameWithType: Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTrue if inter area prefix is mandatory on all national calls\n"
+  remarks: This value is true if there is a valie in InterAreaPrefix
+  syntax:
+    content: public bool IsInterAreaPrefixMandatoryOnNationalCalls { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInterAreaPrefixMandatoryOnNationalCalls As Boolean
+  overload: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  commentId: P:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  id: IsInterAreaPrefixMandatoryOnInternationalCalls
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: IsInterAreaPrefixMandatoryOnInternationalCalls
+  nameWithType: Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTrue if inter are prefix is mandatory even when calling from abroad.\n"
+  remarks: This value is true if the InterAreaPrefix coulumn of the country table ends with m.
+  syntax:
+    content: public bool IsInterAreaPrefixMandatoryOnInternationalCalls { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInterAreaPrefixMandatoryOnInternationalCalls As Boolean
+  overload: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.ZipPrefix
+  commentId: P:SuperOffice.CRM.Globalization.Country.ZipPrefix
+  id: ZipPrefix
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: ZipPrefix
+  nameWithType: Country.ZipPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.ZipPrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>N- DK- etc.  </p>\n"
+  syntax:
+    content: public string ZipPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ZipPrefix As String
+  overload: SuperOffice.CRM.Globalization.Country.ZipPrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.FlagresId
+  commentId: P:SuperOffice.CRM.Globalization.Country.FlagresId
+  id: FlagresId
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: FlagresId
+  nameWithType: Country.FlagresId
+  fullName: SuperOffice.CRM.Globalization.Country.FlagresId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Internal resource ID of flag  </p>\n"
+  syntax:
+    content: >-
+      [Obsolete("The flag is now available as an image: Use Flag", false)]
+
+      public uint FlagresId { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: >-
+      <Obsolete("The flag is now available as an image: Use Flag", False)>
+
+      Public ReadOnly Property FlagresId As UInteger
+  overload: SuperOffice.CRM.Globalization.Country.FlagresId*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: 'The flag is now available as an image: Use Flag'
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.AddressLayout
+  commentId: P:SuperOffice.CRM.Globalization.Country.AddressLayout
+  id: AddressLayout
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: AddressLayout
+  nameWithType: Country.AddressLayout
+  fullName: SuperOffice.CRM.Globalization.Country.AddressLayout
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Points to address format used in the GUI  </p>\n"
+  syntax:
+    content: public AddressLayout AddressLayout { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressLayout
+    content.vb: Public ReadOnly Property AddressLayout As AddressLayout
+  overload: SuperOffice.CRM.Globalization.Country.AddressLayout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
+  commentId: P:SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
+  id: AddressLayoutDomestic
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutDomestic
+  nameWithType: Country.AddressLayoutDomestic
+  fullName: SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Points to address format used for labels to own country  </p>\n"
+  syntax:
+    content: public AddressLayout AddressLayoutDomestic { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressLayout
+    content.vb: Public ReadOnly Property AddressLayoutDomestic As AddressLayout
+  overload: SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
+  commentId: P:SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
+  id: AddressLayoutForeign
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutForeign
+  nameWithType: Country.AddressLayoutForeign
+  fullName: SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Points to address format used for labels to other countries than own country  </p>\n"
+  syntax:
+    content: public AddressLayout AddressLayoutForeign { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.AddressLayout
+    content.vb: Public ReadOnly Property AddressLayoutForeign As AddressLayout
+  overload: SuperOffice.CRM.Globalization.Country.AddressLayoutForeign*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.CurrencyId
+  commentId: P:SuperOffice.CRM.Globalization.Country.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: Country.CurrencyId
+  fullName: SuperOffice.CRM.Globalization.Country.CurrencyId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Default currency for this country  </p>\n"
+  syntax:
+    content: public int CurrencyId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrencyId As Integer
+  overload: SuperOffice.CRM.Globalization.Country.CurrencyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.OrgNrText
+  commentId: P:SuperOffice.CRM.Globalization.Country.OrgNrText
+  id: OrgNrText
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: OrgNrText
+  nameWithType: Country.OrgNrText
+  fullName: SuperOffice.CRM.Globalization.Country.OrgNrText
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Lead text for organisation field, multi-language format  </p>\n"
+  syntax:
+    content: public string OrgNrText { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property OrgNrText As String
+  overload: SuperOffice.CRM.Globalization.Country.OrgNrText*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.DomainName
+  commentId: P:SuperOffice.CRM.Globalization.Country.DomainName
+  id: DomainName
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: DomainName
+  nameWithType: Country.DomainName
+  fullName: SuperOffice.CRM.Globalization.Country.DomainName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n<p>Web domain identifier (.no, .uk, etc; but without the dot)  </p>\n"
+  syntax:
+    content: public string DomainName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DomainName As String
+  overload: SuperOffice.CRM.Globalization.Country.DomainName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.RegionInfo
+  commentId: P:SuperOffice.CRM.Globalization.Country.RegionInfo
+  id: RegionInfo
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: RegionInfo
+  nameWithType: Country.RegionInfo
+  fullName: SuperOffice.CRM.Globalization.Country.RegionInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nInformation about the country/region according to the .NET Framework.\n"
+  syntax:
+    content: public RegionInfo RegionInfo { get; }
+    parameters: []
+    return:
+      type: System.Globalization.RegionInfo
+    content.vb: Public ReadOnly Property RegionInfo As RegionInfo
+  overload: SuperOffice.CRM.Globalization.Country.RegionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.DefaultLCID
+  commentId: P:SuperOffice.CRM.Globalization.Country.DefaultLCID
+  id: DefaultLCID
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: DefaultLCID
+  nameWithType: Country.DefaultLCID
+  fullName: SuperOffice.CRM.Globalization.Country.DefaultLCID
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int DefaultLCID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DefaultLCID As Integer
+  overload: SuperOffice.CRM.Globalization.Country.DefaultLCID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.Deleted
+  commentId: P:SuperOffice.CRM.Globalization.Country.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: Country.Deleted
+  fullName: SuperOffice.CRM.Globalization.Country.Deleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public bool Deleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Deleted As Boolean
+  overload: SuperOffice.CRM.Globalization.Country.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
+  commentId: P:SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
+  id: DefaultLanguageCode
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: DefaultLanguageCode
+  nameWithType: Country.DefaultLanguageCode
+  fullName: SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public string DefaultLanguageCode { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DefaultLanguageCode As String
+  overload: SuperOffice.CRM.Globalization.Country.DefaultLanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.Country.Cultures
+  commentId: P:SuperOffice.CRM.Globalization.Country.Cultures
+  id: Cultures
+  parent: SuperOffice.CRM.Globalization.Country
+  langs:
+  - csharp
+  - vb
+  name: Cultures
+  nameWithType: Country.Cultures
+  fullName: SuperOffice.CRM.Globalization.Country.Cultures
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nMicrosoft .NET supported cultures that represents languages in the country.\n"
+  syntax:
+    content: >-
+      [Obsolete("Temporary unavailable", true)]
+
+      public CultureInfo[] Cultures { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo[]
+    content.vb: >-
+      <Obsolete("Temporary unavailable", True)>
+
+      Public ReadOnly Property Cultures As CultureInfo()
+  overload: SuperOffice.CRM.Globalization.Country.Cultures*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Temporary unavailable
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.Country.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Country, To>()
+  nameWithType: EnumUtil.MapEnums<Country, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.Country, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Country, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.Country, To)()
+  name.vb: MapEnums(Of Country, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Country, To>
+    nameWithType: EnumUtil.MapEnums<Country, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.Country, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Country, To)
+    nameWithType: EnumUtil.MapEnums(Of Country, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.Country, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.Country.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Country, To>()
+  nameWithType: Converters.MapEnums<Country, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.Country, To>()
+  nameWithType.vb: Converters.MapEnums(Of Country, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.Country, To)()
+  name.vb: MapEnums(Of Country, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Country, To>
+    nameWithType: Converters.MapEnums<Country, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.Country, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Country, To)
+    nameWithType: Converters.MapEnums(Of Country, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.Country, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.Country.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.#ctor
+  isExternal: true
+  name: Country
+  nameWithType: Country.Country
+  fullName: SuperOffice.CRM.Globalization.Country.Country
+- uid: SuperOffice.CRM.Rows.CountryRow
+  commentId: T:SuperOffice.CRM.Rows.CountryRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: CountryRow
+  nameWithType: CountryRow
+  fullName: SuperOffice.CRM.Rows.CountryRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString
+  isExternal: true
+  name: ParseMultiLanguageString
+  nameWithType: Country.ParseMultiLanguageString
+  fullName: SuperOffice.CRM.Globalization.Country.ParseMultiLanguageString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.Country.ToString*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Country.ToString
+  fullName: SuperOffice.CRM.Globalization.Country.ToString
+- uid: SuperOffice.CRM.Globalization.Country.Row*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.Row
+  isExternal: true
+  name: Row
+  nameWithType: Country.Row
+  fullName: SuperOffice.CRM.Globalization.Country.Row
+- uid: SuperOffice.CRM.Globalization.Country.CountryId*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: Country.CountryId
+  fullName: SuperOffice.CRM.Globalization.Country.CountryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.Country.Name*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.Name
+  isExternal: true
+  name: Name
+  nameWithType: Country.Name
+  fullName: SuperOffice.CRM.Globalization.Country.Name
+- uid: SuperOffice.CRM.Globalization.Country.Rank*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Country.Rank
+  fullName: SuperOffice.CRM.Globalization.Country.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Globalization.Country.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: Country.Tooltip
+  fullName: SuperOffice.CRM.Globalization.Country.Tooltip
+- uid: SuperOffice.CRM.Globalization.Country.EnglishName*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.EnglishName
+  isExternal: true
+  name: EnglishName
+  nameWithType: Country.EnglishName
+  fullName: SuperOffice.CRM.Globalization.Country.EnglishName
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
+  isExternal: true
+  name: ISO3166EnglishName
+  nameWithType: Country.ISO3166EnglishName
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166Alpha2*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
+  isExternal: true
+  name: ISO3166Alpha2
+  nameWithType: Country.ISO3166Alpha2
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166Alpha3*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
+  isExternal: true
+  name: ISO3166Alpha3
+  nameWithType: Country.ISO3166Alpha3
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
+- uid: SuperOffice.CRM.Globalization.Country.ISO3166Number*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ISO3166Number
+  isExternal: true
+  name: ISO3166Number
+  nameWithType: Country.ISO3166Number
+  fullName: SuperOffice.CRM.Globalization.Country.ISO3166Number
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix
+  isExternal: true
+  name: PhoneDialOutPrefix
+  nameWithType: Country.PhoneDialOutPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialOutPrefix
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix
+  isExternal: true
+  name: PhoneDialOutFaxPrefix
+  nameWithType: Country.PhoneDialOutFaxPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix
+  isExternal: true
+  name: PhoneDialInPrefix
+  nameWithType: Country.PhoneDialInPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialInPrefix
+- uid: SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
+  isExternal: true
+  name: PhoneIsNorthAmerican
+  nameWithType: Country.PhoneIsNorthAmerican
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix
+  isExternal: true
+  name: PhoneDialInterAreaPrefix
+  nameWithType: Country.PhoneDialInterAreaPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.PhoneDialInterAreaPrefix
+- uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
+  isExternal: true
+  name: IsInterAreaPrefixClassic
+  nameWithType: Country.IsInterAreaPrefixClassic
+  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
+- uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  isExternal: true
+  name: IsInterAreaPrefixMandatoryOnNationalCalls
+  nameWithType: Country.IsInterAreaPrefixMandatoryOnNationalCalls
+  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
+- uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  isExternal: true
+  name: IsInterAreaPrefixMandatoryOnInternationalCalls
+  nameWithType: Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnInternationalCalls
+- uid: SuperOffice.CRM.Globalization.Country.ZipPrefix*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.ZipPrefix
+  isExternal: true
+  name: ZipPrefix
+  nameWithType: Country.ZipPrefix
+  fullName: SuperOffice.CRM.Globalization.Country.ZipPrefix
+- uid: SuperOffice.CRM.Globalization.Country.FlagresId*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.FlagresId
+  isExternal: true
+  name: FlagresId
+  nameWithType: Country.FlagresId
+  fullName: SuperOffice.CRM.Globalization.Country.FlagresId
+- uid: SuperOffice.CRM.Globalization.Country.AddressLayout*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.AddressLayout
+  isExternal: true
+  name: AddressLayout
+  nameWithType: Country.AddressLayout
+  fullName: SuperOffice.CRM.Globalization.Country.AddressLayout
+- uid: SuperOffice.CRM.Globalization.AddressLayout
+  commentId: T:SuperOffice.CRM.Globalization.AddressLayout
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: AddressLayout
+  nameWithType: AddressLayout
+  fullName: SuperOffice.CRM.Globalization.AddressLayout
+- uid: SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
+  isExternal: true
+  name: AddressLayoutDomestic
+  nameWithType: Country.AddressLayoutDomestic
+  fullName: SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
+- uid: SuperOffice.CRM.Globalization.Country.AddressLayoutForeign*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
+  isExternal: true
+  name: AddressLayoutForeign
+  nameWithType: Country.AddressLayoutForeign
+  fullName: SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
+- uid: SuperOffice.CRM.Globalization.Country.CurrencyId*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: Country.CurrencyId
+  fullName: SuperOffice.CRM.Globalization.Country.CurrencyId
+- uid: SuperOffice.CRM.Globalization.Country.OrgNrText*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.OrgNrText
+  isExternal: true
+  name: OrgNrText
+  nameWithType: Country.OrgNrText
+  fullName: SuperOffice.CRM.Globalization.Country.OrgNrText
+- uid: SuperOffice.CRM.Globalization.Country.DomainName*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.DomainName
+  isExternal: true
+  name: DomainName
+  nameWithType: Country.DomainName
+  fullName: SuperOffice.CRM.Globalization.Country.DomainName
+- uid: SuperOffice.CRM.Globalization.Country.RegionInfo*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.RegionInfo
+  isExternal: true
+  name: RegionInfo
+  nameWithType: Country.RegionInfo
+  fullName: SuperOffice.CRM.Globalization.Country.RegionInfo
+- uid: System.Globalization.RegionInfo
+  commentId: T:System.Globalization.RegionInfo
+  parent: System.Globalization
+  isExternal: true
+  name: RegionInfo
+  nameWithType: RegionInfo
+  fullName: System.Globalization.RegionInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: SuperOffice.CRM.Globalization.Country.DefaultLCID*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.DefaultLCID
+  isExternal: true
+  name: DefaultLCID
+  nameWithType: Country.DefaultLCID
+  fullName: SuperOffice.CRM.Globalization.Country.DefaultLCID
+- uid: SuperOffice.CRM.Globalization.Country.Deleted*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: Country.Deleted
+  fullName: SuperOffice.CRM.Globalization.Country.Deleted
+- uid: SuperOffice.CRM.Globalization.Country.DefaultLanguageCode*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
+  isExternal: true
+  name: DefaultLanguageCode
+  nameWithType: Country.DefaultLanguageCode
+  fullName: SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
+- uid: SuperOffice.CRM.Globalization.Country.Cultures*
+  commentId: Overload:SuperOffice.CRM.Globalization.Country.Cultures
+  isExternal: true
+  name: Cultures
+  nameWithType: Country.Cultures
+  fullName: SuperOffice.CRM.Globalization.Country.Cultures
+- uid: System.Globalization.CultureInfo[]
+  isExternal: true
+  name: CultureInfo[]
+  nameWithType: CultureInfo[]
+  fullName: System.Globalization.CultureInfo[]
+  nameWithType.vb: CultureInfo()
+  fullName.vb: System.Globalization.CultureInfo()
+  name.vb: CultureInfo()
+  spec.csharp:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

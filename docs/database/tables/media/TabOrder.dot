@@ -1,0 +1,10 @@
+digraph TabOrder  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TabOrder[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+TabOrder -> associate [headlabel = "associateId"]
+TabOrder -> associate [label = "registered_associate_id"]
+TabOrder -> associate [label = "updated_associate_id"]
+}

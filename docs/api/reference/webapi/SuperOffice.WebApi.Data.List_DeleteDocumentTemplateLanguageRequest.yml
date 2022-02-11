@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest
+  id: List_DeleteDocumentTemplateLanguageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.#ctor
+  - SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  - SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteDocumentTemplateLanguageRequest
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_DeleteDocumentTemplateLanguageRequest : Object'
+    content.vb: >-
+      Public Class List_DeleteDocumentTemplateLanguageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteDocumentTemplateLanguageRequest()
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest.List_DeleteDocumentTemplateLanguageRequest()
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.List_DeleteDocumentTemplateLanguageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_DeleteDocumentTemplateLanguageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.#ctor
+  isExternal: true
+  name: List_DeleteDocumentTemplateLanguageRequest
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest.List_DeleteDocumentTemplateLanguageRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.List_DeleteDocumentTemplateLanguageRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.List_DeleteDocumentTemplateLanguageRequest.LanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

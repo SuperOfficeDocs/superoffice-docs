@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetAddressRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetAddressRequest
+  id: Person_GetAddressRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetAddressRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetAddressRequest
+  nameWithType: Person_GetAddressRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetAddressRequest : Object'
+    content.vb: >-
+      Public Class Person_GetAddressRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetAddressRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetAddressRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetAddressRequest()
+  nameWithType: Person_GetAddressRequest.Person_GetAddressRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressRequest.Person_GetAddressRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetAddressRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetAddressRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_GetAddressRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_GetAddressRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetAddressRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetAddressRequest.#ctor
+  isExternal: true
+  name: Person_GetAddressRequest
+  nameWithType: Person_GetAddressRequest.Person_GetAddressRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressRequest.Person_GetAddressRequest
+- uid: SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_GetAddressRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetAddressRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

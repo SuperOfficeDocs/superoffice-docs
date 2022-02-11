@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_FindProductRequest
+  id: Quote_FindProductRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_FindProductRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey
+  - SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId
+  - SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput
+  langs:
+  - csharp
+  - vb
+  name: Quote_FindProductRequest
+  nameWithType: Quote_FindProductRequest
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_FindProductRequest : Object'
+    content.vb: >-
+      Public Class Quote_FindProductRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_FindProductRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_FindProductRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_FindProductRequest()
+  nameWithType: Quote_FindProductRequest.Quote_FindProductRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.Quote_FindProductRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_FindProductRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_FindProductRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.Quote_FindProductRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: Quote_FindProductRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput
+  commentId: P:SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput
+  id: UserInput
+  parent: SuperOffice.WebApi.Data.Quote_FindProductRequest
+  langs:
+  - csharp
+  - vb
+  name: UserInput
+  nameWithType: Quote_FindProductRequest.UserInput
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UserInput { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserInput As String
+  overload: SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey
+  commentId: P:SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey
+  id: PriceListKey
+  parent: SuperOffice.WebApi.Data.Quote_FindProductRequest
+  langs:
+  - csharp
+  - vb
+  name: PriceListKey
+  nameWithType: Quote_FindProductRequest.PriceListKey
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PriceListKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PriceListKey As String
+  overload: SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_FindProductRequest.#ctor
+  isExternal: true
+  name: Quote_FindProductRequest
+  nameWithType: Quote_FindProductRequest.Quote_FindProductRequest
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.Quote_FindProductRequest
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: Quote_FindProductRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.QuoteAlternativeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput
+  isExternal: true
+  name: UserInput
+  nameWithType: Quote_FindProductRequest.UserInput
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.UserInput
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey
+  isExternal: true
+  name: PriceListKey
+  nameWithType: Quote_FindProductRequest.PriceListKey
+  fullName: SuperOffice.WebApi.Data.Quote_FindProductRequest.PriceListKey

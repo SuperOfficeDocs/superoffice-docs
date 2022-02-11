@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Visibility
+  commentId: T:SuperOffice.WebApi.Data.Visibility
+  id: Visibility
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Visibility.All
+  - SuperOffice.WebApi.Data.Visibility.Associate
+  - SuperOffice.WebApi.Data.Visibility.Group
+  - SuperOffice.WebApi.Data.Visibility.value__
+  langs:
+  - csharp
+  - vb
+  name: Visibility
+  nameWithType: Visibility
+  fullName: SuperOffice.WebApi.Data.Visibility
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe visibility of the record\n"
+  syntax:
+    content: 'public sealed class Visibility : Enum'
+    content.vb: >-
+      Public NotInheritable Class Visibility
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.Visibility.value__
+  commentId: F:SuperOffice.WebApi.Data.Visibility.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.Visibility
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Visibility.value__
+  fullName: SuperOffice.WebApi.Data.Visibility.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Visibility.All
+  commentId: F:SuperOffice.WebApi.Data.Visibility.All
+  id: All
+  parent: SuperOffice.WebApi.Data.Visibility
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: Visibility.All
+  fullName: SuperOffice.WebApi.Data.Visibility.All
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: 0 = Visible for all users\n"
+  syntax:
+    content: public const Visibility All
+    return:
+      type: SuperOffice.WebApi.Data.Visibility
+    content.vb: Public Const All As Visibility
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Visibility.Associate
+  commentId: F:SuperOffice.WebApi.Data.Visibility.Associate
+  id: Associate
+  parent: SuperOffice.WebApi.Data.Visibility
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: Visibility.Associate
+  fullName: SuperOffice.WebApi.Data.Visibility.Associate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: 1 = The visibility is set for an associate\n"
+  syntax:
+    content: public const Visibility Associate
+    return:
+      type: SuperOffice.WebApi.Data.Visibility
+    content.vb: Public Const Associate As Visibility
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Visibility.Group
+  commentId: F:SuperOffice.WebApi.Data.Visibility.Group
+  id: Group
+  parent: SuperOffice.WebApi.Data.Visibility
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: Visibility.Group
+  fullName: SuperOffice.WebApi.Data.Visibility.Group
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: 2 = The visibility is set for a group\n"
+  syntax:
+    content: public const Visibility Group
+    return:
+      type: SuperOffice.WebApi.Data.Visibility
+    content.vb: Public Const Group As Visibility
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Visibility
+  commentId: T:SuperOffice.WebApi.Data.Visibility
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: SuperOffice.WebApi.Data.Visibility

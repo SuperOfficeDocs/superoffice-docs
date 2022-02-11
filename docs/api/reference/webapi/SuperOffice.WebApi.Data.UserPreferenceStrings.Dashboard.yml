@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
+  id: UserPreferenceStrings.Dashboard
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Version
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Dashboard
+  nameWithType: UserPreferenceStrings.Dashboard
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public static class Dashboard : Object'
+    content.vb: >-
+      Public Module Dashboard
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Dashboard.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading. \n"
+  syntax:
+    content: public const string Section = "Dashboard"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Dashboard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Version
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Version
+  id: Version
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: UserPreferenceStrings.Dashboard.Version
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Dashboard.Version
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCurrent version of dashboards\n"
+  syntax:
+    content: public const string Version = "Version"
+    return:
+      type: System.String
+    content.vb: Public Const Version As String = "Version"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

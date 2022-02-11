@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EventAction`5
+  commentId: T:SuperOffice.Data.EventAction`5
+  id: EventAction`5
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EventAction`5.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Data.EventAction`5.BeginInvoke(`0,`1,`2@,`3@,`4@,System.AsyncCallback,System.Object)
+  - SuperOffice.Data.EventAction`5.EndInvoke(`2@,`3@,`4@,System.IAsyncResult)
+  - SuperOffice.Data.EventAction`5.Invoke(`0,`1,`2@,`3@,`4@)
+  langs:
+  - csharp
+  - vb
+  name: EventAction<T1, T2, T3, T4, T5>
+  nameWithType: EventAction<T1, T2, T3, T4, T5>
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>
+  type: Delegate
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public delegate void EventAction<T1, T2, T3, T4, T5>(T1 arg1, T2 arg2, ref T3 arg3, ref T4 arg4, ref T5 arg5);
+    parameters:
+    - id: arg1
+      type: '{T1}'
+    - id: arg2
+      type: '{T2}'
+    - id: arg3
+      type: '{T3}'
+    - id: arg4
+      type: '{T4}'
+    - id: arg5
+      type: '{T5}'
+    typeParameters:
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    content.vb: Public Delegate Sub EventAction(Of T1, T2, T3, T4, T5)(arg1 As T1, arg2 As T2, ByRef arg3 As T3, ByRef arg4 As T4, ByRef arg5 As T5)
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5)
+  name.vb: EventAction(Of T1, T2, T3, T4, T5)
+- uid: SuperOffice.Data.EventAction`5.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Data.EventAction`5.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Data.EventAction`5
+  langs:
+  - csharp
+  - vb
+  name: EventAction(Object, IntPtr)
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.EventAction(Object, IntPtr)
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.EventAction(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public EventAction(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Data.EventAction`5.#ctor*
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).EventAction(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).EventAction(System.Object, System.IntPtr)
+- uid: SuperOffice.Data.EventAction`5.Invoke(`0,`1,`2@,`3@,`4@)
+  commentId: M:SuperOffice.Data.EventAction`5.Invoke(`0,`1,`2@,`3@,`4@)
+  id: Invoke(`0,`1,`2@,`3@,`4@)
+  parent: SuperOffice.Data.EventAction`5
+  langs:
+  - csharp
+  - vb
+  name: Invoke(T1, T2, ref T3, ref T4, ref T5)
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.Invoke(T1, T2, ref T3, ref T4, ref T5)
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.Invoke(T1, T2, ref T3, ref T4, ref T5)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public virtual void Invoke(T1 arg1, T2 arg2, ref T3 arg3, ref T4 arg4, ref T5 arg5)
+    parameters:
+    - id: arg1
+      type: '{T1}'
+    - id: arg2
+      type: '{T2}'
+    - id: arg3
+      type: '{T3}'
+    - id: arg4
+      type: '{T4}'
+    - id: arg5
+      type: '{T5}'
+    content.vb: Public Overridable Sub Invoke(arg1 As T1, arg2 As T2, ByRef arg3 As T3, ByRef arg4 As T4, ByRef arg5 As T5)
+  overload: SuperOffice.Data.EventAction`5.Invoke*
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).Invoke(T1, T2, ByRef T3, ByRef T4, ByRef T5)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).Invoke(T1, T2, ByRef T3, ByRef T4, ByRef T5)
+  name.vb: Invoke(T1, T2, ByRef T3, ByRef T4, ByRef T5)
+- uid: SuperOffice.Data.EventAction`5.BeginInvoke(`0,`1,`2@,`3@,`4@,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Data.EventAction`5.BeginInvoke(`0,`1,`2@,`3@,`4@,System.AsyncCallback,System.Object)
+  id: BeginInvoke(`0,`1,`2@,`3@,`4@,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Data.EventAction`5
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(T1, T2, ref T3, ref T4, ref T5, AsyncCallback, Object)
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.BeginInvoke(T1, T2, ref T3, ref T4, ref T5, AsyncCallback, Object)
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.BeginInvoke(T1, T2, ref T3, ref T4, ref T5, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, ref T3 arg3, ref T4 arg4, ref T5 arg5, AsyncCallback callback, object object)
+    parameters:
+    - id: arg1
+      type: '{T1}'
+    - id: arg2
+      type: '{T2}'
+    - id: arg3
+      type: '{T3}'
+    - id: arg4
+      type: '{T4}'
+    - id: arg5
+      type: '{T5}'
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(arg1 As T1, arg2 As T2, ByRef arg3 As T3, ByRef arg4 As T4, ByRef arg5 As T5, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Data.EventAction`5.BeginInvoke*
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).BeginInvoke(T1, T2, ByRef T3, ByRef T4, ByRef T5, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).BeginInvoke(T1, T2, ByRef T3, ByRef T4, ByRef T5, System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(T1, T2, ByRef T3, ByRef T4, ByRef T5, AsyncCallback, Object)
+- uid: SuperOffice.Data.EventAction`5.EndInvoke(`2@,`3@,`4@,System.IAsyncResult)
+  commentId: M:SuperOffice.Data.EventAction`5.EndInvoke(`2@,`3@,`4@,System.IAsyncResult)
+  id: EndInvoke(`2@,`3@,`4@,System.IAsyncResult)
+  parent: SuperOffice.Data.EventAction`5
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(ref T3, ref T4, ref T5, IAsyncResult)
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.EndInvoke(ref T3, ref T4, ref T5, IAsyncResult)
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.EndInvoke(ref T3, ref T4, ref T5, System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public virtual void EndInvoke(ref T3 arg3, ref T4 arg4, ref T5 arg5, IAsyncResult result)
+    parameters:
+    - id: arg3
+      type: '{T3}'
+    - id: arg4
+      type: '{T4}'
+    - id: arg5
+      type: '{T5}'
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(ByRef arg3 As T3, ByRef arg4 As T4, ByRef arg5 As T5, result As IAsyncResult)
+  overload: SuperOffice.Data.EventAction`5.EndInvoke*
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).EndInvoke(ByRef T3, ByRef T4, ByRef T5, IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).EndInvoke(ByRef T3, ByRef T4, ByRef T5, System.IAsyncResult)
+  name.vb: EndInvoke(ByRef T3, ByRef T4, ByRef T5, IAsyncResult)
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: '{T3}'
+  commentId: '!:T3'
+  definition: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: '{T4}'
+  commentId: '!:T4'
+  definition: T4
+  name: T4
+  nameWithType: T4
+  fullName: T4
+- uid: '{T5}'
+  commentId: '!:T5'
+  definition: T5
+  name: T5
+  nameWithType: T5
+  fullName: T5
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: T4
+  name: T4
+  nameWithType: T4
+  fullName: T4
+- uid: T5
+  name: T5
+  nameWithType: T5
+  fullName: T5
+- uid: SuperOffice.Data.EventAction`5.#ctor*
+  commentId: Overload:SuperOffice.Data.EventAction`5.#ctor
+  isExternal: true
+  name: EventAction
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.EventAction
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.EventAction
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).EventAction
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).EventAction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.EventAction`5.Invoke*
+  commentId: Overload:SuperOffice.Data.EventAction`5.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.Invoke
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.Invoke
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).Invoke
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).Invoke
+- uid: SuperOffice.Data.EventAction`5.BeginInvoke*
+  commentId: Overload:SuperOffice.Data.EventAction`5.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.BeginInvoke
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.BeginInvoke
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).BeginInvoke
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Data.EventAction`5.EndInvoke*
+  commentId: Overload:SuperOffice.Data.EventAction`5.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: EventAction<T1, T2, T3, T4, T5>.EndInvoke
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>.EndInvoke
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5).EndInvoke
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5).EndInvoke

@@ -1,0 +1,599 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptEntity
+  id: CRMScriptEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
+  - SuperOffice.WebApi.Data.CRMScriptEntity.Description
+  - SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
+  - SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
+  - SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
+  - SuperOffice.WebApi.Data.CRMScriptEntity.Name
+  - SuperOffice.WebApi.Data.CRMScriptEntity.Registered
+  - SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.CRMScriptEntity.Source
+  - SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
+  - SuperOffice.WebApi.Data.CRMScriptEntity.Updated
+  - SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptEntity
+  nameWithType: CRMScriptEntity
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CRMScriptEntity.\nCRM Scripts - stored in the ejScript table, including source code.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All CRMScriptEntity: <pre><code>&quot;Ejscripts&quot;</code></pre>
+  example:
+  - "\nGet CRMScriptEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new CRMScriptAgent(configuration);\nvar cRMScriptEntity = agent.GetCRMScriptEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class CRMScriptEntity : Carrier'
+    content.vb: >-
+      Public Class CRMScriptEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
+    commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptEntity()
+  nameWithType: CRMScriptEntity.CRMScriptEntity()
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.CRMScriptEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CRMScriptEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
+  id: EjscriptId
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: EjscriptId
+  nameWithType: CRMScriptEntity.EjscriptId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int EjscriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjscriptId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: CRMScriptEntity.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGlobal unique identifier, accross customers/tenants\n"
+  syntax:
+    content: public virtual string UniqueIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueIdentifier As String
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CRMScriptEntity.Name
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA description of this script\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CRMScriptEntity.Description
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional description of what this script is used for.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
+  id: IncludeId
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: IncludeId
+  nameWithType: CRMScriptEntity.IncludeId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA unique name used for including this script in another\n"
+  syntax:
+    content: public virtual string IncludeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IncludeId As String
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: CRMScriptEntity.HierarchyId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe script is inside this hierarchy folder\n"
+  syntax:
+    content: public virtual int HierarchyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HierarchyId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Source
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: CRMScriptEntity.Source
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe script\n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Registered
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CRMScriptEntity.Registered
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CRMScriptEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Updated
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CRMScriptEntity.Updated
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.WebApi.Data.CRMScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CRMScriptEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated by whom\n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
+  isExternal: true
+  name: CRMScriptEntity
+  nameWithType: CRMScriptEntity.CRMScriptEntity
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.CRMScriptEntity
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
+  isExternal: true
+  name: EjscriptId
+  nameWithType: CRMScriptEntity.EjscriptId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
+  isExternal: true
+  name: UniqueIdentifier
+  nameWithType: CRMScriptEntity.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: CRMScriptEntity.Name
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Name
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: CRMScriptEntity.Description
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Description
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
+  isExternal: true
+  name: IncludeId
+  nameWithType: CRMScriptEntity.IncludeId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
+  isExternal: true
+  name: HierarchyId
+  nameWithType: CRMScriptEntity.HierarchyId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Source
+  isExternal: true
+  name: Source
+  nameWithType: CRMScriptEntity.Source
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Source
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: CRMScriptEntity.Registered
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: CRMScriptEntity.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: CRMScriptEntity.Updated
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Updated
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: CRMScriptEntity.UpdatedAssociateId
+  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId

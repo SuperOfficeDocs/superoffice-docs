@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  commentId: T:SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  id: DBC.FreeTextIndexFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.ContactId
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextindexId
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextwordsId
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.Infile
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnerrecordId
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnertableId
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.RecordId
+  - SuperOffice.CRM.Data.DBC.FreeTextIndexFields.TableId
+  langs:
+  - csharp
+  - vb
+  name: DBC.FreeTextIndexFields
+  nameWithType: DBC.FreeTextIndexFields
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for FreeTextIndex, This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale). \n"
+  syntax:
+    content: public static class FreeTextIndexFields
+    content.vb: Public Module FreeTextIndexFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextindexId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextindexId
+  id: FreetextindexId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: FreetextindexId
+  nameWithType: DBC.FreeTextIndexFields.FreetextindexId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextindexId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.FreetextindexId: Primary key\n"
+  syntax:
+    content: public const string FreetextindexId = "freetextindex_id"
+    return:
+      type: System.String
+    content.vb: Public Const FreetextindexId As String = "freetextindex_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextwordsId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextwordsId
+  id: FreetextwordsId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: FreetextwordsId
+  nameWithType: DBC.FreeTextIndexFields.FreetextwordsId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.FreetextwordsId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.FreetextwordsId: Reference to word\n"
+  syntax:
+    content: public const string FreetextwordsId = "freetextwords_id"
+    return:
+      type: System.String
+    content.vb: Public Const FreetextwordsId As String = "freetextwords_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.TableId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.TableId
+  id: TableId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: TableId
+  nameWithType: DBC.FreeTextIndexFields.TableId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.TableId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.TableId: Source table number - could be main (contact, person, etc) or sub-tables like address, email\n"
+  syntax:
+    content: public const string TableId = "table_id"
+    return:
+      type: System.String
+    content.vb: Public Const TableId As String = "table_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.RecordId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: DBC.FreeTextIndexFields.RecordId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.RecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.RecordId: Source record - the row that contains the word. Might be contact record, or an address or phone\n"
+  syntax:
+    content: public const string RecordId = "record_id"
+    return:
+      type: System.String
+    content.vb: Public Const RecordId As String = "record_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnertableId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnertableId
+  id: OwnertableId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: OwnertableId
+  nameWithType: DBC.FreeTextIndexFields.OwnertableId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnertableId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.OwnertableId: Logical source table (high-level), like contact or project\n"
+  syntax:
+    content: public const string OwnertableId = "ownertable_id"
+    return:
+      type: System.String
+    content.vb: Public Const OwnertableId As String = "ownertable_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnerrecordId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnerrecordId
+  id: OwnerrecordId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerrecordId
+  nameWithType: DBC.FreeTextIndexFields.OwnerrecordId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.OwnerrecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.OwnerrecordId: Logical source record. The contact, project, sale that the source belongs to.\n"
+  syntax:
+    content: public const string OwnerrecordId = "ownerrecord_id"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerrecordId As String = "ownerrecord_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.Infile
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.Infile
+  id: Infile
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: Infile
+  nameWithType: DBC.FreeTextIndexFields.Infile
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.Infile
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.Infile: Word found in file (0=word found in database)\n"
+  syntax:
+    content: public const string Infile = "infile"
+    return:
+      type: System.String
+    content.vb: Public Const Infile As String = "infile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.FreeTextIndexFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.FreeTextIndexFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.FreeTextIndexFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.FreeTextIndexFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFreeTextIndex.ContactId: Set for contacts and person records to allow cross-table free-text searches. 0 for non-contact, non-person\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

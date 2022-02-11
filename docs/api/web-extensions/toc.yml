@@ -1,0 +1,22 @@
+- name: Web extensions
+  href: index.md
+  items:
+  - name: MailArchiveHelper
+    href: mailarchivehelper/index.md
+    items:
+    - name: Getting started (init)
+      href: mailarchivehelper/getting-started.md
+    - name: Registry
+      href: mailarchivehelper/registry.md
+    - name: Preference dialog
+      href: mailarchivehelper/preference-dialog.md
+    - name: Logging
+      href: mailarchivehelper/logging.md
+    - name: COM interop and .Net
+      href: mailarchivehelper/com-interop-and-dotnet.md
+    - name: MailProtocol
+      href: mailarchivehelper/mail-protocol.md
+    - name: How to find a contact from an email
+      href: mailarchivehelper/find-contact-from-email.md
+    - name: How to arvhive email
+      href: mailarchivehelper/archive-email.md

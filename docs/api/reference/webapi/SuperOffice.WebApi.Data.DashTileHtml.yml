@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTileHtml
+  commentId: T:SuperOffice.WebApi.Data.DashTileHtml
+  id: DashTileHtml
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTileHtml.#ctor
+  - SuperOffice.WebApi.Data.DashTileHtml.Html
+  - SuperOffice.WebApi.Data.DashTileHtml.LanguageCode
+  langs:
+  - csharp
+  - vb
+  name: DashTileHtml
+  nameWithType: DashTileHtml
+  fullName: SuperOffice.WebApi.Data.DashTileHtml
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DashTileHtml.\nHTML data for dash tiles with TileType = HTML    \n"
+  syntax:
+    content: 'public class DashTileHtml : Carrier'
+    content.vb: >-
+      Public Class DashTileHtml
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTileHtml.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DashTileHtml.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: DashTileHtml()
+  nameWithType: DashTileHtml.DashTileHtml()
+  fullName: SuperOffice.WebApi.Data.DashTileHtml.DashTileHtml()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DashTileHtml()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DashTileHtml.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTileHtml.LanguageCode
+  commentId: P:SuperOffice.WebApi.Data.DashTileHtml.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.WebApi.Data.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: DashTileHtml.LanguageCode
+  fullName: SuperOffice.WebApi.Data.DashTileHtml.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContent language\n"
+  syntax:
+    content: public virtual string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LanguageCode As String
+  overload: SuperOffice.WebApi.Data.DashTileHtml.LanguageCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DashTileHtml.Html
+  commentId: P:SuperOffice.WebApi.Data.DashTileHtml.Html
+  id: Html
+  parent: SuperOffice.WebApi.Data.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: DashTileHtml.Html
+  fullName: SuperOffice.WebApi.Data.DashTileHtml.Html
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHTML data\n"
+  syntax:
+    content: public virtual string Html { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Html As String
+  overload: SuperOffice.WebApi.Data.DashTileHtml.Html*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DashTileHtml.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTileHtml.#ctor
+  isExternal: true
+  name: DashTileHtml
+  nameWithType: DashTileHtml.DashTileHtml
+  fullName: SuperOffice.WebApi.Data.DashTileHtml.DashTileHtml
+- uid: SuperOffice.WebApi.Data.DashTileHtml.LanguageCode*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTileHtml.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: DashTileHtml.LanguageCode
+  fullName: SuperOffice.WebApi.Data.DashTileHtml.LanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DashTileHtml.Html*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTileHtml.Html
+  isExternal: true
+  name: Html
+  nameWithType: DashTileHtml.Html
+  fullName: SuperOffice.WebApi.Data.DashTileHtml.Html

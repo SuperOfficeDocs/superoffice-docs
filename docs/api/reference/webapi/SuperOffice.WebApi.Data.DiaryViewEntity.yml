@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity
+  commentId: T:SuperOffice.WebApi.Data.DiaryViewEntity
+  id: DiaryViewEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DiaryViewEntity.#ctor
+  - SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList
+  - SuperOffice.WebApi.Data.DiaryViewEntity.AssocId
+  - SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId
+  - SuperOffice.WebApi.Data.DiaryViewEntity.Name
+  - SuperOffice.WebApi.Data.DiaryViewEntity.Rank
+  - SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip
+  - SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId
+  - SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewEntity
+  nameWithType: DiaryViewEntity
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DiaryViewEntity.\nThe DiaryView Service. The service implements all services working with the DiaryView object.    \n"
+  example:
+  - "\nGet DiaryViewEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ConfigurationAgent(configuration);\nvar diaryViewEntity = agent.GetDiaryViewEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class DiaryViewEntity : Carrier'
+    content.vb: >-
+      Public Class DiaryViewEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ConfigurationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DiaryViewEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewEntity()
+  nameWithType: DiaryViewEntity.DiaryViewEntity()
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DiaryViewEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId
+  id: DiaryViewId
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewId
+  nameWithType: DiaryViewEntity.DiaryViewId
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the DiaryView\n"
+  syntax:
+    content: public virtual int DiaryViewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DiaryViewId As Integer
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DiaryViewEntity.Name
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the DiaryView.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DiaryViewEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip/description of the DiaryView\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns
+  id: VisibleColumns
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleColumns
+  nameWithType: DiaryViewEntity.VisibleColumns
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of columns that should be visible simultanously.\n"
+  syntax:
+    content: public virtual short VisibleColumns { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property VisibleColumns As Short
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DiaryViewEntity.Rank
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDiaryView rank.\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.AssocId
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.AssocId
+  id: AssocId
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: DiaryViewEntity.AssocId
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.AssocId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwning associate id for the DiaryView.\n"
+  syntax:
+    content: public virtual int AssocId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssocId As Integer
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.AssocId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList
+  id: AssociateList
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: AssociateList
+  nameWithType: DiaryViewEntity.AssociateList
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] AssociateList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property AssociateList As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId
+  commentId: P:SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.WebApi.Data.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: DiaryViewEntity.TzLocationId
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault timezone location for this view\n"
+  syntax:
+    content: public virtual int TzLocationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TzLocationId As Integer
+  overload: SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.#ctor
+  isExternal: true
+  name: DiaryViewEntity
+  nameWithType: DiaryViewEntity.DiaryViewEntity
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewEntity
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId
+  isExternal: true
+  name: DiaryViewId
+  nameWithType: DiaryViewEntity.DiaryViewId
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.DiaryViewId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: DiaryViewEntity.Name
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: DiaryViewEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns
+  isExternal: true
+  name: VisibleColumns
+  nameWithType: DiaryViewEntity.VisibleColumns
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.VisibleColumns
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: DiaryViewEntity.Rank
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.Rank
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.AssocId*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.AssocId
+  isExternal: true
+  name: AssocId
+  nameWithType: DiaryViewEntity.AssocId
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.AssocId
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList
+  isExternal: true
+  name: AssociateList
+  nameWithType: DiaryViewEntity.AssociateList
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.AssociateList
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId*
+  commentId: Overload:SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId
+  isExternal: true
+  name: TzLocationId
+  nameWithType: DiaryViewEntity.TzLocationId
+  fullName: SuperOffice.WebApi.Data.DiaryViewEntity.TzLocationId

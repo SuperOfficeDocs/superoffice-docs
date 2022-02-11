@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  id: HttpHelper.RequestType
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.HttpHelper.RequestType.DELETE
+  - SuperOffice.CRM.Web.Util.HttpHelper.RequestType.GET
+  - SuperOffice.CRM.Web.Util.HttpHelper.RequestType.POST
+  - SuperOffice.CRM.Web.Util.HttpHelper.RequestType.PUT
+  langs:
+  - csharp
+  - vb
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public enum RequestType
+    content.vb: Public Enum RequestType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.GET
+  commentId: F:SuperOffice.CRM.Web.Util.HttpHelper.RequestType.GET
+  id: GET
+  parent: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: GET
+  nameWithType: HttpHelper.RequestType.GET
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.GET
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: GET = 0
+    return:
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.PUT
+  commentId: F:SuperOffice.CRM.Web.Util.HttpHelper.RequestType.PUT
+  id: PUT
+  parent: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: PUT
+  nameWithType: HttpHelper.RequestType.PUT
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.PUT
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: PUT = 1
+    return:
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.POST
+  commentId: F:SuperOffice.CRM.Web.Util.HttpHelper.RequestType.POST
+  id: POST
+  parent: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: POST
+  nameWithType: HttpHelper.RequestType.POST
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.POST
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: POST = 2
+    return:
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.DELETE
+  commentId: F:SuperOffice.CRM.Web.Util.HttpHelper.RequestType.DELETE
+  id: DELETE
+  parent: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: DELETE
+  nameWithType: HttpHelper.RequestType.DELETE
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType.DELETE
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: DELETE = 3
+    return:
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType

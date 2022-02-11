@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  id: ConfirmDeleteRecurringAppointmentDialog.Task
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Delete
+  - SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Update
+  langs:
+  - csharp
+  - vb
+  name: ConfirmDeleteRecurringAppointmentDialog.Task
+  nameWithType: ConfirmDeleteRecurringAppointmentDialog.Task
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum Task
+    content.vb: Public Enum Task
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Update
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Update
+  id: Update
+  parent: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: ConfirmDeleteRecurringAppointmentDialog.Task.Update
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Update
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Update = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Delete
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Delete
+  id: Delete
+  parent: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: ConfirmDeleteRecurringAppointmentDialog.Task.Delete
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task.Delete
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Delete = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ConfirmDeleteRecurringAppointmentDialog.Task
+  nameWithType: ConfirmDeleteRecurringAppointmentDialog.Task
+  fullName: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
