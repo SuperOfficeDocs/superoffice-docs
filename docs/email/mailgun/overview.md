@@ -49,13 +49,13 @@ Mail sent from your customer to your SuperOffice Service:
 
 ## Alternative 2: CRM Online email service with own domain name and 'mail forward'
 
-Use this alternative if you want to keep your old email addresses (your company domain address)
-When creating a new mailbox in Service you automatically receive a "Forwarding address"
+Use this alternative if you want to keep your old email addresses (your company domain address).
+When creating a new mailbox in Service you automatically receive a "Forwarding address".
 
 ![Forward mail address in Service -screenshot][img3]
 
 > [!NOTE]
-> **Important!** You will have to set up forwarding from address 1 >> address 2 on your local email account
+> **Important!** You will have to set up forwarding from address 1 >> address 2 on your local email account.
 
 When using Mailgun as the sending email service, and sending it as someone else (your own domain), it is recommended to set up both an SPF record and a DKIM record as a best practice, to avoid outgoing emails from Service to your customers ending up as spam. Read more on SPF and DKIM in section [Security and best practices][3].
 
@@ -87,7 +87,7 @@ Mail sent from your customer to your SuperOffice Service:
 
 * We handle all your shared email accounts (support@.., sales@.., …)
 * We handle the volumes of sending your emails
-* We handle the email reputation management (?)
+* We handle the email reputation management
 * A prove that you are authorized sender for the domain
 * No more "sent via Mailgun.org" message in your emails.
 * Establishing a positive email reputation for your own domain.
@@ -100,7 +100,7 @@ Mail sent from your customer to your SuperOffice Service:
 * Require DNS entry for SPF (cumbersome)
 * Requires registration, (administration) and DNS entry for DKIM (cumbersome)
 * Not setting up SPF and DKIM correctly will affect the service reputation
-* Some do not want to have a mail forwarding service (?)
+* Some do not want to have a mail forwarding service
 
 ## Alternative 3: Customizing our Mail Service -  Own SMTP email service
 
