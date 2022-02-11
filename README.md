@@ -1,4 +1,14 @@
 # superoffice-docs
-Contains docs about SuperOffice products.
 
-[![Board Status](https://dev.azure.com/superoffice/b1bfad69-4f97-424b-acb1-dc829bfaf33b/dcd50964-06ce-40ca-9cc0-a285bb65352d/_apis/work/boardbadge/7b2966e6-4212-4a4c-a8a1-0b196e54e41b)](https://dev.azure.com/superoffice/b1bfad69-4f97-424b-acb1-dc829bfaf33b/_boards/board/t/dcd50964-06ce-40ca-9cc0-a285bb65352d/Microsoft.RequirementCategory/)
+Contains core content that makes https://docs.superoffice.com, the place for all technical documentation for SuperOffice products.
+
+All content source is organized into an intuitive folder structure. This is intentional to help facilitate collaboration from both SuperOffice employees and customers.
+
+Easily jump to areas that interest you:
+
+|||||||||
+|---|---|---|---|---|---|---|---|
+|[admin](docs/admin)|[ai](docs/ai-services)|[api](docs/api)|[apps](docs/apps)|[automation](docs/automation)|[company](docs/company)|[contact](docs/contact)|[custom-objects](docs/custom-objects)|
+|[database](docs/database)|[diary](docs/diary)|[document](docs/document)|[email](docs/email)|[identity-mgmt](docs/identity-management)|[marketing](docs/marketing)|[mirroring](docs/mirroring)|[mobile](docs/mobile)|
+|[online](docs/online)|[onsite](docs/onsite)|[project](docs/project)|[quote](docs/quote)|[request](docs/request)|[sale](docs/sale)|[search](docs/search-options)|[security](docs/security)|
+|[service](docs/service)|[travel](docs/travel)|[UI](docs/ui)|[video-meeting](docs/video-meeting)|[webtools](docs/webtools)||||
