@@ -1,7 +1,7 @@
 ---
 uid: contact_overview
 title: Working with persons
-description: Person
+description: SuperOffice view of the world and working with persons.
 author: Bergfrid Skaara Dias
 so.date: 14.02.2021
 so.topic: concept
@@ -10,16 +10,48 @@ keywords: person, contact
 
 # Person
 
-For a better understanding of this section, we recommend that you read [SuperOffice view of the world][1].
+![Edit person dialog -screenshot][img1]
+
+## SuperOffice view of the world
+
+SuperOffice has 5 important things:
+
+* **Companies** are in code and database references called *contact*.
+* **Associates** are SuperOffice users - employees of the company.
+* **Projects** are a type of activity that usually involves several stakeholders and various types of other activities.
+* **Activities** are things employees do with companies, contacts, projects, diary, and sales.
+  * appointments of various task types
+  * documents
+  * mailings and form submissions
+  * chat sessions
+* **Tickets** from Service are linked to persons who may or may not belong to a company.
+
+You can [read more about the main tables][1] in the developer documentation.
+
+### Business rules
+
+* Activities happen at a particular point in time.
+* Sales are expected to be closed on a date in the future.
+* Appointments are scheduled for a particular date and time.
+* Documents are written on a specific day.
+* Activities start on one day and finish on another.
+* Time is important for activities.
+* Companies and projects are not time-specific but are linked to activities in time.
+
+The appointment table contains foreign keys to all the other important tables, plus a date field (ActiveDate).
+
+### Context-sensitive labels
 
 It is important to keep in mind that there's not a 1:1 mapping of labels and that you have to take context into account.
 
-* Real-life terms
-* UI labels
-* Database tables
-* CRMScript classes
-
-![Edit person dialog -screenshot][img1]
+| Real-world term | UI label  | Database table | CRMScript class |
+|-----------------|-----------|----------------|-----------------|
+| company<br>organization | company | contact  | Company         |
+| person          | contact<br>associate |     |                 |
+| customer        | contact   | person         | Customer        |
+| employee        | associate | associate      |                 |
+| user account    | user      | ejuser         | User            |
+| database owner  | tenant    | Company        |                 |
 
 ## Person picture and blobs
 
@@ -39,7 +71,7 @@ If you add a picture to a person, you must write the picture to the `BinaryObjec
 Without the link record, the picture will not appear.
 
 <!-- Referenced links -->
-[1]: domain.md
+[1]: ../database/getting-started/main-tables.md
 
 <!-- Referenced images -->
 [img1]: media/edit-person.png
