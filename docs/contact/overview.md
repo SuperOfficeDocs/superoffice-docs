@@ -1,10 +1,11 @@
 ---
+uid: contact_overview
 title: Working with persons
 description: Person
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+so.date: 14.02.2021
 so.topic: concept
-keywords: person, contact, API
+keywords: person, contact
 ---
 
 # Person
@@ -38,7 +39,7 @@ If you add a picture to a person, you must write the picture to the `BinaryObjec
 Without the link record, the picture will not appear.
 
 <!-- Referenced links -->
-[1]: ../automation/crmscript/overview/domain.md
+[1]: domain.md
 
 <!-- Referenced images -->
 [img1]: media/edit-person.png

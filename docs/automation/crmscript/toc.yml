@@ -3,8 +3,6 @@ items:
   items:
   - name: What is CRMSCript?
     href: overview/index.md
-  - name: SuperOffice view of the world
-    href: overview/domain.md
   - name: What can I do with CRMScript?
     href: overview/crmscript-usage.md
   - name: How do I create and run CRMScripts?
