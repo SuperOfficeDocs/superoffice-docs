@@ -56,10 +56,12 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 ## More
 
 * [Pictures are stored in the BLOB table][2]
+* [Address and phone][3]
 
 <!-- Referenced links -->
 [1]: ../database/getting-started/main-tables.md
 [2]: blob-picture.md
+[3]: address.md
 
 <!-- Referenced images -->
 [img1]: media/edit-person.png

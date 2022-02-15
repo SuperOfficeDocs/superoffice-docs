@@ -9,10 +9,6 @@ so.topic: howto
 
 # Address localization
 
-Addresses are commonly formatted according to local conventions.
-
-Due to the dynamic nature of addresses, address fields in the SuperOffice UI appear differently depending on the selected country for any particular [company][1] or [person][2].
-
 SuperOffice data structures are generic to support multiple address variants. All address fields belong to a structure called `NSLocalizedAddress`.
 
 ![Localized address][img1]
@@ -149,8 +145,6 @@ There are 2 separate groups of fields, 1 for person and 1 for company (contact).
 > The **Postal** and **Street** prefix reflect the address type (ContactPostalAddress or ContactStreetAddress).
 
 <!-- Referenced links -->
-[1]: ../../../company/howto/crmscript/company.md
-[2]: customer.md
 [3]: ../../../api/globalization-and-localization/address/addresshelper.md
 
 <!-- Referenced images -->
