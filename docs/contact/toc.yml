@@ -23,6 +23,14 @@ items:
         href: howto/crmscript/user.md
       - name: Address localization
         href: howto/crmscript/addresses.md
+      - name: Create and update customers
+        href: howto/crmscript/create-customer.md
+      - name: Get customer info
+        href: howto/crmscript/get-customer.md
+      - name: Look up customers
+        href: howto/crmscript/find-customer.md
+      - name: Get interests
+        href: howto/crmscript/get-interests.md
     - name: Web services
       href: howto/services/index.md
       items:
