@@ -11,4 +11,4 @@ so.topic: sample
 
 # Create contact
 
-[!code-csharp[CS](../includes/create-contact.cs)]
+[!code-csharp[CS](includes/create-contact.cs)]

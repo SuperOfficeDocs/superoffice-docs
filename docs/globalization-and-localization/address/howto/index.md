@@ -24,8 +24,8 @@ so.topic: howto
 <!-- Referenced links -->
 [1]: crmscript/get-address.md
 [2]: crmscript/set-address.md
-[3]: services/get-address.md
-[4]: services/set-address.md
+[3]: services/get-localized-address.md
+[4]: services/set-localized-address.md
 [5]: ../../../api/security/sentry/sql/set-override-sql.md
 [6]: ../../../api/plugins/erp-connectors/automatic-field-mapping.md
 [7]: ../../../api/plugins/quote-connectors/addresses.md

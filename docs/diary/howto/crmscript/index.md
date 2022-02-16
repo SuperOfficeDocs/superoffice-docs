@@ -50,7 +50,7 @@ Follow-ups are part of a broader group of entities labeled **activities**:
 > It is important to understand the distinction between activities and follow-ups. When you get data from the [appointment table][6] or use the CRMScript [NSAppointment class][7], it is crucial that you pay attention to the **type** field.
 
 <!-- Referenced links -->
-[1]: ../../../contact/howto/crmscript/employees.md
+[1]: ../../../contact/associate.md
 [2]: ../../../automation/crmscript/datatypes/datetime-type.md
 [3]: appointment.md
 [4]: task.md

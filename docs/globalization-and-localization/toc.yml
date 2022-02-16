@@ -25,7 +25,7 @@ items:
       - name: Get NSLocalizedAddress
         href: address/howto/crmscript/get-address.md
       - name: Set NSLocalizedAddress
-        href: address/howto/crmscript/set--address.md
+        href: address/howto/crmscript/set-address.md
     - name: Web services
       href: address/howto/services/index.md
       items:
