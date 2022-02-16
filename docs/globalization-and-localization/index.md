@@ -2,9 +2,9 @@
 title: SuperOffice Globalization
 uid: globalization_and_localization
 description: Globalization and Localization
-author: {github-id}
-so.date: 05.08.2018
-keywords:
+author: Bergfrid Dias
+so.date: 02.16.2022
+keywords: globalization, localization
 ---
 
 # SuperOffice Globalization
@@ -13,7 +13,7 @@ SuperOffice has great support for globalization by providing a culture-neutral a
 
 ## Globalization
 
-SuperOffice supports localized interfaces and regional data for users in more than fifteen cultures and is written in such a way that is easily extended to support other cultures or regions not included by default.
+SuperOffice supports localized interfaces and regional data for users in more than fifteen cultures. It is extendable so you can support other cultures or regions not included by default.
 
 All strings are stored in a *.resx* file so that they can be called by calling the name assigned to them. The advantage is that since we have a resx files for each language we can run SuperOffice in any language we prefer without any modification to the code.
 
@@ -31,7 +31,7 @@ UI culture means purely the language that we see on the application while the .n
 
 In SuperOffice, both the UI culture and the .Net culture will be set. The culture will be set to the language that we select when we log into the system.
 
-For example, if we selected Spanish as our language when we log in, the language in the application will be provided from the Spanish .resx files that is compiled into the Spanish language satellite assembly. In the .Net culture which is the number and date formatting will take effect based on the language chosen. The culture of the thread will be set to the language that has been chosen. The date and number formatting will be taken care of by the .Net framework, meaning the date will be written with Spanish month names (25 December 2007), and numbers will be formatted according to Spanish style (1.234,56).
+For example, if we selected Spanish as our language when we log in, the language in the application will be provided from the Spanish .resx files that are compiled into the Spanish language satellite assembly. In the .Net culture which is the number and date formatting will take effect based on the language chosen. The culture of the thread will be set to the language that has been chosen. The date and number formatting will be taken care of by the .Net framework, meaning the date will be written with Spanish month names (25 December 2007), and numbers will be formatted according to Spanish style (1.234,56).
 
 Other topics of interest:
 

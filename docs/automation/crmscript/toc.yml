@@ -9,8 +9,6 @@ items:
     href: overview/envir-and-tools.md
   - name: Getting started
     href: overview/getting-started.md
-  - name: Localization
-    href: overview/localization.md
 - name: Fundamentals
   items:
   - name: Code structure
