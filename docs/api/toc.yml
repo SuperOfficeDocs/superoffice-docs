@@ -226,6 +226,8 @@ items:
     href: entities/activity-links.md
   - name: Nested persist
     href: entities/nested-persist.md
+  - name: Use and misuse of collections
+    href: entities/using-collections.md
   - name: How to...
     items:
     - name: Get an entity

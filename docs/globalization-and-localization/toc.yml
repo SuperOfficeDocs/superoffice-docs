@@ -33,6 +33,11 @@ items:
         href: address/howto/services/get-localized-address.md
       - name: Set LocalizedAddress
         href: address/howto/services/set-localized-address.md
+    - name: Rows
+      href: address/howto/rows/index.md
+      items:
+      - name: Update address
+        href: address/howto/rows/update-address.md
 - name: Culture
   href: culture/index.md
   items:

@@ -62,5 +62,3 @@ foreach (PersonRow person in somePersons)
   string lastname = person.Lastname;
 }
 ```
-
-See Also: PersonRows PersonRow

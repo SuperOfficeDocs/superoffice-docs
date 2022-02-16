@@ -60,6 +60,8 @@ items:
         href: howto/row/get-persons-from-contact-rows.md
       - name: Update person
         href: howto/row/update-person-rows.md
+      - name: Collections
+        href: howto/row/collection.md
     - name: Objectified SQL
       href: howto/osql/index.md
       items:

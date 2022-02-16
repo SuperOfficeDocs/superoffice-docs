@@ -57,10 +57,10 @@ When fields are mapped, **sync direction is not set**, so no actual sync will oc
 | LASTNAME       | Last name                    |
 | TITLE          | Title                        |
 | NUMBER         | Number                       |
-| PHONE\_DIRECT  | Direct phone                 |
-| PHONE\_PRIVATE | Private phone                |
-| PHONE\_MOBILE  | Mobile phone                 |
-| PHONE\_OTHER   | Other phone                  |
+| PHONE_DIRECT   | Direct phone                 |
+| PHONE_PRIVATE  | Private phone                |
+| PHONE_MOBILE   | Mobile phone                 |
+| PHONE_OTHER    | Other phone                  |
 | EMAIL          | E-mail                       |
 | POSITION       | Position                     |
 | BIRTHDATE      | Birthdate                    |

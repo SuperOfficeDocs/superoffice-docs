@@ -21,4 +21,4 @@ The progid is for third-parties to set to recognizable values.
 
 This example assumes udef fields have been created and published on the contact already, but that no progid values have been set.
 
-[!code-csharp[CS](../includes/udef-on-contact.cs)]
+[!code-csharp[CS](includes/udef-on-contact.cs)]

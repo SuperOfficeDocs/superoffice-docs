@@ -4,7 +4,7 @@ uid: collections_best_practices
 description: Use and misuse of collections
 author: {github-id}
 so.date: 11.05.2016
-keywords:
+keywords: entity, collection
 so.topic: concept
 so.envir: onsite
 # so.client:
