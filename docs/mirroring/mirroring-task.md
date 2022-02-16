@@ -47,6 +47,17 @@ We also stop the task completely from 23.00 to 06:00 every night.
 
 Mirroring does not run during server maintenance, such as SuperOffice CRM Online version upgrades.
 
+## Options
+
+Customers can add custom user preferences to control database mirroring behaviors. 
+
+| Preference Name   | Preference description                                      | Default value   |
+|:---               |:---                                                         |:---:             |
+|BatchSize          | Used to control how many bytes to send per request.         | 1000000         |
+|SkipTable          | Comma seperated list of tables that should not be mirrored. |                 |
+
+See the [Skip Tables][4] section to understand how to add the Mirroring prefences into SuperOffice.
+
 ## Batches
 
 One mirroring batch is equivalent to roughly up to 1 megabyte of data. The number of rows will vary widely depending on the actual size of the rows.
@@ -61,6 +72,7 @@ Batches can in principle be processed in parallel, but doing so would probably s
 [1]: overview.md
 [2]: change-tracking.md
 [3]: getting-started/i-mirror-client-service.md
+[4]: skip-tables.md
 
 <!-- Referenced images -->
 [img1]: media/mirroringprinciplessequencediagram.png
