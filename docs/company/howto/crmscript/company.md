@@ -239,6 +239,6 @@ For a complete list of fields, see the [database reference][5].
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Company.setValue(String,String)>
 [2]: ../../../automation/crmscript/parser-and-templates/reply-template.md
-[3]: ../../../contact/howto/crmscript/addresses.md
+[3]: ../../../globalization-and-localization/address/index.md
 [4]: ../../../automation/crmscript/netserver/ns-agents-and-carriers.md
 [5]: ../../../database/tables/contact.md

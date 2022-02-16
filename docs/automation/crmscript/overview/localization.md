@@ -19,5 +19,3 @@ There's also an API to augment string resources throughout the platform.
 ## Localization
 
 *Localization* is the process of translating an application's resources into localized versions for each culture that the application will support.
-
-<!-- Working with [formatted addresses](../follow-ups/addresses.md) is an example of localized content. -->

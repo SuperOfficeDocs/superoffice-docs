@@ -18,7 +18,7 @@ Due to the dynamic nature of addresses, address fields in the SuperOffice CRM UI
 
 Below is an example of six different country formats and how they appear in SuperOffice CRM. It is interesting to note that while the top two are similar, the middle two are also similar but different from the first two. The bottom two are uniquely different from both each other and the other four.
 
-![Address formats][img1]
+![Address formats -screenshot][img1]
 
 To support multiple address variants, SuperOffice address data structures must be generic, and an address type must be flexible enough to support all the various address formats of the world.
 
@@ -40,19 +40,56 @@ In the SuperOffice web service API, all address fields are in a structure called
 
 This is a multi-dimensional array of `LocalizedField`, where the first dimension contains each address line. The second dimension contains each field in that line. Each `LocalizedField` contains, among others, 3 key properties: AddressType, Name, and Value.
 
+## NSLocalizedAddress (CRMScript)
+
+All CRMScript address fields belong to a structure called `NSLocalizedAddress`.
+
+![Localized address][img6]
+
+This is a multi-dimensional array of `NSLocalizedField`:
+
+* The 1st dimension contains each address line.
+* The 2nd contains each field in that line.
+
 ## AddressType property
 
 `AddressType` determines which type of address a field belongs to, of which there are 3 possibilities:
 
-* ContactPostalAddress
-* ContactStreetAddress
-* PersonStreetAddress
+| Type | Belongs to | Description |
+|:---|:---|---|
+| ContactPostalAddress | company | a company's postal address |
+| ContactStreetAddress | company | a company's physical or visiting address |
+| PersonStreetAddress | person | a contact person address |
 
 The first two types correspond to a company address, used to differentiate a company's postal address versus its' physical, or visiting, address. The third address type represents a contact person's address.
 
 ## Name and value properties
 
 The `Name` and `Value` properties are just what they sound like. The name is a unique field keyname, and the value is populated with the value from the database.
+
+### Pre-defined address field names
+
+There are two separate groups of fields, one for person and one for company (contact).
+
+| For person | For company    |
+|------------|----------------|
+| Address1   | PostalAddress1 |
+| Address2   | PostalAddress2 |
+| Address3   | PostalAddress3 |
+| City       | PostalCity     |
+| County     | PostalCounty   |
+| State      | PostalState    |
+| Zipcode    | PostalZipcode  |
+|            | StreetAddress1 |
+|            | StreetAddress2 |
+|            | StreetAddress3 |
+|            | StreetCity     |
+|            | StreetCounty   |
+|            | StreetState    |
+|            | StreetZipcode  |
+
+> [!TIP]
+> The **Postal** and **Street** prefix reflect the address type (ContactPostalAddress or ContactStreetAddress).
 
 ## Owner-id and type
 
@@ -119,6 +156,10 @@ France, however, has 3 lines total, with the first and second lines containing j
 
 ![Field array elements][img5]
 
+### [CRMScript](#tab/fieldarray-3)
+
+![Field array elements][img7]
+
 ***
 
 It is important to understand that some company addresses contain only a postal address while others contain both a postal and street address.
@@ -142,3 +183,5 @@ For web services, use the [AddressHelper][2] class
 [img3]: media/formattedfieldarray.png
 [img4]: media/localizedaddress.png
 [img5]: media/localizedfieldarray.png
+[img6]: media/NSLocalizedAddress.png
+[img7]: media/NSLocalizedFieldArray.png
