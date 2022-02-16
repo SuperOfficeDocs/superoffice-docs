@@ -170,7 +170,7 @@ For a complete list of fields, see the [database reference][7].
 
 <!-- Referenced links -->
 [1]: ../../../automation/crmscript/searchengine/index.md
-[2]: ../../../contact/howto/crmscript/employees.md
+[2]: ../../../contact/associate.md
 [3]: ../../../contact/howto/crmscript/customer.md
 [4]: ../../../company/howto/crmscript/company.md
 [5]: project-members.md

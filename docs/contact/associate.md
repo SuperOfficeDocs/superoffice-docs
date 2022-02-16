@@ -1,10 +1,10 @@
 ---
-uid: crmscript_employees
+uid: associate
 title: Employees (internal)
 description: The associate database table represents employees, resources, and other users - except for external persons.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
-keywords: CRMScript, employees, associate
+so.date: 15.02.2021
+keywords: associate, employee
 so.topic: concept
 ---
 
@@ -26,37 +26,37 @@ You may think of associates as the missing link that connects people.
 | 4     | ExternalPerson | External person<br>No calendar |
 | 7     | Anonymous      | Unknown<br>(no person (1) + not authenticated (2) + no calendar (4) |
 | 8     | NoSentry       | Has full access rights<br>The Sentry mechanism is bypassed |
-| 13    | System         | System user<br>(no person (1) + no calendar (4) + full access/bypass sentry (8)|
+| 13    | System         | System user<br>(no person (1) + no calendar (4) + full access/bypass sentry (8) |
 
 ## Frequently used values
 
-| Db field     | Description                                |
-|:-------------|:-------------------------------------------|
-| associate_id | ID (primary key)                           |
-| person_id    | The person                                 |
-| name         | Initials, sign-in name, database user name |
-| group_idx    | Primary group membership                   |
-| ejuserId     | ID of the user account<br>0 if not connected to an account |
+| Database field | Description      |
+|:---------------|:-----------------|
+| associate_id   | ID (primary key) |
+| person_id      | The person       |
+| name           | Initials, sign-in name, database user name |
+| group_idx      | Primary group membership |
+| ejuserId       | ID of the user account<br>0 if not connected to an account |
 
 ## Important timestamps
 
-| Db field   | Description                             |
-|:-----------|:----------------------------------------|
-| lastlogin  | The last time the associate signed in   |
-| lastlogout | The last time the associate signed out  |
-| registered | When the associate was registered       |
-| updated    | The last time the associate was updated |
+| Database field | Description                             |
+|:---------------|:----------------------------------------|
+| lastlogin      | The last time the associate signed in   |
+| lastlogout     | The last time the associate signed out  |
+| registered     | When the associate was registered       |
+| updated        | The last time the associate was updated |
 
 ## Resources
 
 Resources are typically meeting rooms or equipment such as projectors.
 
-| Db field         | Description                      |
-|:-----------------|:---------------------------------|
-| isLocation       | True if it represents a location |
-| locationAddress  | The address, if it's a location  |
+| Database field  | Description                      |
+|:----------------|:---------------------------------|
+| isLocation      | True if it represents a location |
+| locationAddress | The address, if it's a location  |
 
 [Database reference][1]
 
 <!-- Referenced links -->
-[1]: ../../../database/tables/associate.md
+[1]: ../database/tables/associate.md

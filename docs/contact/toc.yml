@@ -5,6 +5,8 @@ items:
   items:
   - name: Overview
     href: overview.md
+  - name: Associates (employees)
+    href: associate.md
   - name: Person picture and BLOBs
     href: blob-pictures.md
   - name: Addresses
@@ -17,8 +19,6 @@ items:
       items:
       - name: Customer (class)
         href: howto/crmscript/customer.md
-      - name: Employees (internal)
-        href: howto/crmscript/employees.md
       - name: User (class)
         href: howto/crmscript/user.md
       - name: Address localization
@@ -31,6 +31,10 @@ items:
         href: howto/crmscript/find-customer.md
       - name: Get interests
         href: howto/crmscript/get-interests.md
+      - name: Create user
+        href: howto/crmscript/create-user.md
+      - name: Get user
+        href: howto/crmscript/get-user.md
     - name: Web services
       href: howto/services/index.md
       items:
