@@ -12,16 +12,20 @@ items:
 - name: Address
   href: address/index.md
   items:
-  - name: Address formats
-    href: address/intro-to-address-formats.md
   - name: AddressFormatter class
     href: address/addressformatter.md
   - name: AddressHelper class
     href: address/addresshelper.md
-  - name: Read the LocalizedAddress
-    href: address/get-localized-address.md
-  - name: Set LocalizedAddress
-    href: address/set-localized-address.md
+  - name: API options
+    href: address/howto/index.md
+    items:
+    - name: Web services
+      href: address/howto/services/index.md
+      items:
+      - name: Read the LocalizedAddress
+        href: address/howto/services/get-localized-address.md
+      - name: Set LocalizedAddress
+        href: address/howto/services/set-localized-address.md
 - name: Culture
   href: culture/index.md
   items:

@@ -4,7 +4,7 @@ uid: set_localized_address
 description: Set the LocalizedAddress
 author: Tony Yates
 so-date: 05.15.2017
-keywords: globalization
+keywords: globalization, address
 so.topic: howto
 # so.envir:
 # so.client:
@@ -18,7 +18,7 @@ Assuming the company or person from SuperOffice has the correctly formatted addr
 
 There are 3 groups of pre-defined address field names:
 
-[!include[ALT](./includes/pre-defined-address-fields.md)]
+[!include[ALT](../../includes/pre-defined-address-fields.md)]
 
 Knowing what the field key names are for each address type makes it easy to flatten the address data structure into a Dictionary, Map, or key-value pairs. Then, it becomes easy to access each address field value and get or set the address information.
 

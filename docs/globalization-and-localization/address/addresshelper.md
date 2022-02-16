@@ -4,7 +4,7 @@ uid: globalization_addresshelper
 description: AddressHelper class 
 author: Tony Yates
 so-date: 05.15.2017
-keywords: globalization
+keywords: globalization, address
 so.topic: reference
 # so.envir:
 # so.client:
@@ -17,4 +17,4 @@ Each of the extension methods to [set LocalizedAddress][1] depends on a helper c
 [!code-csharp[CS](includes/addresshelper.cs)]
 
 <!-- Referenced links -->
-[1]: set-localized-address.md
+[1]: howto/services/set-localized-address.md

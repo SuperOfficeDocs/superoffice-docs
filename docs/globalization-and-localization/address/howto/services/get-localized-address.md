@@ -4,7 +4,7 @@ uid: get_localized_address
 description: Read the LocalizedAddress
 author: Tony Yates
 so.date: 05.15.2017
-keywords: globalization
+keywords: globalization, address
 so.topic: howto
 # so.envir:
 # so.client:

@@ -5,7 +5,7 @@ description: Localization, class AddressFormatter
 author: {github-id}
 so.date: 05.08.2018
 so.topic: reference
-keywords: globalization
+keywords: globalization, address
 ---
 
 # The AddressFormatter class
@@ -18,7 +18,7 @@ The `AddressFormatter` class to help you work with the complexities of address f
 
 Reading the `FormattedAddress` data structure is very straightforward. Simply loop over the `FormattedAddress` lines and print out each `IFormattedField` from `FormattedFields`.
 
-The following code example demonstrates using `AddressFormatter` to get a formatted representation of a contacts address, then loops over each line and prints out each address field.
+The following code example demonstrates using `AddressFormatter` to get a formatted representation of a contact's address, then loops over each line and prints out each address field.
 
 ```csharp
 using SuperOffice;
@@ -34,13 +34,13 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   // format the address of the contact to the format of the
   // country that the contact belongs to
 
-  var formatedAddress = AddressFormatter.FormatContact(company);
+  var formattedAddress = AddressFormatter.FormatContact(company);
 
-  foreach (FormattedFields fs  in formatedAddress)
+  foreach (FormattedFields fs in formattedAddress)
   {
     foreach (IFormattedField f in fs)
     {
-       Console.WriteLine(f.Name +  " " + f.Value);
+      Console.WriteLine(f.Name + " " + f.Value);
     }
 
     Console.WriteLine();
@@ -74,7 +74,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   AddressRow streetAddress = AddressRow.GetFromIdxOwnerIdAtypeIdx(4, SuperOffice.Data.AddressType.ContactStreetAddress);
   // format the address according to the country that the contact belongs to
 
-  FormattedAddress formatedAddress = AddressFormatter.FormatContact(conRow, postalAddress, streetAddress);
+  FormattedAddress formattedAddress = AddressFormatter.FormatContact(conRow, postalAddress, streetAddress);
 }
 ```
 

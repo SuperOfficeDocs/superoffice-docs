@@ -15,11 +15,11 @@ SuperOffice has great support for globalization by providing a culture-neutral a
 
 SuperOffice supports localized interfaces and regional data for users in more than fifteen cultures and is written in such a way that is easily extended to support other cultures or regions not included by default.
 
-All strings are stored in a *.resx* file so that they can be called by calling the name assigned to it. The advantage is that since we have a resx files for each language we can run SuperOffice in any language we prefer without any modification to the code.
+All strings are stored in a *.resx* file so that they can be called by calling the name assigned to them. The advantage is that since we have a resx files for each language we can run SuperOffice in any language we prefer without any modification to the code.
 
 [Resource Providers][1] are used to supply localized resource strings, and provide the means for third-parties to override existing, or supply new, resource strings in SuperOffice.
 
-The problem with globalization is when displaying the same page in different languages without a lot of extra work.
+The problem with globalization is to display the same page in different languages without a lot of extra work.
 
 * The mechanism behind providing the resources for a page
 
