@@ -9,8 +9,6 @@ items:
     href: associate.md
   - name: Person picture and BLOBs
     href: blob-pictures.md
-  - name: Addresses
-    href: address.md
   - name: API options
     href: howto/index.md
     items:

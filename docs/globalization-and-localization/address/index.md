@@ -1,11 +1,11 @@
 ---
 title: Address formats
-uid: globalization_address_formats
+uid: globalization-address
 description: Localization, address formats
 author: Tony Yates
-so.date: 05.08.2018
+so.date: 02.16.2022
 so.topic: concept
-keywords: address, globalization
+keywords: address, globalization, LocalizedAddress, FormattedAddress
 ---
 
 # Address formats
@@ -54,9 +54,60 @@ The first two types correspond to a company address, used to differentiate a com
 
 The `Name` and `Value` properties are just what they sound like. The name is a unique field keyname, and the value is populated with the value from the database.
 
+## Owner-id and type
+
+The `Address` and `Phone` tables use two fields to determine where they belong: The `owner_id` field refers to a `contact_id` or a `person_id` depending on the `type_idx` field.
+
+The `type_idx` is 1, 2, 16387, or 16388
+
+```SQL
+SELECT * FROM address WHERE owner_id < 10
+```
+
+| address_id | owner_id | atype_idx | zipcode | city | address1 |
+|---|---|---|---|---|---|
+| 1 | 1 | 1 | MK16 9PY | Milton Keynes | Suite 114 |
+| 3 | 6 | 16387 | 0124 | Oslo | Postboks 1884 Vika |
+| 4 | 7 | 16387 | 0167 | Oslo | Wergelandsveien 7 |
+| 5 | 3 | 1 | 4770 | Høvåg | Grosøya |
+| 6 | 3 | 2 | 0277 | Oslo | Drammensv 211 |
+| 7 | 8 | 16387 | 0902 | Oslo | Postboks 131, Kalbakken |
+| 8 | 9 | 16387 | 0902 | Oslo | Stålfjæra 27|
+| 9 | 4 | 1 | 2016 | Frogner | Duevegen 1 |
+| 10 | 4 | 2 | 2016 | Frogner | Trondheimsveien 350 |
+| 12 | 5 | 1 | 2061 | Gardermoen | Postboks 150 |
+
+(Result is cropped.)
+
+[Address][3]: `type_idx`
+
+* 1 = Postal (contact)
+* 2 = Street (contact)
+* 16387 = Private (person)
+
+[Phone][4]: `type_idx`
+
+* 1 = Phone (contact)
+* 3 = Fax (contact),
+* 16385 = Phone (person)
+* 16387 = Fax (person)
+* 16388 = Direct (person)
+* 16389 = Mobile (person)
+
+So – values of 16384 or above are related to the `person` table, while those below are related to the `contact` table.
+
+So if you wanted to pick up just the fax numbers for contact 123 then your query would be:
+
+```SQL
+SELECT * FROM phone WHERE owner_id=123 AND type_idx=3 ORDER BY rank
+```
+
+> [!NOTE]
+> These are many-to-one relationships, so you can still pick up more than one phone number per owner. Phone numbers are further sorted by rank. For addresses, this is a theoretical proposition. The CRM client will not define more than one address per type for each owner.
+
 ## Example
 
-For example, the address format of Norway defines 4 lines total. The first and third lines contain just one element, while the second and fourth lines containing two elements.
+For example, the address format of Norway defines 4 lines total. The first and third lines contain just one element, while the second and fourth lines contain two elements.
 
 France, however, has 3 lines total, with the first and second lines containing just one field element and the third line containing two field elements.
 
@@ -82,6 +133,8 @@ For web services, use the [AddressHelper][2] class
 <!-- Referenced links -->
 [1]: addressformatter.md
 [2]: addresshelper.md
+[3]: ../../database/tables/address.md
+[4]: ../../database/tables/phone.md
 
 <!-- Referenced images -->
 [img1]: media/combinedaddresslayouts.png
