@@ -1,0 +1,163 @@
+apiRules:
+- include:
+    uidRegex: ^SuperOffice.CRM.Services$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.AAATestClassForModeling$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateAppointmentAgentFactory"$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateArchiveAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateAssociateAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateBatchAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateBLOBAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateConfigurationAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateContactAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateCustomerServiceAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateDashboardAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateDatabaseAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateDiagnosticsAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateDocumentAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateEMailAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateErpSyncAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateFavouriteAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateFindAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateForeignSystemAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateFreeTextAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateImportAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateLicenseAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateListAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateMDOAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateNavigatorAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateNumberAllocationAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivatePartnerAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivatePersonAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivatePhoneListAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivatePocketAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivatePreferenceAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivatePreviewsAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateProjectAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateQuoteAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateRelationAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateReplicationAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateReportAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateResourceAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateSaintAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateSaleAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateSelectionAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateSentryAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateTimeZoneAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateTooltipsAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateUserAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateUserDefinedFieldInfoAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.PrivateViewStateAgentFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.Implementation$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.Reflection$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.Switches$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Services.Util$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Factory$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Services.Util$
+    type: Namespace
+- exclude:
+    uidRegex: ^$
+    type: Namespace

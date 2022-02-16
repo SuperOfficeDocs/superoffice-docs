@@ -1,0 +1,83 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Packages/SuperOffice.NetServer.Core.#version#/lib/net48/SOCore.dll",
+            "Packages/SuperOffice.NetServer.Core.#version#/lib/net48/SoDatabase.dll",
+            "Packages/SuperOffice.NetServer.Core.#version#/lib/net48/SoLicense.dll"
+          ]
+        }
+      ],
+      "dest": "superoffice-docs/docs/api/reference/netserver/core",
+      "filter": "filters/netserver-core-filter.yml",
+      "disableGitFeatures": true,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Packages/SuperOffice.NetServer.Services.#version#/lib/net48/SuperOffice.Services.dll",
+            "Packages/SuperOffice.NetServer.Services.#version#/lib/net48/SuperOffice.DCF.Services.dll"
+          ]
+        }
+      ],
+      "dest": "superoffice-docs/docs/api/reference/netserver/services",
+      "filter": "filters/netserver-services-filter.yml",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Packages/SuperOffice.NetServer.Core.#version#/lib/net48/SuperOffice.Plugins.dll",
+            "Packages/SuperOffice.NetServer.Services.#version#/lib/net48/SuperOffice.Messaging.dll"
+          ]
+        }
+      ],
+      "dest": "superoffice-docs/docs/api/reference/netserver/core",
+      "filter": "filters/netserver-plugins-filter.yml",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Packages/SuperOffice.Crm.Web.#version#/lib/net48/SuperOffice.CRMWeb.dll",
+            "Packages/SuperOffice.Crm.Web.#version#/lib/net48/SuperOffice.DCFWeb.dll",
+            "Packages/SuperOffice.Crm.Web.#version#/lib/net48/SuperOffice.Web.UI.Controls.dll",
+            "Packages/SuperOffice.NetServer.Services.#version#/lib/net48/SuperOffice.DCF.dll"
+          ]
+        }
+      ],
+      "dest": "superoffice-docs/docs/api/reference/web",
+      "filter": "filters/web-app-filter.yml",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Packages/SuperOffice.WebApi.#version#/lib/netstandard2.0/SuperOffice.WebApi.dll"
+          ]
+        }
+      ],
+      "dest": "superoffice-docs/docs/api/reference/webapi",
+      "filter": "filters/webapi-filter.yml",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "markdownEngineName": "markdig",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+  }
+}

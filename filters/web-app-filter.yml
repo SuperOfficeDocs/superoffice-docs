@@ -1,0 +1,28 @@
+apiRules:
+- exclude:
+    uidRegex: ^ExtensionMethods$
+    type: Namespace
+- exclude:
+    uidRegex: ^QRCoder$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.Configuration.SchemaValidation$
+    type: Class
+- include:
+    uidRegex: ^SuperOffice.Configuration.IHasSchema$
+    type: Interface
+- include:
+    uidRegex: ^SuperOffice.Globalization.*$
+    type: Type
+- exclude:
+    uidRegex: ^SuperOffice.Globalization$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Configuration$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Security.Principal$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Exceptions$
+    type: Namespace

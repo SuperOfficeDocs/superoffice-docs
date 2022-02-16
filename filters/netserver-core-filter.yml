@@ -1,0 +1,151 @@
+apiRules:
+- exclude:
+    uidRegex: ^JsonSubTypes$
+    type: Namespace
+- exclude:
+    uidRegex: ^QRCoder$
+    type: Namespace
+- exclude:
+    uidRegex: ^.*CollectionIdx.*$
+    type: Type
+- exclude:
+    uidRegex: ^.*RowIdx.*$
+    type: Type
+- exclude:
+    uidRegex: ^.*RowsIdx.*$
+    type: Type
+- exclude:
+    uidRegex: ^.*.Idx`.*$
+    type: Type
+- exclude:
+    uidRegex: ^.*.Idx$
+    type: Type
+- exclude:
+    uidRegex: ^.*IdxBase.*$
+    type: Type
+- exclude:
+    uidRegex: ^SuperOffice\.CallHome$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice\.Configuration$
+- exclude:
+    uidRegex: ^SuperOffice\.Configuration.*Section
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice\.Configuration\.File$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice\.Contracts\.UsageStats$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice\.Contracts\.UserSync$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice\.CRM\.ArchiveLists$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice\.CRM.ArchiveLists\.ArchiveControlEventHandlerFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice\.CRM\.ArchiveLists\.PersonPrivatePhoneExtender$
+    type: Class
+- include:
+    uidRegex: ^SuperOffice\.CRM\.Documents$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice\.CRM\.Documents\.DocumentArchiveFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice\.CRM\.Documents\.TempFileProviderFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice\.CRM\.Entities\.Providers\.Factory$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice\.CRM\.Entities\.Private$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice\.CRM\.Globalization\.PrivateFactory$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.CRM.Lists$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Lists.SoListProviderFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Lists.PrivateFactory$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.CRM.Rows$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Rows.Implementation$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory$
+    type: Interface
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Rows.PrivateFactory$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.CRM.Security$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Security.RightsFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.CRM.Security.PrivateFactory$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.CRM.TimeZone.Private$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.Data$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Data.ConnectionFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.Data.PrivateDbConnectionFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.Data.PrivateInnerDbCommandFactory$
+    type: Class
+- include:
+    uidRegex: ^SuperOffice.Data.Dialect$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Data.Dialect.PrivateDatabaseOperationstFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.Data.Dialect.PrivateDialectFactory$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.Data.Private$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.Diagnostics$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Diagnostics.SoEventRecorder.NetServerState$
+    type: Enum
+- include:
+    uidRegex: ^SuperOffice.Exceptions$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Exceptions.SoClassFactoryException$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.Factory$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Security.Principal.Private$
+    type: Namespace
+- exclude:
+    uidRegex: ^$
+    type: Namespace
+attributeRules:
+- exclude:
+    uidRegex: '^System\.Obsolete$'
+    type: Type

@@ -1,0 +1,19 @@
+apiRules:
+- include:
+    uidRegex: ^StringExt$
+    type: Class
+- exclude:
+    uidRegex: ^SuperOffice.Plugins.Application$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Plugins.CRM$
+    type: Namespace
+- include:
+    uidRegex: ^SuperOffice.Plugins.CRM.Documents$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.Services.WcfService$
+    type: Namespace
+- exclude:
+    uidRegex: ^SuperOffice.UI.Configuration"$
+    type: Namespace

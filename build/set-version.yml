@@ -1,0 +1,27 @@
+steps:
+  # Need to specify exact folder when downloading specific artifact, otherwise the version folder is not created.
+  - task: DownloadPipelineArtifact@2
+    displayName: Download Version artifact
+    inputs:
+      buildType: 'specific'
+      project: '2da5b757-3c7c-4220-a588-9284611288d9'
+      definition: '47'
+      specificBuildWithTriggering: true
+      buildVersionToDownload: 'specific'
+      pipelineId: '36591'
+      artifactName: 'Version'
+      itemPattern: '**'
+      targetPath: '$(Build.ArtifactStagingDirectory)\Version' 
+  - task: CmdLine@2
+    displayName: Run version.bat 
+    inputs:
+      script: |
+        call $(Build.ArtifactStagingDirectory)\Version\version.bat
+        echo ##vso[task.setvariable variable=SoFileVersion]%SoFileVersion%
+        echo ##vso[task.setvariable variable=SoAssemblyVersion]%SoAssemblyVersion%
+        echo ##vso[task.setvariable variable=SoFileVersionShort]%SoFileVersionShort%          
+        echo ##vso[task.setvariable variable=SoNugetVersion]%SoNugetVersion%
+        echo ##vso[task.setvariable variable=SoVersionMajor]%SoVersionMajor%
+        echo ##vso[task.setvariable variable=SoVersionMinor]%SoVersionMinor%
+        echo ##vso[task.setvariable variable=SoVersionRelease]%SoVersionRelease%
+        echo ##vso[task.setvariable variable=SoVersionBuildCounter]%SoVersionBuildCounter%
