@@ -145,7 +145,7 @@ There are 2 separate groups of fields, 1 for person and 1 for company (contact).
 > The **Postal** and **Street** prefix reflect the address type (ContactPostalAddress or ContactStreetAddress).
 
 <!-- Referenced links -->
-[3]: ../../../api/globalization-and-localization/address/addresshelper.md
+[3]: ../../../globalization-and-localization/address/addresshelper.md
 
 <!-- Referenced images -->
 [img1]: media/NSLocalizedAddress.png

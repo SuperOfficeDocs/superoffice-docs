@@ -57,4 +57,4 @@ Finally, we have used the `AppointmentMatrix` to accept the invitation we retrie
 | Assignment seen | 12 | You have seen the assignment, but not accepted or declined it |
 
 <!-- Referenced links -->
-[1]: ../../../api/globalization-and-localization/culture/culturedataformatter.md
+[1]: ../../../globalization-and-localization/culture/culturedataformatter.md
