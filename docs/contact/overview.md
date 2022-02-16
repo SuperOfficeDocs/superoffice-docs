@@ -19,7 +19,7 @@ SuperOffice has 5 important things:
 * **Companies** are in code and database references called *contact*.
 * **Associates** are SuperOffice users - employees of the company.
 * **Projects** are a type of activity that usually involves several stakeholders and various types of other activities.
-* **Activities** are things employees do with companies, contacts, projects, diary, and sales.
+* **Activities** are things employees do with companies, contacts, projects, the diary, and sales.
   * appointments of various task types
   * documents
   * mailings and form submissions
@@ -56,7 +56,7 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 ## More
 
 * [Pictures are stored in the BLOB table][2]
-* [Address and phone][3]
+* [Addresses][3]
 
 <!-- Referenced links -->
 [1]: ../database/getting-started/main-tables.md

@@ -15,10 +15,6 @@ items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-      - name: Customer (class)
-        href: howto/crmscript/customer.md
-      - name: User (class)
-        href: howto/crmscript/user.md
       - name: Create and update customers
         href: howto/crmscript/create-customer.md
       - name: Get customer info

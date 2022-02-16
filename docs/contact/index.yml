@@ -141,7 +141,7 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: howto/crmscript/customer.md
+        url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
         url: howto/sql/update-person-sql.md

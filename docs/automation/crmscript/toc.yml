@@ -54,6 +54,8 @@ items:
     href: code-quality/best-practices.md
   - name: Intellisense
     href: code-quality/intellisense.md
+- name: Security
+  href: security/index.md
 - name: Data types
   href: datatypes/bool-type.md
   items:

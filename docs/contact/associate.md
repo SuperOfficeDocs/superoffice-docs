@@ -10,7 +10,7 @@ so.topic: concept
 
 # Employees (internal)
 
-The **associate** database table represents employees, resources, and other users - except for external persons. It is an MDO list item table and has therefore not a corresponding CRMScript class.
+The **associate** database table represents employees, resources, and other users - except for external persons.
 
 Yet, this table is important for understanding and navigating the relationship between a person and their user account as well as the relationship between employees at the organization running the CRM system and the external parties they interact with.
 
