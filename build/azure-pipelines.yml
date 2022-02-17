@@ -76,7 +76,7 @@ stages:
         displayName: "Unpacking Nuget packages"
         inputs:
           targetType: 'filePath'
-          filePath: Unpack-Packages.ps1
+          filePath: $(Build.SourcesDirectory)\build\Unpack-Packages.ps1
           arguments: >
             -version "$(SoNugetVersion)"
             -source "$(Build.ArtifactStagingDirectory)\NugetPackages"
