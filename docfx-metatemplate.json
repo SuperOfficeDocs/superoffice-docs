@@ -10,7 +10,7 @@
           ]
         }
       ],
-      "dest": "superoffice-docs/docs/api/reference/netserver/core",
+      "dest": "docs/api/reference/netserver/core",
       "filter": "filters/netserver-core-filter.yml",
       "disableGitFeatures": true,
       "disableDefaultFilter": false
@@ -24,7 +24,7 @@
           ]
         }
       ],
-      "dest": "superoffice-docs/docs/api/reference/netserver/services",
+      "dest": "docs/api/reference/netserver/services",
       "filter": "filters/netserver-services-filter.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
@@ -38,7 +38,7 @@
           ]
         }
       ],
-      "dest": "superoffice-docs/docs/api/reference/netserver/core",
+      "dest": "docs/api/reference/netserver/core",
       "filter": "filters/netserver-plugins-filter.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
@@ -54,7 +54,7 @@
           ]
         }
       ],
-      "dest": "superoffice-docs/docs/api/reference/web",
+      "dest": "docs/api/reference/web",
       "filter": "filters/web-app-filter.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
@@ -67,7 +67,7 @@
           ]
         }
       ],
-      "dest": "superoffice-docs/docs/api/reference/webapi",
+      "dest": "docs/api/reference/webapi",
       "filter": "filters/webapi-filter.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
