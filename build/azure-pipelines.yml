@@ -36,143 +36,146 @@ stages:
           checkLatest: true
       
       - template: set-version.yml
-     
-      # get ready to start writing new api reference files
-      - pwsh: |
-          Write-Host Current Dir: $PWD
-          cd $(Build.SourcesDirectory)\superoffice-docs
-          git checkout -b release-$(SoNugetVersion)
-      
-      # download ApiDocs, Packages
-      - task: DownloadPipelineArtifact@2
-        displayName: Download Nuget Packages
-        inputs:
-          buildType: 'specific'
-          project: variables['project']
-          definition: variables['definition']
-          specificBuildWithTriggering: true
-          buildVersionToDownload: 'specific'
-          pipelineId: variables['pipelineId']
-          artifactName: 'Packages'
-          itemPattern: '**/*.nupkg'
-          targetPath: '$(Build.ArtifactStagingDirectory)\NugetPackages' 
-
-      # get ApiDocs from Fileset
-      - task: DownloadPipelineArtifact@2
-        displayName: Download ApiDocs Files
-        inputs:
-          buildType: 'specific'
-          project: variables['project']
-          definition: variables['definition']
-          specificBuildWithTriggering: true
-          buildVersionToDownload: 'specific'
-          pipelineId: variables['pipelineId']
-          artifactName: 'ApiDocs'
-          itemPattern: '**'
-          targetPath: '$(Build.ArtifactStagingDirectory)\ApiDocs' #contains: ArchiveProviders, Database, MdoProviders, NetServerScripting,RestFiles, SoapFiles
-      
-      - task: PowerShell@2
-        displayName: "Unpacking Nuget packages"
-        inputs:
-          targetType: 'filePath'
-          filePath: Unpack-Packages.ps1
-          arguments: >
-            -version "$(SoNugetVersion)"
-            -source "$(Build.ArtifactStagingDirectory)\NugetPackages"
-            -pkgDest "$(System.DefaultWorkingDirectory)\Packages"
-      
-      - task: PowerShell@2
-        displayName: "Call DocFx generate yml files"
-        inputs:
-          targetType: 'filePath'
-          filePath: Write-DocfxMetadata.ps1
-          arguments: >
-            -version "$(SoNugetVersion)"
-            -sourceDir "$(System.DefaultWorkingDirectory)"
 
       - pwsh: cmd /c dir $(System.DefaultWorkingDirectory)
         displayName: Contents of System.DefaultWorkingDirectory
 
+      - pwsh: cmd /c dir $(Build.ArtifactStagingDirectory)
+        displayName: Contents of Build.ArtifactStagingDirectory
+     
       - pwsh: cmd /c dir $(Build.SourcesDirectory)
         displayName: Contents of Build.SourcesDirectory
 
-        # generate API reference yml files from nuget packages
-      - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
-        displayName: 'Create DocFx Documentation'
-        inputs:
-          solution: '$(System.DefaultWorkingDirectory)\docfx-metadata.json'
-          docfxOptions: metadata --logLevel Verbose
+      # get ready to start writing new api reference files
+      # - pwsh: |
+      #     Write-Host Current Dir: $PWD
+      #     cd superoffice-docs
+      #     git checkout -b release-$(SoNugetVersion)
+      
+      # # download ApiDocs, Packages
+      # - task: DownloadPipelineArtifact@2
+      #   displayName: Download Nuget Packages
+      #   inputs:
+      #     buildType: 'specific'
+      #     project: variables['project']
+      #     definition: variables['definition']
+      #     specificBuildWithTriggering: true
+      #     buildVersionToDownload: 'specific'
+      #     pipelineId: variables['pipelineId']
+      #     artifactName: 'Packages'
+      #     itemPattern: '**/*.nupkg'
+      #     targetPath: '$(Build.ArtifactStagingDirectory)\NugetPackages' 
+
+      # # get ApiDocs from Fileset
+      # - task: DownloadPipelineArtifact@2
+      #   displayName: Download ApiDocs Files
+      #   inputs:
+      #     buildType: 'specific'
+      #     project: variables['project']
+      #     definition: variables['definition']
+      #     specificBuildWithTriggering: true
+      #     buildVersionToDownload: 'specific'
+      #     pipelineId: variables['pipelineId']
+      #     artifactName: 'ApiDocs'
+      #     itemPattern: '**'
+      #     targetPath: '$(Build.ArtifactStagingDirectory)\ApiDocs' #contains: ArchiveProviders, Database, MdoProviders, NetServerScripting,RestFiles, SoapFiles
+      
+      # - task: PowerShell@2
+      #   displayName: "Unpacking Nuget packages"
+      #   inputs:
+      #     targetType: 'filePath'
+      #     filePath: Unpack-Packages.ps1
+      #     arguments: >
+      #       -version "$(SoNugetVersion)"
+      #       -source "$(Build.ArtifactStagingDirectory)\NugetPackages"
+      #       -pkgDest "$(System.DefaultWorkingDirectory)\Packages"
+      
+      # - task: PowerShell@2
+      #   displayName: "Call DocFx generate yml files"
+      #   inputs:
+      #     targetType: 'filePath'
+      #     filePath: Write-DocfxMetadata.ps1
+      #     arguments: >
+      #       -version "$(SoNugetVersion)"
+      #       -sourceDir "$(System.DefaultWorkingDirectory)"
+
+      #   # generate API reference yml files from nuget packages
+      # - task: chrismason.vsts-docfxtasks.docfx-extension-build-task.DocFxTask@0
+      #   displayName: 'Create DocFx Documentation'
+      #   inputs:
+      #     solution: '$(System.DefaultWorkingDirectory)\docfx-metadata.json'
+      #     docfxOptions: metadata --logLevel Verbose
     
-      # copy archive provider files
-      - task: CopyFiles@2
-        displayName: Copy Archive Providers
-        inputs:
-          CleanTargetFolder: true
-          SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\ArchiveProviders
-          TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\archive-providers\reference
-          Contents: |
-           *.md
+      # # copy archive provider files
+      # - task: CopyFiles@2
+      #   displayName: Copy Archive Providers
+      #   inputs:
+      #     CleanTargetFolder: true
+      #     SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\ArchiveProviders
+      #     TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\archive-providers\reference
+      #     Contents: |
+      #      *.md
 
-      - task: CopyFiles@2
-        displayName: Copy MDO Providers
-        inputs:
-          CleanTargetFolder: true
-          SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\MdoProviders
-          TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\mdo-providers\reference
-          Contents: |
-           *.md
+      # - task: CopyFiles@2
+      #   displayName: Copy MDO Providers
+      #   inputs:
+      #     CleanTargetFolder: true
+      #     SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\MdoProviders
+      #     TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\mdo-providers\reference
+      #     Contents: |
+      #      *.md
 
-      - task: CopyFiles@2
-        displayName: Copy Database tables and whats-new
-        inputs:
-          CleanTargetFolder: true
-          SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\Database
-          TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\Database
-          Contents: |
-           **
+      # - task: CopyFiles@2
+      #   displayName: Copy Database tables and whats-new
+      #   inputs:
+      #     CleanTargetFolder: true
+      #     SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\Database
+      #     TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\Database
+      #     Contents: |
+      #      **
 
-      - task: CopyFiles@2
-        displayName: Copy NetServer service scripting events
-        inputs:
-          CleanTargetFolder: true
-          SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\NetServerScripting
-          TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\automation\netserver-scripting\reference
-          Contents: |
-           **
+      # - task: CopyFiles@2
+      #   displayName: Copy NetServer service scripting events
+      #   inputs:
+      #     CleanTargetFolder: true
+      #     SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\NetServerScripting
+      #     TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\automation\netserver-scripting\reference
+      #     Contents: |
+      #      **
 
-      - task: CopyFiles@2
-        displayName: Copy RESTful API
-        inputs:
-          CleanTargetFolder: true
-          SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\RestFiles
-          TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\api\reference\restful
-          Contents: |
-           **
+      # - task: CopyFiles@2
+      #   displayName: Copy RESTful API
+      #   inputs:
+      #     CleanTargetFolder: true
+      #     SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\RestFiles
+      #     TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\api\reference\restful
+      #     Contents: |
+      #      **
  
-      - task: CopyFiles@2
-        displayName: Copy SOAP API
-        inputs:
-          CleanTargetFolder: true
-          SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\SoapFiles
-          TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\api\reference\soap
-          Contents: |
-           **
+      # - task: CopyFiles@2
+      #   displayName: Copy SOAP API
+      #   inputs:
+      #     CleanTargetFolder: true
+      #     SourceFolder: $(Build.ArtifactStagingDirectory)\ApiDocs\SoapFiles
+      #     TargetFolder: $(Build.SourcesDirectory)\superoffice-docs\docs\api\reference\soap
+      #     Contents: |
+      #      **
 
-      - pwsh: |
-          cd $(Build.SourcesDirectory)\superoffice-docs
-          git add $(Build.SourcesDirectory)\superoffice-docs\docs\api\reference\soap\*
-          git commit -m "Updated SOAP reference to release-$(SoNugetVersion)"
-        displayName: 'Commit new additions'
+      # - pwsh: |
+      #     cd $(Build.SourcesDirectory)\superoffice-docs
+      #     git add $(Build.SourcesDirectory)\superoffice-docs\docs\api\reference\soap\*
+      #     git commit -m "Updated SOAP reference to release-$(SoNugetVersion)"
+      #   displayName: 'Commit new additions'
 
-      - task: PublishPipelineArtifact@1
-        displayName: Publish SuperOffice-Docs
-        inputs:
-          targetPath: $(Build.SourcesDirectory)\superoffice-docs
-          artifact: SuperOffice-Docs
-          publishLocation: 'pipeline'
+      # - task: PublishPipelineArtifact@1
+      #   displayName: Publish SuperOffice-Docs
+      #   inputs:
+      #     targetPath: $(Build.SourcesDirectory)\superoffice-docs
+      #     artifact: SuperOffice-Docs
+      #     publishLocation: 'pipeline'
 
-      - pwsh: |
-          cd $(Build.SourcesDirectory)\superoffice-docs
-          git config --global user.email "tony@superoffice.com"
-          git push -u origin release-$(SoNugetVersion)
-        displayName: 'Push branch'
+      # - pwsh: |
+      #     cd $(Build.SourcesDirectory)\superoffice-docs
+      #     git config --global user.email "tony@superoffice.com"
+      #     git push -u origin release-$(SoNugetVersion)
+      #   displayName: 'Push branch'
