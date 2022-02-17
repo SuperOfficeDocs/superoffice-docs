@@ -37,6 +37,7 @@ stages:
 
       #get ready to start writing new api reference files
       - pwsh: |
+          git branch -D release-$(SoNugetVersion)
           git checkout -b release-$(SoNugetVersion)
         displayName: Create new branch
       
