@@ -20,6 +20,7 @@ stages:
         name: OldBuildServers #vmImage: 'windows-latest'
     steps:
       - checkout: self
+        persistCredentials: true
         clean: true
       
       - task: NuGetToolInstaller@1
