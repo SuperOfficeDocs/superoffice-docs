@@ -12,14 +12,6 @@ resources:
     #  branches:
     #    include: 
     #    - main
-variables:
-  - name: project
-    value: '2da5b757-3c7c-4220-a588-9284611288d9'
-  - name: definition
-    value: 47
-  - name: pipelineId
-    value: 36591
-
 stages:
 - stage: Generate_Release_Docs
   jobs:
@@ -53,11 +45,11 @@ stages:
         displayName: Download Nuget Packages
         inputs:
           buildType: 'specific'
-          project: variables['project']
-          definition: variables['definition']
+          project: '2da5b757-3c7c-4220-a588-9284611288d9'
+          definition: '47'
           specificBuildWithTriggering: true
           buildVersionToDownload: 'specific'
-          pipelineId: variables['pipelineId']
+          pipelineId: '36591'
           artifactName: 'Packages'
           itemPattern: '**/*.nupkg'
           targetPath: '$(Build.ArtifactStagingDirectory)\NugetPackages' 
@@ -67,11 +59,11 @@ stages:
         displayName: Download ApiDocs Files
         inputs:
           buildType: 'specific'
-          project: variables['project']
-          definition: variables['definition']
+          project: '2da5b757-3c7c-4220-a588-9284611288d9'
+          definition: '47'
           specificBuildWithTriggering: true
           buildVersionToDownload: 'specific'
-          pipelineId: variables['pipelineId']
+          pipelineId: '36591'
           artifactName: 'ApiDocs'
           itemPattern: '**'
           targetPath: '$(Build.ArtifactStagingDirectory)\ApiDocs' #contains: ArchiveProviders, Database, MdoProviders, NetServerScripting,RestFiles, SoapFiles
