@@ -88,5 +88,32 @@ function isValidWebHook(signature, secret, req, buf)
 }
 ```
 
+## Validation routine using Python
+
+Community contribution from Fredrik Wik.
+
+```python
+
+#request.data is the webhook payload.
+import hmac
+import hashlib
+import base64
+
+xSignature = request.headers['x-superoffice-signature']
+stored_secred = b"your_client_secret_here"
+signature = str(base64.b64encode(hmac.new(stored_secred, request.data, digestmod=hashlib.sha256).digest()))
+converted_signature = signature.split("'")[1]
+
+
+if converted_signature == xSignature:
+    print("They are the same")
+else:
+    print("They are different")
+
+print(xSignature) #w+C9EOwS5kG2304s94RfJj8yzuXr2rzqfkRF3Kr5upg=
+print(signature) #b'w+C9EOwS5kG2304s94RfJj8yzuXr2rzqfkRF3Kr5upg='
+print(converted_signature) #w+C9EOwS5kG2304s94RfJj8yzuXr2rzqfkRF3Kr5upg=
+```
+
 <!-- Referenced links -->
 [1]: https://sensecommerce.io/blog/validating-shopify-webhooks-node-js/
