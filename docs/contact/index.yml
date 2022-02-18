@@ -102,7 +102,7 @@ conceptualContent:
     - title: Data options
       summary: ""
       links:
-      - text: Custom fields
+      - text: Custom objects
         itemType: overview
         url: ../custom-objects/overview.md
       - text: How to add user-defined fields
@@ -141,7 +141,7 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: howto/crmscript/customer.md
+        url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
         url: howto/sql/update-person-sql.md

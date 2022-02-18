@@ -67,7 +67,7 @@ NSProject[] projectList = agent.GetProjectList(projectIds);
 
 ### NSProject[] GetProjectsFromContact(Integer contactId)
 
-A company is implicitly linked to a project when at least 1 [person][3] in that [organization][4] is a [member][5] of that project.
+A company is implicitly linked to a project when at least 1 person in that [organization][4] is a [member][5] of that project.
 
 ```crmscript!
 Integer contactId = 4;
@@ -170,8 +170,7 @@ For a complete list of fields, see the [database reference][7].
 
 <!-- Referenced links -->
 [1]: ../../../automation/crmscript/searchengine/index.md
-[2]: ../../../contact/howto/crmscript/employees.md
-[3]: ../../../contact/howto/crmscript/customer.md
+[2]: ../../../contact/associate.md
 [4]: ../../../company/howto/crmscript/company.md
 [5]: project-members.md
 [6]: project-guides.md

@@ -1,9 +1,10 @@
 ---
+uid: contact_howto
 title: Working with persons
-description: How to work with persons (contacts) in SuperOffice
+description: How to work with persons (contacts) in SuperOffice.
 author: Bergfrid Skaara Dias
 so.date: 02.07.2022
-so.topic: concept
+so.topic: howto
 keywords: person, contact
 ---
 

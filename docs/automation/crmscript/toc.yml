@@ -3,16 +3,12 @@ items:
   items:
   - name: What is CRMSCript?
     href: overview/index.md
-  - name: SuperOffice view of the world
-    href: overview/domain.md
   - name: What can I do with CRMScript?
     href: overview/crmscript-usage.md
   - name: How do I create and run CRMScripts?
     href: overview/envir-and-tools.md
   - name: Getting started
     href: overview/getting-started.md
-  - name: Localization
-    href: overview/localization.md
 - name: Fundamentals
   items:
   - name: Code structure
@@ -58,6 +54,8 @@ items:
     href: code-quality/best-practices.md
   - name: Intellisense
     href: code-quality/intellisense.md
+- name: Security
+  href: security/index.md
 - name: Data types
   href: datatypes/bool-type.md
   items:

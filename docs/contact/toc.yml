@@ -1,24 +1,32 @@
 items:
-- name: Contact (persons)
+- name: Contact (person)
   href: index.yml
   expanded: true
   items:
   - name: Overview
     href: overview.md
+  - name: Associates (employees)
+    href: associate.md
+  - name: Person picture and BLOBs
+    href: blob-pictures.md
   - name: API options
     href: howto/index.md
     items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-      - name: Customer (class)
-        href: howto/crmscript/customer.md
-      - name: Employees (internal)
-        href: howto/crmscript/employees.md
-      - name: User (class)
-        href: howto/crmscript/user.md
-      - name: Address localization
-        href: howto/crmscript/addresses.md
+      - name: Create and update customers
+        href: howto/crmscript/create-customer.md
+      - name: Get customer info
+        href: howto/crmscript/get-customer.md
+      - name: Look up customers
+        href: howto/crmscript/find-customer.md
+      - name: Get interests
+        href: howto/crmscript/get-interests.md
+      - name: Create user
+        href: howto/crmscript/create-user.md
+      - name: Get user
+        href: howto/crmscript/get-user.md
     - name: Web services
       href: howto/services/index.md
       items:
@@ -52,6 +60,8 @@ items:
         href: howto/row/get-persons-from-contact-rows.md
       - name: Update person
         href: howto/row/update-person-rows.md
+      - name: Collections
+        href: howto/row/collection.md
     - name: Objectified SQL
       href: howto/osql/index.md
       items:

@@ -196,4 +196,4 @@ When this happens, the next activity changes to the re-open date. The seller sho
 * `reopenDate`: when the sale should be reopened
 
 <!-- Referenced links -->
-[1]: ../../../contact/howto/crmscript/employees.md
+[1]: ../../../contact/associate.md

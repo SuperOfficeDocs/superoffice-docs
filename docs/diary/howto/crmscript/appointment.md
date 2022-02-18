@@ -375,7 +375,7 @@ For a complete list of fields, see the [database reference][4].
 | endDate       | Planned completion time (DateTime)   |
 
 <!-- Referenced links -->
-[1]: ../../../contact/howto/crmscript/employees.md
+[1]: ../../../contact/associate.md
 [2]: ../../../automation/crmscript/netserver/crmscript-archiveagent.md
 [3]: invitations.md
 [4]: ../../../database/tables/appointment.md

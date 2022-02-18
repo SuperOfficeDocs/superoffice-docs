@@ -87,6 +87,6 @@ return result.ToString();
 * The new A (for int-Array) marker is followed by a comma-separated list of integers, the elements of the array - \[A:1,4,2,19\]
 
 <!-- Referenced links -->
-[1]: ../../docs/api/globalization-and-localization/culture/culturedataformatter.md
+[1]: ../../docs/globalization-and-localization/culture/culturedataformatter.md
 
 <!-- Referenced images -->

@@ -34,6 +34,8 @@ items:
           href: udef/howto/entity/using-udefhelper.md
         - name: UDFHelper class
           href: udef/howto/entity/udefhelper-class.md
+        - name: Udef on contact
+          href: udef/howto/entity/udef-on-contact.md
       - name: SQL
         href: udef/howto/sql/index.md
         items:

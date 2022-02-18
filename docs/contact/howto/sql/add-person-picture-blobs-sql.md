@@ -1,7 +1,7 @@
 ---
 title: How to add a person picture
 uid: add_person_picture_blob_sql
-description: Person picture and blobs
+description: How to add a person picture with raw SQL.
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
 keywords: blob, person, contact, image, picture, API, BinaryObject, BinaryObjectLink

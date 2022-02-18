@@ -1,7 +1,7 @@
 ---
 title: Update a person
 uid: update_person_sql
-description: How to update a person in the SuperOffice database with raq SQL
+description: How to update a person in the SuperOffice database with raw SQL.
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
 keywords: person, contact, update, API, SQL
@@ -52,7 +52,7 @@ INSERT INTO CRM."freetextindex" ("freetextindex_id", "freetextwords_id", "table_
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110410, 1164197808, 0, 4608, 13, 55, 142)
 ```
 
-## Two person interests added
+## Two personinterests added
 
 ```SQL
 INSERT INTO CRM."personinterest" ("personinterest_id", "person_id", "pinterest_idx", "startDate", "endDate", "flags", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount") VALUES (7, 74, 3, 0, 2147483647, 0, 1164194208, 13, 0, 0, 0)

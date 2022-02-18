@@ -59,7 +59,7 @@ printLine(d.toString());
 
 ## Get all user-defined fields from entity
 
-`GetUserDefinedFields()` retrieves all registered user-defined fields from an entity. Here, we use the [contact][2] entity.
+`GetUserDefinedFields()` retrieves all registered user-defined fields from an entity. Here, we use `NSContactEntity`.
 
 > [!TIP]
 > **Map** is a collection of key-value pairs. The key is **not the label** you gave the field! It's the **prog ID**!
@@ -157,6 +157,5 @@ if (result.GetRowCount() > 0) {
 ```
 
 <!-- Referenced links -->
-[2]: ../../../../contact/howto/crmscript/customer.md
 [6]: ../../../../automation/crmscript/datatypes/datetime-type.md
 [7]: ../../../../automation/crmscript/datatypes/date-type.md
