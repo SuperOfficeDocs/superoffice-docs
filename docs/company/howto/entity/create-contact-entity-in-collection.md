@@ -14,8 +14,6 @@ so.topic: howto
 
 The `SuperOffice.CRM.Entities` namespace exposes entity collections such as `ContactCollection` and `PersonCollection`. It is therefore possible to create a `Contact` entity and assign it to the collection and thereby saving the collection the `Contact` entity will be saved.
 
-The following example demonstrates the method of doing the above.
-
 ## Code
 
 [!code-csharp[CS](includes/create-contact-entity-in-collection.cs)]

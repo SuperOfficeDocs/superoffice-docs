@@ -10,6 +10,8 @@ so.topic: concept
 
 # Contact - raw SQL
 
+[!include[Don't change company table](../../../includes/warn-company-table.md)]
+
 * [Create contact][1]
 * [Get contact details][2]
 * [Get interests][3]

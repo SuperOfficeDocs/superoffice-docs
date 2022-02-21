@@ -41,5 +41,5 @@ companies = Get("api/v1/Contact?$select=name,category,number")
     "name": "Bjørge AS",
     "category": "Kunde",
     "number": "BB10013"
-   } ] 
+   } ]
 ```

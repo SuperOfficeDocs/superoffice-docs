@@ -12,7 +12,7 @@ so.topic: howto
 
 # Create a Contact entity through an entity
 
-Creating a contact through an entity can be done in 2 different ways:
+Creating a contact through an entity can be done in two different ways:
 
 [!include[ALT](../../../api/includes/create-entity-options.md)]
 

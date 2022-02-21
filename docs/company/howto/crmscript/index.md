@@ -18,10 +18,9 @@ The [Company CRMScript class][1] represents the following entities:
 * SuperOffice UI: company
 * Database table: [contact][5]
 
-> [!WARNING]
-> The **company** database table is unrelated to the **Company** CRMScript class. The table should have one row only, containing information about licenses and the owner of the SuperOffice database.
->
-> Changing the `company` table will make it **impossible to sign in** for all users. The only fix is to restore the database from backup.
+The **company** database table is unrelated to the **Company** CRMScript class. The table should have one row only, containing information about licenses and the owner of the SuperOffice database.
+
+[!include[Don't change company table](../../../includes/warn-company-table.md)]
 
 ## Parser variables
 

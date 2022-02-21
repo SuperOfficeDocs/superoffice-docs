@@ -137,26 +137,26 @@ conceptualContent:
 
     # Card
     - title: API options
-      summary: ""
+      summary: "Examples of how to work with persons, customers, and employees in CRMScript and NetServer."
       links:
       - text: CRMScript
-        itemType: concept
+        itemType: how-to-guide
         url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: howto/sql/update-person-sql.md
+        url: howto/sql/index.md
       - text: OSQL
         itemType: how-to-guide
-        url: howto/osql/update-person-osql.md
+        url: howto/osql/index.md
       - text: Row
         itemType: how-to-guide
-        url: howto/row/update-person-rows.md
+        url: howto/row/index.md
       - text: Entity
         itemType: how-to-guide
-        url: howto/entity/update-person-entity.md
-      - text: REST
+        url: howto/entity/index.md
+      - text: Web services, REST
         itemType: how-to-guide
-        url: howto/services/update-person-services.md
+        url: howto/services/index.md
 
     # Card
     - title: Database options

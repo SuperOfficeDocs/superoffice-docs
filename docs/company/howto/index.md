@@ -9,9 +9,11 @@ keywords: company, person, contact
 
 # Contact
 
+[!include[Don't change company table](../../includes/warn-company-table.md)]
+
 ## Email and URL
 
-To put together a list of the URLs and e-mails that belong to this contact:
+To put together a list of the URLs and emails that belong to this contact:
 
 ```SQL
 SELECT * FROM url WHERE contact_id = 123 ORDER BY rank
