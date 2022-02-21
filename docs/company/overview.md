@@ -7,7 +7,7 @@ so.topic: concept
 keywords: company, person, contact
 ---
 
-# Contact
+# Company
 
 ![Company card -screenshot][img2]
 
@@ -18,8 +18,8 @@ The company card uses the `contact` table and its related tables:
 > [!NOTE]
 > There are multiple person records for any contact. A classic many-to-one relationship.
 
-* A person can only belong to one contact.
-* A contact can have zero or more persons.
+* A `person` can only belong to one `contact`.
+* A `contact` can have zero or more persons.
 
 It is this relationship that drives the first to fields in the appointment, sale, and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
 

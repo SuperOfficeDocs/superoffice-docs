@@ -13,8 +13,12 @@ items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-      - name: Company (class)
-        href: howto/crmscript/company.md
+      - name: Create and update company
+        href: howto/crmscript/create-company.md
+      - name: Get company info
+        href: howto/crmscript/get-company.md
+      - name: Get activities
+        href: howto/crmscript/get-activities.md
     - name: Web services
       href: howto/services/index.md
       items:

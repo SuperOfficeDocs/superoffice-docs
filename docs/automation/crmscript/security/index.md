@@ -10,7 +10,7 @@ so.topic: concept
 
 # Security
 
-Don't assume that a user has access to everything. It is good practice to look up access rights before revealing or altering information about a person.
+Don't assume that a user has access to everything. It is good practice to look up access rights before revealing or altering information about a person or company.
 
 The **activeuser** table holds info about currently signed-in users. Use it to look up who is signed in, at what location, and so on.
 
@@ -54,17 +54,29 @@ Checks whether the user is an administrator.
 
 ## Bool checkTableRights(String tableRight)
 
-`checkTableRights()` determines whether the current user has access to a customer (person).
+`checkTableRights()` determines whether the current user has access to something.
 
-Access pertains to 1 of the following tasks:
+Access pertains to one of the following tasks:
 
 * select
 * update
 * insert
 
+**Customer (person):**
+
 ```crmscript!
 Customer c;
 c.load(5);
+
+Bool b = c.checkTableRights("select");
+printLine(b.toString());
+```
+
+**Company (contact):**
+
+```crmscript!
+Company c;
+c.load(2);
 
 Bool b = c.checkTableRights("select");
 printLine(b.toString());
@@ -79,11 +91,23 @@ Access pertains to 1 of the following tasks:
 * read
 * write
 
+**Customer (person):**
+
 ```crmscript
 Customer c;
 c.load(5);
 
 Bool b = c.checkFieldRights("person", "read");
+print(b.toString());
+```
+
+**Company (contact):**
+
+```crmscript
+Company c;
+c.load(2);
+
+Bool b = c.checkFieldRights("contact", "read");
 print(b.toString());
 ```
 
