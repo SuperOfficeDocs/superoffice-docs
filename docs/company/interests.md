@@ -1,25 +1,24 @@
 ---
 title: interests
+uid: company-interests
 description: Interests are stored on contacts and persons
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 02.21.2022
 keywords: interest, contact, company, person, contactinterest, ContInt
 so.topic: concept
-# so.envir:
-# so.client:
 ---
 
 # Interests
 
 ![Interest tab on Contact card -screenshot][img1]
 
-Interests are stored on contacts and persons - there are 2 separate sets of interests and a separate set of link tables.
+Interests are stored on contacts and persons - there are two separate sets of interests and a separate set of link tables.
 
 ![InterestLinkTable diagram][img2]
 
 The link table (`contactinterest`) allows a single contact to have zero or more interests checked off.
 
-The `ContInt` table is an MDO table, so interests can be grouped and organized under headings. The position under a heading does not matter to the linkage to a contact.
+The `ContInt` table is an **MDO table**, so interests can be grouped and organized under headings. The position under a heading does not matter to the linkage to a contact.
 
 ```SQL
 SELECT * FROM contint
@@ -48,6 +47,23 @@ You can extend the list of interests for a contact by creating and adding a new 
 ## Contact cached value
 
 The `contact` table has a counter field that stores the number of active interests. This field is used to cache the count. It is updated whenever the user edits the company. The field is used to quickly check whether the interests tab needs to indicate the presence of interests or not.
+
+## Howto
+
+* [Get interests - raw SQL][1]
+* [Add a new contact interest - rows][2]
+* [List all selected interests - entities][3]
+* [Set interest on/off - entities][4]
+* [List interests - services][6]
+* [Set interest on/off - services][7]
+
+<!-- Referenced links -->
+[1]: howto/sql/get-interests-sql.md
+[2]: howto/row/add-new-contact-interest.md
+[3]: howto/entity/get-interests-for-contact-entity.md
+[4]: howto/entity/set-interest-on-off-entity.md
+[6]: howto/services/list-interests-for-contact-services.md
+[7]: howto/services/set-interest-on-off-services.md
 
 <!-- Referenced images -->
 [img1]: media/contact-interests.png
