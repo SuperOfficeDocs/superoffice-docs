@@ -16,9 +16,9 @@ Interests are stored on contacts and persons - there are two separate sets of in
 
 ![InterestLinkTable diagram][img2]
 
-The link table (`contactinterest`) allows a single contact to have zero or more interests checked off.
+The link table ([contactinterest][10]) allows a single contact to have zero or more interests checked off.
 
-The `ContInt` table is an **MDO table**, so interests can be grouped and organized under headings. The position under a heading does not matter to the linkage to a contact.
+The [ContInt][9] table is an **MDO table**, so interests can be grouped and organized under headings. The position under a heading does not matter to the linkage to a contact.
 
 ```SQL
 SELECT * FROM contint
@@ -56,6 +56,7 @@ The `contact` table has a counter field that stores the number of active interes
 * [Set interest on/off - entities][4]
 * [List interests - services][6]
 * [Set interest on/off - services][7]
+* [ContInt MDO provider][8]
 
 <!-- Referenced links -->
 [1]: howto/sql/get-interests-sql.md
@@ -64,6 +65,9 @@ The `contact` table has a counter field that stores the number of active interes
 [4]: howto/entity/set-interest-on-off-entity.md
 [6]: howto/services/list-interests-for-contact-services.md
 [7]: howto/services/set-interest-on-off-services.md
+[8]: ../api/mdo-providers/reference/ContInt.md
+[9]: ../database/tables/contint.md
+[10]: ../database/tables/contactinterest.md
 
 <!-- Referenced images -->
 [img1]: media/contact-interests.png
