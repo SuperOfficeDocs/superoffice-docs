@@ -4,7 +4,7 @@ uid: get_category_list_typed_provider
 description: Get a CategoryList through typed list providers
 author: {github-id}
 so.date: 05.11.2016
-keywords: category,list provider
+keywords: category, list provider, CategoryList
 so.topic: howto
 # so.envir:
 # so.client:
@@ -31,7 +31,7 @@ The `RootItems` are defined by the records in the `category` table only if the M
 ![01 -screenshot][img1]
 
 <!-- Referenced links -->
-[1]: typed-list.md
+[1]: ../../../api/lists/entity/typed-list.md
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

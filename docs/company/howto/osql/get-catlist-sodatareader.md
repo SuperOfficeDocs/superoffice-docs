@@ -4,7 +4,7 @@ uid: get_category_list_sodatareader
 description: Get the CategoryList through SODataReader
 author: {github-id}
 so.date: 05.11.2016
-keywords: category, rows
+keywords: category, CategoryHeadingLinkTableInfo, CategoryList
 so.topic: howto
 # so.envir:
 # so.client:
@@ -14,7 +14,7 @@ so.topic: howto
 
 [SODataReader][1] also facilitates us in obtaining category lists. Here you have to query the database to retrieve the `CategoryList`.
 
-[!include[ALT](../../includes/note-using-sodatareader.md)]
+[!include[ALT](../../../api/includes/note-using-sodatareader.md)]
 
 The following example demonstrates how it is done.
 
@@ -42,7 +42,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   //Execute the Query
   SoDataReader reader = cmd.ExecuteReader();
 
-  //Write the category ID , category name and heading ID on the list view
+  //Write the category ID, category name, and heading ID on the list view
   while (reader.Read())
   {
     ListView.Items.Add(reader[0].ToString() + " " + reader[1].ToString() + " " + reader[2].ToString());
@@ -55,4 +55,4 @@ Here we make a query to retrieve the `CategoryList` from the `category` table in
 We have grouped items in the category list according to their headings. If any record in the `category` table doesn’t have a heading then "0" will be returned as the `HeadingId`. Similarly, you can obtain the history items by querying the `history` table.
 
 <!-- Referenced links -->
-[1]: ../../osql/so-data-reader.md
+[1]: ../../../api/osql/so-data-reader.md

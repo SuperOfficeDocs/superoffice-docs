@@ -28,4 +28,4 @@ req = { UdListDefinitionName: "category", IncludeDeleted: true }
 items = Post("api/v1/Agents/List/GetAllFromListName", req)
 ```
 
-[!include[Pseudocode](../../../includes/note-javascripty.md)]
+[!include[Pseudocode](../../../api/includes/note-javascripty.md)]

@@ -1,6 +1,11 @@
 ---
-uid: exampleGetListOfCategories
-title: Get List Of Categories
+uid: get-catlist-sql
+title: Get list of categories
+description: How to get all categories with raw SQL.
+author: Bergfrid Dias
+so.date: 02.21.2022
+keywords: category, CategoryGroupLink, contact
+so.topic: howto
 ---
 
 # Get all categories
@@ -13,7 +18,14 @@ The result is a list of categories, ordered by rank in the list.
 
 The deleted items are not included, but items that should be hidden from the user because of MDO filtering are included.
 
-![x][img1]
+| category_id | name | tooltip |
+|---|---|---|
+| 754 | Customer A | Big fish |
+| 755 | Customer B | Dinner-sized fish |
+| 756 | Customer C | Small fish |
+| 318 | Partner customer | |
+| 732 | International customer | |
+| 317 | Former customer | Has license, but no maintenance agreement |
 
 ## Filter without heading
 
@@ -37,7 +49,16 @@ The result is a set of list names, filtered via the user's group membership. Ite
 > [!NOTE]
 > A user may be a member of more than one usergroup, and we therefore have to join against the [UserGroupLink][1] table.<br>Items that are visible to more than one group will be returned twice. Use SELECT DISTINCT to filter the duplicates out.
 
-![x][img1]
+| category_id | name | rank |
+|---|---|---|
+| 754 | Customer A | 1 |
+| 755 | Customer B | 2 |
+| 756 | Customer C | 3 |
+| 732 | International customer | 10|
+| 317 | Former customer | 13 |
+| 104 | Partner | 14 |
+| 416 | Business partner | 16 |
+| 455 | Partner under certification | 17 |
 
 ## Get all items with headings, no filtering
 
@@ -54,7 +75,17 @@ The result is a set of heading-name pairs, ordered by heading and then the desir
 > [!NOTE]
 > An item may appear under multiple headings - this allowed by the list admin tool.
 
-![x][img3]
+| rank | name | name | category_id | rank |
+|---|---|---|---|---|
+| 1 | Other | Intern  | 392 | 99 |
+| 1 | Other | Employee | 13 | 100 |
+| 1 | Other | Supplier | 4 | 101|
+| 1 | Other | Competitor | 588 | 105 |
+| 2 | Partner | Partner | 104 | 14
+| 2 | Partner | Business partner | 416 | 16 |
+| 2 | Partner | Partner under certification | 455 | 17 |
+| 2 | Partner | SAP vendor | 918 | 18 |
+| 2 | Partner | Potential partner | 18 | 19 |
 
 ## Filter and group under headings
 
@@ -78,6 +109,3 @@ List items that are hidden from the user will be removed from the result by the 
 [1]: ../../../database/tables/usergrouplink.md
 
 <!-- Referenced images -->
-[img1]: media/select-category-1.gif
-[img2]: media/select-category-2.gif
-[img3]: media/select-category-3.gif

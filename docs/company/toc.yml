@@ -7,6 +7,8 @@ items:
     href: overview.md
   - name: Interests
     href: interests.md
+  - name: Category list
+    href: category-list.md
   - name: API options
     href: howto/index.md
     items:
@@ -36,6 +38,14 @@ items:
         href: howto/services/list-interests-for-contact-services.md
       - name: Set interest on/off
         href: howto/services/set-interest-on-off-services.md
+      - name: Add a category list item (REST)
+        href: howto/services/add-catlist-item-rest.md
+      - name: Add a category list item (WebAPI)
+        href: howto/services/add-catlist-item-webapi-agents.md
+      - name: Get category list (ListAgent)
+        href: howto/services/get-catlist-listagent.md
+      - name: Get category list (MDOAgent)
+        href: howto/services/get-catlist-mdoagent.md
     - name: Entities
       href: howto/entity/index.md
       items:
@@ -51,6 +61,10 @@ items:
         href: howto/entity/get-interests-for-contact-entity.md
       - name: Set interest on/off
         href: howto/entity/set-interest-on-off-entity.md
+      - name: Get category list - typed provider
+        href: howto/entity/get-catlist-typed-provider.md
+      - name: Get category list - generic provider
+        href: howto/entity/get-catlist-generic-provider.md
     - name: Rows
       href: howto/row/index.md
       items:
@@ -60,11 +74,15 @@ items:
         href: howto/row/create-contact-rows.md
       - name: Add new contact interest
         href: howto/row/add-new-contact-interest.md
+      - name: Get category list
+        href: howto/row/get-catlist-categoryrows.md
     - name: Objectified SQL
       href: howto/osql/index.md
       items:
       - name: Create contact
         href: howto/osql/create-contact-osql.md
+      - name: Get category list
+        href: howto/osql/get-catlist-sodatareader.md
     - name: Raw SQL
       href: howto/sql/index.md
       items:
@@ -74,3 +92,5 @@ items:
         href: howto/sql/get-contact-details-sql.md
       - name: Get interests
         href: howto/sql/get-interests-sql.md
+      - name: Get category list
+        href: howto/sql/get-catlist-sql.md

@@ -125,7 +125,7 @@ When you get the associate cache through the `GetCurrent` method of the `Associa
 * Associate Persons – the list of persons that are associates.
 * Associates – the list of associates with all their information.
 
-The returned object type `AssociateCashe` implements many methods that you can use in manipulating the returned list of associates. Some of the important methods are:
+The returned object type `AssociateCache` implements many methods that you can use in manipulating the returned list of associates. Some of the important methods are:
 
 * GetAssociate
 * GetAssociateContact

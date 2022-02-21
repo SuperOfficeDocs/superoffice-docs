@@ -24,5 +24,5 @@ In NetServer a list is a set of data presented as an object that can be directly
 
 <!-- Referenced links -->
 [1]: entity/index.md
-[2]: services/listagent/ilistagent.md
-[3]: services/mdoagent/imdoagent.md
+[2]: services/listagent/index.md
+[3]: services/mdoagent/index.md
