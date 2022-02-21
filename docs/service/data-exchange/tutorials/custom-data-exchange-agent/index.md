@@ -58,7 +58,7 @@ A very simple platform that can be used to create an agent is ASP.NET. By writin
 
 As you can see, this agent will return 2 companies, each with a primary key, name, and phone number. By placing this code in the file *myagent.aspx* and placing it in an IIS folder with script execution rights, you should be able to access it with a regular browser:
 
-![01][img1]
+![01 -screenshot][img1]
 
 ## Configuration
 
@@ -93,11 +93,11 @@ if (event == "receiveObject")
 
 Just create this as a script under **System design > Scripts**. Then, we can create our agent:
 
-![02][img2]
+![02 -screenshot][img2]
 
 Then we can create a task underneath this agent and relate it to our newly created script:
 
-![03][img3]
+![03 -screenshot][img3]
 
 Choose any schedule you feel like, such as every hour.
 
@@ -118,14 +118,14 @@ The best way to test an Expander Data Exchange task is to execute the dbi.exe pr
 
 Your output should (hopefully) look something like this:
 
-![04][img4]
+![04 -screenshot][img4]
 
 ...and inside Service you should now be able to find the entries:
 
-![05][img5]
+![05 -screenshot][img5]
 
 <!-- Referenced links -->
-[1]: ../../../service/data-exchange/index.md
+[1]: ../index.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

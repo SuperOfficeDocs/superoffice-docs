@@ -3,8 +3,8 @@ title: Expander Data Exchange
 uid: expander_data_exchange
 description: What is SuperOffice Expander Data Exchange
 author: {github-id}
-so.date: 
-keywords: 
+so.date: 02.21.2022
+keywords: Expander Data Exchange, ODBCAgent, SuperOfficeAgent, LDAPAgent
 so.topic: concept
 ---
 
@@ -37,40 +37,40 @@ Write your own connector in PHP, Perl, or c#. Needs to not be more than 10 lines
 
 The other CRM system is kept in a SQL database
 
-![x -screenshot][img1]
+![SuperOffice Expander Data Exchange SQL -screenshot][img1]
 
 ### Configure the agent
 
-![x -screenshot][img2]
+![SuperOffice Expander Data Exchange agent -screenshot][img2]
 
 ### Configure the task
 
-![x][img3]
+![SuperOffice Expander Data Exchange task -screenshot][img3]
 
 ### Configure the schedule
 
-![x][img4]
+![SuperOffice Expander Data Exchange schedule -screenshot][img4]
 
 ### Create the processing script
 
-![x][img5]
+![SuperOffice Expander Data Exchange processing script -screenshot][img5]
 
 ### Results
 
 Results are visible in Customer Service
 
-![x][img6]
+![SuperOffice Expander Data Exchange result -screenshot][img6]
 
 and in Sales & Marketing
 
-![x][img7]
+![SuperOffice Expander Data Exchange result -screenshot][img7]
 
 ## How-tos and tutorials
 
 * [How to create a custom Data Exchange agent][1]
 
 <!-- Referenced links -->
-[1]:../../api/tutorials/custom-data-exchange-agent/index.md
+[1]: tutorials/custom-data-exchange-agent/index.md
 
 <!-- Referenced images -->
 [img1]: media/image014.jpg
