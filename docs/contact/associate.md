@@ -58,5 +58,18 @@ Resources are typically meeting rooms or equipment such as projectors.
 
 [Database reference][1]
 
+## Associate list and cache
+
+In NetServer when you have a session, the session cache will contain a special cache entry named the **associate cache**. There all the associates listed in the SuperOffice database can be accessed through the cache, which is much faster than retrieving the associates from the database.
+
+The **associate list** is an MDO list type that you can retrieve from the database. It holds all the associates from the SuperOffice database.
+
+## Howto
+
+* [Get associate list - entity][2]
+* [Get associate list from cache][3]
+
 <!-- Referenced links -->
 [1]: ../database/tables/associate.md
+[2]: howto/entity/get-associate-list.md
+[3]: ../api/caching/associate-cache.md

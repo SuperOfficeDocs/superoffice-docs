@@ -173,6 +173,19 @@ items:
     href: config/webhooks.md
   - name: WebServices
     href: config/webservices.md
+- name: Caching
+  href: caching/index.md
+  items:
+  - name: SuperOffice.CRM.Cache
+    href: caching/superoffice-crm-cache.md
+  - name: Associate cache
+    href: caching/associate-cache.md
+  - name: Category cache
+    href: caching/category-cache.md
+  - name: SuperOffice.CRM.Security
+    href: caching/superoffice-crm-security.md
+  - name: Cached tables (Windows)
+    href: caching/cached-tables.md
 - name: Logging
   href: logging/index.md
   items:

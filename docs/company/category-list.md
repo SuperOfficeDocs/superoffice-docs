@@ -25,7 +25,7 @@ There are several methods of getting a category list:
 > [!NOTE]
 > All list objects in the NetServer services API have a common interface. They can be accessed or modified using a ListAgent or an MDOAgent. The MDO agent provides a generic mechanism for reading lists. The List agent provides a strongly types API that is simpler to program with.
 
-Explore the options and select the most appropriate method for your application.
+Explore the options and select the most appropriate method for your application. Consider using the [CategoryCache][8].
 
 <!-- Referenced links -->
 [1]: howto/entity/get-catlist-typed-provider.md
@@ -35,3 +35,4 @@ Explore the options and select the most appropriate method for your application.
 [5]: howto/services/get-catlist-listagent.md
 [6]: howto/services/get-catlist-mdoagent.md
 [7]: howto/sql/get-catlist-sql.md
+[8]: ../api/caching/category-cache.md

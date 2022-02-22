@@ -70,6 +70,8 @@ The user with `associate_id` 456 (even if he was in user-group 123) would get hi
 The user with `assoicate_id` 789 would get the value "quiet" because of the preference with ID 4. The user-specific preference has a higher priority than any of the others, so it is the one that applies.
 
 > [!NOTE]
-> You can define whatever section and key names you want. You do not need to register your section with SuperOffice. Just start using the section and key names directly.<br>If there is no value defined, you won't find a user-preference value in the table. Your code should take care to handle empty preferences sensibly.
+> You can define whatever section and key names you want. You do not need to register your section with SuperOffice. Just start using the section and key names directly.
+>
+> If there is no value defined, you won't find a user-preference value in the table. Your code should take care to handle empty preferences sensibly.
 
 With no default defined, we get the empty string back.

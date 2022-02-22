@@ -53,6 +53,8 @@ items:
         href: howto/entity/update-person-entity.md
       - name: Display image from BLOB table
         href: howto/entity/display-image-from-blob-table-entity.md
+      - name: Get the associate list
+        href: howto/entity/get-associate-list.md
     - name: Rows
       href: howto/row/index.md
       items:
