@@ -3,12 +3,12 @@ title: Contact - services
 uid: api_contact_services
 description: Working with companies (contact) in API with services.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 02.22.2022
 keywords: contact, company, services, API
-so.topic: concept
+so.topic: howto
 ---
 
-# Contact - row
+# Contact - services
 
 * [Create contact][1]
 * [Create contact (REST)][2]
@@ -24,5 +24,5 @@ so.topic: concept
 [3]: create-contact-webapi-agents.md
 [4]: get-contact-via-services-layer.md
 [5]: get-all-contacts-rest.md
-[6]: list-interests-for-contact-services.md
+[6]: get-interests-for-contact-services.md
 [7]: set-interest-on-off-services.md

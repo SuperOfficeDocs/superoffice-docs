@@ -3,7 +3,7 @@ title: Contact - entity
 uid: api_contact_entity
 description: Working with companies (contact) in API with entities.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 02.22.2022
 keywords: contact, company, entity, API
 so.topic: concept
 ---

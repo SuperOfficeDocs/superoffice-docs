@@ -14,6 +14,8 @@ so.topic: howto
 
 `CategoryRows` are defined under `SuperOffice.CRM.Rows` namespace. You can even get a category list via the `CategoryRows` object.
 
+## Code
+
 ```csharp
 using SuperOffice.CRM.Rows;
 using SuperOffice.Data;
@@ -34,6 +36,8 @@ CategoryRows.CustomSearch mySearch = newCategoryRows.CustomSearch();
   }
 }
 ```
+
+## Walk-through
 
 We have first created an instance of the `CustomSearch` class. Through this, we are trying to retrieve all the category rows which are not deleted. In this example, we are simply retrieving a list of categories. You can even group those categories according to their headings by adding more restrictions to the `CustomSearch` instance.
 

@@ -47,7 +47,9 @@ SELECT l.category_id, l.name, l.rank FROM Category l, CategoryGroupLink gl, User
 The result is a set of list names, filtered via the user's group membership. Items that the user is not allowed to see will not be returned.
 
 > [!NOTE]
-> A user may be a member of more than one usergroup, and we therefore have to join against the [UserGroupLink][1] table.<br>Items that are visible to more than one group will be returned twice. Use SELECT DISTINCT to filter the duplicates out.
+> Because a user may be a member of more than one usergroup, we have to join against the [UserGroupLink][1] table.
+>
+> Items that are visible to more than one group will be returned twice. Use SELECT DISTINCT to filter the duplicates out.
 
 | category_id | name | rank |
 |---|---|---|
@@ -73,7 +75,7 @@ SELECT h.rank, h.name, l.name, l.category_id, l.rank FROM Heading h, Category l,
 The result is a set of heading-name pairs, ordered by heading and then the desired order within each heading.
 
 > [!NOTE]
-> An item may appear under multiple headings - this allowed by the list admin tool.
+> An item may appear under multiple headings - this is allowed by the list admin tool.
 
 | rank | name | name | category_id | rank |
 |---|---|---|---|---|

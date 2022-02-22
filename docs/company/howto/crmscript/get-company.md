@@ -10,7 +10,7 @@ so.topic: howto
 
 # Get company info
 
-You can access a company in 3 ways. Each will return **false** if the company is unknown.
+You can access a company in three ways. Each will return **false** if the company is unknown.
 
 ## Bool load(Integer id)
 
@@ -26,7 +26,7 @@ c.load(2);
 Brings up the company owned by the agent and matching the external key.
 
 > [!CAUTION]
-> `loadFromAgentAndKey()`might overwrite existing values!
+> `loadFromAgentAndKey()` might overwrite existing values!
 
 ## Bool findFromDomain(String domain)
 

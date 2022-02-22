@@ -12,7 +12,7 @@ so.topic: howto
 
 ## Void setValue(String column, String value)
 
-Sets a named field to the given value. Look up names in the reference section down below, or check out the [class reference][1].
+Sets a named field to the given value. Look up names in the [reference section down below][3], or check out the [class reference][1].
 
 > [!NOTE]
 > Both parameters are strings! Remember to use quotes even for IDs.
@@ -61,3 +61,4 @@ For a complete list of fields, see the [database reference][2].
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Company.setValue(String,String)>
 [2]: ../../../database/tables/contact.md
+[3]: #reference

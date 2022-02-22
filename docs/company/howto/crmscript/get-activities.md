@@ -10,7 +10,7 @@ so.topic: howto
 
 # Activities
 
-You can also use the [contact agent][4] to check what's going on.
+You can also use [NSContactAgent][4] to check what's going on.
 
 ## GetMyActiveContacts
 
@@ -67,7 +67,7 @@ for (Integer i = 0; i < followups.length(); i++) {
 | 32 | person updated |
 
 > [!TIP]
-> To request more than 1 action type, summarize the values. **63** means **include all**.
+> To request more than one action type, summarize the values. **63** means **include all**.
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.NetServer.NSContactAgent>

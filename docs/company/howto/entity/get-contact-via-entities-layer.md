@@ -4,7 +4,7 @@ uid: get_contact_entity_layer
 description: How to get a Contact through Entities layer.
 author: {github-id}
 so.date: 05.11.2016
-keywords: contact, company, entity, API, Contact.GetFromIdxContactId
+keywords: contact, company, entity, API, GetFromIdxContactId
 so.topic: howto
 # so.envir:
 # so.client:

@@ -63,7 +63,7 @@ The `contact` table has a counter field that stores the number of active interes
 [2]: howto/row/add-new-contact-interest.md
 [3]: howto/entity/get-interests-for-contact-entity.md
 [4]: howto/entity/set-interest-on-off-entity.md
-[6]: howto/services/list-interests-for-contact-services.md
+[6]: howto/services/get-interests-for-contact-services.md
 [7]: howto/services/set-interest-on-off-services.md
 [8]: ../api/mdo-providers/reference/ContInt.md
 [9]: ../database/tables/contint.md

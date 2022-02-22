@@ -4,7 +4,7 @@ uid: get_contact_details
 description: How to get contact details from the SuperOffice database using raw SQL.
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: contact, company, SQL, API
+keywords: contact, company, SQL, API, phone
 so.topic: howto
 ---
 
@@ -37,7 +37,7 @@ Now we get the category name and description, as well as the category name.
 
 | contact_id | name | department | &gt;Category_id | name | rank | &gt;business_idx | name | rank |
 |---|---|---|---|---|---|---|---|---|
-| 15184 | Client System AS | | 317 | Tidligere kunde | 13 | 301 | IT og telecom | 12 |
+| 15184 | Client System AS | | 317 | Former customer | 13 | 301 | IT and telecom | 12 |
 
 ## Phone numbers
 
@@ -71,7 +71,7 @@ AND p.rank = 1
 
 | name | name | name | phone_id | owner_id | ptype_id | search_phone | phone | rank | description |
 |---|---|---|---|---|---|---|---|---|---|
-| Client System AS | Tidligere kunde | IT og telecom | 21537 | 15184 | 1 | 667763900 | 66 77 636 90 | 1 | Phone |
+| Client System AS | Former customer | IT and telecom | 21537 | 15184 | 1 | 667763900 | 66 77 636 90 | 1 | Phone |
 
 ## Address: street or postal
 
@@ -97,7 +97,7 @@ AND a.atype_idx = 2
 
 | name | name | name | phone | name | address_id | owner_id | atype_idx | ... |
 |---|---|---|---|---|---|---|---|---|
-| Client System AS | Tidligere kunde | IT og telecom | 66 77 63 90 | Norway | 15834 | 15184 | 2 | |
+| Client System AS | Former customer | IT and telecom | 66 77 63 90 | Norway | 15834 | 15184 | 2 | |
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/phone.md

@@ -45,7 +45,9 @@ It is this relationship that drives the first to fields in the appointment, sale
 ## More
 
 * [Interests][1]
+* [Categories][15]
 * [Addresses][3]
+* [Associates][16]
 
 <!-- Referenced links -->
 [1]: interests.md
@@ -62,6 +64,8 @@ It is this relationship that drives the first to fields in the appointment, sale
 [12]: ../diary/index.yml
 [13]: ../project/index.yml
 [14]: ../sale/index.yml
+[15]: category-list.md
+[16]: ../contact/associate.md
 
 <!-- Referenced images -->
 [img1]: media/so-contact.gif
