@@ -12,22 +12,28 @@ items:
     href: core-crm/10.0.3-update.md
   - name: 10.0.4 update
     href: core-crm/10.0.4-update.md
+  - name: 10.0.6 update
+    href: core-crm/10.0.6-update.md
 - name: Settings and Maintenance
   href: admin/index.md
   items:
   - name: 10.0.1 update
     href: admin/10.0.1-update.md
   - name: 10.0.2 update
-    href: admin/10.0.3-update.md
+    href: admin/10.0.2-update.md
   - name: 10.0.3 update
     href: admin/10.0.3-update.md
   - name: 10.0.4 update
     href: admin/10.0.4-update.md
+  - name: 10.0.6 update
+    href: admin/10.0.6-update.md
 - name: Service
   href: service/index.md
   items:
   - name: 10.0.1 update
     href: service/10.0.1-update.md
+  - name: 10.0.6 update
+    href: service/10.0.6-update.md
 - name: Marketing
   href: marketing/index.md
   items:
@@ -35,6 +41,8 @@ items:
     href: marketing/10.0.4-update.md
   - name: 10.0.5 update
     href: marketing/10.0.5-update.md
+  - name: 10.0.6 update
+    href: marketing/10.0.6-update.md
 - name: CEP
   href: cep/index.md
   items:
@@ -46,6 +54,8 @@ items:
     href: cep/10.0.4-update.md
   - name: 10.0.5 update
     href: cep/10.0.5-update.md
+  - name: 10.0.6 update
+    href: cep/10.0.6-update.md
 - name: Mobile
   href: mobile/index.md
   items:
@@ -53,6 +63,15 @@ items:
     href: mobile/10.1.4-update.md
   - name: 10.1.5 update
     href: mobile/10.1.5-update.md
+  - name: 10.1.7 update
+    href: mobile/10.1.7-update.md
+  - name: 10.1.8 update
+    href: mobile/10.1.8-update.md
+- name: Office integrations
+  href: office-integrations/index.md
+  items:
+  - name: 10.0.6 update
+    href: office-integrations/10.0.6-update.md
 - name: API
   href: api/index.md
   items:
@@ -60,6 +79,8 @@ items:
     href: api/10.0.1-update.md
   - name: 10.0.5 update
     href: api/10.0.5-update.md
+  - name: 10.0.6 update
+    href: api/10.0.6-update.md
 - name: Developer Products
   href: developer-products/index.md
   items:

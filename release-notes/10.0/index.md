@@ -29,7 +29,8 @@ After your upgrade to SuperOffice 10, there are some changes to note:
 * 10.0.2: Dashboards, Screen designer, Forms, Scripts
 * 10.0.3: Dashboards, Screen designer, Chat
 * 10.0.4: Dashboards, Mailing, Chat
-* 10.0.5: Mailing, Chat, Mobile CRM, APIs (Online and Onsite release)
+* 10.0.5: Mailing, Chat, Mobile CRM, APIs
+* 10.0.6: Five new UI languages in all modules, Screen designer, Dashboards, Chat (Online and Onsite release)
 
 You can read more about these in the [product news][1].
 
