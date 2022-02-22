@@ -1,7 +1,8 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 12.02.2021
-keywords: screen designer, settings and maintenance, admin
+so.date: 02.22.2022
+keywords: screen designer, settings and maintenance, admin, import
+so.version: 10
 ---
 
 # New and improved Settings and maintenance
@@ -16,9 +17,14 @@ keywords: screen designer, settings and maintenance, admin
 * [Screen designer – Custom buttons with tooltip (10.0.3)][3]
 * [CRMScript – Intellisense experience (10.0.3)][3]
 * [Document list – Template variable for semi long date (10.0.4)][4]
+* [Import – Gmail import of contacts (10.0.6)][6]
+* [Screen designer – Address field in expanded or one line mode (10.0.6)][6]
+* [Security improvements – Credentials and checks (10.0.6)][6]
+* [Languages – 5 new UI languages on all modules (10.0.6)][6]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
 [3]: 10.0.3-update.md
 [4]: 10.0.4-update.md
+[6]: 10.0.6-update.md
