@@ -54,6 +54,7 @@ These apply to computers running the Sales, Marketing, and Service clients.
 ## Microsoft Office (x86 and x64)
 
 * Microsoft 365 for Business
+* Microsoft Office 2021
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013
@@ -63,6 +64,7 @@ These apply to computers running the Sales, Marketing, and Service clients.
 Windows operating system only
 
 * Outlook 365 Click-to-run
+* Outlook 2021
 * Outlook 2019
 * Outlook 2016
 * Outlook 2013
@@ -73,6 +75,7 @@ Windows operating system only
 
 SuperOffice Win client only
 
+* Microsoft Office 2021
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013

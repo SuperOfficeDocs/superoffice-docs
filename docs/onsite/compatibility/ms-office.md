@@ -17,12 +17,11 @@ Want to know if a newly released Office version is compatible? Check the [compat
 
 | Microsoft Office version    | 8.0, SR1, SR2 | 8.0 SR3 - 8.3 | 8.4 - 8.5 R15 | 8.5 R16 | 9.1 - 9.2 R03 | 9.2 R04 - R12| 10 |
 |-----------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Microsoft Office 2021       | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | Microsoft Office 2019       | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft 365 for Business  | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2016 64bit | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2016 32bit | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2013 64bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2013 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Microsoft Office 2016       | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Microsoft Office 2013       | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft Office 2010 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3]* | ![i][img1] | ![i][img3]* | ![i][img3]* |
 
 > [!NOTE]

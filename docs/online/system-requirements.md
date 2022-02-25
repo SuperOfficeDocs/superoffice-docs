@@ -33,6 +33,7 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 
 ## Document handling and storage
 
+* Microsoft Office 2021
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013
@@ -54,6 +55,7 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 ## SuperOffice MailLink (Windows only)
 
 * Outlook 365 Click-to-run
+* Outlook 2021
 * Outlook 2019
 * Outlook 2016
 * Outlook 2013
