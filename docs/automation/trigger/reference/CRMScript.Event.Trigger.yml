@@ -34,6 +34,8 @@ items:
   - CRMScript.Event.Trigger.SalesAfterSaveProjectMember
   - CRMScript.Event.Trigger.SalesAfterSaveQuote
   - CRMScript.Event.Trigger.SalesAfterSaveQuoteLine
+  - CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
+  - CRMScript.Event.Trigger.SalesAfterSaveRejectQuote
   - CRMScript.Event.Trigger.SalesAfterSaveRelation
   - CRMScript.Event.Trigger.SalesAfterSaveSale
   - CRMScript.Event.Trigger.SalesAfterSaveSelection
@@ -47,6 +49,8 @@ items:
   - CRMScript.Event.Trigger.SalesBeforeSaveProjectMember
   - CRMScript.Event.Trigger.SalesBeforeSaveQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine
+  - CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
+  - CRMScript.Event.Trigger.SalesBeforeSaveRejectQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveRelation
   - CRMScript.Event.Trigger.SalesBeforeSaveSale
   - CRMScript.Event.Trigger.SalesBeforeSaveSelection
@@ -526,6 +530,38 @@ items:
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;QuoteLine.QuoteLineId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
+  id: 'SalesAfterSaveAcceptQuote'
+  so.intellisense: 
+  so.version: 10.0.7
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveAcceptQuote'
+  nameWithType: Trigger.SalesAfterSaveAcceptQuote
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
+  type: Method
+  summary: "\n(1114)Called after saving quote approval. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString activeQuoteVersion = ed.getInputValue(&quot;Quote.ActiveQuoteVersionId&quot;);\nNSQuoteAgent agent;\nNSQuoteVersion version = agent.GetQuoteVersion(activeQuoteVersion.toInteger());\ned.setMessage(&quot;Quote was approved with text &quot; + version.GetApprovedText());\n</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveRejectQuote
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveRejectQuote
+  id: 'SalesAfterSaveRejectQuote'
+  so.intellisense: 
+  so.version: 10.0.7
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveRejectQuote'
+  nameWithType: Trigger.SalesAfterSaveRejectQuote
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveRejectQuote
+  type: Method
+  summary: "\n(1115)Called after saving quote rejection. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString activeQuoteVersion = ed.getInputValue(&quot;Quote.ActiveQuoteVersionId&quot;);\nNSQuoteAgent agent;\nNSQuoteVersion version = agent.GetQuoteVersion(activeQuoteVersion.toInteger());\ned.setMessage(&quot;Quote was rejected with text &quot; + version.GetApprovedText());\n</code></pre>\n"
 - uid: CRMScript.Event.Trigger.SalesAfterSaveRelation
   commentId: M:CRMScript.Event.Trigger.SalesAfterSaveRelation
   id: 'SalesAfterSaveRelation'
@@ -734,6 +770,38 @@ items:
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;QuoteLine.QuoteLineId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
+  id: 'SalesBeforeSaveAcceptQuote'
+  so.intellisense: 
+  so.version: 10.0.7
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveAcceptQuote'
+  nameWithType: Trigger.SalesBeforeSaveAcceptQuote
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
+  type: Method
+  summary: "\n(1014)Called before saving quote approval. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString message = &quot;&quot;;\nString activeQuoteAlternative = ed.getInputValue(&quot;Quote.ActiveQuoteAlternativeId&quot;);\nString userGroup = ed.getInputValue(&quot;UserGroup&quot;);\nFloat discountPercent;\nNSQuoteAgent agent;\nNSQuoteAlternative alternative = agent.GetQuoteAlternative(activeQuoteAlternative.toInteger());\ndiscountPercent = alternative.GetDiscountPercent();\n//Check if discount higher than limit and specific usergroup \nif(discountPercent.round() >= 40 && userGroup == &quot;2&quot;){\n	message = &quot;Discount is to high you are not allowed to approve it &quot; + discountPercent.toString(2);\n	ed.setBlockExecution(true);\n	ed.setMessage(message);\n}\n</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveRejectQuote
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveRejectQuote
+  id: 'SalesBeforeSaveRejectQuote'
+  so.intellisense: 
+  so.version: 10.0.7
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveRejectQuote'
+  nameWithType: Trigger.SalesBeforeSaveRejectQuote
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveRejectQuote
+  type: Method
+  summary: "\n(1015)Called before saving quote rejection. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString activeQuoteVersion = ed.getInputValue(&quot;Quote.ActiveQuoteVersionId&quot;);\n</code></pre>\n"
 - uid: CRMScript.Event.Trigger.SalesBeforeSaveRelation
   commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveRelation
   id: 'SalesBeforeSaveRelation'
