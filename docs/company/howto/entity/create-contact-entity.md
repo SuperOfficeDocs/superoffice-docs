@@ -2,9 +2,9 @@
 title: Create a Contact entity
 uid: create_contact_entity
 description: Create a contact entity
-author: {github-id}
-so.date: 05.11.2016
-keywords: contact, company, entity, API
+author: Bergfrid Dias
+so.date: 02.22.2022
+keywords: contact, company, entity, API, assert, SetDefaults
 so.topic: howto
 # so.envir:
 # so.client:
@@ -29,6 +29,10 @@ To create a contact, we create an instance of the `Contact` entity using the `Cr
 The next section of the code shows [how values are assigned to properties][2] exposed by the entity.
 
 Once the required values to the properties of the `Contact` entity have been added or assigned it could be saved with the `Save` method.
+
+## Using assert
+
+[!code-csharp[CS](includes/create-contact-assert.cs)]
 
 <!-- Referenced links -->
 [1]: ../../../api/entities/index.md

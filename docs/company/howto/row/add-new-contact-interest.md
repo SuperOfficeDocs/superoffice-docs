@@ -12,7 +12,7 @@ so.topic: howto
 
 # How to add a new contact interest
 
-When adding a new contact interest, new rows should be added to multiple tables such as `ContInt`, `ContactInterest`, `ConIntGroupLink`, and the `ContIntHeadingLink` table. Here, we use the `SuperOffice.CRM.Rows` namespace.
+When adding a new [contact interest][1], new rows should be added to multiple tables such as `ContInt`, `ContactInterest`, `ConIntGroupLink`, and the `ContIntHeadingLink` table. Here, we use the `SuperOffice.CRM.Rows` namespace.
 
 > [!NOTE]
 > This is not the same as setting an existing interest on.
@@ -87,5 +87,8 @@ Once the example code is executed, the following rows will be added to the table
 | 1 | 4 | 24 | 1214207393 | 103 | |
 
 <!-- Originally written for NetServer 3.0 -->
+
+<!-- Referenced links -->
+[1]: ../../interests.md
 
 <!-- Referenced images -->

@@ -22,7 +22,9 @@ The namespace `SuperOffice.CRM.Security` exposes the following classes, which ca
 
 * **SentryPreferanceCache** holds information about the user’s sentry preferences.
 
-* **UserGroupCahce** holds information about the user groups (Associates).
+* **UserGroupCache** holds information about the user groups (Associates).
+
+## How to use the cache
 
 To use the cache, we would need to call the following two namespaces using the `using` keyword:
 
@@ -32,7 +34,9 @@ using SuperOffice.CRM.Security;
 ```
 
 > [!NOTE]
-> In some cases, it is necessary to indicate the entire path of the cache even though we have used the `using` statement to call the namespace. For example, when using the namespace SuperOffice.CRM.Rows, it would point to an ambiguous error since `ProbCache` is located in both the above namespaces.
+> In some cases, it is necessary to indicate the entire path of the cache even though we have used the `using` statement to call the namespace.
+>
+> For example, when using the namespace SuperOffice.CRM.Rows, it would point to an ambiguous error since `ProbCache` is located in both the above namespaces.
 
 ```csharp
 SuperOffice.CRM.Cache.ProbCache newProCache = SuperOffice.CRM.Cache.ProbCache.GetCurrent();

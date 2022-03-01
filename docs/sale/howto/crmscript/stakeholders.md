@@ -142,6 +142,6 @@ sale = saleAgent.SaveSaleEntity(sale);
 For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
-[1]: ../../../company/howto/crmscript/company.md
+[1]: ../../../company/howto/crmscript/index.md
 [2]: ../../../contact/howto/crmscript/index.md
 [3]: ../../../database/tables/salestakeholder.md

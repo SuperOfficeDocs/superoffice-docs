@@ -2,10 +2,10 @@
 title: How to get the category list and set category on a contact
 uid: get_set_category_mdoagent
 description: How to get the category list and set Contact.Category from combo box
-author: {github-id}
-keywords: 
+author: Bergfrid Dias
+so.date: 02.22.2022
+keywords: MDOAgent
 so.topic: howto
-so.date:
 so.category: list
 so.area: api-services
 # so.envir:
@@ -24,19 +24,19 @@ private void button3_Click(object sender, EventArgs e)
 {
   using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
   {
-    //get the MDO agent
+    //Get the MDO agent
     using(MDOAgent mdoAgent = new MDOAgent())
     {
       SelectableMDOListItem[] categoryList =
        mdoAgent.GetSelectableList("category", false  , "", false);
 
-      //set the datasource of the control
+      //Set the datasource of the control
       cmbCategory.DataSource = categoryList;
 
-      //set the display member
+      //Set the display member
       cmbCategory.DisplayMember = "Name";
 
-      //set the value member
+      //Set the value member
       cmbCategory.ValueMember = "Id";
     }
   }
@@ -46,16 +46,16 @@ private void button4_Click(object sender, EventArgs e)
 {
   using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
   {
-    //retrieve a contact agent
+    //Retrieve a contact agent
     using(ContactAgent contactAgent = new ContactAgent())
     {
-      //retrieve the contact entity you want through the contact agent
+      //Retrieve the contact entity you want through the contact agent
       ContactEntity myContact = contactAgent.GetContactEntity(4);
 
-      //set the category id of the contact using selected value of the combo box control
+      //Set the category ID of the contact using selected value of the combo box control
       myContact.Category.Id = System.Convert.ToInt32(cmbCategory.SelectedValue);
 
-      //finally save contact entity
+      //Finally save contact entity
       contactAgent.SaveContactEntity(myContact);
     }
   }

@@ -1,27 +1,14 @@
 ---
-title: Lists
-uid: caching_lists
-description: Caching lists
-author: {github-id}
-so.date: 05.11.2016
-keywords:
+title: CategoryCache
+uid: category-cache
+description: CategoryCache
+author: Bergfrid Dias
+so.date: 02.22.2022
+keywords: cache, list, CategoryCache
 so.topic: concept
 ---
 
-# Lists
-
-Under the **lists** categorization, the following classes can be added:
-
-* AssociateCache
-* CategoryCache
-* MDOListTableCache
-* PriorityCache
-* ProbCache
-* RedLetterDayCache
-
-## Example
-
-The following code shows how we may use the different classes grouped as lists relating to caching.
+# CategoryCache
 
 ```csharp
 using SuperOffice.CRM.Rows;

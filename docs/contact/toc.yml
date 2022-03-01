@@ -30,9 +30,9 @@ items:
     - name: Web services
       href: howto/services/index.md
       items:
-      - name: Get persons ContactAgent
+      - name: Get persons (ContactAgent)
         href: howto/services/get-persons-contactagent.md
-      - name: Get persons PersonAgent
+      - name: Get persons (PersonAgent)
         href: howto/services/get-persons-personagent.md
       - name: Update person
         href: howto/services/update-person-services.md
@@ -53,6 +53,8 @@ items:
         href: howto/entity/update-person-entity.md
       - name: Display image from BLOB table
         href: howto/entity/display-image-from-blob-table-entity.md
+      - name: Get associate list
+        href: howto/entity/get-associate-list.md
     - name: Rows
       href: howto/row/index.md
       items:

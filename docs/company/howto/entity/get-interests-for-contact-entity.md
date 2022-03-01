@@ -12,7 +12,7 @@ so.topic: howto
 
 # How to list all selected interests for a contact
 
-You can list all selected interests for a specific contact using the `ContactInterestHelper` class.
+You can list all selected [interests][1] for a specific contact using the `ContactInterestHelper` class.
 
 You can achieve the same with the `PersonInterestHelper` class.
 
@@ -28,3 +28,6 @@ In the code above, once we have created an instance of the `Contact` entity by u
 
 * using the `SelectHeadingItems` property
 * using the `SelectRootItems` property
+
+<!-- Referenced links -->
+[1]: ../../interests.md

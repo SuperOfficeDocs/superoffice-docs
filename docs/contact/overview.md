@@ -8,13 +8,13 @@ so.topic: concept
 keywords: person, contact
 ---
 
-# Person
+# Contact (person)
 
 ![Edit person dialog -screenshot][img1]
 
 ## SuperOffice view of the world
 
-SuperOffice has 5 important things:
+SuperOffice has five important things:
 
 * **Companies** are in code and database references called *contact*.
 * **Associates** are SuperOffice users - employees of the company.
@@ -53,6 +53,23 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 | user account    | user      | ejuser         | User            |
 | database owner  | tenant    | Company        |                 |
 
+## Contact vs. other entities
+
+* [company][10] (contact table)
+* [documents][11]
+* [follow-ups][12] (appointment table)
+* [projects][13]
+* [sales][14]
+
+## API how-tos
+
+* [CRMScript][4]
+* [Web services][5]
+* [Entities][6]
+* [Rows][7]
+* [Objectified SQL][8]
+* [Raw SQL][9]
+
 ## More
 
 * [Pictures are stored in the BLOB table][2]
@@ -62,6 +79,17 @@ It is important to keep in mind that there's not a 1:1 mapping of labels and tha
 [1]: ../database/getting-started/main-tables.md
 [2]: blob-pictures.md
 [3]: ../globalization-and-localization/address/index.md
+[4]: howto/crmscript/index.md
+[5]: howto/services/index.md
+[6]: howto/entity/index.md
+[7]: howto/row/index.md
+[8]: howto/osql/index.md
+[9]: howto/sql/index.md
+[10]: ../company/index.yml
+[11]: ../document/index.yml
+[12]: ../diary/index.yml
+[13]: ../project/index.yml
+[14]: ../sale/index.yml
 
 <!-- Referenced images -->
 [img1]: media/edit-person.png

@@ -16,6 +16,8 @@ This is an alternative to retrieving a `Contact` entity [through the entities la
 
 The following example shows how it is done.
 
+## Code
+
 ```csharp
 using SuperOffice.CRM.Services;
 using SuperOffice;
@@ -31,6 +33,8 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   string name = myContact.Name;
 }
 ```
+
+## Walk-through
 
 First, you need to create a `ContactAgent`. Then we can retrieve a `Contact` entity carrier by passing the `Contact_id` to the `GetContact` method. At this moment, all the properties of this particular contact will be passed to memory from the database. Now you can access all the properties of this contact via this newly created `Contact` carrier.
 

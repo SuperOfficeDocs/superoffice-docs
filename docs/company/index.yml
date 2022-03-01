@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  so.date: 02.21.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -131,26 +131,26 @@ conceptualContent:
 
     # Card
     - title: API options
-      summary: ""
+      summary: "Examples of how to work with companies and interests in CRMScript and NetServer."
       links:
       - text: CRMScript
-        itemType: concept
-        url: howto/crmscript/company.md
+        itemType: how-to-guide
+        url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: howto/sql/create-contact-sql.md
+        url: howto/sql/index.md
       - text: OSQL
         itemType: how-to-guide
-        url: howto/osql/create-contact-osql.md
+        url: howto/osql/index.md
       - text: Row
         itemType: how-to-guide
-        url: howto/row/create-contact-row.md
+        url: howto/row/index.md
       - text: Entity
         itemType: how-to-guide
-        url: howto/entity/create-contact-entity.md
-      - text: REST
+        url: howto/entity/index.md
+      - text: Web services, REST
         itemType: how-to-guide
-        url: howto/services/create-contact-services.md
+        url: howto/services/index.md
 
     # Card
     - title: Database options
