@@ -26,6 +26,7 @@ items:
   - CRMScript.Event.Trigger.NewTicketFromEmail
   - CRMScript.Event.Trigger.NewTicketFromForm
   - CRMScript.Event.Trigger.NewTicketFromSpmLink
+  - CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
   - CRMScript.Event.Trigger.SalesAfterSaveAppointment
   - CRMScript.Event.Trigger.SalesAfterSaveContact
   - CRMScript.Event.Trigger.SalesAfterSaveDocument
@@ -34,13 +35,13 @@ items:
   - CRMScript.Event.Trigger.SalesAfterSaveProjectMember
   - CRMScript.Event.Trigger.SalesAfterSaveQuote
   - CRMScript.Event.Trigger.SalesAfterSaveQuoteLine
-  - CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
   - CRMScript.Event.Trigger.SalesAfterSaveRejectQuote
   - CRMScript.Event.Trigger.SalesAfterSaveRelation
   - CRMScript.Event.Trigger.SalesAfterSaveSale
   - CRMScript.Event.Trigger.SalesAfterSaveSelection
   - CRMScript.Event.Trigger.SalesAfterSaveSelectionMember
   - CRMScript.Event.Trigger.SalesAfterSaveStakeholder
+  - CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveAppointment
   - CRMScript.Event.Trigger.SalesBeforeSaveContact
   - CRMScript.Event.Trigger.SalesBeforeSaveDocument
@@ -49,7 +50,6 @@ items:
   - CRMScript.Event.Trigger.SalesBeforeSaveProjectMember
   - CRMScript.Event.Trigger.SalesBeforeSaveQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine
-  - CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveRejectQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveRelation
   - CRMScript.Event.Trigger.SalesBeforeSaveSale
@@ -525,7 +525,7 @@ items:
   nameWithType: Trigger.SalesAfterSaveQuoteLine
   fullName: CRMScript.Event.Trigger.SalesAfterSaveQuoteLine
   type: Method
-  summary: "\n(1113)Called after an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  summary: "\n(1113) Called after an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
   remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MandatoryFields</td><td>Mandatory fields</td></tr><tr><td>QuoteLine.Code</td><td>Code</td></tr><tr><td>QuoteLine.DeliveredQuantity</td><td>Delivered quantity</td></tr><tr><td>QuoteLine.Description</td><td>Description</td></tr><tr><td>QuoteLine.DiscountAmount</td><td>Discount amount</td></tr><tr><td>QuoteLine.DiscountPercent</td><td>Discount percent</td></tr><tr><td>QuoteLine.ERPDiscountAmount</td><td>Erp discount amount</td></tr><tr><td>QuoteLine.ERPDiscountPercent</td><td>Erp discount percent</td></tr><tr><td>QuoteLine.ERPProductKey</td><td>Erp product key</td></tr><tr><td>QuoteLine.EarningAmount</td><td>Earning amount</td></tr><tr><td>QuoteLine.EarningPercent</td><td>Earning percent</td></tr><tr><td>QuoteLine.ExtraField1</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField2</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField3</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField4</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraField5</td><td>Extra field</td></tr><tr><td>QuoteLine.ExtraInfo.length</td><td>Extra fields length</td></tr><tr><td>QuoteLine.IsSubscription</td><td>Is subscription</td></tr><tr><td>QuoteLine.ItemNumber</td><td>Item number</td></tr><tr><td>QuoteLine.Name</td><td>Name</td></tr><tr><td>QuoteLine.PriceUnit</td><td>Price unit</td></tr><tr><td>QuoteLine.ProductCategoryKey</td><td>Product category key</td></tr><tr><td>QuoteLine.ProductFamilyKey</td><td>Product family key</td></tr><tr><td>QuoteLine.ProductTypeKey</td><td>Product type key</td></tr><tr><td>QuoteLine.Quantity</td><td>Quantity</td></tr><tr><td>QuoteLine.QuantityUnit</td><td>QuantityUnit</td></tr><tr><td>QuoteLine.QuoteAlternativeId</td><td>QuoteAlternativeId</td></tr><tr><td>QuoteLine.QuoteLineId</td><td>QuoteLineId</td></tr><tr><td>QuoteLine.Rank</td><td>Rank</td></tr><tr><td>QuoteLine.RawExtraInfo</td><td>RawExtraInfo</td></tr><tr><td>QuoteLine.Rights</td><td>Rights</td></tr><tr><td>QuoteLine.Rule</td><td>Rule</td></tr><tr><td>QuoteLine.Status</td><td>Status</td></tr><tr><td>QuoteLine.SubTotal</td><td>Subtotal</td></tr><tr><td>QuoteLine.SubscriptionQuantity</td><td>Subscription quantity</td></tr><tr><td>QuoteLine.SubscriptionStart</td><td>Subscription start</td></tr><tr><td>QuoteLine.SubscriptionUnit</td><td>Subscription unit</td></tr><tr><td>QuoteLine.Supplier</td><td>Supplier</td></tr><tr><td>QuoteLine.SupplierCode</td><td>Supplier code</td></tr><tr><td>QuoteLine.Thumbnail</td><td>Thumbnail</td></tr><tr><td>QuoteLine.TotalPrice</td><td>Total price</td></tr><tr><td>QuoteLine.UnitCost</td><td>Unit cost</td></tr><tr><td>QuoteLine.UnitListPrice</td><td>Unit list price</td></tr><tr><td>QuoteLine.UnitMinimumPrice</td><td>Unit minimum price</td></tr><tr><td>QuoteLine.Url</td><td>Url</td></tr><tr><td>QuoteLine.UserValueOverride</td><td>User value override</td></tr><tr><td>QuoteLine.VAT</td><td>VAT</td></tr><tr><td>QuoteLine.VATInfo</td><td>VAT info</td></tr><tr><td>QuoteLineExists</td><td>QuoteLineExists</td></tr><tr><td>StatusText</td><td>Status text</td></tr></tbody></table>\n"
   syntax: 
   example: 
@@ -541,8 +541,8 @@ items:
   nameWithType: Trigger.SalesAfterSaveAcceptQuote
   fullName: CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
   type: Method
-  summary: "\n(1114)Called after saving quote approval. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  summary: "\n(1114) Called after saving a quote approval. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\nThis trigger is only available as CRMScript trigger.\n<p></p><strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups[i]</td><td>List of other usergroup IDs</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString activeQuoteVersion = ed.getInputValue(&quot;Quote.ActiveQuoteVersionId&quot;);\nNSQuoteAgent agent;\nNSQuoteVersion version = agent.GetQuoteVersion(activeQuoteVersion.toInteger());\ned.setMessage(&quot;Quote was approved with text &quot; + version.GetApprovedText());\n</code></pre>\n"
@@ -557,8 +557,8 @@ items:
   nameWithType: Trigger.SalesAfterSaveRejectQuote
   fullName: CRMScript.Event.Trigger.SalesAfterSaveRejectQuote
   type: Method
-  summary: "\n(1115)Called after saving quote rejection. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  summary: "\n(1115) Called after saving quote rejection. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\nThis trigger is only available as CRMScript trigger.\n<p></p><strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups[i]</td><td>List of other usergroup IDs</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString activeQuoteVersion = ed.getInputValue(&quot;Quote.ActiveQuoteVersionId&quot;);\nNSQuoteAgent agent;\nNSQuoteVersion version = agent.GetQuoteVersion(activeQuoteVersion.toInteger());\ned.setMessage(&quot;Quote was rejected with text &quot; + version.GetApprovedText());\n</code></pre>\n"
@@ -781,8 +781,8 @@ items:
   nameWithType: Trigger.SalesBeforeSaveAcceptQuote
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
   type: Method
-  summary: "\n(1014)Called before saving quote approval. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  summary: "\n(1014) Called before saving quote approval. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\nThis trigger is only available as CRMScript trigger.\n<p></p><strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups[i]</td><td>List of other usergroup IDs</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString message = &quot;&quot;;\nString activeQuoteAlternative = ed.getInputValue(&quot;Quote.ActiveQuoteAlternativeId&quot;);\nString userGroup = ed.getInputValue(&quot;UserGroup&quot;);\nFloat discountPercent;\nNSQuoteAgent agent;\nNSQuoteAlternative alternative = agent.GetQuoteAlternative(activeQuoteAlternative.toInteger());\ndiscountPercent = alternative.GetDiscountPercent();\n//Check if discount higher than limit and specific usergroup \nif(discountPercent.round() >= 40 && userGroup == &quot;2&quot;){\n	message = &quot;Discount is to high you are not allowed to approve it &quot; + discountPercent.toString(2);\n	ed.setBlockExecution(true);\n	ed.setMessage(message);\n}\n</code></pre>\n"
@@ -797,8 +797,8 @@ items:
   nameWithType: Trigger.SalesBeforeSaveRejectQuote
   fullName: CRMScript.Event.Trigger.SalesBeforeSaveRejectQuote
   type: Method
-  summary: "\n(1015)Called before saving quote rejection. EventData contains all variables passed by datahandler in the Sales client.\n"
-  remarks: "\n<strong>Note: </strong>This trigger is only available as CRMScript trigger\n<strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups\\[i\\]</td><td>List of other usergroup ids</td></tr></tbody></table>\n"
+  summary: "\n(1015) Called before saving quote rejection. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\nThis trigger is only available as CRMScript trigger.\n<p></p><strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsNew</td><td>Is new</td></tr><tr><td>Quote.SaleId</td><td>Quote.SaleId</td></tr><tr><td>Quote.QuoteId</td><td>Quote.QuoteId</td></tr><tr><td>Quote.ActiveQuoteVersionId</td><td>Quote.ActiveQuoteVersionId</td></tr><tr><td>Quote.ActiveQuoteAlternativeId</td><td>Quote.ActiveQuoteAlternativeId</td></tr><tr><td>ActiveUser</td><td>AssociateId for active user</td></tr><tr><td>UserGroup</td><td>Primary usergroup of active user</td></tr><tr><td>OtherUserGroups.length</td><td>Length of other usergroups for active user</td></tr><tr><td>OtherUserGroups[i]</td><td>List of other usergroup IDs</td></tr></tbody></table>\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString activeQuoteVersion = ed.getInputValue(&quot;Quote.ActiveQuoteVersionId&quot;);\n</code></pre>\n"
