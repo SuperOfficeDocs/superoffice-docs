@@ -35,7 +35,7 @@ so.envir:
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|bounceCount|Number of bounces detected|When bounceCount > 4 ,email address shows up under Blocked e-mail addresses|UShort|&#x25CF;|
+|bounceCount|Number of bounces detected|When bounceCount > 4, email address shows up under Blocked e-mail addresses|UShort|&#x25CF;|
 |lastBounce|When did last bounce happen|DateTime|&#x25CF;|
 |lastSent|Last transmission (regardless of success/bounce)|DateTime|&#x25CF;|
 |dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)|&#x25CF;|
