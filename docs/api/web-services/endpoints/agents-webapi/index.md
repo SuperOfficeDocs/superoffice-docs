@@ -104,7 +104,7 @@ Happens when the request succeeds but the data is invalid. For example, a requir
 <!-- Referenced links -->
 [1]: ../rest-webapi/index.md
 [2]: ../../../../company/howto/services/create-contact-webapi-agents.md
-[3]: ../../../lists/services/listagent/add-catlist-item-webapi-agents.md
+[3]: ../../../../company/howto/services/add-catlist-item-webapi-agents.md
 [4]: ../../../../document/howto/agents-web-api/add-document-template.md
 [5]: ../../../../document/howto/agents-web-api/generate-document.md
 [6]: ../../../../assets/downloads/api/Swagger-v1-Agents.zip
