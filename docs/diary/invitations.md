@@ -1,15 +1,16 @@
 ---
+uid: invitations-intro
 title: Invitations
-description: Invitations
+description: Calling meetings or other arrangements with multiple participants.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 03.02.2022
 keywords: diary, calendar, appointment, API, associate
 so.topic: concept
 ---
 
 # Invitations
 
-When 2 appointments have a shared text record and different status values it can be called an invitation.
+When two appointments have a shared text record and different status values it can be called an invitation.
 
 Invitations are **created** when calling meetings or other arrangements between different members of a company.
 
@@ -19,3 +20,21 @@ When we save the appointment, an invitation will also be added to the person we 
 > Resources and non-user persons don't receive invitations – the appointment is just created as a normal appointment for these participants.
 
 When an invitation is **accepted** it will be displayed on the user’s diary.
+
+## Available how-tos
+
+### Create
+
+* [Create invitation - entity][3]
+* [Create invitation - raw SQL][1]
+
+### Accept
+
+* [Accept invitation - entity][4]
+* [Accept invitation - raw SQL][2]
+
+<!-- Referenced links -->
+[1]: howto/sql/create-invitation-sql.md
+[2]: howto/sql/accept-invitation-sql.md
+[3]: howto/entity/create-invitation-entity.md
+[4]: howto/entity/accept-invitation-entity.md

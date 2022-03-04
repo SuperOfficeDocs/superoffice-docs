@@ -1,9 +1,9 @@
 ---
 title: Diary howto
 uid: diary_howto
-description: You can create an appointment at multiple levels of NetServer.
+description: How to work with appointments at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
-so.date: 04.02.2022
+so.date: 03.02.2022
 keywords: diary, calendar, appointment, API
 so.topic: howto
 ---

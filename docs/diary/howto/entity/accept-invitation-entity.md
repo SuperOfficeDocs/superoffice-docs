@@ -1,9 +1,9 @@
 ---
 title: How to accept an invitation (data layer)
 uid: accept_invitation_entity
-description: How to accept an invitation using entities.
+description: How to accept an invitation using entities at the NetServer data layer.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 03.04.2022
 keywords: diary, calendar, appointment, API, entity, InvitationProvider, ArchiveRows, AppointmentMatrix
 so.topic: howto
 # so.envir:
@@ -12,7 +12,7 @@ so.topic: howto
 
 # How to accept an invitation (data layer)
 
-When you are trying to accept an invitation, two things come to your mind:
+When you are trying to accept an [invitation][2], two things come to your mind:
 
 * What is the method to retrieve the invitations?
 * What are the invitations that we are going to accept?
@@ -42,7 +42,7 @@ The values returned are formatted in a special way unique to NetServer, so to fo
 
 If you analyze the above code, you can see that we have jumped out of our loop that traverses the returned records. That is because, in the beginning, we have set ourselves an assumption that we are going to accept the first invitation in the returned list.
 
-Finally, we have used the `AppointmentMatrix` to accept the invitation we retrieved. The matrix is used in the NetServer to deal with various kinds of invitations that exist in the SuperOffice application.
+Finally, we have used the [AppointmentMatrix][3] to accept the invitation we retrieved. The matrix is used in the NetServer to deal with various kinds of invitations that exist in the SuperOffice application.
 
 > [!NOTE]
 > By default, the `InvitationProvider` will filter out only the appointment that follows under the following status definitions. The NetServer has done this since you want to accept only the appointments that have the following status definitions:
@@ -56,5 +56,15 @@ Finally, we have used the `AppointmentMatrix` to accept the invitation we retrie
 | Assignment | 11 | You are assigned this appointment. |
 | Assignment seen | 12 | You have seen the assignment, but not accepted or declined it |
 
+## See also
+
+* [Appointment table][5]
+* [Invitations][2]
+
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/culture/culturedataformatter.md
+[2]: ../../invitations.md
+[3]: appointment-matrix.md
+[5]: ../../../database/tables/appointment.md
+
+<!-- Referenced images -->

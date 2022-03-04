@@ -4,16 +4,16 @@ uid: recurring_appointment
 description: Recurring appointment
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, associate, recurrence, recurrencerule
+keywords: diary, calendar, appointment, recurrence, recurrencerule
 so.topic: concept
 ---
 
 # Recurring appointments
 
-A recurring appointment is stored in 2 parts:
+A recurring appointment is stored in two parts:
 
-* A recurrence rule is stored which defines the pattern of the recurrence
-* All the appointments created by the recurrence are created in the `appointment` table, and each one points to the recurrence rule that defines it.
+* A recurrence rule, which defines the pattern of the recurrence
+* All the appointments created by the recurrence are created in the [appointment table][3], and each one points to the recurrence rule that defines it.
 
 > [!CAUTION]
 > Modifying the start or end date on a recurring appointment after it has been saved is a bad idea. Changing the time on a recurring appointment will work fine, but changing the date will only lead to confusion. **Changing the start time on an appointment will trigger an update on all subsequence recurrences** if you have set the update mode to this-and-forward.
@@ -42,7 +42,7 @@ The enum values correspond to what you see in the **Pattern** dialog.
 ![Recurring follow-up dialog -screenshot][img1]
 
 > [!CAUTION]
-> The sub-pattern should match the pattern. There is little error-checking if you mix the wrong set. You can set pattern = yearly and sub-pattern = dailyEveryDay and something strange will probably happen.
+> The **sub-pattern should match the pattern**. There is little error-checking if you mix the wrong set. You can set pattern = yearly and sub-pattern = dailyEveryDay and something strange will probably happen.
 
 The system generates appointment records for all the recurrence instances:
 
@@ -60,7 +60,7 @@ FROM appointment WHERE recurrenceRuleId = 1
 | 270 | 15 | 2021-11-18 11:30:00 | 1 | 1 | 1 |
 | 271 | 15 | 2021-11-23 11:30:00 | 1 | 1 | 1 |
 
-Taking a look at the rule itself:
+Let's look at the rule:
 
 ```SQL
 SELECT * FROM recurrencerule WHERE recurrencerule_id = 1
@@ -82,12 +82,18 @@ If you decide to change the rule pattern in the middle of a series of appointmen
 
 If you change the start time for a single appointment, the rule is not affected. The appointment is treated as an exception to the rule. The exception can be made un-exceptional by moving it back into line with the other appointments.
 
+## How-tos
+
+* [Create recurring appointment - entity layer][2]
+
 ## See also
 
 * [recurrencerule table][1]
 
 <!-- Referenced links -->
 [1]: ../database/tables/recurrencerule.md
+[2]: howto/entity/create-recurring-appointment-entity.md
+[3]: ../database/tables/appointment.md
 
 <!-- Referenced images -->
 [img1]: media/recurrence-dialog.png

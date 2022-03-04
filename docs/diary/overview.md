@@ -1,10 +1,10 @@
 ---
 title: Diary
 uid: diary_overview
-description: You can create an appointment at multiple levels of NetServer.
+description: Introduction to the diary and working with appointments.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, associate
+so.date: 03.02.2022
+keywords: diary, calendar, appointment, associate
 so.topic: concept
 ---
 

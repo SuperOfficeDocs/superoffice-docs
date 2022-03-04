@@ -1,16 +1,18 @@
 ---
-title: appointmentmatrix
-description: AppointmentMatrix
-author: {github-id}
+title: AppointmentMatrix
+uid: appointmentmatrix
+description: The AppointmentMatrix is used to manage complex appointments at the NetServer data layer.
+author: Bergfrid Skaara Dias
+so.date: 03.04.2022
 keywords: entity
-so.topic: sample
+so.topic: howto
 # so.envir:
 # so.client:
 ---
 
 # AppointmentMatrix
 
-The `AppointmentMatrix` is used to manage complex appointments: invitations and recurrences.
+The [AppointmentMatrix][1] is used to manage complex appointments: [invitations][2] and [recurrences][3].
 
 ```csharp
 using SuperOffice.CRM.Entities;
@@ -44,3 +46,8 @@ using (SoSession.Authenticate("tje3", "tje3"))
   assignAccept.Save();
 }
 ```
+
+<!-- Referenced links -->
+[1]: <xref:SuperOffice.CRM.Entities.AppointmentMatrix>
+[2]: ../../invitations.md
+[3]: ../../recurring-appointments.md
