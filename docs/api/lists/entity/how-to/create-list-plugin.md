@@ -19,7 +19,7 @@ First, let’s show you how you can develop a plugin for a list that is construc
 
 This example shows how you can manipulate the country list that is constructed from the `country` table of the SuperOffice database.
 
-[!code-csharp[CS](includes/demolist-plugin.cs)]
+[!code-csharp[CS](../includes/demolist-plugin.cs)]
 
 ## MDOProviderPlugin attribute
 
@@ -150,4 +150,4 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 In the above example when we get the country list using the `GetCountryList` method of the `SoLists` class, it will create the list using the methods we overrode and it will revert to the original implementation of the methods that we did not override. So here we will only get the countries that start with the letter A.
 
 <!-- Referenced links -->
-[1]: ../../osql/index.md
+[1]: ../../../osql/index.md

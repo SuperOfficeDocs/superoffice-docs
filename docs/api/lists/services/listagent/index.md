@@ -1,96 +1,35 @@
 ---
-title: listagent
-description: ListAgent
-author: {github-id}
+title: web-service-list-endpoint
+description: Describes managing lists with web service APIs
+author: AnthonyYates
 keywords: list,agent
 so.topic: concept
-so.date: 02.21.2022
+so.date: 03.03.2022
 so.category: list
 so.area: api-services
 # so.envir:
 # so.client:
 ---
 
-# ListAgent
+# Lists
 
-As the name implies, the `ListAgent` is the agent that provides us with **all the named lists**. This agent API consists of methods that are named the same as the list that is returned by the method.
+## Available list API Endpoints
 
-## Get the complete list
+As the name implies, the `List` endpoint provides access to **all lists**. The List API is used to manage lists and retrieve list items.
 
-The advantage of using this agent is that it is very straightforward to use since all we have to do is choosing the correct method, and then the method will return us the list with no added work. Below are some of the methods that this API provides.
+### RESTful REST endpoint
 
-* GetCountries
-* GetBusinesses
-* GetCategories
-* GetCrediteds
-* GetCurrencies
-* GetDepartments
-* GetProjectTypes
-* GetReasons
+The endpoint is located at the `/api/v1/list` URL. See [API reference][2] for more details.
+### RESTful Agent
 
-```csharp
-using(SoSession.Authenticate("SAL1" , ""))
-{
-  using(ListAgent agent = new ListAgent())
-  {
-    Category[] carrier = agent.GetCategories();
-    Assert.AreEqual( 10, carrier.Length, "Returns the wrong number of list items." );
-  }
-}
-```
+The endpoint is located at the `/api/v1/agent/list` URL. See [API reference][3] for more details.
 
-## Get a specific list item
+### SOAP list endpoint
 
-The above list is an example of one type of method that this API provides. There is another type of method that this API provides and they are methods that we can use to retrieve a single entry of a given list by providing the unique identifier of the list as a parameter. For example, we can get a specific country by using the method `GetCountry` and providing the country ID as the parameter. Below is a list of such methods that correspond to the above list of methods.
+The endpoint is located at the `/Remote/Services88/list.svc` URL. See [API reference][4] for more details.
 
-* GetCountry
-* GetBusiness
-* GetCategory
-* GetCredited
-* GetCurrency
-* GetDepartment
-* GetProjectType
-* GetReason
+[!include[placeholder](../includes/how-to-list.md)]
 
-```csharp
-SoSession.Authenticate("SAL1" , "");
-using(ListAgent agent = new ListAgent())
-{
-  Business business = agent.GetBusiness(2);
-
-  Assert.AreEqual( 2, business.Id, "Business.Id has wrong value" );
-  Assert.AreEqual( "Bank/Finans", business.Value, "Business.Value has wrong value" );
-  Assert.AreEqual( "", business.Tooltip, "Business.Tooltip has wrong value" );
- }
-```
-
-## Example
-
-All of the above methods accept the unique identifier of each as the parameter. We can put these methods to good use when we want a single entry as a selectable item. Below is an example that uses both kind of methods that exists in the API.
-
-```csharp
-using SuperOffice.CRM.Services;
-using SuperOffice;
-
-using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //create a ListAgent agent
-  using(ListAgent listAgent = new ListAgent())
-  {
-    //retrieve the list you want using the specific method
-    Reason[] reasonList = listAgent.GetReasons();
-
-    //add the display column you want to the control
-    foreach (Reason reasonRow in reasonList)
-    {
-      cmbReason.Items.Add(reasonRow.Value);
-    }
-
-    //retrieve a single reason
-    Reason reasonSingel = listAgent.GetReason(1);
-
-    //show the value of the reason entry in a text box
-    txtReason.Text = reasonSingel.Value;
-  }
-}
-```
+[2]: ../../../reference/restful/rest/List/index.md
+[3]: ../../../reference/restful/agent/List_Agent/index.md
+[4]: ../../../reference/soap/services88/List/index.md

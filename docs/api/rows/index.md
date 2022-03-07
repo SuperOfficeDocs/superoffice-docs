@@ -131,7 +131,7 @@ For example, in the `Sale` Entity, the `Associate` property would refer to the `
 * [Add list item using rows][1]
 
 <!-- Referenced links -->
-[1]: ../lists/row/add-list-item.md
+[1]: ../lists/row/how-to/add-list-item.md
 [2]: customsearch.md
 [3]: get-row.md
 [4]: get-row-from-entity.md
