@@ -43,6 +43,7 @@ items:
   - CRMScript.Native.Priority
   - CRMScript.Native.Profile
   - CRMScript.Native.ReplyTemplate
+  - CRMScript.Native.Rsa
   - CRMScript.Native.SearchEngine
   - CRMScript.Native.SpmCustomerList
   - CRMScript.Native.SpmMessage
