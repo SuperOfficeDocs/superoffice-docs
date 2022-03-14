@@ -14,6 +14,8 @@ items:
     href: core-crm/10.0.4-update.md
   - name: 10.0.6 update
     href: core-crm/10.0.6-update.md
+  - name: 10.0.7 update
+    href: core-crm/10.0.7-update.md
 - name: Settings and Maintenance
   href: admin/index.md
   items:
@@ -27,6 +29,8 @@ items:
     href: admin/10.0.4-update.md
   - name: 10.0.6 update
     href: admin/10.0.6-update.md
+  - name: 10.0.7 update
+    href: admin/10.0.7-update.md
 - name: Service
   href: service/index.md
   items:
@@ -81,6 +85,8 @@ items:
     href: api/10.0.5-update.md
   - name: 10.0.6 update
     href: api/10.0.6-update.md
+  - name: 10.0.7 update
+    href: api/10.0.7-update.md
 - name: Developer Products
   href: developer-products/index.md
   items:

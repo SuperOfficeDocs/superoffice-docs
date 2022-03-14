@@ -22,6 +22,7 @@ so.version: 10
 * [Dashboards – Navigation preview with own dashboards (10.0.4)][4]
 * [Dashboards – Line charts with spline/soft line (10.0.6)][6]
 * [Languages – 5 new UI languages on all modules (10.0.6)][6]
+* [Selection – New chart types in the Online template library (10.0.7)][7]
 
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
@@ -29,3 +30,4 @@ so.version: 10
 [3]: 10.0.3-update.md
 [4]: 10.0.4-update.md
 [6]: 10.0.6-update.md
+[7]: 10.0.7-update.md
