@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Rsa
+  commentId: T:CRMScript.Native.Rsa
+  id: Rsa
+  so.intellisense: 
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Rsa.#ctor
+  - CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  - CRMScript.Native.Rsa.loadPublicKey(String)
+  - CRMScript.Native.Rsa.createSignature(Byte[],Integer)
+  - CRMScript.Native.Rsa.createSignature(String,Integer)
+  - CRMScript.Native.Rsa.verifySignature(Byte[],Byte[],Integer)
+  - CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
+  name: Rsa
+  nameWithType: Rsa
+  fullName: CRMScript.Native.Rsa
+  type: Class
+  summary: "\nFor creating and verifying RSA signatures in CRMScript\n"
+  example: 
+- uid: CRMScript.Native.Rsa.#ctor
+  commentId: M:CRMScript.Native.Rsa.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Rsa
+  langs:
+  - crmscript
+  name: Rsa()
+  nameWithType: Rsa.#ctor
+  fullName: CRMScript.Native.Rsa.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Rsa class.\n"
+  remarks: 
+  syntax: 
+    content: Rsa
+  example: 
+  - "\n<pre><code>Rsa rsa;\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  commentId: M:CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  id: 'loadPrivateKey(String,String)'
+  so.intellisense: Rsa.loadPrivateKey
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'loadPrivateKey(String,String)'
+  nameWithType: Rsa.loadPrivateKey(String,String)
+  fullName: CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  type: Method
+  summary: "\nLoads a private key. The password is optional and should be specified if needed. This method must be called in prior to creating a signature.\n"
+  remarks:
+  syntax: 
+    content: Bool loadPrivateKey(String privateKey, String password)
+    parameters:
+    - id: privateKey
+      type: CRMScript.Global.String
+      description: "Private key"
+    - id: password
+      type: CRMScript.Global.String
+      description: "Password"
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the key was loaded successfully; otherwise, false."
+  example: 
+  - "\n<pre><code>Rsa rsa;\n\nBool b = rsa.loadPrivateKey(&quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla6i1h8zjEDOStXxEQ/F3LjqGfbvfcYQglxzGKj7/0e7Yypy7T8+xU0MXWp+xQWckvuFoR2C6X0CAwEAAQJBAKpaHXPerCH1cPHbxOBi424C57OMWRSpIPPvLpsoHuJqOj0OeoYb6TLCRfxSRFKw6Alp1kG8+6+B39Q4lHCKTgECIQDg3ruVbTuWzspuFHpqy3cJcc4dd+5skrFbSgSDcTdJYQIhAN8XHpgLWveoQCDbsuBcWtrHX660IGFzmEWPR9AKFomdAiByhBtlYoZpK5BddOJOxqUtUx6TVUM/WYkmo1AfHCX6oQIgRWJsan+FoGcc4ttRzAQNYeQGd1CgjY6lOmUwwZyRm+UCIQDapEGsKYKf9h/pWf+wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;, &quot;foobar&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Rsa.loadPublicKey(String)
+  commentId: M:CRMScript.Native.Rsa.loadPublicKey(String)
+  id: 'loadPublicKey(String)'
+  so.intellisense: Rsa.loadPublicKey
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'loadPublicKey(String)'
+  nameWithType: Rsa.loadPublicKey(String)
+  fullName: CRMScript.Native.Rsa.loadPublicKey(String)
+  type: Method
+  summary: "\nLoads a public key. This method must be called in prior to creating a signature.\n"
+  remarks:
+  syntax: 
+    content: Bool loadPublicKey(String privateKey)
+    parameters:
+    - id: privateKey
+      type: CRMScript.Global.String
+      description: "Private key"
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the key was loaded successfully; otherwise, false."
+  example: 
+  - "\n<pre><code>Rsa rsa;\n\nBool b = rsa.loadPublicKey(&quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA39CAsCTWpR/ePx2NJ9smd7GicPmW5NyAaTGdoqjskqoYSjBlKhZqKscF+ulhcnQNT+cPUO0a6iJuXLRSbtnAtupKrAbbZOSTlIy1c36nwMSOuBi92f0WkfiZmpy+sZHpL9Lzwgk8rzT8Ir1zdzk6A/+6nmLUuvIpxJtkh5luAIacc9y61795pysQgRFiOWO89hYFqnSLilzJlDPysNr2FvYuhk+B0l+5g0KVh5t8FpuuMzYAeIs7ZqB24xkpegSmLmFWnYnzOPF9W5/YrdcXnTlUogdZ1MyCtkHfymxatwlWZIulAmBwehRcRf5039/VQPYj/jXPdniEWIS/QIwE6HlbFLfzsWbRLtjq6Wd3oMhnXZ9M/5uRYzh4WXS2Sh1GCU6Oy9gEaTTK7ZwwVSR1OqCpxgUhnatdEQQ/EDDnbiNjNh1d1cR3w8JPaTbhd0jz0wH35OXi9LMFrf1FJrPVNQfctJn0ZhsQ4q8Gv1zx71fs1ecHlC3f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Rsa.createSignature(Byte[], Integer)
+  commentId: M:CRMScript.Native.Rsa.createSignature(Byte[], Integer)
+  id: 'createSignature(Byte[], Integer)'
+  so.intellisense: Rsa.createSignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'createSignature(Byte[], Integer)'
+  nameWithType: Rsa.createSignature(Byte[], Integer)
+  fullName: CRMScript.Native.Rsa.createSignature(Byte[], Integer)
+  type: Method
+  summary: "\nThis method will take an array of binary data and create a RSA signature using the provided hashing algorithm. The signature is returned as a byte array.\nThe private key must be loaded prior to calling this method.\n"
+  remarks: \nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Byte[] createSignature(Byte[] data, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Binary data"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above"
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "Generated RSA signature as byte array."
+  example: 
+  - "\n<pre><code>Rsa rsa;\n\nBool loaded = rsa.loadPrivateKey(&quot;-----BEGIN RSA PRIVATE KEY-----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-----END RSA PRIVATE KEY-----&quot;, &quot;&quot);\nByte[] content = String(&quot;Hello world&quot;); Byte[] signature = rsa.createSignature(content, 3);\nString base64Signature = encodeBase64(signature,false);\nprintLine(base64Signature);\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.createSignature(String, Integer)
+  commentId: M:CRMScript.Native.Rsa.createSignature(String, Integer)
+  id: 'createSignature(String, Integer)'
+  so.intellisense: Rsa.createSignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'createSignature(String, Integer)'
+  nameWithType: Rsa.createSignature(String, Integer)
+  fullName: CRMScript.Native.Rsa.createSignature(String, Integer)
+  type: Method
+  summary: "\nThis method takes a string of data and create a RSA signature using the provided hashing algorithm. This method is provided as a convenient way to create signatures for string data.\nNote that the string must be in UTF-8 encoding. If it is not, you need to use the more universal method taking a byte array as input.\nThe private key must be loaded prior to calling this method.\n"
+  remarks: \nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Byte[] createSignature(String data, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.String
+      description: "String of data"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above"
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "Generated RSA signature as byte array."
+  example: 
+  - "\n<pre><code>Rsa rsa;\n\nBool b = rsa.loadPrivateKey(&quot;-----BEGIN RSA PRIVATE KEY-----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-----END RSA PRIVATE KEY-----&quot;);\n Byte[] signature = rsa.createSignature(&quot;Hello world&quot;, 3);\nString base64Signature = encodeBase64(signature,false);\nprintLine(base64Signature);\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.verifySignature(Byte[], Byte[], Integer)
+  commentId: M:CRMScript.Native.Rsa.verifySignature(Byte[], Byte[], Integer)
+  id: 'verifySignature(Byte[], Byte[], Integer)'
+  so.intellisense: Rsa.verifySignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'verifySignature(Byte[], Byte[], Integer)'
+  nameWithType: Rsa.verifySignature(Byte[], Byte[], Integer)
+  fullName: CRMScript.Native.Rsa.verifySignature(Byte[], Byte[], Integer)
+  type: Method
+  summary: "\nThis method will try to verify the RSA signature given the data and return if it was a success or not. Although you should pass in the hashing algorithm, the underlying code will try other algorithms if the signature does not pass the provided algorithm. This might change in the future, so you should specify the correct algorithm.\nThe public key must be loaded prior to calling this method.\n"
+  remarks: \nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Bool verifySignature(Byte[] data, Byte[] signature, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Binary data"
+    - id: signature
+      type: CRMScript.Global.Byte[]
+      description: "Binary signature"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above"
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if valid; otherwise, false."
+  example: 
+  - "\n<pre><code>Rsa rsa;\n\nBool loaded = rsa.loadPublicKey(&quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA39CAsCTWpR/ePx2NJ9smd7GicPmW5NyAaTGdoqjskqoYSjBlKhZqKscF+ulhcnQNT+cPUO0a6iJuXLRSbtnAtupKrAbbZOSTlIy1c36nwMSOuBi92f0WkfiZmpy+sZHpL9Lzwgk8rzT8Ir1zdzk6A/+6nmLUuvIpxJtkh5luAIacc9y61795pysQgRFiOWO89hYFqnSLilzJlDPysNr2FvYuhk+B0l+5g0KVh5t8FpuuMzYAeIs7ZqB24xkpegSmLmFWnYnzOPF9W5/YrdcXnTlUogdZ1MyCtkHfymxatwlWZIulAmBwehRcRf5039/VQPYj/jXPdniEWIS/QIwE6HlbFLfzsWbRLtjq6Wd3oMhnXZ9M/5uRYzh4WXS2Sh1GCU6Oy9gEaTTK7ZwwVSR1OqCpxgUhnatdEQQ/EDDnbiNjNh1d1cR3w8JPaTbhd0jz0wH35OXi9LMFrf1FJrPVNQfctJn0ZhsQ4q8Gv1zx71fs1ecHlC3f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;);\nByte[] content = String(&quot;Hello world&quot;); String base64Signature = &quot;3xaujHhtbfm+p52jTUC0E9xTlX77I5IoCh8kgzz4i6sPj2OLrzxFOjr1jVj65PsRKZk45F9X7/byEnxeqVYT8iVa3VdLjGUZ7zbIsbx3nwatb2zlyX6477xj0JldC0aFJwRIORuKFRNq0i+J8gWsS2XS83J2WOJktJAsaEYsjqJqcwB/kDHL8Ph16rW1a4xApVJ8SnorDv3JDNeOatbIZZ2x/5g17q9W+uw2yq6OBotVClWynvjEy/ORT+G+PW9BUzfTOnArn5IR6wydF19Bgw124LvS2pVVZ9Armw0L9MGuquRwpCjKApNO9B1q7oLCKTXJzQbDLrvlfUKRkrIWjF7dCM1Gf2L1klmBfM9R0oN6RSCQuAaz3EwJROUQKugjezxGiQf/RwMoSe+qmyH4ggLPhJvvVG1LJq15fCPAnTF/8gCRcrPb7O9+D3qgHS9kRHKPaZHJuo9WKybM7l3n9gvLnArAyFdcmQc3DRStzT0TS6Z6YjT8IiwAuuxE5aQf&quot;;\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.verifySignature(String, Byte[], Integer)
+  commentId: M:CRMScript.Native.Rsa.verifySignature(String, Byte[], Integer)
+  id: 'verifySignature(String, Byte[], Integer)'
+  so.intellisense: Rsa.verifySignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'verifySignature(String, Byte[], Integer)'
+  nameWithType: Rsa.verifySignature(String, Byte[], Integer)
+  fullName: CRMScript.Native.Rsa.verifySignature(String, Byte[], Integer)
+  type: Method
+  summary: "\nThis method will try to verify the RSA signature given the data and return if it was a success or not. Note that the string must be in UTF-8 encoding. If it is not, you need to use the more universal method taking a byte array as input. Although you should pass in the hashing algorithm, the underlying code will try other algorithms if the signature does not pass the provided algorithm. This might change in the future, so you should specify the correct algorithm.\nThe public key must be loaded prior to calling this method.\n"
+  remarks: \nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Bool verifySignature(String data, Byte[] signature, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.String
+      description: "String data"
+    - id: signature
+      type: CRMScript.Global.Byte[]
+      description: "Binary signature"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above"
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if valid; otherwise, false."
+  example: 
+  - "\n<pre><code>Rsa rsa;\n\nBool loaded = rsa.loadPublicKey(&quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA39CAsCTWpR/ePx2NJ9smd7GicPmW5NyAaTGdoqjskqoYSjBlKhZqKscF+ulhcnQNT+cPUO0a6iJuXLRSbtnAtupKrAbbZOSTlIy1c36nwMSOuBi92f0WkfiZmpy+sZHpL9Lzwgk8rzT8Ir1zdzk6A/+6nmLUuvIpxJtkh5luAIacc9y61795pysQgRFiOWO89hYFqnSLilzJlDPysNr2FvYuhk+B0l+5g0KVh5t8FpuuMzYAeIs7ZqB24xkpegSmLmFWnYnzOPF9W5/YrdcXnTlUogdZ1MyCtkHfymxatwlWZIulAmBwehRcRf5039/VQPYj/jXPdniEWIS/QIwE6HlbFLfzsWbRLtjq6Wd3oMhnXZ9M/5uRYzh4WXS2Sh1GCU6Oy9gEaTTK7ZwwVSR1OqCpxgUhnatdEQQ/EDDnbiNjNh1d1cR3w8JPaTbhd0jz0wH35OXi9LMFrf1FJrPVNQfctJn0ZhsQ4q8Gv1zx71fs1ecHlC3f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;);\nString content = &quot;Hello world&quot;; String base64Signature = &quot;3xaujHhtbfm+p52jTUC0E9xTlX77I5IoCh8kgzz4i6sPj2OLrzxFOjr1jVj65PsRKZk45F9X7/byEnxeqVYT8iVa3VdLjGUZ7zbIsbx3nwatb2zlyX6477xj0JldC0aFJwRIORuKFRNq0i+J8gWsS2XS83J2WOJktJAsaEYsjqJqcwB/kDHL8Ph16rW1a4xApVJ8SnorDv3JDNeOatbIZZ2x/5g17q9W+uw2yq6OBotVClWynvjEy/ORT+G+PW9BUzfTOnArn5IR6wydF19Bgw124LvS2pVVZ9Armw0L9MGuquRwpCjKApNO9B1q7oLCKTXJzQbDLrvlfUKRkrIWjF7dCM1Gf2L1klmBfM9R0oN6RSCQuAaz3EwJROUQKugjezxGiQf/RwMoSe+qmyH4ggLPhJvvVG1LJq15fCPAnTF/8gCRcrPb7O9+D3qgHS9kRHKPaZHJuo9WKybM7l3n9gvLnArAyFdcmQc3DRStzT0TS6Z6YjT8IiwAuuxE5aQf&quot;;\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
+references:
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte

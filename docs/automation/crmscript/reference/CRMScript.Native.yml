@@ -293,6 +293,12 @@ references:
   name: ReplyTemplate
   nameWithType: ReplyTemplate
   fullName: CRMScript.Native.ReplyTemplate
+- uid: CRMScript.Native.Rsa
+  commentId: T:CRMScript.Native.Rsa
+  isExternal: true
+  name: Rsa
+  nameWithType: Rsa
+  fullName: CRMScript.Native.Rsa
 - uid: CRMScript.Native.SearchEngine
   commentId: T:CRMScript.Native.SearchEngine
   isExternal: true
