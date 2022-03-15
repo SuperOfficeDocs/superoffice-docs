@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Rsa
+  commentId: T:CRMScript.Native.Rsa
+  id: Rsa
+  so.intellisense: 
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Rsa.#ctor
+  - CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  - CRMScript.Native.Rsa.loadPublicKey(String)
+  - CRMScript.Native.Rsa.createSignature(Byte[],Integer)
+  - CRMScript.Native.Rsa.createSignature(String,Integer)
+  - CRMScript.Native.Rsa.verifySignature(Byte[],Byte[],Integer)
+  - CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
+  name: Rsa
+  nameWithType: Rsa
+  fullName: CRMScript.Native.Rsa
+  type: Class
+  summary: "\nFor creating and verifying RSA signatures in CRMScript.\n"
+  example: 
+- uid: CRMScript.Native.Rsa.#ctor
+  commentId: M:CRMScript.Native.Rsa.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Rsa
+  langs:
+  - crmscript
+  name: Rsa()
+  nameWithType: Rsa.#ctor
+  fullName: CRMScript.Native.Rsa.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Rsa class.\n"
+  remarks: 
+  syntax: 
+    content: Rsa
+  example: 
+  - "\n<pre><code>Rsa rsa;\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  commentId: M:CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  id: 'loadPrivateKey(String,String)'
+  so.intellisense: Rsa.loadPrivateKey
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'loadPrivateKey(String,String)'
+  nameWithType: Rsa.loadPrivateKey(String,String)
+  fullName: CRMScript.Native.Rsa.loadPrivateKey(String,String)
+  type: Method
+  summary: "\nLoads a private key. The password is optional and should be specified if needed. This method must be called in prior to creating a signature.\n"
+  remarks:
+  syntax: 
+    content: Bool loadPrivateKey(String privateKey, String password)
+    parameters:
+    - id: privateKey
+      type: CRMScript.Global.String
+      description: "Private key"
+    - id: password
+      type: CRMScript.Global.String
+      description: "Password"
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the key was loaded successfully; otherwise, false."
+  example: 
+  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\n\nBool b = rsa.loadPrivateKey(priv_key, &quot;foobar&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Rsa.loadPublicKey(String)
+  commentId: M:CRMScript.Native.Rsa.loadPublicKey(String)
+  id: 'loadPublicKey(String)'
+  so.intellisense: Rsa.loadPublicKey
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'loadPublicKey(String)'
+  nameWithType: Rsa.loadPublicKey(String)
+  fullName: CRMScript.Native.Rsa.loadPublicKey(String)
+  type: Method
+  summary: "\nLoads a public key. This method must be called in prior to creating a signature.\n"
+  remarks:
+  syntax: 
+    content: Bool loadPublicKey(String privateKey)
+    parameters:
+    - id: privateKey
+      type: CRMScript.Global.String
+      description: "Private key"
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the key was loaded successfully; otherwise, false."
+  example: 
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool b = rsa.loadPublicKey(pub_key);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Rsa.createSignature(Byte[],Integer)
+  commentId: M:CRMScript.Native.Rsa.createSignature(Byte[],Integer)
+  id: 'createSignature(Byte[],Integer)'
+  so.intellisense: Rsa.createSignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'createSignature(Byte[],Integer)'
+  nameWithType: Rsa.createSignature(Byte[],Integer)
+  fullName: CRMScript.Native.Rsa.createSignature(Byte[],Integer)
+  type: Method
+  summary: "\nThis method will take an array of binary data and create a RSA signature using the provided hashing algorithm. The signature is returned as a byte array.\nThe private key must be loaded prior to calling this method.\n"
+  remarks: "\nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Byte[] createSignature(Byte[] data, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Binary data"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above"
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "Generated RSA signature as byte array."
+  example: 
+  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPrivateKey(priv_key, &quot;&quot);\nByte[] content = String(&quot;Hello world&quot;); Byte[] signature = rsa.createSignature(content, 3);\nString base64Signature = encodeBase64(signature,false);\nprintLine(base64Signature);\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.createSignature(String,Integer)
+  commentId: M:CRMScript.Native.Rsa.createSignature(String,Integer)
+  id: 'createSignature(String,Integer)'
+  so.intellisense: Rsa.createSignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'createSignature(String,Integer)'
+  nameWithType: Rsa.createSignature(String,Integer)
+  fullName: CRMScript.Native.Rsa.createSignature(String,Integer)
+  type: Method
+  summary: "\nThis method takes a string of data and create a RSA signature using the provided hashing algorithm. This method is provided as a convenient way to create signatures for string data.\nNote that the string must be in UTF-8 encoding. If it is not, you need to use the more universal method taking a byte array as input.\nThe private key must be loaded prior to calling this method.\n"
+  remarks: "\nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Byte[] createSignature(String data, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.String
+      description: "String of data"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above"
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "Generated RSA signature as byte array."
+  example: 
+  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\n\nBool b = rsa.loadPrivateKey(priv_key, &quot;&quot;);\n Byte[] signature = rsa.createSignature(&quot;Hello world&quot;, 3);\nString base64Signature = encodeBase64(signature,false);\nprintLine(base64Signature);\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.verifySignature(Byte[],Byte[],Integer)
+  commentId: M:CRMScript.Native.Rsa.verifySignature(Byte[],Byte[],Integer)
+  id: 'verifySignature(Byte[],Byte[],Integer)'
+  so.intellisense: Rsa.verifySignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'verifySignature(Byte[],Byte[],Integer)'
+  nameWithType: Rsa.verifySignature(Byte[],Byte[],Integer)
+  fullName: CRMScript.Native.Rsa.verifySignature(Byte[],Byte[],Integer)
+  type: Method
+  summary: "\nThis method will try to verify the RSA signature given the data and return if it was a success or not. Although you should pass in the hashing algorithm, the underlying code will try other algorithms if the signature does not pass the provided algorithm. This might change in the future, so you should specify the correct algorithm.\nThe public key must be loaded prior to calling this method.\n"
+  remarks: "\nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Bool verifySignature(Byte[] data, Byte[] signature, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Binary data"
+    - id: signature
+      type: CRMScript.Global.Byte[]
+      description: "Binary signature"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if valid; otherwise, false."
+  example: 
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
+- uid: CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
+  commentId: M:CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
+  id: 'verifySignature(String,Byte[],Integer)'
+  so.intellisense: Rsa.verifySignature
+  so.version: 10.1.1
+  langs:
+  - crmscript
+  name: 'verifySignature(String,Byte[],Integer)'
+  nameWithType: Rsa.verifySignature(String,Byte[],Integer)
+  fullName: CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
+  type: Method
+  summary: "\nThis method will try to verify the RSA signature given the data and return if it was a success or not. Note that the string must be in UTF-8 encoding. If it is not, you need to use the more universal method taking a byte array as input. Although you should pass in the hashing algorithm, the underlying code will try other algorithms if the signature does not pass the provided algorithm. This might change in the future, so you should specify the correct algorithm.\nThe public key must be loaded prior to calling this method.\n"
+  remarks: "\nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  syntax: 
+    content: Bool verifySignature(String data, Byte[] signature, Integer hashingAlgorithm)
+    parameters:
+    - id: data
+      type: CRMScript.Global.String
+      description: "String data"
+    - id: signature
+      type: CRMScript.Global.Byte[]
+      description: "Binary signature"
+    - id: hashingAlgorithm
+      type: CRMScript.Global.Integer
+      description: "Which hashing algorithm, see supported above."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if valid; otherwise, false."
+  example: 
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
+references:
+- uid: CRMScript.Native.Rsa
+  commentId: T:CRMScript.Native.Rsa
+  isExternal: true
+  name: Rsa
+  nameWithType: Rsa
+  fullName: CRMScript.Native.Rsa
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

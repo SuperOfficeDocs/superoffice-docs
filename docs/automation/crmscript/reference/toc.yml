@@ -98,6 +98,8 @@ items:
     href: CRMScript.Native.Profile.yml
   - name: ReplyTemplate
     href: CRMScript.Native.ReplyTemplate.yml
+  - name: Rsa
+    href: CRMScript.Native.Rsa.yml
   - name: SearchEngine
     href: CRMScript.Native.SearchEngine.yml
   - name: SpmCustomerList
