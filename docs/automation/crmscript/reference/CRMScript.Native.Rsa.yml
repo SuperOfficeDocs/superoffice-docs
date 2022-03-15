@@ -127,7 +127,7 @@ items:
   fullName: CRMScript.Native.Rsa.createSignature(String,Integer)
   type: Method
   summary: "\nThis method takes a string of data and create a RSA signature using the provided hashing algorithm. This method is provided as a convenient way to create signatures for string data.\nNote that the string must be in UTF-8 encoding. If it is not, you need to use the more universal method taking a byte array as input.\nThe private key must be loaded prior to calling this method.\n"
-  remarks: \nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  remarks: "\nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
   syntax: 
     content: Byte[] createSignature(String data, Integer hashingAlgorithm)
     parameters:
@@ -154,7 +154,7 @@ items:
   fullName: CRMScript.Native.Rsa.verifySignature(Byte[],Byte[],Integer)
   type: Method
   summary: "\nThis method will try to verify the RSA signature given the data and return if it was a success or not. Although you should pass in the hashing algorithm, the underlying code will try other algorithms if the signature does not pass the provided algorithm. This might change in the future, so you should specify the correct algorithm.\nThe public key must be loaded prior to calling this method.\n"
-  remarks: \nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
+  remarks: "\nHashing algorithm:<table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>0</td><td>SHA1</td></tr><tr><td>1</td><td>SHA256</td></tr><tr><td>2</td><td>SHA384</td></tr><tr><td>3</td><td>SHA512</td></tr></tbody></table>\n"
   syntax: 
     content: Bool verifySignature(Byte[] data, Byte[] signature, Integer hashingAlgorithm)
     parameters:
