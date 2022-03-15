@@ -63,7 +63,7 @@ items:
       type: CRMScript.Global.Bool
       description: "True if the key was loaded successfully; otherwise, false."
   example: 
-  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\n\nBool b = rsa.loadPrivateKey(priv_key, &quot;foobar&quot;);\nprint(b.toString());</code></pre>\n"
+  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\n\nBool b = rsa.loadPrivateKey(priv_key, &quot;foobar&quot;);\n"
 - uid: CRMScript.Native.Rsa.loadPublicKey(String)
   commentId: M:CRMScript.Native.Rsa.loadPublicKey(String)
   id: 'loadPublicKey(String)'
@@ -114,7 +114,7 @@ items:
       type: CRMScript.Global.Byte[]
       description: "Generated RSA signature as byte array."
   example: 
-  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPrivateKey(priv_key, &quot;&quot);\nByte[] content = String(&quot;Hello world&quot;); Byte[] signature = rsa.createSignature(content, 3);\nString base64Signature = encodeBase64(signature,false);\nprintLine(base64Signature);\n</code></pre>\n"
+  - "\n<pre><code>String priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\nBool loaded = rsa.loadPrivateKey(priv_key, &quot;&quot);\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] signature = rsa.createSignature(content, 3);\nString base64Signature = encodeBase64(signature,false);\nprintLine(base64Signature);\n</code></pre>\n"
 - uid: CRMScript.Native.Rsa.createSignature(String,Integer)
   commentId: M:CRMScript.Native.Rsa.createSignature(String,Integer)
   id: 'createSignature(String,Integer)'
@@ -171,7 +171,7 @@ items:
       type: CRMScript.Global.Bool
       description: "True if valid; otherwise, false."
   example: 
-  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nString base64Signature = &quot;vka6U5GrfxMWTGO....WW322CGWQ1SPJr8uZ+6&quot;\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
 - uid: CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
   commentId: M:CRMScript.Native.Rsa.verifySignature(String,Byte[],Integer)
   id: 'verifySignature(String,Byte[],Integer)'
@@ -201,7 +201,7 @@ items:
       type: CRMScript.Global.Bool
       description: "True if valid; otherwise, false."
   example: 
-  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nBool verified = rsa.verifySignature(content, decodeBase64(base64Signature));\n</code></pre>\n"
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nString base64Signature = &quot;vka6U5GrfxMWTGO....WW322CGWQ1SPJr8uZ+6&quot;\nBool verified = rsa.verifySignature(&quot;Hello world&quot;, decodeBase64(base64Signature));\n</code></pre>\n"
 references:
 - uid: CRMScript.Native.Rsa
   commentId: T:CRMScript.Native.Rsa
