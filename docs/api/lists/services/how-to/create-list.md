@@ -3,7 +3,7 @@ title: ws-list-how-to-create-a-list
 description: How to create a list using web service APIs
 author: AnthonyYates
 keywords: list,agent
-so.topic: how-to
+so.topic: how-to-guide
 so.date: 03.03.2022
 so.category: list
 so.area: api-services
