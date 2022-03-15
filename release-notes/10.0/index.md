@@ -1,6 +1,6 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 01.25.2022
+so.date: 03.14.2022
 ---
 
 # What’s new in SuperOffice 10.0
@@ -30,7 +30,8 @@ After your upgrade to SuperOffice 10, there are some changes to note:
 * 10.0.3: Dashboards, Screen designer, Chat
 * 10.0.4: Dashboards, Mailing, Chat
 * 10.0.5: Mailing, Chat, Mobile CRM, APIs
-* 10.0.6: Five new UI languages in all modules, Screen designer, Dashboards, Chat (Online and Onsite release)
+* 10.0.6: Five new UI languages in all modules, Screen designer, Dashboards, Chat
+* 10.0.7: Selection charts, Request administration, Triggers for Approvals
 
 You can read more about these in the [product news][1].
 
