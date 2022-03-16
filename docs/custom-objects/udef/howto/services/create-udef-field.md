@@ -270,7 +270,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     > [!WARNING]
     > A Publish request creates a new version of all user-defined fields for the entity. Therefore, all user-defined fields will have updated UdefFieldId values.
 
-    Before published fields, make sure there are no active publish event happening at the same time. As long as the `IsAnyPublishEventActive` call returns false, it is safe to proceed.
+    Before published fields, make sure there is no active publish event happening at the same time. As long as the `IsAnyPublishEventActive` call returns false, it is safe to proceed.
 
     ```http
     POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
@@ -331,9 +331,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     udef.ShortLabel = "NumUdef";
     udef.Tooltip = "Tooltip for this Number UD field";
 
-    udef = udefAgent.SaveUserDefinedFieldInfoAsync(udef);
-
-
+    udef = await udefAgent.SaveUserDefinedFieldInfoAsync(udef);
     ```
 
 2. Publish the user-defined field to make it appear in the client user interface. 
