@@ -38,7 +38,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     Accept: application/json; charset=utf-8
     ```
 
-2. Update the relevant fields. Change FieldLabel, ShortLabel to update what text is shown in the client.
+1. Update the relevant fields. Change FieldLabel, ShortLabel to update what text is shown in the client.
 
     ```json
     {
@@ -51,7 +51,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     }
     ```
 
-3. Save the user-defined field. **This is a PUT request**.
+1. Save the user-defined field. **This is a PUT request**.
 
     Yes, it is unconventional to use a PUT request to save, however, this is specific to user-defined fields.
 
@@ -103,10 +103,10 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     The response will contain all of the user-defined fields for this entity, but now the new user-defined field UDefFieldId property will contain a identity value.
 
-4. Publish the user-defined field.
+1. Publish the user-defined field.
 
     > [!WARNING]
-    > A Publish request create a new version of all user-defined fields for the entity. Therefore, all user-defined fields will have updated UdefFieldId values.
+    > A Publish request creates a new version of all user-defined fields for the entity. Therefore, all user-defined fields will have updated UdefFieldId values.
 
     ```http
     POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Contact/UdefLayout/Publish HTTP/1.1
@@ -122,10 +122,242 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     Accept: application/json; charset=utf-8
     ```
 
+    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
+
 # [RESTful Agent API](#tab/create-agent)
+
+1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
+
+    ```http
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    Content-Type: application/json; charset=utf-8
+
+    {
+        "OwnerType": "Contact",
+        "FieldType": "Number",
+    }
+    ```
+
+    The response:
+
+    ```json
+    {
+        "UDefFieldId": 0,
+        "ColumnId": 8972,
+        "FieldDefault": "",
+        "FieldHeight": 17,
+        "FieldLabel": "",
+        "FieldLeft": 102,
+        "FieldTop": 187,
+        "FieldType": "Number",
+        "FieldWidth": 100,
+        "FormatMask": "",
+        "HideLabel": false,
+        "IsIndexed": false,
+        "LabelHeight": 17,
+        "LabelLeft": 0,
+        "LabelTop": 187,
+        "LabelWidth": 100,
+        "LastVersionId": 0,
+        "ListTableId": 0,
+        "IsMandatory": false,
+        "Type": "Contact",
+        "Page1LineNo": 0,
+        "ProgId": "SuperOffice:12",
+        "IsReadOnly": false,
+        "ShortLabel": "",
+        "TabOrder": 12,
+        "TextLength": 0,
+        "Tooltip": "",
+        "UdefIdentity": 12,
+        "UDListDefinitionId": 0,
+        "Justification": "Left",
+        "Version": 13,
+        "TemplateVariableName": "cl12",
+        "HasBeenPublished": false,
+        "MdoListName": null,
+        "TableRight": null,
+        "FieldProperties": {
+            "IsIndexed": {
+            "FieldRight": {
+                "Mask": "Update",
+                "Reason": ""
+            },
+            "FieldType": "System.Boolean",
+            "FieldLength": 0
+            },
+            "IsMandatory": {
+            "FieldRight": {
+                "Mask": "Update",
+                "Reason": ""
+            },
+            "FieldType": "System.Boolean",
+            "FieldLength": 0
+            }
+        }
+    }
+    ```
+
+1. Update the relevant fields. Change FieldLabel, ShortLabel to update what text is shown in the client.
+
+    ```json
+    {
+        ...,
+        "FieldLabel": "My Number Udef",
+        "IsMandatory": true,
+        "ShortLabel": "NumUdef",
+        "Tooltip": "Tooltip for this Number UD field"
+        ...,
+    }
+    ```
+
+1. Save the user-defined field. **This is a PUT request**.
+
+    The save request accepts the user-defined field to save.
+
+    ```http
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    Content-Type: application/json; charset=utf-8
+
+    [{
+        "UDefFieldId": 0,
+        "ColumnId": 8971,
+        "FieldDefault": "",
+        "FieldHeight": 17,
+        "FieldLabel": "My Number Udef",
+        "FieldLeft": 102,
+        "FieldTop": 170,
+        "FieldType": "Number",
+        "FieldWidth": 100,
+        "FormatMask": "",
+        "HideLabel": false,
+        "IsIndexed": false,
+        "LabelHeight": 17,
+        "LabelLeft": 0,
+        "LabelTop": 170,
+        "LabelWidth": 100,
+        "LastVersionId": 0,
+        "ListTableId": 136,
+        "IsMandatory": true,
+        "Type": "Contact",
+        "Page1LineNo": 0,
+        "ProgId": "SuperOffice:12",
+        "IsReadOnly": false,
+        "ShortLabel": "NumUdef",
+        "TabOrder": 11,
+        "TextLength": 0,
+        "Tooltip": "Tooltip for this Number UD field",
+        "UdefIdentity": 11,
+        "UDListDefinitionId": 0,
+        "Justification": "Left",
+        "Version": 11,
+        "TemplateVariableName": "cl11",
+        "HasBeenPublished": false,
+        "MdoListName": null
+    }]
+    ```
+
+    The response will contain all of the user-defined fields for this entity, but now the new user-defined field UDefFieldId property will contain a identity value.
+
+    The field is not yet viewable in the UI. It needs to first be published.
+
+2. Publish the user-defined field.
+
+    > [!WARNING]
+    > A Publish request creates a new version of all user-defined fields for the entity. Therefore, all user-defined fields will have updated UdefFieldId values.
+
+    Before published fields, make sure there are no active publish event happening at the same time. As long as the `IsAnyPublishEventActive` call returns false, it is safe to proceed.
+
+    ```http
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    ```
+
+    To prevent anyone from overwriting your field changes, set the publish event flag for the entity.
+
+    ```http
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    Content-Type: application/json; charset=utf-8
+
+    {
+        "OwnerType": "Contact"
+    }
+    ```
+
+    Finally issue the publish the request to activate the new field changes.
+
+    ```http    
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/Publish
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    Content-Type: application/json; charset=utf-8
+
+    {
+        "OwnerType": "Contact"
+    }
+    ```
+    
+    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
+
+    ```http
+    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    ```
+
+    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
 
 
 # [SuperOffice.WebApi](#tab/create-webapi)
+
+1. First get the UserDefinedFieldInfo instance that represents a user-defined field.
+
+    ```csharp
+    var udefAgent = new UserDefinedFieldInfoAgent(config);
+    var udef = await udefAgent.CreateUserDefinedFieldInfoAsync(
+        UDefType.Contact, 
+        UDefFieldType.Number
+    );
+
+    udef.FieldLabel = "My Number Def";
+    udef.IsMandatory = true;
+    udef.ShortLabel = "NumUdef";
+    udef.Tooltip = "Tooltip for this Number UD field";
+
+    udef = udefAgent.SaveUserDefinedFieldInfoAsync(udef);
+
+
+    ```
+
+2. Publish the user-defined field to make it appear in the client user interface. 
+
+    Fields are published by entity type. When published, all user-defined fields for that entity receive a new UDefFieldId number.
+
+    ```csharp
+    var config = new WebApiOptions(tenant.WebApiUrl);
+    config.Authorization = new AuthorizationSystemUserTicket(sysUserInfo, sysUserTicket);
+    
+
+    var udefAgent = new UserDefinedFieldInfoAgent(config);
+    
+    // make sure no one else is trying to publish at the same time
+    if(!await udefAgent.IsAnyPublishEventActiveAsync())
+    {
+        // state intention to start publishing new / updated fields.
+        await udefAgent.SetPublishStartSystemEventAsync(UDefType.Contact);
+        // publish user-defined field changes by entity type
+        var result = await udefAgent.PublishAsync(UDefType.Contact);
+    }
+    ```
+
+    If the fields are not immediately observable in the client user interface (UI), navigate to the application with the ´?flush´ query string parameter at the end of the URL as an authenticated user. The fields should then appear in the UI.
 
 ***
 
