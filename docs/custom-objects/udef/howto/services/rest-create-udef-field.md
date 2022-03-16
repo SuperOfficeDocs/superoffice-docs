@@ -103,6 +103,16 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     The response will contain all of the user-defined fields for this entity, but now the new user-defined field UDefFieldId property will contain a identity value.
 
+1. Make sure the Contact user-defined fields are not currently being updated.
+
+    ```http
+    GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/Contact/UdefLayout/Publish HTTP/1.1
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    ```
+
+    Only if the response is False, proceed to publish and complete the delete operation.
+
 1. Publish the user-defined field.
 
     > [!WARNING]
@@ -317,9 +327,12 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
 # [SuperOffice.WebApi](#tab/create-webapi)
 
-1. First get the UserDefinedFieldInfo instance that represents a user-defined field.
+1. First create the UserDefinedFieldInfo instance that represents a user-defined field.
 
     ```csharp
+    var config = new WebApiOptions(tenant.WebApiUrl);
+    config.Authorization = new AuthorizationSystemUserTicket(sysUserInfo, sysUserTicket);
+
     var udefAgent = new UserDefinedFieldInfoAgent(config);
     var udef = await udefAgent.CreateUserDefinedFieldInfoAsync(
         UDefType.Contact, 
@@ -334,17 +347,11 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     udef = await udefAgent.SaveUserDefinedFieldInfoAsync(udef);
     ```
 
-2. Publish the user-defined field to make it appear in the client user interface. 
+2. Publish the user-defined field to make it appear in the client user interface.
 
     Fields are published by entity type. When published, all user-defined fields for that entity receive a new UDefFieldId number.
 
-    ```csharp
-    var config = new WebApiOptions(tenant.WebApiUrl);
-    config.Authorization = new AuthorizationSystemUserTicket(sysUserInfo, sysUserTicket);
-    
-
-    var udefAgent = new UserDefinedFieldInfoAgent(config);
-    
+    ```csharp    
     // make sure no one else is trying to publish at the same time
     if(!await udefAgent.IsAnyPublishEventActiveAsync())
     {
