@@ -313,7 +313,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
         "OwnerType": "Contact"
     }
     ```
-    
+
     Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
 
     ```http
@@ -323,7 +323,6 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     ```
 
     Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
-
 
 # [SuperOffice.WebApi](#tab/create-webapi)
 

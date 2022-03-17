@@ -132,6 +132,16 @@ This guide describes how to update a user-defined field using the web services A
     }
     ```
 
+1. Prior to publishing, make sure the Contact user-defined fields are not currently being updated.
+
+    ```http
+    GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/Contact/UdefLayout/Publish HTTP/1.1
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    ```
+
+    Only if the response is False, proceed to publish and complete the delete operation.
+
 1. Publish the user-defined field.
 
     > [!WARNING]
