@@ -5,7 +5,7 @@ items:
   items:
   - name: Introduction
     href: overview.md
-  - name: Udef
+  - name: User-defined fields
     href: udef/index.md
     items:
     - name: API options
@@ -15,6 +15,14 @@ items:
       - name: Web services
         href: udef/howto/services/index.md
         items:
+        - name: How to get all user-defined fields
+          href: udef/howto/services/rest-get-all-udef-fields.md
+        - name: How to create user-defined fields
+          href: udef/howto/services/rest-create-udef-field.md
+        - name: How to update user-defined fields
+          href: udef/howto/services/rest-update-udef-field.md
+        - name: How to delete user-defined fields
+          href: udef/howto/services/rest-delete-udef-field.md
         - name: Set udef list-item value
           href: udef/howto/services/set-udef-listitem-value.md
         - name: Get udef list and values

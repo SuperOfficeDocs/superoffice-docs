@@ -14,6 +14,9 @@ so.topic: howto
 
 This example creates the criteria directly on the client and saves and executes the find in one call.
 
+> [!NOTE]
+> The code examples on this page use the nuget SOAP proxies, [SuperOffice.NetServer.Services][2].
+
 ```csharp
 using SuperOffice;
 using SuperOffice.CRM.Services;
@@ -37,3 +40,4 @@ using(SoSession.Authenticate( "SAL1", "" ))
 
 <!-- Referenced links -->
 [1]: ../../../../api/search/ifindagent/dump-result.md
+[2]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
