@@ -365,9 +365,126 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
 ***
 
+## User-Defined Field Lists
+
+To create a user-defined field based on a list, create it with `udefFieldType` **List**.
+
+### User-defined lists
+For user-defined lists, set the ListTableId and  UDListDefinitionId property values accordingly.
+
+| Property | Description |
+|---|---|
+|ListTableId| User-defined lists are always **136**. |
+|UDListDefinitionId| The `UDListDefinitionId` is the udlist id value. To get the udlist id, see the [Get All Lists][2] documentation, and view lists with Type `udlist`. |
+
+### Built-in lists
+
+For Build in Lists. for example the **Business list entity**, only set the `ListTableId` property. You can get the `ListTableId` property from the [MDOProviders documentation][3] page. Alternatively, you can query for all using the dynamic archive provider.
+
+**Request:**
+
+# [Restful REST](#tab/title-1)
+
+```http
+GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/archive/dynamic?$select=udlistdefinition.name,udlistdefinition.listTableId HTTP/1.1
+Accept: application/json
+Authorization: Bearer {{token}}
+SO-Language: en-US
+```
+
+**Response**
+
+All except Business list removed here for brevity.
+
+```json
+{
+      "PrimaryKey": "81",
+      "EntityName": "UDListDefinition",
+      "udlistdefinition.name": "Company - Business",
+      "udlistdefinition.listTableId": 61
+},
+```
+
+# [Restful Agent](#tab/title-2)
+```http
+POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetArchiveListByColumns HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{token}}
+SO-Language: en-US
+
+{
+  "ProviderName": "Dynamic",
+  "Columns": [
+    "udlistdefinition.name",
+    "udlistdefinition.listTableId"
+  ],
+  "SortOrder": [
+    {
+      "Name": "udlistdefinition.name",
+      "Direction": "ASC"
+    }
+  ],
+  "Restriction": [
+    {
+      "Name": "getAllRows",
+      "Operator": "=",
+      "Values": [ "true" ],
+      "IsActive": true
+    }
+  ],
+  "Entities": [
+    ""
+  ],
+  "Page": 0,
+  "PageSize": 1000000
+}
+```
+
+# [SuperOffice.WebApi](#tab/title-2)
+
+```csharp
+var config = new WebApiOptions(tenant.WebApiUrl);
+config.Authorization = new AuthorizationAccessToken(
+    "8A:Cust12345.eylksjdf...321C", 
+    OnlineEnvironment.SOD);
+
+var archiveAgent = new ArchiveAgent(config);
+
+// results contains the column fields and column data.
+var results = await archiveAgent.GetArchiveListByColumnsAsync(
+    "dynamic",
+    new [] {"udlistdefinition.name", "udlistdefinition.listTableId"},
+    new [] {
+        new ArchiveOrderByInfo() 
+        { 
+            Name="udlistdefinition.name", 
+            Direction=OrderBySortType.ASC
+        }
+    },
+    new [] {
+       new ArchiveRestrictionInfo() 
+       { 
+           Name="getAllRows", 
+           Operator="=", 
+           Values=new [] {"True"}
+        
+       }
+    }, 
+    null,
+    0,
+    int.MaxValue
+   );
+```
+
+***
+
+Do not use the PrimaryKey value, use the `udlistdefinition.listTableId` value.
+
 <!-- Linked references -->
 [1]: <xref:SuperOffice.WebApi.Data.UDefFieldType>
-
+[2]: ../../../../api/lists/services/how-to/get-all-lists.md
+[3]: ../../../../api/mdo-providers/reference/index.md
 <!-- 
 How to write good how-to guides 
 
