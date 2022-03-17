@@ -27,7 +27,7 @@ so.topic: how-to-guide
 [1]: set-udef-listitem-value.md
 [2]: get-udef-list-and-values.md
 [3]: find-contact-by-udef.md
-[4]: get-all-udef-fields.md
-[5]: create-udef-field.md
-[6]: update-udef-field.md
-[7]: delete-udef-field.md
+[4]: rest-get-all-udef-fields.md
+[5]: rest-create-udef-field.md
+[6]: rest-update-udef-field.md
+[7]: rest-delete-udef-field.md

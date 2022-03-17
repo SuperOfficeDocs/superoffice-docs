@@ -383,7 +383,7 @@ For Build in Lists. for example the **Business list entity**, only set the `List
 
 **Request:**
 
-# [Restful REST](#tab/title-1)
+# [Restful REST](#tab/create-udef-list-rest)
 
 ```http
 GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/archive/dynamic?$select=udlistdefinition.name,udlistdefinition.listTableId HTTP/1.1
@@ -405,7 +405,7 @@ All except Business list removed here for brevity.
 },
 ```
 
-# [Restful Agent](#tab/title-2)
+# [Restful Agent](#tab/create-udef-list-agent)
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetArchiveListByColumns HTTP/1.1
 Content-Type: application/json
@@ -441,7 +441,7 @@ SO-Language: en-US
 }
 ```
 
-# [SuperOffice.WebApi](#tab/title-2)
+# [SuperOffice.WebApi](#tab/create-udef-list-webapi)
 
 ```csharp
 var config = new WebApiOptions(tenant.WebApiUrl);
