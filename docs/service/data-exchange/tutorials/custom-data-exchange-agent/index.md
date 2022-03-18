@@ -125,7 +125,7 @@ Your output should (hopefully) look something like this:
 ![05 -screenshot][img5]
 
 <!-- Referenced links -->
-[1]: ../index.md
+[1]: ../../index.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

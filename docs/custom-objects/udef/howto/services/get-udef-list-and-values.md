@@ -14,6 +14,9 @@ so.topic: howto
 
 This example shows how to get all the user-defined fields along with the field values on a given contact.
 
+> [!NOTE]
+> The code examples on this page use the nuget SOAP proxies, [SuperOffice.NetServer.Services][1].
+
 ![02 -screenshot][img1]
 
 ## Code
@@ -31,6 +34,9 @@ Then we loop through the `UserDefinedFieldInfo` collection to get the field labe
 [!code-csharp[CS](includes/get-udef-list-and-values-services.cs?range=32-37)]
 
 <a href="../../../../assets/downloads/api/getalluserdefinedfieldsonacontact.zip" download>Click to download source code (zip)</a>
+
+<!-- Referenced links -->
+[1]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

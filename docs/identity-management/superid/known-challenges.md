@@ -40,17 +40,4 @@ A person might have multiple associate records in the customer database. We obse
 
 Must be resolved manually by R&D services or Operations.
 
-We are working on a stricter naming scheme to prevent this problem: **In the future**, it will not be permitted to create multiple users with identical usernames in the Admin client. Renaming a username also held by another user will create a new SuperID user.
-
-## Consultants assisting multiple customers
-
-**Problem:**
-
-Our consultants typically have users in many tenants. For them, the 1st tenant they got a user account in will be their primary tenant. If the customer's admin renames this user, the **SuperID username of the consultant is changed** and can block all further access.
-
-**Solution:**
-
-When we move SuperOffice One to the cloud, this will become your primary tenant. Until then:
-
-> [!TIP]
-> All consultants should contact R&D services or Operations to set up a test/demo tenant in CRM Online as their primary tenant to prevent being locked out.
+With SuperID, it is not permitted to create multiple users with identical usernames in the Admin client. Renaming a username also held by another user will create a new SuperID user.

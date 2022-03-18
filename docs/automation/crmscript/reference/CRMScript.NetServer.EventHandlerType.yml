@@ -91,6 +91,8 @@ items:
   - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProjectMember
   - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelectionMember
   - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuoteLine
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAcceptQuote
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRejectQuote
   - CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
   - CRMScript.NetServer.EventHandlerType.SalesAfterSaveStakeholder
   - CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuote
@@ -104,6 +106,8 @@ items:
   - CRMScript.NetServer.EventHandlerType.SalesAfterSaveProjectMember
   - CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelectionMember
   - CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuoteLine
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveAcceptQuote
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveRejectQuote
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: CRMScript.NetServer.EventHandlerType
@@ -1201,6 +1205,32 @@ items:
   syntax: 
     content: SalesBeforeSaveQuoteLine = 1013
     type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAcceptQuote
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAcceptQuote
+  id: EventHandlerType.SalesBeforeSaveAcceptQuote
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveAcceptQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveAcceptQuote
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAcceptQuote
+  type: Field
+  summary: "\n1013: SalesBeforeSaveAcceptQuote\n"
+  syntax: 
+    content: SalesBeforeSaveAcceptQuote = 1014
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRejectQuote
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRejectQuote
+  id: EventHandlerType.SalesBeforeSaveRejectQuote
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveRejectQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveRejectQuote
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRejectQuote
+  type: Field
+  summary: "\n1013: SalesBeforeSaveRejectQuote\n"
+  syntax: 
+    content: SalesBeforeSaveRejectQuote = 1015
+    type: CRMScript.NetServer.EventHandlerType
 - uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
   commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
   id: EventHandlerType.SalesAfterSaveAppointment
@@ -1369,6 +1399,32 @@ items:
   summary: "\n1113: SalesAfterSaveQuoteLine\n"
   syntax: 
     content: SalesAfterSaveQuoteLine = 1113
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveAcceptQuote
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveAcceptQuote
+  id: EventHandlerType.SalesAfterSaveAcceptQuote
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveAcceptQuote
+  nameWithType: EventHandlerType.SalesAfterSaveAcceptQuote
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveAcceptQuote
+  type: Field
+  summary: "\n1114: SalesAfterSaveAcceptQuote\n"
+  syntax: 
+    content: SalesAfterSaveAcceptQuote = 1114
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveRejectQuote
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveRejectQuote
+  id: EventHandlerType.SalesAfterSaveRejectQuote
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveRejectQuote
+  nameWithType: EventHandlerType.SalesAfterSaveRejectQuote
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveRejectQuote
+  type: Field
+  summary: "\n1115: SalesAfterSaveRejectQuote\n"
+  syntax: 
+    content: SalesAfterSaveRejectQuote = 1115
     type: CRMScript.NetServer.EventHandlerType
 references:
 - uid: CRMScript.NetServer.EventHandlerType

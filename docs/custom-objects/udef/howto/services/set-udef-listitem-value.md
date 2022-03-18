@@ -14,6 +14,9 @@ so.topic: howto
 
 This example demonstrates how to set a user-defined list item value on a user-defined field on a given **contact** using Net Server services.
 
+> [!NOTE]
+> The code examples on this page use the nuget SOAP proxies, [SuperOffice.NetServer.Services][1].
+
 We will be using the user-defined field `Udlist one` and populate a list box with the list items for it. When an item is picked from the list box, the selected value is displayed. Clicking the **Save** button will set the selected value to the user-defined field `Udlist one` for the contact.
 
 The following screenshot shows how the application displays the list of values for the given user-defined field.
@@ -45,6 +48,9 @@ We have retrieved the `UserDefinedFields` collection for the contact of interest
 Finally, the `SaveContactEntity` method is called to update the contact entity.
 
 <a href="../../../../assets/downloads/api/setudeflistitem.zip" download>Click to download source code (zip)</a>
+
+<!-- Referenced links -->
+[1]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg

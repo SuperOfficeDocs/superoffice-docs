@@ -1,101 +1,35 @@
 ---
-title: mdoagent
-description: MDOAgent
-author: {github-id}
+title: web-service-mdo-endpoint
+description: Describes Multi-departmental organization lists (MDO) APIs
+author: AnthonyYates
 keywords: list,MDO
 so.topic: concept
-so.date:
+so.date: 03.03.2022
 so.category: list
 so.area: api-services
 # so.envir:
 # so.client:
 ---
 
-# MDOAgent
+# Multi-Departmental Organizational (MDO) API
+## Available MDO API Endpoints
 
-The `MDOAgent` provides a very different API than that of the [ListAgent][1]. This API provides us with a set of methods that can be used to build the list that we want. The methods in this API do not focus on one particular list but can be used to **retrieve any list**.
+As the name implies, the `MDO` endpoint provides access to **all MDO lists**. The MDO API is used to retrieve lists and list items, both normal and selectable lists. Selectable lists are lists of selectable items such as interests, headings and user groups.
 
-> [!NOTE]
-> MDOAgent also returns the list grouped and filtered according to how they are defined in SOAdmin (MDO mode).
+### RESTful REST endpoint
 
-## Methods
+The endpoint is located at the `/api/v1/list/MDO` URL. See [API reference][2] for more details.
+### RESTful Agent
 
-Below are some of the methods in the API.
+The endpoint is located at the `/api/v1/agents/MDO` URL. See [API reference][3] for more details.
 
-* GetSelectableList
-* GetList
-* GetListWithHistory
-* GetListWithRestriction
-* GetSelectableListWithHistory
-* GetSelectableListWithRestriction
+### SOAP list endpoint
 
-As we can see from the above list, the methods don’t point to one single list. They are general methods that can be used to retrieve any list that we want and the advantage here is that we don't have to depend on the NetServer way of retrieving the list but we can decide on how the list should look like.
+The endpoint is located at the `/Remote/Services88/MDO.svc` URL. See [API reference][4] for more details.
 
-## Example 1 - GetSelectableList
+[!include[placeholder](../includes/how-to-list.md)]
 
-Below is an example that shows how we may use the `GetSelectableList` method.
+[2]: ../../../reference/restful/rest/List_MDO/index.md
+[3]: ../../../reference/restful/agent/MDO_Agent/index.md
+[4]: ../../../reference/soap/services88/MDO/index.md
 
-```csharp
-using SuperOffice.CRM.Services;
-using SuperOffice;
-
-using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //get the MDO agent
-  using(MDOAgent mdoAgent = new MDOAgent())
-  {
-    //retrieve a list you wish and you can use the parameter to specify
-    //how the list should look like
-    SelectableMDOListItem[] countryList = mdoAgent.GetSelectableList("country", false, "", false);
-
-    //add the display column you want to the control
-    foreach (SelectableMDOListItem selectableItem in countryList)
-    {
-      cmbCountry.Items.Add(selectableItem.Name);
-    }
-  }
-}
-```
-
-Here we can see that the returned object is not a specific entity like that of in the `ListAgent` methods.
-
-By using the other parameters we can specify how we want the list to appear and whether we want any other extra information.
-
-* The second parameter can be used to force a fat list without the groupings.
-* The third parameter can be used to specify any additional information that we may want and get the returned list based on the additional information. You can also use it to get only the history items.
-
-For example, the below line will return a list of persons for the given contact ID.
-
-```csharp
-SelectableMDOListItem[] personList = mdoAgent.GetSelectableList("person", false, "contact_id=4" , false);
-```
-
-## Example 2
-
-This example uses a few of the MDOAgent's methods.
-
-```csharp
-using SuperOffice.CRM.Services;
-using SuperOffice;
-
-using (SoSession mySession = SoSession.Authenticate("SAL0", ""))
-{
-  //get the MDO agent
-  using(MDOAgent mdoAgent = new MDOAgent())
-  {
-    //retrieve a selectable list with a restriction
-    SelectableMDOListItem[] countryList = mdoAgent.GetSelectableListWithRestriction("country", "", "A");
-
-    //add the display column you want to the control
-    foreach (SelectableMDOListItem selectableItem in countryList)
-    {
-      cmbCountry.Items.Add(selectableItem.Name);
-    }
-  }
-}
-```
-
-Here we retrieve the country list according to a restriction that we have set. We have told NetServer to give us all the countries that start with the letter A.
-
-<!-- Referenced links -->
-[1]: ../listagent/index.md

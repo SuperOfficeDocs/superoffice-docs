@@ -94,7 +94,7 @@ When working with projects, data will often intersect with the following entitie
 * [sales][16]
 
 <!-- Referenced links -->
-[1]: ../api/lists/mdo-lists.md
+[1]: ../api/lists/index.md
 [2]: howto/sql/index.md
 [3]: howto/crmscript/index.md
 [5]: ../database/tables/project.md

@@ -199,6 +199,59 @@ items:
     href: logging/configure-serilog.md
   - name: Custom logger
     href: logging/create-custom-logger.md
+- name: Lists
+  href: lists/index.md
+  items:
+  - name: List web services
+    href: lists/services/index.md
+    items:
+    - name: List endpoint
+      href: lists/services/listagent/index.md
+    - name: MDO endpoint
+      href: lists/services/mdoagent/index.md
+    - name: How to
+      href: lists/services/how-to/index.md
+      items:
+      - name: Get all lists
+        href: lists/services/how-to/get-all-lists.md
+      - name: Get list entity
+        href: lists/services/how-to/get-list-entity.md
+      - name: Get one list item 
+        href: lists/services/how-to/get-list-item.md
+      - name: Get all list items
+        href: lists/services/how-to/get-list-items.md
+      - name: Create a list
+        href: lists/services/how-to/create-list.md
+      - name: Delete a list
+        href: lists/services/how-to/delete-list.md
+      - name: Create a list item
+        href: lists/services/how-to/create-list-item.md
+      - name: Delete a list item
+        href: lists/services/how-to/delete-list-item.md
+  - name: List rows
+    href: lists/row/index.md
+    items:
+    - name: How-to
+      items:
+      - name: Add list items
+        href: lists/row/how-to/add-list-item.md
+  - name: NetServer lists 
+    href: lists/entity/index.md
+    items:
+    - name: Typed list
+      href: lists/entity/typed-list.md
+    - name: User-defined list
+      href: lists/entity/udef-list.md
+    - name: Group view list
+      href: lists/entity/group-view.md
+    - name: Generic list
+      href: lists/entity/generic-list.md
+    - name: How-to
+      items:
+      - name: Create a list plug-in
+        href: lists/entity/how-to/create-list-plugin.md
+      - name: Get a list
+        href: lists/entity/how-to/get-list.md
 - name: Web Services
   href: web-services/index.md
   items:

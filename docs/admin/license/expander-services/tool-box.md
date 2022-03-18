@@ -106,7 +106,7 @@ Finally, you also get access to all available SuperOffice APIs:
 * Connectors
 * Integration Servers
 
-The APIs are bundled in a **Software Development Kit** (SDK), which contains documentation, guides, tutorials, example code, and downloads.
+The APIs are bundled as [nuget packages][12]. SuperOffice Docs provides the SDKs API reference, guides, tutorials and some example code. Most examples, including .NET, Python and PHP, are available on the [github SuperOffice organization][13].
 
 Software partners of SuperOffice typically use the SDK when developing standard applications and integrations that they offer as products in the SuperOffice App Store.
 
@@ -132,3 +132,5 @@ As your needs grow, so the capabilities of your CRM solution can expand.
 [9]: ../../../apps/terminology.md
 [10]: https://www.superoffice.com/pricing/
 [11]: ../../../apps/getting-started/get-access-to-sod.md
+[12]: https://www.nuget.org/profiles/SuperOffice
+[13]: https://www.github.com/SuperOffice

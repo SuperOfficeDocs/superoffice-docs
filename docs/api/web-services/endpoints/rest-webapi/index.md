@@ -312,7 +312,7 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 <!-- Referenced links -->
 [1]: ../agents-webapi/index.md
 [2]: ../../../../company/howto/services/create-contact-rest.md
-[3]: ../../../lists/services/rest/add-catlist-item-rest.md
+[3]: ../../../../company/howto/services/add-catlist-item-rest.md
 [4]: ../../../../document/howto/rest/add-document-template.md
 [5]: ../../../../document/howto/rest/generate-document.md
 [6]: ../../../../contact/howto/services/get-person-image-rest.md

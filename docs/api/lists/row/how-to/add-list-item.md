@@ -19,7 +19,7 @@ An explanation of all lists is beyond the scope of this section so we will take 
 
 ## Example 1
 
-[!code-csharp[CS](includes/add-listitem-1.cs)]
+[!code-csharp[CS](../includes/add-listitem-1.cs)]
 
 In the above example, we have used purely [rows][1] to get the job done.
 
@@ -29,7 +29,7 @@ We have not stopped at creating a category, but we have created a `CategoryGroup
 
 ## Example 2
 
-[!code-csharp[CS](includes/add-listitem-2.cs)]
+[!code-csharp[CS](../includes/add-listitem-2.cs)]
 
 In the above code, we have created a new category called *Cat-Dush* which is stored in the `Category` table in the database. Then we have created 2 entries into the `CategoryGroupLink` table by creating and saving instances of the `CategoryGroupLinkRow`. This tells us to which user groups the category is visible for.
 
@@ -38,7 +38,7 @@ Next, we have added an entry to the `CategoryHeadingLink` table that determines 
 ![Category page -screenshot][img1]
 
 <!-- Referenced links -->
-[1]: ../../rows/index.md
+[1]: ../../row/index.md
 
 <!-- Referenced images -->
-[img1]: media/cat-dush.png
+[img1]: ../media/cat-dush.png

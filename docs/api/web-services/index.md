@@ -12,14 +12,36 @@ so.client: win, web
 
 # SuperOffice NetServer web services
 
-[NetServer exposes many layers][3] of its API to do the same functionality. The web services are the highest level for working with NetServer. This layer consists of [web service endpoints][2] based on WCF **SOAP** and **REST**ful WebAPI (IIS application) and [web service proxies][5].
+[SuperOffice NetServer exposes many layers][3] of its API to do the same functionality. The web services are the highest level for working with NetServer.
 
-Each installation and online tenant exposes NetServer web services for all clients, including SuperOffice Web, SuperOffice Mobile, and partner application clients.
+Each SuperOffice installation exposes web services for all clients, including SuperOffice Web, SuperOffice Mobile, and partner application clients.
 
-> [!NOTE]
-> The SuperOffice.NetServer.Services layer should not be confused with the web services available in the installation directory: [InstallBase]\Remote\ServicesXX. SuperOffice.NetServer.Services is a **consumer** of these web services, whereas the web services are hosted in IIS. The layer is a **client proxy** to the NetServer web services and greatly simplifies what is required to call them.
+## What is a service?
+
+A service is primarily **a method** exposed by the NetServer to manipulate the data or enhance the presentation of the data in the SuperOffice database.
+
+![NetServer web services endpoint listing][img1]
 
 ![SuperOffice.Services vs. web services diagram][img2]
+
+## Supported web service
+
+SuperOffice provides two distinct forms of web services:
+
+1. SOAP ([reference][12])
+2. REST ([reference][13])
+
+REST web services have two distinct flavors of REST:
+
+1. Agent ([reference][7])
+2. RESTful ([reference][8])
+
+SuperOffice providers the following web services proxy resources:
+
+1. NuGet package: [SuperOffice.NetServer.Services (SOAP)][6] ([reference][16])
+2. NuGet package: [SuperOffice.WebApi (RESTful Agent)][11] ([reference][9])
+3. Swagger File: [RESTful Agent API][14]
+4. Swagger File: [RESTful REST API][15]
 
 ## Why use web services?
 
@@ -30,27 +52,6 @@ The objective of the NetServer web services is to provide a simple yet powerful 
 The web services let you work with the database without having to know the details of how data is stored inside the database. The service layer presents a high-level API where all the hard work of language decoding, security checks, database selects, and joining tables are handled for you. A single service call will represent many database queries and contain business logic, user-preference checking, and default handling.
 
 All SuperOffice CRM Online applications depend on NetServer web services for database access. NetServer access in our online environment is achieved by using either REST or SOAP web services.
-
-## What is a service?
-
-A service is primarily **a method** exposed by the NetServer to manipulate the data or enhance the presentation of the data in the SuperOffice database.
-
-![NetServer web services endpoint listing][img1]
-
-A typical service call looks like this when using the NetServer helper classes:
-
-```csharp
-using (SuperOffice.SoSession session = SuperOffice.SoSession.Authenticate("user", "password"))
-{
-  SuperOffice.Services.ContactAgent contactAgent = new SuperOffice.Services.ContactAgent();
-
-  ContactEntity contactEntity = contactAgent.CreateDefaultContactEntity();
-
-// ... populate contact properties
-
-  contactAgent.SaveContactEntity(contactEntity);
-}
-```
 
 ## <a name="agents"></a>Agent and carrier pattern
 
@@ -125,17 +126,10 @@ The following agents are not available in Online by default. Access must be requ
 * UserAgent
 * WebhookAgent
 
-## Calling a web service
+## Required web service license
 
 Access to the web services is included in your [Developer Tools][4] subscription.
 
-You have the option to:
-
-* Use NetServer Proxies ([NuGet packages][6])
-* Generate a [custom proxy][5]
-* Use the [WebAPI client][9]
-* Use RESTful [WebAPI endpoints][7]
-* Use RESTful [Agent endpoints][8]
 
 <!-- Referenced links -->
 [1]: ../entities/index.md
@@ -148,6 +142,12 @@ You have the option to:
 [8]: ../reference/restful/agent/index.md
 [9]: ../reference/webapi/index.md
 [10]: ../rows/index.md
+[11]: https://www.nuget.org/packages/SuperOffice.WebApi
+[12]: ../reference/soap/index.md
+[13]: ../reference/restful/index.md
+[14]: endpoints/agents-webapi/index.md
+[15]: endpoints/rest-webapi/index.md
+[16]: ../reference/netserver/services/index.md
 
 <!-- Referenced images -->
 [img1]: media/netserver-web-services.png
