@@ -3,7 +3,7 @@ title: How to create an invitation (services)
 uid: create_invitation_ws
 description: How to create an invitation using services
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 03.18.2022
 keywords: diary, calendar, appointment, API, web services
 so.topic: howto
 # so.envir:
@@ -12,13 +12,13 @@ so.topic: howto
 
 # How to create an invitation (services)
 
-After creating an appointment you may need to invite members. The following example demonstrates how this is done.
+After creating an appointment you may need to [invite members][1]. The following example demonstrates how this is done with [NetServer services][2].
 
 ## Example 1
 
 [!code-csharp[CS](includes/create-invite-services-1.cs)]
 
-Here we have first created an `AppointmentAgent`. The `Appointment` entity has its properties set to default values. For example, the `Associate` is automatically set to the current user (SAL0).
+Here we have first created an [AppointmentAgent][3]. The `Appointment` entity has its properties set to default values. For example, the `Associate` is automatically set to the current user (SAL0).
 
 > [!NOTE]
 > Associate is a property of *Entity* data type which is a SuperOffice-specific type.
@@ -43,3 +43,8 @@ The first participant doesn't get an invitation since the first participant is c
 
 > [!NOTE]
 > The `AssociateId`, `PersonId`, and the `ContactId` that you specify in the participant info object **must be consistent**. If you specify more than one field for a participant, they must agree with the information in the database. Specifying multiple values on a single participant object will not create multiple invitations. Each participant object is a single invitation.
+
+<!-- Referenced links -->
+[1]: ../../invitations.md
+[2]: ../../../api/web-services/index.md
+[3]: ../../../api/reference/restful/agent/Appointment_Agent/index.md

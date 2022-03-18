@@ -3,8 +3,8 @@ uid: invitations-intro
 title: Invitations
 description: Calling meetings or other arrangements with multiple participants.
 author: Bergfrid Skaara Dias
-so.date: 03.02.2022
-keywords: diary, calendar, appointment, API, associate
+so.date: 03.18.2022
+keywords: diary, calendar, appointment, invitation, meeting, associate, participant
 so.topic: concept
 ---
 
@@ -25,11 +25,17 @@ When an invitation is **accepted** it will be displayed on the user’s diary.
 
 ### Create
 
+* [Create invitation - web services][5]
 * [Create invitation - entity][3]
 * [Create invitation - raw SQL][1]
 
+### Get
+
+* [Get invitations - web services][6]
+
 ### Accept
 
+* [Accept invitation - web services][7]
 * [Accept invitation - entity][4]
 * [Accept invitation - raw SQL][2]
 
@@ -38,3 +44,6 @@ When an invitation is **accepted** it will be displayed on the user’s diary.
 [2]: howto/sql/accept-invitation-sql.md
 [3]: howto/entity/create-invitation-entity.md
 [4]: howto/entity/accept-invitation-entity.md
+[5]: howto/services/create-invitation-services.md
+[6]: howto/services/get-invitations-services.md
+[7]: howto/services/accept-invitation-services.md

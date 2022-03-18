@@ -1,17 +1,22 @@
 ---
 title: Diary - services
 uid: api_diary_services
-description: Working with appointments via services
+description: Working with appointments via web services
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, web services
+so.date: 03.18.2022
+keywords: diary, calendar, appointment, invitation, API, web services
 so.topic: concept
 ---
 
 # Diary - services
 
+## Creating appointments
+
 * [Create appointment][1]
 * [Create recurring appointment][2]
+
+## Working with invitations
+
 * [Create invitation][3]
 * [Get invitations][4]
 * [Accept invitation][5]
