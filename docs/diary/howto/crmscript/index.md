@@ -15,12 +15,15 @@ so.topic: concept
 >
 > When you get data from the [appointment table][4] or use the CRMScript [NSAppointment class][5], pay attention to the **type** field.
 
-## Appointments
+## Follow-ups
 
-* [Create][6]
-* [Get][7]
-* [Update and delete][8]
+* [Create appointment][6]
+* [Get appointment][7]
+* [Update and delete appointment][8]
 * [Book a resource][9]
+* [Register incoming call][15]
+* [Plan outgoing call][16]
+* [Working with tasks][17]
 
 ## Recurrence
 
@@ -57,3 +60,6 @@ so.topic: concept
 [12]: create-recurring-appointment.md
 [13]: update-recurrence.md
 [14]: stop-recurrence.md
+[15]: register-incoming-call.md
+[16]: plan-outgoing-call.md
+[17]: task.md
