@@ -10,6 +10,7 @@ _site/
 /**/packages/
 /**/bin/
 /**/obj/
+/templates/
 
 # User-specific files
 *.rsuser

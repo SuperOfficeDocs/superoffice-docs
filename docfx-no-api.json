@@ -7,22 +7,25 @@
           "*.{md,yml}"
         ],
         "exclude": [
+          "docs/api/**/*.*",
+          "filters/**/*.*",
+          "build/**/*.*",
           "samples/**/*.*",
           "**/includes/**",
           "**/util/**",
           "***/contributing.md",
           "**/tmp/**",
-          "api/**",
-          "filters/**",
-          "build/**"
+          "**/_site/**",
+          "**/obj/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "images/**",
-          "media/**",
+          "images/**/*.*",
+          "media/**/*.*",
+          "build/**/*.*",
           "**/*.png",
           "**/*.svg",
           "**/*.jpg",
