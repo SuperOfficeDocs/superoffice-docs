@@ -31,14 +31,11 @@ A system user token remains the same and will not change for the lifetime of the
 
 ### How is the system user token used?
 
-The system user token is primarily a means to perform **non-interactive operations** on the APIs. It is:
-
-* used to [obtain a valid system user ticket][8] credential from SuperID
-* used by the application for all background processing
+The system user token is a secret string used by background processing applications to [obtain a valid system user ticket][8] credential.
 
 The system user **token** is **not** used for direct access to any customer tenant web services. For that, you need the system user **ticket**. Therefore, you must use the token to obtain a valid ticket credential.
 
-In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow, which will not have the sliding expiration behavior.
+In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow.
 
 ![Non-interactive token flow][img2]
 
@@ -60,7 +57,7 @@ In the future, system user functionality will be replaced with OAuth 2.0 Client 
       * The system user claim key is: http://schemes.superoffice.net/identity/system_token
     * It's up to the application to securely store the system user token for future use.
 
-4. [Exchange system user token for system user ticket][8] for each request session with the tenant web services. The ticket is short-lived and will only last 6 hours. Do use caching. Do not unnecessarily obtain a new system user ticket more than one an hour.
+4. [Exchange system user token for system user ticket][8] for each request session with the tenant web services. The ticket is a short-lived credential, only valid for 6 hours. It is a sliding-expiration credential, so as long as the ticket is used before it is expired, the 6 hour expiration is reset and good for another 6 hours. As discussed in [app best practices][9], do cache the Ticket and **do not** obtain a new system user ticket more often than necessary.
 
 5. Send requests to SuperOffice web services using the ticket as credentials.
 
@@ -128,6 +125,7 @@ With a valid credential set, the application can connect to and process data wit
 [5]: ../index.md
 [6]: ../../../../apps/tenant-status/index.md
 [8]: get-system-user-ticket.md
+[9]: ../../../../apps/best-practices.md#credential-management
 
 <!-- Referenced images -->
 [img1]: media/system-user-flow.jpg
