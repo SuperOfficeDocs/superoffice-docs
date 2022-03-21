@@ -1,9 +1,9 @@
 ---
 title: SuperOffice iCal Feed
-uid: so_ical_feed
+uid: tutorial-so-ical-feed
 description: SuperOffice iCal Feed
 author: {github-id}
-so.date: 
+so.date: 03.21.2022
 keywords: diary
 so.topic: tutorial
 ---
@@ -12,7 +12,7 @@ so.topic: tutorial
 
 Having calendar data in SuperOffice is nice, but there are lots of other places that your calendar shows up. Your phone has a calendar, and while SuperOffice Pocket is nice, it may not be available on your type of phone, or you may want to display the calendar on your desktop using a calendar widget.
 
-![01][img1]
+![Calendar -screenshot][img1]
 
 The iCal standard is a way to publish calendar data on the internet. This standard lets us publish your calendar in a way that lets Apple, Google, and others read your appointments.
 
@@ -41,7 +41,7 @@ So if someone steals your iCal link, just make a new one and the old one will st
 
 Our website will start with a simple web form: Username + Password.
 
-![02][img2]
+![Log in dialog -screenshot][img2]
 
 We will take this and log in to NetServer. If the login is successful, we generate a random GUID and store it as a foreign-key on the user’s associate record.
 
@@ -55,7 +55,7 @@ If the login is successful, we store the unique ID needed to log in and send the
 
 The result page shows us the link that we can give to other systems for reading the calendar.
 
-![03][img3]
+![Result page -screenshot][img3]
 
 This page just checks that the ID and GUID match. If they match, then we construct the link to the iCal page.
 
@@ -133,19 +133,19 @@ This non-XML format is what Outlook, Google, and Apple’s calendar can use to i
 
 Outlook can load the iCal feed using the **internet calendar** account setting.
 
-1. Under the TOOLS menu, open ACCOUNT SETTINGS, and a dialog appears.
+1. Under the TOOLS menu, open ACCOUNT SETTINGS. A dialog appears.
 
 2. Go to the INTERNET CALENDARS tab and add a NEW calendar.
 
-    ![04][img4]
+    ![Outlook -screenshot][img4]
 
-    ![05][img5]
+    ![Outlook -screenshot][img5]
 
 3. Outlook will download the appointments once you have pasted in the link to `ical.aspx?associd=123&guid=1234-4567…`
 
 4. The calendar shows up in the calendar view in Outlook – you just need to mark the checkbox for the calendar you added.
 
-    ![06][img6]
+    ![Outlook -screenshot][img6]
 
 ## Google Calendar
 
@@ -155,21 +155,21 @@ So if you have a Google Phone, you can now get your SuperOffice calendar to show
 
 2. Click on the ADD menu under OTHER CALENDARS: ADD BY URL
 
-    ![07][img7]
+    ![Google -screenshot][img7]
 
     A simple dialog box appears (similar to the one in Outlook)
 
-    ![08][img8]
+    ![Google -screenshot][img8]
 
 3. Paste the ical.aspx?associd=123&guid=1234-4567…  link in here.
 
 4. Google will read the appointments and layer them on top of your calendar. You can change the name and whether the calendar is shared by editing the settings. The resulting calendar looks like this:
 
-    ![09][img9]
+    ![Google -screenshot][img9]
 
 These appointments will now also appear on your Android phone calendar if you have enabled calendar sync on your device
 
-![010][img10]
+![Google -screenshot][img10]
 
 ## Desktop Gadget
 
@@ -181,24 +181,23 @@ The **Windows Live Calendar Gadget** is just what you need.
 
 2. Install the gadget and then right-click the desktop and choose GADGETS.
 
-    ![011][img11]
+    ![Windows Live Calendar Gadget -screenshot][img11]
 
 3. Add the Windows Live Calendar Gadget. It will appear somewhere on the desktop.
 
 4. Adjust the settings on the calendar. You have to paste the iCal link into the textbox at the top of the calendar gadget settings dialog.
 
-    ![012][img12]
+    ![Windows Live Calendar Gadget -screenshot][img12]
 
 5. Click OK and the gadget will load the appointments from the URL and display them under the week or month.
 
-    ![013][img13]
+    ![Windows Live Calendar Gadget -screenshot][img13]
 
-    ![014][img14]
+    ![Windows Live Calendar Gadget -screenshot][img14]
 
 6. Click on an appointment for the full description of the appointment.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.gif

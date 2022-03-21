@@ -1,10 +1,10 @@
 ---
 title: iTunes-like client for activities
-uid: itunes_like_activities
+uid: tutorial-itunes-like-activities
 description: iTunes like client over all activities
 author: {github-id}
-so.date: 
-keywords: diary
+so.date: 03.21.2022
+keywords: diary, iTunes
 so.topic: tutorial
 ---
 
@@ -30,7 +30,7 @@ Section 1 shows how the parameters required by the `GetArchiveListByColumns` met
 
 * the columns to be included in the selection
 * the search restrictions
-* the order in which the results to be sorted
+* the order in which the results should be sorted
 * the entities to be included in the search
 
 Next, an `ArchiveAgent` object is created. Then the `GetArchiveListByColumns` method is invoked to get the activity information.
@@ -77,7 +77,6 @@ using (SoSession newSession = SoSession.Authenticate("p", "p"))
 ```
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image023.jpg

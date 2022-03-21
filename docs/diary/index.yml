@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 04.23.2021
+  so.date: 03.21.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -135,7 +135,7 @@ conceptualContent:
         url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
-        url: howto/sql/create-apt-sql.md
+        url: howto/sql/index.md
       - text: OSQL
         itemType: how-to-guide
         url: howto/osql/create-apt-osql.md
@@ -144,10 +144,10 @@ conceptualContent:
         url: howto/row/create-apt-row.md
       - text: Entity
         itemType: how-to-guide
-        url: howto/entity/create-apt-entity.md
-      - text: REST
+        url: howto/entity/index.md
+      - text: Web services
         itemType: how-to-guide
-        url: howto/services/create-apt-services.md
+        url: howto/services/index.md
       - text: Archive (search)
         itemType: how-to-guide
         url: howto/archive/invitation-archive.md

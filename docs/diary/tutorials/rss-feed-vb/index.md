@@ -1,9 +1,9 @@
 ---
 title: Generate RSS feed in VB.Net
-uid: rss_feed_vb
+uid: tutorial-rss-feed-vb
 description: Generate RSS feed in VB.Net
 author: {github-id}
-so.date: 
+so.date: 03.21.2022
 keywords: rss, diary
 so.topic: tutorial
 ---
@@ -16,9 +16,7 @@ The example handles user authentication with forms authentication mode with a cu
 
 The second half explains how to generate the XML contents with the relevant activity information. How the formatting of the feed contents is handled will be addressed next, followed by an explanation of how to configure the feed in Outlook Express 2007 enabling Feed subscription through Outlook Express 2007.
 
-<!-- The following screenshot shows how the link to the feed when valid user credentials are provided.
-
-![ShowImage][img1] -->
+<!-- Missing screenshot media/image031.jpg of how the link to the feed when valid user credentials are provided. -->
 
 ## Authentication and how to create the link to the feed
 
@@ -54,7 +52,7 @@ Here is an example of how the base RSS feed template appears.
 
 An XML stylesheet, which is referenced on the first line in the example above, formats how the feed is displayed. The stylesheet will be discussed later in the article. Let’s take a look at how the activity is generated and passed to the feed.
 
-The code example uses the **SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider** to retrieve the activities registered by another user on the current user’s contact.
+The code example uses the **SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider** to retrieve the activities registered by another user on the current user's contact.
 
 ### Section 1
 
@@ -104,15 +102,15 @@ Internet Explorer 7+ and Firefox 2+ browsers have the integrated RSS reading cap
 
 **Feed content shown in a browser before subscribed:**
 
-![32][img2]
+![RSS feed before subscribing -screenshot][img2]
 
 Once subscribed to the feed it becomes available in the folder specified by the user.
 
-![33][img3]
+![RSS feed after subscribing -screenshot][img3]
 
 By clicking on the link in the feed contents, the appropriate dialog in SuperOffice CRM Web is opened:
 
-![34][img4]
+![Dialog opened from RSS feed -screenshot][img4]
 
 ## Configure the feed in Outlook
 
@@ -121,12 +119,12 @@ RSS feeds can be subscribed through Microsoft Office Outlook 2007. The RSS subsc
 To subscribe to RSS in Outlook 2007:
 
 1. Go to Tools, then Account Settings.
-2. Click RSS Feeds tab and Click ‘New’ to add a new RSS Feed.
+2. Click RSS Feeds tab and Click **New** to add a new RSS Feed.
 3. Enter the URL of the feed as shown below.
 
 Now you can see a folder under *RSS Feeds* main folder with the name of the feed.
 
-![35][img5]
+![RSS feeds folder -screenshot][img5]
 
 ## General settings
 
@@ -154,7 +152,6 @@ To run the sample code, after we have updated the *web.config* file, we have to 
 [1]: http://www.w3.org/TR/REC-xml
 
 <!-- Referenced images -->
-[img1]: media/image031.jpg
 [img2]: media/image032.jpg
 [img3]: media/image033.jpg
 [img4]: media/image034.jpg
