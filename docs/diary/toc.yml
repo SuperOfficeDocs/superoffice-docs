@@ -36,8 +36,16 @@ items:
           href: howto/crmscript/track-responses.md
         - name: Accept invitation
           href: howto/crmscript/accept-invitation.md
-        - name: Recurrence
-          href: howto/crmscript/recurrence.md
+        - name: View recurrence info
+          href: howto/crmscript/get-recurrence-info.md
+        - name: Get follow-ups in a series
+          href: howto/crmscript/get-appointments-in-series.md
+        - name: Create repeating follow-ups
+          href: howto/crmscript/create-recurring-appointment.md
+        - name: Update repeating follow-ups
+          href: howto/crmscript/update-recurrence.md
+        - name: Stop repeating follow-ups
+          href: howto/crmscript/stop-recurrence.md
     - name: Web services
       href: howto/services/index.md
       items:

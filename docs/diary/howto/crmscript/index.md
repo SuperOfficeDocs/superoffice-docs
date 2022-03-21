@@ -22,6 +22,14 @@ so.topic: concept
 * [Update and delete][8]
 * [Book a resource][9]
 
+## Recurrence
+
+* [View recurrence info of a follow-up][10]
+* [Get follow-ups belonging to a series][11]
+* [Create repeating follow-ups][12]
+* [Edit repeating follow-ups][13]
+* [Stop repeating follow-ups][14]
+
 ## Meeting invitations
 
 **The host:**
@@ -44,3 +52,8 @@ so.topic: concept
 [7]: get-appointment.md
 [8]: update-appointment.md
 [9]: book-resource.md
+[10]: get-recurrence-info.md
+[11]: get-appointments-in-series.md
+[12]: create-recurring-appointment.md
+[13]: update-recurrence.md
+[14]: stop-recurrence.md

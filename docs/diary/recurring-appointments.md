@@ -3,7 +3,7 @@ title: Recurring appointments
 uid: recurring_appointment
 description: Recurring appointment
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+so.date: 03.21.2022
 keywords: diary, calendar, appointment, recurrence, recurrencerule, frequency, pattern
 so.topic: concept
 ---
@@ -129,6 +129,7 @@ If you change the start time for a single appointment, the rule is not affected.
 
 ## How-tos
 
+* [Create recurring appointment - CRMScript][6]
 * [Create recurring appointment - web services][4]
 * [Create recurring appointment - entity layer][2]
 
@@ -143,6 +144,7 @@ If you change the start time for a single appointment, the rule is not affected.
 [3]: ../database/tables/appointment.md
 [4]: howto/services/create-recurring-appointment-services.md
 [5]: ../database/enums/recurrencepattern.md
+[6]: howto/crmscript/create-recurring-appointment.md
 
 <!-- Referenced images -->
 [img1]: media/recurrence-dialog.png
