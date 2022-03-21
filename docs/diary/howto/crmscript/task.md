@@ -9,11 +9,6 @@ so.topic:
 
 # Todo list
 
-A **task** is a follow-up without a start time. It usually doesn't have a duration either, but it always has a **deadline**.
-Tasks are typically used for things you have to remember to do by a certain time.
-
-By default, you'll find tasks in the diary todo list, where they can be checked off when completed.
-
 ## Create a to-do
 
 The following code sample will create a to-do (task ID = 6) due at the end of the current day. It applies to associate with ID 1.

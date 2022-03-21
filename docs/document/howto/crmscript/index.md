@@ -26,9 +26,9 @@ The document **files** we are dealing with here are stored in a central reposito
 Documents are part of a broader group of entities labeled **activities**:
 
 * follow-ups
-  * [appointment][2]
-  * [task][3]
-  * [call][4]
+  * appointment
+  * task
+  * call
 * documents
   * document (this section)
   * email
@@ -42,8 +42,5 @@ There's always a corresponding appointment record for a document. You can naviga
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/document.md
-[2]: ../../../diary/howto/crmscript/appointment.md
-[3]: ../../../diary/howto/crmscript/task.md
-[4]: ../../../diary/howto/crmscript/call.md
 [5]: ../../../database/tables/appointment.md
 [6]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSAppointment.yml

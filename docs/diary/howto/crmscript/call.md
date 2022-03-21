@@ -9,15 +9,6 @@ so.topic:
 
 # Phone calls
 
-A **call** is a follow-up representing a very specific action - the phone call.
-
-It is also kinda a hybrid between an appointment and a task:
-
-* when you initially plan a call, it lives in the todo list with a deadline much like a task
-* when you make the call, it gets fixed in time and now resembles an appointment
-  * the start time becomes the current time and today's date
-  * default duration is 15 minutes
-
 ## Register an incoming call
 
 The activity type for phone calls is 5. By default, the direction is *incoming*.

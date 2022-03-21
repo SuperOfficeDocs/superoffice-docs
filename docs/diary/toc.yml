@@ -18,14 +18,24 @@ items:
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
-        - name: Calendar appointments
-          href: howto/crmscript/appointment.md
+        - name: Get appointments
+          href: howto/crmscript/get-appointment.md
+        - name: Create appointment
+          href: howto/crmscript/create-appointment.md
+        - name: Update and delete appointments
+          href: howto/crmscript/update-appointment.md
+        - name: Book a resource
+          href: howto/crmscript/book-resource.md
         - name: Todo list
           href: howto/crmscript/task.md
         - name: Phone calls
           href: howto/crmscript/call.md
-        - name: Meeting invitations
-          href: howto/crmscript/invitations.md
+        - name: Create invitation
+          href: howto/crmscript/create-invitation.md
+        - name: Track responses
+          href: howto/crmscript/track-responses.md
+        - name: Accept invitation
+          href: howto/crmscript/accept-invitation.md
         - name: Recurrence
           href: howto/crmscript/recurrence.md
     - name: Web services

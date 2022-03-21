@@ -41,4 +41,4 @@ foreach (NSArchiveListItem i in result) {
 ```
 
 <!-- Referenced links -->
-[1]: ../../../diary/howto/crmscript/appointment.md
+[1]: ../../../diary/howto/crmscript/get-appointment.md
