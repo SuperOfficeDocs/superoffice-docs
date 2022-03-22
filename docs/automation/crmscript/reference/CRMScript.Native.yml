@@ -40,6 +40,7 @@ items:
   - CRMScript.Native.Message
   - CRMScript.Native.Notify
   - CRMScript.Native.Parser
+  - CRMScript.Native.Pbes
   - CRMScript.Native.Priority
   - CRMScript.Native.Profile
   - CRMScript.Native.ReplyTemplate
@@ -276,6 +277,12 @@ references:
   name: Parser
   nameWithType: Parser
   fullName: CRMScript.Native.Parser
+- uid: CRMScript.Native.Pbes
+  commentId: T:CRMScript.Native.Pbes
+  isExternal: true
+  name: Pbes
+  nameWithType: Pbes
+  fullName: CRMScript.Native.Pbes
 - uid: CRMScript.Native.Priority
   commentId: T:CRMScript.Native.Priority
   isExternal: true

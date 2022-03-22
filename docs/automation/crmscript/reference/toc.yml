@@ -92,6 +92,8 @@ items:
     href: CRMScript.Native.Notify.yml
   - name: Parser
     href: CRMScript.Native.Parser.yml
+  - name: Pbes
+    href: CRMScript.Native.Pbes.yml
   - name: Priority
     href: CRMScript.Native.Priority.yml
   - name: Profile

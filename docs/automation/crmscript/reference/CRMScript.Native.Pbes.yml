@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Pbes
+  commentId: T:CRMScript.Native.Pbes
+  id: Pbes
+  so.intellisense: 
+  so.version: 10.1.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Pbes.#ctor
+  - CRMScript.Native.Pbes.encrypt(Byte[],String)
+  - CRMScript.Native.Pbes.decrypt(Byte[],String)
+  name: Pbes
+  nameWithType: Pbes
+  fullName: CRMScript.Native.Pbes
+  type: Class
+  summary: "\nUsed to provide encryption of data using a password. The encryption is a PBKDF2 cryptographic key derivation function. The underlying encryption algorithm is rc2. \nNote that all Service installations will be using the same salt.\n"
+  example: 
+- uid: CRMScript.Native.Pbes.#ctor
+  commentId: M:CRMScript.Native.Pbes.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Pbes
+  langs:
+  - crmscript
+  name: Pbes()
+  nameWithType: Pbes.#ctor
+  fullName: CRMScript.Native.Pbes.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Pbes class.\n"
+  remarks: 
+  syntax: 
+    content: Pbes
+  example: 
+  - "\n<pre><code>Pbes Pbes;\n</code></pre>\n"
+- uid: CRMScript.Native.Pbes.encrypt(Byte[],String)
+  commentId: M:CRMScript.Native.Pbes.encrypt(Byte[],String)
+  id: 'encrypt(Byte[],String)'
+  so.intellisense: Pbes.encrypt
+  so.version: 10.1.2
+  langs:
+  - crmscript
+  name: 'encrypt(Byte[],String)'
+  nameWithType: Pbes.encrypt(Byte[],String)
+  fullName: CRMScript.Native.Pbes.encrypt(Byte[],String)
+  type: Method
+  summary: "\nThe content in the data array will be encrypted using the supplied password. Since this is working on binary data, you must handle character sets if converting between byte data and strings.\n"
+  remarks:
+  syntax: 
+    content: Byte[] encrypt(Byte[] data,String password)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Binary data"
+    - id: password
+      type: CRMScript.Global.String
+      description: "Password"
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The returned byte array contains the encrypted data"
+  example: 
+  - "\n<pre><code>Pbes pbes;\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] encrypted = pbes.encrypt(content, &quot;foobar&quot;);\n</code></pre>\n"
+- uid: CRMScript.Native.Pbes.decrypt(Byte[],String)
+  commentId: M:CRMScript.Native.Pbes.decrypt(Byte[],String)
+  id: 'decrypt(Byte[],String)'
+  so.intellisense: Pbes.decrypt
+  so.version: 10.1.2
+  langs:
+  - crmscript
+  name: 'decrypt(Byte[],String)'
+  nameWithType: Pbes.decrypt(Byte[],String)
+  fullName: CRMScript.Native.Pbes.decrypt(Byte[],String)
+  type: Method
+  summary: "\nThe content in the data array will be decrypted using the supplied password. Since this is working on binary data, you must handle character sets if converting between byte data and strings.\nNote that this method does not check if the password is the same as used when encrypting. If wrong password is used, you will get something else than the original data back.\n"
+  remarks:
+  syntax: 
+    content: Byte[] decrypt(Byte[] data,String password)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Binary data"
+    - id: password
+      type: CRMScript.Global.String
+      description: "Password"
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The returned byte array contains the decrypted data."
+  example: 
+  - "\n<pre><code>Pbes pbes;\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] encrypted = pbes.encrypt(content, &quot;foobar&quot;);\nByte[] decrypted = pbes.decrypt(encrypted, &quot;foobar&quot;);printLine(String(decrypted));\n</code></pre>\n"
+references:
+- uid: CRMScript.Native.Pbes
+  commentId: T:CRMScript.Native.Pbes
+  isExternal: true
+  name: Pbes
+  nameWithType: Pbes
+  fullName: CRMScript.Native.Pbes
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
