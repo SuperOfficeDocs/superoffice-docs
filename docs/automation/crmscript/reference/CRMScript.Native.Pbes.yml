@@ -86,7 +86,7 @@ items:
       type: CRMScript.Global.Byte[]
       description: "The returned byte array contains the decrypted data."
   example: 
-  - "\n<pre><code>Pbes pbes;\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] encrypted = pbes.encrypt(content, &quot;foobar&quot;);\nByte [] decrypted = pbes.decrypt(encrypted, &quot;foobar&quot;);printLine(String(decrypted));\n</code></pre>\n"
+  - "\n<pre><code>Pbes pbes;\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] encrypted = pbes.encrypt(content, &quot;foobar&quot;);\nByte[] decrypted = pbes.decrypt(encrypted, &quot;foobar&quot;);printLine(String(decrypted));\n</code></pre>\n"
 references:
 - uid: CRMScript.Native.Pbes
   commentId: T:CRMScript.Native.Pbes

@@ -227,7 +227,7 @@ items:
       type: CRMScript.Global.Byte[]
       description: "The returned byte array contains the encrypted data."
   example: 
-  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\n Byte[] encrypted = rsa.encrypt(content);\n</code></pre>\n"
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nRsa rsa;\n\nBool loaded = rsa.loadPublicKey(pub_key);\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] encrypted = rsa.encrypt(content);\n</code></pre>\n"
 - uid: CRMScript.Native.Rsa.decrypt(Byte[])
   commentId: M:CRMScript.Native.Rsa.decrypt(Byte[])
   id: 'decrypt(Byte[])'
@@ -251,7 +251,7 @@ items:
       type: CRMScript.Global.Byte[]
       description: "The returned byte array contains the decrypted data."
   example: 
-  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nString priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\nrsa.loadPublicKey(pub_key);\nrsa.loadPrivateKey(priv_key, &quot;&quot;);\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\n Byte[] encrypted = rsa.encrypt(content);\nByte[] decrypted = rsa.decrypt(encrypted);\nprintLine(String(decrypted));\n</code></pre>\n"
+  - "\n<pre><code>String pub_key = &quot;-----BEGIN PUBLIC KEY-----MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBig....f8kXvJLBEGBR5AgMBAAE=-----END PUBLIC KEY-----&quot;;\nString priv_key = &quot;-----BEGIN RSA PRIVATE KEY-----MIIBOwIBAAJBAMP2VEmsyBYmla....wA8pE36phyinhYbewXx2X8tQEww==-----END RSA PRIVATE KEY-----&quot;;\nRsa rsa;\nrsa.loadPublicKey(pub_key);\nrsa.loadPrivateKey(priv_key, &quot;&quot;);\nByte[] content = String(&quot;Hello world&quot;).toByteArray();\nByte[] encrypted = rsa.encrypt(content);\nByte[] decrypted = rsa.decrypt(encrypted);\nprintLine(String(decrypted));\n</code></pre>\n"
 references:
 - uid: CRMScript.Native.Rsa
   commentId: T:CRMScript.Native.Rsa
