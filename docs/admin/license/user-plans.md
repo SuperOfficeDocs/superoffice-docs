@@ -26,7 +26,7 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
   * Custom fields
   * Consent management
 * Calendar
-  * Diary and taInvitations
+  * Diary and invitations
   * Video meeting integration
 * Mobile CRM
 * Document management

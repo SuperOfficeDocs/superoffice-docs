@@ -1,9 +1,9 @@
 ---
 title: Diary
-uid: diary_overview
+uid: diary-overview
 description: Introduction to the diary and working with appointments.
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+so.date: 03.22.2022
 keywords: diary, calendar, appointment, associate, call, task, todo, follow-up
 so.topic: concept
 ---
@@ -38,30 +38,30 @@ In SuperOffice CRM, **follow-up** is a collective term for **appointments**, **p
 
 ### Timestamp values
 
-| Field         | Description                          |
-|:--------------|:-------------------------------------|
-| registered    | UtcDateTime of registration          |
-| updated       | UtcDateTime of last update           |
-| done          | When a task was completed (DateTime) |
-| do_by         | Planned deadline for task (DateTime) |
-| activeDate    | Display date (DateTime)              |
-| endDate       | Planned completion time (DateTime)   |
+| Field | Description |
+|:---|:---|
+| registered | UtcDateTime of registration          |
+| updated    | UtcDateTime of last update           |
+| done       | When a task was completed (DateTime) |
+| do_by      | Planned deadline for task (DateTime) |
+| activeDate | Display date (DateTime)              |
+| endDate    | Planned completion time (DateTime)   |
 
 ### Frequently used database fields
 
-| Field          | Description                                  |
-|:---------------|:---------------------------------------------|
-| appointment_id | ID                                           |
-| associate_id   | owner                                        |
-| contact_id     | company                                      |
-| person_id      | participant if a meeting                     |
-| task_idx       | FK Task list                                 |
-| type           | EnumAppointmentType                          |
-| status         | EnumAppointmentStatus                        |
-| mother_id      | For group reservations and invites           |
+| Field | Description |
+|:---|:---|
+| appointment_id | ID |
+| associate_id   | owner |
+| contact_id     | company |
+| person_id      | participant if a meeting |
+| task_idx       | FK Task list |
+| type           | EnumAppointmentType |
+| status         | EnumAppointmentStatus |
+| mother_id      | For group reservations and invites |
 | location       | Custom string or info from a booked resource |
-| alldayEvent    | 0 = no; 1 = yes                              |
-| freeBusy       | 0 = busy; 1 =  free                          |
+| alldayEvent    | 0 = no; 1 = yes  |
+| freeBusy       | 0 = busy; 1 =  free |
 
 For a complete list of fields, see the [database reference][4].
 
@@ -100,13 +100,13 @@ An **appointment** is a type of **follow-up** with a defined start and end time,
 
 | Status | Description |
 |:-:|:--|
-| 0     | Unknown/ a post-it |
-| 1     | Not started |
-| 2     | Started     |
-| 3     | Completed   |
-| 4     | Hidden      |
-| 5-10  | Booking     |
-| 11-13 | Assignment  |
+| 0 | Unknown/ a post-it |
+| 1 | Not started |
+| 2 | Started |
+| 3 | Completed |
+| 4 | Hidden |
+| 5-10 | Booking |
+| 11-13 | Assignment |
 
 ## Todo list
 
@@ -135,10 +135,10 @@ Follow-ups are part of a broader group of entities labeled **activities**:
   * task
   * call
 * documents
-  * document
-  * email
+  * [document][11]
+  * [email][10]
 * mailings and form submissions
-* chat sessions
+* [chat sessions][12]
 
 When working with follow-ups, data will often intersect with the following entities:
 
@@ -163,6 +163,9 @@ When working with follow-ups, data will often intersect with the following entit
 [7]: invitations.md
 [8]: howto/index.md
 [9]: ../contact/associate.md
+[10]: ../email/index.yml
+[11]: ../document/index.yml
+[12]: ../automation/chatbot/index.md
 
 <!-- Referenced images -->
 [img1]: media/diary-screen.png

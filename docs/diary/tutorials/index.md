@@ -12,9 +12,14 @@ so.client: online
 
 # Diary tutorials
 
+Available tutorials:
+
 * [iTunes-like client for activities][1]
 * [SuperOffice iCal Feed][2]
 * [Generate RSS feed in VB.Net][3]
+
+> [!CAUTION]
+> These are rather old. Use at your own discretion.
 
 <!-- Reference links -->
 [1]: itunes-like-activities/index.md

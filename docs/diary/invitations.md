@@ -29,13 +29,13 @@ When an invitation is **accepted** it will be displayed on the user’s diary.
 ## Relevant statuses
 
 | Status | Description |
-|:--:|----|
-| 5  | Invitation (initial status for a booking)              |
-| 6  | Meeting has been moved, request new response           |
+|:-:|----|
+| 5  | Invitation (initial status for a booking) |
+| 6  | Meeting has been moved, request new response |
 | 7  | User has seen, but not declined or accepted the invite |
 | 8  | Meeting has been moved. User has seen, but not responded to the invite |
-| 9  | User has declined the meeting                          |
-| 10 | Meeting is canceled                                    |
+| 9  | User has declined the meeting |
+| 10 | Meeting is canceled |
 
 ## Available how-tos
 

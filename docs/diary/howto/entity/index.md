@@ -10,10 +10,15 @@ so.topic: concept
 
 # Diary - entity
 
+## Create appointments
+
 * [Create appointment][1]
 * [Create appointment (in entity)][2]
 * [Create appointment (in collection)][3]
 * [Create recurring appointment][4]
+
+## Working with invitations
+
 * [Create invitation][5]
 * [Accept invitation][6]
 

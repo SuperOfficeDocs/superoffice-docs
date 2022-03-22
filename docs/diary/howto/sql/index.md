@@ -10,7 +10,12 @@ so.topic: howto
 
 # Diary - raw SQL
 
+## Create appointments
+
 * [Create appointment][1]
+
+## Working with invitations
+
 * [Create invitation][2]
 * [Accept invitation][3]
 

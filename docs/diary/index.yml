@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.21.2022
+  so.date: 03.22.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -43,7 +43,21 @@ conceptualContent:
   summary: ""
   items:
   # Card
-    - title: Learn the essentials
+    - title: Introduction
+      summary: ""
+      links:
+      - text: Types of follow-ups
+        itemType: concept
+        url: overview.md
+      - text: Recurring appointments
+        itemType: concept
+        url: recurring-appointments.md
+      - text: Invitations
+        itemType: concept
+        url: invitations.md
+
+  # Card
+    - title: User guide
       summary: ""
       links:
       - text: Register activities in the diary
@@ -85,53 +99,28 @@ conceptualContent:
           url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FAdding_items_to_the_Follow-up_-_Type_list.htm
 
     # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol - create appointment
-        itemType: how-to-guide
-        url: ../ui/soprotocol/create-appointment.md
-      - text: SoProtocol - open appointment dialog
-        itemType: how-to-guide
-        url: ../ui/soprotocol/open-appointment-dialog.md
-
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom fields
-        itemType: overview
-        url: ../custom-objects/overview.md
-      - text: UdappntSmall table
-        itemType: reference
-        url: ../database/tables/udappntsmall.md
-      - text: UdappntLarge table
-        itemType: reference
-        url: ../database/tables/udappntlarge.md
-
-    # Card
-    - title: Actions options
+    - title: Automation
       summary: ""
       links:
       - text: Overview
         itemType: overview
         url: ../automation/index.yml
       - text: Triggers
-        itemType: concept
-        url: ../automation/trigger/index.md
+        itemType: reference
+        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml
+      - text: Webhooks
+        itemType: reference
+        url: ../automation/webhook/reference/activity-events.md
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
-    - title: API options
+    - title: API how-tos
       summary: ""
       links:
       - text: CRMScript
-        itemType: concept
+        itemType: how-to-guide
         url: howto/crmscript/index.md
       - text: Raw SQL
         itemType: how-to-guide
@@ -153,7 +142,21 @@ conceptualContent:
         url: howto/archive/invitation-archive.md
 
     # Card
-    - title: Database options
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom objects
+        itemType: overview
+        url: ../custom-objects/index.yml
+      - text: UdappntSmall table
+        itemType: reference
+        url: ../database/tables/udappntsmall.md
+      - text: UdappntLarge table
+        itemType: reference
+        url: ../database/tables/udappntlarge.md
+
+    # Card
+    - title: Database tables
       summary: ""
       links:
       - text: Appointment table
@@ -185,10 +188,54 @@ conceptualContent:
         url: ../database/tables/associate.md
       - text: UserGroup table
         itemType: reference
-        url: ../database/tables/usergroup.md
-      - text: UdappntSmall table
-        itemType: reference
-        url: ../database/tables/udappntsmall.md
-      - text: UdappntLarge table
-        itemType: reference
-        url: ../database/tables/udappntlarge.md
+        url: ../database/tables/usergroup.
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Tutorials
+        links:
+        - text: iTunes-like client for activities
+          url: tutorials/itunes-like-activities/index.yml
+        - text: SuperOffice iCal Feed
+          url: tutorials/so-ical-feed/index.yml
+        - text: Generate RSS feed in VB.Net
+          url: tutorials/rss-feed-vb/index.yml
+      # Card
+      - title: UI options
+        links:
+        - text: Web panels
+          url: ../ui/web-panels/index.md
+        - text: SoProtocol - create appointment
+          url: ../ui/soprotocol/create-appointment.md
+        - text: SoProtocol - open appointment dialog
+          url: ../ui/soprotocol/open-appointment-dialog.md
+      # Card
+      - title: Recently added features
+        links:
+        - text: Join meeting with right-click (9.2 R08)
+          url: ../../release-notes/9.2/standard-crm/9.2-R08-update.md
+        - text: Today or This week button (9.2 R05)
+          url: ../../release-notes/9.2/standard-crm/9.2-R05-update.md
+        - text: Video meeting straight from the appointment (9.2 R04)
+          url: ../../release-notes/9.2/standard-crm/9.2-R04-update.md
+        - text: Diary shows person name if no company is linked (9.2 R03)
+          url: ../../release-notes/9.2/standard-crm/9.2-R03-update.md
+        - text: Edit of external meeting invitations (9.2 R02)
+          url: ../../release-notes/9.2/standard-crm/9.2-R02-update.md
+      # Card
+      - title: Related content
+        links:
+        - text: Company
+          url: ../company/index.yml
+        - text: Contact
+          url: ../contact/index.yml
+        - text: Project
+          url: ../project/index.yml
+        - text: Sale
+          url: ../sale/index.yml

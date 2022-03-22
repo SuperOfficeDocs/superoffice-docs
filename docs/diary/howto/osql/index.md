@@ -10,6 +10,8 @@ so.topic: concept
 
 # Diary - OSQL
 
+## Create appointments
+
 * [Create appointment][1]
 
 <!-- Referenced links -->

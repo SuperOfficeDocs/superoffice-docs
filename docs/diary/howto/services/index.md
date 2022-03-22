@@ -10,7 +10,7 @@ so.topic: concept
 
 # Diary - services
 
-## Creating appointments
+## Create appointments
 
 * [Create appointment][1]
 * [Create recurring appointment][2]
