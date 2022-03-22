@@ -108,6 +108,6 @@ items:
     - name: iTunes-like client for activities
       href: tutorials/itunes-like-activities/index.yml
     - name: SuperOffice iCal Feed
-      href: tutorials/so-ical-feed/index.md
+      href: tutorials/so-ical-feed/index.yml
     - name: Generate RSS feed in VB.Net
-      href: tutorials/rss-feed-vb/index.md
+      href: tutorials/rss-feed-vb/index.yml
