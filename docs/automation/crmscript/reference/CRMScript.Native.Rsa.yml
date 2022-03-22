@@ -215,7 +215,7 @@ items:
   nameWithType: Rsa.encrypt(Byte[])
   fullName: CRMScript.Native.Rsa.encrypt(Byte[])
   type: Method
-  summary: "\nA valid public key must have been loaded into the class. This method will use the public key and do a RSA encryption of the content.\n"
+  summary: "\nA valid public key must have been loaded into the class. This method will use the public key and do an RSA encryption of the content.\n"
   remarks: 
   syntax: 
     content: Byte[] encrypt(Byte[] data)
@@ -239,7 +239,7 @@ items:
   nameWithType: Rsa.decrypt(Byte[])
   fullName: CRMScript.Native.Rsa.decrypt(Byte[])
   type: Method
-  summary: "\nA valid private key matching the public key must have been loaded into the class. \nThis method will use the private key and do a RSA decryption of the content. The returned byte array contains the decrypted data.\n"
+  summary: "\nA valid private key matching the public key must have been loaded into the class. \nThis method will use the private key and do an RSA decryption of the content. The returned byte array contains the decrypted data.\n"
   remarks: 
   syntax: 
     content: Byte[] decrypt(Byte[] data)
