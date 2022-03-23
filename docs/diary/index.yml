@@ -105,10 +105,13 @@ conceptualContent:
       - text: Overview
         itemType: overview
         url: ../automation/index.yml
-      - text: Triggers
+      - text: Trigger SalesAfterSaveAppointment
         itemType: reference
-        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml
-      - text: Webhooks
+        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
+      - text: Trigger SalesBeforeSaveAppointment
+        itemType: reference
+        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointmen
+      - text: Webhook activity events
         itemType: reference
         url: ../automation/webhook/reference/activity-events.md
       - text: Zapier
