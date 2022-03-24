@@ -5,7 +5,7 @@ resources:
   - pipeline: superoffice-docs  # identifier for the resource used in pipeline resource variables
     project: CRM # project for the source; optional for current project
     source: FileSet  # name of the pipeline that produces an artifact
-    branch: main  # branch to pick the artifact, optional; defaults to all branches; Used only for manual or scheduled triggers
+    branch: Release/*  # branch to pick the artifact, optional; defaults to all branches; Used only for manual or scheduled triggers
     tags: [ "SDK" ] # list of tags required on the pipeline to pickup default artifacts, optional; Used only for manual or scheduled triggers
     # version: main_10.0.7_2022.02.15-02  # the pipeline run number to pick the artifact, defaults to latest pipeline successful across all stages; Used only for manual or scheduled triggers
     #trigger: # true   # triggers are not enabled by default unless you add trigger section to the resource
