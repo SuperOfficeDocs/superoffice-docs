@@ -39,6 +39,8 @@ CRMScript triggers also support updating values back to the executing environmen
 
 In general, we highly recommend writing robust code when developing CRMScript triggers. A faulty trigger can easily cripple central parts of your CRM system. Pay attention to what input values you are using and check them for validity before using them in your logic.
 
+![trigger-script-image][3]
+
 ## Where can I create triggers?
 
 You’ll need to have enough user rights before you can start. Only administrators can create and update scripts and macros.
@@ -65,3 +67,7 @@ We often recommend the customers to use as much standard functionality as possib
 <!-- Referenced links -->
 [1]: ../crmscript/fundamentals/syntax.md
 [2]: reference/CRMScript.Event.Trigger.yml
+
+<!-- referenced images -->
+
+[3]: media/trigger-pipeline.png
