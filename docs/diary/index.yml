@@ -110,7 +110,7 @@ conceptualContent:
         url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
       - text: Trigger SalesBeforeSaveAppointment
         itemType: reference
-        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointmen
+        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
       - text: Webhook activity events
         itemType: reference
         url: ../automation/webhook/reference/activity-events.md
@@ -191,7 +191,7 @@ conceptualContent:
         url: ../database/tables/associate.md
       - text: UserGroup table
         itemType: reference
-        url: ../database/tables/usergroup.
+        url: ../database/tables/usergroup.md
 
 # Card with summary style
 additionalContent:

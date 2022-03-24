@@ -22,6 +22,7 @@ Available tutorials:
 > These are rather old. Use at your own discretion.
 
 <!-- Reference links -->
-[1]: itunes-like-activities/index.md
-[2]: so-ical-feed/index.md
-[3]: rss-feed-vb/index.md
+[1]: itunes-like-activities/index.yml
+[2]: so-ical-feed/index.yml
+
+[3]: rss-feed-vb/index.yml

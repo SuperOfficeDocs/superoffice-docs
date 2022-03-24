@@ -143,7 +143,7 @@ If you change the start time for a single appointment, the rule is not affected.
 [2]: howto/entity/create-recurring-appointment-entity.md
 [3]: ../database/tables/appointment.md
 [4]: howto/services/create-recurring-appointment-services.md
-[5]: ../database/enums/recurrencepattern.md
+[5]: ../database/tables/enums/recurrencepattern.md
 [6]: howto/crmscript/create-recurring-appointment.md
 
 <!-- Referenced images -->
