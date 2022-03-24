@@ -38,6 +38,6 @@ Once the required fields have been added, a database connection will be made wit
 <!-- Referenced links -->
 [1]: ../../../database/tables/appointment.md
 [2]: <xref:SuperOffice.Data.TablesInfo.GetAppointmentTableInfo>
-[3]: <xref:SuperOffice.Data.AppointmentTableInfo>
+[3]: <xref:SuperOffice.CRM.Data.AppointmentTableInfo>
 
 <!-- Referenced images -->
