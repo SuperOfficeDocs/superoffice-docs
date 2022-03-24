@@ -1,10 +1,10 @@
 ---
 title: Accept invitation
 uid: accept_invitation_sql
-description: Accept an appointment invitation
+description: How to accept an invitation to an appointment using raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API
+so.date: 03.02.2022
+keywords: diary, calendar, appointment, API, invitation
 so.topic: howto
 ---
 
@@ -51,3 +51,14 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16591, "contact_id" = 13, "per
 
 UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "person_id" = 0, "project_id" = 0, "extra1_id" = 0, "extra2_id" = 0, "record_type" = 10, "direction" = 3, "intent_id" = 5, "sale_status" = 0, "amountClassId" = 0, "totalReg" = 1, "totalRegInPeriod" = 1, "notCompleted" = 1, "notCompletedInPeriod" = 1, "lastRegistered" = 1164888900, "lastCompleted" = 0, "lastDoBy" = 1164888900, "extra1_count" = 0, "extra2_count" = 0, "extra3_count" = 0, "extra4_count" = 0, "registered" = 0, "registered_associate_id" = 0, "updated" = 1164904436, "updated_associate_id" = 10, "updatedCount" = 0 WHERE "CounterValue_id" = 16595
 ```
+
+## See also
+
+* [Appointment table][1]
+* [Invitations][2]
+
+<!-- Referenced links -->
+[1]: ../../../database/tables/appointment.md
+[2]: ../../invitations.md
+
+<!-- Referenced images -->

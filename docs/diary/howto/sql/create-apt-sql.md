@@ -1,10 +1,10 @@
 ---
 title: Create appointment
 uid: create_appointment_sql
-description: Create an appointment
+description: How to create an appointment using raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API
+so.date: 03.02.2022
+keywords: diary, calendar, appointment, API, VisibleFor, SAINT
 so.topic: howto
 ---
 

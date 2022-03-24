@@ -3,8 +3,8 @@ title: How to create a recurring appointment (services)
 uid: create_recurring_appointment_ws
 description: How to create a recurring appointment using services
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, web services
+so.date: 03.18.2022
+keywords: diary, calendar, appointment, API, web services, recurrence
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,7 +12,7 @@ so.topic: howto
 
 # How to create a recurring appointment (services)
 
-This demonstrates how to create recurring appointments using NetServer services.
+This demonstrates how to create [recurring appointments][2] using [NetServer services][1].
 
 In the following example, we will be creating an appointment at 2.00 P.M. tomorrow that will recur for the next 8 working days.
 
@@ -28,7 +28,7 @@ The recurrence information is specified by creating a **recurrence pattern**. He
 
 [!code-csharp[CS](includes/create-recurring-apt-services.cs?range=31-34)]
 
-Because it should recur 8 working days, we cannot specify an end date directly. Instead, the number of recurrences is set to 8 and the recurrence end date is calculated based on the number of recurrences:
+Because it should recur for 8 working days, we cannot specify an end date directly. Instead, the number of recurrences is set to 8 and the recurrence end date is calculated based on the number of recurrences:
 
 [!code-csharp[CS](includes/create-recurring-apt-services.cs?range=38-39)]
 
@@ -37,5 +37,7 @@ Next, the recurrence pattern is created using the `CalculateDays` method of the 
 <a href="../../../assets/downloads/api/createarecurringappointment.zip" download>Get the source code (zip)</a>
 
 <!-- Referenced links -->
+[1]: ../../../api/web-services/index.md
+[2]: ../../recurring-appointments.md
 
 <!-- Referenced images -->

@@ -10,6 +10,8 @@ so.topic: concept
 
 # Diary - rows
 
+## Creating appointments
+
 * [Create appointment (Row)][1]
 * [Create appointments (Rows)][2]
 

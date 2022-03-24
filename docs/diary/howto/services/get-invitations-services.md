@@ -3,8 +3,8 @@ title: How to get a list of invitations (services)
 uid: get_invitation_services
 description: How to get a list of invitations using NetServer services
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, web services
+so.date: 03.18.2022
+keywords: diary, calendar, appointment, API, web services, archiveprovider
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,7 +12,7 @@ so.topic: howto
 
 # How to get a list of invitations (services)
 
-The code below is used to retrieve a list of invitations for a specific associate.
+The code below is used to retrieve a list of [invitations][1] for a specific associate with [NetServer services][2].
 
 ## Code
 
@@ -20,7 +20,7 @@ The code below is used to retrieve a list of invitations for a specific associat
 
 ## Walk-through
 
-In the code, we have used an instance of the `InvitationProvider` and some of its methods to restrict and arrange the output returned by the provider.
+In the code, we have used an instance of the [InvitationProvider][3] and some of its methods to restrict and arrange the output returned by the provider.
 
 | Method | Description |
 |---|---|
@@ -40,3 +40,8 @@ StateZeroDatabase       [D:04/28/2007]    [D:04/28/2007]    [I:172]
 StateZeroDatabase       [D:06/14/2007]    [D:06/14/2007]    [I:161]
 StateZeroDatabase       [D:04/28/2007]    [D:04/28/2007]    [I:150]
 ```
+
+<!-- Referenced links -->
+[1]: ../../invitations.md
+[2]: ../../../api/web-services/index.md
+[3]: ../../../api/archive-providers/reference/invitation.md

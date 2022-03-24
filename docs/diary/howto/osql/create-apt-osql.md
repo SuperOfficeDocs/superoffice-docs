@@ -1,9 +1,9 @@
 ---
 title: Create an appointment through OSQL
 uid: create_appointment_osql
-description: Create an appointment through OSQL
+description: How to create an appointment through OSQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+so.date: 03.02.2022
 keywords: diary, calendar, appointment, API, OSQL, AppointmentTableInfo
 so.topic: howto
 # so.envir:
@@ -22,11 +22,11 @@ The following example shows how we could create an appointment using OSQL.
 
 ## Walk-through
 
-Since we are creating an appointment, we would need to create an instance of the `AppointmentTableInfo` with the use of the `TablesInfo` class's `GetAppointmentTableInfo()`:
+Since we are creating an appointment, we would need to create an instance of the [AppointmentTableInfo][3] with the use of the `TablesInfo` class's [GetAppointmentTableInfo()][2]:
 
 [!code-csharp[CS](includes/create-apt-osql.cs?range=8)]
 
-Next, we create an instance of the `Insert` class that can be used to update the `appointment` table. After the instance has been created, we would be able to use the instance to update the fields of the `appointment` table.
+Next, we create an instance of the `Insert` class that can be used to update the [appointment table][1]. After the instance has been created, we would be able to use the instance to update the fields of the `appointment` table.
 
 [!code-csharp[CS](includes/create-apt-osql.cs?range=11,14-15)]
 
@@ -34,3 +34,10 @@ Once the required fields have been added, a database connection will be made wit
 
 > [!NOTE]
 > In OSQL, there is no method that provides default values. It is necessary to insert values to all mandatory columns. If not a runtime exception will occur.
+
+<!-- Referenced links -->
+[1]: ../../../database/tables/appointment.md
+[2]: <xref:SuperOffice.Data.TablesInfo.GetAppointmentTableInfo>
+[3]: <xref:SuperOffice.CRM.Data.AppointmentTableInfo>
+
+<!-- Referenced images -->

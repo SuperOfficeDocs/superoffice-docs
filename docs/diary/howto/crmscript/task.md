@@ -1,18 +1,14 @@
 ---
-uid: crmscript_tasks
-title: Todo list
-author:
-so.date:
-keywords:
-so.topic:
+uid: crmscript-create-task
+title: Working with todo lists
+description: How to create and complete to-dos with CRMScript
+author: Bergfrid Skaara Dias
+so.date: 03.18.2022
+keywords: CRMScript, calendar, diary, todo, task, follow-up
+so.topic: howto
 ---
 
 # Todo list
-
-A **task** is a follow-up without a start time. It usually doesn't have a duration either, but it always has a **deadline**.
-Tasks are typically used for things you have to remember to do by a certain time.
-
-By default, you'll find tasks in the diary todo list, where they can be checked off when completed.
 
 ## Create a to-do
 
@@ -67,3 +63,18 @@ printLine(se.executeTextTable());
 ```
 
 This sample will list all tasks of type 6 that have not been started and a deadline in the past.
+
+## Related topics
+
+* [NSAppointmentAgent][1]
+* [NSAppointmentEntity][2]
+* [Working with CRMScript SearchEngine][3]
+* [Create appointment][4]
+* [About todo lists][5]
+
+<!-- Referenced links -->
+[1]: <xref:CRMScript.NetServer.NSAppointmentAgent>
+[2]: <xref:CRMScript.NetServer.NSAppointmentEntity>
+[3]: ../../../automation/crmscript/searchengine/index.md
+[4]: create-appointment.md
+[5]: ../../overview.md#todo-list

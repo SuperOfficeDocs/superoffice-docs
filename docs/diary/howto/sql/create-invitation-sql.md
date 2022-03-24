@@ -1,10 +1,10 @@
 ---
 title: Create invitation
 uid: create_invitation_sql
-description: Create an appointment invitation
+description: How to create an invitation to an appointment using raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
-keywords: diary, calendar, appointment, API
+so.date: 03.02.2022
+keywords: diary, calendar, appointment, API, invitation
 so.topic: howto
 ---
 
@@ -124,9 +124,11 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "per
 
 ## See also
 
-[Appointment table][1]
+* [Appointment table][1]
+* [Invitations][2]
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/appointment.md
+[2]: ../../invitations.md
 
 <!-- Referenced images -->

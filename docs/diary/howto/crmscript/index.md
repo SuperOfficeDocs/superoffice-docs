@@ -1,59 +1,65 @@
 ---
 uid: crmscript_followups
 title: Calendar and todo list
-description: The SuperOffice diary and 3 types of follow-ups
+description: Working with the SuperOffice diary and follow-ups in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+so.date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointment, follow-up
 so.topic: concept
 ---
 
 # Calendar and todo list
 
-The diary in SuperOffice CRM is fundamentally a personal diary. It consists of a calendar and a todo list and is used similar to a Filofax with separate pages for every day, week, and month.
-
-* **calendar**: shows entries allocated to a particular time or date
-* **todo list**: shows stuff that you have not yet completed, mostly calls and tasks without time or date
-
-In the UI, both are closely linked to the **Diary** screen.
-
-## Three types of follow-ups
-
-In SuperOffice CRM, *follow-up* is a collective term for **appointments**, **phone calls**, and **tasks** . These entities are always tied to an [associate][1] and have some form of [time][2] reference.
-
-| type        | start time | end time | duration   | deadline | displayed | description | example |
-|-------------|:----------:|:--------:|:----------:|:--------:|-----------|-------------|---------|
-| appointment | x          | x        | calculated |          | calendar  | activity w/ defined start and end time | meetings |
-| task/todo   |            |          |            | x        | todo list | follow-up w/ no start time | reminder for stuff due by a specific time |
-| call        | x          |          | x          |          | todo list | phone call  |         |
-
 > [!NOTE]
-> Overdue appointments will by default also appear in the todo list!
+> It is important to understand the distinction between **activities** and **follow-ups**.
 >
-> Logged phone calls will also appear in the calendar.
+> When you get data from the [appointment table][4] or use the CRMScript [NSAppointment class][5], pay attention to the **type** field.
 
-## Follow-ups vs. activities
+## Follow-ups
 
-Follow-ups are part of a broader group of entities labeled **activities**:
+* [Create appointment][6]
+* [Get appointment][7]
+* [Update and delete appointment][8]
+* [Book a resource][9]
+* [Register incoming call][15]
+* [Plan outgoing call][16]
+* [Working with tasks][17]
 
-* follow-ups
-  * [appointment][3]
-  * [task][4]
-  * [call][5]
-* documents
-  * document
-  * email
-* mailings and form submissions
-* chat sessions
+## Recurrence
 
-> [!NOTE]
-> It is important to understand the distinction between activities and follow-ups. When you get data from the [appointment table][6] or use the CRMScript [NSAppointment class][7], it is crucial that you pay attention to the **type** field.
+* [View recurrence info of a follow-up][10]
+* [Get follow-ups belonging to a series][11]
+* [Create repeating follow-ups][12]
+* [Edit repeating follow-ups][13]
+* [Stop repeating follow-ups][14]
+
+## Meeting invitations
+
+**The host:**
+
+* [Create invitation][1]
+* [Track responses][2]
+
+**The attendee:**
+
+* [Show follow-ups you are invited to][3]
+* [Accept invitation][3]
 
 <!-- Referenced links -->
-[1]: ../../../contact/associate.md
-[2]: ../../../automation/crmscript/datatypes/datetime-type.md
-[3]: appointment.md
-[4]: task.md
-[5]: call.md
-[6]: ../../../database/tables/appointment.md
-[7]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSAppointment.yml
+[1]: create-invitation.md
+[2]: track-responses.md
+[3]: accept-invitation.md
+[4]: ../../../database/tables/appointment.md
+[5]: ../../../automation/crmscript/reference/CRMScript.NetServer.NSAppointment.yml
+[6]: create-appointment.md
+[7]: get-appointment.md
+[8]: update-appointment.md
+[9]: book-resource.md
+[10]: get-recurrence-info.md
+[11]: get-appointments-in-series.md
+[12]: create-recurring-appointment.md
+[13]: update-recurrence.md
+[14]: stop-recurrence.md
+[15]: register-incoming-call.md
+[16]: plan-outgoing-call.md
+[17]: task.md
