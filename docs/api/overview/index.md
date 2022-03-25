@@ -16,7 +16,7 @@ It can sometimes be daunting for people new to SuperOffice programming to know w
 
 ## Extensibility levels
 
-There are several levels of SuperOffice extensibility, and these are commonly defined as configuration, UI workflow, scripting, external APIs, and internal APIs.
+There are several levels of SuperOffice extensibility, and these are commonly defined as configuration settings, workflow and scripting, external APIs, and internal APIs.
 
 ![ExtensibilityStairs][img2]
 
@@ -182,6 +182,6 @@ Read more about each platform API in the SDK documentation.
 
 <!-- Referenced images -->
 [img1]: media/web-client-custom-code.png
-[img2]: media/extensibilitystairs.png
+[img2]: media/extensibility-complexity.png
 [img3]: media/onlineapis.png
 [img5]: media/integration-points.png

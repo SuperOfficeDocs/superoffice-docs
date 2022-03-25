@@ -139,4 +139,4 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 <!-- Referenced images -->
 [img1]: media/netserverhilevelview.png
 [img3]: media/netserver-components-overview.png
-[img4]: media/netserverarchitecture-blue-650.png
+[img4]: media/superoffice-api-architecture.png
