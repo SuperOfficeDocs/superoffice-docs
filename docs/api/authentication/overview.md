@@ -26,24 +26,25 @@ SuperOffice has multiple data access layers, so let's start with an overview of 
 
 SuperOffice **COM APIs** have been around the longest. The 2 main interfaces, **IApplication** and **IDatabase**, facilitate access to the Windows client application and the database. While `IApplication` exposes the capabilities to drive the application, `IDatabase` provides the capability to read and write to and from the SuperOffice database without having the Windows client running.
 
-While SuperOffice Customer Service (CS) capabilities are vast, most of the functionality revolves around processing support tickets and internal processes using script automation. The CS SOAP services are limited, whereas the NetServer web services surface is much larger and the primary target for interacting with SuperOffice business entities. This article will not cover any more information about CS.
+SuperOffice **Customer Service** (CS) capabilities are vast, but most functionality revolves around processing support tickets and in-product automation tools. External API access is very limited, and what is there is considered legacy and obsolete. We recommend NetServer web services, which has a much larger API footprint that provides complete SuperOffice access. Therefore, CS is not mentioned in this article, but if interested read up on [automation tools][11] to learn more about CS and other in-product automation features.
 
-SuperOffice **NetServer SOAP web services** are a complete set of service endpoints that support 100% of the SuperOffice web-client functionality - which is more than the Windows client and COM could ever claim. CS depends on NetServer web services, as well as all the quote functionality in the Window client!
+SuperOffice **NetServer SOAP web services** are a complete set of service endpoints that support 100% of the SuperOffice web-client functionality. Both the CS and Windows client depend on NetServer web services as well.
 
-NetServer code, comprised of business entity classes as well as row & row collections, supports the entire web services stack. All of this functionality gets pushed through NetServer's [Objectified SQL (OSQL)][2] classes for database-vendor-specific SQL generation.
+At NetServers' core are business entity and table row collections. They provide easy intuitive APIs for data access which most of web services depend on. What services don't use entity and row collections leverage NetServer's [Objectified SQL (OSQL)][2] classes for fast DB access, and is responsible for generating the database-vendor-specific SQL.
 
 ### Reading advice
 
-The objective of the below is to introduce you to how to get past the first hurdle, authentication. All of the following sections assume you have access to a correctly configured SuperOffice database. Each section will define all of the dependencies required to be in place for you to be able to successfully authenticate with the corresponding API.
+The objective here is to introduce you to the APIs and help get you past the first hurdle, authentication. All of the following sections assume you have access to an onsite SuperOffice database or online tenant. Each section defines the dependencies required to successfully authenticate with the corresponding API.
 
 > [!NOTE]
-> The development environment used in these examples is Visual Studio and the language used C#.
+> The development environment used in these examples is Visual Studio and the language used is C#.
 >
-> If you don't have one of the SuperOffice clients installed (Windows or Web), you will want to **download the Expander SDK** to have the necessary DLLs and COM interop libraries to complete the code examples below. The latest available for download at the time of this article was SuperOffice 7.5.
+> TO get started, **install or download** the relevant nuget packages to obtain the necessary DLLs and or COM interop libraries to complete the code examples.
 
 ## Options
 
-* [SuperOffice Online][3]
+* [About SuperOffice Online Identity Provider][3]
+  * [How to authenticate using OAuth 2.0 / OpenID Connect][16]
 * [COM][6]
 * [NetServer Core & Service proxy authentication using SoSession][7]
 * [SuperOffice REST / WebAPI web services][8]
@@ -51,12 +52,15 @@ The objective of the below is to introduce you to how to get past the first hurd
 
 ## NetServer configuration
 
-All NetServer integrations **that use SuperOffice assemblies** require settings in an [application's configuration file][10], *app.config* or *web.config*.
+All integrations that use one of the following nuget packages require an [application configuration file][10], *app.config* or *web.config*.
 
-This is not the case for custom web service proxies or REST. This applies only when an application makes a file reference to *SOCore.dll*, *SoDatabase.dll*, and other required SuperOffice DLLs.
+* SuperOffice.NetServer.Core
+* SuperOffice.NetServer.Services
 
-> [!NOTE]
-> The [Data element][1] contains the session, database, and explicit sections. Often, the cause of connectivity problems lays here.
+This is not the case for integrations that use the [SuperOffice.WebApi][8] nuget package, or generate their own web service proxies from [SOAP WSDL][13] or [REST Swagger][14] files.
+
+> [!WARN]
+> The database connection settings are defined in the [Data element][1] of the application configuration. This is often the cause of connectivity issue, so if necessary consult the [NetServer configuration docs][15] to better understand those settings.
 
 You might also be interested in:
 
@@ -74,6 +78,12 @@ You might also be interested in:
 [8]: webapi/index.md
 [9]: onsite/custom-proxies/index.md
 [10]: ../config/index.md
+[11]: ../../automation/overview.md
+[12]: ../web-services/proxies/index.md
+[13]: ../reference/soap/index.md
+[14]: ../web-services/endpoints/index.md
+[15]: ../config/index.md
+[16]: ../authentication/online/index.md
 
 <!-- Referenced images -->
 [img1]: media/authenticate-overview.png

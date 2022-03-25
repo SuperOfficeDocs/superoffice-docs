@@ -33,8 +33,20 @@ With a reference made, and the **SuperOffice.COM.Application using** statement d
 
 Using the `SoApplication` type, you have complete access to both the SuperOffice Windows client, as well as access to the `IDatabase` interface, exposed in the `SoApplication.Database` property.
 
+```csharp
+using SuperOffice.COM.Application;
+using SuperOffice.COM.SuperOfficeDB;
+using SuperOffice.Configuration;
+
+// If not running, this line starts SuperOffice Window client
+IApplication superoffice = new SOApplicationClass();
+Database database = so.Database;
+
+MessageBox.Show(superoffice.CurrentContact.Name);
+```
+
 > [!TIP]
-> There are multiple examples of how to use `IApplication` in the SDK Help file, located in the SDK download or online.
+> There are multiple examples of how to use `IApplication` in the old [IApplication COM SDK Help][2], available for download (15 MB).
 
 ## COM IDatabase interface
 
@@ -53,10 +65,40 @@ Using the `SoApplication` type, you have complete access to both the SuperOffice
 
 4. When login is successful, you have a wide range of methods for reading and writing data to the SuperOffice database.
 
-Please read more about the `IDatabase` APIs, either in the SDK download or here online.
+```csharp
+using SuperOffice.COM.SuperOfficeDB;
+
+Database newDb = new DatabaseClass();
+bool isOK = newDb.Login("USERNAME", "PASSWORD");
+if (isOK)
+{
+   //create a new Contact instance
+   SOContact newContact = newDb.CreateContact();
+   //Assign default values to the created Contact
+   newContact.SetDefaults();
+   //Set values to the properties of the Contact
+   newContact.Name = "Dylan Hunt";
+   newContact.Department = "Additional Docs";
+   newContact.PostalAddress.Address1 = "1236/4 Lake Road, Lake View. lake Land.";
+   newContact.PostalAddress.City = "Lake Land";             
+   newContact.Emails.Add("dylan@hunt.com", "This my primary email");
+   newContact.Country = newDb.GetListItem(SOTableId.enTableCntry, 10);
+   newContact.Business = newDb.GetListItem(SOTableId.enTableBusiness, 1);
+   newContact.Phones.Add("123456789", "Dylans Personal phone", 1);
+   //Save the created Contact
+   newContact.Save();               
+}
+else
+   Console.WriteLine("Incorrect Username or Password");
+
+```
+
+Please read more about the `IDatabase` APIs in the old [IDatabase COM SDK Help][3], available for download (12 MB).
 
 <!-- Referenced links -->
 [1]: ../../overview.md#options
+[2]: ../../../../assets/downloads/api/COM/SO.COM.IApplication.zip
+[3]: ../../../../assets/downloads/api/COM/SO.COM.IDatabase.zip
 
 <!-- Referenced images -->
 [img2]: media/com-add-reference.png

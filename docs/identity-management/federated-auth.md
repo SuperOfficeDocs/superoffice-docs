@@ -10,9 +10,15 @@ so.envir: cloud
 so.client: online
 ---
 
-# Federated authentication
+# Online authentication
 
-SuperID is an authentication page that acts as a federation gateway towards the SuperOffice identity provider central-superid, Google, and Microsoft 365.
+SuperOffice uses OAuth 2.0 / Open ID Connect for online authorization/authentication. 
+
+SuperID is the authentication page that acts as a federation gateway towards the following identity providers:
+
+* SuperOffice Central-SuperId
+* Google
+* Microsoft 365
 
 ## Traditionally
 
@@ -20,51 +26,52 @@ To sign in to SuperOffice, you present a username and a password. SuperOffice ch
 
 ![SuperOffice CRM Online log-in page][img1]
 
-The SuperID sign-in page handles username + passwords and checks them against the user’s SuperOffice database.
+The SuperID sign-in page handles username + passwords sign in towards a user’s tenant database.
 
 ![x][img2]
 
 ## Federation
 
-This is fine so long as SuperOffice is the most important thing in the universe.
+This is fine when one is not using Google or Microsoft. However, when either Google or Microsoft 365 is used to log in, SuperOffice delegates authentication to the respective identity provider.
 
-When Google or Microsoft 365 are the most important things in the universe, we can’t use the password stored in the database anymore. The password is not accessible to us anymore. We can’t check it directly – we can just delegate the whole username/password problem to Google/Microsoft 365.
-
-SuperOffice wants to access user information and store documents in the Google or Microsoft 365 cloud. For SuperOffice to access your part of the Google or Microsoft 365 cloud, there needs to be a link between your SuperOffice identity (stored in the SO database) and your Google/Microsoft 365 identity.
+When SuperOffice needs to store documents in Google Docs or the Microsoft 365 cloud, SuperOffice needs an identity connection between your SuperOffice identity stored in SuperOffice, and your Google/Microsoft 365 identity.
 
 ![x][img3]
 
-This is called Federation – SuperOffice and Google/Microsoft 365 share the same idea about who you are.
+This is called Federation – where SuperOffice and Google/Microsoft 365 share the same information about who you are and what you can do in each respective system.
 
 Google explains how its login system works at [https://developers.google.com/accounts/docs/OAuth2Login][1]. [Microsoft 365 is similar][2].
 
-Both use the OAuth 2.0 protocol. Both require that developers register their applications with their central registry. This registration makes it harder for hackers to steal the results of your login.
+Both use the OAuth 2.0 protocol and both require that developers register their applications with their central registry. This registration makes it harder for hackers to steal the results of your login.
 
 ### Signing in to SuperOffice CRM Online as a user
 
-SuperOffice is registered as an application with both Google and Microsoft 365 so that we can use their services for logging in, and get the authentication request sent back to us.
+SuperOffice is registered as an application with both Google and Microsoft 365, so that they know who we are when users are forwarded to login to their services, and thereby know where to send SuperOffice users back to once authentication succeeds.
 
-When a user wants to log in to SuperOffice using Google or Microsoft 365, they first go to the SuperOffice login page where they are shown a login page. Once the user has filled in the username, we can check if their account is connected to Google or Microsoft 365. If they are connected to Google, we show a "Login with Google" button instead of the password field.
+When a user wants to log in to SuperOffice using Google or Microsoft 365, they first go to the SuperOffice login page. Once the user has filled in the username, we can check if their account is connected to Google or Microsoft 365 Identity Provider. If they are, a "Login with Google" or "Login with Office 365" button is shown instead of a password field.
 
-The SuperOffice login page sends the user off to the Google login page, with a note to come back to the SuperOffice login page once Google has figured out who the user is.
+When the button is clicked, SuperOffice sends that user to the expected Identity Provider login page with a request that includes the user details and SuperOffice application Id.
 
 ![x][img4]
 
-Hopefully, Google sees that the user is already signed in to Google, and returns to SuperOffice with a set of claims. If the user is not signed in then the user will see a Google sign-in form.
+If the user is already logged in to Google that day, the Google Identity Provider will detect that and return the user to SuperOffice with a set of identity claims. If the user is not signed in then the user will be presented with the Google sign-in form to authenticate.
 
 ![x][img5]
 
-Google then checks that the user has given the SuperOffice sign-in page access to their email address. If they haven’t done so before, they get a 2nd screen from Google, asking for permission to give access to SuperOffice.
+When signed in, Google checks to determine if the user has previously given SuperOffice access to their email address. If they have not, Google will present a 2nd screen asking for permission to give share that email address with SuperOffice.
 
 ![x][img6]
 
-When Google is sure it knows who the user is, and the user has allowed the application making the request to access the user’s information, Google sends the information back to the application that made the request – in this case back to the SuperOffice sign-in page.
+One the user has granted permission to share the the email address, Google sends the information back to the SuperOffice sign-in page.
 
-Note that Google checks the Google database for app registrations to find the correct URL to send this information back to. This makes it hard for a 3rd party to intercept the authentication results.
+> [!NOTE]
+> Google looks up the application Id and redirect URI sent from SuperOffice, and verifies they match corresponding entries in their records. This makes it hard for a 3rd party to intercept the authentication results.
 
 ![x][img4]
 
-The SuperOffice sign-in page receives the user’s email and security token from Google and can call Google to verify that these are valid. The SuperOffice sign-in page now knows what Google knows, and can, therefore, let you into the SuperOffice application.
+Finally, the SuperOffice sign-in page receives the user’s email and security token from Google, and can call Google once again to verify that these are valid. Once the response is confirmed that SuperOffice knows what Google knows, SuperOffice successfully authenticates the use and the user is provided access to SuperOffice.
+
+The process is nearly identical with Office 365.
 
 <!-- Referenced links -->
 [1]: https://developers.google.com/accounts/docs/OAuth2Login
