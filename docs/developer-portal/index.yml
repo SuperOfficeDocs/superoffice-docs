@@ -1,0 +1,150 @@
+### YamlMime:SubCategory
+
+title: Developer Portal
+summary: Presents the Developer Portal and describes how to use it to manage online integrations and application.
+
+metadata:
+  title: Developer Poral
+  description: Presents the Developer Portal and describes how to use it to manage online integrations and application.
+  so.topic: landing-page
+  so.date: 03/26/2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about Developer Portal
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction to Developer Portal
+          url: "overview.md"
+      - linkListType: concept
+        links:
+          - text: Application management
+            url: "#"
+          - text: Organization management
+            url: "#"
+          - text: User management
+            url: "#"
+
+  # Card
+  - title: Application management
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Applications settings
+            url: "#"
+      - linkListType: how-to-guide
+        links:
+          - text: Change App settings 
+            url: "#"
+          - text: Change technical contact
+            url: "#"
+
+  # Card
+  - title: Configuration management
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Configuration settings
+            url: "#"
+      - linkListType: how-to-guide
+        links:
+          - text: Authentication settings
+            url: "#"
+          - text: Secrets and certificates
+            url: "#"
+          - text: Endpoint permissions
+            url: "#"
+          - text: Notifications
+            url: "#"
+          - text: Integration services
+            url: "#"
+          - text: Database mirroring
+            url: "#"
+      - linkListType: video
+        links:
+          - text: Authentication and secrets
+            url: "#"
+          - text: Determining required endpoints
+            url: "#"
+
+  # Card
+  - title: App Store Information
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: App Store settings
+            url: "#"
+      - linkListType: how-to-guide
+        links:
+          - text: Versioning
+            url: "#"
+          - text: App description
+            url: "#"
+          - text: Price and terms
+            url: "#"
+          - text: Installation
+            url: "#"
+          - text: Reference links
+            url: "#"
+          - text: Uploading media
+            url: "#"
+      - linkListType: video
+        links:
+          - text: Managing App Store listing
+            url: "#"
+          - text: Requesting listing changes
+            url: "#"
+
+  # Card
+  - title: Organization management
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Organization overview
+            url: "#"
+      - linkListType: tutorial
+        links:
+          - text: Create a new application
+            url: "#"
+          - text: Manage user access
+            url: "#"
+      - linkListType: get-started
+        links:
+          - text: Contact information (Admin/Tech)
+            url: "#"
+          - text: Application listing
+            url: "#"
+          - text: User listing
+            url: "#"
+      - linkListType: how-to-guide
+        links:
+          - text: Change contact persons
+            url: "#"
+          - text: Update Organization information
+            url: "#"
+          - text: Publish/Promote applications
+            url: "#"
+
+   # Card
+  - title: Profile details
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Profile overview
+          url: "#"
+      - linkListType: concept
+        links:
+          - text: Organization membership
+            url: "#"
+      - linkListType: how-to-guide
+        links:
+          - text: Managing organization permissions
+            url: "#"
+      - linkListType: video
+        links:
+          - text: How to manage permissions
+            url: "#"
