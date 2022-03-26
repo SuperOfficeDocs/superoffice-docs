@@ -1,13 +1,20 @@
-<xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <soap:Header>
-    <SoCredentials xmlns="http://www.superoffice.net/ws/crm/2005/04/Netserver20">
-      <Ticket>NHoZChzE8hxd4XkJOc8yAQ==<Ticket>
-    </SoCredentials>
-  <soap:Header>
-  <soap:Body>
-    <GetContact xmlns="http://www.superoffice.net/ws/crm/2005/04/Netserver20">
-      <contactId>5</contactId>
-    <GetContact>
-  <soap:Body>
-<soap:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:Contact="http://www.superoffice.net/ws/crm/NetServer/Services88">
+  <Contact:ApplicationToken>1234567-1234-9876</Contact:ApplicationToken>
+  <Contact:Credentials>
+    <Contact:Ticket>7T:1234abcxyzExample==</Contact:Ticket>
+  </Contact:Credentials>
+ <SOAP-ENV:Body>
+   <Contact:GetContact>
+    <Contact:ContactId xsi:type="xsd:int">0</Contact:ContactId>
+   </Contact:GetContact>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

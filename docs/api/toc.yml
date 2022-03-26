@@ -76,13 +76,9 @@ items:
     - name: SoSession
       href: authentication/onsite/sosession/index.md
       items:
-      - name: Create an SoSession
-        href: authentication/onsite/sosession/create.md
-      - name: Suspend an SoSession
-        href: authentication/onsite/sosession/suspend.md
       - name: Switch SoSessions
         href: authentication/onsite/sosession/switch.md
-      - name: How to access web services using SOAP
+      - name: SOAP web services
         href: authentication/onsite/sosession/using-soap.md
     - name: NetServer web service custom proxies
       href: authentication/onsite/custom-proxies/index.md
