@@ -12,9 +12,11 @@ so.client: online
 
 # SuperOffice Online and SuperID
 
-SuperOffice Online does not support username + password authentication for its WebAPI. All-access to the WebAPI happens on behalf of an application with a specific ID or application token, and behalf of a specific user with a ticket or access token.
+SuperOffice Online supports the OAuth 2.0 and OpenID Connect identity protocols. Back-channel communications use the proprietary [System User flow][2].
 
-## Register an application
+## Prerequisites
+
+Access to tenant web service endpoints required a registered application.
 
 You need to [fill out a form][1] to register your application, which includes an official callback URL.
 
@@ -184,6 +186,7 @@ The Hybrid flow offers more flexibility with this token flow, but it’s **less 
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/application-registration
+[2]: ./auth-application/index.md
 [4]: https://jwt.io/
 [5]: ../../../apps/provisioning/get-consent.md
 [6]: troubleshooting/iframe-idp-auth.md
