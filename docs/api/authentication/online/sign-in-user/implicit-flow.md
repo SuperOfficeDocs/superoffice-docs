@@ -11,6 +11,8 @@ so.client: online
 
 # OICD Implicit flow
 
+[!include[Deprecated OAuth flows](../includes/implicit-hybrid-deprecated.md)]
+
 In the Implicit flow, the client application requests an ID token and possibly also an access token.  
 
 ## Scenario: client application requests ID token only

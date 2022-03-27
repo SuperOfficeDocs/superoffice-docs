@@ -11,6 +11,8 @@ so.client: online
 
 # OICD Hybrid flow
 
+[!include[Deprecated OAuth flows](../includes/implicit-hybrid-deprecated.md)]
+
 The Hybrid flow is a combination of the Authorization Code and Implicit flows. Tokens can be returned by both authorization and token endpoints.
 
 The response type specified in the redirect URI determines where the tokens are returned from:

@@ -30,7 +30,7 @@ items:
     items:
     - name: Which flow should I use?
       href: authentication/online/which-flow-to-use.md
-    - name: SuperOffice API
+    - name: OpenID Connect
       href: authentication/online/api.md
     - name: Sign in user (interactive)
       href: authentication/online/sign-in-user/index.md
