@@ -378,7 +378,7 @@ Read about [effective visual design][6].
 [20]: https://en.wikipedia.org/wiki/Big_O_notation
 [21]: ../api/search/odata/index.md
 [22]: ../api/authentication/online/api.md#access-tokens
-[23]: ../api/authentication/online/api.md#soticket-authentication
+[23]: ../api/web-services/webapi/index.md#soticket
 [24]: provisioning/index.md
 [25]: ../api/security/sentry/index.md
 

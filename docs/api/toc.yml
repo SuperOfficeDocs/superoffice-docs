@@ -12,19 +12,6 @@ items:
     href: authentication/terminology.md
   - name: Users and associates
     href: authentication/users-and-associates.md
-  - name: WebAPI
-    href: authentication/webapi/index.md 
-    items:
-    - name: IAuthorization
-      href: authentication/webapi/iauthorization.md
-    - name: SystemUserClient
-      href: authentication/webapi/systemuserclient.md
-    - name: Enable Basic authentication (username + password)
-      href: authentication/webapi/enable-basic-auth.md
-    - name: Enable IIS Identity (AD)
-      href: authentication/webapi/enable-iis-identity.md
-    - name: Reuse session with X-XSRF-TOKEN
-      href: authentication/webapi/reuse-session.md
   - name: Online authentication
     href: authentication/online/index.md
     items:
@@ -267,16 +254,16 @@ items:
   - name: Proxies
     href: web-services/proxies/index.md
     items:
-    - name: Call using WebAPI client
-      href: web-services/proxies/webapi-client.md
-    - name: Call using NetServer Services proxies
+    - name: Using WebAPI client
+      href: web-services/proxies/index.md
+    - name: Using NetServer Services proxies
       href: web-services/proxies/built-in.md
-    - name: Call using custom proxies
+    - name: Using custom proxies
       href: web-services/proxies/custom.md
   - name: Timezones
     href: web-services/so-timezone.md
-  - name: How to set up REST
-    href: web-services/setup-rest.md
+  - name: How to set up REST onsite
+    href: ../onsite/install/netserver/setup-rest.md
 - name: Entities
   href: entities/index.md
   items:

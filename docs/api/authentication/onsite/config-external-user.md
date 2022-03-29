@@ -29,7 +29,7 @@ Like with [anonymous users][1], we can also set data rights to the external user
 
 Before running the following example, the SOAdmin had created an external user with username *EXTERNAL1@SUPEROFFICE.COM*. This user is allowed to read data belonging to the contact data object that this external person is registered on.
 
-The following example demonstrates how to log in as an external user and call the `contact` [service agent][3].
+The following example demonstrates how to log in as an external user and call the `ContactAgent`.
 
 ```csharp
 using SuperOffice.CRM.Services;
@@ -58,4 +58,3 @@ When retrieving a contact, we have passed the contact ID of this particular user
 <!-- Referenced links -->
 [1]: config-anonymous-user.md
 [2]: ../users-and-associates.md
-[3]: ../../web-services/index.md#agents

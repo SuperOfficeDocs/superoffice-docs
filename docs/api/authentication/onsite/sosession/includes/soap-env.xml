@@ -1,3 +1,10 @@
+
+<!-- 
+POST https://www.your-superoffice.com/remote/services88/contact.svc  
+Content-Type: 'text/xml;charset=UTF-8',
+Accept: 'text/xml;charset=UTF-8',
+SOAPAction: 'http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContact'
+-->
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope
  xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"

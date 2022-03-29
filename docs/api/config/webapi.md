@@ -47,6 +47,6 @@ See the [NetServer Core reference][1] for details about handling this programmat
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.WebApi>
 [2]: ../reference/restful/index.md
-[3]: ../authentication/webapi/enable-iis-identity.md
-[4]: ../authentication/webapi/enable-basic-auth.md
+[3]: ../../onsite/install/netserver/setup-rest.md#integrated-with-active-directory
+[4]: ../../onsite/install/netserver/setup-rest.md#configure-basic-authentication-iis
 [9]: https://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link

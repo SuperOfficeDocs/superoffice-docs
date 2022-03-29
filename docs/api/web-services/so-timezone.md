@@ -123,7 +123,7 @@ The client gets back the time in the requested time zone.
 > [!NOTE]
 > Javascript and C# will parse the returned value, and treat it as a datetime and apply its own time zone logic.
 
-Javascript will assume it is in the local time zone (since it does not specify a time zone), and convert it to UTC internally.
+Javascript will assume it is in the local time zone (since it does not specify a time zone), and convert it to UTC internally.cd
 
 ```javascript
 x = new Date("2018-12-24T12:34:45")

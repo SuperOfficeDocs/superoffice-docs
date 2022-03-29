@@ -389,7 +389,7 @@ The `SuperIdToken` class is a container for security claims. It is returned afte
 `SuperIdToken` contains:
 
 - individual properties for common claims
-- a complete list of [claims][9] returned by SuperOffice CRM Online
+- a complete list of claims returned by SuperOffice CRM Online
 
 ```csharp
 public class SuperIdToken

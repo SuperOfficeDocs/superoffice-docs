@@ -2,48 +2,15 @@
 uid: netserver-web-services-overview
 title: NetServer web services
 description: "The SuperOffice web services are the highest level for working with NetServer."
-author: Bergfrid Dias
-so.date: 12.02.2021
+author: Bergfrid Dias, AnthonyYates
+so.date: 03.28.2022
 keywords: API, web services, endpoints, proxy, NetServer, SOAP, REST, Agent, SuperOffice.CRM.Services, DTO, carrier
 so.topic: concept
 so.envir: cloud, onsite
 so.client: win, web
 ---
 
-# SuperOffice NetServer web services
-
-[SuperOffice NetServer exposes many layers][3] of its API to do the same functionality. The web services are the highest level for working with NetServer.
-
-Each SuperOffice installation exposes web services for all clients, including SuperOffice Web, SuperOffice Mobile, and partner application clients.
-
-## What is a service?
-
-A service is primarily **a method** exposed by the NetServer to manipulate the data or enhance the presentation of the data in the SuperOffice database.
-
-![NetServer web services endpoint listing][img1]
-
-![SuperOffice.Services vs. web services diagram][img2]
-
-## Supported web service
-
-SuperOffice provides two distinct forms of web services:
-
-1. SOAP ([reference][12])
-2. REST ([reference][13])
-
-REST web services have two distinct flavors of REST:
-
-1. Agent ([reference][7])
-2. RESTful ([reference][8])
-
-SuperOffice providers the following web services proxy resources:
-
-1. NuGet package: [SuperOffice.NetServer.Services (SOAP)][6] ([reference][16])
-2. NuGet package: [SuperOffice.WebApi (RESTful Agent)][11] ([reference][9])
-3. Swagger File: [RESTful Agent API][14]
-4. Swagger File: [RESTful REST API][15]
-
-## Why use web services?
+# Web services
 
 When you are calling a web service, you usually **don’t have direct access to the database**.
 
@@ -51,70 +18,83 @@ The objective of the NetServer web services is to provide a simple yet powerful 
 
 The web services let you work with the database without having to know the details of how data is stored inside the database. The service layer presents a high-level API where all the hard work of language decoding, security checks, database selects, and joining tables are handled for you. A single service call will represent many database queries and contain business logic, user-preference checking, and default handling.
 
-All SuperOffice CRM Online applications depend on NetServer web services for database access. NetServer access in our online environment is achieved by using either REST or SOAP web services.
+All SuperOffice CRM Online applications depend on NetServer web services for database access.
 
-## <a name="agents"></a>Agent and carrier pattern
+## NetServer web services
 
-SuperOffice has created a set of objects based on the **Agent pattern** that will perform your work for you. The goal of the pattern is to make it clear when you are making potentially expensive service calls.
+[NetServer][3] has many API layers to access SuperOffice data, with web services at the top of the API stack.
 
-All services are called through an agent that is designed to handle a specific **business area**.
+Each SuperOffice installation exposes web services for all clients, including SuperOffice Web, SuperOffice Mobile, and partner application clients.
 
-An **agent** is a class that exposes a set of methods. All agents live in the **SuperOffice.CRM.Services namespace**. A typical agent has methods for inserting, retrieving, updating, and deleting data. Each method on the agent corresponds to one service call.
+Each web service 
 
-```csharp
-ContactAgent newConAgt = new ContactAgent();
-```
+![NetServer Architecture][netserver-architecture]
 
-The code segment above shows how we create a `ContactAgent`. Once the agent has been created, we can use it to access the different methods exposed by the agent. These methods would vary according to the agent created.
+WSDL files for all versioned endpoints are [available for download][12] in the reference section, or as individual files on each endpoint reference page.
 
-A **carrier** is a data transfer object **(DTO)** that carries data between the Agent and the NetServer services. There are two kinds of carriers: simple read-only carriers and complex entity carriers. The main difference is that entity carriers can be updated and sent back for saving to the database while read-only carriers cannot be saved back to the database.
+**Download All**
+![Download all WSDLs][wsdl-all]
 
-### Read-only carriers
+**Download Single**
+![Download all WSDLs][wsdl-single]
 
-A read-only carrier is a **simple, slim object**. It exposes its properties primarily as string values or ID values correlating to the ID field in the corresponding table. For example:
 
-* The `country` property is exposed as a country name and not as a country sub-object.
-* The `Person.ContactId` property is of type integer and correlates to the `contact_id` field in the `Contact` table.
+## Endpoints concept
 
-The advantages this DTO type are its **simplicity** and that you avoid the overhead that comes when working with full-blown entities.
+A service endpoint is primarily **a method** exposed by the NetServer to manipulate the data or enhance the presentation of the data in the SuperOffice database.
 
-Below is an example that shows how to load a read-only carrier using an Agent.
+![SuperOffice.Services vs. web services diagram][img2]
 
-```csharp
-using SuperOffice.CRM.Services;
+NetServer has many service endpoints to support the entire SuperOffice platform.
 
-ContactAgent contactAgent = new ContactAgent();
-Contact myContact = contactAgent.GetContact(4);
+![NetServer web services endpoint listing][img1]
 
-string myContactName = myContact.Name;
-string myContactCategory = myContact.CategoryName;
-string myContactWebUrl = myContact.URL;
-```
+## Supported protocols
 
-Here, the `ContactAgent` will return a `Contact` object through the `GetContact` method.
+SuperOffice supports two distinct forms of web services:
 
-### Entity carriers
+1. SOAP ([reference][12])
+2. REST ([reference][13])
+   * Two distinct flavors:
+     * 1. RESTful ([reference][8])
+     * 2. Agent ([reference][7])
 
-An entity carrier is an [entity][1] object. Unlike read-only carriers, these DTOs expose their properties as objects populated with more **detailed data**. For example, the `PersonEntity.Contact` contains all relational information about the corresponding contact - including name, address, contact ID, phone collection, and more.
+### SOAP web service resources
 
-The example below shows how to retrieve a `ContactEntity` object through the `GetContactEntity` method of the `ContactAgent`.
+NetServer SOAP web services implement the Service Agent pattern, exposing areas of SuperOffice as endpoints, i.e. Appointment and Project, and each endpoint has a list of methods that when invoked facilitate data transfer of Data Transfer Objects (DTOs). SuperOffice calls DTOs `Carriers`.
 
-```csharp
-using SuperOffice.CRM.Services;
+Read more about: [SOAP Services][2].
 
-ContactAgent contactAgent = new ContactAgent();
-ContactEntity myContact = contactAgent.GetContactEntity(4);
+#### Nuget package
 
-string myContactName = myContact.Name;
-string myContactCategory = myContact.Category.Value;
-string myContactWebUrl = myContact.Urls.Length > 0 ? myContact.Urls[0].Value : "";
-```
+There is one nuget package for .NET developers:
 
-To summarize: **The agent presents the services and the carrier (such as Person and PersonEntity) represents the data passed back and forth to the server.** Agents are used to execute actions by calling methods.
+[SuperOffice.NetServer.Services (SOAP)][6] 
+  * View [API reference][16].
 
-Entity carriers resemble [NetServer Core Entities][1]. In contrast, read-only carrier are more similar to [NetServer Core Rows][10].
+### REST web service resources
 
-### Restricted agents
+NetServer REST web services come in two _flavors_, Agent REST and [common] REST and are distinct in use. 
+
+The primary difference is that, unlike most common REST APIs that use GET, PUT, POST, DELETE and PATCH methods, Agent endpoints are all POST requests. Agent endpoints are also named and used just like their SOAP web service endpoint counterparts, i.e. naming conventions similar to classes and methods.
+
+1. Read more about: [RESTful API][15]
+2. Read more about: [Agent API][14]
+
+Here you can find OpenAPI / Swagger files for available for download for each REST flavor. They are also available for download at the bottom of each page link above, respectively.
+
+* [Download RESTful API file][17]
+* [Download Agent API file][18]
+
+#### Nuget package
+
+There is one nuget package for .NET developers. For it's initial release, this package exposes the same Agent API as the SOAP proxy, making it an easy transition for vendors currently using the [SOAP proxy][]:
+
+[SuperOffice.WebApi (RESTful Agent)][11]
+
+* [reference][9])
+
+## Restricted agents
 
 The following agents are not available in Online by default. Access must be requested specifically when an app is registered.
 
@@ -133,7 +113,7 @@ Access to the web services is included in your [Developer Tools][4] subscription
 
 <!-- Referenced links -->
 [1]: ../entities/index.md
-[2]: endpoints/index.md
+[2]: endpoints/soap/index.md
 [3]: ../overview/netserver.md
 [4]: ../../admin/license/expander-services/tool-box.md
 [5]: proxies/index.md
@@ -148,7 +128,10 @@ Access to the web services is included in your [Developer Tools][4] subscription
 [14]: endpoints/agents-webapi/index.md
 [15]: endpoints/rest-webapi/index.md
 [16]: ../reference/netserver/services/index.md
+[17]: ../../assets/downloads/api/Swagger-v1-REST.zip
+[18]: ../../assets/downloads/api/Swagger-v1-Agents.zip
 
 <!-- Referenced images -->
 [img1]: media/netserver-web-services.png
 [img2]: media/sm-serviceinterfaces.png
+[netserver-architecture]: media/netserver-architecture.png

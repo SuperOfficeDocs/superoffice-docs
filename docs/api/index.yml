@@ -83,7 +83,7 @@ conceptualContent:
           url: web-services/index.md
         - text: Service agents and carriers
           itemType: concept
-          url: web-services/index.md#agents
+          url: web-services/index.md
         - text: NetServer endpoints
           itemType: concept
           url: web-services/endpoints/index.md

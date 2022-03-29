@@ -95,6 +95,8 @@ items:
         href: reporter/config.md
       - name: Install NetServer web services
         href: install/netserver/index.md
+      - name: Setup REST web services
+        href: install/netserver/setup-rest.md
       - name: WCF primer
         href: install/netserver/wcf-primer.md
   - name: Upgrade Onsite

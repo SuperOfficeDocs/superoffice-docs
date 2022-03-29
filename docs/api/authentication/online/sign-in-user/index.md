@@ -27,7 +27,7 @@ The **client ID** is necessary to link the user to an application definition whe
 
 ## OAuth Authorization Code flow
 
-In the [Authorization Code flow][6], an end-user accesses a client application that requires the user to authenticate. After clicking **Sign in**, the partner application redirects the user agent, typically a browser, to the authorization endpoint of the Identity Provider.
+In the [Authorization Code flow][6], an end-user grants access to a client application that requires consent prior to access tenant resources (web services). The application redirects the user agent, typically a browser, to the authorization endpoint of the Identity Provider.
 
 ![oauth-code-flow][img1]
 

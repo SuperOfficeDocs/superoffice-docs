@@ -57,4 +57,4 @@ The current `SuperOffice.WebApi` package dependencies are not the latest Microso
 [4]: ../../authentication/online/index.md#oauth
 [5]: ../../authentication/online/index.md#oidc
 [6]: ../../web-services/index.md
-[7]: ../../web-services/proxies/webapi-client.md
+[7]: ../../web-services/proxies/superoffice-webapi/index.md

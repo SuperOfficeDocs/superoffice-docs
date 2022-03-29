@@ -307,7 +307,6 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 * [Learn the Agents WebAPI][1]
 * [Look up endpoints in the REST reference][14]
 * [Download REST WebAPI Swagger file][9]
-* [Read the article][15] on how to consume SuperOffice REST resources, set required authentication headers, and how a request URL, body, and response body should appear and behave.
 
 <!-- Referenced links -->
 [1]: ../agents-webapi/index.md
@@ -324,7 +323,6 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 [12]: ../get-webapi-version.md
 [13]: ../../../authentication/online/auth-application/get-system-user-ticket.md
 [14]: ../../../reference/restful/rest/index.md
-[15]: ../../setup-rest.md
 [16]: ../../../search/odata/index.md
 [17]: ../../../search/index.md
 [18]: ../../../../admin/user-preferences/index.md
