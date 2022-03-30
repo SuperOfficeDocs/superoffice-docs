@@ -69,8 +69,8 @@ Accept: application/json; charset=utf-8
 
 Save the list.
 
-> [!WARNING]
-> Bug in 10.0.6 and below, returns null reference exception. Use the RESTful REST API instead.
+> [!CAUTION]
+> Make sure to append/assign the default list item JSON to the named parameter **ListItemEntity** when saving.
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/List/SaveListItemEntity HTTP/1.1
@@ -79,9 +79,24 @@ Accept: application/json; charset=utf-8
 Content-Type: application/json
 
 {
-  "Id": 0,
-  "Name": "Custom List Item one",
-  "Tooltip": "Represents custom list item one",
+  "ListItemEntity": {
+    "Id": 0,
+    "Name": "Custom List Item one",
+    "Tooltip": "Represents custom list item one",
+    "Deleted": false,
+    "UdListDefinitionId": 106,
+    "Rank": 0
+  }
+}
+```
+
+**Response**
+
+```JSON
+{
+  "Id": 25,
+  "Name": "Custom List Item six",
+  "Tooltip": "Represents custom list item six",
   "Deleted": false,
   "UdListDefinitionId": 106,
   "Rank": 0,
@@ -90,10 +105,6 @@ Content-Type: application/json
 }
 ```
 
-**Response**
-
-> [!WARNING]
-> Bug in 10.0.6 and below, returns null reference exception. Use the RESTful REST API instead.
 
 # [WebApi Proxy API](#tab/lists-webapi-proxy)
 
