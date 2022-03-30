@@ -113,4 +113,4 @@ See the [NetServer Core reference][2] for details about handling this programmat
 <!-- Referenced links -->
 [1]: ../authentication/onsite/sosession/index.md
 [2]: <xref:SuperOffice.Configuration.ConfigFile.Data>
-[3]: ../authentication/users-and-associates.md#external-users-type-4
+[3]: ../authentication/onsite/users-and-associates.md#external-users-type-4

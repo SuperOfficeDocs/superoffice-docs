@@ -11,10 +11,6 @@ so.topic: concept
 
 # Users and associates
 
-> [!NOTE] There are **online** users, who authenticate using the SuperID login page, and then there are **onsite** users that use SuperOffice in a domain environment.
->
-> The information discussed here pertains only to the latter, and how user details are stored in the SuperOffice database.
-
 Users are stored in the `associate` table in the database.
 
 ```SQL
@@ -127,9 +123,9 @@ The `group_id` field stores the associate's primary group at the time the `assoc
 > When setting the `associate_id` field on something, you must make sure to also update the `group_id` field.
 
 <!-- Referenced links -->
-[1]: ../../database/tables/ownercontactlink.md
-[2]: onsite/config-anonymous-user.md
-[3]: onsite/config-external-user.md
+[1]: ../../../database/tables/ownercontactlink.md
+[2]: config-anonymous-user.md
+[3]: config-external-user.md
 
 <!-- Referenced images -->
 [img1]: media/assoc-table.png

@@ -29,7 +29,7 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 
 ## Solution
 
-1. LINQPad will allow you to change the JSON of the databasemodel directy. Download.
+1. LINQPad will allow you to change the JSON of the databasemodel directy. [Download][4].
 
    You need to download the version for .NET framework – currently LINQPad 5
 
@@ -118,13 +118,14 @@ All databases affected by these issues must be fixed prior to migration to CRM O
     > [!NOTE]
     > In the zip you also get the nifty little DBUtil.exe - start it and read the helpfile. With this one you may actually choose to drop export of some database tables.
 
-    Download Database Import Export Tool.
+    [Download Database Import Export Tool][3]
 
 <!-- Link reference -->
 
 [1]: ../../database/dictionary/index.md
 [2]: ../../database/tables/databasemodel.md
 [3]: ../../assets/downloads/database-imp-exp-tool.zip
+[4]: https://www.linqpad.net/Download.aspx
 
 <!-- Image reference -->
 
