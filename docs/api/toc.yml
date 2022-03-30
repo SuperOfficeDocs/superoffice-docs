@@ -8,10 +8,6 @@ items:
   items:
   - name: Overview
     href: authentication/overview.md
-  - name: Terminology
-    href: authentication/terminology.md
-  - name: Users and associates
-    href: authentication/users-and-associates.md
   - name: Online authentication
     href: authentication/online/index.md
     items:
@@ -58,8 +54,10 @@ items:
   - name: Onsite authentication
     href: authentication/onsite/index.md
     items:
-    - name: Pipeline and plug-ins
-      href: authentication/onsite/pipeline.md
+    - name: Users and associates
+      href: authentication/onsite/users-and-associates.md
+    - name: Terminology
+      href: authentication/onsite/terminology.md
     - name: SoSession
       href: authentication/onsite/sosession/index.md
       items:
@@ -67,7 +65,7 @@ items:
         href: authentication/onsite/sosession/switch.md
       - name: SOAP web services
         href: authentication/onsite/sosession/using-soap.md
-    - name: NetServer web service custom proxies
+    - name: Web service authentication
       href: authentication/onsite/custom-proxies/index.md
     - name: Configuration
       items:
@@ -75,6 +73,8 @@ items:
         href: authentication/onsite/config-anonymous-user.md
       - name: Enable external user
         href: authentication/onsite/config-external-user.md
+    - name: Authentication plug-ins
+      href: authentication/onsite/pipeline.md
     - name: Legacy
       items:
       - name: COM API
