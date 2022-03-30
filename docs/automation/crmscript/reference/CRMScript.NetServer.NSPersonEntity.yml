@@ -529,7 +529,7 @@ items:
       type: CRMScript.Native.Map
       description:
   example: 
-  - "\n<pre><code>NSPersonEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+  - "\n<pre><code>NSPersonEntity thing;\nMap fields = thing.GetCustomFields();\nString oldValue = fields.get(&quot;SuperOffice:1&quot;);\nfields.insert(&quot;SuperOffice:1&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
 - uid: CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
   id: 'GetDbiAgentId()'
@@ -676,7 +676,7 @@ items:
       type: CRMScript.Native.Map
       description:
   example: 
-  - "\n<pre><code>NSPersonEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+  - "\n<pre><code>NSPersonEntity thing;\nMap fields = thing.GetExtraFields();\nString oldValue = fields.get(&quot;x_foobar&quot;);\nfields.insert(&quot;x_foobar&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
 - uid: CRMScript.NetServer.NSPersonEntity.GetFaxes()
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetFaxes()
   id: 'GetFaxes()'
@@ -1463,7 +1463,7 @@ items:
       type: CRMScript.Native.Map
       description:
   example: 
-  - "\n<pre><code>NSPersonEntity thing;\nMap udefs = thing.GetUserDefinedFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+  - "\n<pre><code>NSPersonEntity thing;\nMap fields = thing.GetUserDefinedFields();\nString oldValue = fields.get(&quot;SuperOffice:1&quot;);\nfields.insert(&quot;SuperOffice:1&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
 - uid: CRMScript.NetServer.NSPersonEntity.GetUserInfo()
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetUserInfo()
   id: 'GetUserInfo()'
