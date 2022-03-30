@@ -72,22 +72,23 @@ items:
   fullName: CRMScript.Native.Notify.sendCustomMessage(Integer,String,String)
   type: Method
   summary: "\nSends a custom notification message to user with specified URL.\n"
-  remarks: "\nNote! Urls with http or https protocol will open in new Tab, urls without will be treated as relative url and open in same window.\n"
+  remarks: "\nURLs with HTTP or HTTPS protocol will open in a new tab. URLs without will be treated as relative and open in the same window.\n"
   syntax: 
     content: Void sendCustomMessage(Integer recipientId, String message, String url)
     parameters:
     - id: recipientId
       type: CRMScript.Global.Integer
-      description: "The ID of the user to notify"
+      description: "The ID of the user to notify."
     - id: message
       type: CRMScript.Global.String
-      description: "The notify message."
+      description: "The notification message."
     - id: url
       type: CRMScript.Global.String
-      description: "The url to navigate to by clicking notification"
+      description: "The URL to navigate to by clicking the notification."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>Notify notify;\n// Send custom notification to user with id 2, clicking notification should open url\nnotify.sendCustomMessage(2,&quot;Custom notification&quot;, &quot;http://www.google.com&quot;);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>Notify notify;\n// Send custom notification to user with ID 2, clicking notification should open URL.\nnotify.sendCustomMessage(2,&quot;Custom notification&quot;, &quot;http://www.google.com&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.Notify.sendNewTicket(Integer)
   commentId: M:CRMScript.Native.Notify.sendNewTicket(Integer)
   id: 'sendNewTicket(Integer)'
