@@ -102,7 +102,7 @@ The following table compares some of the most common extensibility points and de
 | Level | Extensibility | Client | Onsite | Online |
 |---|---|---|:-:|:-:|
 | Configuration | [Preferences][20]   | Sales, Service | X | X |
-|               | Lists               | Sales, Service | X | X |
+|               | [Lists][38]         | Sales, Service | X | X |
 |               | [Custom Fields][23] | Sales, Service | X | X |
 |               | SAINT               | Sales          | X | X |
 |               | Sales Guide         | Sales          | X | X |
@@ -113,7 +113,7 @@ The following table compares some of the most common extensibility points and de
 |               | [Extra Tables][30]  | Service        | X | X |
 |               | [Custom Screens][25] | Service        | X | X |
 |               | [Web panels][24]    | Sales, Service | X | X |
-|               | Zapier              | Sales, Service | | X |
+|               | [Zapier][40]              | Sales, Service | | X |
 | Scripting     | [CRMScript][3]      | Service        | X | X |
 |               | [NetServer Scripting][16] | Sales, Service | X | |
 |               | Windows Client      | Sales          | X | |
@@ -122,17 +122,18 @@ The following table compares some of the most common extensibility points and de
 |               | [Quote Connector][12]    | Sales | X | X |
 |               | [ERP Sync Connector][11] | Sales | X | X |
 |               | [Database Mirroring][13] | Sales, Service | | X |
+|               | [Webhooks][34] | Sales | X | X |
 | Internal APIs | [Custom Pages][26]  | Sales          | X | |
 |               | [Custom Dialogs][26] | Sales          | X | |
 |               | [DataHandlers][26]  | Sales          | X | |
 |               | [Ajax Methods][27]  | Sales          | X | |
 |               | [Archive Providers][28] | Sales          | X | |
 |               | [MDO Providers][29] | Sales          | X | |
-|               | Document Plugins    | Sales          | X | |
-|               | Sentry Plugins      | Sales          | X | |
-|               | Batch Task Plugins  | Sales          | X | |
+|               | [Document Plugins][35]    | Sales          | X | |
+|               | [Sentry Plugins][36]      | Sales          | X | |
+|               | [Batch Task Plugins][37]  | Sales          | X | |
 | Database      | Database access API | Sales, Service | X | X |
-|               | Continuous Database | Sales, Service | X | |
+|               | [Continuous Database][39] | Sales, Service | X | |
 |               | SQL Scripts         | Sales, Service | X | |
 
 Each platform has strengths and weaknesses that are dependent on the environment in which it is deployed.
@@ -179,7 +180,13 @@ Read more about each platform API in the SDK documentation.
 [31]: ../../mobile/index.yml
 [32]: netserver.md#domain-level-apis-netserver-core
 [33]: ../config/services.md
-
+[34]: ../../automation/webhook/overview.md
+[35]: ../plugins/document/soarc-document-plugin.md
+[36]: ../plugins/sentry/index.md
+[37]: ../tutorials/sem-batch-processing/index.md
+[38]: ../lists/index.md
+[39]: ../../database/dictionary/index.md
+[40]: https://zapier.com/apps/superofficecrm/integrations
 <!-- Referenced images -->
 [img1]: media/web-client-custom-code.png
 [img2]: media/extensibility-complexity.png
