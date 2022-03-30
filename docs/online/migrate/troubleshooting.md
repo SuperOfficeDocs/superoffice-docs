@@ -29,7 +29,7 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 
 ## Solution
 
-1. LINQPad will allow you to change the JSON of the databasemodel directy. Download.
+1. LINQPad will allow you to change the JSON of the databasemodel directy. [Download][3].
 
    You need to download the version for .NET framework – currently LINQPad 5
 
@@ -46,7 +46,7 @@ All databases affected by these issues must be fixed prior to migration to CRM O
     insert into crm7.DATABASEMODEL select * from dbmb​
     ```
 
-3. You will need some of the CDD files, these are all located in the Database imp exp tool you may download from this page. Unpack all files.
+3. You will need some of the CDD files, these are all located in the [Database imp exp tool you may download][4] from this page. Unpack all files.
 
 4. Start LINQPad and click F4 to bring up the Query Properties so you can add Additional References. Click browse and locate these 4 files from the download:
 
@@ -124,7 +124,8 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 
 [1]: ../../database/dictionary/index.md
 [2]: ../../database/tables/databasemodel.md
-[3]: ../../assets/downloads/database-imp-exp-tool.zip
+[3]: https://www.linqpad.net/Download.aspx
+[4]: ../../assets/downloads/database-imp-exp-tool.zip
 
 <!-- Image reference -->
 
