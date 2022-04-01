@@ -30,15 +30,6 @@ Each web service
 
 ![NetServer Architecture][netserver-architecture]
 
-WSDL files for all versioned endpoints are [available for download][12] in the reference section, or as individual files on each endpoint reference page.
-
-**Download All**
-![Download all WSDLs][wsdl-all]
-
-**Download Single**
-![Download all WSDLs][wsdl-single]
-
-
 ## Endpoints concept
 
 A service endpoint is primarily **a method** exposed by the NetServer to manipulate the data or enhance the presentation of the data in the SuperOffice database.
@@ -53,24 +44,11 @@ NetServer has many service endpoints to support the entire SuperOffice platform.
 
 SuperOffice supports two distinct forms of web services:
 
-1. SOAP ([reference][12])
-2. REST ([reference][13])
+1. REST ([reference][13])
    * Two distinct flavors:
      * 1. RESTful ([reference][8])
      * 2. Agent ([reference][7])
-
-### SOAP web service resources
-
-NetServer SOAP web services implement the Service Agent pattern, exposing areas of SuperOffice as endpoints, i.e. Appointment and Project, and each endpoint has a list of methods that when invoked facilitate data transfer of Data Transfer Objects (DTOs). SuperOffice calls DTOs `Carriers`.
-
-Read more about: [SOAP Services][2].
-
-#### Nuget package
-
-There is one nuget package for .NET developers:
-
-[SuperOffice.NetServer.Services (SOAP)][6] 
-  * View [API reference][16].
+2. SOAP ([reference][12])
 
 ### REST web service resources
 
@@ -94,17 +72,41 @@ There is one nuget package for .NET developers. For it's initial release, this p
 
 * [reference][9])
 
+### SOAP web service resources
+
+NetServer SOAP web services implement the Service Agent pattern, exposing areas of SuperOffice as endpoints, i.e. Appointment and Project, and each endpoint has a list of methods that when invoked facilitate data transfer of Data Transfer Objects (DTOs). SuperOffice calls DTOs `Carriers`.
+
+WSDL files for all versioned endpoints are [available for download][12] in the reference section, or as individual files on each endpoint reference page.
+
+**Download All**
+![Download all WSDLs][wsdl-all]
+
+**Download Single**
+![Download all WSDLs][wsdl-single]
+
+Read more about: [SOAP Services][2].
+
+#### Nuget package
+
+There is one nuget package for .NET developers:
+
+[SuperOffice.NetServer.Services (SOAP)][6]
+
+* View [API reference][16].
+
 ## Restricted agents
 
-The following agents are not available in Online by default. Access must be requested specifically when an app is registered.
+Not all agents are available in SuperOffice CRM Online. Access must be requested specifically when an app is registered.
 
-* CRMScriptAgent
-* EMailAgent
-* ErpSyncAgent
-* MessagingAgent
-* ReplicationAgent
-* UserAgent
-* WebhookAgent
+| Agent Name | Availability                     |
+|-----------------------------------------|-----|
+| CRMScriptAgent   | available upon request     |
+| EMailAgent       | restricted                 |
+| ErpSyncAgent     | available with ERPSync connectors|
+| MessagingAgent   | restricted                 |
+| ReplicationAgent | restricted                 |
+| UserAgent        | restricted                 |
+| WebhookAgent     | available upon request     |
 
 ## Required web service license
 
@@ -135,3 +137,5 @@ Access to the web services is included in your [Developer Tools][4] subscription
 [img1]: media/netserver-web-services.png
 [img2]: media/sm-serviceinterfaces.png
 [netserver-architecture]: media/netserver-architecture.png
+[wsdl-all]: media/download-all-wsdls.png
+[wsdl-single]: media/download-single-wsdls.png
