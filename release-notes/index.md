@@ -1,12 +1,13 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 04.28.2021
+so.date: 04.04.2022
 ---
 
-# What’s new in SuperOffice
+# What's new in SuperOffice
 
 ## Versions
 
+* [10.1][5]
 * [10.0][4]
 * [9.2][1]
 * [9.1][2]
@@ -16,13 +17,13 @@ so.date: 04.28.2021
 
 ## How to navigate this section
 
-* Choose a version from the above list. To change version, return to this page and select a different version.
+* Choose a version from the above list. To change the version, return to this page and select a different version.
 
 * To view all releases for a specific product or feature, expand your area of interest in the left menu.
 
     ![expand toc -screenshot][img1]
 
-* For an overview of all changes to specific product or feature in a specific release, select the release and see the **In this article** list on the right side.
+* For an overview of all changes to a specific product or feature in a specific release, select the release and see the **In this article** list on the right side.
 
     ![in this article -screenshot][img2]
 
@@ -35,6 +36,7 @@ so.date: 04.28.2021
 [2]: 9.1/index.md
 [3]: 8.5/index.md
 [4]: 10.0/index.md
+[5]: 10.1/index.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
