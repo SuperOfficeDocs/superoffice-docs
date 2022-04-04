@@ -7,13 +7,13 @@ items:
     topicHref: admin/overview.md
   - name: AI services
     href: ai-services/toc.yml
-  - name: Apps
+  - name: Online Apps
     href: apps/toc.yml
   - name: Automation
     href: automation/toc.yml
   - name: Email
     href: email/toc.yml
-  - name: Online
+  - name: CRM Online
     href: online/toc.yml
   - name: Onsite
     href: onsite/toc.yml
