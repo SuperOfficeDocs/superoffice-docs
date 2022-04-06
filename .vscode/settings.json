@@ -3,6 +3,7 @@
         "./blueprint-templates",
         "~/templates/superoffice/blueprint"
     ],
+    
     "cSpell.words": [
         "Archivepath",
         "core",
