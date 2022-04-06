@@ -14,7 +14,7 @@ items:
   - CRMScript.NetServer.NSWebhookAgent.GetLastError(Integer)
   - CRMScript.NetServer.NSWebhookAgent.GetWebhook(Integer)
   - CRMScript.NetServer.NSWebhookAgent.SaveWebhook(NSWebhook)
-  - CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,Map)
+  - CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,StringObjectDictionary)
   - CRMScript.NetServer.NSWebhookAgent.TestWebhook(NSWebhook)
   name: NSWebhookAgent
   nameWithType: NSWebhookAgent
@@ -182,20 +182,20 @@ items:
       type: CRMScript.NetServer.NSWebhook
   example: 
   - "\n<pre><code>NSWebhook  agent;\nNSWebhook thing = agent.CreateDefaultWebhook();\nthing = agent.SaveWebhook(thing);</code></pre>\n"
-- uid: CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,Map)
-  commentId: M:CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,Map)
-  id: 'SignalEvent(String,Integer,Map)'
+- uid: CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,StringObjectDictionary)
+  commentId: M:CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,StringObjectDictionary)
+  id: 'SignalEvent(String,Integer,StringObjectDictionary)'
   so.intellisense: NSWebhookAgent.SignalEvent
   langs:
   - crmscript
-  name: 'SignalEvent(String,Integer,Map)'
-  nameWithType: NSWebhookAgent.SignalEvent(String,Integer,Map)
-  fullName: CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,Map)
+  name: 'SignalEvent(String,Integer,StringObjectDictionary)'
+  nameWithType: NSWebhookAgent.SignalEvent(String,Integer,StringObjectDictionary)
+  fullName: CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,StringObjectDictionary)
   type: Method
   summary: "\nSignal webhooks that an event has occurred. All webhooks listening for the event will be notified.\n"
   remarks: 
   syntax: 
-    content: Void SignalEvent(String eventName, Integer primaryKey, Map data)
+    content: Void SignalEvent(String eventName, Integer primaryKey, StringObjectDictionary data)
     parameters:
     - id: eventName
       type: CRMScript.Global.String
@@ -204,12 +204,12 @@ items:
       type: CRMScript.Global.Integer
       description: 
     - id: data
-      type: CRMScript.Native.Map
+      type: CRMScript.Native.StringObjectDictionary
       description:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>NSWebhookAgent agent;\nString eventName;\nInteger primaryKey;\nMap data;\nagent.SignalEvent(eventName, primaryKey, data);</code></pre>\n"
+  - "\n<pre><code>NSWebhookAgent agent;\nString eventName;\nInteger primaryKey;\nStringObjectDictionary data;\nagent.SignalEvent(eventName, primaryKey, data);</code></pre>\n"
 - uid: CRMScript.NetServer.NSWebhookAgent.TestWebhook(NSWebhook)
   commentId: M:CRMScript.NetServer.NSWebhookAgent.TestWebhook(NSWebhook)
   id: 'TestWebhook(NSWebhook)'
@@ -258,6 +258,12 @@ references:
   name: String
   nameWithType: String
   fullName: CRMScript.Global.String
+- uid: CRMScript.Native.StringObjectDictionary
+  commentId: T:CRMScript.Native.StringObjectDictionary
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: CRMScript.Native.StringObjectDictionary
 - uid: CRMScript.NetServer.NSWebhook[]
   isExternal: true
   name: NSWebhook[]
