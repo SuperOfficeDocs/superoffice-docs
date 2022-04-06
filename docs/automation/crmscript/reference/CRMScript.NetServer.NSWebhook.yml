@@ -122,7 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetProperties()
   id: 'GetProperties()'
   so.intellisense: NSWebhook.GetProperties
-  so.version: 8.2
+  so.version: 10.1.2
   langs:
   - crmscript
   name: 'GetProperties()'
@@ -400,6 +400,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.SetProperties(StringObjectDictionary)
   id: 'SetProperties(StringObjectDictionary)'
   so.intellisense: NSWebhook.SetProperties
+  so.version: 10.1.2
   langs:
   - crmscript
   name: 'SetProperties(StringObjectDictionary)'

@@ -186,6 +186,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhookAgent.SignalEvent(String,Integer,StringObjectDictionary)
   id: 'SignalEvent(String,Integer,StringObjectDictionary)'
   so.intellisense: NSWebhookAgent.SignalEvent
+  so.version: 10.1.2
   langs:
   - crmscript
   name: 'SignalEvent(String,Integer,StringObjectDictionary)'
