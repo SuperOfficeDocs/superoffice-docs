@@ -116,6 +116,8 @@ items:
     href: CRMScript.Native.StatLib.yml
   - name: StatResult
     href: CRMScript.Native.StatResult.yml
+  - name: StringObjectDictionary
+    href: CRMScript.Native.StringObjectDictionary.yml
   - name: StringMatrix
     href: CRMScript.Native.StringMatrix.yml
   - name: Ticket

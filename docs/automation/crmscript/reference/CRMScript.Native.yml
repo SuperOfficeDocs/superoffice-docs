@@ -52,6 +52,7 @@ items:
   - CRMScript.Native.SpmStaticList
   - CRMScript.Native.StatLib
   - CRMScript.Native.StatResult
+  - CRMScript.Native.StringObjectDictionary
   - CRMScript.Native.StringMatrix
   - CRMScript.Native.Ticket
   - CRMScript.Native.Timer
@@ -355,6 +356,12 @@ references:
   name: StringMatrix
   nameWithType: StringMatrix
   fullName: CRMScript.Native.StringMatrix
+- uid: CRMScript.Native.StringObjectDictionary
+  commentId: T:CRMScript.Native.StringObjectDictionary
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: CRMScript.Native.StringObjectDictionary
 - uid: CRMScript.Native.Ticket
   commentId: T:CRMScript.Native.Ticket
   isExternal: true
