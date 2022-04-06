@@ -269,6 +269,8 @@ items:
   items:
   - name: Entity collections
     href: entities/collections.md
+  - name: Set Defaults
+    href: entities/setdefaults.md
   - name: Entity events
     href: entities/events.md
   - name: Entity activity links
@@ -355,6 +357,8 @@ items:
       href: osql/count.md
     - name: Upper
       href: osql/upper.md
+    - name: SoundEx
+      href: osql/soundx.md
 - name: Bulk Operation
   href: bulk-operations/index.md
   items:
