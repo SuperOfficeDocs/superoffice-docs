@@ -107,6 +107,9 @@ function validateSignature(string $content, string $secret, string $signature): 
     return hash_equals($base64, $signature);
 }
 ```
+- [hash_hmac](https://www.php.net/manual/en/function.hash-hmac.php);
+- [base64_encode](https://www.php.net/manual/en/function.base64-encode);
+- [hash_equals](https://www.php.net/manual/en/function.hash-equals);
 
 ## Validation routine using Python
 
