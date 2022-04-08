@@ -88,6 +88,29 @@ function isValidWebHook(signature, secret, req, buf)
 }
 ```
 
+## Validation example using PHP
+```php
+/**
+ * Validates SuperOffice webhook signature
+ *
+ * @param string $content The contents of the webhook
+ * @param string $secret Your webhook secret
+ * @param string $signature The signature from X-SuperOffice-Signature header
+ *
+ * @return bool
+ */
+function validateSignature(string $content, string $secret, string $signature): bool
+{
+    $sha256 = hash_hmac('sha256', $content, $secret, true);
+    $base64 = base64_encode($sha256);
+
+    return hash_equals($base64, $signature);
+}
+```
+- [hash_hmac](https://www.php.net/manual/en/function.hash-hmac.php);
+- [base64_encode](https://www.php.net/manual/en/function.base64-encode);
+- [hash_equals](https://www.php.net/manual/en/function.hash-equals);
+
 ## Validation routine using Python
 
 Community contribution from Fredrik Wik.
