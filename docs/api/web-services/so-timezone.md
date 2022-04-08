@@ -10,7 +10,7 @@ so.topic: concept
 
 # SOTimezone
 
-Time zones are tricky, because both the server, the browser, and JSON all have opinions about them.
+Time zones are tricky, because the server, the browser, and JSON all have opinions about them.
 
 SuperOffice can support multiple time zones - this is enabled in admin. When enabled, all existing data
 is defined as belonging to a **base time zone**. This is the time zone that data is stored in.
