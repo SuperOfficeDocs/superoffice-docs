@@ -33,7 +33,7 @@ We then need to create a hook that will call this script:
 
 # [CRMScript API](#tab/Webhook-CRMScript)
 
-## Create a webhook from CRMScript
+## Create a webhook using CRMScript
 
 This CRMScript will create a webhook that when triggered, calls a CRMScript with Include name `ScriptHook1`.
 
@@ -60,6 +60,8 @@ webhook = webhookAgent.SaveWebhook(webhook);
 printLine("Webhook succeeded with ID: " + webhook.GetWebhookId().toString());
 ```
 # [REST API](#tab/Webhook-REST)
+
+## Create a webhook using the REST API
 
 This CRMScript will create a webhook that when triggered, calls a CRMScript with Include name `ScriptHook1`.
 
