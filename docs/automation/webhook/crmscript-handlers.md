@@ -110,16 +110,18 @@ This will create a CrmScript hook from CRMScript.
  * Create a new webhook to subscribe to person events.
  */
 
-String targetUrl = "YOUR_CRMSCRIPT_INCLUDE_NAME";
+String targetCrmScript = "YOUR_CRMSCRIPT_INCLUDE_NAME";
 
 NSWebhookAgent webhookAgent;
 NSWebhook webhook = webhookAgent.CreateDefaultWebhook();
 
 String[] events = String("person.created,person.changed,person.deleted").split(",");
+
 webhook.SetEvents(events);
 webhook.SetName("Person Webhook from CRMScript");
 webhook.SetType("crmscript");
-webhook.SetTargetUrl(targetUrl);
+webhook.SetTargetUrl(targetCrmScript);
+webhook.SetState(1)                      // Set it as active!
 
 webhook = webhookAgent.SaveWebhook(webhook);
 
