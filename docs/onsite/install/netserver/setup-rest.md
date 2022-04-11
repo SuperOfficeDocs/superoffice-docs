@@ -53,7 +53,7 @@ Locate or add the `WebApi` element and set one or both keys to true to enable: `
 </SuperOffice>
 ```
 
-Now that the NetServer configuration is complete, let's dig a little deeper and learn more about submitting actual requests and authentication.
+Now that the NetServer configuration is complete, let's configure IIS.
 
 ### Configure HTTP Action Verbs (IIS)
 
@@ -62,6 +62,8 @@ In IIS, navigate to the SuperOffice web client application, or NetServer if inst
 In the Handler Mappings view, locate and double-click the **ExtensionlessUrlHandler-Integrated-4.0** list item. The **Edit Managed Handler** dialog will appear. Click the **Request Restrictions** button in the Edit Managed Handler dialog to open the Request Restrictions dialog.
 
 Click to view the **Verbs** tab in the Request Restrictions dialog. Next click the **All Verbs** option, then click **OK** to close the dialog. Close the remaining dialogs and close to exit the IIS manager.
+
+![iis-configuration][img1]
 
 **IIS Manager Handler Mappings:**
 
@@ -72,9 +74,6 @@ IIS is now configured to access and process all request verbs, and therefore per
 ### Configure Basic Authentication (IIS)
 
 While API authentication is discussed below, it's important to understand how to configure IIS if you plan on using basic authentication.
-
-> [!NOTE]
-> If you don't plan on using basic authentication, skip to [Configure NetServer](#configure-netserver).
 
 To enable Basic Authentication for REST API, first enable basic authentication on the website root. Do this by selecting the root website, then double-click the Authentication icon in the **Features View** pane. With the **Authentication** panel shown, right-click the **Basic Authentication** option and set the status to Enabled.
 
@@ -93,7 +92,7 @@ With Basic Authentication configured this way, any valid SuperOffice user can na
 To integrate with Active Directory, you need to set up your SuperOffice users as Active Directory users.
 
 * *web.config* must define and configure the [ActiveDirectoryCredentialPlugin section][5].
-* Your SuperOffice users need to be linked to Active Directory users.
+* SuperOffice users must be linked to Active Directory users.
 
 ### SuperOffice web.config
 
@@ -116,15 +115,15 @@ You must explicitly [enable the authentication methods][1] you want to use in th
 
 3. Enable Windows Authentication, and disable the others.
 
-    ![iis-authentication-windows -screenshot][img1]
+    ![iis-authentication-windows -screenshot][img17]
 
 4. Click **Advanced Settings** to enable Kernel-mode authentication.
 
-    ![iis-kernel-mode-auth -screenshot][img2]
+    ![iis-kernel-mode-auth -screenshot][img18]
 
 5. Click **Providers** to ensure that **Negotiate** is the first enabled provider.
 
-    ![iis-auth-providers -screenshot][img3]
+    ![iis-auth-providers -screenshot][img19]
 
 Your SuperOffice and WebAPI are now accessible without logging in.
 
@@ -137,20 +136,35 @@ Accessing `/api/v1/user/currentPrincipal` via Chrome or Edge should automaticall
 So now we can make our first request to the API endpoint:
 
 ```http
-GET superoffice/api
-HTTP/1.1Host: www.yourserver.com
+GET https://{{superoffice_url}}/api
+Accept: application/json; charset=utf-8
 ```
 
 This will request the API overview. If you use a browser to open `http://crm.example.com/superoffice/api` you will get a webpage that says:
 
 ```http
 HTTP/1.1 200 OK
-Content-Type: text/html
+Cache-Control: no-cache
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: {todays date}
 
-SuperOffice Sales and Marketing Web API
-Build date: Monday, June 26, 2017
-v1 REST API + v1 Agent API
-Swagger API Explorer
+{
+  "v1": "{{superoffice_url}}/api/v1/",
+  "NetServerVersion": "{current_version}",
+  "NetServerAssembly": "{current_assembly_version}",
+  "NetServerDate": "{build_date}",
+  "NetServerLabel": "{build_release_version}",
+  "NetServer": "SuperOffice {version} NetServer {version info}",
+  "Services": "Services??",
+  "ServicesCurrent": "Services??",
+  "Version": "v1"
+}
 ```
 
 If you use [POSTMAN][2] or a similar tool, you will get back some JSON that contains the same information instead of an HTML page.
@@ -159,31 +173,19 @@ This gets us some metadata about the API without logging in, and an indication t
 
 ## Conclusion
 
-SuperOffice REST services add another API surface to the NetServer real estate, offering a great deal of information in a highly desired format. Although incomplete, it should suffice for a majority of REST consumers and will evolve as demand increase.
-
-Take your time getting to know SuperOffice REST services, and if you happen to stumble into an area that lacks support, please submit an email to `sdk@superoffice.com` with your API wishes.
+SuperOffice REST services add another API surface to the NetServer real estate. To learn more about SuperOffice REST services, see the [web services APIs].
 
 <!-- Referenced links -->
 [1]: ../../../api/config/webapi.md
 [2]: https://www.getpostman.com/
 [3]: http://www.w3schools.com/jsref/met_win_btoa.asp
-[4]: ../authentication/webapi/reuse-session.md
 [5]: ../../../api/config/security.md
-[6]: endpoints/agents-webapi/index.md
+[6]: ../../../api/web-services/endpoints/agents-webapi/index.md
 [7]: https://en.wikipedia.org/wiki/Open_Data_Protocol
-[8]: ../search/odata/index.md
-[9]: endpoints/http-headers.md#accept-language
-[10]: endpoints/http-headers.md#content-type
-
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: media/iis-authentication-windows.png
-[img2]: media/iis-kernel-mode-auth.png
-[img3]: media/iis-auth-providers.png
-
-
+[8]: ../../../api/search/odata/index.md
+[9]: ../../../api/web-services/endpoints/http-headers.md#accept-language
+[10]: ../../../api/web-services/endpoints/http-headers.md#content-type
+[11]: ../../../api/web-services/index.md
 
 <!-- Referenced images -->
 [img1]: media/iis-configuration.png
@@ -201,3 +203,6 @@ Take your time getting to know SuperOffice REST services, and if you happen to s
 [img14]: media/rest-6.png
 [img15]: media/imagesupload.png
 [img16]: media/rest-7.png
+[img17]: media/iis-authentication-windows.png
+[img18]: media/iis-kernel-mode-auth.png
+[img19]: media/iis-auth-providers.png
