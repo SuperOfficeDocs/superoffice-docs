@@ -45,10 +45,10 @@ The objective here is to introduce you to the APIs and help get you past the fir
 
 * [About SuperOffice Online Identity Provider][3]
   * [How to authenticate using OAuth 2.0 / OpenID Connect][16]
-* [SuperOffice REST / WebAPI web services][8]
-* [NetServer Core & Service proxy authentication using SoSession][7]
-* [NetServer web service custom proxies][9]
 * [COM][6]
+* [NetServer Core & Service proxy authentication using SoSession][7]
+* [SuperOffice REST / WebAPI web services][8]
+* [NetServer web service custom proxies][9]
 
 ## NetServer configuration
 

@@ -42,12 +42,16 @@ items:
         href: getting-started/run-website-on-iis-localhost.md
     - name: User contexts
       href: getting-started/user-contexts.md
-    - name: Building apps
+    - name: Account and app registration
       items:
-      - name: Get access to SOD
+      - name: Developer registration
         href: getting-started/get-access-to-sod.md
-      - name: Get app keys
+      - name: Developer registration form
+        href: getting-started/developer-registration-form.md
+      - name: Application registration
         href: getting-started/get-app-keys.md
+      - name: Application registration form
+        href: getting-started/application-registration-form.md
     - name: What API to use?
       href: getting-started/what-api-to-use.md
     - name: Tutorials
@@ -90,6 +94,8 @@ items:
     items:
     - name: Update app
       href: manage/update-app.md
+    - name: Update app form
+      href: manage/update-app-form.md
     - name: Revoke app
       href: manage/revoke-app.md
   - name: Activate
@@ -102,8 +108,12 @@ items:
       href: activate/helper-application.md
     - name: Validate app
       href: activate/validate-app.md
+    - name: Validate form
+      href: activate/validate-form.md
     - name: Activate custom app
       href: activate/activate-custom-app.md
+    - name: Activate custom app form
+      href: activate/activate-custom-app-form.md
   - name: App store
     href: app-store.md
   - name: Certification
@@ -114,6 +124,8 @@ items:
       href: certification/checklist.md
     - name: Certify app
       href: certification/certify-app.md
+    - name: Certify app form
+      href: certification/certify-app-form.md
     - name: Initial Watchcom evaluation
       items:
       - name: About the test

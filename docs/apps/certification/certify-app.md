@@ -48,6 +48,6 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 
 <!-- Referenced links -->
 [1]: checklist.md
-[2]: https://community.superoffice.com/certify-application
+[2]: certify-app-form.md
 [3]: secure-app.md
 [4]: ../publish/index.md

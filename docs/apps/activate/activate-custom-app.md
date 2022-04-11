@@ -48,4 +48,4 @@ This is usually initiated by the customer.
 [2]: ../../admin/license/expander-services/index.md
 [3]: ../provisioning/index.md
 [4]: ../provisioning/consent.md
-[5]: https://community.superoffice.com/activate-custom-application
+[5]: activate-custom-app-form.md

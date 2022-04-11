@@ -37,4 +37,4 @@ When you release a new version of your application, your App Store listing can i
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/update-application-listing
-[2]: https://community.superoffice.com/change-application
+[2]: update-app-form.md
