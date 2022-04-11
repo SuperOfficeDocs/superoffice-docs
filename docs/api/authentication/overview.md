@@ -36,19 +36,14 @@ At NetServers' core are business entity and table row collections. They provide 
 
 The objective here is to introduce you to the APIs and help get you past the first hurdle, authentication. All of the following sections assume you have access to an onsite SuperOffice database or online tenant. Each section defines the dependencies required to successfully authenticate with the corresponding API.
 
-> [!NOTE]
-> The development environment used in these examples is Visual Studio and the language used is C#.
->
-> TO get started, **install or download** the relevant nuget packages to obtain the necessary DLLs and or COM interop libraries to complete the code examples.
-
 ## Options
 
 * [About SuperOffice Online Identity Provider][3]
   * [How to authenticate using OAuth 2.0 / OpenID Connect][16]
-* [COM][6]
-* [NetServer Core & Service proxy authentication using SoSession][7]
 * [SuperOffice REST / WebAPI web services][8]
 * [NetServer web service custom proxies][9]
+* [NetServer Core & Service proxy authentication using SoSession][7]
+* [COM][6]
 
 ## NetServer configuration
 

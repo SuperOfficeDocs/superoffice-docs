@@ -40,15 +40,167 @@ NetServer has many service endpoints to support the entire SuperOffice platform.
 
 ![NetServer web services endpoint listing][img1]
 
-## Supported protocols
+### Supported protocols
 
-SuperOffice supports two distinct forms of web services:
+SuperOffice NetServer supports two distinct web services protocols:
 
 1. REST ([reference][13])
    * Two distinct flavors:
      * 1. RESTful ([reference][8])
      * 2. Agent ([reference][7])
 2. SOAP ([reference][12])
+
+The SOAP APIs, not considered legacy, use Windows Communication Foundation service models for communication.
+
+The RESTful APIs use Microsoft AspNet WebApi services for communication, and come in two _flavors_:
+
+* RESTful endpoints
+* RESTful Agent endpoints
+
+#### RESTful endpoints
+
+`RESTful endpoints` are entity endpoints that are retrieved using HTTP **GET**, modified using HTTP **PUT** or **PATCH**, created using HTTP **POST** and deleted using HTTP **DELETE**.
+
+```http
+GET https://{superoffice_url}/api/v1/sale/3
+Authorization: {type} {credential}
+Accept: application/json
+```
+
+#### RESTful Agents
+
+`RESTful Agent` endpoints are identical to the SOAP endpoints and implement the Service Agent pattern.
+
+![Service Agent pattern][service-agent]
+
+Service agents represent a specific **business area**, such as Appointment, Project or Sale. An **agent** exposes a set of methods, typically for inserting, retrieving, updating, and deleting data. Each method on the agent corresponds to one HTTP **POST** request.
+
+```http
+POST https://{superoffice_url}/api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=4
+Authorization: {type} {credential}
+Accept: application/json
+```
+
+> [!NOTE]
+> All RESTful Agent requests are **POST** requests.
+
+## Authentication and Authorization
+
+Each request needs credentials to verify your identity. Credentials are passed to service APIs using headers.
+
+### RESTful headers
+
+You must provide one of the following types of credential.
+
+* BASIC authentication: Base64 Encode SuperOffice username:password
+* SOTICKET authentication. Pass the SuperOffice ticket (7T:abc123==) without any encoding.
+* BEARER authentication. Pass along an access token (7A:abc123==) from SuperID.
+* NEGOTIATE / NTLM authentication. Initiates an Active Directory user authentication.
+
+| Auth type | Example        | Onsite | Online |
+|-----------|----------------|:------:|:------:|
+| No header |                | x      | x      |
+| Basic     | YWrtMdo=       | x      |        |
+| SOTicket  | 7T:xyz123abc== | x      | x      |
+| Bearer    | 8A:xyz123abc== | x      | x      |
+| Negotiate |                | x      |        |
+
+No `Authorize` header on a request means that you either:
+
+* have [IIS configured to handle identity][1] and uses your current Active Directory user, or
+* you send an **X-XSRF-TOKEN** header to prove that you have access to a logged-in session
+
+> [!NOTE]
+> You must explicitly [enable the authentication methods][4] that you want to use in the *web.config* file.
+
+#### Basic
+
+This Authorization header is a key entry of "Basic ", and a value equal to a base64 encoded representation of the user name, plus a colon, and password.
+
+```http
+// conceptual:
+Authorization: Basic username:password
+
+// actual:
+Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+```
+
+Note the space following the word *Basic*. The `username:password` text must not be passed in clear text and must be base64 encoded. It is shown here as such for demonstration purposes only.
+
+> [!NOTE]
+> Basic is not allowed in **Online**, since all usernames and passwords must flow through SuperID to get a bearer access token.
+
+#### Bearer
+
+This Authorization header used in CRM Online is obtained using OAuth 2.0 or OpenID Connect.
+
+```http
+Authorization: Bearer 8A:Cust12345.Aaq+TbrrXsV...truncated for brevity
+```
+
+Read more about OAuth authorization or OpenID Connect authentication in the [Authentication pages][19].
+
+While not common, it is possible for onsite installations to use a Bearer token. This only happens when an access_token is obtained via the `UserAgent.GetCurrentToken` method.
+
+#### SOTicket
+
+An SOTicket Authorization header credential is used:
+
+* by onsite installation to pass current user credentials to applications hosted in a web panel (forbidden in CRM Onsite due to security reasons)
+* by CRM Online and onsite installations performing back-channel communications with a system user.
+
+When a web page is running in the context of a SuperOffice web panel, and web panel is configured to pass the usec template variable, the current user's `SoCredential.Ticket` credential is sent as a query string parameters to the web application. In that case, the application can use the Authentication header value "SOTicket " plus the ticket string to request additional API data. Once again, notice the space following *SOTicket*.
+
+**When used in online**, the `SO-AppToken` header must accompany the SoTicket header, and the value must be the application secret (OAuth client_secret).
+
+```http
+Authorization: SoTicket 7A:adasd098098sdfs0df8KJHSKh230...123dsa==
+SO-AppToken: qw123f4c56770bc278017796cd16bd11
+```
+
+> [!NOTE]
+> In this case, do not use the `window.btos(...)` method to convert a Ticket to base64 because the **ticket value is already base64 encoded**.
+
+#### X-XSRF-TOKEN
+
+With [requests][1] without an **Authorization** header, the API will try to log in using the current user's SuperOffice session. To avoid 3rd-party pages calling the API and piggy-backing off the current session, the API requires that a special HTTP header is added to these requests.
+
+The SuperOffice pages contain an INPUT field `XSRF_TOKEN`. This field contains a random value identifying the current session. You must add an X-XSRF-TOKEN header with the random value from the input field.
+
+The XSRF-TOKEN is also stored in a cookie for convenience. HTTP libraries like AXIOS will automatically pick up the XSRF-TOKEN cookie from the browser and add the X-XSRF-TOKEN header to your HTTP requests.
+
+```http
+GET /api/v1/Contact/2
+Accept: application/json
+```
+
+will return HTTP error 401 Unauthorized.
+
+```http
+GET /api/v1/Contact/2
+Accept: application/json
+X-XSRF-TOKEN: abc1234
+```
+
+will work, and use the current user's session to read the data.
+
+### SOAP headers
+
+Each service method the [SOAP documentation][12] contains the following two headers:
+
+* ApplicationToken
+* Credentials
+
+The application token is used exclusively in the CRM Online environment, and is reserved for application identifiers, an OAuth `client_secret` value. 
+
+The Credentials element must always be populated with the current users `Ticket` credential. This is set automatically when using the SuperOffice.NetServer.Services nuget package, but are manually set by custom proxies.
+
+```xml
+<ApplicationToken>1234567-1234-9876</ApplicationToken>
+<Credentials>
+  <Ticket>7T:1234abcxyzExample==</Appointment:Ticket>
+</Credentials>
+```
 
 ### REST web service resources
 
@@ -117,7 +269,7 @@ Access to the web services is included in your [Developer Tools][4] subscription
 [1]: ../entities/index.md
 [2]: endpoints/soap/index.md
 [3]: ../overview/netserver.md
-[4]: ../../admin/license/expander-services/tool-box.md
+[4]: ../../api/config/webapi.md
 [5]: proxies/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [7]: ../reference/restful/rest/index.md
@@ -132,6 +284,7 @@ Access to the web services is included in your [Developer Tools][4] subscription
 [16]: ../reference/netserver/services/index.md
 [17]: ../../assets/downloads/api/Swagger-v1-REST.zip
 [18]: ../../assets/downloads/api/Swagger-v1-Agents.zip
+[19]: ../authentication/online/index.md
 
 <!-- Referenced images -->
 [img1]: media/netserver-web-services.png
@@ -139,3 +292,4 @@ Access to the web services is included in your [Developer Tools][4] subscription
 [netserver-architecture]: media/netserver-architecture.png
 [wsdl-all]: media/download-all-wsdls.png
 [wsdl-single]: media/download-single-wsdls.png
+[service-agent]: media/netserver-servce-agent.png
