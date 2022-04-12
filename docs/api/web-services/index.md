@@ -50,16 +50,23 @@ SuperOffice NetServer supports two distinct web services protocols:
      * 2. Agent ([reference][7])
 2. SOAP ([reference][12])
 
-The SOAP APIs, not considered legacy, use Windows Communication Foundation service models for communication.
+The SOAP APIs use Windows Communication Foundation service models for communication and are considered legacy.
 
-The RESTful APIs use Microsoft AspNet WebApi services for communication, and come in two _flavors_:
+The RESTful APIs use Microsoft AspNet WebApi for communication, and come in two _flavors_:
 
 * RESTful endpoints
 * RESTful Agent endpoints
 
 #### RESTful endpoints
 
-`RESTful endpoints` are entity endpoints that are retrieved using HTTP **GET**, modified using HTTP **PUT** or **PATCH**, created using HTTP **POST** and deleted using HTTP **DELETE**.
+`RESTful endpoints` are entity endpoints that:
+
+1. get data using an HTTP **GET** request
+2. modify data using HTTP **PUT** or **PATCH**
+3. create data using HTTP **POST** and
+4. delete data using HTTP **DELETE**.
+
+**Example GET sale request:**
 
 ```http
 GET https://{superoffice_url}/api/v1/sale/3
@@ -69,11 +76,13 @@ Accept: application/json
 
 #### RESTful Agents
 
-`RESTful Agent` endpoints are identical to the SOAP endpoints and implement the Service Agent pattern.
+`RESTful Agent` endpoints are structured identical to the SOAP endpoints and implement the Service Agent pattern. Unlike SOAP, which uses XML body content to transport messages, RESTful Agents use URL query string parameters and JSON body content.
 
 ![Service Agent pattern][service-agent]
 
-Service agents represent a specific **business area**, such as Appointment, Project or Sale. An **agent** exposes a set of methods, typically for inserting, retrieving, updating, and deleting data. Each method on the agent corresponds to one HTTP **POST** request.
+Service agents endpoints represent a specific **business area**, such as Appointment, Project or Sale. An **agent** fragment exposes a set of method endpoints, typically for inserting, retrieving, updating, and deleting data. Each method on the agent corresponds to one HTTP **POST** request.
+
+**Example GetAppointmentEntity endpoint method:**
 
 ```http
 POST https://{superoffice_url}/api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=4
@@ -86,7 +95,7 @@ Accept: application/json
 
 ## Authentication and Authorization
 
-Each request needs credentials to verify your identity. Credentials are passed to service APIs using headers.
+Every request needs a form of credential to verify ones identity. Credentials are passed to service APIs using headers.
 
 ### RESTful headers
 
@@ -108,7 +117,7 @@ You must provide one of the following types of credential.
 No `Authorize` header on a request means that you either:
 
 * have [IIS configured to handle identity][1] and uses your current Active Directory user, or
-* you send an **X-XSRF-TOKEN** header to prove that you have access to a logged-in session
+* included an **X-XSRF-TOKEN** header to prove that you have access to a logged-in session
 
 > [!NOTE]
 > You must explicitly [enable the authentication methods][4] that you want to use in the *web.config* file.
@@ -151,7 +160,7 @@ An SOTicket Authorization header credential is used:
 
 When a web page is running in the context of a SuperOffice web panel, and web panel is configured to pass the usec template variable, the current user's `SoCredential.Ticket` credential is sent as a query string parameters to the web application. In that case, the application can use the Authentication header value "SOTicket " plus the ticket string to request additional API data. Once again, notice the space following *SOTicket*.
 
-**When used in online**, the `SO-AppToken` header must accompany the SoTicket header, and the value must be the application secret (OAuth client_secret).
+**When used in online**, the `SOTicket` header must accompany with the `SO-AppToken` header, and the `SO-AppToken` value must be the application secret (OAuth client_secret).
 
 ```http
 Authorization: SoTicket 7A:adasd098098sdfs0df8KJHSKh230...123dsa==
@@ -159,30 +168,32 @@ SO-AppToken: qw123f4c56770bc278017796cd16bd11
 ```
 
 > [!NOTE]
-> In this case, do not use the `window.btos(...)` method to convert a Ticket to base64 because the **ticket value is already base64 encoded**.
+> In this case, do not convert a Ticket to base64 because the **ticket value is already base64 encoded**.
 
 #### X-XSRF-TOKEN
 
-With [requests][1] without an **Authorization** header, the API will try to log in using the current user's SuperOffice session. To avoid 3rd-party pages calling the API and piggy-backing off the current session, the API requires that a special HTTP header is added to these requests.
+When [requests][1] are received without an **Authorization** header, the API will try authorize the current user's SuperOffice session.
 
-The SuperOffice pages contain an INPUT field `XSRF_TOKEN`. This field contains a random value identifying the current session. You must add an X-XSRF-TOKEN header with the random value from the input field.
+SuperOffice pages contain a hidden INPUT field `XSRF_TOKEN`, which contains a random value identifying the current session. You must add an X-XSRF-TOKEN header with the random value from the input field.
+
+To avoid 3rd-party pages calling the API - piggy-backing off the current session, the API requires that a special HTTP header `X-XSRF-TOKEN` is added to each requests.
 
 The XSRF-TOKEN is also stored in a cookie for convenience. HTTP libraries like AXIOS will automatically pick up the XSRF-TOKEN cookie from the browser and add the X-XSRF-TOKEN header to your HTTP requests.
+
+The following snippet will return HTTP error 401 Unauthorized.
 
 ```http
 GET /api/v1/Contact/2
 Accept: application/json
 ```
 
-will return HTTP error 401 Unauthorized.
+Whereas the following snippet will work, and use the current user's session to read the data.
 
 ```http
 GET /api/v1/Contact/2
 Accept: application/json
 X-XSRF-TOKEN: abc1234
 ```
-
-will work, and use the current user's session to read the data.
 
 ### SOAP headers
 
@@ -191,7 +202,7 @@ Each service method the [SOAP documentation][12] contains the following two head
 * ApplicationToken
 * Credentials
 
-The application token is used exclusively in the CRM Online environment, and is reserved for application identifiers, an OAuth `client_secret` value. 
+The application token is only used in CRM Online, and is reserved for application identifiers, an OAuth `client_secret` value.
 
 The Credentials element must always be populated with the current users `Ticket` credential. This is set automatically when using the SuperOffice.NetServer.Services nuget package, but are manually set by custom proxies.
 
@@ -204,10 +215,6 @@ The Credentials element must always be populated with the current users `Ticket`
 
 ### REST web service resources
 
-NetServer REST web services come in two _flavors_, Agent REST and [common] REST and are distinct in use. 
-
-The primary difference is that, unlike most common REST APIs that use GET, PUT, POST, DELETE and PATCH methods, Agent endpoints are all POST requests. Agent endpoints are also named and used just like their SOAP web service endpoint counterparts, i.e. naming conventions similar to classes and methods.
-
 1. Read more about: [RESTful API][15]
 2. Read more about: [Agent API][14]
 
@@ -218,7 +225,7 @@ Here you can find OpenAPI / Swagger files for available for download for each RE
 
 #### Nuget package
 
-There is one nuget package for .NET developers. For it's initial release, this package exposes the same Agent API as the SOAP proxy, making it an easy transition for vendors currently using the [SOAP proxy][]:
+There is one nuget package for .NET developers. This package exposes the same Agent API as the SOAP proxy, making it an easy transition for applications using the [SOAP proxy][6]:
 
 [SuperOffice.WebApi (RESTful Agent)][11]
 
@@ -226,14 +233,14 @@ There is one nuget package for .NET developers. For it's initial release, this p
 
 ### SOAP web service resources
 
-NetServer SOAP web services implement the Service Agent pattern, exposing areas of SuperOffice as endpoints, i.e. Appointment and Project, and each endpoint has a list of methods that when invoked facilitate data transfer of Data Transfer Objects (DTOs). SuperOffice calls DTOs `Carriers`.
-
 WSDL files for all versioned endpoints are [available for download][12] in the reference section, or as individual files on each endpoint reference page.
 
 **Download All**
+
 ![Download all WSDLs][wsdl-all]
 
 **Download Single**
+
 ![Download all WSDLs][wsdl-single]
 
 Read more about: [SOAP Services][2].
@@ -250,8 +257,8 @@ There is one nuget package for .NET developers:
 
 Not all agents are available in SuperOffice CRM Online. Access must be requested specifically when an app is registered.
 
-| Agent Name | Availability                     |
-|-----------------------------------------|-----|
+| Agent Name       | Availability               |
+|------------------|----------------------------|
 | CRMScriptAgent   | available upon request     |
 | EMailAgent       | restricted                 |
 | ErpSyncAgent     | available with ERPSync connectors|
