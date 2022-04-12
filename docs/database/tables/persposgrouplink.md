@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersPosGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PersPosGroupLink Table (77)
+
+User group link table for PersPos, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |persposgrouplink\_id |PK |Clustered, Unique |
 |perspos\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PersPos](perspos.md)  |PersPos list table. Contact person position list |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

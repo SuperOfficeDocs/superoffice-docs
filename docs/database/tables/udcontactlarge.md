@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udcontactLarge"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udcontactLarge Table (36)
+
+User-defined fields for contact (long strings)
 
 ## Fields
 
@@ -44,6 +46,13 @@ so.envir:
 |string42 |String(199) |Index |
 |string43 |String(199) |Index |
 |string44 |String(199) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "relationdefinition"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # relationdefinition Table (48)
+
+Definition of a relation. This table defines the relations that can exist in the database. Each relation has an active text and a passive text. The table RelationTarget specifies which pairs of tables this relation can connect.  Use of the active and passive texts is dependent on which direction the relation is viewed in, e.g., active text = &quot;Owns&quot; and passive text = &quot;Is owned by&quot;.
 
 ## Fields
 
@@ -42,6 +44,17 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |reldef\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[relations](relations.md)  |Instance of a relation, in principle between any two records, as long as they are defined in RelationDefinition. All instances of relations are held in this table; their definitions are in the RelDef table (RelDef + RelTarg define which relations you can have, this table contains the relations the user has actually entered). From 6.1 all links between appointments, sales and documents are also stored in this tabel. |
+|[relationtarget](relationtarget.md)  |Definition of targets for a relation. Links a relation definition (RelDef) to source and target tables. In general, a relation can be created between any pair of tables. This table is used for specifying which table pairs a particular relation can be used for. A relation definition should have at least one row in this table, and can have more. Note: The 5.0 Maintenance and GUI only support contact and person as valid values for the source_table and destination_table fields, in any combination. Other relations will not be shown, and relation definitions pointing to other tables will not be editable from the Maintenance GUI; however, nothing will crash. |
+|[RelDefGroupLink](reldefgrouplink.md)  |User group link table for RelDef, for MDO item hiding |
+|[RelDefHeadingLink](reldefheadinglink.md)  |Heading link table for RelDef, for MDO headers |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_log"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_log Table (267)
+
+This table contains log entries for the tickets.
 
 ## Fields
 
@@ -41,6 +43,13 @@ so.envir:
 |log\_code |Enum |Index |
 |log\_when |DateTime |Index |
 |log\_what\_value2 |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 

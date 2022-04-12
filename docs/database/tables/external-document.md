@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "external_document"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # external\_document Table (401)
+
+This table stores documents which can be viewed externaly, through the customer module
 
 ## Fields
 
@@ -47,6 +49,16 @@ so.envir:
 |created\_by |FK |Index |
 |changed\_by |FK |Index |
 |s\_message |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
+
 
 ## Replication Flags
 

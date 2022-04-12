@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AmountClassGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # AmountClassGroupLink Table (226)
+
+User group link table for AmountClass, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |amountclassgrouplink\_id |PK |Clustered, Unique |
 |amountclass\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTypeHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # DeliveryTypeHeadingLink Table (438)
+
+Heading link table for DeliveryType, for MDO item headings
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |deliverytypeheadinglink\_id |PK |Clustered, Unique |
 |deliverytype\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DeliveryType](deliverytype.md)  |The list of Delivery types, in the internal product register |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+
 
 ## Replication Flags
 

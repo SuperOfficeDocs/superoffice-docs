@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "config"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # config Table (255)
+
+This table contains certain system-wide configuration values.
 
 ## Fields
 

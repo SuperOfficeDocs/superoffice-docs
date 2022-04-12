@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # screen\_definition Table (370)
+
+A configurable screen
 
 ## Fields
 
@@ -44,6 +46,17 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |hierarchy\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[screen\_definition\_action](screen-definition-action.md)  |An action to perform for a certain button in an screen |
+|[screen\_definition\_element](screen-definition-element.md)  |An element in a configurable screen |
+|[screen\_definition\_hidden](screen-definition-hidden.md)  |The name of a hidden variable to keep for this screen |
+|[screen\_definition\_language](screen-definition-language.md)  |Custom language variables used for screens |
+
 
 ## Replication Flags
 

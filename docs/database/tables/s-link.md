@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_link"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_link Table (336)
+
+Links in messages to measure success rate of a campaign.
 
 ## Fields
 
@@ -88,6 +90,25 @@ so.envir:
 |task\_associate\_id |FK |Index |
 |task\_creating\_associate\_id |FK |Index |
 |task\_project |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ejscript](ejscript.md)  |ejscript |
+|[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[PersInt](persint.md)  |PersInt list table. List of Person interests. |
+|[project](project.md)  |Projects |
+|[s\_link\_customer](s-link-customer.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
+|[s\_link\_customer\_statical](s-link-customer-statical.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
+|[selection](selection.md)  |Selections |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+
 
 ## Replication Flags
 

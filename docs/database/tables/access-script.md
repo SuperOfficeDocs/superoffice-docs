@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "access_script"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # access\_script Table (406)
+
+Scripts to implement row-based access rules (sentry light)
 
 ## Fields
 

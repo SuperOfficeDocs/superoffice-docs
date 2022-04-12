@@ -1,12 +1,12 @@
 ---
 uid: table-appointment
 title: appointment table
-description: Tasks, appointments, followups, phone calls; and documents (document_id != 0).
+description: Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
 so.generated: true
 keywords:
   - "database"
   - "appointment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # appointment Table (9)
 
-An appointment always has a corresponding record in VisibleFor specifying who may see this.
+Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
 
 ## Fields
 
@@ -110,6 +110,35 @@ An appointment always has a corresponding record in VisibleFor specifying who ma
 |associate\_id, activeDate, mother\_id, appointment\_id |FK, DateTime, FK, PK |Unique |
 |mother\_id, status, activeDate, registered\_associate\_id, registered, assignedBy, group\_idx, type, associate\_id, appointment\_id |FK, Enum, DateTime, FK, UtcDateTime, FK, FK, Enum, FK, PK |Unique |
 |project\_id, type, activeDate, document\_id, associate\_id, group\_idx, mother\_id, assignedBy, appointment\_id, registered, registered\_associate\_id |FK, Enum, DateTime, FK, FK, FK, FK, FK, PK, UtcDateTime, FK |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
+|[Email](email.md)  |Email addresses for contacts, projects and persons |
+|[email\_item](email-item.md)  |Email data |
+|[invitation](invitation.md)  |Invitations to events |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[Priority](priority.md)  |Priority list table. Used with appointments: low, high. |
+|[project](project.md)  |Projects |
+|[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
+|[RecurrenceRule](recurrencerule.md)  |The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern. |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[SuggestedAppointment](suggestedappointment.md)  |Defines a suggested appointment for use in a Sale Guide or Project Guide |
+|[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+|[text](text.md)  |Long text fields from all over the system |
+|[TZLocation](tzlocation.md)  |Time zone location |
+|[udappntlarge](udappntlarge.md)  |User-defined fields |
+|[udappntsmall](udappntsmall.md)  |User-defined fields |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+|[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+
 
 ## Replication Flags
 

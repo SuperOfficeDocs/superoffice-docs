@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PaymentTermsHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PaymentTermsHeadingLink Table (429)
+
+Heading link table for PaymentTerms, for MDO item headings
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |paymenttermsheadinglink\_id |PK |Clustered, Unique |
 |paymentterms\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[PaymentTerms](paymentterms.md)  |The list of payment terms, in the internal product register |
+
 
 ## Replication Flags
 

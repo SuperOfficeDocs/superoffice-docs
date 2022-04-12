@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MergeMoveLog"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # MergeMoveLog Table (37)
+
+Log of merge and move operations (person, contact, project)
 
 ## Fields
 
@@ -43,6 +45,13 @@ so.envir:
 |MergeMoveLog\_id |PK |Clustered, Unique |
 |tableNumber |TableNumber |Index |
 |operation |UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

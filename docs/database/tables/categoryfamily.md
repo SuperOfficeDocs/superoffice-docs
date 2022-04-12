@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CategoryFamily"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # CategoryFamily Table (468)
+
+Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;
 
 ## Fields
 
@@ -33,12 +35,22 @@ so.envir:
 
 ![CategoryFamily table relationship diagram](./media/CategoryFamily.png)
 
+[!include[details](./includes/categoryfamily.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |categoryfamily\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Category](category.md)  |Category list table |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "selectionmember"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # selectionmember Table (24)
+
+Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id.
 
 ## Fields
 
@@ -41,6 +43,15 @@ so.envir:
 |contact\_id, person\_id |FK, FK |Index |
 |selection\_id, contact\_id |FK, FK |Index |
 |contact\_id |FK |Clustered |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[selection](selection.md)  |Selections |
+
 
 ## Replication Flags
 

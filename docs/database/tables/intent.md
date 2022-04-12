@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Intent"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,18 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 |--------|-------|-------------|
 |Intent\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[CounterValue](countervalue.md)  |Visible for rights |
+|[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
+|[IntentGroupLink](intentgrouplink.md)  |User group link table for Intent, for MDO item hiding |
+|[IntentHeadingLink](intentheadinglink.md)  |Heading link table for Intent, for MDO headers |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+
 
 ## Replication Flags
 

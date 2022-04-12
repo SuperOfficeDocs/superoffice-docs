@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTerms"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ The list of Delivery terms, in the internal product register
 |--------|-------|-------------|
 |deliveryterms\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DeliveryTermsGroupLink](deliverytermsgrouplink.md)  |User group link table for DeliveryTerms, for MDO item hiding |
+|[DeliveryTermsHeadingLink](deliverytermsheadinglink.md)  |Heading link table for DeliveryTerms, for MDO item headings |
+
 
 ## Replication Flags
 

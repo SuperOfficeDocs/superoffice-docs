@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "quick_reply"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # quick\_reply Table (462)
+
+Personal quick reply text fragments
 
 ## Fields
 
@@ -41,6 +43,13 @@ so.envir:
 |--------|-------|-------------|
 |quick\_reply\_id |PK |Clustered, Unique |
 |rank |UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_shipment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_shipment Table (334)
+
+Contains info about one shipment. The addresses are stored in s_shipment_addr
 
 ## Fields
 
@@ -51,6 +53,18 @@ so.envir:
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 |active\_pane|The currently active pane in the mailing wizard|Int|&#x25CF;|
 |sorting|Which sorting should be used on the document mailing recipient list, used when generating PDF|Enum [RecipientSorting](enums/recipientsorting.md)| |
+|delivered\_num|Number of mails sent minus bounces|Int|&#x25CF;|
+|open\_num|Number of opened emails count|Int|&#x25CF;|
+|open\_rate|Open rate % (open_num / delivered_num)|Double|&#x25CF;|
+|click\_num|Number of links clicked|Int|&#x25CF;|
+|click\_rate|Click rate % (click_num / delivered_num)|Double|&#x25CF;|
+|hardbounce\_num|Number of hard bounces|Int|&#x25CF;|
+|hardbounce\_rate|Hard bounce rate % (hardbounce_num / number_transmitted)|Double|&#x25CF;|
+|softbounce\_num|Number of soft bounces|Int|&#x25CF;|
+|softbounce\_rate|Soft bounce rate % (softbounce_num / number_transmitted)|Double|&#x25CF;|
+|totalbounce\_num|Total number of bounces|Int|&#x25CF;|
+|totalbounce\_rate|Total bounce rate % (totalbounce_num / number_transmitted)|Double|&#x25CF;|
+|are\_statistics\_dirty|Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens|Bool| |
 |shipmenttype\_id|Id of subscriptionType that this shipment has, so we may check for reservations|FK [ShipmentType](shipmenttype.md)|&#x25CF;|
 
 
@@ -64,6 +78,28 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |message\_id |FK |Index |
+|are\_statistics\_dirty, id |Bool, PK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
+|[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+|[project](project.md)  |Projects |
+|[s\_bounce\_shipment](s-bounce-shipment.md)  |Email bounces from customers |
+|[s\_link\_customer](s-link-customer.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
+|[s\_link\_customer\_statical](s-link-customer-statical.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
+|[s\_list\_shipment](s-list-shipment.md)  |A connector between shipment and list so that one shipment can have many lists, and one list can have many shipments |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
+|[s\_sent\_message](s-sent-message.md)  |Emarketeer message control |
+|[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
+|[s\_smtp\_servers](s-smtp-servers.md)  |Contains the smtp server for a shipment |
+|[selection](selection.md)  |Selections |
+|[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
+|[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "chat_topic_user"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # chat\_topic\_user Table (331)
+
+This table connected the chat topics with the users (i.e. the membership).
 
 ## Fields
 
@@ -39,6 +41,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |topic\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

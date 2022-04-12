@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersPos"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,16 @@ PersPos list table. Contact person position list
 |--------|-------|-------------|
 |PersPos\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[PersPosGroupLink](persposgrouplink.md)  |User group link table for PersPos, for MDO item hiding |
+|[PersPosHeadingLink](persposheadinglink.md)  |Heading link table for PersPos, for MDO headers |
+
 
 ## Replication Flags
 

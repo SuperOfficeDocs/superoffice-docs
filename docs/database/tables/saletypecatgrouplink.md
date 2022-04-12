@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeCatGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaleTypeCatGroupLink Table (119)
+
+User group link table for SaleTypeCat, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |saletypecatgrouplink\_id |PK |Clustered, Unique |
 |saletypecat\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SaleTypeCat](saletypecat.md)  |Category for sale type |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

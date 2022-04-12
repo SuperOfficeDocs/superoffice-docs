@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_solution_finder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_solution\_finder Table (294)
+
+Knowledge base problem solving wizard, categories and subcategories for drilling down
 
 ## Fields
 
@@ -35,6 +37,14 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[kb\_solution\_finder](kb-solution-finder.md)  |Knowledge base problem solving wizard, categories and subcategories for drilling down |
+|[kb\_solution\_finder\_entry](kb-solution-finder-entry.md)  |Knowledge base problem solving wizard, items in a category linking to a knowledge base entry |
+
 
 ## Replication Flags
 

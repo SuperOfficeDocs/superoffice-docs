@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_log_action"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_log\_action Table (269)
+
+This table contains actions for the tickets.
 
 ## Fields
 
@@ -45,6 +47,17 @@ so.envir:
 |message\_id |FK |Index |
 |user\_id |FK |Index |
 |customer\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
+
 
 ## Replication Flags
 

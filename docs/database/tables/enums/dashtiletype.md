@@ -5,7 +5,7 @@ description: Lists the enum values for DashTileType.
 so.generated: true
 keywords:
   - "database"
-so.date: 11.02.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,7 +26,11 @@ Dashboard tile type
 |Line|5|Line|
 |Area|6|Area|
 |Column|7|Column|
-|Combined|8|Combined|
+|CombinedBarLine|8|CombinedBarLine|
+|CombinedColumnLine|9|CombinedColumnLine|
+|WebPanel|10|WebPanel|
+|HTML|11|HTML|
+|Gauge|12|Gauge|
 
 ## Usage
 

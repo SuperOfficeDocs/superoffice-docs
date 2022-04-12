@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dictionary_base"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dictionary\_base Table (359)
+
+Language catalog for the ejournal dictionaries (automatic proof reading of message text etc)
 
 ## Fields
 
@@ -34,6 +36,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dictionary](dictionary.md)  |User added dictionary words |
+
 
 ## Replication Flags
 

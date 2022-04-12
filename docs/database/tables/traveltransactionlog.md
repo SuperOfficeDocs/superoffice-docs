@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "traveltransactionlog"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # traveltransactionlog Table (29)
+
+Log of all updates made to the database, that need to be replicated.
 
 ## Fields
 
@@ -42,6 +44,16 @@ so.envir:
 |ttime |DateTime |Index |
 |tablenumber, record\_id |TableNumber, RecordId |Index |
 |type, tablenumber, traveltransactionlog\_id |Enum, TableNumber, PK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
+|[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |
+|[traveller](traveller.md)  |Associates traveling out from this database |
+
 
 ## Replication Flags
 

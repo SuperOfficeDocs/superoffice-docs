@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_menus"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # extra\_menus Table (307)
+
+This table contains entries for the extra menus in the system.
 
 ## Fields
 
@@ -43,6 +45,15 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |extra\_table |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejscript](ejscript.md)  |ejscript |
+|[extra\_menus](extra-menus.md)  |This table contains entries for the extra menus in the system. |
+|[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
+
 
 ## Replication Flags
 

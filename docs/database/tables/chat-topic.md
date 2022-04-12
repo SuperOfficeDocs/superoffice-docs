@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "chat_topic"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # chat\_topic Table (330)
+
+This table contains chat topics.
 
 ## Fields
 
@@ -90,6 +92,12 @@ so.envir:
 |lunch\_start|When opening hours starts for lunch. Only time-part is used.|DateTime|&#x25CF;|
 |lunch\_stop|When opening hours stops for lunch. Only time-part is used.|DateTime|&#x25CF;|
 |widget\_agent\_use\_firstname|Whether to use the firstname of the agent in the chat widget.|Bool|&#x25CF;|
+|warning\_chat\_message|Contains the user notify time in minutes for new chat messages|Int| |
+|manager\_warning\_chat\_message|Contains the manager notify time in minutes for new chat messages|Int| |
+|offline\_form\_time\_limit|The number of minutes in the queue before the offline form is available|Int|&#x25CF;|
+|offline\_form\_queue\_length|The number of customers in the queue before the offline form is available|Int|&#x25CF;|
+|widget\_enable\_rating|Setting this to true will enable rating support in the chat widget|Bool|&#x25CF;|
+|widget\_rating\_text|The text to be displayed in the widget next to the rating stars|String(1024)|&#x25CF;|
 
 
 ![chat_topic table relationship diagram](./media/chat_topic.png)
@@ -102,6 +110,21 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |language\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[chat\_topic\_user](chat-topic-user.md)  |This table connected the chat topics with the users (i.e. the membership). |
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ejscript](ejscript.md)  |ejscript |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+|[TZLocation](tzlocation.md)  |Time zone location |
+
 
 ## Replication Flags
 

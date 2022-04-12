@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PrefDescLine"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PrefDescLine Table (185)
+
+Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.
 
 ## Fields
 
@@ -43,6 +45,14 @@ so.envir:
 |PrefDescLine\_id |PK |Clustered, Unique |
 |PrefDesc\_id |FK |Index |
 |prefValue |String(99) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PrefDesc](prefdesc.md)  |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.  |
+
 
 ## Replication Flags
 

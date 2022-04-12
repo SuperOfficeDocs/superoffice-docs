@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_http_link"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_http\_link Table (285)
+
+This table contains URL&amp;apos;s associated with a single FAQ entry.
 
 ## Fields
 
@@ -35,6 +37,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+
 
 ## Replication Flags
 

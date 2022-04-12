@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpConnectionActorType"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpConnectionActorType Table (419)
+
+Data about the configuration of one Erp Actor on one ErpConnection
 
 ## Fields
 
@@ -42,6 +44,15 @@ so.envir:
 |erpconnectionactortype\_id |PK |Clustered, Unique |
 |ErpConnectionId, ActorTypeErp |FK, Enum |Unique |
 |ErpConnectionId, ActorTypeCrm |FK, Enum |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
+|[ErpField](erpfield.md)  |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector |
+
 
 ## Replication Flags
 

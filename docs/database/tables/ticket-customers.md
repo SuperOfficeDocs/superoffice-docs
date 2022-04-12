@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_customers"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_customers Table (264)
+
+This table allows several customers to be connected to several tickets (many-to-many)
 
 ## Fields
 
@@ -36,6 +38,14 @@ so.envir:
 |ticket\_id |FK |Index |
 |customer\_id |FK |Index |
 |ticket\_id, customer\_id |FK, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 

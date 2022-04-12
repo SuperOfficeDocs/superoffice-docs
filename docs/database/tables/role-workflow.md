@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "role_workflow"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # role\_workflow Table (327)
+
+Knowledge base workflow access rights associated with a role
 
 ## Fields
 
@@ -38,6 +40,15 @@ so.envir:
 |role |FK |Index |
 |workflow\_id |FK |Index |
 |crm\_role |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
+|[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 

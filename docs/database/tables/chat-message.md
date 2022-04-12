@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "chat_message"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # chat\_message Table (333)
+
+This table contains messages in a chat session.
 
 ## Fields
 
@@ -41,6 +43,14 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |session\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

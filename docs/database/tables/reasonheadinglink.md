@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ReasonHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ReasonHeadingLink Table (105)
+
+Heading link table for Reason, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |reasonheadinglink\_id |PK |Clustered, Unique |
 |reason\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[Reason](reason.md)  |Reason list table. Why we lost the sale (list) |
+
 
 ## Replication Flags
 

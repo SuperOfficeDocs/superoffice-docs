@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleStakeholder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaleStakeholder Table (121)
+
+Stakeholders in the sale, very similar to project members
 
 ## Fields
 
@@ -44,6 +46,17 @@ so.envir:
 |salestakeholder\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[StakeholderRole](stakeholderrole.md)  |Role a stakeholder has in a sale |
+
 
 ## Replication Flags
 

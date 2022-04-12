@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLEFieldText"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # OLEFieldText Table (166)
+
+Control data table for the OLE DB Provider
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |languageId |Id |Index |
 |name |String(29) |Index |
 |OLEField\_id, languageId |FK, Id |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[OLESubject](olesubject.md)  |Control data table for the OLE DB Provider |
+
 
 ## Replication Flags
 

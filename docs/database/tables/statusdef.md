@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StatusDef"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # StatusDef Table (198)
+
+Status definitions. Name and description are in LocaleText for internationalization
 
 ## Fields
 
@@ -47,6 +49,16 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |StatusDef\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[StatusValue](statusvalue.md)  |Values for statuses |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+|[text](text.md)  |Long text fields from all over the system |
+
 
 ## Replication Flags
 

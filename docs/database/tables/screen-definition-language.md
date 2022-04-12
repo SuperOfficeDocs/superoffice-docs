@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_language"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # screen\_definition\_language Table (374)
+
+Custom language variables used for screens
 
 ## Fields
 
@@ -36,6 +38,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[screen\_definition](screen-definition.md)  |A configurable screen |
+
 
 ## Replication Flags
 

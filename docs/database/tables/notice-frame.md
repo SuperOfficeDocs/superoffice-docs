@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "notice_frame"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # notice\_frame Table (404)
+
+PID controller for automatic adjustment of pop up message check rate
 
 ## Fields
 

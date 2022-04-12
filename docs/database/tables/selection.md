@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "selection"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # selection Table (23)
+
+Selections
 
 ## Fields
 
@@ -67,6 +69,22 @@ so.envir:
 |source |UShort |Index |
 |done |Bool |Index |
 |associate\_id |FK |Clustered |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[dashboard\_tile\_definition](dashboard-tile-definition.md)  |Describes the contents of a tile |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+|[SearchCat](searchcat.md)  |SearchCat list table |
+|[selection](selection.md)  |Selections |
+|[selectionmember](selectionmember.md)  |Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id. |
+|[text](text.md)  |Long text fields from all over the system |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+|[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+
 
 ## Replication Flags
 

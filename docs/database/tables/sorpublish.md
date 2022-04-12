@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORPublish"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SORPublish Table (174)
+
+SuperOffice reporter data
 
 ## Fields
 
@@ -52,6 +54,17 @@ so.envir:
 |associate\_id |FK |Index |
 |defaultLabelLayout |FK |Index |
 |forceDefault |UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SORCriteria](sorcriteria.md)  |SuperOffice reporter data |
+|[SORLabelLayout](sorlabellayout.md)  |SuperOffice reporter data |
+|[SORPublishGroupLink](sorpublishgrouplink.md)  |Link table used for filtering reports by user group |
+|[SORTemplate](sortemplate.md)  |SuperOffice reporter data |
+
 
 ## Replication Flags
 

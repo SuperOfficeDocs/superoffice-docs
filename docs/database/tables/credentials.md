@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Credentials"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Credentials Table (250)
+
+Alternative credentials
 
 ## Fields
 
@@ -55,6 +57,14 @@ so.envir:
 |credentialType, personId |String(254), FK |Index |
 |credentialType, searchName |String(254), String(254) |Unique |
 |credentialType, isActive, Credentials\_id, validFrom, validTo |String(254), Enum, PK, DateTime, DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

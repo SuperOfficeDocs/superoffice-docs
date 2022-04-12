@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "user_candidate"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # user\_candidate Table (389)
+
+This table will hold user candidate secrets
 
 ## Fields
 
@@ -36,6 +38,13 @@ so.envir:
 |id |PK |Clustered, Unique |
 |person\_id |FK |Index |
 |secret\_key |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

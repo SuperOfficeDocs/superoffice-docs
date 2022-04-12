@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "satellite"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # satellite Table (42)
+
+Definition of Satellites
 
 ## Fields
 
@@ -40,6 +42,16 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |satellite\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[area](area.md)  |Definition of an Area (database subset for satellite and travel) |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[LicenseSatlLink](licensesatllink.md)  |Link between License and Satellite, for per-database licenses |
+
 
 ## Replication Flags
 

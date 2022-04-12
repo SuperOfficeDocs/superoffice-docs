@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "URL"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # URL Table (54)
+
+Unified Resource Locators, URL to contacts, persons or projects.
 
 ## Fields
 
@@ -52,6 +54,16 @@ so.envir:
 |reserved\_id2 |Id |Index |
 |url\_address |String(1023) |Index |
 |rank |UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[project](project.md)  |Projects |
+
 
 ## Replication Flags
 

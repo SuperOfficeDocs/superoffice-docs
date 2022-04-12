@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_entry Table (282)
+
+This table contains FAQ entries.
 
 ## Fields
 
@@ -60,6 +62,24 @@ so.envir:
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
 |title, question, answer, keywords |String(255), Clob, Clob, String(255) |Full text |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[kb\_attachment](kb-attachment.md)  |This table connects FAQ entries to attachments. |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[kb\_entry\_comment](kb-entry-comment.md)  |Comments to entries in the knowledge base, typically made by customers |
+|[kb\_entry\_keyword](kb-entry-keyword.md)  |This table contains all keywords for the faq entries |
+|[kb\_entry\_log](kb-entry-log.md)  |Who and when, if somebody edits a knowledge base entry |
+|[kb\_group\_entry](kb-group-entry.md)  |This table contains group entries for FAQ groups. |
+|[kb\_http\_link](kb-http-link.md)  |This table contains URL&amp;apos;s associated with a single FAQ entry. |
+|[kb\_solution\_finder\_entry](kb-solution-finder-entry.md)  |Knowledge base problem solving wizard, items in a category linking to a knowledge base entry |
+|[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
+|[word\_relations](word-relations.md)  |This table shows which word are used in which FAQ entry, and how many times            they are used in each |
+
 
 ## Replication Flags
 

@@ -1,0 +1,22 @@
+digraph target_assignment_info  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+target_assignment_info[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+Currency[fillcolor = "azure1"]
+target_assignment_value[fillcolor = "azure1"]
+target_revision_history[fillcolor = "azure1"]
+target_revision[fillcolor = "azure1"]
+target_assignment_info -> associate [headlabel = "associate_id"]
+target_assignment_info -> contact [headlabel = "contact_id"]
+target_assignment_info -> UserGroup [headlabel = "usergroup_id"]
+target_assignment_info -> Currency [headlabel = "currency_id"]
+target_assignment_info -> associate [label = "registered_associate_id"]
+target_assignment_info -> associate [label = "updated_associate_id"]
+target_assignment_value -> target_assignment_info [label = "target_assignment_info_id"]
+target_revision_history -> target_assignment_info [label = "target_assignment_info_id"]
+target_revision -> target_assignment_info [label = "assignment_info_id"]
+}

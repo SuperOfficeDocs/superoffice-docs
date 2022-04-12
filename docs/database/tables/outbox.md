@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "outbox"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # outbox Table (351)
+
+Outgoing emails with sending status and other info
 
 ## Fields
 
@@ -48,6 +50,15 @@ so.envir:
 |id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |message\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 

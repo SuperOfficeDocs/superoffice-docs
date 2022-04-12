@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleType"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -60,6 +60,21 @@ Type of sale - large solution, incremental, whatever fits the organization
 |--------|-------|-------------|
 |SaleType\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[SaleTypeCat](saletypecat.md)  |Category for sale type |
+|[SaleTypeGroupLink](saletypegrouplink.md)  |User group link table for SaleType, for MDO item hiding |
+|[SaleTypeHeadingLink](saletypeheadinglink.md)  |Heading link table for SaleType, for MDO headers |
+|[SaleTypeQuoteAttachment](saletypequoteattachment.md)  |Default attachments to quotes linked to sales of this type |
+|[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
+
 
 ## Replication Flags
 

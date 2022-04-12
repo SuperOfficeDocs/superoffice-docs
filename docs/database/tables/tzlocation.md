@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TZLocation"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TZLocation Table (245)
+
+Time zone location
 
 ## Fields
 
@@ -47,6 +49,23 @@ so.envir:
 |--------|-------|-------------|
 |TZLocation\_id |PK |Clustered, Unique |
 |locationCode |String(29) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[BaseTZLocation](basetzlocation.md)  |Time zone location for the database (how tz-related datetimes should be stored in the database) |
+|[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[country](country.md)  |Country information |
+|[DiaryView](diaryview.md)  |Configuration of a multi-user diary view |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[project](project.md)  |Projects |
+|[TZDstRule](tzdstrule.md)  |Time zone rule for daylight saving time |
+|[TZStdRule](tzstdrule.md)  |Time zone rule for standard time |
+
 
 ## Replication Flags
 

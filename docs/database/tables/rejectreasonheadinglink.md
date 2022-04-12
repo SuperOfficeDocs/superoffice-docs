@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RejectReasonHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # RejectReasonHeadingLink Table (224)
+
+Heading link table for RejectReason, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |rejectreasonheadinglink\_id |PK |Clustered, Unique |
 |rejectreason\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[RejectReason](rejectreason.md)  |Rejection reason (suggested) for bookings |
+
 
 ## Replication Flags
 

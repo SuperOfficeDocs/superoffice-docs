@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "scheduled_task"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # scheduled\_task Table (376)
+
+A scheduled entry executing a script at certain times
 
 ## Fields
 
@@ -36,6 +38,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |script\_id |FK |Index |
 |schedule\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejscript](ejscript.md)  |ejscript |
+|[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
+
 
 ## Replication Flags
 

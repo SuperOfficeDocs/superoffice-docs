@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "FunctionRightRoleLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # FunctionRightRoleLink Table (194)
+
+Functional right definition
 
 ## Fields
 
@@ -42,6 +44,15 @@ so.envir:
 |roleId |FK |Index |
 |functionRightId |FK |Index |
 |roleId, functionRightId |FK, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[FunctionRight](functionright.md)  |Functional right definition |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_workflow_access"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_workflow\_access Table (293)
+
+Control of who can do what in a knowledge base workflow step
 
 ## Fields
 
@@ -36,6 +38,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |kb\_workflow |FK |Index |
 |user\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
+
 
 ## Replication Flags
 

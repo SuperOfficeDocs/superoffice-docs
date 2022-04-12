@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "form_submission"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # form\_submission Table (479)
+
+A form submission
 
 ## Fields
 
@@ -33,6 +35,8 @@ so.envir:
 
 ![form_submission table relationship diagram](./media/form_submission.png)
 
+[!include[details](./includes/form-submission.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -42,6 +46,17 @@ so.envir:
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |response\_shipment\_addr\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 

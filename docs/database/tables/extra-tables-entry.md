@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_tables_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # extra\_tables\_entry Table (309)
+
+Hits/entries in result set of executed search in ejournal extra tables
 
 ## Fields
 
@@ -38,6 +40,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |extra\_tables\_result |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[extra\_tables\_result](extra-tables-result.md)  |Result set of executed search in ejournal extra tables |
+
 
 ## Replication Flags
 

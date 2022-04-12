@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCriterion"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SearchCriterion Table (203)
+
+Criteria storage for Selection and other Find mechanisms
 
 ## Fields
 
@@ -48,6 +50,15 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |SearchCriterion\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SearchCriteriaGroup](searchcriteriagroup.md)  |Criteria storage for Selection and other Find mechanisms |
+|[SearchCriterionValue](searchcriterionvalue.md)  |Criteria storage for Selection and other Find mechanisms |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_substitute"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ms\_substitute Table (313)
+
+Regexp for extracting info from emails when they enter they system
 
 ## Fields
 
@@ -37,6 +39,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |ms\_filter\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UserPreference"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # UserPreference Table (56)
+
+Preference system. If deflevel is set to 5; the user may change the preferences
 
 ## Fields
 
@@ -47,6 +49,14 @@ so.envir:
 |prefsection |String(199) |Index |
 |prefkey |String(199) |Index |
 |prefsection, prefkey, deflevel, owner\_id |String(199), String(199), Enum, Id |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[text](text.md)  |Long text fields from all over the system |
+
 
 ## Replication Flags
 

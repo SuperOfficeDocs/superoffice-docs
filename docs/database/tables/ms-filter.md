@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_filter"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ms\_filter Table (310)
+
+This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails.
 
 ## Fields
 
@@ -40,6 +42,7 @@ so.envir:
 |flags|Flags|Int|&#x25CF;|
 |parse\_mode|If automatic parsing this column indicate mode|Short|&#x25CF;|
 |ejscript|The reference to the ejscript to execute for this filter.|FK [ejscript](ejscript.md)|&#x25CF;|
+|new\_tags|The tags to set for tickets modified by this filter|FKArray|&#x25CF;|
 
 
 ![ms_filter table relationship diagram](./media/ms_filter.png)
@@ -58,6 +61,23 @@ so.envir:
 |body\_template |FK |Index |
 |autofaq\_reply\_category |FK |Index |
 |ejscript |FK |Index |
+|new\_tags |FKArray |Full text |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ejscript](ejscript.md)  |ejscript |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[ms\_filter\_mail](ms-filter-mail.md)  |This table connects mail filters (ms_filter) to mailboxes (mail_in_filter). |
+|[ms\_substitute](ms-substitute.md)  |Regexp for extracting info from emails when they enter they system |
+|[ms\_trashbin](ms-trashbin.md)  |This table contains entries for emails which have been trashed by a filter, waiting for confirmation of deletion or import. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+|[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
+|[Tags](tags.md)  |MDO List of tags for Service entities |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+
 
 ## Replication Flags
 

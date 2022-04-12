@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MrMrs"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ MrMrs list table. List of salutations.
 |--------|-------|-------------|
 |MrMrs\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[MrMrsGroupLink](mrmrsgrouplink.md)  |User group link table for MrMrs, for MDO item hiding |
+|[MrMrsHeadingLink](mrmrsheadinglink.md)  |Heading link table for MrMrs, for MDO headers |
+
 
 ## Replication Flags
 

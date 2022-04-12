@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpSyncLog"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpSyncLog Table (426)
+
+Record all field changes done by the Erp Sync
 
 ## Fields
 
@@ -42,6 +44,14 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |erpsynclog\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
+
 
 ## Replication Flags
 

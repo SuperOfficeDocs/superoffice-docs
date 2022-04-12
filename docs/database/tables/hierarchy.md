@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "hierarchy"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # hierarchy Table (306)
+
+This table contains folders used to group the extra tables in the system.
 
 ## Fields
 
@@ -43,6 +45,21 @@ so.envir:
 |domain |Int |Index |
 |parent\_id |FK |Index |
 |name |String(128) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
+|[ejscript](ejscript.md)  |ejscript |
+|[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
+|[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[screen\_definition](screen-definition.md)  |A configurable screen |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjType"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -48,6 +48,17 @@ ProjType list table. List of valid Project types.
 |--------|-------|-------------|
 |ProjType\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[project](project.md)  |Projects |
+|[ProjectTypeStatusLink](projecttypestatuslink.md)  |Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items |
+|[ProjTypeGroupLink](projtypegrouplink.md)  |User group link table for ProjType, for MDO item hiding |
+|[ProjTypeHeadingLink](projtypeheadinglink.md)  |Heading link table for ProjType, for MDO headers |
+
 
 ## Replication Flags
 

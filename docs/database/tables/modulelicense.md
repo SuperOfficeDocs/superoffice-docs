@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ModuleLicense"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ModuleLicense Table (237)
+
+Module licenses, belonging to one single owner
 
 ## Fields
 
@@ -53,6 +55,16 @@ so.envir:
 |--------|-------|-------------|
 |ModuleLicense\_id |PK |Clustered, Unique |
 |moduleName, moduleVersion, ModuleOwner\_id |String(239), String(254), FK |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[LicenseAssocLink](licenseassoclink.md)  |Link between ModuleLicense and Associate, for per-assoc licenses; this is how licenses are assigned/consumed |
+|[LicenseSatlLink](licensesatllink.md)  |Link between License and Satellite, for per-database licenses |
+|[ModuleOwner](moduleowner.md)  |Unique owner of a set of licensed modules |
+
 
 ## Replication Flags
 

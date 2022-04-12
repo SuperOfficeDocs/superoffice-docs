@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LegalBase"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # LegalBase Table (465)
+
+Legal base for GDPR (Article 6)
 
 ## Fields
 
@@ -34,12 +36,22 @@ so.envir:
 
 ![LegalBase table relationship diagram](./media/LegalBase.png)
 
+[!include[details](./includes/legalbase.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |legalbase\_id |PK |Clustered, Unique |
 |key |String(255) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
+
 
 ## Replication Flags
 

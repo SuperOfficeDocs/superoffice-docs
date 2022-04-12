@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreignapp"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # foreignapp Table (181)
+
+Top level of Foreign Key system
 
 ## Fields
 
@@ -37,6 +39,14 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |foreignapp\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
+
 
 ## Replication Flags
 

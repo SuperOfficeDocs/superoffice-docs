@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "VisibleFor"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # VisibleFor Table (196)
+
+Visible for rights, who may see this appointment/document, sale,  salehist or selection
 
 ## Fields
 
@@ -52,6 +54,18 @@ so.envir:
 |selectionId |FK |Index |
 |recordId, tableId |RecordId, TableNumber |Index |
 |tableId, recordId, forAll, forGroupId, forAssocId |TableNumber, RecordId, Id, FK, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[selection](selection.md)  |Selections |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

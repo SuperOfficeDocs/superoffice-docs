@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjectTypeStatusLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ProjectTypeStatusLink Table (213)
+
+Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items
 
 ## Fields
 
@@ -41,6 +43,17 @@ so.envir:
 |--------|-------|-------------|
 |ProjectTypeStatusLink\_id |PK |Clustered, Unique |
 |projType\_id, projStatus\_id |FK, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProjStatus](projstatus.md)  |ProjStatus list table. Project status |
+|[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |
+|[SuggestedAppointment](suggestedappointment.md)  |Defines a suggested appointment for use in a Sale Guide or Project Guide |
+|[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
+
 
 ## Replication Flags
 

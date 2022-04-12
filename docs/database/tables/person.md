@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "person"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # person Table (6)
+
+Persons in a company or an organizations. All associates have a corresponding person record
 
 ## Fields
 
@@ -28,9 +30,9 @@ so.envir:
 |title|Title|String(239)|&#x25CF;|
 |text\_id|Info tab contents|FK [text](text.md)|&#x25CF;|
 |position\_idx|Link to Position list|FK [PersPos](perspos.md)|&#x25CF;|
-|year\_of\_birth|Birth year (4 digit)|UShort|&#x25CF;|
-|month\_of\_birth|Birth month|UShort|&#x25CF;|
-|day\_of\_birth|Birth date (day of month)|UShort|&#x25CF;|
+|year\_of\_birth|Birth year (4 digit), 0 if not specifed|UShort|&#x25CF;|
+|month\_of\_birth|Birth month (1-12), 0 if not specified|UShort|&#x25CF;|
+|day\_of\_birth|Birth date (day of month), 0 if not specified|UShort|&#x25CF;|
 |phone\_present|flag to show there are phone registrations |UShort|&#x25CF;|
 |userdef\_id|User defined table record 1|FK [udpersonSmall](udpersonsmall.md)|&#x25CF;|
 |registered|Registered date|UtcDateTime| |
@@ -102,6 +104,61 @@ so.envir:
 |contact\_id, rank |FK, UShort |Index |
 |middleName |String(99) |Index |
 |DeletedDate |UtcDateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[address](address.md)  |Contact and Person addresses |
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Business](business.md)  |Business list table |
+|[Category](category.md)  |Category list table |
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[CounterValue](countervalue.md)  |Visible for rights |
+|[country](country.md)  |Country information |
+|[Credentials](credentials.md)  |Alternative credentials |
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[Email](email.md)  |Email addresses for contacts, projects and persons |
+|[email\_item](email-item.md)  |Email data |
+|[form\_submission](form-submission.md)  |A form submission |
+|[invoice](invoice.md)  |This table contains invoice entries, normally created when an invoice is sent to a customer, and we want to update the balance. |
+|[invoice\_sum](invoice-sum.md)  |This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies. |
+|[kb\_entry\_comment](kb-entry-comment.md)  |Comments to entries in the knowledge base, typically made by customers |
+|[login\_customer](login-customer.md)  |This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins |
+|[message\_customers](message-customers.md)  |This table contains all cutomers who are involved in a message |
+|[personinterest](personinterest.md)  |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest. |
+|[PersPos](perspos.md)  |PersPos list table. Contact person position list |
+|[phone](phone.md)  |Contact and Person phonenumbers (+fax) |
+|[projectmember](projectmember.md)  |Project members. Link-table between person and project |
+|[s\_bounce\_shipment](s-bounce-shipment.md)  |Email bounces from customers |
+|[s\_link\_customer](s-link-customer.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
+|[s\_list\_customer](s-list-customer.md)  |Elements in a customer list. |
+|[s\_sent\_message](s-sent-message.md)  |Emarketeer message control |
+|[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[SaleStakeholder](salestakeholder.md)  |Stakeholders in the sale, very similar to project members |
+|[selectionmember](selectionmember.md)  |Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id. |
+|[ShipmentTypeReservation](shipmenttypereservation.md)  |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type |
+|[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
+|[StatusValue](statusvalue.md)  |Values for statuses |
+|[TemporaryKey](temporarykey.md)  |Temporary keys for lightweight authentications such as changing ones subscriptions |
+|[text](text.md)  |Long text fields from all over the system |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_customers](ticket-customers.md)  |This table allows several customers to be connected to several tickets (many-to-many) |
+|[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+|[TZLocation](tzlocation.md)  |Time zone location |
+|[udpersonLarge](udpersonlarge.md)  |User-defined fields |
+|[udpersonSmall](udpersonsmall.md)  |User-defined fields |
+|[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
+|[user\_candidate](user-candidate.md)  |This table will hold user candidate secrets |
+
 
 ## Replication Flags
 

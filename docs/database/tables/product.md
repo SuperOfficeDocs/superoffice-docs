@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Product"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Product Table (129)
+
+One Product, member of one price list
 
 ## Fields
 
@@ -69,6 +71,14 @@ so.envir:
 |product\_id |PK |Clustered, Unique |
 |ERPProductKey |String(254) |Index |
 |PriceListId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PriceList](pricelist.md)  |List of prices, cached from an ERP system |
+
 
 ## Replication Flags
 

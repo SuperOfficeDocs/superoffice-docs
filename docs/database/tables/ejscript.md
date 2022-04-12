@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejscript"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejscript Table (377)
+
+ejscript
 
 ## Fields
 
@@ -48,6 +50,24 @@ so.envir:
 |hierarchy\_id |FK |Index |
 |include\_id |String(255) |Index |
 |unique\_identifier |String(64) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[dbi\_agent\_schedule](dbi-agent-schedule.md)  |DBI agent schedule settings |
+|[extra\_menus](extra-menus.md)  |This table contains entries for the extra menus in the system. |
+|[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+|[scheduled\_task](scheduled-task.md)  |A scheduled entry executing a script at certain times |
+|[screen\_definition\_action](screen-definition-action.md)  |An action to perform for a certain button in an screen |
+|[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
+|[ticket\_relation\_action](ticket-relation-action.md)  |Contains ticket relation actions, used to drive processing logic together with ticket relations |
+
 
 ## Replication Flags
 

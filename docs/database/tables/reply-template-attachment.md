@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "reply_template_attachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # reply\_template\_attachment Table (278)
+
+This table is used to connect attachments to reply templates (many-to-many).
 
 ## Fields
 
@@ -35,6 +37,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
 |attachment\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+
 
 ## Replication Flags
 

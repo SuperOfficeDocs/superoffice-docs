@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ConsentPurpose"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ConsentPurpose Table (464)
+
+GDPR purpose alternatives
 
 ## Fields
 
@@ -39,6 +41,8 @@ so.envir:
 
 ![ConsentPurpose table relationship diagram](./media/ConsentPurpose.png)
 
+[!include[details](./includes/consentpurpose.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -46,6 +50,14 @@ so.envir:
 |consentpurpose\_id |PK |Clustered, Unique |
 |name |String(4000) |Unique |
 |key |String(255) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ShipmentTypeReservation"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ShipmentTypeReservation Table (491)
+
+ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 
 ## Fields
 
@@ -31,6 +33,8 @@ so.envir:
 
 ![ShipmentTypeReservation table relationship diagram](./media/ShipmentTypeReservation.png)
 
+[!include[details](./includes/shipmenttypereservation.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -38,6 +42,15 @@ so.envir:
 |ShipmentTypeReservation\_id |PK |Clustered, Unique |
 |person\_id |FK |Index |
 |ShipmentType\_id, person\_id |FK, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
+
 
 ## Replication Flags
 

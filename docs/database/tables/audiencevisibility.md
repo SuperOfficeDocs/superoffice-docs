@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AudienceVisibility"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # AudienceVisibility Table (232)
+
+How projects (or whatever) should be made visible in audience
 
 ## Fields
 
@@ -45,6 +47,13 @@ so.envir:
 |AudienceVisibility\_id |PK |Clustered, Unique |
 |sourceTable, sourceRecord |TableNumber, RecordId |Index |
 |controllingTable, controllingRecord |TableNumber, RecordId |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

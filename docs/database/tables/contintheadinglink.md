@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ContIntHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ContIntHeadingLink Table (72)
+
+Heading link table for ContInt, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |contintheadinglink\_id |PK |Clustered, Unique |
 |contint\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+
 
 ## Replication Flags
 

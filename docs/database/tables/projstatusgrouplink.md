@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjStatusGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ProjStatusGroupLink Table (89)
+
+User group link table for ProjStatus, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |projstatusgrouplink\_id |PK |Clustered, Unique |
 |projstatus\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProjStatus](projstatus.md)  |ProjStatus list table. Project status |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

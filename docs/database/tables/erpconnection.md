@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpConnection"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpConnection Table (418)
+
+One connection to an ERP connector, specifying Client and other required information
 
 ## Fields
 
@@ -46,6 +48,19 @@ so.envir:
 |erpconnection\_id |PK |Clustered, Unique |
 |ErpConnectorId |FK |Index |
 |ConnectionId |String(127) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConnectionConfigField](connectionconfigfield.md)  |Configuration data for Erp and Quote Connections |
+|[ErpConnectionAccess](erpconnectionaccess.md)  |Access control for Erp Connections |
+|[ErpConnectionActorType](erpconnectionactortype.md)  |Data about the configuration of one Erp Actor on one ErpConnection |
+|[ErpConnector](erpconnector.md)  |One ERP Connector, known by its URL |
+|[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
+|[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
+
 
 ## Replication Flags
 

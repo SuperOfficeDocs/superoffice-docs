@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "locking"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # locking Table (380)
+
+Generic locking and error messages
 
 ## Fields
 
@@ -41,6 +43,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[inbox](inbox.md)  |Info and status for safe email import |
+
 
 ## Replication Flags
 

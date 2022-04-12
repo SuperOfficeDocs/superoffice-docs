@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "element_profile"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # element\_profile Table (328)
+
+The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link
 
 ## Fields
 
@@ -42,6 +44,15 @@ so.envir:
 |id |PK |Clustered, Unique |
 |screen\_definition\_element |FK |Index |
 |owned\_by\_user |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[role\_element](role-element.md)  |Profiles associated with a role |
+|[screen\_definition\_element](screen-definition-element.md)  |An element in a configurable screen |
+
 
 ## Replication Flags
 

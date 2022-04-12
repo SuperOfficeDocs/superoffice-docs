@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_message"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_message Table (335)
+
+A message used in a shipment. Can be html and/or plain text
 
 ## Fields
 
@@ -51,6 +53,18 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
+|[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
+|[s\_attachment](s-attachment.md)  |A connector between a message and attachments. One message can contain many attachments. |
+|[s\_sent\_message](s-sent-message.md)  |Emarketeer message control |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+
 
 ## Replication Flags
 

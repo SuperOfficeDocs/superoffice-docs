@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ReasonSoldHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ReasonSoldHeadingLink Table (117)
+
+Heading link table for ReasonSold, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |reasonsoldheadinglink\_id |PK |Clustered, Unique |
 |reasonsold\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[ReasonSold](reasonsold.md)  |Why was the sale marked as sold (why did we succeed) |
+
 
 ## Replication Flags
 

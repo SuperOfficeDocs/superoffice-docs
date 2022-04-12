@@ -6,14 +6,16 @@ so.generated: true
 keywords:
   - "database"
   - "CacheInvalidation"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CacheInvalidation Table (495)
+# CacheInvalidation Table (503)
+
+Names and generation numbers for distributed invalidation of caches
 
 ## Fields
 
@@ -27,6 +29,8 @@ so.envir:
 
 
 ![CacheInvalidation table relationship diagram](./media/CacheInvalidation.png)
+
+[!include[details](./includes/cacheinvalidation.md)]
 
 ## Indexes
 

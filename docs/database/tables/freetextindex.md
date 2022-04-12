@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "freetextindex"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # freetextindex Table (46)
+
+This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale).
 
 ## Fields
 
@@ -41,6 +43,14 @@ so.envir:
 |table\_id, record\_id |TableNumber, RecordId |Index |
 |freetextwords\_id, ownertable\_id |FK, TableNumber |Clustered |
 |contact\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[freetextwords](freetextwords.md)  |This table contains the word list (automatically updated by the indexer) for the free-text search. Words are in UPPERCASE and truncated to 9 significant characters. Indexed words, dynamically updated by the freetext index |
+
 
 ## Replication Flags
 

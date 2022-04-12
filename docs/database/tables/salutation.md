@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Salutation"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ Academic title for Person
 |--------|-------|-------------|
 |Salutation\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SalutationGroupLink](salutationgrouplink.md)  |User group link table for Salutation, for MDO item hiding |
+|[SalutationHeadingLink](salutationheadinglink.md)  |Heading link table for Salutation, for MDO headers |
+
 
 ## Replication Flags
 

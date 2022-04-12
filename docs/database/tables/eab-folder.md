@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "eab_folder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # eab\_folder Table (314)
+
+This table contains eab (email address book) folders, used for containing email addresses.
 
 ## Fields
 
@@ -37,6 +39,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |folder\_id |FK |Index |
 |name |String(64) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[eab\_entry](eab-entry.md)  |This table contains eab (email address book) entries, i.e. an alias (&amp;apos;Ola Hansen&amp;apos;) and an address (&amp;apos;ola@hansen.as&amp;apos;). |
+|[eab\_folder](eab-folder.md)  |This table contains eab (email address book) folders, used for containing email addresses. |
+
 
 ## Replication Flags
 

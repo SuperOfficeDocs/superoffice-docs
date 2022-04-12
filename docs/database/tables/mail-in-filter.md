@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "mail_in_filter"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # mail\_in\_filter Table (271)
+
+This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP).
 
 ## Fields
 
@@ -43,6 +45,8 @@ so.envir:
 |autofaq|Whether to suggest FAQ entries for this email account or not|Bool|&#x25CF;|
 |autofaq\_kb\_category|The root folder for the auto faq search.|FK [kb_category](kb-category.md)|&#x25CF;|
 |mailgun\_dsn|If this is set to 1, the route created in Mailgun will be set up to deliver emails of type auto-replies, system messsages etc|Bool|&#x25CF;|
+|ai\_suggest\_category|If this is set to 0 (false), then there will be no AI for suggesting categories on incoming emails|Bool| |
+|ai\_text\_analysis|If this is set to 0 (false), then there will be no AI text analysis on incoming emails|Bool| |
 
 
 ![mail_in_filter table relationship diagram](./media/mail_in_filter.png)
@@ -58,6 +62,23 @@ so.envir:
 |priority |FK |Index |
 |reply\_template\_id |FK |Index |
 |language\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[inbox](inbox.md)  |Info and status for safe email import |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[mail\_alias](mail-alias.md)  |This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation. It is in so we can substract the alias&amp;apos;es when when listing the recipients of a message.      |
+|[mail\_in\_uidl](mail-in-uidl.md)  |This table is used to avoid spamming the system by importing the same message several times (normally a result of a crash somewhere). When a mailbox is openede, then unique id for each message is stored in this table, and then removed only when the message has been correctly imported and deleted from mailbox. |
+|[ms\_filter\_mail](ms-filter-mail.md)  |This table connects mail filters (ms_filter) to mailboxes (mail_in_filter). |
+|[ms\_trashbin](ms-trashbin.md)  |This table contains entries for emails which have been trashed by a filter, waiting for confirmation of deletion or import. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+
 
 ## Replication Flags
 

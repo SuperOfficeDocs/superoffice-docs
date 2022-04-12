@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Role"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Role Table (191)
+
+User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http;//techdoc.superoffice.com
 
 ## Fields
 
@@ -43,6 +45,20 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |Role\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DataRight](dataright.md)  |Data right definition |
+|[FunctionRightRoleLink](functionrightrolelink.md)  |Functional right definition |
+|[role\_category](role-category.md)  |Category membership associated with a role |
+|[role\_element](role-element.md)  |Profiles associated with a role |
+|[role\_workflow](role-workflow.md)  |Knowledge base workflow access rights associated with a role |
+|[text](text.md)  |Long text fields from all over the system |
+|[UserRoleLink](userrolelink.md)  |Link between user role and user |
+
 
 ## Replication Flags
 

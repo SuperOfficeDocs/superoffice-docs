@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sequence"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # sequence Table (0)
+
+next_id to be used for each table
 
 ## Fields
 

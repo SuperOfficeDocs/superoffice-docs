@@ -6,14 +6,16 @@ so.generated: true
 keywords:
   - "database"
   - "Webhook"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Webhook Table (493)
+# Webhook Table (500)
+
+Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
 
 ## Fields
 
@@ -29,10 +31,6 @@ so.envir:
 |properties|Hook specific additional data that should be added to payload, stored as JSON blob|Clob|&#x25CF;|
 |secret|Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server|String(400)|&#x25CF;|
 |state|Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors|Enum [WebhookState](enums/webhookstate.md)| |
-|total\_calls|Number of times webhook has been invoked since registered. For statistical purposes.|Int| |
-|total\_errors|Number of times webhook has returned error since registered. For statistical purposes.|Int| |
-|consecutive\_errors|Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, state is changed to TooManyErrors(3) to deactivate webhook.|Int| |
-|last\_error|Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks.|String(4000)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
@@ -42,11 +40,20 @@ so.envir:
 
 ![Webhook table relationship diagram](./media/Webhook.png)
 
+[!include[details](./includes/webhook.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |webhook\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

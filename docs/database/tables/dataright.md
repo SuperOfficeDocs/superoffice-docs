@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DataRight"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # DataRight Table (195)
+
+Data right definition
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |DataRight\_id |PK |Clustered, Unique |
 |roleId |FK |Index |
 |roleId, tableId, fieldId, relationToOwner |FK, TableNumber, FieldId, Enum |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 

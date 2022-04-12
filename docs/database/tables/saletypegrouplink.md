@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaleTypeGroupLink Table (150)
+
+User group link table for SaleType, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |saletypegrouplink\_id |PK |Clustered, Unique |
 |saletype\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "cust_config"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # cust\_config Table (472)
+
+This table contains JSON structures used for customizing the customer center
 
 ## Fields
 
@@ -32,11 +34,21 @@ so.envir:
 
 ![cust_config table relationship diagram](./media/cust_config.png)
 
+[!include[details](./includes/cust-config.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |cust\_config\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_list_element"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_list\_element Table (345)
+
+Elements in a static list.
 
 ## Fields
 
@@ -39,6 +41,13 @@ so.envir:
 |list\_id |FK |Index |
 |address |String(255) |Index |
 |sms |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[s\_list](s-list.md)  |A list, dynamic or static |
+
 
 ## Replication Flags
 

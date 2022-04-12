@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjStatus"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,17 @@ ProjStatus list table. Project status
 |--------|-------|-------------|
 |ProjStatus\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[project](project.md)  |Projects |
+|[ProjectTypeStatusLink](projecttypestatuslink.md)  |Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items |
+|[ProjStatusGroupLink](projstatusgrouplink.md)  |User group link table for ProjStatus, for MDO item hiding |
+|[ProjStatusHeadingLink](projstatusheadinglink.md)  |Heading link table for ProjStatus, for MDO headers |
+
 
 ## Replication Flags
 

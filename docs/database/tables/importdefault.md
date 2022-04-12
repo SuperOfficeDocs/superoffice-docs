@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ImportDefault"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ImportDefault Table (189)
+
+Defaults for import fields/objects
 
 ## Fields
 
@@ -43,6 +45,14 @@ so.envir:
 |--------|-------|-------------|
 |ImportDefault\_id |PK |Clustered, Unique |
 |ImportObject\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ImportObject](importobject.md)  |Import object types - see localetext for names. |
+
 
 ## Replication Flags
 

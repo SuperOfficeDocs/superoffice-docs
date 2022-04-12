@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpInternalKey"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpInternalKey Table (422)
+
+The internal (superoffice-facing) key related to a synchronized record
 
 ## Fields
 
@@ -40,6 +42,14 @@ so.envir:
 |--------|-------|-------------|
 |erpinternalkey\_id |PK |Clustered, Unique |
 |recordId, tableId |RecordId, TableNumber |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
+
 
 ## Replication Flags
 

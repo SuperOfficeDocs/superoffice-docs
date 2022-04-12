@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriorityGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PriorityGroupLink Table (80)
+
+User group link table for Priority, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |prioritygrouplink\_id |PK |Clustered, Unique |
 |priority\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Priority](priority.md)  |Priority list table. Used with appointments: low, high. |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

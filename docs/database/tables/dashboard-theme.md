@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_theme"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dashboard\_theme Table (474)
+
+A set of style rules for the Dashboard
 
 ## Fields
 
@@ -30,15 +32,26 @@ so.envir:
 |rank|Rank order|UShort|&#x25CF;|
 |client|Name of client(s) this theme is available to|String(255)|&#x25CF;|
 |isBuiltIn|Is this row populated by SuperOffice?|Bool|&#x25CF;|
+|style|Style value - for example &apos;light&apos; or &apos;dark&apos;|String(255)|&#x25CF;|
 
 
 ![dashboard_theme table relationship diagram](./media/dashboard_theme.png)
+
+[!include[details](./includes/dashboard-theme.md)]
 
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |dashboard\_theme\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[dashboard](dashboard.md)  |Describes a dashboard |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "activeuser"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # activeuser Table (28)
+
+Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use; for determining who is logged on, at what location, etc.
 
 ## Fields
 
@@ -37,6 +39,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |activeuser\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[traveller](traveller.md)  |Associates traveling out from this database |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "temporary_words"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # temporary\_words Table (356)
+
+This table is used as a temporary table, containing the words we want                  to search for in the FAQs
 
 ## Fields
 

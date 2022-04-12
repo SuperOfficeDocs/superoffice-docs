@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORPublishGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SORPublishGroupLink Table (25)
+
+Link table used for filtering reports by user group
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |SORPublishGroupLink\_id |PK |Clustered, Unique |
 |SORPublishId |FK |Index |
 |UserGroupId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SORPublish](sorpublish.md)  |SuperOffice reporter data |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

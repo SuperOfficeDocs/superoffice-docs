@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_list_shipment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_list\_shipment Table (348)
+
+A connector between shipment and list so that one shipment can have many lists, and one list can have many shipments
 
 ## Fields
 
@@ -37,6 +39,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |list\_id |FK |Index |
 |shipment\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[s\_list](s-list.md)  |A list, dynamic or static |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TaskGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TaskGroupLink Table (68)
+
+User group link table for Task, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |taskgrouplink\_id |PK |Clustered, Unique |
 |task\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

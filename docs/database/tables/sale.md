@@ -1,12 +1,12 @@
 ---
 uid: table-sale
 title: sale table
-description: Sales  For every Sale record edited through the SuperOffice GUI, a copy of the previous version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  
+description: Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  
 so.generated: true
 keywords:
   - "database"
   - "sale"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # sale Table (13)
+
+Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.
 
 ## Fields
 
@@ -86,6 +88,37 @@ so.envir:
 |associate\_id, done, saledate |FK, Enum, DateTime |Index |
 |contact\_id, saledate, associate\_id |FK, DateTime, FK |Index |
 |project\_id, saledate, associate\_id |FK, DateTime, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
+|[Currency](currency.md)  |Currency list table |
+|[email\_item](email-item.md)  |Email data |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[Prob](prob.md)  |Prob list table. Probability, used in  sales . |
+|[project](project.md)  |Projects |
+|[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
+|[Reason](reason.md)  |Reason list table. Why we lost the sale (list) |
+|[ReasonSold](reasonsold.md)  |Why was the sale marked as sold (why did we succeed) |
+|[ReasonStalled](reasonstalled.md)  |Why was the sale marked as stalled |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[SaleStakeholder](salestakeholder.md)  |Stakeholders in the sale, very similar to project members |
+|[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
+|[SaleTypeCat](saletypecat.md)  |Category for sale type |
+|[Source](source.md)  |Source list table. Source for sale (list) |
+|[text](text.md)  |Long text fields from all over the system |
+|[udsalelarge](udsalelarge.md)  |User-defined fields |
+|[udsalesmall](udsalesmall.md)  |User-defined fields |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+|[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+
 
 ## Replication Flags
 

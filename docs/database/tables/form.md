@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "form"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # form Table (478)
+
+A form which can be published on a webpage and submitted by visitors
 
 ## Fields
 
@@ -43,6 +45,8 @@ so.envir:
 
 ![form table relationship diagram](./media/form.png)
 
+[!include[details](./includes/form.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -51,6 +55,18 @@ so.envir:
 |script\_id |FK |Index |
 |response\_shipment\_id |FK |Index |
 |form\_key |String(32) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ejscript](ejscript.md)  |ejscript |
+|[form\_submission](form-submission.md)  |A form submission |
+|[s\_picture\_folder](s-picture-folder.md)  |This table contains all picture folders |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

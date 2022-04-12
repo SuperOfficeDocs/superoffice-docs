@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StakeholderRoleGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # StakeholderRoleGroupLink Table (123)
+
+User group link table for StakeholderRole, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |stakeholderrolegrouplink\_id |PK |Clustered, Unique |
 |stakeholderrole\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[StakeholderRole](stakeholderrole.md)  |Role a stakeholder has in a sale |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

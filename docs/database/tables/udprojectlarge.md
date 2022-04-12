@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udprojectLarge"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udprojectLarge Table (143)
+
+User-defined fields. During conversion of user defined fields the data is stored in this table.
 
 ## Fields
 
@@ -44,6 +46,13 @@ so.envir:
 |string42 |String(199) |Index |
 |string43 |String(199) |Index |
 |string44 |String(199) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[project](project.md)  |Projects |
+
 
 ## Replication Flags
 

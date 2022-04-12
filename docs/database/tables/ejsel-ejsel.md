@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_ejsel"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejsel\_ejsel Table (392)
+
+This table defines sources for complex selections in a many/many relationship
 
 ## Fields
 
@@ -39,6 +41,13 @@ so.envir:
 |child |FK |Index |
 |operation |Int |Index |
 |order\_pos |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
+
 
 ## Replication Flags
 

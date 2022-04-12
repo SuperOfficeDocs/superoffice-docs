@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ConnectionConfigField"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ConnectionConfigField Table (421)
+
+Configuration data for Erp and Quote Connections
 
 ## Fields
 
@@ -42,6 +44,15 @@ so.envir:
 |connectionconfigfield\_id |PK |Clustered, Unique |
 |ErpConnectionId |FK |Index |
 |QuoteConnectionId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
+|[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
+
 
 ## Replication Flags
 

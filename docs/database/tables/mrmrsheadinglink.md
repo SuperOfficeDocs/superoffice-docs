@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MrMrsHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # MrMrsHeadingLink Table (96)
+
+Heading link table for MrMrs, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |mrmrsheadinglink\_id |PK |Clustered, Unique |
 |mrmrs\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[MrMrs](mrmrs.md)  |MrMrs list table. List of salutations. |
+
 
 ## Replication Flags
 

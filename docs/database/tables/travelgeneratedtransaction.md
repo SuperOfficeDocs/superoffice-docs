@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "travelgeneratedtransaction"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # travelgeneratedtransaction Table (30)
+
+Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother)
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |travelgeneratedtransaction\_id |PK |Clustered, Unique |
 |travel\_id |Id |Index |
 |transmissionnumber, travel\_id |UInt, Id |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[traveltransactionlog](traveltransactionlog.md)  |Log of all updates made to the database, that need to be replicated. |
+
 
 ## Replication Flags
 

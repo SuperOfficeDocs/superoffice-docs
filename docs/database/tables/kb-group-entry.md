@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_group_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_group\_entry Table (287)
+
+This table contains group entries for FAQ groups.
 
 ## Fields
 
@@ -36,6 +38,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |kb\_group\_id |FK |Index |
 |kb\_entry\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+|[kb\_group](kb-group.md)  |This table contains FAQ groups. A group is a cluster of entries (potentially located anywhere in the FAQ hierarchy). A group is located in a certain category. |
+
 
 ## Replication Flags
 

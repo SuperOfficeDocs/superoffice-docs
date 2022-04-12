@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AmountClass"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,6 +49,17 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 |name |String(239) |Unique |
 |amountFrom |Double |Index |
 |amountTo |Double |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[AmountClassGroupLink](amountclassgrouplink.md)  |User group link table for AmountClass, for MDO item hiding |
+|[AmountClassHeadingLink](amountclassheadinglink.md)  |Heading link table for AmountClass, for MDO headers |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[CounterValue](countervalue.md)  |Visible for rights |
+|[Currency](currency.md)  |Currency list table |
+
 
 ## Replication Flags
 

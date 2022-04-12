@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AudienceLayoutLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # AudienceLayoutLink Table (235)
+
+Link between an audience layout and some target grouping table - might be Role or Category
 
 ## Fields
 
@@ -42,6 +44,14 @@ so.envir:
 |AudienceLayoutLink\_id |PK |Clustered, Unique |
 |audienceLayoutId |FK |Index |
 |targetTable, targetRecord |TableNumber, RecordId |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[AudienceLayout](audiencelayout.md)  |One layout (of webparts and other stuff) for an audience instance |
+
 
 ## Replication Flags
 

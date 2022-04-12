@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CountryHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # CountryHeadingLink Table (21)
+
+Heading link table for Country, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |countryheadinglink\_id |PK |Clustered, Unique |
 |country\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[country](country.md)  |Country information |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_link_customer_statical"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_link\_customer\_statical Table (338)
+
+A connection between a customer and a link. Registered customers are identified when clicking on a link
 
 ## Fields
 
@@ -42,6 +44,16 @@ so.envir:
 |link\_id |FK |Index |
 |shipment\_id |FK |Index |
 |link\_type |Enum |Index |
+|shipment\_id, email |FK, String(255) |Index |
+|link\_type, shipment\_id |Enum, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductVersion"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ProductVersion Table (240)
+
+Version information for code modules. Owner + code module must be unique
 
 ## Fields
 
@@ -42,6 +44,13 @@ so.envir:
 |--------|-------|-------------|
 |ProductVersion\_id |PK |Clustered, Unique |
 |ownerName, codeName, version |String(254), String(254), String(254) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

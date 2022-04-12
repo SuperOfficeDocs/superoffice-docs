@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "WebAppUsage"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # WebAppUsage Table (249)
+
+Usage statistics for web applications
 
 ## Fields
 
@@ -38,6 +40,13 @@ so.envir:
 |--------|-------|-------------|
 |WebAppUsage\_id |PK |Clustered, Unique |
 |viewState, timestamp, assocId |String(254), DateTime, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

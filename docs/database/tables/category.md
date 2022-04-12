@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Category"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -45,6 +45,18 @@ Category list table
 |--------|-------|-------------|
 |Category\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[CategoryFamily](categoryfamily.md)  |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos; |
+|[CategoryGroupLink](categorygrouplink.md)  |User group link table for Category, for MDO item hiding |
+|[CategoryHeadingLink](categoryheadinglink.md)  |Heading link table for Category, for MDO headers |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

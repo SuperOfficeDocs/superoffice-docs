@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "static_list_ref"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # static\_list\_ref Table (396)
+
+This table stores id references for selections id lists
 
 ## Fields
 

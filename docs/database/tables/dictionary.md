@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dictionary"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dictionary Table (358)
+
+User added dictionary words
 
 ## Fields
 
@@ -39,6 +41,14 @@ so.envir:
 |user\_id |FK |Index |
 |include |Int |Index |
 |word |String(32) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dictionary\_base](dictionary-base.md)  |Language catalog for the ejournal dictionaries (automatic proof reading of message text etc) |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

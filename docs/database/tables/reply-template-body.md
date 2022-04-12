@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "reply_template_body"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # reply\_template\_body Table (279)
+
+Contains the body of the reply templates in different languages
 
 ## Fields
 
@@ -41,6 +43,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |reply\_template\_id |FK |Index |
 |language\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+
 
 ## Replication Flags
 

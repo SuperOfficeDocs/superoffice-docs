@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "travelidmapping"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # travelidmapping Table (43)
+
+Mapping of primary keys between Travel databases and the mother database  All travel database transactions get a high id to be able to see that this entry came from a database outside the central database. When update files are read into the central database, they get a normal low id. This table remembers the high travel id to map it to the low central id as long as this travel user is travelling.
 
 ## Fields
 
@@ -44,6 +46,13 @@ so.envir:
 |travelidmapping\_id |PK |Clustered, Unique |
 |local\_id |Id |Index |
 |associate\_id, table\_number, parent\_id |FK, TableNumber, Id |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

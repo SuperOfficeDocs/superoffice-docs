@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "notify"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # notify Table (301)
+
+This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.
 
 ## Fields
 
@@ -31,6 +33,7 @@ so.envir:
 |chat\_nick\_name|Chat customer nick name in this notification|String(255)|&#x25CF;|
 |ticket\_alert\_id|Ticket alert used when tickets are escalated|FK [ticket_alert](ticket-alert.md)|&#x25CF;|
 |custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
+|custom\_url|An URL which can be set with custom notification messages|String(2048)|&#x25CF;|
 
 
 ![notify table relationship diagram](./media/notify.png)
@@ -49,6 +52,17 @@ so.envir:
 |category\_id |FK |Index |
 |chat\_topic\_id |FK |Index |
 |ticket\_alert\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
+
 
 ## Replication Flags
 

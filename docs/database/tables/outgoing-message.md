@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "outgoing_message"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # outgoing\_message Table (407)
+
+Delivery of outgoing messages to messageplugins, updated with status asynchroneously
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |external\_message\_id |String(255) |Index |
 |registered\_associate\_id |FK |Index |
 |updated\_associate\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
+
 
 ## Replication Flags
 

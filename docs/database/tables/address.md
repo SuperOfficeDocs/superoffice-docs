@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "address"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # address Table (7)
+
+Contact and Person addresses
 
 ## Fields
 
@@ -52,6 +54,15 @@ so.envir:
 |zipcode |String(11) |Index |
 |state |String(5) |Index |
 |owner\_id, atype\_idx |Id, Enum |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Favourite"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Favourite Table (455)
+
+Favourite records (star-marking)
 
 ## Fields
 
@@ -39,6 +41,13 @@ so.envir:
 |--------|-------|-------------|
 |Favourite\_id |PK |Clustered, Unique |
 |record\_id, associate\_id, table\_id |RecordId, FK, TableNumber |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

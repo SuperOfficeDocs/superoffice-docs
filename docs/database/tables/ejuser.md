@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejuser"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejuser Table (299)
+
+This table contains entries for the users of the system.
 
 ## Fields
 
@@ -91,6 +93,48 @@ so.envir:
 |picture\_id |FK |Index |
 |default\_status\_new\_ticket |FK |Index |
 |default\_status\_add\_message |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[category\_membership](category-membership.md)  |This table connects users to categories (many-to-many). |
+|[chat\_message](chat-message.md)  |This table contains messages in a chat session. |
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[chat\_topic\_user](chat-topic-user.md)  |This table connected the chat topics with the users (i.e. the membership). |
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[dictionary](dictionary.md)  |User added dictionary words |
+|[doc\_document](doc-document.md)  |This table contains documents. |
+|[doc\_folder](doc-folder.md)  |A document folder. |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[ejpackage](ejpackage.md)  |This table stores packages on the system. |
+|[ejsel\_meta\_result](ejsel-meta-result.md)  |This table stores result meta data |
+|[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
+|[element\_profile](element-profile.md)  |The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link |
+|[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[hotlist](hotlist.md)  |The table is used by the hotlist to store the relationship between tickets and users |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[kb\_category\_log](kb-category-log.md)  |Who and when, if somebody edits a knowledge base folder |
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+|[kb\_entry\_log](kb-entry-log.md)  |Who and when, if somebody edits a knowledge base entry |
+|[kb\_workflow\_access](kb-workflow-access.md)  |Control of who can do what in a knowledge base workflow step |
+|[login](login.md)  |This table contains entries for the user sessions.  |
+|[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
+|[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
+|[profile](profile.md)  |Deprecated. This table contains entries for the user profiles. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+|[role\_member](role-member.md)  |Users linked to a role. Deprecated. |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
+|[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
+|[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
+|[user\_attribute](user-attribute.md)  |This table is used for storing various attributes for users. |
+
 
 ## Replication Flags
 

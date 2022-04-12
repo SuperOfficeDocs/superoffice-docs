@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ReporterListDef"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ReporterListDef Table (170)
+
+Reporter definitions
 
 ## Fields
 
@@ -43,6 +45,15 @@ so.envir:
 |oleViewId |FK |Index |
 |oleFieldKey |FK |Index |
 |oleFieldName |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[OLEField](olefield.md)  |Control data table for the OLE DB Provider |
+|[OLEView](oleview.md)  |Control data table for the OLE DB Provider |
+
 
 ## Replication Flags
 

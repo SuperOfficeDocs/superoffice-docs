@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "attachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # attachment Table (296)
+
+This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table.
 
 ## Fields
 
@@ -45,6 +47,24 @@ so.envir:
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment\_location](attachment-location.md)  |A location for storing attachments |
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[doc\_document](doc-document.md)  |This table contains documents. |
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[ejpackage](ejpackage.md)  |This table stores packages on the system. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
+|[kb\_attachment](kb-attachment.md)  |This table connects FAQ entries to attachments. |
+|[reply\_template\_attachment](reply-template-attachment.md)  |This table is used to connect attachments to reply templates (many-to-many). |
+|[s\_attachment](s-attachment.md)  |A connector between a message and attachments. One message can contain many attachments. |
+|[s\_picture\_entry](s-picture-entry.md)  |This table describes each picture in the database |
+|[ticket\_attachment](ticket-attachment.md)  |This table connects an attachment to a message. It references the entry in the attachment table, and the message. |
+
 
 ## Replication Flags
 

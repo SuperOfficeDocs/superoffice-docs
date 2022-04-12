@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "company_domain"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # company\_domain Table (303)
+
+This table contains web-domains associated with a certain cust_company entry.
 
 ## Fields
 
@@ -35,6 +37,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |company\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+
 
 ## Replication Flags
 

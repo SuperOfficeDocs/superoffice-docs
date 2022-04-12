@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RejectReasonGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # RejectReasonGroupLink Table (223)
+
+User group link table for Comptr, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |rejectreasongrouplink\_id |PK |Clustered, Unique |
 |rejectreason\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[RejectReason](rejectreason.md)  |Rejection reason (suggested) for bookings |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

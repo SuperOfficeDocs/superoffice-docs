@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejpackage_item"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejpackage\_item Table (385)
+
+This table stores info on installed packages in the system
 
 ## Fields
 
@@ -41,6 +43,14 @@ so.envir:
 |domain |Int |Index |
 |item\_id |Int |Index |
 |parent\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejpackage](ejpackage.md)  |This table stores packages on the system. |
+|[ejpackage\_item](ejpackage-item.md)  |This table stores info on installed packages in the system |
+
 
 ## Replication Flags
 

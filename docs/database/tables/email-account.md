@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "email_account"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # email\_account Table (480)
+
+Email account information
 
 ## Fields
 
@@ -47,6 +49,16 @@ so.envir:
 |email\_account\_id |PK |Clustered, Unique |
 |email\_address |String(255) |Unique |
 |associate\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[email\_folder](email-folder.md)  |Corresponds to an email folder on a mail server |
+|[email\_item](email-item.md)  |Email data |
+|[service\_auth](service-auth.md)  |Authentication for a service (imap, smtp...) |
+
 
 ## Replication Flags
 

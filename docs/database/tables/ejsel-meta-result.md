@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_meta_result"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejsel\_meta\_result Table (397)
+
+This table stores result meta data
 
 ## Fields
 
@@ -37,6 +39,15 @@ so.envir:
 |ejselection |FK |Index |
 |owner |FK |Index |
 |created\_at |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejsel\_result\_set](ejsel-result-set.md)  |This table stores result set reference data, result sets for selections |
+|[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

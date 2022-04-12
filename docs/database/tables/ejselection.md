@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejselection"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejselection Table (391)
+
+This table stores selections, dynamic groups.
 
 ## Fields
 
@@ -48,6 +50,17 @@ so.envir:
 |source\_type |Int |Index |
 |source\_id |Int |Index |
 |creator |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejsel\_ejsel](ejsel-ejsel.md)  |This table defines sources for complex selections in a many/many relationship |
+|[ejsel\_meta\_result](ejsel-meta-result.md)  |This table stores result meta data |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+
 
 ## Replication Flags
 

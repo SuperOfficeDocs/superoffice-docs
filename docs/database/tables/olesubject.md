@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLESubject"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # OLESubject Table (161)
+
+Control data table for the OLE DB Provider
 
 ## Fields
 
@@ -37,6 +39,17 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |OLESubject\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[OLEFieldText](olefieldtext.md)  |Control data table for the OLE DB Provider |
+|[OLESubjectText](olesubjecttext.md)  |Control data table for the OLE DB Provider |
+|[OLEView](oleview.md)  |Control data table for the OLE DB Provider |
+|[OLEViewText](oleviewtext.md)  |Control data table for the OLE DB Provider |
+
 
 ## Replication Flags
 

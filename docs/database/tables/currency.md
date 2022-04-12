@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Currency"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,6 +47,21 @@ Currency list table
 |--------|-------|-------------|
 |Currency\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[country](country.md)  |Country information |
+|[CurrencyGroupLink](currencygrouplink.md)  |User group link table for Currency, for MDO item hiding |
+|[CurrencyHeadingLink](currencyheadinglink.md)  |Heading link table for Currency, for MDO headers |
+|[PriceList](pricelist.md)  |List of prices, cached from an ERP system |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
+
 
 ## Replication Flags
 

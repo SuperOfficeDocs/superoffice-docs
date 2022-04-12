@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ext_datasource"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ext\_datasource Table (317)
+
+This table contains external datasources, used for databaseintegration of customers and companies.
 
 ## Fields
 
@@ -52,6 +54,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ext\_table](ext-table.md)  |This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration. |
+
 
 ## Replication Flags
 

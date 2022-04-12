@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OwnerContactLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # OwnerContactLink Table (167)
+
+Table specifying which contacts can own associates.  All contacts that have rows in this table (i.e. rows with contact_id pointing to them) will be offered as associate owners in the maintenance client and as candidate Satellite owners. Such contacts have restrictions on editing and deletion to protect database consistency.
 
 ## Fields
 
@@ -39,6 +41,14 @@ so.envir:
 |--------|-------|-------------|
 |OwnerContactLink\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+
 
 ## Replication Flags
 

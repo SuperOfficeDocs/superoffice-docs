@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "WinPosSize"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # WinPosSize Table (208)
+
+Stores the position and size of each window, so they can be shown in the same place again
 
 ## Fields
 
@@ -46,6 +48,13 @@ so.envir:
 |--------|-------|-------------|
 |WinPosSize\_id |PK |Clustered, Unique |
 |assoc\_id, owner |FK, String(254) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

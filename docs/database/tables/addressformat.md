@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AddressFormat"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # AddressFormat Table (57)
+
+Address formats for GUI and labels. See more information; Addressformat on http;//techdoc.superoffice.com
 
 ## Fields
 
@@ -92,6 +94,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |addressformat\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

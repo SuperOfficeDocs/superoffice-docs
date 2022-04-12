@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ImportField"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ImportField Table (187)
+
+Import object types - see localetext for names
 
 ## Fields
 
@@ -42,6 +44,14 @@ so.envir:
 |--------|-------|-------------|
 |ImportField\_id |PK |Clustered, Unique |
 |ImportObject\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ImportObject](importobject.md)  |Import object types - see localetext for names. |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LanguageInfoCountry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # LanguageInfoCountry Table (211)
+
+Many-many link between countries and languages, to give intelligent choices for language
 
 ## Fields
 
@@ -43,6 +45,15 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |LanguageInfoCountry\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[country](country.md)  |Country information |
+|[LanguageInfo](languageinfo.md)  |Information about languages, from ISO standards and related information |
+
 
 ## Replication Flags
 

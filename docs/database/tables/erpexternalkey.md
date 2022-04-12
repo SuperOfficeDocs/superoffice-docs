@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpExternalKey"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpExternalKey Table (423)
+
+The external (ERP-facing) key related to a synchronized record / connection
 
 ## Fields
 
@@ -44,6 +46,16 @@ so.envir:
 |ErpConnectionId, ErpInternalKeyId |FK, FK |Unique |
 |ErpConnectionId, ActorType, ErpKey |FK, Enum, String(254) |Unique |
 |ErpInternalKeyId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
+|[ErpInternalKey](erpinternalkey.md)  |The internal (superoffice-facing) key related to a synchronized record |
+|[ErpSyncLog](erpsynclog.md)  |Record all field changes done by the Erp Sync |
+
 
 ## Replication Flags
 

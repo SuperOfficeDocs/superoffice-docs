@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "hotlist"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # hotlist Table (363)
+
+The table is used by the hotlist to store the relationship between tickets and users
 
 ## Fields
 
@@ -35,6 +37,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |ticket\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 

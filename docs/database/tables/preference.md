@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "preference"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # preference Table (22)
+
+Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp.
 
 ## Fields
 
@@ -39,6 +41,13 @@ so.envir:
 |--------|-------|-------------|
 |preference\_id |PK |Clustered, Unique |
 |type, preference\_id |ShortId, PK |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

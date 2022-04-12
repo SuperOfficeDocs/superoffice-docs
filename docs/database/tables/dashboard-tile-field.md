@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_tile_field"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dashboard\_tile\_field Table (477)
+
+Describes the contents of a tile field
 
 ## Fields
 
@@ -31,12 +33,22 @@ so.envir:
 
 ![dashboard_tile_field table relationship diagram](./media/dashboard_tile_field.png)
 
+[!include[details](./includes/dashboard-tile-field.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |dashboard\_tile\_field\_id |PK |Clustered, Unique |
 |dashboard\_tile\_definition\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[dashboard\_tile\_definition](dashboard-tile-definition.md)  |Describes the contents of a tile |
+
 
 ## Replication Flags
 

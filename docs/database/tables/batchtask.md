@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BatchTask"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # BatchTask Table (243)
+
+Batch task request details, corresponding to the message body of a batch request message
 
 ## Fields
 
@@ -51,6 +53,14 @@ so.envir:
 |BatchTask\_id |PK |Clustered, Unique |
 |state |Int |Index |
 |BatchTaskDefinition\_id, state |FK, Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[BatchTaskDefinition](batchtaskdefinition.md)  |Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute |
+
 
 ## Replication Flags
 

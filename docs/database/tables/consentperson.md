@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ConsentPerson"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ConsentPerson Table (467)
+
+Link table that defines who has which consents
 
 ## Fields
 
@@ -34,6 +36,8 @@ so.envir:
 
 ![ConsentPerson table relationship diagram](./media/ConsentPerson.png)
 
+[!include[details](./includes/consentperson.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -42,6 +46,17 @@ so.envir:
 |legalBase\_id |FK |Index |
 |consentSource\_id |FK |Index |
 |person\_id, consentPurpose\_id |FK, FK |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConsentPurpose](consentpurpose.md)  |GDPR purpose alternatives |
+|[ConsentSource](consentsource.md)  |Consent source for GDPR |
+|[LegalBase](legalbase.md)  |Legal base for GDPR (Article 6) |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udprojectSmall"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udprojectSmall Table (142)
+
+User-defined fields
 
 ## Fields
 
@@ -153,6 +155,13 @@ so.envir:
 |double02 |Double |Index |
 |double03 |Double |Index |
 |double04 |Double |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[project](project.md)  |Projects |
+
 
 ## Replication Flags
 

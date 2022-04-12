@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udcontactSmall"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udcontactSmall Table (35)
+
+User-defined fields for contact
 
 ## Fields
 
@@ -153,6 +155,13 @@ so.envir:
 |double02 |Double |Index |
 |double03 |Double |Index |
 |double04 |Double |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+
 
 ## Replication Flags
 

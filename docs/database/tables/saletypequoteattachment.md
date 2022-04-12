@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeQuoteAttachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaleTypeQuoteAttachment Table (446)
+
+Default attachments to quotes linked to sales of this type
 
 ## Fields
 
@@ -39,6 +41,15 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |saletypequoteattachment\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
+|[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
+
 
 ## Replication Flags
 

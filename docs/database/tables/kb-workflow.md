@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_workflow"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_workflow Table (292)
+
+Knowledge base workflow steps
 
 ## Fields
 
@@ -36,6 +38,16 @@ so.envir:
 |id |PK |Clustered, Unique |
 |next |FK |Index |
 |previous |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+|[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
+|[kb\_workflow\_access](kb-workflow-access.md)  |Control of who can do what in a knowledge base workflow step |
+|[role\_workflow](role-workflow.md)  |Knowledge base workflow access rights associated with a role |
+
 
 ## Replication Flags
 

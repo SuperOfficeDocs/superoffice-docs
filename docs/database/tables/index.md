@@ -5,7 +5,7 @@ description: Lists all tables in the database.
 so.generated: true
 keywords:
   - "database"
-so.date: 11.04.2021
+so.date: 12.04.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,7 +33,7 @@ so.envir:
 | [associate](associate.md) |Employees, resources and other users - except for External persons| 2 |
 | [AssociateGroupLink](associategrouplink.md) |User group link table for Associate, for MDO item hiding| 3 |
 | [AssociateHeadingLink](associateheadinglink.md) |Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists. | 4 |
-| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database| 494 |
+| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database| 502 |
 | [attachment](attachment.md) |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table.| 296 |
 | [attachment\_location](attachment-location.md) |A location for storing attachments| 471 |
 | [AudienceConfig](audienceconfig.md) |Configuration data for Audience core and webparts| 236 |
@@ -49,7 +49,7 @@ so.envir:
 | [Business](business.md) |Business list table| 61 |
 | [BusinessGroupLink](businessgrouplink.md) |User group link table for Business, for MDO item hiding| 62 |
 | [BusinessHeadingLink](businessheadinglink.md) |Heading link table for Business, for MDO headers| 63 |
-| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches| 495 |
+| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches| 503 |
 | [CacheTables](cachetables.md) |Specifies which tables should be cached to local files (or otherwise), generally these are the lists and other low-frequency-of-change tables. Contains the ID of any tables cached in SOCache. The files are binary and called &lt;tablename&gt;.bin.  &lt;Shift&gt;+&lt;F5&gt; throws all cache files. | 148 |
 | [Category](category.md) |Category list table| 64 |
 | [category\_membership](category-membership.md) |This table connects users to categories (many-to-many).| 270 |
@@ -372,8 +372,8 @@ so.envir:
 | [s\_washing](s-washing.md) |Register of all bounced mail to enabel washing| 341 |
 | [s\_washing\_list](s-washing-list.md) |Unused table that is ment to be used for active washing in spm v2| 343 |
 | [SaintConfiguration](saintconfiguration.md) |Configuration information for the Saint system| 458 |
-| [sale](sale.md) |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the previous version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  | 13 |
-| [SaleHist](salehist.md) |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the previous record of the sale is moved here. | 157 |
+| [sale](sale.md) |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  | 13 |
+| [SaleHist](salehist.md) |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here. | 157 |
 | [SaleStakeholder](salestakeholder.md) |Stakeholders in the sale, very similar to project members| 121 |
 | [SaleType](saletype.md) |Type of sale - large solution, incremental, whatever fits the organization| 149 |
 | [SaleTypeCat](saletypecat.md) |Category for sale type| 118 |
@@ -445,6 +445,13 @@ so.envir:
 | [Tags](tags.md) |MDO List of tags for Service entities| 459 |
 | [TagsGroupLink](tagsgrouplink.md) |User group link table for Tags, for MDO item hiding| 460 |
 | [TagsHeadingLink](tagsheadinglink.md) |Heading link table for Source, for MDO headers| 461 |
+| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values| 495 |
+| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.| 496 |
+| [target\_change](target-change.md) |A single field change.| 499 |
+| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets| 493 |
+| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.| 494 |
+| [target\_revision](target-revision.md) |One batch of changes made to targets| 498 |
+| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted| 497 |
 | [Task](task.md) |Task list table, activity types, like Phone, Meeting| 67 |
 | [TaskGroupLink](taskgrouplink.md) |User group link table for Task, for MDO item hiding| 68 |
 | [TaskHeadingLink](taskheadinglink.md) |Heading link table for Task, for MDO headers| 69 |
@@ -509,7 +516,8 @@ so.envir:
 | [UserRoleLink](userrolelink.md) |Link between user role and user| 192 |
 | [VisibleFor](visiblefor.md) |Visible for rights, who may see this appointment/document, sale,  salehist or selection| 196 |
 | [WebAppUsage](webappusage.md) |Usage statistics for web applications| 249 |
-| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.| 493 |
+| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.| 500 |
+| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.| 501 |
 | [WinPosSize](winpossize.md) |Stores the position and size of each window, so they can be shown in the same place again| 208 |
 | [word\_relations](word-relations.md) |This table shows which word are used in which FAQ entry, and how many times            they are used in each| 355 |
 | [wsdl\_description](wsdl-description.md) |Soap wsdl files| 357 |

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "cust_lang"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # cust\_lang Table (320)
+
+This table contains entries for customer languages.
 
 ## Fields
 
@@ -41,6 +43,20 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |kb\_root |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[cust\_category](cust-category.md)  |This table contains entries for categories exposed through a customer language. |
+|[cust\_config](cust-config.md)  |This table contains JSON structures used for customizing the customer center |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[reply\_template\_body](reply-template-body.md)  |Contains the body of the reply templates in different languages |
+
 
 ## Replication Flags
 

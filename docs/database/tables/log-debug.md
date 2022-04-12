@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "log_debug"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # log\_debug Table (365)
+
+A log used for debugging, especially useful for bLogic/ejscript
 
 ## Fields
 

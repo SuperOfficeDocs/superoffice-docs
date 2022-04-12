@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dashboard Table (473)
+
+Describes a dashboard
 
 ## Fields
 
@@ -41,6 +43,8 @@ so.envir:
 
 ![dashboard table relationship diagram](./media/dashboard.png)
 
+[!include[details](./includes/dashboard.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -48,11 +52,21 @@ so.envir:
 |dashboard\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[dashboard\_theme](dashboard-theme.md)  |A set of style rules for the Dashboard |
+|[dashboard\_tile](dashboard-tile.md)  |Represents one tile in the dashboard |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
+
 ## Replication Flags
 
 * None
 
 ## Security Flags
 
-* No access control via user's Role.
+* Sentry controls access to items in this table using user's Role and data rights matrix.
 

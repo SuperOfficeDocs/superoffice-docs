@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "doc_document"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # doc\_document Table (280)
+
+This table contains documents.
 
 ## Fields
 
@@ -47,6 +49,15 @@ so.envir:
 |title |String(255) |Index |
 |created\_by |FK |Index |
 |changed\_by |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[doc\_folder](doc-folder.md)  |A document folder. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

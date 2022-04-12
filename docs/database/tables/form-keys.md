@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "form_keys"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # form\_keys Table (366)
+
+Keys that makes sure a form is not posted twice
 
 ## Fields
 

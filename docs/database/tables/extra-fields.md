@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_fields"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # extra\_fields Table (304)
+
+This table contains entries for the extra fields in the system.
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |extra\_table |FK |Index |
 |target\_extra\_table |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
+|[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
+
 
 ## Replication Flags
 

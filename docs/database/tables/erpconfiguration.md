@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpConfiguration"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpConfiguration Table (449)
+
+Global settings for the Erp Integration Server
 
 ## Fields
 
@@ -39,6 +41,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |erpconfiguration\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

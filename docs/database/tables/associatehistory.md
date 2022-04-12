@@ -6,14 +6,16 @@ so.generated: true
 keywords:
   - "database"
   - "AssociateHistory"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# AssociateHistory Table (494)
+# AssociateHistory Table (502)
+
+Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database
 
 ## Fields
 
@@ -38,11 +40,20 @@ so.envir:
 
 ![AssociateHistory table relationship diagram](./media/AssociateHistory.png)
 
+[!include[details](./includes/associatehistory.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |associatehistory\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

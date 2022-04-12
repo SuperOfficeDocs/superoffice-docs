@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Message"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Message Table (242)
+
+Definition of a message, corresponding to the header of a protocol
 
 ## Fields
 
@@ -46,6 +48,15 @@ so.envir:
 |sourceHandler |FK |Index |
 |targetHandler |FK |Index |
 |motherId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
+|[MessageHandler](messagehandler.md)  |Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale |
+
 
 ## Replication Flags
 

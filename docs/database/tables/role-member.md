@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "role_member"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # role\_member Table (324)
+
+Users linked to a role. Deprecated.
 
 ## Fields
 
@@ -35,6 +37,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |role |FK |Index |
 |ejuser |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

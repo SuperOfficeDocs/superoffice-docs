@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sms_hysteria"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # sms\_hysteria Table (367)
+
+Avoid sending too many sms messages in a short time interval to one person
 
 ## Fields
 

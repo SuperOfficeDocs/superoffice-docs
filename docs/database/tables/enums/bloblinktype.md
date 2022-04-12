@@ -5,7 +5,7 @@ description: Lists the enum values for BlobLinkType.
 so.generated: true
 keywords:
   - "database"
-so.date: 11.02.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ The link type
 |ChatTopicImage|15|Chat topic image|
 |FormsBackgroundImage|16|Forms background image|
 |ContactImage|17|Contact logo image|
+|DashboardHtmlTileData|18|HTML data for dashboard tiles|
 
 ## Usage
 

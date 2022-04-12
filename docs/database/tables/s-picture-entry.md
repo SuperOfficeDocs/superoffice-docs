@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_picture_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_picture\_entry Table (340)
+
+This table describes each picture in the database
 
 ## Fields
 
@@ -43,6 +45,14 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+
 
 ## Replication Flags
 

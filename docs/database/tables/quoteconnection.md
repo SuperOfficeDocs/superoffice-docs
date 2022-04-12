@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteConnection"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # QuoteConnection Table (26)
+
+Primary key in the CRM database. Definition of a connection to an external system, for the Quote system.
 
 ## Fields
 
@@ -45,6 +47,18 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |quoteconnection\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConnectionConfigField](connectionconfigfield.md)  |Configuration data for Erp and Quote Connections |
+|[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
+|[PriceList](pricelist.md)  |List of prices, cached from an ERP system |
+|[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
+|[QuoteConnectionAccess](quoteconnectionaccess.md)  |Access control for Quote Connections |
+
 
 ## Replication Flags
 

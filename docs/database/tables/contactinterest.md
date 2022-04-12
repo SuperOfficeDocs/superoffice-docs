@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "contactinterest"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # contactinterest Table (14)
+
+Link-table between contact and interests in ContInt
 
 ## Fields
 
@@ -46,6 +48,15 @@ so.envir:
 |endDate |DateTime |Index |
 |contact\_id, cinterest\_idx |FK, FK |Unique |
 |contact\_id |FK |Clustered |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
+
 
 ## Replication Flags
 

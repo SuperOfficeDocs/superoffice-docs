@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_shipment_addr"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_shipment\_addr Table (347)
+
+Addresses that are ready to be sent in a shipment.
 
 ## Fields
 
@@ -52,6 +54,18 @@ so.envir:
 |customer\_id |FK |Index |
 |ticket\_id |FK |Index |
 |contact\_id |FK |Index |
+|status, shipment\_id |Enum, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[form\_submission](form-submission.md)  |A form submission |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 
