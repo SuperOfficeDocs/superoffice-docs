@@ -60,7 +60,7 @@ Returns **true** if the editor has been set up as a plain-text editor.
 
 ### getFieldValue("attachments")
 
-Returns the id's of attachment's added to the editor when `hasAttachments` is **true**, when multiple attachments have been added, the attachment id's are separated with a ','
+When `hasAttachments` is **true**, returns  a comma-delimited string of attachment id's. Example: "25" or "23,24,25".
 
 ### setValue(String field)
 
