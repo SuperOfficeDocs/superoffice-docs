@@ -1,0 +1,18 @@
+items:
+- name: Developer portal
+  href: index.yml
+  expanded: true
+  items:
+  - name: Overview
+    href: overview.md
+  - name: Reference
+    href: reference/index.md
+    items:
+    - name: Application settings
+      href: reference/app-settings.md
+    - name: Application configuration
+      href: reference/app-config.md
+    - name: Company settings
+      href: reference/company-settings.md
+    - name: User settings
+      href: reference/user-settings.md
