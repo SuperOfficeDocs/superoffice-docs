@@ -13,8 +13,28 @@ so.client:
 
 # User settings
 
+> [!NOTE]
+> Information pulled from SuperID can't be changed in the developer portal.
+
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
+| Avatar | Small circular image. | | |
+| Display name | First and last name of the person. | | |
+| Email | The email address of the person, if set. | | |
+| Phone | The phone number of the person, if set.| | |
+| SuperID user name | The user name linked in SuperID | | |
+| SuperID key | | | |
+| Is log-in allowed | Whether this person can sign in to the developer portal. | | |
+
+## Permissions
+
+| Permission | Description |
+|---|---|
+| read | Lets the user navigate and view info in the developer portal. |
+| users | Enables user management. |
+| configuration Enables configuration. | |
+| app store | Lets the user update and access the App Store. |
+| log in | Lets the user sign in to the developer portal. |
 
 ## See also
 
