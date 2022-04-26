@@ -5,6 +5,8 @@ items:
   items:
   - name: Overview
     href: overview.md
+  - name: How to update profile
+    href: update-profile.md
   - name: Reference
     href: reference/index.md
     items:
