@@ -65,6 +65,9 @@ conceptualContent:
     - title: Videos
       summary: ""
       links:
+      - text: Getting started with Sharepoint for documents storage
+        itemType: video
+        url: https://www.youtube.com/watch?v=9QHJKkqDlzY
       - text: Create a document and link it to your project
         itemType: video
         url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
