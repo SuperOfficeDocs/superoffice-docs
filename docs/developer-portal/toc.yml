@@ -7,6 +7,8 @@ items:
     href: overview.md
   - name: How to update profile
     href: update-profile.md
+  - name: How to format text
+    href: format-text.md
   - name: Reference
     href: reference/index.md
     items:
