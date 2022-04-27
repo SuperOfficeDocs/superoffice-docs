@@ -9,6 +9,13 @@ items:
     href: update-profile.md
   - name: How to format text
     href: format-text.md
+  - name: App Store information
+    href: app-store/index.md
+    items:
+    - name: Update company profile
+      href: app-store/update-company-profile.md
+    - name: Update app-specific page
+      href: app-store/update-app-page.md
   - name: Reference
     href: reference/index.md
     items:

@@ -1,15 +1,16 @@
 ---
 title: Get listed
-uid: get_listed_in_appstore
-description: Submit app description (form)
-author: {github-id}
+uid: get-listed-in-appstore
+description: Submit app description
+author: Bergfrid Dias
+so.date: 04.27.2022
 keywords:
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Submit app description (form)
+# Submit app description
 
 You can submit information for the App Store listing anytime during the certification process. We will create your application entry in SOD for your review.
 
@@ -34,14 +35,17 @@ You can submit information for the App Store listing anytime during the certific
 
 **Process:**
 
-1. [Submit an application entry description][3] (form).
-2. Review your listing in the SOD. App Store.
-3. Fix issues if necessary.
+## Submit an application entry description
 
-**Next step:** [publish the application][4].
+<!-- Previous: https://community.superoffice.com/new-application-listing-->
+
+## Verify your changes
+
+1. Review your listing in the SOD. App Store.
+2. Fix issues if necessary.
+
+## Request to publish
 
 <!-- Referenced links -->
 [1]: ../certification/certify-app.md
 [2]: ../requirements/marketing.md
-[3]: https://community.superoffice.com/new-application-listing
-[4]: index.md
