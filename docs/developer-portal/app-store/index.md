@@ -27,11 +27,12 @@ As a partner that offers one or more applications through the [SuperOffice App S
 * List a new application in the App Store
 * Publish a new version of an existing application
 * Add or update images and videos
-* Improve SEO
+* [Improve SEO][4]
 
 <!-- Referenced links -->
 [1]: ../../apps/app-store.md
 [2]: update-company-profile.md
 [3]: update-app-page.md
+[4]: seo.md
 
 <!-- Referenced images -->
