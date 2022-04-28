@@ -16,6 +16,8 @@ items:
       href: app-store/update-company-profile.md
     - name: Update app-specific page
       href: app-store/update-app-page.md
+    - name: Update your application
+      href: manage/update-app.md
     - name: Search engine optimization
       href: app-store/seo.md
   - name: Reference

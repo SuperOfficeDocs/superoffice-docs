@@ -88,8 +88,6 @@ items:
   - name: Manage
     expanded: true
     items:
-    - name: Update app
-      href: manage/update-app.md
     - name: Revoke app
       href: manage/revoke-app.md
   - name: Activate

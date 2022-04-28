@@ -13,7 +13,9 @@ so.client: online
 
 # Update app-specific page
 
-<!-- Previous: https://community.superoffice.com/new-application-listing-->
+<!-- Previous: 
+    https://community.superoffice.com/new-application-listing and
+    https://community.superoffice.com/update-application-listing -->
 
 The information shown on your app-specific product pages in the App Store comes from:
 
