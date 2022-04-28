@@ -1,9 +1,10 @@
 ---
 title: Revoke app
-uid: revoke_app
-description: Revoke access given to an app
-author: {github-id}
-keywords:
+uid: revoke-app
+description: How to revoke access given to an application.
+author: Bergfrid Dias
+so.date: 04.28.2022
+keywords: App Store, revoke, consent
 so.topic: howto
 so.envir: cloud
 so.client: online

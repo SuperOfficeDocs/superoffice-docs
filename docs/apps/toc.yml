@@ -85,11 +85,8 @@ items:
       href: redirects/endpoint-types.md
     - name: Add and update
       href: redirects/add-update.md
-  - name: Manage
-    expanded: true
-    items:
-    - name: Revoke app
-      href: manage/revoke-app.md
+  - name: Revoke
+    href: revoke/index.md
   - name: Activate
     href: activate/index.md
     expanded: true
