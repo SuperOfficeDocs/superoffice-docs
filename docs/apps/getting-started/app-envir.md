@@ -17,7 +17,7 @@ SuperOffice provides 3 environments: development, stage, and production.
 
 ![x -screenshot][img1]
 
-All [standard applications][1] must be prepared to operate in at least 2 environments before being [listed in the public App Store][2].
+All [standard applications][1] must be prepared to operate in at least 2 environments before being listed in the public App Store.
 
 ## SuperOffice Online Development (SOD)
 
@@ -104,7 +104,6 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 
 <!-- Referenced links -->
 [1]: ../standard.md
-[2]: ../publish/get-listed.md
 [3]: ../activate/index.md
 [4]: ../certification/index.md
 [5]: index.md

@@ -104,7 +104,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 [4]: ../redirects/index.md
 [6]: ../certification/certify-app.md
 [7]: ../activate/validate-app.md
-[8]: ../publish/get-listed.md
+[8]: ../publish/index.md
 [9]: ../activate/activate-custom-app.md
 [10]: ../../api/tutorials/native-app-quickstart.md
 [11]: ../../api/tutorials/auth-code-flow-quickstart.md

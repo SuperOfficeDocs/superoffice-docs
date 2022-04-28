@@ -123,12 +123,9 @@ items:
       - name: Watchcom testimonials
         href: certification/watchcom-testimonials.md
   - name: Publish
+    href: publish/index.md
     expanded: true
     items:
-    - name: Get listed
-      href: publish/get-listed.md
-    - name: Publish standard app
-      href: publish/index.md
     - name: Beta period
       href: publish/beta-period.md
     - name: How to get noticed

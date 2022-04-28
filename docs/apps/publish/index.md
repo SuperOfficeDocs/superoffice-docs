@@ -3,6 +3,7 @@ title: Publish app
 uid: publish_standard_app
 description: Publish standard app in CRM Online environment
 author: {github-id}
+so.date:
 keywords:
 so.topic: howto
 so.envir: cloud
@@ -29,6 +30,6 @@ Congratulations, your standard application is ready!
 
 <!-- Referenced links -->
 [1]: ../certification/certify-app.md
-[2]: get-listed.md
+[2]: ../../developer-portal/app-store/update-app-page.md
 [4]: ../provisioning/index.md
 [5]: ../provisioning/consent.md
