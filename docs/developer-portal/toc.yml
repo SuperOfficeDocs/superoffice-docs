@@ -17,7 +17,9 @@ items:
     - name: Update app-specific page
       href: app-store/update-app-page.md
     - name: Update your application
-      href: manage/update-app.md
+      href: app-store/update-app.md
+    - name: Images and videos
+      href: app-store/images-and-videos.md
     - name: Search engine optimization
       href: app-store/seo.md
   - name: Reference

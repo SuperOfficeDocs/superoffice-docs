@@ -17,13 +17,13 @@ so.client:
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Name | The name of the company. | | |
-| SEO-friendly name | For search engines. | | |
+| Name | The name of the company. | [Update settings][9] | |
+| SEO-friendly name | For search engines. | [Improve SEO][10] | |
 | Administrative contact | The main contact person for this company.| | |
 | Technical contact | The IT contact person for this company. | | |
-| Logo | Company logo, circular | | |
+| Logo | Company logo, circular | | [Marketing requirements][5] |
 | Description | The company blurb. | | |
-| Meta description | Description for search engines. | | |
+| Meta description | Description for search engines. | [Improve SEO][10] | |
 | Comment | | | |
 | Home page URL | The website of the company. | | |
 
@@ -37,6 +37,9 @@ so.client:
 [1]: app-settings.md
 [2]: app-config.md
 [4]: user-settings.md
+[5]: ../../apps/requirements/marketing.md
+[9]: ../app-store/update-app-page.md
+[10]: ../app-store/seo.md
 
 <!-- Referenced images -->
 [img1]: ../media/company-settings.png

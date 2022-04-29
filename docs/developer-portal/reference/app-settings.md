@@ -17,8 +17,8 @@ so.client:
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Application name | The human-readable name of the application. | | |
-| SEO-friendly name | For search engines. | | |
+| Application name | The human-readable name of the application. | [Update app info][9] | [Naming requirements][8] |
+| SEO-friendly name | For search engines. | [Improve SEO][10] | |
 | Technical contact | The contact person for this app. | | |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization. | | [About custom apps][6] |
@@ -38,6 +38,9 @@ so.client:
 [5]: ../../apps/provisioning/get-consent.md
 [6]: ../../apps/custom.md
 [7]: ../../apps/publish/beta-period.md
+[8]: ../../apps/requirements/marketing.md#application-name
+[9]: ../app-store/update-app-page.md
+[10]: ../app-store/seo.md
 
 <!-- Referenced images -->
 [img1]: ../media/app-settings.png

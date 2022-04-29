@@ -47,7 +47,7 @@ Before a new application gets listed in the App Store
 * [Update the product page of an application][3]
 * [List a new application in the App Store][7]
 * [Publish a new version of an existing application][8]
-* Add or update images and videos
+* [Add or update images and videos][9]
 * [Improve SEO][4]
 
 <!-- Referenced links -->
@@ -56,6 +56,7 @@ Before a new application gets listed in the App Store
 [6]: ../../apps/requirements/marketing.md
 [7]: ../../apps/publish/index.md
 [8]: update-app.md
+[9]: images-and-videos.md
 [2]: update-company-profile.md
 [3]: update-app-page.md
 [4]: seo.md

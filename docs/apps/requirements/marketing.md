@@ -66,13 +66,7 @@ You must provide a **description** of your application with the following inform
 
 * You must provide **minimum 3 images** for the App Store listing:
 
-**App Store image requirements:**
-
-| Image | Usage | Size<br>(width by height in pixels) |
-|-------|-------|--------|
-| Application tile icon |preview in the main page | 263 x 109 |
-| Small application icon | application detail page | 220 x 216 |
-| Your company logo | vendor page | 220 x 151 |
+[!include[ALT](../includes/app-store-image-req.md)]
 
 * Screenshots from the application (if used) should have descriptive **file names** because they are displayed as captions.
 * If you want screenshots shown in a specific order, add numbering to the file names.
