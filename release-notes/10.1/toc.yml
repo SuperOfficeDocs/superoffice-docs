@@ -6,8 +6,20 @@ items:
   items:
   - name: 10.1.1 update
     href: admin/10.1.1-update.md
+- name: Mobile
+  href: mobile/index.md
+  items:
+  - name: 10.1.9 update
+    href: mobile/10.1.9-update.md
 - name: API
   href: api/index.md
   items:
   - name: 10.1.1 update
     href: api/10.1.1-update.md
+  - name: 10.1.2 update
+    href: api/10.1.2-update.md
+- name: Development Products
+  href: development-products/index.md
+  items:
+  - name: 10.1.2 update
+    href: development-products/10.1.2-update.md
