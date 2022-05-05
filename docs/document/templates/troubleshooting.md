@@ -27,7 +27,7 @@ A new PowerPoint file (.pptx) which contains one text box with the text `{onam}`
 
 This is how it looks in PowerPoint:
 
-![x][1]
+![x -screenshot][img1]
 
 This is the content of the xml file for slide 1: (Observe that `{onam}` should be recognized by us)
 
@@ -114,7 +114,7 @@ If this happens, it is most probably another case of generated xml that messes u
 * Search for the template variable in question and observe if it has its start and end tags intact.
 * If you can still see the non-working template variable with its tags intact, it could be a bug in our side.
 
-### Internal structures:**
+### Internal structures:
 
 This is how a PowerPoint .**pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
 
