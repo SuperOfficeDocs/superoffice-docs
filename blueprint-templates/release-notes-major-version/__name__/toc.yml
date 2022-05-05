@@ -42,7 +42,7 @@ items:
   - name: 10.0.1 update
     href: api/10.0.1-update.md
 - name: Developer Products
-  href: developer-products/index.md
+  href: development-products/index.md
   items:
   - name: 10.0.1 update
-    href: developer-products/10.0.1-update.md
+    href: development-products/10.0.1-update.md
