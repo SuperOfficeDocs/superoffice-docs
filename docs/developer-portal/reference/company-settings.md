@@ -19,9 +19,9 @@ so.client:
 |---|---|---|---|
 | Name | The name of the company. | [Update settings][9] | |
 | SEO-friendly name | For search engines. | [Improve SEO][10] | |
-| Administrative contact | The main contact person for this company.| | |
-| Technical contact | The IT contact person for this company. | | |
-| Logo | Company logo, circular | | [Marketing requirements][5] |
+| Administrative contact | The main contact person for this company.| [Update contact person][3] | |
+| Technical contact | The IT contact person for this company. | [Update contact person][3] | |
+| Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
 | Description | The company blurb. | | |
 | Meta description | Description for search engines. | [Improve SEO][10] | |
 | Comment | | | |
@@ -36,6 +36,7 @@ so.client:
 <!-- Referenced links -->
 [1]: app-settings.md
 [2]: app-config.md
+[3]: ../company/update-contact-person.md
 [4]: user-settings.md
 [5]: ../../apps/requirements/marketing.md
 [9]: ../app-store/update-app-page.md
