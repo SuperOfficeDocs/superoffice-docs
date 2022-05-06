@@ -18,6 +18,11 @@ items:
       href: company/update-contact-person.md
   - name: Create a new app (registration)
     href: create-app/index.md
+  - name: Manage apps
+    href: manage-app/index.md
+    items:
+    - name: View customers
+      href: manage-app/customers.md
   - name: App Store information
     href: app-store/index.md
     items:
