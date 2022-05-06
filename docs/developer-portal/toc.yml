@@ -16,6 +16,8 @@ items:
       href: company/update-partner-settings.md
     - name: Update contact person
       href: company/update-contact-person.md
+  - name: Create a new app (registration)
+    href: create-app/index.md
   - name: App Store information
     href: app-store/index.md
     items:

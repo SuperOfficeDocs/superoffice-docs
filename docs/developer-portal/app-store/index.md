@@ -45,6 +45,7 @@ Before a new application gets listed in the App Store
 
 * [Update the public company profile][2]
 * [Update the product page of an application][3]
+* View when a version was published in each environment
 * [List a new application in the App Store][7]
 * [Publish a new version of an existing application][8]
 * [Add or update images and videos][9]

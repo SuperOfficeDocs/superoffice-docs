@@ -22,13 +22,14 @@ As a partner that offers one or more applications through the [SuperOffice App S
 
 * [Add or update partner settings][2]
 * [Change contact persons][3]
-* View when a version was published in each environment
 * Manage permissions within the organization
 * Add users
-* Register new app
+* [Register new app][4]
 
 <!-- Referenced links -->
 [1]: ../../apps/app-store.md
 [2]: update-partner-settings.md
 [3]: update-contact-person.md
+[4]: ../create-app/index.md
+
 <!-- Referenced images -->
