@@ -269,8 +269,7 @@ Not all agents are available in SuperOffice CRM Online. Access must be requested
 
 ## Required web service license
 
-Access to the web services is included in your [Developer Tools][4] subscription.
-
+Access to the web services is included in your [Development Tools][4] subscription.
 
 <!-- Referenced links -->
 [1]: ../entities/index.md

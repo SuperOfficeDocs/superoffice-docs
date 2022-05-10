@@ -5,7 +5,7 @@ description: Expander Services
 author: {github-id}
 so.date: 10.21.2021
 so.topic: concept
-keywords: expander services, license, developer tools
+keywords: expander services, license, development tools
 ---
 
 # Expander Services

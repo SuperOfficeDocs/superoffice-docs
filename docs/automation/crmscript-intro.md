@@ -54,7 +54,7 @@ if(orgNr.isEmpty()) {
 
 ## How do I get started?
 
-* Subscribe to [Developer Tools][1] (site-wide license).
+* Subscribe to [Development Tools][1] (site-wide license).
 * Your SuperOffice user must have administrator permissions.
 * [Study the fundamentals of CRMScript][2].
 
